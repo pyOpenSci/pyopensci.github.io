@@ -17,4 +17,4 @@ Here are some links to our resources and related sites:
 
 * [**pyOpenSci cookiecutter**](https://cookiecutter-pyopensci.readthedocs.io/en/latest/): We created a cookiecutter template to make packaging your python code easier. The cookiecutter follows all our guidelines from our [packaging guide](https://www.pyopensci.org/dev_guide/packaging/packaging_guide.html).
 
-* [**rOpenSci**]: We draw inspiration from rOpenSci, a community to help promote, teach, and grow best-practices in software development for the Scientific R stack. They have a wonderful array of resources for R, such as their [collection of scientific R packages](https://ropensci.org/packages/). If you use R, we encourage you to get involved with them.
+* [**rOpenSci**](https://ropensci.org/): We draw inspiration from rOpenSci, a community to help promote, teach, and grow best-practices in software development for the Scientific R stack. They have a wonderful array of resources for R, such as their [collection of scientific R packages](https://ropensci.org/packages/). If you use R, we encourage you to get involved with them.
