@@ -1,8 +1,8 @@
 # main links
 main:
-  - title: "Home"
-    url: 
+
   - title: "About"
-    url: 
+    url: /about/
+
   - title: "Resources"
-    url:
+    url: /resources/
