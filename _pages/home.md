@@ -17,4 +17,6 @@ header:
           url: "https://github.com/pyOpenSci"
 ---
 
-We are a community aiming to promote open and reproducible science via peer-review of scientific Python packages and education about programming best-practices. Read more on our [About](/about/) page or take a look at our [Resources](/resources/). 
+Our community promotes open and reproducible science via peer-review of
+scientific Python packages and education about programming best-practices.
+[Learn more about us](/about/) or take a look at our [Resources](/resources/). 
