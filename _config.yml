@@ -142,7 +142,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: github.com/pyOpenSci
+      url: https://github.com/pyOpenSci
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
