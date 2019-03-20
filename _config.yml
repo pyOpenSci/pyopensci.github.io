@@ -24,7 +24,7 @@ url                      : "https://www.pyopensci.org/" # the base hostname & pr
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "pyopensci/pyopensci.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/images/logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -142,7 +142,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: github.com/pyOpenSci
+      url: https://github.com/pyOpenSci
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
