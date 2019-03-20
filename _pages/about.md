@@ -19,5 +19,5 @@ encourage you to check them out!
 
 ## Get in Touch
 If you have any questions or would like get involved in building pyOpenSci,
-we'd love to hear from you. You can email us at [earthlab@colorado.edu](mailto:earthlab@colorado.edu), or create an issue in
+we'd love to hear from you. You can email us at [earth.lab@colorado.edu](mailto:earth.lab@colorado.edu), or create an issue in
 our [Governance repo](https://github.com/pyOpenSci/governance).
