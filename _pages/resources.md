@@ -11,6 +11,8 @@ Here are some links to our resources and related sites:
 
 * [**pyOpenSci Github Organization**](https://github.com/pyOpenSci): Contains our [software-review](https://github.com/pyOpenSci/software-review) repo that hosts the peer-review process. Also contains our guidebook, cookiecutter, and governance repos (see below).
 
+* [**pyOpenSci Discourse Forum**](https://pyopensci.discourse.group/): Our community forum for discussing all things pyOpenSci. Have feedback or ideas about the review process? Need help finishing or maintaining your Python package? Have a question about how to use one of pyOpenSci’s packages? Our forum is the best place for these types of discussion. 
+
 * [**pyOpenSci Guidebook**](https://www.pyopensci.org/dev_guide/intro): Contains information for package authors and reviewers, including our [package guide](https://www.pyopensci.org/dev_guide/packaging/packaging_guide.html), our [peer review process](https://www.pyopensci.org/dev_guide/peer_review/peer_review_proc.html), and tips for [package maintenance](https://www.pyopensci.org/dev_guide/maintenance/maintenance_intro.html). If you are interested in submitting a package to pyOpenSci, start with our [author guide](https://www.pyopensci.org/dev_guide/peer_review/author_guide.html) and the links within it.
 
 * [**pyOpenSci's Governance Repo**](https://github.com/pyOpenSci/governance): Where we discuss the direction and scope of pyOpenSci. We're a community organization, so please feel free to create an [issue](https://github.com/pyOpenSci/governance/issues) if you have any questions or concerns!
