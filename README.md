@@ -1,5 +1,5 @@
 # pyopensci.github.io
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
 
 This is the website for pyOpenSci. Contributions welcome!!
 
@@ -12,6 +12,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="http://chrisholdgraf.com"><img src="https://avatars1.githubusercontent.com/u/1839645?v=4" width="100px;" alt="Chris Holdgraf"/><br /><sub><b>Chris Holdgraf</b></sub></a><br /><a href="#ideas-choldgraf" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/pyOpenSci/pyopensci.github.io/commits?author=choldgraf" title="Code">💻</a></td>
+    <td align="center"><a href="http://www.leahwasser.com"><img src="https://avatars0.githubusercontent.com/u/7649194?v=4" width="100px;" alt="Leah Wasser"/><br /><sub><b>Leah Wasser</b></sub></a><br /><a href="#ideas-lwasser" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/pyOpenSci/pyopensci.github.io/commits?author=lwasser" title="Code">💻</a></td>
   </tr>
 </table>
 
