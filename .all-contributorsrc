@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "choldgraf",
+      "name": "Chris Holdgraf",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1839645?v=4",
+      "profile": "http://chrisholdgraf.com",
+      "contributions": [
+        "ideas",
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "pyopensci.github.io",
+  "projectOwner": "pyOpenSci",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}
