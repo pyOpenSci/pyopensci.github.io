@@ -4,38 +4,36 @@
   ],
   "imageSize": 100,
   "commit": false,
-  "contributors": [
-    {
-      "login": "choldgraf",
-      "name": "Chris Holdgraf",
-      "avatar_url": "https://avatars1.githubusercontent.com/u/1839645?v=4",
-      "profile": "http://chrisholdgraf.com",
-      "contributions": [
-        "ideas",
-        "code"
-      ]
+  "types": {
+    "editor": {
+      "symbol": "📝",
+      "description": "Shepherds reviews and works with new submissions.",
     },
-    {
-      "login": "lwasser",
-      "name": "Leah Wasser",
-      "avatar_url": "https://avatars0.githubusercontent.com/u/7649194?v=4",
-      "profile": "http://www.leahwasser.com",
-      "contributions": [
-        "ideas",
-        "code"
-      ]
+    "leadership": {
+      "symbol": "🧭",
+      "description": "Provides high-level direction for the project.",
     },
-    {
-      "login": "luizirber",
-      "name": "Luiz Irber",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/6642?v=4",
-      "profile": "https://luizirber.org",
-      "contributions": [
-        "ideas",
-        "code"
-      ]
-    }
-  ],
+    "reviewer": {
+      "symbol": "👀",
+      "description": "Helps submissions improve their projects.",
+    },
+    "advisory": {
+      "symbol": "💭",
+      "description": "Provides ideas and advice.",
+    },
+    "businessDevelopment": {
+      "symbol": "💰",
+      "description": "Helps the project find and attain funding.",
+    },
+    "community": {
+      "symbol": "🤝",
+      "description": "Helps grow the community.",
+    },
+    "packageMaintainer": {
+      "symbol": "📦",
+      "description": "Has had a package accepted in the review process.",
+    },
+  },
   "contributorsPerLine": 7,
   "projectName": "pyopensci.github.io",
   "projectOwner": "pyOpenSci",
