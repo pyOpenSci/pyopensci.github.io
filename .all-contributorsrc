@@ -4,37 +4,44 @@
   ],
   "imageSize": 100,
   "commit": false,
+  "contributorsPerLine": 7,
   "types": {
     "editor": {
       "symbol": "📝",
       "description": "Shepherds reviews and works with new submissions.",
+      "link": "[<%= symbol %>](<%= url %> \"<%= description %>\"),"
     },
     "leadership": {
       "symbol": "🧭",
       "description": "Provides high-level direction for the project.",
+      "link": "[<%= symbol %>](<%= url %> \"<%= description %>\"),"
     },
     "reviewer": {
       "symbol": "👀",
       "description": "Helps submissions improve their projects.",
+      "link": "[<%= symbol %>](<%= url %> \"<%= description %>\"),"
     },
     "advisory": {
       "symbol": "💭",
       "description": "Provides ideas and advice.",
+      "link": "[<%= symbol %>](<%= url %> \"<%= description %>\"),"
     },
     "businessDevelopment": {
       "symbol": "💰",
       "description": "Helps the project find and attain funding.",
+      "link": "[<%= symbol %>](<%= url %> \"<%= description %>\"),"
     },
     "community": {
       "symbol": "🤝",
       "description": "Helps grow the community.",
+      "link": "[<%= symbol %>](<%= url %> \"<%= description %>\"),"
     },
     "packageMaintainer": {
       "symbol": "📦",
       "description": "Has had a package accepted in the review process.",
-    },
+      "link": "[<%= symbol %>](<%= url %> \"<%= description %>\"),"
+    }
   },
-  "contributorsPerLine": 7,
   "projectName": "pyopensci.github.io",
   "projectOwner": "pyOpenSci",
   "repoType": "github",
