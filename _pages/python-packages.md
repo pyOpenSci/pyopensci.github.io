@@ -16,7 +16,8 @@ as pyOpenSci packages!
 ### Here is what a list would look like:
 <div>
 {% for apackage in site.packages %}
-    <h2><a href="{{ apackage.github-link }}" target="_blank"> {{ apackage.package-name }}  {{ apackage.maintainer }}</a></h2>
+    <h2><a href="{{ apackage.github-link }}" target="_blank"> {{ apackage.package-name }} </a></h2>
+     <p>MAINTAINER: {{ apackage.maintainer }}</p>
   <p>{{ apackage.description | markdownify }}</p>
 {% endfor %}
 </div>
@@ -28,9 +29,6 @@ as pyOpenSci packages!
 <div class="entries-grid">
 
 {% for apackage in site.packages %}
-  <h2>{{ apackage.package-name }} - {{ apackage.maintainer }}</h2>
-  <p>{{ staff_member.content | markdownify }}</p>
-
   <div class="grid__item">
     <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
 
@@ -45,7 +43,7 @@ as pyOpenSci packages!
   </a>
       </h2>
 
-      <p class="archive__item-excerpt" itemprop="description">Maintainer: {{ apackage.package-name }} {{ apackage.description }}
+      <p class="archive__item-excerpt" itemprop="description">Maintainer: {{ apackage.maintainer }} {{ apackage.description }}
   </p>
     </article>
   </div>
