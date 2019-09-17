@@ -45,7 +45,7 @@ as pyOpenSci packages!
   </a>
       </h2>
 
-      <p class="archive__item-excerpt" itemprop="description">Maintainer: {{ apackage.package-name }} {{ apackage.description }}Baz Boom design system including logo mark, website design, and branding applications.
+      <p class="archive__item-excerpt" itemprop="description">Maintainer: {{ apackage.package-name }} {{ apackage.description }}
   </p>
     </article>
   </div>

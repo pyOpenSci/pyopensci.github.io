@@ -6,3 +6,5 @@ main:
 
   - title: "Resources"
     url: /resources/
+  - title: "Our Packages"
+    url: /python-packages/
