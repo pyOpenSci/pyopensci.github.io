@@ -242,6 +242,11 @@ whitelist:
   - jemoji
   - jekyll-include-cache
 
+collections:
+  packages:
+    output: true
+    permalink: /:collection/:path/
+
 
 # Archives
 #  Type
@@ -283,6 +288,15 @@ compress_html:
 # Defaults
 defaults:
   # _posts
+  - scope:
+      path: ""
+      type: packages
+    values:
+      layout: single
+      author_profile: true
+      comments: # true
+      share: true
+      related: true
   - scope:
       path: ""
       type: posts
