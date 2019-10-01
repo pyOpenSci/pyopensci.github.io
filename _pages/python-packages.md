@@ -2,7 +2,7 @@
 layout: single
 permalink: /python-packages/
 title: "pyOpenSci Accepted Packages and Under Review Packages"
-classes: wide
+classes:
 header:
     overlay_image: images/header.jpg
     overlay_filter: 0.6
@@ -11,9 +11,8 @@ header:
 
 ## PyOpenSci Accepted Packages
 The package below have already been through our review process and are accepted
-as pyOpenSci packages!
+as pyOpenSci packages.
 
-### Here is what a list would look like:
 <div>
 {% for apackage in site.packages %}
     <h2><a href="{{ apackage.github-link }}" target="_blank"> {{ apackage.package-name }} </a></h2>
@@ -22,36 +21,7 @@ as pyOpenSci packages!
 {% endfor %}
 </div>
 
-*********
-
-### AND here is what a grid could look like. this could look better as our list grows!!
-
-<div class="entries-grid">
-
-{% for apackage in site.packages %}
-  <div class="grid__item">
-    <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
-
-        <!-- do we really want images? it looks nicer that is for sure
-        i was thinking it would be nicer to have a grid that expands over time rather than a list but am option to options-->
-        <!--<div class="archive__item-teaser">
-          <img src="/minimal-mistakes/assets/images/unsplash-gallery-image-1-th.jpg" alt="">
-        </div>-->
-
-      <h2 class="archive__item-title" itemprop="headline">
-          <a href="{{ apackage.github-link }}" rel="permalink"> {{ apackage.package-name }}
-  </a>
-      </h2>
-
-      <p class="archive__item-excerpt" itemprop="description">Maintainer: {{ apackage.maintainer }} {{ apackage.description }}
-  </p>
-    </article>
-  </div>
-
-{% endfor %}
-
-</div>
-
-
 <br clear="both">
 ## PyOpenSci Packages In Review
+
+Check out our <a href="https://github.com/pyOpenSci/software-review/issues" target="_blank">Packages Current Under review in the issues portion of our software-review github repo to see our current community submissions.</a> Anyone is welcome to submit a package to pyopensci.
