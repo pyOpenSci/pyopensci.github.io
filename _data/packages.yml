@@ -1,0 +1,8 @@
+- package-name: nbless
+  description: 'Construct, deconstruct, convert, execute, and prepare slides from Jupyter notebooks.'
+  maintainer: ["Martin Skarzynski"]
+  link: "https://github.com/py4ds/nbless"
+- package-name: pandera
+  description: 'Validate the types, properties, and statistics of pandas data structures'
+  maintainer: ["Niels Bantilan"]
+  link: "https://github.com/cosmicBboy/pandera"

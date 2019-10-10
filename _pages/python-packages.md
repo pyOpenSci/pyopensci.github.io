@@ -20,9 +20,9 @@ The package below have already been through our review process and are accepted
 as pyOpenSci packages.
 
 <div>
-{% for apackage in site.packages %}
+{% for apackage in site.data.packages %}
     <h2><a href="{{ apackage.github-link }}" target="_blank"> {{ apackage.package-name }} </a></h2>
-     <p>MAINTAINER: {{ apackage.maintainer }}</p>
+     <p class="contrib_org">MAINTAINER: {{ apackage.maintainer }}</p>
   <p>{{ apackage.description | markdownify }}</p>
 {% endfor %}
 </div>
