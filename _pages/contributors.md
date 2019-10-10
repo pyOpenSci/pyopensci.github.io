@@ -27,12 +27,13 @@ of today!
            <img src="https://avatars1.githubusercontent.com/u/{{ aperson.github_image_id }}?s=200&v=4" alt="">
          </div>
        {% endif %}
-     <h2 class="archive__item-title" itemprop="headline">
+     <h4 class="archive__item-title" itemprop="headline">
          <a href="https://www.github.com/{{ aperson.github_username }}" rel="permalink"> {{ aperson.name }}
  </a>
-     </h2>
-     <p class="archive__item-excerpt" itemprop="description"> {{ aperson.bio }}
- </p>
+     </h4>
+     <p class="contrib_org" itemprop="organization"> {{ aperson.organization }} </p>
+     <!--<p class="archive__item-excerpt" itemprop="description"> {{ aperson.bio }} </p>-->
+
    </article>
  </div>
 {% endfor %}
