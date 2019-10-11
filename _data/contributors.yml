@@ -1,0 +1,20 @@
+- name: Leah Wasser
+  bio: 'Bio Here'
+  organization: "Earth Lab, University of Colorado - Boulder"
+  github_username: lwasser
+  github_image_id: 7649194 # You can find this by right clicking on the image in your bio, and copying the link. the last part contains a 7 digit number that is your avatar image!
+  contributor_type:
+    - leadership
+    - Editor
+    - package-maintainer
+  packages: [""]
+- name: Chris Holdgraf
+  bio: 'Bio Here'
+  organization: "Berkeley Bids, Project Jupyter, Binder"
+  github_username: choldgraf
+  github_image_id: 1839645
+  contributor_type:
+    - leadership
+    - Editor
+    - package-maintainer
+  packages: [""]

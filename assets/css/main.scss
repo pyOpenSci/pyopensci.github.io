@@ -1,0 +1,15 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+body {font-size:90%}
+
+.contrib_org {font-weight:normal;
+  font-size:70%!important;
+  margin-bottom: 0!important;
+
+}
+
+@charset "utf-8";
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
