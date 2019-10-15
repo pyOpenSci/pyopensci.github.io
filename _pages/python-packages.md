@@ -21,7 +21,7 @@ as pyOpenSci packages.
 
 <div>
 {% for apackage in site.data.packages %}
-    <h2><a href="{{ apackage.github-link }}" target="_blank"> {{ apackage.package-name }} </a></h2>
+    <h2><a href="{{ apackage.link }}" target="_blank"> {{ apackage.package-name }} </a></h2>
      <p class="contrib_org">MAINTAINER: {{ apackage.maintainer }}</p>
   <p>{{ apackage.description | markdownify }}</p>
 {% endfor %}
