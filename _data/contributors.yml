@@ -1,13 +1,15 @@
 - name: Leah Wasser
-  bio: 'Bio Here'
+  bio: 'Director of Earth Analytics Education - Earth Lab'
   organization: "Earth Lab, University of Colorado - Boulder"
   github_username: lwasser
   github_image_id: 7649194 # You can find this by right clicking on the image in your bio, and copying the link. the last part contains a 7 digit number that is your avatar image!
   contributor_type:
     - leadership
-    - Editor
+    - editor
     - package-maintainer
-  packages: [""]
+  packages-editor: ["errdapy", "pandera", "nbless"]  
+  packages-submitted: [""]
+  packages-reviewed: ["pandera"]
 - name: Chris Holdgraf
   bio: 'Bio Here'
   organization: "Berkeley Bids, Project Jupyter, Binder"
@@ -15,9 +17,20 @@
   github_image_id: 1839645
   contributor_type:
     - leadership
-    - Editor
+    - editor
     - package-maintainer
-  packages: [""]
+  packages-submitted: [""]
+  packages-reviewed: ["pandera"]
+- name: Max Joseph
+  bio: 'Data Scientist'
+  organization: "Earth Lab, University of Colorado - Boulder"
+  github_username: mbjoseph
+  github_image_id: 2664564
+  contributor_type:
+    - leadership
+    - reviewer
+  packages-submitted: [""]
+  packages-reviewed: ["pandera"]
 - name: Ivan Ogasawara
   bio: 'SciPy Latin America Ambassador'
   organization: "SciPy Latin America, Ibis-framework"
@@ -25,4 +38,36 @@
   github_image_id: 5209757
   contributor_type:
     - Reviewer
-  packages: [""]
+  packages-submitted: [""]
+  packages-reviewed: ["pandera"]
+- name: Luiz Irber
+  bio: ''
+  organization: "DIB Lab -- UC Davis"
+  github_username: luizirber
+  github_image_id: 6642
+  contributor_type:
+    - editor
+    - leadership
+  packages-submitted: [""]
+  packages-reviewed: [""]
+  packages-editor: ["earthpy"]  
+- name: Paige Bailey
+  bio: ''
+  organization: "Google"
+  github_username: 
+  github_image_id: 
+  contributor_type:
+    - contributor
+  packages-submitted: [""]
+  packages-reviewed: [""]
+  packages-editor: [""]
+- name: Filipe Fernandes
+  bio: ''
+  organization: "IOOS, Conda Forge"
+  github_username: ocefpaf
+  github_image_id: 950575
+  contributor_type:
+    - contributor
+  packages-submitted: ["errdapy"]
+  packages-reviewed: [""]
+  packages-editor: [""] 
