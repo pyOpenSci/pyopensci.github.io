@@ -18,3 +18,11 @@
     - Editor
     - package-maintainer
   packages: [""]
+- name: Ivan Ogasawara
+  bio: 'SciPy Latin America Ambassador'
+  organization: "SciPy Latin America, Ibis-framework"
+  github_username: xmnlab
+  github_image_id: 5209757
+  contributor_type:
+    - Reviewer
+  packages: [""]
