@@ -81,6 +81,6 @@ in order to help authors reach this bar.
 
 pyOpenSci has a close relationship with JOSS, and we see these two communities
 as complementary of one another. **Any package that passes the pyOpenSci review
-process is green-lit in the JOSS process** (with the exception of a few
+process can be fast-tracked through the JOSS review process** (with the exception of a few
 JOSS-specific tasks you may need to perform). We hope that this encourages
 authors to submit to both JOSS and pyOpenSci.
