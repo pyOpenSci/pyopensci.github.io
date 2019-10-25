@@ -78,7 +78,8 @@ We encourage our reviewers to provide more hands-on assistance and
 give more in-depth feedback than is typically required in JOSS. The goal
 of pyOpenSci is to ensure that all of its packages meet a minimum level
 of best practices and standards, and our review processes often take longer
-in order to help authors reach this bar.
+in order to help authors reach this bar. pyOpenSci also accepts some packages 
+that JOSS does not such as API wrappers to access data.
 
 pyOpenSci has a close relationship with JOSS, and we see these two communities
 as complementary of one another. **Any package that passes the pyOpenSci review and is [within scope](https://joss.readthedocs.io/en/latest/submitting.html#submission-requirements) for JOSS
