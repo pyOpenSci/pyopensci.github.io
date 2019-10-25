@@ -7,7 +7,7 @@
     - leadership
     - editor
     - package-maintainer
-  packages-editor: ["errdapy", "pandera", "nbless"] 
+  packages-editor: ["errdapy", "pandera", "nbless"]  
   packages-submitted: [""]
   packages-reviewed: ["pandera"]
 - name: Chris Holdgraf
@@ -50,7 +50,7 @@
     - leadership
   packages-submitted: [""]
   packages-reviewed: [""]
-  packages-editor: ["earthpy"] 
+  packages-editor: ["earthpy"]  
 - name: Paige Bailey
   bio: ''
   organization: "Google"
@@ -70,7 +70,7 @@
     - contributor
   packages-submitted: ["errdapy"]
   packages-reviewed: [""]
-  packages-editor: [""]
+  packages-editor: [""] 
 - name: Jenny Palomino
   bio: 'Faculty and Curriculum Developer for Earth Analytics Education - Earth Lab'
   organization: "Earth Lab, University of Colorado - Boulder"
