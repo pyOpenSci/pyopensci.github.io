@@ -9,3 +9,5 @@ main:
     url: /resources/
   - title: "Our Packages"
     url: /python-packages/
+  - title: "Blog"
+    url: /blog/
