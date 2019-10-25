@@ -10,11 +10,23 @@ header:
 
 ## Who Is Involved with PyOpenSci?
 
+pyOpenSci is a diverse community of people interested in building
+a community of practice around scientific software in Python.
+
 {{ site.data.contributors | size }} people have contributed to pyOpenSci as
 of today!
 
 
+## How can I contribute?
+
+There are many different ways to get involved with pyOpenSci! Contributions
+of all kinds are welcome - big and small, technical and non-technical.
+For a few ideas of how you can get involved, see [the 'get involved' section](home.html#Get-Involved)].
+
+
 ## PyOpenSci Contributors
+
+Below is a relatively up-to-date list of active contributors
 
 <div class="entries-grid">
 {% for aperson in site.data.contributors %}
