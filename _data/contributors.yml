@@ -79,7 +79,7 @@
   contributor_type:
     - leadership
     - reviewer
-    - package-maintainer
+    - contributor
   packages-editor: [""]
   packages-submitted: ["earthpy"]
   packages-reviewed: ["erddapy"]
