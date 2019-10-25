@@ -80,7 +80,7 @@ of best practices and standards, and our review processes often take longer
 in order to help authors reach this bar.
 
 pyOpenSci has a close relationship with JOSS, and we see these two communities
-as complementary of one another. **Any package that passes the pyOpenSci review
+as complementary of one another. **Any package that passes the pyOpenSci review and is [within scope](https://joss.readthedocs.io/en/latest/submitting.html#submission-requirements) for JOSS
 process can be fast-tracked through the JOSS review process** (with the exception of a few
 JOSS-specific tasks you may need to perform). We hope that this encourages
 authors to submit to both JOSS and pyOpenSci.
