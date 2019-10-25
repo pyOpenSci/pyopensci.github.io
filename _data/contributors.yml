@@ -7,7 +7,7 @@
     - leadership
     - editor
     - package-maintainer
-  packages-editor: ["errdapy", "pandera", "nbless"]
+  packages-editor: ["errdapy", "pandera", "nbless"] 
   packages-submitted: [""]
   packages-reviewed: ["pandera"]
 - name: Chris Holdgraf
@@ -50,12 +50,12 @@
     - leadership
   packages-submitted: [""]
   packages-reviewed: [""]
-  packages-editor: ["earthpy"]
+  packages-editor: ["earthpy"] 
 - name: Paige Bailey
   bio: ''
   organization: "Google"
-  github_username:
-  github_image_id:
+  github_username: 
+  github_image_id: 
   contributor_type:
     - contributor
   packages-submitted: [""]
