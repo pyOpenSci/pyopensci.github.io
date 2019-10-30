@@ -66,11 +66,11 @@ in the pyOpenSci community.
 
 The [Journal of Open Source Software](https://joss.theoj.org/) is a community dedicated
 to improving the visibility and quality of scientific software. They do
-so by providing a lightweight review and publishing process so that authors
+so by providing a review and publishing process similar to pyOpenSci so that authors
 of packages can publish their packages with a DOI and citable artifact.
-JOSS reviews are limited in scope and the
+JOSS reviews are [more limited scope](https://joss.readthedocs.io/en/latest/review_criteria.html) compared to pyOpenSci and the
 [submission criteria](https://joss.readthedocs.io/en/latest/review_criteria.html)
-are less stringent than those of pyOpenSci.
+are, in places, less stringent than those of pyOpenSci.
 
 pyOpenSci encourages a more hands-on approach in the review process, and
 focuses more around software best-practices than publishing.
