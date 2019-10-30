@@ -70,7 +70,7 @@ so by providing a review and publishing process similar to pyOpenSci so that aut
 of packages can publish their packages with a DOI and citable artifact.
 JOSS reviews are [more limited scope](https://joss.readthedocs.io/en/latest/review_criteria.html) compared to pyOpenSci and the
 [submission criteria](https://joss.readthedocs.io/en/latest/review_criteria.html)
-are less stringent than those of pyOpenSci.
+are, in places, less stringent than those of pyOpenSci.
 
 pyOpenSci encourages a more hands-on approach in the review process, and
 focuses more around software best-practices than publishing.
