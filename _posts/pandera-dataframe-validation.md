@@ -201,6 +201,6 @@ offers a few more features that you may find useful:
 ## What's Next?
 
 I'm actively developing this project and have some exciting features coming
-up soon, such as [built-in checks](https://github.com/pandera-dev/pandera/issues/74), [first-class Dask support](https://docs.dask.org/en/latest/dataframe.html)
-support, and [yaml schema specification](https://github.com/pandera-dev/pandera/issues/91). If you'd like to contribute to this
+up soon, such as [built-in checks](https://github.com/pandera-dev/pandera/issues/74), [first-class Dask support](https://docs.dask.org/en/latest/dataframe.html),
+and [yaml schema specification](https://github.com/pandera-dev/pandera/issues/91). If you'd like to contribute to this
 project, you're welcome to head on over to the [github repo](https://github.com/pandera-dev/pandera)!
