@@ -25,10 +25,11 @@ manipulation libraries, which, in the Python universe, would be tools like
 dataframe is a data structure and set of abstractions that enables us to
 express potentially complex transformations on data.
 
-One problem that you may have encountered when using these tools is that after
-multiple transformations, it becomes difficult to reason about the contents
-and properties of a dataframe at any given point in, for example, an ETL
-pipeline. This makes the code harder to read, debug and refactor.
+Let's say you're building out an ETL pipeline that cleans raw data into a form
+that can be analyzed or modeled. One problem that you might encounter when
+using these tools is that after multiple transformations, it becomes difficult
+to reason about the contents and properties of a dataframe at any given part of
+the pipeline. This makes the code harder to read, debug and refactor.
 
 In the context of mission-critical analyses or models, it’s vital to ensure the
 quality of the datasets that you're using as inputs to producing key insights
@@ -74,8 +75,7 @@ person_id
 ```
 
 Each row in the dataset is uniquely identified by a `person_id`,
-and each column describes that person's `height_in_cm`s, and `age_category`,
-and `sex`.
+and each column describes that person's `height_in_cm`s and `age_category`.
 
 
 ### Column Presence and Type Checking
@@ -102,18 +102,8 @@ schema(dataset)
 ### Basic Statistical Checks
 
 If you want to make stricter assertions about the empirical properties of the
-dataset, we can supply the `checks` keyword argument to the `pa.Column` or
-`pa.Index` constructors, which can be a `pa.Check` or list of `pa.Check`s.
-A `pa.Check`'s first positional argument is a function with the signature:
-
-```
-pd.Series -> Union[bool, pd.Series[bool]]
-```
-
-Notice that the only constraint to the callable is that it returns a boolean or
-a boolean Series. By design, checks have access to the entire pandas `Series`
-API to make assertions about the properties of a particular column or index.
-
+dataset, we can supply the `checks` keyword argument to the `pa.Column` and
+`pa.Index` constructors with a `pa.Check` or list of `pa.Check`s.
 
 ```python
 schema = pa.DataFrameSchema(
@@ -142,30 +132,48 @@ schema = pa.DataFrameSchema(
     ),
 )
 
-schema(df)
+schema(dataset)
 ```
+
+A `pa.Check` object specifies the exact implementation of how to validate a
+column or index. The first positional argument in its constructor is a callable
+with the signature:
+
+```
+pd.Series -> Union[bool, pd.Series[bool]]
+```
+
+Notice that the only constraint to the callable is that it returns a boolean or
+a boolean Series. By design, checks have access to the entire pandas `Series`
+API to make assertions about the properties of a particular column or index.
+
 
 ### Statistical Hypothesis Tests
 
-What if we wanted to test the hypothesis that older people tend to taller? We
-can achieve this with the `Hypothesis` check:
+What if we wanted to test the hypothesis that older people tend to be taller?
+We can achieve this with the [`Hypothesis`](https://pandera.readthedocs.io/en/latest/hypothesis.html)
+check:
 
 ```python
 schema = pa.DataFrameSchema(
     columns={
         "height_in_cm": pa.Column(
             # perform a one-sided two-sample t-test of
-            # the mean of heights by age category,
+            # the distribution of heights by age category,
             # with an alpha value of 5%
             checks=pa.Hypothesis.two_sample_ttest(
-                sample1="10-20",
-                sample2="20-30",
                 groupby="age_category",
+                sample1="20-30",
                 relationship="greater_than",
+                sample2="10-20",
                 alpha=0.05,
                 equal_var=True,
             )
         ),
+        "age_category": pa.Column(
+            pa.String,
+            checks=pa.Check(lambda s: s.isin(["10-20", "20-30"])),
+        )
     }
 )
 
@@ -173,6 +181,11 @@ schema(dataset)
 ```
 
 ## How Can I Use this Today?
+
+Whether you use this tool in Jupyter notebooks, one-off scripts, ETL
+pipeline code, or unit tests, `pandera` enables you to make your code
+more readable and robust by enforcing the deterministic and statistical
+properties of pandas data structures at runtime.
 
 Hopefully this post has given you a flavor of what `pandera` can do. It
 offers a few more features that you may find useful:
@@ -186,11 +199,6 @@ offers a few more features that you may find useful:
 - [Check input/output decorators](https://pandera.readthedocs.io/en/latest/decorators.html)
 
 ## What's Next?
-
-Whether you use this tool in Jupyter notebooks, one-off scripts, ETL
-pipeline code, or unit tests, `pandera` enables you to make your code
-more readable and robust by enforcing the deterministic and statistical
-properties of pandas data structures at runtime.
 
 I'm actively developing this project and have some exciting features coming
 up soon, such as [built-in checks](https://github.com/pandera-dev/pandera/issues/74), [first-class Dask support](https://docs.dask.org/en/latest/dataframe.html)
