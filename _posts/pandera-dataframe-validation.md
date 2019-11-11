@@ -80,10 +80,8 @@ and each column describes that person's `height_in_cm`s and `age_category`.
 
 ### Column Presence and Type Checking
 
-The most basic type of schema is one that simply checks that particular columns
-exists with particular datatypes. The `schema` object is callable, so you can
-validate the dataset by passing it into the `schema` call. If the dataframe
-passes schema validation, calling `schema` returns the dataframe.
+The most basic type of schema is one that simply checks that specific columns
+exist with specific datatypes.
 
 ```python
 import pandera as pa
@@ -97,6 +95,32 @@ schema = pa.DataFrameSchema(
 )
 
 schema(dataset)
+```
+
+The `schema` object is callable, so you can validate the dataset by passing it
+it in as an argument to the `schema` call. If the dataframe passes schema
+validation, the calling `schema` simply returns the dataframe.
+
+If not, it'll provide useful error messages:
+
+
+```python
+invalid_dataframe = pd.DataFrame({
+    "weight_in_kg": [44, 31, 55, 61, 55, 62],
+    "age_category": ["20-30", "10-20", "10-20", "20-30", "10-20", "20-30"],
+})
+
+schema(invalid_dataframe)
+```
+
+```
+SchemaError: column 'height_in_cm' not in dataframe
+   weight_in_kg age_category
+0            44        20-30
+1            31        10-20
+2            55        10-20
+3            61        20-30
+4            55        10-20
 ```
 
 ### Basic Statistical Checks
@@ -143,9 +167,42 @@ with the signature:
 pd.Series -> Union[bool, pd.Series[bool]]
 ```
 
-Notice that the only constraint to the callable is that it returns a boolean or
-a boolean Series. By design, checks have access to the entire pandas `Series`
-API to make assertions about the properties of a particular column or index.
+Notice that the only constraint to the callable is that takes a `Series` as
+input and returns a boolean or a boolean Series. By design, checks have access
+to the entire pandas `Series` API to make assertions about the properties of a
+particular column or index.
+
+### Indexed Error Messages
+
+In cases where the `pa.Check` returns a boolean `Series`, violations of the
+schema are reported by the index location of failure cases.
+
+```python
+invalid_data = pd.DataFrame(
+    data={
+        "height_in_cm": [91, 105, 87, 87],
+        "age_category": ["10-20", "10-20", "10-20", "10-20"]
+    },
+    index=pd.Series([200, 201, 202, 203], name="person_id")
+)
+
+schema(invalid_data)
+```
+
+```
+pandera.errors.SchemaError: <Schema Column: 'height_in_cm' type=int64> failed element-wise validator 0:
+<lambda>
+failure cases:
+               person_id  count
+failure_case
+87            [202, 203]      2
+91                 [200]      1
+```
+
+The error is reported as a stringified dataframe where the `failure_case` index
+enumerates instances of `height_in_cm` values that failed data validation, the
+`index` column is the index location of the failure case, and `count` displays
+the number of instances of a particular failure case.
 
 
 ### Statistical Hypothesis Tests
@@ -183,9 +240,9 @@ schema(dataset)
 ## How Can I Use this Today?
 
 Whether you use this tool in Jupyter notebooks, one-off scripts, ETL
-pipeline code, or unit tests, `pandera` enables you to make your code
-more readable and robust by enforcing the deterministic and statistical
-properties of pandas data structures at runtime.
+pipeline code, or unit tests, `pandera` enables you to make code more readable
+and robust by enforcing the deterministic and statistical properties of pandas
+data structures at runtime.
 
 Hopefully this post has given you a flavor of what `pandera` can do. It
 offers a few more features that you may find useful:
