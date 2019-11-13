@@ -20,7 +20,7 @@
     - editor
     - package-maintainer
   packages-submitted: [""]
-  packages-reviewed: ["pandera"]
+  packages-reviewed: ["erdapy"]
 - name: Max Joseph
   bio: 'Data Scientist'
   organization: "Earth Lab, University of Colorado - Boulder"
