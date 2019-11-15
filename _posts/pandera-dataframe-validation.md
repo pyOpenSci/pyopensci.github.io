@@ -1,17 +1,20 @@
 ---
 layout: single
-title: "Statistical Data Validation with Pandera"
+title: "Pandera: A Statistical Data Validation Toolkit for Pandas"
 excerpt: "A flexible and expressive toolkit for performing statistical validation checks on pandas data structures."
 author: "Niels Bantilan"
-permalink: /posts/pandera-dataframe-validation
+permalink: /blog/pandera-python-pandas-dataframe-validation
 header:
     overlay_image: images/pandas.jpg
     overlay_filter: 0.6
 categories:
   - blog-post
+  - pandas
+  - data-validation
+  - dataframes
 ---
 
-<span style='font-size: 16px;'>
+<span style='font-size: 15px;'>
     Photo credit:
     <a href="https://www.flickr.com/photos/nationalzoo/5371290900/in/photostream/"
        target="_blank">
@@ -20,30 +23,25 @@ categories:
 
 Modern data engineering and analysis workflows will often involve using data
 manipulation libraries, which, in the Python universe, would be tools like
-[pandas](https://pandas.pydata.org/) and
-[pyspark](https://spark.apache.org/docs/latest/api/python/index.html). The
-dataframe is a data structure and set of abstractions that enables us to
-express potentially complex transformations on data.
+[pandas](https://pandas.pydata.org/). One problem you may have encountered with
+this powerful data manipulation tool is that the dataframe can be an opaque
+object that's hard to reason about in terms of its contents, data types, and
+other properties.
 
-Let's say you're building out an ETL pipeline that cleans raw data into a form
-that can be analyzed or modeled. One problem that you might encounter when
-using these tools is that after multiple transformations, it becomes difficult
-to reason about the contents and properties of a dataframe at any given part of
-the pipeline. This makes the code harder to read, debug and refactor.
+One tool that may help you with is problem is
+[pandera](https://pandera.readthedocs.io/en/latest/index.html), which was
+accepted by pyOpenSci as part of its ecosystem of packages on September 2019.
+Pandera provides a flexible and expressive data validation toolkit that helps
+users make statistical assertions about pandas data structures.
 
-In the context of mission-critical analyses or models, it’s vital to ensure the
-quality of the datasets that you're using as inputs to producing key insights
-or predictions.
-
-
-## Pandera: a Statistical Data Validation Toolkit
+## A Statistical Data Validation Toolkit for Pandas
 
 <img src="https://pandera.readthedocs.io/en/latest/_images/pandera-logo.svg"
 width="250px">
 
-[Pandera](https://pandera.readthedocs.io/en/latest/index.html) provides a
-flexible and expressive data validation toolkit that helps data scientists and
-machine learning engineers make assertions about pandas data structures.
+Let's say you're analyzing some data for some insights in the context of a
+mission-critical project, where it’s vital to ensure the quality of the
+datasets that you're looking at.
 
 ## Use Cases
 
@@ -99,7 +97,7 @@ schema(dataset)
 
 The `schema` object is callable, so you can validate the dataset by passing it
 it in as an argument to the `schema` call. If the dataframe passes schema
-validation, the calling `schema` simply returns the dataframe.
+validation, `schema` simply returns the dataframe.
 
 If not, it'll provide useful error messages:
 
@@ -126,8 +124,11 @@ SchemaError: column 'height_in_cm' not in dataframe
 ### Basic Statistical Checks
 
 If you want to make stricter assertions about the empirical properties of the
-dataset, we can supply the `checks` keyword argument to the `pa.Column` and
-`pa.Index` constructors with a `pa.Check` or list of `pa.Check`s.
+dataset, we can supply the `checks` keyword argument to the
+[`Column`](https://pandera.readthedocs.io/en/latest/dataframe_schemas.html#column-validation)
+and [`Index`](https://pandera.readthedocs.io/en/latest/dataframe_schemas.html#index-validation)
+constructors with a [`Check`](https://pandera.readthedocs.io/en/latest/checks.html#)
+or list of `Check`s.
 
 ```python
 schema = pa.DataFrameSchema(
@@ -159,12 +160,12 @@ schema = pa.DataFrameSchema(
 schema(dataset)
 ```
 
-A `pa.Check` object specifies the exact implementation of how to validate a
+A `Check` object specifies the exact implementation of how to validate a
 column or index. The first positional argument in its constructor is a callable
 with the signature:
 
 ```
-pd.Series -> Union[bool, pd.Series[bool]]
+Callable[ pd.Series, Union[ bool, pd.Series[bool] ] ]
 ```
 
 Notice that the only constraint to the callable is that takes a `Series` as
@@ -174,7 +175,7 @@ particular column or index.
 
 ### Indexed Error Messages
 
-In cases where the `pa.Check` returns a boolean `Series`, violations of the
+In cases where the `Check` returns a boolean `Series`, violations of the
 schema are reported by the index location of failure cases.
 
 ```python
@@ -201,8 +202,8 @@ failure_case
 
 The error is reported as a stringified dataframe where the `failure_case` index
 enumerates instances of `height_in_cm` values that failed data validation, the
-`index` column is the index location of the failure case, and `count` displays
-the number of instances of a particular failure case.
+`person_id` column is the index location of the failure case, and `count`
+column displays the number of instances of a particular failure case.
 
 
 ### Statistical Hypothesis Tests
@@ -237,7 +238,7 @@ schema = pa.DataFrameSchema(
 schema(dataset)
 ```
 
-## How Can I Use this Today?
+## Validate your Pandas Dataframes Today!
 
 Whether you use this tool in Jupyter notebooks, one-off scripts, ETL
 pipeline code, or unit tests, `pandera` enables you to make code more readable
