@@ -39,7 +39,7 @@ users make statistical assertions about pandas data structures.
 <img src="https://pandera.readthedocs.io/en/latest/_images/pandera-logo.svg"
 width="250px">
 
-Let's say you're analyzing some data for some insights in the context of a
+Let's say you're analyzing data for some insights in the context of a
 mission-critical project, where it’s vital to ensure the quality of the
 datasets that you're looking at.
 
