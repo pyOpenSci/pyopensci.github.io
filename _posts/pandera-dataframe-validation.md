@@ -39,14 +39,14 @@ users make statistical assertions about pandas data structures.
 <img src="https://pandera.readthedocs.io/en/latest/_images/pandera-logo.svg"
 width="250px">
 
-Let's say you're analyzing data for some insights in the context of a
-mission-critical project, where it’s vital to ensure the quality of the
-datasets that you're looking at.
+To illustrate `pandera`'s capabilities using a small toy example. Suppose
+you're analyzing data for some insights in the context of a mission-critical
+project, where it’s vital to ensure the quality of the datasets that you're
+looking at.
 
-## Use Cases
+Each row in the dataset is uniquely identified by a `person_id`, and each
+column describes that person's `height_in_cm`s and `age_category`.
 
-To illustrate `pandera`'s capabilities using a small toy example, suppose you
-had the following dataset:
 
 ```python
 import pandas as pd
@@ -72,8 +72,11 @@ person_id
 105                 151        20-30
 ```
 
-Each row in the dataset is uniquely identified by a `person_id`,
-and each column describes that person's `height_in_cm`s and `age_category`.
+You want to ensure that some columns have the correct data type, or that the
+dataset fulfills certain statistical properties. Pandera allows you to validate
+a DataFrame to ensure that these conditions are met. It allows you to spend
+less time worrying about the correctness of a DataFrame's data so you can make
+the right assumptions in analyzing it.
 
 
 ### Column Presence and Type Checking
