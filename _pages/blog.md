@@ -7,6 +7,7 @@ author_profile: true
 
 ## pyOpenSci Blog
 
+{% comment %}
 {% include base_path %}
 {% include group-by-array collection=site.posts field="categories" %}
 
@@ -16,4 +17,11 @@ author_profile: true
   {% for post in posts %}
     {% include archive-single.html %}
   {% endfor %}
+{% endfor %}
+{% endcomment %}
+
+{% include base_path %}
+
+{% for post in site.posts %}
+  {% include archive-single.html %}
 {% endfor %}
