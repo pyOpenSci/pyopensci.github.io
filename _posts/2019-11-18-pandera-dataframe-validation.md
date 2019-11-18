@@ -39,7 +39,7 @@ users make statistical assertions about pandas data structures.
 <img src="https://pandera.readthedocs.io/en/latest/_images/pandera-logo.svg"
 width="250px">
 
-To illustrate `pandera`'s capabilities using a small toy example. Suppose
+To illustrate `pandera`'s capabilities let's use a small toy example. Suppose
 you're analyzing data for some insights in the context of a mission-critical
 project, where it’s vital to ensure the quality of the datasets that you're
 looking at.
@@ -98,7 +98,7 @@ schema = pa.DataFrameSchema(
 schema(dataset)
 ```
 
-The `schema` object is callable, so you can validate the dataset by passing it
+The `schema` object is callable, so you can validate the dataset by passing
 it in as an argument to the `schema` call. If the dataframe passes schema
 validation, `schema` simply returns the dataframe.
 
@@ -244,9 +244,9 @@ schema(dataset)
 ## Validate your Pandas Dataframes Today!
 
 Whether you use this tool in Jupyter notebooks, one-off scripts, ETL
-pipeline code, or unit tests, `pandera` enables you to make code more readable
-and robust by enforcing the deterministic and statistical properties of pandas
-data structures at runtime.
+pipeline code, or unit tests, `pandera` enables you to make pandas code more
+readable and robust by enforcing the deterministic and statistical properties
+of pandas data structures at runtime.
 
 Hopefully this post has given you a flavor of what `pandera` can do. It
 offers a few more features that you may find useful:
