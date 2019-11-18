@@ -7,19 +7,13 @@ permalink: /blog/pandera-python-pandas-dataframe-validation
 header:
     overlay_image: images/pandas.jpg
     overlay_filter: 0.6
+    caption: "Photo credit: [**Ann Batdorf, Smithsonian's National Zoo**](https://www.flickr.com/photos/nationalzoo/5371290900/in/photostream/)"
 categories:
   - blog-post
   - pandas
   - data-validation
   - dataframes
 ---
-
-<span style='font-size: 15px;'>
-    Photo credit:
-    <a href="https://www.flickr.com/photos/nationalzoo/5371290900/in/photostream/"
-       target="_blank">
-    Ann Batdorf, Smithsonian's National Zoo</a>
-</span>
 
 Modern data engineering and analysis workflows will often involve using data
 manipulation libraries, which, in the Python universe, would be tools like
