@@ -22,7 +22,7 @@ this powerful data manipulation tool is that the dataframe can be an opaque
 object that's hard to reason about in terms of its contents, data types, and
 other properties.
 
-One tool that may help you with is problem is
+One tool that may help you with this problem is
 [pandera](https://pandera.readthedocs.io/en/latest/index.html), which was
 accepted by pyOpenSci as part of its ecosystem of packages on September 2019.
 Pandera provides a flexible and expressive data validation toolkit that helps
