@@ -1,0 +1,14 @@
+Leah Wasser:
+  name        : "Leah Wasser"
+  bio         : "Director of Earth Analytics Education at Earth Lab, CU Boulder."
+  avatar      : "/images/people/leah-wasser-pyopensci-leadership.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:leah.wasser@colorado.edu"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://leahwasser.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/leahawasser"

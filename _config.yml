@@ -108,8 +108,8 @@ analytics:
 author:
   name             : "pyOpenSci"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  bio              : "pyOpenSci promotes open and reproducible research through peer-review of well-documented and tested scientific Python packages."
+  location         : "Global"
   email            :
   links:
     - label: "Email"
