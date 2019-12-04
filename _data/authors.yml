@@ -12,3 +12,17 @@ Leah Wasser:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/leahawasser"
+Niels Bantilan:
+  name        : "Niels Bantilan"
+  bio         : "Data Scientist, Machine Learning Engineer"
+  avatar      : "/images/people/nield-bantilan.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:niels.bantilan@gmail.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "http://cosmicbboy.github.io/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/cosmicbboy"
