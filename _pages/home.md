@@ -22,7 +22,7 @@ scientific Python packages. We also build technical capacity by providing a
 curated repository of high-quality packages and enabling scientists to write
 and share their own software. We hope to foster a greater sense of community
 among scientific Python users so that we can help each other become better
-programmers and researchers. See our [list of Python packages](python-packages.html)
+programmers and researchers. See our [list of Python packages]({% link _pages/python-packages.md %})
 for an idea of the open-source projects that pyOpenSci has assisted.
 
 pyOpenSci is being modeled after the successful [rOpenSci](https://ropensci.org/) community.
@@ -57,7 +57,7 @@ for new meetings there.
 
 ### Who's Involved
 
-See our [contributors page](contributors.html) for a list of the contributors
+See our [contributors page]({% link _pages/contributors.md %}) for a list of the contributors
 in the pyOpenSci community.
 
 ## FAQ
