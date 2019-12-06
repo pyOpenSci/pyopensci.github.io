@@ -26,7 +26,7 @@ I will giving an <a href="https://agu.confex.com/agu/fm19/meetingapp.cgi/Paper/5
 Leonardo Uieda  and Lindsey Heagy.
 
 
-## pyOpenSci Town Hall: Wed Dec 11, 2019 12:30-1:30pm in Moscone West - 2010, L2  
+## pyOpenSci Town Hall: Wed Dec 11, 2019 12:30-1:30pm in Moscone West - 2002  
 
 Please join us for a <a href="https://www.agu.org/Fall-Meeting/Events/Data-TH33F" target="_blank">town hall dedicated to pyOpenSci: Data FAIR: pyOpenSci: Building a Community Around Open Source Python Software for Science</a>.
 We expect a strong presence from the rOpenSci community at this event as well!
