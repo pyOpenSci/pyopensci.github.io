@@ -55,7 +55,7 @@
   bio: ''
   organization: "Google"
   github_username:
-  github_image_id:
+  github_image_id: 3712347
   contributor_type:
     - contributor
   packages-submitted: [""]
@@ -83,3 +83,83 @@
   packages-editor: [""]
   packages-submitted: ["earthpy"]
   packages-reviewed: ["erddapy"]
+- name: Carson Farmer
+  bio: ''
+  organization: "Textileio"
+  github_username:
+  github_image_id: 1220613
+  contributor_type:
+    - contributor
+  packages-submitted: [""]
+  packages-reviewed: [""]
+  packages-editor: [""]
+- name: Joe Hamman
+  bio: ''
+  organization: "NCAR, Pangeo"
+  github_username:
+  github_image_id: 2443309
+  contributor_type:
+    - contributor
+  packages-submitted: [""]
+  packages-reviewed: [""]
+  packages-editor: [""]
+- name: Kylen Solvik
+  bio: ''
+  organization: "CU Boulder"
+  github_username:
+  github_image_id: 24379590
+  contributor_type:
+    - contributor
+  packages-submitted: [""]
+  packages-reviewed: [""]
+  packages-editor: [""]
+- name: Leonardo Uieda
+  bio: ''
+  organization: "University of Liverpool, JOSS"
+  github_username:
+  github_image_id: 290082
+  contributor_type:
+    - contributor
+  packages-submitted: [""]
+  packages-reviewed: [""]
+  packages-editor: [""]
+- name: Martin Skarzynski
+  bio: ''
+  organization: "NCI Biostatistics Branch"
+  github_username:
+  github_image_id: 12806339
+  contributor_type:
+    - contributor
+  packages-submitted: [""]
+  packages-reviewed: [""]
+  packages-editor: [""]
+- name: Mike Trizna
+  bio: ''
+  organization: ""
+  github_username:
+  github_image_id: 472677
+  contributor_type:
+    - contributor
+  packages-submitted: [""]
+  packages-reviewed: [""]
+  packages-editor: [""]
+- name: Neil Chue Hong
+  bio: ''
+  organization: "Software Sustainability Institute"
+  github_username:
+  github_image_id: 1507151
+  contributor_type:
+    - contributor
+  packages-submitted: [""]
+  packages-reviewed: [""]
+  packages-editor: [""]
+- name: Filipe
+  bio: ''
+  organization: "Conda Forge"
+  github_username:
+  github_image_id: 950575
+  contributor_type:
+    - contributor
+  packages-submitted: [""]
+  packages-reviewed: [""]
+  packages-editor: [""]
