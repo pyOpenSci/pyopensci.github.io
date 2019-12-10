@@ -18,7 +18,7 @@
   contributor_type:
     - leadership
     - editor
-    - package-maintainer
+    - reviewer
   packages-submitted: [""]
   packages-reviewed: ["erdapy"]
 - name: Max Joseph
@@ -153,13 +153,64 @@
   packages-submitted: [""]
   packages-reviewed: [""]
   packages-editor: [""]
-- name: Filipe
+- name: Filipe Fernandes
   bio: ''
   organization: "Conda Forge"
-  github_username:
+  github_username: ocefpaf
   github_image_id: 950575
   contributor_type:
     - contributor
   packages-submitted: [""]
   packages-reviewed: [""]
+  packages-editor: [""]
+- name: Niels Bantilan
+  bio: ''
+  organization: ""
+  github_username: cosmicBboy
+  github_image_id: 2816689
+  contributor_type:
+    - contributor
+    - package-maintainer
+  packages-submitted: ["pandera"]
+  packages-reviewed: [""]
+  packages-editor: [""]
+- name: Lindsey Heagy
+  bio: ''
+  organization: ""
+  github_username: lheagy
+  github_image_id: 6361812
+  contributor_type:
+    - contributor
+  packages-submitted: [""]
+  packages-reviewed: [""]
+  packages-editor: [""]
+- name: Sean Gillies
+  bio: ''
+  organization: "Mapbox"
+  github_username: sgillies
+  github_image_id: 33697
+  contributor_type:
+    - reviewer
+  packages-submitted: [""]
+  packages-reviewed: ["earthpy"]
+  packages-editor: [""]
+- name: Rohit Goswami
+  bio: ''
+  organization: "University of Iceland"
+  github_username: HaoZeke
+  github_image_id: 4336207
+  contributor_type:
+    - reviewer
+  packages-submitted: [""]
+  packages-reviewed: ["earthpy"]
+  packages-editor: [""]
+- name: David Nicholson
+  bio: ''
+  organization: ""
+  github_username: NickleDave
+  github_image_id: 11934090
+  contributor_type:
+    - contributor
+  packages-submitted: [""]
+  packages-reviewed: ["earthpy"]
   packages-editor: [""]
