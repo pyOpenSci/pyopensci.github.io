@@ -37,12 +37,13 @@ There are many different ways to get involved with pyOpenSci.
 3. **Submit a package to pyOpenSci**. We are looking for Python packages that
    support scientific Python community. Read more about our
    [review process and scope](https://www.pyopensci.org/dev_guide/peer_review/aims_scope.html)
-4. **Volunteer to be a reviewer for pyOpenSci**. We are looking for people who
+4. <a href="https://forms.gle/wvwLaLQre58YLHpD6" target="_blank">**Volunteer to be a reviewer for pyOpenSci**</a>. We are looking for people who
    can help review software packages as they are submitted.
 5. **Help with technical infrastructure**. pyOpenSci has a few pieces of technical
    infrastructure (like this site) which need maintenance and development.
 6. **Spread the word**! pyOpenSci is a community-driven project. Tell your friends,
    recommend that a colleague submit a package, mention us at conferences, spread the word!
+7. Help us build our online presense! We need help spreading the word to the community using social media. Help us by talking about pyopensci at a meeting and / or  supporting our social media presence. Do you have graphic skills? We will also need a logo at some point!
 
 ### Community meetings
 
@@ -78,7 +79,7 @@ We encourage our reviewers to provide more hands-on assistance and
 give more in-depth feedback than is typically required in JOSS. The goal
 of pyOpenSci is to ensure that all of its packages meet a minimum level
 of best practices and standards, and our review processes often take longer
-in order to help authors reach this bar. pyOpenSci also accepts some packages 
+in order to help authors reach this bar. pyOpenSci also accepts some packages
 that JOSS does not such as API wrappers to access data.
 
 pyOpenSci has a close relationship with JOSS, and we see these two communities

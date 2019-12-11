@@ -12,7 +12,7 @@ categories:
 ---
 
 
-Hey all! This is Leah! I'm a part of the pyOpenSci Leadership team and Director of the Earth Analytics Education Initiative at Earth Lab, University of
+Hey all! I'm a part of the pyOpenSci Leadership team and Director of the Earth Analytics Education Initiative at Earth Lab, University of
 Colorado, Boulder. There are several open source software events that you may
 want to consider if you plan to be at AGU 2019 this year in San Francisco.
 Please join us to learn more about pyOpenSci and to help shape what pyOpenSci
@@ -33,6 +33,15 @@ We expect a strong presence from the rOpenSci community at this event as well!
 pyOpenSci is being modeled after rOpenSci, but focused on the Python
 programming language!
 
+<div class="notice--warning" markdown="1">
+### AGU Event Resources - Sign Up To Be A Reviewer & Townhall Presentation
+
+Here are a few resources shared at the town hall:
+1. The <a href="https://docs.google.com/presentation/d/14UN-AD8p2S8q_gUX1SwvSjT7SCVBGID9kQ74_ZexS9s/edit?usp=sharing" target="_blank">pyopensci ignite talk </a>from the open source ignite session
+2. <a href="https://forms.gle/wvwLaLQre58YLHpD6" target="_blank">Sign up to stay involved with pyopensci using this google form. </a>
+</div>
+
+### Signing Off For Now
 I look forward to meeting you at AGU 2019!! Connect with my on twitter if you have questions at AGU! <a href="https://twitter.com/leahawasser" target="_blank">@leahawasser</a>. I will be tweeting during the event!
 
 ~leah
