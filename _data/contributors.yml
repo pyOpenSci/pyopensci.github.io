@@ -153,16 +153,6 @@
   packages-submitted: [""]
   packages-reviewed: [""]
   packages-editor: [""]
-- name: Filipe Fernandes
-  bio: ''
-  organization: "Conda Forge"
-  github_username: ocefpaf
-  github_image_id: 950575
-  contributor_type:
-    - contributor
-  packages-submitted: [""]
-  packages-reviewed: [""]
-  packages-editor: [""]
 - name: Niels Bantilan
   bio: ''
   organization: ""
