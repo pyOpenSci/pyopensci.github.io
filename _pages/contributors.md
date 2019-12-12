@@ -21,7 +21,7 @@ of today!
 
 There are many different ways to get involved with pyOpenSci! Contributions
 of all kinds are welcome - big and small, technical and non-technical.
-For a few ideas of how you can get involved, see [the 'get involved' section]({% link _pages/home.md %}#get-involved)].
+For a few ideas of how you can get involved, see [the 'get involved' section]({% link _pages/home.md %}#get-involved).
 
 
 ## PyOpenSci Contributors
