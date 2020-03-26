@@ -204,3 +204,14 @@
   packages-submitted: [""]
   packages-reviewed: ["earthpy"]
   packages-editor: [""]
+- name: Anita Graser
+  bio: ''
+  organization: ""
+  github_username: anitagraser
+  github_image_id: 590385
+  contributor_type:
+    - package-maintainer
+  packages-submitted: ["movingpandas"]
+  packages-reviewed: [""]
+  packages-editor: [""]
+  
