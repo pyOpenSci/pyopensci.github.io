@@ -30,7 +30,7 @@ users make statistical assertions about pandas data structures.
 
 ## A Statistical Data Validation Toolkit for Pandas
 
-<img src="https://raw.githubusercontent.com/pandera-dev/pandera/master/docs/source/_static/pandera-logo.svg"
+<img src="https://raw.githubusercontent.com/pandera-dev/pandera/master/docs/source/_static/pandera-logo.png"
 width="250px">
 
 To illustrate `pandera`'s capabilities let's use a small toy example. Suppose
