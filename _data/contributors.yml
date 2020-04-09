@@ -214,4 +214,12 @@
   packages-submitted: ["movingpandas"]
   packages-reviewed: [""]
   packages-editor: [""]
-  
+- name: Martin Fleischmann
+  bio: 'Urban Data Scientist'
+  organization: "University of Strathclyde"
+  github_username: martinfleis
+  github_image_id: 36797143
+  contributor_type:
+    - reviewer
+  packages-submitted: [""]
+  packages-reviewed: ["movingpandas"]
