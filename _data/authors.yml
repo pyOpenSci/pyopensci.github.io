@@ -26,3 +26,17 @@ Niels Bantilan:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/cosmicbboy"
+Anita Graser:
+  name        : "Anita Graser"
+  bio         : "Data Scientist, Spatial Data Analyst, AIT Vienna"
+  avatar      : "/images/people/anita-graser.png"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:anitagraser@gmx.at"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "http://anitagraser.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/underdarkGIS"
