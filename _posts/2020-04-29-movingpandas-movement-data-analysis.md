@@ -48,7 +48,7 @@ MovingPandas provides static plots using Matplotlib and interactive plots using 
 traj.plot()
 ```
 
-<img src="https://raw.githubusercontent.com/pyOpenSci/pyopensci.github.io/master/images/movingpandas/mpd_fig1.PNG">
+![The trajectory is plotted as a blue line on a white background with latitude and longitude values labeled on the axes.]({{ site.url }}/images/movingpandas/mp_fig1.png)
 
 Matplotlib and hvplot parameters are passed along to the underlying libraries to enable extensive customization of plots:
 
@@ -56,7 +56,7 @@ Matplotlib and hvplot parameters are passed along to the underlying libraries to
 traj.hvplot(geo=True, tiles='OSM', line_width=5, frame_width=300, frame_height=300)
 ```
 
-<img src="https://raw.githubusercontent.com/pyOpenSci/pyopensci.github.io/master/images/movingpandas/mpd_fig2.PNG">
+![The trajectory is plotted as a wide blue line on an OpenStreetMap background with latitude and longitude values labeled on the axes.]({{ site.url }}/images/movingpandas/mp_fig2.png)
 
 ### Exploring Movement Characteristics
 
@@ -76,7 +76,7 @@ daily_lengths = pd.DataFrame(daily_lengths, index=daily_t, columns=['length'])
 daily_lengths.hvplot(title='Daily trajectory length')
 ```
 
-<img src="https://raw.githubusercontent.com/pyOpenSci/pyopensci.github.io/master/images/movingpandas/mpd_fig3.PNG">
+![The evolution of the length of the daily trajectories is plotted over the whole obseration period.]({{ site.url }}/images/movingpandas/mp_fig3.png)
 
 In this case, the movement data, which comes from a GPS collar of a horse, reveals that the animal tends to travel farther during summer days than during shorter winter days.  
 
@@ -93,7 +93,7 @@ MovingPandas can focus on its core functionality dealing with challenges that ar
 For example, the close integration with HoloViews makes it possible to create
 [interactive dashboards](http://holoviews.org/user_guide/Dashboards.html) to explore the effect of different trajectory generalization methods:
 
-<img src="https://raw.githubusercontent.com/pyOpenSci/pyopensci.github.io/master/images/movingpandas/mpd_fig4.GIF">
+![The animated map and speed histogram show that speeds increase when the generalization tolerance value is increased.]({{ site.url }}/images/movingpandas/mp_fig4.gif)
 
 ## Test Your Movement Data Anylsis Skills Today!
 
