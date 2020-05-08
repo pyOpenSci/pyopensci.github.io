@@ -18,17 +18,17 @@ answer for that. But how many examples could you show to a researcher
 in your field that's new to coding? Would those examples stand on their own?
 Imagine you're a grad student who used Matlab in undergrad, and you
 have just worked your way through the Jupyter notebooks in
-<a href = "https://github.com/jakevdp/WhirlwindTourOfPython", target="_blank">A Whirlwind Tour of Python</a>,
+<a href = "https://github.com/jakevdp/WhirlwindTourOfPython" target="_blank">A Whirlwind Tour of Python</a>,
 and now you're facing some random repository on Github that reproduces
 the results of a paper.
 Can you make sense of all the "development cruft"?
-By which I mean the `setup.py`s (or <a href = "https://snarky.ca/clarifying-pep-518/", target="_blank">`pyproject.toml`s</a>)
+By which I mean the `setup.py`s (or <a href = "https://snarky.ca/clarifying-pep-518/" target="_blank">`pyproject.toml`s</a>)
 and the `environment.yml`s cluttering up the root of the
 project? Why do you think the person who wrote this code decided
 to have a `util.py` module in their `data` sub-package
 *and* a separate sub-package just called `util`?
 (That person was me. Sorry.
-<a href = "https://breadcrumbscollector.tech/stop-naming-your-python-modules-utils/", target="_blank">I now know that's not such a great idea.</a>)
+<a href = "https://breadcrumbscollector.tech/stop-naming-your-python-modules-utils/" target="_blank">I now know that's not such a great idea.</a>)
 
 ## Why Do I Care?
 
@@ -36,14 +36,14 @@ Let me tell you where I'm coming from with this intro.
 Hey, I'm David, and I've been doing what I can to contribute to PyOpenSci
 since I found out about the group at their 2019 SciPy Birds of a Feather
 event. The group's mission makes a lot of sense to me, and lines up with
-a lot of other activities I've been involved in, like the <a href = "https://data-science-for-scientists-atl.github.io/", target="_blank">graduate data science group</a>
+a lot of other activities I've been involved in, like the <a href = "https://data-science-for-scientists-atl.github.io/" target="_blank">graduate data science group</a>
 at my home institution, Emory University.
 Which is where I got a germ of an idea for this blog post. Our group
 runs Software Carpentry workshops, and right after the last one,
 I led a session on "Python 102", about the basics of organizing code
 (based on this excellent site
-<a href = "https://python-102.readthedocs.io/en/latest/packaging.html#", target="_blank">Python 102</a>
-which I came to through <a href = "https://merely-useful.github.io/py-rse/py-rse-package-py.html", target="_blank">this site</a>).
+<a href = "https://python-102.readthedocs.io/en/latest/packaging.html#" target="_blank">Python 102</a>
+which I came to through <a href = "https://merely-useful.github.io/py-rse/py-rse-package-py.html" target="_blank">this site</a>).
 At the end of the session, one of our group members told me it was helpful,
 but asked me if I could point her to examples of real research projects
 so she could get a better idea of what code in our field looks like.
@@ -52,7 +52,7 @@ It really bothered me that I couldn't give a good answer to that question.
 I think I have a good idea of *why* I couldn't. I'm no expert.
 In terms of writing research code, I would describe
 myself now as somewhere between "novice" and "competent practitioner"
-[image]: https://carpentries.github.io/instructor-training/fig/skill-level.svg
+![The Carpentries skill level](https://carpentries.github.io/instructor-training/fig/skill-level.svg)
 I've attempted to write two software libraries, one of which is now
 finally almost useful, and I have a couple papers in progress where I have
 forced myself to make everything as reproducible as possible.
@@ -61,7 +61,7 @@ But most of what I know is from hard-won trial-and-error.
 exposure to these things than a random sample of biomedical graduate students.*
 For example, it really only dawned on me in the last year, that, hey,
 that Hadley Wickham person was really onto something, and I should just use
-[tidy data](https://vita.had.co.nz/papers/tidy-data.pdf)
+<a href = "https://vita.had.co.nz/papers/tidy-data.pdf" target="_blank">tidy data</a>
 format whenever I can, even for something that feels less like an
 analysis and more like "data munging", e.g. splitting a dataset into
 training and test sets for machine learning.
@@ -75,7 +75,7 @@ with a single method call: `df.to_csv()`
 This brilliant insight only came to me after finding out the hard way that
 my other approaches were not so great, especially when I had to drill down
 on unexpected results and sniff out the source of bugs. It also mainly came to
-me by cross -ollinating with R people who learn to think that way
+me by cross pollinating with R people who learn to think that way
 almost by default (assuming they became R converts after
 the advent of the Tidyverse).
 
@@ -110,9 +110,9 @@ First, let me say I am fully aware there are plenty of great resources to help
 researchers understand best practices for organizing computational research
 projects, and for developing research software libraries.
 For example, my go-to is
-[Good Enough Practices in Scientific Computing](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5480810/#sec009title)
+<a href = "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5480810/#sec009title" target="_blank">Good Enough Practices in Scientific Computing</a>
 and I am definitely learning a lot from
-<https://merely-useful.github.io/py-rse/py-rse-package-py.html>.
+<a href = "https://merely-useful.github.io/py-rse/py-rse-package-py.html" target="_blank">the Merely Useful site resources</a>.
 
 The audience I'm imagining for this post is someone who I assume
 cares enough to read the PyOpenSci blog, and probably knows a researcher *y*
@@ -147,13 +147,13 @@ And, yeah, as we continue to build that tooling, there will be more and more
 projects that make use of it, and we could in some automated way see all the
 GitHub repos linked with papers that use some `DomainToolX`. Again, if we are
 following the lead of ROpenSci, we'd have something like
-[`makeDepGraph`](https://www.rdocumentation.org/packages/miniCRAN/versions/0.2.12/topics/makeDepGraph)
+<a href = "https://www.rdocumentation.org/packages/miniCRAN/versions/0.2.12/topics/makeDepGraph" target="_blank">`makeDepGraph`</a>
 But we are not there yet.
 
 You might also say, justifiably, aren't these curated collections
 springing up organically? Sure, *sort of*.
 I mean, don't I go to
-[Ye Olde Gallery Of Interesting Notebooks](https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks)
+<a href = "https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks" target="_blank">Ye Olde Gallery Of Interesting Notebooks</a>
 every time I give an intro talk, and look for something field specific that
 I hope will catch people's interest?
 But again, I think this is just the *start* of giving someone that is
@@ -166,14 +166,13 @@ So the straw man solution is to start some group that curates a
 collection of scientific Python projects.
 It bothered me so much that I didn't have a good answer for that student that
 asked for examples that I made an attempt at this, that you can see in the
-PyOpenSci discourse here:
-<https://pyopensci.discourse.group/t/real-world-repo-packs-looking-for-examples/151>
+<a href= "https://pyopensci.discourse.group/t/real-world-repo-packs-looking-for-examples/151"> PyOpenSci discourse.</a>
 
 ### Straw Man Solution Number 2: the Worldwide Research Software Engineer Mentoring Network
 
 But again, showing our newbie researcher coder some examples feels like
 just the *start* of helping them
-[progress from novice to expert](https://carpentries.github.io/instructor-training/02-practice-learning/).
+<a href = "https://carpentries.github.io/instructor-training/02-practice-learning/" target="_blank">progress from novice to expert</a>.
 So what do you do after that start?
 One way to bootstrap this kind of knowledge until it becomes more widespread
 would be a mentoring program.
@@ -182,11 +181,11 @@ Well, we want something that achieves similar goals, helping researchers
 move forward with code more efficiently, but let's do it one-on-one:
 basically pair one scientist-coder with another who has more
 experience. A formal process for them to follow could be built on
-[code reviews](http://carver.cs.ua.edu/Slides/URSSI-WinterSchool-PeerCodeReview.pdf).
+<a href = "http://carver.cs.ua.edu/Slides/URSSI-WinterSchool-PeerCodeReview.pdf" target="_blank">code reviews</a>.
 (You can file "code review" under "things people with more experience already
 knew about but I just discovered"--I learned about code reviews
 recently at the URSSI Winter School; main repo that I included that presentation
-from is here: <https://github.com/si2-urssi/winterschool>).
+from <a href = "https://github.com/si2-urssi/winterschool" target="blank">is here</a>).
 More precisely, I'm picturing a decentralized network of mentors that could
 connect with scientist-coders all over. That's right, I'm talking about the
 Worldwide Research Software Engineer Mentoring Network.
@@ -195,19 +194,19 @@ I'll say more about why it would be decentralized below.
 But first let me say this solution of mentoring may not be such a straw-man.
 We have talked about similar ideas at PyOpenSci meetings before.
 And I was excited to hear Martin Héroux and Michael Kennedy bring up the
-same idea on this episode of the Talk Python podcast:
-<https://talkpython.fm/episodes/show/252/what-scientific-computing-can-learn-from-cs>  
-I tweeted about it
-https://twitter.com/nicholdav/status/1235336475773939713
-and the tweet got enough likes and retweets (for a Very Serious Tweet)
+same idea on this episode of the
+<a href="https://talkpython.fm/episodes/show/252/what-scientific-computing-can-learn-from-cs" target="_blank"> Talk Python podcast.</a>
+
+<a href="https://twitter.com/nicholdav/status/1235336475773939713" target="_blank"> I tweeted about it</a> and the tweet got enough likes and retweets (for a Very Serious Tweet)
 that it made me think this at least sounds like a *nice* idea to other people.
 
 Of course, such mentoring program would line up perfectly
 with the mission of the Carpentries and other groups working in this
 space, such as Mozilla Science.
 And as Hannah Aizenmann pointed out on Twitter, yes, this mentoring
-is already happening at a lot of universities with these programs in place.
-https://twitter.com/story645/status/1235594559620558848
+is already happening at a lot of universities
+<a href="https://twitter.com/story645/status/1235594559620558848" target="_blank">with these programs in place.</a>
+
 
 But that is exactly the problem:
 if your university already has a thriving group of labs that support
@@ -220,9 +219,9 @@ Can we bootstrap ourselves out of this rich-get-richer situation somehow?
 Enter the decentralized Worldwide Research Software Engineer Mentoring Network.
 What makes this solution a straw man is that it would
 be asking people who are already teaching Carpentries workshops
-and mentoring in their own labs to do additional (unpaid) labor, by
-mentoring people virtually.
-https://twitter.com/story645/status/1235591579311771649
+and mentoring in their own labs to do additional (unpaid) labor,
+<a href="https://twitter.com/story645/status/1235591579311771649" target="_blank">by
+mentoring people virtually.</a>
 So the answer, of course, is for all universities to immediately institute
 data scientist fellowships for graduate students; fellowships that encourage
 those students to mentor locally. And while we're at it, let's institute
@@ -235,8 +234,8 @@ It's fine, I already know I'm not electable.
 But in all seriousness, I found myself returning to this idea of
 mentoring again as I read this article from
 Vicki Boykis about how the tech industry doesn't do the greatest job of
-passing on on institutional knowledge:
-https://increment.com/software-architecture/architecture-for-generations/
+<a href="https://increment.com/software-architecture/architecture-for-generations/" target="_blank">passing on institutional knowledge.</a>
+
 Different domain, same problem.
 So I actually think there might be something to my idea for a
 Worldwide Research Software Engineer Mentoring Network.
