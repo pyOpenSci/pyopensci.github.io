@@ -1,9 +1,9 @@
 ---
 layout: single
 title: "Guess it's time for the Worldwide Research Software Engineer Mentoring Network"
-excerpt: ""
+excerpt: "Developing reusable code and tools is not easy. This post discusses the benefits of a mentoring network to support better practices for scientific software."
 author: "David Nicholson"
-permalink: /blog/worldwide-rse-mentoring-network
+permalink: /blog/worldwide-mentoring-network-for-scientific-software
 header:
     overlay_color: "#333"
     caption:
@@ -18,18 +18,17 @@ answer for that. But how many examples could you show to a researcher
 in your field that's new to coding? Would those examples stand on their own?
 Imagine you're a grad student who used Matlab in undergrad, and you
 have just worked your way through the Jupyter notebooks in
-[A Whirlwind Tour of Python](https://github.com/jakevdp/WhirlwindTourOfPython),
+<a href = "https://github.com/jakevdp/WhirlwindTourOfPython", target="_blank">A Whirlwind Tour of Python</a>,
 and now you're facing some random repository on Github that reproduces
 the results of a paper.
 Can you make sense of all the "development cruft"?
-By which I mean the `setup.py`s (or [`pyproject.toml`s](https://snarky.ca/clarifying-pep-518/))
+By which I mean the `setup.py`s (or <a href = "https://snarky.ca/clarifying-pep-518/", target="_blank">`pyproject.toml`s</a>)
 and the `environment.yml`s cluttering up the root of the
 project? Why do you think the person who wrote this code decided
 to have a `util.py` module in their `data` sub-package
 *and* a separate sub-package just called `util`?
 (That person was me. Sorry.
-[I now know that's not such a great idea.](https://breadcrumbscollector.tech/stop-naming-your-python-modules-utils/)
-)
+<a href = "https://breadcrumbscollector.tech/stop-naming-your-python-modules-utils/", target="_blank">I now know that's not such a great idea.</a>)
 
 ## Why Do I Care?
 
@@ -37,16 +36,14 @@ Let me tell you where I'm coming from with this intro.
 Hey, I'm David, and I've been doing what I can to contribute to PyOpenSci
 since I found out about the group at their 2019 SciPy Birds of a Feather
 event. The group's mission makes a lot of sense to me, and lines up with
-a lot of other activities I've been involved in, like the
-[graduate data science group](https://data-science-for-scientists-atl.github.io/)
+a lot of other activities I've been involved in, like the <a href = "https://data-science-for-scientists-atl.github.io/", target="_blank">graduate data science group</a>
 at my home institution, Emory University.
 Which is where I got a germ of an idea for this blog post. Our group
 runs Software Carpentry workshops, and right after the last one,
 I led a session on "Python 102", about the basics of organizing code
 (based on this excellent site
-<https://python-102.readthedocs.io/en/latest/packaging.html#>
-which I came to through
-<https://merely-useful.github.io/py-rse/py-rse-package-py.html>).
+<a href = "https://python-102.readthedocs.io/en/latest/packaging.html#", target="_blank">Python 102</a>
+which I came to through <a href = "https://merely-useful.github.io/py-rse/py-rse-package-py.html", target="_blank">this site</a>).
 At the end of the session, one of our group members told me it was helpful,
 but asked me if I could point her to examples of real research projects
 so she could get a better idea of what code in our field looks like.
