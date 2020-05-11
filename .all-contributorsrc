@@ -4,15 +4,69 @@
   ],
   "imageSize": 100,
   "commit": false,
+  "contributorsPerLine": 7,
+  "types": {
+    "editor": {
+      "symbol": "📝",
+      "description": "Shepherds reviews and works with new submissions.",
+      "link": "[<%= symbol %>](<%= url %> \"<%= description %>\"),"
+    },
+    "leadership": {
+      "symbol": "🧭",
+      "description": "Provides high-level direction for the project.",
+      "link": "[<%= symbol %>](<%= url %> \"<%= description %>\"),"
+    },
+    "reviewer": {
+      "symbol": "👀",
+      "description": "Helps submissions improve their projects.",
+      "link": "[<%= symbol %>](<%= url %> \"<%= description %>\"),"
+    },
+    "advisory": {
+      "symbol": "💭",
+      "description": "Provides ideas and advice.",
+      "link": "[<%= symbol %>](<%= url %> \"<%= description %>\"),"
+    },
+    "businessDevelopment": {
+      "symbol": "💰",
+      "description": "Helps the project find and attain funding.",
+      "link": "[<%= symbol %>](<%= url %> \"<%= description %>\"),"
+    },
+    "community": {
+      "symbol": "🤝",
+      "description": "Helps grow the community.",
+      "link": "[<%= symbol %>](<%= url %> \"<%= description %>\"),"
+    },
+    "packageMaintainer": {
+      "symbol": "📦",
+      "description": "Has had a package accepted in the review process.",
+      "link": "[<%= symbol %>](<%= url %> \"<%= description %>\"),"
+    }
+  },
+  "projectName": "pyopensci.github.io",
+  "projectOwner": "pyOpenSci",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true,
   "contributors": [
     {
-      "login": "choldgraf",
-      "name": "Chris Holdgraf",
-      "avatar_url": "https://avatars1.githubusercontent.com/u/1839645?v=4",
-      "profile": "http://chrisholdgraf.com",
+      "login": "anitagraser",
+      "name": "Anita Graser",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/590385?v=4",
+      "profile": "http://anitagraser.com",
+      "login": "cosmicBboy",
+      "name": "Niels Bantilan",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/2816689?v=4",
+      "profile": "http://cosmicbboy.github.io/",
+      "login": "xmnlab",
+      "name": "Ivan Ogasawara",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5209757?v=4",
+      "profile": "https://github.com/xmnlab",
+      "login": "NickleDave",
+      "name": "David Nicholson",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/11934090?v=4",
+      "profile": "https://twitter.com/githubbers",
       "contributions": [
-        "ideas",
-        "code"
+        "blog"
       ]
     },
     {
@@ -33,4 +87,5 @@
   "repoType": "github",
   "repoHost": "https://github.com",
   "skipCi": true
+  ]
 }

@@ -98,18 +98,18 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : "google-gtag" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
-    anonymize_ip         : # true, false (default)
+    tracking_id          : "UA-141260825-1"
+    anonymize_ip         : false # true, false (default)
 
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "pyOpenSci"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  bio              : "pyOpenSci promotes open and reproducible research through peer-review of well-documented and tested scientific Python packages."
+  location         : "Global"
   email            :
   links:
     - label: "Email"
@@ -158,6 +158,7 @@ footer:
 include:
   - .htaccess
   - _pages
+  - _posts
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -242,6 +243,11 @@ whitelist:
   - jemoji
   - jekyll-include-cache
 
+collections:
+  packages:
+    output: true
+    permalink: /:collection/:path/
+
 
 # Archives
 #  Type
@@ -283,6 +289,15 @@ compress_html:
 # Defaults
 defaults:
   # _posts
+  - scope:
+      path: ""
+      type: packages
+    values:
+      layout: single
+      author_profile: true
+      comments: # true
+      share: true
+      related: true
   - scope:
       path: ""
       type: posts
