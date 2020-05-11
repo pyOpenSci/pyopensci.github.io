@@ -49,6 +49,10 @@
   "skipCi": true,
   "contributors": [
     {
+      "login": "cosmicBboy",
+      "name": "Niels Bantilan",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/2816689?v=4",
+      "profile": "http://cosmicbboy.github.io/",
       "login": "xmnlab",
       "name": "Ivan Ogasawara",
       "avatar_url": "https://avatars2.githubusercontent.com/u/5209757?v=4",
