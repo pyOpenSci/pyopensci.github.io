@@ -45,5 +45,17 @@
   "projectName": "pyopensci.github.io",
   "projectOwner": "pyOpenSci",
   "repoType": "github",
-  "repoHost": "https://github.com"
+  "repoHost": "https://github.com",
+  "skipCi": true,
+  "contributors": [
+    {
+      "login": "cosmicBboy",
+      "name": "Niels Bantilan",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/2816689?v=4",
+      "profile": "http://cosmicbboy.github.io/",
+      "contributions": [
+        "blog"
+      ]
+    }
+  ]
 }
