@@ -45,5 +45,17 @@
   "projectName": "pyopensci.github.io",
   "projectOwner": "pyOpenSci",
   "repoType": "github",
-  "repoHost": "https://github.com"
+  "repoHost": "https://github.com",
+  "skipCi": true,
+  "contributors": [
+    {
+      "login": "NickleDave",
+      "name": "David Nicholson",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/11934090?v=4",
+      "profile": "https://twitter.com/githubbers",
+      "contributions": [
+        "blog"
+      ]
+    }
+  ]
 }
