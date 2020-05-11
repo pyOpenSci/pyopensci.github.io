@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Guess it's time for the Worldwide Research Software Engineer Mentoring Network"
+title: "Time for A Research Software Engineer Mentoring Network"
 excerpt: "Developing reusable code and tools is not easy. This post discusses the benefits of a mentoring network to support better practices for scientific software."
 author: "David Nicholson"
 permalink: /blog/worldwide-mentoring-network-for-scientific-software
@@ -19,7 +19,7 @@ in your field that's new to coding? Would those examples stand on their own?
 Imagine you're a grad student who used Matlab in undergrad, and you
 have just worked your way through the Jupyter notebooks in
 <a href = "https://github.com/jakevdp/WhirlwindTourOfPython" target="_blank">A Whirlwind Tour of Python</a>,
-and now you're facing some random repository on Github that reproduces
+and now you're facing a repository on Github that reproduces
 the results of a paper.
 Can you make sense of all the "development cruft"?
 By which I mean the `setup.py`s (or <a href = "https://snarky.ca/clarifying-pep-518/" target="_blank">`pyproject.toml`s</a>)
@@ -33,19 +33,19 @@ to have a `util.py` module in their `data` sub-package
 ## Why Do I Care?
 
 Let me tell you where I'm coming from with this intro.
-Hey, I'm David, and I've been doing what I can to contribute to PyOpenSci
+Hey, I'm David, and I've been contributing to PyOpenSci
 since I found out about the group at their 2019 SciPy Birds of a Feather
 event. The group's mission makes a lot of sense to me, and lines up with
 a lot of other activities I've been involved in, like the <a href = "https://data-science-for-scientists-atl.github.io/" target="_blank">graduate data science group</a>
 at my home institution, Emory University.
-Which is where I got a germ of an idea for this blog post. Our group
+Which is where I got the initial idea for this blog post. Our group
 runs Software Carpentry workshops, and right after the last one,
 I led a session on "Python 102", about the basics of organizing code
 (based on this excellent site
 <a href = "https://python-102.readthedocs.io/en/latest/packaging.html#" target="_blank">Python 102</a>
 which I came to through <a href = "https://merely-useful.github.io/py-rse/py-rse-package-py.html" target="_blank">this site</a>).
 At the end of the session, one of our group members told me it was helpful,
-but asked me if I could point her to examples of real research projects
+but asked me if I could point her to examples of real research projects,
 so she could get a better idea of what code in our field looks like.
 
 It really bothered me that I couldn't give a good answer to that question.
@@ -53,8 +53,9 @@ I think I have a good idea of *why* I couldn't. I'm no expert.
 In terms of writing research code, I would describe
 myself now as somewhere between "novice" and "competent practitioner"
 ![The Carpentries skill level](https://carpentries.github.io/instructor-training/fig/skill-level.svg)
-I've attempted to write two software libraries, one of which is now
-finally almost useful, and I have a couple papers in progress where I have
+I develop a <a href = "https://github.com/NickleDave/vak">software library</a>
+and a handful of related <a href = "https://crowsetta.readthedocs.io/en/latest/">tools</a>,
+and I have a couple papers in progress where I have
 forced myself to make everything as reproducible as possible.
 But most of what I know is from hard-won trial-and-error.
 *Even though I am a trained Carpentries instructor and I have way more
@@ -66,9 +67,11 @@ format whenever I can, even for something that feels less like an
 analysis and more like "data munging", e.g. splitting a dataset into
 training and test sets for machine learning.
 Before I woke up to the beauty of tidy data, I spent a lot of time  
-writing functions to pack Numpy arrays into Python
-dictionaries. Which in turn led me share my data by
-dumping a bunch of Numpy arrays into .json files. That wasn't *wrong*
+writing functions to <a href = "https://github.com/NickleDave/ML-comparison-birdsong/blob/master/experiment_code/generate_summary_results_files_linsvm_svmrbf_knn.py" target="_blank">
+pack Numpy arrays into Python dictionaries</a>.
+Which in turn led me share my data by
+<a href = "https://github.com/NickleDave/ML-comparison-birdsong/blob/a243277c9e1866e633f46a92c439a20ca548edaa/experiment_code/make_json_file_of_all_results.py#L13"
+taget="_blank">dumping a bunch of Numpy arrays into .json files (shudder)</a>. That wasn't *wrong*
 necessarily, but it's not *great*. Especially when I could have replaced all my
 bespoke, handmade, Numpy dictionary dumping functions
 with a single method call: `df.to_csv()`
@@ -81,15 +84,23 @@ the advent of the Tidyverse).
 
 ## How Can We Help Scientist-coders Move Faster from Novice to Expert?
 
-Hopefully you now can see why it seems to me there has to a better way to help
-scientist-coders learn. Even the dumb ones like me.
+You see why I feel there has to a better way to help
+scientist-coders learn.
 I guess I'm asking, are there things we can do as a (PyOpenSci) community
-to further help other scientist-coders avoid my pain. And not just general
-stuff like what are best practices for cleaning and transforming data. I'm
-almost more worried about things that are domain specific. How can we help a
-relative newbie answer questions like:
+to help other scientist-coders avoid my pain.
+We already have made tremendous progress in terms of teaching
+computational skills to novices.
+Beyond this basic level of computational literacy, there are two areas
+I think we could focus on as a PyOpenSci community two further help
+scientist-coders move faster from novice to expert.
+The first area is research domain specific:
+How can we help a relative newbie answer questions like:
 what libraries do people in our domain usually use?
-And also questions that feel more Python specific, like:
+For some fields this is fairly obvious, e.g. astrophysics, but for
+other areas where Python tools are new by comparison, e.g., earth science
+or economics, I think we could do more to help connect researchers
+to the tools. The second area is Python specific.
+How can we help new research software engineers answer questions, like:
 When should I use sub-packages?
 Why would I ever want an `__all__` statement in my module?
 
