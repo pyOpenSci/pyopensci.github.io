@@ -158,7 +158,9 @@ For example, my go-to for organizing projects is
 and as for research software engineering, I am definitely learning a lot from
 <a href = "https://merely-useful.github.io/py-rse/py-rse-package-py.html" target="_blank">
 <!-- markup clean_ -->the Merely Useful site resources</a>.
-
+And I am also learning a lot from the amazing
+<a href = "https://the-turing-way.netlify.app/introduction/introduction" target="_blank">
+<!-- markup clean_ -->Turing Way</a> handbook.
 The audience I'm imagining for this post is someone who I assume
 cares enough to read the PyOpenSci blog, and who knows a researcher *y*
 in a specific field *z* with enough knowledge to write
