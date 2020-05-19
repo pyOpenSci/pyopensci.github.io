@@ -14,11 +14,31 @@ categories:
 ---
 
 *Note: I started writing this post before we were in the middle of a global
-pandemic, which now seems like it was several centuries ago.
-I proposed, somewhat tongue-in-cheek, a Virtual Worldwide
-Research Software Engineer Mentoring Network. Now, in the face of the pandemic,
-groups like the Carpentries are pivoting towards remote workshops.
-I guess I'm saying, maybe it's not such a crazy idea after all.*
+pandemic, a time that now feels like it was several centuries ago.
+Then, when I wrote that one way to help scientists level up as Python programmers
+would be to form a Worldwide Virtual Research Software Engineer Mentoring
+Network, it felt tongue-in-cheek.
+Now, in the face of the pandemic, groups that teach scientists computational
+skills, like the Carpentries, are pivoting towards
+<a href = "https://carpentries.org/blog/2020/03/tips-for-teaching-online/" target="_blank">
+<!-- markup clean_ -->online workshops</a>
+Meanwhile, attacks on scientists modeling the spread of COVID-19 are based
+<a href = "https://github.com/mrc-ide/covid-sim/issues/165" target="_blank">
+<!-- markup clean_ -->on the quality of their code.</a>
+I don't doubt the models, because I trust researchers that have
+survived review by their grumpy skeptical peers
+more than I trust sanctimonious software developers at a bitcoin startup.
+But I can't help but notice that if the modeling code followed best practices
+for scientific software development, then those devs would
+have had one less excuse for adding to the stack of Issues.  
+What I'm saying is that here in the post-COVID19 world
+I feel like the need to answer the questions I raise below is more obvious,
+and I don't have to present my ideas for dealing with them so
+apologetically. As I try to make clear below,
+I am well aware that many people have been working on these problems
+long before I ever faced them.
+I'm looking forward to learning more about their ideas
+in response to this post.*
 
 ## How Do Scientists Using Python Organize Their Code?
 
