@@ -1,9 +1,9 @@
 ---
 layout: single
-title: "Helping scientists move from novice to intermediate Python programmer"
-excerpt: "Developing reusable code and tools is not easy. This post discusses how we can make it easier for  scientists to move from novice to intermediate level of writing scientific software with Python."
+title: "Growing the community of expert scientist-coders writing Python"
+excerpt: "Developing reusable code and tools is not easy. This post discusses how we can make it easier for scientists to move from competent to expert level of writing scientific software with Python."
 author: "David Nicholson"
-permalink: /blog/helping-scientists-move-from-novice-intermediate-Python
+permalink: /blog/growing-the-community-of-expert-scientist-coders-writing-python
 header:
     overlay_color: "#333"
     caption:
@@ -61,8 +61,8 @@ to have a `util.py` module in their `data` sub-package
 <a href = "https://breadcrumbscollector.tech/stop-naming-your-python-modules-utils/" target="_blank">
 <!-- markup clean_ -->I now know that's not such a great idea.</a>)
 
-## Why Should You Care?
-
+## Do Neuroscientists Use Python in the Same Way as Astrophysicists?
+### Supposedly I am a Pythonista Neuroscientist but I Don't Even Know
 Let me tell you where I'm coming from with this intro--maybe some of
 my experience will sound familiar to you.
 Hey, I'm David, and I've been contributing to PyOpenSci
@@ -84,11 +84,15 @@ which I came to through
 At the end of the session, one of our group members told me it was helpful,
 but asked me if I could point her to examples of real research projects,
 so she could get a better idea of what code in our field looks like.
+Full disclosure: she was asking about Matlab code, which I would say
+is particularly prevalent in neuroscience.
+But it quickly dawned on me that I couldn't even give a good answer for Python.
 
 It really bothered me that I couldn't give a good answer to that question.
 I think I have a good idea of *why* I couldn't. I'm no expert.
-In terms of writing research code, I would describe
-myself now as somewhere between "novice" and "competent practitioner"
+More precisely, I would describe
+myself now as somewhere between "competent practitioner" and "expert",
+to borrow terms used by the Carpentries.
 ![The Carpentries skill level](https://carpentries.github.io/instructor-training/fig/skill-level.svg)
 I develop a software library, and a handful of related tools,
 and I have a couple papers in progress where I have
@@ -96,12 +100,14 @@ forced myself to make everything as reproducible as possible.
 But most of what I know is from hard-won trial-and-error.
 *Even though I am a trained Carpentries instructor, and I have way more
 exposure to these things than a random sample of biomedical graduate students.*
+
+### Learn Tidy Data the Hard Way
 For example, it really only dawned on me in the last year, that, hey,
 that Hadley Wickham person was really onto something, and I should just use
 <a href = "https://vita.had.co.nz/papers/tidy-data.pdf" target="_blank">
 <!-- markup clean_ -->tidy data</a>
 format whenever I can. Even for something that feels less like an
-analysis and more like "data munging", like splitting a dataset into
+analysis and more like "data munging", such as splitting a dataset into
 training and test sets for training a machine learning model.
 Turns out that it's easier to do the final analysis of your models
 if your data is tidy from the get-go.
@@ -111,7 +117,7 @@ writing functions to
 <!-- markup clean_ -->pack Numpy arrays into Python dictionaries</a>.
 Which in turn led me share my data by
 <a href = "https://github.com/NickleDave/ML-comparison-birdsong/blob/a243277c9e1866e633f46a92c439a20ca548edaa/experiment_code/make_json_file_of_all_results.py#L13"
-taget="_blank">
+target="_blank">
 <!-- markup clean_ -->dumping a bunch of Numpy arrays into .json files (shudder)</a>.
 That wasn't *wrong* necessarily, but it's not *great*.
 Especially when I could have replaced all my
@@ -123,38 +129,55 @@ on unexpected results and sniffing out the source of bugs. It also came to
 me only after cross-pollinating with R people who learn to think Tidy
 almost by default (assuming they became R converts after
 the advent of the Tidyverse).
+And I think plenty of Pythonistas before me have had similar insights;
+see for example
+<a href = "https://datacarpentry.org/python-ecology-lesson/" target="_blank">
+<!-- markup clean_ -->this Carpentries lesson</a>
+and <a href = "https://na.eventscloud.com/ehome/487022?&t=d2917a15274e1daf79d80a4253f01e7a" target="_blank">
+<!-- markup clean_ -->the "Learn Python through Data Processing in Pandas"
+tutorial that PyOpenSci contributor Daniel Chen is teaching at SciPy this year.</a>
+For many researchers in the biomedical sciences, I now feel there's a lot
+of good reasons to introduce them to Python by way of tidy data with Pandas,
+instead of starting with Numpy. More broadly
 
-## How Can We Help Scientist-coders Move from Novice to Expert?
+## How Can We Help Scientist-coders Working with Python Move from Competent to Expert?
 
 Hopefully you can see why experiences like this
 make me wonder what other things we can do as a (PyOpenSci) community
-to help other scientists avoid my growing pains.
+to help our fellow scientist-coders avoid my growing pains.
 Of course, the Carpentries and other similar organizations have already made
-tremendous strides in teaching computational skills to novice scientist-coders.
+tremendous strides in teaching computational skills to scientists at a novice level.
 I see less being done beyond this basic level of computational literacy,
-although I'd be happy to learn that I'm wrong.
+in the Python space in particular, although I'd be happy to learn that I'm wrong.
 What do I think we should do about it (besides write long-winded blog posts)?
-Basically I see two areas we could focus on as a PyOpenSci community
-to further help scientist-coders move efficiently from novice to intermediate.
+Basically I see two areas we could focus on
+to further help scientists move efficiently from competent to expert level.
 
-The first area is research domain specific.
-How can we help a relative newbie answer questions like:
+### within their research domain
+The first area is **research domain** specific.
+How can we help a relative newcomer answer questions like:
 what libraries do people in our domain usually use?
 For some fields this is fairly obvious, e.g. astrophysics, but for
-other areas where Python tools are comparitively new--say, earth science,
+other areas where Python tools are comparatively new--say, earth science,
  economics, myriad subfields of biomedical science--I think we could do more
  to help connect researchers to the tools.
 
-The second area is Python specific.
+### within Python
+The second area is **Python programming** specific.
 How can we help new research software engineers answer questions they will
 face as they move beyond writing scripts to developing packages, tools,
 and full-fledged libraries.
 The answers to many of these questions are still more art than science.
-Questions like:
-- How object-oriented should my code be? Is it worth implementing some sort of
-  inheritance in my code base where I sub-class a base class?
+Some of these questions are low level, like:
+- How object-oriented should my code be? Should I be using
+  <a href ="https://youtu.be/eVDDL6tgsv8?t=1558" target="_blank">
+  <!-- markup clean_ -->classes or functions?</a>
 - When should I use sub-packages? Will it make my namespacing more informative?
 - Why would I ever want an `__all__` statement in my module?
+And some questions are at a meta level: how can we best build tools to
+empower scientists in the same way that
+<a href = "https://youtu.be/Ivb4AAuj5JY?t=275" target="_blank">
+<!-- markup clean_ -->software engineering libraries empower developers</a>
 
 Again, if you are reading this blog, there's a good chance you know exactly
 the right combination of search terms to start to answer those questions.
@@ -167,9 +190,28 @@ maybe kind of even forgotten that you have, that guides you as you select those
 handful of good examples. **How do we get most efficiently get scientists
 that are *relatively new* to writing research code to that level of expertise?**
 
-## Straw Man Solutions
+## Two Straw Man Solutions
 
-First, let me say I am fully aware there are plenty of great resources to help
+The audience I'm imagining for this post is someone who I assume
+cares enough to read the PyOpenSci blog, and who knows a researcher *y*
+in a specific field *z* with enough knowledge to write
+some beginning scripts and code.
+But that acquaintance *y* doesn't have a good handle on what packages
+to use, and how best to make all those packages and libraries work together.
+How do you and I help **that** person?
+I can think of two general ways to help scientist-coders within their
+research domain, and with programming Python. I know that people
+that are much smarter than me have already have spent a lot of time
+working on solutions. But since I am a scientist,
+I enjoy finding out how wrong I am. So here I will outline two straw man
+solutions, and I hope people will respond to them.
+
+### Research code and scientific software
+Before I do that, let me very quickly say I also see two different types of
+code we need to help researchers with. The first I will call "research code",
+the code that goes with a paper to reproduce your results. The second is
+scientific software.
+Again, I am fully aware there are plenty of great resources to help
 researchers understand best practices for organizing computational research
 projects, and for developing research software libraries.
 For example, my go-to for organizing projects is
@@ -181,19 +223,8 @@ and as for research software engineering, I am definitely learning a lot from
 And I am also learning a lot from the amazing
 <a href = "https://the-turing-way.netlify.app/introduction/introduction" target="_blank">
 <!-- markup clean_ -->Turing Way</a> handbook.
-The audience I'm imagining for this post is someone who I assume
-cares enough to read the PyOpenSci blog, and who knows a researcher *y*
-in a specific field *z* with enough knowledge to write
-some beginning scripts and code.
-But that acquaintance *y* doesn't have a good handle on what packages
-to use, and how best to make all those packages and libraries work together.
-How do you and I help **that** person?
-
-I can think of a couple of solutions for this. I have a feeling that people
-that are much smarter than me have already have spent a lot of time
-working on solutions for this. But since I am a scientist,
-I enjoy finding out how wrong I am. So here I will outline two straw man
-solutions, and I hope people will respond to them.
+But I think it's worth emphasizing that those are two different things,
+because my straw man solutions are tailored to addressing each.
 
 ### Straw Man Solution Number 1: the Carefully-Curated Collection of Domain-Specific Scientific Python Projects
 
@@ -282,7 +313,6 @@ And as Hannah Aizenmann pointed out on Twitter, yes, this mentoring
 is already happening at a lot of universities
 <a href="https://twitter.com/story645/status/1235594559620558848" target="_blank">
 <!-- markup clean_ -->with these programs in place.</a>
-
 
 But that is exactly the problem:
 if your university already has a thriving group of labs that support
