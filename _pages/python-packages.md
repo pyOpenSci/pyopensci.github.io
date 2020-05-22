@@ -13,7 +13,7 @@ pyOpenSci packages are community developed, submitted and reviewed. Anyone is
 welcome to submit a package to pyOpenSci to be reviewed. Once the package is reviewed,
 and accepted, pyOpenSci will promote it as a peer-reviewed tool for science!
 
-<a href="https://www.pyopensci.org/dev_guide/peer_review/aims_scope.html" target="_blank">Learn More About the Review And Submission Process in our online guidebook. </a>
+<a href="https://www.pyopensci.org/contributing-guide/peer_review/aims_scope.html" target="_blank">Learn More About the Review And Submission Process in our online guidebook. </a>
 
 ## PyOpenSci Accepted Packages
 The package below have already been through our review process and are accepted
