@@ -14,3 +14,7 @@
   description: 'Trajectory classes and functions built on top of GeoPandas'
   maintainer: ["Anita Graser"]
   link: "https://github.com/anitagraser/movingpandas"
+- package-name: pyrolite
+  description: 'Tools for getting the most from your geochemical data'
+  maintainer: ["Morgan Williams"]
+  link: "https://github.com/morganjwilliams/pyrolite"
