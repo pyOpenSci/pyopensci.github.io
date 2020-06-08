@@ -223,3 +223,13 @@
     - reviewer
   packages-submitted: [""]
   packages-reviewed: ["movingpandas"]
+- name: Morgan Williams
+  bio: 'Postdoctoral Fellow, Geoscience Analytics'
+  organization: "CSIRO"
+  github_username: morganjwilliams
+  github_image_id: 11415019
+  contributor_type:
+    - package-maintainer
+  packages-submitted: ["pyrolite"]
+  packages-reviewed: [""]
+  packages-editor: [""]
