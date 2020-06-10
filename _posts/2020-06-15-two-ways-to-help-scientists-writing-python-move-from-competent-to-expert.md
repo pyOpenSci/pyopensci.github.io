@@ -1,9 +1,11 @@
 ---
 layout: single
-title: "Growing the community of expert scientist-coders writing Python"
-excerpt: "Developing reusable code and tools is not easy. This post discusses how we can make it easier for scientists to move from competent to expert level of writing scientific software with Python."
+title: "Two ways to help scientists writing Python move from competent to expert"
+excerpt: "Developing reusable code and tools is not easy.
+This post discusses how we can make it easier for scientists to move
+from competent to expert level of writing scientific software with Python."
 author: "David Nicholson"
-permalink: /blog/growing-the-community-of-expert-scientist-coders-writing-python
+permalink: /blog/two-ways-to-help-scientists-writing-python-move-from-competent-to-expert
 header:
     overlay_color: "#333"
     caption:
@@ -16,23 +18,17 @@ categories:
 *Note: I started writing this post before we were in the middle of a global
 pandemic, a time that now feels like it was several centuries ago.
 Then, when I wrote that one way to help scientists level up as Python programmers
-would be to form a Worldwide Virtual Research Software Engineer Mentoring
-Network, it felt tongue-in-cheek.
-Now, in the face of the pandemic, groups that teach scientists computational
-skills, like the Carpentries, are pivoting towards
+would be to start some sort of virtual mentoring network,
+it felt tongue-in-cheek. Do we really need to go that far?
+Now, in the face of the pandemic, groups like the Carpentries
+that teach scientists computational skills are pivoting towards
 <a href = "https://carpentries.org/blog/2020/03/tips-for-teaching-online/" target="_blank">
 <!-- markup clean_ -->online workshops</a>
 Meanwhile, attacks on scientists modeling the spread of COVID-19 are based
 <a href = "https://github.com/mrc-ide/covid-sim/issues/165" target="_blank">
 <!-- markup clean_ -->on the quality of their code.</a>
-I don't doubt the models, because I trust researchers that have
-survived review by their grumpy skeptical peers
-more than I trust sanctimonious software developers at a bitcoin startup.
-But I can't help but notice that if the modeling code followed best practices
-for scientific software development, then those devs would
-have had one less excuse for adding to the stack of Issues.  
-What I'm saying is that here in the post-COVID19 world
-I feel like the need to answer the questions I raise below is more obvious,
+What I'm saying is that, here in the post-COVID-19 world,
+I feel like the need to address the issues I raise below is more obvious,
 and I don't have to present my ideas for dealing with them so
 apologetically. As I try to make clear below,
 I am well aware that many people have been working on these problems
@@ -52,17 +48,19 @@ have just worked your way through the Jupyter notebooks in
 and now you're facing a repository on Github that reproduces
 the results of a paper.
 Can you make sense of all the "development cruft"?
-By which I mean the `setup.py`s (or <a href = "https://snarky.ca/clarifying-pep-518/" target="_blank">`pyproject.toml`s</a><!-- markup clean_ -->)
+By which I mean the `setup.py` files
 and the `environment.yml`s cluttering up the root of the
-project? Why do you think the person who wrote this code decided
+project?
+(Or <a href = "https://snarky.ca/clarifying-pep-518/" target="_blank">
+<!-- markup clean_ -->`pyproject.toml` files</a> even.)
+Why do you think the person who wrote this code decided
 to have a `util.py` module in their `data` sub-package
 *and* a separate sub-package just called `util`?
 (That person was me. Sorry.
 <a href = "https://breadcrumbscollector.tech/stop-naming-your-python-modules-utils/" target="_blank">
 <!-- markup clean_ -->I now know that's not such a great idea.</a>)
 
-## Do Neuroscientists Use Python in the Same Way as Astrophysicists?
-### Supposedly I am a Pythonista Neuroscientist but I Don't Even Know
+## How Do *Neuroscientists* Using Python Organize Their Code?
 Let me tell you where I'm coming from with this intro--maybe some of
 my experience will sound familiar to you.
 Hey, I'm David, and I've been contributing to PyOpenSci
@@ -85,11 +83,33 @@ At the end of the session, one of our group members told me it was helpful,
 but asked me if I could point her to examples of real research projects,
 so she could get a better idea of what code in our field looks like.
 Full disclosure: she was asking about Matlab code, which I would say
-is particularly prevalent in neuroscience.
+is still particularly prevalent in neuroscience.
+(If you don't believe me,
+<a href = "https://twitter.com/GaelVaroquaux/status/1263413593615273986" target="_blank">
+<!-- markdown clean_ -->ask Gael Varoquaux</a>)
 But it quickly dawned on me that I couldn't even give a good answer for Python.
 
 It really bothered me that I couldn't give a good answer to that question.
-I think I have a good idea of *why* I couldn't. I'm no expert.
+I think I have a good idea of *why* I couldn't.
+There's a couple of reasons. First, the student was asking about organizing
+code for a paper. In spite of all the excellent Python tools for neuroscience,
+I have a hard time finding good examples of papers with code she can look at.
+In part this is because neuroscience is such a diverse field.
+The other reason it was hard to answer her question, I think, is
+that there might be more to it than just structuring code.
+The more I do computational research, the more I find that
+the question I think I have--e.g., "How do I build a Docker container?"--
+is different from the question I actually have, e.g. "How do I build a
+Docker container that's captures the existing environment I've been
+running code in for two years?". I think probably what the student
+needed is targeted feedback from someone who understands *both* their
+research question *and* the software tools that can be applied to
+those questions.
+
+### Learn Tidy Data the Hard Way
+Let me say more about how I got to my current level of Python knowledge,
+because I think it speaks to the need for some of the solutions I outline below.
+Another reason I couldn't give that student a good answer is: I'm no expert.
 More precisely, I would describe
 myself now as somewhere between "competent practitioner" and "expert",
 to borrow terms used by the Carpentries.
@@ -97,11 +117,10 @@ to borrow terms used by the Carpentries.
 I develop a software library, and a handful of related tools,
 and I have a couple papers in progress where I have
 forced myself to make everything as reproducible as possible.
+
 But most of what I know is from hard-won trial-and-error.
 *Even though I am a trained Carpentries instructor, and I have way more
 exposure to these things than a random sample of biomedical graduate students.*
-
-### Learn Tidy Data the Hard Way
 For example, it really only dawned on me in the last year, that, hey,
 that Hadley Wickham person was really onto something, and I should just use
 <a href = "https://vita.had.co.nz/papers/tidy-data.pdf" target="_blank">
@@ -190,7 +209,7 @@ maybe kind of even forgotten that you have, that guides you as you select those
 handful of good examples. **How do we get most efficiently get scientists
 that are *relatively new* to writing research code to that level of expertise?**
 
-## Two Straw Man Solutions
+## Two Ways We Can Help
 
 The audience I'm imagining for this post is someone who I assume
 cares enough to read the PyOpenSci blog, and who knows a researcher *y*
@@ -226,9 +245,9 @@ And I am also learning a lot from the amazing
 But I think it's worth emphasizing that those are two different things,
 because my straw man solutions are tailored to addressing each.
 
-### Straw Man Solution Number 1: the Carefully-Curated Collection of Domain-Specific Scientific Python Projects
-
-The first straw man solution is to provide newbie scientist-coders with a
+### Number 1: a Carefully Curated Collection of Domain-Specific Scientific Python Projects
+#### Do Neuroscientists Use Python the Same Way as Astrophysicists?
+The first way we can help is to provide newbie scientist-coders with a
 collection of Python projects, specific to their domain, carefully curated by
 people with more experience.
 You might ask, justifiably, "isn't that what PyOpenSci is?"
@@ -269,7 +288,7 @@ It bothered me so much that I didn't have a good answer for that student that
 asked for examples that I made an attempt at this, that you can see in the
 <a href= "https://pyopensci.discourse.group/t/real-world-repo-packs-looking-for-examples/151"> PyOpenSci discourse.</a>
 
-### Straw Man Solution Number 2: the Worldwide Research Software Engineer Mentoring Network
+### Number 2: a Research Software Engineer Mentoring Network
 
 But again, showing our newbie researcher coder some examples feels like
 just the *start* of helping them
@@ -291,7 +310,7 @@ recently at the URSSI Winter School; main repo that I included that presentation
 from <a href = "https://github.com/si2-urssi/winterschool" target="blank">is here</a>).
 More precisely, I'm picturing a decentralized network of mentors that could
 connect with scientist-coders all over. That's right, I'm talking about the
-Worldwide Research Software Engineer Mentoring Network.
+a Research Software Engineer Mentoring Network.
 I'll say more about why it would be decentralized below.
 
 But first let me say this solution of mentoring may not be such a straw-man.
@@ -322,8 +341,8 @@ No grad student is left to their own devices, sharing their data in a .json
 file because no-one told them about tidy data and CSVs (*points to self*).
 Can we bootstrap ourselves out of this rich-get-richer situation somehow?
 
-Enter the decentralized Worldwide Research Software Engineer Mentoring Network.
-What makes this solution a straw man is that it would
+Enter the decentralized Research Software Engineer Mentoring Network.
+What is not great about this solution is that it would
 be asking people who are already teaching Carpentries workshops
 and mentoring in their own labs to do additional (unpaid) labor,
 <a href="https://twitter.com/story645/status/1235591579311771649" target="_blank">
@@ -345,7 +364,7 @@ Vicki Boykis about how the tech industry doesn't do the greatest job of
 
 Different domain, same problem.
 So I actually think there might be something to my idea for a
-Worldwide Research Software Engineer Mentoring Network.
+Research Software Engineer Mentoring Network.
 Here is where I hope people will comment: on our Discourse, at our meetings.
 Maybe even in the Twitterverse (but please let's try to move quickly to
 a different format). If you also have ideas and/or strong feelings about this,
