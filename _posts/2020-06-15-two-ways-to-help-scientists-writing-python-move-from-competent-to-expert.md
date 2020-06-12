@@ -2,7 +2,7 @@
 layout: single
 title: "Two ways to help scientists writing Python move from competent to expert"
 excerpt: "Developing reusable code and tools is not easy.
-This post discusses how we can make it easier for scientists to move
+This post outlines two ways how we can make it easier for scientists to move
 from competent to expert level of writing scientific software with Python."
 author: "David Nicholson"
 permalink: /blog/two-ways-to-help-scientists-writing-python-move-from-competent-to-expert
@@ -92,31 +92,42 @@ But it quickly dawned on me that I couldn't even give a good answer for Python.
 It really bothered me that I couldn't give a good answer to that question.
 I think I have a good idea of *why* I couldn't.
 There's a couple of reasons. First, the student was asking about organizing
-code for a paper. In spite of all the excellent Python tools for neuroscience,
-I have a hard time finding good examples of papers with code she can look at.
-In part this is because neuroscience is such a diverse field.
-The other reason it was hard to answer her question, I think, is
-that there might be more to it than just structuring code.
+code for a paper. Even though it is getting easier and easier
+to find examples of papers with code,
+that doesn't mean it's easy for you as someone who is relatively new
+to coding to find a paper in your specific area with *good* code
+that's *easy to understand*. This is what I was talking about above  
+when I asked if you as newbie would be able to
+make sense of the "development cruft".
+In addition to making sense of that, if you are an experienced
+programmer, you will also immediately get a sense of
+how well the code is structured.
+This experience that is needed to evaluate a codebase ties into
+the second reason I couldn't give a good answer:  
+there's probably more to the question than "how do I organize my code?"
 The more I do computational research, the more I find that
 the question I think I have--e.g., "How do I build a Docker container?"--
-is different from the question I actually have, e.g. "How do I build a
-Docker container that's captures the existing environment I've been
-running code in for two years?". I think probably what the student
-needed is targeted feedback from someone who understands *both* their
+ends up being different from the question I actually have,
+e.g., "How do I build a Docker container that's captures the
+existing environment I've been running code in for two years?".
+What is really needed for someone who is at this
+"advanced beginner" level is targeted feedback
+from someone who understands *both* their
 research question *and* the software tools that can be applied to
 those questions.
 
 ### Learn Tidy Data the Hard Way
 Let me say more about how I got to my current level of Python knowledge,
 because I think it speaks to the need for some of the solutions I outline below.
-Another reason I couldn't give that student a good answer is: I'm no expert.
-More precisely, I would describe
-myself now as somewhere between "competent practitioner" and "expert",
+I would describe myself now as somewhere between
+"competent practitioner" and "expert",
 to borrow terms used by the Carpentries.
 ![The Carpentries skill level](https://carpentries.github.io/instructor-training/fig/skill-level.svg)
-I develop a software library, and a handful of related tools,
-and I have a couple papers in progress where I have
-forced myself to make everything as reproducible as possible.
+I have a couple papers in progress where I have
+forced myself to make everything as reproducible as possible,
+and after a couple of false starts I think I am on my way to
+developing a software library and a handful of related tools
+that people will actually find useful.
 
 But most of what I know is from hard-won trial-and-error.
 *Even though I am a trained Carpentries instructor, and I have way more
@@ -155,15 +166,17 @@ see for example
 and <a href = "https://na.eventscloud.com/ehome/487022?&t=d2917a15274e1daf79d80a4253f01e7a" target="_blank">
 <!-- markup clean_ -->the "Learn Python through Data Processing in Pandas"
 tutorial that PyOpenSci contributor Daniel Chen is teaching at SciPy this year.</a>
-For many researchers in the biomedical sciences, I now feel there's a lot
+
+Experiences like this make me think that there are other things we can do
+as a (PyOpenSci) community to help our fellow scientist-coders
+avoid my growing pains.
+(e.g., for many researchers in the biomedical sciences, I now feel there's a lot
 of good reasons to introduce them to Python by way of tidy data with Pandas,
-instead of starting with Numpy. More broadly
+instead of starting with Numpy. As much as it pains me to say that, as
+someone who was lured away from Matlab to Python by way of Numpy.)
 
 ## How Can We Help Scientist-coders Working with Python Move from Competent to Expert?
 
-Hopefully you can see why experiences like this
-make me wonder what other things we can do as a (PyOpenSci) community
-to help our fellow scientist-coders avoid my growing pains.
 Of course, the Carpentries and other similar organizations have already made
 tremendous strides in teaching computational skills to scientists at a novice level.
 I see less being done beyond this basic level of computational literacy,
@@ -183,9 +196,9 @@ other areas where Python tools are comparatively new--say, earth science,
 
 ### within Python
 The second area is **Python programming** specific.
-How can we help new research software engineers answer questions they will
-face as they move beyond writing scripts to developing packages, tools,
-and full-fledged libraries.
+How can we help new scientist-programmers answer questions they will
+face when they move beyond writing scripts to developing packages, tools,
+and full-fledged libraries?
 The answers to many of these questions are still more art than science.
 Some of these questions are low level, like:
 - How object-oriented should my code be? Should I be using
@@ -196,7 +209,7 @@ Some of these questions are low level, like:
 And some questions are at a meta level: how can we best build tools to
 empower scientists in the same way that
 <a href = "https://youtu.be/Ivb4AAuj5JY?t=275" target="_blank">
-<!-- markup clean_ -->software engineering libraries empower developers</a>
+<!-- markup clean_ -->software engineering libraries empower developers</a>?
 
 Again, if you are reading this blog, there's a good chance you know exactly
 the right combination of search terms to start to answer those questions.
@@ -288,7 +301,7 @@ It bothered me so much that I didn't have a good answer for that student that
 asked for examples that I made an attempt at this, that you can see in the
 <a href= "https://pyopensci.discourse.group/t/real-world-repo-packs-looking-for-examples/151"> PyOpenSci discourse.</a>
 
-### Number 2: a Research Software Engineer Mentoring Network
+### Number 2: virtual code reviews
 
 But again, showing our newbie researcher coder some examples feels like
 just the *start* of helping them
@@ -309,11 +322,9 @@ knew about but I just discovered"--I learned about code reviews
 recently at the URSSI Winter School; main repo that I included that presentation
 from <a href = "https://github.com/si2-urssi/winterschool" target="blank">is here</a>).
 More precisely, I'm picturing a decentralized network of mentors that could
-connect with scientist-coders all over. That's right, I'm talking about the
-a Research Software Engineer Mentoring Network.
-I'll say more about why it would be decentralized below.
+connect with scientist-coders all over.
 
-But first let me say this solution of mentoring may not be such a straw-man.
+Let me say this solution of mentoring may not be such a straw-man.
 We have talked about similar ideas at PyOpenSci meetings before.
 And I was excited to hear Martin Héroux and Michael Kennedy bring up the
 same idea on this episode of the
@@ -341,12 +352,23 @@ No grad student is left to their own devices, sharing their data in a .json
 file because no-one told them about tidy data and CSVs (*points to self*).
 Can we bootstrap ourselves out of this rich-get-richer situation somehow?
 
-Enter the decentralized Research Software Engineer Mentoring Network.
+Enter the virtual Code Review Mentoring Network.
+I already see Research Software Engineers doing things like this: e.g.,
+<a href="https://twitter.com/ixek/status/1263042917079416832" target="_blank">
+<!-- markup clean_ -->Tania Allard offering help to OSS maintainers
+that want to migrate to GitHub actions.</a>
+I'm thinking of targeted help like that, but aimed
+at graduate students closer to the "novice" end of the spectrum.
+Or if you don't like the term "novice", how about "non-OSS maintainers"?
+
 What is not great about this solution is that it would
 be asking people who are already teaching Carpentries workshops
 and mentoring in their own labs to do additional (unpaid) labor,
 <a href="https://twitter.com/story645/status/1235591579311771649" target="_blank">
 <!-- markup clean_ -->by mentoring people virtually.</a>
+
+## Call For Feedback
+
 So the answer, of course, is for all universities to immediately institute
 data scientist fellowships for graduate students; fellowships that encourage
 those students to mentor locally. And while we're at it, let's institute
@@ -361,10 +383,16 @@ mentoring again as I read this article from
 Vicki Boykis about how the tech industry doesn't do the greatest job of
 <a href="https://increment.com/software-architecture/architecture-for-generations/" target="_blank">
 <!-- markup clean_ -->passing on institutional knowledge.</a>
+Different domain, same problems.
 
-Different domain, same problem.
-So I actually think there might be something to my idea for a
-Research Software Engineer Mentoring Network.
+So I actually think there might be something to
+the ways I've proposed here that we can help scientists
+move from competent to expert Python programmers.
+Just to say it one more time, slightly differently, those two ways are:
+1. build curated collections of code, searchable by research domain, and
+2. provide some sort of mentoring network that can help scientists stuck
+with code figure out what is the actual question they are asking.
+
 Here is where I hope people will comment: on our Discourse, at our meetings.
 Maybe even in the Twitterverse (but please let's try to move quickly to
 a different format). If you also have ideas and/or strong feelings about this,
