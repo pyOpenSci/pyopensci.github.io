@@ -43,7 +43,7 @@ There are many different ways to get involved with pyOpenSci.
    infrastructure (like this site) which need maintenance and development.
 6. **Spread the word**! pyOpenSci is a community-driven project. Tell your friends,
    recommend that a colleague submit a package, mention us at conferences, spread the word!
-7. Help us build our online presense! We need help spreading the word to the community using social media. Help us by talking about pyopensci at a meeting and / or  supporting our social media presence. Do you have graphic skills? We will also need a logo at some point!
+7. Help us build our online presence! We need help spreading the word to the community using social media. Help us by talking about pyopensci at a meeting and / or  supporting our social media presence. Do you have graphic skills? We will also need a logo at some point!
 
 ### Community meetings
 
