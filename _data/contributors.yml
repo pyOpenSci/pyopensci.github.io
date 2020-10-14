@@ -202,7 +202,7 @@
   contributor_type:
     - contributor
   packages-submitted: [""]
-  packages-reviewed: ["earthpy"]
+  packages-reviewed: ["pystiche"]
   packages-editor: [""]
 - name: Anita Graser
   bio: ''
@@ -232,4 +232,24 @@
     - package-maintainer
   packages-submitted: ["pyrolite"]
   packages-reviewed: [""]
+  packages-editor: [""]
+- name: Philip Meier
+  bio: 'PhD student working on Neural Style Transfer'
+  organization: "inIT - Institute Industrial IT, Technische Hochschule Ostwestfalen-Lippe (TH OWL)"
+  github_username: pmeier
+  github_image_id: 6849766
+  contributor_type:
+    - package-maintainer
+  packages-submitted: ["pystiche"]
+  packages-reviewed: [""]
+  packages-editor: [""]
+- name: Edgar Riba
+  bio: ''
+  organization: "OSVF / OpenCV.org"
+  github_username: edgarriba
+  github_image_id: 5157099
+  contributor_type:
+    - reviewer
+  packages-submitted: [""]
+  packages-reviewed: ["pystiche"]
   packages-editor: [""]
