@@ -18,3 +18,7 @@
   description: 'Tools for getting the most from your geochemical data'
   maintainer: ["Morgan Williams"]
   link: "https://github.com/morganjwilliams/pyrolite"
+- package-name: pystiche
+  description: 'A Framework for Neural Style Transfer'
+  maintainer: ["Philip Meier"]
+  link: "https://github.com/pmeier/pystiche"
