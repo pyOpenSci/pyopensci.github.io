@@ -202,7 +202,7 @@
   contributor_type:
     - contributor
   packages-submitted: [""]
-  packages-reviewed: ["earthpy"]
+  packages-reviewed: ["pystiche"]
   packages-editor: [""]
 - name: Anita Graser
   bio: ''
