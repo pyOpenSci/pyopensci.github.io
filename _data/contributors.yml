@@ -253,3 +253,13 @@
   packages-submitted: [""]
   packages-reviewed: ["pystiche"]
   packages-editor: [""]
+- name: DOV-Vlaanderen
+  bio: ''
+  organization: "DOV-Vlaanderen"
+  github_username: DOV-Vlaanderen
+  github_image_id: 24718915
+  contributor_type:
+    - package-maintainer
+  packages-submitted: ["pydov"]
+  packages-reviewed: [""]
+  packages-editor: [""]
