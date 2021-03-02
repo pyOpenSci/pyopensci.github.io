@@ -22,3 +22,7 @@
   description: 'A Framework for Neural Style Transfer'
   maintainer: ["Philip Meier"]
   link: "https://github.com/pmeier/pystiche"
+- package-name: pydov
+  description: 'Python package to retrieve data from Databank Ondergrond Vlaanderen (DOV)'
+  maintainer: ["DOV-Vlaanderen"]
+  link: "https://github.com/DOV-Vlaanderen/pydov"
