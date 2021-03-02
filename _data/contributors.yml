@@ -253,3 +253,43 @@
   packages-submitted: [""]
   packages-reviewed: ["pystiche"]
   packages-editor: [""]
+- name: DOV-Vlaanderen
+  bio: ''
+  organization: "DOV-Vlaanderen"
+  github_username: DOV-Vlaanderen
+  github_image_id: 24718915
+  contributor_type:
+    - package-maintainer
+  packages-submitted: ["pydov"]
+  packages-reviewed: [""]
+  packages-editor: [""]
+- name: Roel Huybrechts
+  bio: ''
+  organization: ""
+  github_username: Roel
+  github_image_id: 140299
+  contributor_type:
+    - package-maintainer
+  packages-submitted: ["pydov"]
+  packages-reviewed: [""]
+  packages-editor: [""]
+- name: Stijn Van Hoey
+  bio: ''
+  organization: "Fluves"
+  github_username: stijnvanhoey
+  github_image_id: 754862
+  contributor_type:
+    - package-maintainer
+  packages-submitted: ["pydov"]
+  packages-reviewed: [""]
+  packages-editor: [""]
+- name: Pieter Jan Haest
+  bio: ''
+  organization: "De Watergroep"
+  github_username: pjhaest
+  github_image_id: 22764347
+  contributor_type:
+    - package-maintainer
+  packages-submitted: ["pydov"]
+  packages-reviewed: [""]
+  packages-editor: [""]
