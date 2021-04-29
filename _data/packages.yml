@@ -26,3 +26,7 @@
   description: 'Python package to retrieve data from Databank Ondergrond Vlaanderen (DOV)'
   maintainer: ["DOV-Vlaanderen"]
   link: "https://github.com/DOV-Vlaanderen/pydov"
+- package-name: openomics
+  description: 'A bioinformatics library to integrate multi-omics datasets & interface with public annotation databases.'
+  maintainer: ["Nhat Tran"]
+  link: "https://github.com/BioMeCIS-Lab/OpenOmics"
