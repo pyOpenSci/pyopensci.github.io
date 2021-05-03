@@ -293,3 +293,13 @@
   packages-submitted: ["pydov"]
   packages-reviewed: [""]
   packages-editor: [""]
+- name: Nhat (Jonny) Tran
+  bio: ''
+  organization: "University of Texas at Arlington"
+  github_username: JonnyTran
+  github_image_id: 4750391
+  contributor_type:
+    - package-maintainer
+  packages-submitted: ["openomics"]
+  packages-reviewed: [""]
+  packages-editor: [""]
