@@ -303,3 +303,13 @@
   packages-submitted: ["openomics"]
   packages-reviewed: [""]
   packages-editor: [""]
+- name: Katharina Sielemann
+  bio: ''
+  organization: "Bielefeld University"
+  github_username: ksielemann
+  github_image_id: 62541949
+  contributor_type:
+    - reviewer
+  packages-submitted: [""]
+  packages-reviewed: ["openomics"]
+  packages-editor: [""]  
