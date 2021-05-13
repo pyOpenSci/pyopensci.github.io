@@ -313,3 +313,14 @@
   packages-submitted: [""]
   packages-reviewed: ["openomics"]
   packages-editor: [""]  
+- name: Moritz Lürig
+  bio: 'postdoc in ecology and evolution'
+  organization: "Lund University"
+  github_username: mluerig
+  github_image_id: 15648068
+  contributor_type:
+    - contributor
+    - package-maintainer
+  packages-submitted: ["phenopype"]
+  packages-reviewed: [""]
+  packages-editor: [""]
