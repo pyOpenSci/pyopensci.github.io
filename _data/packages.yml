@@ -30,3 +30,7 @@
   description: 'A bioinformatics library to integrate multi-omics datasets & interface with public annotation databases.'
   maintainer: ["Nhat Tran"]
   link: "https://github.com/BioMeCIS-Lab/OpenOmics"
+  - package-name: phenopype
+  description: 'A phenotyping pipeline for Python.'
+  maintainer: ["Moritz Lürig"]
+  link: "https://github.com/mluerig/phenopype"
