@@ -1,3 +1,13 @@
+- name: Ariane Sasso
+  bio: 'Researcher in Medical Informatics and Digital Health'
+  organization: "Hasso Plattner Institute"
+  github_username: arianesasso
+  github_image_id: 3659681 # You can find this by right clicking on the image in your bio, and copying the link. the last part contains a 7 digit number that is your avatar image!
+  contributor_type:
+    - package-maintainer
+  packages-editor: [""]
+  packages-submitted: ["devicely"]
+  packages-reviewed: [""]
 - name: Leah Wasser
   bio: 'Director of Earth Analytics Education - Earth Lab'
   organization: "Earth Lab, University of Colorado - Boulder"
