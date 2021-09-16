@@ -335,3 +335,14 @@
   packages-submitted: ["physcraper"]
   packages-reviewed: [""]
   packages-editor: [""]
+- name: Luna L. Sanchez Reyes
+  bio: 'Postdoctoral Researcher: Evoliutionary biology and Open Science for phylogenetics research and education.'
+  organization: "University of California, Merced"
+  github_username: LunaSare
+  github_image_id: 26721915
+  contributor_type:
+    - contributor
+    - package-maintainer
+  packages-submitted: ["physcraper"]
+  packages-reviewed: [""]
+  packages-editor: [""]
