@@ -14,6 +14,10 @@
   description: 'Trajectory classes and functions built on top of GeoPandas'
   maintainer: ["Anita Graser"]
   link: "https://github.com/anitagraser/movingpandas"
+- package-name: physcraper
+  description: 'Physcraper: a Python package for continually updated phylogenetic trees using the Open Tree of Life'
+  maintainer: ["Luna Luisa Sánchez-Reyes", "Martha Kandziora", "Emily Jane McTavish"]
+  link: "https://github.com/McTavishLab/physcraper"
 - package-name: pyrolite
   description: 'Tools for getting the most from your geochemical data'
   maintainer: ["Morgan Williams"]
