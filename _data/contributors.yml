@@ -324,3 +324,25 @@
   packages-submitted: ["phenopype"]
   packages-reviewed: [""]
   packages-editor: [""]
+  - name: Emily Jane McTavish 
+  bio: 'Assistant Professor, Life and Environmental Sciences'
+  organization: "University of California, Merced"
+  github_username: snacktavish
+  github_image_id: 1652782
+  contributor_type:
+    - contributor
+    - package-maintainer
+  packages-submitted: ["physcraper"]
+  packages-reviewed: [""]
+  packages-editor: [""]
+- name: Luna L. Sanchez Reyes
+  bio: 'Postdoctoral Researcher: Evolutionary biology and Open Science for phylogenetics research and education.'
+  organization: "University of California, Merced"
+  github_username: LunaSare
+  github_image_id: 26721915
+  contributor_type:
+    - contributor
+    - package-maintainer
+  packages-submitted: ["physcraper"]
+  packages-reviewed: [""]
+  packages-editor: [""]
