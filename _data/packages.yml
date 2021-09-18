@@ -1,3 +1,7 @@
+- package-name: devicely
+  description: 'Devicely: A Python package for reading, timeshifting and writing sensor data'
+  maintainer: ["Ariane Sasso", "Jost Morgenstern", "Felix Musmann", "Bert Arnrich"]
+  link: "https://github.com/hpi-dhc/devicely"
 - package-name: earthpy
   description: 'Explore and plot raster and vector spatial data using open source Python tools.'
   maintainer: ["Leah Wasser", "Max Joseph"]
