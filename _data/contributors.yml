@@ -322,7 +322,7 @@
     - reviewer
   packages-submitted: [""]
   packages-reviewed: ["openomics"]
-  packages-editor: [""]  
+  packages-editor: [""]
 - name: Moritz Lürig
   bio: 'postdoc in ecology and evolution'
   organization: "Lund University"
@@ -334,7 +334,7 @@
   packages-submitted: ["phenopype"]
   packages-reviewed: [""]
   packages-editor: [""]
-  - name: Emily Jane McTavish 
+- name: Emily Jane McTavish
   bio: 'Assistant Professor, Life and Environmental Sciences'
   organization: "University of California, Merced"
   github_username: snacktavish
