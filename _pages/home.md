@@ -37,7 +37,7 @@ There are many different ways to get involved with pyOpenSci.
 3. **Submit a package to pyOpenSci**. We are looking for Python packages that
    support scientific Python community. Read more about our
    [review process and scope](https://www.pyopensci.org/contributing-guide/open-source-software-peer-review/aims-and-scope.html).
-4. <a href="https://forms.gle/wvwLaLQre58YLHpD6" target="_blank">**Volunteer to be a reviewer for pyOpenSci**</a>. We are looking for people who
+4. <a href="https://forms.gle/6NknPgrZguaQayjP8" target="_blank">**Volunteer to be a reviewer for pyOpenSci**</a>. We are looking for people who
    can help review software packages as they are submitted.
 5. **Help with technical infrastructure**. pyOpenSci has a few pieces of technical
    infrastructure (like this site) which need maintenance and development.
