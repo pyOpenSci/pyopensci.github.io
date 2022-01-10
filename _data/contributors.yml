@@ -356,3 +356,13 @@
   packages-submitted: ["physcraper"]
   packages-reviewed: [""]
   packages-editor: [""]
+- name: K. Arthur Endsley
+  bio: 'Computational Geoscientist'
+  organization: "W.A. Franke College of Forestry and Conservation, University of Montana"
+  github_username: arthur-e
+  github_image_id: 1211103
+  contributor_type:
+    - reviewer
+  packages-submitted: [""]
+  packages-reviewed: ["Jointly"]
+  packages-editor: [""]
