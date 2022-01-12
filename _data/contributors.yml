@@ -356,3 +356,13 @@
   packages-submitted: ["physcraper"]
   packages-reviewed: [""]
   packages-editor: [""]
+- name: Alejandro Sáez Mollejo
+  bio: 'Aerospace engineer'
+  organization: ""
+  github_username: alexs12
+  github_image_id: 6061587
+  contributor_type:
+    - reviewer
+  packages-submitted: [""]
+  packages-reviewed: ["jointly"]
+  packages-editor: [""]
