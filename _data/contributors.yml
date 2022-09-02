@@ -257,8 +257,8 @@
   packages-reviewed: ["sevivi"]
   packages-editor: [""]
 - name: Edgar Riba
-  bio: ''
-  organization: "OSVF / OpenCV.org"
+  bio: "Computer Vision Research Engineer"
+  organization: "Farm-ng, Kornia/OpenCV.org"
   github_username: edgarriba
   github_image_id: 5157099
   contributor_type:
