@@ -47,9 +47,11 @@
   github_username: xmnlab
   github_image_id: 5209757
   contributor_type:
-    - Reviewer
+    - reviewer
+    - editor
   packages-submitted: [""]
   packages-reviewed: ["pandera"]
+  packages-editor: ["sevivi"]
 - name: Luiz Irber
   bio: ''
   organization: "DIB Lab -- UC Davis"
@@ -250,8 +252,9 @@
   github_image_id: 6849766
   contributor_type:
     - package-maintainer
+    - reviewer
   packages-submitted: ["pystiche"]
-  packages-reviewed: [""]
+  packages-reviewed: ["sevivi"]
   packages-editor: [""]
 - name: Edgar Riba
   bio: ''
@@ -261,7 +264,7 @@
   contributor_type:
     - reviewer
   packages-submitted: [""]
-  packages-reviewed: ["pystiche"]
+  packages-reviewed: ["pystiche", "sevivi"]
   packages-editor: [""]
 - name: DOV-Vlaanderen
   bio: ''
