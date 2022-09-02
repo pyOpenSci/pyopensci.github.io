@@ -247,7 +247,7 @@
   packages-editor: [""]
 - name: Philip Meier
   bio: 'PhD student working on Neural Style Transfer'
-  organization: "inIT - Institute Industrial IT, Technische Hochschule Ostwestfalen-Lippe (TH OWL)"
+  organization: "Quansight"
   github_username: pmeier
   github_image_id: 6849766
   contributor_type:
