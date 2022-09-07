@@ -9,8 +9,8 @@
   packages-submitted: ["devicely"]
   packages-reviewed: [""]
 - name: Leah Wasser
-  bio: 'Director of Earth Analytics Education - Earth Lab'
-  organization: "Earth Lab, University of Colorado - Boulder"
+  bio: 'Executive Director, pyOpenSci'
+  organization: "pyOpenSci"
   github_username: lwasser
   github_image_id: 7649194 # You can find this by right clicking on the image in your bio, and copying the link. the last part contains a 7 digit number that is your avatar image!
   contributor_type:
