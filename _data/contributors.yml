@@ -379,3 +379,13 @@
   packages-submitted: [""]
   packages-reviewed: ["jointly"]
   packages-editor: [""]
+- name: Julius Busecke
+  bio: ''
+  organization: "Columbia University"
+  github_username: jbusecke
+  github_image_id: 14314623
+  contributor_type:
+    - reviewer
+  packages-submitted: [""]
+  packages-reviewed: ["PyGMT"]
+  packages-editor: [""]
