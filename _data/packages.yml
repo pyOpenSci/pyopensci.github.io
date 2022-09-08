@@ -46,3 +46,7 @@
   description: 'A phenotyping pipeline for Python.'
   maintainer: ["Moritz Lürig"]
   link: "https://github.com/mluerig/phenopype"
+- package-name: pygmt
+  description: 'A Python interface for the Generic Mapping Tools.'
+  maintainer: ["Dongdong Tian", "Max Jones", "Michael Grund", "Wei Ji Leong", "Will Schlitzer"]
+  link: "https://github.com/GenericMappingTools/pygmt"
