@@ -4,7 +4,7 @@ title: "Big Changes for pyOpenSci - an update from the new executive director, l
 excerpt: "pyOpenSci has recently transitioned to a fiscal sponsor and has a new executive director - Leah Wasser. Learn more about our goals over the next few years and how to get involved with the community."
 author: "Leah Wasser"
 categories:
-  - package-review
+  - pyopensci-updates
 ---
 
 
