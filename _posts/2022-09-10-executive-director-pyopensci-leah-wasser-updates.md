@@ -90,7 +90,7 @@ There are a few ways to get involved with us now.
 1. Our open peer review process is running! If you have a package that you are working on, [you can submit it to our peer review process](https://github.com/pyOpenSci/software-review/issues).
   * You can learn more about our review process here in our [community guide (which will be updated in the upcoming months so that it is more clear)](https://www.pyopensci.org/contributing-guide/open-source-software-peer-review/aims-and-scope.html).
   * If you have a package that you wish to submit but need some guidance, you can also submit a presubmission inquiry or a request for help here.
-1. You can [follow us on twitter](https://www.twitter.com/pyopensci) to keep tabs on our progress. 
+2. You can [follow us on twitter](https://www.twitter.com/pyopensci) to keep tabs on our progress.
 
 If you want to stay in touch with me, feel free to follow me on
 ([twitter: @leahawasser](https://www.twitter.com/leahawasser)). Or connect with
