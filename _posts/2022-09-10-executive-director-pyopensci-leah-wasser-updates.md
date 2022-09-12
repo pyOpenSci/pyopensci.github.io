@@ -28,7 +28,7 @@ affiliated with any specific organization. I (Leah) will now be devoting ALL of 
 I am grateful for two years of funding from the Sloan Foundation to 
 support this effort. Once I acquire additional funding, I 
 will be able to hire more staff to grow the organization. I am working with a 
-board of two right now: Tracy Teal (chair) and Karen Cranston. They both bring 
+board of two right now: Tracy Teal (chair) and [Karen Cranston](https://karencranston.ca/). They both bring 
 tremendous experience building and supporting The Carpentries, among other 
 efforts; Tracy and Karen will guide me in propelling pyOpenSci forward. I also am 
 working with two incredible editors that have been crucial in supporting peer 
