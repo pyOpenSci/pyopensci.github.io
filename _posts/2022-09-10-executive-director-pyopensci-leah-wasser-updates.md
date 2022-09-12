@@ -32,8 +32,8 @@ board of two right now: Tracy Teal (chair) and [Karen Cranston](https://karencra
 tremendous experience building and supporting The Carpentries, among other 
 efforts; Tracy and Karen will guide me in propelling pyOpenSci forward. I also am 
 working with two incredible editors that have been crucial in supporting peer 
-review: [David Nicholson](https://nicholdav.info/) and Ivan Ogasawara. In the upcoming months we will 
-recruit more editors to support our open source software review process. 
+review: [David Nicholson](https://nicholdav.info/) and [Ivan Ogasawara](https://xmnlab.github.io/). 
+In the upcoming months we will recruit more editors to support our open source software review process. 
 Finally, I am also continuing to coordinate with and learn from the 
 well-established and successful [rOpenSci](https://www.ropensci.org). 
 rOpenSci has a strong precedent for open, community-driven peer review. Our 
