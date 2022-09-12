@@ -28,7 +28,7 @@ affiliated with any specific organization. I (Leah) will now be devoting ALL of 
 I am grateful for two years of funding from the Sloan Foundation to 
 support this effort. Once I acquire additional funding, I 
 will be able to hire more staff to grow the organization. I am working with a 
-board of two right now: Tracy Teal (chair) and Karen Cranston. They both bring 
+board of two right now: Tracy Teal (chair) and [Karen Cranston](https://karencranston.ca/). They both bring 
 tremendous experience building and supporting The Carpentries, among other 
 efforts; Tracy and Karen will guide me in propelling pyOpenSci forward. I also am 
 working with two incredible editors that have been crucial in supporting peer 
@@ -58,7 +58,7 @@ open peer review process and Python open science skills. Diversity is important 
 
 ### We will also continue to curate our partnership with the Journal of Open Source Software (JOSS). 
 Package maintainers can still submit a package to us if they wish to publish with 
-JOSS. Our partnership supports a "fast track" review in JOSS if its functionality 
+[the Journal of Open Source Software (JOSS)](https://joss.theoj.org/). Our partnership supports a "fast track" review in JOSS if its functionality 
 fits their scope and requirements. Once a package is accepted by pyOpenSci, if 
 the package fits into the JOSS scope our review will be accepted by JOSS. A package 
 author then only needs to write a paper for JOSS, and they will be "dual"
