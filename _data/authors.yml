@@ -5,10 +5,10 @@ Leah Wasser:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:leah.wasser@colorado.edu"
+      url: "mailto:leah@pyopensci.org"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://leahwasser.com"
+      url: "https://www.leahwasser.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/leahawasser"
