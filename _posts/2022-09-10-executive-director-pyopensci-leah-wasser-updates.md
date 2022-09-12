@@ -39,15 +39,15 @@ community has a lot to learn from rOpenSci. I am grateful for their
 continued support. 
 
 ## pyOpenSci is not just peer review of open source software 
-Peer review is critical to the pyOpenSci mission but have bigger and broader 
-aspirations too. There are several organization 
+Peer review is critical to the pyOpenSci mission. But I have pyOpenSci  bigger 
+and broader aspirations for pyOpenSci, too. There are several organizational 
 goals supported by the Sloan Foundation grant that we will be working on over 
 the next few years:
 * Create and grow a diverse and supportive community around a dynamic and 
 open peer review process and Python open science skills. Diversity is important and we plan to bake diversity focused programs into all of pyOpenSci activities from the beginning.
-* Streamline and improve the quality of smaller (think api wrappers, spatial data tools and domain specific tools rather than Numpy and Pandas) Python Scientific Open Source software tools that support scientific workflows.   
-  * We do this through peer review which assess not only code but and usability, documentation and ensures alignment with community accepted standards for packaging.
-  * Our peer review processing considers usability of the tools which includes documentation and “vignettes” that showcase tool functionality and provide easy quickstarts for users. 
+* Streamline and improve the quality of smaller Python Scientific Open Source software tools that support scientific workflows: think api wrappers, spatial data tools and domain specific tools rather than Numpy and Pandas.  
+  * We do this through peer review which not only assess code quality, testing infrastructure and CI setup. Our peer review also evaluates tool usability, documentation clarity and ensures alignment with community accepted standards for Python packaging.
+  * One way our peer review process fosters usability of the tools is by ensuring documentation includes vignettes that showcase tool functionality and provide easy quickstarts for users. 
   * Once tools are accepted into our ecosystem, we will track tool maintenance and find new maintainers, or support sunsetting as it makes sense to ensure users aren't left hanging.
   * Through peer review we will also address redundancy in tool functionality across the scientific Python ecosystem.
 * Create a model to support peer review within domain specific subcommunities. We will begin our work here with the Pangeo community. Here, we will support a peer review process with community-specific standards applied on top of ours to ensure tool consistency.   
@@ -57,8 +57,8 @@ open peer review process and Python open science skills. Diversity is important 
 ### We will also continue to curate our partnership with the Journal of Open Source Software (JOSS). 
 Package maintainers can still submit a package to us if they wish to publish with 
 JOSS. Our partnership supports a "fast track" review in JOSS if its functionality 
-fits their scope and requirements. Once a package is accepted by pyOpenSci , if 
-the package fits into the JOSS scope our review will count towards JOSS. A package 
+fits their scope and requirements. Once a package is accepted by pyOpenSci, if 
+the package fits into the JOSS scope our review will be accepted by JOSS. A package 
 author then only needs to write a paper for JOSS, and they will be "dual"
 published with us and JOSS. This, friends, is a win-win!
 
