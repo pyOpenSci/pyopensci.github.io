@@ -88,12 +88,10 @@ will accomplish a lot in the next two years and look forward to and will greatly
 value support from some of you along the way!
 
 ## Stay in touch!
-There are many ways to stay in touch with our project. Once I have a road map 
-for activities developed, I will communicate this here on our 
+Once I have a road map for activities developed, I will communicate this here on our 
 [website](https://www.pyopensci.org/), [on Twitter](https://www.twitter.com/pyopensci) 
-and [on discourse](https://pyopensci.discourse.group/).So be sure to 
-follow [@pyOpenSci on Twitter](https://www.twitter.com/pyopensci) and sign 
-up for Discourse! 
+and [on discourse](https://pyopensci.discourse.group/). So be sure to 
+follow us on Twitter and sign up for Discourse! 
 
 ## What can you do now?
 There are a few ways to get involved with us now.
