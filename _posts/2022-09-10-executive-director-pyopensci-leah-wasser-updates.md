@@ -16,7 +16,7 @@ categories:
 ## pyOpenSci is now an independent community organization
 
 I am thrilled to announce that pyOpenSci is now a fiscally sponsored project of 
-<a href="https://communityin.org/our-projects/support-a-project/" target="blank">Community Initiatives</a>! This means that pyOpenSci now serves the community of 
+[Community Initiatives](https://communityin.org/our-projects/support-a-project/)! This means that pyOpenSci now serves the community of 
 scientific Python users and open source software maintainers. pyOpenSci is not 
 affiliated with any specific organization. I (Leah) will now be devoting ALL of my 
 (work :grin: ) time to the pyOpenSci project full time as the official Executive Director. 
@@ -30,12 +30,13 @@ board of two right now: Tracy Teal (chair) and Karen Cranston. They both bring
 tremendous experience building and supporting The Carpentries, among other 
 efforts; Tracy and Karen will guide me in propelling pyOpenSci forward. I also am 
 working with two incredible editors that have been crucial in supporting peer 
-review: David Nicholson and Ivan Ogasawara. In the upcoming months we will 
+review: [David Nicholson](https://nicholdav.info/) and Ivan Ogasawara. In the upcoming months we will 
 recruit more editors to support our open source software review process. 
 Finally, I am also continuing to coordinate with and learn from the 
-well-established and successful rOpenSci. rOpenSci has set the precedent for 
-this type of organization in this space and I am grateful for their ongoing 
-support. 
+well-established and successful [rOpenSci](https://www.ropensci.org). 
+rOpenSci has a strong precedent for open, community-driven peer review. Our 
+community has a lot to learn from rOpenSci. I am grateful for their
+continued support. 
 
 ## pyOpenSci is not just peer review of open source software 
 Peer review is critical to the pyOpenSci mission but have bigger and broader 
