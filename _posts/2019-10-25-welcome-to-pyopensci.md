@@ -3,8 +3,12 @@ layout: single
 title: "Welcome to the pyOpenSci Blog!"
 excerpt: "pyOpenSci is a community organization devoted to the development of robust open source Python software to support science."
 author: "Leah Wasser"
+permalink: blog/welcome-to-pyopensci/
+header:
+    overlay_filter: 0.6
+    overlay_color: "#333" 
 categories:
-  - package-review
+  - updates
 ---
 
 ## Welcome To PyOpenSci!
