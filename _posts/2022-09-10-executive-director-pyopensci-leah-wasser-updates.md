@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Big Changes for pyOpenSci - an update from the new executive director, leah wasser, what's next?"
+title: "Big Changes for pyOpenSci: an update from the new Executive Director, Leah Wasser, what's next?"
 excerpt: "pyOpenSci has recently transitioned to a fiscal sponsor and has a new executive director - Leah Wasser. Learn more about our goals over the next few years and how to get involved with the community."
 author: "Leah Wasser"
 permalink: /blog/new-executive-director-leah-wasser
@@ -16,14 +16,14 @@ categories:
 ## pyOpenSci is now an independent community organization
 
 I am thrilled to announce that pyOpenSci is now a fiscally sponsored project of 
-Community Initiatives! This means that pyOpenSci now serves the community of 
-scientific python users and open source software maintainers. pyOpenSci is not 
+<a href="https://communityin.org/our-projects/support-a-project/" target="blank">Community Initiatives</a>! This means that pyOpenSci now serves the community of 
+scientific Python users and open source software maintainers. pyOpenSci is not 
 affiliated with any specific organization. I (Leah) will now be devoting ALL of my 
-(work :)) time to the pyOpenSci project full time as the official Executive Director. 
+(work :grin: ) time to the pyOpenSci project full time as the official Executive Director. 
 
 ## pyOpenSci’s current funding and structure
 
-I am grateful for 2 years of funding from the Sloan Foundation to 
+I am grateful for two years of funding from the Sloan Foundation to 
 support this effort. Once I acquire additional funding, I 
 will be able to hire more staff to grow the organization. I am working with a 
 board of two right now: Tracy Teal (chair) and Karen Cranston. They both bring 
@@ -48,7 +48,7 @@ open peer review process and Python open science skills. Diversity is important 
   * We do this through peer review which assess not only code but and usability, documentation and ensures alignment with community accepted standards for packaging.
   * Our peer review processing considers usability of the tools which includes documentation and “vignettes” that showcase tool functionality and provide easy quickstarts for users. 
   * Once tools are accepted into our ecosystem, we will track tool maintenance and find new maintainers, or support sunsetting as it makes sense to ensure users aren't left hanging.
-  * Through peer review we will also address redundancy in tool functionality across the scientific python ecosystem.
+  * Through peer review we will also address redundancy in tool functionality across the scientific Python ecosystem.
 * Create a model to support peer review within domain specific subcommunities. We will begin our work here with the Pangeo community. Here, we will support a peer review process with community-specific standards applied on top of ours to ensure tool consistency.   
 * Provide training and mentorship in skills needed to contribute to open source. These skills are not just for open source. They are also fundamental to good open science practices and will support career trajectories in open science too. 
 * Grow support for maintainers. A critical component of this effort will be a communication campaign around the importance of open source to science. 
@@ -62,7 +62,10 @@ author then only needs to write a paper for JOSS, and they will be "dual"
 published with us and JOSS. This, friends, is a win-win!
 
 ## Who does pyOpenSci serve?
-pyOpenSci supports maintainers of smaller scientific python open source projects. 
+pyOpenSci supports software tools for open science and domain specific 
+scientific projects. These tools and packages can act as glue that holds a 
+research community together, but they haven't always received as much support 
+as the foundational frameworks that are widely used (e.g. Pandas, numpy, scipy).
 We also support scientists using these tools and will empower folks like you 
 with the skills needed to both contribute to Open Source and improve your open 
 science workflows! In the long term these skills will be invaluable in your 
@@ -84,9 +87,10 @@ value support from some of you along the way!
 ## Stay in touch!
 There are many ways to stay in touch with our project. Once I have a road map 
 for activities developed, I will communicate this here on our 
-[website](https://www.pyopensci.org/), Twitter 
-and [discourse](https://pyopensci.discourse.group/). Discourse is full open
-You can sign up for it using your GitHub account if you wish. So be sure to follow [@pyOpenSci on Twitter](https://www.twitter.com/pyopensci). 
+[website](https://www.pyopensci.org/), [on Twitter](https://www.twitter.com/pyopensci) 
+and [on discourse](https://pyopensci.discourse.group/).So be sure to 
+follow [@pyOpenSci on Twitter](https://www.twitter.com/pyopensci) and sign 
+up for Discourse! 
 
 ## What can you do now?
 There are a few ways to get involved with us now.
@@ -106,13 +110,13 @@ me on [GitHub](https://www.github.com/lwasser).
 I would be remiss if I didn't take a moment to thank the huge suite of community
 members who participated in early meetings and discussions surrounding pyOpenSci.
 Please note that this list is not comprehensive and likely misses folks who 
-attended discussions held at sciPy a few years prior to my involvement and those
-who's names I am missing on meeting notes. Feel free to reach out and ask for 
+attended discussions held at the SciPy Conference a few years prior to my involvement and those
+whose names I am missing on meeting notes. Feel free to reach out and ask for 
 corrections as needed!  Max Joseph, Jenny Palomino, Kylen Solvik, Chris Holdgraf, 
 Paige Bailey, Luiz Irber,
 Arfon Smith, Leonardo Uieda, Filipe Fernandes, Carson Farmer, Neil Chue Hong,
-Joe Hamman, Ryan Abernathy, Lindsey Heagy, Mike Trizna, Noam Ross, Karthik Ram, Martin Skarzynski,
-Levi Wolf, Daniel Chen, Ivan Ogsawara, David Nicholson, Tania Allard, 
+Joe Hamman, Ryan Abernathy, Lindsey Heagy, Mike Trizna, Noam Ross, Karthik Ram,
+Martin Skarzynski, Levi Wolf, Daniel Chen, Ivan Ogsawara, David Nicholson, Tania Allard, 
 Kirstie Whitaker, Sander van Rijn, Philip Meier, Moritz Lurig ... and so many 
 more!
 
