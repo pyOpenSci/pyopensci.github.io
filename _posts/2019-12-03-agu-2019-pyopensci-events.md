@@ -8,7 +8,8 @@ header:
     overlay_color: "#333"
     caption:
 categories:
-  - events
+  - updates
+  - blog-post
 ---
 
 
