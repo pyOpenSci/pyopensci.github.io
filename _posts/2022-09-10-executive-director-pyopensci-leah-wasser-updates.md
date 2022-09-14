@@ -10,6 +10,7 @@ header:
 categories:
   - updates
   - blog-post
+  - highlight
 redirect_from:
   - /pyopensci-updates/executive-director-pyopensci-leah-wasser-updates/
 ---
