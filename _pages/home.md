@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: splash
 title: "Welcome to pyOpenSci"
 author_profile: false
 published: true
@@ -9,81 +9,91 @@ header:
     overlay_image: images/header.jpg
     overlay_filter: 0.6
     actions:
-        - label: "Resources"
-          url: "/resources/"
-        - label: "GitHub"
-          url: "https://github.com/pyOpenSci"
+        - label: "Submit a Package"
+          url: "https://github.com/pyOpenSci/software-review/issues"
+        - label: "Read our Handbook"
+          url: "/contributing-guide/intro)"
+mission:
+  - excerpt: 'We build diverse community that supports free and open Python tools for processing scientific data. We also build technical skills needed to contribute to open source and that support open science. Join our global community.'
+programs:
+  - image_path: images/brooke-cagle-group-unsplash.png
+    image_caption: "Brooke Cagle, Unsplash"
+    alt: "placeholder image 1"
+    title: "Diverse Community"
+    excerpt: "We are building a diverse and supportive community with skills that support open source and open science. Join us ... <why do they want to join??>"
+  - image_path: images/desola-lanre-ologun-unsplash.png
+    image_caption: "Desola Lanre Ologun, Unsplash"
+    alt: "placeholder image 2"
+    title: "Open Peer Review"
+    excerpt: "Our open peer review process of Python tools supports standardized software quality and usability. It also provides needed credit and visibility to tool maintainers. Finally it removes redundancy of packages with similar functionaly across the scientific Python ecosystem."
+    #url: "#test-link"
+    #btn_label: "Read More (link to where?)"
+    #btn_class: "btn--primary"
+  - image_path: images/brooke-cagle-unsplash.png
+    title: "Skills for Open Source and Open Science"
+    image_caption: "Brooke Cagle, Unsplash"
+    excerpt: "We provide mentorship to support those who are new to peer review and training in the skills needed to contribute 
+    to open source. These same skills will jump start your open science skills and .. career trajectory...."
 ---
 
-## About pyOpenSci
+{% include feature_row id="mission" type="center" %}
+{% include feature_row id="programs"%}
 
-pyOpenSci promotes open and reproducible research through peer-review of
-scientific Python packages. We also build technical capacity by providing a
-curated repository of high-quality packages and enabling scientists to write
-and share their own software. We hope to foster a greater sense of community
-among scientific Python users so that we can help each other become better
-programmers and researchers. See our [list of Python packages]({% link _pages/python-packages.md %})
-for an idea of the open-source projects that pyOpenSci has assisted.
+<Something here to break things up***>
 
-pyOpenSci is being modeled after the successful [rOpenSci](https://ropensci.org/) community.
 
-## Get Involved
+<div class="notice--info" markdown="1">
+## Recent Community Updates
 
-There are many different ways to get involved with pyOpenSci.
+<div class="feature__wrapper">
+   {% for post in site.categories['highlight'] limit:3 %}
+   <div class="feature__item">
+      <div class="archive__item">
+         <div class="archive__item-body">
+            <h2 class="archive__item-title"><a href="{{ site.baseurl }}{{ post.url}}" rel="permalink">{{ post.title }}</a></h2>
+            <div class="archive__item-excerpt">
+               <p>{{ post.excerpt | markdownify }}</p>
+            </div>
+         </div>
+      </div>
+   </div>
+   {% endfor %}
+</div>
+Change color of button and make it bigger with <<- or some sort of icon>>
+<p><a href="/python-packages/" class="btn btn--info btn--large">View All Posts <i class="fa fa-4 fa-arrow-circle-right" aria-hidden="true"></i></a></p>
 
-1. **[Join a community meeting](#community-meetings)**: We have monthly video meetings that you are welcome to attend.
-2. **[Join our community forum](https://pyopensci.discourse.group/)**. This is an online space
-   for discussion within the pyOpenSci community. Announcements for new meetings will be posted here.
-3. **Submit a package to pyOpenSci**. We are looking for Python packages that
-   support scientific Python community. Read more about our
-   [review process and scope](https://www.pyopensci.org/contributing-guide/open-source-software-peer-review/aims-and-scope.html).
-4. <a href="https://forms.gle/6NknPgrZguaQayjP8" target="_blank">**Volunteer to be a reviewer for pyOpenSci**</a>. We are looking for people who
-   can help review software packages as they are submitted.
-5. **Help with technical infrastructure**. pyOpenSci has a few pieces of technical
-   infrastructure (like this site) which need maintenance and development.
-6. **Spread the word**! pyOpenSci is a community-driven project. Tell your friends,
-   recommend that a colleague submit a package, mention us at conferences, spread the word!
-7. Help us build our online presence! We need help spreading the word to the community using social media. Help us by talking about pyopensci at a meeting and / or  supporting our social media presence. Do you have graphic skills? We will also need a logo at some point!
+</div>
 
-### Community meetings
 
-Currently, the pyOpenSci team holds community meetings roughly every 2 weeks. These are
-held remotely, and open to anyone who would like to attend. We discuss ideas for improving
-the process / technology / community management / etc of the pyOpenSci community, and
-would value your participation!
+<!-- packages reviewed -->
+<br clear="both">
 
-The best place to find information about the next community meeting is
-[in the community forum](https://pyopensci.discourse.group). We post dates / times
-for new meetings there.
+## Recently Accepted Python Packages
 
-### Who's Involved
+TODO: add highlight flag on tools we want here and implement in 
+the code below. i'm thinking pandera, moving pandas... pygmt
+maybe we can add a "just accepted" icon too??
 
-See our [contributors page]({% link _pages/contributors.md %}) for a list of the contributors
-in the pyOpenSci community.
+<div class="grid__wrapper">
+   {% for apackage in site.data.packages limit:4 %}
+   <div class="grid__item">
+      <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+         <h2 class="archive__item-title no_toc" itemprop="headline">
+            <a href="{{ apackage.link }}" rel="permalink">{{ apackage.package-name }}</a>
+         </h2>
+         <!-- This section is throwing off the next - not sure why-->
+         <p class="page__meta">
+            <span class="page__meta-readtime"><i class="far fa-clock" aria-hidden="true"></i>
+            <!-- Commas in between authors -->
+            {% for aMaintainer in apackage.maintainer %}  
+            {{ aMaintainer }}{% if forloop.last == false %}, {% endif %}
+            {% endfor %}
+            </span>
+         </p>
+         <p class="archive__item-excerpt" itemprop="description">{{ apackage.description | markdownify }}</p>
+      </article>
+   </div>
+   {% endfor %}
+   <a href="/python-packages/" class="btn btn--info">View All Accepted Packages</a>
 
-## FAQ
-
-### What's the difference between pyOpenSci and JOSS?
-
-The [Journal of Open Source Software](https://joss.theoj.org/) is a community dedicated
-to improving the visibility and quality of scientific software. They do
-so by providing a review and publishing process similar to pyOpenSci so that authors
-of packages can publish their packages with a DOI and citable artifact.
-JOSS reviews are [more limited scope](https://joss.readthedocs.io/en/latest/review_criteria.html) compared to pyOpenSci and the
-[submission criteria](https://joss.readthedocs.io/en/latest/review_criteria.html)
-are, in places, less stringent than those of pyOpenSci.
-
-pyOpenSci encourages a more hands-on approach in the review process, and
-focuses more around software best-practices than publishing.
-We encourage our reviewers to provide more hands-on assistance and
-give more in-depth feedback than is typically required in JOSS. The goal
-of pyOpenSci is to ensure that all of its packages meet a minimum level
-of best practices and standards, and our review processes often take longer
-in order to help authors reach this bar. pyOpenSci also accepts some packages
-that JOSS does not such as API wrappers to access data.
-
-pyOpenSci has a close relationship with JOSS, and we see these two communities
-as complementary of one another. **Any package that passes the pyOpenSci review and is [within scope](https://joss.readthedocs.io/en/latest/submitting.html#submission-requirements) for JOSS
-can be fast-tracked through the JOSS review process** (with the exception of a few
-JOSS-specific tasks you may need to perform). We hope that this encourages
-authors to submit to both JOSS and pyOpenSci.
+</div>
