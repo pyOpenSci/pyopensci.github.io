@@ -13,6 +13,7 @@ categories:
   - pandas
   - data-validation
   - dataframes
+  - highlight
 ---
 
 Modern data engineering and analysis workflows will often involve using data

@@ -17,7 +17,7 @@ a community of practice around scientific software in Python.
 of today!
 
 
-## How can I contribute?
+## How Can I Contribute?
 
 There are many different ways to get involved with pyOpenSci! Contributions
 of all kinds are welcome - big and small, technical and non-technical.

@@ -1,13 +1,12 @@
 # main links
 main:
-
-  - title: "Get In Touch"
-    url: /get-involved-contact/
-  - title: "Contributors"
-    url: /contributors/
   - title: "Resources"
     url: /resources/
   - title: "Our Packages"
     url: /python-packages/
   - title: "Blog"
     url: /blog/
+  - title: "Contributors"
+    url: /contributors/
+  - title: "Get In Touch"
+    url: /get-involved-contact/

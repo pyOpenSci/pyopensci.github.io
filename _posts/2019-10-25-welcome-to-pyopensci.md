@@ -9,6 +9,7 @@ header:
     overlay_color: "#333" 
 categories:
   - updates
+  - blog-post
 ---
 
 ## Welcome To PyOpenSci!
