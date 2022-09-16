@@ -389,3 +389,13 @@
   packages-submitted: [""]
   packages-reviewed: ["PyGMT"]
   packages-editor: [""]
+- name: Szymon Moliński
+  bio: 'Head of Data Science | Spatial | Time Series'
+  organization: "Digitree S.A. | HackerSpace"
+  github_username: SimonMolinsky
+  github_image_id: 31246246
+  contributor_type:
+    - reviewer
+  packages-submitted: [""]
+  packages-reviewed: ["PyGMT"]
+  packages-editor: [""]
