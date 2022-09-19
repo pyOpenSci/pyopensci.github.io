@@ -298,6 +298,7 @@ defaults:
       comments: # true
       share: true
       related: true
+      toc: true
   - scope:
       path: ""
       type: posts
@@ -308,3 +309,4 @@ defaults:
       comments: # true
       share: true
       related: true
+
