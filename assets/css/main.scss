@@ -34,7 +34,7 @@ body {font-size:90%}
   display: block;
   top: 0px;
   position: relative;
-  max-width: 262px;
+  max-width: 362px;
   background-color: #f2f8f9;
   border-radius: 4px;
   padding: 32px 24px;
@@ -77,6 +77,7 @@ body {font-size:90%}
   font-size: .92em!important;
 }
 
+
 /* Fix buttons and text in notice boxes */
 .notice--info .btn.btn--info {
   color:#fff;
@@ -94,6 +95,14 @@ body {font-size:90%}
   font-size: 1.5em;
   text-decoration: none;
   font-size: 1.0em;
+}
+
+.wide__p_text{
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 66.66667%;
+    -ms-flex: 0 0 66.66667%;
+    flex: 0 0 66.66667%;
+    max-width: 66.66667%;
 }
 
 /* Adding a 3 col grid */

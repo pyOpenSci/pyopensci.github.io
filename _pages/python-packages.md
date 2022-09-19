@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: splash
 permalink: /python-packages/
 title: "pyOpenSci Open Peer Review & Accepted Packages"
 classes:
@@ -8,10 +8,12 @@ header:
     overlay_filter: 0.6
 intro:
     - excerpt: "Our open peer review process supports scientists getting credit for the work invested in open Python tools. It also supports standardization of packaging and improved package visibility."
-toc: true
+toc: false
+classes: wide
 ---
 
 {% include feature_row id="intro" type="center" %}
+
 
 
 <div class="feature__wrapper">
@@ -60,6 +62,7 @@ toc: true
   </div>
 </div>
 
+<div class="wide__p_text" markdown="1">
 # Why Peer Review for Python Scientific Software?
 Peer review of Python scientific software addresses several challenges in the 
 open source community:
@@ -74,6 +77,7 @@ open source community:
 pyOpenSci packages are community developed, submitted and reviewed. Anyone is
 welcome to submit a package to pyOpenSci to be reviewed. Once the package is reviewed,
 and accepted, pyOpenSci will promote it as a peer-reviewed tool for science!
+
 
 <div class="notice" markdown="1">
 ## What's the difference between pyOpenSci and JOSS?
@@ -106,7 +110,7 @@ JOSS reviews are [more limited in scope](https://joss.readthedocs.io/en/latest/r
 are, in places, less stringent than those of pyOpenSci.
 </div>
 
- 
+</div>
 
 
 
