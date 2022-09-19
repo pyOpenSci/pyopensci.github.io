@@ -1,11 +1,11 @@
 # main links
 main:
-  - title: "Resources"
-    url: /resources/
-  - title: "Our Packages"
+  - title: "Peer Review & Packages"
     url: /python-packages/
   - title: "Blog"
     url: /blog/
+  - title: "Resources"
+    url: /resources/
   - title: "Contributors"
     url: /contributors/
   - title: "Get In Touch"
