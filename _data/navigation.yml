@@ -4,7 +4,7 @@ main:
     url: /python-packages/
   - title: "Blog"
     url: /blog/
-   - title: "Resources"
+  - title: "Resources"
     url: /resources/
   - title: "Contributors"
     url: /contributors/
