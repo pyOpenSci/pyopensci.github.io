@@ -77,6 +77,14 @@ body {font-size:90%}
   font-size: .92em!important;
 }
 
+/* Fix people page - allow for tall images */
+.archive__item-teaser.tall {
+  max-height: 320px!important;
+}
+
+h2.clearall {
+  clear: both;
+}
 
 /* Fix buttons and text in notice boxes */
 .notice--info .btn.btn--info {

@@ -1,3 +1,46 @@
+# Staff goes here
+- name: Leah Wasser
+  sort: 3
+  bio: 'Executive Director, pyOpenSci'
+  organization: "pyOpenSci"
+  github_username: lwasser
+  github_image_id: 7649194 # You can find this by right clicking on the image in your bio, and copying the link. the last part contains a 7 digit number that is your avatar image!
+  title: "Executive Director"
+  contributor_type:
+    - leadership
+    - current editor
+    - package-maintainer
+  packages-editor: ["errdapy", "pandera", "nbless"]
+  packages-submitted: ["earthpy"]
+  packages-reviewed: [""]
+# Editors
+- name: David Nicholson
+  sort: 2
+  title: "Editor in Chief"
+  bio: ''
+  organization: ""
+  github_username: NickleDave
+  github_image_id: 11934090
+  contributor_type:
+    - current editor
+    - contributor
+  packages-submitted: [""]
+  packages-reviewed: ["pystiche"]
+  packages-editor: [""]
+- name: Ivan Ogasawara
+  sort: 1
+  bio: 'SciPy Latin America Ambassador'
+  organization: "SciPy Latin America, Ibis-framework"
+  github_username: xmnlab
+  github_image_id: 5209757
+  title: "Editor"
+  contributor_type:
+    - reviewer
+    - current-editor
+  packages-submitted: [""]
+  packages-reviewed: ["pandera"]
+  packages-editor: ["sevivi"]
+# Reviewers & maintainers go here
 - name: Ariane Sasso
   bio: 'Researcher in Medical Informatics and Digital Health'
   organization: "Hasso Plattner Institute"
@@ -7,18 +50,6 @@
     - package-maintainer
   packages-editor: [""]
   packages-submitted: ["devicely"]
-  packages-reviewed: [""]
-- name: Leah Wasser
-  bio: 'Executive Director, pyOpenSci'
-  organization: "pyOpenSci"
-  github_username: lwasser
-  github_image_id: 7649194 # You can find this by right clicking on the image in your bio, and copying the link. the last part contains a 7 digit number that is your avatar image!
-  contributor_type:
-    - leadership
-    - editor
-    - package-maintainer
-  packages-editor: ["errdapy", "pandera", "nbless"]
-  packages-submitted: ["earthpy"]
   packages-reviewed: [""]
 - name: Chris Holdgraf
   bio: 'Bio Here'
@@ -37,21 +68,9 @@
   github_username: mbjoseph
   github_image_id: 2664564
   contributor_type:
-    - leadership
     - reviewer
   packages-submitted: [""]
   packages-reviewed: ["pandera"]
-- name: Ivan Ogasawara
-  bio: 'SciPy Latin America Ambassador'
-  organization: "SciPy Latin America, Ibis-framework"
-  github_username: xmnlab
-  github_image_id: 5209757
-  contributor_type:
-    - reviewer
-    - editor
-  packages-submitted: [""]
-  packages-reviewed: ["pandera"]
-  packages-editor: ["sevivi"]
 - name: Luiz Irber
   bio: ''
   organization: "DIB Lab -- UC Davis"
@@ -59,7 +78,6 @@
   github_image_id: 6642
   contributor_type:
     - editor
-    - leadership
   packages-submitted: [""]
   packages-reviewed: [""]
   packages-editor: ["earthpy"]
@@ -89,7 +107,6 @@
   github_username: jlpalomino
   github_image_id: 4017492
   contributor_type:
-    - leadership
     - reviewer
     - contributor
   packages-editor: [""]
@@ -205,16 +222,6 @@
     - reviewer
   packages-submitted: [""]
   packages-reviewed: ["earthpy"]
-  packages-editor: [""]
-- name: David Nicholson
-  bio: ''
-  organization: ""
-  github_username: NickleDave
-  github_image_id: 11934090
-  contributor_type:
-    - contributor
-  packages-submitted: [""]
-  packages-reviewed: ["pystiche"]
   packages-editor: [""]
 - name: Anita Graser
   bio: ''
