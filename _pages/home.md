@@ -56,7 +56,7 @@ programs:
    {% endfor %}
 </div>
 
-<p><a href="/python-packages/" class="btn btn--info btn--large">View All Posts <i class="fa fa-4 fa-arrow-circle-right" aria-hidden="true"></i></a></p>
+<p><a href="/blog/" class="btn btn--info btn--large">View All Posts <i class="fa fa-4 fa-arrow-circle-right" aria-hidden="true"></i></a></p>
 </div>
 
 
