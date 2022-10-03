@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "pyOpenSci Editorial Process - New Editor in Chief and a Call For Editors"
-excerpt: "pyOpenSci is developing it's open peer review process for Python scientific software. Learn about our structure and if you are interested, apply to be on our editorial board."
+excerpt: "pyOpenSci is developing its open peer review process for Python scientific software. Learn about our structure and if you are interested, apply to be on our editorial board."
 author: "Leah Wasser"
 permalink: /blog/python-software-review-process-editor-in-chief
 header:
@@ -17,10 +17,10 @@ categories:
 ## An update on pyOpenSci's review process 
 
 Hey there! I just wanted to update everyone about where pyOpenSci is with 
-it's peer review process. We are currently hard at work updating [our peer 
+its peer review process. We are currently hard at work updating [our peer 
 review guides](https://www.pyopensci.org/contributing-guide/intro.html) to 
 streamline the peer review process. For the next 2 months (October & November 2022) 
-we will prioritize setting up a editorial board to support new reviews as they 
+we will prioritize setting up an editorial board to support new reviews as they 
 come in. 
 
 With that below you will find a few updates.
@@ -32,11 +32,11 @@ an editor will take on the Editor in Chief role! [You can learn more about that
 role here](https://www.pyopensci.org/contributing-guide/open-source-software-submissions/editor-in-chief-guide.html) in our peer review guide. David will:
 
 * Be the first person to reach out to anyone submitting a new review or a pre-submission. 
-* He will perform initial software checks to ensure your package is ready for  
-* He will also facilitate kicking off the peer review process by finding an editor for your package
+* Perform initial software checks to ensure your package is ready for  
+* Facilitate kicking off the peer review process by finding an editor for your package
 
-David has a background behavioral / neuro / cognitive science and is a ML guru. 
-Of course,  he's a Pythonista thru and thru. We are lucky to have David as a 
+David has a background in behavioral / neuro / cognitive science and is a machine learning guru. 
+Of course, he's a Pythonista through and through. We are lucky to have David as a 
 part of our pyOpenSci team. 
 
 Stay tuned for a blog post from David introducing himself.
@@ -83,7 +83,10 @@ form below:
 
 ## Questions?
 If you have any questions, please reach out to me at leah at pyopensci.org or on 
-twitter at @leahawasser.
+twitter at [@LeahAWasser](https://twitter.com/LeahAWasser)```
+
+* twitter can be case-sensitive when you try to @ user names
+* might as well link to your twitter profile while you're at it
 
 
  
