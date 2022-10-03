@@ -26,7 +26,7 @@ programs:
     alt: "placeholder image 2"
     title: "Open Peer Review"
     excerpt: "Our open peer review process of Python tools supports standardized software quality and usability. It also provides needed credit and visibility to tool maintainers. Finally it removes redundancy of packages with similar functionaly across the scientific Python ecosystem."
-    url: https://www.pyopensci.org/contributing-guide/open-source-software-submissions/author-guide.html
+    url: https://www.pyopensci.org/contributing-guide/open-source-software-peer-review/intro.html
     btn_label: "Read More About Our Peer Review"
     btn_class: "btn--primary"
   - image_path: images/brooke-cagle-unsplash.png
