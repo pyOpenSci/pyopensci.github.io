@@ -7,6 +7,8 @@ classes:
 header:
     overlay_image: images/header.jpg
     overlay_filter: 0.6
+redirect_from:
+  - /contributors/
 ---
 
 ## Our pyOpenSci Community 

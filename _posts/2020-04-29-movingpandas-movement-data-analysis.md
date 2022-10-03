@@ -12,10 +12,9 @@ categories:
   - blog-post
   - pandas
   - spatial
-  - highlight
 ---
 
-Movement data is everywhere: from tracking apps that record human or vehicle movement to ecologists monitoring wildlife behaviour. Movement data analysis is challenging since movement data combines time series and spatial data analyses questions. Existing spatial analysis libraries, such as GeoPandas, are great at handling spatial data but they don't support moving objects. 
+Movement data is everywhere: from tracking apps that record human or vehicle movement to ecologists monitoring wildlife behavior. Movement data analysis is challenging since movement data combines time series and spatial data analyses questions. Existing spatial analysis libraries, such as GeoPandas, are great at handling spatial data but they don't support moving objects. 
 
 MovingPandas aims to fill the gap of missing tools for exploring movement data. It provides data structures and methods for dealing with data of moving objects. MovingPandas has been accepted by pyOpenSci as part of its ecosystem in March 2020. 
 
