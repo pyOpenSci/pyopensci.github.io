@@ -4,12 +4,16 @@
   link: "https://github.com/hpi-dhc/jointly"
   date-accepted:
   highlight:
+  docs-url: 
+  citation-link: 
 - package-name: devicely
   description: 'Devicely: A Python package for reading, timeshifting and writing sensor data'
   maintainer: ["Ariane Sasso", "Jost Morgenstern", "Felix Musmann", "Bert Arnrich"]
   link: "https://github.com/hpi-dhc/devicely"
   date-accepted:
   highlight:
+  docs-url: https://hpi-dhc.github.io/devicely/
+  citation-link: https://doi.org/10.21105/joss.03679
 - package-name: earthpy
   description: 'Explore and plot raster and vector spatial data using open source Python tools.'
   maintainer: ["Leah Wasser", "Max Joseph"]
@@ -20,57 +24,77 @@
   date-accepted:
   highlight:
   link: "https://github.com/py4ds/nbless"
+  docs-url: 
+  citation-link: 
 - package-name: pandera
   description: 'Validate the types, properties, and statistics of pandas data structures'
   maintainer: ["Niels Bantilan"]
   date-accepted:
   highlight: True
   link: "https://github.com/cosmicBboy/pandera"
+  docs-url: 
+  citation-link: 
 - package-name: MovingPandas
   description: 'Trajectory classes and functions built on top of GeoPandas'
   maintainer: ["Anita Graser"]
   date-accepted:
   highlight: True
   link: "https://github.com/anitagraser/movingpandas"
+  docs-url: 
+  citation-link: 
 - package-name: physcraper
   description: 'Physcraper: a Python package for continually updated phylogenetic trees using the Open Tree of Life'
   maintainer: ["Luna Luisa Sánchez-Reyes", "Martha Kandziora", "Emily Jane McTavish"]
   link: "https://github.com/McTavishLab/physcraper"
   date-accepted:
   highlight:
+  docs-url: 
+  citation-link: 
 - package-name: pyrolite
   description: 'Tools for getting the most from your geochemical data'
   maintainer: ["Morgan Williams"]
   date-accepted:
   highlight:
   link: "https://github.com/morganjwilliams/pyrolite"
+  docs-url: 
+  citation-link: 
 - package-name: pystiche
   description: 'A Framework for Neural Style Transfer'
   maintainer: ["Philip Meier"]
   link: "https://github.com/pmeier/pystiche"
   date-accepted:
   highlight:
+  docs-url: 
+  citation-link: 
 - package-name: pydov
   description: 'Python package to retrieve data from Databank Ondergrond Vlaanderen (DOV)'
   maintainer: ["DOV-Vlaanderen"]
   link: "https://github.com/DOV-Vlaanderen/pydov"
   date-accepted:
   highlight:
+  docs-url: 
+  citation-link: 
 - package-name: openomics
   description: 'A bioinformatics library to integrate multi-omics datasets & interface with public annotation databases.'
   maintainer: ["Nhat Tran"]
   link: "https://github.com/BioMeCIS-Lab/OpenOmics"
   date-accepted:
   highlight:
+  docs-url: 
+  citation-link: 
 - package-name: phenopype
   description: 'A phenotyping pipeline for Python.'
   maintainer: ["Moritz Lürig"]
   link: "https://github.com/mluerig/phenopype"
   date-accepted:
   highlight: True
+  docs-url: 
+  citation-link: 
 - package-name: pygmt
   description: 'A Python interface for the Generic Mapping Tools.'
   maintainer: ["Dongdong Tian", "Max Jones", "Michael Grund", "Wei Ji Leong", "Will Schlitzer"]
   link: "https://github.com/GenericMappingTools/pygmt"
   date-accepted:
   highlight: True
+  docs-url: 
+  citation-link: 

@@ -182,9 +182,9 @@ are accepted as pyOpenSci packages.
             <img src="" alt="">
         </div> -->
         <h2 class="archive__item-title no_toc" itemprop="headline">
-            <a href="{{ apackage.link }}" rel="permalink">
+            <!-- <a href="{{ apackage.link }}" rel="permalink"> -->
             {{ apackage.package-name }}
-            </a>
+            <!-- </a> -->
         </h2>
         <p class="page__meta">
          <span class="page__meta-readtime"><i class="fas fa-feather" aria-hidden="true"></i>
@@ -201,11 +201,22 @@ are accepted as pyOpenSci packages.
         <!-- This would probably be cool as a list and use light text for each ?
         In this case i wouldn't have the card be a link but maybe the hover highlights
         the content in the card? And the hover state isn't a hand to suggest 
-        a link?-->
+          docs-url: 
+  citation-link: -->
         <ul>
-        <li><i class="fab fa-github"></i>View Code </li>
-        <li><i class="fas fa-book-open"></i> Vide Docs</li>
-        <li><i class="far fa-id-badge"></i>Cite</li>
+          <li>
+            <a href="{{ apackage.link }}" rel="permalink"><i class="fab fa-github"></i> View Code </a>
+          </li>
+          {% if apackage.docs-url %}
+          <li>
+            <a href="{{ apackage.docs-url }}" rel="permalink"><i class="fas fa-book-open"></i> View Docs</a>
+          </li>
+          {% endif %}
+          {% if apackage.citation-link %}
+          <li>
+            <a href="{{ apackage.docs-url }}" rel="permalink"><i class="far fa-id-badge"></i> Cite</a>
+          </li>
+        {% endif %}
         </ul>
     </article>
     </div>
