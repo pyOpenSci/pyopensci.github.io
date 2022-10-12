@@ -4,6 +4,40 @@
 
 body {font-size:90%}
 
+/* Creating a 3x3 grid wrapper */
+
+
+.grid {
+  display: grid;
+  gap: 1px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+div > div {
+  padding: 10px;
+  //background-color: #ccc;
+}
+
+@media screen and (max-width: 800px) {
+
+  .grid {
+    display: grid;
+    gap: 1px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  .grid {
+    display: grid;
+    gap: 1px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+
+
 .contrib_org {font-weight:normal;
   font-size:70%!important;
   margin-bottom: 0!important;

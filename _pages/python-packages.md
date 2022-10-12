@@ -15,6 +15,7 @@ classes: wide
 {% include feature_row id="intro" type="center" %}
 
 
+<!--TODO: this into a template -->
 
 <div class="feature__wrapper">
 
@@ -63,7 +64,7 @@ classes: wide
 </div>
 
 <div class="wide__p_text" markdown="1">
-# Why Peer Review for Python Scientific Software?
+## Why Peer Review for Python Scientific Software?
 Peer review of Python scientific software addresses several challenges in the 
 open source community:
 
@@ -73,12 +74,22 @@ open source community:
 4. **Long Term Maintenance:** Package maintainers often use their free time to work on Python tools. Once a package is reviewed by pyOpenSci we will keep in touch with the maintainer to ensure continued maintainance of the tool. If a maintainer needs to step down, we will try to find someone new to take over, or sunset the tool as needed. 
 5. **Community:** At the core of peer review is community around the tools that scientists need to process their data. 
 
-## Who Can Submit a Package? 
+### Who can submit a package? 
 pyOpenSci packages are community developed, submitted and reviewed. Anyone is
 welcome to submit a package to pyOpenSci to be reviewed. Once the package is reviewed,
 and accepted, pyOpenSci will promote it as a peer-reviewed tool for science!
 
+### How do I decide whether to submit to you or the Journal of Open Source Software (JOSS)
 
+You don't have to chose between pyOpenSci and JOSS. We have a collaboration with
+JOSS where you can submit your package to us for review. If your package is accepted
+and if it is in scope for JOSS, it will then be fast tracked through their 
+review process; they will only review your paper.md file. Consider this a 
+win-win!
+
+</div>
+
+<!-- 
 <div class="notice" markdown="1">
 ## What's the difference between pyOpenSci and JOSS?
 
@@ -110,23 +121,66 @@ JOSS reviews are [more limited in scope](https://joss.readthedocs.io/en/latest/r
 are, in places, less stringent than those of pyOpenSci.
 </div>
 
-</div>
 
 
+-->
 
+## Our editorial board
 
-## PyOpenSci Accepted Packages
-<!--TODO: This would be better as rows of 3 vs 4; also adjust font size in cards > -->
-The package below have already been through our review process and are accepted
-as pyOpenSci packages.
+We value our volunteer editors. Learn more about what editors do and how we select
+them here. 
+
+{% assign editors = site.data.contributors | where: 'editor', true %}
 
 <div class="entries-grid">
+{% for aperson in editors %}
+ <div class="grid__item">
+   <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+       {% if aperson.github_image_id %}
+         <div class="archive__item-teaser tall">
+           <img src="https://avatars1.githubusercontent.com/u/{{ aperson.github_image_id }}?s=400&v=4" alt="">
+         </div>
+       {% endif %}
+     <h4 class="archive__item-title" itemprop="headline">
+         <a href="https://www.github.com/{{ aperson.github_username }}" rel="permalink"> {{ aperson.name }}
+        </a>
+     </h4>
+     <p class="page__meta">
+     {% if aperson.title %}
+      <span>{{ aperson.title }}</span>
+     {% endif %}
+     </p>
+     <!-- Contribution types -->
+     <p class="page__meta">
+     <span class="page__meta-readtime">
+      {% for atype in aperson.contributor_type %}
+      {{ atype }} {% if forloop.last == false %}* {% endif %}
+      {% endfor %}
+    </span>
+    </p>
+     <p class="contrib_org" itemprop="organization"> {{ aperson.organization }} </p>
+   </article>
+ </div>
+{% endfor %}
+</div>
+
+<br style="clear:both">
+
+
+## Our accepted Python open source packages
+
+<!--TODO: This would be better as rows of 3 vs 4; also adjust font size in cards > -->
+The packages below have already been through our open peer review process and 
+are accepted as pyOpenSci packages.
+
+
+<div class="grid">
     {% for apackage in site.data.packages %}
-    <div class="grid__item cards">
+    <div class="cards">
     <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
-        <div class="archive__item-teaser">
-            <img src="/minimal-mistakes/assets/images/unsplash-gallery-image-1-th.jpg" alt="">
-        </div>
+        <!-- <div class="archive__item-teaser">
+            <img src="" alt="">
+        </div> -->
         <h2 class="archive__item-title no_toc" itemprop="headline">
             <a href="{{ apackage.link }}" rel="permalink">
             {{ apackage.package-name }}
@@ -144,12 +198,19 @@ as pyOpenSci packages.
         <p class="archive__item-excerpt narrow" itemprop="description">{{ apackage.description | markdownify }}
         </p>
         </span>
+        <!-- This would probably be cool as a list and use light text for each ?
+        In this case i wouldn't have the card be a link but maybe the hover highlights
+        the content in the card? And the hover state isn't a hand to suggest 
+        a link?-->
+        <ul>
+        <li><i class="fab fa-github"></i>View Code </li>
+        <li><i class="fas fa-book-open"></i> Vide Docs</li>
+        <li><i class="far fa-id-badge"></i>Cite</li>
+        </ul>
     </article>
     </div>
     {% endfor %}
 </div>
-
-
 
 
 <br clear="both">
