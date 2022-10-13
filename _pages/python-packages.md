@@ -132,35 +132,36 @@ them here.
 
 {% assign editors = site.data.contributors | where: 'editor', true %}
 
-<div class="entries-grid">
+<div class="grid">
 {% for aperson in editors %}
- <div class="grid__item">
-   <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+   <article class="person__item" itemscope="" itemtype="https://schema.org/CreativeWork">
        {% if aperson.github_image_id %}
-         <div class="archive__item-teaser tall">
-           <img src="https://avatars1.githubusercontent.com/u/{{ aperson.github_image_id }}?s=400&v=4" alt="">
+         <div>
+           <img src="https://avatars1.githubusercontent.com/u/{{ aperson.github_image_id }}?s=400&v=4" alt="image of {{ aperson.name}}" class="contrib_avatar">
          </div>
        {% endif %}
-     <h4 class="archive__item-title" itemprop="headline">
+      <div class="about_person">
+     <h4 class="grid_title" itemprop="headline">
          <a href="https://www.github.com/{{ aperson.github_username }}" rel="permalink"> {{ aperson.name }}
-        </a>
+         </a>
      </h4>
      <p class="page__meta">
      {% if aperson.title %}
       <span>{{ aperson.title }}</span>
      {% endif %}
      </p>
+     </div>
      <!-- Contribution types -->
      <p class="page__meta">
      <span class="page__meta-readtime">
-      {% for atype in aperson.contributor_type %}
-      {{ atype }} {% if forloop.last == false %}* {% endif %}
-      {% endfor %}
+     {{ aperson.name}} is also a
+       {% for atype in aperson.contributor_type %}
+      {{ atype }}{% if forloop.last == false %}, {% endif %} 
+      {% endfor %} for pyOpenSci.
     </span>
     </p>
      <p class="contrib_org" itemprop="organization"> {{ aperson.organization }} </p>
    </article>
- </div>
 {% endfor %}
 </div>
 

@@ -4,13 +4,31 @@
 
 body {font-size:90%}
 
-/* Creating a 3x3 grid wrapper */
+
+// styles for the grid of people 
+.contrib_avatar {
+  border-radius: 50%;
+}
 
 
+
+/* Create & style a 3x3 grid wrapper */
 .grid {
   display: grid;
   gap: 1px;
   grid-template-columns: repeat(3, 1fr);
+
+  h4.grid_title {
+    font-size: 1.4em;
+    text-align: center;
+  }
+
+  h4.grid_title a {
+    text-decoration: none;
+  }
+  .person__item {
+    margin: 2.2em;
+  }
 }
 
 div > div {
