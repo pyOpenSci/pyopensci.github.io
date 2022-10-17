@@ -2,6 +2,63 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
+// VARIABLES
+
+/* system typefaces */
+$serif: Georgia, Times, serif !default;
+$sans-serif: "Open Sans", sans-serif; //-apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
+  //"Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
+$monospace: Monaco, Consolas, "Lucida Console", monospace !default;
+
+/* sans serif typefaces */
+$sans-serif-narrow: $sans-serif !default;
+//$helvetica: 
+
+$header-font: 'Raleway', sans-serif; 
+$body-font: 'Open Sans', sans-serif;
+
+/* serif typefaces */
+// $georgia: Georgia, serif !default;
+// $times: Times, serif !default;
+// $bodoni: "Bodoni MT", serif !default;
+// $calisto: "Calisto MT", serif !default;
+// $garamond: Garamond, serif !default;
+
+$global-font-family: $body-font !default;
+$header-font-family: $header-font !default;
+$caption-font-family: $serif !default;
+
+/* type scale */
+$type-size-1: 2.441em !default; // ~39.056px h1
+$type-size-2: 2.0em !default; // ~31.248px h2 ...
+$type-size-3: 1.563em !default; // ~25.008px
+$type-size-4: 1.85em !default; // ~20px
+$type-size-5: 1em !default; // ~16px
+$type-size-6: 0.75em !default; // ~12px
+$type-size-7: 0.6875em !default; // ~11px
+$type-size-8: 0.625em !default; // ~10px
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6, .archive__item-title {
+  margin: 2em 0 0.5em;
+  line-height: 1.2;
+  font-family: $header-font-family;
+  //font-weight: bold;
+}
+
+h2 {
+  font-size: $type-size-2!important;
+}
+
+.archive__item-title {
+  font-family: $header-font-family!important;
+}
+
 body {font-size:90%}
 
 
@@ -22,12 +79,27 @@ body {font-size:90%}
     font-size: 1.4em;
     text-align: center;
   }
+  .grid_title {
+    margin-bottom: 0
+  }
 
   h4.grid_title a {
     text-decoration: none;
   }
   .person__item {
     margin: 2.2em;
+  }
+
+  .page__meta.title {
+    font-size: 1em!important;
+    text-align: center;
+    font-size: 1.7em;
+    padding-top: 0;
+    margin-top: 0;
+  }
+  .page__meta .bio p {
+    font-size: .7em;
+    line-height: .2em!important;
   }
 }
 
@@ -64,13 +136,50 @@ div > div {
 
 /* package cards splash */
 
+.cards {
+
+  p {
+    font-size: .9em
+  }
+  
+  h2 a {
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+
+  // h3 {
+  //   font-size: 1.3em;
+  // }
+
+  h3.card__title.no_toc {
+    margin-top: .3em;
+    font-size: 1.5em;
+  }
+
+  .page__meta.contributors {
+    font-size: .7em;
+  }
+
+  ul {
+    font-size: .8em;
+    list-style-type: none;
+    margin-left: 0;
+    padding: .2em;
+  }
+
+  ul a {
+    text-decoration: none;
+  }
+
+}
+
 .grid__wrapper {
   display: flex;
 }
 
-.card p {
-  font-size: .9em
-}
+// .card p {
+//   font-size: .9em
+// }
 
 .cards h2 a {
   text-decoration: none;

@@ -132,7 +132,7 @@ them here.
 
 {% assign editors = site.data.contributors | where: 'editor', true %}
 
-<div class="grid">
+<div class="grid people">
 {% for aperson in editors %}
    <article class="person__item" itemscope="" itemtype="https://schema.org/CreativeWork">
        {% if aperson.github_image_id %}
@@ -145,22 +145,29 @@ them here.
          <a href="https://www.github.com/{{ aperson.github_username }}" rel="permalink"> {{ aperson.name }}
          </a>
      </h4>
-     <p class="page__meta">
+     <p class="page__meta title">
      {% if aperson.title %}
-      <span>{{ aperson.title }}</span>
+      {{ aperson.title }}
      {% endif %}
+     </p>
+     <p class="page__meta focus-areas">
+      {% if aperson.focus-areas %}
+      {% for anArea in aperson.focus-areas %}
+        {{ anArea }}{% if forloop.last == false %}, {% endif %} 
+        {% endfor %}
+      {% endif %}
      </p>
      </div>
      <!-- Contribution types -->
-     <p class="page__meta">
-     <span class="page__meta-readtime">
+     <p class="page__meta bio">
+     <span>
      {{ aperson.name}} is also a
        {% for atype in aperson.contributor_type %}
       {{ atype }}{% if forloop.last == false %}, {% endif %} 
       {% endfor %} for pyOpenSci.
     </span>
     </p>
-     <p class="contrib_org" itemprop="organization"> {{ aperson.organization }} </p>
+     <p class="contrib_org" itemprop="organization"> Affiliation: {{ aperson.organization }} </p>
    </article>
 {% endfor %}
 </div>
@@ -182,13 +189,13 @@ are accepted as pyOpenSci packages.
         <!-- <div class="archive__item-teaser">
             <img src="" alt="">
         </div> -->
-        <h2 class="archive__item-title no_toc" itemprop="headline">
+        <h3 class="card__title no_toc" itemprop="headline">
             <!-- <a href="{{ apackage.link }}" rel="permalink"> -->
             {{ apackage.package-name }}
             <!-- </a> -->
-        </h2>
-        <p class="page__meta">
-         <span class="page__meta-readtime"><i class="fas fa-feather" aria-hidden="true"></i>
+        </h3>
+        <p class="page__meta contributors">
+         <span><i class="fas fa-feather" aria-hidden="true"></i>
          <!-- Commas in between authors -->
          {% for aMaintainer in apackage.maintainer %}  
          {{ aMaintainer }}{% if forloop.last == false %}, {% endif %}
@@ -215,7 +222,7 @@ are accepted as pyOpenSci packages.
           {% endif %}
           {% if apackage.citation-link %}
           <li>
-            <a href="{{ apackage.docs-url }}" rel="permalink"><i class="far fa-id-badge"></i> Cite</a>
+            <a href="{{ apackage.docs-url }}" rel="permalink"><i class="fas fa-bookmark fa-fw"></i> Cite</a>
           </li>
         {% endif %}
         </ul>
