@@ -31,7 +31,7 @@
   maintainer: ["Niels Bantilan"]
   date-accepted:
   highlight: True
-  link: "https://github.com/cosmicBboy/pandera"
+  link: "https://github.com/unionai-oss/pandera"
   docs-url: 
   citation-link: 
 - package-name: MovingPandas
