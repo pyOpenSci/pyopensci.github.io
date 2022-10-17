@@ -87,7 +87,7 @@
   maintainer: ["Moritz Lürig"]
   link: "https://github.com/mluerig/phenopype"
   date-accepted:
-  highlight: True
+  highlight:
   docs-url: 
   citation-link: 
 - package-name: pygmt

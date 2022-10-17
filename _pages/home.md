@@ -65,29 +65,60 @@ programs:
 
 ## Recently Accepted Python Packages
 
-<div class="grid__wrapper">
-   <!-- Only print packages that are highlighted -->
-   {% for apackage in site.data.packages %}
-      {% if apackage.highlight %}
-      <div class="grid__item cards">
-         <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
-            <h2 class="archive__item-title no_toc" itemprop="headline">
-               <a href="{{ apackage.link }}" rel="permalink">{{ apackage.package-name }}</a>
-            </h2>
-            <p class="page__meta">
-               <span class="page__meta-readtime"><i class="fas fa-feather" aria-hidden="true"></i>
-               <!-- Commas in between authors -->
-               {% for aMaintainer in apackage.maintainer %}  
-               {{ aMaintainer }}{% if forloop.last == false %}, {% endif %}
-               {% endfor %}
-               </span>
-            </p>
-            <p class="archive__item-excerpt" itemprop="description">{{ apackage.description | markdownify }}</p>
-         </article>
-         
-      </div>
-      {% endif %}
-   {% endfor %}
+
+<div class="grid">
+    {% for apackage in site.data.packages %}
+    {% if apackage.highlight %}
+    <div class="cards">
+    <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+        <!-- <div class="archive__item-teaser">
+            <img src="" alt="">
+        </div> -->
+        <h3 class="card__title no_toc" itemprop="headline">
+            <!-- <a href="{{ apackage.link }}" rel="permalink"> -->
+            {{ apackage.package-name }}
+            <!-- </a> -->
+        </h3>
+        <p class="page__meta contributors">
+         <span><i class="fas fa-feather" aria-hidden="true"></i>
+         <!-- Commas in between authors -->
+         {% for aMaintainer in apackage.maintainer %}  
+         {{ aMaintainer }}{% if forloop.last == false %}, {% endif %}
+         {% endfor %}
+         </span>
+        </p>
+        <span class="narrow">
+        <p class="archive__item-excerpt narrow" itemprop="description">{{ apackage.description | markdownify }}
+        </p>
+        </span>
+        <!-- This would probably be cool as a list and use light text for each ?
+        In this case i wouldn't have the card be a link but maybe the hover highlights
+        the content in the card? And the hover state isn't a hand to suggest 
+          docs-url: 
+  citation-link: -->
+        <ul>
+          <li>
+            <a href="{{ apackage.link }}" rel="permalink"><i class="fab fa-github"></i> View Code </a>
+          </li>
+          {% if apackage.docs-url %}
+          <li>
+            <a href="{{ apackage.docs-url }}" rel="permalink"><i class="fas fa-book-open"></i> View Docs</a>
+          </li>
+          {% endif %}
+          {% if apackage.citation-link %}
+          <li>
+            <a href="{{ apackage.docs-url }}" rel="permalink"><i class="fas fa-bookmark fa-fw"></i> Cite</a>
+          </li>
+        {% endif %}
+        </ul>
+    </article>
+    </div>
+    {% endif %}
+    {% endfor %}
 </div>
+
+
+<br clear="both">
+
    <a href="/python-packages/" class="btn btn--info">View All Accepted Packages <i class="fa fa-4 fa-arrow-circle-right" aria-hidden="true"></i></a>
 
