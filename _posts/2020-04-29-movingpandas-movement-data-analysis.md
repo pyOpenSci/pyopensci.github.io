@@ -91,7 +91,7 @@ interactive plotting by HoloViews,
 MovingPandas can focus on its core functionality dealing with challenges that are specific to movement data.
 
 For example, the close integration with HoloViews makes it possible to create
-[interactive dashboards](http://holoviews.org/user_guide/Dashboards.html) to explore the effect of different trajectory generalization methods:
+[interactive dashboards](https://holoviews.org/user_guide/Dashboards.html) to explore the effect of different trajectory generalization methods:
 
 ![The animated map and speed histogram show that speeds increase when the generalization tolerance value is increased.]({{ site.url }}/images/movingpandas/mp_fig4.gif)
 
