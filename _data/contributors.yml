@@ -18,7 +18,7 @@
   sort: 2
   title: "Editor in Chief"
   editor: true
-  bio: ''
+  bio: 'Bio goes here just a sentence or two is great!'
   organization: ""
   github_username: NickleDave
   github_image_id: 11934090
@@ -56,9 +56,9 @@
   packages-submitted: ["devicely"]
   packages-reviewed: [""]
 - name: Jenny Palomino
-  bio: ''
+  bio: 'Technical Curriculum Developer for Data Engineering'
   title: "Editor"
-  organization: "Google"
+  organization: "Google Cloud Learning Services"
   github_username: jlpalomino
   github_image_id: 4017492
   editor: true
@@ -69,8 +69,8 @@
   packages-submitted: ["earthpy"]
   packages-reviewed: ["erddapy"]
 - name: Anita Graser
-  bio: ''
-  organization: ""
+  bio: 'Researcher, open source GIS developer and author.'
+  organization: "AIT Austrian Institute of Technology"
   title: "Editor"
   github_username: anitagraser
   github_image_id: 590385
@@ -79,6 +79,7 @@
   packages-submitted: ["movingpandas"]
   packages-reviewed: [""]
   packages-editor: [""]
+  twitter: "underdarkGIS"
 # Reviewers & maintainers go here
 - name: Chris Holdgraf
   bio: 'Bio Here'
