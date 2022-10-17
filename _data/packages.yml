@@ -85,7 +85,7 @@
 - package-name: phenopype
   description: 'A phenotyping pipeline for Python.'
   maintainer: ["Moritz Lürig"]
-  link: "https://github.com/mluerig/phenopype"
+  link: "https://github.com/phenopype/phenopype"
   date-accepted:
   highlight:
   docs-url: 
