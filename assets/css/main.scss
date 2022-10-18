@@ -30,10 +30,10 @@ $caption-font-family: $serif !default;
 
 /* type scale */
 $type-size-1: 2.441em !default; // ~39.056px h1
-$type-size-2: 1.5em !default; // ~31.248px h2 ...
-$type-size-3: 1.563em !default; // ~25.008px
+$type-size-2: 1.9em !default; // ~31.248px h2 ...
+$type-size-3: 1.563em !default; // ~25.008px h3
 $type-size-4: 1.85em !default; // ~20px
-$type-size-5: 1em !default; // ~16px
+$type-size-5: .9em !default; // ~16px body?
 $type-size-6: 0.75em !default; // ~12px
 $type-size-7: 0.6875em !default; // ~11px
 $type-size-8: 0.625em !default; // ~10px
@@ -53,13 +53,31 @@ h6, .archive__item-title {
 
 h2 {
   font-size: $type-size-2!important;
+  color: #314d68; //make this a header color
+}
+
+h3 {
+  font-size: $type-size-3!important;
 }
 
 .archive__item-title {
   font-family: $header-font-family!important;
+  font-size: .9em !important;
 }
 
-body {font-size:90%}
+body {
+  //font-size:90%
+}
+
+.page__content p, .page__content li {
+  font-size: $type-size-5!important;
+}
+
+// Sidebar author with circle font
+.sidebar .author__name {
+  font-family: $header-font!important;
+  font-size: .9em;
+}
 
 
 // styles for the grid of people 
@@ -274,8 +292,22 @@ h2.clearall {
     max-width: 66.66667%;
 }
 
-/* Adding a 3 col grid */
+/* TWITTER */
 
+.twitter-tweet {
+  border: 1px solid #ccc;
+  border-radius: .5em;
+  padding: 1.2em;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #e2ecf3;
+  font-weight: 600;
+  font-style: normal;
+  font-size: .9em;
+  color: #555;
+  filter: drop-shadow(5px 5px 4px #ccc);
+}
 
 
 @charset "utf-8";
