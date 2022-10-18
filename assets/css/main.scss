@@ -73,10 +73,14 @@ body {
   font-size: $type-size-5!important;
 }
 
-// Sidebar author with circle font
+// Sidebar author with circle font and header font adjustment
 .sidebar .author__name {
   font-family: $header-font!important;
   font-size: .9em;
+}
+
+.page__lead {
+  font-size: 1em!important;
 }
 
 
