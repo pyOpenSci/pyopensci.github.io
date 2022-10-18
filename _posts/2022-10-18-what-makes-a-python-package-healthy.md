@@ -115,19 +115,19 @@ new packages even if they never submit their package to us for peer review.
 
 ### Goals for package metrics
 
+These metrics will help us quantify several of our goals: 
 We hope that:
 
-* after a package has gone through peer review, some of the package elements have improved. 
-* over time, that improvement continues and develops. 
-* the package is maintained over time and if not, we help find another reviewer or sunset / archive the package in a way that is least impactful for it's current users.  
+* Peer review improves Python package structure and usability. 
+* Peer review in some way supports maintenance and/or responsible archiving when a package comes to life-end.
+* Over time, the package is improved and maintained with possible contributions for those other than the maintainer. 
 
 We need metrics to understand things like
 
-* community adoption of the package (are scientists using it?)
-* maintenance level of the package (are maintainers still working on it and fixing bugs?)
-* infrastructure (are tests setup to help identify if contributions break things?)
-* usability (is the package documented in a way that helps users quickly get started)
-
+* Community adoption of the package (are scientists using it?)
+* Maintenance level of the package (are maintainers still working on it and fixing bugs?)
+* Infrastructure (are tests setup to help identify if contributions break things? )
+* Usability (is the package documented in a way that helps users quickly get started)
 
 ### A discussion about package health on twitter 
 
@@ -147,19 +147,20 @@ efforts that determine metrics and customize them to our needs.
 <div class="notice" markdown="1">
 ### A note about our pyOpenSci packages 
 
-Our packages are often smaller and maintained by 1 person. Sometimes they have a 
-small maintainer team, sometimes they don't. They often don't have the resources
-to build community. But many are keen to build users of their tools and to contribute
+Our packages are often smaller and often maintained by 1 person (a common phenomenom in open source). Sometimes they have a 
+small maintainer team, sometimes they don't. Our package maintainers often don't have the resources
+to build community. And often they are scientists rather than developers. But many are keen to build users of their tools and to contribute
 to the broader scientific python ecosystem.   
 </div>
 
-## Existing efforts 
-## Existing efforts on health metrics: Chaoss project and SSI (neil)
 
-Several people including
+## Existing efforts on health metrics: Chaoss project and the Software Sustainability Institute (neil)
 
-Nic Weber, Karthik Ram and Matthew Turk mentioned the Chaoss project as a place to start
-* https://chaoss.community/
+I'd be remiss if I didn't mention that there are several projects out there that 
+we are looking into that have already considered much of this. 
+
+Several people including: Nic Weber, Karthik Ram and Matthew Turk mentioned the 
+value and thought put into the [Chaoss project](https://chaoss.community/).
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Is this something that the <a href="https://twitter.com/CHAOSSproj?ref_src=twsrc%5Etfw">@CHAOSSproj</a> work could be specialized and applied to scientific software?</p>&mdash; Matthew Turk (@powersoffour) <a href="https://twitter.com/powersoffour/status/1577755607540580354?ref_src=twsrc%5Etfw">October 5, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
@@ -167,41 +168,38 @@ Nic Weber, Karthik Ram and Matthew Turk mentioned the Chaoss project as a place 
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Not that controversial! Have you looked into the rich body of work that the <a href="https://twitter.com/CHAOSSproj?ref_src=twsrc%5Etfw">@CHAOSSproj</a> community has done? Each metric has been explored in great detail</p>&mdash; Karthik Ram (@_inundata) <a href="https://twitter.com/_inundata/status/1578061660706975744?ref_src=twsrc%5Etfw">October 6, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-## Metrics for open source software
+The Software Sustainability Institute lead by Neil P Chue Hong also has thought 
+about this extensively and pulled together some data accordingly. Neil was actually
+a critical guiding member of the earlier pyOpenSci community meetings that were held in 2018.
 
-So how should we define package health?
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">We also did some initial work on this in 2017 (see slide 12 of this presentation): <a href="https://t.co/1F0iMwfT5g">https://t.co/1F0iMwfT5g</a></p>&mdash; Neil P Chue Hong (he/him｜they/them) (@npch) <a href="https://twitter.com/npch/status/1577959663408218114?ref_src=twsrc%5Etfw">October 6, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+
+## What metrics should pyOpenSci track for their Python scientific open source packages?
+
+So back to the question at hand, what should we be tracking?
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">How do you define health?</p>&mdash; Dr. Ray Bell (@RayBell_DTN) <a href="https://twitter.com/RayBell_DTN/status/1577759427171524609?ref_src=twsrc%5Etfw">October 5, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 Yup, my question exactly. *Help!*
 
-Melissa and Hao ye nail it - health metrics are multi-dimensional and perspective 
-based. 
+Hao Ye nailed it - health metrics are multi-dimensional. 
 
-# TODO where does this go? Community
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Also note - a lot of folks developing scientific software are more interested in the pragmatic side of open source (i.e availability, making the codebase public and accessible) rather than building a community around it.</p>&mdash; ✨Tania Allard 💀🇲🇽 🇬🇧 she/her (@ixek) <a href="https://twitter.com/ixek/status/1577914450505601024?ref_src=twsrc%5Etfw">October 6, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
-
-
-The melissa qote about metrics not capturing community management work ... 
-# TODO community manager item
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Depends on what is &quot;health&quot;. Sustainability? Funding? Maintainability? Culture? I think most metrics are proxies to some other thing we want to measure, but are not representative. For ex looking at github, a bunch of the work done by community managers is not captured at all.</p>&mdash; Ax=13!!! (@melissawm) <a href="https://twitter.com/melissawm/status/1577776074863288324?ref_src=twsrc%5Etfw">October 5, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I think, much like &quot;ecological stability&quot; - <a href="https://t.co/lJe2Fa0ycR">https://t.co/lJe2Fa0ycR</a> - , &quot;health&quot; here is multi-dimensional and different metrics will capture different facets, such as growth, transparency in governance, stability / backwards compatibility, etc.</p>&mdash; Hao Ye will haunt you for bad keming (@Hao_and_Y) <a href="https://twitter.com/Hao_and_Y/status/1577739685841059842?ref_src=twsrc%5Etfw">October 5, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 > I may be a bit biased here considering I have a degree in ecology BUT... I definitely support the ecological perspective always and forever :)
 
-
-### What are the needs of pyOpenSci?
-
-As Justin from Napari and CZI points out, we need to think carefully about the 
+As Justin from Napari and CZI points out, metrics are also perspective based. 
+We need to think carefully about the 
 organization's goals and what we need to measure as a marker of success and as a 
 flag of potential issues.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I think that relevant metrics really depend on who is evaluating &quot;health&quot; and what their needs are.</p>&mdash; Justin Kiggins (@neuromusic) <a href="https://twitter.com/neuromusic/status/1577743299531534336?ref_src=twsrc%5Etfw">October 5, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
+### Three open source software healthy metric "buckets" 
 
-Below, I organize metrics into three buckets:
+Based on all of the feedback, and what I *think* might be a start at what I need, I organized the following conversation into three buckets:
 
 1. Infrastructure
 2. Maintenance 
@@ -267,15 +265,15 @@ are designed to invite contributions that are useful to the maintainers (and tha
 guide new potential contributors). 
 
 In short, GitHub checks are excellent but mostly exterior infrastructure focused.
-They dont check content of those files and items. 
+They don't check content of those files and items. 
 
-THIS COULD GO IN THE GITHUB AT THE TOP SECTION?
+As Chris mentions below, things like having a clearly stated goal and intention,
+likely articulated in the README is a sign of a healthy project. This goal was
+ideally developed prior to development beginning. Further, if well-written, 
+it helps keep the scope of the project management. 
+
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">To this point - i think that an example of a healthy project behavior is that it explicitly states its technical and organizational goals and intentions</p>&mdash; Chris Holdgraf (@choldgraf) <a href="https://twitter.com/choldgraf/status/1577971815305060354?ref_src=twsrc%5Etfw">October 6, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
-
-## This section should be around community...
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Governance was another aspect I was going to suggest. The “benevolent dictator for life” model is… risky</p>&mdash; Evan (he/him) (@darth_mall) <a href="https://twitter.com/darth_mall/status/1577741937544609793?ref_src=twsrc%5Etfw">October 5, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 
 ### Test suits and Python versions
@@ -288,7 +286,7 @@ and what version of Python those suites are testing against.
 
 Test suites are critical not only to ensure the package functionality works as expected 
 (if tests are designed well). They also make it easier for contributors to see that
-changes they made in a PR don't break unexpected things. 
+changes they made in a GitHub pull request don't break things unexpectedly. 
 
 Tests can also be created
 in a Continuous Integration (CI) workflow to ensure code syntax is consistent 
@@ -297,15 +295,30 @@ links and other potential errors.
 
 > <i class="fas fa-question-circle"></i> How should pyOpenSci handle Python versions supported in our review process?
 
+### Infrastructure Is it easily installable?
+
+How the package is installed is another critical factor to consider. While
+these days most packages do seem to be uploaded to PyPI, some still aren't. And 
+there are other package managers to consider too such as `Conda`. 
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Lots of thoughts on this... 😂<br>One aspect is definitely whether or not the package is published through PyPI, whether it follows standard packaging practices, has a test suite or well documented simple examples of how to use it, etc.</p>&mdash; Kenneth Hoste (@kehoste) <a href="https://twitter.com/kehoste/status/1578107988715671555?ref_src=twsrc%5Etfw">October 6, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
 ## Maintenance activity as a metric of health
 
-Throughout the conversation on Twitter, the issue of maintenance came up frequently.
+Speaking of installation, the issue of maintenance came up frequently on Twitter.
+
+Jed had some nice overarching insight here for things they look at that are 
+indicators of both maintenance and bus factor (risk factor, mentioned below as a measure
+of how many people / institutions support maintenance. More people and more institutions 
+equals lower risk, fewer people and fewer institutions supporting the package equates
+to a higher maintenance risk (or risk of the package becoming a sad orphan with 
+family to take care of it. 
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">CI (multi-platform, coverage, static analysis), promptness of reviews, number of distinct institutions who have committed in past 6 months, ditto who have reviewed PRs in past 6 months, promptness of reviews, quality of commit messages and PR discussion.</p>&mdash; Jed Brown (@five9a2) <a href="https://twitter.com/five9a2/status/1577746418906714112?ref_src=twsrc%5Etfw">October 5, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
 How many times have you tried to figure out what Python package you wanted to 
 process or access your data, and you found 4 different packages on PyPI all in 
 varying states of maintenance?
-
-# TODO Maintenance ... 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">CI (multi-platform, coverage, static analysis), promptness of reviews, number of distinct institutions who have committed in past 6 months, ditto who have reviewed PRs in past 6 months, promptness of reviews, quality of commit messages and PR discussion.</p>&mdash; Jed Brown (@five9a2) <a href="https://twitter.com/five9a2/status/1577746418906714112?ref_src=twsrc%5Etfw">October 5, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 I've certainty been there. So has RenéKat it seems: 
 
@@ -332,30 +345,79 @@ Uh oh! But are commits enough, Kurt asks? Is there such a thing as a perfect pro
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Could a project with no recent commits be healthy? What if it needed no commits?</p>&mdash; Kurt Schwehr, PhD (@kurtschwehr) <a href="https://twitter.com/kurtschwehr/status/1578022419926683650?ref_src=twsrc%5Etfw">October 6, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
-Koen had a more broadly profound thought that might be difficult to enforce in a review
-but I think is a solid principle especially for small packages that support specific
+Koen had a more broadly profound thought that would be ideal to consider when
+creating a new package; especially a small package that supports specific
 scientific workflows.
 
 > Does it do one thing, well? Really well?
 
+Yes, please.
+
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">My experience from R. None apply if packages stick to the Unix philosophy of doing one thing really well. This will lead to packages with considerable uptake but little development. Base code of {snotelr} is mostly unchanged since inception (12K users).<a href="https://t.co/3oKwmeBaA8">https://t.co/3oKwmeBaA8</a></p>&mdash; Koen Hufkens, PhD (@koen_hufkens) <a href="https://twitter.com/koen_hufkens/status/1577753313482866688?ref_src=twsrc%5Etfw">October 5, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 While this might be challenging to enforce in peer review, it is a 
-compelling argument. 
+compelling suggestion.
 
+### How do developers evaluate package maintenance?
+
+There is a developer perspective to consider here too. Yuvi Panda pointed out a few
+items that they look for: 
+
+1. Frequency of merged commits
+2. [Bus factor](https://www.michaelbromley.co.uk/blog/but-what-about-the-bus-factor/)
+3. Release cadence (a topic brought up a few times throughout the discussion)
+
+> Remember, *bus factor* has nothing to do with buses, but there is some truth to the 
+analogy of what happens when the wheels fall off...
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Without being specific to open science, I always look at: 1. how frequently are commits being merged? 2. what does bus factor look like (is it just 1 person?), 3. What is cadence of release</p>&mdash; Yuvi Panda (@yuvipanda) <a href="https://twitter.com/yuvipanda/status/1578094184040321024?ref_src=twsrc%5Etfw">October 6, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+One thought I had here was to look at commits from the maintainer relative to 
+total commits to get a sense of community contribution (if any). 
+
+> The CHAOSS project has an entire working group devoted to risk. 
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">thanks Yuvi! i hadn&#39;t heard of the term bus factor before but was thinking that it would be interesting to look at how many commits do NOT belong to the maintainer in a ratio type of form. Since we have the maintainer information from our reviews we could potentially do that.</p>&mdash; Leah Wasser 🦉 (@LeahAWasser) <a href="https://twitter.com/LeahAWasser/status/1578157415526150144?ref_src=twsrc%5Etfw">October 6, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+Or perhaps pyOpenSci  asks their maintainers what their perceived risk is?
+IE: how long do you think the package might remain maintained. They will obviously
+know better than anyone what their funding environment and support it like.
+
+Erik suggested that metrics can be dangerous and somewhat subjective at times. 
+Akin to the whole - maps can lie, so can data. Ok it's our interpretation that is 
+the risk or lie not the data but ... you follow me, yea? 
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Ask developers how comfortable they would be to depend on the package for a new project. I think &quot;health&quot; is largely subjective and I don&#39;t trust metrics without context.</p>&mdash; Erik Welch (@eriknwelch) <a href="https://twitter.com/eriknwelch/status/1577775776719585280?ref_src=twsrc%5Etfw">October 5, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+Some including Pierre brought up the idea of consistent releases. Not necessarily 
+frequency but just some consistency to demonstrate that the package was being
+updated. 
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Yes. Regular releases is a sign of good health. But given the fact that many scientific projects are often maintained by few people I would avoid any normalization. I&#39;m usually super happy with 1 or 2 releases per year.</p>&mdash; Pierre Poulain (@pierrepo) <a href="https://twitter.com/pierrepo/status/1577758919392362496?ref_src=twsrc%5Etfw">October 5, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+Other discussions evolved around semantic versioning and release
+roadmaps.
+
+# TODO START READING HERE
 ## Community adoption of an open source Python tool 
 
-Community adoption of a tool is absolutely a broad bucket to consider here.
+Community adoption of an scientific Python package was another broad bucket in my list.
 How many users are using the tool? Are there open issues? Does it have stars 
 (stars could be considered controversial... but alas).
 
+The tweet below combines looking at stars and commit date as signs of community 
+adoption AND maintenance. 
 
-As Chris Holdgraf mentions below, a package can reac a point where the same 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Derivative of 🌟 with respect to ⏲️ plus date of last commit!!</p>&mdash; MLinHydro (@MLinHydro) <a href="https://twitter.com/MLinHydro/status/1577826311250509824?ref_src=twsrc%5Etfw">October 6, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+
+As Chris Holdgraf mentions below, a package can reach a point where the same 
 type of activity can indicate different things. Many users opening issues, 
 can represent community interest and perhaps even community adoption. And massive 
-volumes answered or unaddressed 
-issues *might* represent unresponsive maintainers. Or not perhaps the maintainers
-are just overwhelmed by *catastrophic success*.
+volumes of unaddressed 
+issues *might* represent unresponsive maintainers. 
+
+> Or perhaps the maintainers are just overwhelmed by *catastrophic success*.
 
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I think a steady stream of issues implies a lot of user interest, though I can tell you from first-hand experience that it does not mean a project is healthy :-)<br><br>I think it misses one of the most stressful anti-patterns for OS projects: Catastrophic Success<br><br>h/t <a href="https://twitter.com/fperez_org?ref_src=twsrc%5Etfw">@fperez_org</a> :-D</p>&mdash; Chris Holdgraf (@choldgraf) <a href="https://twitter.com/choldgraf/status/1578304871530631168?ref_src=twsrc%5Etfw">October 7, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
@@ -371,38 +433,6 @@ users opening issues on GitHub do likely have some technical literacy.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">As others have said, it’s multidimensional, but this article argues that a steady stream of issues = a community of active and engaged users — often somewhat programming-literate since it’s GH. I find that argument compelling.<a href="https://t.co/X2vY2QxRfV">https://t.co/X2vY2QxRfV</a></p>&mdash; Juan Nunez-Iglesias (@jnuneziglesias) <a href="https://twitter.com/jnuneziglesias/status/1578290475017981953?ref_src=twsrc%5Etfw">October 7, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
-
-## What do developers think?
-
-There is a developer perspective to consider here too. Yuvi pointed out a few
-items that they look for: 
-
-1. Frequency of merged commits
-2. [Bus factor](https://www.michaelbromley.co.uk/blog/but-what-about-the-bus-factor/)
-3. Release cadence (a topic brought up a few times throught the discussion)
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Without being specific to open science, I always look at: 1. how frequently are commits being merged? 2. what does bus factor look like (is it just 1 person?), 3. What is cadence of release</p>&mdash; Yuvi Panda (@yuvipanda) <a href="https://twitter.com/yuvipanda/status/1578094184040321024?ref_src=twsrc%5Etfw">October 6, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
-
-One thought I had here was to look at commits from the maintainer relative to 
-total commits to get a sense of community contribution (if any).
-
-> NOTE: the average number of maintainers for  open source projects is 1. This so far holds true for our 12 packages accepted into pyOpenSci. Yikes!
-
-Or maybe we just get developers to assess and tell us if they'd be happy with it 
-being a dependency given the subjectivity of metrics? While I do understand where
-this comes from, pyOpenSci does need to have some way to evaluate tools that is 
-reproducible. 
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Ask developers how comfortable they would be to depend on the package for a new project. I think &quot;health&quot; is largely subjective and I don&#39;t trust metrics without context.</p>&mdash; Erik Welch (@eriknwelch) <a href="https://twitter.com/eriknwelch/status/1577775776719585280?ref_src=twsrc%5Etfw">October 5, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
-
-releases, releases with semantic versioning, release roadmap ...
-
-release frequency
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Yes. Regular releases is a sign of good health. But given the fact that many scientific projects are often maintained by few people I would avoid any normalization. I&#39;m usually super happy with 1 or 2 releases per year.</p>&mdash; Pierre Poulain (@pierrepo) <a href="https://twitter.com/pierrepo/status/1577758919392362496?ref_src=twsrc%5Etfw">October 5, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
-
-
-and could we look at that rel to who is commintting /openin isuses?
 
 
 
@@ -421,15 +451,13 @@ but people dont often cite software...
 
 
 
-## Infrastructure Is it easily installable?
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Lots of thoughts on this... 😂<br>One aspect is definitely whether or not the package is published through PyPI, whether it follows standard packaging practices, has a test suite or well documented simple examples of how to use it, etc.</p>&mdash; Kenneth Hoste (@kehoste) <a href="https://twitter.com/kehoste/status/1578107988715671555?ref_src=twsrc%5Etfw">October 6, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 
 
 ## Community adoption of a package
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Derivative of 🌟 with respect to ⏲️ plus date of last commit!!</p>&mdash; MLinHydro (@MLinHydro) <a href="https://twitter.com/MLinHydro/status/1577826311250509824?ref_src=twsrc%5Etfw">October 6, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
 
 # TODO Add chris tweet about issues representing broad interest in the package...
 COuld also add downloads
@@ -445,6 +473,25 @@ community vs use
 SNYK
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">This might be helpful. This website collects various metrics. And here is the example for numpy. <a href="https://t.co/YNsRoMgks4">https://t.co/YNsRoMgks4</a></p>&mdash; Kevin Wang (@KevinWangStats) <a href="https://twitter.com/KevinWangStats/status/1577999823911161856?ref_src=twsrc%5Etfw">October 6, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+
+# TODO - justin i think said some more stuff that might be worth adding somewhere
+# TODO community stuff - maybe at the end?
+# TODO where does this go? Community
+
+
+## This section should be around community...
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Governance was another aspect I was going to suggest. The “benevolent dictator for life” model is… risky</p>&mdash; Evan (he/him) (@darth_mall) <a href="https://twitter.com/darth_mall/status/1577741937544609793?ref_src=twsrc%5Etfw">October 5, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Also note - a lot of folks developing scientific software are more interested in the pragmatic side of open source (i.e availability, making the codebase public and accessible) rather than building a community around it.</p>&mdash; ✨Tania Allard 💀🇲🇽 🇬🇧 she/her (@ixek) <a href="https://twitter.com/ixek/status/1577914450505601024?ref_src=twsrc%5Etfw">October 6, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+
+The melissa quote about metrics not capturing community management work ... 
+# TODO community manager item
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Depends on what is &quot;health&quot;. Sustainability? Funding? Maintainability? Culture? I think most metrics are proxies to some other thing we want to measure, but are not representative. For ex looking at github, a bunch of the work done by community managers is not captured at all.</p>&mdash; Ax=13!!! (@melissawm) <a href="https://twitter.com/melissawm/status/1577776074863288324?ref_src=twsrc%5Etfw">October 5, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
 
 
 ## Questions?

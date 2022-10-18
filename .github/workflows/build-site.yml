@@ -37,5 +37,5 @@ jobs:
         with:
           directory: '_site'
           arguments: |
-            --url-ignore "https://fonts.googleapis.com,https://fonts.gstatic.com"
+            --ignore-urls "https://fonts.googleapis.com,https://fonts.gstatic.com"
 
