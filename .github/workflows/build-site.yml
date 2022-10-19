@@ -36,3 +36,5 @@ jobs:
         uses: chabad360/htmlproofer@master
         with:
           directory: '_site'
+          arguments: |
+            --ignore-urls "https://fonts.googleapis.com,https://fonts.gstatic.com"

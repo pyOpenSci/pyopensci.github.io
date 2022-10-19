@@ -29,7 +29,14 @@ masthead_title           : # overrides the website title displayed in the masthe
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider: "giscus"
+  giscus:
+    repo_id              : "MDEwOlJlcG9zaXRvcnkxNzQ0MTI4MDk="
+    category_name        : "website-comments"
+    category_id          : "DIC_kwDOCmVUCc4CSE-o"
+    discussion_term      : "pathname"
+    reactions_enabled    : "1" # '1' for enabled (default), '0' for disabled
+    theme                : "light"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -207,7 +214,7 @@ kramdown:
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
-  toc_levels: 1..6
+  toc_levels: 1..3
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
@@ -295,7 +302,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      comments: # true
+      comments: true
       share: true
       related: true
       toc: true
