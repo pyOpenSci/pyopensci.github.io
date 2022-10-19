@@ -16,7 +16,6 @@ toc: true
 comments: true
 ---
 
-
 [In a previous post,](/blog/why-metrics-matter-pyopensci-open-source) I spoke 
 generally about why open source should matter to scientists and why metrics of 
 health matter to pyOpenSci.
@@ -121,9 +120,21 @@ Hao Ye (and a few others) nailed it - health metrics are multi-dimensional.
 As Justin from Napari and CZI points out, metrics are also perspective based. 
 We need to think carefully about the 
 organization's goals and what we need to measure as a marker of success and as a 
-flag of potential issues.
+flag of potential issues. 
+
+See insightful thoughts below:
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I think that relevant metrics really depend on who is evaluating &quot;health&quot; and what their needs are.</p>&mdash; Justin Kiggins (@neuromusic) <a href="https://twitter.com/neuromusic/status/1577743299531534336?ref_src=twsrc%5Etfw">October 5, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">From UXR work led by <a href="https://twitter.com/ObusLucy?ref_src=twsrc%5Etfw">@ObusLucy</a>, we found that what users of open source bioimaging plugins are looking for depends on whether they are looking at plugins for general purpose analyses or niche/emerging analyses.</p>&mdash; Justin Kiggins (@neuromusic) <a href="https://twitter.com/neuromusic/status/1577743480352169984?ref_src=twsrc%5Etfw">October 5, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">In the former case, they look for signals of usage (downloads, citations) and in the latter, signals of maintenance and support (commits, comments by dev on issues, etc).</p>&mdash; Justin Kiggins (@neuromusic) <a href="https://twitter.com/neuromusic/status/1577744011707621376?ref_src=twsrc%5Etfw">October 5, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I suspect this is different from what a funder who is interested in sustainability or a corporation who is interested in their software supply chain would look for to define &quot;health&quot;</p>&mdash; Justin Kiggins (@neuromusic) <a href="https://twitter.com/neuromusic/status/1577744568203632640?ref_src=twsrc%5Etfw">October 5, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+Alas it is true that metrics designed for funder reporting may differ significantly
+from internal evaluation that informs program development. There is a lot to 
+unpack there over the upcoming months!
 
 ### Three open source software healthy metric "buckets" 
 
@@ -331,7 +342,6 @@ updated.
 Other discussions evolved around semantic versioning and release
 roadmaps.
 
-# TODO START READING HERE
 ## Community adoption of an open source Python tool 
 
 Community adoption of an scientific Python package was another broad bucket in my list.
