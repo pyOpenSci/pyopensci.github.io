@@ -13,6 +13,7 @@ categories:
   - highlight
 redirect_from:
   - /pyopensci-updates/executive-director-pyopensci-leah-wasser-updates/
+comments: true
 ---
 
 
