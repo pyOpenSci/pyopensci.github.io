@@ -46,10 +46,10 @@
   description: 'Physcraper: a Python package for continually updated phylogenetic trees using the Open Tree of Life'
   maintainer: ["Luna Luisa Sánchez-Reyes", "Martha Kandziora", "Emily Jane McTavish"]
   link: "https://github.com/McTavishLab/physcraper"
-  date-accepted:
+  date-accepted: 2021-09-14
   highlight:
-  docs-url: 
-  citation-link: 
+  docs-url: "https://physcraper.readthedocs.io/en/main/"
+  citation-link: "https://zenodo.org/badge/latestdoi/41294748"
 - package-name: pyrolite
   description: 'Tools for getting the most from your geochemical data'
   maintainer: ["Morgan Williams"]
