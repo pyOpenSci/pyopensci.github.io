@@ -38,3 +38,4 @@ jobs:
           directory: '_site'
           arguments: |
             --ignore-urls "https://fonts.googleapis.com,https://fonts.gstatic.com"
+            --ignore-files "/.+\/_posts/README.md"
