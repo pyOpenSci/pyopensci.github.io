@@ -120,8 +120,8 @@ build upon it for another analysis if that tool no longer
 is maintained?
 
 <figure>
-    <a href="/images/blog/orphan-python-open-source-packages.png">
-    <img src="/images/blog/orphan-python-open-source-packages.png" style="max-width:70%" alt="Image showing girl crying with text orphan python packages are breaking my open workflows.">
+    <a href="/images/foss-free-open-source-software/orphan-python-open-source-packages.png">
+    <img src="/images/foss-free-open-source-software/orphan-python-open-source-packages.png" style="max-width:70%" alt="Image showing girl crying with text orphan python packages are breaking my open workflows.">
     </a>
     <figcaption>Your workflow likely depends upon tools that are being developed
     by volunteers. Supporting these tools is critical to supporting open science. And 
@@ -136,8 +136,8 @@ The issues discussed above around maintenance, usability and quality of software
 are the types of issues that pyOpenSci will address. 
 
 <figure>
-    <a href="/images/blog/xkcd-open-source-dependency.png">
-    <img src="/images/blog/xkcd-open-source-dependency.png" style="max-width:70%" alt="Image showing xkcd comic with a robotic type of image representing a scientific workflow and pointing to the small open source package maintained by one person that is a major dependency of the workflow.">
+    <a href="/images/foss-free-open-source-software/xkcd-open-source-dependency.png">
+    <img src="/images/foss-free-open-source-software/xkcd-open-source-dependency.png" style="max-width:70%" alt="Image showing xkcd comic with a robotic type of image representing a scientific workflow and pointing to the small open source package maintained by one person that is a major dependency of the workflow.">
     </a>
     <figcaption>Critical scientific workflows and projects often have dependencies
             that are maintained by volunteers. Source: XKCD </figcaption>
