@@ -1,0 +1,27 @@
+version: 2.1
+orbs:
+  bundle-install: toshimaru/bundle-install@x.y.z
+jobs:
+  build_pyos_website:
+    docker:
+      - image: 'circleci/ruby:2.6.3'
+    steps:
+      - checkout
+      - run:
+          name: setup environment
+          command: |
+            bundle install
+      - run:
+          name: Build website 
+          command: bundle exec jekyll build
+
+      - store_artifacts:
+          path: _site
+          destination: _site
+
+# Tell CircleCI to use this workflow when it builds the site
+workflows:
+  version: 2
+  build_book:
+    jobs:
+      - build_pyos_website

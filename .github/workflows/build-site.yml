@@ -6,7 +6,7 @@ on:
       - '*'
 
 jobs:
-  github-pages:
+  build-test-website:
     runs-on: ubuntu-latest
     steps:
       - name: Check out the code
