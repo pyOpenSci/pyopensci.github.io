@@ -1,9 +1,9 @@
 ---
 layout: single
-title: "Why Python open source software metrics matter for pyOpenSci and what should we track?"
-excerpt: ""
+title: "Why should Python open source package health matter to scientists? (and to you!)"
+excerpt: "Free and open source software tools are the foundation for thousands if not millions of scientific workflows. Yet, it is rare that users fully understand it's importance in moving science forward. Here, I discuss the value of free and open source software for science; why you as a scientist should care; and what pyOpenSci is doing to try to support Python scientific tools for science. "
 author: "Leah Wasser"
-permalink: /blog/why-metrics-matter-pyopensci-open-source
+permalink: /blog/why-python-open-source-software-matters-for-scientists
 header:
     overlay_color: "#666"
     overlay_filter: 0.6
@@ -15,81 +15,125 @@ categories:
 toc: true
 ---
 
-## Program development: developing pyOpenSci as an independent organization that supports Python open source software
-I've created a few open science focused programs now from the ground up. One at 
-NEON and another at CU Boulder. When building a new program, one of the first 
-things that I do (after defining the mission and goals) is to define the metrics 
-that constitute success. 
+## Why Python open source package health should matter to you as a scientist 
 
-These metrics are critical to define early because:
+If you are a scientist, the health of a scientific python package may not be something that 
+you care about. What might seem more important is doing your science, and processing 
+your data to get to that coveted scientific inquiry and exploration stage. 
 
-* They drive everything that you do
-* And often they take time to develop
-* For solid metrics comparisons to evaluate success, you often need solid baseline data; baseline data needs to be collected from the start. Often, it can't be collected later retrospectively.  
+In actuality, package health is incredibly important to science, especially open,
+data-intensive science. It should be important to you too! 
 
-If you have evaluation or education in your professional root system (like I do) 
-you may even go as far as 
-creating a logic model to map activities to outcomes and goals. Then you decide how 
-to collect the data that you need to track outcome success over time. 
+Why? Let me provide a few reasons below:
 
-### Baseline data are critical to collect now to measure success (or failure) in the future
+#### 1. Free and open source tools (FOSS) make your code simpler. They provide commonly needed functionality wrapped up in simple tested functions and objects that you don't need to recreate yourself.
 
-As I am building the pyOpenSci program, I find myself thinking about what metrics 
-around Python open source software we want to track to better understand:
+If you are creating open workflows to process your data, you are likely using free-to-download (and use) tools - software. These tools make it easier for you to access, open, process and visualize your data. These free and open tools allow 
+allow you to write less (complicated) code to process your data. Code that 
+someone else (a package maintainer) maintains (often in their spare time but we'll
+get to that in another blog post!).
 
-1. The outcomes of our activities
-2. The overall health of packages in our growing pyOpenSci ecosystem (specific to our organization)
-3. How/if we contributed to improving that package health
-4. How we are impacting the broader scientific python, open source community
+#### 2. Open source software provides centralized maintenance of commonly used workflows
 
+Imagine 1,000 scientists accessing climate data. They all need to download the 
+data and plot it. However they made download different types of climate data, 
+different models, different variables. The base code that all 1,000 scientists
+write to download and open the data is the same. Similarly the base code for 
+plotting is also the same.  
 
-### Why should Python open source package health matter to scientists? 
+Isn't it better that one person writes great code and 
+updates it as things like the download API change? Or they update plotting 
+functionality? 
 
-If you are a scientist, package health may not be something that 
-you care about. What might seem more important is doing your science, processing 
-your data. 
+* This central maintenance avoids you and many other people needing to write code that 
+does the same thing. It makes it easier for you to process your climate data and get
+to the science. Your code is simpler. 
 
-In actuality, package health is incredibly important to science, especially open
-science. It should be important to you too! 
+* This centralization of tools that perform tasks that many 
+people need to do avoids the problem of 1,000 people trying to create the same workflow and creating different and potentially problematic code. 
 
-Why? 
+* This avoids everyone reinventing the scientific wheel. 
 
-**Free and open source tools (FOSS) makes your code simpler as they provide commonly needed functionality wrapped up in simple tested functions and objects that you don't need to recreate** If you are creating open workflows to process your data, you are likely using free-to-download (and use) tools - software. These tools make it easier for you to access, open, process and visualize your data. In short these allows allow you to write 
-less (complicated) code to process your data. Code that someone else (a package maintainer)
-maintains.
+> This idea of central
+> maintenance of a code base to reduce code complexity is 
+> also at the heart of open 
+> science - building upon each others work!
 
-**Open source software provides centralized maintenance of commonly used workflows:** Similarly if you are using free and open code to access or get data to make a reproducible workflow. And many people access that same data through that same API for different  applications, isn't it better that one person writes great code and 
-updates it as things like the download API change? This avoids many people trying to create the same workflow and creating different and potentially problematic code. Now lots of people are trying the reinvent the wheel. This idea of central maintenance of a code base to reduce code complexity is also at the heart of
-open science. 
+#### 3. Free and open source software reduces barriers to others building upon your work:** If you do use free-to-download tools then your work becomes more reproducible. 
 
-**Open source software reduces barriers to others building upon your work:** If you do use free-to-download tools then your work becomes more reproducible. 
-It removes the layer of needing a paid license to run your code. Thus more people
-can recreate your workflow and build upon your work rather than starting from scratch.
+Free and open source software removes the barrier a paid license to run your code. 
+Thus more people can recreate your workflow and build upon your work rather than 
+starting from scratch.
+
 **This is the heart of open science.** 
 
 There is a lot more to say about the value of open source here but i'll leave
 that to another blog post. 
 
-### Creating and maintaining open source software is hard 
-But alas creating these tools to work with data is not a trivial task and often 
-the people who develop the tools (who may gbe developers or scientists) burn out, 
-get new jobs, etc. This leaves a toll that was once maintained vulnerable to new bugs
-as other packages that the tool depends on update, or as the Python language updates. 
+## Creating and maintaining open source software is hard work 
 
-Further not all developers focus on usability - documenting the package well enough 
-so a beginner can get started with using it. 
+Creating these open source tools to work with data is not a trivial task. Often 
+the people (who may be developers or scientists) who develop the tools:
 
-Maintainers do a lot of hard work and rarely get credit for it. 
+* Aren't paid to do the work  
+* Burn out from all of the effort associated with supporting the tools
+* Aren't acknowledged for their effort
+* Have to deal with users who are frustrated by bugs, but aren't able to communicate that frustration kindly or effectively to help the maintainer get it fixed while also acknowledging their effort (which again is often volunteer)
 
-> Please - cite software in your work if you use it!
+Maintainers also get new jobs, and need to step away from maintaining that tool. 
 
-And finally, what happens to that package that you are using in your workflow, 
+All of the above causes a challenge where once-maintained tools are now left 
+unmaintained and vulnerable to new bugs as other packages that tool depends on 
+are updated, or as the Python language itself is updated. 
+
+### Package usability is also important but not always considered by maintainers
+
+Not all developers focus on usability when designing a new tool. Some do. 
+Maintainers often start,
+as expected, with trying to get a job done. Documenting a package well enough 
+so that a beginner can get started with using it, is not always an immediate goal.
+
+Yet usability is critical to developing a user base. To making a tool accessible 
+to more people which could in turn help grow community around it that 
+supports that tool. 
+
+This can be frustrating for scientists who are trying to find the right tool 
+to use to support their analysis. And as such another area that we definitely 
+want to consider when building pyOpenSci. 
+
+
+## Maintainers do a lot of hard work and rarely get credit for it
+
+Before I say anything else here:
+
+> Please - cite software in your work if you use it! And also if you need to report a bug, please do so in a kind and thoughtful way!
+
+Maintainers work hard on their packages. One package may be the foundation for 
+data processing and analysis across hundreds to thousands (or more) scientific 
+papers. But unlike scientific papers, work on the package continues long after a 
+paper is published. A package is a living thing that needs continual work and love. 
+
+So, what happens to that package that you are using in your workflow, 
 when the developer gets a new job or finds they no longer have the time to 
-maintain it? 
+maintain it? What happens when you need to update your workflow to support a paper review OR when you want to 
+build upon it for another analysis if that tool no longer 
+is maintained?
 
-Now what?
+<figure>
+    <a href="/images/blog/orphan-python-open-source-packages.png">
+    <img src="/images/blog/orphan-python-open-source-packages.png" style="max-width:70%" alt="Image showing girl crying with text orphan python packages are breaking my open workflows.">
+    </a>
+    <figcaption>Your workflow likely depends upon tools that are being developed
+    by volunteers. Supporting these tools is critical to supporting open science. And 
+    open science is critical to accelerating scientific discovery Source: Meme created by yours truly. :) </figcaption>
+</figure>
 
-These issues surrounding citation, maintenance, usability and quality of software, 
+This, my friend, is why you should care about, and support, open source software!
+
+
+## pyOpenSci is designed to create diverse community for and to support the open source Python tools that you as a scientist are using in your workflows. 
+
+The issues discussed above around maintenance, usability and quality of software, 
 are the types of issues that pyOpenSci will address. 
 
 <figure>
@@ -100,9 +144,17 @@ are the types of issues that pyOpenSci will address.
             that are maintained by volunteers. Source: XKCD </figcaption>
 </figure>
 
+But we (pyOpenSci) need to track package use, and maintenance, collect data and 
+quantify outcomes to determine if we are making the impact that we want to. To 
+determine if we are truly helping you, as a scientist in selecting the tool that 
+will help you in your workflow and also be maintained over time and documented 
+enough that you can get started using it quickly.
+
+We also want to ensure that we are supporting maintainers as well. To help them 
+with the hard job of showing up each day to maintain a package that maybe hundreds 
+to thousands of scientists are using. 
 
 ### pyOpenSci needs to collect data around metrics to track all of these issues 
-
 
 pyOpenSci needs to do more than just open peer review of scientific Python 
 packages. We need to collect data to better understand the issues and how we 
@@ -115,14 +167,6 @@ A few package-related goals of pyOpenSci include:
 * Improve the usability of packages through documentation and vignettes (short tutorials showing users how to get started with the package)
 * Ensure that packages are maintained over time; If they aren't maintained, ensure that they are archived or sunsetted in a way that users know they are no longer maintained. (no more dark orphan repositories!)
 
-<figure>
-    <a href="/images/blog/orphan-python-open-source-packages.png">
-    <img src="/images/blog/orphan-python-open-source-packages.png" style="max-width:70%" alt="Image showing girl crying with text orphan python packages are breaking my open workflows.">
-    </a>
-    <figcaption>Your workflow likely depends upon tools that are being developed
-    by volunteers. Supporting these tools is critical to supporting open science. And 
-    open science is critical to accelerating scientific discovery Source: Meme created by yours truly. :) </figcaption>
-</figure>
 
 To make sure we reach our goals, we have to collect metrics on packages 
 submitted to our open peer review process to track quality and health over time.
@@ -149,13 +193,12 @@ So how do we track open source tool health (for science)?
 
 We won't begin to review a package [without bare minimum checks](https://www.pyopensci.org/contributing-guide/open-source-software-submissions/author-guide.html#pyopensci-review-guide-for-python-open-source-package-authors).
 We hope that these bare minimal checks help maintainers as they try to decide
-what is good enough infrastructure for their package. This won't be easy if 
-at all possible to track but we hope this is an indirect outcome of our efforts.
+what is good enough infrastructure for their package. 
 
-We hope that these checks will also help maintainers that are creating a 
+We hope that these checks will also help new maintainers that are creating 
 new packages even if they never submit their package to us for peer review. 
 
-### Goals for package metrics
+## Goals for package metrics
 
 These metrics will help us quantify several of our goals: 
 
@@ -189,29 +232,9 @@ efforts that determine metrics and customize them to our needs.
 
 
 
-
-<div class="notice" markdown="1">
-### A note about our pyOpenSci packages 
-
-Our packages are often smaller and often maintained by 1 person (a common phenomenom in open source). Sometimes they have a 
-small maintainer team, sometimes they don't. Our package maintainers often don't have the resources
-to build community. And often they are scientists rather than developers. But many are keen to build users of their tools and to contribute
-to the broader scientific python ecosystem.   
-</div>
-
-### Three open source software healthy metric "buckets" 
-
-Based on all of the feedback, and what I *think* might be a start at what I need, 
-I organized the following conversation into three buckets:
-
-1. Infrastructure
-2. Maintenance 
-3. Community adoption (and usability??)
-
-These three buckets I think are all priorities of pyOpenSci.
-
-Note: Diversity, Equity, Inclusion, and Accessibility (DEIA) are also of critical 
-concern  for pyOpenSci but I will save that too for another post.  
-
 [In the next post, I will recap that convo on twitter.](/blog/what-makes-a-python-package-healthy)
 
+## Feedback? Leave it below 
+
+If you have any thoughts on pyOpenSci metrics and goals or questions, please 
+leave them in the comments below!

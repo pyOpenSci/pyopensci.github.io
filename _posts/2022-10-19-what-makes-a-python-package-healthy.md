@@ -16,6 +16,37 @@ toc: true
 comments: true
 ---
 
+## Metrics are critical to program development 
+
+*Developing pyOpenSci as an independent organization that supports Python open source software*
+
+I've created a few open science focused programs now from the ground up. One at 
+NEON and another at CU Boulder. When building a new program, one of the first 
+things that I do (after defining the mission and goals) is to define the metrics 
+that constitute success. 
+
+These metrics are critical to define early because:
+
+* They drive everything that you do
+* And often they take time to develop
+* It's critical to have solid baseline data. This baseline data needs to be collected from the start of your program as often, it can't be collected later, retrospectively.  
+
+If you have evaluation or education in your professional background like I do, 
+you may even
+[create a logic model](https://thecompassforsbc.org/how-to-guide/how-develop-logic-model-0) to map activities to outcomes and goals. This logic 
+model helps you define how 
+to collect the data that you need to track outcome success. 
+
+### Baseline data are critical to collect now to measure success (or failure) in the future
+
+As I am building the pyOpenSci program, I find myself thinking about what metrics 
+around Python open source software we want to track to better understand:
+
+1. The outcomes of our activities
+2. The overall health of packages in our growing pyOpenSci ecosystem (specific to our organization)
+3. How/if we contributed to improving the health of packages in our ecosystem
+4. How we are impacting the broader scientific python, open source community
+
 [In a previous post,](/blog/why-metrics-matter-pyopensci-open-source) I spoke 
 generally about why open source should matter to scientists and why metrics of 
 health matter to pyOpenSci.
@@ -75,6 +106,20 @@ community require. Our package maintainers:
 to the broader scientific python ecosystem.   
 </div>
 
+
+### Three open source software healthy metric "buckets" 
+
+Based on all of the feedback, and what I *think* might be a start at what I need, 
+I organized the following conversation into three buckets:
+
+1. Infrastructure
+2. Maintenance 
+3. Community adoption (and usability??)
+
+These three buckets I think are all priorities of pyOpenSci.
+
+Note: Diversity, Equity, Inclusion, and Accessibility (DEIA) are also of critical 
+concern  for pyOpenSci but I will save that too for another post.  
 
 ## Existing efforts on health metrics: Chaoss project and the Software Sustainability Institute (neil)
 
