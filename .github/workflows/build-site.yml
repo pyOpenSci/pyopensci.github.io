@@ -37,4 +37,5 @@ jobs:
         with:
           directory: '_site'
           arguments: |
-            --ignore-urls "https://fonts.googleapis.com,https://fonts.gstatic.com"
+            --ignore-urls "https://fonts.googleapis.com,https://fonts.gstatic.com,_site/_posts/README/index.html"
+            --ignore-files "/.+\/_posts\/README.md"

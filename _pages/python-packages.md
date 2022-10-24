@@ -57,7 +57,7 @@ classes: wide
             check in on any part of any review and read all of the conversation. 
             Check it out.</p>
           </div>  
-          <p><a href="" class="btn btn--inverse"><i class="fas fa-angle-right"></i> See Open Reviews </a></p>
+          <p><a href="https://www.github.com/pyopensci/software-review" class="btn btn--inverse"><i class="fas fa-angle-right"></i> See Open Reviews </a></p>
       </div>
     </div>
   </div>
