@@ -115,14 +115,23 @@ Below are some of the metrics that you can easily access via SNYK's website.
 
 
 
-#### Pandera on Snyk
+#### Pandera python package metrics on Snyk
 
+<figure>
+    <a href="/images/pyopensci-packages/snyk-pandera-python-package-metrics.png"><img src="/images/pyopensci-packages/snyk-pandera-python-package-metrics.png" alt="Image showing the metrics from the Snyk website for the `pandera` package in our ecosystem."></a>
+    <figcaption>Here you can see what a snyk report looks like for pandera, a package accepted into our ecosystem a few years ago. Pandera gets a very healthy report because it's heavily used among other metrics.
+    </figcaption>
+</figure>
 
-{% include figure image_path="/images/pyopensci-packages/snyk-pandera-python-package-metrics.png" alt="Image showing the metrics from the snyk website for the `pandera` package in our ecosystem" caption="Here you can see what a snyk report looks like for pandera, a package accepted into our ecosystem a few years ago. Pandera gets a very healthy report because it's heavily used among other metrics." %}
-
-#### Now let's look at pyGMT stats on Snyk
+#### Now let's look at pyGMT package statistics on Snyk
 
 {% include figure image_path="/images/pyopensci-packages/snyk-pygmt-python-package-metrics.png" alt="Image showing the metrics from the snyk website for the pyGMT package in our ecosystem" caption="In comparison to pandera, pyGMT gets a lower health score. I suspect this is due to lower community adoption and use. pyGMT is a much newer package. We'd argue however that pyGMT has a very healthy level of maintenance and even healthier package structure." %}
+
+<figure>
+    <a href="/images/pyopensci-packages/snyk-pygmt-python-package-metrics.png"><img src="/images/pyopensci-packages/snyk-pygmt-python-package-metrics.png" alt="Image showing the metrics from the snyk website for the pyGMT package in our ecosystem."></a>
+    <figcaption>In comparison to pandera, pyGMT gets a lower, but still good, health score. I suspect this is due to lower community adoption and use. pyGMT is a much newer package. We'd argue however that pyGMT has a very healthy level of maintenance and even healthier package structure.
+    </figcaption>
+</figure>
 
 And of course the [scientific Python project has also been tracking the larger packages](https://devstats.scientific-python.org/):
 
@@ -279,10 +288,8 @@ links and other potential errors.
 
 In fact the website that you are on [RIGHT NOW has a set of checks that run to test links](https://github.com/pyOpenSci/pyopensci.github.io/actions) throughout the site and to check for alt tags in support of accessibility (Alt tags support people using screen readers to navigate a website). 
 
-
-
 <figure>
-    <a href="/images/python-software-health/html-proofer-pyopensci-website-checks.png"><img src="images/python-software-health/html-proofer-pyopensci-website-checks.png" alt="Image showing the output of htmlproofer for a website. You can see that it tells you when and where there are broken links or missing alt tags."></a>
+    <a href="/images/python-software-health/html-proofer-pyopensci-website-checks.png"><img src="/images/python-software-health/html-proofer-pyopensci-website-checks.png" alt="Image showing the output of htmlproofer for a website. You can see that it tells you when and where there are broken links or missing alt tags."></a>
     <figcaption>Notice in this output from htmlproofer on GitHub actions (continuous integration) that every page with a broken link or image with a missing alt tag will be flagged. Any flags will result in a broken build on GitHub - the dreaded red x.
     </figcaption>
 </figure>
