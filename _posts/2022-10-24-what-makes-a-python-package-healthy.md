@@ -115,7 +115,7 @@ Below are some of the metrics that you can easily access via SNYK's website.
 
 
 
-#### Pandera python package metrics on Snyk
+#### [Pandera python package metrics on Snyk](https://snyk.io/advisor/python/pandera)
 
 <figure>
     <a href="/images/pyopensci-packages/snyk-pandera-python-package-metrics.png"><img src="/images/pyopensci-packages/snyk-pandera-python-package-metrics.png" alt="Image showing the metrics from the Snyk website for the `pandera` package in our ecosystem."></a>
@@ -123,7 +123,7 @@ Below are some of the metrics that you can easily access via SNYK's website.
     </figcaption>
 </figure>
 
-#### Now let's look at pyGMT package statistics on Snyk
+#### Now let's look at [pyGMT package statistics on Snyk](https://snyk.io/advisor/python/pygmt)
 
 {% include figure image_path="/images/pyopensci-packages/snyk-pygmt-python-package-metrics.png" alt="Image showing the metrics from the snyk website for the pyGMT package in our ecosystem" caption="In comparison to pandera, pyGMT gets a lower health score. I suspect this is due to lower community adoption and use. pyGMT is a much newer package. We'd argue however that pyGMT has a very healthy level of maintenance and even healthier package structure." %}
 
