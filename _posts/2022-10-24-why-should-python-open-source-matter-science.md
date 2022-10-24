@@ -130,7 +130,6 @@ is maintained?
 
 This, my friend, is why you should care about, and support, open source software!
 
-
 ## pyOpenSci is designed to create diverse community for and to support the open source Python tools that you as a scientist are using in your workflows. 
 
 The issues discussed above around maintenance, usability and quality of software, 
