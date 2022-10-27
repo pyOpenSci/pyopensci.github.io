@@ -1,6 +1,7 @@
 ---
 layout: posts_gallery
 permalink: /blog/
+classes: wide
 title: "pyOpenSci Blog"
 excerpt: "Here we will both post updates about pyOpenSci and also highlight contributors. We will also highlight new packages that have been reviewed and accepted into the pyOpenSci ecosystem."
 header:
