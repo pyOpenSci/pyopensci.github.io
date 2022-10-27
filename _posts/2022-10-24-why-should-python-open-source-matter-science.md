@@ -12,7 +12,7 @@ categories:
   - highlight
   - python-packaging
   - peer-review
-toc: true
+toc: false
 ---
 
 ## Why Python open source package health should matter to you as a scientist 
@@ -69,6 +69,15 @@ starting from scratch.
 
 There is a lot more to say about the value of open source here but i'll leave
 that to another blog post. 
+
+<figure>
+    <a href="/images/foss-free-open-source-software/why-scientists-should-care-open-source.png">
+    <img src="/images/foss-free-open-source-software/why-scientists-should-care-open-source.png" style="max-width:70%" alt="Image with a blue computer keyboard background with the text: why scientists should care about open source software on top.">
+    </a>
+    <figcaption>If you are a scientist using open science approaches, then your workflow likely depends upon open source tools. These tools are critical to our work and yet are often not supported or consider 
+    as integral components of open science.
+    </figcaption>
+</figure>
 
 ## Creating and maintaining open source software is hard work 
 
