@@ -26,7 +26,9 @@ data-intensive science. It should be important to you too!
 
 Why? Let me provide a few reasons below:
 
-#### 1. Free and open source tools (FOSS) make your code simpler. They provide commonly needed functionality wrapped up in simple tested functions and objects that you don't need to recreate yourself.
+#### 1. Free and open source tools (FOSS) make your code simpler. 
+
+Free and open source tools provide commonly needed functionality wrapped up in simple tested functions and objects that you don't need to recreate yourself.
 
 If you are creating open workflows to process your data, you are likely using free-to-download (and use) tools - software. These tools make it easier for you to access, open, process and visualize your data. These free and open tools allow 
 allow you to write less (complicated) code to process your data. Code that 
@@ -54,18 +56,9 @@ people need to do avoids the problem of 1,000 people trying to create the same w
 
 * This avoids everyone reinventing the scientific wheel. 
 
-> This idea of central
-> maintenance of a code base to reduce code complexity is 
-> also at the heart of open 
-> science - building upon each others work!
+#### 3. Free and open source software reduces the barrier of needing a paid license to build upon your work. 
 
-#### 3. Free and open source software reduces barriers to others building upon your work:** If you do use free-to-download tools then your work becomes more reproducible. 
-
-Free and open source software removes the barrier a paid license to run your code. 
-Thus more people can recreate your workflow and build upon your work rather than 
-starting from scratch.
-
-**This is the heart of open science.** 
+Free and open source software removes the barrier a paid license to run your code. This makes your work more accessible.
 
 There is a lot more to say about the value of open source here but i'll leave
 that to another blog post. 
