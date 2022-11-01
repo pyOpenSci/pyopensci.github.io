@@ -1,0 +1,120 @@
+{% capture logo_path %}{{ site.logo }}{% endcapture %}
+
+<!-- This is getting better
+TODO's 
+
+having issues with hamburger placement - it's somehow moving to the bottom not sure why
+
+-->
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="nav__topbar" aria-label="Main Navigation">
+        <!-- More accessible as a screen reader will group the title and image in the same link -->
+        {% unless logo_path == empty %}
+        <a class="site-logo" href="{{ '/' | relative_url }}">
+          <img src="{{ logo_path | relative_url }}" alt="{{ site.masthead_title | default: site.title }}">
+          <span class="site-title">pyOpenSci</span>
+        </a>
+        {% endunless %}
+      
+      <!-- Seems more semantically correct and easier to read to use ul here vs divs -->
+      <ul class="nav__links">
+        {%- for alink in site.data.navigation.main -%}
+              {% if alink.sub-nav %}
+              <!-- If there is sub nav to display -->
+             <li class="dropdown">
+                <button class="dropbtn">{{ alink.title }}
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <ul class="dropdown-content">
+                  {% for subnav in alink.sub-nav %}
+                  <li>
+                    <a href="{{ subnav.url }}" class="masthead__menu-item hover-underline">{{ subnav.title }}</a>
+                  </li> 
+                  {% endfor %}
+                </ul>
+            </li>
+              {% else %}
+              <li>
+                <a href="{{ alink.url | relative_url }}" class="hover-underline">{{ alink.title }}</a>
+              </li>
+              {% endif %}
+        {% endfor %}
+      </ul> 
+
+        <!-- Burger button  - span class for screen readers-->
+        <button class="hamburger__btn-toggle" type="button" count="1">
+          <span class="visually-hidden">Toggle menu</span> <!--screen readers-->
+          <div class="burger__icon"></div>
+        </button>
+      
+      </nav>
+      </div>
+    </div> 
+  </div> 
+</div> 
+        {% if site.search == true %}
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">{{ site.data.ui-text[site.locale].search_label | default: "Toggle search" }}</span>
+          <i class="fas fa-search"></i>
+        </button>
+        {% endif %}
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+<!-- Listen for when the user clicks on the hamburger and acc .active to it when they do-->
+<script>
+
+// TODO add aria elements for hamburger, etc 
+window.addEventListener("load", () => {
+  const hamburger = document.querySelector(".hamburger__btn-toggle");
+  const navLinks = document.querySelector(".nav__links");
+
+  document.addEventListener("click", function (event) {
+
+    // Handle hamburger click
+    if (event.target.classList.contains("burger__icon")) {
+      hamburger.classList.toggle("close");
+      navLinks.classList.toggle("vertical");
+    } 
+    // Handle sub-menu click
+    else if (event.target.classList.contains("dropbtn")) {
+      event.target.parentElement
+        .querySelector(".dropdown-content")
+        .classList.toggle("open");
+
+      // This closes the other dropdown content menu, if open
+      // remove this to keep multiple submenus open
+      document.querySelectorAll(".dropbtn").forEach(function (el) {
+        if (el !== event.target)
+          el.parentElement
+            .querySelector(".dropdown-content")
+            .classList.remove("open");
+      });
+    } 
+    // otherwise the click was elsewhere, so close the menu and any open submenu
+    else {
+      closeMenu();
+    }
+  });
+
+  // Close the menu and all sub-menus. A little cleaner on its own
+  const closeMenu = () => {
+    document.querySelectorAll(".dropdown-content").forEach(function (el) {
+      el.classList.remove("open");
+    });
+
+    hamburger.classList.remove("close");
+    navLinks.classList.remove("vertical");
+  };
+});
+
+</script>
+
+

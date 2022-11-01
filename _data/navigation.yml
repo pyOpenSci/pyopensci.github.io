@@ -2,11 +2,25 @@
 main:
   - title: "Peer Review & Packages"
     url: /python-packages/
+    sub-nav:
+      - title: "Link 1/2"
+        icon: "fas fa-fw fa-envelope-square"
+        url: "/python-packages/" 
+      - title: "Link 2/2"
+        icon: "fas fa-fw fa-envelope-square"
+        url: "/python-packages/" 
   - title: "Blog"
     url: /blog/
   - title: "Resources"
     url: /resources/
   - title: "Our Community"
     url: /our-community/
-  - title: "Get In Touch"
+    sub-nav:
+      - title: "Link 1/2"
+        icon: "fas fa-fw fa-envelope-square"
+        url: "" 
+      - title: "Link 2/2"
+        icon: "fas fa-fw fa-envelope-square"
+        url: "" 
+  - title: "Contact"
     url: /get-involved-contact/
