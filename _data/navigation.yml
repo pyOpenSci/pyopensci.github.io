@@ -1,26 +1,28 @@
 # main links
 main:
   - title: "Peer Review & Packages"
-    url: /python-packages/
+    url: 
     sub-nav:
-      - title: "Link 1/2"
+      - title: "About peer review"
         icon: "fas fa-fw fa-envelope-square"
+        url: "/about-peer-review/" 
         url: "/python-packages/" 
-      - title: "Link 2/2"
-        icon: "fas fa-fw fa-envelope-square"
-        url: "/python-packages/" 
+      - title: "Peer review guide"
+        url: "https://www.pyopensci.org/contributing-guide/"
+      - title: "Python package guide"
+        url: "https://www.pyopensci.org/python-package-guide/"
+  - title: "Our packages"
+    icon: "fas fa-fw fa-envelope-square"
   - title: "Blog"
     url: /blog/
-  - title: "Resources"
-    url: /resources/
-  - title: "Our Community"
-    url: /our-community/
+  # - title: "Resources"
+  #   url: /resources/
+  - title: "Community"
     sub-nav:
-      - title: "Link 1/2"
+      - title: "Our Community"
+        url: "/our-community/" 
+      - title: "Governance"
         icon: "fas fa-fw fa-envelope-square"
-        url: "" 
-      - title: "Link 2/2"
-        icon: "fas fa-fw fa-envelope-square"
-        url: "" 
+        url: "https://www.pyopensci.org/governance/" 
   - title: "Contact"
     url: /get-involved-contact/

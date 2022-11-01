@@ -183,6 +183,11 @@ nav bar: POSITION:relative to ensure it stays at the top */
   }
 }
 
+/* down arrow works better with ascii vs font awesome */
+.downBtn {
+  font-size: .8em;
+}
+
 /* Force button and a href fonts to be same size and style */
 .dropdown .dropbtn, .nav__links a {
   font-size: 1em!important;

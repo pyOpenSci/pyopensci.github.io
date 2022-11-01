@@ -25,8 +25,7 @@ having issues with hamburger placement - it's somehow moving to the bottom not s
               {% if alink.sub-nav %}
               <!-- If there is sub nav to display -->
              <li class="dropdown">
-                <button class="dropbtn">{{ alink.title }}
-                  <i class="fa fa-caret-down"></i>
+                <button class="dropbtn">{{ alink.title }} <span class="downBtn">&#x25BC;</span>
                 </button>
                 <ul class="dropdown-content">
                   {% for subnav in alink.sub-nav %}
