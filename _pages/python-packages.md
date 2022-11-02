@@ -27,7 +27,7 @@ classes: wide
             <p>You're in the right place! Learn about the steps to submit a package
             for open peer review in our guidebook. </p>
           </div>  
-          <p><a href="https://www.pyopensci.org/contributing-guide/open-source-software-submissions/author-guide.html" class="btn btn--inverse"><i class="fas fa-angle-right"></i> View our Author Guide </a></p>
+          <p><a href="https://www.pyopensci.org/peer-review-guide/software-peer-review-guide/author-guide.html" class="btn btn--inverse"><i class="fas fa-angle-right"></i> View our Author Guide </a></p>
       </div>
     </div>
   </div>
