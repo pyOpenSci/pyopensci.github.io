@@ -101,7 +101,7 @@ There are a few ways to get involved with us now.
 1. [You can sign up to be a reviewer by filling out our reviewer form](https://forms.gle/B6zAukLCvJot5nws6). If you do this, we will reach out to you if a package is submitted that suits your background and interests!
   * We will also be growing our editorial board in the upcoming months. Once you have reviewed for us you are eligible to be considered as an editor. We will be posting more about this process in the upcoming months.
 1. Our open peer review process is running! If you have a package that you are working on, [you can submit it to our peer review process](https://github.com/pyOpenSci/software-review/issues). 
-  * You can learn more about our review process here in our [community guide (which will be updated in the upcoming months so that it is more clear)](https://www.pyopensci.org/contributing-guide/open-source-software-peer-review/aims-and-scope.html).
+  * You can learn more about our review process here in our [community guide (which will be updated in the upcoming months so that it is more clear)](https://www.pyopensci.org/peer-review-guide/about-peer-review/aims-and-scope.html).
   * If you have a package that you wish to submit but need some guidance, you can also submit a presubmission inquiry or a request for help here.
 2. You can [follow us on twitter](https://www.twitter.com/pyopensci) to keep tabs on our progress. 
 

@@ -13,6 +13,7 @@ categories:
   - python-packaging
   - peer-review
 toc: false
+comments: true
 ---
 
 ## Why Python open source package health should matter to you as a scientist 
@@ -192,7 +193,7 @@ So how do we track open source tool health (for science)?
 
 ### Peer review is actually the second step in our process. 
 
-We won't begin to review a package [without bare minimum checks](https://www.pyopensci.org/contributing-guide/open-source-software-submissions/author-guide.html#pyopensci-review-guide-for-python-open-source-package-authors).
+We won't begin to review a package [without bare minimum checks](https://www.pyopensci.org/peer-review-guide/software-peer-review-guide/author-guide.html#does-your-package-meet-packaging-requirements).
 We hope that these bare minimal checks help maintainers as they try to decide
 what is good enough infrastructure for their package. 
 

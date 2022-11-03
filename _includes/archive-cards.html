@@ -2,7 +2,9 @@
 <!--  -->
 <div class="feature__item">
     <a href="{{ post.url}}">
+    {% if post.feature_img %}
     <img src="{{ post.feature_img }}" alt="{{ post.feature_alt }}">
+    {% endif %}
 <div class="card">
     
     <div class="archive__item">
@@ -16,5 +18,4 @@
 </a>
 </div>
 </div>
-<!--  -->
 
