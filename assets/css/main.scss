@@ -204,6 +204,11 @@ nav bar: POSITION:relative to ensure it stays at the top */
   position: relative!important;
   width: 100%;
 }
+/* button also needs to be 100% */
+.nav__links.vertical .dropbtn {
+  width: 100%;
+  text-align: left;
+}
 
 /* drop down should be the entire width of the ul block not just the
 parent text width  */
@@ -401,8 +406,6 @@ Right now hover is removed
 /* transform: translateY(0); 
    opacity: 1;  */ 
 }
-
-
 /* This style may be removed ultimately - it is the fancy underline */
 
 .hover-underline {
@@ -692,6 +695,17 @@ h2.clearall {
   filter: drop-shadow(5px 5px 4px #ccc);
 }
 
+.drop-down-off {
+  opacity: 0;
+}
+
+.drop-down-off .vis-opac {
+  opacity: 1;
+}
+
+.drop-down-on {
+  opacity: 1;
+}
 
 @charset "utf-8";
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin

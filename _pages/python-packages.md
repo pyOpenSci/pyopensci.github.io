@@ -2,7 +2,13 @@
 layout: splash
 permalink: /python-packages/
 title: "pyOpenSci Open Peer Review & Accepted Packages"
-
+header:
+    overlay_image: images/header.jpg
+    overlay_filter: 0.6
+intro:
+    - excerpt: "Our open peer review process supports scientists getting credit for the work invested in open Python tools. It also supports standardization of packaging and improved package visibility."
+toc: false
+classes: wide
 ---
 
 {% include feature_row id="intro" type="center" %}

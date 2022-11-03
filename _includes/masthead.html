@@ -66,9 +66,36 @@ having issues with hamburger placement - it's somehow moving to the bottom not s
   </div>
 </div>
 
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+<script>
+$(document).ready(function() {
+  $('.dropdown').click(function(e) {
+    e.stopPropagation();
+    e.preventDefault();
+    $(".dropdown-content").removeClass("open");
+    $(this).find('.dropdown-content').toggleClass('open')
+  });
+    // Close dropdown when u click outside of the nav ul
+    $(document).click(function(e){
+      if(!e.target.closest("ul") && $(".dropdown-content").hasClass("open")){
+        $(".dropdown-content").removeClass("open");
+    }
+  })
+});
+
+$(document).ready(function() {
+  $('.hamburger__btn-toggle').click(function(e){
+    $(this).find('.hamburger__btn-toggle').toggleClass('close')
+  });
+});
+
+
+</script>
+
+
 
 <!-- Listen for when the user clicks on the hamburger and acc .active to it when they do-->
-<script>
+<!-- <script>
 
 // TODO add aria elements for hamburger, etc 
 window.addEventListener("load", () => {
@@ -114,6 +141,6 @@ window.addEventListener("load", () => {
   };
 });
 
-</script>
+</script> -->
 
 
