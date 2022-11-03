@@ -29,7 +29,7 @@ Leonardo Uieda  and Lindsey Heagy.
 
 ## pyOpenSci Town Hall: Wed Dec 11, 2019 12:30-1:30pm in Moscone West - 2002  
 
-Please join us for a <a href="https://www.agu.org/Fall-Meeting/Events/Data-TH33F" target="_blank">town hall dedicated to pyOpenSci: Data FAIR: pyOpenSci: Building a Community Around Open Source Python Software for Science</a>.
+Please join us for a town hall dedicated to pyOpenSci: Data FAIR: pyOpenSci: Building a Community Around Open Source Python Software for Science.
 We expect a strong presence from the rOpenSci community at this event as well!
 pyOpenSci is being modeled after rOpenSci, but focused on the Python
 programming language!
@@ -38,9 +38,7 @@ programming language!
 ### AGU Event Resources - Sign Up To Be A Reviewer & Townhall Presentation
 
 Here are a few resources shared at the town hall:
-1. The <a href="https://docs.google.com/presentation/d/14UN-AD8p2S8q_gUX1SwvSjT7SCVBGID9kQ74_ZexS9s/edit?usp=sharing" target="_blank">pyopensci ignite talk </a>from the open source ignite session
-2. <a href="https://forms.gle/wvwLaLQre58YLHpD6" target="_blank">Sign up to stay involved with pyopensci using this google form. </a>
-</div>
+1. The <a href="https://docs.google.com/presentation/d/1emWah0WC9Or5uSH5IYyf0FfiPinLgqCr/edit?usp=sharing&ouid=112367566823345023071&rtpof=true&sd=true" target="_blank">pyopensci ignite talk </a>from the open source ignite session
 
 ### Signing Off For Now
 I look forward to meeting you at AGU 2019!! Connect with my on twitter if you have questions at AGU! <a href="https://twitter.com/leahawasser" target="_blank">@leahawasser</a>. I will be tweeting during the event!

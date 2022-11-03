@@ -1,6 +1,7 @@
 ---
-layout: archive
+layout: posts_gallery
 permalink: /blog/
+classes: wide
 title: "pyOpenSci Blog"
 excerpt: "Here we will both post updates about pyOpenSci and also highlight contributors. We will also highlight new packages that have been reviewed and accepted into the pyOpenSci ecosystem."
 header:
@@ -10,7 +11,7 @@ author_profile: true
 ---
 
 ## Recent pyOpenSci Posts!
-
+<!-- 
 {% comment %}
 {% include base_path %}
 {% include group-by-array collection=site.posts field="categories" %}
@@ -28,4 +29,4 @@ author_profile: true
 
 {% for post in site.posts %}
   {% include archive-single.html %}
-{% endfor %}
+{% endfor %} -->
