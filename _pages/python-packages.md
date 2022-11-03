@@ -53,11 +53,11 @@ classes: wide
       <div class="archive__item-body">
           <h2 class="archive__item-title">See Our Review Process in Action</h2>
           <div class="archive__item-excerpt">
-            <p>Our reviewers happen in GitHub issues. This means that anyone can 
+            <p>Our reviews happen in GitHub issues. This means that anyone can 
             check in on any part of any review and read all of the conversation. 
             Check it out.</p>
           </div>  
-          <p><a href="" class="btn btn--inverse"><i class="fas fa-angle-right"></i> See Open Reviews </a></p>
+          <p><a href="https://github.com/pyOpenSci/software-review/issues" class="btn btn--inverse"><i class="fas fa-angle-right"></i> See Open Reviews </a></p>
       </div>
     </div>
   </div>
