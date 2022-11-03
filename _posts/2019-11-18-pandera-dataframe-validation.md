@@ -14,6 +14,7 @@ categories:
   - data-validation
   - dataframes
   - highlight
+comments: true
 ---
 
 Modern data engineering and analysis workflows will often involve using data

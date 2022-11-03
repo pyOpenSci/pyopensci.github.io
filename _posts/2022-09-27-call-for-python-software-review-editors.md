@@ -12,6 +12,7 @@ categories:
   - blog-post
   - highlight
   - peer-review
+comments: true
 ---
 
 ## An update on pyOpenSci's review process 
@@ -28,7 +29,7 @@ With that below you will find a few updates.
 
 [David Nicholson](https://github.com/NickleDave), who has been working with pyOpenSci for the past few years as 
 an editor will take on the Editor in Chief role! [You can learn more about that 
-role here](https://www.pyopensci.org/peer-review-guide/open-source-software-submissions/editor-in-chief-guide.html) in our peer review guide. This position will rotate once we have our editorial board setup.
+role here](https://www.pyopensci.org/peer-review-guide/software-peer-review-guide/editor-in-chief-guide.html) in our peer review guide. This position will rotate once we have our editorial board setup.
 
 As Editor in Chief, David will:
 
@@ -57,7 +58,7 @@ longer given mutual consent. You will be responsible for handling 3-4 package
 reviews during that year. We may also bring on guest editors in other 
 instances, e.g., because of their familiarity with a specific domain.
 
-You can read more about the [roles and responsibilities of and editor here](https://www.pyopensci.org/peer-review-guide/open-source-software-submissions/editors-guide.html). 
+You can read more about the [roles and responsibilities of and editor here](https://www.pyopensci.org/peer-review-guide/software-peer-review-guide/editors-guide.html). 
 
 We currently have a package in the queue that is spatial / remote sensing related
 that we'd love to have an editor onboard to review. But we are in need of editors
