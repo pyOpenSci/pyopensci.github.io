@@ -1,9 +1,10 @@
 name: Build and Jekyll site and run htmlproofer
 
 on:
+  pull_request:
   push:
     branches:
-      - '*'
+      - main
 
 jobs:
   github-pages:

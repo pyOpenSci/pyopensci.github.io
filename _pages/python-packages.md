@@ -27,7 +27,7 @@ classes: wide
             <p>You're in the right place! Learn about the steps to submit a package
             for open peer review in our guidebook. </p>
           </div>  
-          <p><a href="https://www.pyopensci.org/contributing-guide/open-source-software-submissions/author-guide.html" class="btn btn--inverse"><i class="fas fa-angle-right"></i> View our Author Guide </a></p>
+          <p><a href="https://www.pyopensci.org/peer-review-guide/software-peer-review-guide/author-guide.html" class="btn btn--inverse"><i class="fas fa-angle-right"></i> View our Author Guide </a></p>
       </div>
     </div>
   </div>
@@ -53,11 +53,11 @@ classes: wide
       <div class="archive__item-body">
           <h2 class="archive__item-title">See Our Review Process in Action</h2>
           <div class="archive__item-excerpt">
-            <p>Our reviewers happen in GitHub issues. This means that anyone can 
+            <p>Our reviews happen in GitHub issues. This means that anyone can 
             check in on any part of any review and read all of the conversation. 
             Check it out.</p>
           </div>  
-          <p><a href="" class="btn btn--inverse"><i class="fas fa-angle-right"></i> See Open Reviews </a></p>
+          <p><a href="https://github.com/pyOpenSci/software-review/issues" class="btn btn--inverse"><i class="fas fa-angle-right"></i> See Open Reviews </a></p>
       </div>
     </div>
   </div>
