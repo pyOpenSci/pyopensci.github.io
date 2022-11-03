@@ -11,8 +11,8 @@ header:
     actions:
         - label: "Submit a Package"
           url: "https://github.com/pyOpenSci/software-review/issues"
-        - label: "Read our Handbook"
-          url: "/contributing-guide/intro"
+        - label: "Read our Peer Review Guide"
+          url: "/peer-review-guide/intro"
 mission:
   - excerpt: 'We build diverse community that supports free and open Python tools for processing scientific data. We also build technical skills needed to contribute to open source and that support open science. Join our global community.'
 programs:
@@ -26,8 +26,8 @@ programs:
     alt: "placeholder image 2"
     title: "Open Peer Review"
     excerpt: "Our open peer review process of Python tools supports standardized software quality and usability. It also provides needed credit and visibility to tool maintainers. Finally it removes redundancy of packages with similar functionaly across the scientific Python ecosystem."
-    url: https://www.pyopensci.org/contributing-guide/open-source-software-peer-review/intro.html
-    btn_label: "Read More About Our Peer Review"
+    url: /python-packages/
+    btn_label: "Learn More About Package Peer Review"
     btn_class: "btn--primary"
   - image_path: images/brooke-cagle-unsplash.png
     title: "Skills for Open Source and Open Science"

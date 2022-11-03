@@ -17,7 +17,7 @@ categories:
 ## An update on pyOpenSci's review process 
 
 Hey there! I just wanted to update everyone about where pyOpenSci is with 
-its peer review process. We are currently hard at work updating [our guides](https://www.pyopensci.org/contributing-guide/intro.html) to 
+its peer review process. We are currently hard at work updating [our guides](https://www.pyopensci.org/peer-review-guide/intro.html) to 
 streamline the peer review process. For the next 2 months (October & November 2022) 
 we will prioritize setting up an editorial board to support new reviews as they 
 come in. 
@@ -28,7 +28,7 @@ With that below you will find a few updates.
 
 [David Nicholson](https://github.com/NickleDave), who has been working with pyOpenSci for the past few years as 
 an editor will take on the Editor in Chief role! [You can learn more about that 
-role here](https://www.pyopensci.org/contributing-guide/open-source-software-submissions/editor-in-chief-guide.html) in our peer review guide. This position will rotate once we have our editorial board setup.
+role here](https://www.pyopensci.org/peer-review-guide/open-source-software-submissions/editor-in-chief-guide.html) in our peer review guide. This position will rotate once we have our editorial board setup.
 
 As Editor in Chief, David will:
 
@@ -57,7 +57,7 @@ longer given mutual consent. You will be responsible for handling 3-4 package
 reviews during that year. We may also bring on guest editors in other 
 instances, e.g., because of their familiarity with a specific domain.
 
-You can read more about the [roles and responsibilities of and editor here](https://www.pyopensci.org/contributing-guide/open-source-software-submissions/editors-guide.html). 
+You can read more about the [roles and responsibilities of and editor here](https://www.pyopensci.org/peer-review-guide/open-source-software-submissions/editors-guide.html). 
 
 We currently have a package in the queue that is spatial / remote sensing related
 that we'd love to have an editor onboard to review. But we are in need of editors
