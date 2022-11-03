@@ -18,7 +18,7 @@ comments: true
 ## An update on pyOpenSci's review process 
 
 Hey there! I just wanted to update everyone about where pyOpenSci is with 
-its peer review process. We are currently hard at work updating [our guides](https://www.pyopensci.org/peer-review-guide/intro.html) to 
+its peer review process. We are currently hard at work updating [our peer review guides](https://www.pyopensci.org/peer-review-guide/) to 
 streamline the peer review process. For the next 2 months (October & November 2022) 
 we will prioritize setting up an editorial board to support new reviews as they 
 come in. 
