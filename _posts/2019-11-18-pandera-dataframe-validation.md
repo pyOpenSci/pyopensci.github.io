@@ -32,7 +32,7 @@ users make statistical assertions about pandas data structures.
 ## A Statistical Data Validation Toolkit for Pandas
 
 <img src="https://github.com/unionai-oss/pandera/tree/master/docs/source/_static/pandera-logo.png"
-width="250px">
+width="250px" alt="Image showing pandera package logo.">
 
 To illustrate `pandera`'s capabilities let's use a small toy example. Suppose
 you're analyzing data for some insights in the context of a mission-critical
