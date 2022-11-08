@@ -4,7 +4,7 @@ title: "pyOpenSci Resources"
 author_profile: false
 published: true
 site-map: true
-permalink: /resources/
+permalink: /resources.html
 ---
 
 We are currently working on all of our organization-wide documentation and 
