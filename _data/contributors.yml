@@ -13,6 +13,68 @@
   packages-editor: ["errdapy", "pandera", "nbless"]
   packages-submitted: ["earthpy"]
   packages-reviewed: [""]
+## Advisory team
+- name: Leonardo Uieda
+  advisory: true
+  bio: ''
+  organization: "University of Liverpool, JOSS"
+  github_username:
+  github_image_id: 290082
+  contributor_type:
+    - contributor
+  packages-submitted: [""]
+  packages-reviewed: [""]
+  packages-editor: [""]
+- name: Ivan Ogasawara
+  sort: 1
+  advisory: true
+  bio: 'SciPy Latin America Ambassador'
+  organization: "SciPy Latin America, Ibis-framework"
+  github_username: xmnlab
+  github_image_id: 5209757
+  title: "Editor"
+  editor: true # can say emeritus when they step down?
+  contributor_type:
+    - reviewer
+    - current-editor
+  packages-submitted: [""]
+  packages-reviewed: ["pandera"]
+  packages-editor: ["sevivi"]
+- name: Filipe Fernandes
+  advisory: true
+  bio: ''
+  organization: "IOOS, Conda Forge"
+  github_username: ocefpaf
+  github_image_id: 950575
+  contributor_type:
+    - contributor
+  packages-submitted: ["errdapy"]
+  packages-reviewed: [""]
+  packages-editor: [""]
+- name: Lindsey Heagy
+  advisory: true
+  bio: ''
+  organization: ""
+  github_username: lheagy
+  github_image_id: 6361812
+  contributor_type:
+    - contributor
+  packages-submitted: [""]
+  packages-reviewed: [""]
+  packages-editor: [""]
+- name: Martin Fleischmann
+  advisory: true
+  bio: 'Urban Data Scientist'
+  organization: "Charles University in Prague, University of Liverpool"
+  github_username: martinfleis
+  github_image_id: 36797143
+  twitter: martinfleis
+  mastodon: martinfleis@mastodon.social
+  orcidid: 0000-0003-3319-3366
+  contributor_type:
+    - reviewer
+  packages-submitted: [""]
+  packages-reviewed: ["movingpandas"]
 # Editors
 - name: David Nicholson
   sort: 2
@@ -28,20 +90,6 @@
   packages-submitted: [""]
   packages-reviewed: ["pystiche"]
   packages-editor: [""]
-- name: Ivan Ogasawara
-  sort: 1
-  bio: 'SciPy Latin America Ambassador'
-  organization: "SciPy Latin America, Ibis-framework"
-  github_username: xmnlab
-  github_image_id: 5209757
-  title: "Editor"
-  editor: true # can say emeritus when they step down?
-  contributor_type:
-    - reviewer
-    - current-editor
-  packages-submitted: [""]
-  packages-reviewed: ["pandera"]
-  packages-editor: ["sevivi"]
 - name: Ariane Sasso
   bio: 'Researcher in Medical Informatics and Digital Health'
   organization: "Hasso Plattner Institute"
@@ -124,16 +172,6 @@
   packages-submitted: [""]
   packages-reviewed: [""]
   packages-editor: [""]
-- name: Filipe Fernandes
-  bio: ''
-  organization: "IOOS, Conda Forge"
-  github_username: ocefpaf
-  github_image_id: 950575
-  contributor_type:
-    - contributor
-  packages-submitted: ["errdapy"]
-  packages-reviewed: [""]
-  packages-editor: [""]
 - name: Carson Farmer
   bio: ''
   organization: "Textileio"
@@ -159,16 +197,6 @@
   organization: "CU Boulder"
   github_username:
   github_image_id: 24379590
-  contributor_type:
-    - contributor
-  packages-submitted: [""]
-  packages-reviewed: [""]
-  packages-editor: [""]
-- name: Leonardo Uieda
-  bio: ''
-  organization: "University of Liverpool, JOSS"
-  github_username:
-  github_image_id: 290082
   contributor_type:
     - contributor
   packages-submitted: [""]
@@ -215,16 +243,6 @@
   packages-submitted: ["pandera"]
   packages-reviewed: [""]
   packages-editor: [""]
-- name: Lindsey Heagy
-  bio: ''
-  organization: ""
-  github_username: lheagy
-  github_image_id: 6361812
-  contributor_type:
-    - contributor
-  packages-submitted: [""]
-  packages-reviewed: [""]
-  packages-editor: [""]
 - name: Sean Gillies
   bio: ''
   organization: "Mapbox"
@@ -245,15 +263,6 @@
   packages-submitted: [""]
   packages-reviewed: ["earthpy"]
   packages-editor: [""]
-- name: Martin Fleischmann
-  bio: 'Urban Data Scientist'
-  organization: "University of Strathclyde"
-  github_username: martinfleis
-  github_image_id: 36797143
-  contributor_type:
-    - reviewer
-  packages-submitted: [""]
-  packages-reviewed: ["movingpandas"]
 - name: Morgan Williams
   bio: 'Postdoctoral Fellow, Geoscience Analytics'
   organization: "CSIRO"
