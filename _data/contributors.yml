@@ -33,6 +33,9 @@
   bio: ''
   organization: ""
   twitter: kcranstn
+  mastodon: 
+  orcidid: 
+  website: 
   github_username: kcranston
   github_image_id: 312034
   board: true
@@ -124,6 +127,10 @@
   organization: ""
   github_username: NickleDave
   github_image_id: 11934090
+  twitter: 
+  mastodon: 
+  orcidid: 
+  website: 
   contributor_type:
     - current editor
     - contributor
@@ -137,6 +144,10 @@
   github_username: arianesasso
   github_image_id: 3659681
   editorial-board: true
+  twitter: 
+  mastodon: 
+  orcidid: 
+  website: 
   contributor_type:
     - package-maintainer
     - editor
@@ -150,6 +161,10 @@
   github_username: jlpalomino
   github_image_id: 4017492
   editorial-board: true
+  twitter: 
+  mastodon: 
+  orcidid: 
+  website: 
   contributor_type:
     - reviewer
     - contributor
@@ -165,6 +180,9 @@
   focus-areas: ["gis", "spatial-vector-data"]
   github_username: anitagraser
   github_image_id: 590385
+  mastodon: 
+  orcidid: 
+  website: 
   contributor_type:
     - package-maintainer
   packages-submitted: ["movingpandas"]
@@ -177,6 +195,10 @@
   organization: "Berkeley Bids, Project Jupyter, Binder"
   github_username: choldgraf
   github_image_id: 1839645
+  twitter: 
+  mastodon: 
+  orcidid: 
+  website: 
   contributor_type:
     - leadership
     - editor
@@ -188,6 +210,10 @@
   organization: "Earth Lab, University of Colorado - Boulder"
   github_username: mbjoseph
   github_image_id: 2664564
+  twitter: 
+  mastodon: 
+  orcidid: 
+  website: 
   contributor_type:
     - reviewer
   packages-submitted: [""]
