@@ -1,6 +1,6 @@
 ---
 layout: splash
-permalink: /about-peer-review/
+permalink: /about-peer-review.html
 title: "About the pyOpenSci Open Peer Review Process"
 header:
     overlay_image: images/header.jpg

@@ -22,7 +22,9 @@
                 <ul class="dropdown-content">
                   {% for subnav in alink.sub-nav %}
                   <li>
-                    <a href="{{ subnav.url }}" class="masthead__menu-item hover-underline">{{ subnav.title }}</a>
+                    <a href="{{ subnav.url }}" class="masthead__menu-item hover-underline">{{ subnav.title }}
+                      {% if subnav.icon %} <i class="{{ subnav.icon }}"></i> {% endif %}
+                    </a>
                   </li> 
                   {% endfor %}
                 </ul>

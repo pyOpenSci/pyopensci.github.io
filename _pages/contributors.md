@@ -1,6 +1,6 @@
 ---
 layout: splash
-permalink: /our-community.html
+permalink: /our-community/
 title: "The pyOpenSci Team & Contributors"
 excerpt: "pyOpenSci is a diverse community of people interested in building a community of practice around scientific software written in Python."
 classes:
