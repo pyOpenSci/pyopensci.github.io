@@ -40,3 +40,4 @@ jobs:
           arguments: |
             --ignore-urls "https://fonts.googleapis.com,https://fonts.gstatic.com,_site/_posts/README/index.html"
             --ignore-files "/.+\/_posts\/README.md"
+            --ignore-status-codes "403, 503"
