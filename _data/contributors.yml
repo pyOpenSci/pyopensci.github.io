@@ -68,6 +68,9 @@
   organization: "Charles University in Prague, University of Liverpool"
   github_username: martinfleis
   github_image_id: 36797143
+  twitter: martinfleis
+  mastodon: martinfleis@mastodon.social
+  orcidid: 0000-0003-3319-3366
   contributor_type:
     - reviewer
   packages-submitted: [""]
