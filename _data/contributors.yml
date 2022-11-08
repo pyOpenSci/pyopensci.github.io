@@ -1,11 +1,16 @@
 # Staff goes here
 - name: Leah Wasser
-  sort: 3
+  sort: 1
   bio: 'Executive Director, pyOpenSci'
   organization: "pyOpenSci"
   github_username: lwasser
   github_image_id: 7649194 # You can find this by right clicking on the image in your bio, and copying the link. the last part contains a 7 digit number that is your avatar image!
   title: "Executive Director"
+  twitter: leahawasser
+  mastodon: 
+  orcidid: 
+  website: https://www.leahwasser.com
+  board: true
   contributor_type:
     - leadership
     - current editor
@@ -13,6 +18,24 @@
   packages-editor: ["errdapy", "pandera", "nbless"]
   packages-submitted: ["earthpy"]
   packages-reviewed: [""]
+- name: Tracy Teal
+  sort: 2
+  bio: ''
+  organization: "RStudio"
+  twitter: 
+  github_username: tracykteal
+  github_image_id: 889238 # You can find this by right clicking on the image in your bio, and copying the link. the last part contains a 7 digit number that is your avatar image!
+  title: "Board chair"
+  board: true
+- name: Karen Cranston 
+  sort: 3
+  title: ""
+  bio: ''
+  organization: ""
+  twitter: kcranstn
+  github_username: kcranston
+  github_image_id: 312034
+  board: true
 ## Advisory team
 - name: Leonardo Uieda
   advisory: true
@@ -20,8 +43,12 @@
   organization: "University of Liverpool, JOSS"
   github_username:
   github_image_id: 290082
+  twitter: 
+  mastodon: 
+  orcidid: 
+  website: 
   contributor_type:
-    - contributor
+    #- contributor
   packages-submitted: [""]
   packages-reviewed: [""]
   packages-editor: [""]
@@ -32,11 +59,15 @@
   organization: "SciPy Latin America, Ibis-framework"
   github_username: xmnlab
   github_image_id: 5209757
-  title: "Editor"
-  editor: true # can say emeritus when they step down?
+  twitter: 
+  mastodon: 
+  orcidid: 
+  website: 
+  #title: "Alumni Editor"
+  editor: #true # can say emeritus when they step down?
   contributor_type:
     - reviewer
-    - current-editor
+    - alumni-editor
   packages-submitted: [""]
   packages-reviewed: ["pandera"]
   packages-editor: ["sevivi"]
@@ -45,9 +76,13 @@
   bio: ''
   organization: "IOOS, Conda Forge"
   github_username: ocefpaf
+  twitter: 
+  mastodon: 
+  orcidid: 
+  website: 
   github_image_id: 950575
   contributor_type:
-    - contributor
+    #- contributor
   packages-submitted: ["errdapy"]
   packages-reviewed: [""]
   packages-editor: [""]
@@ -57,8 +92,12 @@
   organization: ""
   github_username: lheagy
   github_image_id: 6361812
+  twitter: 
+  mastodon: 
+  orcidid: 
+  website: 
   contributor_type:
-    - contributor
+    #- contributor
   packages-submitted: [""]
   packages-reviewed: [""]
   packages-editor: [""]
@@ -71,6 +110,7 @@
   twitter: martinfleis
   mastodon: martinfleis@mastodon.social
   orcidid: 0000-0003-3319-3366
+  website: 
   contributor_type:
     - reviewer
   packages-submitted: [""]
@@ -79,7 +119,7 @@
 - name: David Nicholson
   sort: 2
   title: "Editor in Chief"
-  editor: true
+  editorial-board: true
   bio: 'Bio goes here just a sentence or two is great!'
   organization: ""
   github_username: NickleDave
@@ -96,7 +136,7 @@
   title: "Editor"
   github_username: arianesasso
   github_image_id: 3659681
-  editor: true
+  editorial-board: true
   contributor_type:
     - package-maintainer
     - editor
@@ -109,7 +149,7 @@
   organization: "Google Cloud Learning Services"
   github_username: jlpalomino
   github_image_id: 4017492
-  editor: true
+  editorial-board: true
   contributor_type:
     - reviewer
     - contributor
@@ -121,7 +161,7 @@
   bio: 'Researcher, open source GIS developer and author.'
   organization: "AIT Austrian Institute of Technology"
   title: "Editor"
-  editor: true
+  editorial-board: true
   focus-areas: ["gis", "spatial-vector-data"]
   github_username: anitagraser
   github_image_id: 590385

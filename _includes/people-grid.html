@@ -1,0 +1,29 @@
+<div class="grid__item">
+    <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+        {% if aperson.github_image_id %}
+          <div class="person_img">
+            <img src="https://avatars1.githubusercontent.com/u/{{ aperson.github_image_id }}?s=400&v=4" alt="GitHub photo of {{ aperson.name }}">
+          </div>
+        {% endif %}
+      <h4 class="person_name" itemprop="headline">
+          <a href="https://www.github.com/{{ aperson.github_username }}" rel="permalink"> {{ aperson.name }}
+         </a>
+      </h4>
+      <p class="page__meta">
+      {% if aperson.title %}
+       <span>{{ aperson.title }}</span>
+      {% endif %}
+      </p>
+      <p class="contrib_org" itemprop="organization"> {{ aperson.organization }} </p>
+      <div class="ppl_social">
+      {% if aperson.twitter %}
+      <a href="https://www.twitter.com/{{ aperson.twitter }}"><img src="https://d33wubrfki0l68.cloudfront.net/d1b2a46a9e7ca4ef892f4fecb6cd823e96b20c43/937bf/images/users/twitter.svg" alt="Small graphic showing the Twitter icon. The users twitter account is linked to here if you click on the icon.">
+      </a>
+      {% endif %}
+      {% if aperson.github_username %}
+      <a href="https://www.github.com/{{ aperson.github_username }}"><img src="https://d33wubrfki0l68.cloudfront.net/57b49d06f9d21448da7139f8f6a1addb9942b720/4f69a/images/users/github.svg" alt="Small graphic showing the GitHub icon. The users GitHub account is linked to here if you click on the icon.">
+      </a>
+      {% endif %}
+    </div>
+    </article>
+  </div>
