@@ -5,6 +5,8 @@ author_profile: false
 published: true
 site-map: true
 permalink: /get-involved-contact.html
+redirect_from: 
+    - /get-involved-contact/
 ---
 
 ## Get in Touch

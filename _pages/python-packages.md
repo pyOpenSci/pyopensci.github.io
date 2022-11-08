@@ -1,6 +1,6 @@
 ---
 layout: splash
-permalink: /python-packages/
+permalink: /python-packages.html
 title: "pyOpenSci Open Peer Review & Accepted Packages"
 classes:
 header:
@@ -11,6 +11,8 @@ intro:
     been accepted into the pyOpenSci ecosystem through the open peer review process."
 toc: false
 classes: wide
+redirect_from: 
+  - /python-packages/
 ---
 
 {% include feature_row id="intro" type="center" %}
