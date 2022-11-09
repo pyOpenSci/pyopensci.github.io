@@ -17,12 +17,24 @@
       <p class="contrib_org" itemprop="organization"> {{ aperson.organization }} </p>
       <div class="ppl_social">
       {% if aperson.twitter %}
-      <a href="https://www.twitter.com/{{ aperson.twitter }}"><img src="https://d33wubrfki0l68.cloudfront.net/d1b2a46a9e7ca4ef892f4fecb6cd823e96b20c43/937bf/images/users/twitter.svg" alt="Small graphic showing the Twitter icon. The users twitter account is linked to here if you click on the icon.">
+      <a href="https://www.twitter.com/{{ aperson.twitter }}">
+        <span class="fa-brands fa-twitter" title="Click to view {{ aperson.title }}'s Twitter account"></span>
       </a>
       {% endif %}
       {% if aperson.github_username %}
-      <a href="https://www.github.com/{{ aperson.github_username }}"><img src="https://d33wubrfki0l68.cloudfront.net/57b49d06f9d21448da7139f8f6a1addb9942b720/4f69a/images/users/github.svg" alt="Small graphic showing the GitHub icon. The users GitHub account is linked to here if you click on the icon.">
+      <a href="https://www.github.com/{{ aperson.github_username }}"><span class="fa-brands fa-github" title="Click to view {{ aperson.title }}'s GitHub account"></span>
       </a>
+      {% endif %}
+      {% if aperson.website %}
+      <a href="{{ aperson.website }}"><span class="fa-solid fa-blog" title="Click to view {{ aperson.title }}'s Website"></span>
+      </a>
+      {% endif %}
+      {% if aperson.orcidid %}
+      <a href="https://orcid.org/{{ aperson.orcidid }}"><span class="fa-brands fa-orcid" title="Click to view {{ aperson.title }} on fa-orcid"></span>
+      </a>
+      {% endif %}
+      {% if aperson.mastodon %}
+      <span class="fa-brands fa-mastodon grey" title="{{ aperson.name }} is on Mastadon"></span>
       {% endif %}
     </div>
     </article>
