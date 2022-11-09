@@ -401,10 +401,11 @@
   packages-reviewed: [""]
   packages-editor: [""]
 - name: Nhat (Jonny) Tran
-  bio: ''
+  bio: 'PhD student: Graph Machine Learning for Bioinformatics'
   organization: "University of Texas at Arlington"
   github_username: JonnyTran
   github_image_id: 4750391
+  orcidid: 0000-0002-2575-9633
   contributor_type:
     - package-maintainer
   packages-submitted: ["openomics"]
