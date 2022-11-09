@@ -127,45 +127,15 @@ are, in places, less stringent than those of pyOpenSci.
 We value our volunteer editors. Learn more about what editors do and how we select
 them here. 
 
-{% assign editors = site.data.contributors | where: 'editor', true %}
+{% assign editors = site.data.contributors | where: 'editor', true | sort: 'sort' | reverse %}
 
-<div class="grid people">
+<div class="entries-grid">
 {% for aperson in editors %}
-   <article class="person__item" itemscope="" itemtype="https://schema.org/CreativeWork">
-       {% if aperson.github_image_id %}
-         <div>
-           <img src="https://avatars1.githubusercontent.com/u/{{ aperson.github_image_id }}?s=400&v=4" alt="image of {{ aperson.name}}" class="contrib_avatar">
-         </div>
-       {% endif %}
-      <div class="about_person">
-     <h4 class="grid_title" itemprop="headline">
-         <a href="https://www.github.com/{{ aperson.github_username }}" rel="permalink"> {{ aperson.name }}
-         </a>
-     </h4>
-     <p class="page__meta title">
-     {% if aperson.title %}
-      {{ aperson.title }}
-     {% endif %}
-     </p>
-     <p class="page__meta focus-areas">
-      {% if aperson.focus-areas %}
-      {% for anArea in aperson.focus-areas %}
-        {{ anArea }}{% if forloop.last == false %}, {% endif %} 
-        {% endfor %}
-      {% endif %}
-     </p>
-     </div>
-     <!-- Contribution types -->
-     <p class="page__meta bio">
-     <span>
-     {{ aperson.name}} is also a
-       {% for atype in aperson.contributor_type %}
-      {{ atype }}{% if forloop.last == false %}, {% endif %} 
-      {% endfor %} for pyOpenSci.
-    </span>
-    </p>
-     <p class="contrib_org" itemprop="organization"> Affiliation: {{ aperson.organization }} </p>
-   </article>
+{% unless aperson.board %}
+  {% unless aperson.advisory %}
+    {% include people-grid.html  %}
+ {% endunless %}
+ {% endunless %}
 {% endfor %}
 </div>
 

@@ -59,6 +59,11 @@ h3 {
   font-size: $type-size-3!important;
 }
 
+.wide #main {
+  padding-left: 6em;
+  padding-right: 6em;
+}
+
 .archive__item-title {
   font-family: $header-font-family!important;
   font-size: .9em !important;
@@ -83,15 +88,50 @@ h3 {
   border-radius: 50%;
 }
 
+.ppl_img {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.ppl_social a {
+  margin-right: 10px;
+}
+
+.grid.people {
+  grid-gap: 60px;
+}
+.person__item {
+  //margin: 2.2em;
+  text-align: center;
+}
+
+h4.person_name {
+    margin-top: 0.6em;
+    margin-bottom: 0;
+    font-size: 1.3em;
+  a {
+    text-decoration: none;
+  }
+}
+
+.person_img {
+  -webkit-filter: drop-shadow(3px 3px 3px #999);
+  filter: drop-shadow(3px 3px 3px #999);
+}
+
+.person_img img {
+  width: 100%;
+}
+
 /* Create & style a 3x3 grid wrapper */
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: .3rem;
+  grid-gap: 10px;
 
   h4.grid_title {
-    font-size: 1.4em;
-    text-align: center;
+    font-size: 1.6em;
+    margin-top: 1em;
   }
   .grid_title {
     margin-bottom: 0
@@ -99,9 +139,6 @@ h3 {
 
   h4.grid_title a {
     text-decoration: none;
-  }
-  .person__item {
-    margin: 2.2em;
   }
 
   .page__meta.title {
