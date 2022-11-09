@@ -76,16 +76,16 @@
   packages-editor: ["sevivi"]
 - name: Filipe Fernandes
   advisory: true
-  bio: ''
-  organization: "IOOS, Conda Forge"
+  bio: 'Physical Oceanographer'
+  organization: "IOOS, Conda-Forge"
   github_username: ocefpaf
-  twitter: 
-  mastodon: 
-  orcidid: 
-  website: 
   github_image_id: 950575
+  twitter: ocefpaf
+  mastodon: ocefpaf@scicomm.xyz
+  orcidid: 0000-0003-4165-2913
+  website: 
   contributor_type:
-    #- contributor
+    #- contributor #comented out because has an advisory role
   packages-submitted: ["errdapy"]
   packages-reviewed: [""]
   packages-editor: [""]
