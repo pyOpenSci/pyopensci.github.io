@@ -1,9 +1,9 @@
 ---
 layout: single
 title: "Why should Python open source package health matter to scientists? (and to you!)"
-excerpt: "Free and open source software tools are the foundation for thousands if not millions of scientific workflows. Yet, it is rare that users fully understand it's importance in moving science forward. Here, I discuss the value of free and open source software for science; why you as a scientist should care; and what pyOpenSci is doing to try to support Python scientific tools for science. "
+excerpt: "Free and open source software tools are the foundation for thousands if not millions of scientific workflows. Yet, it is rare that users fully understand it's importance in moving science forward. Here, I discuss the value of free and open source software for science; why you as a scientist should care; and what pyOpenSci is doing to try to support Python scientific tools for science."
 author: "Leah Wasser"
-permalink: /blog/why-python-open-source-software-matters-for-scientists
+permalink: /blog/why-python-open-source-software-matters-for-scientists.html
 header:
     overlay_color: "#666"
     overlay_filter: 0.6
@@ -13,7 +13,23 @@ categories:
   - python-packaging
   - peer-review
 toc: false
+comments: true
 ---
+
+<div class="notice" markdown="1">
+## Part 1/3: Blog series on package health 
+
+This blog post is part 1 of a 3 part series on open source package health. 
+The series was inspired by a conversation 
+held on twitter. This blog post is not a comprehensive perspective on what pyOpenSci
+plans to track as an organization. Rather it's a summary of thoughts collect during 
+the conversation on twitter that we can use to inform our final metrics. 
+* [In blog 2/3 I will discuss 
+why free and open source package metrics matter and which categories of metrics we at pyOpenSci are thinking about tracking.](/blog/why-python-package-health-metrics-matter.html)
+* [In blog 3/3, I'll recap a conversation held on 
+twitter around package health metrics](/blog/what-makes-open-source-python-package-healthy.html).
+
+</div>
 
 ## Why Python open source package health should matter to you as a scientist 
 
@@ -192,7 +208,7 @@ So how do we track open source tool health (for science)?
 
 ### Peer review is actually the second step in our process. 
 
-We won't begin to review a package [without bare minimum checks](https://www.pyopensci.org/contributing-guide/open-source-software-submissions/author-guide.html#pyopensci-review-guide-for-python-open-source-package-authors).
+We won't begin to review a package [without bare minimum checks](https://www.pyopensci.org/peer-review-guide/software-peer-review-guide/author-guide.html#does-your-package-meet-packaging-requirements).
 We hope that these bare minimal checks help maintainers as they try to decide
 what is good enough infrastructure for their package. 
 
@@ -231,9 +247,16 @@ More specifically, pyOpenSci is interested in the health of packages that
 support science. So we may need to build upon already existing 
 efforts that determine metrics and customize them to our needs.
 
+## Continue reading the blog series on package health
+
+This blog post is part 1 of a 3-part series.
+
+[<i class="fas fa-hand-point-right"></i> Click here to proceed to the part 2/3, where I discuss why free and open source package metrics matter.](/blog/what-makes-open-source-python-package-healthy.html){: .btn .btn--info .btn--large}
 
 
-[In the next post, I will recap that convo on twitter.](/blog/what-makes-a-python-package-healthy)
+In the [final post of this three part blog series](/blog/what-makes-open-source-python-package-healthy.html), I'll recap a conversation held on 
+twitter around package health metrics. This conversation will be used to define the 
+types of metrics that we will collect as an organization. 
 
 ## Feedback? Leave it below 
 

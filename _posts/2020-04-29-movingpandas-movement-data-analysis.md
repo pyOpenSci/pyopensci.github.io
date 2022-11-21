@@ -12,6 +12,7 @@ categories:
   - blog-post
   - pandas
   - spatial
+comments: true
 ---
 
 Movement data is everywhere: from tracking apps that record human or vehicle movement to ecologists monitoring wildlife behavior. Movement data analysis is challenging since movement data combines time series and spatial data analyses questions. Existing spatial analysis libraries, such as GeoPandas, are great at handling spatial data but they don't support moving objects. 

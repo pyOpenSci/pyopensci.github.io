@@ -1,29 +1,27 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
+search: false
 ---
 
 // VARIABLES
+
+$border-color: #ccc;
+$intro-transition: intro 0.3s both !default;
+$primary-color: #ccc;
+$nav-font-color: #535a60;
+$nav-hover-color: #8d0065;
+$global-transition: all 0.2s ease-in-out !default;
 
 /* system typefaces */
 $serif: Georgia, Times, serif !default;
 $sans-serif: "Open Sans", sans-serif; //-apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
   //"Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
-$monospace: Monaco, Consolas, "Lucida Console", monospace !default;
+$monospace: 'Open Sans', sans-serif!default;
 
 /* sans serif typefaces */
 $sans-serif-narrow: $sans-serif !default;
-//$helvetica: 
-
 $header-font: 'Raleway', sans-serif; 
 $body-font: 'Open Sans', sans-serif;
-$secondary-text: #757575;
-
-/* serif typefaces */
-// $georgia: Georgia, serif !default;
-// $times: Times, serif !default;
-// $bodoni: "Bodoni MT", serif !default;
-// $calisto: "Calisto MT", serif !default;
-// $garamond: Garamond, serif !default;
 
 $global-font-family: $body-font !default;
 $header-font-family: $header-font !default;
@@ -39,6 +37,7 @@ $type-size-6: 0.75em !default; // ~12px
 $type-size-7: 0.6875em !default; // ~11px
 $type-size-8: 0.625em !default; // ~10px
 
+body {font-size:90%;}
 
 h1,
 h2,
@@ -49,7 +48,6 @@ h6, .archive__item-title {
   margin: 2em 0 0.5em;
   line-height: 1.2;
   font-family: $header-font-family;
-  //font-weight: bold;
 }
 
 h2 {
@@ -61,20 +59,21 @@ h3 {
   font-size: $type-size-3!important;
 }
 
+.wide #main {
+  padding-left: 6em;
+  padding-right: 6em;
+}
+
 .archive__item-title {
   font-family: $header-font-family!important;
   font-size: .9em !important;
-}
-
-body {
-  //font-size:90%
 }
 
 .page__content p, .page__content li {
   font-size: $type-size-5!important;
 }
 
-// Sidebar author with circle font and header font adjustment
+/* Sidebar author with circle font and header font adjustment */
 .sidebar .author__name {
   font-family: $header-font!important;
   font-size: .9em;
@@ -84,23 +83,55 @@ body {
   font-size: 1em!important;
 }
 
-
-// styles for the grid of people 
+/* styles for the people grid  */
 .contrib_avatar {
   border-radius: 50%;
 }
 
+.ppl_img {
+  padding-left: 2em;
+  padding-right: 2em;
+}
 
+.ppl_social a {
+  margin-right: 10px;
+}
+
+.grid.people {
+  grid-gap: 60px;
+}
+.person__item {
+  //margin: 2.2em;
+  text-align: center;
+}
+
+h4.person_name {
+    margin-top: 0.6em;
+    margin-bottom: 0;
+    font-size: 1.3em;
+  a {
+    text-decoration: none;
+  }
+}
+
+.person_img {
+  -webkit-filter: drop-shadow(3px 3px 3px #999);
+  filter: drop-shadow(3px 3px 3px #999);
+}
+
+.person_img img {
+  width: 100%;
+}
 
 /* Create & style a 3x3 grid wrapper */
 .grid {
   display: grid;
-  gap: 1px;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 10px;
 
   h4.grid_title {
-    font-size: 1.4em;
-    text-align: center;
+    font-size: 1.6em;
+    margin-top: 1em;
   }
   .grid_title {
     margin-bottom: 0
@@ -108,9 +139,6 @@ body {
 
   h4.grid_title a {
     text-decoration: none;
-  }
-  .person__item {
-    margin: 2.2em;
   }
 
   .page__meta.title {
@@ -128,34 +156,367 @@ body {
 
 div > div {
   padding: 10px;
-  //background-color: #ccc;
 }
-
-@media screen and (max-width: 800px) {
-
-  .grid {
-    display: grid;
-    gap: 1px;
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media screen and (max-width: 600px) {
-
-  .grid {
-    display: grid;
-    gap: 1px;
-    grid-template-columns: repeat(1, 1fr);
-  }
-}
-
-
 
 .contrib_org {font-weight:normal;
   font-size:70%!important;
   margin-bottom: 0!important;
-
 }
+
+/* BEGIN Top nav drop down styles
+/* replaces mm greedy_nav */
+.nav__topbar {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 2em;
+  background: #fff;
+}
+
+/* Center logo in div - TODO: adjust fonts (will do this at end) */
+.site-subtitle {
+  font-weight: 400;
+  font-size: .8em!important;
+  color: $nav-font-color;
+}
+
+.site-logo img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.nav__links {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  margin-left: auto!important;
+
+  a {
+    float: left;
+    display: block;
+    color: $nav-font-color!important;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: $global-transition;
+  }
+
+  a:hover {
+    color: $nav-hover-color!important;
+   }
+
+  .icon {
+    display: none;
+  }
+}
+
+/* down arrow works better with ascii vs font awesome */
+.downBtn {
+  font-size: .8em;
+}
+
+/* Force button and a href fonts to be same size and style */
+.dropdown .dropbtn, .nav__links a {
+  font-size: 1em!important;
+}
+
+/* Make sure drop down horizontal doesn't push content down 
+(put push it down in vertical mode */
+.nav__links .dropdown .dropdown-content {
+  position: absolute;
+  max-width: 25%;
+}
+
+/* Upon click the menu should turn into a vertical stacked menu with a soft 
+drop shadow 
+*/
+.nav__links.vertical {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 2em;
+  top: 70%;
+  left: 40%;
+  width: 60%;
+  font-size: 1.2em;
+  background-color: #fff;
+  z-index: 1;
+  border: 1px solid #f2f3f3;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+
+  li {
+    width: 100%;
+  }
+
+  .dropdown-content {
+    min-width: 100%;
+  }
+  .dropbtn {
+    width: 100%;
+    text-align: left;
+  }
+
+  a {
+    float: none;
+    display: block; 
+    text-align: left;
+  }
+  .dropdown {
+    float: none;
+  }
+
+  .dropdown-content {position: relative;}
+
+  .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+
+  .dropdown .dropdown-content {
+    position: relative!important;
+    width: 100%;
+  }
+}
+/*  End nav links bar styles */
+
+/* Begin burger stylin */
+
+.hamburger__btn-toggle {
+  display: none;
+  align-self: center;
+  height: 2rem;
+  border: 0;
+  outline: none;
+  -ms-flex-item-align: center;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+/* Setup the background with the white width and height 100% of screen */
+.hamburger__btn-toggle::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-color: #fff;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  pointer-events: none;
+}
+
+/* Turn on white background when clicked - x for close */
+.hamburger__btn-toggle.close::before {
+  opacity: 0.9;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  pointer-events: auto;
+  z-index: -1!important;
+}
+
+/* Begin burger styling: actual hamburger element (the horiz lines)*/
+ .burger__icon {
+  position: relative;
+  width: 1.5rem;
+  height: .25rem;
+  background: #6f777d;
+  margin: auto;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+/* Position the burger in it's x closed state - min mistakes didn't have to do this */
+.close .burger__icon {
+  position: absolute;
+  top: auto;
+  right: .1em;
+}
+
+/* Hide the middle bar when in "closed" style state so it's an x */
+.close .burger__icon {
+  background: transparent;
+}
+
+.burger__icon::before, .burger__icon::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	width: 1.5rem;
+	height: .25rem;
+	background: #6f777d;
+	-webkit-transition: 0.3s;
+	transition: 0.3s;
+}
+
+.burger__icon::after {
+  bottom: -.5rem;
+}
+.burger__icon::before {
+  top: -.5rem;
+}
+
+// This creates the x by rotating the burger bars
+.close .burger__icon::after {
+  -webkit-transform: rotate3d(0, 0, 1, -45deg);
+  transform: rotate3d(0, 0, 1, -45deg);
+}
+.close .burger__icon::before {
+  -webkit-transform: rotate3d(0, 0, 1, 45deg);
+  transform: rotate3d(0, 0, 1, 45deg);
+}
+
+.close .burger__icon::before, .close .burger__icon::after {
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  top: 0;
+  width: 1.5rem;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px !important;
+  width: 1px !important;
+  border: 0 !important;
+  overflow: hidden;
+}
+/*  end burger */
+
+/* Dropdown container for nav links */
+.dropdown {
+  float: left;
+  overflow: hidden;
+
+  .dropbtn {
+    border: none;
+    outline: none;
+    color: $nav-font-color;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  background-color: #fff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  width: 100%; 
+  transition: all 0.25s ease-in; 
+  transform: translateY(-10px);
+}
+
+/* Style the links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  // color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #fff;
+  color: $nav-hover-color;
+}
+
+.dropdown .dropdown-content.open {
+  display: block;
+}
+/* This style may be removed ultimately - it is the fancy underline */
+
+.hover-underline {
+  display: inline-block;
+  position: relative;
+  color: #0087ca;
+}
+
+.hover-underline {
+  width: 100%;
+  text-align: left !important;
+}
+
+.hover-underline:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: $primary-color;
+  -webkit-transition: $global-transition;
+  transition: $global-transition;
+  -webkit-transform: scaleX(0) translate3d(0, 0, 0);
+  transform: scaleX(0) translate3d(0, 0, 0); // hide
+}
+
+.hover-underline:hover:after {
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1); // reveal
+}
+
+/* Add an active class to highlight the current page - might want to reinstate this */
+.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* 768 px */
+@media screen and (max-width: 768px) {
+
+  .hamburger__btn-toggle {
+    //position: fixed; // not sure if this will help?
+    display: block;
+    position: fixed;
+    top: 5%;
+    right: 5%;}
+
+  burger__icon, burger__icon::before, burger__icon::after {
+    display: block; }
+
+  /* Hide horizontal drop down links at 48em / 768px */
+  .nav__links { display: none;}
+
+/* Nav links goes vertical in responsive mode */
+  .nav__links .vertical {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+/*     padding-top: 2em;
+    top: 50%;
+    left: 70%;
+    background-color: #fff; */
+  }
+   /* position search toggle by burger */
+  .search__toggle {
+    position: fixed;
+    right: 8%;
+    font-size: 1.4em;
+    top: 5%;
+  }
+} 
+
+/* End media query 48em / 768 px */
 
 /* package cards splash */
 
@@ -169,10 +530,6 @@ div > div {
     text-decoration: none;
     font-size: 1.2em;
   }
-
-  // h3 {
-  //   font-size: 1.3em;
-  // }
 
   h3.card__title.no_toc {
     margin-top: .3em;
@@ -193,47 +550,11 @@ div > div {
   ul a {
     text-decoration: none;
   }
-
 }
 
 .grid__wrapper {
   display: flex;
 }
-
-/* Blog & author cards  */
-
-// CARDS
-
-.card-title {
-	font-size: .8em!important;
-}
-.card-excerpt {
-	font-size:.65em!important;
-}
-.card-wrapper {
-	display: flex;
-}
-.card {
-	padding: 10px 30px;
-	border-radius: 4px;
-	background: #f5f5f5;
-	box-shadow: 0 20px 25px -15px rgba(0, 0, 0, .3);
-	text-decoration: none;
-
-	&:hover {
-    background: #ccc;
-	}
-}
-
-.card a {
-	text-decoration: none;
-	color: $secondary-text;
-}
-
-
-
-
-/* Author cards */
 
 .cards h2 a {
   text-decoration: none;
@@ -320,7 +641,7 @@ h2.clearall {
   font-size: 1.0em;
 }
 
-.wide__p_text{
+.wide__p_text {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 66.66667%;
     -ms-flex: 0 0 66.66667%;
@@ -328,8 +649,7 @@ h2.clearall {
     max-width: 66.66667%;
 }
 
-/* TWITTER */
-
+/* TWITTER cards */
 .twitter-tweet {
   border: 1px solid #ccc;
   border-radius: .5em;
@@ -345,6 +665,17 @@ h2.clearall {
   filter: drop-shadow(5px 5px 4px #ccc);
 }
 
+// .drop-down-off {
+//   opacity: 0;
+// }
+
+// .drop-down-off .vis-opac {
+//   opacity: 1;
+// }
+
+// .drop-down-on {
+//   opacity: 1;
+// }
 
 @charset "utf-8";
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
