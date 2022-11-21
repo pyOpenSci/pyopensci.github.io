@@ -89,21 +89,6 @@ Our package maintainers:
 to the broader scientific python ecosystem.   
 </div>
 
-
-### Three open source software healthy metric "buckets" 
-
-Based on all of the feedback, and what I *think* might be a start at what I need, 
-I organized the following conversation into three buckets:
-
-1. Infrastructure
-2. Maintenance 
-3. Community adoption (and usability??)
-
-These three buckets I think are all priorities of pyOpenSci.
-
-Note: Diversity, Equity, Inclusion, and Accessibility (DEIA) are also of critical 
-concern  for pyOpenSci but I will save that too for another post.  
-
 ## Existing efforts on health metrics: Chaoss project and the Software Sustainability Institute (neil)
 
 I'd be remiss if I didn't mention that there are several projects out there that 
@@ -147,8 +132,6 @@ Below are some of the metrics that you can easily access via Snyk's website.
 </figure>
 
 #### Now let's look at [pyGMT package statistics on Snyk](https://snyk.io/advisor/python/pygmt)
-
-{% include figure image_path="/images/pyopensci-packages/snyk-pygmt-python-package-metrics.png" alt="Image showing the metrics from the snyk website for the pyGMT package in our ecosystem" caption="In comparison to pandera, pyGMT gets a lower health score. I suspect this is due to lower community adoption and use. pyGMT is a much newer package. We'd argue however that pyGMT has a very healthy level of maintenance and even healthier package structure." %}
 
 <figure>
     <a href="/images/pyopensci-packages/snyk-pygmt-python-package-metrics.png"><img src="/images/pyopensci-packages/snyk-pygmt-python-package-metrics.png" alt="Image showing the metrics from the snyk website for the pyGMT package in our ecosystem."></a>
@@ -318,9 +301,7 @@ In fact the website that you are on [RIGHT NOW has a set of checks that run to t
 </figure>
 
 
-
-
-### Infrastructure Is it easily installable?
+### Infrastructure: Is it easily installable?
 
 How the package is installed is another critical factor to consider. While
 these days most packages do seem to be uploaded to PyPI, some still aren't. And 
@@ -336,7 +317,7 @@ Jed Brown had some nice overarching insight here for things they look at that ar
 indicators of both maintenance and bus factor (risk factor, mentioned below as a measure
 of how many people / institutions support maintenance). More people and more institutions 
 equals lower risk, fewer people and fewer institutions supporting the package equates
-to a higher maintenance risk (or risk of the package becoming a sad orphan with 
+to a higher maintenance risk (or risk of the package becoming a sad orphan with no 
 family to take care of it. 
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">CI (multi-platform, coverage, static analysis), promptness of reviews, number of distinct institutions who have committed in past 6 months, ditto who have reviewed PRs in past 6 months, promptness of reviews, quality of commit messages and PR discussion.</p>&mdash; Jed Brown (@five9a2) <a href="https://twitter.com/five9a2/status/1577746418906714112?ref_src=twsrc%5Etfw">October 5, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
@@ -357,7 +338,7 @@ which will be developed over time.
 
 ### But what constitutes maintenance?  
 
-How do we measure degree of maintenance? Number of issues being addressed And closed? Average commits each month, quarter or year?
+How do we measure degree of maintenance? Number of issues being addressed and closed? Average commits each month, quarter or year?
 
 This could be a relative metrics too. Some package maintainers
 may spend lots of time on issues or have too many to handle quickly as Melissa
@@ -366,7 +347,7 @@ at issues being closed:
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Would that apply to large established projects such as NumPy? My guess is it wouldn&#39;t 😉</p>&mdash; Ax=13!!! (@melissawm) <a href="https://twitter.com/melissawm/status/1577776605220454403?ref_src=twsrc%5Etfw">October 5, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
-But alas I think there are ways around that. We can look at commits, pr's and such
+But alas I think there are ways around that. We can look at commits, pull requests and such
 just to see if there's any activity happening in the repository. Or if it's gone dark
 (dark referring to no long being maintained, answer to issues, fixing bugs, etc). 
 
@@ -477,7 +458,7 @@ Yup
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">it is the equivalent of when a small bakery gets written up in the New York Times, has a huge influx of customers, and collapses under the weight of demand. I think it&#39;s an outcome we don&#39;t think about enough ahead of time</p>&mdash; Chris Holdgraf (@choldgraf) <a href="https://twitter.com/choldgraf/status/1578305233611915264?ref_src=twsrc%5Etfw">October 7, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
-> But I need atleast 5 (thousand) croissants, now. ANDDDD so does my friend. 
+> But I need at least 5 (thousand) croissants, now. ANDDDD so does my friend. 
 
 Juan agrees that a steady stream of issues suggests adoption. Especially since 
 opening issues on GitHub suggests that the users have some technical literacy. 
@@ -486,7 +467,7 @@ opening issues on GitHub suggests that the users have some technical literacy.
 
 ## Metrics quantifying community around tools 
 
-I'd be remiss if i didn't atleast mention that some of the discussion steered 
+I'd be remiss if i didn't at least mention that some of the discussion steered 
 towards community around tools. For instance, Evan brought up community governance
 being a priority.
 
@@ -495,7 +476,7 @@ being a priority.
 But the reality of our users was summarized well here by Tania. Most scientists 
 developing tools are trying to simplify workflows with repeated code. Workflows
 that others may be trying to develop to do the same thing. They aren't necessarily
-focused on community, atleast not yet. 
+focused on community, at least not yet. 
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Also note - a lot of folks developing scientific software are more interested in the pragmatic side of open source (i.e availability, making the codebase public and accessible) rather than building a community around it.</p>&mdash; ✨Tania Allard 💀🇲🇽 🇬🇧 she/her (@ixek) <a href="https://twitter.com/ixek/status/1577914450505601024?ref_src=twsrc%5Etfw">October 6, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
