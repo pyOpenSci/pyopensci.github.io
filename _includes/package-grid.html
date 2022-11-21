@@ -1,0 +1,36 @@
+<!-- A template for lists of packages -->
+
+<div class="cards">
+    <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+        <h3 class="card__title no_toc" itemprop="headline">
+            {{ apackage.package-name }}
+        </h3>
+        <p class="page__meta contributors">
+         <span><i class="fas fa-feather" aria-hidden="true"></i>
+         <!-- Commas in between authors -->
+         {% for aMaintainer in apackage.maintainer %}  
+         {{ aMaintainer }}{% if forloop.last == false %}, {% endif %}
+         {% endfor %}
+         </span>
+        </p>
+        <span class="narrow">
+        <p class="archive__item-excerpt narrow" itemprop="description">{{ apackage.description | markdownify }}
+        </p>
+        </span>
+        <ul>
+          <li>
+            <a href="{{ apackage.link }}" rel="permalink"><i class="fab fa-github"></i> View Code </a>
+          </li>
+          {% if apackage.docs-url %}
+          <li>
+            <a href="{{ apackage.docs-url }}" rel="permalink"><i class="fas fa-book-open"></i> View Docs</a>
+          </li>
+          {% endif %}
+          {% if apackage.citation-link %}
+          <li>
+            <a href="{{ apackage.docs-url }}" rel="permalink"><i class="fas fa-bookmark fa-fw"></i> Cite</a>
+          </li>
+        {% endif %}
+        </ul>
+    </article>
+    </div>
