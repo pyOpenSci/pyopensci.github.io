@@ -1,21 +1,18 @@
 <!-- This is a layout for 3 cards - it is a flex box -->
-<!--  -->
-<div class="feature__item">
-    <a href="{{ post.url}}">
+<article>
+<a href="{{ post.url}}">
+<div class="cards">
     {% if post.feature_img %}
     <img src="{{ post.feature_img }}" alt="{{ post.feature_alt }}">
     {% endif %}
-<div class="card">
     
-    <div class="archive__item">
-    <div class="archive__item-body">
+    <div class="card__bkg">
         <h3 class="card-title">{{ post.title | markdownify | strip_html | truncate: 60 }}</h3>
-        <div class="card-excerpt">
-            <p>{{ post.excerpt | truncate: 100}}</p>
-        </div>
     </div>
+    <div class="card-excerpt">
+        <p>{{ post.excerpt | truncate: 100}}</p>
     </div>
+</div>
 </a>
-</div>
-</div>
+</article>
 
