@@ -127,7 +127,7 @@ are, in places, less stringent than those of pyOpenSci.
 We value our volunteer editors. Learn more about what editors do and how we select
 them here. 
 
-{% assign editors = site.data.contributors | where: 'editor', true | sort: 'sort' | reverse %}
+{% assign editors = site.data.contributors | where: 'editorial-board', true | sort: 'sort' | reverse %}
 
 <div class="entries-grid">
 {% for aperson in editors %}
@@ -140,3 +140,17 @@ them here.
 </div>
 
 <br style="clear:both">
+
+## Recently Accepted Python Packages
+
+<div class="grid">
+    {% for apackage in site.data.packages %}
+    {% if apackage.highlight %}
+{% include package-grid.html  %}
+    {% endif %}
+    {% endfor %}
+</div>
+
+<br clear="both">
+
+   <a href="/python-packages/" class="btn btn--info">View All Accepted Packages <i class="fa fa-4 fa-arrow-circle-right" aria-hidden="true"></i></a>

@@ -7,7 +7,7 @@ excerpt: "Here we will both post updates about pyOpenSci and also highlight cont
 header:
     overlay_color: "#666"
     overlay_filter: 0.6
-author_profile: true
+author_profile: false
 ---
 
 ## Recent pyOpenSci Posts!
