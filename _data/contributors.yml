@@ -1,15 +1,17 @@
 # Staff goes here
-- name: Leah Wasser
+- name: "Leah Wasser"
   sort: 1
-  bio: 'Executive Director, pyOpenSci'
+  bio: "Executive Director, pyOpenSci"
   organization: "pyOpenSci"
-  github_username: lwasser
+  github_username: "lwasser"
   github_image_id: 7649194 # You can find this by right clicking on the image in your bio, and copying the link. the last part contains a 7 digit number that is your avatar image!
   title: "Executive Director"
-  twitter: leahawasser
-  mastodon:
+  twitter: "leahawasser"
+  mastodon: 
+    - handle: "@leahawasser@fosstodon.org"
+    - base-url: "https://fosstodon.org/"
   orcidid: 0000-0002-8177-6550
-  website: https://www.leahwasser.com
+  website: "https://www.leahwasser.com"
   board: true
   contributor_type:
     - leadership
@@ -22,12 +24,12 @@
   sort: 2
   bio: ''
   organization: "RStudio"
-  twitter: tracykteal
-  github_username: tracykteal
+  twitter: "tracykteal"
+  github_username: "tracykteal"
   github_image_id: 889238 # You can find this by right clicking on the image in your bio, and copying the link. the last part contains a 7 digit number that is your avatar image!
   title: "Board chair"
   board: true
-- name: Karen Cranston
+- name: "Karen Cranston"
   sort: 3
   title: ""
   bio: ''
@@ -39,17 +41,52 @@
   github_username: kcranston
   github_image_id: 312034
   board: true
-## Advisory team
+## Advisory councile
+- name: "Yuvi Panda"
+  advisory: true
+  bio: ''
+  organization: "Project Jupyter"
+  github_username: "yuvipanda"
+  github_image_id: 30430
+  twitter:
+  mastodon:
+    - handle: 
+    - base-url:
+  orcidid:
+  website:
+  # contributor_type:
+  #   #- contributor
+  packages-submitted: [""]
+  packages-reviewed: [""]
+  packages-editor: [""]
+
+- name: "Chris Holdgraf"
+  advisory: true
+  bio: "Executive Director, 2i2c"
+  organization: "2i2C, Project Jupyter"
+  github_username: "choldgraf"
+  github_image_id: 1839645
+  twitter: "choldgraf"
+  mastodon: 
+    - handle: "@choldgraf@hachyderm.io"
+    - mastodon-baseurl: "https://hachyderm.io/" 
+  orcidid: "0000-0002-2391-0678"
+  website: "https://chrisholdgraf.com"
+  contributor_type:
+    #- contributor
+  packages-submitted: [""]
+  packages-reviewed: ["erdapy"]
+  packages-editor: [""]
 - name: Leonardo Uieda
   advisory: true
   bio: ''
   organization: "University of Liverpool, JOSS"
-  github_username:
+  github_username: leouieda
   github_image_id: 290082
   twitter:
   mastodon:
   orcidid:
-  website:
+  website: https://www.leouieda.com
   contributor_type:
     #- contributor
   packages-submitted: [""]
@@ -62,10 +99,10 @@
   organization: "SciPy Latin America, Ibis-framework"
   github_username: xmnlab
   github_image_id: 5209757
-  twitter:
+  twitter: "xmnlab"
   mastodon:
-  orcidid:
-  website:
+  orcidid: 0000-0001-5049-4289
+  website: "https://xmnlab.github.io"
   #title: "Alumni Editor"
   editor: #true # can say emeritus when they step down?
   contributor_type:
@@ -85,7 +122,7 @@
   orcidid: 0000-0003-4165-2913
   website:
   contributor_type:
-    #- contributor #comented out because has an advisory role
+    #- contributor #commented out because has an advisory role
   packages-submitted: ["errdapy"]
   packages-reviewed: [""]
   packages-editor: [""]
@@ -506,3 +543,15 @@
   packages-submitted: [""]
   packages-reviewed: ["PyGMT"]
   packages-editor: [""]
+- name: "Nicolas Palopoli"
+  bio: "Co-Executive Director, MetaDocencia. Adjunct Researcher, Universidad Nacional de Quilmes & CONICET"
+  organization: "MetaDocencia"
+  github_username: "npalopoli"
+  github_image_id: 1713937 # You can find this by right clicking on the image in your bio, and copying the link. the last part contains a 7 digit number that is your avatar image!
+  title: "Co-Executive Director"
+  twitter: "NPalopoli"
+  mastodon: 
+    handle: "@npalopoli@fediscience.org"
+    base-url: "fediscience.org"
+  orcidid: ​0000-0001-7925-6436
+  website: https://about.me/npalopoli
