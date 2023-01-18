@@ -636,7 +636,37 @@ h2.clearall {
   clear: both;
 }
 
+
+.notice figcaption, figcaption {
+  font-family: $body-font;
+}
+.notice figcaption {
+  
+}
+.notice {
+  border-radius: 15px!important;
+  box-shadow: 0 1px 1px rgba(189,193,196,0.25)!important;
+  padding: 3em!important;
+
+  p, li {
+  font-size: 1.1em!important;
+  }
+
+  h2, h3 {
+    margin-top:0!important;
+  }
+
+  figcaption {
+    font-size: 1.3em;
+  }
+}
+
 /* Fix buttons and text in notice boxes */
+.notice figcaption {
+  font-size: 1.2em;
+}
+
+
 .notice--info .btn.btn--info {
   color:#fff;
 }

@@ -33,11 +33,12 @@ by an expert team of volunteer advisory members who help steer the direction of 
 {% endfor %}
 </div>
 
-## PyOpenSci working advisory committee 
+## PyOpenSci advisory council 
 {: .clearall }
 
-pyOpenSci advisory committee members are volunteer experts in the scientific Python open 
-source space who provide high-level guidance on the development of the organization. 
+pyOpenSci advisory committee members are volunteer experts in the scientific 
+Python open source space who provide high-level guidance on the development of 
+the organization. 
 
 {% assign advisory_working = site.data.contributors | where:"advisory",true | sort: 'sort' %}
 
@@ -53,7 +54,7 @@ source space who provide high-level guidance on the development of the organizat
 ## PyOpenSci community contributors
 {: .clearall }
 
-{% assign ppl_sorted = site.data.contributors | sort: 'sort' | reverse %}
+{% assign ppl_sorted = site.data.contributors | reverse %}
 
 <div class="entries-grid">
 {% for aperson in ppl_sorted %}
