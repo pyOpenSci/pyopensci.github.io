@@ -33,8 +33,11 @@
       <a href="https://orcid.org/{{ aperson.orcidid }}"><span class="fa-brands fa-orcid" title="Click to view {{ aperson.title }} on fa-orcid"></span>
       </a>
       {% endif %}
-      {% if aperson.mastodon %}
-      <span class="fa-brands fa-mastodon grey" title="{{ aperson.name }} is on Mastadon"></span>
+
+      {% if aperson.mastodon-handle %}
+      <a href="{{ aperson.mastodon-baseurl }}{{ aperson.mastodon-handle }}">
+        <span class="fa-brands fa-mastodon" title="{{ aperson.name }} is on Mastadon"></span>
+      </a>
       {% endif %}
     </div>
     </article>
