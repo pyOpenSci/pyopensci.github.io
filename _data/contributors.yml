@@ -118,6 +118,19 @@
     - reviewer
   packages-submitted: [""]
   packages-reviewed: ["movingpandas"]
+- name: Yuvi Panda
+  advisory: true
+  bio: 'Open Source Infrastructure Engineer'
+  organization: "Project Jupyter"
+  github_username: yuvipanda
+  github_image_id: 30430
+  twitter: 
+  mastodon: yuvipanda@hachyderm.io
+  orcidid: 
+  website: https://words.yuvi.in
+  contributor_type: []
+  packages-submitted: [""]
+  packages-reviewed: [""]
 # Editors
 - name: David Nicholson
   sort: 2
