@@ -7,8 +7,7 @@
   github_image_id: 7649194 # You can find this by right clicking on the image in your bio, and copying the link. the last part contains a 7 digit number that is your avatar image!
   title: "Executive Director"
   twitter: "leahawasser"
-  mastodon-handle: "@leahawasser@fosstodon.org"
-  mastodon-baseurl: "https://fosstodon.org/"
+  mastodon: "https://fosstodon.org/@leahawasser"
   orcidid: 0000-0002-8177-6550
   website: "https://www.leahwasser.com"
   board: true
@@ -40,24 +39,7 @@
   github_username: kcranston
   github_image_id: 312034
   board: true
-## Advisory councile
-- name: "Yuvi Panda"
-  advisory: true
-  bio: ''
-  organization: "Project Jupyter"
-  github_username: "yuvipanda"
-  github_image_id: 30430
-  twitter:
-  mastodon-handle: 
-  mastodon-baseurl:
-  orcidid:
-  website:
-  # contributor_type:
-  #   #- contributor
-  packages-submitted: [""]
-  packages-reviewed: [""]
-  packages-editor: [""]
-
+## Advisory council
 - name: "Chris Holdgraf"
   advisory: true
   bio: "Executive Director, 2i2c"
@@ -65,8 +47,7 @@
   github_username: "choldgraf"
   github_image_id: 1839645
   twitter: "choldgraf"
-  mastodon-handle: "@choldgraf"
-  mastodon-baseurl: "https://hachyderm.io/" 
+  mastodon: "https://hachyderm.io/@choldgraf"
   orcidid: "0000-0002-2391-0678"
   website: "https://chrisholdgraf.com"
   contributor_type:
@@ -81,8 +62,7 @@
   github_username: leouieda
   github_image_id: 290082
   twitter:
-  mastodon-handle:
-  mastodon-baseurl:
+  mastodon:
   orcidid:
   website: https://www.leouieda.com
   contributor_type:
@@ -98,8 +78,7 @@
   github_username: xmnlab
   github_image_id: 5209757
   twitter: "xmnlab"
-  mastodon-handle: 
-  mastodon-baseurl:
+  mastodon:
   orcidid: 0000-0001-5049-4289
   website: "https://xmnlab.github.io"
   #title: "Alumni Editor"
@@ -117,8 +96,7 @@
   github_username: ocefpaf
   github_image_id: 950575
   twitter: ocefpaf
-  # mastodon-handle: "ocefpaf"
-  # mastodon-baseurl: "https://scicomm.xyz/"
+  # mastodon: "https://scicomm.xyz/@ocefpaf"
   orcidid: 0000-0003-4165-2913
   website:
   contributor_type:
@@ -133,8 +111,7 @@
   github_username: "lheagy"
   github_image_id: 6361812
   twitter: "lindsey_jh"
-  mastodon-handle: 
-  mastodon-baseurl:
+  mastodon: 
   orcidid:
   website: "http://lindseyjh.ca/"
   contributor_type:
@@ -149,8 +126,7 @@
   github_username: martinfleis
   github_image_id: 36797143
   twitter: martinfleis
-  mastodon-handle: "@martinfleis"
-  mastodon-baseurl: "https://fosstodon.org/"
+  mastodon: "https://fosstodon.org/@martinfleis"
   orcidid: 0000-0003-3319-3366
   website:
   contributor_type:
@@ -164,7 +140,7 @@
   github_username: yuvipanda
   github_image_id: 30430
   twitter: 
-  mastodon: yuvipanda@hachyderm.io
+  mastodon: https://hachyderm.io/@yuvipanda
   orcidid: 
   website: https://words.yuvi.in
   contributor_type: []
@@ -180,7 +156,7 @@
   github_username: NickleDave
   github_image_id: 11934090
   twitter: nicholdav
-  mastodon: nicholdav@fosstodon.org
+  mastodon: https://fosstodon.org/@nicholdav
   orcidid: 0000-0002-4261-4719
   website: https://nicholdav.info/
   contributor_type:
@@ -552,7 +528,6 @@
   github_image_id: 1713937 # You can find this by right clicking on the image in your bio, and copying the link. the last part contains a 7 digit number that is your avatar image!
   title: "Co-Executive Director"
   twitter: "NPalopoli" 
-  mastodon-handle: "@npalopoli@fediscience.org"
-  mastodon-baseurl: "fediscience.org"
+  mastodon: "https://fediscience.org/@npalopoli"
   orcidid: ​0000-0001-7925-6436
   website: https://about.me/npalopoli
