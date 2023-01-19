@@ -119,7 +119,7 @@ needs to consider, I organized the conversation into four broad categories:
 These four categories, at not by any means mutually exclusive. They are merely a way 
 to begin to organize an engaging and diverse conversation. All of the categories are priorities of pyOpenSci.
 
-[<i class="fas fa-hand-point-right"></i> Click here to read more about how these metric categories  evolved within the conversation on Twitter!](/blog/what-makes-a-python-package-healthy.html){: .btn .btn--info .btn--large}
+[<i class="fas fa-hand-point-right"></i> Click here to read more about how these metric categories  evolved within the conversation on Twitter!](/blog/what-makes-open-source-python-package-healthy.html){: .btn .btn--info .btn--large}
 
 ## Thoughts? 
 
