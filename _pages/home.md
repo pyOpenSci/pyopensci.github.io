@@ -12,7 +12,7 @@ header:
         - label: "Submit a Package"
           url: "https://github.com/pyOpenSci/software-review/issues"
         - label: "Read our Peer Review Guide"
-          url: "https://www.pyopensci.org/peer-review-guide/"
+          url: "https://www.pyopensci.org/software-peer-review/"
 mission:
   - excerpt: 'We build diverse community that supports free and open Python tools for processing scientific data. We also build technical skills needed to contribute to open source and that support open science. Join our global community.'
 programs:

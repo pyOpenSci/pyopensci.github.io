@@ -210,7 +210,7 @@ Ivan was quick to point out some basic metrics offered by GitHub which follow th
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Maybe not totally related, but github has a section called community standards that mabe could be used as reference, for example: <a href="https://t.co/wmu1bDdcQR">https://t.co/wmu1bDdcQR</a></p>&mdash; XMN (@xmnlab) <a href="https://twitter.com/xmnlab/status/1578745372880429057?ref_src=twsrc%5Etfw">October 8, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
-Actually it's totally related, Ivan! Let's have a look look at the [pyOpenSci contributing-guide GitHub repository](https://www.github.com/pyopensci/peer-review-guide/community) to see how we are 
+Actually it's totally related, Ivan! Let's have a look look at the [pyOpenSci contributing-guide GitHub repository](https://www.github.com/pyopensci/software-peer-review/community) to see how we are 
 doing as an organization.
 
 Note that we are missing some important components:
