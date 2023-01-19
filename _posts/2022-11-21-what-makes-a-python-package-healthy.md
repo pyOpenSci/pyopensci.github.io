@@ -146,7 +146,7 @@ And of course the [scientific Python project has also been tracking the larger p
 ## What metrics should pyOpenSci track for their Python scientific open source packages?
 
 So back to the question at hand, what should pyOpenSci be tracking for [packages 
-in our ecosystem](/python-packages/#our-accepted-python-open-source-packages)?
+in our ecosystem](/python-packages/)?
 Hao Ye (and a few others) nailed it - health metrics are multi-dimensional. 
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I think, much like &quot;ecological stability&quot; - <a href="https://t.co/lJe2Fa0ycR">https://t.co/lJe2Fa0ycR</a> - , &quot;health&quot; here is multi-dimensional and different metrics will capture different facets, such as growth, transparency in governance, stability / backwards compatibility, etc.</p>&mdash; Hao Ye will haunt you for bad keming (@Hao_and_Y) <a href="https://twitter.com/Hao_and_Y/status/1577739685841059842?ref_src=twsrc%5Etfw">October 5, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
