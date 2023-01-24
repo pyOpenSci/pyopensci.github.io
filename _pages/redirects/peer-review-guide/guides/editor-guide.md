@@ -1,7 +1,7 @@
 ---
 title: "pyopensci redirect page"
 permalink: /peer-review-guide/software-peer-review-guide/editor-guide.html
-redirect_to: https://www.pyopensci.org/software-peer-review/how-to/editor-guide.html
+redirect_to: https://www.pyopensci.org/software-peer-review/how-to/editors-guide.html
 ---
 
 
