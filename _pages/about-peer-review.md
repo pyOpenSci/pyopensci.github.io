@@ -127,7 +127,7 @@ are, in places, less stringent than those of pyOpenSci.
 We value our volunteer editors. Learn more about what editors do and how we select
 them here. 
 
-{% assign editors = site.data.contributors | where: 'editorial-board', true | sort: 'sort' | reverse %}
+{% assign editors = site.data.contributors | where: 'editorial-board', true  %}
 
 <div class="entries-grid">
 {% for aperson in editors %}
