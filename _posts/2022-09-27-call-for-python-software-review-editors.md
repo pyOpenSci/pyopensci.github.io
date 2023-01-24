@@ -58,7 +58,7 @@ longer given mutual consent. You will be responsible for handling 3-4 package
 reviews during that year. We may also bring on guest editors in other 
 instances, e.g., because of their familiarity with a specific domain.
 
-You can read more about the [roles and responsibilities of an editor here](https://www.pyopensci.org/software-peer-review/how-to/editor-guide.html). 
+You can read more about the [roles and responsibilities of an editor here](https://www.pyopensci.org/software-peer-review/how-to/editors-guide.html). 
 
 We currently have a package in the queue that is spatial / remote sensing related
 that we'd love to have an editor onboard to review. But we are in need of editors
