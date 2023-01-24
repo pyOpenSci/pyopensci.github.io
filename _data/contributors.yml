@@ -217,6 +217,22 @@
   packages-reviewed: [""]
   packages-editor: [""]
   twitter: "underdarkGIS"
+- name: Chiara Marmo
+  bio: 'Research Software Engineer, geospatial, planetary and astronomy data.'
+  organization: ""
+  title: "Editor"
+  github_username: cmarmo
+  github_image_id: 1662261
+  editorial-board: true
+  twitter:
+  mastodon:
+  orcidid: 0000-0003-2843-6044
+  website: https://cmarmo.github.io
+  contributor_type:
+    - editor
+  packages-editor: [""]
+  packages-submitted: [""]
+  packages-reviewed: [""]
 # Reviewers & maintainers go here
 - name: Chris Holdgraf
   bio: 'Bio Here'
