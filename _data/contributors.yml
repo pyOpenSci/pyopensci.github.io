@@ -147,6 +147,23 @@
   packages-submitted: [""]
   packages-reviewed: [""]
 # Editors
+- name: Ariane Sasso
+  bio: 'Researcher in Medical Informatics and Digital Health'
+  organization: "Hasso Plattner Institute"
+  title: "Editor"
+  github_username: arianesasso
+  github_image_id: 3659681
+  editorial-board: true
+  twitter:
+  mastodon:
+  orcidid:
+  website:
+  contributor_type:
+    - package-maintainer
+    - editor
+  packages-editor: ["pyteny"]
+  packages-submitted: ["devicely"]
+  packages-reviewed: [""]
 - name: David Nicholson
   sort: 2
   title: "Editor in Chief"
@@ -165,22 +182,21 @@
   packages-submitted: [""]
   packages-reviewed: ["pydov"]
   packages-editor: ["openomics", "physcraper", "pystiche"]
-- name: Ariane Sasso
-  bio: 'Researcher in Medical Informatics and Digital Health'
-  organization: "Hasso Plattner Institute"
+- name: Chiara Marmo
+  bio: 'Research Software Engineer, geospatial, planetary and astronomy data.'
+  organization: ""
   title: "Editor"
-  github_username: arianesasso
-  github_image_id: 3659681
+  github_username: cmarmo
+  github_image_id: 1662261
   editorial-board: true
   twitter:
   mastodon:
-  orcidid:
-  website:
+  orcidid: 0000-0003-2843-6044
+  website: https://cmarmo.github.io
   contributor_type:
-    - package-maintainer
     - editor
-  packages-editor: [""]
-  packages-submitted: ["devicely"]
+  packages-editor: ["crowsetta"]
+  packages-submitted: [""]
   packages-reviewed: [""]
 - name: Jenny Palomino
   bio: 'Technical Curriculum Developer for Data Engineering'
@@ -217,22 +233,6 @@
   packages-reviewed: [""]
   packages-editor: [""]
   twitter: "underdarkGIS"
-- name: Chiara Marmo
-  bio: 'Research Software Engineer, geospatial, planetary and astronomy data.'
-  organization: ""
-  title: "Editor"
-  github_username: cmarmo
-  github_image_id: 1662261
-  editorial-board: true
-  twitter:
-  mastodon:
-  orcidid: 0000-0003-2843-6044
-  website: https://cmarmo.github.io
-  contributor_type:
-    - editor
-  packages-editor: [""]
-  packages-submitted: [""]
-  packages-reviewed: [""]
 # Reviewers & maintainers go here
 - name: Chris Holdgraf
   bio: 'Bio Here'
