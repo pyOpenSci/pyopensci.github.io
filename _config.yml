@@ -143,12 +143,12 @@ footer:
   scripts:
     - https://kit.fontawesome.com/2409929a54.js
   links:
+    - label: "Mastodon"
+      icon: "fab fa-fw fa-mastodon"
+      url: https://fosstodon.org/@pyOpenSci
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: https://www.twitter.com/pyOpenSci
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: https://github.com/pyOpenSci
