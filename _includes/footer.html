@@ -8,9 +8,7 @@
         {% for link in site.footer.links %}
           {% if link.label and link.url %}
           {% if link.label == "Mastodon" %}
-          <span data-proofer-ignore>
             <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer me" data-proofer-ignore><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.label }}</a></li>
-          </span>
             {% else %}
             <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.label }}</a></li>
             {% endif %}
