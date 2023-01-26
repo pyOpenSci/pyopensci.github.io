@@ -73,6 +73,12 @@ h3 {
   font-size: $type-size-5!important;
 }
 
+/* */
+
+.wide .archive {
+  width: calc(100% - 100px);
+}
+
 /* Sidebar author with circle font and header font adjustment */
 .sidebar .author__name {
   font-family: $header-font!important;
@@ -714,14 +720,14 @@ h2.clearall {
 
 .blog__grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   grid-auto-rows: 1fr;
   grid-column-gap: 10px;
   grid-row-gap: 30px;
   margin-bottom: 20px;
 
   h3.card-title {
-    font-size: 1.2em!important;
+    font-size: 1.1em!important;
     text-align: left;
 	  margin-top: 0;
 	  vertical-align: middle;
@@ -738,7 +744,7 @@ h2.clearall {
 	text-decoration: none;
   }
   p {
-	font-size: 1.2em!important;
+	font-size: 1.1em!important;
 	font-weight: 400;
   }
 }
