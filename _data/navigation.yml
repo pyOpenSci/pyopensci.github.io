@@ -26,5 +26,5 @@ main:
       - title: "Governance"
         icon: "fas fa-external-link-alt"
         url: "https://www.pyopensci.org/governance/" 
-  - title: "Contact"
+  - title: "Get Involved"
     url: /get-involved-contact.html
