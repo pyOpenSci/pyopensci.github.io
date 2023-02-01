@@ -94,12 +94,17 @@
         "review",
         "code"
       ]
+    },
+    {
+      "login": "Batalex",
+      "name": "Alex Batisse",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11004857?v=4",
+      "profile": "http://batalex.github.io",
+      "contributions": [
+        "ideas",
+        "review"
+      ]
     }
   ],
-  "contributorsPerLine": 7,
-  "projectName": "pyopensci.github.io",
-  "projectOwner": "pyOpenSci",
-  "repoType": "github",
-  "repoHost": "https://github.com",
-  "skipCi": true
+  "commitConvention": "angular"
 }
