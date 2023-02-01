@@ -24,10 +24,10 @@ dedicated to high quality Python open source software.
 ## About pyOpenSci
 pyOpenSci is a diverse scientific open source community that develops processes 
 and standards for creation and maintenance of scientific Python packages. We 
-also have a mission to increase participation of groups that have been 
-traditionally underrepresented if not missing from the open source community 
+also have a mission to increase participation of groups that have historically 
+underrepresented / excluded from the open source community 
 through both mentorship and strategic partnerships with existing organizations 
-such as Metadocencia, Open Science Labs, pyLadies, geoLatinas and other 
+such as [MetaDocencia](https://www.metadocencia.org/), [Open Science Labs](https://opensciencelabs.org/), [pyLadies](https://pyladies.com/), [geoLatinas](https://geolatinas.org/) and other 
 organizations.
 
 pyOpenSci’s core program is open peer review of scientific Python software. 
@@ -51,42 +51,50 @@ mission of building a diverse and supportive community forward. This is a
 part-time position (.75-.8 FTE) with full benefits. This position will report 
 to the pyOpenSci Executive Director. 
 
-Review of applications will begin on Feb 1, 2023 and will be ongoing until the 
+Review of applications will begin on Feb 9, 2023 and will be ongoing until the 
 position is filled. This position, and all positions in our organization, is 
 grant funded. Current funds allocated through June 2024. Assuming project 
 success during the first two years, we will seek additional funding to extend 
-the work beyond June 2024. This position is fully remote.  
+the work beyond June 2024. This position is fully remote. While our reach is 
+global, we prefer that you live in the United States. 
+
 
 ## What Your Key Responsibilities Will Be:
 
 ### Community Management
-* Build and manage an active, diverse, and inclusive online pyOpenSci community by staying informed of the needs and motivations of current and prospective members and responding with programming that meets these needs.
+* Build and manage an active, diverse, and inclusive online pyOpenSci community by staying informed of the needs and motivations of current and prospective members and responding with programming that meets these needs
 * Facilitate regular communication with pyOpenSci community members.
-* Organize, plan, and drive participation at community building events, both virtual and in-person, that provide positive and valuable interactions for members, consistent with pyOpenSci’s mission.
-* Lead diversity, equity, and inclusion (DEI) efforts to ensure that pyOpenSci members from all backgrounds are supported and empowered to participate. This will include the development of a mentorship program for underrepresented groups in open source.
+* Organize, plan, and drive participation at community building events, both virtual and in-person, that provide positive and valuable interactions for members, consistent with pyOpenSci’s mission
+* Lead diversity, equity, and inclusion (DEIA) efforts to ensure that pyOpenSci members from all backgrounds are supported and empowered to participate. This will include the development of a mentorship program for underrepresented groups in open source
 * Solicit new packages for review as well as identify and facilitate the resolution of potential hold ups in the review process.
 * Help maintain databases of community members, maintainers and packages for pyOpenSci
 
 ## External Communications
-* Cultivate strategic relationships with new and existing partner organizations. Current partners include JOSS, rOpenSci, Pangeo, the Software Sustainability Institute, the Carpentries, MetaDocencia and 2i2c.
-* Represent pyOpenSci at online events aimed at fostering new partnerships, increasing membership, and building awareness surrounding organizational efforts.
+* Cultivate strategic relationships with new and existing partner organizations Current partners include [JOSS](https://joss.theoj.org/), 
+[rOpenSci](https://ropensci.org/), [Pangeo](https://pangeo.io/), [The Carpentries](https://carpentries.org/), [MetaDocencia](https://www.metadocencia.org/) and [2i2c](https://2i2c.org/)
+* Represent pyOpenSci at online events aimed at fostering new partnerships, increasing membership, and building awareness surrounding organizational efforts
 
 ### Content Creation
-* Grow pyOpenSci’s online presence through content creation and management for multiple platforms (e.g. social media, discussion forums, Slack, blogs, and GitHub).
-* Identify and fill gaps in pyOpenSci’s web resources, including our Peer Review Guide and packaging guide.
+* Grow pyOpenSci’s online presence through content creation and management for multiple platforms (e.g. social media, discussion forums, Slack, blogs, and GitHub)
+* Identify and fill gaps in pyOpenSci’s web resources, including our peer review  and Python packaging guide
 
 ## About You - What experience you need for this position
-* Bachelor’s degree in a relevant discipline such as science, mathematics, engineering, or computer science.
-* 2+ years of experience working with and managing communities that support open source projects or the data science space as an evangelist, advocate, or organizer.
-* Experience creating strategic content for social media platforms and tools (specifically Twitter and Mastodon) and fostering online engagement.
-* Strong desire to deepen your knowledge of best practices for DEI efforts and demonstrated experience working in the DEI space. 
-* Ability to work in a distributed, collaborative team environment - including managing ambiguity, concurrent projects, and work taking place across multiple time zones.
-* Experience or familiarity with Python programming and (optionally) developing or contributing to open source software 
-* Experience using git/GitHub or willingness to learn.
-* Excellent time and project management skills.
-* Excellent oral and written communication skills. These skills will be applied to various areas including website and blog content creation, conflict resolution, technical writing, and external communication at conferences presentations.
-* Strong interpersonal skills. Ideally you have experience cultivating trust through active listening and responsive dialogue to support members in feeling welcome and supported in joining and actively participating in the community.
-* Creative, motivated problem-solver, with an ability to bring forth new ideas for engagement, create systems from scratch, and find new partners.
+* Bachelor’s degree (or equivalent experience) in a relevant discipline such as science, math, engineering, or computer science
+* Fluency speaking english
+* 2+ years of experience working with and managing communities that support open source projects or the data science space as an evangelist, advocate, or organizer
+* Experience creating strategic content for social media platforms and tools (specifically Twitter and Mastodon) and fostering online engagement
+* Strong desire to deepen your knowledge of best practices for DEIA efforts and demonstrated experience working in the DEIA space 
+* Ability to work in a distributed, collaborative team environment - including managing ambiguity, concurrent projects, and work taking place across multiple time zones
+* Experience using git/GitHub or willingness to learn
+* Excellent time and project management skills
+* Excellent oral and written communication skills. These skills will be applied to various areas including website and blog content creation, conflict resolution, technical writing, and external communication at conferences presentations
+* Strong interpersonal skills. Ideally you have experience cultivating trust through active listening and responsive dialogue to support members in feeling welcome and supported in joining and actively participating in the community
+* Creative, motivated problem-solver, with an ability to bring forth new ideas for engagement, create systems from scratch, and find new partners
+
+## About You - Other expertise that will be useful but not required  
+* Fluency speaking Spanish
+* Experience developing or contributing to open source software 
+* Experience or familiarity with Python programming 
 
 ## What to expect
 
@@ -105,19 +113,21 @@ the work beyond June 2024. This position is fully remote.
 * Curating and contributing content to our online community on both Slack and Discourse
 
 ### Within 6 months, you will…
-* Be working on planning a community unconference online event.
-* Be building relationships with core organizations in the open source and DEIA open science space. 
+* Be working on planning a community unconference online event
+* Be building relationships with core organizations in the open source and DEIA open science space
 * Be working with the executive director to secure funding for pyOpenSci
 * Be working with the executive director to develop a training program
 
 ## We Can Offer
-The salary range for this position is $55,000-65,000/year at 75%-80% time plus full benefits.
+The salary range for this position is $55,000-65,000/year at 75%-80% time plus 
+full benefits.
 
 ### Benefits
-Working for Community Initiatives (our fiscal sponsor)
-Your position will be within the pyOpensci organization. However, because we are fiscally sponsored by Community Initiatives, your benefits and salary will be provided through community initiatives. 
+Your position will be within the pyOpensci organization.  
+However, your benefits and salary will be provided by [Community Initiatives](https://communityin.org/), our fiscally sponsor.  
 
-This is a part-time, fully-remote position that includes excellent benefits and a competitive salary commensurate with experience.
+This is a part-time, position that includes excellent benefits and 
+a competitive salary commensurate with experience.
 
 ### Comprehensive benefits package including:
 * Fully paid medical, dental and vision
