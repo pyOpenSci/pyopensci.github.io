@@ -233,6 +233,24 @@
   packages-reviewed: [""]
   packages-editor: [""]
   twitter: "underdarkGIS"
+- name: Alex Batisse
+  bio: "Software engineer & Data scientist."
+  organization:
+  title: "Editor"
+  editorial-board: true
+  focus-areas: ["analytics", "data visualization"]
+  github_username: batalex
+  github_image_id: 11004857
+  mastodon: https://fosstodon.org/@batalex
+  orcidid:
+  website: https://batalex.github.io/
+  contributor_type:
+    - editor
+    - reviewer
+  packages-submitted: [""]
+  packages-reviewed: ["Pynteny"]
+  packages-editor: ["Xclim"]
+  twitter:
 # Reviewers & maintainers go here
 - name: Chris Holdgraf
   bio: 'Bio Here'
