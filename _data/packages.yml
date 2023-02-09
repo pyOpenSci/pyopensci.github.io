@@ -2,18 +2,18 @@
   description: 'Jointly: A Python package for synchronizing multiple sensors with accelerometer data'
   maintainer: ["Arne Herdick", "Felix Musmann", "Ariane Sasso", "Justin Albert", "Bert Arnrich"]
   link: "https://github.com/hpi-dhc/jointly"
-  date-accepted:
+  date-accepted: 2021-12-29
   highlight:
-  docs-url: 
-  citation-link: 
+  docs-url: "https://jointly.readthedocs.io"
+  citation-link: "https://doi.org/10.5281/zenodo.5833858"
 - package-name: devicely
   description: 'Devicely: A Python package for reading, timeshifting and writing sensor data'
   maintainer: ["Ariane Sasso", "Jost Morgenstern", "Felix Musmann", "Bert Arnrich"]
   link: "https://github.com/hpi-dhc/devicely"
-  date-accepted:
+  date-accepted: 2021-08-19
   highlight:
-  docs-url: https://hpi-dhc.github.io/devicely/
-  citation-link: https://doi.org/10.21105/joss.03679
+  docs-url: "https://hpi-dhc.github.io/devicely"
+  citation-link: "https://doi.org/10.21105/joss.03679"
 - package-name: earthpy
   description: 'Explore and plot raster and vector spatial data using open source Python tools.'
   maintainer: ["Leah Wasser", "Max Joseph"]
