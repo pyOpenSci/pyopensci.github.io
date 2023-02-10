@@ -22,7 +22,7 @@ TODO add this advisory committee role to the governance
 pyOpenSci has one core paid staff member who leads the organization. We are supported 
 by an expert team of volunteer advisory members who help steer the direction of the organization.
 
-## External advisory committee & leadership
+## Executive councile & leadership
 {: .clearall }
 
 {% assign advisory_sorted = site.data.contributors | where:"board",true | sort: 'sort' %}
@@ -36,7 +36,7 @@ by an expert team of volunteer advisory members who help steer the direction of 
 ## PyOpenSci advisory council 
 {: .clearall }
 
-pyOpenSci advisory committee members are volunteer experts in the scientific 
+pyOpenSci advisory council members are volunteer experts in the scientific 
 Python open source space who provide high-level guidance on the development of 
 the organization. 
 
