@@ -79,7 +79,7 @@ global, we prefer that you live in the United States.
 * Identify and fill gaps in pyOpenSci’s web resources, including our peer review  and Python packaging guide
 
 ## About You - What experience you need for this position
-* Bachelor’s degree (or equivalent experience) in a relevant discipline such as science, math, engineering, or computer science
+* Experience working in a relevant discipline such as science communication, science, math, engineering, or computer science (or a bachelors degree in this space)
 * Fluency speaking english
 * 2+ years of experience working with and managing communities that support open source projects or the data science space as an evangelist, advocate, or organizer
 * Experience creating strategic content for social media platforms and tools (specifically Twitter and Mastodon) and fostering online engagement
@@ -95,6 +95,7 @@ global, we prefer that you live in the United States.
 * Fluency speaking Spanish
 * Experience developing or contributing to open source software 
 * Experience or familiarity with Python programming 
+* Bachelors degree in STEM or communications.
 
 ## What to expect
 
