@@ -293,7 +293,7 @@
 - name: Paige Bailey
   bio: ''
   organization: "Google"
-  github_username:
+  github_username: dynamicwebpaige
   github_image_id: 3712347
   contributor_type:
     - contributor
@@ -303,7 +303,7 @@
 - name: Carson Farmer
   bio: ''
   organization: "Textileio"
-  github_username:
+  github_username: carsonfarmer
   github_image_id: 1220613
   contributor_type:
     - contributor
@@ -313,7 +313,7 @@
 - name: Joe Hamman
   bio: ''
   organization: "NCAR, Pangeo"
-  github_username:
+  github_username: jhamman
   github_image_id: 2443309
   contributor_type:
     - contributor
@@ -323,7 +323,7 @@
 - name: Kylen Solvik
   bio: ''
   organization: "CU Boulder"
-  github_username:
+  github_username: kysolvik
   github_image_id: 24379590
   contributor_type:
     - contributor
@@ -333,7 +333,7 @@
 - name: Martin Skarzynski
   bio: ''
   organization: "NCI Biostatistics Branch"
-  github_username:
+  github_username: marskar
   github_image_id: 12806339
   contributor_type:
     - contributor
@@ -343,7 +343,7 @@
 - name: Mike Trizna
   bio: ''
   organization: ""
-  github_username:
+  github_username: miketrizna
   github_image_id: 472677
   contributor_type:
     - contributor
@@ -353,7 +353,7 @@
 - name: Neil Chue Hong
   bio: ''
   organization: "Software Sustainability Institute"
-  github_username:
+  github_username: npch
   github_image_id: 1507151
   contributor_type:
     - contributor
