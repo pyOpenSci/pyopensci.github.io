@@ -33,7 +33,6 @@
   github_image_id: 889238
   title: Board chair
   board: true
-  website:
   location:
   email: tkteal@gmail.com
 - name: Karen Cranston
@@ -102,7 +101,7 @@
   twitter: xmnlab
   mastodon:
   orcidid: 0000-0001-5049-4289
-  website:
+  website: https://xmnlab.github.io
   editor:
   contributor_type:
     - reviewer
@@ -184,7 +183,7 @@
   twitter:
   mastodon: https://hachyderm.io/@yuvipanda
   orcidid:
-  website:
+  website: https://words.yuvi.in
   contributor_type: []
   packages-submitted:
     -
@@ -272,7 +271,7 @@
   twitter:
   mastodon:
   orcidid:
-  website: https://linkedin.com/in/jennypalomino
+  website:
   contributor_type:
     - reviewer
     - contributor
@@ -407,7 +406,6 @@
   packages-editor:
     -
   twitter: dynamicwebpaige
-  website: https://paigevie.ws
   location: Seattle, WA
   email: paige.bailey@alumni.rice.edu
 - name: Carson Farmer
@@ -458,7 +456,6 @@
   packages-editor:
     -
   twitter:
-  website:
   location:
   email: kysolvik@gmail.com
 - name: Martin Skarzynski
@@ -495,7 +492,6 @@
   packages-editor:
     -
   twitter:
-  website:
   location: Washington, DC
   email: triznam@si.edu
 - name: Neil Chue Hong
@@ -583,7 +579,6 @@
   packages-editor:
     -
   twitter: metasomite
-  website:
   location: Perth, WA, Australia
   email:
 - name: Philip Meier
@@ -601,7 +596,6 @@
   packages-editor:
     -
   twitter:
-  website:
   location: Germany
   email:
 - name: Edgar Riba
@@ -619,7 +613,6 @@
   packages-editor:
     -
   twitter: edgarriba
-  website: https://www.kornia.org
   location: Barcelona, Spain
   email: edgar.riba@gmail.com
 - name: DOV-Vlaanderen
@@ -670,7 +663,6 @@
   packages-editor:
     -
   twitter:
-  website:
   location:
   email:
 - name: Pieter Jan Haest
@@ -721,7 +713,6 @@
   packages-editor:
     -
   twitter: ksielemann
-  website:
   location:
   email:
 - name: Moritz Lürig
@@ -794,7 +785,6 @@
   packages-editor:
     -
   twitter:
-  website: https://karthur.org/
   location: Missoula, MT
   email: endsley@umich.edu
 - name: Alejandro Sáez Mollejo
@@ -813,7 +803,6 @@
   packages-editor:
     -
   twitter:
-  website: https://www.linkedin.com/in/alejandrosaezm
   location: Madrid (Spain)
   email: alex.saez.12@gmail.com
 - name: Julius Busecke
@@ -830,7 +819,6 @@
   packages-editor:
     -
   twitter: JuliusBusecke
-  website: https://www.juliusbusecke.com
   location: Brooklyn, New York
   email:
 - name: Szymon Moliński
@@ -885,7 +873,7 @@
     - doc
     - design
   github_username: tupui
-  website:
+  website: https://github.com/tupui
   github_image_id: 23188539
   mastodon:
   twitter: PamphileRoy
@@ -919,7 +907,7 @@
     - code
     - review
   github_username: radoering
-  website:
+  website: https://github.com/radoering
   github_image_id: 30527984
   mastodon:
   twitter:
@@ -937,7 +925,7 @@
     - design
     - review
   github_username: astrojuanlu
-  website:
+  website: https://social.juanlu.space/@astrojuanlu
   github_image_id: 316517
   mastodon:
   twitter:
@@ -994,7 +982,7 @@
     - design
     - review
   github_username: eli-schwartz
-  website:
+  website: https://github.com/eli-schwartz
   github_image_id: 6551424
   mastodon:
   twitter:
@@ -1160,7 +1148,7 @@
     - review
     - code
   github_username: ReventonC
-  website: https://zehuachen.com
+  website: http://zehuachen.com
   github_image_id: 6276623
   mastodon:
   twitter:
@@ -1177,7 +1165,7 @@
     - code
     - review
   github_username: sumit-158
-  website:
+  website: https://github.com/sumit-158
   github_image_id: 96618001
   mastodon:
   twitter: itss_sumit
@@ -1194,7 +1182,7 @@
     - review
     - code
   github_username: consideRatio
-  website:
+  website: https://github.com/consideRatio
   github_image_id: 3837114
   mastodon:
   twitter: e_Sundell
