@@ -207,7 +207,7 @@
     - package-maintainer
     - editor
   packages-editor:
-    - pyteny
+    - Pyteny
   packages-submitted:
     - devicely
   packages-reviewed:
