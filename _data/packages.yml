@@ -1,100 +1,429 @@
-- package-name: jointly
-  description: 'Jointly: A Python package for synchronizing multiple sensors with accelerometer data'
-  maintainer: ["Arne Herdick", "Felix Musmann", "Ariane Sasso", "Justin Albert", "Bert Arnrich"]
-  link: "https://github.com/hpi-dhc/jointly"
-  date-accepted: 2021-12-29
-  highlight:
-  docs-url: "https://jointly.readthedocs.io"
-  citation-link: "https://doi.org/10.5281/zenodo.5833858"
-- package-name: devicely
-  description: 'Devicely: A Python package for reading, timeshifting and writing sensor data'
-  maintainer: ["Ariane Sasso", "Jost Morgenstern", "Felix Musmann", "Bert Arnrich"]
-  link: "https://github.com/hpi-dhc/devicely"
-  date-accepted: 2021-08-19
-  highlight:
-  docs-url: "https://hpi-dhc.github.io/devicely"
-  citation-link: "https://doi.org/10.21105/joss.03679"
-- package-name: earthpy
-  description: 'Explore and plot raster and vector spatial data using open source Python tools.'
-  maintainer: ["Leah Wasser", "Max Joseph"]
-  link: "https://github.com/earthlab/earthpy"
-- package-name: nbless
-  description: 'Construct, deconstruct, convert, execute, and prepare slides from Jupyter notebooks.'
-  maintainer: ["Martin Skarzynski"]
-  date-accepted:
-  highlight:
-  link: "https://github.com/py4ds/nbless"
-  docs-url: 
-  citation-link: 
-- package-name: pandera
-  description: 'Validate the types, properties, and statistics of pandas data structures'
-  maintainer: ["Niels Bantilan"]
-  date-accepted:
-  highlight: True
-  link: "https://github.com/unionai-oss/pandera"
-  docs-url: 
-  citation-link: 
-- package-name: MovingPandas
-  description: 'Trajectory classes and functions built on top of GeoPandas'
-  maintainer: ["Anita Graser"]
-  date-accepted:
-  highlight: True
-  link: "https://github.com/anitagraser/movingpandas"
-  docs-url: 
-  citation-link: 
-- package-name: physcraper
-  description: 'Physcraper: a Python package for continually updated phylogenetic trees using the Open Tree of Life'
-  maintainer: ["Luna Luisa Sánchez-Reyes", "Martha Kandziora", "Emily Jane McTavish"]
-  link: "https://github.com/McTavishLab/physcraper"
-  date-accepted: 2021-09-14
-  highlight:
-  docs-url: "https://physcraper.readthedocs.io/en/main/"
-  citation-link: "https://zenodo.org/badge/latestdoi/41294748"
-- package-name: pyrolite
-  description: 'Tools for getting the most from your geochemical data'
-  maintainer: ["Morgan Williams"]
-  date-accepted:
-  highlight:
-  link: "https://github.com/morganjwilliams/pyrolite"
-  docs-url: 
-  citation-link: 
-- package-name: pystiche
-  description: 'A Framework for Neural Style Transfer'
-  maintainer: ["Philip Meier"]
-  link: "https://github.com/pmeier/pystiche"
-  date-accepted:
-  highlight:
-  docs-url: 
-  citation-link: 
-- package-name: pydov
-  description: 'Python package to retrieve data from Databank Ondergrond Vlaanderen (DOV)'
-  maintainer: ["DOV-Vlaanderen"]
-  link: "https://github.com/DOV-Vlaanderen/pydov"
-  date-accepted:
-  highlight:
-  docs-url: 
-  citation-link: 
-- package-name: openomics
-  description: 'A bioinformatics library to integrate multi-omics datasets & interface with public annotation databases.'
-  maintainer: ["Nhat Tran"]
-  link: "https://github.com/BioMeCIS-Lab/OpenOmics"
-  date-accepted:
-  highlight:
-  docs-url: 
-  citation-link: 
-- package-name: phenopype
-  description: 'A phenotyping pipeline for Python.'
-  maintainer: ["Moritz Lürig"]
-  link: "https://github.com/phenopype/phenopype"
-  date-accepted:
-  highlight:
-  docs-url: 
-  citation-link: 
-- package-name: pygmt
-  description: 'A Python interface for the Generic Mapping Tools.'
-  maintainer: ["Dongdong Tian", "Max Jones", "Michael Grund", "Wei Ji Leong", "Will Schlitzer"]
-  link: "https://github.com/GenericMappingTools/pygmt"
-  date-accepted:
-  highlight: True
-  docs-url: 
-  citation-link: 
+- Submitting Author:
+    name: Arne Herdick
+    github_username: enra64
+  Package-Name: Jointly
+  One-Line Description of Package: Jointly is a python package for synchronizing
+    sensors with accelerometer data
+  Repository Link: https://github.com/hpi-dhc/jointly
+  Version submitted: 1.0.2
+  Editor:
+    name: Ivan Ogasawara
+    github_username: xmnlab
+  Reviewer 1:
+    name: Alejandro Sáez Mollejo
+    github_username: AlexS12
+  Reviewer 2:
+    name: Arthur Endsley
+    github_username: arthur-e
+  Archive: https://zenodo.org/record/5770586#.Yd8AUoRByV5
+  Version accepted: 1.0.3
+  DOI: https://doi.org/https://doi.org/10.5281/zenodo.5770586
+  Date Accepted: 12/29/2021
+  categories:
+    - Data munging
+  gh_meta:
+    name: jointly
+    description:
+      "Jointly: A Python package for synchronizing sensors with accelerometer
+      data"
+    created_at: 10/14/2020
+    stargazers_count: 6
+    watchers_count: 6
+    forks: 1
+    open_issues_count: 0
+    forks_count: 1
+    documentation: ""
+    contrib_count: 5
+    last_commit: 01/11/2022
+- Submitting Author:
+    name: Wei Ji Leong
+    github_username: weiji14
+  Package Name: PyGMT
+  One-Line Description of Package: A Python interface for the Generic Mapping Tools
+  Repository Link: https://github.com/GenericMappingTools/pygmt
+  Version submitted: ""
+  Editor:
+    name: ""
+    github_username: lwasser
+  Reviewer 1:
+    name: ""
+    github_username: jbusecke
+  Reviewer 2:
+    name: ""
+    github_username: simonmolinsky
+  Archive: "[Zenodo Archive](https://zenodo.org/record/6702566)"
+  Version accepted: V 0.7.0
+  Date accepted (month/day/year): 9/1/2022
+  categories:
+    - Data munging
+    - Data visualization
+    - Geospatial
+  gh_meta:
+    name: pygmt
+    description: A Python interface for the Generic Mapping Tools.
+    created_at: 03/17/2017
+    stargazers_count: 581
+    watchers_count: 581
+    forks: 191
+    open_issues_count: 154
+    forks_count: 191
+    documentation: https://www.pygmt.org
+    contrib_count: 30
+    last_commit: 03/08/2023
+- Submitting Author:
+    name: Ariane Sasso
+    github_username: arianesasso
+  Package Name: Devicely
+  One-Line Description of Package:
+    A Python package for reading, timeshifting and
+    writing sensor data
+  Repository Link: https://github.com/hpi-dhc/devicely
+  Version submitted: 0.2.5
+  Editor:
+    name: ""
+    github_username: xmnlab
+  Reviewer 1:
+    name: ""
+    github_username: willingc
+  Reviewer 2:
+    name: ""
+    github_username: agricolab
+  Archive: TBD
+  Version accepted: TBD
+  categories:
+    - Data munging
+  gh_meta:
+    name: devicely
+    description:
+      "Devicely: A Python package for reading, timeshifting and writing
+      sensor data"
+    created_at: 07/13/2020
+    stargazers_count: 13
+    watchers_count: 13
+    forks: 7
+    open_issues_count: 2
+    forks_count: 7
+    documentation: ""
+    contrib_count: 4
+    last_commit: 12/21/2021
+- Submitting Author:
+    name: Jonny Tran
+    github_username: JonnyTran
+  Package Name: openomics
+  One-Line Description of Package:
+    Library for integration of multi-omics, annotation,
+    and interaction data
+  Repository Link: https://github.com/BioMeCIS-lab/OpenOmics
+  Version submitted: 0.8.4
+  Editor:
+    name: ""
+    github_username: NickleDave
+  Reviewer 1:
+    name: ""
+    github_username: gawbul
+  Reviewer 2:
+    name: ""
+    github_username: ksielemann
+  Archive: TBD
+  Version accepted: https://github.com/BioMeCIS-Lab/OpenOmics/tree/v0.8.8
+  categories:
+    - Data retrieval
+    - Data extraction
+    - Data munging
+    - Reproducibility
+  gh_meta:
+    name: OpenOmics
+    description:
+      A bioinformatics API and web-app to integrate multi-omics datasets
+      & interface with public databases.
+    created_at: 03/16/2018
+    stargazers_count: 21
+    watchers_count: 21
+    forks: 11
+    open_issues_count: 3
+    forks_count: 11
+    documentation: https://openomics.readthedocs.io/en/latest/
+    contrib_count: 7
+    last_commit: 01/13/2023
+- Submitting Author:
+    name: ""
+    github_username: Emily Jane McTavish @snacktavish
+  Package Name: Physcraper
+  One-Line Description of Package: Automated phylogenetic updating
+  Repository Link: https://github.com/McTavishLab/physcraper
+  Version submitted: v0.55
+  Editor:
+    name: ""
+    github_username: NickleDave
+  Reviewer 1:
+    name: ""
+    github_username: bpucker
+  Reviewer 2:
+    name: ""
+    github_username: leomrtns
+  Archive: https://zenodo.org/record/5512990
+  Version accepted: "1.0"
+  categories:
+    - Data retrieval
+    - Data munging
+  gh_meta:
+    name: physcraper
+    description:
+      Welcome to Physcraper’s repository! Automatic gene tree updating
+      using the Open Tree of Life.
+    created_at: 08/24/2015
+    stargazers_count: 12
+    watchers_count: 12
+    forks: 6
+    open_issues_count: 35
+    forks_count: 6
+    documentation: https://physcraper.readthedocs.io/en/main/
+    contrib_count: 5
+    last_commit: 05/13/2022
+- Submitting Author:
+    name: ""
+    github_username: Philip Meier @pmeier
+  Package Name: pystiche
+  One-Line Description of Package:
+    Framework for Neural Style Transfer (NST) built
+    upon PyTorch
+  Repository Link: https://github.com/pmeier/pystiche
+  Version submitted: "[`pystiche==0.5.0`](https://github.com/pmeier/pystiche/tree/v0.5.0)"
+  Editor:
+    name: ""
+    github_username: NickleDave
+  Reviewer 1:
+    name: ""
+    github_username: edgarriba
+  Reviewer 2:
+    name: ""
+    github_username: soumith
+  Archive: TBD
+  Version accepted: "[`pystiche==0.6.0`](https://github.com/pmeier/pystiche/releases/tag/v0.6.0)"
+  categories:
+    - Reproducibility
+  gh_meta:
+    name: pystiche
+    description: Framework for Neural Style Transfer (NST) built upon PyTorch
+    created_at: 09/16/2019
+    stargazers_count: 255
+    watchers_count: 255
+    forks: 29
+    open_issues_count: 13
+    forks_count: 29
+    documentation: ""
+    contrib_count: 10
+    last_commit: 03/18/2022
+- Submitting Author:
+    name: Name
+    github_username: mluerig
+  Package Name: phenopype
+  One-Line Description of Package: a phenotyping pipeline for Python
+  Repository Link: https://github.com/phenopype/phenopype
+  Version submitted: 1.0.5
+  Editor:
+    name: ""
+    github_username: jbencook
+  Reviewer 1:
+    name: ""
+    github_username: agporto
+  Reviewer 2:
+    name: ""
+    github_username: sdonoughe
+  Archive: TBD
+  Version accepted: 2.0.1
+  Date Accepted: 05/13/2021
+  Edit: Bumped from 1.0.4 to 1.0.5 since submission.
+  categories:
+    - Data extraction
+    - Reproducibility
+  gh_meta:
+    name: phenopype
+    description: A phenotyping pipeline for Python
+    created_at: 01/04/2022
+    stargazers_count: 6
+    watchers_count: 6
+    forks: 3
+    open_issues_count: 3
+    forks_count: 3
+    documentation: https://www.phenopype.org
+    contrib_count: 1
+    last_commit: 11/14/2022
+- Submitting Author:
+    name: Name
+    github_username: morganjwilliams
+  Package Name: pyrolite
+  One-Line Description of Package: A set of tools for getting the most from your
+    geochemical data.
+  Repository Link: https://github.com/morganjwilliams/pyrolite
+  Version submitted: 0.2.5
+  Editor:
+    name: ""
+    github_username: lwasser
+  Reviewer 1:
+    name: ""
+    github_username: rbeucher
+  Reviewer 2:
+    name: ""
+    github_username: charlesll
+  Archive: https://doi.org/10.5281/zenodo.3877690
+  Version accepted: v0.2.7
+  categories:
+    - Data munging
+    - Reproducibility
+    - Education
+    - Data visualization*
+  gh_meta:
+    name: pyrolite
+    description: A set of tools for getting the most from your geochemical data.
+    created_at: 06/13/2018
+    stargazers_count: 99
+    watchers_count: 99
+    forks: 25
+    open_issues_count: 15
+    forks_count: 25
+    documentation: https://pyrolite.readthedocs.io
+    contrib_count: 9
+    last_commit: 07/06/2022
+- Submitting Author:
+    name: Anita Graser
+    github_username: anitagraser
+  Package Name: MovingPandas
+  One-Line Description of Package: Trajectory classes and functions built on top
+    of GeoPandas
+  Repository Link: https://github.com/anitagraser/movingpandas
+  Version submitted: "0.2"
+  Editor:
+    name: Jenny Palomino
+    github_username: jlpalomino
+  Reviewer 1:
+    name: Ivan Ogasawara
+    github_username: xmnlab
+  Reviewer 2:
+    name: Martin Fleischmann
+    github_username: martinfleis
+  Archive: "-"
+  Version accepted: "[v0.3rc1](https://github.com/anitagraser/movingpandas/tree/v0.3.rc1)"
+  categories:
+    - Geospatial
+    - Data visualization*
+  gh_meta:
+    name: movingpandas
+    description: Implementation of Trajectory classes and functions built on top
+      of GeoPandas
+    created_at: 12/16/2018
+    stargazers_count: 940
+    watchers_count: 940
+    forks: 171
+    open_issues_count: 34
+    forks_count: 171
+    documentation: http://movingpandas.org
+    contrib_count: 27
+    last_commit: 03/05/2023
+- Submitting Author:
+    name: Niels Bantilan
+    github_username: cosmicbboy
+  Package Name: pandera
+  One-Line Description of Package:
+    validate the types, properties, and statistics
+    of pandas data structures
+  Repository Link: https://github.com/unionai-oss/pandera
+  Version submitted: 0.1.5
+  Editor:
+    name: Leah Wasser
+    github_username: lwasser
+  Reviewer 1:
+    name: Max Joseph
+    github_username: mbjoseph
+  Reviewer 2:
+    name: ""
+    github_username: xmnlab
+  Archive: https://github.com/pandera-dev/pandera/releases/tag/v0.2.3
+  Version accepted: v0.2.3
+  Date Accepted: 10/10/2019
+  categories:
+    - Data munging
+    - Reproducibility
+  gh_meta:
+    name: pandera
+    description:
+      A light-weight, flexible, and expressive statistical data testing
+      library
+    created_at: 11/01/2018
+    stargazers_count: 2014
+    watchers_count: 2014
+    forks: 165
+    open_issues_count: 183
+    forks_count: 165
+    documentation: https://www.union.ai/pandera
+    contrib_count: 30
+    last_commit: 02/20/2023
+- Submitting Author:
+    name: Martin Skarzynski
+    github_username: marskar
+  Package Name: Nbless
+  One-Line Description of Package:
+    Construct, deconstruct, convert, execute, & prepare
+    slides from Jupyter notebooks
+  Repository Link: https://github.com/py4ds/nbless
+  Version submitted: 0.2.26
+  Editor:
+    name: ""
+    github_username: lwasser
+  Reviewer 1:
+    name: ""
+    github_username: ocefpaf
+  Reviewer 2:
+    name: ""
+    github_username: kysolvik
+  Archive: TBD
+  Version accepted: TBD
+  categories:
+    - Reproducibility
+    - Education
+  gh_meta:
+    name: nbless
+    description: Construct, deconstruct, convert, execute, and prepare slides
+      from Jupyter notebooks
+    created_at: 09/05/2018
+    stargazers_count: 28
+    watchers_count: 28
+    forks: 5
+    open_issues_count: 19
+    forks_count: 5
+    documentation: https://py4ds.github.io/nbless/
+    contrib_count: 4
+    last_commit: 07/25/2019
+- Submitting Author:
+    name: Leah Wasser
+    github_username: lwasser
+  Package Name: earthpy
+  One-Line Description of Package: ""
+  Repository Link: https://github.com/earthlab/earthpy
+  Version submitted: "0.7"
+  Editor:
+    name: ""
+    github_username: luizirber
+  Reviewer 1:
+    name: ""
+    github_username: HaoZeke
+  Reviewer 2:
+    name: ""
+    github_username: sgillies
+  Archive: TBD
+  Version accepted: TBD
+  categories:
+    - Geospatial
+  gh_meta:
+    name: earthpy
+    description: A package built to support working with spatial data using open
+      source python
+    created_at: 02/20/2018
+    stargazers_count: 422
+    watchers_count: 422
+    forks: 152
+    open_issues_count: 34
+    forks_count: 152
+    documentation: https://earthpy.readthedocs.io
+    contrib_count: 29
+    last_commit: 12/20/2021
