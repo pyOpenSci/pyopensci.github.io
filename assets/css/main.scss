@@ -248,9 +248,9 @@ drop shadow
   flex-direction: column;
   align-items: flex-start;
   padding-top: 2em;
-  top: 70%;
-  left: 40%;
-  width: 60%;
+  top: 90%;
+  left: 0%;
+  width: 100%;
   font-size: 1.2em;
   background-color: #fff;
   z-index: 1;
@@ -487,13 +487,30 @@ drop shadow
   color: white;
 }
 
+
 /* 768 px */
 @media screen and (max-width: 768px) {
+
+  .narrow {
+    font-size: 0.72em !important;
+  }
+
+  .page__meta.contributors {
+    font-size: .9em !important;
+  }
+
+  h2.archive__item-title, h3.archive__item-title {
+    font-size: 1.3em!important;
+  }
+
+  .page__content, .archive__item {
+    font-size: 1.2em
+  }
 
   .hamburger__btn-toggle {
     //position: fixed; // not sure if this will help?
     display: block;
-    position: fixed;
+    position: absolute;
     top: 5%;
     right: 5%;}
 
@@ -509,10 +526,6 @@ drop shadow
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-/*     padding-top: 2em;
-    top: 50%;
-    left: 70%;
-    background-color: #fff; */
   }
    /* position search toggle by burger */
   .search__toggle {
@@ -521,9 +534,68 @@ drop shadow
     font-size: 1.4em;
     top: 5%;
   }
+
+  .feature__item--center .archive__item-body, .archive__item-body {
+    width: 100%!important;
+    padding: 0!important;
+  }
+
+  .page__content p {
+    font-size:1.2em!important;
+  }
+  .wide #main {
+    padding-left: 2em;
+  }
+  .feature__item {
+    width: 95%!important;
+  }
+  .cards {
+    margin-right: auto!important;
+    margin-left: auto!important;
+  }
+
+  .wide__p_text {
+    max-width: 90%!important;
+  }
+  ol {
+    font-size: 1.3em;
+
+  }
 } 
 
 /* End media query 48em / 768 px */
+
+
+/* max 480 px */
+@media screen and (max-width: 480px) {
+
+  .feature__item {
+    width: 100%!important; 
+  }
+  .page__content p, .page__content li {
+    font-size: 1.2em !important;
+  }
+  h1, h2, h3, .archive__item-title {
+    font-size: 1.6em!important;
+  }
+  .btn--large {
+    font-size: 1.3em!important;
+  }
+
+  .wide #main {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  .wide__p_text {
+    max-width: 90%!important;
+    padding-left: 1em;
+  }
+
+  ol {
+    padding-left: 1em;
+  }
+}
 
 /* package cards splash */
 
