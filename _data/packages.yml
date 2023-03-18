@@ -1,3 +1,11 @@
+- package-name: pynteny
+  description: 'Pynteny: a Python package to perform synteny-aware, profile HMM-based searches in sequence databases'
+  maintainer: ["Semidán Robaina"]
+  link: "https://github.com/Robaina/Pynteny"
+  date-accepted: 2023-03-10
+  highlight:
+  docs-url: "https://robaina.github.io/Pynteny/"
+  citation-link: "https://doi.org/10.5281/zenodo.7696204"
 - package-name: jointly
   description: 'Jointly: A Python package for synchronizing multiple sensors with accelerometer data'
   maintainer: ["Arne Herdick", "Felix Musmann", "Ariane Sasso", "Justin Albert", "Bert Arnrich"]
