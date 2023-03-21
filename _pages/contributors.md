@@ -56,8 +56,30 @@ the organization.
 
 {: .clearall }
 
+<!--
+## PyOpenSci DEIA council
+
+{: .clearall }
+
+pyOpenSci is beginning to create its DEIA council. This council consists of leaders and community members who have experience in and who are passionate about making pyOpenSci community an inclusive community.
+
+{% assign advisory_working = site.data.contributors | where:"deia_advisory",true | sort: 'sort' %}
+
+<div class="entries-grid">
+{% for aperson in advisory_working %}
+  {% if aperson.deia_advisory %}
+    {% include people-grid.html  %}
+ {% endif %}
+{% endfor %}
+</div>
+
+{: .clearall } -->
+
+{: .clearall }
+
 ## PyOpenSci community contributors
 
+{: .clearall }
 {: .clearall }
 
 {% assign ppl_sorted = site.data.contributors | reverse %}

@@ -70,6 +70,25 @@
     -
   location: California
   email:
+- name: Inessa Pawson
+  advisory: true
+  bio: NumPy Contributor Experience Lead Open Source Program Manager at OpenTeams Incubator
+  organization: Numpy, OpenTeams Incubator
+  github_username: InessaPawson
+  github_image_id: 43481325
+  twitter: inessapawson
+  mastodon:
+  orcidid:
+  website:
+  contributor_type:
+  packages-submitted:
+    -
+  packages-reviewed:
+    -
+  packages-editor:
+    -
+  location:
+  email:
 - name: Leonardo Uieda
   advisory: true
   bio:
@@ -196,6 +215,7 @@
   bio: Researcher in Medical Informatics and Digital Health ⌚ 👩‍💻 🧬
   organization: "@hpi-dhc"
   title: Editor
+  deia_advisory: true
   github_username: arianesasso
   github_image_id: 3659681
   editorial-board: true
