@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Demystifying the Python packaging ecosystem "
-excerpt: " "
+excerpt: "pyOpenSci has published the packaging structure and tool section of it's guide. This chapter has been reviewed by dozens of core community members to ensure accuracy and is community-driven. "
 author: "Leah Wasser"
 permalink: /blog/demystifying-python-packaging.html
 header:
@@ -19,7 +19,7 @@ comments: true
 
 I've spent the last few months working on creating a Python packaging guide. This guide seeks to help those creating new pure scientific Python packages select a tool and workflow. This guide also supports the pyOpenSci peer review process.
 
-Below I provide a brief overview of the process given the guide chapter has been [published](https://www.pyopensci.org/python-package-guide/package-structure-code/intro.html)!
+Below, I provide a brief overview of our content development process given the [packaging tool guide chapter has been published](https://www.pyopensci.org/python-package-guide/package-structure-code/intro.html)! Yay!
 
 # TL;DR
 
@@ -28,7 +28,7 @@ There are a few key takeaways from this post:
 1. Many learn how to create a Python package by copying the structure of other packages built by maintainers they respect.
 2. Much of the existing Python packaging blog post and guidebook content online is dated. The community needs dependable, maintained resources that they can rely on!
 3. Much of the existing packaging resources also assumes to base technical knowledge making it difficult for beginners to work through.
-4. pyOpenSci is [creating a Python packaging guidebook driven ](https://www.pyopensci.org/python-package-guide/)by singificant community input from packaging maintainers, scientific representatitves and others in the community to help guide people towards the best packaging approaches that follow current standards and use current tools.
+4. pyOpenSci is [creating a Python packaging guidebook driven ](https://www.pyopensci.org/python-package-guide/) by significant community input from packaging maintainers, scientific representatives and others in the community to help guide people towards the best packaging approaches that follow current standards and use current tools. Stay tuned for more content on environments, CI and testing!
 
 <figure>
     <a href="/images/python-package-tools-decision-tree.png">
@@ -67,7 +67,7 @@ I also munched on some bananas. It worked out alright.
 
 Copying a package's structure is like copying code from stack overflow and pasting it into your workflow in hopes it runs. If it doesn't run, you don't know enough to fix it! Frustration sets in.
 
-However, atleast in Stack Overflow you can see when the post was published and know that it might be dated. I found it hard to find updated information on Python packaging tools. I found this particularly challenging considering I found so many tool options. And each tool had a level of documentation that assumed some depth of knowledge around Python packaging.
+However, at least in Stack Overflow you can see when the post was published and know that it might be dated. I found it hard to find updated information on Python packaging tools. I found this particularly challenging considering I found so many tool options. And each tool had a level of documentation that assumed some depth of knowledge around Python packaging.
 
 Where does the authoritative and complete guide to packaging live and who maintains it? Further, is it helpful enough for a begineer to dig into and get started quickly?
 
@@ -82,7 +82,7 @@ I struggled to find any resources that provided users of Python packaging tools 
 
 ### How could pyOpenSci help?
 
-To suport pyOpenSci's goals of making packaging easier for scientists while also improving package quality I knew we needed to create a guide that would help others navigate the packaging ecosystem. At a minimum, helping users understand the tool landscape and how to pick a tool was a good start.
+To support pyOpenSci's goals of making packaging easier for scientists while also improving package quality I knew we needed to create a guide that would help others navigate the packaging ecosystem. At a minimum, helping users understand the tool landscape and how to pick a tool was a good start.
 
 ### Python packaging is not bad. It's just not well documented
 
@@ -92,9 +92,9 @@ _\*But without the annoying sales person who might assume you know nothing about
 
 ## A Python packaging guide for scientists
 
-In creating this guide, I talked with scientific Python tool maintainers, folks from [PYPA](https://www.pypa.io/en/latest/), [scientific python](https://scientific-python.org/) and maintainers of core packages (such as Flit, Hatch, Poetry and PDM) to get insights into common workflows, common challenges and tools that folks are using. Everyone reviewed the content atleast once.
+In creating this guide, I talked with scientific Python tool maintainers, folks from [PYPA](https://www.pypa.io/en/latest/), [scientific python](https://scientific-python.org/) and maintainers of core packages (such as Flit, Hatch, Poetry and PDM) to get insights into common workflows, common challenges and tools that folks are using. This guide has been a true example of community-driven content.
 
-The packaging chapter alone had over 200 comments to address in round 1 of reviews. And another 200+ in round 2.
+The packaging chapter alone had over [200 comments to address in round 1](https://github.com/pyOpenSci/python-package-guide/pull/55)of reviews. And another [200+ in round 2 of review](https://github.com/pyOpenSci/python-package-guide/pull/55).
 
 Sometimes the discussions got tense. People have strong opinions about packaging approaches. Also, not everyone agrees on the best technical approaches. But even more interesting is that many involved knew something about some of the tools but often that was based on word of mouth or a quick glance at documentation. (this is largely because tools are evolving quickly)
 
@@ -102,7 +102,9 @@ Sometimes the discussions got tense. People have strong opinions about packaging
 
 My take away from all of this. After hundreds of comments and conversations and after testing the tools, is that Python doesn't have a packaging problem (if you are a user creating a pure Python package).
 
-Python has a much more human problem where approaches to packaging are simply unclear and not well documented. Sure, there are many tricky parts to packaging. But, we **can** create packages using the given existing tools -- now. It's just hard to figure out:
+Python has a much more human problem where approaches to packaging are simply unclear, not well documented and often debated - heavily. Sure, there are many tricky parts to packaging - it's not perfect. But, we **can** create packages using the given existing tools -- now.
+
+It's just hard to figure out:
 
 1. how do you create a package,
 2. which tool should we use, and
