@@ -65,7 +65,7 @@ Python packaging. And I wondered, why?
     </figcaption>
 </figure>
 
-### My approach to learning how to create a Python packaging
+### My approach to learning how to create a Python package
 
 I've worked on the development of 3 other Python packages. Each time my approach to create a package was asking the question:
 
