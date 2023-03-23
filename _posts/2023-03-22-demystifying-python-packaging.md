@@ -106,7 +106,7 @@ _\*But without the annoying sales person who might assume you know nothing about
 
 ## A Python packaging guide for scientists
 
-In creating this guide, I talked with scientific Python tool maintainers, folks from [PYPA](https://www.pypa.io/en/latest/), [scientific python](https://scientific-python.org/) and maintainers of core packages (such as Flit, Hatch, Poetry and PDM) to get insights into common workflows, common challenges and tools that folks are using. This guide has been a true example of community-driven content.
+In creating this guide, I talked with scientific Python tool maintainers, folks from [PYPA](https://www.pypa.io/en/latest/), [scientific python](https://scientific-python.org/) and maintainers of core packages (such as Flit, Hatch, Poetry and PDM) to get insights into common workflows, common challenges and tools that folks are using. This guide has been a true example of community-driven content. [If you are curious, you can see the contributor list here.](https://github.com/pyOpenSci/python-package-guide#contributors-)
 
 The packaging chapter alone had over [200 comments to address in round 1](https://github.com/pyOpenSci/python-package-guide/pull/55) of reviews. And another [200+ in round 2 of review](https://github.com/pyOpenSci/python-package-guide/pull/55). All of the chapters in our guide go through community review however this particular chapter elicited a LOT of strong response regarding which tools do what, and how they should be described.
 
