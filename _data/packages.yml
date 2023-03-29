@@ -1,3 +1,8 @@
+- package-name: crowsetta
+  description: "crowsetta: A Python tool to work with any format for annotating animal vocalizations and bioacoustics data"
+  maintainer: ["David Nicholson"]
+  link: "https://github.com/vocalpy/crowsetta"
+  date-accepted: 2023-03-28
 - package-name: pynteny
   description: 'Pynteny: a Python package to perform synteny-aware, profile HMM-based searches in sequence databases'
   maintainer: ["Semidán Robaina"]
@@ -32,24 +37,24 @@
   date-accepted:
   highlight:
   link: "https://github.com/py4ds/nbless"
-  docs-url: 
-  citation-link: 
+  docs-url:
+  citation-link:
 - package-name: pandera
   description: 'Validate the types, properties, and statistics of pandas data structures'
   maintainer: ["Niels Bantilan"]
   date-accepted:
   highlight: True
   link: "https://github.com/unionai-oss/pandera"
-  docs-url: 
-  citation-link: 
+  docs-url:
+  citation-link:
 - package-name: MovingPandas
   description: 'Trajectory classes and functions built on top of GeoPandas'
   maintainer: ["Anita Graser"]
   date-accepted:
   highlight: True
   link: "https://github.com/anitagraser/movingpandas"
-  docs-url: 
-  citation-link: 
+  docs-url:
+  citation-link:
 - package-name: physcraper
   description: 'Physcraper: a Python package for continually updated phylogenetic trees using the Open Tree of Life'
   maintainer: ["Luna Luisa Sánchez-Reyes", "Martha Kandziora", "Emily Jane McTavish"]
@@ -64,45 +69,45 @@
   date-accepted:
   highlight:
   link: "https://github.com/morganjwilliams/pyrolite"
-  docs-url: 
-  citation-link: 
+  docs-url:
+  citation-link:
 - package-name: pystiche
   description: 'A Framework for Neural Style Transfer'
   maintainer: ["Philip Meier"]
   link: "https://github.com/pmeier/pystiche"
   date-accepted:
   highlight:
-  docs-url: 
-  citation-link: 
+  docs-url:
+  citation-link:
 - package-name: pydov
   description: 'Python package to retrieve data from Databank Ondergrond Vlaanderen (DOV)'
   maintainer: ["DOV-Vlaanderen"]
   link: "https://github.com/DOV-Vlaanderen/pydov"
   date-accepted:
   highlight:
-  docs-url: 
-  citation-link: 
+  docs-url:
+  citation-link:
 - package-name: openomics
   description: 'A bioinformatics library to integrate multi-omics datasets & interface with public annotation databases.'
   maintainer: ["Nhat Tran"]
   link: "https://github.com/BioMeCIS-Lab/OpenOmics"
   date-accepted:
   highlight:
-  docs-url: 
-  citation-link: 
+  docs-url:
+  citation-link:
 - package-name: phenopype
   description: 'A phenotyping pipeline for Python.'
   maintainer: ["Moritz Lürig"]
   link: "https://github.com/phenopype/phenopype"
   date-accepted:
   highlight:
-  docs-url: 
-  citation-link: 
+  docs-url:
+  citation-link:
 - package-name: pygmt
   description: 'A Python interface for the Generic Mapping Tools.'
   maintainer: ["Dongdong Tian", "Max Jones", "Michael Grund", "Wei Ji Leong", "Will Schlitzer"]
   link: "https://github.com/GenericMappingTools/pygmt"
   date-accepted:
   highlight: True
-  docs-url: 
-  citation-link: 
+  docs-url:
+  citation-link:
