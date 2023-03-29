@@ -1264,3 +1264,19 @@
   location: Washington DC
   organization: Johns Hopkins Applied Physics Lab
   email:
+- name: Tessa Rhinehart
+  contributions:
+    - review
+  github_username: rhine3
+  website: https://www.tessarhinehart.com/
+  github_image_id: 27306428
+  mastodon:
+  twitter: https://twitter.com/TessaRhinehart
+  bio:
+  orcidid: 0000-0002-4352-3464
+  contributor_type:
+  packages-submitted:
+  packages-reviewed: crowsetta
+  location: Pittsburgh, PA
+  organization: University of Pittsburgh
+  email: tessa.rhinehart@pitt.edu
