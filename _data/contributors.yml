@@ -252,7 +252,7 @@
     - current editor
     - contributor
   packages-submitted:
-    -
+    - crowsetta
   packages-reviewed:
     - pydov
   packages-editor:
