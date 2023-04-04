@@ -2,7 +2,7 @@
 layout: single
 title: "Introduction to Typing in Python - Python Packaging"
 excerpt: "."
-author: "Syzmon Molinsky"
+author: "Syzmon Molińsky"
 permalink: tutorials/python-packaging/intro-to-typing/
 header:
   overlay_filter: 0.6
