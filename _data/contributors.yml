@@ -89,6 +89,25 @@
     -
   location:
   email:
+- name: Pradyun Gedam
+  advisory: true
+  bio: @pypa member, @psf fellow, @toml-lang core, @sphinx-doc contributor.
+  organization: PyPA, PSF, Bloomberg Python Infrastructure
+  github_username: pradyunsg
+  github_image_id: 3275593
+  twitter: pradyunsg
+  mastodon:
+  orcidid:
+  website: https://pradyunsg.me
+  contributor_type:
+  packages-submitted:
+    -
+  packages-reviewed:
+    -
+  packages-editor:
+    -
+  location: London, UK
+  email:
 - name: Leonardo Uieda
   advisory: true
   bio:
