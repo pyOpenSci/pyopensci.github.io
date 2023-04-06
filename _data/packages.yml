@@ -3,6 +3,8 @@
   maintainer: ["David Nicholson"]
   link: "https://github.com/vocalpy/crowsetta"
   date-accepted: 2023-03-28
+  docs-url: "https://crowsetta.readthedocs.io"
+  citation-link: "https://doi.org/10.5281/zenodo.7781587"
 - package-name: pynteny
   description: 'Pynteny: a Python package to perform synteny-aware, profile HMM-based searches in sequence databases'
   maintainer: ["Semidán Robaina"]
