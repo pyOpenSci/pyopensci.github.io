@@ -107,7 +107,7 @@
   packages-editor:
     -
   location: London, UK
-  email:
+  email: mailto:mail@pradyunsg.me
 - name: Leonardo Uieda
   advisory: true
   bio:
