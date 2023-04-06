@@ -91,8 +91,8 @@
   email:
 - name: Pradyun Gedam
   advisory: true
-  bio: @pypa member, @psf fellow, @toml-lang core, @sphinx-doc contributor.
-  organization: PyPA, PSF, Bloomberg Python Infrastructure
+  bio: "PyPA member, Python Software Foundation fellow, toml-lang core, sphinx-doc contributor."
+  organization: "PyPA, PSF, Bloomberg Python Infrastructure"
   github_username: pradyunsg
   github_image_id: 3275593
   twitter: pradyunsg
