@@ -1299,3 +1299,19 @@
   location: Pittsburgh, PA
   organization: University of Pittsburgh
   email: tessa.rhinehart@pitt.edu
+- name: Agustina Pesce
+  contributions:
+    - review
+  github_username: aguspesce
+  website: https://aguspesce.github.io/
+  github_image_id: 13738018
+  mastodon:
+  twitter:
+  bio: Lic. in Physics and PhD in Geophysics.
+  orcidid: 0000-0002-5538-8845
+  contributor_type:
+  packages-submitted:
+  packages-reviewed:
+  location: Vancouver, Canada
+  organization:
+  email: pesce.agustina@gmail.com
