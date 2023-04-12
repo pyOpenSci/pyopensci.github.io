@@ -113,3 +113,11 @@
   highlight: True
   docs-url:
   citation-link:
+- package-name: xclim
+  description: 'A climate indices computation and bias adjustment library based on xarray'
+  maintainer: ["Trevor James Smith", "Travis Logan", "Pascal Bourgault"]
+  link: "https://github.com/Ouranosinc/xclim"
+  date-accepted: 2023-04-11
+  highlight: True
+  docs-url: "https://xclim.readthedocs.io"
+  citation-link: "https://doi.org/10.5281/zenodo.2795043"
