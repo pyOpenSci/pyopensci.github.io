@@ -1315,3 +1315,35 @@
   location: Vancouver, Canada
   organization:
   email: pesce.agustina@gmail.com
+- name: Sylvain Haupert
+  contributions:
+    - review
+  github_username: shaupert
+  website:
+  github_image_id: 43136040
+  mastodon:
+  twitter:
+  bio:
+  orcidid:
+  contributor_type:
+  packages-submitted:
+  packages-reviewed: crowsetta
+  location:
+  organization:
+  email:
+- name: Yannick Jadoul 
+  contributions:
+    - review
+  github_username: YannickJadoul
+  website:
+  github_image_id: 8025744
+  mastodon:
+  twitter:
+  bio:
+  orcidid:
+  contributor_type:
+  packages-submitted:
+  packages-reviewed: crowsetta
+  location:
+  organization:
+  email:
