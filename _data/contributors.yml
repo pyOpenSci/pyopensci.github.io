@@ -246,7 +246,7 @@
     - package-maintainer
     - editor
   packages-editor:
-    - Pyteny
+    - pynteny
   packages-submitted:
     - devicely
   packages-reviewed:
