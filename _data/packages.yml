@@ -1,6 +1,15 @@
+- package-name: xclim
+  description: 'A climate indices computation and bias adjustment library based on xarray'
+  maintainer: ["Trevor James Smith", "Travis Logan", "Pascal Bourgault"]
+  link: "https://github.com/Ouranosinc/xclim"
+  date-accepted: 2023-04-11
+  highlight: True
+  docs-url: "https://xclim.readthedocs.io"
+  citation-link: "https://doi.org/10.5281/zenodo.2795043"
 - package-name: crowsetta
   description: "crowsetta: A Python tool to work with any format for annotating animal vocalizations and bioacoustics data"
   maintainer: ["David Nicholson"]
+  highlight: true
   link: "https://github.com/vocalpy/crowsetta"
   date-accepted: 2023-03-28
   docs-url: "https://crowsetta.readthedocs.io"
@@ -10,9 +19,17 @@
   maintainer: ["Semidán Robaina"]
   link: "https://github.com/Robaina/Pynteny"
   date-accepted: 2023-03-10
-  highlight:
+  highlight: true
   docs-url: "https://robaina.github.io/Pynteny/"
   citation-link: "https://doi.org/10.5281/zenodo.7696204"
+- package-name: pygmt
+  description: 'A Python interface for the Generic Mapping Tools.'
+  maintainer: ["Dongdong Tian", "Max Jones", "Michael Grund", "Wei Ji Leong", "Will Schlitzer"]
+  link: "https://github.com/GenericMappingTools/pygmt"
+  date-accepted:
+  highlight: True
+  docs-url:
+  citation-link:
 - package-name: jointly
   description: 'Jointly: A Python package for synchronizing multiple sensors with accelerometer data'
   maintainer: ["Arne Herdick", "Felix Musmann", "Ariane Sasso", "Justin Albert", "Bert Arnrich"]
@@ -29,23 +46,11 @@
   highlight:
   docs-url: "https://hpi-dhc.github.io/devicely"
   citation-link: "https://doi.org/10.21105/joss.03679"
-- package-name: earthpy
-  description: 'Explore and plot raster and vector spatial data using open source Python tools.'
-  maintainer: ["Leah Wasser", "Max Joseph"]
-  link: "https://github.com/earthlab/earthpy"
-- package-name: nbless
-  description: 'Construct, deconstruct, convert, execute, and prepare slides from Jupyter notebooks.'
-  maintainer: ["Martin Skarzynski"]
-  date-accepted:
-  highlight:
-  link: "https://github.com/py4ds/nbless"
-  docs-url:
-  citation-link:
 - package-name: pandera
   description: 'Validate the types, properties, and statistics of pandas data structures'
   maintainer: ["Niels Bantilan"]
   date-accepted:
-  highlight: True
+  highlight:
   link: "https://github.com/unionai-oss/pandera"
   docs-url:
   citation-link:
@@ -53,7 +58,7 @@
   description: 'Trajectory classes and functions built on top of GeoPandas'
   maintainer: ["Anita Graser"]
   date-accepted:
-  highlight: True
+  highlight:
   link: "https://github.com/anitagraser/movingpandas"
   docs-url:
   citation-link:
@@ -105,19 +110,16 @@
   highlight:
   docs-url:
   citation-link:
-- package-name: pygmt
-  description: 'A Python interface for the Generic Mapping Tools.'
-  maintainer: ["Dongdong Tian", "Max Jones", "Michael Grund", "Wei Ji Leong", "Will Schlitzer"]
-  link: "https://github.com/GenericMappingTools/pygmt"
+
+- package-name: earthpy
+  description: 'Explore and plot raster and vector spatial data using open source Python tools.'
+  maintainer: ["Leah Wasser", "Max Joseph"]
+  link: "https://github.com/earthlab/earthpy"
+- package-name: nbless
+  description: 'Construct, deconstruct, convert, execute, and prepare slides from Jupyter notebooks.'
+  maintainer: ["Martin Skarzynski"]
   date-accepted:
-  highlight: True
+  highlight:
+  link: "https://github.com/py4ds/nbless"
   docs-url:
   citation-link:
-- package-name: xclim
-  description: 'A climate indices computation and bias adjustment library based on xarray'
-  maintainer: ["Trevor James Smith", "Travis Logan", "Pascal Bourgault"]
-  link: "https://github.com/Ouranosinc/xclim"
-  date-accepted: 2023-04-11
-  highlight: True
-  docs-url: "https://xclim.readthedocs.io"
-  citation-link: "https://doi.org/10.5281/zenodo.2795043"
