@@ -1243,75 +1243,6 @@
   location: Washington DC
   organization: Johns Hopkins Applied Physics Lab
   email:
-- name: Tessa Rhinehart
-  contributions:
-    - review
-  github_username: rhine3
-  website: https://tessarhinehart.com
-  github_image_id: 27306428
-  mastodon:
-  twitter: TessaRhinehart
-  bio: "\r\n    Work: research programmer creating computational tools for bioacoustics.\r\
-      \nPlay: tinkerer creating open-source tools for birders\r\n"
-  orcidid: 0000-0002-4352-3464
-  contributor_type:
-  packages-submitted:
-  packages-reviewed:
-    - crowsetta
-  location: Pittsburgh, PA, USA
-  organization: University of Pittsburgh
-  email: tessa.rhinehart@pitt.edu
-- name: Agustina
-  contributions:
-    - review
-  github_username: aguspesce
-  website: https://aguspesce.github.io
-  github_image_id: 13738018
-  mastodon:
-  twitter:
-  bio: Lic. in Physics and PhD in Geophysics.
-  orcidid: 0000-0002-5538-8845
-  contributor_type:
-  packages-submitted:
-  packages-reviewed:
-    - xclim
-  location: British Columbia, Canada
-  organization:
-  email: pesce.agustina@gmail.com
-- name: Sylvain HAUPERT
-  contributions:
-    - review
-  github_username: shaupert
-  website:
-  github_image_id: 43136040
-  mastodon:
-  twitter:
-  bio:
-  orcidid:
-  contributor_type:
-  packages-submitted:
-  packages-reviewed:
-    - crowsetta
-  location: PARIS
-  organization:
-  email:
-- name: Yannick Jadoul
-  contributions:
-    - review
-  github_username: YannickJadoul
-  website:
-  github_image_id: 8025744
-  mastodon:
-  twitter:
-  bio:
-  orcidid:
-  contributor_type:
-  packages-submitted:
-  packages-reviewed: crowsetta
-  location: Nijmegen, the Netherlands
-  organization: Max Planck Institute for Psycholinguistics & Vrije Universiteit
-      Brussel
-  email: Yannick.Jadoul@ai.vub.ac.be
 - name: James Tocknell
   contributions:
     - code
@@ -1416,25 +1347,6 @@
   location: Brisbane, Australia
   organization:
   email: dave.hirschfeld@gmail.com
-- name: Semidán Robaina
-  contributions:
-    - example
-    - code
-    - review
-  github_username: Robaina
-  website:
-  github_image_id: 21340147
-  mastodon:
-  twitter: srobainae
-  bio: "Bioinformatics | Data Science | Python Dev. | Ph.D. Systems Biology\r\n"
-  orcidid:
-  contributor_type:
-  packages-submitted:
-    - Pynteny
-  packages-reviewed:
-  location:
-  organization: ULL
-  email: srobaina@ull.edu.es
 - name: Benjamin Rodenberg
   contributions:
     - code
@@ -1452,24 +1364,6 @@
   location:
   organization: Technical University of Munich
   email: benjamin.rodenberg@in.tum.de
-- name: Trevor James Smith
-  contributions:
-    - code
-  github_username: Zeitsperre
-  website:
-  github_image_id: 10819524
-  mastodon:
-  twitter:
-  bio: Python, Linux, and FOSS-GIS enthusiast. Climate Scenarios and Services Specialist
-      at Ouranos (@Ouranosinc) in Montreal.
-  orcidid:
-  contributor_type:
-  packages-submitted:
-    - xclim
-  packages-reviewed:
-  location: Montreal, Canada
-  organization: Ouranos
-  email:
 - name: Travis Logan
   contributions:
     - code
@@ -1503,41 +1397,6 @@
   location: Montréal
   organization: Ouranos
   email: bourgault.pascal@ouranos.ca
-- name: James Munroe
-  contributions:
-    - review
-  github_username: jmunroe
-  website:
-  github_image_id: 6181563
-  mastodon:
-  twitter: __jmunroe
-  bio:
-  orcidid:
-  contributor_type:
-  packages-submitted:
-  packages-reviewed:
-    - xclim
-  location:
-  organization: '@2i2c-org'
-  email: jmunroe@earthdata.ca
-- name:
-  bio:
-  organization:
-  title:
-  github_username: c-thoben
-  github_image_id: 103432571
-  editorial-board:
-  twitter:
-  mastodon:
-  orcidid:
-  website:
-  contributor_type:
-  packages-editor:
-  packages-submitted:
-  packages-reviewed:
-    - Pynteny
-  location:
-  email:
 - name: Arne
   bio: IT-Systems Engineering Student at Hasso Plattner Institute, more active at
       gitlab.com/enra64
@@ -1556,24 +1415,6 @@
     - Jointly
   packages-reviewed:
   location:
-  email:
-- name: Wei Ji
-  bio: Geospatial Data Scientist. Towards cloud-native geospatial machine learning!
-  organization: '@developmentseed'
-  title:
-  github_username: weiji14
-  github_image_id: 23487320
-  editorial-board:
-  twitter:
-  mastodon:
-  orcidid:
-  website: https://weiji14.github.io
-  contributor_type:
-  packages-editor:
-  packages-submitted:
-    - PyGMT
-  packages-reviewed:
-  location: Wellington
   email:
 - name: Robert Guggenberger
   bio: Dr.rer.soc. Dr.rer.nat. Rock climbing, Research Software, Neurofeedback and
@@ -1744,3 +1585,162 @@
     - pyrolite
   location: France
   email: lelosq@ipgp.fr
+- name: Wei Ji
+  bio: Geospatial Data Scientist. Towards cloud-native geospatial machine learning!
+  organization: '@developmentseed'
+  title:
+  github_username: weiji14
+  github_image_id: 23487320
+  editorial-board:
+  twitter:
+  mastodon:
+  orcidid:
+  website: https://weiji14.github.io
+  contributor_type:
+  packages-editor:
+  packages-submitted:
+    - PyGMT
+  packages-reviewed:
+  location: Wellington
+  email:
+- name: Tessa Rhinehart
+  contributions:
+    - review
+  github_username: rhine3
+  website: https://tessarhinehart.com
+  github_image_id: 27306428
+  mastodon:
+  twitter: TessaRhinehart
+  bio: "\r\n    Work: research programmer creating computational tools for bioacoustics.\r\
+      \nPlay: tinkerer creating open-source tools for birders\r\n"
+  orcidid: 0000-0002-4352-3464
+  contributor_type:
+  packages-submitted:
+  packages-reviewed:
+    - crowsetta
+  location: Pittsburgh, PA, USA
+  organization: University of Pittsburgh
+  email: tessa.rhinehart@pitt.edu
+- name: Agustina
+  contributions:
+    - review
+  github_username: aguspesce
+  website: https://aguspesce.github.io
+  github_image_id: 13738018
+  mastodon:
+  twitter:
+  bio: Lic. in Physics and PhD in Geophysics.
+  orcidid: 0000-0002-5538-8845
+  contributor_type:
+  packages-submitted:
+  packages-reviewed:
+    - xclim
+  location: British Columbia, Canada
+  organization:
+  email: pesce.agustina@gmail.com
+- name: Sylvain HAUPERT
+  contributions:
+    - review
+  github_username: shaupert
+  website:
+  github_image_id: 43136040
+  mastodon:
+  twitter:
+  bio:
+  orcidid:
+  contributor_type:
+  packages-submitted:
+  packages-reviewed:
+    - crowsetta
+  location: PARIS
+  organization:
+  email:
+- name: Yannick Jadoul
+  contributions:
+    - review
+  github_username: YannickJadoul
+  website:
+  github_image_id: 8025744
+  mastodon:
+  twitter:
+  bio:
+  orcidid:
+  contributor_type:
+  packages-submitted:
+  packages-reviewed: crowsetta
+  location: Nijmegen, the Netherlands
+  organization: Max Planck Institute for Psycholinguistics & Vrije Universiteit
+      Brussel
+  email: Yannick.Jadoul@ai.vub.ac.be
+- name: Semidán Robaina
+  contributions:
+    - example
+    - code
+    - review
+  github_username: Robaina
+  website:
+  github_image_id: 21340147
+  mastodon:
+  twitter: srobainae
+  bio: "Bioinformatics | Data Science | Python Dev. | Ph.D. Systems Biology\r\n"
+  orcidid:
+  contributor_type:
+  packages-submitted:
+    - Pynteny
+  packages-reviewed:
+  location:
+  organization: ULL
+  email: srobaina@ull.edu.es
+- name: Trevor James Smith
+  contributions:
+    - code
+  github_username: Zeitsperre
+  website:
+  github_image_id: 10819524
+  mastodon:
+  twitter:
+  bio: Python, Linux, and FOSS-GIS enthusiast. Climate Scenarios and Services Specialist
+      at Ouranos (@Ouranosinc) in Montreal.
+  orcidid:
+  contributor_type:
+  packages-submitted:
+    - xclim
+  packages-reviewed:
+  location: Montreal, Canada
+  organization: Ouranos
+  email:
+- name: James Munroe
+  contributions:
+    - review
+  github_username: jmunroe
+  website:
+  github_image_id: 6181563
+  mastodon:
+  twitter: __jmunroe
+  bio:
+  orcidid:
+  contributor_type:
+  packages-submitted:
+  packages-reviewed:
+    - xclim
+  location:
+  organization: '@2i2c-org'
+  email: jmunroe@earthdata.ca
+- name: Corinna Thoben
+  bio:
+  organization:
+  title:
+  github_username: c-thoben
+  github_image_id: 103432571
+  editorial-board:
+  twitter:
+  mastodon:
+  orcidid:
+  website:
+  contributor_type:
+  packages-editor:
+  packages-submitted:
+  packages-reviewed:
+    - Pynteny
+  location:
+  email:
