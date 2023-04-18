@@ -1744,3 +1744,72 @@
     - Pynteny
   location:
   email:
+- name: Tom Russell
+  sort:
+  title: Editor
+  editorial-board: true
+  bio: Research software person. Work @nismod, tech lead @colouring-cities
+  organization: University of Oxford
+  github_username: tomalrussell
+  github_image_id: 2762769
+  twitter: tlrss
+  mastodon:
+  orcidid:
+  website:
+  contributor_type:
+    - guest editor
+    - contributor
+  packages-submitted:
+    -
+  packages-reviewed:
+    -
+  packages-editor:
+    - python-graphblas
+  location:
+  email:
+- name: Titus Brown
+  sort:
+  title: Editor
+  editorial-board: true
+  bio:
+  organization: University of California, Davis
+  github_username: ctb
+  github_image_id: 51016
+  twitter: ctitusbrown
+  mastodon:
+  orcidid:
+  website: http://ivory.idyll.org/blog/
+  contributor_type:
+    - guest editor
+    - contributor
+  packages-submitted:
+    -
+  packages-reviewed:
+    -
+  packages-editor:
+    -
+  location: Davis, CA
+  email: titus@idyll.org
+- name: Meenal Jhajharia
+  sort:
+  title: Guest Editor
+  editorial-board: true
+  bio:
+  organization:
+  github_username: mjhajharia
+  github_image_id: 55153708
+  twitter:
+  mastodon:
+  orcidid:
+  website:
+  contributor_type:
+    - guest editor
+    - contributor
+  packages-submitted:
+    -
+  packages-reviewed:
+    -
+  packages-editor:
+    - bibat
+  location:
+  email:
