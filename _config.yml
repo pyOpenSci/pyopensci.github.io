@@ -253,7 +253,7 @@ whitelist:
   - jemoji
   - jekyll-include-cache
   - jekyll-redirect-from
-  
+
 
 collections:
   packages:
@@ -321,4 +321,3 @@ defaults:
       comments: # true
       share: true
       related: true
-

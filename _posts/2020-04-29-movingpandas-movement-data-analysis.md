@@ -15,13 +15,13 @@ categories:
 comments: true
 ---
 
-Movement data is everywhere: from tracking apps that record human or vehicle movement to ecologists monitoring wildlife behavior. Movement data analysis is challenging since movement data combines time series and spatial data analyses questions. Existing spatial analysis libraries, such as GeoPandas, are great at handling spatial data but they don't support moving objects. 
+Movement data is everywhere: from tracking apps that record human or vehicle movement to ecologists monitoring wildlife behavior. Movement data analysis is challenging since movement data combines time series and spatial data analyses questions. Existing spatial analysis libraries, such as GeoPandas, are great at handling spatial data but they don't support moving objects.
 
-MovingPandas aims to fill the gap of missing tools for exploring movement data. It provides data structures and methods for dealing with data of moving objects. MovingPandas has been accepted by pyOpenSci as part of its ecosystem in March 2020. 
+MovingPandas aims to fill the gap of missing tools for exploring movement data. It provides data structures and methods for dealing with data of moving objects. MovingPandas has been accepted by pyOpenSci as part of its ecosystem in March 2020.
 
 ## A Toolkit for Movement Data Analysis
 
-The MovingPandas repository contains multiple tutorials in the form of Jupyter notebooks that illustrate diverse analysis capabilities using different datasets, including: tracking data of ships, migration of birds, and tracks from a horse's GPS collar. 
+The MovingPandas repository contains multiple tutorials in the form of Jupyter notebooks that illustrate diverse analysis capabilities using different datasets, including: tracking data of ships, migration of birds, and tracks from a horse's GPS collar.
 
 MovingPandas Trajectory objects are created from GeoPandas GeoDataFrames. A minimal example would be:
 
@@ -79,15 +79,15 @@ daily_lengths.hvplot(title='Daily trajectory length')
 
 ![The evolution of the length of the daily trajectories is plotted over the whole obseration period.]({{ site.url }}/images/movingpandas/mp_fig3.png)
 
-In this case, the movement data, which comes from a GPS collar of a horse, reveals that the animal tends to travel farther during summer days than during shorter winter days.  
+In this case, the movement data, which comes from a GPS collar of a horse, reveals that the animal tends to travel farther during summer days than during shorter winter days.
 
 Other functions deal with trajectory generalization, splitting trajectories into subtrajectories, clipping trajectories to an area of interest, and extracting trajectory start and end times and locations.
 
 ### Standing on the Shoulders of Giants
 
-By leveraging existing functionality within the Python data analysis ecosystem, such as, for example: 
+By leveraging existing functionality within the Python data analysis ecosystem, such as, for example:
 time series handling by Pandas,
-spatial data analysis by GeoPandas, and 
+spatial data analysis by GeoPandas, and
 interactive plotting by HoloViews,
 MovingPandas can focus on its core functionality dealing with challenges that are specific to movement data.
 
@@ -102,7 +102,5 @@ You can [try MovingPandas in a MyBinder notebook - no installation required](htt
 
 ## What's next?
 
-MovingPandas is under active development and there are some exciting features coming up. 
-If you’d like to contribute to this project, you’re welcome to head on over to the [Github repo](https://github.com/anitagraser/movingpandas)! 
-
-
+MovingPandas is under active development and there are some exciting features coming up.
+If you’d like to contribute to this project, you’re welcome to head on over to the [Github repo](https://github.com/anitagraser/movingpandas)!

@@ -21,13 +21,13 @@ becomes.
 
 All are welcome!!
 
-## pyOpenSci Ignite Talk: Tuesday Dec 10, 2019 8am in Moscone West - 2010, L2  
+## pyOpenSci Ignite Talk: Tuesday Dec 10, 2019 8am in Moscone West - 2010, L2
 
 I will giving an <a href="https://agu.confex.com/agu/fm19/meetingapp.cgi/Paper/541546" target="_blank">invited ignite talk: pyOpenSci Promoting Open Source Python Software To Support Open Reproducible Science</a>. This talk is a part of a larger open source software initiative organized by pyOpenSci collaborators
 Leonardo Uieda  and Lindsey Heagy.
 
 
-## pyOpenSci Town Hall: Wed Dec 11, 2019 12:30-1:30pm in Moscone West - 2002  
+## pyOpenSci Town Hall: Wed Dec 11, 2019 12:30-1:30pm in Moscone West - 2002
 
 Please join us for a town hall dedicated to pyOpenSci: Data FAIR: pyOpenSci: Building a Community Around Open Source Python Software for Science.
 We expect a strong presence from the rOpenSci community at this event as well!
