@@ -1,8 +1,8 @@
 <!-- A template for lists of packages -->
 
 
-<div class="element-item cards {% for aCategory in apackage.categories %}  
-{{ aCategory }} 
+<div class="element-item cards {% for aCategory in apackage.categories %}
+{{ aCategory }}
 {% endfor %}" data-category="data">
     <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
         <h3 class="card__title no_toc" itemprop="headline">
@@ -11,7 +11,7 @@
         <p class="page__meta contributors">
          <span><i class="fas fa-feather" aria-hidden="true"></i>
          <!-- Commas in between authors -->
-         {% for aMaintainer in apackage.maintainer %}  
+         {% for aMaintainer in apackage.maintainer %}
          {{ aMaintainer }}{% if forloop.last == false %}, {% endif %}
          {% endfor %}
          </span>
@@ -42,8 +42,8 @@
 
 
 
-<div class="element-item cards {% for aCategories in apackage.categories %}  
-{{ aCategories }} 
+<div class="element-item cards {% for aCategories in apackage.categories %}
+{{ aCategories }}
 {% endfor %}" data-category="data">
     <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
         <h3 class="card__title no_toc" itemprop="headline">
@@ -52,7 +52,7 @@
         <p class="page__meta contributors">
          <span><i class="fas fa-feather" aria-hidden="true"></i>
          <!-- Commas in between authors -->
-         {% for aMaintainer in apackage.maintainer %}  
+         {% for aMaintainer in apackage.maintainer %}
          {{ aMaintainer }}{% if forloop.last == false %}, {% endif %}
          {% endfor %}
          </span>

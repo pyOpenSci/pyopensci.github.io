@@ -7,11 +7,11 @@ header:
     overlay_image: images/header.jpg
     overlay_filter: 0.6
 intro:
-    - excerpt: "Below you will find a list of scientific Python packages that have 
+    - excerpt: "Below you will find a list of scientific Python packages that have
     been accepted into the pyOpenSci ecosystem through the open peer review process."
 toc: false
 classes: wide
-redirect_from: 
+redirect_from:
   - /python-packages/
 ---
 
@@ -35,7 +35,8 @@ are accepted as pyOpenSci packages.
 
 <div class="grid-isotope">
 {% for apackage in site.data.packages %}
-  {% include package-grid.html  %}
+{{ apackage.Package-Name }}
+
 {% endfor %}
 </div>
 

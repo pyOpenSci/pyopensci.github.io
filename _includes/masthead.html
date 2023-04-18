@@ -7,11 +7,10 @@
         <!-- More accessible as a screen reader will group the title and image in the same link -->
         {% unless logo_path == empty %}
         <a class="site-logo" href="{{ '/' | relative_url }}">
-          <img src="{{ logo_path | relative_url }}" alt="Welcome to the pyOpenSci website. This is the pyOpenSci logo.">
-          <span class="site-title">pyOpenSci</span>
+          <img src="{{ logo_path | relative_url }}" alt="Welcome to the pyOpenSci website. The pyOpenSci logo is a purple flower opening over the O (for open).">
         </a>
         {% endunless %}
-      
+
       <ul class="nav__links">
         {%- for alink in site.data.navigation.main -%}
               {% if alink.sub-nav %}
@@ -25,7 +24,7 @@
                     <a href="{{ subnav.url }}" class="masthead__menu-item hover-underline">{{ subnav.title }}
                       {% if subnav.icon %} <i class="{{ subnav.icon }}"></i> {% endif %}
                     </a>
-                  </li> 
+                  </li>
                   {% endfor %}
                 </ul>
             </li>
@@ -36,9 +35,9 @@
               {% endif %}
         {% endfor %}
         <li>
-          
+
       </li>
-      </ul> 
+      </ul>
       <!--
       {% if site.search == true %}
           <button class="search__toggle" type="button">
@@ -47,7 +46,7 @@
         </button>
       {% endif %}
       -->
-      
+
       <ul class="hidden-links hidden"></ul>
         <!-- Burger button  - span class for screen readers-->
         <button class="hamburger__btn-toggle" type="button" count="1" aria-expanded="false">
@@ -56,5 +55,5 @@
         </button>
       </nav>
       </div>
-    </div> 
+    </div>
   </div>

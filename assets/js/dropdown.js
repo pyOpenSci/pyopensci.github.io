@@ -9,7 +9,7 @@
     e.preventDefault();
     $(".nav__links").toggleClass("vertical");
   });
-  
+
   $(".dropdown").click(function (e) {
     // close when user clicks nav
     $(this).find(".dropdown-content").toggleClass("open");
@@ -18,7 +18,7 @@
     $(this).siblings(".dropdown").find(".dropbtn").attr("aria-expanded", "false");
 
     // this works but if user clicks on another drop down it should also return to closed
-    // with this code it just toggles the next thing that the user clicks so both 
+    // with this code it just toggles the next thing that the user clicks so both
     // dropdowns are set to expanded:true
     $(this).find(".dropbtn").attr('aria-expanded', function (i, attr) {
     return attr == 'true' ? 'false' : 'true' });
@@ -30,12 +30,12 @@
       $(".dropdown-content").removeClass("open");
     }
 
-    
+
   });
 });
 
 
-// isotope filtering 
+// isotope filtering
 // This blog has a good example of smart resizing ... https://jewelfarazi.me/create-jquery-isotope-responsive-masonry-layout/
 // quick search regex
 var qsRegex;
@@ -77,7 +77,7 @@ $('.button-group').each( function( i, buttonGroup ) {
     $( this ).addClass('is-checked');
   });
 });
-  
+
 
 // debounce so filtering doesn't happen every millisecond
 function debounce( fn, threshold ) {
