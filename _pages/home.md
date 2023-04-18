@@ -6,15 +6,15 @@ published: true
 site-map: true
 permalink: /
 header:
-    overlay_image: images/header.jpg
-    overlay_filter: 0.6
-    actions:
-        - label: "Submit a Package"
-          url: "https://github.com/pyOpenSci/software-review/issues"
-        - label: "Read our Peer Review Guide"
-          url: "https://www.pyopensci.org/software-peer-review/"
+  overlay_image: images/header.jpg
+  overlay_filter: 0.6
+  actions:
+    - label: "Submit a Package"
+      url: "https://github.com/pyOpenSci/software-review/issues"
+    - label: "Read our Peer Review Guide"
+      url: "https://www.pyopensci.org/software-peer-review/"
 mission:
-  - excerpt: 'We build diverse community that supports free and open Python tools for processing scientific data. We also build technical skills needed to contribute to open source and that support open science. Join our global community.'
+  - excerpt: "We build diverse community that supports free and open Python tools for processing scientific data. We also build technical skills needed to contribute to open source and that support open science. Join our global community."
 programs:
   - image_path: images/brooke-cagle-group-unsplash.png
     image_caption: "Brooke Cagle, Unsplash"
@@ -25,7 +25,7 @@ programs:
     image_caption: "Desola Lanre Ologun, Unsplash"
     alt: "placeholder image 2"
     title: "Open Peer Review"
-    excerpt: "Our open peer review process of Python tools supports standardized software quality and usability. It also provides needed credit and visibility to tool maintainers. Finally it removes redundancy of packages with similar functionaly across the scientific Python ecosystem."
+    excerpt: "Our open peer review process of Python tools supports standardized software quality and usability. It also provides needed credit and visibility to tool maintainers. Finally it removes redundancy of packages with similar functionality across the scientific Python ecosystem."
     url: /about-peer-review/
     btn_label: "Learn More About Package Peer Review"
     btn_class: "btn--primary"
@@ -59,9 +59,7 @@ programs:
 <p><a href="/blog/" class="btn btn--info btn--large">View All Posts <i class="fa fa-4 fa-arrow-circle-right" aria-hidden="true"></i></a></p>
 </div>
 
-
 <!-- packages reviewed -->
-
 
 ## Recently Accepted Python Packages
 
@@ -75,5 +73,4 @@ programs:
 
 <br clear="both">
 
-   <a href="/python-packages/" class="btn btn--info">View All Accepted Packages <i class="fa fa-4 fa-arrow-circle-right" aria-hidden="true"></i></a>
-
+<a href="/python-packages/" class="btn btn--info">View All Accepted Packages <i class="fa fa-4 fa-arrow-circle-right" aria-hidden="true"></i></a>
