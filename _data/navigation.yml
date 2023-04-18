@@ -1,10 +1,10 @@
 # main links
 main:
   - title: "Peer Review & Packages"
-    url: 
+    url:
     sub-nav:
       - title: "About peer review"
-        icon: 
+        icon:
         url: "/about-peer-review/"
       - title: "Peer review guide"
         url: "https://www.pyopensci.org/software-peer-review/"
@@ -22,9 +22,9 @@ main:
   - title: "Community"
     sub-nav:
       - title: "Our Community"
-        url: "/our-community/" 
+        url: "/our-community/"
       - title: "Governance"
         icon: "fas fa-external-link-alt"
-        url: "https://www.pyopensci.org/governance/" 
+        url: "https://www.pyopensci.org/governance/"
   - title: "Get Involved"
     url: /get-involved-contact.html

@@ -18,8 +18,6 @@
     - errdapy
     - pandera
     - nbless
-    - PyGMT
-    - pyrolite
   packages-submitted:
     - earthpy
   packages-reviewed:
@@ -53,7 +51,6 @@
   location: Ottawa, ON
   email: karen.cranston@gmail.com
 - name: Chris Holdgraf
-  advisory: true
   bio: I work with Project Jupyter and other open communities to build tools and
       solve problems for scientific research and education.
   organization: UC Berkeley
@@ -94,7 +91,6 @@
   location:
   email: inessapawson@gmail.com
 - name: Pradyun Gedam
-  advisory: true
   contributions:
     - code
     - design
@@ -102,7 +98,7 @@
   github_username: pradyunsg
   website: https://pradyunsg.me
   github_image_id: 3275593
-  mastodon: https://mastodon.social/@pradyunsg
+  mastodon:
   twitter: pradyunsg
   bio: "@pypa member, @psf fellow, @toml-lang core, @sphinx-doc contributor. Past\
       \ intern at @enthought and IITB.\r\n\r\nDon't email or tweet me for tech support."
@@ -112,7 +108,7 @@
   packages-reviewed:
   location: London, UK
   organization: '@bloomberg Python Infrastructure'
-  email: mail@pradyunsg.me
+  email:
 - name: Leonardo Uieda
   advisory: true
   bio: Lecturer in Geophysics @compgeolab University of Liverpool. I study and teach
@@ -153,22 +149,17 @@
     -
   packages-reviewed:
     - pandera
-    - MovingPandas
   packages-editor:
     - sevivi
-    - Jointly
-    - Devicely
   location: Earth
   email: ivan.ogasawara@gmail.com
-- name: Filipe Fernandes
+- name: Filipe
   advisory: true
-  title: Editor
   bio: Filipe Fernandes is a Physical oceanographer by training, turned research
       software engineer, and a software packager hobbyist.
   organization:
   github_username: ocefpaf
   github_image_id: 950575
-  editorial-board: true
   twitter: ocefpaf
   orcidid: 0000-0003-4165-2913
   website: https://ocefpaf.github.io/python4oceanographers
@@ -176,7 +167,7 @@
   packages-submitted:
     - errdapy
   packages-reviewed:
-    - Nbless
+    -
   packages-editor:
     -
   location: Florianópolis, SC
@@ -253,7 +244,7 @@
     - package-maintainer
     - editor
   packages-editor:
-    - pynteny
+    - Pyteny
   packages-submitted:
     - devicely
   packages-reviewed:
@@ -326,7 +317,7 @@
     - spatial-remote-sensing
     - database
   packages-editor:
-    - MovingPandas
+    -
   packages-submitted:
     - earthpy
   packages-reviewed:
@@ -479,7 +470,7 @@
   packages-submitted:
     -
   packages-reviewed:
-    - Nbless
+    -
   packages-editor:
     -
   twitter:
@@ -497,7 +488,7 @@
   contributor_type:
     - contributor
   packages-submitted:
-    - Nbless
+    -
   packages-reviewed:
     -
   packages-editor:
@@ -1116,7 +1107,6 @@
   contributor_type:
   packages-submitted:
   packages-reviewed:
-    - Devicely
   location: San Diego
   organization: Willing Consulting
   email: carolcode@willingconsulting.com
@@ -1135,7 +1125,6 @@
   contributor_type:
   packages-submitted:
   packages-reviewed:
-    - openomics
   location: Earth
   organization: Dr Stephen P. Moss
   email:
@@ -1243,6 +1232,39 @@
   location: Washington DC
   organization: Johns Hopkins Applied Physics Lab
   email:
+- name: Tessa Rhinehart
+  contributions:
+    - review
+  github_username: rhine3
+  website: https://tessarhinehart.com
+  github_image_id: 27306428
+  mastodon:
+  twitter: TessaRhinehart
+  bio: "\r\n    Work: research programmer creating computational tools for bioacoustics.\r\
+      \nPlay: tinkerer creating open-source tools for birders\r\n"
+  orcidid: 0000-0002-4352-3464
+  contributor_type:
+  packages-submitted:
+  packages-reviewed: crowsetta
+  location: Pittsburgh, PA, USA
+  organization: University of Pittsburgh
+  email: tessa.rhinehart@pitt.edu
+- name: Agustina
+  contributions:
+    - review
+  github_username: aguspesce
+  website: https://aguspesce.github.io
+  github_image_id: 13738018
+  mastodon:
+  twitter:
+  bio: Lic. in Physics and PhD in Geophysics.
+  orcidid: 0000-0002-5538-8845
+  contributor_type:
+  packages-submitted:
+  packages-reviewed:
+  location: British Columbia, Canada
+  organization:
+  email: pesce.agustina@gmail.com
 - name: James Tocknell
   contributions:
     - code
@@ -1347,336 +1369,9 @@
   location: Brisbane, Australia
   organization:
   email: dave.hirschfeld@gmail.com
-- name: Benjamin Rodenberg
-  contributions:
-    - code
-    - review
-  github_username: BenjaminRodenberg
-  website: https://www.cs.cit.tum.de/sccs/personen/benjamin-rodenberg/
-  github_image_id: 5740604
-  mastodon:
-  twitter:
-  bio:
-  orcidid:
-  contributor_type:
-  packages-submitted:
-  packages-reviewed:
-  location:
-  organization: Technical University of Munich
-  email: benjamin.rodenberg@in.tum.de
-- name: Travis Logan
-  contributions:
-    - code
-  github_username: tlogan2000
-  website:
-  github_image_id: 22454970
-  mastodon:
-  twitter:
-  bio:
-  orcidid:
-  contributor_type:
-  packages-submitted:
-  packages-reviewed:
-  location: ' Montreal'
-  organization: Ouranos
-  email:
-- name: Pascal Bourgault
-  contributions:
-    - code
-  github_username: aulemahal
-  website:
-  github_image_id: 20629530
-  mastodon:
-  twitter:
-  bio: Physical oceanography graduate turned climate science specialist and scientific
-      developer.
-  orcidid:
-  contributor_type:
-  packages-submitted:
-  packages-reviewed:
-  location: Montréal
-  organization: Ouranos
-  email: bourgault.pascal@ouranos.ca
-- name: Arne
-  bio: IT-Systems Engineering Student at Hasso Plattner Institute, more active at
-      gitlab.com/enra64
-  organization:
-  title:
-  github_username: enra64
-  github_image_id: 7622426
-  editorial-board:
-  twitter:
-  mastodon:
-  orcidid:
-  website: https://gitlab.com/enra64
-  contributor_type:
-  packages-editor:
-  packages-submitted:
-    - Jointly
-  packages-reviewed:
-  location:
-  email:
-- name: Robert Guggenberger
-  bio: Dr.rer.soc. Dr.rer.nat. Rock climbing, Research Software, Neurofeedback and
-      Brain Stimulation.
-  organization: neuroConn
-  title:
-  github_username: agricolab
-  github_image_id: 20556511
-  editorial-board:
-  twitter: agricolabs
-  mastodon:
-  orcidid:
-  website: https://fosstodon.org/@agricolab
-  contributor_type:
-  packages-editor:
-  packages-submitted:
-  packages-reviewed:
-    - Devicely
-  location: Tuebingen, Germany
-  email:
-- name: Boas Pucker
-  bio: "Professor at TU Braunschweig with research interests in plant genomics and\
-      \ specialized metabolism. Details:\r\nhttps://www.tu-braunschweig.de/en/ifp/pbb"
-  organization: Plant Biotechnology and Bioinformatics, Institute of Plant Biology,
-      TU Braunschweig
-  title:
-  github_username: bpucker
-  github_image_id: 36674497
-  editorial-board:
-  twitter: boas_pucker
-  mastodon:
-  orcidid:
-  website: https://www.tu-braunschweig.de/en/ifp/pbb
-  contributor_type:
-  packages-editor:
-  packages-submitted:
-  packages-reviewed:
-    - Physcraper
-  location: Germany
-  email:
-- name: Leonardo de Oliveira Martins
-  bio: Bioinformatician @quadram-institute-bioscience (Norwich, UK). Phylogenomics
-      and Data Sciences.
-  organization: '@quadram-institute-bioscience '
-  title:
-  github_username: leomrtns
-  github_image_id: 7119518
-  editorial-board:
-  twitter: leomrtns
-  mastodon:
-  orcidid:
-  website: https://leomrtns.github.io
-  contributor_type:
-  packages-editor:
-  packages-submitted:
-  packages-reviewed:
-    - Physcraper
-  location: Norwich, UK
-  email: Leonardo.de-Oliveira-Martins@quadram.ac.uk
-- name: Soumith Chintala
-  bio: "/\\︿╱\\ _________________________________\r\n\\0_ 0    /╱\\╱____________________________\r\
-      \n \\▁︹_/\r\n"
-  organization: Facebook AI Research
-  title:
-  github_username: soumith
-  github_image_id: 1310570
-  editorial-board:
-  twitter:
-  mastodon:
-  orcidid:
-  website: https://soumith.ch
-  contributor_type:
-  packages-editor:
-  packages-submitted:
-  packages-reviewed:
-    - pystiche
-  location: New York, USA
-  email:
-- name: Arthur Porto
-  bio: Evolutionary Biology, Genetics and Machine learning
-  organization:
-  title:
-  github_username: agporto
-  github_image_id: 20894263
-  editorial-board:
-  twitter:
-  mastodon:
-  orcidid:
-  website:
-  contributor_type:
-  packages-editor:
-  packages-submitted:
-  packages-reviewed:
-    - phenopype
-  location: Baton Rouge, LA
-  email:
-- name: Seth Donoughe
-  bio:
-  organization:
-  title:
-  github_username: sdonoughe
-  github_image_id: 14017155
-  editorial-board:
-  twitter: seth_donoughe
-  mastodon:
-  orcidid:
-  website:
-  contributor_type:
-  packages-editor:
-  packages-submitted:
-  packages-reviewed:
-    - phenopype
-  location:
-  email:
-- name: Ben Cook
-  bio:
-  organization:
-  title:
-  github_username: jbencook
-  github_image_id: 4348863
-  editorial-board:
-  twitter: jbencook
-  mastodon:
-  orcidid:
-  website: https://sparrow.dev
-  contributor_type:
-  packages-editor:
-    - phenopype
-  packages-submitted:
-  packages-reviewed:
-  location: Omaha, NE
-  email: ben@sparrow.dev
-- name: Romain Beucher
-  bio: Model Evaluation and Diagnostics Team Lead for the Australian Earth-System
-      Simulator National Research Infrastructure (ACCESS-NRI)
-  organization: ACCESS-NRI
-  title:
-  github_username: rbeucher
-  github_image_id: 3680918
-  editorial-board:
-  twitter: romain_beucher
-  mastodon:
-  orcidid:
-  website:
-  contributor_type:
-  packages-editor:
-  packages-submitted:
-  packages-reviewed:
-    - pyrolite
-  location: Canberra, Australia
-  email: romain.beucher@anu.edu.au
-- name: Charles Le Losq
-  bio: Geoscientist, Assistant Professor, willing to improve data reduction protocols
-      through programming and data science
-  organization: Institut de physique du globe de Paris
-  title:
-  github_username: charlesll
-  github_image_id: 6821569
-  editorial-board:
-  twitter: charlesll
-  mastodon:
-  orcidid:
-  website: https://charlesll.github.io/
-  contributor_type:
-  packages-editor:
-  packages-submitted:
-  packages-reviewed:
-    - pyrolite
-  location: France
-  email: lelosq@ipgp.fr
-- name: Wei Ji
-  bio: Geospatial Data Scientist. Towards cloud-native geospatial machine learning!
-  organization: '@developmentseed'
-  title:
-  github_username: weiji14
-  github_image_id: 23487320
-  editorial-board:
-  twitter:
-  mastodon:
-  orcidid:
-  website: https://weiji14.github.io
-  contributor_type:
-  packages-editor:
-  packages-submitted:
-    - PyGMT
-  packages-reviewed:
-  location: Wellington
-  email:
-- name: Tessa Rhinehart
-  contributions:
-    - review
-  github_username: rhine3
-  website: https://tessarhinehart.com
-  github_image_id: 27306428
-  mastodon:
-  twitter: TessaRhinehart
-  bio: "\r\n    Work: research programmer creating computational tools for bioacoustics.\r\
-      \nPlay: tinkerer creating open-source tools for birders\r\n"
-  orcidid: 0000-0002-4352-3464
-  contributor_type:
-  packages-submitted:
-  packages-reviewed:
-    - crowsetta
-  location: Pittsburgh, PA, USA
-  organization: University of Pittsburgh
-  email: tessa.rhinehart@pitt.edu
-- name: Agustina
-  contributions:
-    - review
-  github_username: aguspesce
-  website: https://aguspesce.github.io
-  github_image_id: 13738018
-  mastodon:
-  twitter:
-  bio: Lic. in Physics and PhD in Geophysics.
-  orcidid: 0000-0002-5538-8845
-  contributor_type:
-  packages-submitted:
-  packages-reviewed:
-    - xclim
-  location: British Columbia, Canada
-  organization:
-  email: pesce.agustina@gmail.com
-- name: Sylvain HAUPERT
-  contributions:
-    - review
-  github_username: shaupert
-  website:
-  github_image_id: 43136040
-  mastodon:
-  twitter:
-  bio:
-  orcidid:
-  contributor_type:
-  packages-submitted:
-  packages-reviewed:
-    - crowsetta
-  location: PARIS
-  organization:
-  email:
-- name: Yannick Jadoul
-  contributions:
-    - review
-  github_username: YannickJadoul
-  website:
-  github_image_id: 8025744
-  mastodon:
-  twitter:
-  bio:
-  orcidid:
-  contributor_type:
-  packages-submitted:
-  packages-reviewed: crowsetta
-  location: Nijmegen, the Netherlands
-  organization: Max Planck Institute for Psycholinguistics & Vrije Universiteit
-      Brussel
-  email: Yannick.Jadoul@ai.vub.ac.be
 - name: Semidán Robaina
   contributions:
-    - example
     - code
-    - review
   github_username: Robaina
   website:
   github_image_id: 21340147
@@ -1686,130 +1381,7 @@
   orcidid:
   contributor_type:
   packages-submitted:
-    - Pynteny
   packages-reviewed:
   location:
   organization: ULL
   email: srobaina@ull.edu.es
-- name: Trevor James Smith
-  contributions:
-    - code
-  github_username: Zeitsperre
-  website:
-  github_image_id: 10819524
-  mastodon:
-  twitter:
-  bio: Python, Linux, and FOSS-GIS enthusiast. Climate Scenarios and Services Specialist
-      at Ouranos (@Ouranosinc) in Montreal.
-  orcidid:
-  contributor_type:
-  packages-submitted:
-    - xclim
-  packages-reviewed:
-  location: Montreal, Canada
-  organization: Ouranos
-  email:
-- name: James Munroe
-  contributions:
-    - review
-  github_username: jmunroe
-  website:
-  github_image_id: 6181563
-  mastodon:
-  twitter: __jmunroe
-  bio:
-  orcidid:
-  contributor_type:
-  packages-submitted:
-  packages-reviewed:
-    - xclim
-  location:
-  organization: '@2i2c-org'
-  email: jmunroe@earthdata.ca
-- name: Corinna Thoben
-  bio:
-  organization:
-  title:
-  github_username: c-thoben
-  github_image_id: 103432571
-  editorial-board:
-  twitter:
-  mastodon:
-  orcidid:
-  website:
-  contributor_type:
-  packages-editor:
-  packages-submitted:
-  packages-reviewed:
-    - Pynteny
-  location:
-  email:
-- name: Tom Russell
-  sort:
-  title: Editor
-  editorial-board: true
-  bio: Research software person. Work @nismod, tech lead @colouring-cities
-  organization: University of Oxford
-  github_username: tomalrussell
-  github_image_id: 2762769
-  twitter: tlrss
-  mastodon:
-  orcidid:
-  website:
-  contributor_type:
-    - guest editor
-    - contributor
-  packages-submitted:
-    -
-  packages-reviewed:
-    -
-  packages-editor:
-    - python-graphblas
-  location:
-  email:
-- name: Titus Brown
-  sort:
-  title: Editor
-  editorial-board: true
-  bio:
-  organization: University of California, Davis
-  github_username: ctb
-  github_image_id: 51016
-  twitter: ctitusbrown
-  mastodon:
-  orcidid:
-  website:
-  contributor_type:
-    - guest editor
-    - contributor
-  packages-submitted:
-    -
-  packages-reviewed:
-    -
-  packages-editor:
-    -
-  location: Davis, CA
-  email: titus@idyll.org
-- name: Meenal Jhajharia
-  sort:
-  title: Guest Editor
-  editorial-board: true
-  bio:
-  organization:
-  github_username: mjhajharia
-  github_image_id: 55153708
-  twitter:
-  mastodon:
-  orcidid:
-  website:
-  contributor_type:
-    - guest editor
-    - contributor
-  packages-submitted:
-    -
-  packages-reviewed:
-    -
-  packages-editor:
-    - bibat
-  location:
-  email:

@@ -6,7 +6,7 @@ author: "Leah Wasser"
 permalink: blog/welcome-to-pyopensci/
 header:
     overlay_filter: 0.6
-    overlay_color: "#333" 
+    overlay_color: "#333"
 categories:
   - updates
   - blog-post
