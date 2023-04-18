@@ -2,13 +2,13 @@
   sort: 1
   bio: 'Executive Director, pyOpenSci'
   organization: "RStudio"
-  twitter: 
+  twitter:
   github_username: tracykteal
   github_image_id: 889238 # You can find this by right clicking on the image in your bio, and copying the link. the last part contains a 7 digit number that is your avatar image!
   title: "Board chair"
   board: true
 # Editors
-- name: Karen Cranston 
+- name: Karen Cranston
   sort: 2
   title: ""
   bio: ''

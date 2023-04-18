@@ -5,7 +5,7 @@
     {% if post.feature_img %}
     <img src="{{ post.feature_img }}" alt="{{ post.feature_alt }}">
     {% endif %}
-    
+
     <div class="card__bkg">
         <h3 class="card-title">{{ post.title | markdownify | strip_html | truncate: 60 }}</h3>
     </div>
@@ -15,4 +15,3 @@
 </div>
 </a>
 </article>
-
