@@ -7,11 +7,11 @@ header:
     overlay_image: images/header.jpg
     overlay_filter: 0.6
 intro:
-    - excerpt: "Below you will find a list of scientific Python packages that have 
+    - excerpt: "Below you will find a list of scientific Python packages that have
     been accepted into the pyOpenSci ecosystem through the open peer review process."
 toc: false
 classes: wide
-redirect_from: 
+redirect_from:
   - /python-packages/
 ---
 
@@ -19,7 +19,7 @@ redirect_from:
 
 ## Our accepted Python open source packages
 
-The packages below have already been through our open peer review process and 
+The packages below have already been through our open peer review process and
 are accepted as pyOpenSci packages.
 
 <div class="grid">

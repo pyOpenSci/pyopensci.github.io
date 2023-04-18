@@ -8,7 +8,7 @@
         <p class="page__meta contributors">
          <span><i class="fas fa-feather" aria-hidden="true"></i>
          <!-- Commas in between authors -->
-         {% for aMaintainer in apackage.maintainer %}  
+         {% for aMaintainer in apackage.maintainer %}
          {{ aMaintainer }}{% if forloop.last == false %}, {% endif %}
          {% endfor %}
          </span>

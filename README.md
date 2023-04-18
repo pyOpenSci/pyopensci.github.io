@@ -6,13 +6,13 @@ This is the website for pyOpenSci. Contributions welcome!!
 
 ## Development Environment
 
-If you want to contribute to the pyopensci website and you wish to test your changes locally prior to submitting a pr, 
+If you want to contribute to the pyopensci website and you wish to test your changes locally prior to submitting a pr,
 do the following.
 
 1. You will need to have ruby and bundler installed on your machine.
-2. Fork and clone this repository. 
+2. Fork and clone this repository.
 3. Run `bundle install` in the root of this repository directory to install of the gems needed to run the site locally
-4. Once bundle install is complete, `bundle exec jekyll serve` will create a local host that you can use to run and view the site on your computer locally. 
+4. Once bundle install is complete, `bundle exec jekyll serve` will create a local host that you can use to run and view the site on your computer locally.
 
 ## Contributors ✨
 

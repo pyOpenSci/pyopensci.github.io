@@ -129,4 +129,3 @@ global, we prefer that you live in the United States.
 - Be building relationships with core organizations in the open source and DEIA open science space
 - Be working with the executive director to secure funding for pyOpenSci
 - Be working with the executive director to develop a training program
-
