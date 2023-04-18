@@ -20,7 +20,7 @@ $monospace: 'Open Sans', sans-serif!default;
 
 /* sans serif typefaces */
 $sans-serif-narrow: $sans-serif !default;
-$header-font: 'Raleway', sans-serif; 
+$header-font: 'Raleway', sans-serif;
 $body-font: 'Open Sans', sans-serif;
 
 $global-font-family: $body-font !default;
@@ -195,7 +195,9 @@ div > div {
   margin-left: auto;
   margin-right: auto;
   display: block;
+  max-height: 3rem!important;
 }
+
 
 .nav__links {
   overflow: hidden;
@@ -232,15 +234,15 @@ div > div {
   font-size: 1em!important;
 }
 
-/* Make sure drop down horizontal doesn't push content down 
+/* Make sure drop down horizontal doesn't push content down
 (put push it down in vertical mode */
 .nav__links .dropdown .dropdown-content {
   position: absolute;
   max-width: 25%;
 }
 
-/* Upon click the menu should turn into a vertical stacked menu with a soft 
-drop shadow 
+/* Upon click the menu should turn into a vertical stacked menu with a soft
+drop shadow
 */
 .nav__links.vertical {
   position: absolute;
@@ -273,7 +275,7 @@ drop shadow
 
   a {
     float: none;
-    display: block; 
+    display: block;
     text-align: left;
   }
   .dropdown {
@@ -424,8 +426,8 @@ drop shadow
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
-  width: 100%; 
-  transition: all 0.25s ease-in; 
+  width: 100%;
+  transition: all 0.25s ease-in;
   transform: translateY(-10px);
 }
 
@@ -561,7 +563,7 @@ drop shadow
     font-size: 1.3em;
 
   }
-} 
+}
 
 /* End media query 48em / 768 px */
 
@@ -570,7 +572,7 @@ drop shadow
 @media screen and (max-width: 480px) {
 
   .feature__item {
-    width: 100%!important; 
+    width: 100%!important;
   }
   .page__content p, .page__content li {
     font-size: 1.2em !important;
@@ -604,7 +606,7 @@ drop shadow
   p {
     font-size: .9em
   }
-  
+
   h2 a {
     text-decoration: none;
     font-size: 1.2em;
@@ -720,7 +722,7 @@ h2.clearall {
   font-family: $body-font;
 }
 .notice figcaption {
-  
+
 }
 .notice {
   border-radius: 15px!important;
