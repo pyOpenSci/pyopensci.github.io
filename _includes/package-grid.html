@@ -6,73 +6,34 @@
 {% endfor %}" data-category="data">
     <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
         <h3 class="card__title no_toc" itemprop="headline">
-            {{ apackage.package-name }}
+            {{ apackage.package_name}}
         </h3>
         <p class="page__meta contributors">
          <span><i class="fas fa-feather" aria-hidden="true"></i>
          <!-- Commas in between authors -->
+         {{ apackage.submitting_author.name }}
+         {% comment %}
          {% for aMaintainer in apackage.maintainer %}
          {{ aMaintainer }}{% if forloop.last == false %}, {% endif %}
-         {% endfor %}
+         {% endfor %} {% endcomment %}
          </span>
         </p>
         <span class="narrow">
-        <p class="archive__item-excerpt narrow" itemprop="description">{{ apackage.description | markdownify }}
+        <p class="archive__item-excerpt narrow" itemprop="description">{{ apackage.package_description | markdownify }}
         </p>
         </span>
         <ul>
           <li>
-            <a href="{{ apackage.link }}" rel="permalink"><i class="fab fa-github"></i> View Code </a>
+            <a href="{{ apackage.repository_link }}" rel="permalink"><i class="fab fa-github"></i> View Code </a>
           </li>
-          {% if apackage.docs-url %}
+          {% if apackage.gh_meta.documentation %}
           <li>
-            <a href="{{ apackage.docs-url }}" rel="permalink"><i class="fas fa-book-open"></i> View Docs</a>
-          </li>
-          {% endif %}
-          {% if apackage.citation-link %}
-          <li>
-            <a href="{{ apackage.docs-url }}" rel="permalink"><i class="fas fa-bookmark fa-fw"></i> Cite</a>
-          </li>
-        {% endif %}
-        </ul>
-    </article>
-    </div>
-
-
-
-
-
-<div class="element-item cards {% for aCategories in apackage.categories %}
-{{ aCategories }}
-{% endfor %}" data-category="data">
-    <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
-        <h3 class="card__title no_toc" itemprop="headline">
-            {{ apackage.package-name }}
-        </h3>
-        <p class="page__meta contributors">
-         <span><i class="fas fa-feather" aria-hidden="true"></i>
-         <!-- Commas in between authors -->
-         {% for aMaintainer in apackage.maintainer %}
-         {{ aMaintainer }}{% if forloop.last == false %}, {% endif %}
-         {% endfor %}
-         </span>
-        </p>
-        <span class="narrow">
-        <p class="archive__item-excerpt narrow" itemprop="description">{{ apackage.description | markdownify }}
-        </p>
-        </span>
-        <ul>
-          <li>
-            <a href="{{ apackage.link }}" rel="permalink"><i class="fab fa-github"></i> View Code </a>
-          </li>
-          {% if apackage.docs-url %}
-          <li>
-            <a href="{{ apackage.docs-url }}" rel="permalink"><i class="fas fa-book-open"></i> View Docs</a>
+            <a href="{{ apackage.gh_meta.documentation }}" rel="permalink"><i class="fas fa-book-open"></i> View Docs</a>
           </li>
           {% endif %}
           {% if apackage.citation-link %}
           <li>
-            <a href="{{ apackage.docs-url }}" rel="permalink"><i class="fas fa-bookmark fa-fw"></i> Cite</a>
+            <a href="{{ apackage.archive }}" rel="permalink"><i class="fas fa-bookmark fa-fw"></i> Cite</a>
           </li>
         {% endif %}
         </ul>

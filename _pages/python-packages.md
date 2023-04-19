@@ -26,17 +26,22 @@ are accepted as pyOpenSci packages.
 
 <div id="filters" class="button-group">
   <button class="button is-checked" data-filter="*">show all</button>
-  <button class="button" data-filter=".data">data</button>
-  <button class="button" data-filter=".spatial">spatial</button>
-  <button class="button" data-filter=".alkali, .alkaline-earth">alkali and alkaline-earth</button>
-  <button class="button" data-filter=":not(.transition)">not transition</button>
-  <button class="button" data-filter=".metal:not(.transition)">metal but not transition</button>
+  <button class="button" data-filter=".data-munging">data munging</button>
+  <button class="button" data-filter=".data-extraction">data extraction</button>
+  <button class="button" data-filter=".data-retrieval">data retrieval</button>
+  <button class="button" data-filter=".data-visualization">data-visualization</button>
+  <button class="button" data-filter=".education">education</button>
+
+<button class="button" data-filter=".geospatial">geospatial</button>
+<button class="button" data-filter=".reproducibility">reproducibility</button>
+
+  <!-- <button class="button" data-filter=":not(.transition)">not transition</button>
+  <button class="button" data-filter=".metal:not(.transition)">metal but not transition</button> -->
 </div>
 
 <div class="grid-isotope">
 {% for apackage in site.data.packages %}
-{{ apackage.Package-Name }}
-
+  {% include package-grid.html %}
 {% endfor %}
 </div>
 
