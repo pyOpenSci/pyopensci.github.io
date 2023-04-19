@@ -493,8 +493,15 @@ drop shadow
 /* 768 px */
 @media screen and (max-width: 768px) {
 
+  .element-item {
+    width:calc(90% - 10px)!important;
+   }
+
+  .narrow p {
+    font-size: 0.9em!important;
+  }
   .narrow {
-    font-size: 0.72em !important;
+    font-size: 0.9em!important;
   }
 
   .page__meta.contributors {
@@ -705,7 +712,7 @@ drop shadow
 
 /* Adjust font size on cards  */
 .narrow {
-  font-size: .92em!important;
+  font-size: .8em!important;
 }
 
 /* Fix people page - allow for tall images */
