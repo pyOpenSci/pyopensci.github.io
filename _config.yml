@@ -11,113 +11,112 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-remote_theme             : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
-title                    : "pyOpenSci"
-title_separator          : "-"
-name                     : "pyOpenSci"
-description              : "pyOpenSci's Website"
-url                      : "https://www.pyopensci.org" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "pyopensci/pyopensci.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/images/logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+locale: "en-US"
+title: "pyOpenSci"
+title_separator: "-"
+name: "pyOpenSci"
+description: "pyOpenSci's Website"
+url: "https://www.pyopensci.org" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl: "" # the subpath of your site, e.g. "/blog"
+repository: "pyopensci/pyopensci.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo: "/images/logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+masthead_title: # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
-words_per_minute         : 200
+words_per_minute: 200
 comments:
   provider: "giscus"
   giscus:
-    repo_id              : "MDEwOlJlcG9zaXRvcnkxNzQ0MTI4MDk="
-    category_name        : "website-comments"
-    category_id          : "DIC_kwDOCmVUCc4CSE-o"
-    discussion_term      : "pathname"
-    reactions_enabled    : "1" # '1' for enabled (default), '0' for disabled
-    theme                : "light"
+    repo_id: "MDEwOlJlcG9zaXRvcnkxNzQ0MTI4MDk="
+    category_name: "website-comments"
+    category_id: "DIC_kwDOCmVUCc4CSE-o"
+    discussion_term: "pathname"
+    reactions_enabled: "1" # '1' for enabled (default), '0' for disabled
+    theme: "light"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname: # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+    server: # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    appid:
+    num_posts: # 5 (default)
+    colorscheme: # "light" (default), "dark"
   utterances:
-    theme                : # "github-light" (default), "github-dark"
-    issue_term           : # "pathname" (default)
+    theme: # "github-light" (default), "github-dark"
+    issue_term: # "pathname" (default)
 staticman:
-  allowedFields          : # ['name', 'email', 'url', 'message']
-  branch                 : # "master"
-  commitMessage          : # "New comment by {fields.name}"
-  filename               : # comment-{@timestamp}
-  format                 : # "yml"
-  moderation             : # true
-  path                   : # "/_data/comments/{options.slug}" (default)
-  requiredFields         : # ['name', 'email', 'message']
+  allowedFields: # ['name', 'email', 'url', 'message']
+  branch: # "master"
+  commitMessage: # "New comment by {fields.name}"
+  filename: # comment-{@timestamp}
+  format: # "yml"
+  moderation: # true
+  path: # "/_data/comments/{options.slug}" (default)
+  requiredFields: # ['name', 'email', 'message']
   transforms:
-    email                : # "md5"
+    email: # "md5"
   generatedFields:
     date:
-      type               : # "date"
+      type: # "date"
       options:
-        format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
-  endpoint               : # URL of your own deployment with trailing slash, will fallback to the public instance
+        format: # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+  endpoint: # URL of your own deployment with trailing slash, will fallback to the public instance
 reCaptcha:
-  siteKey                :
-  secret                 :
+  siteKey:
+  secret:
 atom_feed:
-  path                   : # blank (default) uses feed.xml
-search                   : #true # true, false (default)
-search_full_content      : # true, false (default)
-search_provider          : # lunr (default), algolia, google
+  path: # blank (default) uses feed.xml
+search: #true # true, false (default)
+search_full_content: # true, false (default)
+search_provider: # lunr (default), algolia, google
 algolia:
-  application_id         : # YOUR_APPLICATION_ID
-  index_name             : # YOUR_INDEX_NAME
-  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
-  powered_by             : # true (default), false
+  application_id: # YOUR_APPLICATION_ID
+  index_name: # YOUR_INDEX_NAME
+  search_only_api_key: # YOUR_SEARCH_ONLY_API_KEY
+  powered_by: # true (default), false
 google:
-  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
-  instant_search         : # false (default), true
+  search_engine_id: # YOUR_SEARCH_ENGINE_ID
+  instant_search: # false (default), true
 # SEO Related
-google_site_verification :
-bing_site_verification   :
-yandex_site_verification :
-naver_site_verification  :
+google_site_verification:
+bing_site_verification:
+yandex_site_verification:
+naver_site_verification:
 
 # Social Sharing
 twitter:
-  username               :
+  username:
 facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 : # Open Graph/Twitter default site image
+  username:
+  app_id:
+  publisher:
+og_image: # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
+  type: # Person or Organization (defaults to Person)
+  name: # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
 
 # Analytics
 analytics:
-  provider               : "google-gtag" # false (default), "google", "google-universal", "custom"
+  provider: "google-gtag" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          : "UA-141260825-1"
-    anonymize_ip         : false # true, false (default)
-
+    tracking_id: "UA-141260825-1"
+    anonymize_ip: false # true, false (default)
 
 # Site Author
 author:
-  name             : "pyOpenSci"
-  avatar           : "/images/logo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "pyOpenSci promotes open and reproducible research through peer-review of well-documented and tested scientific Python packages."
-  location         : "Global"
-  email            :
+  name: "pyOpenSci"
+  avatar: "/images/logo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio: "pyOpenSci promotes open and reproducible research through peer-review of well-documented and tested scientific Python packages."
+  location: "Global"
+  email:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -142,6 +141,7 @@ author:
 footer:
   scripts:
     - https://kit.fontawesome.com/2409929a54.js
+
   links:
     - label: "Mastodon"
       icon: "fab fa-fw fa-mastodon"
@@ -161,7 +161,6 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
-
 
 # Reading Files
 include:
@@ -200,14 +199,12 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-
 # Conversion
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
 
 # Markdown Processing
 kramdown:
@@ -220,19 +217,16 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-
 # Sass/SCSS
 sass:
   sass_dir: _sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-
 
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
 
 # Plugins (previously gems:)
 plugins:
@@ -254,12 +248,10 @@ whitelist:
   - jekyll-include-cache
   - jekyll-redirect-from
 
-
 collections:
   packages:
     output: true
     permalink: /:collection/:path/
-
 
 # Archives
 #  Type
@@ -289,14 +281,12 @@ tag_archive:
 #     category: /categories/:name/
 #     tag: /tags/:name/
 
-
 # HTML Compression
 # - http://jch.penibelst.de/
 compress_html:
   clippings: all
   ignore:
     envs: development
-
 
 # Defaults
 defaults:
