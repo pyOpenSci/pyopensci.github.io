@@ -4,38 +4,80 @@
 <div class="element-item cards {% for aCategory in apackage.categories %}
 {{ aCategory }}
 {% endfor %}" data-category="data">
-    <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+    <article
+        class="archive__item"
+        itemscope=""
+        itemtype="https://schema.org/CreativeWork"
+    >
         <h3 class="card__title no_toc" itemprop="headline">
             {{ apackage.package_name}}
         </h3>
         <p class="page__meta contributors">
-         <span><i class="fas fa-feather" aria-hidden="true"></i>
-         <!-- Commas in between authors -->
-         {{ apackage.submitting_author.name }}
-         {% comment %}
-         {% for aMaintainer in apackage.maintainer %}
-         {{ aMaintainer }}{% if forloop.last == false %}, {% endif %}
-         {% endfor %} {% endcomment %}
+            <span><i class="fas fa-feather" aria-hidden="true"></i>
+            {% if apackage.all_current_maintainers %}
+                {% for maintainer in apackage.all_current_maintainers %}
+                    <a
+                        href="https://github.com/{{ maintainer.github_username }}"
+                        rel="maintainer"
+                        target="_blank"
+                    >
+                        {% if maintainer.name %}
+                            {{ maintainer.name }}
+                        {% else %}
+                            {{ maintainer.github_username }}
+                        {% endif %}
+                        {% if forloop.last == false %}
+                            ,
+                        {% endif %}
+                    </a>
+                {% endfor %}
+            {% elsif apackage.submitting_author.name != 'Name' %}
+                <a
+                    href="https://github.com/{{ apackage.submitting_author.github_username }}"
+                    rel="maintainer"
+                    target="_blank"
+                >
+                    {{ apackage.submitting_author.name }}
+                </a>
+            {% else %}
+                <a
+                    href="https://github.com/{{ apackage.submitting_author.github_username }}"
+                    rel="maintainer"
+                    target="_blank"
+                >
+                    {{ apackage.submitting_author.github_username }}
+                </a>
+            {% endif %}
          </span>
         </p>
         <span class="narrow">
-        <p class="archive__item-excerpt narrow" itemprop="description">{{ apackage.package_description | markdownify }}
-        </p>
+            <p class="archive__item-excerpt narrow" itemprop="description">
+                {{ apackage.package_description | markdownify }}
+            </p>
         </span>
         <ul>
-          <li>
-            <a href="{{ apackage.repository_link }}" rel="permalink"><i class="fab fa-github"></i> View Code </a>
-          </li>
-          {% if apackage.gh_meta.documentation %}
-          <li>
-            <a href="{{ apackage.gh_meta.documentation }}" rel="permalink"><i class="fas fa-book-open"></i> View Docs</a>
-          </li>
-          {% endif %}
-          {% if apackage.citation-link %}
-          <li>
-            <a href="{{ apackage.archive }}" rel="permalink"><i class="fas fa-bookmark fa-fw"></i> Cite</a>
-          </li>
-        {% endif %}
+            <li>
+                <a href="{{ apackage.repository_link }}" rel="permalink">
+                    <i class="fab fa-github"></i> View Code
+                </a>
+            </li>
+            {% if apackage.gh_meta.documentation %}
+                <li>
+                    <a
+                        href="{{ apackage.gh_meta.documentation }}"
+                        rel="permalink"
+                    >
+                        <i class="fas fa-book-open"></i> View Docs
+                    </a>
+                </li>
+            {% endif %}
+            {% if apackage.citation-link %}
+                <li>
+                    <a href="{{ apackage.archive }}" rel="permalink">
+                        <i class="fas fa-bookmark fa-fw"></i> Cite
+                    </a>
+                </li>
+            {% endif %}
         </ul>
     </article>
     </div>
