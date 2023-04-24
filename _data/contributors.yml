@@ -14,6 +14,7 @@
     - leadership
     - current editor
     - package-maintainer
+    - guidebook-contrib
   packages-editor:
     - errdapy
     - pandera
@@ -67,6 +68,7 @@
     - leadership
     - editor
     - reviewer
+    - guidebook-contrib
   packages-submitted:
     -
   packages-reviewed:
@@ -108,11 +110,12 @@
       \ intern at @enthought and IITB.\r\n\r\nDon't email or tweet me for tech support."
   orcidid:
   contributor_type:
+    - guidebook-contrib
   packages-submitted:
   packages-reviewed:
   location: London, UK
   organization: '@bloomberg Python Infrastructure'
-  email: mail@pradyunsg.me
+  email:
 - name: Leonardo Uieda
   advisory: true
   bio: Lecturer in Geophysics @compgeolab University of Liverpool. I study and teach
@@ -149,6 +152,9 @@
   contributor_type:
     - reviewer
     - alumni-editor
+    - guidebook-contrib
+    - peer-review
+    - web-contrib
   packages-submitted:
     -
   packages-reviewed:
@@ -160,7 +166,7 @@
     - Devicely
   location: Earth
   email: ivan.ogasawara@gmail.com
-- name: Filipe Fernandes
+- name: Filipe
   advisory: true
   title: Editor
   bio: Filipe Fernandes is a Physical oceanographer by training, turned research
@@ -173,6 +179,7 @@
   orcidid: 0000-0003-4165-2913
   website: https://ocefpaf.github.io/python4oceanographers
   contributor_type:
+    - guidebook-contrib
   packages-submitted:
     - errdapy
   packages-reviewed:
@@ -230,7 +237,8 @@
   mastodon: https://hachyderm.io/@yuvipanda
   orcidid:
   website:
-  contributor_type: []
+  contributor_type:
+    - guidebook-contrib
   packages-submitted:
     -
   packages-reviewed:
@@ -252,6 +260,7 @@
   contributor_type:
     - package-maintainer
     - editor
+    - guidebook-contrib
   packages-editor:
     - pynteny
   packages-submitted:
@@ -276,6 +285,7 @@
   contributor_type:
     - current editor
     - contributor
+    - web-contrib
   packages-submitted:
     - crowsetta
   packages-reviewed:
@@ -299,6 +309,8 @@
   website: https://orcid.org/0000-0003-2843-6044
   contributor_type:
     - editor
+    - guidebook-contrib
+    - peer-review
   packages-editor:
     - crowsetta
   packages-submitted:
@@ -321,6 +333,7 @@
   contributor_type:
     - reviewer
     - contributor
+    - web-contrib
   focus-areas:
     - gis
     - spatial-remote-sensing
@@ -348,6 +361,7 @@
   website: https://anitagraser.com
   contributor_type:
     - package-maintainer
+    - web-contrib
   packages-submitted:
     - movingpandas
   packages-reviewed:
@@ -373,6 +387,7 @@
   contributor_type:
     - editor
     - reviewer
+    - peer-review
   packages-submitted:
     -
   packages-reviewed:
@@ -393,6 +408,7 @@
   website: https://mbjoseph.github.io
   contributor_type:
     - reviewer
+    - guidebook-contrib
   packages-submitted:
     -
   packages-reviewed:
@@ -406,6 +422,7 @@
   github_image_id: 6642
   contributor_type:
     - editor
+    - peer-review
   packages-submitted:
     -
   packages-reviewed:
@@ -432,7 +449,7 @@
   packages-editor:
     -
   twitter: dynamicwebpaige
-  website:
+  website: https://paigevie.ws
   location: Seattle, WA
   email: paige.bailey@alumni.rice.edu
 - name: Carson Farmer
@@ -476,6 +493,7 @@
   github_image_id: 24379590
   contributor_type:
     - contributor
+    - guidebook-contrib
   packages-submitted:
     -
   packages-reviewed:
@@ -549,6 +567,7 @@
   contributor_type:
     - contributor
     - package-maintainer
+    - web-contrib
   packages-submitted:
     - pandera
   packages-reviewed:
@@ -862,6 +881,7 @@
   github_image_id: 31246246
   contributor_type:
     - reviewer
+    - guidebook-contrib
   packages-submitted:
     -
   packages-reviewed:
@@ -897,6 +917,7 @@
   bio:
   orcidid:
   contributor_type:
+    - guidebook-contrib
   packages-submitted:
   packages-reviewed:
   location: Austin, TX
@@ -911,9 +932,11 @@
   github_image_id: 23188539
   mastodon:
   twitter: PamphileRoy
-  bio: Artificial Intelligence & Backend Engineer probably doing some Python 🐍 ❤️
+  bio: 'Artificial Intelligence, Backend, Data, Stats, Engineer probably doing some
+      Python 🐍 '
   orcidid:
   contributor_type:
+    - guidebook-contrib
   packages-submitted:
   packages-reviewed:
   location: Graz, Austria
@@ -931,6 +954,7 @@
   bio: Bad at programming in beautiful Oregon
   orcidid:
   contributor_type:
+    - guidebook-contrib
   packages-submitted:
   packages-reviewed:
   location:
@@ -948,6 +972,7 @@
   bio:
   orcidid:
   contributor_type:
+    - guidebook-contrib
   packages-submitted:
   packages-reviewed:
   location:
@@ -966,6 +991,7 @@
   bio: Open Knowledge + Radical Transparency
   orcidid:
   contributor_type:
+    - guidebook-contrib
   packages-submitted:
   packages-reviewed:
   location: Spain
@@ -985,6 +1011,7 @@
       @pybind, and @scikit-build admin. @pypa member.
   orcidid:
   contributor_type:
+    - guidebook-contrib
   packages-submitted:
   packages-reviewed:
   location: Princeton, NJ
@@ -1004,6 +1031,7 @@
       Python developer (NumPy, scikit-image, etc.), author of Elegant SciPy.
   orcidid:
   contributor_type:
+    - guidebook-contrib
   packages-submitted:
   packages-reviewed:
   location: Berkeley, CA
@@ -1022,6 +1050,7 @@
   bio: '@archlinux bugwrangler and Trusted User'
   orcidid:
   contributor_type:
+    - guidebook-contrib
   packages-submitted:
   packages-reviewed:
   location:
@@ -1041,6 +1070,7 @@
       communities at Quansight Labs.
   orcidid:
   contributor_type:
+    - guidebook-contrib
   packages-submitted:
   packages-reviewed:
   location: Netherlands
@@ -1059,6 +1089,7 @@
   bio: I like developing beautiful APIs.
   orcidid:
   contributor_type:
+    - guidebook-contrib
   packages-submitted:
   packages-reviewed:
   location: Knowhere
@@ -1077,6 +1108,7 @@
   bio:
   orcidid:
   contributor_type:
+    - guidebook-contrib
   packages-submitted:
   packages-reviewed:
   location:
@@ -1096,6 +1128,7 @@
       creator. Professor of Earth and Environmental Sciences at Columbia University.
   orcidid:
   contributor_type:
+    - guidebook-contrib
   packages-submitted:
   packages-reviewed:
   location: New York City
@@ -1114,6 +1147,7 @@
       \ | @jupyterhub | @ipython | @nteract | @pysplash"
   orcidid:
   contributor_type:
+    - guidebook-contrib
   packages-submitted:
   packages-reviewed:
     - Devicely
@@ -1133,6 +1167,7 @@
       📚 Philomath 🧐
   orcidid:
   contributor_type:
+    - guidebook-contrib
   packages-submitted:
   packages-reviewed:
     - openomics
@@ -1151,6 +1186,7 @@
   bio:
   orcidid:
   contributor_type:
+    - guidebook-contrib
   packages-submitted:
   packages-reviewed:
   location: London, UK
@@ -1168,6 +1204,7 @@
   bio: "Cat-centered Design.\r\n"
   orcidid:
   contributor_type:
+    - guidebook-contrib
   packages-submitted:
   packages-reviewed:
   location: Atlanta, GA
@@ -1185,6 +1222,7 @@
   bio: Open source and community | GSoC' 22 @openfoodfacts |
   orcidid:
   contributor_type:
+    - guidebook-contrib
   packages-submitted:
   packages-reviewed:
   location: India
@@ -1203,6 +1241,7 @@
       \ sources.\r\n\r\nhttps://twitter.com/e_Sundell/status/1258480862359937024"
   orcidid:
   contributor_type:
+    - guidebook-contrib
   packages-submitted:
   packages-reviewed:
   location: Sweden
@@ -1220,6 +1259,7 @@
   bio:
   orcidid:
   contributor_type:
+    - guidebook-contrib
   packages-submitted:
   packages-reviewed:
   location: Seattle, WA
@@ -1238,6 +1278,7 @@
       of nasa's suncet mission.
   orcidid:
   contributor_type:
+    - guidebook-contrib
   packages-submitted:
   packages-reviewed:
   location: Washington DC
@@ -1255,6 +1296,7 @@
   bio: PhD Student in Astrophysics
   orcidid:
   contributor_type:
+    - guidebook-contrib
   packages-submitted:
   packages-reviewed:
   location:
@@ -1272,6 +1314,7 @@
   bio: Love 🐍 Python, 📷 Photography and beautiful things
   orcidid:
   contributor_type:
+    - guidebook-contrib
   packages-submitted:
   packages-reviewed:
   location: Shenzhen, China
@@ -1290,6 +1333,7 @@
       organiser
   orcidid:
   contributor_type:
+    - guidebook-contrib
   packages-submitted:
   packages-reviewed:
   location: Helsinki, Finland
@@ -1307,6 +1351,7 @@
   bio: "Open source scientist / programmer.\r\nFounder of @softwareunderground."
   orcidid:
   contributor_type:
+    - guidebook-contrib
   packages-submitted:
   packages-reviewed:
   location: Bergen, Norway
@@ -1326,6 +1371,7 @@
       \ @django alum."
   orcidid:
   contributor_type:
+    - guidebook-contrib
   packages-submitted:
   packages-reviewed:
   location: ' Germany'
@@ -1342,6 +1388,7 @@
   bio: Full-Stack Analytics Engineer
   orcidid:
   contributor_type:
+    - guidebook-contrib
   packages-submitted:
   packages-reviewed:
   location: Brisbane, Australia
@@ -1359,6 +1406,7 @@
   bio:
   orcidid:
   contributor_type:
+    - peer-review
   packages-submitted:
   packages-reviewed:
   location:
@@ -1375,6 +1423,7 @@
   bio:
   orcidid:
   contributor_type:
+    - peer-review
   packages-submitted:
   packages-reviewed:
   location: ' Montreal'
@@ -1392,6 +1441,7 @@
       developer.
   orcidid:
   contributor_type:
+    - peer-review
   packages-submitted:
   packages-reviewed:
   location: Montréal
@@ -1632,6 +1682,7 @@
   bio: Lic. in Physics and PhD in Geophysics.
   orcidid: 0000-0002-5538-8845
   contributor_type:
+    - peer-review
   packages-submitted:
   packages-reviewed:
     - xclim
@@ -1682,9 +1733,12 @@
   github_image_id: 21340147
   mastodon:
   twitter: srobainae
-  bio: "Bioinformatics | Data Science | Python Dev. | Ph.D. Systems Biology\r\n"
+  bio: "Computational Biology | Data Science | Python Dev. | Ph.D. Systems Biology\r\
+      \n"
   orcidid:
   contributor_type:
+    - web-contrib
+    - peer-review
   packages-submitted:
     - Pynteny
   packages-reviewed:
@@ -1703,6 +1757,7 @@
       at Ouranos (@Ouranosinc) in Montreal.
   orcidid:
   contributor_type:
+    - peer-review
   packages-submitted:
     - xclim
   packages-reviewed:
@@ -1720,13 +1775,14 @@
   bio:
   orcidid:
   contributor_type:
+    - peer-review
   packages-submitted:
   packages-reviewed:
     - xclim
   location:
   organization: '@2i2c-org'
   email: jmunroe@earthdata.ca
-- name: Corinna Thoben
+- name:
   bio:
   organization:
   title:
@@ -1765,13 +1821,13 @@
     -
   packages-editor:
     - python-graphblas
-  location:
+  location: Oxford / London
   email:
-- name: Titus Brown
+- name: C. Titus Brown
   sort:
   title: Editor
   editorial-board: true
-  bio:
+  bio: Prof at UC Davis. Blogs at http://ivory.idyll.org/blog/ and tweets at https://twitter.com/ctitusbrown.
   organization: University of California, Davis
   github_username: ctb
   github_image_id: 51016
@@ -1795,7 +1851,7 @@
   title: Guest Editor
   editorial-board: true
   bio:
-  organization:
+  organization: \varnothing
   github_username: mjhajharia
   github_image_id: 55153708
   twitter:
@@ -1812,4 +1868,112 @@
   packages-editor:
     - bibat
   location:
+  email:
+- name: John McCray
+  contributions:
+    - code
+    - review
+  github_username: mccrayjr
+  website:
+  github_image_id: 69483966
+  mastodon:
+  twitter:
+  bio: Software Developer
+  orcidid:
+  packages-submitted:
+  packages-reviewed:
+  contributor_type:
+    - peer-review
+  location: Washington, DC
+  organization:
+  email:
+- name: Meer (Miriam) Williamson
+  contributions:
+    - code
+    - review
+  github_username: meerkatters
+  website:
+  github_image_id: 50787305
+  mastodon:
+  twitter:
+  bio: SE based in Seattle interested in public health.
+  orcidid:
+  packages-submitted:
+  packages-reviewed:
+  contributor_type:
+    - peer-review
+  location: Seattle, WA
+  organization: Fred Hutch
+  email:
+- name: Tiffany Xiao
+  contributions:
+    - code
+    - review
+  github_username: tiffanyxiao
+  website: https://tiffanyxiao.com/
+  github_image_id: 13580331
+  mastodon:
+  twitter:
+  bio: Currently a data science software engineer at Bloomberg.
+  orcidid:
+  packages-submitted:
+  packages-reviewed:
+  contributor_type:
+    - peer-review
+  location: New York, New York
+  organization: Bloomberg
+  email: cdtiffanyxiao@gmail.com
+- name:
+  contributions:
+    - code
+    - review
+    - design
+  github_username: austinlg96
+  website:
+  github_image_id: 19922895
+  mastodon:
+  twitter:
+  bio:
+  orcidid:
+  packages-submitted:
+  packages-reviewed:
+  contributor_type:
+    - peer-review
+  location:
+  organization:
+  email:
+- name: JAKE
+  contributions:
+    - review
+  github_username: paajake
+  website:
+  github_image_id: 12656820
+  mastodon:
+  twitter: paajake
+  bio:
+  orcidid:
+  packages-submitted:
+  packages-reviewed:
+  contributor_type:
+    - peer-review
+  location: Ghana
+  organization:
+  email: paajake@gmail.com
+- name: Barnabas Bulpett (He/Him)
+  contributions:
+    - code
+    - review
+  github_username: bbulpett
+  website:
+  github_image_id: 6424805
+  mastodon:
+  twitter:
+  bio: Software Engineer
+  orcidid:
+  packages-submitted:
+  packages-reviewed:
+  contributor_type:
+    - peer-review
+  location: Gotham
+  organization: '@vitalsource '
   email:
