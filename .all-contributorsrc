@@ -113,6 +113,17 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "bbulpett",
+      "name": "Barnabas Bulpett (He/Him)",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6424805?v=4",
+      "profile": "https://github.com/bbulpett",
+      "contributions": [
+        "review",
+        "code",
+        "design"
+      ]
     }
   ],
   "commitConvention": "angular"
