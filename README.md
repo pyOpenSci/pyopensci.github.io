@@ -32,6 +32,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="http://batalex.github.io"><img src="https://avatars.githubusercontent.com/u/11004857?v=4?s=100" width="100px;" alt="Alex Batisse"/><br /><sub><b>Alex Batisse</b></sub></a><br /><a href="#ideas-Batalex" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/pyOpenSci/pyopensci.github.io/pulls?q=is%3Apr+reviewed-by%3ABatalex" title="Reviewed Pull Requests">👀</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://www.linkedin.com/in/semidan-robaina/"><img src="https://avatars.githubusercontent.com/u/21340147?v=4?s=100" width="100px;" alt="Semidán Robaina, Ph.D."/><br /><sub><b>Semidán Robaina, Ph.D.</b></sub></a><br /><a href="https://github.com/pyOpenSci/pyopensci.github.io/commits?author=Robaina" title="Code">💻</a></td>
     </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/bbulpett"><img src="https://avatars.githubusercontent.com/u/6424805?v=4?s=100" width="100px;" alt="Barnabas Bulpett (He/Him)"/><br /><sub><b>Barnabas Bulpett (He/Him)</b></sub></a><br /><a href="https://github.com/pyOpenSci/pyopensci.github.io/pulls?q=is%3Apr+reviewed-by%3Abbulpett" title="Reviewed Pull Requests">👀</a> <a href="https://github.com/pyOpenSci/pyopensci.github.io/commits?author=bbulpett" title="Code">💻</a> <a href="#design-bbulpett" title="Design">🎨</a></td>
+    </tr>
   </tbody>
 </table>
 
