@@ -22,14 +22,10 @@
                         target="_blank"
                     >
                         {% if maintainer.name %}
-                            {{ maintainer.name }}
+                            {{ maintainer.name }}{% if forloop.last == false %},{% endif %}</a>
                         {% else %}
-                            {{ maintainer.github_username }}
+                            {{ maintainer.github_username }}{% if forloop.last == false %},{% endif %}</a>
                         {% endif %}
-                        {% if forloop.last == false %}
-                            ,
-                        {% endif %}
-                    </a>
                 {% endfor %}
             {% elsif apackage.submitting_author.name != 'Name' %}
                 <a
@@ -45,7 +41,7 @@
                     rel="maintainer"
                     target="_blank"
                 >
-                    {{ apackage.submitting_author.github_username }}
+                    {{ apackage.submitting_author.github_username }}asd
                 </a>
             {% endif %}
          </span>
