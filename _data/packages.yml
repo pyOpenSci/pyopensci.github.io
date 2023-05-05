@@ -5,11 +5,11 @@
       name: Trevor James Smith
   all_current_maintainers:
     - github_username: Zeitsperre
-      name: 
+      name:
     - github_username: tlogan2000
-      name: 
+      name:
     - github_username: aulemahal
-      name: 
+      name:
   repository_link: https://github.com/Ouranosinc/xclim
   version_submitted: v0.40.0
   categories:
@@ -18,13 +18,13 @@
     - geospatial
   editor:
       github_username: Batalex
-      name: 
+      name:
   reviewer_1:
       github_username: jmunroe
-      name: 
+      name:
   reviewer_2:
       github_username: aguspesce
-      name: 
+      name:
   archive: TBD
   version_accepted: TBD
   created_at: '2023-01-16T16:59:20Z'
@@ -50,7 +50,7 @@
       name: David Nicholson
   all_current_maintainers:
     - github_username: 'NickleDave '
-      name: 
+      name:
   repository_link: https://github.com/vocalpy/crowsetta
   categories:
     - data-extraction
@@ -58,13 +58,13 @@
     - reproducibility
   editor:
       github_username: cmarmo
-      name: 
+      name:
   reviewer_1:
       github_username: rhine3
-      name: 
+      name:
   reviewer_2:
       github_username: shaupert
-      name: 
+      name:
   archive: '[![DOI](https://zenodo.org/badge/159904494.svg)](https://zenodo.org/badge/latestdoi/159904494)
       [![DOI](https://joss.theoj.org/papers/10.21105/joss.05338/status.svg)](https://doi.org/10.21105/joss.05338)'
   version_accepted: v [5.0](https://github.com/vocalpy/crowsetta/releases/tag/5.0.0)
@@ -91,7 +91,7 @@
       name: Semidán Robaina
   all_current_maintainers:
     - github_username: Robaina
-      name: 
+      name:
   repository_link: https://github.com/Robaina/Pynteny
   version_submitted: v0.0.5
   categories:
@@ -100,13 +100,13 @@
     - education
   editor:
       github_username: arianesasso
-      name: 
+      name:
   reviewer_1:
       github_username: Batalex
-      name: 
+      name:
   reviewer_2:
       github_username: c-thoben
-      name: 
+      name:
   archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7696204.svg)](https://doi.org/10.5281/zenodo.7696204)'
   version_accepted: 1.0.0
   created_at: '2022-12-16T22:02:53Z'
@@ -159,7 +159,7 @@
       forks: 1
       open_issues_count: 0
       forks_count: 1
-      documentation: 
+      documentation:
       contrib_count: 5
       last_commit: 01/11/2022
 - package_name: PyGMT
@@ -174,13 +174,13 @@
     - geospatial
   editor:
       github_username: lwasser
-      name: 
+      name:
   reviewer_1:
       github_username: jbusecke
-      name: 
+      name:
   reviewer_2:
       github_username: simonmolinsky
-      name: 
+      name:
   archive: '[Zenodo Archive](https://zenodo.org/record/6702566)'
   version_accepted: V 0.7.0
   created_at: '2021-07-23T00:37:07Z'
@@ -209,13 +209,13 @@
     - data-munging
   editor:
       github_username: xmnlab
-      name: 
+      name:
   reviewer_1:
       github_username: willingc
-      name: 
+      name:
   reviewer_2:
       github_username: agricolab
-      name: 
+      name:
   archive: TBD
   version_accepted: TBD
   created_at: '2021-04-03T19:25:41Z'
@@ -231,7 +231,7 @@
       forks: 7
       open_issues_count: 2
       forks_count: 7
-      documentation: 
+      documentation:
       contrib_count: 4
       last_commit: 12/21/2021
 - package_name: openomics
@@ -249,13 +249,13 @@
     - reproducibility
   editor:
       github_username: NickleDave
-      name: 
+      name:
   reviewer_1:
       github_username: gawbul
-      name: 
+      name:
   reviewer_2:
       github_username: ksielemann
-      name: 
+      name:
   archive: TBD
   version_accepted: https://github.com/BioMeCIS-Lab/OpenOmics/tree/v0.8.8
   created_at: '2021-01-01T19:54:20Z'
@@ -286,13 +286,13 @@
     - data-munging
   editor:
       github_username: NickleDave
-      name: 
+      name:
   reviewer_1:
       github_username: bpucker
-      name: 
+      name:
   reviewer_2:
       github_username: leomrtns
-      name: 
+      name:
   archive: https://zenodo.org/record/5512990
   version_accepted: '1.0'
   created_at: '2020-07-15T22:31:52Z'
@@ -322,13 +322,13 @@
     - reproducibility
   editor:
       github_username: NickleDave
-      name: 
+      name:
   reviewer_1:
       github_username: edgarriba
-      name: 
+      name:
   reviewer_2:
       github_username: soumith
-      name: 
+      name:
   archive: TBD
   version_accepted: '[`pystiche==0.6.0`](https://github.com/pmeier/pystiche/releases/tag/v0.6.0)'
   created_at: '2020-07-02T12:57:08Z'
@@ -343,7 +343,7 @@
       forks: 28
       open_issues_count: 15
       forks_count: 28
-      documentation: 
+      documentation:
       contrib_count: 10
       last_commit: 03/18/2022
 - package_name: phenopype
@@ -358,13 +358,13 @@
     - reproducibility
   editor:
       github_username: jbencook
-      name: 
+      name:
   reviewer_1:
       github_username: agporto
-      name: 
+      name:
   reviewer_2:
       github_username: sdonoughe
-      name: 
+      name:
   archive: TBD
   version_accepted: 2.0.1
   created_at: '2020-05-04T16:51:36Z'
@@ -397,13 +397,13 @@
     - data-visualization*
   editor:
       github_username: lwasser
-      name: 
+      name:
   reviewer_1:
       github_username: rbeucher
-      name: 
+      name:
   reviewer_2:
       github_username: charlesll
-      name: 
+      name:
   archive: https://doi.org/10.5281/zenodo.3877690
   version_accepted: v0.2.7
   created_at: '2020-02-19T04:54:35Z'
@@ -477,7 +477,7 @@
       name: Max Joseph
   reviewer_2:
       github_username: xmnlab
-      name: 
+      name:
   archive: https://github.com/pandera-dev/pandera/releases/tag/v0.2.3
   version_accepted: v0.2.3
   created_at: '2019-08-14T22:21:25Z'
@@ -509,13 +509,13 @@
     - education
   editor:
       github_username: lwasser
-      name: 
+      name:
   reviewer_1:
       github_username: ocefpaf
-      name: 
+      name:
   reviewer_2:
       github_username: kysolvik
-      name: 
+      name:
   archive: TBD
   version_accepted: TBD
   created_at: '2019-05-30T18:27:38Z'
@@ -544,13 +544,13 @@
     - geospatial
   editor:
       github_username: luizirber
-      name: 
+      name:
   reviewer_1:
       github_username: HaoZeke
-      name: 
+      name:
   reviewer_2:
       github_username: sgillies
-      name: 
+      name:
   archive: TBD
   version_accepted: TBD
   created_at: '2019-05-08T15:02:14Z'
