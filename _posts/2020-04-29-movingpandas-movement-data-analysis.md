@@ -98,7 +98,7 @@ For example, the close integration with HoloViews makes it possible to create
 
 ## Test Your Movement Data Anylsis Skills Today!
 
-You can [try MovingPandas in a MyBinder notebook - no installation required](https://mybinder.org/v2/gh/anitagraser/movingpandas/binder-tag?filepath=tutorials/0_getting_started.ipynb).
+You can [try MovingPandas in a MyBinder notebook - no installation required](https://mybinder.org/v2/gh/movingpandas/movingpandas-examples/main?filepath=1-tutorials/1-getting-started.ipynb)
 
 ## What's next?
 
