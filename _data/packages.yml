@@ -159,7 +159,7 @@
       forks: 1
       open_issues_count: 0
       forks_count: 1
-      documentation:
+      documentation: https://jointly.readthedocs.io/en/latest/
       contrib_count: 5
       last_commit: 01/11/2022
 - package_name: PyGMT
@@ -231,7 +231,7 @@
       forks: 7
       open_issues_count: 2
       forks_count: 7
-      documentation:
+      documentation: https://hpi-dhc.github.io/devicely/
       contrib_count: 4
       last_commit: 12/21/2021
 - package_name: openomics
@@ -343,7 +343,7 @@
       forks: 28
       open_issues_count: 15
       forks_count: 28
-      documentation:
+      documentation: https://docs.pystiche.org/en/latest/
       contrib_count: 10
       last_commit: 03/18/2022
 - package_name: phenopype
