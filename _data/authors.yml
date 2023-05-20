@@ -40,3 +40,17 @@ Anita Graser:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/underdarkGIS"
+Juanita Gomez:
+  name        : "Juanita Gomez"
+  bio         : "Community Lead, pyOpenSci & Scientific Python"
+  avatar      : "/images/people/juanita-gomez.png"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:juanitagomezr2112@gmail.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.linkedin.com/in/juanitagomezr/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/juanitagomezr"
