@@ -2,8 +2,7 @@
 layout: single
 title: "🎶 My Journey Through Scientific Python: The Lyrics 🎶
  "
-excerpt: "Hi there, I'm Juanita. I recently joined pyOpenSci as a community lead to help with community building and outreach and this blogpost tells the story of how I got here. "
-author: "Juanita Gomez"
+excerpt: "Juanita Gomez recently joined pyOpenSci as a community lead to help with community building and outreach. Learn more about Juanita's path to becoming a leader in community management in the scientific Python ecosystem. "
 author: "Juanita Gomez"
 permalink: /blog/journey-through-scientific-python.html
 header:
@@ -18,11 +17,13 @@ comments: true
 
 ## Introduction: About Me
 
-Hello, everyone! I'm Juanita, and I'm excited to share my story with you. I'm currently a computer science PhD student at UC Santa Cruz and the community manager of the Scientific Python project (which you will hear more about in a bit 👀). I’m originally from Colombia, and I completed my undergraduate studies in pure mathematics at Universidad Javeriana while also taking some music courses. I'm a passionate singer, and my favorite color is orange 🧡. I recently joined pyOpenSci as a community lead to help with community building and outreach (super excited about it!), so today I want to share my journey through my involvement in open-source scientific Python projects, which is basically how I got here. 😊
+Hello, everyone! I'm Juanita. I'm excited to share my story with you. I'm currently a computer science PhD student at UC Santa Cruz and the community manager of the [Scientific Python project](https://scientific-python.org/) (which you will hear more about in a bit 👀). I’m originally from Colombia. I completed my undergraduate studies in pure mathematics at Universidad Javeriana while also taking some music courses. I'm a passionate singer, and my favorite color is orange 🧡. 
+
+I recently joined pyOpenSci as a community lead to help with community building and outreach (super excited about it!). I want to share my journey through my involvement in open-source scientific Python projects, which is basically how I got here. 😊
 
 <figure>
     <a href="/images/introduction-juanita/juanita-guitar.png">
-    <img src="/images/introduction-juanita/juanita-guitar.png" style="max-width:100%" alt="A woman sitting on top of a hill in the dessert holding a guitar.">
+    <img src="/images/introduction-juanita/juanita-guitar.png" style="max-width:100%" alt="A woman sitting on top of a hill in the desert holding a guitar.">
     </a>
     <figcaption>This is a picture of me in the middle of a dessert <a href="https://www.youtube.com/watch?v=lFxc5NZDjuA">  playing my favorite song </a>. One of the reasons I love this picture (besides the amazing landscape) it's because it shows how happy it makes me singing. 
     </figcaption>
