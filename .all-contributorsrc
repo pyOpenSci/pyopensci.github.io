@@ -134,7 +134,18 @@
         "code",
         "review"
       ]
+    },
+    {
+      "login": "crazy4pi314",
+      "name": "Sarah Kaiser",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6486256?v=4",
+      "profile": "https://www.sckaiser.com",
+      "contributions": [
+        "code",
+        "review"
+      ]
     }
   ],
-  "commitConvention": "angular"
+  "commitConvention": "angular",
+  "commitType": "docs"
 }
