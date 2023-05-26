@@ -1,0 +1,27 @@
+name: Update Contributors
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+jobs:
+    run-meta:
+        runs-on: ubuntu-latest
+        steps:
+        - name: Check out the code
+          uses: actions/checkout@v2
+        - name: Setup Python
+          uses: actions/setup-python@v2
+          with:
+            python-version: '3.10'
+        - name: Upgrade pip
+          run: |
+            # install pip=>20.1 to use "pip cache dir"
+            python3 -m pip install --upgrade pip
+        - name: Install pyosmeta and run update contribs
+          env:
+            GITHUB_TOKEN: ${{ github.token }}
+          run: |
+            pip install pyosmeta@git+https://github.com/pyopensci/update-web-metadata
+            python3 scripts/parse-contributors.py
