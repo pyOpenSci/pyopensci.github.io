@@ -155,6 +155,7 @@
     - guidebook-contrib
     - peer-review
     - web-contrib
+    - metrics-contrib
   packages-submitted:
     -
   packages-reviewed:
@@ -311,6 +312,7 @@
     - editor
     - guidebook-contrib
     - peer-review
+    - community
   packages-editor:
     - crowsetta
   packages-submitted:
@@ -388,6 +390,7 @@
     - editor
     - reviewer
     - peer-review
+    - community
   packages-submitted:
     -
   packages-reviewed:
@@ -423,6 +426,7 @@
   contributor_type:
     - editor
     - peer-review
+    - metrics-contrib
   packages-submitted:
     -
   packages-reviewed:
@@ -1366,9 +1370,9 @@
   github_image_id: 1610
   mastodon:
   twitter: jezdez
-  bio: "Staff SWE at @anaconda working on @conda. @conda-forge core member.\r\n\
-      @python director and fellow.\r\n@jazzband and @pypa founder. @mozilla and\
-      \ @django alum."
+  bio: "Principal SWE at @anaconda working on @conda. @conda-forge core member.\r\
+      \n@python director and fellow.\r\n@jazzband and @pypa founder. @mozilla and\
+      \ @django alum"
   orcidid:
   contributor_type:
     - guidebook-contrib
@@ -1407,6 +1411,7 @@
   orcidid:
   contributor_type:
     - peer-review
+    - community
   packages-submitted:
   packages-reviewed:
   location:
@@ -1424,6 +1429,7 @@
   orcidid:
   contributor_type:
     - peer-review
+    - community
   packages-submitted:
   packages-reviewed:
   location: ' Montreal'
@@ -1442,6 +1448,7 @@
   orcidid:
   contributor_type:
     - peer-review
+    - community
   packages-submitted:
   packages-reviewed:
   location: Montréal
@@ -1683,6 +1690,7 @@
   orcidid: 0000-0002-5538-8845
   contributor_type:
     - peer-review
+    - community
   packages-submitted:
   packages-reviewed:
     - xclim
@@ -1739,6 +1747,7 @@
   contributor_type:
     - web-contrib
     - peer-review
+    - community
   packages-submitted:
     - Pynteny
   packages-reviewed:
@@ -1758,6 +1767,7 @@
   orcidid:
   contributor_type:
     - peer-review
+    - community
   packages-submitted:
     - xclim
   packages-reviewed:
@@ -1776,6 +1786,7 @@
   orcidid:
   contributor_type:
     - peer-review
+    - community
   packages-submitted:
   packages-reviewed:
     - xclim
@@ -1884,6 +1895,7 @@
   packages-reviewed:
   contributor_type:
     - peer-review
+    - community
   location: Washington, DC
   organization:
   email:
@@ -1902,6 +1914,7 @@
   packages-reviewed:
   contributor_type:
     - peer-review
+    - metrics-contrib
   location: Seattle, WA
   organization: Fred Hutch
   email:
@@ -1920,10 +1933,11 @@
   packages-reviewed:
   contributor_type:
     - peer-review
+    - metrics-contrib
   location: New York, New York
   organization: Bloomberg
   email: cdtiffanyxiao@gmail.com
-- name:
+- name: Austin
   contributions:
     - code
     - review
@@ -1939,6 +1953,7 @@
   packages-reviewed:
   contributor_type:
     - peer-review
+    - metrics-contrib
   location:
   organization:
   email:
@@ -1956,6 +1971,7 @@
   packages-reviewed:
   contributor_type:
     - peer-review
+    - metrics-contrib
   location: Ghana
   organization:
   email: paajake@gmail.com
@@ -1974,6 +1990,120 @@
   packages-reviewed:
   contributor_type:
     - peer-review
+    - metrics-contrib
+    - web-contrib
   location: Gotham
   organization: '@vitalsource '
   email:
+- name: Jeremy Paige
+  contributions:
+    - code
+    - review
+  github_username: ucodery
+  website: https://blog.ucodery.com
+  github_image_id: 28751151
+  mastodon:
+  twitter: ucodery
+  bio:
+  orcidid:
+  packages-submitted:
+  packages-reviewed:
+  contributor_type:
+    - guidebook-contrib
+  location:
+  organization: '@ActiveState '
+  email: ucodery@gmail.com
+- name: Mahe Iram Khan
+  contributions:
+    - code
+    - review
+  github_username: ForgottenProgramme
+  website: https://forgottenprogramme.github.io/
+  github_image_id: 65779580
+  mastodon:
+  twitter: IramMahe
+  bio:
+  orcidid:
+  packages-submitted:
+  packages-reviewed:
+  contributor_type:
+    - guidebook-contrib
+  location: Berlin, Germany
+  organization: Anaconda Inc.
+  email:
+- name: Qin
+  contributions:
+    - code
+    - review
+  github_username: chiinita
+  website:
+  github_image_id: 17188345
+  mastodon:
+  twitter:
+  bio:
+  orcidid:
+  packages-submitted:
+  packages-reviewed:
+  contributor_type:
+    - guidebook-contrib
+  location: London, UK
+  organization:
+  email:
+- name: David Stansby
+  contributions:
+    - code
+    - review
+  github_username: dstansby
+  website: https://www.davidstansby.com
+  github_image_id: 6197628
+  mastodon:
+  twitter: davidstansby
+  bio:
+  orcidid:
+  packages-submitted:
+  packages-reviewed:
+  contributor_type:
+    - guidebook-contrib
+  location: London, UK
+  organization: UCL
+  email: d.stansby@ucl.ac.uk
+- name: Juanita Gomez
+  contributions:
+    - code
+    - review
+  github_username: juanis2112
+  website:
+  github_image_id: 18587879
+  mastodon:
+  twitter: juanitagomezr
+  bio: "Computer Science PhD student at University of California, Santa Cruz\r\n\
+      \r\nCommunity Manager at @scientific-python "
+  orcidid:
+  packages-submitted:
+  packages-reviewed:
+  contributor_type:
+    - web-contrib
+    - metrics-contrib
+  location: Santa Cruz, California
+  organization: UC, Santa Cruz
+  email: juanitagomezr2112@gmail.com
+- name: Sarah Kaiser
+  contributions:
+    - code
+    - review
+  github_username: crazy4pi314
+  website: https://www.sckaiser.com
+  github_image_id: 6486256
+  mastodon:
+  twitter:
+  bio: Sr. Cloud Developer Advocate for Python @Microsoft | Python Foundation Fellow  |
+      Maker and breaker of many things
+  orcidid:
+  packages-submitted:
+  packages-reviewed:
+  contributor_type:
+    - web-contrib
+    - metrics-contrib
+  location: Seattle, WA
+  organization: Microsoft
+  email: sckaiser@sckaiser.com
