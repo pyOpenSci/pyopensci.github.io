@@ -1,19 +1,9 @@
-from os.path import exists
-
-from pyosmeta.contributors import ProcessContributors
-from pyosmeta.file_io import get_api_token
-
 import os
 
-print(os.environ)
-# TODO: Turn this into a conditional that checks for a .env file and
-# if that doesn't exist then assume it's being run in actions.
+from pyosmeta.contributors import ProcessContributors
 
-if exists(".env"):
-    API_TOKEN = get_api_token()
-else:
-    api = GhApi(owner="fastai", repo="ghapi-test", token=github_token())
-
+# API_TOKEN = get_api_token()
+API_TOKEN = os.environ.get("GITHUB_TOKEN")
 
 json_files = [
     "https://raw.githubusercontent.com/pyOpenSci/python-package-guide/main/.all-contributorsrc",
@@ -64,19 +54,9 @@ all_contribs_dict_up = processContribs.update_contrib_data(
     all_contribs_dict, gh_data
 )
 
-# Save a pickle locally to support updates after parsing
-# reviews
-with open("all_contribs.pickle", "wb") as f:
-    pickle.dump(all_contribs_dict_up, f)
-
 final_contribs = processContribs.dict_to_list(all_contribs_dict_up)
-final_yaml = "contributors.yml"
+final_yaml = os.path.join("_data", "contributors.yml")
 # Create updated YAML file and clean to match the website
+print("Exporting & cleaning file now")
 processContribs.export_yaml(final_yaml, final_contribs)
 processContribs.clean_yaml_file(final_yaml)
-
-
-### ONE TIME REORDER OF WEB YAML ###
-# review[package_name] = {
-#                 key: review[package_name][key] for key in key_order
-#             }
