@@ -10,14 +10,13 @@ jobs:
         runs-on: ubuntu-latest
         steps:
         - name: Check out the code
-          uses: actions/checkout@v2
+          uses: actions/checkout@v3
         - name: Setup Python
           uses: actions/setup-python@v2
           with:
             python-version: '3.10'
         - name: Upgrade pip
           run: |
-            git checkout -b contribs
             # install pip=>20.1 to use "pip cache dir"
             python3 -m pip install --upgrade pip
             echo "$PWD"
@@ -31,12 +30,15 @@ jobs:
             python3 scripts/parse-contributors.py
         - name: Commit Files
           run: |
+            git config --global user.email "leah@pyopensci.org"
+            git config --global user.name "Leah"
             git status
+            git add _data/contributors.yml
             git commit -m "Update: Contributor file update"
         - name: Create Pull Request
           uses: peter-evans/create-pull-request@v5
           with:
             base: main
-            commit-message: Update report
+            branch: contribs
             delete-branch: true
-            title: 'Update: New contributors'
+            title: Update New contributors
