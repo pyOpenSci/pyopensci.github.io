@@ -1,5 +1,6 @@
 ---
 layout: single
+classes: wide
 title: "🎶 My Journey Through Scientific Python: The Lyrics 🎶
  "
 excerpt: "Juanita Gomez recently joined pyOpenSci as a community lead to help with community building and outreach. Learn more about Juanita's path to becoming a leader in community management in the scientific Python ecosystem. "
@@ -21,7 +22,7 @@ Hello, everyone! I'm Juanita. I'm excited to share my story with you. I'm curren
 
 I recently joined pyOpenSci as a community lead to help with community building and outreach (super excited about it!). I want to share my journey through my involvement in open-source scientific Python projects, which is basically how I got here. 😊
 
-<figure>
+<figure class="align-left">
     <a href="/images/introduction-juanita/juanita-guitar.png">
     <img src="/images/introduction-juanita/juanita-guitar.png" style="max-width:100%" alt="A woman sitting on top of a hill in the desert holding a guitar.">
     </a>
@@ -29,16 +30,11 @@ I recently joined pyOpenSci as a community lead to help with community building 
     </figcaption>
 </figure>
 
-
 ## Verse 1: The Spark
 
 One of my earliest contributions to the open-source world was with the [Spyder IDE](https://www.spyder-ide.org) when I worked as a Software Engineer at Quansight. I primarily focused on writing documentation and engaging in community outreach. My initial task was to update the documentation for Spyder 4, the latest release at that time, and make it more user-friendly.
 
-Education has always been a passion of mine, and I worked as a tutor for several years, learning different tools and questioning the effectiveness of current educational methods. This was one of the reasons why I became interested in this project.
-
-Through social media, documentation, and even live-streamed events, I aimed to create a stronger connection between developers and users. During this experience, I discovered the crucial role of empathy in effective documentation. Understanding the needs and perspectives of users became clear to me, motivating me to create content that resonated with newcomers and fostered a more inclusive community.
-
-<figure>
+<figure style="width: 350px;margin-top:0.3em;margin-bottom:0" class="align-left">
     <a href="/images/introduction-juanita/spyder-video.png">
     <img src="/images/introduction-juanita/spyder-video.png" style="max-width:100%" alt="A screen shot of a YouTube video in the Spyder IDE YouTube account showing a women in a white background with the text 'Do not mix pip and conda.">
     </a>
@@ -46,6 +42,9 @@ Through social media, documentation, and even live-streamed events, I aimed to c
     </figcaption>
 </figure>
 
+Education has always been a passion of mine, and I worked as a tutor for several years, learning different tools and questioning the effectiveness of current educational methods. This was one of the reasons why I became interested in this project.
+
+Through social media, documentation, and even live-streamed events, I aimed to create a stronger connection between developers and users. During this experience, I discovered the crucial role of empathy in effective documentation. Understanding the needs and perspectives of users became clear to me, motivating me to create content that resonated with newcomers and fostered a more inclusive community.
 
 ## Verse 2: Joining the Community
 
@@ -59,13 +58,11 @@ Later on, I took on the role of community manager for the [Scientific Python pro
     </figcaption>
 </figure>
 
+> I believe that building a strong and healthy community around the scientific Python ecosystem is just as crucial as the tools themselves.
 
 ## Chorus: Learning and Growing
 
-Thanks to my involvement in the ecosystem, I have been honored to present talks and speak as a panelist at amazing conferences such as [SciPy](https://youtu.be/jYGxHV7INs4), [PyCon](https://www.youtube.com/watch?v=LyJVnzGQqZU), and PyData. These opportunities allowed me to share my experiences and insights, primarily focusing on the significance of community work and the importance of empathy in software development. After all, it's the users who we do this for, right? One of the most fulfilling aspects of my journey has been the ability to inspire and be inspired by others. Whether through conference talks or informal conversations over a scoop of ice cream 🍦 (I don’t drink coffee), I'm grateful for the chance to contribute to this vision, cultivate a better community, and learn from talented developers, scientists, and amazing human beings.
-
-
-<figure>
+<figure style="width: 350px;margin-top:0.6em;margin-bottom:0" class="align-right">
     <a href="/images/introduction-juanita/scipy-talk.png">
     <img src="/images/introduction-juanita/scipy-talk.png" style="max-width:100%" alt="A woman standing at a podium in front of a projector screen.">
     </a>
@@ -73,6 +70,7 @@ Thanks to my involvement in the ecosystem, I have been honored to present talks 
     </figcaption>
 </figure>
 
+Thanks to my involvement in the ecosystem, I have been honored to present talks and speak as a panelist at amazing conferences such as [SciPy](https://youtu.be/jYGxHV7INs4), [PyCon](https://www.youtube.com/watch?v=LyJVnzGQqZU), and PyData. These opportunities allowed me to share my experiences and insights, primarily focusing on the significance of community work and the importance of empathy in software development. After all, it's the users who we do this for, right? One of the most fulfilling aspects of my journey has been the ability to inspire and be inspired by others. Whether through conference talks or informal conversations over a scoop of ice cream 🍦 (I don’t drink coffee), I'm grateful for the chance to contribute to this vision, cultivate a better community, and learn from talented developers, scientists, and amazing human beings.
 
 ## Verse 3: A Blend of Passions
 
@@ -80,7 +78,15 @@ Apart from my scientific Python work, I find comfort and happiness in music (hen
 
 ## Bridge: Looking Ahead
 
-Recently, I joined pyOpenSci, an organization that resonates deeply with my values. Their commitment to enhancing the scientific Python ecosystem through a rigorous peer review process aligns perfectly with my own aspirations. This process not only recognizes the hard work of scientists contributing to open Python tools, but also promotes standardization and increased visibility for these packages. I am excited to bring my past experiences to the table, helping to strengthen community building and outreach within this incredible project while eagerly learning from the talented individuals who are part of it.
+<figure style="width: 250px;margin-top:0.4em;margin-bottom:0" class="align-left">
+    <a href="/images/introduction-juanita/leah-pyopensci.jpeg">
+    <img src="/images/introduction-juanita/leah-pyopensci.jpeg" style="max-width:90%" alt="Two women wearing sunglasses, enjoying a sunny day.">
+    </a>
+    <figcaption> I was thrilled to recently meet Leah, the Executive Director of pyOpenSci, in person. I'm excited to work with her on this new journey and eager to learn from her experience with open source communities.
+    </figcaption>
+</figure>
+
+Recently, I joined pyOpenSci, an organization that resonates deeply with my values. Their commitment to enhancing the scientific Python ecosystem through a rigorous [peer review process](https://www.pyopensci.org/software-peer-review/about/intro.html) aligns perfectly with my own aspirations. This process not only recognizes the hard work of scientists contributing to open Python tools, but also promotes standardization and increased visibility for these packages. I am excited to bring my past experiences to the table, helping to strengthen community building and outreach within this incredible project while eagerly learning from the talented individuals who are part of it.
 
 ## Outro: Gratitude
 
@@ -93,3 +99,5 @@ As a community manager at both Scientific Python and pyOpenSci, I have witnessed
     <figcaption>This is a picture of the people who attended our <a href="https://www.youtube.com/watch?v=R9hNnhpMgTE&t=2s"> Scientific Python community outreach BOF session </a> at SciPy 2022. We gave everyone who attended Scientific Python shirts! It was an amazing discussion with people from a lot of different projects within the Scientific Python ecosystem.
     </figcaption>
 </figure>
+
+> It's not just about coding; it's about coming together, sharing knowledge, and supporting one another.
