@@ -9,7 +9,6 @@ header:
   overlay_filter: 0.6
 categories:
   - blog-post
-  - highlight
   - python-packaging
   - peer-review
 toc: false
