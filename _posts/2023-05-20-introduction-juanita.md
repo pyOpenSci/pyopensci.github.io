@@ -30,13 +30,13 @@ I recently joined pyOpenSci as a community lead to help with community building 
     </figcaption>
 </figure>
 
-## Verse 1: The Spark
+## Verse 1: The Spark - Contributing to Spyder
 
-One of my earliest contributions to the open-source world was with [Spyder](https://www.spyder-ide.org), the scientific Python development environment, when I worked as a Software Engineer at Quansight. I primarily focused on writing documentation and engaging in community outreach. My initial task was to update the documentation for Spyder 4, the latest release at that time, and make it more user-friendly.
+One of my earliest contributions to the open-source world was with the [Spyder IDE](https://www.spyder-ide.org) when I worked as a Software Engineer at Quansight. I primarily focused on writing documentation and engaging in community outreach. My initial task was to update the documentation for Spyder 4, the latest release at that time, and make it more user-friendly.
 
 <figure style="width: 350px;margin-top:0.3em;margin-bottom:0" class="align-left">
     <a href="/images/introduction-juanita/spyder-video.png">
-    <img src="/images/introduction-juanita/spyder-video.png" style="max-width:100%" alt="A screen shot of a YouTube video in the Spyder IDE YouTube account showing a women in a white background with the text 'Do not mix pip and conda.'">
+    <img src="/images/introduction-juanita/spyder-video.png" style="max-width:100%" alt="A screen shot of a YouTube video in the Spyder IDE YouTube account showing a women in a white background with the text 'Do not mix pip and conda.">
     </a>
     <figcaption> This is a screen shot of a <a href="https://youtu.be/Ul79ihg41Rs">YouTube video</a> that I made for Spyder's documentation to help our users troubleshoot when they are having issues with their environment. The goal was to make it as friendly and fun as possible!
     </figcaption>
@@ -46,7 +46,7 @@ Education has always been a passion of mine, and I worked as a tutor for several
 
 Through social media, documentation, and even live-streamed events, I aimed to create a stronger connection between developers and users. During this experience, I discovered the crucial role of empathy in effective documentation. Understanding the needs and perspectives of users became clear to me, motivating me to create content that resonated with newcomers and fostered a more inclusive community.
 
-## Verse 2: Joining the Community
+## Verse 2: Growing the Community with Scientific Python
 
 Later on, I took on the role of community manager for the [Scientific Python project](https://scientific-python.org), which aims to better coordinate the ecosystem and grow the community. This responsibility has allowed me to explore various avenues of engagement. From recording documentation videos and developer interviews to managing social media channels and organizing events, I have had the opportunity to contribute to the growth of this remarkable project. While I may not have been experienced in some of these areas initially ([TikTok](https://www.tiktok.com/@scientific.python), anyone? 😅 ), I have enjoyed every aspect and been driven by my firm belief in the power of community. I believe that building a strong and healthy community around the scientific Python ecosystem is just as crucial as the tools themselves.
 
@@ -60,7 +60,7 @@ Later on, I took on the role of community manager for the [Scientific Python pro
 
 > I believe that building a strong and healthy community around the scientific Python ecosystem is just as crucial as the tools themselves.
 
-## Chorus: Learning and Growing
+## Chorus: Embracing the Stage
 
 <figure style="width: 350px;margin-top:0.6em;margin-bottom:0" class="align-right">
     <a href="/images/introduction-juanita/scipy-talk.png">
@@ -76,7 +76,7 @@ Thanks to my involvement in the ecosystem, I have been honored to present talks 
 
 Apart from my scientific Python work, I find comfort and happiness in music (hence the weird way in which I decided to write this blogpost 🤣).  Being a singer brings me immense inspiration and energy, serving as a joyful escape from the multitude of tasks and responsibilities I undertake. It prevents me from becoming overwhelmed by the various aspects of my involvement. I embrace my geeky side 🤓, always eager to learn and expand my knowledge (hence the PhD) but I'm also deeply passionate about art, especially music, and I strive to be involved in both worlds. However, above all, I care deeply about communities and find great pleasure in dedicating myself to the projects I support.
 
-## Bridge: Looking Ahead
+## Bridge: A New Melody - Joining pyOpenSci
 
 <figure style="width: 250px;margin-top:0.4em;margin-bottom:0" class="align-left">
     <a href="/images/introduction-juanita/leah-pyopensci.jpeg">
