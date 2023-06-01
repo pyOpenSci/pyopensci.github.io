@@ -32,11 +32,11 @@ I recently joined pyOpenSci as a community lead to help with community building 
 
 ## Verse 1: The Spark
 
-One of my earliest contributions to the open-source world was with the [Spyder IDE](https://www.spyder-ide.org) when I worked as a Software Engineer at Quansight. I primarily focused on writing documentation and engaging in community outreach. My initial task was to update the documentation for Spyder 4, the latest release at that time, and make it more user-friendly.
+One of my earliest contributions to the open-source world was with [Spyder](https://www.spyder-ide.org), the scientific Python development environment, when I worked as a Software Engineer at Quansight. I primarily focused on writing documentation and engaging in community outreach. My initial task was to update the documentation for Spyder 4, the latest release at that time, and make it more user-friendly.
 
 <figure style="width: 350px;margin-top:0.3em;margin-bottom:0" class="align-left">
     <a href="/images/introduction-juanita/spyder-video.png">
-    <img src="/images/introduction-juanita/spyder-video.png" style="max-width:100%" alt="A screen shot of a YouTube video in the Spyder IDE YouTube account showing a women in a white background with the text 'Do not mix pip and conda.">
+    <img src="/images/introduction-juanita/spyder-video.png" style="max-width:100%" alt="A screen shot of a YouTube video in the Spyder IDE YouTube account showing a women in a white background with the text 'Do not mix pip and conda.'">
     </a>
     <figcaption> This is a screen shot of a <a href="https://youtu.be/Ul79ihg41Rs">YouTube video</a> that I made for Spyder's documentation to help our users troubleshoot when they are having issues with their environment. The goal was to make it as friendly and fun as possible!
     </figcaption>
