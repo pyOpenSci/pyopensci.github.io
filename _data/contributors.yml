@@ -194,7 +194,7 @@
   packages-reviewed:
     - Nbless
   packages-editor:
-    -
+    - afscgap
   location: Florianópolis, SC
   email: ocefpaf@gmail.com
 - name: Lindsey Heagy
@@ -1872,7 +1872,7 @@
   email: titus@idyll.org
 - name: Meenal Jhajharia
   sort:
-  title: Guest Editor
+  title: Editor
   editorial-board: true
   bio:
   organization: \varnothing
@@ -2120,3 +2120,21 @@
   location: Seattle, WA
   organization: Microsoft
   email: sckaiser@sckaiser.com
+- name: A Samuel Pottinger
+  bio: Data visualization, software engineering, data science, game design at UC
+      Berkeley Center for Data Science and Environment
+  organization: UC Berkeley
+  github_username: sampottinger
+  github_image_id: 110391
+  contributor_type:
+    - package-maintainer
+  packages-submitted:
+    - afscgap
+  packages-reviewed:
+    -
+  packages-editor:
+    -
+  twitter: sampottinger
+  website: gleap.org
+  location: San Francisco, CA, USA
+  email: sam.pottinger@berkeley.edu
