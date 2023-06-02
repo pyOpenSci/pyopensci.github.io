@@ -31,11 +31,9 @@ all_contribs_dict = processContribs.combine_users(
 )
 
 # Force gh username keys to be lowercase
-for key in all_contribs_dict:
-    all_contribs_dict[key]["github_username"] = all_contribs_dict[key][
-        "github_username"
-    ].lower()
-    print(all_contribs_dict[key]["github_username"])
+for key, user_dict in all_contribs_dict.items():
+    user_dict["github_username"] = user_dict["github_username"].lower()
+    print(user_dict["github_username"])
 
 gh_data = processContribs.get_gh_data(all_contribs_dict)
 
