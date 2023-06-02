@@ -43,4 +43,4 @@ jobs:
           env:
             # Token needed to provide permissions to bot to push to branch
             # https://github.com/peter-evans/create-pull-request/issues/48#issuecomment-536204092
-            GITHUB_TOKEN: ${{ secrets.pyos-contrib-update-token }}
+            GITHUB_TOKEN: ${{ secrets.PYOS_PR_TOKEN }}
