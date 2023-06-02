@@ -1,4 +1,9 @@
-<div class="grid__item">
+
+<div class="element-item cards {% for aType in aperson.contributor_type %}
+  {{ aType }}
+  {% endfor %}
+  " data-category="data">
+
     <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
         {% if aperson.github_image_id %}
           <div class="person_img">

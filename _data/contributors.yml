@@ -12,7 +12,7 @@
   board: true
   contributor_type:
     - leadership
-    - current editor
+    - editor
     - package-maintainer
     - guidebook-contrib
   packages-editor:
@@ -39,6 +39,8 @@
   website:
   location:
   email: tkteal@gmail.com
+  contributor_type:
+    - leadership
 - name: Karen Cranston
   sort: 3
   title:
@@ -53,6 +55,8 @@
   board: true
   location: Ottawa, ON
   email: karen.cranston@gmail.com
+  contributor_type:
+    - leadership
 - name: Chris Holdgraf
   advisory: true
   bio: I work with Project Jupyter and other open communities to build tools and
@@ -87,6 +91,7 @@
   orcidid:
   website:
   contributor_type:
+    - leadership
   packages-submitted:
     -
   packages-reviewed:
@@ -156,6 +161,7 @@
     - peer-review
     - web-contrib
     - metrics-contrib
+    - leadership
   packages-submitted:
     -
   packages-reviewed:
@@ -180,7 +186,9 @@
   orcidid: 0000-0003-4165-2913
   website: https://ocefpaf.github.io/python4oceanographers
   contributor_type:
+    - editor
     - guidebook-contrib
+    - leadership
   packages-submitted:
     - errdapy
   packages-reviewed:
@@ -201,6 +209,7 @@
   orcidid:
   website: https://lindseyjh.ca/
   contributor_type:
+    - leadership
   packages-submitted:
     -
   packages-reviewed:
@@ -222,6 +231,7 @@
   website: https://martinfleischmann.net
   contributor_type:
     - reviewer
+    - leadership
   packages-submitted:
     -
   packages-reviewed:
@@ -240,6 +250,7 @@
   website:
   contributor_type:
     - guidebook-contrib
+    - leadership
   packages-submitted:
     -
   packages-reviewed:
@@ -284,7 +295,7 @@
   orcidid: 0000-0002-4261-4719
   website: https://nicholdav.info/
   contributor_type:
-    - current editor
+    - editor
     - contributor
     - web-contrib
   packages-submitted:
@@ -336,6 +347,7 @@
     - reviewer
     - contributor
     - web-contrib
+    - editor
   focus-areas:
     - gis
     - spatial-remote-sensing
@@ -364,6 +376,7 @@
   contributor_type:
     - package-maintainer
     - web-contrib
+    - editor
   packages-submitted:
     - movingpandas
   packages-reviewed:

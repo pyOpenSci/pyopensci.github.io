@@ -84,6 +84,7 @@ pyOpenSci is beginning to create its DEIA council. This council consists of lead
 
 {% assign ppl_sorted = site.data.contributors | reverse %}
 
+<!--
 <div class="entries-grid">
 {% for aperson in ppl_sorted %}
   {% unless aperson.board %}
@@ -91,5 +92,27 @@ pyOpenSci is beginning to create its DEIA council. This council consists of lead
     {% include people-grid.html  %}
   {% endunless %}
   {% endunless %}
+{% endfor %}
+</div> -->
+
+<p><input type="text" id="quicksearch" placeholder="Search" /></p>
+
+<div id="filters" class="button-group">
+  <button class="button is-checked" data-filter="*">Show All</button>
+  <button class="button" data-filter=".leadership">Leadership/Advisory</button>
+  <button class="button" data-filter=".editor">Editorial Team</button>
+  <button class="button" data-filter=".community">Community</button>
+  <button class="button" data-filter=".peer-review">Peer Review</button>
+  <button class="button" data-filter=".guidebook-contrib">Guidebook Contributor</button>
+  <button class="button" data-filter=".metrics-contrib">Metrics</button>
+  <button class="button" data-filter=".web-contrib">Website</button>
+
+  <!-- <button class="button" data-filter=":not(.transition)">not transition</button>
+  <button class="button" data-filter=".metal:not(.transition)">metal but not transition</button> -->
+</div>
+
+<div class="grid-isotope">
+{% for aperson in ppl_sorted %}
+  {% include people-grid.html %}
 {% endfor %}
 </div>
