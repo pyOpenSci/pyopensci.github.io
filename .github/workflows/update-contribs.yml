@@ -37,4 +37,4 @@ jobs:
             branch: contribs
             commit-message: "Update: Contributor file update"
             delete-branch: true
-            title: Update New contributors
+            title: Update new contributors
