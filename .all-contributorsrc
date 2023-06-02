@@ -144,6 +144,17 @@
         "code",
         "review"
       ]
+    },
+    {
+      "login": "CAM-Gerlach",
+      "name": "C.A.M. Gerlach",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17051931?v=4",
+      "profile": "https://www.hamma.dev",
+      "contributions": [
+        "code",
+        "design",
+        "review"
+      ]
     }
   ],
   "commitConvention": "angular",
