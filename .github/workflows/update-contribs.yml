@@ -28,17 +28,13 @@ jobs:
             pip install pyosmeta@git+https://github.com/pyopensci/update-web-metadata
             echo "$PWD"
             python -bb -W error scripts/parse-contributors.py
-        - name: Commit Files
-          run: |
-            git config --global user.email "leah@pyopensci.org"
-            git config --global user.name "Leah"
-            git status
-            git add _data/contributors.yml
-            git commit -m "Update: Contributor file update"
         - name: Create Pull Request
           uses: peter-evans/create-pull-request@v5
           with:
+            add-paths: _data/contributors.yml
+            author: Leah <leah@pyopensci.org>
             base: main
             branch: contribs
+            commit-message: "Update: Contributor file update"
             delete-branch: true
             title: Update New contributors
