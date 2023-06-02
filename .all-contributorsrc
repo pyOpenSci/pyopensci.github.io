@@ -102,9 +102,11 @@
       "profile": "http://batalex.github.io",
       "contributions": [
         "ideas",
-        "review"
+        "review",
+        "code"
       ]
     }
   ],
-  "commitConvention": "angular"
+  "commitConvention": "angular",
+  "commitType": "docs"
 }
