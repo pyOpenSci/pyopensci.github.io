@@ -751,10 +751,11 @@
   location: Belgium
   email:
 - name: Nhat (Jonny) Tran
-  bio: Graph neural networks, bioinformatics, non-coding RNA, NLP, and ML engineering.
-  organization: Actively looking
+  bio: ML engineer interested in graph neural networks for bioinformatics.
+  organization: University of Texas at Arlington
   github_username: JonnyTran
   github_image_id: 4750391
+  orcidid: 0000-0002-2575-9633
   contributor_type:
     - package-maintainer
   packages-submitted:
@@ -765,8 +766,8 @@
     -
   twitter: Jonny_Wireless
   website: https://jonny.bio
-  location:
-  email:
+  location: Arlington, TX
+  email: nhat.c.tran@gmail.com
 - name: Katharina Sielemann
   bio:
   organization:
