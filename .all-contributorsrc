@@ -155,6 +155,16 @@
         "design",
         "review"
       ]
+    },
+    {
+      "login": "JonnyTran",
+      "name": "Nhat (Jonny) Tran",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4750391?v=4",
+      "profile": "http://jonny.bio",
+      "contributions": [
+        "review",
+        "code"
+      ]
     }
   ],
   "commitConvention": "angular",
