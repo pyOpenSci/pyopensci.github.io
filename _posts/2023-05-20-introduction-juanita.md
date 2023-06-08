@@ -90,7 +90,7 @@ Recently, I joined pyOpenSci, an organization that resonates deeply with my valu
 
 ## Outro: Gratitude
 
-As a community manager at both Scientific Python and pyOpenSci, I have witnessed the wonders of the Scientific Python ecosystem. I have encountered countless remarkable individuals and witnessed the incredible projects they have created using the available tools. In my opinion, unifying the community and promoting project integration is the key to unlocking the full potential of this ecosystem. It's not just about coding; it's about coming together, sharing knowledge, and supporting one another. I am grateful for the opportunity to contribute to this vision and help build an extraordinary community around the scientific Python ecosystem while walking this journey alongside amazing people. 🫶
+As a community manager at both Scientific Python and supporting community management at pyOpenSci, I have witnessed the wonders of the scientific Python ecosystem. I have encountered countless remarkable individuals and witnessed the incredible projects they have created using the available tools. In my opinion, unifying the community and promoting project integration is the key to unlocking the full potential of this ecosystem. It's not just about coding; it's about coming together, sharing knowledge, and supporting one another. I am grateful for the opportunity to contribute to this vision and help build an extraordinary community around the scientific Python ecosystem while walking this journey alongside amazing people. 🫶
 
 <figure>
     <a href="/images/introduction-juanita/scientific-python.png">
