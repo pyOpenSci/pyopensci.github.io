@@ -8,7 +8,7 @@ header:
 intro:
   - excerpt: "Our open peer review process supports scientists getting credit for the work invested in open Python tools. It also supports standardization of packaging and improved package visibility."
 toc: false
-classes: wide
+classes:
 ---
 
 {% include feature_row id="intro" type="center" %}
@@ -62,12 +62,14 @@ classes: wide
 
 ## Our editorial board
 
-We value our volunteer editors. Learn more about what editors do and how we select
-them here.
+{: .clearall }
+
+We value our volunteer editors. Learn more about what editors do and how we
+select them here.
 
 {% assign editors = site.data.contributors | where: 'editorial-board', true  %}
 
-<div class="entries-grid">
+<div class="grid">
 {% for aperson in editors %}
 {% unless aperson.board %}
     {% include people-grid.html  %}
@@ -75,10 +77,12 @@ them here.
 {% endfor %}
 </div>
 
-<br style="clear:both">
+<br clear="both">
 
 <div class="wide__p_text" markdown="1">
+
 ## Why Peer Review for Python Scientific Software?
+
 Peer review of Python scientific software addresses several challenges in the
 open source community:
 
@@ -143,11 +147,11 @@ are, in places, less stringent than those of pyOpenSci.
 ## Recently Accepted Python Packages
 
 <div class="grid">
-    {% for apackage in site.data.packages %}
+  {% for apackage in site.data.packages %}
     {% if apackage.highlight %}
-{% include package-grid.html  %}
+      {% include package-grid.html  %}
     {% endif %}
-    {% endfor %}
+  {% endfor %}
 </div>
 
 <br clear="both">
