@@ -42,8 +42,8 @@ var qsRegex;
 var buttonFilter;
 
 // init Isotope
-var $grid = $(window).on('load', function() {
-  $('.grid-isotope').isotope({
+var $grid = $('.grid-isotope').imagesLoaded( function() {
+  $grid.isotope({
     itemSelector: '.element-item',
     layoutMode: 'masonry',
     masonry: {
@@ -56,7 +56,7 @@ var $grid = $(window).on('load', function() {
       var buttonResult = buttonFilter ? $this.is( buttonFilter ) : true;
       return searchResult && buttonResult;
     }
-  })
+  });
 });
 
 $('#filters').on( 'click', 'button', function() {
