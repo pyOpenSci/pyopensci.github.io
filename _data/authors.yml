@@ -42,7 +42,7 @@ Anita Graser:
       url: "https://twitter.com/underdarkGIS"
 Juanita Gomez:
   name        : "Juanita Gomez"
-  bio         : "Community Lead, pyOpenSci & Scientific Python"
+  bio         : "Community Lead, Scientific Python"
   avatar      : "/images/people/juanita-gomez.png"
   links:
     - label: "Email"
