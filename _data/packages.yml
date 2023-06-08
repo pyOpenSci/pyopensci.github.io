@@ -1,4 +1,5 @@
 - package_name: afscgap
+  highlight: true
   package_description: Tools for analysis and inference in NOAA AFSC GAP marine
           species presence data.
   submitting_author:
@@ -38,6 +39,7 @@
       contrib_count: 2
       last_commit: 05/31/2023
 - package_name: xclim
+  highlight: true
   package_description: Climate indices computation package based on Xarray
   submitting_author:
       github_username: Zeitsperre
@@ -82,6 +84,7 @@
       contrib_count: 26
       last_commit: 04/21/2023
 - package_name: crowsetta
+  highlight: true
   package_description: A Python tool to work with any format for annotating animal
       vocalizations and bioacoustics data.
   submitting_author:

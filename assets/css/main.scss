@@ -929,7 +929,9 @@ input[type="text"] {
 
 /* ---- .element-item ---- */
 
-
+.grid .element-item {
+  width: auto;
+}
 
 .element-item {
   position: relative;

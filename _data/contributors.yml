@@ -360,6 +360,27 @@
     - erddapy
   location:
   email:
+- name: Szymon Moliński
+  title: Editor
+  editorial-board: true
+  bio: GIS, remote sensing, machine learning, time-series and spatial
+  organization: Sare
+  github_username: SimonMolinsky
+  github_image_id: 31246246
+  contributor_type:
+    - editor
+    - reviewer
+    - guidebook-contrib
+  packages-submitted:
+    -
+  packages-reviewed:
+    - PyGMT
+  packages-editor:
+    -
+  twitter:
+  website: https://ml-gis-service.com
+  location:
+  email: simon@ml-gis-service.com
 - name: Anita Graser
   bio: 'Spatial data science with a focus on mobility & data quality '
   organization:
@@ -892,24 +913,6 @@
   website:
   location: Brooklyn, New York
   email:
-- name: Szymon Moliński
-  bio: GIS, remote sensing, machine learning, time-series and spatial
-  organization: Sare
-  github_username: SimonMolinsky
-  github_image_id: 31246246
-  contributor_type:
-    - reviewer
-    - guidebook-contrib
-  packages-submitted:
-    -
-  packages-reviewed:
-    - PyGMT
-  packages-editor:
-    -
-  twitter:
-  website: https://ml-gis-service.com
-  location:
-  email: simon@ml-gis-service.com
 - name: Nicolas Palopoli
   bio: Computational Biologist
   organization: Universidad Nacional de Quilmes & Fundación Instituto Leloir

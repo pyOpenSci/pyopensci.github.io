@@ -42,19 +42,21 @@ var qsRegex;
 var buttonFilter;
 
 // init Isotope
-var $grid = $('.grid-isotope').isotope({
-  itemSelector: '.element-item',
-  layoutMode: 'masonry',
-  masonry: {
-    columnWidth: 80,
-    horizontalOrder: false,
-  },
-  filter: function() {
-    var $this = $(this);
-    var searchResult = qsRegex ? $this.text().match( qsRegex ) : true;
-    var buttonResult = buttonFilter ? $this.is( buttonFilter ) : true;
-    return searchResult && buttonResult;
-  }
+var $grid = $(window).on('load', function() {
+  $('.grid-isotope').isotope({
+    itemSelector: '.element-item',
+    layoutMode: 'masonry',
+    masonry: {
+      columnWidth: 80,
+      horizontalOrder: false,
+    },
+    filter: function() {
+      var $this = $(this);
+      var searchResult = qsRegex ? $this.text().match( qsRegex ) : true;
+      var buttonResult = buttonFilter ? $this.is( buttonFilter ) : true;
+      return searchResult && buttonResult;
+    }
+  })
 });
 
 $('#filters').on( 'click', 'button', function() {
