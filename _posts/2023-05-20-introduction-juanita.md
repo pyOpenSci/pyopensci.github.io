@@ -96,7 +96,7 @@ As a community manager at both Scientific Python and supporting community manage
     <a href="/images/introduction-juanita/scientific-python.png">
     <img src="/images/introduction-juanita/scientific-python.png" style="max-width:100%" alt="A group of people standing in front of the AT&T Hotel and Conference Center at the University of Texas campus in Austin, Texas wearing blue and black shirts with the Scientific Python logo. ">
     </a>
-    <figcaption>This is a picture of the people who attended our <a href="https://www.youtube.com/watch?v=R9hNnhpMgTE&t=2s"> Scientific Python community outreach BOF session </a> at SciPy 2022. We gave everyone who attended Scientific Python shirts! It was an amazing discussion with people from a lot of different projects within the Scientific Python ecosystem.
+    <figcaption>This is a picture of the people who attended the <a href="https://www.youtube.com/watch?v=R9hNnhpMgTE&t=2s"> Scientific Python community outreach BOF session </a> at SciPy 2022. We gave everyone who attended Scientific Python shirts! It was an amazing discussion with people from a lot of different projects within the Scientific Python ecosystem.
     </figcaption>
 </figure>
 
