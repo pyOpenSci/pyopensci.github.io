@@ -5,7 +5,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 10px;
-  
+
     h4.grid_title {
       font-size: 1.6em;
       margin-top: 1em;
@@ -13,11 +13,11 @@
     .grid_title {
       margin-bottom: 0;
     }
-  
+
     h4.grid_title a, h3 a {
       text-decoration: none;
     }
-  
+
     .page__meta.title {
       font-size: 1em !important;
       text-align: center;
@@ -30,7 +30,7 @@
       line-height: 0.2em !important;
     }
   }
-  
+
 
 
 /* Blog grid styles */
@@ -67,8 +67,8 @@
 }
 
 /* Package cards splash */
-// .cards 
-  
+// .cards
+
 //   &:before {
 //     background: lightgray!important;
 //   }
@@ -104,7 +104,7 @@
       &:hover {
         cursor:default;
       }
-      
+
       .card-body {
         margin: .2em;
         padding: 1.2em!important;
@@ -149,33 +149,33 @@
     p {
       font-size: .9em
     }
-  
+
     h2 a {
       text-decoration: none;
       font-size: 1.2em;
     }
-  
+
     h3.card__title.no_toc, .card__title.no_toc {
       margin-top: .3em;
       font-size: 1.5em;
       color: #320a44;
     }
-  
+
     .page__meta.contributors {
       font-size: .7em;
     }
-  
+
     .contributors a {
       text-decoration: none;
     }
-  
+
     ul {
       font-size: .8em;
       list-style-type: none;
       margin-left: 0;
       padding: .2em;
     }
-  
+
     ul a {
       text-decoration: none;
     }
@@ -187,31 +187,31 @@
 
 .blog__grid .cards {
     padding: 0 !important;
-  
+
     .card-excerpt{
       font-size: .8em;
     }
     .card-title {
-  
+
     }
 }
-  
+
   .grid__wrapper {
     display: flex;
   }
-  
+
   .cards h2 a {
     text-decoration: none;
     font-size: 1.2em;
   }
-  
+
 /* author list */
 
 .cards .page__meta-readtime {
     font-size: 1.1em;
 }
 
-  
+
   /* Adjust font size on cards  */
   .narrow {
     font-size: .8em!important;
@@ -226,12 +226,12 @@
     a {
         text-decoration: none;
     }
-  
+
     // Ensure content elements fill up the .column
     .element {
       height: 100%;
     }
-  
+
     &.col-3 {
       grid-gap: 1rem;
       grid-template-columns: repeat(3, 1fr);
