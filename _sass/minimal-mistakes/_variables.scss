@@ -116,7 +116,7 @@ $youtube-color: #bb0000 !default;
 $xing-color: #006567 !default;
 
 /* links */
-// Note that the link color is mixed with info-color here 
+// Note that the link color is mixed with info-color here
 // we could just make it a solid color
 $link-color: mix(#7b7979, $info-color, 20%) !default;
 $link-color-hover: mix(#000, $link-color, 25%) !default;
