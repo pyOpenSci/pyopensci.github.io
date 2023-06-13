@@ -1,0 +1,241 @@
+
+
+/* Create & style a 3x3 grid wrapper */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 10px;
+  
+    h4.grid_title {
+      font-size: 1.6em;
+      margin-top: 1em;
+    }
+    .grid_title {
+      margin-bottom: 0;
+    }
+  
+    h4.grid_title a, h3 a {
+      text-decoration: none;
+    }
+  
+    .page__meta.title {
+      font-size: 1em !important;
+      text-align: center;
+      font-size: 1.7em;
+      padding-top: 0;
+      margin-top: 0;
+    }
+    .page__meta .bio p {
+      font-size: 0.7em;
+      line-height: 0.2em !important;
+    }
+  }
+  
+
+
+/* Blog grid styles */
+
+.blog__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-auto-rows: 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 30px;
+  margin-bottom: 20px;
+
+  h3.card-title {
+    font-size: 1.1em!important;
+    text-align: left;
+	  margin-top: 0;
+	  vertical-align: middle;
+  }
+
+  .card__bkg {
+    padding-top: 30px;
+
+  }
+  article {
+	display: contents;
+  }
+  a {
+	text-decoration: none;
+  }
+  p {
+	font-size: 1.1em!important;
+	font-weight: 400;
+  }
+}
+
+/* Package cards splash */
+// .cards 
+  
+//   &:before {
+//     background: lightgray!important;
+//   }
+// }
+
+.cards {
+    display: block;
+    top: 0px;
+    position: relative;
+    max-width: 362px;
+    background-color: #f1f0f1;;
+    border-radius: 4px;
+    padding: 32px 24px;
+    margin: 12px;
+    text-decoration: none;
+    z-index: 0;
+    overflow: hidden;
+    border: 1px solid #f2f8f9;
+
+
+
+    &.highlight div {
+      padding:0;
+    }
+
+    &.highlight {
+      background-color:#fff!important;
+      padding: 0;
+
+      &:before {
+        background-color: #fff;
+      }
+      &:hover {
+        cursor:default;
+      }
+      
+      .card-body {
+        margin: .2em;
+        padding: 1.2em!important;
+
+        .card-title {
+          margin-top: 0;
+          margin-bottom: 0;
+          border-bottom: none;
+
+        }
+      }
+    }
+
+    &:hover {
+        transition: all 0.2s ease-out;
+        box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+        top: -4px;
+        border: 1px solid #cccccc;
+        background-color: white;
+        cursor: pointer;
+    }
+
+    &:before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        top: -16px;
+        right: -16px;
+        background: #967eb6;
+        height: 32px;
+        width: 32px;
+        border-radius: 32px;
+        transform: scale(2);
+        transform-origin: 50% 50%;
+        transition: transform 0.15s ease-out;
+    }
+
+    &:hover:before {
+        transform: scale(2.15);
+    }
+
+    p {
+      font-size: .9em
+    }
+  
+    h2 a {
+      text-decoration: none;
+      font-size: 1.2em;
+    }
+  
+    h3.card__title.no_toc, .card__title.no_toc {
+      margin-top: .3em;
+      font-size: 1.5em;
+      color: #320a44;
+    }
+  
+    .page__meta.contributors {
+      font-size: .7em;
+    }
+  
+    .contributors a {
+      text-decoration: none;
+    }
+  
+    ul {
+      font-size: .8em;
+      list-style-type: none;
+      margin-left: 0;
+      padding: .2em;
+    }
+  
+    ul a {
+      text-decoration: none;
+    }
+  }
+
+
+
+/* Blog grid styles*/
+
+.blog__grid .cards {
+    padding: 0 !important;
+  
+    .card-excerpt{
+      font-size: .8em;
+    }
+    .card-title {
+  
+    }
+}
+  
+  .grid__wrapper {
+    display: flex;
+  }
+  
+  .cards h2 a {
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+  
+/* author list */
+
+.cards .page__meta-readtime {
+    font-size: 1.1em;
+}
+
+  
+  /* Adjust font size on cards  */
+  .narrow {
+    font-size: .8em!important;
+  }
+
+/* This creates a grid where each box is the same height */
+.grid-highlight {
+    display: grid;
+    // Essentially switch the default axis
+    grid-auto-flow: column;
+
+    a {
+        text-decoration: none;
+    }
+  
+    // Ensure content elements fill up the .column
+    .element {
+      height: 100%;
+    }
+  
+    &.col-3 {
+      grid-gap: 1rem;
+      grid-template-columns: repeat(3, 1fr);
+      grid-auto-flow: unset;
+
+    }
+  }
