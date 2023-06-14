@@ -19,8 +19,6 @@ jobs:
         run: |
           # install pip=>20.1 to use "pip cache dir"
           python -m pip install --upgrade pip wheel
-          echo "$PWD"
-          git branch
       - name: Install pyosmeta and run update contribs
         env:
           GITHUB_TOKEN: ${{ github.token }}
