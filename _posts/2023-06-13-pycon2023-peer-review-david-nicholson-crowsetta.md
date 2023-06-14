@@ -24,7 +24,7 @@ David Nicholson, our pyOpenSci Editor in Chief, gave a fantastic lightning talk 
 
 ## Submitting Crowsetta to pyOpenSci for peer review
 
-Just a few months prior, David had submitted a package he's been developing called Crowsetta, that helps scientists work with animal vocalization data. Given he is the Editor in Chief of our peer review process, we had wonderful volunteers from our editorial team step in to run the review to ensure it wasn't in any way biased.
+Just a few months prior, David had submitted a package he's been developing called Crowsetta, that helps scientists work with annotations for animal vocalization and bioacoustics data. Given he is the Editor in Chief of our peer review process, we had wonderful volunteers from our editorial team step in to run the review to ensure it wasn't in any way biased.
 
 <figure>
     <a href="/images/talks/intro-slide-david-nicholson-crowsetta-lightning-pycon2023.png">
