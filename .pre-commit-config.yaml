@@ -34,9 +34,9 @@ repos:
     rev: v2.2.2
     hooks:
       - id: codespell
-        exclude: >
-            (?x)^(
-                .*\.yml
-            )$
+        exclude_types:
+          - javascript
+          - scss
+          - yaml
         additional_dependencies:
           - tomli
