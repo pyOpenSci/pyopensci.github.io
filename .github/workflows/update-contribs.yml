@@ -37,6 +37,6 @@ jobs:
           delete-branch: true
           title: Update new contributors
         env:
-          # Token needed to provide permissions to bot to push to branch
-          # https://github.com/peter-evans/create-pull-request/issues/48#issuecomment-536204092
+          # Custom token needed to trigger PR checks, as GITHUB_TOKEN won't
+          # https://github.com/peter-evans/create-pull-request/blob/main/docs/concepts-guidelines.md#triggering-further-workflow-runs
           GITHUB_TOKEN: ${{ secrets.PYOS_PR_TOKEN }}
