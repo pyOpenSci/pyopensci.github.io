@@ -21,7 +21,7 @@ jobs:
           python -m pip install --upgrade pip wheel
       - name: Install pyosmeta and run update contribs
         env:
-          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           pip install pyosmeta@git+https://github.com/pyopensci/update-web-metadata
           echo "$PWD"
