@@ -1,7 +1,7 @@
 name: Update Contributors
 
 on:
-  workflow-dispatch:
+  workflow_dispatch:
   schedule:
     # Runs on the first of each month (see https://crontab.guru)
     - cron: "* * 1 * *"
