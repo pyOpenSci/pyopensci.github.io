@@ -37,25 +37,6 @@ peer-review:
     url: https://www.pyopensci.org/python-package-guide/
     btn_label: "> Check out our Python packaging guide"
     btn_class: btn--inverse
-
-old:
-  - image_path: images/brooke-cagle-group-unsplash.png
-    image_caption: "Brooke Cagle, Unsplash"
-    alt: "placeholder image 1"
-    title: "Diverse Community"
-    excerpt: "We are building a diverse and supportive community with skills that support open source and open science. Join the discussion on [twitter](https://www.twitter.com/pyopensci) or follow along on [discourse](https://pyopensci.discourse.group/)."
-  - image_path: images/desola-lanre-ologun-unsplash.png
-    image_caption: "Desola Lanre Ologun, Unsplash"
-    alt: "placeholder image 2"
-    title: "Open Peer Review"
-    excerpt: "Our open peer review process of Python tools supports standardized software quality and usability. It also provides needed credit and visibility to tool maintainers. Finally it removes redundancy of packages with similar functionality across the scientific Python ecosystem."
-    url: /about-peer-review/
-    btn_label: "Learn More About Package Peer Review"
-    btn_class: "btn--primary"
-  - image_path: images/brooke-cagle-unsplash.png
-    title: "Skills for Open Source and Open Science"
-    image_caption: "Brooke Cagle, Unsplash"
-    excerpt: "We will develop a mentorship and training program over the next year to support those who are new to open science and code review. Stay tuned for more."
 ---
 
 {% include feature_row id="mission" type="center" %}
