@@ -81,8 +81,8 @@
   email:
 - name: Inessa Pawson
   advisory: true
-  bio: "NumPy Contributor Experience Lead\r\nOpen Source Program Manager at OpenTeams\
-      \ Incubator"
+  bio: "NumPy Contributor Experience Lead\r\nOpen Source Program Manager at OpenTeams
+      Incubator"
   organization: '@numpy'
   github_username: InessaPawson
   github_image_id: 43481325
@@ -111,8 +111,8 @@
   github_image_id: 3275593
   mastodon: https://mastodon.social/@pradyunsg
   twitter: pradyunsg
-  bio: "@pypa member, @psf fellow, @toml-lang core, @sphinx-doc contributor. Past\
-      \ intern at @enthought and IITB.\r\n\r\nDon't email or tweet me for tech support."
+  bio: "@pypa member, @psf fellow, @toml-lang core, @sphinx-doc contributor. Past
+      intern at @enthought and IITB.\r\n\r\nDon't email or tweet me for tech support."
   orcidid:
   contributor_type:
     - guidebook-contrib
@@ -199,8 +199,8 @@
   email: ocefpaf@gmail.com
 - name: Lindsey Heagy
   advisory: true
-  bio: "Asst. Prof at UBC EOAS. Researcher working on geophysical simulations and\
-      \ inversions (in @simpeg!) and data science.\r\n"
+  bio: "Asst. Prof at UBC EOAS. Researcher working on geophysical simulations and
+      inversions (in @simpeg!) and data science.\r\n"
   organization: '@simpeg, @geoscixyz, @ubcgif, @2i2c_org '
   github_username: lheagy
   github_image_id: 6361812
@@ -241,7 +241,7 @@
 - name: Yuvi Panda
   advisory: true
   bio:
-  organization:
+  organization: '@2i2c-org '
   github_username: yuvipanda
   github_image_id: 30430
   twitter:
@@ -435,7 +435,7 @@
   location:
   email: alexandre.batisse@hey.com
 - name: Max Joseph
-  bio: Data scientist doing Bayesian stats & machine learning
+  bio: AI + Earth Observation + Bayesian stats
   organization: '@planetlabs'
   github_username: mbjoseph
   github_image_id: 2664564
@@ -543,10 +543,8 @@
   location:
   email: kysolvik@gmail.com
 - name: Martin Skarzynski
-  bio: "\U0001F9EEBiostatistics Branch\U0001F3DBNCI Division of\U0001F980Cancer\
-      \ Epidemiology and\U0001F9ECGenetics (DCEG)\r\n\U0001F4BBBioinformatics\U0001F4CA\
-      DataScience\U0001F4BACo-chair\U0001F393FAES\r\n\U0001F40DPython®Rstats⚕Health\U0001F916\
-      ML\U0001F9E0AI"
+  bio: "🧮Biostatistics Branch🏛NCI Division of🦀Cancer Epidemiology and🧬Genetics (DCEG)\r\
+      \n💻Bioinformatics📊DataScience💺Co-chair🎓FAES\r\n🐍Python®Rstats⚕Health🤖ML🧠AI"
   organization:
   github_username: marskar
   github_image_id: 12806339
@@ -772,13 +770,14 @@
   location: Belgium
   email:
 - name: Nhat (Jonny) Tran
-  bio: ML engineer interested in graph neural networks for bioinformatics.
-  organization: University of Texas at Arlington
+  bio: Graph neural networks, bioinformatics, non-coding RNA, NLP, and ML engineering.
+  organization: Actively looking
   github_username: JonnyTran
   github_image_id: 4750391
   orcidid: 0000-0002-2575-9633
   contributor_type:
     - package-maintainer
+    - web-contrib
   packages-submitted:
     - openomics
   packages-reviewed:
@@ -787,8 +786,8 @@
     -
   twitter: Jonny_Wireless
   website: https://jonny.bio
-  location: Arlington, TX
-  email: nhat.c.tran@gmail.com
+  location:
+  email:
 - name: Katharina Sielemann
   bio:
   organization:
@@ -879,8 +878,8 @@
   location: Missoula, MT
   email: endsley@umich.edu
 - name: Álex Sáez
-  bio: "Aerospace engineer passionate about Flight Mechanics.\r\nPython, Fortran,\
-      \ Matlab and lately Julia. (These are my personal projects)"
+  bio: "Aerospace engineer passionate about Flight Mechanics.\r\nPython, Fortran,
+      Matlab and lately Julia. (These are my personal projects)"
   organization: AIRBUS D&S
   github_username: AlexS12
   github_image_id: 6061587
@@ -915,7 +914,7 @@
   email:
 - name: Nicolas Palopoli
   bio: Computational Biologist
-  organization: Universidad Nacional de Quilmes & Fundación Instituto Leloir
+  organization: Universidad Nacional de Quilmes & MetaDocencia
   github_username: NPalopoli
   github_image_id: 1713937
   title: Co-Executive Director
@@ -1048,8 +1047,8 @@
   github_image_id: 45071
   mastodon:
   twitter: stefanvdwalt
-  bio: Researcher at Berkeley Institute for Data Science, open source scientific
-      Python developer (NumPy, scikit-image, etc.), author of Elegant SciPy.
+  bio: Everything Scientific Python. Works on NumPy, SciPy, scikit-image, NetworkX,
+      etc. Author of Elegant SciPy. Researcher at UC Berkeley.
   orcidid:
   contributor_type:
     - guidebook-contrib
@@ -1164,8 +1163,8 @@
   github_image_id: 2680980
   mastodon:
   twitter: WillingCarol
-  bio: "Project Jupyter, nteract, and CPython core developer\r\n\r\n@python | @jupyter\
-      \ | @jupyterhub | @ipython | @nteract | @pysplash"
+  bio: "Project Jupyter, nteract, and CPython core developer\r\n\r\n@python | @jupyter
+      | @jupyterhub | @ipython | @nteract | @pysplash"
   orcidid:
   contributor_type:
     - guidebook-contrib
@@ -1258,8 +1257,8 @@
   github_image_id: 3837114
   mastodon:
   twitter: e_Sundell
-  bio: "Climate change mitigation efforts need nuclear alongside other low carbon\
-      \ sources.\r\n\r\nhttps://twitter.com/e_Sundell/status/1258480862359937024"
+  bio: "Climate change mitigation efforts need nuclear alongside other low carbon
+      sources.\r\n\r\nhttps://twitter.com/e_Sundell/status/1258480862359937024"
   orcidid:
   contributor_type:
     - guidebook-contrib
@@ -1387,9 +1386,9 @@
   github_image_id: 1610
   mastodon:
   twitter: jezdez
-  bio: "Principal SWE at @anaconda working on @conda. @conda-forge core member.\r\
-      \n@python director and fellow.\r\n@jazzband and @pypa founder. @mozilla and\
-      \ @django alum"
+  bio: "Principal SWE at @anaconda working on @conda. @conda-forge core member.\r
+      \n@python director and fellow.\r\n@jazzband and @pypa founder. @mozilla and
+      @django alum"
   orcidid:
   contributor_type:
     - guidebook-contrib
@@ -1510,8 +1509,8 @@
   location: Tuebingen, Germany
   email:
 - name: Boas Pucker
-  bio: "Professor at TU Braunschweig with research interests in plant genomics and\
-      \ specialized metabolism. Details:\r\nhttps://www.tu-braunschweig.de/en/ifp/pbb"
+  bio: "Professor at TU Braunschweig with research interests in plant genomics and
+      specialized metabolism. Details:\r\nhttps://www.tu-braunschweig.de/en/ifp/pbb"
   organization: Plant Biotechnology and Bioinformatics, Institute of Plant Biology,
       TU Braunschweig
   title:
@@ -1549,7 +1548,7 @@
   location: Norwich, UK
   email: Leonardo.de-Oliveira-Martins@quadram.ac.uk
 - name: Soumith Chintala
-  bio: "/\\︿╱\\ _________________________________\r\n\\0_ 0    /╱\\╱____________________________\r\
+  bio: "/\\︿╱\\ _________________________________\r\n\\0_ 0    /╱\\╱____________________________\r
       \n \\▁︹_/\r\n"
   organization: Facebook AI Research
   title:
@@ -1685,7 +1684,7 @@
   github_image_id: 27306428
   mastodon:
   twitter: TessaRhinehart
-  bio: "\r\n    Work: research programmer creating computational tools for bioacoustics.\r\
+  bio: "\r\n    Work: research programmer creating computational tools for bioacoustics.\r
       \nPlay: tinkerer creating open-source tools for birders\r\n"
   orcidid: 0000-0002-4352-3464
   contributor_type:
@@ -2093,7 +2092,7 @@
   github_image_id: 18587879
   mastodon:
   twitter: juanitagomezr
-  bio: "Computer Science PhD student at University of California, Santa Cruz\r\n\
+  bio: "Computer Science PhD student at University of California, Santa Cruz\r\n
       \r\nCommunity Manager at @scientific-python "
   orcidid:
   packages-submitted:
@@ -2125,8 +2124,8 @@
   organization: Microsoft
   email: sckaiser@sckaiser.com
 - name: A Samuel Pottinger
-  bio: Data visualization, software engineering, data science, game design at UC
-      Berkeley Center for Data Science and Environment
+  bio: Data scientist with a software engineering, data visualization, and machine
+      learning background. Occasionally contributes to Processing.
   organization: UC Berkeley
   github_username: sampottinger
   github_image_id: 110391
@@ -2138,7 +2137,63 @@
     -
   packages-editor:
     -
-  twitter: sampottinger
-  website: https://www.gleap.org
-  location: San Francisco, CA, USA
-  email: sam.pottinger@berkeley.edu
+  twitter:
+  website: https://gleap.org
+  location:
+  email:
+- name: Anderson Bravalheri
+  contributions:
+    - code
+    - design
+  github_username: abravalheri
+  website:
+  github_image_id: 320755
+  mastodon:
+  twitter:
+  bio:
+  orcidid:
+  packages-submitted:
+  packages-reviewed:
+  contributor_type:
+    - guidebook-contrib
+  location: Bristol, UK
+  organization: University of Bristol
+  email:
+- name: Daniel Possenriede
+  contributions:
+    - code
+    - review
+  github_username: dpprdan
+  website: https://possenrie.de
+  github_image_id: 1423562
+  mastodon:
+  twitter: dpprdan
+  bio:
+  orcidid:
+  packages-submitted:
+  packages-reviewed:
+  contributor_type:
+    - guidebook-contrib
+  location: Hamburg, Germany
+  organization:
+  email:
+- name: C.A.M. Gerlach
+  contributions:
+    - code
+    - design
+    - review
+  github_username: CAM-Gerlach
+  website: https://www.hamma.dev
+  github_image_id: 17051931
+  mastodon:
+  twitter: StarFleetTours
+  bio: NASA-funded deep learning, IoT and satellite researcher. UAH grad student.
+      Python and Spyder core dev. Python Docs Team and PEP Editor. Star✦Fleet Commander.
+  orcidid:
+  packages-submitted:
+  packages-reviewed:
+  contributor_type:
+    - web-contrib
+  location: Huntsville, AL, United States
+  organization: '@hamma-dev @python @spyder-ide @star-fleet-tours'
+  email: CAM.Gerlach@Gerlach.CAM
