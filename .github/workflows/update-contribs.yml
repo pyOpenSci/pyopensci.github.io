@@ -25,9 +25,7 @@ jobs:
         run: |
           pip install pyosmeta@git+https://github.com/pyopensci/update-web-metadata
           echo "$PWD"
-          # Skip error for when this pr actually works
-          # python -bb -W error scripts/parse-contributors.py
-          python scripts/parse-contributors.py
+          python -b -W default scripts/parse-contributors.py
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
         with:
