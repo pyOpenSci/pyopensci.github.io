@@ -49,6 +49,10 @@
 .page__footer-copyright {
   font-family: $global-font-family;
   font-size: $type-size-7;
+
+  p {
+    margin: 0
+  }
 }
 
 .page__footer-follow {

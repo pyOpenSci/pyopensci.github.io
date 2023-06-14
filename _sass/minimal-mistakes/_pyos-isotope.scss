@@ -21,7 +21,9 @@ input[type="text"] {
   background: #EEE;
   border: none;
   border-radius: 7px;
-  background-image: linear-gradient( to bottom, hsla(0, 0%, 0%, 0), hsla(0, 0%, 0%, 0.2) );
+  transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  box-shadow: rgba(27, 31, 35, 0.04) 0 10px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+  //background-image: linear-gradient( to bottom, hsla(0, 0%, 0%, 0), hsla(0, 0%, 0%, 0.2) );
   color: #222;
   font-family: sans-serif;
   font-size: 16px;
@@ -31,7 +33,7 @@ input[type="text"] {
 }
 
 .button:hover {
-  background-color: #8CF;
+  background-color: #CCC7D6;
   text-shadow: 0 1px hsla(0, 0%, 100%, 0.5);
   color: #222;
 }

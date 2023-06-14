@@ -17,7 +17,7 @@
       </div>
     {% endif %}
       <div class="card-body">
-        <div class="archive__item-body">
+        <div>
           {% if f.title %}
             <h2 class="card-title">{{ f.title }}</h2>
           {% endif %}

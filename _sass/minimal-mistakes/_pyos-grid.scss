@@ -95,7 +95,7 @@
     }
 
     &.highlight {
-      background-color:#fff!important;
+      background-color:#f0f0f0!important;
       padding: 0;
 
       &:before {
@@ -108,6 +108,10 @@
       .card-body {
         margin: .2em;
         padding: 1.2em!important;
+
+        p {
+          font-size: 1.2em;
+        }
 
         .card-title {
           margin-top: 0;
