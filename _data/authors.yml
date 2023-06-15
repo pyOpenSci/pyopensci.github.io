@@ -1,6 +1,6 @@
 Leah Wasser:
   name        : "Leah Wasser"
-  bio         : "Executive Director, pyOpenSci"
+  bio         : "Executive Director & Founder, pyOpenSci"
   avatar      : "/images/people/leah-wasser-pyopensci-leadership.jpg"
   links:
     - label: "Email"
@@ -9,9 +9,18 @@ Leah Wasser:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://www.leahwasser.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/lwasser"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/leahawasser"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/leah-wasser-0138883/fo"
+    - label: "Mastodon"
+      icon: "fab fa-fw fa-mastodon"
+      url: "https://fosstodon.org/@leahawasser"
 Niels Bantilan:
   name        : "Niels Bantilan"
   bio         : "Data Scientist, Machine Learning Engineer"
