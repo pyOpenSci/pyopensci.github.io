@@ -225,4 +225,4 @@ are now involved with pyOpenSci.
 
 One of the other highlights of the meeting that I can't forget to mention is
 David getting up on the ginormous speaker stage in the main ballroom and
-giving a lightning talk about his experience submitting Crowsetta, a Python package, to pyOpenSci. Check out a blog on that here.
+giving a lightning talk about his experience submitting Crowsetta, a Python package, to pyOpenSci. [Check out a blog on his talk and watch the 5 minute presentation here.](/blog/pycon2023-crowsetta-peer-review.html) It was awesome!
