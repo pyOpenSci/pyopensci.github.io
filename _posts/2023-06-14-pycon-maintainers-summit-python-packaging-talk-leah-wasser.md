@@ -143,8 +143,18 @@ at this meeting.
 
 ## pyOpenSci Sprints at PyCON
 
-pyOpenSci also lead 2 sprints at pyCon! On Sunday we lead a mentored sprint and
-had a full table plus an overflow table of people who wanted to contribute!
+pyOpenSci also lead 2 sprints at pyCon! On Sunday we lead a [mentored sprint](https://www.mentored-sprints.dev/). If you haven't heard of mentored sprints, they are an
+amazing format that allows those who are newer to contributing to open source
+to get support in the contribution process.
+
+At the mentored sprints I was grateful to have [Luiz Irber](https://github.com/luizirber) and [David Nicholson](https://github.com/NickleDave) supporting
+the (larger-than-expected) group! Luiz served as editor for pyOpenSci years ago
+during one of our very first reviews. And David is now our editor in chief of
+pyOpenSci.
+
+We had a full table plus an overflow table of
+people who wanted to contribute! And each of them was able to contribute (many
+for their very first time!!). It was awesome.
 
 <figure>
     <a href="/images/people/pycon-2023-mentored-sprints-pyopensci.png">
@@ -154,16 +164,11 @@ had a full table plus an overflow table of people who wanted to contribute!
     </figcaption>
 </figure>
 
-It was incredible. The people at the sprint were not the people who I expected.
+The people at the sprint were not the people who I expected.
 Many of them had significant technical skills and backgrounds. But many of them
 also had never committed to an open source project. Perhaps they had used subversion
 but not git / GitHub. Perhaps they knew python well but didn't know where to start
 in terms of contributing.
-
-At the sprints I was grateful to have [Luiz Irber](https://github.com/luizirber) and [David Nicholson](https://github.com/NickleDave) supporting
-the (larger-than-expected) group! Luiz served as editor for pyOpenSci years ago
-during one of our very first reviews. And David is now our editor in chief of
-pyOpenSci.
 
 In total we ended up with 8 pull requests submitted during the sprints and 2
 others submitted after. Every pull request was from a new contributor to
