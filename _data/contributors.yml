@@ -57,6 +57,24 @@
   email: karen.cranston@gmail.com
   contributor_type:
     - leadership
+- name: Erin Robinson
+  advisory: true
+  bio:
+  organization:
+  github_username: erinmr
+  github_image_id: 2915555
+  twitter: connector_erin
+  mastodon:
+  orcidid:
+  website: https://erinrobinson.info/
+  contributor_type:
+    - leadership
+  packages-submitted:
+    -
+  packages-reviewed:
+    -
+  location: Boulder, Colorado
+  email:
 - name: Chris Holdgraf
   advisory: true
   bio: I work with Project Jupyter and other open communities to build tools and
