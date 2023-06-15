@@ -6,7 +6,7 @@ published: true
 site-map: true
 permalink: /
 header:
-  overlay_image: /images/people/header-mentored-sprints-smaller.png.png
+  overlay_image: /images/people/header-mentored-sprints-smaller.png
   overlay_filter: 0.6
   actions:
     - label: "Submit a Package"
