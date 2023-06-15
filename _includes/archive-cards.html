@@ -7,10 +7,10 @@
     {% endif %}
 
     <div class="card__bkg">
-        <h3 class="card-title">{{ post.title | markdownify | strip_html | truncate: 60 }}</h3>
+        <h3 class="card-title">{{ post.title | markdownify | strip_html }}</h3>
     </div>
     <div class="card-excerpt">
-        <p>{{ post.excerpt | truncate: 100}}</p>
+        <p>{{ post.excerpt | truncate: 180}}</p>
     </div>
 </div>
 </a>
