@@ -164,6 +164,7 @@ for their very first time!!). It was awesome.
     </figcaption>
 </figure>
 
+
 The people at the sprint were not the people who I expected.
 Many of them had significant technical skills and backgrounds. But many of them
 also had never committed to an open source project. Perhaps they had used subversion
