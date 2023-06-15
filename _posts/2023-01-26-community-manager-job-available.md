@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "CLOSED - Job Posting: pyOpenSci is Hiring a Community Manager"
-excerpt: "This position has been filled! We are no longer accepting applications. "
+excerpt: "This position for a pyOpenSci community manager has been filled! We are no longer accepting applications. "
 author: "Leah Wasser"
 permalink: /blog/pyOpenSci-hiring-community-manager-spring-2023.html
 header:

@@ -13,6 +13,7 @@ categories:
   - highlight
   - peer-review
 toc: false
+classes: wide
 comments: true
 ---
 
@@ -38,7 +39,8 @@ Just a few months prior, David had submitted a package he's been developing call
 
 In his talk (which was NOT about ChatGPT in case you were wondering :) ), David talked about who was involved and what the process and his experience was like. Check out the video below to learn more!
 
-The talk itself is about 5 minutes long but you can always keep it running to see the other lightning talks posted by the pyCon organizers. All of the pyCon 2023 US talks are online if you want to check out some of the others!
+The talk itself is about 5 minutes long but you can always keep it running to see the other lightning talks posted by the pyCon organizers. All of the pyCon 2023 US talks are online if you want to check out some of the others! [You can also check out our
+pyOpenSci presentation about Python Packaging and experiences with the sprints here if you'd like.](pycon-2023-packaging-presentation-sprints-leah-wasser.html)
 
 ## About the pyOpenSci peer review process
 
