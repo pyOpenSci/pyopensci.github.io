@@ -343,11 +343,12 @@ drop shadow
   .burger__icon, burger__icon::before, burger__icon::after {
     display: block; }
 
-  /* TODO: search isn't working now position search toggle by burger */
+  /* Positioned by burger
+  TODO: might be better within the drop down??*/
   .search__toggle {
     position: fixed;
-    right: 8%;
+    right: 20%;
     font-size: 1.4em;
-    top: 5%;
+    top: 3%;
   }
 }
