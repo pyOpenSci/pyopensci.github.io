@@ -320,3 +320,34 @@ drop shadow
   background-color: #04AA6D;
   color: white;
 }
+
+@media screen and (max-width: 768px) {
+
+  /* Hide horizontal drop down links at 48em / 768px */
+  .nav__links { display: none;}
+
+  /* Nav links goes vertical in responsive mode */
+  .nav__links .vertical {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .hamburger__btn-toggle {
+    display: block;
+    position: absolute;
+    top: 5%;
+    right: 5%;}
+
+  .burger__icon, burger__icon::before, burger__icon::after {
+    display: block; }
+
+  /* TODO: search isn't working now position search toggle by burger */
+  .search__toggle {
+    position: fixed;
+    right: 8%;
+    font-size: 1.4em;
+    top: 5%;
+  }
+}

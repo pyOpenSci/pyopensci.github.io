@@ -9,6 +9,13 @@
 /* Variables */
 @import "minimal-mistakes/variables";
 
+/* Pyos specific  */
+@import "minimal-mistakes/pyos-main";
+@import "minimal-mistakes/pyos-isotope";
+@import "minimal-mistakes/pyos-dropdown";
+@import "minimal-mistakes/pyos-twitter";
+@import "minimal-mistakes/pyos-grid";
+
 /* Mixins and functions */
 @import "minimal-mistakes/vendor/breakpoint/breakpoint";
 @include breakpoint-set("to ems", true);
@@ -40,10 +47,3 @@
 @import "minimal-mistakes/archive";
 @import "minimal-mistakes/sidebar";
 @import "minimal-mistakes/print";
-
-/* Pyos specific  */
-@import "minimal-mistakes/pyos-main";
-@import "minimal-mistakes/pyos-isotope";
-@import "minimal-mistakes/pyos-dropdown";
-@import "minimal-mistakes/pyos-twitter";
-@import "minimal-mistakes/pyos-grid";
