@@ -72,8 +72,8 @@ layout: default
   {% if page.id and page.related and site.related_posts.size > 0 %}
     <div class="page__related">
       <h2 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}</h2>
-      <div class="grid__wrapper">
-        {% for post in site.related_posts limit:4 %}
+      <div class="grid col-3">
+        {% for post in site.related_posts limit:3 %}
           {% include archive-single.html type="grid" %}
         {% endfor %}
       </div>
