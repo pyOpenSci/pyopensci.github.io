@@ -137,9 +137,6 @@ h2.clearall {
     max-width: 66.66667%;
 }
 
-
-
-/* 768 px */
 @media screen and (max-width: 768px) {
 
   .element-item {
@@ -165,42 +162,11 @@ h2.clearall {
     font-size: 1.1em
   }
 
-  .hamburger__btn-toggle {
-    //position: fixed; // not sure if this will help?
-    display: block;
-    position: absolute;
-    top: 5%;
-    right: 5%;}
-
-  burger__icon, burger__icon::before, burger__icon::after {
-    display: block; }
-
-  /* Hide horizontal drop down links at 48em / 768px */
-  .nav__links { display: none;}
-
-/* Nav links goes vertical in responsive mode */
-  .nav__links .vertical {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-   /* position search toggle by burger */
-  .search__toggle {
-    position: fixed;
-    right: 8%;
-    font-size: 1.4em;
-    top: 5%;
-  }
-
   .feature__item--center .archive__item-body, .archive__item-body {
     width: 100%!important;
     padding: 0!important;
   }
 
-  // .page__content p {
-  //  // font-size:1.2em!important;
-  // }
   .wide #main {
     padding-left: 2em;
   }
