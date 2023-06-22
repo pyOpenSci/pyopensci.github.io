@@ -1098,6 +1098,7 @@
     - data-munging
     - reproducibility
     - geospatial
+  joss: true
   editor:
       name: Alex Batisse
       github_username: Batalex

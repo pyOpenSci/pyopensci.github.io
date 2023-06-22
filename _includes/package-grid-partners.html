@@ -1,5 +1,7 @@
+<!-- A template for lists of packages -->
 
-<div class="element-item cards bubble {% for aCategory in apackage.categories %}
+
+<div class="element-item cards {% for aCategory in apackage.categories %}
 {{ aCategory }}
 {% endfor %}" data-category="data">
     <article
@@ -8,7 +10,7 @@
         itemtype="https://schema.org/CreativeWork"
     >
         <h3 class="card__title no_toc" itemprop="headline">
-            {{ apackage.package_name }}
+            {{ apackage.package_name}}
         </h3>
         <p class="page__meta contributors">
             <span><i class="fas fa-feather" aria-hidden="true"></i>
@@ -72,10 +74,6 @@
                     </a>
                 </li>
             {% endif %}
-                <li>
-                    <a href= "{{ apackage.issue_link }}"> <i class="fa-solid fa-user-pen"></i> View Review </a>
-                </li>
-
             {% if apackage.joss %}
             <li>
                 <a href="{{ apackage.archive }}" rel="permalink">
@@ -91,6 +89,11 @@
             </li>
             {% endif %}
         </ul>
+        <h3>Current Status </h3>
+        Contributors*: {{ apackage.gh_meta.contrib_count }}
+        Date Created: {{ apackage.gh_meta.created_at }}
+       {{ apackage.name }} was last updated: {{ apackage.gh_meta.last_commit }}
+
 
     </article>
     </div>
