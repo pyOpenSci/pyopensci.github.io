@@ -193,12 +193,64 @@ h2.clearall {
 /* max 480 px */
 @media screen and (max-width: 480px) {
 
+  .taxonomy__index {
+    font-size: .9em!important;
+  }
+
+  .search__toggle {
+    margin-right: -4rem!important;
+  }
+
+  .blog__grid {
+    font-size: 1.3em;
+    grid-template-columns: repeat(auto-fill, minmax(290px, 0fr))!important;
+    grid-auto-rows: 0fr!important;
+    grid-column-gap: 7px;
+    grid-row-gap: 0px!important;
+    margin-bottom: 20px;
+  }
+  .grid-isotope {
+    font-size: 1.3em;
+  }
+
+  .cards {
+    padding: 10px!important;
+  }
+
+  .contrib_org, .ppl_social {
+    font-size: .9em !important;
+  }
+
+  .card-body {
+
+    & .btn {
+      font-size: 1em;
+    }
+
+    & .archive__item-excerpt {
+      font-size: 1em;
+    }
+
+  }
+
+  .feature__item--center {
+    font-size: 1.1em;
+
+    & .archive__item {
+      padding:0;
+      line-height: 1.3em;
+    }
+
+    & .archive__item-excerpt {
+      padding:0;
+      font-size: .8em;
+
+    }
+  }
   .feature__item {
     width: 100%!important;
   }
-  // .page__content p, .page__content li {
-  //   font-size: 1.2em !important;
-  // }
+
   h1, h2, h3, .archive__item-title {
     font-size: 1.6em!important;
   }
