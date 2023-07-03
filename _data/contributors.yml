@@ -1947,7 +1947,6 @@
   packages-submitted:
   packages-reviewed:
   contributor_type:
-    - peer-review
     - metrics-contrib
   location: Seattle, WA
   organization: Fred Hutch
@@ -1966,7 +1965,6 @@
   packages-submitted:
   packages-reviewed:
   contributor_type:
-    - peer-review
     - metrics-contrib
   location: New York, New York
   organization: Bloomberg
@@ -1986,7 +1984,6 @@
   packages-submitted:
   packages-reviewed:
   contributor_type:
-    - peer-review
     - metrics-contrib
   location:
   organization:
