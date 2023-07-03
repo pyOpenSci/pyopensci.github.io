@@ -2023,7 +2023,6 @@
   packages-submitted:
   packages-reviewed:
   contributor_type:
-    - peer-review
     - metrics-contrib
     - web-contrib
   location: Gotham
