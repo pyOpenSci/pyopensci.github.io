@@ -19,7 +19,7 @@
   reviewer_2:
       github_username: bluegenes
       name: Tessa Pierce Ward
-  archive: [Zenodo Archive](https://zenodo.org/record/8105840)
+  archive: https://zenodo.org/record/8105840
   version_accepted: 0.4.0
   created_at: 2023-03-02T16:50:50Z
   updated_at: 2023-07-03T18:28:04Z
