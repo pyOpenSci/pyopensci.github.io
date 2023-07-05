@@ -1,3 +1,40 @@
+- package_name: taxpasta
+  package_description: TAXonomic Profile Aggregation and STAndardisation
+  submitting_author:
+      github_username: Midnighter
+      name: Moritz E. Beber
+  all_current_maintainers:
+    - github_username: sofstam
+      name: Sofia Stamouli
+    - github_username: jfy133
+      name: James A. Fellows Yates
+  repository_link: https://github.com/taxprofiler/taxpasta
+  version_submitted: 0.2.1
+  editor:
+      github_username: ctb
+      name: C. Titus Brown
+  reviewer_1:
+      github_username: snacktavish
+      name: Emily Jane McTavish
+  reviewer_2:
+      github_username: bluegenes
+      name: Tessa Pierce Ward
+  archive: [Zenodo Archive](https://zenodo.org/record/8105840)
+  version_accepted: 0.4.0
+  created_at: 2023-03-02T16:50:50Z
+  updated_at: 2023-07-03T18:28:04Z
+  gh_meta:
+      name: taxpasta
+      description: TAXnomic Profile Aggregation and STAndardisation
+      created_at: 06/03/2022
+      stargazers_count: 20
+      watchers_count: 20
+      forks: 7
+      open_issues_count: 9
+      forks_count: 7
+      documentation: https://taxpasta.readthedocs.io/
+      contrib_count: 5
+      last_commit: 07/02/2023
 - package_name: afscgap
   highlight: true
   package_description: Tools for analysis and inference in NOAA AFSC GAP marine
