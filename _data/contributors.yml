@@ -2211,3 +2211,18 @@
   location: Huntsville, AL, United States
   organization: '@hamma-dev @python @spyder-ide @star-fleet-tours'
   email: CAM.Gerlach@Gerlach.CAM
+- name: Teddy Groves
+  contributions:
+    - code
+  github_username: teddygroves
+  twitter: teddygroves
+  bio: Computational statistician at DTU Biosustain
+  orcidid: 0000-0002-7109-3270
+  packages-submitted:
+    - bibat
+  packages-reviewed:
+  contributor_type:
+    - contributor
+  location: Copenhagen, Denmark
+  organization: DTU biosustain
+  email: groves.teddy@gmail.com
