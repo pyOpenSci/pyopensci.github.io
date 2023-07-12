@@ -165,6 +165,16 @@
         "review",
         "code"
       ]
+    },
+    {
+      "login": "teddygroves",
+      "name": "Teddy Groves",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17163471?v=4",
+      "profile": "https://github.com/teddygroves",
+      "contributions": [
+        "code",
+        "review"
+      ]
     }
   ],
   "commitConvention": "angular",
