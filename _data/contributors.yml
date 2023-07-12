@@ -73,8 +73,8 @@
     -
   packages-reviewed:
     -
-  location: Boulder, Colorado
-  email:
+  location:
+  email: erinmr@gmail.com
 - name: Chris Holdgraf
   advisory: true
   bio: I work with Project Jupyter and other open communities to build tools and
@@ -490,9 +490,8 @@
   location: Davis, CA
   email:
 - name: Paige Bailey
-  bio: ✨ Keep it simple, and make it scale. AI should be about empowering users
-      and building understanding. @anyscale @ray-project 👩🏼‍💻 Lead | ex-@DeepMind
-      @Google
+  bio: ✨ Keep it simple, make it scale. AI should be about empowering users and
+      building understanding. 👩‍💻Product Lead (Generative Models) @DeepMind | ex-@GitHub
   organization: '@GitHub'
   github_username: dynamicwebpaige
   github_image_id: 3712347
@@ -505,7 +504,7 @@
   packages-editor:
     -
   twitter: dynamicwebpaige
-  website: https://paigevie.ws
+  website: https://webpaige.dev
   location: Seattle, WA
   email: paige.bailey@alumni.rice.edu
 - name: Carson Farmer
@@ -668,7 +667,7 @@
   email: rog32@hi.is
 - name: Morgan Williams
   bio:
-  organization: CSIRO
+  organization: CSIRO Mineral Resources
   github_username: morganjwilliams
   github_image_id: 11415019
   contributor_type:
@@ -1665,7 +1664,7 @@
   github_username: charlesll
   github_image_id: 6821569
   editorial-board:
-  twitter: charlesll
+  twitter: Charles_LeLosq
   mastodon:
   orcidid:
   website: https://charlesll.github.io/
@@ -1677,7 +1676,8 @@
   location: France
   email: lelosq@ipgp.fr
 - name: Wei Ji
-  bio: Geospatial Data Scientist. Towards cloud-native geospatial machine learning!
+  bio: Geospatial Data Scientist/ML Practitioner @developmentseed. Towards cloud-native
+      geospatial machine learning!
   organization: '@developmentseed'
   title:
   github_username: weiji14
@@ -2215,14 +2215,54 @@
   contributions:
     - code
   github_username: teddygroves
-  twitter: teddygroves
-  bio: Computational statistician at DTU Biosustain
+  twitter:
+  bio:
   orcidid: 0000-0002-7109-3270
   packages-submitted:
     - bibat
   packages-reviewed:
   contributor_type:
     - contributor
-  location: Copenhagen, Denmark
-  organization: DTU biosustain
+    - web-contrib
+  location:
+  organization:
   email: groves.teddy@gmail.com
+  website:
+  github_image_id: 17163471
+- name: James A. Fellows Yates
+  contributions:
+    - code
+    - review
+  github_username: jfy133
+  website:
+  github_image_id: 17950287
+  mastodon:
+  twitter: jfy133
+  bio: "Bioinformatician with specialism in ancient DNA and metagenomics. nf-core
+      core-team member and SPAAM community founder.\r\n\r\n@jfy133@genomic.social"
+  orcidid:
+  packages-submitted:
+  packages-reviewed:
+  contributor_type:
+    - community
+  location: Leipzig, Germany
+  organization: HKI Jena, MPI-EVA Leipzig
+  email: jfy133@gmail.com
+- name: Moritz E. Beber
+  contributions:
+    - code
+    - review
+  github_username: Midnighter
+  website:
+  github_image_id: 135653
+  mastodon:
+  twitter: me_beber
+  bio:
+  orcidid:
+  packages-submitted:
+  packages-reviewed:
+  contributor_type:
+    - community
+  location: Copenhagen, Denmark
+  organization:
+  email: midnighter@posteo.net
