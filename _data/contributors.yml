@@ -2266,3 +2266,19 @@
   location: Copenhagen, Denmark
   organization:
   email: midnighter@posteo.net
+- name: Szabolcs Horvát
+  contributions:
+    - review
+  github_username: szhorvat
+  github_image_id: 1212871
+  website: http://szhorvat.net
+  mastodon:
+  twitter: szhorvat
+  bio:
+  orcidid: 0000-0002-3100-523X
+  packages-reviewed:
+    - python-graphblas
+  packages-submitted:
+  location:
+  organization: Reykjavik University
+  email: szhorvat@gmail.com
