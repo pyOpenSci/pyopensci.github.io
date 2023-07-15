@@ -175,6 +175,16 @@
         "code",
         "review"
       ]
+    },
+    {
+      "login": "msarahan",
+      "name": "Mike Sarahan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/38393?v=4",
+      "profile": "https://github.com/msarahan",
+      "contributions": [
+        "code",
+        "review"
+      ]
     }
   ],
   "commitConvention": "angular",
