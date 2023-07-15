@@ -43,6 +43,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     </tr>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="http://thomasjpfan.com"><img src="https://avatars.githubusercontent.com/u/5402633?v=4?s=100" width="100px;" alt="Thomas J. Fan"/><br /><sub><b>Thomas J. Fan</b></sub></a><br /><a href="https://github.com/pyOpenSci/pyopensci.github.io/commits?author=thomasjpfan" title="Code">💻</a> <a href="https://github.com/pyOpenSci/pyopensci.github.io/pulls?q=is%3Apr+reviewed-by%3Athomasjpfan" title="Reviewed Pull Requests">👀</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://szhorvat.net/"><img src="https://avatars.githubusercontent.com/u/1212871?v=4?s=100" width="100px;" alt="Szabolcs Horvát"/><br /><sub><b>Szabolcs Horvát</b></sub></a><br /><a href="https://github.com/pyOpenSci/pyopensci.github.io/commits?author=szhorvat" title="Code">💻</a> <a href="https://github.com/pyOpenSci/pyopensci.github.io/pulls?q=is%3Apr+reviewed-by%3Aszhorvat" title="Reviewed Pull Requests">👀</a></td>
     </tr>
   </tbody>
 </table>
