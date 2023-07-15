@@ -41,6 +41,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/teddygroves"><img src="https://avatars.githubusercontent.com/u/17163471?v=4?s=100" width="100px;" alt="Teddy Groves"/><br /><sub><b>Teddy Groves</b></sub></a><br /><a href="https://github.com/pyOpenSci/pyopensci.github.io/commits?author=teddygroves" title="Code">💻</a> <a href="https://github.com/pyOpenSci/pyopensci.github.io/pulls?q=is%3Apr+reviewed-by%3Ateddygroves" title="Reviewed Pull Requests">👀</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/msarahan"><img src="https://avatars.githubusercontent.com/u/38393?v=4?s=100" width="100px;" alt="Mike Sarahan"/><br /><sub><b>Mike Sarahan</b></sub></a><br /><a href="https://github.com/pyOpenSci/pyopensci.github.io/commits?author=msarahan" title="Code">💻</a> <a href="https://github.com/pyOpenSci/pyopensci.github.io/pulls?q=is%3Apr+reviewed-by%3Amsarahan" title="Reviewed Pull Requests">👀</a></td>
     </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="http://thomasjpfan.com"><img src="https://avatars.githubusercontent.com/u/5402633?v=4?s=100" width="100px;" alt="Thomas J. Fan"/><br /><sub><b>Thomas J. Fan</b></sub></a><br /><a href="https://github.com/pyOpenSci/pyopensci.github.io/commits?author=thomasjpfan" title="Code">💻</a> <a href="https://github.com/pyOpenSci/pyopensci.github.io/pulls?q=is%3Apr+reviewed-by%3Athomasjpfan" title="Reviewed Pull Requests">👀</a></td>
+    </tr>
   </tbody>
 </table>
 
