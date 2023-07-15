@@ -1,8 +1,8 @@
 <article>
-<a href="{{ post.url}}">
+<a href="{{ post.url | relative_url l}}">
 <div class="cards">
     {% if post.feature_img %}
-    <img src="{{ post.feature_img }}" alt="{{ post.feature_alt }}">
+    <img src="{{ post.feature_img | relative_url }}" alt="{{ post.feature_alt }}">
     {% endif %}
 
     <div class="card__bkg">
