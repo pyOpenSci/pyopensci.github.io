@@ -9,15 +9,20 @@ on:
     # Runs on the first of each month (see https://crontab.guru)
     - cron: "* * 1 * *"
 jobs:
-  run-meta:
+  get-code:
     runs-on: ubuntu-latest
     steps:
       - name: Check out the code
         uses: actions/checkout@v3
-      - name: Run update-web-metadata script
-        uses: pyOpenSci/update-web-metadata/.github/workflows/run-script.yml@main
-        with:
-          script_name_with_args: parse_issue_metadata.py
+  run-meta:
+    needs: get-code
+    uses: pyOpenSci/update-web-metadata/.github/workflows/run-script.yml@main
+    with:
+      script_name_with_args: parse_issue_metadata.py
+  send-pr:
+    runs-on: ubuntu-latest
+    needs: run-meta
+    steps:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
         with:
