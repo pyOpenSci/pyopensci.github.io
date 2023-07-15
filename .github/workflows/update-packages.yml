@@ -14,7 +14,8 @@ jobs:
     steps:
       - name: Check out the code
         uses: actions/checkout@v3
-      - uses: pyOpenSci/update-web-metadata/.github/workflows/run-script.yml@main
+      - name: Run update-web-metadata script
+        uses: pyOpenSci/update-web-metadata/.github/workflows/run-script.yml@main
         with:
           script_name_with_args: parse_issue_metadata.py
       - name: Create Pull Request
