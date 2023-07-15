@@ -1,0 +1,24 @@
+version: 2.1
+
+jobs:
+  build:
+    docker:
+      - image: cimg/ruby:3.2.2
+    steps:
+      - checkout
+      - run:
+          name: Install dependencies
+          command: bundle install
+      - run:
+          name: Jekyll build
+          command: |
+            bundle exec jekyll build --baseurl /output/job/$CIRCLE_WORKFLOW_JOB_ID/artifacts/0/_site
+      - store_artifacts:
+          path: _site
+          destination: _site
+
+workflows:
+  version: 2
+  build:
+    jobs:
+      - build
