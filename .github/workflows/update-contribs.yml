@@ -11,21 +11,9 @@ jobs:
     steps:
       - name: Check out the code
         uses: actions/checkout@v3
-      - name: Setup Python
-        uses: actions/setup-python@v4
+      - uses: pyOpenSci/update-web-metadata/.github/workflows/run-script.yml@main
         with:
-          python-version: "3.10"
-      - name: Upgrade pip
-        run: |
-          # install pip=>20.1 to use "pip cache dir"
-          python -m pip install --upgrade pip wheel
-      - name: Install pyosmeta and run update contribs
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          pip install pyosmeta@git+https://github.com/pyopensci/update-web-metadata
-          echo "$PWD"
-          python -b -W default scripts/parse-contributors.py
+          script_name_with_args: parse-contributors.py
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
         with:
