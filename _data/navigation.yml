@@ -5,7 +5,7 @@ main:
     sub-nav:
       - title: "About peer review"
         icon:
-        url: "/about-peer-review/"
+        url: "/about-peer-review/index.html"
       - title: "Peer review guide"
         url: "https://www.pyopensci.org/software-peer-review/"
         icon: "fas fa-external-link-alt"
@@ -14,15 +14,15 @@ main:
         icon: "fas fa-external-link-alt"
   - title: "Our packages"
     icon: "fas fa-fw fa-envelope-square"
-    url: "/python-packages/"
+    url: "/python-packages/index.html"
   - title: "Blog"
-    url: /blog/
+    url: "/blog/index.html"
   # - title: "Resources"
   #   url: /resources/
   - title: "Community"
     sub-nav:
       - title: "Our Community"
-        url: "/our-community/"
+        url: "/our-community/index.html"
       - title: "Governance"
         icon: "fas fa-external-link-alt"
         url: "https://www.pyopensci.org/governance/"
