@@ -2,6 +2,9 @@ name: Update Packages
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - 'ci-update-packages-yml'
   schedule:
     # Runs on the first of each month (see https://crontab.guru)
     - cron: "* * 1 * *"
