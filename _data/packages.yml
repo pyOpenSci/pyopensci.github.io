@@ -1,4 +1,5 @@
 - package_name: bibat
+  highlight: true
   package_description: Batteries-included Bayesian analysis template
   submitting_author:
       github_username: teddygroves
@@ -21,6 +22,7 @@
       description: Batteries-included Bayesian analysis template
       documentation: https://bibat.readthedocs.io/
 - package_name: taxpasta
+  highlight: true
   package_description: TAXonomic Profile Aggregation and STAndardisation
   submitting_author:
       github_username: Midnighter
