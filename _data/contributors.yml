@@ -1537,7 +1537,7 @@
   twitter: boas_pucker
   mastodon:
   orcidid:
-  website: https://www.tu-braunschweig.de/en/ifp/pbb
+  website:
   contributor_type:
   packages-editor:
   packages-submitted:
@@ -2271,16 +2271,143 @@
     - review
   github_username: szhorvat
   github_image_id: 1212871
-  website: http://szhorvat.net
+  website:
   mastodon:
-  twitter: szhorvat
-  bio:
+  twitter:
+  bio: physicist at Center for Systems Biology Dresden
   orcidid: 0000-0002-3100-523X
   packages-editor:
   packages-reviewed:
     - python-graphblas
   packages-submitted:
   contributor_type:
+    - web-contrib
   location:
-  organization: Reykjavik University
+  organization:
   email: szhorvat@gmail.com
+- name: ruoxi
+  contributions:
+    - code
+    - review
+  github_username: yang-ruoxi
+  website:
+  github_image_id: 13646711
+  mastodon:
+  twitter:
+  bio: 'Computational materials scientist '
+  orcidid:
+  packages-submitted:
+  packages-reviewed:
+  contributor_type:
+    - guidebook-contrib
+  location:
+  organization:
+  email:
+- name: P. L. Lim
+  contributions:
+    - code
+    - review
+  github_username: pllim
+  website:
+  github_image_id: 2090236
+  mastodon:
+  twitter:
+  bio: My views and opinions are my own and do not represent my employer's.
+  orcidid:
+  packages-submitted:
+  packages-reviewed:
+  contributor_type:
+    - guidebook-contrib
+  location: Baltimore, MD, USA
+  organization: Space Telescope Science Institute
+  email:
+- name: Nick Murphy
+  contributions:
+    - code
+    - review
+  github_username: namurphy
+  website: https://orcid.org/0000-0001-6628-8033
+  github_image_id: 8931994
+  mastodon:
+  twitter:
+  bio: '"Never go up against a plasma physicist when puns are on the line."'
+  orcidid:
+  packages-submitted:
+  packages-reviewed:
+  contributor_type:
+    - guidebook-contrib
+  location: Cambridge, Massachusetts, USA
+  organization: Center for Astrophysics | Harvard & Smithsonian
+  email: namurphy@cfa.harvard.edu
+- name: Hans Moritz Günther
+  contributions:
+    - code
+    - review
+  github_username: hamogu
+  website:
+  github_image_id: 498688
+  mastodon:
+  twitter:
+  bio:
+  orcidid:
+  packages-submitted:
+  packages-reviewed:
+  contributor_type:
+    - guidebook-contrib
+  location: Cambridge, MA, USA
+  organization: MIT
+  email:
+- name: g-patlewicz
+  contributions:
+    - code
+    - review
+  github_username: g-patlewicz
+  website:
+  github_image_id: 52672925
+  mastodon:
+  twitter:
+  bio:
+  orcidid:
+  packages-submitted:
+  packages-reviewed:
+  contributor_type:
+    - guidebook-contrib
+  location:
+  organization:
+  email:
+- name: Mike Sarahan
+  contributions:
+    - code
+    - review
+  github_username: msarahan
+  website:
+  github_image_id: 38393
+  mastodon:
+  twitter:
+  bio:
+  orcidid:
+  packages-submitted:
+  packages-reviewed:
+  contributor_type:
+    - web-contrib
+  location: Austin, TX
+  organization: '@posit-pbc'
+  email: msarahan@gmail.com
+- name: Thomas J. Fan
+  contributions:
+    - code
+    - review
+  github_username: thomasjpfan
+  website: https://thomasjpfan.com
+  github_image_id: 5402633
+  mastodon:
+  twitter: thomasjpfan
+  bio: Staff Software Engineer at Quansight Labs, @scikit-learn maintainer
+  orcidid:
+  packages-submitted:
+  packages-reviewed:
+  contributor_type:
+    - web-contrib
+  location: New York City
+  organization: '@Quansight-Labs '
+  email: thomasjpfan@gmail.com
