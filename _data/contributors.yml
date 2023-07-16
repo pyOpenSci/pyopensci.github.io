@@ -2276,9 +2276,11 @@
   twitter: szhorvat
   bio:
   orcidid: 0000-0002-3100-523X
+  packages-editor:
   packages-reviewed:
     - python-graphblas
   packages-submitted:
+  contributor_type:
   location:
   organization: Reykjavik University
   email: szhorvat@gmail.com
