@@ -18,7 +18,7 @@ jobs:
     needs: get-code
     uses: pyOpenSci/update-web-metadata/.github/workflows/run-script.yml@main
     with:
-      script_name_with_args: parse_issue_metadata.py
+      script_name_with_args: parse-issue-metadata
   send-pr:
     runs-on: ubuntu-latest
     needs: run-meta
