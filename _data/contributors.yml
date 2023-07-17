@@ -986,17 +986,16 @@
   github_username: sneakers-the-rat
   website: https://jon-e.net
   github_image_id: 12961499
-  mastodon:
   twitter: json_dirs
-  bio: Bad at programming in beautiful Oregon
-  orcidid:
+  mastodon: https://neuromatch.social/@jonny
+  orcidid: 0000-0003-0545-5066
+  bio: Information liberation is for the children <3
   contributor_type:
     - guidebook-contrib
+  email: j@nny.fyi
   packages-submitted:
   packages-reviewed:
-  location:
-  organization:
-  email:
+    - python-graphblas
 - name: Randy Döring
   contributions:
     - code
