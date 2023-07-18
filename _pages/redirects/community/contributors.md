@@ -1,6 +1,6 @@
 ---
 title: pyOpenSci Team & Contributors
-permalink: /contributors/.
+permalink: /contributors/
 redirect_to: https://www.pyopensci.org/our-community/
 ---
 
