@@ -225,6 +225,16 @@
         "code",
         "review"
       ]
+    },
+    {
+      "login": "rickynilsson",
+      "name": "Ricky Nilsson",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12720117?v=4",
+      "profile": "https://rickynilsson.github.io",
+      "contributions": [
+        "code",
+        "review"
+      ]
     }
   ],
   "commitConvention": "angular",
