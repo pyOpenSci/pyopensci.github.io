@@ -124,7 +124,7 @@ Tip: a pull request, known as a "pr", represents a set of suggested changes to a
 
 **Mike Sarahan:** Mike tackled our automated workflow that tracks contributors across our GitHub repositories and also that tracks packages, reviewers and editors in our review process.
 
-- **ruoxi** Submitted an issue surrounding a rendering issue with our packaging guide in the Safari browser.
+- **ruoxi** Submitted an issue surrounding a rendering issue with our packaging guide in the Safari browser. And also a [pull request updating text around our partnership](https://github.com/pyOpenSci/software-peer-review/pull/232/files) with the Journal of Open Source Software (JOSS) where they accept our review as theirs and only review your paper.
 - [**Grace** Grace made her first, second, third ...seventh!! pull requests ever fixing typos in our peer review guide](https://github.com/pyOpenSci/software-peer-review/pulls/g-patlewicz)
 
 * [**Ricky** - Url redirect fixes on website](https://github.com/pyOpenSci/pyopensci.github.io/pull/235)
