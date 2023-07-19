@@ -10,20 +10,22 @@ on:
     # Runs on the first of each month (see https://crontab.guru)
     - cron: "* * 1 * *"
 jobs:
-  # Reusable workflows can't be nested -
-  # https://stackoverflow.com/questions/71311762/reusable-workflows-should-be-referenced-at-the-top-level-jobs-uses-key-not
   checkout-repo:
     runs-on: ubuntu-latest
     steps:
       - name: Check out the code
         uses: actions/checkout@v3
+  # Reusable workflows can't be nested -
+  # https://stackoverflow.com/questions/71311762/reusable-workflows-should-be-referenced-at-the-top-level-jobs-uses-key-not
   # Not sure if this is correct as how does the reusable workflow actually get
   # triggered above?
   call-action:
     uses: pyOpenSci/update-web-metadata/.github/workflows/run-script.yml@main
     with:
       script_name_with_args: parse-contributors
+
   create-pr:
+    steps:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
         with:
