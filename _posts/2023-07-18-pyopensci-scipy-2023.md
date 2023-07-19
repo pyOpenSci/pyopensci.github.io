@@ -56,7 +56,8 @@ a shark attack on yours truly from Madicken.
 Of course also watch to hear my 4 minute overview of what pyOpenSci is all
 about.
 
-...INSERT VIDEO HERE...
+Once the videos are ready I will add the video of my talk to this blog post! ...INSERT VIDEO HERE...
+{: .notice }
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/pyOpenSci?ref_src=twsrc%5Etfw">@pyOpenSci</a> got the cutest slides at the lighting talk @SciPyCon <a href="https://twitter.com/hashtag/SciPy2023?src=hash&amp;ref_src=twsrc%5Etfw">#SciPy2023</a> <a href="https://t.co/ZXleLpdkqB">pic.twitter.com/ZXleLpdkqB</a></p>&mdash; Cheuk Ting Ho (@cheukting_ho) <a href="https://twitter.com/cheukting_ho/status/1679962465508147200?ref_src=twsrc%5Etfw">July 14, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
