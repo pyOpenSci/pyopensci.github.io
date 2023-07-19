@@ -6,6 +6,17 @@
    Typography
    ========================================================================== */
 
+/* font weights */
+$weight-1: 100;
+$thin-weight: 200;
+$weight-3: 300;
+$weight-4:   400;
+$weight-5:   500;
+$semibold-weight: 600;
+$bold-weight:     700;
+$xbold-weight:    800;
+$black-weight:    900;
+
 $doc-font-size: 15 !default;
 
 /* paragraph indention */
@@ -29,11 +40,13 @@ $bodoni: "Bodoni MT", serif !default;
 $calisto: "Calisto MT", serif !default;
 $garamond: Garamond, serif !default;
 
-$global-font-family: $sans-serif !default;
+$global-font-family: $sans-serif!default;
 $header-font-family: 'Itim', cursive, $sans-serif !default;
 $caption-font-family: $serif !default;
 $header-font: 'Itim', cursive;
 $body-font: 'Poppins', sans-serif!default;//'Open Sans', sans-serif;
+
+
 
 /* type scale */
 $type-size-1: 2.441em !default; // ~39.056px
@@ -47,8 +60,8 @@ $type-size-8: 0.625em !default; // ~10px
 
 /* headline scale */
 $h-size-1: 1.563em !default; // ~25.008px
-$h-size-2: 1.45em !default; // ~20px H2 tag increased to 1.45 (1.25 origin)
-$h-size-3: 1.125em !default; // ~18px
+$h-size-2: 1.85em !default; // ~20px H2 tag increased to 1.45 (1.25 origin)
+$h-size-3: 1.45em !default; // ~18px
 $h-size-4: 1.0625em !default; // ~17px
 $h-size-5: 1.03125em !default; // ~16.5px
 $h-size-6: 1em !default; // ~16px
@@ -61,7 +74,7 @@ $nav-hover-color: #8d0065;
 $background-block: #d6cfde;
 
 $gray: #24052f !default;
-$dark-gray: mix(#000, $gray, 50%) !default;
+$dark-gray: #4c454e !default;
 $darker-gray: mix(#000, $gray, 60%) !default;
 $light-gray: mix(#fff, $gray, 50%) !default;
 $lighter-gray: mix(#fff, $gray, 90%) !default;
