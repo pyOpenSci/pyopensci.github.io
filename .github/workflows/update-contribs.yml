@@ -12,7 +12,7 @@ on:
 jobs:
   # Reusable workflows can't be nested -
   # https://stackoverflow.com/questions/71311762/reusable-workflows-should-be-referenced-at-the-top-level-jobs-uses-key-not
-  checkout:
+  call-action:
     - uses: pyOpenSci/update-web-metadata/.github/workflows/run-script.yml@main
       with:
         script_name_with_args: parse-contributors
