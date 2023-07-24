@@ -1,18 +1,35 @@
 # pyopensci.github.io
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
 [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors)
+[![pages-build-deployment](https://github.com/pyOpenSci/pyopensci.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/pyOpenSci/pyopensci.github.io/actions/workflows/pages/pages-build-deployment)
 
-This is the website for pyOpenSci. Contributions welcome!!
+This repo contains the source code for the [pyOpenSci.org](https://pyopensci.org) website. Contributions are welcome. Thank you [**pyOpenSci contributors**](#contributors-✨)!!
 
-## Development Environment
+## Getting Started
 
-If you want to contribute to the pyopensci website and you wish to test your changes locally prior to submitting a pr,
-do the following.
+Please explore [the site](https://pyopensci.org) and let us know what your think. If you find a bug or have
+a suggestion for a new feature, [open an issue](https://github.com/pyOpenSci/pyopensci.github.io/issues).
 
-1. You will need to have ruby and bundler installed on your machine.
+## Next Steps
+
+If you are interested in contributing to the pyOpenSci website, please read about
+how we work in [**pyOpenSci's organization-wide contributing guide**](https://www.pyopensci.org/governance/CONTRIBUTING.html). 
+Also, review the [CONTRIBUTING.md](./CONTRIBUTING.md)
+file if you plan to contribute to the **Python Packaging Guide**.
+
+## Installation and Development
+
+Have you decided to contribute? We use the [Jekyll framework](https://jekyllrb.org)
+for creating this site. To set up a **development environment** and **run the site locally**, follow these steps:
+
+1. Install ruby and bundler on your machine. See [the Jekyll docs](https://jekyllrb.com/docs/installation/) for instructions, if needed.
 2. Fork and clone this repository.
-3. Run `bundle install` in the root of this repository directory to install of the gems needed to run the site locally
-4. Once bundle install is complete, `bundle exec jekyll serve` will create a local host that you can use to run and view the site on your computer locally.
+3. Run `bundle install` in the root of the cloned repository directory. This will
+   install the gems needed to run the site locally.
+4. Run `bundle exec jekyll serve` to start the jekyll web server.
+5. Open your browser and navigate to `http://127.0.0.1:4000/`.
+
+Please test your changes locally prior to submitting a pull request (PR).
 
 ## Contributors ✨
 
