@@ -13,7 +13,7 @@ a suggestion for a new feature, [open an issue](https://github.com/pyOpenSci/pyo
 ## Next Steps
 
 If you are interested in contributing to the pyOpenSci website, please read about
-how we work in [**pyOpenSci's organization-wide contributing guide**](https://www.pyopensci.org/governance/CONTRIBUTING.html). 
+how we work in [**pyOpenSci's organization-wide contributing guide**](https://www.pyopensci.org/governance/CONTRIBUTING.html).
 Also, review the [CONTRIBUTING.md](./CONTRIBUTING.md)
 file if you plan to contribute to the **Python Packaging Guide**.
 
