@@ -29,8 +29,7 @@ in the `pyOpenSci/python-package-guide`repo.
 ### Peer Review Guide
 
 The Peer Review Guide is a guide for authors who are interested in submitting a
-package to pyOpenSci for peer review. The guide is built using Jupyter Book,
-a static site generator for Jupyter Notebooks. If you are interested in
+package to pyOpenSci for peer review. The guide is built using the pyDataSphinx theme for sphinx, which is a a static site generator. If you are interested in
 contributing to the Peer Review Guide, please see the
 [`README.md`](https://github.com/pyOpenSci/software-peer-review/blob/main/README.md)
 in the `pyOpenSci/software-peer-review` repo.
