@@ -37,9 +37,11 @@ pyOpenSci represents everything that matters most to me:
 I am not used to going into a meeting with no specific plans and obligations.
 While pyOpenSci didn't get a talk or a community session / BoF this year, we
 did get a lightning talk! It was a randomized selection, and I threw my name
-into the bucket with fingers crossed.
+into the bucket (literally) with fingers crossed that i'd get a lightning talk.
 
 And on the final day of the meeting, I was selected to present!
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/pyOpenSci?ref_src=twsrc%5Etfw">@pyOpenSci</a> got the cutest slides at the lighting talk @SciPyCon <a href="https://twitter.com/hashtag/SciPy2023?src=hash&amp;ref_src=twsrc%5Etfw">#SciPy2023</a> <a href="https://t.co/ZXleLpdkqB">pic.twitter.com/ZXleLpdkqB</a></p>&mdash; Cheuk Ting Ho (@cheukting_ho) <a href="https://twitter.com/cheukting_ho/status/1679962465508147200?ref_src=twsrc%5Etfw">July 14, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## The shark attack - my lightning talk about pyOpenSci
 
@@ -48,18 +50,12 @@ moderators will often "play" with those presenting.
 
 Puns are always pervasive and community embraced!
 
-And often the moderators will play around with presenters.
 This year there was a "sea" theme featuring sharks and crab claws. 😂 Watch
 below as the session is started with a crab claw pun by Paul followed up with
-a shark attack on yours truly from Madicken.
+a shark attack on yours truly from [Madicken](https://github.com/munkm/). You will also learn about the
+pyOpenSci mission and vision.
 
-Of course also watch to hear my 4 minute overview of what pyOpenSci is all
-about.
-
-Once the videos are ready I will add the video of my talk to this blog post! ...INSERT VIDEO HERE...
-{: .notice }
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/pyOpenSci?ref_src=twsrc%5Etfw">@pyOpenSci</a> got the cutest slides at the lighting talk @SciPyCon <a href="https://twitter.com/hashtag/SciPy2023?src=hash&amp;ref_src=twsrc%5Etfw">#SciPy2023</a> <a href="https://t.co/ZXleLpdkqB">pic.twitter.com/ZXleLpdkqB</a></p>&mdash; Cheuk Ting Ho (@cheukting_ho) <a href="https://twitter.com/cheukting_ho/status/1679962465508147200?ref_src=twsrc%5Etfw">July 14, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/vJpH-ctvPoU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Sprints - my new favorite part of every meeting
 
@@ -82,7 +78,7 @@ This was the second sprint that i've lead with the [first being at pyCon US 2023
 
 ### An organized list of tasks is key for any sprint
 
-My friend, colleague and [esteemed pyOpenSci advisory council member,](https://www.pyopensci.org/our-community/index.html#pyopensci-advisory-council) Innessa Pawson taught me
+My friend, colleague and [esteemed pyOpenSci advisory council member,](https://www.pyopensci.org/our-community/index.html#pyopensci-advisory-council) [Inessa Pawson](https://github.com/InessaPawson) taught me
 that:
 
 1. It's best to go into a sprint with an organized set of help-wanted issues.
@@ -142,7 +138,7 @@ In case you are curious, most of the pull requests submitted during the sprint t
 I left before day two of the sprints. However, that did not stop
 the community from continuing to sprint and contribute to
 pyOpenSci! People continued to work additional
-website fixes that were on our project board but didn't get tackled on Saturday.
+website fixes that were still open our project board.
 
 ### Lessons learned from SciPy 2023
 
@@ -213,7 +209,8 @@ vibrant and uplifting environment that we've created together.
 I'll keep pushing forward, knowing that this beautiful journey is just the
 beginning.
 
-Thank you, SciPy for supporting me and reinforcing the fact that I made the right decision!
+Thank you, SciPy for supporting me and reinforcing the fact that I made the right decision! And i'd be remiss if I didn't also thank the pyOpenSci community
+that is truly bring pyOpenSci's vision to life.
 
 ## Wrapping up
 
