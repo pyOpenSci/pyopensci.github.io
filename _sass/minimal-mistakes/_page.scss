@@ -84,13 +84,18 @@ body {
 
 .page__lead {
   font-family: $global-font-family;
-  font-size: $type-size-4;
+  font-size: $type-size-5;
+  font-weight: $weight-3;
 }
 
 .page__content {
+  p {
+    max-width: 900px;
+    font-weight: $weight-4;
+  }
   h2 {
-    padding-bottom: 0.5em;
-    border-bottom: 1px solid $border-color;
+    padding-bottom: 0.2em;
+    border-bottom: 3px solid $border-color;
   }
 
 	h1, h2, h3, h4, h5, h6 {
