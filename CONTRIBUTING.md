@@ -1,11 +1,37 @@
-# Contributing Guide for the Python open source software packaging book
+# Contributing to pyOpenSci
 
-Important! Before contributing to this repository, please be sure to review
-our [organization-wide contributing guide](https://www.pyopensci.org/governance/CONTRIBUTING.html) which contains guidelines for
-contributions.
+## Organization
 
-This is a community resource. We welcome contributions in the form of issues and/or pull requests to this guide.
+If you are interested in contributing to pyOpenSci, please read about
+how we work in [**pyOpenSci's organization-wide contributing guide**](https://www.pyopensci.org/governance/CONTRIBUTING.html).
 
-- If you have an idea for something that should be included in the guide, [please open an issue here](https://github.com/pyOpenSci/pyopensci.github.io/issues).
-- If you find a typo, feel free to [submit a pull request](https://github.com/pyOpenSci/pyopensci.github.io/pulls) to modify the text directly. Or, if you are less comfortable with pull requests, feel free to open an issue.
-- If you want to see a larger change to the content of the guide book, please submit an issue first!
+## Repositories
+
+If you are interested in contributing to a specific repository, please review
+the `README.md` and `CONTRIBUTING.md` files in the repository. If you have any
+questions, please open an issue in the repository or contact us via Slack.
+
+### pyOpenSci Website
+
+This repository, `pyopensci/pyopensci.github.io` contains the source code
+for the pyOpenSci website. The website is built using Jekyll, a static site
+generator. If you are interested in contributing HTML, CSS, or JavaScript, this
+is a good place to start.
+
+### Python Package Guide
+
+The Python Package Guide is a guide for scientific authors who are interested in creating
+a Python package. The guide is built using Jupyter Book, a static site generator
+for Jupyter Notebooks. If you are interested in contributing to the Python
+Package Guide, please see the
+[`README.md`](https://github.com/pyOpenSci/python-package-guide/blob/main/README.md)
+in the `pyOpenSci/python-package-guide`repo.
+
+### Peer Review Guide
+
+The Peer Review Guide is a guide for authors who are interested in submitting a
+package to pyOpenSci for peer review. The guide is built using Jupyter Book,
+a static site generator for Jupyter Notebooks. If you are interested in
+contributing to the Peer Review Guide, please see the
+[`README.md`](https://github.com/pyOpenSci/software-peer-review/blob/main/README.md)
+in the `pyOpenSci/software-peer-review` repo.
