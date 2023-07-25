@@ -20,9 +20,8 @@ is a good place to start.
 
 ### Python Package Guide
 
-The Python Package Guide is a guide for scientific authors who are interested in creating
-a Python package. The guide is built using Jupyter Book, a static site generator
-for Jupyter Notebooks. If you are interested in contributing to the Python
+The Python Package Guide listed on our website, is a guide for scientific authors who are interested in creating
+a Python package. The guide is built using the pyDataSphinx theme for sphinx, which is a a static site generator. If you are interested in contributing to the Python
 Package Guide, please see the
 [`README.md`](https://github.com/pyOpenSci/python-package-guide/blob/main/README.md)
 in the `pyOpenSci/python-package-guide`repo.
