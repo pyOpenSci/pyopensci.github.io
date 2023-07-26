@@ -1,9 +1,9 @@
 name: Update Contribs & reviewers
 
 on:
-  push:
+  pull_request:
     branches:
-      - *
+      - '*'
   workflow_dispatch:
   schedule:
     # Runs on the first of each month (see https://crontab.guru)
