@@ -1,39 +1,39 @@
-name: Update Packages
+# name: Update Packages
 
-on:
-  workflow_dispatch:
-  push:
-    branches:
-      - 'ci-update-packages-yml'
-  schedule:
-    # Runs on the first of each month (see https://crontab.guru)
-    - cron: "* * 1 * *"
-jobs:
-  get-code:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Check out the code
-        uses: actions/checkout@v3
-  run-meta:
-    needs: get-code
-    uses: pyOpenSci/update-web-metadata/.github/workflows/run-script.yml@main
-    with:
-      script_name_with_args: parse-review-issues
-  send-pr:
-    runs-on: ubuntu-latest
-    needs: run-meta
-    steps:
-      - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v5
-        with:
-          add-paths: _data/packages.yml
-          author: Leah <leah@pyopensci.org>
-          base: main
-          branch: packages-update
-          commit-message: "Update: Package file update"
-          delete-branch: true
-          title: Update new packages
-        env:
-          # Custom token needed to trigger PR checks, as GITHUB_TOKEN won't
-          # https://github.com/peter-evans/create-pull-request/blob/main/docs/concepts-guidelines.md#triggering-further-workflow-runs
-          GITHUB_TOKEN: ${{ secrets.PYOS_PR_TOKEN }}
+# on:
+#   workflow_dispatch:
+#   push:
+#     branches:
+#       - 'ci-update-packages-yml'
+#   schedule:
+#     # Runs on the first of each month (see https://crontab.guru)
+#     - cron: "* * 1 * *"
+# jobs:
+#   get-code:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Check out the code
+#         uses: actions/checkout@v3
+#   run-meta:
+#     needs: get-code
+#     uses: pyOpenSci/update-web-metadata/.github/workflows/run-script.yml@main
+#     with:
+#       script_name_with_args: parse-review-issues
+#   send-pr:
+#     runs-on: ubuntu-latest
+#     needs: run-meta
+#     steps:
+#       - name: Create Pull Request
+#         uses: peter-evans/create-pull-request@v5
+#         with:
+#           add-paths: _data/packages.yml
+#           author: Leah <leah@pyopensci.org>
+#           base: main
+#           branch: packages-update
+#           commit-message: "Update: Package file update"
+#           delete-branch: true
+#           title: Update new packages
+#         env:
+#           # Custom token needed to trigger PR checks, as GITHUB_TOKEN won't
+#           # https://github.com/peter-evans/create-pull-request/blob/main/docs/concepts-guidelines.md#triggering-further-workflow-runs
+#           GITHUB_TOKEN: ${{ secrets.PYOS_PR_TOKEN }}

@@ -1,31 +1,31 @@
-name: Update Contributors
+# name: Update Contributors
 
-on:
-  workflow_dispatch:
-  schedule:
-    # Runs on the first of each month (see https://crontab.guru)
-    - cron: "* * 1 * *"
-jobs:
-  run-meta:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Check out the code
-        uses: actions/checkout@v3
-      - name: Run update-web-metadata script
-        uses: pyOpenSci/update-web-metadata/.github/workflows/run-script.yml@main
-        with:
-          script_name_with_args: parse-contributors
-      - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v5
-        with:
-          add-paths: _data/contributors.yml
-          author: Leah <leah@pyopensci.org>
-          base: main
-          branch: contribs
-          commit-message: "Update: Contributor file update"
-          delete-branch: true
-          title: Update new contributors
-        env:
-          # Custom token needed to trigger PR checks, as GITHUB_TOKEN won't
-          # https://github.com/peter-evans/create-pull-request/blob/main/docs/concepts-guidelines.md#triggering-further-workflow-runs
-          GITHUB_TOKEN: ${{ secrets.PYOS_PR_TOKEN }}
+# on:
+#   workflow_dispatch:
+#   schedule:
+#     # Runs on the first of each month (see https://crontab.guru)
+#     - cron: "* * 1 * *"
+# jobs:
+#   run-meta:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Check out the code
+#         uses: actions/checkout@v3
+#       - name: Run update-web-metadata script
+#         uses: pyOpenSci/update-web-metadata/.github/workflows/run-script.yml@main
+#         with:
+#           script_name_with_args: parse-contributors
+#       - name: Create Pull Request
+#         uses: peter-evans/create-pull-request@v5
+#         with:
+#           add-paths: _data/contributors.yml
+#           author: Leah <leah@pyopensci.org>
+#           base: main
+#           branch: contribs
+#           commit-message: "Update: Contributor file update"
+#           delete-branch: true
+#           title: Update new contributors
+#         env:
+#           # Custom token needed to trigger PR checks, as GITHUB_TOKEN won't
+#           # https://github.com/peter-evans/create-pull-request/blob/main/docs/concepts-guidelines.md#triggering-further-workflow-runs
+#           GITHUB_TOKEN: ${{ secrets.PYOS_PR_TOKEN }}
