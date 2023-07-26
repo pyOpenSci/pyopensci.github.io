@@ -1,9 +1,7 @@
 name: Update Contributors
 
 on:
-  push:
-    branches:
-      - fix-workflows
+  push
   workflow_dispatch:
   schedule:
     # Runs on the first of each month (see https://crontab.guru)
