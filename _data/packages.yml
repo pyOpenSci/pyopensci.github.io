@@ -636,7 +636,7 @@
       forks: 181
       open_issues_count: 42
       forks_count: 181
-      documentation: http://movingpandas.org
+      documentation: https://movingpandas.org
       contrib_count: 30
       last_commit: 07-22-2023
 - package_name: pandera
