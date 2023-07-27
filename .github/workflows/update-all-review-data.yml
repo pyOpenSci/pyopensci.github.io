@@ -1,5 +1,5 @@
 name: ALL Contribs & Reviewers Update
-# Update all contributor and review data from Github api and issues (the other workflow just adds any new missing data but won't repopulate things like date accepted, or user data that may have changed in people's profiles. 
+# Update all contributor and review data from Github api and issues (the other workflow just adds any new missing data but won't repopulate things like date accepted, or user data that may have changed in people's profiles.
 on:
   workflow_dispatch:
 jobs:
