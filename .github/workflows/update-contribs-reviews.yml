@@ -1,13 +1,10 @@
 name: Update Contribs & reviewers
 
 on:
-  pull_request:
-    branches:
-      - '*'
   workflow_dispatch:
   schedule:
-    # Runs on the first of each month (see https://crontab.guru)
-    - cron: "* * 1 * *"
+    # Runs every other Sunday at 00:00 UTC (see https://crontab.guru)
+    - cron: "0 0 * * 0/2"
 jobs:
   run-meta:
     runs-on: ubuntu-latest
