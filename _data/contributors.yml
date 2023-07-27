@@ -15,6 +15,10 @@
     - editor
     - package-maintainer
     - guidebook-contrib
+    - package-guide
+    - peer-review
+    - submitting-author
+    - maintainer
   packages-editor:
     - errdapy
     - pandera
@@ -24,7 +28,7 @@
   packages-submitted:
     - earthpy
   packages-reviewed:
-    -
+    - 
   location: United States
   email: leah@pyopensci.org
 - name: Tracy Teal
@@ -70,9 +74,9 @@
   contributor_type:
     - leadership
   packages-submitted:
-    -
+    - 
   packages-reviewed:
-    -
+    - 
   location:
   email: erinmr@gmail.com
 - name: Chris Holdgraf
@@ -91,8 +95,9 @@
     - editor
     - reviewer
     - guidebook-contrib
+    - peer-review-guide
   packages-submitted:
-    -
+    - 
   packages-reviewed:
     - erdapy
   location: California
@@ -111,11 +116,11 @@
   contributor_type:
     - leadership
   packages-submitted:
-    -
+    - 
   packages-reviewed:
-    -
+    - 
   packages-editor:
-    -
+    - 
   location:
   email: inessapawson@gmail.com
 - name: Pradyun Gedam
@@ -134,6 +139,7 @@
   orcidid:
   contributor_type:
     - guidebook-contrib
+    - package-guide
   packages-submitted:
   packages-reviewed:
   location: London, UK
@@ -153,11 +159,11 @@
   website: https://www.leouieda.com
   contributor_type:
   packages-submitted:
-    -
+    - 
   packages-reviewed:
-    -
+    - 
   packages-editor:
-    -
+    - 
   location: Liverpool, UK
   email: Leonardo.Uieda@liverpool.ac.uk
 - name: Ivan Ogasawara
@@ -180,8 +186,11 @@
     - web-contrib
     - metrics-contrib
     - leadership
+    - peer-review-guide
+    - code-contrib
+    - editor
   packages-submitted:
-    -
+    - 
   packages-reviewed:
     - pandera
     - MovingPandas
@@ -207,6 +216,9 @@
     - editor
     - guidebook-contrib
     - leadership
+    - package-guide
+    - peer-review
+    - reviewer
   packages-submitted:
     - errdapy
   packages-reviewed:
@@ -229,11 +241,11 @@
   contributor_type:
     - leadership
   packages-submitted:
-    -
+    - 
   packages-reviewed:
-    -
+    - 
   packages-editor:
-    -
+    - 
   location:
   email: lheagy@eos.ubc.ca
 - name: Martin Fleischmann
@@ -250,8 +262,9 @@
   contributor_type:
     - reviewer
     - leadership
+    - peer-review
   packages-submitted:
-    -
+    - 
   packages-reviewed:
     - movingpandas
   location: Prague
@@ -269,10 +282,11 @@
   contributor_type:
     - guidebook-contrib
     - leadership
+    - peer-review-guide
   packages-submitted:
-    -
+    - 
   packages-reviewed:
-    -
+    - 
   location:
   email:
 - name: Ariane Sasso
@@ -291,12 +305,18 @@
     - package-maintainer
     - editor
     - guidebook-contrib
+    - package-guide
+    - peer-review-guide
+    - peer-review
+    - maintainer
+    - submitting-author
   packages-editor:
     - pynteny
   packages-submitted:
     - devicely
+    - jointly
   packages-reviewed:
-    -
+    - 
   location: Berlin, Germany
   email: ariane.sasso@gmail.com
 - name: David Nicholson
@@ -316,6 +336,11 @@
     - editor
     - contributor
     - web-contrib
+    - package-guide
+    - peer-review-guide
+    - peer-review
+    - submitting-author
+    - maintainer
   packages-submitted:
     - crowsetta
   packages-reviewed:
@@ -342,12 +367,14 @@
     - guidebook-contrib
     - peer-review
     - community
+    - package-guide
+    - peer-review-guide
   packages-editor:
     - crowsetta
   packages-submitted:
-    -
+    - 
   packages-reviewed:
-    -
+    - 
   location:
   email:
 - name: Jenny Palomino
@@ -366,6 +393,7 @@
     - contributor
     - web-contrib
     - editor
+    - peer-review
   focus-areas:
     - gis
     - spatial-remote-sensing
@@ -389,12 +417,14 @@
     - editor
     - reviewer
     - guidebook-contrib
+    - package-guide
+    - peer-review
   packages-submitted:
-    -
+    - 
   packages-reviewed:
     - PyGMT
   packages-editor:
-    -
+    - 
   twitter:
   website: https://ml-gis-service.com
   location:
@@ -416,12 +446,15 @@
     - package-maintainer
     - web-contrib
     - editor
+    - peer-review
+    - submitting-author
+    - maintainer
   packages-submitted:
     - movingpandas
   packages-reviewed:
-    -
+    - 
   packages-editor:
-    -
+    - 
   twitter: underdarkGIS
   location:
   email:
@@ -443,8 +476,11 @@
     - reviewer
     - peer-review
     - community
+    - package-guide
+    - peer-review-guide
+    - web-contrib
   packages-submitted:
-    -
+    - 
   packages-reviewed:
     - Pynteny
   packages-editor:
@@ -464,8 +500,10 @@
   contributor_type:
     - reviewer
     - guidebook-contrib
+    - peer-review-guide
+    - peer-review
   packages-submitted:
-    -
+    - 
   packages-reviewed:
     - pandera
   location: Denver, CO
@@ -479,10 +517,11 @@
     - editor
     - peer-review
     - metrics-contrib
+    - code-contrib
   packages-submitted:
-    -
+    - 
   packages-reviewed:
-    -
+    - 
   packages-editor:
     - earthpy
   twitter:
@@ -498,11 +537,11 @@
   contributor_type:
     - contributor
   packages-submitted:
-    -
+    - 
   packages-reviewed:
-    -
+    - 
   packages-editor:
-    -
+    - 
   twitter: dynamicwebpaige
   website: https://webpaige.dev
   location: Seattle, WA
@@ -515,11 +554,11 @@
   contributor_type:
     - contributor
   packages-submitted:
-    -
+    - 
   packages-reviewed:
-    -
+    - 
   packages-editor:
-    -
+    - 
   twitter: carsonfarmer
   website: https://carsonfarmer.com
   location: Victoria, B.C., Canada
@@ -532,11 +571,11 @@
   contributor_type:
     - contributor
   packages-submitted:
-    -
+    - 
   packages-reviewed:
-    -
+    - 
   packages-editor:
-    -
+    - 
   twitter: _jhamman
   website: https://joehamman.com
   location: Seattle, WA
@@ -549,12 +588,15 @@
   contributor_type:
     - contributor
     - guidebook-contrib
+    - peer-review-guide
+    - reviewer
+    - peer-review
   packages-submitted:
-    -
+    - 
   packages-reviewed:
     - Nbless
   packages-editor:
-    -
+    - 
   twitter:
   website:
   location:
@@ -567,12 +609,15 @@
   github_image_id: 12806339
   contributor_type:
     - contributor
+    - peer-review
+    - submitting-author
+    - maintainer
   packages-submitted:
     - Nbless
   packages-reviewed:
-    -
+    - 
   packages-editor:
-    -
+    - 
   twitter:
   website: https://marskar.github.io/
   location: Rockville/Bethesda, Maryland
@@ -585,11 +630,11 @@
   contributor_type:
     - contributor
   packages-submitted:
-    -
+    - 
   packages-reviewed:
-    -
+    - 
   packages-editor:
-    -
+    - 
   twitter:
   website:
   location: Washington, DC
@@ -603,11 +648,11 @@
   contributor_type:
     - contributor
   packages-submitted:
-    -
+    - 
   packages-reviewed:
-    -
+    - 
   packages-editor:
-    -
+    - 
   twitter:
   website: https://www.software.ac.uk
   location: Edinburgh, United Kingdom
@@ -621,12 +666,16 @@
     - contributor
     - package-maintainer
     - web-contrib
+    - peer-review-guide
+    - peer-review
+    - submitting-author
+    - maintainer
   packages-submitted:
     - pandera
   packages-reviewed:
-    -
+    - 
   packages-editor:
-    -
+    - 
   twitter: cosmicbboy
   website: https://cosmicbboy.github.io/
   location: Atlanta, GA, US
@@ -638,12 +687,13 @@
   github_image_id: 33697
   contributor_type:
     - reviewer
+    - peer-review
   packages-submitted:
-    -
+    - 
   packages-reviewed:
     - earthpy
   packages-editor:
-    -
+    - 
   twitter: sgillies
   website: https://sgillies.net
   location: Fort Collins, Colorado
@@ -655,12 +705,13 @@
   github_image_id: 4336207
   contributor_type:
     - reviewer
+    - peer-review
   packages-submitted:
-    -
+    - 
   packages-reviewed:
     - earthpy
   packages-editor:
-    -
+    - 
   twitter: rg0swami
   website: https://rgoswami.me
   location: University of Iceland
@@ -672,12 +723,15 @@
   github_image_id: 11415019
   contributor_type:
     - package-maintainer
+    - peer-review
+    - submitting-author
+    - maintainer
   packages-submitted:
     - pyrolite
   packages-reviewed:
-    -
+    - 
   packages-editor:
-    -
+    - 
   twitter: metasomite
   website:
   location: Perth, WA, Australia
@@ -690,12 +744,15 @@
   contributor_type:
     - package-maintainer
     - reviewer
+    - peer-review
+    - submitting-author
+    - maintainer
   packages-submitted:
     - pystiche
   packages-reviewed:
     - sevivi
   packages-editor:
-    -
+    - 
   twitter:
   website:
   location: Germany
@@ -707,13 +764,14 @@
   github_image_id: 5157099
   contributor_type:
     - reviewer
+    - peer-review
   packages-submitted:
-    -
+    - 
   packages-reviewed:
     - pystiche
     - sevivi
   packages-editor:
-    -
+    - 
   twitter: edgarriba
   website:
   location: Barcelona, Spain
@@ -728,9 +786,9 @@
   packages-submitted:
     - pydov
   packages-reviewed:
-    -
+    - 
   packages-editor:
-    -
+    - 
   twitter:
   website: https://www.dov.vlaanderen.be
   location:
@@ -745,9 +803,9 @@
   packages-submitted:
     - pydov
   packages-reviewed:
-    -
+    - 
   packages-editor:
-    -
+    - 
   twitter:
   website: https://mastodon.social/@rhuybrec
   location:
@@ -762,9 +820,9 @@
   packages-submitted:
     - pydov
   packages-reviewed:
-    -
+    - 
   packages-editor:
-    -
+    - 
   twitter:
   website:
   location:
@@ -779,9 +837,9 @@
   packages-submitted:
     - pydov
   packages-reviewed:
-    -
+    - 
   packages-editor:
-    -
+    - 
   twitter:
   website: https://corporate.dewatergroep.be/en
   location: Belgium
@@ -795,12 +853,15 @@
   contributor_type:
     - package-maintainer
     - web-contrib
+    - peer-review
+    - submitting-author
+    - maintainer
   packages-submitted:
     - openomics
   packages-reviewed:
-    -
+    - 
   packages-editor:
-    -
+    - 
   twitter: Jonny_Wireless
   website: https://jonny.bio
   location:
@@ -812,12 +873,13 @@
   github_image_id: 62541949
   contributor_type:
     - reviewer
+    - peer-review
   packages-submitted:
-    -
+    - 
   packages-reviewed:
     - openomics
   packages-editor:
-    -
+    - 
   twitter: ksielemann
   website:
   location:
@@ -831,12 +893,15 @@
   contributor_type:
     - contributor
     - package-maintainer
+    - peer-review
+    - submitting-author
+    - maintainer
   packages-submitted:
     - phenopype
   packages-reviewed:
-    -
+    - 
   packages-editor:
-    -
+    - 
   twitter: mluerig
   website: https://www.luerig.net
   location: Sweden
@@ -849,12 +914,16 @@
   contributor_type:
     - contributor
     - package-maintainer
+    - reviewer
+    - peer-review
+    - submitting-author
+    - maintainer
   packages-submitted:
     - physcraper
   packages-reviewed:
-    -
+    - taxpasta
   packages-editor:
-    -
+    - 
   twitter:
   website: https://McTavishLab.github.io
   location:
@@ -867,12 +936,14 @@
   contributor_type:
     - contributor
     - package-maintainer
+    - peer-review
+    - maintainer
   packages-submitted:
     - physcraper
   packages-reviewed:
-    -
+    - 
   packages-editor:
-    -
+    - 
   twitter: LunaSare
   website: https://www.lunasare.com
   location: Merced, CA, USA
@@ -884,12 +955,13 @@
   github_image_id: 1211103
   contributor_type:
     - reviewer
+    - peer-review
   packages-submitted:
-    -
+    - 
   packages-reviewed:
     - Jointly
   packages-editor:
-    -
+    - 
   twitter:
   website:
   location: Missoula, MT
@@ -902,12 +974,13 @@
   github_image_id: 6061587
   contributor_type:
     - reviewer
+    - peer-review
   packages-submitted:
-    -
+    - 
   packages-reviewed:
     - jointly
   packages-editor:
-    -
+    - 
   twitter:
   website:
   location: Madrid (Spain)
@@ -919,12 +992,13 @@
   github_image_id: 14314623
   contributor_type:
     - reviewer
+    - peer-review
   packages-submitted:
-    -
+    - 
   packages-reviewed:
     - PyGMT
   packages-editor:
-    -
+    - 
   twitter: JuliusBusecke
   website:
   location: Brooklyn, New York
@@ -955,7 +1029,13 @@
   orcidid:
   contributor_type:
     - guidebook-contrib
+    - package-guide
+    - peer-review-guide
+    - peer-review
+    - submitting-author
+    - maintainer
   packages-submitted:
+    - python-graphblas
   packages-reviewed:
   location: Austin, TX
   organization:
@@ -974,6 +1054,7 @@
   orcidid:
   contributor_type:
     - guidebook-contrib
+    - package-guide
   packages-submitted:
   packages-reviewed:
   location: Graz, Austria
@@ -992,8 +1073,13 @@
   orcidid:
   contributor_type:
     - guidebook-contrib
+    - package-guide
+    - web-contrib
+    - reviewer
+    - peer-review
   packages-submitted:
   packages-reviewed:
+    - python-graphblas
   location:
   organization:
   email:
@@ -1010,6 +1096,7 @@
   orcidid:
   contributor_type:
     - guidebook-contrib
+    - package-guide
   packages-submitted:
   packages-reviewed:
   location:
@@ -1029,6 +1116,8 @@
   orcidid:
   contributor_type:
     - guidebook-contrib
+    - package-guide
+    - peer-review-guide
   packages-submitted:
   packages-reviewed:
   location: Spain
@@ -1049,6 +1138,7 @@
   orcidid:
   contributor_type:
     - guidebook-contrib
+    - package-guide
   packages-submitted:
   packages-reviewed:
   location: Princeton, NJ
@@ -1069,6 +1159,8 @@
   orcidid:
   contributor_type:
     - guidebook-contrib
+    - package-guide
+    - peer-review-guide
   packages-submitted:
   packages-reviewed:
   location: Berkeley, CA
@@ -1088,6 +1180,7 @@
   orcidid:
   contributor_type:
     - guidebook-contrib
+    - package-guide
   packages-submitted:
   packages-reviewed:
   location:
@@ -1108,6 +1201,7 @@
   orcidid:
   contributor_type:
     - guidebook-contrib
+    - package-guide
   packages-submitted:
   packages-reviewed:
   location: Netherlands
@@ -1127,6 +1221,7 @@
   orcidid:
   contributor_type:
     - guidebook-contrib
+    - package-guide
   packages-submitted:
   packages-reviewed:
   location: Knowhere
@@ -1146,6 +1241,7 @@
   orcidid:
   contributor_type:
     - guidebook-contrib
+    - peer-review-guide
   packages-submitted:
   packages-reviewed:
   location:
@@ -1166,6 +1262,7 @@
   orcidid:
   contributor_type:
     - guidebook-contrib
+    - peer-review-guide
   packages-submitted:
   packages-reviewed:
   location: New York City
@@ -1185,6 +1282,10 @@
   orcidid:
   contributor_type:
     - guidebook-contrib
+    - peer-review-guide
+    - web-contrib
+    - reviewer
+    - peer-review
   packages-submitted:
   packages-reviewed:
     - Devicely
@@ -1205,6 +1306,9 @@
   orcidid:
   contributor_type:
     - guidebook-contrib
+    - peer-review-guide
+    - reviewer
+    - peer-review
   packages-submitted:
   packages-reviewed:
     - openomics
@@ -1224,6 +1328,7 @@
   orcidid:
   contributor_type:
     - guidebook-contrib
+    - peer-review-guide
   packages-submitted:
   packages-reviewed:
   location: London, UK
@@ -1242,6 +1347,7 @@
   orcidid:
   contributor_type:
     - guidebook-contrib
+    - peer-review-guide
   packages-submitted:
   packages-reviewed:
   location: Atlanta, GA
@@ -1260,6 +1366,7 @@
   orcidid:
   contributor_type:
     - guidebook-contrib
+    - peer-review-guide
   packages-submitted:
   packages-reviewed:
   location: India
@@ -1279,6 +1386,7 @@
   orcidid:
   contributor_type:
     - guidebook-contrib
+    - peer-review-guide
   packages-submitted:
   packages-reviewed:
   location: Sweden
@@ -1297,6 +1405,7 @@
   orcidid:
   contributor_type:
     - guidebook-contrib
+    - peer-review-guide
   packages-submitted:
   packages-reviewed:
   location: Seattle, WA
@@ -1316,6 +1425,7 @@
   orcidid:
   contributor_type:
     - guidebook-contrib
+    - peer-review-guide
   packages-submitted:
   packages-reviewed:
   location: Washington DC
@@ -1334,6 +1444,7 @@
   orcidid:
   contributor_type:
     - guidebook-contrib
+    - package-guide
   packages-submitted:
   packages-reviewed:
   location:
@@ -1352,6 +1463,7 @@
   orcidid:
   contributor_type:
     - guidebook-contrib
+    - package-guide
   packages-submitted:
   packages-reviewed:
   location: Shenzhen, China
@@ -1371,6 +1483,7 @@
   orcidid:
   contributor_type:
     - guidebook-contrib
+    - package-guide
   packages-submitted:
   packages-reviewed:
   location: Helsinki, Finland
@@ -1389,6 +1502,7 @@
   orcidid:
   contributor_type:
     - guidebook-contrib
+    - package-guide
   packages-submitted:
   packages-reviewed:
   location: Bergen, Norway
@@ -1409,6 +1523,7 @@
   orcidid:
   contributor_type:
     - guidebook-contrib
+    - package-guide
   packages-submitted:
   packages-reviewed:
   location: ' Germany'
@@ -1426,6 +1541,7 @@
   orcidid:
   contributor_type:
     - guidebook-contrib
+    - package-guide
   packages-submitted:
   packages-reviewed:
   location: Brisbane, Australia
@@ -1463,7 +1579,9 @@
   contributor_type:
     - peer-review
     - community
+    - maintainer
   packages-submitted:
+    - xclim
   packages-reviewed:
   location: ' Montreal'
   organization: Ouranos
@@ -1482,7 +1600,9 @@
   contributor_type:
     - peer-review
     - community
+    - maintainer
   packages-submitted:
+    - xclim
   packages-reviewed:
   location: Montréal
   organization: Ouranos
@@ -1500,6 +1620,9 @@
   orcidid:
   website: https://gitlab.com/enra64
   contributor_type:
+    - peer-review
+    - submitting-author
+    - maintainer
   packages-editor:
   packages-submitted:
     - Jointly
@@ -1519,6 +1642,8 @@
   orcidid:
   website: https://fosstodon.org/@agricolab
   contributor_type:
+    - reviewer
+    - peer-review
   packages-editor:
   packages-submitted:
   packages-reviewed:
@@ -1539,6 +1664,8 @@
   orcidid:
   website:
   contributor_type:
+    - reviewer
+    - peer-review
   packages-editor:
   packages-submitted:
   packages-reviewed:
@@ -1558,6 +1685,8 @@
   orcidid:
   website: https://leomrtns.github.io
   contributor_type:
+    - reviewer
+    - peer-review
   packages-editor:
   packages-submitted:
   packages-reviewed:
@@ -1577,6 +1706,8 @@
   orcidid:
   website: https://soumith.ch
   contributor_type:
+    - reviewer
+    - peer-review
   packages-editor:
   packages-submitted:
   packages-reviewed:
@@ -1595,6 +1726,8 @@
   orcidid:
   website:
   contributor_type:
+    - reviewer
+    - peer-review
   packages-editor:
   packages-submitted:
   packages-reviewed:
@@ -1613,6 +1746,8 @@
   orcidid:
   website:
   contributor_type:
+    - reviewer
+    - peer-review
   packages-editor:
   packages-submitted:
   packages-reviewed:
@@ -1631,6 +1766,8 @@
   orcidid:
   website: https://sparrow.dev
   contributor_type:
+    - peer-review
+    - editor
   packages-editor:
     - phenopype
   packages-submitted:
@@ -1650,6 +1787,8 @@
   orcidid:
   website:
   contributor_type:
+    - reviewer
+    - peer-review
   packages-editor:
   packages-submitted:
   packages-reviewed:
@@ -1669,6 +1808,8 @@
   orcidid:
   website: https://charlesll.github.io/
   contributor_type:
+    - reviewer
+    - peer-review
   packages-editor:
   packages-submitted:
   packages-reviewed:
@@ -1688,6 +1829,9 @@
   orcidid:
   website: https://weiji14.github.io
   contributor_type:
+    - peer-review
+    - submitting-author
+    - maintainer
   packages-editor:
   packages-submitted:
     - PyGMT
@@ -1706,6 +1850,8 @@
       \nPlay: tinkerer creating open-source tools for birders\r\n"
   orcidid: 0000-0002-4352-3464
   contributor_type:
+    - reviewer
+    - peer-review
   packages-submitted:
   packages-reviewed:
     - crowsetta
@@ -1725,6 +1871,7 @@
   contributor_type:
     - peer-review
     - community
+    - reviewer
   packages-submitted:
   packages-reviewed:
     - xclim
@@ -1742,6 +1889,8 @@
   bio:
   orcidid:
   contributor_type:
+    - reviewer
+    - peer-review
   packages-submitted:
   packages-reviewed:
     - crowsetta
@@ -1782,6 +1931,8 @@
     - web-contrib
     - peer-review
     - community
+    - submitting-author
+    - maintainer
   packages-submitted:
     - Pynteny
   packages-reviewed:
@@ -1802,6 +1953,8 @@
   contributor_type:
     - peer-review
     - community
+    - submitting-author
+    - maintainer
   packages-submitted:
     - xclim
   packages-reviewed:
@@ -1821,6 +1974,7 @@
   contributor_type:
     - peer-review
     - community
+    - reviewer
   packages-submitted:
   packages-reviewed:
     - xclim
@@ -1839,6 +1993,8 @@
   orcidid:
   website:
   contributor_type:
+    - reviewer
+    - peer-review
   packages-editor:
   packages-submitted:
   packages-reviewed:
@@ -1860,10 +2016,12 @@
   contributor_type:
     - guest editor
     - contributor
+    - peer-review
+    - editor
   packages-submitted:
-    -
+    - 
   packages-reviewed:
-    -
+    - 
   packages-editor:
     - python-graphblas
   location: Oxford / London
@@ -1883,12 +2041,14 @@
   contributor_type:
     - guest editor
     - contributor
+    - peer-review
+    - editor
   packages-submitted:
-    -
+    - 
   packages-reviewed:
-    -
+    - 
   packages-editor:
-    -
+    - taxpasta
   location: Davis, CA
   email: titus@idyll.org
 - name: Meenal Jhajharia
@@ -1906,10 +2066,12 @@
   contributor_type:
     - guest editor
     - contributor
+    - peer-review
+    - editor
   packages-submitted:
-    -
+    - 
   packages-reviewed:
-    -
+    - 
   packages-editor:
     - bibat
   location:
@@ -1948,6 +2110,7 @@
   packages-reviewed:
   contributor_type:
     - metrics-contrib
+    - code-contrib
   location: Seattle, WA
   organization: Fred Hutch
   email:
@@ -1966,6 +2129,7 @@
   packages-reviewed:
   contributor_type:
     - metrics-contrib
+    - code-contrib
   location: New York, New York
   organization: Bloomberg
   email: cdtiffanyxiao@gmail.com
@@ -1985,6 +2149,7 @@
   packages-reviewed:
   contributor_type:
     - metrics-contrib
+    - code-contrib
   location:
   organization:
   email:
@@ -2003,6 +2168,7 @@
   contributor_type:
     - peer-review
     - metrics-contrib
+    - code-contrib
   location: Ghana
   organization:
   email: paajake@gmail.com
@@ -2022,6 +2188,7 @@
   contributor_type:
     - metrics-contrib
     - web-contrib
+    - code-contrib
   location: Gotham
   organization: '@vitalsource '
   email:
@@ -2040,6 +2207,7 @@
   packages-reviewed:
   contributor_type:
     - guidebook-contrib
+    - package-guide
   location:
   organization: '@ActiveState '
   email: ucodery@gmail.com
@@ -2058,6 +2226,7 @@
   packages-reviewed:
   contributor_type:
     - guidebook-contrib
+    - peer-review-guide
   location: Berlin, Germany
   organization: Anaconda Inc.
   email:
@@ -2076,6 +2245,7 @@
   packages-reviewed:
   contributor_type:
     - guidebook-contrib
+    - peer-review-guide
   location: London, UK
   organization:
   email:
@@ -2094,6 +2264,7 @@
   packages-reviewed:
   contributor_type:
     - guidebook-contrib
+    - peer-review-guide
   location: London, UK
   organization: UCL
   email: d.stansby@ucl.ac.uk
@@ -2114,6 +2285,7 @@
   contributor_type:
     - web-contrib
     - metrics-contrib
+    - code-contrib
   location: Santa Cruz, California
   organization: UC, Santa Cruz
   email: juanitagomezr2112@gmail.com
@@ -2134,6 +2306,7 @@
   contributor_type:
     - web-contrib
     - metrics-contrib
+    - code-contrib
   location: Seattle, WA
   organization: Microsoft
   email: sckaiser@sckaiser.com
@@ -2145,12 +2318,15 @@
   github_image_id: 110391
   contributor_type:
     - package-maintainer
+    - peer-review
+    - submitting-author
+    - maintainer
   packages-submitted:
     - afscgap
   packages-reviewed:
-    -
+    - 
   packages-editor:
-    -
+    - 
   twitter:
   website: https://gleap.org
   location:
@@ -2170,6 +2346,7 @@
   packages-reviewed:
   contributor_type:
     - guidebook-contrib
+    - package-guide
   location: Bristol, UK
   organization: University of Bristol
   email:
@@ -2188,6 +2365,7 @@
   packages-reviewed:
   contributor_type:
     - guidebook-contrib
+    - package-guide
   location: Hamburg, Germany
   organization:
   email:
@@ -2224,6 +2402,9 @@
   contributor_type:
     - contributor
     - web-contrib
+    - peer-review
+    - submitting-author
+    - maintainer
   location:
   organization:
   email: groves.teddy@gmail.com
@@ -2242,9 +2423,12 @@
       core-team member and SPAAM community founder.\r\n\r\n@jfy133@genomic.social"
   orcidid:
   packages-submitted:
+    - taxpasta
   packages-reviewed:
   contributor_type:
     - community
+    - peer-review
+    - maintainer
   location: Leipzig, Germany
   organization: HKI Jena, MPI-EVA Leipzig
   email: jfy133@gmail.com
@@ -2260,9 +2444,13 @@
   bio:
   orcidid:
   packages-submitted:
+    - taxpasta
   packages-reviewed:
   contributor_type:
     - community
+    - peer-review
+    - submitting-author
+    - maintainer
   location: Copenhagen, Denmark
   organization:
   email: midnighter@posteo.net
@@ -2282,6 +2470,8 @@
   packages-submitted:
   contributor_type:
     - web-contrib
+    - reviewer
+    - peer-review
   location:
   organization:
   email: szhorvat@gmail.com
@@ -2300,6 +2490,8 @@
   packages-reviewed:
   contributor_type:
     - guidebook-contrib
+    - package-guide
+    - peer-review-guide
   location:
   organization:
   email:
@@ -2318,6 +2510,7 @@
   packages-reviewed:
   contributor_type:
     - guidebook-contrib
+    - peer-review-guide
   location: Baltimore, MD, USA
   organization: Space Telescope Science Institute
   email:
@@ -2336,6 +2529,7 @@
   packages-reviewed:
   contributor_type:
     - guidebook-contrib
+    - peer-review-guide
   location: Cambridge, Massachusetts, USA
   organization: Center for Astrophysics | Harvard & Smithsonian
   email: namurphy@cfa.harvard.edu
@@ -2354,6 +2548,7 @@
   packages-reviewed:
   contributor_type:
     - guidebook-contrib
+    - peer-review-guide
   location: Cambridge, MA, USA
   organization: MIT
   email:
@@ -2372,6 +2567,7 @@
   packages-reviewed:
   contributor_type:
     - guidebook-contrib
+    - peer-review-guide
   location:
   organization:
   email:
@@ -2411,3 +2607,221 @@
   location: New York City
   organization: '@Quansight-Labs '
   email: thomasjpfan@gmail.com
+- name: Kerry McAdams
+  bio:
+  organization: '@ansys'
+  title: 
+  github_username: klmcadams
+  github_image_id: 58492561
+  editorial-board: 
+  twitter:
+  mastodon: 
+  orcidid: 
+  website: 
+  contributor_type:
+    - web-contrib
+  packages-editor: 
+  packages-submitted: 
+  packages-reviewed: 
+  location:
+  email:
+- name: Ricky Nilsson
+  bio: Astronomer / Data Scientist / Applications Developer
+  organization: Caltech-IPAC/NExScI
+  title: 
+  github_username: rickynilsson
+  github_image_id: 12720117
+  editorial-board: 
+  twitter:
+  mastodon: 
+  orcidid: 
+  website: https://rickynilsson.github.io
+  contributor_type:
+    - web-contrib
+  packages-editor: 
+  packages-submitted: 
+  packages-reviewed: 
+  location: Los Angeles, CA
+  email: ricky.nilsson@gmail.com
+- name: Oriol Abril-Pla
+  bio:
+  organization:
+  title: 
+  github_username: OriolAbril
+  github_image_id: 23738400
+  editorial-board: 
+  twitter: OriolAbril
+  mastodon: 
+  orcidid: 
+  website: https://oriolabrilpla.cat
+  contributor_type:
+    - reviewer
+    - peer-review
+  packages-editor: 
+  packages-submitted: 
+  packages-reviewed:
+    - bibat
+  location: Barcelona
+  email:
+- name: Alexey Izmailov
+  bio: antiblob
+  organization: '{Ø,{Ø},{Ø,{Ø}}, ... }'
+  title: 
+  github_username: alizma
+  github_image_id: 74629347
+  editorial-board: 
+  twitter:
+  mastodon: 
+  orcidid: 
+  website: https://alizma.github.io/
+  contributor_type:
+    - reviewer
+    - peer-review
+  packages-editor: 
+  packages-submitted: 
+  packages-reviewed:
+    - bibat
+  location:
+  email: alizma@brown.edu
+- name: Tessa Pierce Ward
+  bio: NSF Postdoc at UC Davis
+  organization:
+  title: 
+  github_username: bluegenes
+  github_image_id: 7740734
+  editorial-board: 
+  twitter: saltyscientist
+  mastodon: 
+  orcidid: 
+  website: https://bluegenes.github.io
+  contributor_type:
+    - reviewer
+    - peer-review
+  packages-editor: 
+  packages-submitted: 
+  packages-reviewed:
+    - taxpasta
+  location: San Diego, CA
+  email:
+- name: Sofia Stamouli
+  bio: Bioinformatician
+  organization:
+  title: 
+  github_username: sofstam
+  github_image_id: 91951607
+  editorial-board: 
+  twitter:
+  mastodon: 
+  orcidid: 
+  website: 
+  contributor_type:
+    - peer-review
+    - maintainer
+  packages-editor: 
+  packages-submitted:
+    - taxpasta
+  packages-reviewed: 
+  location: Stockholm, Sweden
+  email:
+- name: Tylar
+  bio: "USF IMaRS Software Engineer - \r\ncode whisperer, data viz enthusiast, scientific
+      generalist, compulsive overengineerer, & UX PhD"
+  organization: USF IMaRS
+  title: 
+  github_username: 7yl4r
+  github_image_id: 1051390
+  editorial-board: 
+  twitter: 7yl4r
+  mastodon: 
+  orcidid: 
+  website: https://tylar.info
+  contributor_type:
+    - reviewer
+    - peer-review
+  packages-editor: 
+  packages-submitted: 
+  packages-reviewed:
+    - afscgap
+  location: St. Petersburg, FL
+  email: mail@tylar.info
+- name: Ayush Anand
+  bio: Open Source Adv, GSoC 2022 - IOOS | PyTorch, Azure, ReactJS | CS Undergrad
+      @ NIT Durgapur
+  organization:
+  title: 
+  github_username: ayushanand18
+  github_image_id: 36472216
+  editorial-board: 
+  twitter: theayushanand
+  mastodon: 
+  orcidid: 
+  website: https://ayushanand18.github.io
+  contributor_type:
+    - reviewer
+    - peer-review
+  packages-editor: 
+  packages-submitted: 
+  packages-reviewed:
+    - afscgap
+  location: New Delhi, India
+  email:
+- name: Giulia Zarpellon
+  bio:
+  organization:
+  title: 
+  github_username: gizarp
+  github_image_id: 32750231
+  editorial-board: 
+  twitter:
+  mastodon: 
+  orcidid: 
+  website: 
+  contributor_type:
+    - peer-review
+    - maintainer
+  packages-editor: 
+  packages-submitted:
+    - afscgap
+  packages-reviewed: 
+  location:
+  email:
+- name: Jim Kitchen
+  bio:
+  organization: Anaconda
+  title: 
+  github_username: jim22k
+  github_image_id: 2807270
+  editorial-board: 
+  twitter:
+  mastodon: 
+  orcidid: 
+  website: 
+  contributor_type:
+    - peer-review
+    - maintainer
+  packages-editor: 
+  packages-submitted:
+    - python-graphblas
+  packages-reviewed: 
+  location: Austin, TX
+  email:
+- name: Sultan Orazbayev
+  bio:
+  organization: '@cid-harvard'
+  title: 
+  github_username: SultanOrazbayev
+  github_image_id: 20208402
+  editorial-board: 
+  twitter:
+  mastodon: 
+  orcidid: 
+  website: 
+  contributor_type:
+    - peer-review
+    - maintainer
+  packages-editor: 
+  packages-submitted:
+    - python-graphblas
+  packages-reviewed: 
+  location: Kazakhstan
+  email: contact@econpoint.com
