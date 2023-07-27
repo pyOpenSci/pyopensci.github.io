@@ -801,6 +801,6 @@
       forks: 12
       open_issues_count: 47
       forks_count: 12
-      documentation: http://python-graphblas.readthedocs.io/
+      documentation: https://python-graphblas.readthedocs.io/en/stable/
       contrib_count: 7
       last_commit: 07-26-2023
