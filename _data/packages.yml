@@ -20,15 +20,15 @@
       name: Alexey Izmailov
   archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8124312.svg)](https://doi.org/10.5281/zenodo.8124312)'
   version_accepted: 0.1.10
-  date_accepted: 7-5-2023
-  created_at: 03-01-2023
-  updated_at: 07-24-2023
+  date_accepted: 2023-5-7
+  created_at: '2023-03-01'
+  updated_at: '2023-07-27'
   closed_at: missing
   issue_link: https://github.com/pyOpenSci/software-submission/issues/83
   gh_meta:
       name: bibat
       description: A batteries-included template for Bayesian data analysis projects
-      created_at: 03-04-2021
+      created_at: '2021-03-04'
       stargazers_count: 10
       watchers_count: 10
       forks: 2
@@ -36,7 +36,7 @@
       forks_count: 2
       documentation: https://bibat.readthedocs.io/
       contrib_count: 1
-      last_commit: 07-14-2023
+      last_commit: '2023-07-14'
 - package_name: taxpasta
   package_description: TAXonomic Profile Aggregation and STAndardisation
   submitting_author:
@@ -62,15 +62,15 @@
       name: Tessa Pierce Ward
   archive: '[github tag 0.4.0](https://github.com/taxprofiler/taxpasta/releases/tag/0.4.0)'
   version_accepted: 0.4.0
-  date_accepted: 07-05-2023
-  created_at: 03-02-2023
-  updated_at: 07-12-2023
-  closed_at: 07-12-2023
+  date_accepted: '2023-05-07'
+  created_at: '2023-03-02'
+  updated_at: '2023-07-12'
+  closed_at: '2023-07-12'
   issue_link: https://github.com/pyOpenSci/software-submission/issues/84
   gh_meta:
       name: taxpasta
       description: TAXnomic Profile Aggregation and STAndardisation
-      created_at: 06-03-2022
+      created_at: '2022-06-03'
       stargazers_count: 21
       watchers_count: 21
       forks: 7
@@ -78,7 +78,7 @@
       forks_count: 7
       documentation: https://taxpasta.readthedocs.io/
       contrib_count: 5
-      last_commit: 07-13-2023
+      last_commit: '2023-07-13'
 - package_name: afscgap
   package_description: Community contributed Python-based tools for working with
       public bottom trawl surveys data from the NOAA Alaska Fisheries Science Center
@@ -116,7 +116,7 @@
   gh_meta:
       name: afscgap
       description: Python-based tools for NOAA AFSC GAP marine species surveys data
-      created_at: 02-18-2023
+      created_at: '2023-02-18'
       stargazers_count: 4
       watchers_count: 4
       forks: 4
@@ -124,7 +124,7 @@
       forks_count: 4
       documentation: https://pyafscgap.org
       contrib_count: 2
-      last_commit: 06-28-2023
+      last_commit: '2023-06-28'
 - package_name: xclim
   package_description: Climate indices computation package based on Xarray
   submitting_author:
@@ -154,16 +154,16 @@
       name: Agustina
   archive: TBD
   version_accepted: TBD
-  date_accepted: 04-11-2023
-  created_at: 01-16-2023
-  updated_at: 06-14-2023
-  closed_at: 05-22-2023
+  date_accepted: '2023-11-04'
+  created_at: '2023-01-16'
+  updated_at: '2023-06-14'
+  closed_at: '2023-05-22'
   issue_link: https://github.com/pyOpenSci/software-submission/issues/73
   gh_meta:
       name: xclim
       description: 'Library of derived climate variables, ie climate indicators,
           based on xarray. '
-      created_at: 07-27-2018
+      created_at: '2018-07-27'
       stargazers_count: 251
       watchers_count: 251
       forks: 45
@@ -171,7 +171,7 @@
       forks_count: 45
       documentation: https://xclim.readthedocs.io/en/stable/
       contrib_count: 27
-      last_commit: 07-27-2023
+      last_commit: '2023-07-27'
 - package_name: crowsetta
   package_description: A Python tool to work with any format for annotating animal
       vocalizations and bioacoustics data.
@@ -199,15 +199,15 @@
   archive: '[![DOI](https://zenodo.org/badge/159904494.svg)](https://zenodo.org/badge/latestdoi/159904494)
       [![DOI](https://joss.theoj.org/papers/10.21105/joss.05338/status.svg)](https://doi.org/10.21105/joss.05338)'
   version_accepted: v [5.0](https://github.com/vocalpy/crowsetta/releases/tag/5.0.0)
-  date_accepted: 03-28-2023
-  created_at: 01-03-2023
-  updated_at: 07-23-2023
-  closed_at: 04-13-2023
+  date_accepted: '2023-28-03'
+  created_at: '2023-01-03'
+  updated_at: '2023-07-23'
+  closed_at: '2023-04-13'
   issue_link: https://github.com/pyOpenSci/software-submission/issues/68
   gh_meta:
       name: crowsetta
       description: A tool to work with any format for annotating vocalizations
-      created_at: 12-01-2018
+      created_at: '2018-12-01'
       stargazers_count: 35
       watchers_count: 35
       forks: 3
@@ -215,7 +215,7 @@
       forks_count: 3
       documentation: https://crowsetta.readthedocs.io/en/latest/
       contrib_count: 2
-      last_commit: 05-27-2023
+      last_commit: '2023-05-27'
 - package_name: Pynteny
   package_description: Query sequence database by HMMs arranged in predefined synteny
       structure
@@ -242,16 +242,16 @@
       name: Corinna Thoben
   archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7696204.svg)](https://doi.org/10.5281/zenodo.7696204)'
   version_accepted: 1.0.0
-  date_accepted: 03-10-2023
-  created_at: 12-16-2022
-  updated_at: 04-12-2023
-  closed_at: 04-12-2023
+  date_accepted: '2023-10-03'
+  created_at: '2022-12-16'
+  updated_at: '2023-04-12'
+  closed_at: '2023-04-12'
   issue_link: https://github.com/pyOpenSci/software-submission/issues/67
   gh_meta:
       name: Pynteny
       description: Query sequence database by HMMs arranged in predefined synteny
           structure
-      created_at: 06-06-2022
+      created_at: '2022-06-06'
       stargazers_count: 12
       watchers_count: 12
       forks: 1
@@ -259,7 +259,7 @@
       forks_count: 1
       documentation: https://robaina.github.io/Pynteny
       contrib_count: 2
-      last_commit: 05-19-2023
+      last_commit: '2023-05-19'
 - package_name: Jointly
   package_description: Jointly is a python package for synchronizing sensors with
       accelerometer data
@@ -286,16 +286,16 @@
       name: Arthur Endsley
   archive: https://zenodo.org/record/5770586#.Yd8AUoRByV5
   version_accepted: 1.0.3
-  date_accepted: 12-29-2021
-  created_at: 08-31-2021
-  updated_at: 07-05-2023
-  closed_at: 01-12-2022
+  date_accepted: '2021-29-12'
+  created_at: '2021-08-31'
+  updated_at: '2023-07-05'
+  closed_at: '2022-01-12'
   issue_link: https://github.com/pyOpenSci/software-submission/issues/45
   gh_meta:
       name: jointly
       description: 'Jointly: A Python package for synchronizing sensors with accelerometer
           data'
-      created_at: 10-14-2020
+      created_at: '2020-10-14'
       stargazers_count: 8
       watchers_count: 8
       forks: 1
@@ -303,7 +303,7 @@
       forks_count: 1
       documentation:
       contrib_count: 5
-      last_commit: 01-11-2022
+      last_commit: '2022-01-11'
 - package_name: PyGMT
   package_description: A Python interface for the Generic Mapping Tools
   submitting_author:
@@ -325,23 +325,23 @@
       name: Szymon Moliński
   archive: '[Zenodo Archive](https://zenodo.org/record/6702566)'
   version_accepted: V 0.7.0
-  date_accepted: 9-1-2022
-  created_at: 07-23-2021
-  updated_at: 06-16-2023
-  closed_at: 06-12-2023
+  date_accepted: 2022-1-9
+  created_at: '2021-07-23'
+  updated_at: '2023-06-16'
+  closed_at: '2023-06-12'
   issue_link: https://github.com/pyOpenSci/software-submission/issues/43
   gh_meta:
       name: pygmt
       description: A Python interface for the Generic Mapping Tools.
-      created_at: 03-17-2017
-      stargazers_count: 619
-      watchers_count: 619
-      forks: 195
-      open_issues_count: 153
-      forks_count: 195
+      created_at: '2017-03-17'
+      stargazers_count: 620
+      watchers_count: 620
+      forks: 193
+      open_issues_count: 154
+      forks_count: 193
       documentation: https://www.pygmt.org
       contrib_count: 30
-      last_commit: 07-24-2023
+      last_commit: '2023-07-24'
 - package_name: Devicely
   package_description: A Python package for reading, timeshifting and writing sensor
       data
@@ -366,16 +366,16 @@
       name: Robert Guggenberger
   archive: https://doi.org/10.5281/zenodo.5603544
   version_accepted: https://github.com/hpi-dhc/devicely/releases/tag/v1.1.1
-  date_accepted: 08-19-2021
-  created_at: 04-03-2021
-  updated_at: 07-10-2023
-  closed_at: 09-07-2022
+  date_accepted: '2021-19-08'
+  created_at: '2021-04-03'
+  updated_at: '2023-07-10'
+  closed_at: '2022-09-07'
   issue_link: https://github.com/pyOpenSci/software-submission/issues/37
   gh_meta:
       name: devicely
       description: 'Devicely: A Python package for reading, timeshifting and writing
           sensor data'
-      created_at: 07-13-2020
+      created_at: '2020-07-13'
       stargazers_count: 13
       watchers_count: 13
       forks: 7
@@ -383,7 +383,7 @@
       forks_count: 7
       documentation:
       contrib_count: 4
-      last_commit: 12-21-2021
+      last_commit: '2021-12-21'
 - package_name: openomics
   package_description: Library for integration of multi-omics, annotation, and interaction
       data
@@ -411,16 +411,16 @@
       name: Katharina Sielemann
   archive: https://doi.org/10.5281/zenodo.4731011
   version_accepted: https://github.com/BioMeCIS-Lab/OpenOmics/tree/v0.8.8
-  date_accepted: 04-17-2021
-  created_at: 01-01-2021
-  updated_at: 07-05-2023
-  closed_at: 05-10-2021
+  date_accepted: '2021-17-04'
+  created_at: '2021-01-01'
+  updated_at: '2023-07-05'
+  closed_at: '2021-05-10'
   issue_link: https://github.com/pyOpenSci/software-submission/issues/31
   gh_meta:
       name: OpenOmics
       description: A bioinformatics API to interface with public multi-omics bio
           databases for wicked fast data integration.
-      created_at: 03-16-2018
+      created_at: '2018-03-16'
       stargazers_count: 20
       watchers_count: 20
       forks: 12
@@ -428,7 +428,7 @@
       forks_count: 12
       documentation: https://openomics.readthedocs.io/en/latest/
       contrib_count: 9
-      last_commit: 06-16-2023
+      last_commit: '2023-06-16'
 - package_name: Physcraper
   package_description: Automated phylogenetic updating
   submitting_author:
@@ -455,16 +455,16 @@
       name: Leonardo de Oliveira Martins
   archive: https://zenodo.org/record/5512990
   version_accepted: '1.0'
-  date_accepted: 9-14-2021
-  created_at: 07-15-2020
-  updated_at: 07-27-2023
-  closed_at: 09-18-2021
+  date_accepted: 2021-14-9
+  created_at: '2020-07-15'
+  updated_at: '2023-07-27'
+  closed_at: '2021-09-18'
   issue_link: https://github.com/pyOpenSci/software-submission/issues/26
   gh_meta:
       name: physcraper
       description: Welcome to Physcraper’s repository! Automatic gene tree updating
           using the Open Tree of Life.
-      created_at: 08-24-2015
+      created_at: '2015-08-24'
       stargazers_count: 12
       watchers_count: 12
       forks: 6
@@ -472,7 +472,7 @@
       forks_count: 6
       documentation: https://physcraper.readthedocs.io/en/main/
       contrib_count: 5
-      last_commit: 05-13-2022
+      last_commit: '2022-05-13'
 - package_name: pystiche
   package_description: Framework for Neural Style Transfer (NST) built upon PyTorch
   submitting_author:
@@ -496,14 +496,14 @@
       name: Soumith Chintala
   archive: https://github.com/pystiche/pystiche/archive/refs/tags/v0.6.0.tar.gz
   version_accepted: https://github.com/pmeier/pystiche/releases/tag/v0.6.0
-  created_at: 07-02-2020
-  updated_at: 04-24-2023
-  closed_at: 10-14-2020
+  created_at: '2020-07-02'
+  updated_at: '2023-04-24'
+  closed_at: '2020-10-14'
   issue_link: https://github.com/pyOpenSci/software-submission/issues/25
   gh_meta:
       name: pystiche
       description: Framework for Neural Style Transfer (NST) built upon PyTorch
-      created_at: 09-16-2019
+      created_at: '2019-09-16'
       stargazers_count: 263
       watchers_count: 263
       forks: 29
@@ -511,7 +511,7 @@
       forks_count: 29
       documentation:
       contrib_count: 10
-      last_commit: 03-18-2022
+      last_commit: '2022-03-18'
 - package_name: phenopype
   package_description: a phenotyping pipeline for Python
   submitting_author:
@@ -536,15 +536,15 @@
       name: Seth Donoughe
   archive: TBD
   version_accepted: 2.0.1
-  date_accepted: 05-13-2021
-  created_at: 05-04-2020
-  updated_at: 04-28-2023
-  closed_at: 05-17-2021
+  date_accepted: '2021-13-05'
+  created_at: '2020-05-04'
+  updated_at: '2023-04-28'
+  closed_at: '2021-05-17'
   issue_link: https://github.com/pyOpenSci/software-submission/issues/24
   gh_meta:
       name: phenopype
       description: A phenotyping pipeline for Python
-      created_at: 01-04-2022
+      created_at: '2022-01-04'
       stargazers_count: 8
       watchers_count: 8
       forks: 4
@@ -552,7 +552,7 @@
       forks_count: 4
       documentation: https://www.phenopype.org
       contrib_count: 1
-      last_commit: 06-16-2023
+      last_commit: '2023-06-16'
 - package_name: pyrolite
   package_description: A set of tools for getting the most from your geochemical
       data.
@@ -580,15 +580,15 @@
       name: Charles Le Losq
   archive: https://doi.org/10.5281/zenodo.3877690
   version_accepted: https://github.com/morganjwilliams/pyrolite/releases/tag/0.2.7
-  date_accepted: 06-04-2020
-  created_at: 02-19-2020
-  updated_at: 04-24-2023
-  closed_at: 06-09-2020
+  date_accepted: '2020-04-06'
+  created_at: '2020-02-19'
+  updated_at: '2023-04-24'
+  closed_at: '2020-06-09'
   issue_link: https://github.com/pyOpenSci/software-submission/issues/20
   gh_meta:
       name: pyrolite
       description: A set of tools for getting the most from your geochemical data.
-      created_at: 06-13-2018
+      created_at: '2018-06-13'
       stargazers_count: 109
       watchers_count: 109
       forks: 27
@@ -596,7 +596,7 @@
       forks_count: 27
       documentation: https://pyrolite.readthedocs.io
       contrib_count: 11
-      last_commit: 07-21-2023
+      last_commit: '2023-07-21'
 - package_name: MovingPandas
   package_description: Trajectory classes and functions built on top of GeoPandas
   submitting_author:
@@ -621,24 +621,24 @@
       name: Martin Fleischmann
   archive: https://doi.org/10.5281/zenodo.3710951
   version_accepted: https://github.com/movingpandas/movingpandas/releases/tag/v0.3.rc1
-  date_accepted: 03-19-2020
-  created_at: 01-06-2020
-  updated_at: 04-24-2023
-  closed_at: 04-08-2020
+  date_accepted: '2020-19-03'
+  created_at: '2020-01-06'
+  updated_at: '2023-04-24'
+  closed_at: '2020-04-08'
   issue_link: https://github.com/pyOpenSci/software-submission/issues/18
   gh_meta:
       name: movingpandas
       description: Implementation of Trajectory classes and functions built on top
           of GeoPandas
-      created_at: 12-16-2018
-      stargazers_count: 1002
-      watchers_count: 1002
+      created_at: '2018-12-16'
+      stargazers_count: 1004
+      watchers_count: 1004
       forks: 181
-      open_issues_count: 42
+      open_issues_count: 41
       forks_count: 181
-      documentation: https://movingpandas.org
+      documentation: http://movingpandas.org
       contrib_count: 30
-      last_commit: 07-22-2023
+      last_commit: '2023-07-28'
 - package_name: pandera
   package_description: validate the types, properties, and statistics of pandas
       data structures
@@ -664,24 +664,24 @@
       name: Ivan Ogasawara
   archive: https://github.com/pandera-dev/pandera/releases/tag/v0.2.3
   version_accepted: https://github.com/unionai-oss/pandera/releases/tag/v0.2.3
-  date_accepted: 10-10-2019
-  created_at: 08-14-2019
-  updated_at: 07-10-2023
-  closed_at: 12-16-2021
+  date_accepted: '2019-10-10'
+  created_at: '2019-08-14'
+  updated_at: '2023-07-10'
+  closed_at: '2021-12-16'
   issue_link: https://github.com/pyOpenSci/software-submission/issues/12
   gh_meta:
       name: pandera
       description: A light-weight, flexible, and expressive statistical data testing
           library
-      created_at: 11-01-2018
-      stargazers_count: 2465
-      watchers_count: 2465
+      created_at: '2018-11-01'
+      stargazers_count: 2471
+      watchers_count: 2471
       forks: 202
-      open_issues_count: 226
+      open_issues_count: 227
       forks_count: 202
       documentation: https://www.union.ai/pandera
       contrib_count: 30
-      last_commit: 07-18-2023
+      last_commit: '2023-07-18'
 - package_name: Nbless
   package_description: Construct, deconstruct, convert, execute, & prepare slides
       from Jupyter notebooks
@@ -704,15 +704,15 @@
       name: Kylen Solvik
   archive: TBD
   version_accepted: TBD
-  created_at: 05-30-2019
-  updated_at: 07-11-2023
-  closed_at: 08-06-2019
+  created_at: '2019-05-30'
+  updated_at: '2023-07-11'
+  closed_at: '2019-08-06'
   issue_link: https://github.com/pyOpenSci/software-submission/issues/7
   gh_meta:
       name: nbless
       description: Construct, deconstruct, convert, execute, and prepare slides
           from Jupyter notebooks
-      created_at: 09-05-2018
+      created_at: '2018-09-05'
       stargazers_count: 30
       watchers_count: 30
       forks: 5
@@ -720,7 +720,7 @@
       forks_count: 5
       documentation: https://py4ds.github.io/nbless/
       contrib_count: 4
-      last_commit: 07-25-2019
+      last_commit: '2019-07-25'
 - package_name: earthpy
   package_description: A package built to support working with spatial data using
       open source python
@@ -742,15 +742,15 @@
       name: Sean Gillies
   archive: TBD
   version_accepted: TBD
-  created_at: 05-08-2019
-  updated_at: 07-04-2023
-  closed_at: 11-13-2019
+  created_at: '2019-05-08'
+  updated_at: '2023-07-04'
+  closed_at: '2019-11-13'
   issue_link: https://github.com/pyOpenSci/software-submission/issues/3
   gh_meta:
       name: earthpy
       description: A package built to support working with spatial data using open
           source python
-      created_at: 02-20-2018
+      created_at: '2018-02-20'
       stargazers_count: 449
       watchers_count: 449
       forks: 157
@@ -758,7 +758,7 @@
       forks_count: 157
       documentation: https://earthpy.readthedocs.io
       contrib_count: 29
-      last_commit: 07-21-2023
+      last_commit: '2023-07-21'
 - package_name: Python-graphblas
   submitting_author:
       github_username: eriknw
@@ -786,16 +786,16 @@
       name: Szabolcs Horvát
   archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8125660.svg)](https://doi.org/10.5281/zenodo.8125660)'
   version_accepted: 2023.7.0
-  date_accepted: 07-14-2023
-  created_at: 02-04-2023
-  updated_at: 07-17-2023
-  closed_at: missing
+  date_accepted: '2023-14-07'
+  created_at: '2023-02-04'
+  updated_at: '2023-07-27'
+  closed_at: '2023-07-27'
   issue_link: https://github.com/pyOpenSci/software-submission/issues/81
   gh_meta:
       name: python-graphblas
       description: 'Python library for GraphBLAS: high-performance sparse linear
           algebra for scalable graph analytics'
-      created_at: 11-11-2019
+      created_at: '2019-11-11'
       stargazers_count: 79
       watchers_count: 79
       forks: 12
@@ -803,4 +803,4 @@
       forks_count: 12
       documentation: https://python-graphblas.readthedocs.io/en/stable/
       contrib_count: 7
-      last_commit: 07-26-2023
+      last_commit: '2023-07-26'
