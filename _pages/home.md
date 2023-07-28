@@ -104,12 +104,12 @@ peer-review:
 
 ## Recently Accepted Python Packages
 
+{% assign packages_sorted = site.data.packages | sort_natural: 'date_accepted' | reverse %}
+
 <div class="grid">
-    {% for apackage in site.data.packages %}
-    {% if apackage.highlight %}
-{% include package-grid.html  %}
-    {% endif %}
-    {% endfor %}
+  {% for apackage in packages_sorted limit:4 %}
+    {% include package-grid.html %}
+  {% endfor %}
 </div>
 
 <br clear="both">
