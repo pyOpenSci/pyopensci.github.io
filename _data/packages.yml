@@ -20,7 +20,7 @@
       name: Alexey Izmailov
   archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8124312.svg)](https://doi.org/10.5281/zenodo.8124312)'
   version_accepted: 0.1.10
-  date_accepted: 2023-5-7
+  date_accepted: 2023-7-5
   created_at: '2023-03-01'
   updated_at: '2023-07-27'
   closed_at: missing
@@ -62,7 +62,7 @@
       name: Tessa Pierce Ward
   archive: '[github tag 0.4.0](https://github.com/taxprofiler/taxpasta/releases/tag/0.4.0)'
   version_accepted: 0.4.0
-  date_accepted: '2023-05-07'
+  date_accepted: '2023-07-05'
   created_at: '2023-03-02'
   updated_at: '2023-07-12'
   closed_at: '2023-07-12'
@@ -154,7 +154,7 @@
       name: Agustina
   archive: TBD
   version_accepted: TBD
-  date_accepted: '2023-11-04'
+  date_accepted: '2023-04-11'
   created_at: '2023-01-16'
   updated_at: '2023-06-14'
   closed_at: '2023-05-22'
@@ -199,7 +199,7 @@
   archive: '[![DOI](https://zenodo.org/badge/159904494.svg)](https://zenodo.org/badge/latestdoi/159904494)
       [![DOI](https://joss.theoj.org/papers/10.21105/joss.05338/status.svg)](https://doi.org/10.21105/joss.05338)'
   version_accepted: v [5.0](https://github.com/vocalpy/crowsetta/releases/tag/5.0.0)
-  date_accepted: '2023-28-03'
+  date_accepted: '2023-03-28'
   created_at: '2023-01-03'
   updated_at: '2023-07-23'
   closed_at: '2023-04-13'
@@ -242,7 +242,7 @@
       name: Corinna Thoben
   archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7696204.svg)](https://doi.org/10.5281/zenodo.7696204)'
   version_accepted: 1.0.0
-  date_accepted: '2023-10-03'
+  date_accepted: '2023-03-10'
   created_at: '2022-12-16'
   updated_at: '2023-04-12'
   closed_at: '2023-04-12'
@@ -286,7 +286,7 @@
       name: Arthur Endsley
   archive: https://zenodo.org/record/5770586#.Yd8AUoRByV5
   version_accepted: 1.0.3
-  date_accepted: '2021-29-12'
+  date_accepted: '2021-12-29'
   created_at: '2021-08-31'
   updated_at: '2023-07-05'
   closed_at: '2022-01-12'
@@ -301,7 +301,7 @@
       forks: 1
       open_issues_count: 0
       forks_count: 1
-      documentation:
+      documentation: 
       contrib_count: 5
       last_commit: '2022-01-11'
 - package_name: PyGMT
@@ -325,7 +325,7 @@
       name: Szymon Moliński
   archive: '[Zenodo Archive](https://zenodo.org/record/6702566)'
   version_accepted: V 0.7.0
-  date_accepted: 2022-1-9
+  date_accepted: 2022-9-1
   created_at: '2021-07-23'
   updated_at: '2023-06-16'
   closed_at: '2023-06-12'
@@ -366,7 +366,7 @@
       name: Robert Guggenberger
   archive: https://doi.org/10.5281/zenodo.5603544
   version_accepted: https://github.com/hpi-dhc/devicely/releases/tag/v1.1.1
-  date_accepted: '2021-19-08'
+  date_accepted: '2021-08-19'
   created_at: '2021-04-03'
   updated_at: '2023-07-10'
   closed_at: '2022-09-07'
@@ -381,7 +381,7 @@
       forks: 7
       open_issues_count: 2
       forks_count: 7
-      documentation:
+      documentation: 
       contrib_count: 4
       last_commit: '2021-12-21'
 - package_name: openomics
@@ -411,7 +411,7 @@
       name: Katharina Sielemann
   archive: https://doi.org/10.5281/zenodo.4731011
   version_accepted: https://github.com/BioMeCIS-Lab/OpenOmics/tree/v0.8.8
-  date_accepted: '2021-17-04'
+  date_accepted: '2021-04-17'
   created_at: '2021-01-01'
   updated_at: '2023-07-05'
   closed_at: '2021-05-10'
@@ -455,7 +455,7 @@
       name: Leonardo de Oliveira Martins
   archive: https://zenodo.org/record/5512990
   version_accepted: '1.0'
-  date_accepted: 2021-14-9
+  date_accepted: 2021-9-14
   created_at: '2020-07-15'
   updated_at: '2023-07-27'
   closed_at: '2021-09-18'
@@ -496,7 +496,7 @@
       name: Soumith Chintala
   archive: https://github.com/pystiche/pystiche/archive/refs/tags/v0.6.0.tar.gz
   version_accepted: https://github.com/pmeier/pystiche/releases/tag/v0.6.0
-  date_accepted: 08-10-2020
+  date_accepted: 08-2020-10
   created_at: '2020-07-02'
   updated_at: '2023-07-28'
   closed_at: '2020-10-14'
@@ -510,7 +510,7 @@
       forks: 29
       open_issues_count: 15
       forks_count: 29
-      documentation:
+      documentation: 
       contrib_count: 10
       last_commit: '2022-03-18'
 - package_name: phenopype
@@ -537,7 +537,7 @@
       name: Seth Donoughe
   archive: TBD
   version_accepted: 2.0.1
-  date_accepted: '2021-13-05'
+  date_accepted: '2021-05-13'
   created_at: '2020-05-04'
   updated_at: '2023-04-28'
   closed_at: '2021-05-17'
@@ -581,7 +581,7 @@
       name: Charles Le Losq
   archive: https://doi.org/10.5281/zenodo.3877690
   version_accepted: https://github.com/morganjwilliams/pyrolite/releases/tag/0.2.7
-  date_accepted: '2020-04-06'
+  date_accepted: '2020-06-04'
   created_at: '2020-02-19'
   updated_at: '2023-04-24'
   closed_at: '2020-06-09'
@@ -622,7 +622,7 @@
       name: Martin Fleischmann
   archive: https://doi.org/10.5281/zenodo.3710951
   version_accepted: https://github.com/movingpandas/movingpandas/releases/tag/v0.3.rc1
-  date_accepted: '2020-19-03'
+  date_accepted: '2020-03-19'
   created_at: '2020-01-06'
   updated_at: '2023-04-24'
   closed_at: '2020-04-08'
@@ -705,7 +705,7 @@
       name: Kylen Solvik
   archive: TBD
   version_accepted: TBD
-  date_accepted: 17-06-2019
+  date_accepted: 17-2019-06
   created_at: '2019-05-30'
   updated_at: '2023-07-28'
   closed_at: '2019-08-06'
@@ -744,7 +744,7 @@
       name: Sean Gillies
   archive: TBD
   version_accepted: TBD
-  date_accepted: 06-11-2019
+  date_accepted: 06-2019-11
   created_at: '2019-05-08'
   updated_at: '2023-07-28'
   closed_at: '2019-11-13'
@@ -789,7 +789,7 @@
       name: Szabolcs Horvát
   archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8125660.svg)](https://doi.org/10.5281/zenodo.8125660)'
   version_accepted: 2023.7.0
-  date_accepted: '2023-14-07'
+  date_accepted: '2023-07-14'
   created_at: '2023-02-04'
   updated_at: '2023-07-27'
   closed_at: '2023-07-27'
