@@ -301,7 +301,7 @@
       forks: 1
       open_issues_count: 0
       forks_count: 1
-      documentation:
+      documentation: 
       contrib_count: 5
       last_commit: '2022-01-11'
 - package_name: PyGMT
@@ -381,7 +381,7 @@
       forks: 7
       open_issues_count: 2
       forks_count: 7
-      documentation:
+      documentation: 
       contrib_count: 4
       last_commit: '2021-12-21'
 - package_name: openomics
@@ -496,8 +496,9 @@
       name: Soumith Chintala
   archive: https://github.com/pystiche/pystiche/archive/refs/tags/v0.6.0.tar.gz
   version_accepted: https://github.com/pmeier/pystiche/releases/tag/v0.6.0
+  date_accepted: 08-10-2020
   created_at: '2020-07-02'
-  updated_at: '2023-04-24'
+  updated_at: '2023-07-28'
   closed_at: '2020-10-14'
   issue_link: https://github.com/pyOpenSci/software-submission/issues/25
   gh_meta:
@@ -509,7 +510,7 @@
       forks: 29
       open_issues_count: 15
       forks_count: 29
-      documentation:
+      documentation: 
       contrib_count: 10
       last_commit: '2022-03-18'
 - package_name: phenopype
@@ -674,8 +675,8 @@
       description: A light-weight, flexible, and expressive statistical data testing
           library
       created_at: '2018-11-01'
-      stargazers_count: 2471
-      watchers_count: 2471
+      stargazers_count: 2472
+      watchers_count: 2472
       forks: 202
       open_issues_count: 227
       forks_count: 202
@@ -704,8 +705,9 @@
       name: Kylen Solvik
   archive: TBD
   version_accepted: TBD
+  date_accepted: 17-06-2019
   created_at: '2019-05-30'
-  updated_at: '2023-07-11'
+  updated_at: '2023-07-28'
   closed_at: '2019-08-06'
   issue_link: https://github.com/pyOpenSci/software-submission/issues/7
   gh_meta:
@@ -742,8 +744,9 @@
       name: Sean Gillies
   archive: TBD
   version_accepted: TBD
+  date_accepted: 06-11-2019
   created_at: '2019-05-08'
-  updated_at: '2023-07-04'
+  updated_at: '2023-07-28'
   closed_at: '2019-11-13'
   issue_link: https://github.com/pyOpenSci/software-submission/issues/3
   gh_meta:
