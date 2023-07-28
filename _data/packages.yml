@@ -301,7 +301,7 @@
       forks: 1
       open_issues_count: 0
       forks_count: 1
-      documentation: 
+      documentation:
       contrib_count: 5
       last_commit: '2022-01-11'
 - package_name: PyGMT
@@ -381,7 +381,7 @@
       forks: 7
       open_issues_count: 2
       forks_count: 7
-      documentation: 
+      documentation:
       contrib_count: 4
       last_commit: '2021-12-21'
 - package_name: openomics
@@ -510,7 +510,7 @@
       forks: 29
       open_issues_count: 15
       forks_count: 29
-      documentation: 
+      documentation:
       contrib_count: 10
       last_commit: '2022-03-18'
 - package_name: phenopype
