@@ -24,6 +24,10 @@ jobs:
           update-contributors --update update_all
           update-reviews --update update_all
           update-reviewers
+      - Run pre-commit
+        uses: pre-commit/action@v2.0.0
+        with:
+          extra_args: --files _data/packages.yml _data/contributors.yml
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
         with:
