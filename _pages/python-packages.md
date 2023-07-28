@@ -36,7 +36,7 @@ redirect_from:
   <button class="button" data-filter=".metal:not(.transition)">metal but not transition</button> -->
 </div>
 
-{% assign packages_sorted = site.data.packages | sort_natural: 'date_accepted' | reverse  %}
+{% assign packages_sorted = site.data.packages | sort_natural: 'date_accepted' | reverse %}
 
 <div class="grid-isotope">
 {% for apackage in packages_sorted %}
