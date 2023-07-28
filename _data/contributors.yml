@@ -28,7 +28,7 @@
   packages-submitted:
     - earthpy
   packages-reviewed:
-    -
+    - 
   location: United States
   email: leah@pyopensci.org
 - name: Tracy Teal
@@ -40,7 +40,7 @@
   github_image_id: 889238
   title: Board chair
   board: true
-  website:
+  website: 
   location:
   email: tkteal@gmail.com
   contributor_type:
@@ -74,9 +74,9 @@
   contributor_type:
     - leadership
   packages-submitted:
-    -
+    - 
   packages-reviewed:
-    -
+    - 
   location:
   email: erinmr@gmail.com
 - name: Chris Holdgraf
@@ -97,7 +97,7 @@
     - guidebook-contrib
     - peer-review-guide
   packages-submitted:
-    -
+    - 
   packages-reviewed:
     - erdapy
   location: California
@@ -112,15 +112,15 @@
   twitter: inessapawson
   mastodon:
   orcidid:
-  website:
+  website: 
   contributor_type:
     - leadership
   packages-submitted:
-    -
+    - 
   packages-reviewed:
-    -
+    - 
   packages-editor:
-    -
+    - 
   location:
   email: inessapawson@gmail.com
 - name: Pradyun Gedam
@@ -158,11 +158,11 @@
   website: https://www.leouieda.com
   contributor_type:
   packages-submitted:
-    -
+    - 
   packages-reviewed:
-    -
+    - 
   packages-editor:
-    -
+    - 
   location: Liverpool, UK
   email: email@leouieda.com
 - name: Ivan Ogasawara
@@ -175,7 +175,7 @@
   twitter: xmnlab
   mastodon:
   orcidid: 0000-0001-5049-4289
-  website:
+  website: 
   editor:
   contributor_type:
     - reviewer
@@ -189,7 +189,7 @@
     - code-contrib
     - editor
   packages-submitted:
-    -
+    - 
   packages-reviewed:
     - pandera
     - MovingPandas
@@ -240,11 +240,11 @@
   contributor_type:
     - leadership
   packages-submitted:
-    -
+    - 
   packages-reviewed:
-    -
+    - 
   packages-editor:
-    -
+    - 
   location:
   email: lheagy@eos.ubc.ca
 - name: Martin Fleischmann
@@ -263,7 +263,7 @@
     - leadership
     - peer-review
   packages-submitted:
-    -
+    - 
   packages-reviewed:
     - movingpandas
   location: Prague
@@ -277,15 +277,15 @@
   twitter:
   mastodon: https://hachyderm.io/@yuvipanda
   orcidid:
-  website:
+  website: 
   contributor_type:
     - guidebook-contrib
     - leadership
     - peer-review-guide
   packages-submitted:
-    -
+    - 
   packages-reviewed:
-    -
+    - 
   location:
   email:
 - name: Ariane Sasso
@@ -315,7 +315,7 @@
     - devicely
     - jointly
   packages-reviewed:
-    -
+    - 
   location: Berlin, Germany
   email: ariane.sasso@gmail.com
 - name: David Nicholson
@@ -371,9 +371,9 @@
   packages-editor:
     - crowsetta
   packages-submitted:
-    -
+    - 
   packages-reviewed:
-    -
+    - 
   location:
   email:
 - name: Jenny Palomino
@@ -386,7 +386,7 @@
   twitter:
   mastodon:
   orcidid:
-  website:
+  website: 
   contributor_type:
     - reviewer
     - contributor
@@ -419,11 +419,11 @@
     - package-guide
     - peer-review
   packages-submitted:
-    -
+    - 
   packages-reviewed:
     - PyGMT
   packages-editor:
-    -
+    - 
   twitter:
   website: https://ml-gis-service.com
   location:
@@ -451,9 +451,9 @@
   packages-submitted:
     - movingpandas
   packages-reviewed:
-    -
+    - 
   packages-editor:
-    -
+    - 
   twitter: underdarkGIS
   location:
   email:
@@ -479,7 +479,7 @@
     - peer-review-guide
     - web-contrib
   packages-submitted:
-    -
+    - 
   packages-reviewed:
     - Pynteny
   packages-editor:
@@ -502,7 +502,7 @@
     - peer-review-guide
     - peer-review
   packages-submitted:
-    -
+    - 
   packages-reviewed:
     - pandera
   location: Denver, CO
@@ -518,9 +518,9 @@
     - metrics-contrib
     - code-contrib
   packages-submitted:
-    -
+    - 
   packages-reviewed:
-    -
+    - 
   packages-editor:
     - earthpy
   twitter:
@@ -536,11 +536,11 @@
   contributor_type:
     - contributor
   packages-submitted:
-    -
+    - 
   packages-reviewed:
-    -
+    - 
   packages-editor:
-    -
+    - 
   twitter: dynamicwebpaige
   website: https://webpaige.dev
   location: Seattle, WA
@@ -553,11 +553,11 @@
   contributor_type:
     - contributor
   packages-submitted:
-    -
+    - 
   packages-reviewed:
-    -
+    - 
   packages-editor:
-    -
+    - 
   twitter: carsonfarmer
   website: https://carsonfarmer.com
   location: Victoria, B.C., Canada
@@ -570,11 +570,11 @@
   contributor_type:
     - contributor
   packages-submitted:
-    -
+    - 
   packages-reviewed:
-    -
+    - 
   packages-editor:
-    -
+    - 
   twitter: _jhamman
   website: https://joehamman.com
   location: Seattle, WA
@@ -591,13 +591,13 @@
     - peer-review
     - reviewer
   packages-submitted:
-    -
+    - 
   packages-reviewed:
     - Nbless
   packages-editor:
-    -
+    - 
   twitter:
-  website:
+  website: 
   location:
   email: kysolvik@gmail.com
 - name: Martin Skarzynski
@@ -614,9 +614,9 @@
   packages-submitted:
     - Nbless
   packages-reviewed:
-    -
+    - 
   packages-editor:
-    -
+    - 
   twitter:
   website: https://marskar.github.io/
   location: Rockville/Bethesda, Maryland
@@ -629,13 +629,13 @@
   contributor_type:
     - contributor
   packages-submitted:
-    -
+    - 
   packages-reviewed:
-    -
+    - 
   packages-editor:
-    -
+    - 
   twitter:
-  website:
+  website: 
   location: Washington, DC
   email: triznam@si.edu
 - name: Neil Chue Hong
@@ -647,11 +647,11 @@
   contributor_type:
     - contributor
   packages-submitted:
-    -
+    - 
   packages-reviewed:
-    -
+    - 
   packages-editor:
-    -
+    - 
   twitter:
   website: https://www.software.ac.uk
   location: Edinburgh, United Kingdom
@@ -672,9 +672,9 @@
   packages-submitted:
     - pandera
   packages-reviewed:
-    -
+    - 
   packages-editor:
-    -
+    - 
   twitter: cosmicbboy
   website: https://cosmicbboy.github.io/
   location: Atlanta, GA, US
@@ -688,11 +688,11 @@
     - reviewer
     - peer-review
   packages-submitted:
-    -
+    - 
   packages-reviewed:
     - earthpy
   packages-editor:
-    -
+    - 
   twitter:
   website: https://sgillies.net
   location: Fort Collins, Colorado
@@ -706,11 +706,11 @@
     - reviewer
     - peer-review
   packages-submitted:
-    -
+    - 
   packages-reviewed:
     - earthpy
   packages-editor:
-    -
+    - 
   twitter: rg0swami
   website: https://rgoswami.me
   location: University of Iceland
@@ -728,11 +728,11 @@
   packages-submitted:
     - pyrolite
   packages-reviewed:
-    -
+    - 
   packages-editor:
-    -
+    - 
   twitter: metasomite
-  website:
+  website: 
   location: Perth, WA, Australia
   email:
 - name: Philip Meier
@@ -751,9 +751,9 @@
   packages-reviewed:
     - sevivi
   packages-editor:
-    -
+    - 
   twitter:
-  website:
+  website: 
   location: Germany
   email:
 - name: Edgar Riba
@@ -765,14 +765,14 @@
     - reviewer
     - peer-review
   packages-submitted:
-    -
+    - 
   packages-reviewed:
     - pystiche
     - sevivi
   packages-editor:
-    -
+    - 
   twitter: edgarriba
-  website:
+  website: 
   location: Barcelona, Spain
   email: edgar.riba@gmail.com
 - name: Databank Ondergrond Vlaanderen
@@ -785,9 +785,9 @@
   packages-submitted:
     - pydov
   packages-reviewed:
-    -
+    - 
   packages-editor:
-    -
+    - 
   twitter:
   website: https://www.dov.vlaanderen.be
   location:
@@ -802,9 +802,9 @@
   packages-submitted:
     - pydov
   packages-reviewed:
-    -
+    - 
   packages-editor:
-    -
+    - 
   twitter:
   website: https://mastodon.social/@rhuybrec
   location:
@@ -819,11 +819,11 @@
   packages-submitted:
     - pydov
   packages-reviewed:
-    -
+    - 
   packages-editor:
-    -
+    - 
   twitter:
-  website:
+  website: 
   location:
   email:
 - name: Pieter Jan Haest
@@ -836,9 +836,9 @@
   packages-submitted:
     - pydov
   packages-reviewed:
-    -
+    - 
   packages-editor:
-    -
+    - 
   twitter:
   website: https://corporate.dewatergroep.be/en
   location: Belgium
@@ -858,9 +858,9 @@
   packages-submitted:
     - openomics
   packages-reviewed:
-    -
+    - 
   packages-editor:
-    -
+    - 
   twitter: Jonny_Wireless
   website: https://jonny.bio
   location:
@@ -874,13 +874,13 @@
     - reviewer
     - peer-review
   packages-submitted:
-    -
+    - 
   packages-reviewed:
     - openomics
   packages-editor:
-    -
+    - 
   twitter: ksielemann
-  website:
+  website: 
   location:
   email:
 - name: Moritz Lürig
@@ -898,9 +898,9 @@
   packages-submitted:
     - phenopype
   packages-reviewed:
-    -
+    - 
   packages-editor:
-    -
+    - 
   twitter: mluerig
   website: https://www.luerig.net
   location: Sweden
@@ -922,7 +922,7 @@
   packages-reviewed:
     - taxpasta
   packages-editor:
-    -
+    - 
   twitter:
   website: https://McTavishLab.github.io
   location:
@@ -940,9 +940,9 @@
   packages-submitted:
     - physcraper
   packages-reviewed:
-    -
+    - 
   packages-editor:
-    -
+    - 
   twitter: LunaSare
   website: https://www.lunasare.com
   location: Merced, CA, USA
@@ -956,13 +956,13 @@
     - reviewer
     - peer-review
   packages-submitted:
-    -
+    - 
   packages-reviewed:
     - Jointly
   packages-editor:
-    -
+    - 
   twitter:
-  website:
+  website: 
   location: Missoula, MT
   email: endsley@umich.edu
 - name: Álex Sáez
@@ -975,13 +975,13 @@
     - reviewer
     - peer-review
   packages-submitted:
-    -
+    - 
   packages-reviewed:
     - jointly
   packages-editor:
-    -
+    - 
   twitter:
-  website:
+  website: 
   location: Madrid (Spain)
   email: alex.saez.12@gmail.com
 - name: Julius Busecke
@@ -993,13 +993,13 @@
     - reviewer
     - peer-review
   packages-submitted:
-    -
+    - 
   packages-reviewed:
     - PyGMT
   packages-editor:
-    -
+    - 
   twitter: JuliusBusecke
-  website:
+  website: 
   location: Brooklyn, New York
   email:
 - name: Nicolas Palopoli
@@ -1044,7 +1044,7 @@
     - doc
     - design
   github_username: tupui
-  website:
+  website: 
   github_image_id: 23188539
   mastodon:
   twitter: PamphileRoy
@@ -1087,7 +1087,7 @@
     - code
     - review
   github_username: radoering
-  website:
+  website: 
   github_image_id: 30527984
   mastodon:
   twitter:
@@ -1107,7 +1107,7 @@
     - design
     - review
   github_username: astrojuanlu
-  website:
+  website: 
   github_image_id: 316517
   mastodon:
   twitter:
@@ -1171,7 +1171,7 @@
     - design
     - review
   github_username: eli-schwartz
-  website:
+  website: 
   github_image_id: 6551424
   mastodon:
   twitter:
@@ -1319,7 +1319,7 @@
     - review
     - code
   github_username: matthew-brett
-  website:
+  website: 
   github_image_id: 67612
   mastodon:
   twitter:
@@ -1338,7 +1338,7 @@
     - review
     - code
   github_username: ReventonC
-  website:
+  website: 
   github_image_id: 6276623
   mastodon:
   twitter:
@@ -1357,7 +1357,7 @@
     - code
     - review
   github_username: sumit-158
-  website:
+  website: 
   github_image_id: 96618001
   mastodon:
   twitter: itss_sumit
@@ -1376,7 +1376,7 @@
     - review
     - code
   github_username: consideRatio
-  website:
+  website: 
   github_image_id: 3837114
   mastodon:
   twitter: e_Sundell
@@ -1415,7 +1415,7 @@
     - review
     - code
   github_username: jmason86
-  website:
+  website: 
   github_image_id: 947614
   mastodon:
   twitter: starfleetjames
@@ -1435,7 +1435,7 @@
     - code
     - review
   github_username: aragilar
-  website:
+  website: 
   github_image_id: 1281144
   mastodon:
   twitter:
@@ -1473,7 +1473,7 @@
     - code
     - review
   github_username: hugovk
-  website:
+  website: 
   github_image_id: 1324225
   mastodon:
   twitter:
@@ -1493,7 +1493,7 @@
     - code
     - review
   github_username: kwinkunks
-  website:
+  website: 
   github_image_id: 1692372
   mastodon:
   twitter:
@@ -1512,7 +1512,7 @@
     - code
     - review
   github_username: jezdez
-  website:
+  website: 
   github_image_id: 1610
   mastodon:
   twitter: jezdez
@@ -1569,7 +1569,7 @@
   contributions:
     - code
   github_username: tlogan2000
-  website:
+  website: 
   github_image_id: 22454970
   mastodon:
   twitter:
@@ -1589,7 +1589,7 @@
   contributions:
     - code
   github_username: aulemahal
-  website:
+  website: 
   github_image_id: 20629530
   mastodon:
   twitter:
@@ -1723,7 +1723,7 @@
   twitter:
   mastodon:
   orcidid:
-  website:
+  website: 
   contributor_type:
     - peer-review
     - reviewer
@@ -1743,7 +1743,7 @@
   twitter: seth_donoughe
   mastodon:
   orcidid:
-  website:
+  website: 
   contributor_type:
     - peer-review
     - reviewer
@@ -1784,7 +1784,7 @@
   twitter: romain_beucher
   mastodon:
   orcidid:
-  website:
+  website: 
   contributor_type:
     - peer-review
     - reviewer
@@ -1881,7 +1881,7 @@
   contributions:
     - review
   github_username: shaupert
-  website:
+  website: 
   github_image_id: 43136040
   mastodon:
   twitter:
@@ -1900,7 +1900,7 @@
   contributions:
     - review
   github_username: YannickJadoul
-  website:
+  website: 
   github_image_id: 8025744
   mastodon:
   twitter:
@@ -1919,7 +1919,7 @@
     - code
     - review
   github_username: Robaina
-  website:
+  website: 
   github_image_id: 21340147
   mastodon:
   twitter: srobainae
@@ -1942,7 +1942,7 @@
   contributions:
     - code
   github_username: Zeitsperre
-  website:
+  website: 
   github_image_id: 10819524
   mastodon:
   twitter:
@@ -1964,7 +1964,7 @@
   contributions:
     - review
   github_username: jmunroe
-  website:
+  website: 
   github_image_id: 6181563
   mastodon:
   twitter: __jmunroe
@@ -1990,7 +1990,7 @@
   twitter:
   mastodon:
   orcidid:
-  website:
+  website: 
   contributor_type:
     - peer-review
     - reviewer
@@ -2011,16 +2011,16 @@
   twitter: tlrss
   mastodon:
   orcidid:
-  website:
+  website: 
   contributor_type:
     - guest editor
     - contributor
     - peer-review
     - editor
   packages-submitted:
-    -
+    - 
   packages-reviewed:
-    -
+    - 
   packages-editor:
     - python-graphblas
   location: Oxford / London
@@ -2036,16 +2036,16 @@
   twitter: ctitusbrown
   mastodon:
   orcidid:
-  website:
+  website: 
   contributor_type:
     - guest editor
     - contributor
     - peer-review
     - editor
   packages-submitted:
-    -
+    - 
   packages-reviewed:
-    -
+    - 
   packages-editor:
     - taxpasta
   location: Davis, CA
@@ -2061,16 +2061,16 @@
   twitter:
   mastodon:
   orcidid:
-  website:
+  website: 
   contributor_type:
     - guest editor
     - contributor
     - peer-review
     - editor
   packages-submitted:
-    -
+    - 
   packages-reviewed:
-    -
+    - 
   packages-editor:
     - bibat
   location:
@@ -2080,7 +2080,7 @@
     - code
     - review
   github_username: mccrayjr
-  website:
+  website: 
   github_image_id: 69483966
   mastodon:
   twitter:
@@ -2099,7 +2099,7 @@
     - code
     - review
   github_username: meerkatters
-  website:
+  website: 
   github_image_id: 50787305
   mastodon:
   twitter:
@@ -2138,7 +2138,7 @@
     - review
     - design
   github_username: austinlg96
-  website:
+  website: 
   github_image_id: 19922895
   mastodon:
   twitter:
@@ -2156,7 +2156,7 @@
   contributions:
     - review
   github_username: paajake
-  website:
+  website: 
   github_image_id: 12656820
   mastodon:
   twitter: paajake
@@ -2176,7 +2176,7 @@
     - code
     - review
   github_username: bbulpett
-  website:
+  website: 
   github_image_id: 6424805
   mastodon:
   twitter:
@@ -2234,7 +2234,7 @@
     - code
     - review
   github_username: chiinita
-  website:
+  website: 
   github_image_id: 17188345
   mastodon:
   twitter:
@@ -2272,7 +2272,7 @@
     - code
     - review
   github_username: juanis2112
-  website:
+  website: 
   github_image_id: 18587879
   mastodon:
   twitter: juanitagomezr
@@ -2323,9 +2323,9 @@
   packages-submitted:
     - afscgap
   packages-reviewed:
-    -
+    - 
   packages-editor:
-    -
+    - 
   twitter:
   website: https://gleap.org
   location:
@@ -2335,7 +2335,7 @@
     - code
     - design
   github_username: abravalheri
-  website:
+  website: 
   github_image_id: 320755
   mastodon:
   twitter:
@@ -2407,14 +2407,14 @@
   location:
   organization:
   email: groves.teddy@gmail.com
-  website:
+  website: 
   github_image_id: 17163471
 - name: James A. Fellows Yates
   contributions:
     - code
     - review
   github_username: jfy133
-  website:
+  website: 
   github_image_id: 17950287
   mastodon:
   twitter: jfy133
@@ -2436,7 +2436,7 @@
     - code
     - review
   github_username: Midnighter
-  website:
+  website: 
   github_image_id: 135653
   mastodon:
   twitter: me_beber
@@ -2458,7 +2458,7 @@
     - review
   github_username: szhorvat
   github_image_id: 1212871
-  website:
+  website: 
   mastodon:
   twitter:
   bio: physicist at Center for Systems Biology Dresden
@@ -2479,7 +2479,7 @@
     - code
     - review
   github_username: yang-ruoxi
-  website:
+  website: 
   github_image_id: 13646711
   mastodon:
   twitter:
@@ -2499,7 +2499,7 @@
     - code
     - review
   github_username: pllim
-  website:
+  website: 
   github_image_id: 2090236
   mastodon:
   twitter:
@@ -2537,7 +2537,7 @@
     - code
     - review
   github_username: hamogu
-  website:
+  website: 
   github_image_id: 498688
   mastodon:
   twitter:
@@ -2556,7 +2556,7 @@
     - code
     - review
   github_username: g-patlewicz
-  website:
+  website: 
   github_image_id: 52672925
   mastodon:
   twitter:
@@ -2575,7 +2575,7 @@
     - code
     - review
   github_username: msarahan
-  website:
+  website: 
   github_image_id: 38393
   mastodon:
   twitter:
@@ -2616,7 +2616,7 @@
   twitter:
   mastodon:
   orcidid:
-  website:
+  website: 
   contributor_type:
     - web-contrib
   packages-editor:
@@ -2712,7 +2712,7 @@
   twitter:
   mastodon:
   orcidid:
-  website:
+  website: 
   contributor_type:
     - peer-review
     - maintainer
@@ -2774,7 +2774,7 @@
   twitter:
   mastodon:
   orcidid:
-  website:
+  website: 
   contributor_type:
     - peer-review
     - maintainer
@@ -2794,7 +2794,7 @@
   twitter:
   mastodon:
   orcidid:
-  website:
+  website: 
   contributor_type:
     - peer-review
     - maintainer
@@ -2814,7 +2814,7 @@
   twitter:
   mastodon:
   orcidid:
-  website:
+  website: 
   contributor_type:
     - peer-review
     - maintainer
