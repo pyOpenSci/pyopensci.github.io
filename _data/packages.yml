@@ -36,7 +36,7 @@
       forks_count: 2
       documentation: https://bibat.readthedocs.io/
       contrib_count: 1
-      last_commit: '2023-07-14'
+      last_commit: '2023-08-01'
 - package_name: taxpasta
   package_description: TAXonomic Profile Aggregation and STAndardisation
   submitting_author:
@@ -74,11 +74,11 @@
       stargazers_count: 21
       watchers_count: 21
       forks: 7
-      open_issues_count: 10
+      open_issues_count: 12
       forks_count: 7
       documentation: https://taxpasta.readthedocs.io/
       contrib_count: 5
-      last_commit: '2023-07-13'
+      last_commit: '2023-07-30'
 - package_name: afscgap
   package_description: Community contributed Python-based tools for working with
       public bottom trawl surveys data from the NOAA Alaska Fisheries Science Center
@@ -164,14 +164,14 @@
       description: 'Library of derived climate variables, ie climate indicators,
           based on xarray. '
       created_at: '2018-07-27'
-      stargazers_count: 251
-      watchers_count: 251
+      stargazers_count: 254
+      watchers_count: 254
       forks: 45
-      open_issues_count: 57
+      open_issues_count: 62
       forks_count: 45
       documentation: https://xclim.readthedocs.io/en/stable/
-      contrib_count: 27
-      last_commit: '2023-07-27'
+      contrib_count: 28
+      last_commit: '2023-08-03'
 - package_name: crowsetta
   package_description: A Python tool to work with any format for annotating animal
       vocalizations and bioacoustics data.
@@ -252,8 +252,8 @@
       description: Query sequence database by HMMs arranged in predefined synteny
           structure
       created_at: '2022-06-06'
-      stargazers_count: 12
-      watchers_count: 12
+      stargazers_count: 13
+      watchers_count: 13
       forks: 1
       open_issues_count: 1
       forks_count: 1
@@ -301,7 +301,7 @@
       forks: 1
       open_issues_count: 0
       forks_count: 1
-      documentation:
+      documentation: 
       contrib_count: 5
       last_commit: '2022-01-11'
 - package_name: PyGMT
@@ -334,14 +334,14 @@
       name: pygmt
       description: A Python interface for the Generic Mapping Tools.
       created_at: '2017-03-17'
-      stargazers_count: 620
-      watchers_count: 620
+      stargazers_count: 621
+      watchers_count: 621
       forks: 193
-      open_issues_count: 154
+      open_issues_count: 148
       forks_count: 193
       documentation: https://www.pygmt.org
       contrib_count: 30
-      last_commit: '2023-07-24'
+      last_commit: '2023-08-09'
 - package_name: Devicely
   package_description: A Python package for reading, timeshifting and writing sensor
       data
@@ -381,7 +381,7 @@
       forks: 7
       open_issues_count: 2
       forks_count: 7
-      documentation:
+      documentation: 
       contrib_count: 4
       last_commit: '2021-12-21'
 - package_name: openomics
@@ -421,8 +421,8 @@
       description: A bioinformatics API to interface with public multi-omics bio
           databases for wicked fast data integration.
       created_at: '2018-03-16'
-      stargazers_count: 20
-      watchers_count: 20
+      stargazers_count: 21
+      watchers_count: 21
       forks: 12
       open_issues_count: 3
       forks_count: 12
@@ -505,12 +505,12 @@
       name: pystiche
       description: Framework for Neural Style Transfer (NST) built upon PyTorch
       created_at: '2019-09-16'
-      stargazers_count: 263
-      watchers_count: 263
+      stargazers_count: 264
+      watchers_count: 264
       forks: 29
       open_issues_count: 15
       forks_count: 29
-      documentation:
+      documentation: 
       contrib_count: 10
       last_commit: '2022-03-18'
 - package_name: phenopype
@@ -590,8 +590,8 @@
       name: pyrolite
       description: A set of tools for getting the most from your geochemical data.
       created_at: '2018-06-13'
-      stargazers_count: 109
-      watchers_count: 109
+      stargazers_count: 110
+      watchers_count: 110
       forks: 27
       open_issues_count: 11
       forks_count: 27
@@ -629,17 +629,16 @@
   issue_link: https://github.com/pyOpenSci/software-submission/issues/18
   gh_meta:
       name: movingpandas
-      description: Implementation of Trajectory classes and functions built on top
-          of GeoPandas
+      description: Movement trajectory classes and functions built on top of GeoPandas
       created_at: '2018-12-16'
-      stargazers_count: 1004
-      watchers_count: 1004
+      stargazers_count: 1018
+      watchers_count: 1018
       forks: 181
       open_issues_count: 41
       forks_count: 181
       documentation: http://movingpandas.org
       contrib_count: 30
-      last_commit: '2023-07-28'
+      last_commit: '2023-08-07'
 - package_name: pandera
   package_description: validate the types, properties, and statistics of pandas
       data structures
@@ -675,11 +674,11 @@
       description: A light-weight, flexible, and expressive statistical data testing
           library
       created_at: '2018-11-01'
-      stargazers_count: 2472
-      watchers_count: 2472
-      forks: 202
-      open_issues_count: 227
-      forks_count: 202
+      stargazers_count: 2493
+      watchers_count: 2493
+      forks: 204
+      open_issues_count: 249
+      forks_count: 204
       documentation: https://www.union.ai/pandera
       contrib_count: 30
       last_commit: '2023-07-18'
@@ -715,8 +714,8 @@
       description: Construct, deconstruct, convert, execute, and prepare slides
           from Jupyter notebooks
       created_at: '2018-09-05'
-      stargazers_count: 30
-      watchers_count: 30
+      stargazers_count: 31
+      watchers_count: 31
       forks: 5
       open_issues_count: 19
       forks_count: 5
@@ -757,7 +756,7 @@
       stargazers_count: 449
       watchers_count: 449
       forks: 157
-      open_issues_count: 28
+      open_issues_count: 30
       forks_count: 157
       documentation: https://earthpy.readthedocs.io
       contrib_count: 29
@@ -799,11 +798,11 @@
       description: 'Python library for GraphBLAS: high-performance sparse linear
           algebra for scalable graph analytics'
       created_at: '2019-11-11'
-      stargazers_count: 79
-      watchers_count: 79
-      forks: 12
-      open_issues_count: 47
-      forks_count: 12
+      stargazers_count: 81
+      watchers_count: 81
+      forks: 13
+      open_issues_count: 48
+      forks_count: 13
       documentation: https://python-graphblas.readthedocs.io/en/stable/
-      contrib_count: 7
-      last_commit: '2023-07-26'
+      contrib_count: 8
+      last_commit: '2023-08-09'
