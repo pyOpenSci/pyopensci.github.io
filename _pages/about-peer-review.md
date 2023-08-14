@@ -67,7 +67,7 @@ classes:
 We value our volunteer editors. Learn more about what editors do and how we
 select them here.
 
-{% assign editors = site.data.contributors | where: 'editorial-board', true  %}
+{% assign editors = site.data.contributors | where: 'editorial_board', true  %}
 
 <div class="grid">
 {% for aperson in editors %}
@@ -146,11 +146,11 @@ are, in places, less stringent than those of pyOpenSci.
 
 ## Recently Accepted Python Packages
 
+{% assign packages_sorted = site.data.packages | sort_natural: 'date_accepted' | reverse %}
+
 <div class="grid">
-  {% for apackage in site.data.packages %}
-    {% if apackage.highlight %}
-      {% include package-grid.html  %}
-    {% endif %}
+  {% for apackage in packages_sorted limit:4 %}
+    {% include package-grid.html %}
   {% endfor %}
 </div>
 
