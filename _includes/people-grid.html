@@ -16,7 +16,9 @@
       </h4>
       <p class="page__meta">
       {% if aperson.title %}
-       <span>{{ aperson.title }}</span>
+      <span>
+        {{ aperson.title | join: ', ' }}
+      </span>
       {% endif %}
       </p>
       <p class="contrib_org" itemprop="organization"> {{ aperson.organization }} </p>

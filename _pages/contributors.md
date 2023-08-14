@@ -101,9 +101,9 @@ pyOpenSci is beginning to create its DEIA council. This council consists of lead
   <button class="button is-checked" data-filter="*">Show All</button>
   <button class="button" data-filter=".leadership">Leadership/Advisory</button>
   <button class="button" data-filter=".editor">Editorial Team</button>
-  <button class="button" data-filter=".community">Community</button>
   <button class="button" data-filter=".peer-review">Peer Review</button>
-  <button class="button" data-filter=".guidebook-contrib">Guidebook Contributor</button>
+  <button class="button" data-filter=".peer-review-guide">Peer Review Guide</button>
+  <button class="button" data-filter=".package-guide">Packaging Guide</button>
   <button class="button" data-filter=".metrics-contrib">Metrics</button>
   <button class="button" data-filter=".web-contrib">Website</button>
 
