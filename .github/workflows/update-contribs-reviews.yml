@@ -26,7 +26,7 @@ jobs:
           pip install pyosmeta@git+https://github.com/pyopensci/update-web-metadata
           update-contributors
           update-reviews
-          update-reviewers
+          update-review-teams
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
         with:

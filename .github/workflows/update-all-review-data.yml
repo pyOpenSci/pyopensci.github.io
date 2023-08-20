@@ -22,8 +22,8 @@ jobs:
         run: |
           pip install pyosmeta@git+https://github.com/pyopensci/update-web-metadata
           update-contributors --update update_all
-          update-reviews --update update_all
-          update-reviewers
+          update-reviews
+          update-review-teams
       - name: Run pre-commit
         uses: pre-commit/action@v2.0.0
         with:
