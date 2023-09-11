@@ -26,7 +26,7 @@ peer-review:
   - image_path: images/community-partnerships.png
     alt: "Light purple image with a bunch from different backgrounds of stick figure people in a slightly darker color. The text on the image at the top says Community Partnerships"
     title: "Community Partnerships"
-    excerpt: "We partner with domain-specific scientific Python communities such as [Pangeo](https://www.pyopensci.org/software-peer-review/partners/pangeo.html) who want to review affiliated packages. Through this collaboration we develop develop community-specific standards that are used in our reviews, to evaluate whether a package meets affiliation requirements. This removes the need to communities to develop their own peer review process."
+    excerpt: "We partner with domain-specific scientific Python communities such as [Pangeo](https://www.pyopensci.org/software-peer-review/partners/pangeo.html) who want to review affiliated packages. Through this collaboration, we develop community-specific standards that are used in our reviews to evaluate whether a package meets affiliation requirements. This removes the need for communities to develop their own peer review process."
     url: https://www.pyopensci.org/software-peer-review/partners/scientific-communities.html
     btn_label: "> Learn More About Our Community Partners"
     btn_class: btn--inverse
