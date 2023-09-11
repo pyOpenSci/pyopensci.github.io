@@ -32,7 +32,7 @@
     - pyrolite
   packages_submitted:
     - earthpy
-  packages_reviewed: 
+  packages_reviewed:
   location: United States
   email: leah@pyopensci.org
 - name: Tracy Teal
@@ -52,9 +52,9 @@
   board: true
   contributor_type:
     - leadership
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email: tkteal@gmail.com
 - name: Karen Cranston
@@ -74,9 +74,9 @@
   board: true
   contributor_type:
     - leadership
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Ottawa, ON
   email: karen.cranston@gmail.com
 - name: Erin Robinson
@@ -96,9 +96,9 @@
   board: false
   contributor_type:
     - leadership
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email: erinmr@gmail.com
 - name: Chris Holdgraf
@@ -122,8 +122,8 @@
     - leadership
     - peer-review-guide
     - reviewer
-  packages_editor: 
-  packages_submitted: 
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - erdapy
   location: California
@@ -146,9 +146,9 @@
   board: false
   contributor_type:
     - leadership
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email: inessapawson@gmail.com
 - name: Pradyun Gedam
@@ -170,9 +170,9 @@
   contributor_type:
     - guidebook-contrib
     - package-guide
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: London, UK
   email:
 - name: Leonardo Uieda
@@ -191,10 +191,10 @@
   orcidid:
   website: https://www.leouieda.com
   board: false
-  contributor_type: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  contributor_type:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Liverpool, UK
   email: email@leouieda.com
 - name: Ivan Ogasawara
@@ -228,7 +228,7 @@
     - devicely
     - jointly
     - sevivi
-  packages_submitted: 
+  packages_submitted:
   packages_reviewed:
     - movingpandas
     - pandera
@@ -283,9 +283,9 @@
   board: false
   contributor_type:
     - leadership
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email: lheagy@eos.ubc.ca
 - name: Martin Fleischmann
@@ -308,8 +308,8 @@
     - leadership
     - peer-review
     - reviewer
-  packages_editor: 
-  packages_submitted: 
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - movingpandas
   location: Prague
@@ -333,9 +333,9 @@
     - guidebook-contrib
     - leadership
     - peer-review-guide
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email:
 - name: Ariane Sasso
@@ -367,7 +367,7 @@
   packages_submitted:
     - devicely
     - jointly
-  packages_reviewed: 
+  packages_reviewed:
   location: Berlin, Germany
   email: ariane.sasso@gmail.com
 - name: David Nicholson
@@ -431,8 +431,8 @@
     - peer-review-guide
   packages_editor:
     - crowsetta
-  packages_submitted: 
-  packages_reviewed: 
+  packages_submitted:
+  packages_reviewed:
   location:
   email:
 - name: Jenny Palomino
@@ -486,8 +486,8 @@
     - package-guide
     - peer-review
     - reviewer
-  packages_editor: 
-  packages_submitted: 
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - pygmt
   location:
@@ -514,10 +514,10 @@
     - peer-review
     - submitting-author
     - web-contrib
-  packages_editor: 
+  packages_editor:
   packages_submitted:
     - movingpandas
-  packages_reviewed: 
+  packages_reviewed:
   location:
   email:
 - name: Alex Batisse
@@ -546,7 +546,7 @@
   packages_editor:
     - cardsort
     - xclim
-  packages_submitted: 
+  packages_submitted:
   packages_reviewed:
     - pynteny
   location:
@@ -572,7 +572,7 @@
     - peer-review
     - peer-review-guide
     - reviewer
-  packages_editor: 
+  packages_editor:
   packages_submitted:
     - earthpy
   packages_reviewed:
@@ -602,8 +602,8 @@
     - peer-review
   packages_editor:
     - earthpy
-  packages_submitted: 
-  packages_reviewed: 
+  packages_submitted:
+  packages_reviewed:
   location: Davis, CA
   email:
 - name: Paige Bailey
@@ -624,9 +624,9 @@
   board: false
   contributor_type:
     - contributor
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Seattle, WA
   email: paige.bailey@alumni.rice.edu
 - name: Carson Farmer
@@ -646,9 +646,9 @@
   board: false
   contributor_type:
     - contributor
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Victoria, B.C., Canada
   email: carson.farmer@gmail.com
 - name: Joe Hamman
@@ -668,9 +668,9 @@
   board: false
   contributor_type:
     - contributor
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Seattle, WA
   email: joe@earthmover.io
 - name: Kylen Solvik
@@ -694,8 +694,8 @@
     - peer-review
     - peer-review-guide
     - reviewer
-  packages_editor: 
-  packages_submitted: 
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - nbless
   location:
@@ -720,10 +720,10 @@
     - maintainer
     - peer-review
     - submitting-author
-  packages_editor: 
+  packages_editor:
   packages_submitted:
     - nbless
-  packages_reviewed: 
+  packages_reviewed:
   location: Rockville/Bethesda, Maryland
   email:
 - name: Mike Trizna
@@ -743,9 +743,9 @@
   board: false
   contributor_type:
     - contributor
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Washington, DC
   email: triznam@si.edu
 - name: Neil Chue Hong
@@ -766,9 +766,9 @@
   board: false
   contributor_type:
     - contributor
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Edinburgh, United Kingdom
   email:
 - name: Niels Bantilan
@@ -794,10 +794,10 @@
     - peer-review-guide
     - submitting-author
     - web-contrib
-  packages_editor: 
+  packages_editor:
   packages_submitted:
     - pandera
-  packages_reviewed: 
+  packages_reviewed:
   location: Atlanta, GA, US
   email: niels.bantilan@gmail.com
 - name: Sean Gillies
@@ -818,8 +818,8 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_editor: 
-  packages_submitted: 
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - earthpy
   location: Fort Collins, Colorado
@@ -842,8 +842,8 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_editor: 
-  packages_submitted: 
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - earthpy
   location: University of Iceland
@@ -868,10 +868,10 @@
     - package-maintainer
     - peer-review
     - submitting-author
-  packages_editor: 
+  packages_editor:
   packages_submitted:
     - pyrolite
-  packages_reviewed: 
+  packages_reviewed:
   location: Perth, WA, Australia
   email:
 - name: Philip Meier
@@ -895,7 +895,7 @@
     - peer-review
     - reviewer
     - submitting-author
-  packages_editor: 
+  packages_editor:
   packages_submitted:
     - pystiche
   packages_reviewed:
@@ -920,8 +920,8 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_editor: 
-  packages_submitted: 
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - pystiche
     - sevivi
@@ -944,10 +944,10 @@
   board: false
   contributor_type:
     - package-maintainer
-  packages_editor: 
+  packages_editor:
   packages_submitted:
     - pydov
-  packages_reviewed: 
+  packages_reviewed:
   location:
   email:
 - name: Roel Huybrechts
@@ -967,10 +967,10 @@
   board: false
   contributor_type:
     - package-maintainer
-  packages_editor: 
+  packages_editor:
   packages_submitted:
     - pydov
-  packages_reviewed: 
+  packages_reviewed:
   location:
   email: roel@huybrechts.re
 - name: Stijn Van Hoey
@@ -990,10 +990,10 @@
   board: false
   contributor_type:
     - package-maintainer
-  packages_editor: 
+  packages_editor:
   packages_submitted:
     - pydov
-  packages_reviewed: 
+  packages_reviewed:
   location:
   email:
 - name: Pieter Jan Haest
@@ -1013,10 +1013,10 @@
   board: false
   contributor_type:
     - package-maintainer
-  packages_editor: 
+  packages_editor:
   packages_submitted:
     - pydov
-  packages_reviewed: 
+  packages_reviewed:
   location: Belgium
   email:
 - name: Nhat (Jonny) Tran
@@ -1040,10 +1040,10 @@
     - peer-review
     - submitting-author
     - web-contrib
-  packages_editor: 
+  packages_editor:
   packages_submitted:
     - openomics
-  packages_reviewed: 
+  packages_reviewed:
   location:
   email:
 - name: Katharina Sielemann
@@ -1064,8 +1064,8 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_editor: 
-  packages_submitted: 
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - openomics
   location:
@@ -1092,10 +1092,10 @@
     - package-maintainer
     - peer-review
     - submitting-author
-  packages_editor: 
+  packages_editor:
   packages_submitted:
     - phenopype
-  packages_reviewed: 
+  packages_reviewed:
   location: Sweden
   email: moritz.luerig@gmail.com
 - name: Emily Jane McTavish
@@ -1120,7 +1120,7 @@
     - peer-review
     - reviewer
     - submitting-author
-  packages_editor: 
+  packages_editor:
   packages_submitted:
     - physcraper
   packages_reviewed:
@@ -1147,10 +1147,10 @@
     - maintainer
     - package-maintainer
     - peer-review
-  packages_editor: 
+  packages_editor:
   packages_submitted:
     - physcraper
-  packages_reviewed: 
+  packages_reviewed:
   location: Merced, CA, USA
   email: sanchez.reyes.luna@gmail.com
 - name: K. Arthur Endsley
@@ -1171,8 +1171,8 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_editor: 
-  packages_submitted: 
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - jointly
   location: Missoula, MT
@@ -1196,8 +1196,8 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_editor: 
-  packages_submitted: 
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - jointly
   location: Madrid (Spain)
@@ -1220,8 +1220,8 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_editor: 
-  packages_submitted: 
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - pygmt
   location: Brooklyn, New York
@@ -1241,10 +1241,10 @@
   orcidid: ​0000-0001-7925-6436
   website: https://about.me/npalopoli
   board: false
-  contributor_type: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  contributor_type:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Buenos Aires, Argentina
   email: nicopalo@gmail.com
 - name: Erik Welch
@@ -1269,10 +1269,10 @@
     - peer-review
     - peer-review-guide
     - submitting-author
-  packages_editor: 
+  packages_editor:
   packages_submitted:
     - python-graphblas
-  packages_reviewed: 
+  packages_reviewed:
   location: Austin, TX
   email:
 - name: Pamphile Roy
@@ -1294,9 +1294,9 @@
   contributor_type:
     - guidebook-contrib
     - package-guide
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Graz, Austria
   email: roy.pamphile@gmail.com
 - name: Jonny Saunders
@@ -1320,8 +1320,8 @@
     - peer-review
     - reviewer
     - web-contrib
-  packages_editor: 
-  packages_submitted: 
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - python-graphblas
   location:
@@ -1344,9 +1344,9 @@
   contributor_type:
     - guidebook-contrib
     - package-guide
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email:
 - name: Juan Luis Cano Rodríguez
@@ -1368,9 +1368,9 @@
     - guidebook-contrib
     - package-guide
     - peer-review-guide
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Spain
   email: hello@juanlu.space
 - name: Henry Schreiner
@@ -1392,9 +1392,9 @@
   contributor_type:
     - guidebook-contrib
     - package-guide
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Princeton, NJ
   email: HenrySchreinerIII@gmail.com
 - name: Stefan van der Walt
@@ -1417,9 +1417,9 @@
     - guidebook-contrib
     - package-guide
     - peer-review-guide
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Berkeley, CA
   email:
 - name: Eli Schwartz
@@ -1440,9 +1440,9 @@
   contributor_type:
     - guidebook-contrib
     - package-guide
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email: eschwartz93@gmail.com
 - name: Ralf Gommers
@@ -1464,9 +1464,9 @@
   contributor_type:
     - guidebook-contrib
     - package-guide
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Netherlands
   email: ralf.gommers@gmail.com
 - name: Ofek Lev
@@ -1487,9 +1487,9 @@
   contributor_type:
     - guidebook-contrib
     - package-guide
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Knowhere
   email: oss@ofek.dev
 - name: Tom Augspurger
@@ -1510,9 +1510,9 @@
   contributor_type:
     - guidebook-contrib
     - peer-review-guide
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email: tom.w.augspurger@gmail.com
 - name: Ryan Abernathey
@@ -1534,9 +1534,9 @@
   contributor_type:
     - guidebook-contrib
     - peer-review-guide
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: New York City
   email:
 - name: Carol Willing
@@ -1561,8 +1561,8 @@
     - peer-review-guide
     - reviewer
     - web-contrib
-  packages_editor: 
-  packages_submitted: 
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - devicely
   location: San Diego
@@ -1588,8 +1588,8 @@
     - peer-review
     - peer-review-guide
     - reviewer
-  packages_editor: 
-  packages_submitted: 
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - openomics
   location: Earth
@@ -1612,9 +1612,9 @@
   contributor_type:
     - guidebook-contrib
     - peer-review-guide
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: London, UK
   email:
 - name: Zehua Chen
@@ -1635,9 +1635,9 @@
   contributor_type:
     - guidebook-contrib
     - peer-review-guide
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Atlanta, GA
   email:
 - name: Sumit Kashyap
@@ -1658,9 +1658,9 @@
   contributor_type:
     - guidebook-contrib
     - peer-review-guide
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: India
   email: mr.sumitkrr@gmail.com
 - name: Erik Sundell
@@ -1682,9 +1682,9 @@
   contributor_type:
     - guidebook-contrib
     - peer-review-guide
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Sweden
   email: erik.i.sundell@gmail.com
 - name: Ariel Rokem
@@ -1705,9 +1705,9 @@
   contributor_type:
     - guidebook-contrib
     - peer-review-guide
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Seattle, WA
   email: arokem@gmail.com
 - name: James Mason
@@ -1729,9 +1729,9 @@
   contributor_type:
     - guidebook-contrib
     - peer-review-guide
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Washington DC
   email:
 - name: James Tocknell
@@ -1752,9 +1752,9 @@
   contributor_type:
     - guidebook-contrib
     - package-guide
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email:
 - name: Frost Ming
@@ -1775,9 +1775,9 @@
   contributor_type:
     - guidebook-contrib
     - package-guide
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Shenzhen, China
   email: me@frostming.com
 - name: Hugo van Kemenade
@@ -1799,9 +1799,9 @@
   contributor_type:
     - guidebook-contrib
     - package-guide
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Helsinki, Finland
   email:
 - name: Matt Hall
@@ -1822,9 +1822,9 @@
   contributor_type:
     - guidebook-contrib
     - package-guide
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Bergen, Norway
   email: kwinkunks@gmail.com
 - name: Jannis Leidel
@@ -1846,9 +1846,9 @@
   contributor_type:
     - guidebook-contrib
     - package-guide
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Germany
   email:
 - name: Dave Hirschfeld
@@ -1869,9 +1869,9 @@
   contributor_type:
     - guidebook-contrib
     - package-guide
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Brisbane, Australia
   email: dave.hirschfeld@gmail.com
 - name: Benjamin Rodenberg
@@ -1892,9 +1892,9 @@
   contributor_type:
     - community
     - peer-review
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email: benjamin.rodenberg@in.tum.de
 - name: Travis Logan
@@ -1916,10 +1916,10 @@
     - community
     - maintainer
     - peer-review
-  packages_editor: 
+  packages_editor:
   packages_submitted:
     - xclim
-  packages_reviewed: 
+  packages_reviewed:
   location: Montreal
   email:
 - name: Pascal Bourgault
@@ -1942,10 +1942,10 @@
     - community
     - maintainer
     - peer-review
-  packages_editor: 
+  packages_editor:
   packages_submitted:
     - xclim
-  packages_reviewed: 
+  packages_reviewed:
   location: Montréal
   email: bourgault.pascal@ouranos.ca
 - name: Arne
@@ -1968,10 +1968,10 @@
     - maintainer
     - peer-review
     - submitting-author
-  packages_editor: 
+  packages_editor:
   packages_submitted:
     - jointly
-  packages_reviewed: 
+  packages_reviewed:
   location:
   email:
 - name: Robert Guggenberger
@@ -1993,8 +1993,8 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_editor: 
-  packages_submitted: 
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - devicely
   location: Tuebingen, Germany
@@ -2019,8 +2019,8 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_editor: 
-  packages_submitted: 
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - physcraper
   location: Germany
@@ -2044,8 +2044,8 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_editor: 
-  packages_submitted: 
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - physcraper
   location: Norwich, UK
@@ -2068,8 +2068,8 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_editor: 
-  packages_submitted: 
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - pystiche
   location: New York, USA
@@ -2092,8 +2092,8 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_editor: 
-  packages_submitted: 
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - phenopype
   location: Baton Rouge, LA
@@ -2116,8 +2116,8 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_editor: 
-  packages_submitted: 
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - phenopype
   location:
@@ -2143,8 +2143,8 @@
     - peer-review
   packages_editor:
     - phenopype
-  packages_submitted: 
-  packages_reviewed: 
+  packages_submitted:
+  packages_reviewed:
   location: Omaha, NE
   email: ben@sparrow.dev
 - name: Romain Beucher
@@ -2166,8 +2166,8 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_editor: 
-  packages_submitted: 
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - pyrolite
   location: Canberra, Australia
@@ -2191,8 +2191,8 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_editor: 
-  packages_submitted: 
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - pyrolite
   location: France
@@ -2217,10 +2217,10 @@
     - maintainer
     - peer-review
     - submitting-author
-  packages_editor: 
+  packages_editor:
   packages_submitted:
     - pygmt
-  packages_reviewed: 
+  packages_reviewed:
   location: Wellington
   email:
 - name: Tessa Rhinehart
@@ -2242,8 +2242,8 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_editor: 
-  packages_submitted: 
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - crowsetta
   location: Pittsburgh, PA, USA
@@ -2267,8 +2267,8 @@
     - community
     - peer-review
     - reviewer
-  packages_editor: 
-  packages_submitted: 
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - xclim
   location: British Columbia, Canada
@@ -2291,8 +2291,8 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_editor: 
-  packages_submitted: 
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - crowsetta
   location: PARIS
@@ -2313,9 +2313,9 @@
   orcidid:
   website:
   board: false
-  contributor_type: 
-  packages_editor: 
-  packages_submitted: 
+  contributor_type:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - a
     - c
@@ -2349,7 +2349,7 @@
     - reviewer
     - submitting-author
     - web-contrib
-  packages_editor: 
+  packages_editor:
   packages_submitted:
     - pynteny
   packages_reviewed:
@@ -2377,10 +2377,10 @@
     - maintainer
     - peer-review
     - submitting-author
-  packages_editor: 
+  packages_editor:
   packages_submitted:
     - xclim
-  packages_reviewed: 
+  packages_reviewed:
   location: Montreal, Canada
   email:
 - name: James Munroe
@@ -2402,8 +2402,8 @@
     - community
     - peer-review
     - reviewer
-  packages_editor: 
-  packages_submitted: 
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - xclim
   location:
@@ -2426,8 +2426,8 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_editor: 
-  packages_submitted: 
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - pynteny
   location:
@@ -2454,8 +2454,8 @@
     - peer-review
   packages_editor:
     - python-graphblas
-  packages_submitted: 
-  packages_reviewed: 
+  packages_submitted:
+  packages_reviewed:
   location: Oxford / London
   email:
 - name: C. Titus Brown
@@ -2480,8 +2480,8 @@
     - peer-review
   packages_editor:
     - taxpasta
-  packages_submitted: 
-  packages_reviewed: 
+  packages_submitted:
+  packages_reviewed:
   location: Davis, CA
   email: titus@idyll.org
 - name: Meenal Jhajharia
@@ -2506,8 +2506,8 @@
     - peer-review
   packages_editor:
     - bibat
-  packages_submitted: 
-  packages_reviewed: 
+  packages_submitted:
+  packages_reviewed:
   location:
   email:
 - name: John McCray
@@ -2527,9 +2527,9 @@
   board: false
   contributor_type:
     - community
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Washington, DC
   email:
 - name: Meer (Miriam) Williamson
@@ -2550,9 +2550,9 @@
   contributor_type:
     - code-contrib
     - metrics-contrib
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Seattle, WA
   email:
 - name: Tiffany Xiao
@@ -2573,9 +2573,9 @@
   contributor_type:
     - code-contrib
     - metrics-contrib
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: New York, New York
   email: cdtiffanyxiao@gmail.com
 - name: Austin
@@ -2596,9 +2596,9 @@
   contributor_type:
     - code-contrib
     - metrics-contrib
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email:
 - name: JAKE
@@ -2619,9 +2619,9 @@
   contributor_type:
     - code-contrib
     - metrics-contrib
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Ghana
   email: paajake@gmail.com
 - name: Barnabas Bulpett (He/Him)
@@ -2643,9 +2643,9 @@
     - code-contrib
     - metrics-contrib
     - web-contrib
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Gotham
   email:
 - name: Jeremy Paige
@@ -2666,9 +2666,9 @@
   contributor_type:
     - guidebook-contrib
     - package-guide
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email: ucodery@gmail.com
 - name: Mahe Iram Khan
@@ -2689,9 +2689,9 @@
   contributor_type:
     - guidebook-contrib
     - peer-review-guide
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Berlin, Germany
   email:
 - name: Qin
@@ -2712,9 +2712,9 @@
   contributor_type:
     - guidebook-contrib
     - peer-review-guide
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: London, UK
   email:
 - name: David Stansby
@@ -2735,9 +2735,9 @@
   contributor_type:
     - guidebook-contrib
     - peer-review-guide
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: London, UK
   email: d.stansby@ucl.ac.uk
 - name: Juanita Gomez
@@ -2760,9 +2760,9 @@
     - code-contrib
     - metrics-contrib
     - web-contrib
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Santa Cruz, California
   email: juanitagomezr2112@gmail.com
 - name: Sarah Kaiser
@@ -2785,9 +2785,9 @@
     - code-contrib
     - metrics-contrib
     - web-contrib
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Seattle, WA
   email: sckaiser@sckaiser.com
 - name: A Samuel Pottinger
@@ -2811,10 +2811,10 @@
     - package-maintainer
     - peer-review
     - submitting-author
-  packages_editor: 
+  packages_editor:
   packages_submitted:
     - afscgap
-  packages_reviewed: 
+  packages_reviewed:
   location:
   email:
 - name: Anderson Bravalheri
@@ -2835,9 +2835,9 @@
   contributor_type:
     - guidebook-contrib
     - package-guide
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Bristol, UK
   email:
 - name: Daniel Possenriede
@@ -2858,9 +2858,9 @@
   contributor_type:
     - guidebook-contrib
     - package-guide
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Hamburg, Germany
   email:
 - name: C.A.M. Gerlach
@@ -2881,9 +2881,9 @@
   board: false
   contributor_type:
     - web-contrib
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Huntsville, AL, United States
   email: CAM.Gerlach@Gerlach.CAM
 - name: Teddy Groves
@@ -2907,10 +2907,10 @@
     - peer-review
     - submitting-author
     - web-contrib
-  packages_editor: 
+  packages_editor:
   packages_submitted:
     - bibat
-  packages_reviewed: 
+  packages_reviewed:
   location:
   email: groves.teddy@gmail.com
 - name: James A. Fellows Yates
@@ -2933,10 +2933,10 @@
     - community
     - maintainer
     - peer-review
-  packages_editor: 
+  packages_editor:
   packages_submitted:
     - taxpasta
-  packages_reviewed: 
+  packages_reviewed:
   location: Leipzig, Germany
   email: jfy133@gmail.com
 - name: Moritz E. Beber
@@ -2959,10 +2959,10 @@
     - maintainer
     - peer-review
     - submitting-author
-  packages_editor: 
+  packages_editor:
   packages_submitted:
     - taxpasta
-  packages_reviewed: 
+  packages_reviewed:
   location: Copenhagen, Denmark
   email: midnighter@posteo.net
 - name: Szabolcs Horvát
@@ -2984,8 +2984,8 @@
     - peer-review
     - reviewer
     - web-contrib
-  packages_editor: 
-  packages_submitted: 
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - python-graphblas
   location:
@@ -3009,9 +3009,9 @@
     - guidebook-contrib
     - package-guide
     - peer-review-guide
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email:
 - name: P. L. Lim
@@ -3032,9 +3032,9 @@
   contributor_type:
     - guidebook-contrib
     - peer-review-guide
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Baltimore, MD, USA
   email:
 - name: Nick Murphy
@@ -3056,9 +3056,9 @@
     - guidebook-contrib
     - package-guide
     - peer-review-guide
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Cambridge, Massachusetts, USA
   email: namurphy@cfa.harvard.edu
 - name: Hans Moritz Günther
@@ -3079,9 +3079,9 @@
   contributor_type:
     - guidebook-contrib
     - peer-review-guide
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Cambridge, MA, USA
   email:
 - name: g-patlewicz
@@ -3102,9 +3102,9 @@
   contributor_type:
     - guidebook-contrib
     - peer-review-guide
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email:
 - name: Mike Sarahan
@@ -3124,9 +3124,9 @@
   board: false
   contributor_type:
     - web-contrib
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Austin, TX
   email: msarahan@gmail.com
 - name: Thomas J. Fan
@@ -3146,9 +3146,9 @@
   board: false
   contributor_type:
     - web-contrib
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: New York City
   email: thomasjpfan@gmail.com
 - name: Kerry McAdams
@@ -3168,9 +3168,9 @@
   board: false
   contributor_type:
     - web-contrib
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email:
 - name: Ricky Nilsson
@@ -3190,9 +3190,9 @@
   board: false
   contributor_type:
     - web-contrib
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Los Angeles, CA
   email: ricky.nilsson@gmail.com
 - name: Oriol Abril-Pla
@@ -3213,8 +3213,8 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_editor: 
-  packages_submitted: 
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - bibat
   location: Barcelona
@@ -3237,8 +3237,8 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_editor: 
-  packages_submitted: 
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - bibat
   location:
@@ -3261,8 +3261,8 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_editor: 
-  packages_submitted: 
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - taxpasta
   location: San Diego, CA
@@ -3285,10 +3285,10 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_editor: 
+  packages_editor:
   packages_submitted:
     - taxpasta
-  packages_reviewed: 
+  packages_reviewed:
   location: Stockholm, Sweden
   email:
 - name: Tylar
@@ -3310,8 +3310,8 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_editor: 
-  packages_submitted: 
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - afscgap
   location: St. Petersburg, FL
@@ -3335,8 +3335,8 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_editor: 
-  packages_submitted: 
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - afscgap
   location: New Delhi, India
@@ -3359,10 +3359,10 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_editor: 
+  packages_editor:
   packages_submitted:
     - afscgap
-  packages_reviewed: 
+  packages_reviewed:
   location:
   email:
 - name: Jim Kitchen
@@ -3383,10 +3383,10 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_editor: 
+  packages_editor:
   packages_submitted:
     - python-graphblas
-  packages_reviewed: 
+  packages_reviewed:
   location: Austin, TX
   email:
 - name: Sultan Orazbayev
@@ -3408,10 +3408,10 @@
     - code-contrib
     - maintainer
     - peer-review
-  packages_editor: 
+  packages_editor:
   packages_submitted:
     - python-graphblas
-  packages_reviewed: 
+  packages_reviewed:
   location: Kazakhstan
   email: contact@econpoint.com
 - name: Isabel Zimmerman
@@ -3436,9 +3436,9 @@
     - editor
     - package-guide
     - peer-review
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: FLorida, USA
   email:
 - name: Eliot Robson
@@ -3458,9 +3458,9 @@
   board: false
   contributor_type:
     - web-contrib
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Urbana, IL
   email: erobson2@illinois.edu
 - name: Ty Schlichenmeyer
@@ -3476,13 +3476,13 @@
   twitter:
   mastodon:
   orcidid:
-  website: 
+  website:
   board: false
   contributor_type:
     - community
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: St Louis, MO
   email: ty.schlich@gmail.com
 - name:
@@ -3498,13 +3498,13 @@
   twitter:
   mastodon:
   orcidid:
-  website: 
+  website:
   board: false
   contributor_type:
     - peer-review
     - reviewer
-  packages_editor: 
-  packages_submitted: 
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - cardsort
   location:
@@ -3523,16 +3523,16 @@
   twitter: k_kloppenborg
   mastodon:
   orcidid:
-  website: 
+  website:
   board: false
   contributor_type:
     - maintainer
     - peer-review
     - submitting-author
-  packages_editor: 
+  packages_editor:
   packages_submitted:
     - cardsort
-  packages_reviewed: 
+  packages_reviewed:
   location: Paris, France
   email:
 - name: Dongdong Tian
@@ -3554,10 +3554,10 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_editor: 
+  packages_editor:
   packages_submitted:
     - pygmt
-  packages_reviewed: 
+  packages_reviewed:
   location: Wuhan, China
   email: seisman.info@gmail.com
 - name: Max Jones
@@ -3574,15 +3574,15 @@
   twitter:
   mastodon:
   orcidid:
-  website: 
+  website:
   board: false
   contributor_type:
     - maintainer
     - peer-review
-  packages_editor: 
+  packages_editor:
   packages_submitted:
     - pygmt
-  packages_reviewed: 
+  packages_reviewed:
   location:
   email:
 - name: Michael Grund
@@ -3599,15 +3599,15 @@
   twitter:
   mastodon:
   orcidid:
-  website: 
+  website:
   board: false
   contributor_type:
     - maintainer
     - peer-review
-  packages_editor: 
+  packages_editor:
   packages_submitted:
     - pygmt
-  packages_reviewed: 
+  packages_reviewed:
   location: Germany
   email:
 - name: Will Schlitzer
@@ -3623,15 +3623,15 @@
   twitter:
   mastodon:
   orcidid:
-  website: 
+  website:
   board: false
   contributor_type:
     - maintainer
     - peer-review
-  packages_editor: 
+  packages_editor:
   packages_submitted:
     - pygmt
-  packages_reviewed: 
+  packages_reviewed:
   location: New Jersey
   email:
 - name: Nathan Korinek
@@ -3648,15 +3648,15 @@
   twitter:
   mastodon:
   orcidid:
-  website: 
+  website:
   board: false
   contributor_type:
     - maintainer
     - peer-review
-  packages_editor: 
+  packages_editor:
   packages_submitted:
     - earthpy
-  packages_reviewed: 
+  packages_reviewed:
   location: Boulder, CO
   email: Nathan.Korinek@colorado.edu
 - name: Joe McGlinchy
@@ -3672,14 +3672,14 @@
   twitter:
   mastodon:
   orcidid:
-  website: 
+  website:
   board: false
   contributor_type:
     - maintainer
     - peer-review
-  packages_editor: 
+  packages_editor:
   packages_submitted:
     - earthpy
-  packages_reviewed: 
+  packages_reviewed:
   location: Arvada, Colorado, USA
   email: jmcglinchy@hydrosat.com
