@@ -23,6 +23,9 @@ main:
     sub-nav:
       - title: "Our Community"
         url: "/our-community/index.html"
+      - title: "Connect with us"
+        url: "https://pyopensci.discourse.group/"
+        icon: "fa-brands fa-discourse"
       - title: "Governance"
         icon: "fas fa-external-link-alt"
         url: "https://www.pyopensci.org/governance/"
