@@ -1,12 +1,13 @@
 - name: Leah Wasser
+  github_username: lwasser
+  github_image_id: 7649194
   title:
     - Executive Director
     - Emeritus editor
   sort: 1
   bio: Open education, Open source and Open Science.Executive Director @pyOpenSci
   organization: pyOpenSci
-  github_username: lwasser
-  github_image_id: 7649194
+  date_added: '2019-10-10'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -32,16 +33,17 @@
     - pyrolite
   packages_submitted:
     - earthpy
-  packages_reviewed:
+  packages_reviewed: 
   location: United States
   email: leah@pyopensci.org
 - name: Tracy Teal
+  github_username: tracykteal
+  github_image_id: 889238
   title: Board chair
   sort: 2
   bio:
   organization:
-  github_username: tracykteal
-  github_image_id: 889238
+  date_added: '2022-11-09'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -52,18 +54,19 @@
   board: true
   contributor_type:
     - leadership
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location:
   email: tkteal@gmail.com
 - name: Karen Cranston
+  github_username: kcranston
+  github_image_id: 312034
   title:
   sort: 3
   bio:
   organization:
-  github_username: kcranston
-  github_image_id: 312034
+  date_added: '2022-11-09'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -74,18 +77,19 @@
   board: true
   contributor_type:
     - leadership
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location: Ottawa, ON
   email: karen.cranston@gmail.com
 - name: Erin Robinson
+  github_username: erinmr
+  github_image_id: 2915555
   title:
   sort:
   bio:
   organization:
-  github_username: erinmr
-  github_image_id: 2915555
+  date_added: '2023-06-15'
   deia_advisory: false
   editorial_board:
   advisory: true
@@ -96,19 +100,20 @@
   board: false
   contributor_type:
     - leadership
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location:
   email: erinmr@gmail.com
 - name: Chris Holdgraf
+  github_username: choldgraf
+  github_image_id: 1839645
   title:
   sort:
   bio: I work with Project Jupyter and other open communities to build tools and
       solve problems for scientific research and education.
   organization: UC Berkeley
-  github_username: choldgraf
-  github_image_id: 1839645
+  date_added: '2019-10-10'
   deia_advisory: false
   editorial_board:
   advisory: true
@@ -122,20 +127,21 @@
     - leadership
     - peer-review-guide
     - reviewer
-  packages_editor:
-  packages_submitted:
+  packages_editor: 
+  packages_submitted: 
   packages_reviewed:
     - erdapy
   location: California
   email:
 - name: Inessa Pawson
+  github_username: InessaPawson
+  github_image_id: 43481325
   title:
   sort:
   bio: NumPy Contributor Experience LeadOpen Source Program Manager at OpenTeams
       Incubator
   organization: '@numpy'
-  github_username: InessaPawson
-  github_image_id: 43481325
+  date_added: '2023-03-21'
   deia_advisory: false
   editorial_board:
   advisory: true
@@ -146,19 +152,20 @@
   board: false
   contributor_type:
     - leadership
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location:
   email: inessapawson@gmail.com
 - name: Pradyun Gedam
-  title:
-  sort:
-  bio: "@pypa member, @psf fellow, @toml-lang core, @sphinx-doc contributor. Past
-      intern at @enthought and IITB.Don't email or tweet me for tech support."
-  organization: '@bloomberg Python Infrastructure'
   github_username: pradyunsg
   github_image_id: 3275593
+  title:
+  sort:
+  bio: "@pypa member, @psf fellow, @toml-lang core, @sphinx-doc contributor. Past\
+      \ intern at @enthought and IITB.Don't email or tweet me for tech support."
+  organization: '@bloomberg Python Infrastructure'
+  date_added: '2023-03-01'
   deia_advisory: false
   editorial_board:
   advisory: true
@@ -170,19 +177,20 @@
   contributor_type:
     - guidebook-contrib
     - package-guide
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location: London, UK
   email:
 - name: Leonardo Uieda
+  github_username: leouieda
+  github_image_id: 290082
   title:
   sort:
   bio: Geophysicist investigating Earth's gravity & magnetic fields from global
       to microscopic scale 🛰️🔬🌎
   organization: University of Liverpool
-  github_username: leouieda
-  github_image_id: 290082
+  date_added: '2023-01-18'
   deia_advisory: false
   editorial_board:
   advisory: true
@@ -191,20 +199,21 @@
   orcidid:
   website: https://www.leouieda.com
   board: false
-  contributor_type:
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  contributor_type: 
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location: Liverpool, UK
   email: email@leouieda.com
 - name: Ivan Ogasawara
+  github_username: xmnlab
+  github_image_id: 5209757
   title:
     - Emeritus editor
   sort: 1
   bio: Open Source Developer
   organization: xmnlab
-  github_username: xmnlab
-  github_image_id: 5209757
+  date_added: '2019-10-15'
   deia_advisory: false
   editorial_board:
   advisory: true
@@ -228,20 +237,21 @@
     - devicely
     - jointly
     - sevivi
-  packages_submitted:
+  packages_submitted: 
   packages_reviewed:
     - movingpandas
     - pandera
   location: Earth
   email: ivan.ogasawara@gmail.com
 - name: Filipe
+  github_username: ocefpaf
+  github_image_id: 950575
   title: Editor
   sort:
   bio: Filipe Fernandes is a Physical oceanographer by training, turned research
       software engineer, and a software packager hobbyist.
   organization:
-  github_username: ocefpaf
-  github_image_id: 950575
+  date_added: '2019-10-17'
   deia_advisory: false
   editorial_board: true
   advisory: true
@@ -266,13 +276,14 @@
   location: Florianópolis, SC
   email: ocefpaf@gmail.com
 - name: Lindsey Heagy
+  github_username: lheagy
+  github_image_id: 6361812
   title:
   sort:
   bio: Asst. Prof at UBC EOAS. Researcher working on geophysical simulations and
       inversions (in @simpeg!) and data science.
   organization: '@simpeg, @geoscixyz, @ubcgif, @2i2c_org'
-  github_username: lheagy
-  github_image_id: 6361812
+  date_added: '2019-12-10'
   deia_advisory: false
   editorial_board:
   advisory: true
@@ -283,19 +294,20 @@
   board: false
   contributor_type:
     - leadership
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location:
   email: lheagy@eos.ubc.ca
 - name: Martin Fleischmann
+  github_username: martinfleis
+  github_image_id: 36797143
   title:
   sort:
   bio: Researcher in geographic data science. Member of @geopandas and @pysal development
       teams.
   organization:
-  github_username: martinfleis
-  github_image_id: 36797143
+  date_added: '2020-04-09'
   deia_advisory: false
   editorial_board:
   advisory: true
@@ -308,19 +320,20 @@
     - leadership
     - peer-review
     - reviewer
-  packages_editor:
-  packages_submitted:
+  packages_editor: 
+  packages_submitted: 
   packages_reviewed:
     - movingpandas
   location: Prague
   email: martin@martinfleischmann.net
 - name: Yuvi Panda
+  github_username: yuvipanda
+  github_image_id: 30430
   title:
   sort:
   bio:
   organization: '@2i2c-org'
-  github_username: yuvipanda
-  github_image_id: 30430
+  date_added: '2023-01-18'
   deia_advisory: false
   editorial_board:
   advisory: true
@@ -333,18 +346,19 @@
     - guidebook-contrib
     - leadership
     - peer-review-guide
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location:
   email:
 - name: Ariane Sasso
+  github_username: arianesasso
+  github_image_id: 3659681
   title: Editor
   sort:
   bio: Researcher in Medical Informatics and Digital Health ⌚ 👩‍💻 🧬
   organization: '@hpi-dhc'
-  github_username: arianesasso
-  github_image_id: 3659681
+  date_added: '2021-08-24'
   deia_advisory: true
   editorial_board: true
   advisory: false
@@ -367,17 +381,18 @@
   packages_submitted:
     - devicely
     - jointly
-  packages_reviewed:
+  packages_reviewed: 
   location: Berlin, Germany
   email: ariane.sasso@gmail.com
 - name: David Nicholson
+  github_username: NickleDave
+  github_image_id: 11934090
   title: Editor in Chief
   sort: 2
   bio: ML, AI; behavior + cog + neuro. Open + inclusive science. Pythonista. He/him/they/them.
       Habla espanglish y baila salsa y bachata a medio tiempo.
   organization:
-  github_username: NickleDave
-  github_image_id: 11934090
+  date_added: '2019-12-10'
   deia_advisory: false
   editorial_board: true
   advisory: false
@@ -406,14 +421,15 @@
   location: Charm City
   email:
 - name: Chiara Marmo
+  github_username: cmarmo
+  github_image_id: 1662261
   title:
     - Editor
     - Peer review triage
   sort:
   bio:
   organization:
-  github_username: cmarmo
-  github_image_id: 1662261
+  date_added: '2023-01-24'
   deia_advisory: false
   editorial_board: true
   advisory: false
@@ -431,17 +447,18 @@
     - peer-review-guide
   packages_editor:
     - crowsetta
-  packages_submitted:
-  packages_reviewed:
+  packages_submitted: 
+  packages_reviewed: 
   location:
   email:
 - name: Jenny Palomino
+  github_username: jlpalomino
+  github_image_id: 4017492
   title: Editor
   sort:
   bio: Technical Curriculum Developer, Data Engineering
   organization: Google
-  github_username: jlpalomino
-  github_image_id: 4017492
+  date_added: '2019-10-25'
   deia_advisory: false
   editorial_board: true
   advisory: false
@@ -466,12 +483,13 @@
   location:
   email:
 - name: Szymon Moliński
+  github_username: SimonMolinsky
+  github_image_id: 31246246
   title: Editor
   sort:
   bio: GIS, remote sensing, machine learning, time-series and spatial
   organization: Sare
-  github_username: SimonMolinsky
-  github_image_id: 31246246
+  date_added: '2022-09-16'
   deia_advisory: false
   editorial_board: true
   advisory: false
@@ -486,19 +504,20 @@
     - package-guide
     - peer-review
     - reviewer
-  packages_editor:
-  packages_submitted:
+  packages_editor: 
+  packages_submitted: 
   packages_reviewed:
     - pygmt
   location:
   email: simon@ml-gis-service.com
 - name: Anita Graser
+  github_username: anitagraser
+  github_image_id: 590385
   title: Editor
   sort:
   bio: Spatial data science with a focus on mobility & data quality
   organization:
-  github_username: anitagraser
-  github_image_id: 590385
+  date_added: '2020-03-26'
   deia_advisory: false
   editorial_board: true
   advisory: false
@@ -514,19 +533,20 @@
     - peer-review
     - submitting-author
     - web-contrib
-  packages_editor:
+  packages_editor: 
   packages_submitted:
     - movingpandas
-  packages_reviewed:
+  packages_reviewed: 
   location:
   email:
 - name: Alex Batisse
+  github_username: Batalex
+  github_image_id: 11004857
   title: Editor
   sort:
   bio:
   organization:
-  github_username: Batalex
-  github_image_id: 11004857
+  date_added: '2023-02-04'
   deia_advisory: false
   editorial_board: true
   advisory: false
@@ -546,18 +566,19 @@
   packages_editor:
     - cardsort
     - xclim
-  packages_submitted:
+  packages_submitted: 
   packages_reviewed:
     - pynteny
   location:
   email: alexandre.batisse@hey.com
 - name: Max Joseph
+  github_username: mbjoseph
+  github_image_id: 2664564
   title:
   sort:
   bio: AI + Earth Observation + Bayesian stats
   organization: '@planetlabs'
-  github_username: mbjoseph
-  github_image_id: 2664564
+  date_added: '2019-10-17'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -572,7 +593,7 @@
     - peer-review
     - peer-review-guide
     - reviewer
-  packages_editor:
+  packages_editor: 
   packages_submitted:
     - earthpy
   packages_reviewed:
@@ -580,13 +601,14 @@
   location: Denver, CO
   email: maxwellbjoseph@gmail.com
 - name: Luiz Irber
+  github_username: luizirber
+  github_image_id: 6642
   title:
     - Emeritus editor
   sort:
   bio: 'CS PhD @ucdavis,Rustacean and Pythonista.Previously: @dib-lab'
   organization:
-  github_username: luizirber
-  github_image_id: 6642
+  date_added: '2019-10-17'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -602,18 +624,19 @@
     - peer-review
   packages_editor:
     - earthpy
-  packages_submitted:
-  packages_reviewed:
+  packages_submitted: 
+  packages_reviewed: 
   location: Davis, CA
   email:
 - name: Paige Bailey
+  github_username: dynamicwebpaige
+  github_image_id: 3712347
   title:
   sort:
   bio: ✨ Keep it simple, make it scale. AI should be about empowering users and
       building understanding. 👩‍💻Product Lead (Generative Models) @DeepMind | ex-@GitHub
   organization: '@GitHub'
-  github_username: dynamicwebpaige
-  github_image_id: 3712347
+  date_added: '2023-02-24'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -624,18 +647,19 @@
   board: false
   contributor_type:
     - contributor
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location: Seattle, WA
   email: paige.bailey@alumni.rice.edu
 - name: Carson Farmer
+  github_username: carsonfarmer
+  github_image_id: 1220613
   title:
   sort:
   bio: Research & Development @textileio and @tablelandnetwork
   organization: '@textileio @tablelandnetwork'
-  github_username: carsonfarmer
-  github_image_id: 1220613
+  date_added: '2023-02-24'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -646,18 +670,19 @@
   board: false
   contributor_type:
     - contributor
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location: Victoria, B.C., Canada
   email: carson.farmer@gmail.com
 - name: Joe Hamman
+  github_username: jhamman
+  github_image_id: 2443309
   title:
   sort:
   bio: Scientist and Engineer and Human.
   organization: Earthmover
-  github_username: jhamman
-  github_image_id: 2443309
+  date_added: '2023-02-24'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -668,18 +693,19 @@
   board: false
   contributor_type:
     - contributor
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location: Seattle, WA
   email: joe@earthmover.io
 - name: Kylen Solvik
+  github_username: kysolvik
+  github_image_id: 24379590
   title:
   sort:
   bio:
   organization:
-  github_username: kysolvik
-  github_image_id: 24379590
+  date_added: '2023-02-24'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -694,19 +720,20 @@
     - peer-review
     - peer-review-guide
     - reviewer
-  packages_editor:
-  packages_submitted:
+  packages_editor: 
+  packages_submitted: 
   packages_reviewed:
     - nbless
   location:
   email: kysolvik@gmail.com
 - name: Martin Skarzynski
+  github_username: marskar
+  github_image_id: 12806339
   title:
   sort:
   bio: 🧮Biostatistics Branch🏛NCI Division of🦀Cancer Epidemiology and🧬Genetics (DCEG)💻Bioinformatics📊DataScience💺Co-chair🎓FAES🐍Python®Rstats⚕Health🤖ML🧠AI
   organization:
-  github_username: marskar
-  github_image_id: 12806339
+  date_added: '2023-02-24'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -720,19 +747,20 @@
     - maintainer
     - peer-review
     - submitting-author
-  packages_editor:
+  packages_editor: 
   packages_submitted:
     - nbless
-  packages_reviewed:
+  packages_reviewed: 
   location: Rockville/Bethesda, Maryland
   email:
 - name: Mike Trizna
+  github_username: MikeTrizna
+  github_image_id: 472677
   title:
   sort:
   bio:
   organization: Smithsonian Institution
-  github_username: MikeTrizna
-  github_image_id: 472677
+  date_added: '2023-02-24'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -743,19 +771,20 @@
   board: false
   contributor_type:
     - contributor
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location: Washington, DC
   email: triznam@si.edu
 - name: Neil Chue Hong
+  github_username: npch
+  github_image_id: 1507151
   title:
   sort:
   bio: Director of the Software Sustainability Institute (@softwaresaved). Editor-in-Chief
       of the Journal of Open Research Software. Interested in software metrics.
   organization: '@softwaresaved'
-  github_username: npch
-  github_image_id: 1507151
+  date_added: '2023-02-24'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -766,18 +795,19 @@
   board: false
   contributor_type:
     - contributor
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location: Edinburgh, United Kingdom
   email:
 - name: Niels Bantilan
+  github_username: cosmicBboy
+  github_image_id: 2816689
   title:
   sort:
   bio: Data Scientist, Machine Learning Engineer
   organization: '@unionai'
-  github_username: cosmicBboy
-  github_image_id: 2816689
+  date_added: '2019-12-10'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -794,19 +824,20 @@
     - peer-review-guide
     - submitting-author
     - web-contrib
-  packages_editor:
+  packages_editor: 
   packages_submitted:
     - pandera
-  packages_reviewed:
+  packages_reviewed: 
   location: Atlanta, GA, US
   email: niels.bantilan@gmail.com
 - name: Sean Gillies
+  github_username: sgillies
+  github_image_id: 33697
   title:
   sort:
   bio: b. 1969, he/him
   organization: '@planetlabs'
-  github_username: sgillies
-  github_image_id: 33697
+  date_added: '2019-12-10'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -818,19 +849,20 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_editor:
-  packages_submitted:
+  packages_editor: 
+  packages_submitted: 
   packages_reviewed:
     - earthpy
   location: Fort Collins, Colorado
   email: sean.gillies@gmail.com
 - name: Rohit Goswami
+  github_username: HaoZeke
+  github_image_id: 4336207
   title:
   sort:
   bio:
   organization: '@Quansight-Labs, @TheochemUI'
-  github_username: HaoZeke
-  github_image_id: 4336207
+  date_added: '2019-12-10'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -842,19 +874,20 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_editor:
-  packages_submitted:
+  packages_editor: 
+  packages_submitted: 
   packages_reviewed:
     - earthpy
   location: University of Iceland
   email: rog32@hi.is
 - name: Morgan Williams
+  github_username: morganjwilliams
+  github_image_id: 11415019
   title:
   sort:
   bio:
   organization: CSIRO Mineral Resources
-  github_username: morganjwilliams
-  github_image_id: 11415019
+  date_added: '2020-06-08'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -868,19 +901,20 @@
     - package-maintainer
     - peer-review
     - submitting-author
-  packages_editor:
+  packages_editor: 
   packages_submitted:
     - pyrolite
-  packages_reviewed:
+  packages_reviewed: 
   location: Perth, WA, Australia
   email:
 - name: Philip Meier
+  github_username: pmeier
+  github_image_id: 6849766
   title:
   sort:
   bio: Senior Software Engineer working on PyTorch / torchvision
   organization: '@Quansight'
-  github_username: pmeier
-  github_image_id: 6849766
+  date_added: '2020-10-14'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -895,7 +929,7 @@
     - peer-review
     - reviewer
     - submitting-author
-  packages_editor:
+  packages_editor: 
   packages_submitted:
     - pystiche
   packages_reviewed:
@@ -903,12 +937,13 @@
   location: Germany
   email:
 - name: Edgar Riba
+  github_username: edgarriba
+  github_image_id: 5157099
   title:
   sort:
   bio: '@kornia Creator | PhD, Computer Vision Research Engineer'
   organization: Kornia.org
-  github_username: edgarriba
-  github_image_id: 5157099
+  date_added: '2020-10-14'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -920,20 +955,21 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_editor:
-  packages_submitted:
+  packages_editor: 
+  packages_submitted: 
   packages_reviewed:
     - pystiche
     - sevivi
   location: Barcelona, Spain
   email: edgar.riba@gmail.com
 - name: Databank Ondergrond Vlaanderen
+  github_username: DOV-Vlaanderen
+  github_image_id: 24718915
   title:
   sort:
   bio:
   organization:
-  github_username: DOV-Vlaanderen
-  github_image_id: 24718915
+  date_added: '2021-02-19'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -944,19 +980,20 @@
   board: false
   contributor_type:
     - package-maintainer
-  packages_editor:
+  packages_editor: 
   packages_submitted:
     - pydov
-  packages_reviewed:
+  packages_reviewed: 
   location:
   email:
 - name: Roel Huybrechts
+  github_username: Roel
+  github_image_id: 140299
   title:
   sort:
   bio:
   organization:
-  github_username: Roel
-  github_image_id: 140299
+  date_added: '2021-03-02'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -967,19 +1004,20 @@
   board: false
   contributor_type:
     - package-maintainer
-  packages_editor:
+  packages_editor: 
   packages_submitted:
     - pydov
-  packages_reviewed:
+  packages_reviewed: 
   location:
   email: roel@huybrechts.re
 - name: Stijn Van Hoey
+  github_username: stijnvanhoey
+  github_image_id: 754862
   title:
   sort:
   bio:
   organization: '@fluves'
-  github_username: stijnvanhoey
-  github_image_id: 754862
+  date_added: '2021-03-02'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -990,19 +1028,20 @@
   board: false
   contributor_type:
     - package-maintainer
-  packages_editor:
+  packages_editor: 
   packages_submitted:
     - pydov
-  packages_reviewed:
+  packages_reviewed: 
   location:
   email:
 - name: Pieter Jan Haest
+  github_username: pjhaest
+  github_image_id: 22764347
   title:
   sort:
   bio: Project manager industry 4.0
   organization: De Watergroep
-  github_username: pjhaest
-  github_image_id: 22764347
+  date_added: '2021-03-02'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -1013,19 +1052,20 @@
   board: false
   contributor_type:
     - package-maintainer
-  packages_editor:
+  packages_editor: 
   packages_submitted:
     - pydov
-  packages_reviewed:
+  packages_reviewed: 
   location: Belgium
   email:
 - name: Nhat (Jonny) Tran
+  github_username: JonnyTran
+  github_image_id: 4750391
   title:
   sort:
   bio: Graph neural networks, bioinformatics, non-coding RNA, NLP, and ML engineering.
   organization: Actively looking
-  github_username: JonnyTran
-  github_image_id: 4750391
+  date_added: '2021-04-30'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -1040,19 +1080,20 @@
     - peer-review
     - submitting-author
     - web-contrib
-  packages_editor:
+  packages_editor: 
   packages_submitted:
     - openomics
-  packages_reviewed:
+  packages_reviewed: 
   location:
   email:
 - name: Katharina Sielemann
+  github_username: ksielemann
+  github_image_id: 62541949
   title:
   sort:
   bio:
   organization:
-  github_username: ksielemann
-  github_image_id: 62541949
+  date_added: '2021-05-07'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -1064,20 +1105,21 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_editor:
-  packages_submitted:
+  packages_editor: 
+  packages_submitted: 
   packages_reviewed:
     - openomics
   location:
   email:
 - name: Moritz Lürig
+  github_username: mluerig
+  github_image_id: 15648068
   title:
   sort:
   bio: Postdoc in ecology and evolution; interested in computer vision and ecological
       informatics
   organization: Lund University
-  github_username: mluerig
-  github_image_id: 15648068
+  date_added: '2021-05-13'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -1092,19 +1134,20 @@
     - package-maintainer
     - peer-review
     - submitting-author
-  packages_editor:
+  packages_editor: 
   packages_submitted:
     - phenopype
-  packages_reviewed:
+  packages_reviewed: 
   location: Sweden
   email: moritz.luerig@gmail.com
 - name: Emily Jane McTavish
+  github_username: snacktavish
+  github_image_id: 1652782
   title:
   sort:
   bio:
   organization:
-  github_username: snacktavish
-  github_image_id: 1652782
+  date_added: '2021-09-16'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -1120,7 +1163,7 @@
     - peer-review
     - reviewer
     - submitting-author
-  packages_editor:
+  packages_editor: 
   packages_submitted:
     - physcraper
   packages_reviewed:
@@ -1128,12 +1171,13 @@
   location:
   email: ejmctavish@ucmerced.edu
 - name: Luna L. Sanchez Reyes
+  github_username: LunaSare
+  github_image_id: 26721915
   title:
   sort:
   bio: Nature. Computers. Life. Doing open science with @phylotastic and @OpenTreeOfLife
   organization: University of California, Merced
-  github_username: LunaSare
-  github_image_id: 26721915
+  date_added: '2021-09-16'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -1147,19 +1191,20 @@
     - maintainer
     - package-maintainer
     - peer-review
-  packages_editor:
+  packages_editor: 
   packages_submitted:
     - physcraper
-  packages_reviewed:
+  packages_reviewed: 
   location: Merced, CA, USA
   email: sanchez.reyes.luna@gmail.com
 - name: K. Arthur Endsley
+  github_username: arthur-e
+  github_image_id: 1211103
   title:
   sort:
   bio: Computational Geoscientist
   organization: University of Montana NTSG
-  github_username: arthur-e
-  github_image_id: 1211103
+  date_added: '2022-01-12'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -1171,20 +1216,21 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_editor:
-  packages_submitted:
+  packages_editor: 
+  packages_submitted: 
   packages_reviewed:
     - jointly
   location: Missoula, MT
   email: endsley@umich.edu
 - name: Álex Sáez
+  github_username: AlexS12
+  github_image_id: 6061587
   title:
   sort:
   bio: Aerospace engineer passionate about Flight Mechanics.Python, Fortran, Matlab
       and lately Julia. (These are my personal projects)
   organization: AIRBUS D&S
-  github_username: AlexS12
-  github_image_id: 6061587
+  date_added: '2022-01-12'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -1196,19 +1242,20 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_editor:
-  packages_submitted:
+  packages_editor: 
+  packages_submitted: 
   packages_reviewed:
     - jointly
   location: Madrid (Spain)
   email: alex.saez.12@gmail.com
 - name: Julius Busecke
+  github_username: jbusecke
+  github_image_id: 14314623
   title:
   sort:
   bio: Climate Scientist | Oceanographer |Open Source Enthusiast
   organization: Columbia/LDEO -- @ocean-transport
-  github_username: jbusecke
-  github_image_id: 14314623
+  date_added: '2022-09-08'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -1220,19 +1267,20 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_editor:
-  packages_submitted:
+  packages_editor: 
+  packages_submitted: 
   packages_reviewed:
     - pygmt
   location: Brooklyn, New York
   email:
 - name: Nicolas Palopoli
+  github_username: NPalopoli
+  github_image_id: 1713937
   title: Co-Executive Director
   sort:
   bio: Computational Biologist
   organization: Universidad Nacional de Quilmes & MetaDocencia
-  github_username: NPalopoli
-  github_image_id: 1713937
+  date_added: '2023-03-01'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -1241,19 +1289,20 @@
   orcidid: ​0000-0001-7925-6436
   website: https://about.me/npalopoli
   board: false
-  contributor_type:
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  contributor_type: 
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location: Buenos Aires, Argentina
   email: nicopalo@gmail.com
 - name: Erik Welch
+  github_username: eriknw
+  github_image_id: 2058401
   title:
   sort:
   bio:
   organization:
-  github_username: eriknw
-  github_image_id: 2058401
+  date_added: '2023-03-01'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -1269,20 +1318,21 @@
     - peer-review
     - peer-review-guide
     - submitting-author
-  packages_editor:
+  packages_editor: 
   packages_submitted:
     - python-graphblas
-  packages_reviewed:
+  packages_reviewed: 
   location: Austin, TX
   email:
 - name: Pamphile Roy
+  github_username: tupui
+  github_image_id: 23188539
   title:
   sort:
   bio: Artificial Intelligence, Backend, Data, Stats, Engineer probably doing some
       Python 🐍
   organization: '@Quansight'
-  github_username: tupui
-  github_image_id: 23188539
+  date_added: '2023-03-01'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -1294,18 +1344,19 @@
   contributor_type:
     - guidebook-contrib
     - package-guide
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location: Graz, Austria
   email: roy.pamphile@gmail.com
 - name: Jonny Saunders
+  github_username: sneakers-the-rat
+  github_image_id: 12961499
   title:
   sort:
   bio: Bad at programming in beautiful Oregon
   organization:
-  github_username: sneakers-the-rat
-  github_image_id: 12961499
+  date_added: '2023-03-01'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -1320,19 +1371,20 @@
     - peer-review
     - reviewer
     - web-contrib
-  packages_editor:
-  packages_submitted:
+  packages_editor: 
+  packages_submitted: 
   packages_reviewed:
     - python-graphblas
   location:
   email:
 - name: Randy Döring
+  github_username: radoering
+  github_image_id: 30527984
   title:
   sort:
   bio:
   organization:
-  github_username: radoering
-  github_image_id: 30527984
+  date_added: '2023-03-01'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -1344,18 +1396,19 @@
   contributor_type:
     - guidebook-contrib
     - package-guide
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location:
   email:
 - name: Juan Luis Cano Rodríguez
+  github_username: astrojuanlu
+  github_image_id: 316517
   title:
   sort:
   bio: Open Knowledge + Radical Transparency
   organization: '@kedro-org'
-  github_username: astrojuanlu
-  github_image_id: 316517
+  date_added: '2023-03-01'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -1368,19 +1421,20 @@
     - guidebook-contrib
     - package-guide
     - peer-review-guide
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location: Spain
   email: hello@juanlu.space
 - name: Henry Schreiner
+  github_username: henryiii
+  github_image_id: 4616906
   title:
   sort:
   bio: Particle physicist and software architect working with @iris-hep. @scikit-hep,
       @pybind, and @scikit-build admin. @pypa member.
   organization: Princeton University
-  github_username: henryiii
-  github_image_id: 4616906
+  date_added: '2023-03-01'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -1392,19 +1446,20 @@
   contributor_type:
     - guidebook-contrib
     - package-guide
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location: Princeton, NJ
   email: HenrySchreinerIII@gmail.com
 - name: Stefan van der Walt
+  github_username: stefanv
+  github_image_id: 45071
   title:
   sort:
   bio: Everything Scientific Python. Works on NumPy, SciPy, scikit-image, NetworkX,
       etc. Author of Elegant SciPy. Researcher at UC Berkeley.
   organization: University of California, Berkeley
-  github_username: stefanv
-  github_image_id: 45071
+  date_added: '2023-03-01'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -1417,18 +1472,19 @@
     - guidebook-contrib
     - package-guide
     - peer-review-guide
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location: Berkeley, CA
   email:
 - name: Eli Schwartz
+  github_username: eli-schwartz
+  github_image_id: 6551424
   title:
   sort:
   bio: '@archlinux bugwrangler and Trusted User'
   organization:
-  github_username: eli-schwartz
-  github_image_id: 6551424
+  date_added: '2023-03-01'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -1440,19 +1496,20 @@
   contributor_type:
     - guidebook-contrib
     - package-guide
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location:
   email: eschwartz93@gmail.com
 - name: Ralf Gommers
+  github_username: rgommers
+  github_image_id: 98330
   title:
   sort:
   bio: NumPy, SciPy, data-apis.org, PyWavelets maintainer. Building open source
       communities at Quansight Labs.
   organization: Quansight
-  github_username: rgommers
-  github_image_id: 98330
+  date_added: '2023-03-01'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -1464,18 +1521,19 @@
   contributor_type:
     - guidebook-contrib
     - package-guide
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location: Netherlands
   email: ralf.gommers@gmail.com
 - name: Ofek Lev
+  github_username: ofek
+  github_image_id: 9677399
   title:
   sort:
   bio: I like developing beautiful APIs.
   organization: '@datadog'
-  github_username: ofek
-  github_image_id: 9677399
+  date_added: '2023-03-01'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -1487,18 +1545,19 @@
   contributor_type:
     - guidebook-contrib
     - package-guide
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location: Knowhere
   email: oss@ofek.dev
 - name: Tom Augspurger
+  github_username: TomAugspurger
+  github_image_id: 1312546
   title:
   sort:
   bio:
   organization: '@microsoft'
-  github_username: TomAugspurger
-  github_image_id: 1312546
+  date_added: '2023-03-01'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -1510,19 +1569,20 @@
   contributor_type:
     - guidebook-contrib
     - peer-review-guide
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location:
   email: tom.w.augspurger@gmail.com
 - name: Ryan Abernathey
+  github_username: rabernat
+  github_image_id: 1197350
   title:
   sort:
   bio: Open source maintainer. CEO and co-founder of @earth-mover. @pangeo-data
       creator. Professor of Earth and Environmental Sciences at Columbia University.
   organization: Earthmover PBC
-  github_username: rabernat
-  github_image_id: 1197350
+  date_added: '2023-03-01'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -1534,19 +1594,20 @@
   contributor_type:
     - guidebook-contrib
     - peer-review-guide
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location: New York City
   email:
 - name: Carol Willing
+  github_username: willingc
+  github_image_id: 2680980
   title:
   sort:
   bio: Project Jupyter, nteract, and CPython core developer@python | @jupyter |
       @jupyterhub | @ipython | @nteract | @pysplash
   organization: Willing Consulting
-  github_username: willingc
-  github_image_id: 2680980
+  date_added: '2023-03-01'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -1561,20 +1622,21 @@
     - peer-review-guide
     - reviewer
     - web-contrib
-  packages_editor:
-  packages_submitted:
+  packages_editor: 
+  packages_submitted: 
   packages_reviewed:
     - devicely
   location: San Diego
   email: carolcode@willingconsulting.com
 - name: Steve Moss
+  github_username: gawbul
+  github_image_id: 321291
   title:
   sort:
   bio: Dad, husband, and PhD 👨‍🎓 Scientist 👨‍🔬 Technologist 📱 Engineer 👨‍💻 Bibliophile
       📚 Philomath 🧐
   organization: Dr Stephen P. Moss
-  github_username: gawbul
-  github_image_id: 321291
+  date_added: '2023-03-01'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -1588,19 +1650,20 @@
     - peer-review
     - peer-review-guide
     - reviewer
-  packages_editor:
-  packages_submitted:
+  packages_editor: 
+  packages_submitted: 
   packages_reviewed:
     - openomics
   location: Earth
   email:
 - name: Matthew Brett
+  github_username: matthew-brett
+  github_image_id: 67612
   title:
   sort:
   bio:
   organization: London Interdisciplinary School
-  github_username: matthew-brett
-  github_image_id: 67612
+  date_added: '2023-03-01'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -1612,18 +1675,19 @@
   contributor_type:
     - guidebook-contrib
     - peer-review-guide
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location: London, UK
   email:
 - name: Zehua Chen
+  github_username: ReventonC
+  github_image_id: 6276623
   title:
   sort:
   bio: Cat-centered Design.
   organization:
-  github_username: ReventonC
-  github_image_id: 6276623
+  date_added: '2023-03-01'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -1635,18 +1699,19 @@
   contributor_type:
     - guidebook-contrib
     - peer-review-guide
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location: Atlanta, GA
   email:
 - name: Sumit Kashyap
+  github_username: sumit-158
+  github_image_id: 96618001
   title:
   sort:
   bio: Open source and community | GSoC' 22 @openfoodfacts |
   organization:
-  github_username: sumit-158
-  github_image_id: 96618001
+  date_added: '2023-03-01'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -1658,19 +1723,20 @@
   contributor_type:
     - guidebook-contrib
     - peer-review-guide
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location: India
   email: mr.sumitkrr@gmail.com
 - name: Erik Sundell
+  github_username: consideRatio
+  github_image_id: 3837114
   title:
   sort:
   bio: Climate change mitigation efforts need nuclear alongside other low carbon
       sources.https://twitter.com/e_Sundell/status/1258480862359937024
   organization: Sundell Open Source Consulting AB
-  github_username: consideRatio
-  github_image_id: 3837114
+  date_added: '2023-03-01'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -1682,18 +1748,19 @@
   contributor_type:
     - guidebook-contrib
     - peer-review-guide
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location: Sweden
   email: erik.i.sundell@gmail.com
 - name: Ariel Rokem
+  github_username: arokem
+  github_image_id: 118582
   title:
   sort:
   bio:
   organization: The University of Washington eScience Institute
-  github_username: arokem
-  github_image_id: 118582
+  date_added: '2023-03-01'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -1705,19 +1772,20 @@
   contributor_type:
     - guidebook-contrib
     - peer-review-guide
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location: Seattle, WA
   email: arokem@gmail.com
 - name: James Mason
+  github_username: jmason86
+  github_image_id: 947614
   title:
   sort:
   bio: solar physics, space weather, and aerospace engineering. principal investigator
       of nasa's suncet mission.
   organization: Johns Hopkins Applied Physics Lab
-  github_username: jmason86
-  github_image_id: 947614
+  date_added: '2023-03-01'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -1729,18 +1797,19 @@
   contributor_type:
     - guidebook-contrib
     - peer-review-guide
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location: Washington DC
   email:
 - name: James Tocknell
+  github_username: aragilar
+  github_image_id: 1281144
   title:
   sort:
   bio: PhD Student in Astrophysics
   organization: Department of Physics and Astronomy, Macquarie University
-  github_username: aragilar
-  github_image_id: 1281144
+  date_added: '2023-04-13'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -1752,18 +1821,19 @@
   contributor_type:
     - guidebook-contrib
     - package-guide
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location:
   email:
 - name: Frost Ming
+  github_username: frostming
+  github_image_id: 16336606
   title:
   sort:
   bio: Love 🐍 Python, 📷 Photography and beautiful things
   organization:
-  github_username: frostming
-  github_image_id: 16336606
+  date_added: '2023-04-13'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -1775,19 +1845,20 @@
   contributor_type:
     - guidebook-contrib
     - package-guide
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location: Shenzhen, China
   email: me@frostming.com
 - name: Hugo van Kemenade
+  github_username: hugovk
+  github_image_id: 1324225
   title:
   sort:
   bio: Python core developer, PSF Fellow, open-source maintainer, PEP editor, NaNoGenMo
       organiser
   organization: Nord Software
-  github_username: hugovk
-  github_image_id: 1324225
+  date_added: '2023-04-13'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -1799,18 +1870,19 @@
   contributor_type:
     - guidebook-contrib
     - package-guide
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location: Helsinki, Finland
   email:
 - name: Matt Hall
+  github_username: kwinkunks
+  github_image_id: 1692372
   title:
   sort:
   bio: Open source scientist / programmer.Founder of @softwareunderground.
   organization: '@equinor'
-  github_username: kwinkunks
-  github_image_id: 1692372
+  date_added: '2023-04-13'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -1822,19 +1894,20 @@
   contributor_type:
     - guidebook-contrib
     - package-guide
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location: Bergen, Norway
   email: kwinkunks@gmail.com
 - name: Jannis Leidel
+  github_username: jezdez
+  github_image_id: 1610
   title:
   sort:
   bio: Principal SWE at @anaconda working on @conda. @conda-forge core member. @python
       director and fellow.@jazzband and @pypa founder. @mozilla and @django alum
   organization: '@anaconda'
-  github_username: jezdez
-  github_image_id: 1610
+  date_added: '2023-04-13'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -1846,18 +1919,19 @@
   contributor_type:
     - guidebook-contrib
     - package-guide
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location: Germany
   email:
 - name: Dave Hirschfeld
+  github_username: dhirschfeld
+  github_image_id: 881019
   title:
   sort:
   bio: Full-Stack Analytics Engineer
   organization:
-  github_username: dhirschfeld
-  github_image_id: 881019
+  date_added: '2023-04-13'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -1869,18 +1943,19 @@
   contributor_type:
     - guidebook-contrib
     - package-guide
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location: Brisbane, Australia
   email: dave.hirschfeld@gmail.com
 - name: Benjamin Rodenberg
+  github_username: BenjaminRodenberg
+  github_image_id: 5740604
   title:
   sort:
   bio:
   organization: Technical University of Munich
-  github_username: BenjaminRodenberg
-  github_image_id: 5740604
+  date_added: '2023-04-14'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -1892,18 +1967,19 @@
   contributor_type:
     - community
     - peer-review
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location:
   email: benjamin.rodenberg@in.tum.de
 - name: Travis Logan
+  github_username: tlogan2000
+  github_image_id: 22454970
   title:
   sort:
   bio:
   organization: Ouranos
-  github_username: tlogan2000
-  github_image_id: 22454970
+  date_added: '2023-04-14'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -1916,20 +1992,21 @@
     - community
     - maintainer
     - peer-review
-  packages_editor:
+  packages_editor: 
   packages_submitted:
     - xclim
-  packages_reviewed:
+  packages_reviewed: 
   location: Montreal
   email:
 - name: Pascal Bourgault
+  github_username: aulemahal
+  github_image_id: 20629530
   title:
   sort:
   bio: Physical oceanography graduate turned climate science specialist and scientific
       developer.
   organization: Ouranos
-  github_username: aulemahal
-  github_image_id: 20629530
+  date_added: '2023-04-14'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -1942,20 +2019,21 @@
     - community
     - maintainer
     - peer-review
-  packages_editor:
+  packages_editor: 
   packages_submitted:
     - xclim
-  packages_reviewed:
+  packages_reviewed: 
   location: Montréal
   email: bourgault.pascal@ouranos.ca
 - name: Arne
+  github_username: enra64
+  github_image_id: 7622426
   title:
   sort:
   bio: IT-Systems Engineering Student at Hasso Plattner Institute, more active at
       gitlab.com/enra64
   organization:
-  github_username: enra64
-  github_image_id: 7622426
+  date_added: '2023-04-13'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -1968,20 +2046,21 @@
     - maintainer
     - peer-review
     - submitting-author
-  packages_editor:
+  packages_editor: 
   packages_submitted:
     - jointly
-  packages_reviewed:
+  packages_reviewed: 
   location:
   email:
 - name: Robert Guggenberger
+  github_username: agricolab
+  github_image_id: 20556511
   title:
   sort:
   bio: Dr.rer.soc. Dr.rer.nat. Rock climbing, Research Software, Neurofeedback and
       Brain Stimulation.
   organization: neuroConn
-  github_username: agricolab
-  github_image_id: 20556511
+  date_added: '2023-04-13'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -1993,21 +2072,22 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_editor:
-  packages_submitted:
+  packages_editor: 
+  packages_submitted: 
   packages_reviewed:
     - devicely
   location: Tuebingen, Germany
   email:
 - name: Boas Pucker
+  github_username: bpucker
+  github_image_id: 36674497
   title:
   sort:
   bio: Professor at TU Braunschweig with research interests in plant genomics and
       specialized metabolism. Details:https://www.tu-braunschweig.de/en/ifp/pbb
   organization: Plant Biotechnology and Bioinformatics, Institute of Plant Biology,
       TU Braunschweig
-  github_username: bpucker
-  github_image_id: 36674497
+  date_added: '2023-04-13'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -2019,20 +2099,21 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_editor:
-  packages_submitted:
+  packages_editor: 
+  packages_submitted: 
   packages_reviewed:
     - physcraper
   location: Germany
   email:
 - name: Leonardo de Oliveira Martins
+  github_username: leomrtns
+  github_image_id: 7119518
   title:
   sort:
   bio: Bioinformatician @quadram-institute-bioscience (Norwich, UK). Phylogenomics
       and Data Sciences.
   organization: '@quadram-institute-bioscience'
-  github_username: leomrtns
-  github_image_id: 7119518
+  date_added: '2023-04-13'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -2044,19 +2125,20 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_editor:
-  packages_submitted:
+  packages_editor: 
+  packages_submitted: 
   packages_reviewed:
     - physcraper
   location: Norwich, UK
   email: Leonardo.de-Oliveira-Martins@quadram.ac.uk
 - name: Soumith Chintala
+  github_username: soumith
+  github_image_id: 1310570
   title:
   sort:
   bio: /\︿╱\ _________________________________\0_ 0    /╱\╱____________________________  \▁︹_/
   organization: Facebook AI Research
-  github_username: soumith
-  github_image_id: 1310570
+  date_added: '2023-04-13'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -2068,19 +2150,20 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_editor:
-  packages_submitted:
+  packages_editor: 
+  packages_submitted: 
   packages_reviewed:
     - pystiche
   location: New York, USA
   email:
 - name: Arthur Porto
+  github_username: agporto
+  github_image_id: 20894263
   title:
   sort:
   bio: Evolutionary Biology, Genetics and Machine learning
   organization:
-  github_username: agporto
-  github_image_id: 20894263
+  date_added: '2023-04-13'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -2092,19 +2175,20 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_editor:
-  packages_submitted:
+  packages_editor: 
+  packages_submitted: 
   packages_reviewed:
     - phenopype
   location: Baton Rouge, LA
   email:
 - name: Seth Donoughe
+  github_username: sdonoughe
+  github_image_id: 14017155
   title:
   sort:
   bio:
   organization:
-  github_username: sdonoughe
-  github_image_id: 14017155
+  date_added: '2023-04-13'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -2116,20 +2200,21 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_editor:
-  packages_submitted:
+  packages_editor: 
+  packages_submitted: 
   packages_reviewed:
     - phenopype
   location:
   email:
 - name: Ben Cook
+  github_username: jbencook
+  github_image_id: 4348863
   title:
     - Guest editor
   sort:
   bio:
   organization:
-  github_username: jbencook
-  github_image_id: 4348863
+  date_added: '2023-04-13'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -2143,18 +2228,19 @@
     - peer-review
   packages_editor:
     - phenopype
-  packages_submitted:
-  packages_reviewed:
+  packages_submitted: 
+  packages_reviewed: 
   location: Omaha, NE
   email: ben@sparrow.dev
 - name: Romain Beucher
+  github_username: rbeucher
+  github_image_id: 3680918
   title:
   sort:
   bio: Model Evaluation and Diagnostics Team Lead for the Australian Earth-System
       Simulator National Research Infrastructure (ACCESS-NRI)
   organization: ACCESS-NRI
-  github_username: rbeucher
-  github_image_id: 3680918
+  date_added: '2023-04-13'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -2166,20 +2252,21 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_editor:
-  packages_submitted:
+  packages_editor: 
+  packages_submitted: 
   packages_reviewed:
     - pyrolite
   location: Canberra, Australia
   email: romain.beucher@anu.edu.au
 - name: Charles Le Losq
+  github_username: charlesll
+  github_image_id: 6821569
   title:
   sort:
   bio: Geoscientist, Assistant Professor, willing to improve data reduction protocols
       through programming and data science
   organization: Institut de physique du globe de Paris
-  github_username: charlesll
-  github_image_id: 6821569
+  date_added: '2023-04-13'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -2191,20 +2278,21 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_editor:
-  packages_submitted:
+  packages_editor: 
+  packages_submitted: 
   packages_reviewed:
     - pyrolite
   location: France
   email: lelosq@ipgp.fr
 - name: Wei Ji
+  github_username: weiji14
+  github_image_id: 23487320
   title:
   sort:
   bio: Geospatial Data Scientist/ML Practitioner @developmentseed. Towards cloud-native
       geospatial machine learning!
   organization: '@developmentseed'
-  github_username: weiji14
-  github_image_id: 23487320
+  date_added: '2023-04-13'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -2217,20 +2305,21 @@
     - maintainer
     - peer-review
     - submitting-author
-  packages_editor:
+  packages_editor: 
   packages_submitted:
     - pygmt
-  packages_reviewed:
+  packages_reviewed: 
   location: Wellington
   email:
 - name: Tessa Rhinehart
+  github_username: rhine3
+  github_image_id: 27306428
   title:
   sort:
   bio: 'Work: research programmer creating computational tools for bioacoustics.
       Play: tinkerer creating open-source tools for birders'
   organization: University of Pittsburgh
-  github_username: rhine3
-  github_image_id: 27306428
+  date_added: '2023-03-29'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -2242,19 +2331,20 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_editor:
-  packages_submitted:
+  packages_editor: 
+  packages_submitted: 
   packages_reviewed:
     - crowsetta
   location: Pittsburgh, PA, USA
   email: tessa.rhinehart@pitt.edu
 - name: Agustina
+  github_username: aguspesce
+  github_image_id: 13738018
   title:
   sort:
   bio: Lic. in Physics and PhD in Geophysics.
   organization:
-  github_username: aguspesce
-  github_image_id: 13738018
+  date_added: '2023-04-12'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -2267,19 +2357,20 @@
     - community
     - peer-review
     - reviewer
-  packages_editor:
-  packages_submitted:
+  packages_editor: 
+  packages_submitted: 
   packages_reviewed:
     - xclim
   location: British Columbia, Canada
   email: pesce.agustina@gmail.com
 - name: Sylvain HAUPERT
+  github_username: shaupert
+  github_image_id: 43136040
   title:
   sort:
   bio:
   organization:
-  github_username: shaupert
-  github_image_id: 43136040
+  date_added: '2023-04-13'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -2291,20 +2382,21 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_editor:
-  packages_submitted:
+  packages_editor: 
+  packages_submitted: 
   packages_reviewed:
     - crowsetta
   location: PARIS
   email:
 - name: Yannick Jadoul
+  github_username: YannickJadoul
+  github_image_id: 8025744
   title:
   sort:
   bio:
   organization: Max Planck Institute for Psycholinguistics & Vrije Universiteit
       Brussel
-  github_username: YannickJadoul
-  github_image_id: 8025744
+  date_added: '2023-04-13'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -2313,9 +2405,9 @@
   orcidid:
   website:
   board: false
-  contributor_type:
-  packages_editor:
-  packages_submitted:
+  contributor_type: 
+  packages_editor: 
+  packages_submitted: 
   packages_reviewed:
     - a
     - c
@@ -2328,12 +2420,13 @@
   location: Nijmegen, the Netherlands
   email: Yannick.Jadoul@ai.vub.ac.be
 - name: Semidán Robaina
+  github_username: Robaina
+  github_image_id: 21340147
   title:
   sort:
   bio: Computational Biology | Data Science | Python Dev. | Ph.D. Systems Biology
   organization: ULL
-  github_username: Robaina
-  github_image_id: 21340147
+  date_added: '2023-04-13'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -2349,7 +2442,7 @@
     - reviewer
     - submitting-author
     - web-contrib
-  packages_editor:
+  packages_editor: 
   packages_submitted:
     - pynteny
   packages_reviewed:
@@ -2357,13 +2450,14 @@
   location: Atlantic Ocean
   email: srobaina@ull.edu.es
 - name: Trevor James Smith
+  github_username: Zeitsperre
+  github_image_id: 10819524
   title:
   sort:
   bio: Python, Linux, and FOSS-GIS enthusiast. Climate Scenarios and Services Specialist
       at Ouranos (@Ouranosinc) in Montreal.
   organization: Ouranos
-  github_username: Zeitsperre
-  github_image_id: 10819524
+  date_added: '2023-04-13'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -2377,19 +2471,20 @@
     - maintainer
     - peer-review
     - submitting-author
-  packages_editor:
+  packages_editor: 
   packages_submitted:
     - xclim
-  packages_reviewed:
+  packages_reviewed: 
   location: Montreal, Canada
   email:
 - name: James Munroe
+  github_username: jmunroe
+  github_image_id: 6181563
   title:
   sort:
   bio:
   organization: '@2i2c-org'
-  github_username: jmunroe
-  github_image_id: 6181563
+  date_added: '2023-04-13'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -2402,19 +2497,20 @@
     - community
     - peer-review
     - reviewer
-  packages_editor:
-  packages_submitted:
+  packages_editor: 
+  packages_submitted: 
   packages_reviewed:
     - xclim
   location:
   email: jmunroe@earthdata.ca
 - name: Corinna Thoben
+  github_username: c-thoben
+  github_image_id: 103432571
   title:
   sort:
   bio:
   organization:
-  github_username: c-thoben
-  github_image_id: 103432571
+  date_added: '2023-04-13'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -2426,19 +2522,20 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_editor:
-  packages_submitted:
+  packages_editor: 
+  packages_submitted: 
   packages_reviewed:
     - pynteny
   location:
   email:
 - name: Tom Russell
+  github_username: tomalrussell
+  github_image_id: 2762769
   title: Editor
   sort:
   bio: Research software person. Work @nismod, tech lead @colouring-cities
   organization: University of Oxford
-  github_username: tomalrussell
-  github_image_id: 2762769
+  date_added: '2023-04-18'
   deia_advisory: false
   editorial_board: true
   advisory: false
@@ -2454,17 +2551,18 @@
     - peer-review
   packages_editor:
     - python-graphblas
-  packages_submitted:
-  packages_reviewed:
+  packages_submitted: 
+  packages_reviewed: 
   location: Oxford / London
   email:
 - name: C. Titus Brown
+  github_username: ctb
+  github_image_id: 51016
   title: Editor
   sort:
   bio: Prof at UC Davis. Blogs at http://ivory.idyll.org/blog/ and tweets at https://twitter.com/ctitusbrown.
   organization: University of California, Davis
-  github_username: ctb
-  github_image_id: 51016
+  date_added: '2023-04-18'
   deia_advisory: false
   editorial_board: true
   advisory: false
@@ -2480,17 +2578,18 @@
     - peer-review
   packages_editor:
     - taxpasta
-  packages_submitted:
-  packages_reviewed:
+  packages_submitted: 
+  packages_reviewed: 
   location: Davis, CA
   email: titus@idyll.org
 - name: Meenal Jhajharia
+  github_username: mjhajharia
+  github_image_id: 55153708
   title: Editor
   sort:
   bio:
   organization: \varnothing
-  github_username: mjhajharia
-  github_image_id: 55153708
+  date_added: '2023-04-18'
   deia_advisory: false
   editorial_board: true
   advisory: false
@@ -2506,17 +2605,18 @@
     - peer-review
   packages_editor:
     - bibat
-  packages_submitted:
-  packages_reviewed:
+  packages_submitted: 
+  packages_reviewed: 
   location:
   email:
 - name: John McCray
+  github_username: mccrayjr
+  github_image_id: 69483966
   title:
   sort:
   bio: Software Developer
   organization:
-  github_username: mccrayjr
-  github_image_id: 69483966
+  date_added: '2023-04-24'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -2527,18 +2627,19 @@
   board: false
   contributor_type:
     - community
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location: Washington, DC
   email:
 - name: Meer (Miriam) Williamson
+  github_username: meerkatters
+  github_image_id: 50787305
   title:
   sort:
   bio: SE based in Seattle interested in public health.
   organization: Fred Hutch
-  github_username: meerkatters
-  github_image_id: 50787305
+  date_added: '2023-04-24'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -2550,18 +2651,19 @@
   contributor_type:
     - code-contrib
     - metrics-contrib
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location: Seattle, WA
   email:
 - name: Tiffany Xiao
+  github_username: tiffanyxiao
+  github_image_id: 13580331
   title:
   sort:
   bio: Currently a data science software engineer at Bloomberg.
   organization: Bloomberg
-  github_username: tiffanyxiao
-  github_image_id: 13580331
+  date_added: '2023-04-24'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -2573,18 +2675,19 @@
   contributor_type:
     - code-contrib
     - metrics-contrib
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location: New York, New York
   email: cdtiffanyxiao@gmail.com
 - name: Austin
+  github_username: austinlg96
+  github_image_id: 19922895
   title:
   sort:
   bio:
   organization:
-  github_username: austinlg96
-  github_image_id: 19922895
+  date_added: '2023-04-24'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -2596,18 +2699,19 @@
   contributor_type:
     - code-contrib
     - metrics-contrib
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location:
   email:
 - name: JAKE
+  github_username: paajake
+  github_image_id: 12656820
   title:
   sort:
   bio:
   organization:
-  github_username: paajake
-  github_image_id: 12656820
+  date_added: '2023-04-24'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -2619,18 +2723,19 @@
   contributor_type:
     - code-contrib
     - metrics-contrib
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location: Ghana
   email: paajake@gmail.com
 - name: Barnabas Bulpett (He/Him)
+  github_username: bbulpett
+  github_image_id: 6424805
   title:
   sort:
   bio: Software Engineer
   organization: '@vitalsource'
-  github_username: bbulpett
-  github_image_id: 6424805
+  date_added: '2023-04-24'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -2643,18 +2748,19 @@
     - code-contrib
     - metrics-contrib
     - web-contrib
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location: Gotham
   email:
 - name: Jeremy Paige
+  github_username: ucodery
+  github_image_id: 28751151
   title:
   sort:
   bio:
   organization: '@ActiveState'
-  github_username: ucodery
-  github_image_id: 28751151
+  date_added: '2023-05-26'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -2666,18 +2772,19 @@
   contributor_type:
     - guidebook-contrib
     - package-guide
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location:
   email: ucodery@gmail.com
 - name: Mahe Iram Khan
+  github_username: ForgottenProgramme
+  github_image_id: 65779580
   title:
   sort:
   bio:
   organization: Anaconda Inc.
-  github_username: ForgottenProgramme
-  github_image_id: 65779580
+  date_added: '2023-05-26'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -2689,18 +2796,19 @@
   contributor_type:
     - guidebook-contrib
     - peer-review-guide
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location: Berlin, Germany
   email:
 - name: Qin
+  github_username: chiinita
+  github_image_id: 17188345
   title:
   sort:
   bio:
   organization:
-  github_username: chiinita
-  github_image_id: 17188345
+  date_added: '2023-05-26'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -2712,18 +2820,19 @@
   contributor_type:
     - guidebook-contrib
     - peer-review-guide
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location: London, UK
   email:
 - name: David Stansby
+  github_username: dstansby
+  github_image_id: 6197628
   title:
   sort:
   bio:
   organization: UCL
-  github_username: dstansby
-  github_image_id: 6197628
+  date_added: '2023-05-26'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -2735,19 +2844,20 @@
   contributor_type:
     - guidebook-contrib
     - peer-review-guide
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location: London, UK
   email: d.stansby@ucl.ac.uk
 - name: Juanita Gomez
+  github_username: juanis2112
+  github_image_id: 18587879
   title:
   sort:
   bio: Computer Science PhD student at University of California, Santa Cruz Community
       Manager at @scientific-python
   organization: UC, Santa Cruz
-  github_username: juanis2112
-  github_image_id: 18587879
+  date_added: '2023-05-26'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -2760,19 +2870,20 @@
     - code-contrib
     - metrics-contrib
     - web-contrib
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location: Santa Cruz, California
   email: juanitagomezr2112@gmail.com
 - name: Sarah Kaiser
+  github_username: crazy4pi314
+  github_image_id: 6486256
   title:
   sort:
   bio: Sr. Cloud Developer Advocate for Python @Microsoft | Python Foundation Fellow  |
       Maker and breaker of many things
   organization: Microsoft
-  github_username: crazy4pi314
-  github_image_id: 6486256
+  date_added: '2023-05-26'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -2785,19 +2896,20 @@
     - code-contrib
     - metrics-contrib
     - web-contrib
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location: Seattle, WA
   email: sckaiser@sckaiser.com
 - name: A Samuel Pottinger
+  github_username: sampottinger
+  github_image_id: 110391
   title:
   sort:
   bio: Data scientist with a software engineering, data visualization, and machine
       learning background. Occasionally contributes to Processing.
   organization: UC Berkeley
-  github_username: sampottinger
-  github_image_id: 110391
+  date_added: '2023-06-01'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -2811,19 +2923,20 @@
     - package-maintainer
     - peer-review
     - submitting-author
-  packages_editor:
+  packages_editor: 
   packages_submitted:
     - afscgap
-  packages_reviewed:
+  packages_reviewed: 
   location:
   email:
 - name: Anderson Bravalheri
+  github_username: abravalheri
+  github_image_id: 320755
   title:
   sort:
   bio:
   organization: University of Bristol
-  github_username: abravalheri
-  github_image_id: 320755
+  date_added: '2023-06-14'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -2835,18 +2948,19 @@
   contributor_type:
     - guidebook-contrib
     - package-guide
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location: Bristol, UK
   email:
 - name: Daniel Possenriede
+  github_username: dpprdan
+  github_image_id: 1423562
   title:
   sort:
   bio:
   organization:
-  github_username: dpprdan
-  github_image_id: 1423562
+  date_added: '2023-06-14'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -2858,19 +2972,20 @@
   contributor_type:
     - guidebook-contrib
     - package-guide
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location: Hamburg, Germany
   email:
 - name: C.A.M. Gerlach
+  github_username: CAM-Gerlach
+  github_image_id: 17051931
   title:
   sort:
   bio: NASA-funded deep learning, IoT and satellite researcher. UAH grad student.
       Python and Spyder core dev. Python Docs Team and PEP Editor. Star✦Fleet Commander.
   organization: '@hamma-dev @python @spyder-ide @star-fleet-tours'
-  github_username: CAM-Gerlach
-  github_image_id: 17051931
+  date_added: '2023-06-14'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -2881,18 +2996,19 @@
   board: false
   contributor_type:
     - web-contrib
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location: Huntsville, AL, United States
   email: CAM.Gerlach@Gerlach.CAM
 - name: Teddy Groves
+  github_username: teddygroves
+  github_image_id: 17163471
   title:
   sort:
   bio:
   organization:
-  github_username: teddygroves
-  github_image_id: 17163471
+  date_added: '2023-07-12'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -2907,20 +3023,21 @@
     - peer-review
     - submitting-author
     - web-contrib
-  packages_editor:
+  packages_editor: 
   packages_submitted:
     - bibat
-  packages_reviewed:
+  packages_reviewed: 
   location:
   email: groves.teddy@gmail.com
 - name: James A. Fellows Yates
+  github_username: jfy133
+  github_image_id: 17950287
   title:
   sort:
   bio: Bioinformatician with specialism in ancient DNA and metagenomics. nf-core
       core-team member and SPAAM community founder.@jfy133@genomic.social
   organization: HKI Jena, MPI-EVA Leipzig
-  github_username: jfy133
-  github_image_id: 17950287
+  date_added: '2023-07-12'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -2933,19 +3050,20 @@
     - community
     - maintainer
     - peer-review
-  packages_editor:
+  packages_editor: 
   packages_submitted:
     - taxpasta
-  packages_reviewed:
+  packages_reviewed: 
   location: Leipzig, Germany
   email: jfy133@gmail.com
 - name: Moritz E. Beber
+  github_username: Midnighter
+  github_image_id: 135653
   title:
   sort:
   bio:
   organization:
-  github_username: Midnighter
-  github_image_id: 135653
+  date_added: '2023-07-12'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -2959,19 +3077,20 @@
     - maintainer
     - peer-review
     - submitting-author
-  packages_editor:
+  packages_editor: 
   packages_submitted:
     - taxpasta
-  packages_reviewed:
+  packages_reviewed: 
   location: Copenhagen, Denmark
   email: midnighter@posteo.net
 - name: Szabolcs Horvát
+  github_username: szhorvat
+  github_image_id: 1212871
   title:
   sort:
   bio: physicist at Center for Systems Biology Dresden
   organization:
-  github_username: szhorvat
-  github_image_id: 1212871
+  date_added: '2023-07-15'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -2984,19 +3103,20 @@
     - peer-review
     - reviewer
     - web-contrib
-  packages_editor:
-  packages_submitted:
+  packages_editor: 
+  packages_submitted: 
   packages_reviewed:
     - python-graphblas
   location:
   email: szhorvat@gmail.com
 - name: ruoxi
+  github_username: yang-ruoxi
+  github_image_id: 13646711
   title:
   sort:
   bio: Computational materials scientist
   organization:
-  github_username: yang-ruoxi
-  github_image_id: 13646711
+  date_added: '2023-07-15'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -3009,18 +3129,19 @@
     - guidebook-contrib
     - package-guide
     - peer-review-guide
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location:
   email:
 - name: P. L. Lim
+  github_username: pllim
+  github_image_id: 2090236
   title:
   sort:
   bio: My views and opinions are my own and do not represent my employer's.
   organization: Space Telescope Science Institute
-  github_username: pllim
-  github_image_id: 2090236
+  date_added: '2023-07-15'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -3032,18 +3153,19 @@
   contributor_type:
     - guidebook-contrib
     - peer-review-guide
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location: Baltimore, MD, USA
   email:
 - name: Nick Murphy
+  github_username: namurphy
+  github_image_id: 8931994
   title:
   sort:
   bio: '"Never go up against a plasma physicist when puns are on the line."'
   organization: Center for Astrophysics | Harvard & Smithsonian
-  github_username: namurphy
-  github_image_id: 8931994
+  date_added: '2023-07-15'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -3056,18 +3178,19 @@
     - guidebook-contrib
     - package-guide
     - peer-review-guide
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location: Cambridge, Massachusetts, USA
   email: namurphy@cfa.harvard.edu
 - name: Hans Moritz Günther
+  github_username: hamogu
+  github_image_id: 498688
   title:
   sort:
   bio:
   organization: MIT
-  github_username: hamogu
-  github_image_id: 498688
+  date_added: '2023-07-15'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -3079,18 +3202,19 @@
   contributor_type:
     - guidebook-contrib
     - peer-review-guide
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location: Cambridge, MA, USA
   email:
 - name: g-patlewicz
+  github_username: g-patlewicz
+  github_image_id: 52672925
   title:
   sort:
   bio:
   organization:
-  github_username: g-patlewicz
-  github_image_id: 52672925
+  date_added: '2023-07-15'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -3102,18 +3226,19 @@
   contributor_type:
     - guidebook-contrib
     - peer-review-guide
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location:
   email:
 - name: Mike Sarahan
+  github_username: msarahan
+  github_image_id: 38393
   title:
   sort:
   bio:
   organization: '@posit-pbc'
-  github_username: msarahan
-  github_image_id: 38393
+  date_added: '2023-07-15'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -3124,18 +3249,19 @@
   board: false
   contributor_type:
     - web-contrib
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location: Austin, TX
   email: msarahan@gmail.com
 - name: Thomas J. Fan
+  github_username: thomasjpfan
+  github_image_id: 5402633
   title:
   sort:
   bio: Staff Software Engineer at Quansight Labs, @scikit-learn maintainer
   organization: '@Quansight-Labs'
-  github_username: thomasjpfan
-  github_image_id: 5402633
+  date_added: '2023-07-15'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -3146,18 +3272,19 @@
   board: false
   contributor_type:
     - web-contrib
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location: New York City
   email: thomasjpfan@gmail.com
 - name: Kerry McAdams
+  github_username: klmcadams
+  github_image_id: 58492561
   title:
   sort:
   bio:
   organization: '@ansys'
-  github_username: klmcadams
-  github_image_id: 58492561
+  date_added: '2023-07-27'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -3168,18 +3295,19 @@
   board: false
   contributor_type:
     - web-contrib
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location:
   email:
 - name: Ricky Nilsson
+  github_username: rickynilsson
+  github_image_id: 12720117
   title:
   sort:
   bio: Astronomer / Data Scientist / Applications Developer
   organization: Caltech-IPAC/NExScI
-  github_username: rickynilsson
-  github_image_id: 12720117
+  date_added: '2023-07-27'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -3190,18 +3318,19 @@
   board: false
   contributor_type:
     - web-contrib
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location: Los Angeles, CA
   email: ricky.nilsson@gmail.com
 - name: Oriol Abril-Pla
+  github_username: OriolAbril
+  github_image_id: 23738400
   title:
   sort:
   bio:
   organization:
-  github_username: OriolAbril
-  github_image_id: 23738400
+  date_added: '2023-07-27'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -3213,19 +3342,20 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_editor:
-  packages_submitted:
+  packages_editor: 
+  packages_submitted: 
   packages_reviewed:
     - bibat
   location: Barcelona
   email:
 - name: Alexey Izmailov
+  github_username: alizma
+  github_image_id: 74629347
   title:
   sort:
   bio: antiblob
   organization: '{Ø,{Ø},{Ø,{Ø}}, ... }'
-  github_username: alizma
-  github_image_id: 74629347
+  date_added: '2023-07-27'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -3237,19 +3367,20 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_editor:
-  packages_submitted:
+  packages_editor: 
+  packages_submitted: 
   packages_reviewed:
     - bibat
   location:
   email: alizma@brown.edu
 - name: Tessa Pierce Ward
+  github_username: bluegenes
+  github_image_id: 7740734
   title:
   sort:
   bio: NSF Postdoc at UC Davis
   organization:
-  github_username: bluegenes
-  github_image_id: 7740734
+  date_added: '2023-07-27'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -3261,19 +3392,20 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_editor:
-  packages_submitted:
+  packages_editor: 
+  packages_submitted: 
   packages_reviewed:
     - taxpasta
   location: San Diego, CA
   email:
 - name: Sofia Stamouli
+  github_username: sofstam
+  github_image_id: 91951607
   title:
   sort:
   bio: Bioinformatician
   organization:
-  github_username: sofstam
-  github_image_id: 91951607
+  date_added: '2023-07-27'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -3285,20 +3417,21 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_editor:
+  packages_editor: 
   packages_submitted:
     - taxpasta
-  packages_reviewed:
+  packages_reviewed: 
   location: Stockholm, Sweden
   email:
 - name: Tylar
+  github_username: 7yl4r
+  github_image_id: 1051390
   title:
   sort:
   bio: USF IMaRS Software Engineer - code whisperer, data viz enthusiast, scientific
       generalist, compulsive overengineerer, & UX PhD
   organization: USF IMaRS
-  github_username: 7yl4r
-  github_image_id: 1051390
+  date_added: '2023-07-27'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -3310,20 +3443,21 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_editor:
-  packages_submitted:
+  packages_editor: 
+  packages_submitted: 
   packages_reviewed:
     - afscgap
   location: St. Petersburg, FL
   email: mail@tylar.info
 - name: Ayush Anand
+  github_username: ayushanand18
+  github_image_id: 36472216
   title:
   sort:
   bio: Open Source Adv, GSoC 2022 - IOOS | PyTorch, Azure, ReactJS | CS Undergrad
       @ NIT Durgapur
   organization:
-  github_username: ayushanand18
-  github_image_id: 36472216
+  date_added: '2023-07-27'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -3335,19 +3469,20 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_editor:
-  packages_submitted:
+  packages_editor: 
+  packages_submitted: 
   packages_reviewed:
     - afscgap
   location: New Delhi, India
   email:
 - name: Giulia Zarpellon
+  github_username: gizarp
+  github_image_id: 32750231
   title:
   sort:
   bio:
   organization:
-  github_username: gizarp
-  github_image_id: 32750231
+  date_added: '2023-07-27'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -3359,19 +3494,20 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_editor:
+  packages_editor: 
   packages_submitted:
     - afscgap
-  packages_reviewed:
+  packages_reviewed: 
   location:
   email:
 - name: Jim Kitchen
+  github_username: jim22k
+  github_image_id: 2807270
   title:
   sort:
   bio:
   organization: Anaconda
-  github_username: jim22k
-  github_image_id: 2807270
+  date_added: '2023-07-27'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -3383,19 +3519,20 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_editor:
+  packages_editor: 
   packages_submitted:
     - python-graphblas
-  packages_reviewed:
+  packages_reviewed: 
   location: Austin, TX
   email:
 - name: Sultan Orazbayev
+  github_username: SultanOrazbayev
+  github_image_id: 20208402
   title:
   sort:
   bio:
   organization: '@cid-harvard'
-  github_username: SultanOrazbayev
-  github_image_id: 20208402
+  date_added: '2023-07-27'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -3408,21 +3545,22 @@
     - code-contrib
     - maintainer
     - peer-review
-  packages_editor:
+  packages_editor: 
   packages_submitted:
     - python-graphblas
-  packages_reviewed:
+  packages_reviewed: 
   location: Kazakhstan
   email: contact@econpoint.com
 - name: Isabel Zimmerman
+  github_username: isabelizimm
+  github_image_id: 54685329
   title:
     - Editor
     - Peer review triage
   sort:
   bio:
   organization: '@rstudio'
-  github_username: isabelizimm
-  github_image_id: 54685329
+  date_added: '2023-08-14'
   deia_advisory: false
   editorial_board: true
   advisory: false
@@ -3436,18 +3574,19 @@
     - editor
     - package-guide
     - peer-review
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location: FLorida, USA
   email:
 - name: Eliot Robson
+  github_username: eliotwrobson
+  github_image_id: 1345068
   title:
   sort:
   bio: I'm just this guy, you know?
   organization: UIUC
-  github_username: eliotwrobson
-  github_image_id: 1345068
+  date_added: '2023-09-11'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -3458,18 +3597,19 @@
   board: false
   contributor_type:
     - web-contrib
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location: Urbana, IL
   email: erobson2@illinois.edu
 - name: Ty Schlichenmeyer
+  github_username: schlich
+  github_image_id: 21191435
   title:
   sort:
   bio: Neuro & Data Engineer & Educator
   organization:
-  github_username: schlich
-  github_image_id: 21191435
+  date_added: '2023-09-11'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -3480,18 +3620,19 @@
   board: false
   contributor_type:
     - community
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
+  packages_editor: 
+  packages_submitted: 
+  packages_reviewed: 
   location: St Louis, MO
   email: ty.schlich@gmail.com
 - name:
+  github_username: khynder
+  github_image_id: 133049827
   title:
   sort:
   bio:
   organization:
-  github_username: khynder
-  github_image_id: 133049827
+  date_added: '2023-09-11'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -3503,20 +3644,21 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_editor:
-  packages_submitted:
+  packages_editor: 
+  packages_submitted: 
   packages_reviewed:
     - cardsort
   location:
   email:
 - name: Katharina Kloppenborg
+  github_username: katoss
+  github_image_id: 23122159
   title:
   sort:
   bio: PhD Student in Human Computer Interaction and Participatory Health Research
       | Data for good volunteer | M.Sc. Cognitive Science
   organization: CRI
-  github_username: katoss
-  github_image_id: 23122159
+  date_added: '2023-09-11'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -3529,20 +3671,21 @@
     - maintainer
     - peer-review
     - submitting-author
-  packages_editor:
+  packages_editor: 
   packages_submitted:
     - cardsort
-  packages_reviewed:
+  packages_reviewed: 
   location: Paris, France
   email:
 - name: Dongdong Tian
+  github_username: seisman
+  github_image_id: 3974108
   title:
   sort:
   bio: Associate Professor in Geophysics at China University of Geosciences. Core
       developer of @GenericMappingTools.
   organization: China University of Geosciences
-  github_username: seisman
-  github_image_id: 3974108
+  date_added: '2023-09-11'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -3554,20 +3697,21 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_editor:
+  packages_editor: 
   packages_submitted:
     - pygmt
-  packages_reviewed:
+  packages_reviewed: 
   location: Wuhan, China
   email: seisman.info@gmail.com
 - name: Max Jones
+  github_username: maxrjones
+  github_image_id: 14077947
   title:
   sort:
   bio: Data scientist | Background in oceanography and volcanology | Maintaining
       @GenericMappingTools and building xarray extensions
   organization: '@carbonplan'
-  github_username: maxrjones
-  github_image_id: 14077947
+  date_added: '2023-09-11'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -3579,20 +3723,21 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_editor:
+  packages_editor: 
   packages_submitted:
     - pygmt
-  packages_reviewed:
+  packages_reviewed: 
   location:
   email:
 - name: Michael Grund
+  github_username: michaelgrund
+  github_image_id: 23025878
   title:
   sort:
   bio: Data Scientist | Background in geophysics and seismology | Maintainer of
       PyGMT
   organization: SNP Innovation Lab
-  github_username: michaelgrund
-  github_image_id: 23025878
+  date_added: '2023-09-11'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -3604,19 +3749,20 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_editor:
+  packages_editor: 
   packages_submitted:
     - pygmt
-  packages_reviewed:
+  packages_reviewed: 
   location: Germany
   email:
 - name: Will Schlitzer
+  github_username: willschlitzer
+  github_image_id: 29518865
   title:
   sort:
   bio:
   organization:
-  github_username: willschlitzer
-  github_image_id: 29518865
+  date_added: '2023-09-11'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -3628,20 +3774,21 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_editor:
+  packages_editor: 
   packages_submitted:
     - pygmt
-  packages_reviewed:
+  packages_reviewed: 
   location: New Jersey
   email:
 - name: Nathan Korinek
+  github_username: nkorinek
+  github_image_id: 38253680
   title:
   sort:
   bio: Geography Masters student at CU Boulder studying remote sensing and data
       analysis with EarthLab!
   organization:
-  github_username: nkorinek
-  github_image_id: 38253680
+  date_added: '2020-09-11'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -3653,19 +3800,20 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_editor:
+  packages_editor: 
   packages_submitted:
     - earthpy
-  packages_reviewed:
+  packages_reviewed: 
   location: Boulder, CO
   email: Nathan.Korinek@colorado.edu
 - name: Joe McGlinchy
+  github_username: joemcglinchy
+  github_image_id: 4762214
   title:
   sort:
   bio: Remote Sensing Scientist with Hydrosat, Inc.
   organization: '@hydrosat'
-  github_username: joemcglinchy
-  github_image_id: 4762214
+  date_added: '2020-09-11'
   deia_advisory: false
   editorial_board:
   advisory: false
@@ -3677,9 +3825,9 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_editor:
+  packages_editor: 
   packages_submitted:
     - earthpy
-  packages_reviewed:
+  packages_reviewed: 
   location: Arvada, Colorado, USA
   email: jmcglinchy@hydrosat.com
