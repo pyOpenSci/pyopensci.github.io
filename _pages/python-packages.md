@@ -17,7 +17,13 @@ redirect_from:
 
 {% include feature_row id="intro" type="center" %}
 
+{% assign packages_sorted = site.data.packages | sort_natural: 'date_accepted' | reverse %}
+{% assign total_packages = packages_sorted | size %}
+
 ## Explore our accepted scientific Python open source packages
+
+To date, {{ total_packages }} packages have been accepted into the pyOpenSci
+ecosystem. [Click here to check out packages that are currently under review.](https://github.com/pyOpenSci/software-submission/issues)
 
 <p><input type="text" id="quicksearch" placeholder="Search" /></p>
 
@@ -35,8 +41,6 @@ redirect_from:
   <!-- <button class="button" data-filter=":not(.transition)">not transition</button>
   <button class="button" data-filter=".metal:not(.transition)">metal but not transition</button> -->
 </div>
-
-{% assign packages_sorted = site.data.packages | sort_natural: 'date_accepted' | reverse %}
 
 <div class="grid-isotope">
 {% for apackage in packages_sorted %}

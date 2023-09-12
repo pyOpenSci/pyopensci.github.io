@@ -83,25 +83,19 @@ pyOpenSci is beginning to create its DEIA council. This council consists of lead
 {: .clearall }
 
 {% assign ppl_sorted = site.data.contributors | reverse %}
+{% assign total_people = ppl_sorted | size %}
 
-<!--
-<div class="entries-grid">
-{% for aperson in ppl_sorted %}
-  {% unless aperson.board %}
-  {% unless aperson.advisory %}
-    {% include people-grid.html  %}
-  {% endunless %}
-  {% endunless %}
-{% endfor %}
-</div> -->
+pyOpenSci has a diverse and vibrant community of pythonistas! To date,
+**{{ total_people }}** wonderful people have contributed to pyOpenSci.
 
 <p><input type="text" id="quicksearch" placeholder="Search" /></p>
 
 <div id="filters" class="button-group">
   <button class="button is-checked" data-filter="*">Show All</button>
   <button class="button" data-filter=".leadership">Leadership/Advisory</button>
-  <button class="button" data-filter=".editor">Editorial Team</button>
-  <button class="button" data-filter=".peer-review">Peer Review</button>
+  <button class="button" data-filter=".editor">Editors / Editorial Team</button>
+  <button class="button" data-filter=".reviewer">Reviewers</button>
+  <button class="button" data-filter=".maintainer">Maintainers</button>
   <button class="button" data-filter=".peer-review-guide">Peer Review Guide</button>
   <button class="button" data-filter=".package-guide">Packaging Guide</button>
   <button class="button" data-filter=".metrics-contrib">Metrics</button>
