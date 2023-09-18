@@ -36,11 +36,11 @@
       created_at: '2023-03-16'
       stargazers_count: 4
       watchers_count: 4
-      open_issues_count: 1
+      open_issues_count: 0
       forks_count: 1
       documentation: https://cardsort.readthedocs.io
       contrib_count: 4
-      last_commit: '2023-09-04'
+      last_commit: '2023-09-13'
 - package_name: afscgap
   package_description: Community contributed Python-based tools for working with
       public bottom trawl surveys data from the NOAA Alaska Fisheries Science Center
@@ -165,8 +165,8 @@
       name: bibat
       description: A batteries-included template for Bayesian data analysis projects
       created_at: '2021-03-04'
-      stargazers_count: 10
-      watchers_count: 10
+      stargazers_count: 13
+      watchers_count: 13
       open_issues_count: 9
       forks_count: 2
       documentation: https://bibat.readthedocs.io/
@@ -260,11 +260,11 @@
       created_at: '2018-07-27'
       stargazers_count: 256
       watchers_count: 256
-      open_issues_count: 61
-      forks_count: 45
+      open_issues_count: 58
+      forks_count: 44
       documentation: https://xclim.readthedocs.io/en/stable/
       contrib_count: 28
-      last_commit: '2023-09-11'
+      last_commit: '2023-09-13'
 - package_name: crowsetta
   package_description: A Python tool to work with any format for annotating animal
       vocalizations and bioacoustics data.
@@ -412,6 +412,8 @@
       github_username: michaelgrund
     - name: Will Schlitzer
       github_username: willschlitzer
+    - name: Yvonne Fröhlich
+      github_username: yvonnefroehlich
   repository_link: https://github.com/GenericMappingTools/pygmt
   version_submitted:
   categories:
@@ -431,7 +433,7 @@
   version_accepted: V 0.7.0
   date_accepted: 2022-9-1
   created_at: '2021-07-23'
-  updated_at: '2023-09-11'
+  updated_at: '2023-09-14'
   closed_at: '2023-06-12'
   issue_link: https://github.com/pyOpenSci/software-submission/issues/43
   joss:
@@ -439,13 +441,13 @@
       name: pygmt
       description: A Python interface for the Generic Mapping Tools.
       created_at: '2017-03-17'
-      stargazers_count: 637
-      watchers_count: 637
-      open_issues_count: 148
-      forks_count: 199
+      stargazers_count: 646
+      watchers_count: 646
+      open_issues_count: 147
+      forks_count: 200
       documentation: https://www.pygmt.org
       contrib_count: 30
-      last_commit: '2023-09-12'
+      last_commit: '2023-09-14'
 - package_name: Devicely
   package_description: A Python package for reading, timeshifting and writing sensor
       data
@@ -526,8 +528,8 @@
       description: A bioinformatics API to interface with public multi-omics bio
           databases for wicked fast data integration.
       created_at: '2018-03-16'
-      stargazers_count: 21
-      watchers_count: 21
+      stargazers_count: 23
+      watchers_count: 23
       open_issues_count: 6
       forks_count: 12
       documentation: https://openomics.readthedocs.io/en/latest/
@@ -610,8 +612,8 @@
       name: pystiche
       description: Framework for Neural Style Transfer (NST) built upon PyTorch
       created_at: '2019-09-16'
-      stargazers_count: 264
-      watchers_count: 264
+      stargazers_count: 263
+      watchers_count: 263
       open_issues_count: 15
       forks_count: 30
       documentation:
@@ -698,7 +700,7 @@
       stargazers_count: 112
       watchers_count: 112
       open_issues_count: 12
-      forks_count: 28
+      forks_count: 29
       documentation: https://pyrolite.readthedocs.io
       contrib_count: 11
       last_commit: '2023-07-21'
@@ -736,8 +738,8 @@
       name: movingpandas
       description: Movement trajectory classes and functions built on top of GeoPandas
       created_at: '2018-12-16'
-      stargazers_count: 1034
-      watchers_count: 1034
+      stargazers_count: 1036
+      watchers_count: 1036
       open_issues_count: 41
       forks_count: 183
       documentation: https://movingpandas.org
@@ -779,13 +781,13 @@
       description: A light-weight, flexible, and expressive statistical data testing
           library
       created_at: '2018-11-01'
-      stargazers_count: 2561
-      watchers_count: 2561
+      stargazers_count: 2565
+      watchers_count: 2565
       open_issues_count: 265
       forks_count: 212
       documentation: https://www.union.ai/pandera
       contrib_count: 30
-      last_commit: '2023-08-26'
+      last_commit: '2023-09-14'
 - package_name: Nbless
   package_description: Construct, deconstruct, convert, execute, & prepare slides
       from Jupyter notebooks
@@ -872,8 +874,8 @@
       description: A package built to support working with spatial data using open
           source python
       created_at: '2018-02-20'
-      stargazers_count: 456
-      watchers_count: 456
+      stargazers_count: 458
+      watchers_count: 458
       open_issues_count: 34
       forks_count: 157
       documentation: https://earthpy.readthedocs.io

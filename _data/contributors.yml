@@ -3831,3 +3831,28 @@
   packages_reviewed:
   location: Arvada, Colorado, USA
   email: jmcglinchy@hydrosat.com
+- name: Yvonne Fröhlich
+  github_username: yvonnefroehlich
+  github_image_id: 94163266
+  title:
+  sort:
+  bio: Research Assistant | PhD student in Seismology | Maintainer of PyGMT
+  organization: Karlsruhe Institute of Technology - Geophysical Institute
+  date_added: '2023-09-15'
+  deia_advisory: false
+  editorial_board:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_editor:
+  packages_submitted:
+    - pygmt
+  packages_reviewed:
+  location: Karlsruhe (Germany)
+  email:
