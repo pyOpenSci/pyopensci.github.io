@@ -173,7 +173,7 @@
       contrib_count: 1
       last_commit: '2023-08-01'
 - package_name: Python-graphblas
-  package_description: 
+  package_description:
   submitting_author:
       github_username: eriknw
       name: Erik Welch
@@ -616,7 +616,7 @@
       watchers_count: 263
       open_issues_count: 15
       forks_count: 30
-      documentation: 
+      documentation:
       contrib_count: 10
       last_commit: '2022-03-18'
 - package_name: phenopype
