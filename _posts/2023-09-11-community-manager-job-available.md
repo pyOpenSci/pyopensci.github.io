@@ -1,7 +1,7 @@
 ---
 layout: single
-title: "Job Posting: pyOpenSci is Hiring a Community Manager"
-excerpt: "pyOpenSci is hiring a community manager. This position will oversee numerous aspects of pyOpenSci's community building efforts including managing social media, our slack organization and writing blog posts. It will also be heavily involved in our DEIA related activities."
+title: "CLOSED: pyOpenSci is Hiring a Community Manager"
+excerpt: "This position has been filled. pyOpenSci is hiring a community manager. This position will oversee numerous aspects of pyOpenSci's community building efforts including managing social media, our slack organization and writing blog posts. It will also be heavily involved in our DEIA related activities."
 author: "Leah Wasser"
 permalink: /blog/pyOpenSci-hiring-community-manager-fall-2023.html
 header:
@@ -15,6 +15,11 @@ comments: true
 redirect_from:
   - /blog/pyOpenSci-hiring-community-manager-spring-2023.html
 ---
+
+<div class="notice" markdown="1">
+**IMPORTANT:** we are no longer accepting applications for this position.
+Thank you for your interest.
+</div>
 
 ## Job Posting: pyOpenSci Community Manager
 
@@ -156,44 +161,6 @@ All work that you do should exemplify our community [Code of Conduct](https://ww
 - Be building relationships with core organizations in the open source and DEIA open science space
 - Be working with the executive director to secure funding for pyOpenSci
 - Be working with the executive director to develop a training program and content that teaches scientists how to create python packages and implement open science workflows.
-
-## We Can Offer
-
-The salary range for this full time position is $65,000-80,000/year plus
-full benefits.
-
-### Benefits
-
-Your position will be within the pyOpensci organization.
-However, your benefits and salary will be provided by [Community Initiatives](https://communityin.org/), our fiscal sponsor.
-
-This is a full-time position that includes excellent benefits and
-a competitive salary commensurate with experience.
-
-### Comprehensive benefits package including:
-
-- Fully paid medical, dental and vision
-- 401k and 3% employer match
-- Fully paid basic life insurance, LTD, STD coverage
-- 4 weeks paid vacation
-- 11 paid holidays
-- 4 floating holidays
-
-## Application Instructions
-
-To apply, please send the following materials to admin@pyopensci.org.
-
-- Current **resume** or CV.
-- **Cover letter** that specifically addresses:
-  - the job requirements and outlines your qualifications.
-  - work that you've done related to community management
-  - work that you've done related to diversity, equity, inclusion and accessibility.
-  - your interest in working for pyOpenSci.
-  - when you can start this position.
-- Contact information for **three references**.
-- Links to **2 writing samples** - these could be links to blog posts, social media posts or education resources that you've developed.
-
-_Applications without a cover letter and writing samples will not be considered._
 
 ## Equal Employment Opportunity
 
