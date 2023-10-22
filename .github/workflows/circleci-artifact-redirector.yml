@@ -24,4 +24,4 @@ jobs:
           api-token: ${{ secrets.CIRCLECI_TOKEN }}
           artifact-path: 0/_site/index.html
           circleci-jobs: build
-          job-title: Check the rendered docs here!
+          job-title: Check the rendered website build here!
