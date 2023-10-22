@@ -30,8 +30,6 @@ jobs:
 
       - name: run precommit hooks
         uses: pre-commit/action@v3.0.0
-        with:
-          extra_args: pre-commit run --all-files
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
         with:
