@@ -96,7 +96,7 @@
   twitter: connector_erin
   mastodon:
   orcidid:
-  website: https://erinrobinson.info/
+  website:
   board: false
   contributor_type:
     - leadership
@@ -365,7 +365,7 @@
   twitter: arianemsasso
   mastodon:
   orcidid:
-  website: https://arianesasso.me
+  website:
   board: false
   contributor_type:
     - editor
@@ -446,6 +446,7 @@
     - peer-review
     - peer-review-guide
   packages_editor:
+    - astartes
     - crowsetta
   packages_submitted:
   packages_reviewed:
@@ -499,12 +500,14 @@
   website: https://ml-gis-service.com
   board: false
   contributor_type:
+    - code-contrib
     - editor
     - guidebook-contrib
     - package-guide
     - peer-review
     - reviewer
   packages_editor:
+    - xgi
   packages_submitted:
   packages_reviewed:
     - pygmt
@@ -1078,12 +1081,14 @@
     - maintainer
     - package-maintainer
     - peer-review
+    - reviewer
     - submitting-author
     - web-contrib
   packages_editor:
   packages_submitted:
     - openomics
   packages_reviewed:
+    - xgi
   location:
   email:
 - name: Katharina Sielemann
@@ -2469,6 +2474,7 @@
   contributor_type:
     - community
     - maintainer
+    - package-guide
     - peer-review
     - submitting-author
   packages_editor:
@@ -3856,3 +3862,378 @@
   packages_reviewed:
   location: Karlsruhe (Germany)
   email:
+- name: Éric
+  github_username: merwok
+  github_image_id: 635179
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2023-10-22'
+  deia_advisory: false
+  editorial_board:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  website:
+  board: false
+  contributor_type:
+    - package-guide
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location:
+  email:
+- name:
+  github_username: BerylKanali
+  github_image_id: 50364045
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2023-10-22'
+  deia_advisory: false
+  editorial_board:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  website:
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - astartes
+  location:
+  email:
+- name: Du Phan
+  github_username: du-phan
+  github_image_id: 10564525
+  title:
+  sort:
+  bio: Research Scientist @dataiku-research
+  organization: '@dataiku'
+  date_added: '2023-10-22'
+  deia_advisory: false
+  editorial_board:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  website: https://medium.com/du-phan
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - astartes
+  location: Paris, France
+  email:
+- name: Jackson Burns
+  github_username: JacksonBurns
+  github_image_id: 33505528
+  title:
+  sort:
+  bio: Chemical Engineering and Computation Researcher @ MIT
+  organization:
+  date_added: '2023-10-22'
+  deia_advisory: false
+  editorial_board:
+  advisory: false
+  twitter: WowThatBurns
+  mastodon:
+  orcidid:
+  website: https://jacksonwarnerburns.com
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+    - submitting-author
+  packages_editor:
+  packages_submitted:
+    - astartes
+  packages_reviewed:
+  location: MIT
+  email:
+- name: Kevin Spiekermann
+  github_username: kspieks
+  github_image_id: 31116084
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2023-10-22'
+  deia_advisory: false
+  editorial_board:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_editor:
+  packages_submitted:
+    - astartes
+  packages_reviewed:
+  location:
+  email:
+- name:
+  github_username: himaghna
+  github_image_id: 35175139
+  title:
+  sort:
+  bio:
+  organization: University of Delaware
+  date_added: '2023-10-22'
+  deia_advisory: false
+  editorial_board:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_editor:
+  packages_submitted:
+    - astartes
+  packages_reviewed:
+  location: San Francisco, USA
+  email:
+- name: Marta Leszczyńska
+  github_username: Reckony
+  github_image_id: 38528736
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2023-10-22'
+  deia_advisory: false
+  editorial_board:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  website:
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - xgi
+  location:
+  email: marta.monika.leszczynska@intel.com
+- name: Nicholas Landry
+  github_username: nwlandry
+  github_image_id: 8760347
+  title:
+  sort:
+  bio:
+  organization: University of Vermont
+  date_added: '2023-10-22'
+  deia_advisory: false
+  editorial_board:
+  advisory: false
+  twitter: nwlandry
+  mastodon:
+  orcidid:
+  website: https://nwlandry.com
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+    - submitting-author
+  packages_editor:
+  packages_submitted:
+    - xgi
+  packages_reviewed:
+  location: Burlington, VT
+  email:
+- name: Leo Torres
+  github_username: leotrs
+  github_image_id: 1096704
+  title:
+  sort:
+  bio: Postdoc at MPI for Mathematics in the Sciences
+  organization: leotrs.com
+  date_added: '2023-10-22'
+  deia_advisory: false
+  editorial_board:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_editor:
+  packages_submitted:
+    - xgi
+  packages_reviewed:
+  location: Leipzig, Lima, Boston
+  email: leo@leotrs.com
+- name: Maxime Lucas
+  github_username: maximelucas
+  github_image_id: 7493360
+  title:
+  sort:
+  bio:
+  organization: CENTAI Institute
+  date_added: '2023-10-22'
+  deia_advisory: false
+  editorial_board:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  website: https://maximelucas.github.io
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_editor:
+  packages_submitted:
+    - xgi
+  packages_reviewed:
+  location: Turin, Italy
+  email:
+- name: Iacopo Iacopini
+  github_username: iaciac
+  github_image_id: 16819231
+  title:
+  sort:
+  bio: Complex Networks · Data Science · Computational Social Science · Cities
+  organization: Network Science Institute, Northeastern University London
+  date_added: '2023-10-22'
+  deia_advisory: false
+  editorial_board:
+  advisory: false
+  twitter: iacopoiacopini
+  mastodon:
+  orcidid:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_editor:
+  packages_submitted:
+    - xgi
+  packages_reviewed:
+  location: London
+  email: iacopiniiacopo@gmail.com
+- name: Giovanni Petri
+  github_username: lordgrilo
+  github_image_id: 2098905
+  title:
+  sort:
+  bio:
+  organization: Northeastern University London / CENTAI Institute
+  date_added: '2023-10-22'
+  deia_advisory: false
+  editorial_board:
+  advisory: false
+  twitter: lordgrilo
+  mastodon:
+  orcidid:
+  website: https://lordgrilo.github.io
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_editor:
+  packages_submitted:
+    - xgi
+  packages_reviewed:
+  location: London/Turin
+  email: giovanni.petri@nulondon.ac.uk
+- name: Alice Schwarze
+  github_username: acuschwarze
+  github_image_id: 11501103
+  title:
+  sort:
+  bio: PhD in applied maths
+  organization: Dartmouth College
+  date_added: '2023-10-22'
+  deia_advisory: false
+  editorial_board:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  website: https://aliceschwarze.gitlab.io/
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_editor:
+  packages_submitted:
+    - xgi
+  packages_reviewed:
+  location: Hanover, NH
+  email:
+- name: Thomas Robiglio
+  github_username: thomasrobiglio
+  github_image_id: 83019028
+  title:
+  sort:
+  bio:
+  organization: Politecnico di Torino
+  date_added: '2023-10-22'
+  deia_advisory: false
+  editorial_board:
+  advisory: false
+  twitter: thomrobiglio
+  mastodon:
+  orcidid:
+  website: https://thomasrobiglio.github.io
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_editor:
+  packages_submitted:
+    - xgi
+  packages_reviewed:
+  location: Torino, Italy
+  email:
+- name: alice patania
+  github_username: alpatania
+  github_image_id: 4749196
+  title:
+  sort:
+  bio: Computational topologist, spreading the TDA verb to Neuroscience.
+  organization: University of Vermont
+  date_added: '2023-10-22'
+  deia_advisory: false
+  editorial_board:
+  advisory: false
+  twitter: AlicePatania
+  mastodon:
+  orcidid:
+  website: https://alpatania.github.io
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_editor:
+  packages_submitted:
+    - xgi
+  packages_reviewed:
+  location:
+  email: apatania@uvm.edu
