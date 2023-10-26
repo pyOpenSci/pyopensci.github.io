@@ -27,7 +27,7 @@ pyOpenSci is accepting applications for a Community Manager. The Community
 Manager supports growth and development of an inclusive pyOpenSci community. Our vibrant community is
 dedicated to supporting high quality Python open source software that drives open science.
 
-While our organization is global we can [only accept applications](/blog/pyOpenSci-hiring-community-manager-fall-2023.html#application-instructions) from candidates who are eligible for employment in the United States.
+While our organization is global we can only accept applications from candidates who are eligible for employment in the United States.
 
 ## About pyOpenSci
 

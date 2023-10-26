@@ -6,6 +6,9 @@ main:
       - title: "About peer review"
         icon:
         url: "/about-peer-review/index.html"
+      - title: "Community partners"
+        icon:
+        url: "/partners.html"
       - title: "Peer review guide"
         url: "https://www.pyopensci.org/software-peer-review/"
         icon: "fas fa-external-link-alt"
