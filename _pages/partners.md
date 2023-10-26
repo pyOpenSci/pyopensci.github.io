@@ -147,7 +147,6 @@ Your community can take advantage of our existing, developed and well-documented
 </svg>
 </div>
 <div class="pyos-section" markdown="1">
-
 {% include feature_row id="packaging-easier" type="left" %}
 
 </div>
