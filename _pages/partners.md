@@ -10,7 +10,7 @@ intro:
   - excerpt: "More here on community partners."
 scientists:
   - image_path: images/pyopensci-people-at-computer.jpg
-    alt: "More alt here"
+    alt: "A pencil sketch of a round table with people sitting around it from different backgrounds working on laptops and also writing together."
     excerpt: "Our catalog of vetted open source tools will over time make it easier for scientists to find the trusted tools that they need to develop their open science workflows."
     title: "Help scientists find the open science tools that they need"
 mission:
@@ -19,7 +19,7 @@ our diverse ecosystem. Instead of creating new review processing and packaging
 guidelines, partner organizations can leverage and contribute to our existing review processes and guidelines."
 packaging-easier:
    - image_path: images/people-building-blocks.jpg
-     alt: "More alt here"
+     alt: "A group of people working on a tetris like set of building blocks trying to stack them all together. "
      title: "Let's make packaging easier for scientists, together"
      excerpt: "Given the numerous diverse packaging options, many communities are crafting their guidelines and review processes. Partnering with pyOpenSci enables your community to:
 
@@ -32,7 +32,7 @@ packaging-easier:
 
 community:
    - image_path: images/pyopensci-women-collaborating.png
-     alt: "sdf"
+     alt: "A black and white pencil sketch of a group of 5 women sitting and standing around a laptop working together."
      excerpt: "
 pyOpenSci is driven by a **vibrant community** of technical packaging experts, open science enthusiasts, and Pythonistas. When you partner with or join pyOpenSci, you:
 
