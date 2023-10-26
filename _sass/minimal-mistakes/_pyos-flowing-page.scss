@@ -6,6 +6,18 @@
     }
 }
 
+.swoosh {
+    position:relative;
+}
+.swoosh.bottom {
+    margin-top:10em;
+}
+svg.bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
 // .divider-purple::after {
 //     content: "";
 //     display: block; /* Make it a block-level element to appear below the previous content */
