@@ -8,7 +8,7 @@
       name: Kevin Spiekermann
     - github_username: himaghna
       name:
-  repository_link: GitHub
+  repository_link: https://github.com/jacksonburns/astartes
   version_submitted: v[1.1.2](https://github.com/JacksonBurns/astartes/releases/tag/v1.1.2)
   categories:
     - data-processing/munging
