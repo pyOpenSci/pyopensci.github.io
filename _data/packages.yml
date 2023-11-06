@@ -684,7 +684,7 @@
   all_current_maintainers:
     - github_username: pmeier
       name: Philip Meier
-  repository_link: https://github.com/pmeier/pystiche
+  repository_link: https://github.com/pystiche/pystiche
   version_submitted: '[0.5.0post0](https://github.com/pystiche/pystiche/releases/tag/v0.5.0.post0)'
   categories:
     - reproducibility
@@ -698,7 +698,7 @@
       github_username: soumith
       name: Soumith Chintala
   archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4073515.svg)](https://doi.org/10.5281/zenodo.4073515)'
-  version_accepted: v [0.6.0](https://github.com/pmeier/pystiche/releases/tag/v0.6.0)
+  version_accepted: v [0.6.0](https://github.com/pystiche/pystiche/releases/tag/v0.6.0)
   date_accepted: '2020-10-08'
   created_at: '2020-07-02'
   updated_at: '2023-09-09'
