@@ -596,7 +596,7 @@
   all_current_maintainers:
     - github_username: JonnyTran
       name: Nhat (Jonny) Tran
-  repository_link: https://github.com/BioMeCIS-lab/OpenOmics
+  repository_link: https://github.com/JonnyTran/OpenOmics
   version_submitted: '[0.8.4](https://github.com/JonnyTran/OpenOmics/releases/tag/v0.8.4)'
   categories:
     - data-retrieval
