@@ -3,7 +3,8 @@
 /* Create & style a 3x3 grid wrapper */
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    // min max can be used to modify width
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 10px;
 
     h4.grid_title {
@@ -85,8 +86,8 @@
     max-width: 362px;
     background-color: #f1f0f1;;
     border-radius: 4px;
-    padding: 32px 24px;
-    margin: 12px;
+    // padding: 32px 24px;
+    // margin: 12px;
     text-decoration: none;
     z-index: 0;
     overflow: hidden;
@@ -135,20 +136,21 @@
         cursor: pointer;
     }
 
-    &:before {
-        content: "";
-        position: absolute;
-        z-index: -1;
-        top: -16px;
-        right: -16px;
-        background: #967eb6;
-        height: 32px;
-        width: 32px;
-        border-radius: 32px;
-        transform: scale(2);
-        transform-origin: 50% 50%;
-        transition: transform 0.15s ease-out;
-    }
+
+    // &:before {
+    //     content: "";
+    //     position: absolute;
+    //     z-index: -1;
+    //     top: -16px;
+    //     right: -16px;
+    //     background: #967eb6;
+    //     height: 32px;
+    //     width: 32px;
+    //     border-radius: 32px;
+    //     transform: scale(2);
+    //     transform-origin: 50% 50%;
+    //     transition: transform 0.15s ease-out;
+    // }
 
     &:hover:before {
         transform: scale(2.15);
