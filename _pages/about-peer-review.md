@@ -1,7 +1,7 @@
 ---
 layout: splash
 permalink: /about-peer-review/
-title: "About the pyOpenSci Open Peer Review Process"
+title: "pyOpenSci Reviews Scientific Python Software"
 header:
   overlay_image: images/header.jpg
   overlay_filter: 0.6
