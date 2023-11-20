@@ -247,7 +247,7 @@
   github_username: ocefpaf
   github_image_id: 950575
   title: Editor
-  sort:
+  sort: 2
   bio: Filipe Fernandes is a Physical oceanographer by training, turned research
       software engineer, and a software packager hobbyist.
   organization:
@@ -355,7 +355,7 @@
   github_username: arianesasso
   github_image_id: 3659681
   title: Editor
-  sort:
+  sort: 2
   bio: Researcher in Medical Informatics and Digital Health ⌚ 👩‍💻 🧬
   organization: '@hpi-dhc'
   date_added: '2021-08-24'
@@ -388,7 +388,7 @@
   github_username: NickleDave
   github_image_id: 11934090
   title: Editor in Chief
-  sort: 2
+  sort: 1
   bio: ML, AI; behavior + cog + neuro. Open + inclusive science. Pythonista. He/him/they/them.
       Habla espanglish y baila salsa y bachata a medio tiempo.
   organization:
@@ -426,7 +426,7 @@
   title:
     - Editor
     - Peer review triage
-  sort:
+  sort: 2
   bio:
   organization:
   date_added: '2023-01-24'
@@ -455,8 +455,8 @@
 - name: Jenny Palomino
   github_username: jlpalomino
   github_image_id: 4017492
-  title: Editor
-  sort:
+  title: Emeritus Editor
+  sort: 3
   bio: Technical Curriculum Developer, Data Engineering
   organization: Google
   date_added: '2019-10-25'
@@ -487,7 +487,7 @@
   github_username: SimonMolinsky
   github_image_id: 31246246
   title: Editor
-  sort:
+  sort: 2
   bio: GIS, remote sensing, machine learning, time-series and spatial
   organization: Sare
   date_added: '2022-09-16'
@@ -517,7 +517,7 @@
   github_username: anitagraser
   github_image_id: 590385
   title: Editor
-  sort:
+  sort: 2
   bio: Spatial data science with a focus on mobility & data quality
   organization:
   date_added: '2020-03-26'
@@ -546,7 +546,7 @@
   github_username: Batalex
   github_image_id: 11004857
   title: Editor
-  sort:
+  sort: 2
   bio:
   organization:
   date_added: '2023-02-04'
@@ -1357,17 +1357,17 @@
 - name: Jonny Saunders
   github_username: sneakers-the-rat
   github_image_id: 12961499
-  title:
-  sort:
+  title: Editor
+  sort: 2
   bio: Bad at programming in beautiful Oregon
   organization:
   date_added: '2023-03-01'
   deia_advisory: false
-  editorial_board:
+  editorial_board: true
   advisory: false
   twitter: json_dirs
-  mastodon:
-  orcidid:
+  mastodon: https://neuromatch.social/@jonny
+  orcidid: 0000-0003-0545-5066
   website: https://jon-e.net
   board: false
   contributor_type:
@@ -2538,7 +2538,7 @@
   github_username: tomalrussell
   github_image_id: 2762769
   title: Editor
-  sort:
+  sort: 2
   bio: Research software person. Work @nismod, tech lead @colouring-cities
   organization: University of Oxford
   date_added: '2023-04-18'
@@ -2565,7 +2565,7 @@
   github_username: ctb
   github_image_id: 51016
   title: Editor
-  sort:
+  sort: 2
   bio: Prof at UC Davis. Blogs at http://ivory.idyll.org/blog/ and tweets at https://twitter.com/ctitusbrown.
   organization: University of California, Davis
   date_added: '2023-04-18'
@@ -2592,7 +2592,7 @@
   github_username: mjhajharia
   github_image_id: 55153708
   title: Editor
-  sort:
+  sort: 2
   bio:
   organization: \varnothing
   date_added: '2023-04-18'
@@ -3563,7 +3563,7 @@
   title:
     - Editor
     - Peer review triage
-  sort:
+  sort: 2
   bio:
   organization: '@rstudio'
   date_added: '2023-08-14'
