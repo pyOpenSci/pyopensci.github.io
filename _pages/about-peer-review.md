@@ -68,6 +68,8 @@ We value our volunteer editors. Learn more about what editors do and how we
 select them here.
 
 {% assign editors = site.data.contributors | where: 'editorial_board', true  %}
+{% assign editors = editors | sort: 'sort'  %}
+
 
 <div class="grid">
 {% for aperson in editors %}
