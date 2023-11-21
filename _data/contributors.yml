@@ -351,6 +351,28 @@
   packages_reviewed:
   location:
   email:
+- name: Chase Million
+  github_username: cmillion
+  github_image_id: 1483210
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2023-11-20'
+  deia_advisory: false
+  editorial_board:
+  advisory: true
+  twitter:
+  mastodon:
+  orcidid:
+  website:
+  board: false
+  contributor_type:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location:
+  email:
 - name: Ariane Sasso
   github_username: arianesasso
   github_image_id: 3659681
