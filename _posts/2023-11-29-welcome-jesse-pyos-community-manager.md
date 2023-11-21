@@ -24,7 +24,6 @@ Another area that I’ll be particularly focused on is the [pyOS Peer Review pro
 
 When I’m not helping build equitable, diverse, and accessible technical communities, I’m chilling with my two cats, Jinx and Luna, or riding my bike on the incredible gravel trails in the Chicago area. 
 
-
 <figure>
     <a href="/images/jinx-and-luna.png">
     <img src="/images/jinx-and-luna.png" style="max-width:100%" alt="A close-up photo of two cats sitting side-by-side on a blanket. Jinx, an orange and white tabby with a medium-length coat sits on the left, gazing directly into the camera. Luna, a short-haired black cat, sits on the right, looking at something past the camera">
