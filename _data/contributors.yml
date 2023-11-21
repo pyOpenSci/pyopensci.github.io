@@ -82,6 +82,35 @@
   packages_reviewed:
   location: Ottawa, ON
   email: karen.cranston@gmail.com
+- name: Carol Willing
+  github_username: willingc
+  github_image_id: 2680980
+  title:
+  sort:
+  bio: Project Jupyter, nteract, and CPython core developer@python | @jupyter |
+      @jupyterhub | @ipython | @nteract | @pysplash
+  organization: Willing Consulting
+  date_added: '2023-03-01'
+  deia_advisory: false
+  editorial_board:
+  advisory: true
+  twitter: WillingCarol
+  mastodon:
+  orcidid:
+  website: https://hachyderm.io/web/@willingc
+  board: false
+  contributor_type:
+    - guidebook-contrib
+    - peer-review
+    - peer-review-guide
+    - reviewer
+    - web-contrib
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - devicely
+  location: San Diego
+  email: carolcode@willingconsulting.com
 - name: Erin Robinson
   github_username: erinmr
   github_image_id: 2915555
@@ -1626,35 +1655,6 @@
   packages_reviewed:
   location: New York City
   email:
-- name: Carol Willing
-  github_username: willingc
-  github_image_id: 2680980
-  title:
-  sort:
-  bio: Project Jupyter, nteract, and CPython core developer@python | @jupyter |
-      @jupyterhub | @ipython | @nteract | @pysplash
-  organization: Willing Consulting
-  date_added: '2023-03-01'
-  deia_advisory: false
-  editorial_board:
-  advisory: false
-  twitter: WillingCarol
-  mastodon:
-  orcidid:
-  website: https://hachyderm.io/web/@willingc
-  board: false
-  contributor_type:
-    - guidebook-contrib
-    - peer-review
-    - peer-review-guide
-    - reviewer
-    - web-contrib
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
-    - devicely
-  location: San Diego
-  email: carolcode@willingconsulting.com
 - name: Steve Moss
   github_username: gawbul
   github_image_id: 321291

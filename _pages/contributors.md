@@ -13,12 +13,6 @@ redirect_from:
 
 ## Our pyOpenSci Community
 
-<!--
-{{ site.data.contributors | size }} people have contributed to pyOpenSci as
-of today!
-TODO add this advisory committee role to the governance
--->
-
 pyOpenSci has one core paid staff member who leads the organization. We are supported
 by an expert team of volunteer advisory members who help steer the direction of the organization.
 
@@ -46,35 +40,16 @@ the organization.
 
 {% assign advisory_working = site.data.contributors | where:"advisory",true | sort: 'sort' %}
 
-<div class="entries-grid">
+<div class="grid">
 {% for aperson in advisory_working %}
   {% if aperson.advisory %}
+  {{ aperson.person_name }}
     {% include people-grid.html  %}
  {% endif %}
 {% endfor %}
 </div>
 
 {: .clearall }
-
-<!--
-## PyOpenSci DEIA council
-
-{: .clearall }
-
-pyOpenSci is beginning to create its DEIA council. This council consists of leaders and community members who have experience in and who are passionate about making pyOpenSci community an inclusive community.
-
-{% assign advisory_working = site.data.contributors | where:"deia_advisory",true | sort: 'sort' %}
-
-<div class="entries-grid">
-{% for aperson in advisory_working %}
-  {% if aperson.deia_advisory %}
-    {% include people-grid.html  %}
- {% endif %}
-{% endfor %}
-</div>
-
-{: .clearall } -->
-
 {: .clearall }
 
 ## PyOpenSci community contributors
