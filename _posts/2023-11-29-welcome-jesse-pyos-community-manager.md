@@ -22,13 +22,13 @@ One of the things I’m most excited to bring to pyOS is the creation of engagin
 
 Another area that I’ll be particularly focused on is the [pyOS Peer Review program](https://www.pyopensci.org/about-peer-review/index.html). The Peer Review program with pyOS supports scientists in getting credit for the efforts they’ve invested in open source Python tools, while also supporting the standardization of packaging and improved package visibility. And as the pyOS Community Manager, I want to help celebrate all of the hard work that authors, maintainers, and editors put into package development by sharing behind-the-scenes stories, package announcements, and the contributions of every individual with the broader community.
 
-When I’m not helping build equitable, diverse, and accessible technical communities, I’m chilling with my two cats, Jinx and Luna, or riding my bike on the incredible gravel trails in the Chicago area. 
+When I’m not helping build equitable, diverse, and accessible technical communities, I’m chilling with my two cats, Jinx and Luna, or riding my bike on the incredible gravel trails in the Chicago area.
 
 <figure>
     <a href="/images/jinx-and-luna.png">
     <img src="/images/jinx-and-luna.png" style="max-width:100%" alt="A close-up photo of two cats sitting side-by-side on a blanket. Jinx, an orange and white tabby with a medium-length coat sits on the left, gazing directly into the camera. Luna, a short-haired black cat, sits on the right, looking at something past the camera">
     </a>
-    <figcaption>World's greatest co-workers Jinx (left) and Luna (right). 
+    <figcaption>World's greatest co-workers Jinx (left) and Luna (right).
     </figcaption>
 </figure>
 
@@ -40,6 +40,6 @@ pyOpenSci meets all of those criteria, and the more I learned about its philosop
 
 ## Let's connect!
 
-I’ll also be managing the social media accounts for pyOpenSci, and there are so many fantastic places for us to connect and have a conversation. pyOpenSci is currently active on [LinkedIn](https://www.linkedin.com/company/pyopensci), [BlueSky](https://bsky.app/profile/pyopensci.bsky.social), and [Mastodon](https://fosstodon.org/@pyopensci), where we’ll be sharing all kinds of news, updates, and community spotlights. Be sure to follow us so you don’t miss out on anything! And join our growing [Discourse community](https://pyopensci.discourse.group/), which is a great place to connect with other pyOpenSci community members, learn more about pyOpenSci, and get answers to all of your burning Python packaging and code questions.  
+I’ll also be managing the social media accounts for pyOpenSci, and there are so many fantastic places for us to connect and have a conversation. pyOpenSci is currently active on [LinkedIn](https://www.linkedin.com/company/pyopensci), [BlueSky](https://bsky.app/profile/pyopensci.bsky.social), and [Mastodon](https://fosstodon.org/@pyopensci), where we’ll be sharing all kinds of news, updates, and community spotlights. Be sure to follow us so you don’t miss out on anything! And join our growing [Discourse community](https://pyopensci.discourse.group/), which is a great place to connect with other pyOpenSci community members, learn more about pyOpenSci, and get answers to all of your burning Python packaging and code questions.
 
 I can’t wait to connect and help build the pyOpenSci community with you!
