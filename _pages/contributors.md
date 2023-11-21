@@ -16,13 +16,13 @@ redirect_from:
 pyOpenSci has one core paid staff member who leads the organization. We are supported
 by an expert team of volunteer advisory members who help steer the direction of the organization.
 
-## Executive council & leadership
+## Executive council, leadership & staff
 
 {: .clearall }
 
 {% assign advisory_sorted = site.data.contributors | where:"board",true | sort: 'sort' %}
 
-<div class="entries-grid">
+<div class="grid">
 {% for aperson in advisory_sorted %}
   {% include people-grid.html  %}
 {% endfor %}
