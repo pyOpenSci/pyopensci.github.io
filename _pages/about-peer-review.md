@@ -140,8 +140,10 @@ classes: flowing
 
 ## Our editorial board
 
-We value our volunteer editors. Learn more about what editors do and how we
-select them here.
+The peer review process is lead by a volunteer team of expert editors who
+find reviewers and ensure the review process is run efficiency from beginning
+to end. Learn more about the
+editor role at pyOpenSci [in our peer review guide, here.](https://www.pyopensci.org/software-peer-review/how-to/editors-guide.html)
 
 {% assign editors = site.data.contributors | where: 'editorial_board', true  %}
 {% assign editors = editors | sort: 'sort'  %}
@@ -155,19 +157,6 @@ select them here.
 </div>
 
 <br clear="both">
-</div>
-<div class="wide__p_text" markdown="1">
-
-
-
-
-
-<!-- ### Who can submit a package?
-
-pyOpenSci packages are community developed, submitted and reviewed. Anyone is
-welcome to submit a package to pyOpenSci to be reviewed. Once the package is reviewed,
-and accepted, pyOpenSci will promote it as a peer-reviewed tool for science! -->
-
 </div>
 
 
@@ -190,59 +179,3 @@ and accepted, pyOpenSci will promote it as a peer-reviewed tool for science! -->
 </div>
 
 </div>
-
-
-
-
-
-
-
-
-<!--
-<div class="notice" markdown="1">
-## What's the difference between pyOpenSci and JOSS?
-
-> You don't have to chose between pyOpenSci and JOSS; You can submit your package to both.
-
-pyOpenSci and [the Journal of Open Source Software (JOSS)](https://joss.theoj.org/)
-are complementary, partner organizations; and you don't have to chose one or the
-other! After a package to pyOpenSci has been reviewed and accepted by pyOpenSci
-you can chose to also register it with JOSS. JOSS has [more limited scope](https://joss.readthedocs.io/en/latest/review_criteria.html)  of the
-for packages that it will review. For instance while pyOpenSci will review and
-accept API wrappers, JOSS won't.
-
-If your package is accepted by pyOpenSci and in scope for JOSS, JOSS will fast
-track your package through their process given it was already reviewed by us.
-Once accepted by JOSS, you now have both a pyOpenSci acceptance and one by JOSS.
-Joss will then give you a cross-ref supported DOI for citation.
-
-### Why Two Review Processes JOSS and pyOpenSci?
-
-the pyOpenSci review process is different from that of JOSS in a few ways:
-* pyOpenSci is specific to the Python community and thus will enforce community specific python specific standards.
-* pyOpenSci places heavy emphasis on documentation and usability in our reviews and associated standardization of both.
-* pyOpenSci builds community around and visibility for it's tools.
-* pyOpenSci supports long term tool maintenance.
-
-
-JOSS reviews are [more limited in scope](https://joss.readthedocs.io/en/latest/review_criteria.html) compared to pyOpenSci and the
-[submission criteria](https://joss.readthedocs.io/en/latest/review_criteria.html)
-are, in places, less stringent than those of pyOpenSci.
-</div>
-
--->
-
-
-<!--
-## Benefits of peer review of scientific Python software?
-
-Peer review of Python scientific software addresses several challenges in the open science and
-open source communities:
-
-* Peer review gives scientists credit for the important work they are doing to support open science
-* Peer review improves the quality and usability of scientific Python packages making them easier for scientists to use and maintain
-* Peer review makes it easier for scientists to find trusted tools to support their workflows
-4. ** Long Term Maintenance in support of open science:** Scientists need to trust the tools that they are using in their open science workflow development. So what happens when a popular scientific tool's maintainer needs to step down from their critical open source work?
-
-Once a package is reviewed by pyOpenSci we will keep in touch with the maintainer to ensure continued maintenance of the tool. If a maintainer needs to step down, we will try to find someone new to take over, or sunset the tool as needed.
-5. **Community:** At the core of peer review is community around the tools that scientists need to process their data. -->
