@@ -13,5 +13,5 @@ jobs:
       - name: Link Checker
         uses: lycheeverse/lychee-action@v1.8.0
         with:
-          args: --exclude https://twitter.com
+          args: --verbose --no-progress --exclude twitter.com -- README.md
           fail: true
