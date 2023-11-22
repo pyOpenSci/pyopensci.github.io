@@ -1,5 +1,6 @@
 # CODEOWNERS file sets rules for who should be notified when a pull request
 # modifies code in a specific path.
+# See https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners for more information.
 
 # Configuration parameters for site
 _config.yml                  @lwasser @kierisi
