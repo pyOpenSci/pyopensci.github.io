@@ -4,6 +4,7 @@
 
 # Configuration parameters for site
 _config.yml                  @lwasser @kierisi
+CNAME                        @lwasser @kierisi
 
 # Workflow files for GitHub Actions
 .github/**                   @lwasser @willingc
