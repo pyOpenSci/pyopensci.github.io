@@ -1,0 +1,17 @@
+# CODEOWNERS file sets rules for who should be notified when a pull request
+# modifies code in a specific path.
+
+# Configuration parameters for site
+_config.yml                  @lwasser @kierisi
+
+# Workflow files for GitHub Actions
+.github/**                   @lwasser @willingc
+
+# Site pages
+_site/*                      @lwasser @kierisi
+
+# Blog posts
+_posts/*                     @lwasser @kierisi
+
+# Scripts
+scripts/*                    @lwasser @willingc
