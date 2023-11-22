@@ -28,4 +28,3 @@ jobs:
         with:
           build_only: true
           build_dir: _site
-
