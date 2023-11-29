@@ -25,7 +25,7 @@ benefits_maintainers:
 peer_review:
   - image_path: images/pyopensci-people-at-computer.jpg
     alt: "A pencil sketch of a round table with people sitting around it from different backgrounds working on laptops and also writing together."
-    excerpt: "Software peer review, similar to review of scientific papers is a process where scientists vet software code, documentation and infrastructure. pyOpenSci leads an [open peer review process](https://www.pyopensci.org/software-peer-review/our-process/how-review-works.html) run by a community of dedicated volunteers. Reviews are supportive and fully transparent with the shared goal of improving the quality, usability and maintainability of the software that is driving open science.
+    excerpt: "Software peer review, similar to review of scientific papers, is a process where scientists vet software code, documentation and infrastructure. pyOpenSci leads an [open peer review process](https://www.pyopensci.org/software-peer-review/our-process/how-review-works.html) run by a community of dedicated volunteers. Reviews are supportive and fully transparent with the shared goal of improving the quality, usability and maintainability of the software that is driving open science.
 
     * Our [partnership with the Journal of Open Source Software](https://www.pyopensci.org/software-peer-review/partners/joss.html) further allows scientists to record academic credit for their work through a cross-ref enabled DOI.
 
