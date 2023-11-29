@@ -36,7 +36,7 @@ joss:
     alt: "A pencil sketch of a round table with people sitting around it from different backgrounds working on laptops and also writing together."
     excerpt: "You don't have to chose between pyOpenSci and JOSS. We have a collaboration with
 JOSS where you can submit your package to us for review. If your package is accepted
-and if it is in scope for JOSS, it will then be fast tracked through their
+and if it is in scope for JOSS, it will then be fast tracked through JOSS'
 review process; they will only review your paper.md file. Consider this a
 win-win!
 More here - maybe a pyos<> joss logo?? "
