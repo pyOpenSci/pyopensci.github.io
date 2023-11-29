@@ -20,7 +20,7 @@ benefits_scientists:
 benefits_maintainers:
   - image_path: images/pyopensci-people-at-computer.jpg
     alt: "A pencil sketch of a round table with people sitting around it from different backgrounds working on laptops and also writing together."
-    excerpt: "Peer review provides a form of academic credit that is nor currently available to scientists developing software. Further, navigating the Python packaging ecosystem can be challenging, even for seasoned Pythonistas. Our diverse community supports scientific package maintainers in their efforts to develop and build robust software."
+    excerpt: "Peer review provides a form of academic credit currently unavailable to scientists developing software. Further, peer review multiplies shared knowledge, such as navigating the Python packaging ecosystem, which is challenging, even for seasoned Pythonistas. Our diverse community supports scientific package maintainers in their efforts to develop and build robust software."
     title: "Benefits of review & a supportive community for maintainers"
 peer_review:
   - image_path: images/pyopensci-people-at-computer.jpg
