@@ -15,7 +15,7 @@ scientists:
 benefits_scientists:
   - image_path: images/pyopensci-people-at-computer.jpg
     alt: "A pencil sketch of a round table with people sitting around it from different backgrounds working on laptops and also writing together."
-    excerpt: "Scientists need trusted and vetted tools that they can easily use to support their open science workflows. Over time and through our [partnerships with domain specific communities](partners.html) our catalog of tools that scientists can trust will grow. "
+    excerpt: "Scientists need trusted and vetted tools to support their open science workflows. Through our [partnerships with domain specific communities](partners.html) our catalog of trusted tools for scientists will grow. "
     title: "Benefits of software peer review for scientists"
 benefits_maintainers:
   - image_path: images/pyopensci-people-at-computer.jpg
