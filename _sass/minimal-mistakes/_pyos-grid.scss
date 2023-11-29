@@ -3,7 +3,7 @@
 /* Create & style a 3x3 grid wrapper */
 .grid {
     display: grid;
-    // min max can be used to modify width
+    // minmax can be used to modify width
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 10px;
 
