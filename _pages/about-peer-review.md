@@ -15,13 +15,13 @@ scientists:
 benefits_scientists:
   - image_path: images/pyopensci-people-at-computer.jpg
     alt: "A pencil sketch of a round table with people sitting around it from different backgrounds working on laptops and also writing together."
-    excerpt: "Scientists need trusted and vetted tools to support their open science workflows. Through our [partnerships with domain specific communities](partners.html) our catalog of trusted tools for scientists will grow. "
+    excerpt: "Scientists need trusted and vetted tools to support their open science workflows. Through our [partnerships with domain specific communities](/partners.html) our catalog of trusted tools for scientists will grow. "
     title: "Benefits of software peer review for scientists"
 benefits_maintainers:
   - image_path: images/pyopensci-people-at-computer.jpg
     alt: "A pencil sketch of a round table with people sitting around it from different backgrounds working on laptops and also writing together."
     excerpt: "Peer review provides a form of academic credit currently unavailable to scientists developing software. Further, peer review multiplies shared knowledge, such as navigating the Python packaging ecosystem, which is challenging, even for seasoned Pythonistas. Our diverse community supports scientific package maintainers in their efforts to develop and build robust software."
-    title: "Benefits of review & a supportive community for maintainers"
+    title: "Benefits for open source maintainers"
 peer_review:
   - image_path: images/pyopensci-people-at-computer.jpg
     alt: "A pencil sketch of a round table with people sitting around it from different backgrounds working on laptops and also writing together."
@@ -125,10 +125,8 @@ classes: flowing
   </div>
 </div>
 </div>
+
 <!-- END template TODO -->
-
-<!-- {% include feature_row id="joss" type="right" %} -->
-
 
 </div>
 </div>
@@ -140,9 +138,15 @@ classes: flowing
 
 ## Our editorial board
 
-The peer review process is lead by a volunteer team of expert editors who
-find reviewers and ensure the review process is run efficiency from beginning
-to end. Learn more about the
+The pyOpenSci software peer review process is lead by a volunteer team of
+editors from the scientific Python community. Editors do the following things:
+
+* They find reviewers from diverse backgrounds for each package that is submitted that have a mixture of scientific domain and Python experience.
+* They oversee the entire review process for a package ensuring it runs in a timely and efficient manner
+* They support the submitting authors and reviewers in answering questions related to the review
+* They determine whether that package should be accepted into the pyOpenSci ecosystem once the review has wrapped up.
+
+Learn more about the
 editor role at pyOpenSci [in our peer review guide, here.](https://www.pyopensci.org/software-peer-review/how-to/editors-guide.html)
 
 {% assign editors = site.data.contributors | where: 'editorial_board', true  %}
