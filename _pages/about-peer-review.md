@@ -29,7 +29,7 @@ peer_review:
 
     * Our [partnership with the Journal of Open Source Software](https://www.pyopensci.org/software-peer-review/partners/joss.html) further allows scientists to record academic credit for their work through a cross-ref enabled DOI.
 
-    * Reviews are lead by diverse teams of people from different backgrounds to enhance the their quality."
+    * Reviews are led by diverse teams of people from different backgrounds to enhance the feedback quality."
     title: "About peer review of scientific Python software"
 joss:
   - image_path: images/pyopensci-people-at-computer.jpg
