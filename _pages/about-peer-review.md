@@ -10,7 +10,7 @@ intro:
 benefits_scientists:
   - image_path: images/pyopensci-people-at-computer.jpg
     alt: "A pencil sketch of a round table with people sitting around it from different backgrounds working on laptops and also writing together."
-    excerpt: "Through our [partnerships with domain specific communities](/partners.html) our catalog of trusted tools for scientists continues to grow."
+    excerpt: "Through our [partnerships with domain specific communities](/partners.html) our catalog of trusted tools for scientists across domains continues to grow."
     title: "Scientists need trusted and vetted tools to support their open science workflows."
 benefits_maintainers:
   - image_path: images/pyopensci-people-at-computer.jpg
@@ -22,18 +22,38 @@ peer_review:
     alt: "A pencil sketch of a round table with people sitting around it from different backgrounds working on laptops and also writing together."
     excerpt: "Software peer review, similar to the review of scientific papers, is a process where scientists vet software code, documentation and infrastructure. pyOpenSci leads an [open peer review process](https://www.pyopensci.org/software-peer-review/our-process/how-review-works.html) run by a community of dedicated volunteers. Reviews are supportive and fully transparent with the shared goal of improving the quality, usability and maintainability of the software that is driving open science.
 
-    * Our [partnership with the Journal of Open Source Software](https://www.pyopensci.org/software-peer-review/partners/joss.html) allows scientists to record academic credit for their work through a cross-ref enabled DOI.
-
     * Diverse teams lead each review, enhancing the overall feedback quality."
     title: "About peer review of scientific Python software"
-joss:
-  - image_path: images/pyopensci-people-at-computer.jpg
+  - image_path: images/pyopensci-joss-partnership.png
     alt: "A pencil sketch of a round table with people sitting around it from different backgrounds working on laptops and also writing together."
-    excerpt: "Our collaboration with JOSS means that you don't have to chose between pyOpenSci and JOSS. Submit your package to pyOS for review, and if your package is accepted and in scope for JOSS, it will be fast-tracked through JOSS' review process; they will only review your `paper.md` file. It's a win-win!"
+    excerpt: "Our [partnership with JOSS](https://www.pyopensci.org/software-peer-review/partners/joss.html) means that you don't have to chose between pyOpenSci and JOSS. Simply submit your package to pyOS for review. If your package is accepted and in scope for JOSS, it will be fast-tracked through JOSS' review process. "
     title: "Get published with JOSS through a pyOpenSci review"
+get-involved:
+  - image_path:
+    title: "Become a pyOpenSci reviewer"
+    alt:
+    excerpt: "We could use your help! Fill our our reviewer form. We will contact you if we have a package that we need reviewers for. It's OK if you've never reviewed a package before! We'll walk you through it."
+    url: https://forms.gle/GHfxvmS47nQFDcBM6
+    btn_label: "> Sign-up Now (Google Form)"
+    btn_class: btn--inverse
+  - image_path:
+    title: "See Our Review Process in Action"
+    alt:
+    excerpt: "Our software review process is run using GitHub issues. This means that anyone can check in on any part of any review and read all of the conversation. Check it out."
+    url: https://github.com/pyOpenSci/software-submission
+    btn_label: "> See Open Reviews"
+    btn_class: btn--inverse
+  - image_path:
+    title: "Ready to Submit a Package for Review?"
+    alt:
+    excerpt: "To submit a package to us, you need to [open an issue in our peer review GitHub repository](https://github.com/pyOpenSci/software-submission/issues/new/choose). Learn about the steps to submit a package for open peer review in our guidebook."
+    url: https://www.pyopensci.org/python-package-guide/
+    btn_label: "> View our Author Guide"
+    btn_class: btn--inverse
 toc: false
 classes: flowing
 ---
+
 
 {% include feature_row id="intro" type="center" %}
 
@@ -42,7 +62,6 @@ classes: flowing
 <div class="content" markdown="1">
 
 {% include feature_row id="peer_review" type="left" %}
-
 
 </div>
 </div>
@@ -65,58 +84,10 @@ classes: flowing
 <div class="pyos-section purple">
 <div class="content" markdown="1">
 
+## Get involved with peer review
 
-<!--TODO: Make this section a template -->
+{% include feature_row_pyos id="get-involved" %}
 
-<div class="content">
-<h2>Get involved with peer review</h2>
-<div class="feature__wrapper">
-  <div class="feature__item">
-    <div class="archive__item cards">
-      <div class="archive__item-body">
-          <h2 class="archive__item-title">Become a pyOpenSci reviewer</h2>
-          <div class="archive__item-excerpt">
-            <p>We could use your help! Fill our our reviewer form. We will
-            contact you if we have a package that we need reviewers for.
-            It's OK if you've never reviewed a package before! We'll walk you
-            through it. </p>
-          </div>
-          <p><a href="https://forms.gle/GHfxvmS47nQFDcBM6" class="btn btn--inverse"><i class="fas fa-angle-right"></i>
-            Sign-up Now (Google Form) </a></p>
-      </div>
-    </div>
-  </div>
-
-  <div class="feature__item">
-    <div class="archive__item cards">
-      <div class="archive__item-body">
-          <h2 class="archive__item-title">See Our Review Process in Action</h2>
-          <div class="archive__item-excerpt">
-            <p>Our reviewers happen in GitHub issues. This means that anyone can
-            check in on any part of any review and read all of the conversation.
-            Check it out.</p>
-          </div>
-          <p><a href="https://github.com/pyOpenSci/software-review/issues" class="btn btn--inverse"><i class="fas fa-angle-right"></i> See Open Reviews </a></p>
-      </div>
-    </div>
-  </div>
-
-  <div class="feature__item ">
-    <div class="archive__item cards">
-      <div class="archive__item-body">
-          <h2 class="archive__item-title">Ready to Submit a Package for Review?</h2>
-          <div class="archive__item-excerpt">
-            <p>You're in the right place! Learn about the steps to submit a package
-            for open peer review in our guidebook. </p>
-          </div>
-          <p><a href="https://www.pyopensci.org/software-peer-review/how-to/author-guide.html" class="btn btn--inverse"><i class="fas fa-angle-right"></i> View our Author Guide </a></p>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-
-<!-- END template TODO -->
 
 </div>
 </div>
@@ -154,7 +125,7 @@ editor role at pyOpenSci [in our peer review guide.](https://www.pyopensci.org/s
 </div>
 
 
-<div class="content noimage">
+<div class="content">
 <div class="feature__wrapper">
 <h2> Recently Accepted scientific Python Packages</h2>
 

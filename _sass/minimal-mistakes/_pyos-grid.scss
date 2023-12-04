@@ -79,6 +79,21 @@
   font-size: 1.1em!important;
 }
 
+.bubble:before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        top: -16px;
+        right: -16px;
+        background: #967eb6;
+        height: 32px;
+        width: 32px;
+        border-radius: 32px;
+        transform: scale(2);
+        transform-origin: 50% 50%;
+        transition: transform 0.15s ease-out;
+    }
+
 .cards {
     display: block;
     top: 0px;
@@ -135,21 +150,6 @@
         cursor: pointer;
     }
 
-
-    // &:before {
-    //     content: "";
-    //     position: absolute;
-    //     z-index: -1;
-    //     top: -16px;
-    //     right: -16px;
-    //     background: #967eb6;
-    //     height: 32px;
-    //     width: 32px;
-    //     border-radius: 32px;
-    //     transform: scale(2);
-    //     transform-origin: 50% 50%;
-    //     transition: transform 0.15s ease-out;
-    // }
 
     &:hover:before {
         transform: scale(2.15);
