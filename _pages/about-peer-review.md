@@ -35,11 +35,7 @@ peer_review:
 joss:
   - image_path: images/pyopensci-people-at-computer.jpg
     alt: "A pencil sketch of a round table with people sitting around it from different backgrounds working on laptops and also writing together."
-    excerpt: "You don't have to chose between pyOpenSci and JOSS. We have a collaboration with
-JOSS where you can submit your package to us for review. If your package is accepted
-and if it is in scope for JOSS, it will then be fast tracked through JOSS'
-review process; they will only review your paper.md file. Consider this a
-win-win!
+    excerpt: "Our collaboration with JOSS means that you don't have to chose between pyOpenSci and JOSS. Submit your package to pyOS for review, and if your package is accepted and in scope for JOSS, it will be fast-tracked through JOSS' review process; they will only review your `paper.md` file. It's a win-win!"
 More here - maybe a pyos<> joss logo?? "
     title: "maybe a pyos<> joss logo??Get published with JOSS through a pyOpenSci review"
 toc: false
