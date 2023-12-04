@@ -40,4 +40,8 @@ svg.bottom {
     max-width: 1280px;
     margin-right: auto;
     margin-left: auto;
+
+    &.noimage {
+        max-width: 900px;
+    }
 }

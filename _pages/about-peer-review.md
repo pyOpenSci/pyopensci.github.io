@@ -124,9 +124,9 @@ classes: flowing
 {% include div_purple_bottom.html  %}
 {: .clearall }
 
-<div class="content" markdown="1">
+<div class="content noimage" markdown="1">
 
-## Our editorial board
+## Meet our editorial board
 
 The pyOpenSci software peer review process is lead by a volunteer team of
 editors from the scientific Python community. Editors do the following things:
@@ -137,7 +137,7 @@ editors from the scientific Python community. Editors do the following things:
 * They determine whether that package should be accepted into the pyOpenSci ecosystem once the review has wrapped up.
 
 Learn more about the
-editor role at pyOpenSci [in our peer review guide, here.](https://www.pyopensci.org/software-peer-review/how-to/editors-guide.html)
+editor role at pyOpenSci [in our peer review guide.](https://www.pyopensci.org/software-peer-review/how-to/editors-guide.html)
 
 {% assign editors = site.data.contributors | where: 'editorial_board', true  %}
 {% assign editors = editors | sort: 'sort'  %}
@@ -154,7 +154,7 @@ editor role at pyOpenSci [in our peer review guide, here.](https://www.pyopensci
 </div>
 
 
-<div class="content">
+<div class="content noimage">
 <div class="feature__wrapper">
 <h2> Recently Accepted scientific Python Packages</h2>
 
