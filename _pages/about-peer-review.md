@@ -102,7 +102,7 @@ classes: flowing
 The pyOpenSci software peer review process is led by a volunteer team of
 editors from the scientific Python community. Editors do the following things:
 
-* They find reviewers from diverse backgrounds for each package that is submitted that have a mixture of scientific domain and Python experience.
+* They find reviewers from diverse backgrounds who have a mixture of scientific domain and Python experience.
 * They oversee the entire review process for a package ensuring it runs in a timely and efficient manner
 * They support the submitting authors and reviewers in answering questions related to the review
 * They determine whether that package should be accepted into the pyOpenSci ecosystem once the review has wrapped up.
