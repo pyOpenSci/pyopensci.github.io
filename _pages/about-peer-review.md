@@ -99,7 +99,7 @@ classes: flowing
 
 ## Meet our editorial board
 
-The pyOpenSci software peer review process is lead by a volunteer team of
+The pyOpenSci software peer review process is led by a volunteer team of
 editors from the scientific Python community. Editors do the following things:
 
 * They find reviewers from diverse backgrounds for each package that is submitted that have a mixture of scientific domain and Python experience.
