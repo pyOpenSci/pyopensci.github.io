@@ -112,7 +112,7 @@ Your community can take advantage of our existing, developed and well-documented
 
 - **A diverse and growing team of editors.** We ask partner communities to have at least 2 members of their community on our editorial team. We want our partner community to make the final decision on whether a package should receive the label of being "affiliated". Typically an editor will run 2-4 reviews a year. [Learn more about the editor role.](https://www.pyopensci.org/software-peer-review/how-to/editors-guide.html)
 - **A suite of community reviewers whose expertise spans numerous scientific domains.** We ask that partner communities help us find reviews in their specific domain areas as packages come in for review. [Learn more about the requirements for reviewers.](https://www.pyopensci.org/software-peer-review/how-to/reviewer-guide.html)
-- **Community driven packaging resources and guidelines:** Our packaging guidelines are what drive the peer review process. Rather than communities creating their own individual guidelines, we hope that partners can join us in expanding our packaging resources as it makes sense.
+- **Community driven packaging resources and guidelines:** Our packaging guidelines drive the peer review process. Instead of communities creating their own individual guidelines, pyOpenSci partners collaborate with us to expand packaging resources.
 </div>
 </div>
 
