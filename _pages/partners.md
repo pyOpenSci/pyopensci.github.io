@@ -51,7 +51,7 @@ partnership_benefits:
   - image_path: /images/peer-review/pyos-partnerships-peer-review.png
     alt: "Alt here"
     excerpt: "
-Through a single review process, your community's maintainers:
+Through a single review process, community maintainers:
 
 * Have their package accepted into the pyOpenSci ecosystem
 
