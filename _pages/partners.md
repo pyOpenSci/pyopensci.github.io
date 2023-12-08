@@ -57,7 +57,7 @@ Through a single review process, community maintainers:
 
 * Can be published in JOSS (if in scope)
 
-* Can become an affiliated package with your community following your community guidelines.
+* Can become an affiliated package with your community, following your community guidelines.
 
 * Gain support in maintaining their tools from our diverse, knowledgeable community that includes active members from across the Python, Conda, PyPA and broader packaging ecosystem."
     title: "Benefits of partnering with us"
