@@ -45,7 +45,7 @@ partnerships:
   - image_path: /images/peer-review/peer-review-partners-process.png
     alt: "Alt here"
     excerpt: "
-pyOpenSci adds an extra layer of community-specific review to our established open peer review process. This allows domain-specific scientific Python communities to vet  affiliated tools through our robust peer review process. Communities then don't have to develop and maintain their own review processes and software guidelines."
+pyOpenSci adds an extra layer of community-specific review to our established open peer review process. This allows domain-specific scientific Python communities to vet affiliated tools through our robust peer review process. Communities then don't have to develop and maintain their own review processes and software guidelines."
     title: "Community Partnerships Streamline Peer Review & Packaging Standards"
 partnership_benefits:
   - image_path: /images/peer-review/pyos-partnerships-peer-review.png
