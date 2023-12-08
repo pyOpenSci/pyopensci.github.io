@@ -43,21 +43,21 @@ partnerships:
   - image_path: /images/peer-review/peer-review-partners-process.png
     alt: "Alt here"
     excerpt: "
-pyOpenSci adds an extra layer of community-specific review to our established open peer review process. This allows domain-specific scientific Python communities to vet  affiliated tools through our robust peer review process. Communities then don't have to develop and maintain their own review processes and software guidelines."
+pyOpenSci adds an extra layer of community-specific review to our established open peer review process. This allows domain-specific scientific Python communities to vet affiliated tools through our robust peer review process. Communities then don't have to develop and maintain their own review processes and software guidelines."
     title: "Community Partnerships Streamline Peer Review & Packaging Standards"
 partnership_benefits:
   - image_path: /images/peer-review/pyos-partnerships-peer-review.png
     alt: "Alt here"
     excerpt: "
-Through a single review process, your community's maintainers:
+Through a single review process, community maintainers:
 
 * Have their package accepted into the pyOpenSci ecosystem
 
 * Can be [published in JOSS (if in scope)](https://www.pyopensci.org/software-peer-review/partners/joss.html#)
 
-* Can become an affiliated package with your community following your community guidelines.
+* Can become an affiliated package with your community, following your community guidelines.
 
-* Gain support in maintaining their tools from our diverse, knowledgeable community that includes active members from across the Python, Conda, PyPA and broader packaging ecosystem."
+* Are supported in maintaining their tools, with input from our diverse, knowledgeable community, including active members from across the Python, Conda, PyPA and broader Python packaging ecosystem."
     title: "Benefits of partnering with us"
 toc: false
 ---
@@ -110,7 +110,7 @@ Your community can take advantage of our existing, developed and well-documented
 
 - **A diverse and growing team of editors.** We ask partner communities to have at least 2 members of their community on our editorial team. We want our partner community to make the final decision on whether a package should receive the label of being "affiliated". Typically an editor will run 2-4 reviews a year. [Learn more about the editor role.](https://www.pyopensci.org/software-peer-review/how-to/editors-guide.html)
 - **A suite of community reviewers whose expertise spans numerous scientific domains.** We ask that partner communities help us find reviews in their specific domain areas as packages come in for review. [Learn more about the requirements for reviewers.](https://www.pyopensci.org/software-peer-review/how-to/reviewer-guide.html)
-- **Community driven packaging resources and guidelines:** Our packaging guidelines are what drive the peer review process. Rather than communities creating their own individual guidelines, we hope that partners can join us in expanding our packaging resources as it makes sense.
+- **Community driven packaging resources and guidelines:** Our packaging guidelines drive the peer review process. Instead of communities creating their own individual guidelines, pyOpenSci partners collaborate with us to expand packaging resources.
 </div>
 </div>
 
