@@ -1,7 +1,7 @@
 ---
 layout: splash
 permalink: /partners.html
-title: "pyOpenSci Community Partners: Affiliated package review"
+title: "pyOpenSci Community Partners: affiliated package review"
 classes: flowing
 header:
   overlay_image: images/header.jpg
@@ -11,34 +11,32 @@ intro:
 scientists:
   - image_path: images/pyopensci-people-at-computer.jpg
     alt: "A pencil sketch of a round table with people sitting around it from different backgrounds working on laptops and also writing together."
-    excerpt: "Our catalog of vetted open source tools will over time make it easier for scientists to find the trusted tools that they need to develop their open science workflows."
+    excerpt: "Our catalog of vetted open source tools makes it easier for scientists to find the trusted tools that they need to develop their open science workflows."
     title: "Help scientists find the open science tools that they need"
 mission:
-  - excerpt: "PyOpenSci collaborates with domain-specific communities to streamline
-our diverse ecosystem. Instead of creating new review processing and packaging
-guidelines, partner organizations can leverage and contribute to our existing review processes and guidelines."
+  - excerpt: "Domain-specific communities can partner with PyOpenSci to leverage both our peer review process and development of Python packaging packaging guidelines."
 packaging-easier:
    - image_path: images/people-building-blocks.jpg
      alt: "A group of people working on a tetris like set of building blocks trying to stack them all together. "
      title: "Let's make packaging easier for scientists, together"
-     excerpt: "Given the numerous diverse packaging options, many communities are crafting their guidelines and review processes. Partnering with pyOpenSci enables your community to:
+     excerpt: "Given the numerous diverse packaging options, many communities are crafting their own guidelines and review processes. Partnering with pyOpenSci enables your community to:
 
      * tap into and contribute to an established community-owned set of packaging standards.
 
      * mitigate the redundancy of multiple communities creating their own processes and standards.
 
 
-     Aligning packaging criteria will support increased consistency in packaging approaches across the ecosystem. This consistency will  lower the barrier of entry for new potential contributors."
+     Aligning packaging criteria supports increased consistency in packaging approaches across the Python ecosystem. This consistency will  lower the barrier of entry for new potential contributors."
 
 community:
    - image_path: images/pyopensci-women-collaborating.png
      alt: "A black and white pencil sketch of a group of 5 women sitting and standing around a laptop working together."
      excerpt: "
-pyOpenSci is driven by a **vibrant community** of technical packaging experts, open science enthusiasts, and Pythonistas. When you partner with or join pyOpenSci, you:
+pyOpenSci is driven by a **vibrant community** of technical packaging experts, open science enthusiasts, and Pythonistas. When you partner with pyOpenSci, you:
 
 * become part of a community rich in expertise, ready to assist you with your packaging challenges.
 
-* As a package grows, we will help your community maintainers decide what to do if they need to step down from maintenance roles be it finding a new maintainer or gracefully archiving the package for safekeeping."
+* As a package grows, we help your community maintainers decide what to do if they need to step down from maintenance roles, be it finding a new maintainer or gracefully archiving the package for safekeeping."
      title: "Harness the power of community"
 
 partnerships:
@@ -55,7 +53,7 @@ Through a single review process, your community's maintainers:
 
 * Have their package accepted into the pyOpenSci ecosystem
 
-* Can be published in JOSS (if in scope)
+* Can be [published in JOSS (if in scope)](https://www.pyopensci.org/software-peer-review/partners/joss.html#)
 
 * Can become an affiliated package with your community following your community guidelines.
 
@@ -80,7 +78,7 @@ toc: false
 <div class="pyos-section">
 <div class="content" markdown="1">
 
-## Increase visibility for your communities' tools
+## Partnering with pyOpenSci increases the visibility of your communities' tools
 
 We will:
 
