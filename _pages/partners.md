@@ -59,7 +59,7 @@ Through a single review process, community maintainers:
 
 * Can become an affiliated package with your community, following your community guidelines.
 
-* Gain support in maintaining their tools from our diverse, knowledgeable community that includes active members from across the Python, Conda, PyPA and broader packaging ecosystem."
+* Are supported in maintaining their tools, with input from our diverse, knowledgeable community, including active members from across the Python, Conda, PyPA and broader Python packaging ecosystem."
     title: "Benefits of partnering with us"
 toc: false
 ---
