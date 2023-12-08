@@ -41,13 +41,13 @@ pyOpenSci is driven by a **vibrant community** of technical packaging experts, o
 
 partnerships:
   - image_path: /images/peer-review/peer-review-partners-process.png
-    alt: "Alt here"
+    alt: "diagram with a set of 3 boxes with arrows pointing to the right. The first box says submit your package with a code icon above it. The second says Review with pyOpensci Standards below. Blow the second box is a dark purple box that says Your community standards in it. And an arrow pointing to that box that says customized review. The third box says Accepted pyos + community affiliated."
     excerpt: "
 pyOpenSci adds an extra layer of community-specific review to our established open peer review process. This allows domain-specific scientific Python communities to vet affiliated tools through our robust peer review process. Communities then don't have to develop and maintain their own review processes and software guidelines."
     title: "Community Partnerships Streamline Peer Review & Packaging Standards"
 partnership_benefits:
   - image_path: /images/peer-review/pyos-partnerships-peer-review.png
-    alt: "Alt here"
+    alt: "Diagram with a light purple background. On the left there is the pyOpenSci purple flower and it says accepted with a check mark above. There are two arrows leading to boxes on the right. The top box says JOSS published with a check next to it and the JOSS logo. The box below says Community Affiliated with a check. THe boxes are numbered 1,2,3. "
     excerpt: "
 Through a single review process, community maintainers:
 
