@@ -30,7 +30,7 @@ packaging-easier:
 
 
      Aligning packaging criteria supports increased consistency in packaging approaches across the Python ecosystem. This consistency will  lower the barrier of entry for new potential contributors."
-     url: https://www.pyopensci.org/python-package-guide.html
+     url: https://www.pyopensci.org/python-package-guide
      btn_label: View our Python packaging guide
      btn_class: btn--primary
 
