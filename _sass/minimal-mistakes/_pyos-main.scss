@@ -1,3 +1,12 @@
+img {
+  border-radius: 10px;
+  -webkit-border-radius: 10px; /* Safari/Chrome */
+  -moz-border-radius: 10px; /* Firefox */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Safari/Chrome */
+  -moz-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Firefox */
+}
+
 // Grid customized styles
 
 .flowing .archive__item-excerpt, .archive__item-excerpt {
