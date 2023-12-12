@@ -1,77 +1,119 @@
 ---
 layout: splash
 permalink: /about-peer-review/
-title: "About the pyOpenSci Open Peer Review Process"
+title: "pyOpenSci Reviews Scientific Python Software"
 header:
   overlay_image: images/header.jpg
   overlay_filter: 0.6
 intro:
-  - excerpt: "Our open peer review process supports scientists getting credit for the work invested in open Python tools. It also supports standardization of packaging and improved package visibility."
+  - excerpt: "Our open peer review process facilitates scientists getting credit and recognition for the work they've invested in developing scientific Python tools. The peer review process also supports scientists in finding vetted and maintained software, which drives their open science workflows."
+benefits_scientists:
+  - image_path: images/pyopensci-people-at-computer.jpg
+    alt: "A pencil sketch of a round table with people sitting around it from different backgrounds working on laptops and also writing together."
+    excerpt: "Through our [partnerships with domain specific communities](/partners.html) our catalog of trusted tools for scientists across domains continues to grow."
+    title: "Scientists need trusted and vetted tools to support their open science workflows."
+benefits_maintainers:
+  - image_path: images/pyopensci-people-at-computer.jpg
+    alt: "A pencil sketch of a round table with people sitting around it from different backgrounds working on laptops and also writing together."
+    excerpt: "The pyOpenSci peer review process multiplies shared knowledge, making it easier for Pythonistas of all levels to accomplish challenging tasks, such as navigating the Python packaging ecosystem, with relative ease. And our diverse community supports scientific package maintainers in their efforts to develop and build robust software."
+    title: "pyOS software peer review benefits open source maintainers"
+peer_review:
+  - image_path: images/pyopensci-people-at-computer.jpg
+    alt: "A pencil sketch of a round table with people sitting around it from different backgrounds working on laptops and also writing together."
+    excerpt: "Software peer review, similar to the review of scientific papers, is a process where scientists vet software code, documentation and infrastructure. pyOpenSci leads an [open peer review process](https://www.pyopensci.org/software-peer-review/our-process/how-review-works.html) run by a community of dedicated volunteers. Reviews are supportive and fully transparent with the shared goal of improving the quality, usability and maintainability of the software that is driving open science.
+
+    * Diverse teams lead each review, enhancing the overall feedback quality."
+    title: "About peer review of scientific Python software"
+  - image_path: images/pyopensci-joss-partnership.png
+    alt: "A pencil sketch of a round table with people sitting around it from different backgrounds working on laptops and also writing together."
+    excerpt: "Our [partnership with JOSS](https://www.pyopensci.org/software-peer-review/partners/joss.html) means that you don't have to chose between pyOpenSci and JOSS. Simply submit your package to pyOS for review. If your package is accepted and in scope for JOSS, it will be fast-tracked through JOSS' review process. "
+    title: "Get published with JOSS through a pyOpenSci review"
+get-involved:
+  - image_path:
+    title: "Become a pyOpenSci reviewer"
+    alt:
+    excerpt: "We could use your help! Fill our our reviewer form. We will contact you if we have a package that we need reviewers for. It's OK if you've never reviewed a package before! We'll walk you through it."
+    url: https://forms.gle/GHfxvmS47nQFDcBM6
+    btn_label: "> Sign-up Now (Google Form)"
+    btn_class: btn--inverse
+  - image_path:
+    title: "See Our Review Process in Action"
+    alt:
+    excerpt: "Our software review process is run using GitHub issues. This means that anyone can check in on any part of any review and read all of the conversation. Check it out."
+    url: https://github.com/pyOpenSci/software-submission
+    btn_label: "> See Open Reviews"
+    btn_class: btn--inverse
+  - image_path:
+    title: "Ready to Submit a Package for Review?"
+    alt:
+    excerpt: "To submit a package to us, you need to [open an issue in our peer review GitHub repository](https://github.com/pyOpenSci/software-submission/issues/new/choose). Learn about the steps to submit a package for open peer review in our guidebook."
+    url: https://www.pyopensci.org/python-package-guide/
+    btn_label: "> View our Author Guide"
+    btn_class: btn--inverse
 toc: false
-classes:
+classes: flowing
 ---
+
 
 {% include feature_row id="intro" type="center" %}
 
-<!--TODO: this into a template -->
 
-<div class="feature__wrapper">
-  <div class="feature__item ">
-    <div class="archive__item cards">
-      <div class="archive__item-body">
-          <h2 class="archive__item-title">Ready to Submit a Package for Review?</h2>
-          <div class="archive__item-excerpt">
-            <p>You're in the right place! Learn about the steps to submit a package
-            for open peer review in our guidebook. </p>
-          </div>
-          <p><a href="https://www.pyopensci.org/software-peer-review/how-to/author-guide.html" class="btn btn--inverse"><i class="fas fa-angle-right"></i> View our Author Guide </a></p>
-      </div>
-    </div>
-  </div>
+<div class="pyos-section purple">
+<div class="content" markdown="1">
 
-  <div class="feature__item">
-    <div class="archive__item cards">
-      <div class="archive__item-body">
-          <h2 class="archive__item-title">Want to Review a Python Package for Us?</h2>
-          <div class="archive__item-excerpt">
-            <p>We could use your help! Fill our our reviewer form. We will
-            contact you if we have a package that we need reviewers for.
-            It's OK if you've never reviewed a package before! We'll walk you
-            through it. </p>
-          </div>
-          <p><a href="https://forms.gle/GHfxvmS47nQFDcBM6" class="btn btn--inverse"><i class="fas fa-angle-right"></i>
-            Signup Now (Google Form) </a></p>
-      </div>
-    </div>
-  </div>
+{% include feature_row id="peer_review" type="left" %}
 
-  <div class="feature__item">
-    <div class="archive__item cards">
-      <div class="archive__item-body">
-          <h2 class="archive__item-title">See Our Review Process in Action</h2>
-          <div class="archive__item-excerpt">
-            <p>Our reviewers happen in GitHub issues. This means that anyone can
-            check in on any part of any review and read all of the conversation.
-            Check it out.</p>
-          </div>
-          <p><a href="https://github.com/pyOpenSci/software-review/issues" class="btn btn--inverse"><i class="fas fa-angle-right"></i> See Open Reviews </a></p>
-      </div>
-    </div>
-  </div>
+</div>
 </div>
 
-## Our editorial board
+{% include div_purple_bottom.html  %}
 
+
+<div class="pyos-section" markdown="1">
+<div class="content" markdown="1">
+
+{% include feature_row id="benefits_scientists" type="right" %}
+{% include feature_row id="benefits_maintainers" type="right" %}
+
+
+</div>
+</div>
+
+<!-- {% include div_purple_top.html  %} -->
+
+<div class="pyos-section purple">
+<div class="content" markdown="1">
+
+## Get involved with peer review
+
+{% include feature_row_pyos id="get-involved" %}
+
+
+</div>
+</div>
+
+{% include div_purple_bottom.html  %}
 {: .clearall }
 
-We value our volunteer editors. Learn more about what editors do and how we
-select them here.
+<div class="content noimage" markdown="1">
+
+## Meet our editorial board
+
+The pyOpenSci software peer review process is led by a volunteer team of
+editors from the scientific Python community. Editors do the following things:
+
+* They find reviewers from diverse backgrounds who have a mixture of scientific domain and Python experience.
+* They oversee the entire review process for a package ensuring it runs in a timely and efficient manner
+* They support the submitting authors and reviewers in answering questions related to the review
+* They determine whether that package should be accepted into the pyOpenSci ecosystem once the review has wrapped up.
+
+Learn more about the
+editor role at pyOpenSci [in our peer review guide.](https://www.pyopensci.org/software-peer-review/how-to/editors-guide.html)
 
 {% assign editors = site.data.contributors | where: 'editorial_board', true  %}
 {% assign editors = editors | sort: 'sort'  %}
 
-
-<div class="grid">
+<div class="grid clean">
 {% for aperson in editors %}
 {% unless aperson.board %}
     {% include people-grid.html  %}
@@ -80,73 +122,12 @@ select them here.
 </div>
 
 <br clear="both">
-
-<div class="wide__p_text" markdown="1">
-
-## Why Peer Review for Python Scientific Software?
-
-Peer review of Python scientific software addresses several challenges in the
-open source community:
-
-1. **Citations Support Credit & Acknowledgement:** Peer review provides credit and acknowledgement for the hard work invested in creating and supporting core tools that support open science workflows.
-2. **Standard Packaging & Documentation:** Currently there are numerous ways to create a Python package. Peer review enforces standards thus promoting standardization of Python packaging across the scientific Python ecosystem.
-3. **Removed Redundancy:** Peer review addresses the issue of multiple tools on pyPi that perform similar tasks but have varying levels of documentation, support and maintenance. One maintained package that is broadly useful and maintained will help scientists select tools that they can rely on.
-4. **Long Term Maintenance:** Package maintainers often use their free time to work on Python tools. Once a package is reviewed by pyOpenSci we will keep in touch with the maintainer to ensure continued maintenance of the tool. If a maintainer needs to step down, we will try to find someone new to take over, or sunset the tool as needed.
-5. **Community:** At the core of peer review is community around the tools that scientists need to process their data.
-
-### Who can submit a package?
-
-pyOpenSci packages are community developed, submitted and reviewed. Anyone is
-welcome to submit a package to pyOpenSci to be reviewed. Once the package is reviewed,
-and accepted, pyOpenSci will promote it as a peer-reviewed tool for science!
-
-### How do I decide whether to submit to you or the Journal of Open Source Software (JOSS)
-
-You don't have to chose between pyOpenSci and JOSS. We have a collaboration with
-JOSS where you can submit your package to us for review. If your package is accepted
-and if it is in scope for JOSS, it will then be fast tracked through their
-review process; they will only review your paper.md file. Consider this a
-win-win!
-
-</div>
-
-<!--
-<div class="notice" markdown="1">
-## What's the difference between pyOpenSci and JOSS?
-
-> You don't have to chose between pyOpenSci and JOSS; You can submit your package to both.
-
-pyOpenSci and [the Journal of Open Source Software (JOSS)](https://joss.theoj.org/)
-are complementary, partner organizations; and you don't have to chose one or the
-other! After a package to pyOpenSci has been reviewed and accepted by pyOpenSci
-you can chose to also register it with JOSS. JOSS has [more limited scope](https://joss.readthedocs.io/en/latest/review_criteria.html)  of the
-for packages that it will review. For instance while pyOpenSci will review and
-accept API wrappers, JOSS won't.
-
-If your package is accepted by pyOpenSci and in scope for JOSS, JOSS will fast
-track your package through their process given it was already reviewed by us.
-Once accepted by JOSS, you now have both a pyOpenSci acceptance and one by JOSS.
-Joss will then give you a cross-ref supported DOI for citation.
-
-### Why Two Review Processes JOSS and pyOpenSci?
-
-the pyOpenSci review process is different from that of JOSS in a few ways:
-* pyOpenSci is specific to the Python community and thus will enforce community specific python specific standards.
-* pyOpenSci places heavy emphasis on documentation and usability in our reviews and associated standardization of both.
-* pyOpenSci builds community around and visibility for it's tools.
-* pyOpenSci supports long term tool maintenance.
-
-
-JOSS reviews are [more limited in scope](https://joss.readthedocs.io/en/latest/review_criteria.html) compared to pyOpenSci and the
-[submission criteria](https://joss.readthedocs.io/en/latest/review_criteria.html)
-are, in places, less stringent than those of pyOpenSci.
 </div>
 
 
-
--->
-
-## Recently Accepted Python Packages
+<div class="content">
+<div class="feature__wrapper">
+<h2> Recently Accepted scientific Python Packages</h2>
 
 {% assign packages_sorted = site.data.packages | sort_natural: 'date_accepted' | reverse %}
 
@@ -159,3 +140,7 @@ are, in places, less stringent than those of pyOpenSci.
 <br clear="both">
 
 <a href="/python-packages/" class="btn btn--info">View All Accepted Packages <i class="fa fa-4 fa-arrow-circle-right" aria-hidden="true"></i></a>
+
+</div>
+
+</div>
