@@ -1,5 +1,5 @@
 .pyos-section {
-    padding: 20px;
+    padding: 0px;
     &.purple {
         background-color: #e2dfed; //d9d5e8; #cbc6e0;
         position: relative;
@@ -40,4 +40,8 @@ svg.bottom {
     max-width: 1280px;
     margin-right: auto;
     margin-left: auto;
+
+    &.noimage {
+        max-width: 900px;
+    }
 }
