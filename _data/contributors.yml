@@ -39,7 +39,9 @@
 - name: Tracy Teal
   github_username: tracykteal
   github_image_id: 889238
-  title: Board chair
+  title:
+    - Board chair
+    - Executive Council
   sort: 2
   bio:
   organization:
@@ -62,7 +64,7 @@
 - name: Karen Cranston
   github_username: kcranston
   github_image_id: 312034
-  title:
+  title: Executive Council
   sort: 3
   bio:
   organization:
@@ -82,6 +84,58 @@
   packages_reviewed:
   location: Ottawa, ON
   email: karen.cranston@gmail.com
+- name: Jesse Mostipak
+  github_username: kierisi
+  github_image_id: 23085445
+  title:
+    - Community Manager
+  sort: 3
+  bio:
+  organization: pyOpenSci
+  date_added: '2023-11-21'
+  deia_advisory: false
+  editorial_board:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  website:
+  board: true
+  contributor_type:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location:
+  email: jesse@pyopensci.org
+- name: Carol Willing
+  github_username: willingc
+  github_image_id: 2680980
+  title:
+  sort:
+  bio: Project Jupyter, nteract, and CPython core developer@python | @jupyter |
+      @jupyterhub | @ipython | @nteract | @pysplash
+  organization: Willing Consulting
+  date_added: '2023-03-01'
+  deia_advisory: false
+  editorial_board:
+  advisory: true
+  twitter: WillingCarol
+  mastodon:
+  orcidid:
+  website: https://hachyderm.io/web/@willingc
+  board: false
+  contributor_type:
+    - guidebook-contrib
+    - peer-review
+    - peer-review-guide
+    - reviewer
+    - web-contrib
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - devicely
+  location: San Diego
+  email: carolcode@willingconsulting.com
 - name: Erin Robinson
   github_username: erinmr
   github_image_id: 2915555
@@ -1626,35 +1680,6 @@
   packages_reviewed:
   location: New York City
   email:
-- name: Carol Willing
-  github_username: willingc
-  github_image_id: 2680980
-  title:
-  sort:
-  bio: Project Jupyter, nteract, and CPython core developer@python | @jupyter |
-      @jupyterhub | @ipython | @nteract | @pysplash
-  organization: Willing Consulting
-  date_added: '2023-03-01'
-  deia_advisory: false
-  editorial_board:
-  advisory: false
-  twitter: WillingCarol
-  mastodon:
-  orcidid:
-  website: https://hachyderm.io/web/@willingc
-  board: false
-  contributor_type:
-    - guidebook-contrib
-    - peer-review
-    - peer-review-guide
-    - reviewer
-    - web-contrib
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
-    - devicely
-  location: San Diego
-  email: carolcode@willingconsulting.com
 - name: Steve Moss
   github_username: gawbul
   github_image_id: 321291
