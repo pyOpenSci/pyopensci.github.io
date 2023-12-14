@@ -79,6 +79,7 @@
   board: true
   contributor_type:
     - leadership
+    - package-guide
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -102,6 +103,7 @@
   website:
   board: true
   contributor_type:
+    - package-guide
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -206,6 +208,7 @@
   board: false
   contributor_type:
     - leadership
+    - package-guide
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -453,6 +456,7 @@
     - peer-review-guide
     - submitting-author
   packages_editor:
+    - biocypher
     - pynteny
   packages_submitted:
     - devicely
@@ -722,7 +726,7 @@
   twitter: dynamicwebpaige
   mastodon:
   orcidid:
-  website: https://webpaige.dev
+  website:
   board: false
   contributor_type:
     - contributor
@@ -3129,11 +3133,13 @@
     - community
     - maintainer
     - peer-review
+    - reviewer
     - submitting-author
   packages_editor:
   packages_submitted:
     - taxpasta
   packages_reviewed:
+    - biocypher
   location: Copenhagen, Denmark
   email: midnighter@posteo.net
 - name: Szabolcs Horvát
@@ -3206,6 +3212,7 @@
   contributor_type:
     - guidebook-contrib
     - peer-review-guide
+    - web-contrib
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -4284,3 +4291,174 @@
   packages_reviewed:
   location:
   email: apatania@uvm.edu
+- name: Joseph H Kennedy
+  github_username: jhkennedy
+  github_image_id: 7882693
+  title:
+  sort:
+  bio: I'm a Research Software Engineer, Computational Glaciologist, Climate Scientist,
+      and Adventurer living/playing in Alaska
+  organization: Alaska Satellite Facility
+  date_added: '2023-12-14'
+  deia_advisory: false
+  editorial_board:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  website: https://jhkennedy.org
+  board: false
+  contributor_type:
+    - package-guide
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: Fairbanks, AK
+  email:
+- name: William F. Broderick
+  github_username: billbrod
+  github_image_id: 6338509
+  title:
+  sort:
+  bio: Associate data scientist at Flatiron Institute, working to make computational
+      neuroscience more open, cumulative, and reproducible.
+  organization: Flatiron Institute
+  date_added: '2023-12-14'
+  deia_advisory: false
+  editorial_board:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  website: https://orcid.org/0000-0002-8999-9003
+  board: false
+  contributor_type:
+    - package-guide
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: New York, NY
+  email: billbrod@gmail.com
+- name: Gregor Sturm
+  github_username: grst
+  github_image_id: 7051479
+  title:
+  sort:
+  bio: Clinical Bioinformatics @Boehringer-Ingelheim.@scverse core dev. Formerly
+      PhD student @icbi-lab.My private account.
+  organization: Boehringer Ingelheim
+  date_added: '2023-12-14'
+  deia_advisory: false
+  editorial_board:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  website: https://grst.github.io
+  board: false
+  contributor_type:
+    - peer-review-guide
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: Biberach, DE
+  email: mail@gregor-sturm.de
+- name: Sean Kelly
+  github_username: nutjob4life
+  github_image_id: 814813
+  title:
+  sort:
+  bio: An agoraphobic gourmand, Python hacker, Plone committer, Apache Software
+      Foundation member, NASA scientist, gastrophysicist, etc.
+  organization: Sean Kelly Consulting
+  date_added: '2023-12-14'
+  deia_advisory: false
+  editorial_board:
+  advisory: false
+  twitter: nutjob4life
+  mastodon:
+  orcidid:
+  website: https://about.me/sean.c.kelly
+  board: false
+  contributor_type:
+    - peer-review-guide
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location:
+  email: kelly@seankelly.biz
+- name: Andrew Nesbitt
+  github_username: andrew
+  github_image_id: 1060
+  title:
+  sort:
+  bio: Software engineer and researcher
+  organization: '@ecosyste-ms and @octobox'
+  date_added: '2023-12-14'
+  deia_advisory: false
+  editorial_board:
+  advisory: false
+  twitter: teabass
+  mastodon:
+  orcidid:
+  website: https://nesbitt.io
+  board: false
+  contributor_type:
+    - web-contrib
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: UK
+  email:
+- name: Lukas Heumos
+  github_username: Zethson
+  github_image_id: 21954664
+  title:
+  sort:
+  bio: PhD student at @theislab and @schillerlab. Co-founder @scverse. Research
+      software engineer @laminlabs
+  organization: '@theislab @schillerlab @scverse @laminlabs'
+  date_added: '2023-12-14'
+  deia_advisory: false
+  editorial_board:
+  advisory: false
+  twitter: lukasheumos
+  mastodon:
+  orcidid:
+  website: https://lukasheumos.com
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - biocypher
+  location: Germany
+  email: lukas.heumos@posteo.net
+- name: Sebastian Lobentanzer
+  github_username: slobentanzer
+  github_image_id: 13223629
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2023-12-14'
+  deia_advisory: false
+  editorial_board:
+  advisory: false
+  twitter: slobentanzer
+  mastodon:
+  orcidid:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+    - submitting-author
+  packages_editor:
+  packages_submitted:
+    - biocypher
+  packages_reviewed:
+  location:
+  email:
