@@ -4485,3 +4485,25 @@
   packages_reviewed:
   location: Toruń/Gdynia, Poland
   email: maria.knorps@gmail.com
+- name: Lauren Yee
+  github_username: yeelauren
+  github_image_id: 12127746
+  title: Editor
+  sort: 2
+  bio:
+  organization:
+  date_added: '2023-12-21'
+  deia_advisory: false
+  editorial_board: true
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  website:
+  board: false
+  contributor_type:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location:
+  email:
