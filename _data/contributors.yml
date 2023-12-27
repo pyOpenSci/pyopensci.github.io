@@ -4507,3 +4507,25 @@
   packages_reviewed:
   location:
   email:
+- name: Bane Sullivan
+  github_username: banesullivan
+  github_image_id: 22067021
+  title: Editor
+  sort: 2
+  bio:
+  organization:
+  date_added: '2023-12-27'
+  deia_advisory: false
+  editorial_board: true
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  website:
+  board: false
+  contributor_type:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location:
+  email:
