@@ -127,6 +127,7 @@
   website: https://hachyderm.io/web/@willingc
   board: false
   contributor_type:
+    - code-contrib
     - guidebook-contrib
     - peer-review
     - peer-review-guide
@@ -1628,6 +1629,7 @@
   website: https://ofek.dev
   board: false
   contributor_type:
+    - code-contrib
     - guidebook-contrib
     - package-guide
   packages_editor:
@@ -3978,7 +3980,7 @@
   twitter:
   mastodon:
   orcidid:
-  website: https://medium.com/du-phan
+  website:
   board: false
   contributor_type:
     - peer-review
@@ -4529,3 +4531,26 @@
   packages_reviewed:
   location:
   email:
+- name: Philipp A.
+  github_username: flying-sheep
+  github_image_id: 291575
+  title:
+  sort:
+  bio:
+  organization: '@theislab'
+  date_added: '2023-12-27'
+  deia_advisory: false
+  editorial_board:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  website: https://phil.red
+  board: false
+  contributor_type:
+    - package-guide
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: München
+  email: flying-sheep@web.de
