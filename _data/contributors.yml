@@ -4504,6 +4504,7 @@
   website:
   board: false
   contributor_type:
+    - editor
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -4526,6 +4527,7 @@
   website:
   board: false
   contributor_type:
+    - editor
   packages_editor:
   packages_submitted:
   packages_reviewed:
