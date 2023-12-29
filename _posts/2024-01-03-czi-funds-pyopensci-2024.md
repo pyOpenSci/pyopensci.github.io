@@ -35,13 +35,8 @@ the analyses of research data are broadly accessible. To build truly open resear
 Broad inclusion of underrepresented and historically excluded individuals is critical to pyOpenSci's mission. The open source ecosystem has been found to be [even less diverse then the broader tech community](https://www.wired.com/2017/06/diversity-open-source-even-worse-tech-overall/). To help remedy this, pyOpenSci empowers everyone to participate in both the development and use of open source software. This
 empowerment enables open science to reach its full potential.
 
-<<<<<<< HEAD:_posts/2023-12-29-czi-funds-pyopensci-2024.md
-### Open source maintainers need more support
-Despite the importance of open source software and inclusion to fundamental
-=======
 ### Open source maintainers need support
 Despite the importance of open source software to fundamental
->>>>>>> 9ef0fd3 (Fix: edits from @kierisi):_posts/2024-01-03-czi-funds-pyopensci-2024.md
 open science principles, open source maintainers do not get the support they
 need. Maintainers need both institutional and community support in learning
 and engaging in open source software development, maintaining tools and engaging
