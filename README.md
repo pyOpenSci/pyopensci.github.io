@@ -32,6 +32,13 @@ for creating this site. To set up a **development environment** and **run the si
 
 Please test your changes locally prior to submitting a pull request (PR).
 
+
+### Want to build with new blog posts to be published in the future?
+
+If you are publishing a blog post with a date that is in the future, you can build the site locally using the `--future` option to view it as follows:
+
+`bundle exec jekyll serve --future`.
+
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
