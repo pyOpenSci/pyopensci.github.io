@@ -7,3 +7,5 @@ Gemfile.lock
 .DS_Store
 images/full-images/
 all_contribs.pickle
+.vale.ini
+styles/*
