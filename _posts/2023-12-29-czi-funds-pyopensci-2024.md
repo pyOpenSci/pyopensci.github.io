@@ -32,7 +32,7 @@ the analyses of research data are broadly accessible. To build truly open resear
 
 ### Broad inclusion is critical for both open source and open science
 
-Broad inclusion of individuals in the open source ecosystem which has been found to be [even less diverse then the broader tech community](https://www.wired.com/2017/06/diversity-open-source-even-worse-tech-overall/) is also critical to pyOpenSci's mission. pyOpenSci wants to empower everyone to participate in both the development and use of open source software. This
+Broad inclusion of underrepresented and historically excluded individuals is critical to pyOpenSci's mission. The open source ecosystem has been found to be [even less diverse then the broader tech community], (https://www.wired.com/2017/06/diversity-open-source-even-worse-tech-overall/) and to help remedy this, pyOpenSci empowers everyone to participate in both the development and use of open source software. This
 empowerment enables open science to reach its full potential.
 
 ### Open source maintainers need more support
@@ -46,7 +46,7 @@ with the broad user base that may begin to use their tools in support of open sc
 
 pyOpenSci is pushing for change. We envision a world where:
 
-* the scientific Python open source ecosystem is diverse and inclusive,
+* The scientific Python open source ecosystem is diverse and inclusive.
 * individuals developing open software are supported and
 * scientists have the skills needed to both contribute to open source and also develop collaborative open science workflows; these skills have significant overlap.
 
