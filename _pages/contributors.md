@@ -67,8 +67,8 @@ pyOpenSci has a diverse and vibrant community of pythonistas! To date,
 
 <div id="filters" class="button-group">
   <button class="button is-checked" data-filter="*">Show All</button>
-  <button class="button" data-filter=".leadership">Leadership/Advisory</button>
-  <button class="button" data-filter=".editor">Editors / Editorial Team</button>
+  <button class="button" data-filter=".leadership">Leadership</button>
+  <button class="button" data-filter=".editor">Editorial Team</button>
   <button class="button" data-filter=".reviewer">Reviewers</button>
   <button class="button" data-filter=".maintainer">Maintainers</button>
   <button class="button" data-filter=".peer-review-guide">Peer Review Guide</button>
@@ -76,11 +76,10 @@ pyOpenSci has a diverse and vibrant community of pythonistas! To date,
   <button class="button" data-filter=".metrics-contrib">Metrics</button>
   <button class="button" data-filter=".web-contrib">Website</button>
 
-  <!-- <button class="button" data-filter=":not(.transition)">not transition</button>
-  <button class="button" data-filter=".metal:not(.transition)">metal but not transition</button> -->
 </div>
 
 <div class="grid-isotope">
+ <div class="grid-sizer"></div>
 {% for aperson in ppl_sorted %}
   {% include people-grid.html %}
 {% endfor %}

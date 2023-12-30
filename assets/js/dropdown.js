@@ -47,8 +47,8 @@ var $grid = $('.grid-isotope').imagesLoaded( function() {
     itemSelector: '.element-item',
     layoutMode: 'masonry',
     masonry: {
-      columnWidth: 80,
-      horizontalOrder: false,
+      columnWidth: 100,
+      horizontalOrder: true,
     },
     filter: function() {
       var $this = $(this);
