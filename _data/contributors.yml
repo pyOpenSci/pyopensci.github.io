@@ -112,7 +112,7 @@
 - name: Carol Willing
   github_username: willingc
   github_image_id: 2680980
-  title:
+  title: Advisory Council
   sort:
   bio: Project Jupyter, nteract, and CPython core developer@python | @jupyter |
       @jupyterhub | @ipython | @nteract | @pysplash
@@ -127,6 +127,7 @@
   website: https://hachyderm.io/web/@willingc
   board: false
   contributor_type:
+    - leadership
     - code-contrib
     - guidebook-contrib
     - peer-review
@@ -142,7 +143,7 @@
 - name: Erin Robinson
   github_username: erinmr
   github_image_id: 2915555
-  title:
+  title: Advisory Council
   sort:
   bio:
   organization:
@@ -165,7 +166,7 @@
 - name: Chris Holdgraf
   github_username: choldgraf
   github_image_id: 1839645
-  title:
+  title: Advisory Council
   sort:
   bio: I work with Project Jupyter and other open communities to build tools and
       solve problems for scientific research and education.
@@ -193,7 +194,7 @@
 - name: Inessa Pawson
   github_username: InessaPawson
   github_image_id: 43481325
-  title:
+  title: Advisory Council
   sort:
   bio: NumPy Contributor Experience LeadOpen Source Program Manager at OpenTeams
       Incubator
@@ -218,7 +219,7 @@
 - name: Pradyun Gedam
   github_username: pradyunsg
   github_image_id: 3275593
-  title:
+  title: Advisory Council
   sort:
   bio: "@pypa member, @psf fellow, @toml-lang core, @sphinx-doc contributor. Past
       intern at @enthought and IITB.Don't email or tweet me for tech support."
@@ -233,6 +234,7 @@
   website: https://pradyunsg.me
   board: false
   contributor_type:
+    - leadership
     - guidebook-contrib
     - package-guide
   packages_editor:
@@ -243,7 +245,7 @@
 - name: Leonardo Uieda
   github_username: leouieda
   github_image_id: 290082
-  title:
+  title: Advisory Council
   sort:
   bio: Geophysicist investigating Earth's gravity & magnetic fields from global
       to microscopic scale 🛰️🔬🌎
@@ -258,6 +260,7 @@
   website: https://www.leouieda.com
   board: false
   contributor_type:
+    - leadership
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -267,6 +270,7 @@
   github_username: xmnlab
   github_image_id: 5209757
   title:
+    - Advisory Council
     - Emeritus editor
   sort: 1
   bio: Open Source Developer
@@ -304,7 +308,9 @@
 - name: Filipe
   github_username: ocefpaf
   github_image_id: 950575
-  title: Editor
+  title:
+    - Advisory Council
+    - Editor
   sort: 2
   bio: Filipe Fernandes is a Physical oceanographer by training, turned research
       software engineer, and a software packager hobbyist.
@@ -336,7 +342,7 @@
 - name: Lindsey Heagy
   github_username: lheagy
   github_image_id: 6361812
-  title:
+  title: Advisory Council
   sort:
   bio: Asst. Prof at UBC EOAS. Researcher working on geophysical simulations and
       inversions (in @simpeg!) and data science.
@@ -360,7 +366,7 @@
 - name: Martin Fleischmann
   github_username: martinfleis
   github_image_id: 36797143
-  title:
+  title: Advisory Council
   sort:
   bio: Researcher in geographic data science. Member of @geopandas and @pysal development
       teams.
@@ -387,7 +393,7 @@
 - name: Yuvi Panda
   github_username: yuvipanda
   github_image_id: 30430
-  title:
+  title: Advisory Council
   sort:
   bio:
   organization: '@2i2c-org'
@@ -412,7 +418,7 @@
 - name: Chase Million
   github_username: cmillion
   github_image_id: 1483210
-  title:
+  title: Advisory Council
   sort:
   bio:
   organization:
@@ -426,6 +432,7 @@
   website:
   board: false
   contributor_type:
+    - leadership
   packages_editor:
   packages_submitted:
   packages_reviewed:
