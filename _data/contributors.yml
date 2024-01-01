@@ -127,9 +127,9 @@
   website: https://hachyderm.io/web/@willingc
   board: false
   contributor_type:
-    - leadership
     - code-contrib
     - guidebook-contrib
+    - leadership
     - peer-review
     - peer-review-guide
     - reviewer
@@ -234,8 +234,8 @@
   website: https://pradyunsg.me
   board: false
   contributor_type:
-    - leadership
     - guidebook-contrib
+    - leadership
     - package-guide
   packages_editor:
   packages_submitted:
