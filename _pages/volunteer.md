@@ -17,14 +17,14 @@ help-us:
     btn_label: "> Check out our GitHub Help Wanted Board"
     btn_class: btn--inverse
   - image_path:
-    title: "Sign up to be a package reviewer"
+    title: "Sign up to be a scientific Python package reviewer"
     alt:
     excerpt: "Finding reviewers is one of the more challenging parts of running a peer review process. We are always looking for new reviewers from a broad range of scientific domains. Some reviewers have extensive packaging expertise and others have domain expertise. We think that mix is great, so sign up today! If you are new to reviewing we are happy to support you through our peer review mentorship program."
     url: https://forms.gle/GHfxvmS47nQFDcBM6
     btn_label: "> Sign up now."
     btn_class: btn--inverse
   - image_path:
-    title: "Get involved as a peer review Editor"
+    title: "Get involved as software peer review Editor"
     alt:
     excerpt: "We also often recruit new editors to support our peer review process. Keep an eye out on our [Discourse forum](https://pyopensci.discourse.group/) for calls for new editors. In the meantime if you are interested in learning more about the editor role, check out our [peer review guidebook](https://www.pyopensci.org/software-peer-review/). "
     url: https://www.pyopensci.org/software-peer-review/how-to/editors-guide.html
