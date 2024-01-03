@@ -84,7 +84,7 @@ There are many ways to get involved with pyOpenSci! We’re always looking for f
 
 ## Share your expertise and experience with the broader community through blogging
 
-And last but not least, we’d also love for you to be a guest blogger on the [pyOpenSci blog](https://www.pyopensci.org/blog/index.html)! If you’d like to write about a pyOpenSci package, your experiences with pyOpenSci, or how you’re using free and open Python tools in your scientific endeavors, we’d love to hear from you! Email our Community team at [media@pyopensci.org](media@pyopensci.org) for more information.
+And last but not least, we’d also love for you to be a guest blogger on the [pyOpenSci blog](https://www.pyopensci.org/blog/index.html)! If you’d like to write about a pyOpenSci package, your experiences with pyOpenSci, or how you’re using free and open Python tools in your scientific endeavors, we’d love to hear from you! Email our Community team at [media@pyopensci.org](mailto:media@pyopensci.org) for more information.
 
 ## Learn more about volunteering with pyOpenSci
 
