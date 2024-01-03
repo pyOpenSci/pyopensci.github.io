@@ -57,12 +57,12 @@ PyOpenSci is currently sponsored by both the [Alfred P. Sloan Foundation](https:
    <div class="feature__item--left">
       <div class="archive__item">
          <div class="archive__item-teaser">
-            <img src="/images/sloan-logo.png" alt="">
+            <img src="/images/czi-logo.png" alt="">
          </div>
          <div class="archive__item-body">
             <h2 class="archive__item-title">Alfred P. Sloan Foundation</h2>
             <div class="archive__item-excerpt">
-               <p>Founded in 2015, The Chan Zuckerberg Initiative (CZI) exists to help build a “more inclusive, just, and healthy future for everyone.” Through their support of science, educational, and community work, CZI combines philanthropy with technology while integrating a diversity, equity, and inclusion lens to the work that they do. You can read more about their work [here](https://chanzuckerberg.com/about/our-approach/).  
+               <p>[The Chan Zuckerberg Initiative](https://chanzuckerberg.com/about/our-approach/) was founded in 2015 to help solve some of society’s toughest challenges — from eradicating disease and improving education, to addressing the needs of our local communities. Our mission is to build a more inclusive, just, and healthy future for everyone.   
                </p>
             </div>
          </div>
