@@ -28,11 +28,6 @@ jobs:
           build_only: true
           build_dir: _site
 
-      - name: all dirs
-        run: |
-          ls
-          pwd
-
       - name: Check HTML using htmlproofer
         uses: chabad360/htmlproofer@master
         with:
