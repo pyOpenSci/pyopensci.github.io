@@ -40,7 +40,7 @@ PyOpenSci is currently sponsored by both the [Alfred P. Sloan Foundation](https:
    <div class="feature__item--left">
       <div class="archive__item">
          <div class="archive__item-teaser">
-            <img src="/images/sloan-logo.png" alt="">
+            <img src="/images/sloan-square-logo.png" alt="">
          </div>
          <div class="archive__item-body">
             <h2 class="archive__item-title">Alfred P. Sloan Foundation</h2>
