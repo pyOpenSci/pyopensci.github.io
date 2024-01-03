@@ -20,8 +20,6 @@ main:
     url: "/python-packages/index.html"
   - title: "Blog"
     url: "/blog/index.html"
-  # - title: "Resources"
-  #   url: /resources/
   - title: "Community"
     sub-nav:
       - title: "Our Community"
@@ -33,4 +31,6 @@ main:
         icon: "fas fa-external-link-alt"
         url: "https://www.pyopensci.org/governance/"
   - title: "Get Involved"
-    url: /get-involved-contact.html
+    sub-nav:
+      - title: "Volunteer"
+        url: "/volunteer.html"
