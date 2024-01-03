@@ -88,7 +88,7 @@ And last but not least, we’d also love for you to be a guest blogger on the [p
 
 ## Learn more about volunteering with pyOpenSci
 
-If you still have questions about volunteer roles at pyOpenSci, email our Community team at [media@pyopensci.org](media@pyopensci.org), and we’d be more than happy to help! You can also ask questions and network with the broader pyOpenSci community on our [Discourse forum](https://pyopensci.discourse.group/).
+If you still have questions about volunteer roles at pyOpenSci, email our Community team at [media@pyopensci.org](mailto:media@pyopensci.org), and we’d be more than happy to help! You can also ask questions and network with the broader pyOpenSci community on our [Discourse forum](https://pyopensci.discourse.group/).
 
 </div>
 </div>
