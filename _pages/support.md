@@ -53,24 +53,7 @@ intro:
 </div>
 </div>
 
-<<<<<<< HEAD
 {% include div_purple_bottom.html  %}
-=======
-<div class="feature__wrapper" markdown="1">
-   <div class="feature__item--left">
-      <div class="archive__item">
-         <div class="archive__item-teaser">
-            <img src="/images/czi-logo.png" alt="">
-         </div>
-         <div class="archive__item-body">
-            <h2 class="archive__item-title">Alfred P. Sloan Foundation</h2>
-            <div class="archive__item-excerpt">
-               <p>[The Chan Zuckerberg Initiative](https://chanzuckerberg.com/about/our-approach/) was founded in 2015 to help solve some of society’s toughest challenges — from eradicating disease and improving education, to addressing the needs of our local communities. Our mission is to build a more inclusive, just, and healthy future for everyone.   
-               </p>
-            </div>
-         </div>
-      </div>
->>>>>>> 0683fa2 (updated with czi language and logo)
 
 
 
