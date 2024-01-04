@@ -76,7 +76,7 @@ PyOpenSci is currently sponsored by both the [Alfred P. Sloan Foundation](https:
 Through the generosity of their employers, volunteers are able to donate a small portion of their time each month to assisting a non-profit. We currently have employees from the following organizations donating their time to pyOpenSci, helping with infrastructure needs, serving as an editor or reviewer, or contributing to one of our guides!  
 
 ## Get involved
-Learn more about volunteer opportunities with pyOpenSci on our volunteer page, and network with the broader pyOpenSci community on our [Discourse forum](https://pyopensci.discourse.group/)!  
+Learn more about volunteer opportunities with pyOpenSci on [our volunteer page](https://www.pyopensci.org/volunteer.html), and network with the broader pyOpenSci community on our [Discourse forum](https://pyopensci.discourse.group/)!  
 
 ## Let's connect!
 
