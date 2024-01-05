@@ -73,7 +73,7 @@ peer-review:
 ## Latest contributors
 
 <div class="entries-grid">
-{% for aperson in new_ppl limit:3 %}
+{% for aperson in new_ppl limit:4 %}
     {% include people-grid.html  %}
 {% endfor %}
 </div>
@@ -84,7 +84,7 @@ peer-review:
 ## Recent Blog Posts & Updates
 
 <div class="grid col-3">
-  {% for post in site.categories['highlight'] limit:3 %}
+  {% for post in site.posts limit:3 %}
 
   <div class="cards">
   <h3 ><a href="{{ site.baseurl }}{{ post.url}}" rel="permalink">{{ post.title }}</a></h3>
@@ -100,7 +100,6 @@ peer-review:
 <p><a href="/blog/" class="btn btn--info btn--large">View All Posts <i class="fa fa-4 fa-arrow-circle-right" aria-hidden="true"></i></a></p>
 </div>
 
-<!-- packages reviewed -->
 
 ## Recently Accepted Python Packages
 
