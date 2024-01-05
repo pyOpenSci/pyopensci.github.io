@@ -157,9 +157,6 @@ footer:
     - label: "Discourse"
       icon: "fa-brands fa-discourse"
       url: "https://pyopensci.discourse.group/"
-    # - label: "Instagram"
-    #   icon: "fab fa-fw fa-instagram"
-    #   # url:
 
 # Reading Files
 include:
