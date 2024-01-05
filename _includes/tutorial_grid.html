@@ -1,0 +1,44 @@
+
+<div class="element-item cards">
+    <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+        {% if atutorial.image %}
+          <div class="person_img">
+            <img src="{{ atutorial.image }}" alt="Alt here">
+          </div>
+        {% endif %}
+      <h4 class="person_name" itemprop="headline">
+          <a href="{{ atutorial.link }}" rel="permalink"> {{ atutorial.title }}
+         </a>
+      </h4>
+
+      {% if atutorial.excerpt %}
+      <p class="page__meta">
+      <span>
+        {{ atutorial.excerpt }}
+      </span>
+    </p>
+      {% endif %}
+
+    {% if atutorial.learning_objectives %}
+    <ul>
+      {% for objective in atutorial.learning_objectives %}
+        <li>
+          {{ objective }}
+        </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% if atutorial.subpages %}
+    <ul>
+        {% for page in atutorial.subpages %}
+          <li>
+            <a href="{{ page.url }}">{{ page.name }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+
+    {% endif %}
+
+    </article>
+  </div>
