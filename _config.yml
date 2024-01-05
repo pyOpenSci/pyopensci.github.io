@@ -105,10 +105,10 @@ social:
 
 # Analytics
 analytics:
-  provider: "google-gtag" # false (default), "google", "google-universal", "custom"
+  provider:  false # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id: "UA-141260825-1"
-    anonymize_ip: false # true, false (default)
+    tracking_id:
+    anonymize_ip:  # true, false (default)
 
 # Site Author
 author:
@@ -121,21 +121,20 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       # url: mailto:your.name@email.com
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+    - label: "Bluesky"
+      icon: "fa-solid fa-cloud"
+      # url: "https://bluesky.com/"
+    - label: "Mastodon"
+      icon: "fa-brands fa-mastodon"
+      url:
+    - label: "LinkedIn"
+      icon: "fa-brands fa-linkedin"
+      # url: "https://linkedin.com/"
+
+
 
 # Site Footer
 footer:
@@ -146,21 +145,21 @@ footer:
     - label: "Mastodon"
       icon: "fab fa-fw fa-mastodon"
       url: https://fosstodon.org/@pyOpenSci
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: https://www.twitter.com/pyOpenSci
+    - label: "Bluesky"
+      icon: "fa-solid fa-cloud"
+      url: https://bsky.app/profile/pyopensci.bsky.social
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: https://github.com/pyOpenSci
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: https://www.linkedin.com/company/pyopensci
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
+    - label: "Discourse"
+      icon: "fa-brands fa-discourse"
+      url: "https://pyopensci.discourse.group/"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   # url:
 
 # Reading Files
 include:
