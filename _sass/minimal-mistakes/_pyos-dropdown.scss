@@ -338,7 +338,9 @@ drop shadow
     display: block;
     position: absolute;
     top: 5%;
-    right: 5%;}
+    right: 5%;
+    width: 2.0rem;
+  }
 
   .burger__icon, burger__icon::before, burger__icon::after {
     display: block; }
