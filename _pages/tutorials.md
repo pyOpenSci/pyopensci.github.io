@@ -1,5 +1,5 @@
 ---
-title: scientific Python tutorials
+title: Scientific Python tutorials
 layout: collection
 permalink: /tutorials/
 collection: portfolio
