@@ -11,7 +11,7 @@ intro:
   - excerpt: "More here on community packaging."
 scientists:
   - image_path: images/pyopensci-people-at-computer.jpg
-    alt: "A pencil sketch of a round table with people sitting around it from different backgrounds working on laptops and also writing together."
+    alt: "A pencil sketch of a round table with people from different backgrounds sitting around it, working on laptops and also writing together."
     excerpt: "Our catalog of vetted open source tools makes it easier for scientists to find the trusted tools that they need to develop their open science workflows."
     title: "Help scientists find the open science tools that they need"
     url: https://www.pyopensci.org/python-packages.html
@@ -19,9 +19,9 @@ scientists:
     btn_class: btn--primary
 packaging-easier:
    - image_path: images/people-building-blocks.jpg
-     alt: "A group of people working on a tetris like set of building blocks trying to stack them all together. "
+     alt: "A group of people working on a tetris like set of building blocks, trying to stack the blocks together. "
      title: "Contribute to our packaging resources"
-     excerpt: "More here about our review process with links :
+     excerpt: "More about our review process, with links:
 
      * More
 
@@ -32,7 +32,7 @@ packaging-easier:
      btn_class: btn--primary
 partnership_benefits:
   - image_path: /images/peer-review/pyos-partnerships-peer-review.png
-    alt: "Diagram with a light purple background. On the left there is the pyOpenSci purple flower and it says accepted with a check mark above. There are two arrows leading to boxes on the right. The top box says JOSS published with a check next to it and the JOSS logo. The box below says Community Affiliated with a check. THe boxes are numbered 1,2,3. "
+    alt: "Diagram with a light purple background. On the left there is the pyOpenSci purple flower and it says accepted with a check mark above. There are two arrows leading to boxes on the right. The top box says JOSS published with a check next to it and the JOSS logo. The box below says Community Affiliated with a check. The boxes are numbered 1,2,3. "
     excerpt: "
 Through a single review process, community maintainers:
 
@@ -86,7 +86,7 @@ We are currently developing a beginner-friendly packaging tutorial series.
 
 <div class="clearfix"></div>
 
-More here
+More here:
 
 </div>
 </div>
