@@ -1,49 +1,57 @@
 ---
 layout: splash
 classes: flowing
-permalink: /python-packaging-help.html
-title: "Python packaging help and resources"
+permalink: /python-packaging-for-science.html
+title: "Python packaging resources for scientists"
 excerpt: "We make the scientific Python package ecosystem easier to navigate through peer review and packaging resources."
 header:
   overlay_image: images/header.jpg
   overlay_filter: 0.8
 intro:
-  - excerpt: "More here on community packaging."
-scientists:
+  - excerpt: "There are many tools and approaches that can be used to create a Python package. We build resources that help you both understand the tool ecosystem and also learn how to create a Python package using modern best practices."
+peer-review:
   - image_path: images/pyopensci-people-at-computer.jpg
     alt: "A pencil sketch of a round table with people from different backgrounds sitting around it, working on laptops and also writing together."
-    excerpt: "Our catalog of vetted open source tools makes it easier for scientists to find the trusted tools that they need to develop their open science workflows."
-    title: "Help scientists find the open science tools that they need"
-    url: https://www.pyopensci.org/python-packages.html
-    btn_label: View our growing list of accepted scientific Python packages
+    excerpt: "We run an open peer review process for scientific Python software. Peer review helps maintainers improve the quality, usability and long-term maintainability of scientific software."
+    title: Raising the bar for scientific Python software"
+    url: https://www.pyopensci.org/about-peer-review/index.html
+    btn_label: Learn more and get involved with peer review today.
     btn_class: btn--primary
 packaging-easier:
    - image_path: images/people-building-blocks.jpg
      alt: "A group of people working on a tetris like set of building blocks, trying to stack the blocks together. "
-     title: "Contribute to our packaging resources"
-     excerpt: "More about our review process, with links:
+     title: "Get Involved: Help us improve our scientific Python packaging resources"
+     excerpt: "
+     We need your help! Our packaging content is community-created and reviewed through an open review process on GitHub. The more feedback that we get, the more useful our resources are to the community. Get involved by:
 
-     * More
+     * Opening an issue about problems that you find in our guidebook
 
-     * More
+     * Submitting a pull request that fixes a typo or mistake in the guide.
+
+     * Get credit for your contribution
+
+
+     All contributions are recognized both on our website and in the guidebook's citation.
      "
-     url: https://www.pyopensci.org/python-package-guide
-     btn_label: View our Python packaging guide
+     url: https://github.com/pyOpenSci/python-package-guide/pulls
+     btn_label: See what we're working on now
      btn_class: btn--primary
-partnership_benefits:
-  - image_path: /images/peer-review/pyos-partnerships-peer-review.png
-    alt: "Diagram with a light purple background. On the left there is the pyOpenSci purple flower and it says accepted with a check mark above. There are two arrows leading to boxes on the right. The top box says JOSS published with a check next to it and the JOSS logo. The box below says Community Affiliated with a check. The boxes are numbered 1,2,3. "
-    excerpt: "
-Through a single review process, community maintainers:
+community-created:
+   - image_path: images/pyopensci-people-working-together.png
+     alt: "A group of people working on a tetris like set of building blocks, trying to stack the blocks together. "
+     title: "Community created Python Packaging Guide"
+     excerpt: "
+     Our packaging guide is a living document that will help you navigate the Python packaging ecosystem and also learn about modern Python packaging best practices.
 
-* Have their package accepted into the pyOpenSci ecosystem
+    * Created & curated by the community
 
-* Can be [published in JOSS (if in scope)](https://www.pyopensci.org/software-peer-review/partners/joss.html#)
+    * Reviewed by beginner to expert level Pythonistas
 
-* Can become an affiliated package with your community, following your community guidelines.
+    * Accurate, modern & beginner-friendly
 
-* Are supported in maintaining their tools, with input from our diverse, knowledgeable community, including active members from across the Python, Conda, PyPA and broader Python packaging ecosystem."
-    title: "Benefits of partnering with us"
+
+     All contributions are recognized both on our website and in the guidebook's citation.
+     "
 toc: false
 ---
 
@@ -52,9 +60,9 @@ toc: false
 <div class="pyos-section purple">
 <div class="content" markdown="1">
 
-## Check out our Python Packaging guidebook pages
+{% include feature_row id="community-created" type="right" %}
 
-They've been reviewed.. etc etc...
+### Guidebook sections
 
 <div class="entries-grid">
 {% for atutorial in site.packaging %}
@@ -64,8 +72,6 @@ They've been reviewed.. etc etc...
 
 <div class="clearfix"></div>
 
-More here
-
 </div>
 </div>
 
@@ -74,9 +80,11 @@ More here
 <div class="pyos-section">
 <div class="content" markdown="1">
 
-## Check out our Python Packaging tutorials
+## Python packaging 101
 
-We are currently developing a beginner-friendly packaging tutorial series.
+Beginner-friendly Python packaging tutorials that will take you through
+the full process of creating a Python package following modern best
+practices.
 
 <div class="entries-grid">
 {% for atutorial in site.tutorials %}
@@ -86,7 +94,7 @@ We are currently developing a beginner-friendly packaging tutorial series.
 
 <div class="clearfix"></div>
 
-More here:
+
 
 </div>
 </div>
@@ -95,51 +103,20 @@ More here:
 
 <div class="pyos-section purple" markdown="1">
 <div class="content" markdown="1">
-{% include feature_row id="scientists" type="left" %}
-
-</div>
-</div>
-
-
-{% include div_purple_bottom.html  %}
-
-<div class="pyos-section" markdown="1">
-<div class="content" markdown="1">
-
-SDFSDF
-
-</div>
-</div>
-
-{% include div_purple_top.html  %}
-
-<div class="pyos-section purple" markdown="1">
-<div class="content" markdown="1">
-
 {% include feature_row id="packaging-easier" type="left" %}
 
 </div>
 </div>
 
+
 {% include div_purple_bottom.html  %}
 
 <div class="pyos-section" markdown="1">
 <div class="content" markdown="1">
-{% include feature_row id="community" type="right" %}
-</div>
-</div>
 
-<div class="pyos-section" markdown="1">
-<div class="content" markdown="1">
-## Raising the bar for Scientific Python software
-
+{% include feature_row id="peer-review" type="right" %}
 
 </div>
 </div>
 
-<div class="pyos-section purple" markdown="1">
-<div class="content" markdown="1">
-
-
-</div>
-</div>
+{% include div_purple_top.html  %}
