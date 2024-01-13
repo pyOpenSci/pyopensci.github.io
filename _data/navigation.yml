@@ -15,19 +15,19 @@ main:
       - title: "Peer review guide"
         url: "https://www.pyopensci.org/software-peer-review/"
         icon: "fas fa-external-link-alt"
-      - title: "Python package guide"
-        url: "https://www.pyopensci.org/python-package-guide/"
-        icon: "fas fa-external-link-alt"
   - title: "Python Packaging"
     icon: "fas fa-fw fa-envelope-square"
     url:
     sub-nav:
       - title: "Packaging help"
         icon:
-        url: "python-packaging-help.html"
+        url: "python-packaging-for-science.html"
       - title: "Our packages"
         icon:
         url: "/python-packages/"
+      - title: "Python package guide"
+        url: "https://www.pyopensci.org/python-package-guide/"
+        icon: "fas fa-external-link-alt"
   - title: "Blog"
     url: "/blog/index.html"
   - title: "Community"
