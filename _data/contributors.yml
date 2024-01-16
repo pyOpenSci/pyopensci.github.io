@@ -3141,6 +3141,7 @@
   contributor_type:
     - community
     - maintainer
+    - package-guide
     - peer-review
     - reviewer
     - submitting-author
@@ -3533,7 +3534,7 @@
   twitter: theayushanand
   mastodon:
   orcidid:
-  website: https://ayushanand18.github.io
+  website:
   board: false
   contributor_type:
     - peer-review
