@@ -34,3 +34,5 @@ main:
     sub-nav:
       - title: "Volunteer"
         url: "/volunteer.html"
+      - title: "Support Us"
+        url: "/support.html"
