@@ -1,0 +1,65 @@
+.tutorial {
+    font-size: 1em;
+
+    & p.page__meta {
+        padding-top: 1.3em;
+    }
+}
+
+.card .page__meta {
+    font-size:5em!important;
+}
+
+.tutorial__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); // Adjust the minmax values as needed
+    grid-gap: 20px;
+
+    // Ensure all cards have the height of the tallest card
+    align-items: stretch;
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+        .excerpt {
+            font-size: 1em;
+            padding: 1em;
+        }
+        h4.title {
+            color: rgb(84, 38, 104)!important;
+            font-size: 1.3em;
+            margin: 0;
+        }
+        .title-block {
+            background-color: #F7F2E2;
+            display: flex;
+            height: auto;
+            padding: 1.2em;
+            border-bottom: #555 2px solid;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        .content {
+            flex: 1;
+        }
+        ul li {
+            font-size: .9em;
+            margin: 0 0 .5em 0;
+        }
+    }
+
+}
+
+
+.btn--success{
+    color: #000!important;
+}

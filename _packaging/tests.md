@@ -10,5 +10,9 @@ subpages:
       url:  https://www.pyopensci.org/python-package-guide/tests/write-tests.html
     - name: Three types of types for your Python package
       url:  https://www.pyopensci.org/python-package-guide/tests/test-types.html
+    - name: Run tests locally
+      url: https://www.pyopensci.org/python-package-guide/tests/run-tests.html
+    - name: Run tests online using Continuous Integration
+      url: https://www.pyopensci.org/python-package-guide/tests/tests-ci.html
 url:
 ---

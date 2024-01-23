@@ -1,7 +1,7 @@
 ---
 layout: splash
 classes: flowing
-permalink: /python-packaging-for-science.html
+permalink: /python-packaging-science.html
 title: "Python packaging resources for scientists"
 excerpt: "We make the scientific Python package ecosystem easier to navigate through peer review and packaging resources."
 header:
@@ -18,8 +18,8 @@ peer-review:
     btn_label: Learn more and get involved with peer review today.
     btn_class: btn--primary
 packaging-easier:
-   - image_path: images/people-building-blocks.jpg
-     alt: "A group of people working on a tetris like set of building blocks, trying to stack the blocks together. "
+   - image_path: images/pyopensci-working-together.png
+     alt: "A black and grey sketch of a group of people sitting at a desk in front of a monitor smiling."
      title: "Get Involved: Help us improve our scientific Python packaging resources"
      excerpt: "
      We need your help! Our packaging content is community-created and reviewed through an open review process on GitHub. The more feedback that we get, the more useful our resources are to the community. Get involved by:
@@ -62,11 +62,11 @@ toc: false
 
 {% include feature_row id="community-created" type="right" %}
 
-### Guidebook sections
+### Scientific Python packaging guidebook sections
 
-<div class="entries-grid">
+<div class="tutorial__container">
 {% for atutorial in site.packaging %}
-  {% include tutorial_grid.html  %}
+  {% include tutorial-grid.html  %}
 {% endfor %}
 </div>
 
@@ -86,9 +86,9 @@ Beginner-friendly Python packaging tutorials that will take you through
 the full process of creating a Python package following modern best
 practices.
 
-<div class="entries-grid">
+<div class="tutorial__container">
 {% for atutorial in site.tutorials %}
-  {% include tutorial_grid.html  %}
+  {% include tutorial-grid.html  %}
 {% endfor %}
 </div>
 
@@ -110,13 +110,3 @@ practices.
 
 
 {% include div_purple_bottom.html  %}
-
-<div class="pyos-section" markdown="1">
-<div class="content" markdown="1">
-
-{% include feature_row id="peer-review" type="right" %}
-
-</div>
-</div>
-
-{% include div_purple_top.html  %}
