@@ -1,12 +1,15 @@
 ---
-title: "Python package structure"
-excerpt: "
-  This section provides guidance on your Python package’s structure, code formats and style. It also reviews the various packaging tools that you can use to support building and publishing your package."
-learning_objectives:
+title: "Create your Python package structure"
+excerpt: "Learn about the best way to create your Python package."
 subpages:
-    - name: Package structure
-      url:  https://www.pyopensci.org/python-package-guide/package-structure-code/intro.html
-    - name: Build tools package
-      url:  https://www.pyopensci.org/python-package-guide/package-structure-code/intro.html
-url:
+  - name: The structure of a Python package
+    url:  https://www.pyopensci.org/python-package-guide/package-structure-code/python-package-structure.html
+  - name: Add metadata - pyproject.toml file
+    url: https://www.pyopensci.org/python-package-guide/package-structure-code/pyproject-toml-python-package-metadata.html
+  - name: Declare package dependencies
+    url: https://www.pyopensci.org/python-package-guide/package-structure-code/declare-dependencies.html
+  - name: Get to know the ecosystem of Python packaging tools
+    url: https://www.pyopensci.org/python-package-guide/package-structure-code/python-package-build-tools.html
+  - name: Complete package builds
+    url: https://www.pyopensci.org/python-package-guide/package-structure-code/complex-python-package-builds.html
 ---

@@ -19,13 +19,13 @@ main:
     icon: "fas fa-fw fa-envelope-square"
     url:
     sub-nav:
-      - title: "Packaging help"
+      - title: "Packaging resources"
         icon:
-        url: "python-packaging-for-science.html"
+        url: "python-packaging-science.html"
       - title: "Our packages"
         icon:
         url: "/python-packages/"
-      - title: "Python package guide"
+      - title: "Package Guidebook"
         url: "https://www.pyopensci.org/python-package-guide/"
         icon: "fas fa-external-link-alt"
   - title: "Blog"
