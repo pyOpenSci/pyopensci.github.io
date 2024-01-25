@@ -56,6 +56,10 @@
             font-size: .9em;
             margin: 0 0 .5em 0;
         }
+        ul {
+            padding-right: .05em;
+            padding-bottom: .2em;
+        }
     }
 
 }
@@ -63,4 +67,13 @@
 
 .btn--success{
     color: #000!important;
+}
+
+
+.subsection {
+    padding: 0 2em;
+
+    h3 {
+        padding-left: 0.5em;
+    }
 }
