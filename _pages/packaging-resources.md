@@ -39,9 +39,9 @@ packaging-easier:
 community-created:
    - image_path: images/pyopensci-people-working-together.png
      alt: "A group of people working on a tetris like set of building blocks, trying to stack the blocks together. "
-     title: "Community created Python Packaging Guide"
+     title: "Community-created Python Packaging Guide"
      excerpt: "
-     Our packaging guide is a living document that will help you navigate the Python packaging ecosystem and also learn about modern Python packaging best practices.
+     Our packaging guide is a living document that will help you navigate the Python packaging ecosystem and learn about modern Python packaging best practices.
 
     * Created & curated by the community
 
@@ -83,7 +83,7 @@ toc: false
 ## Python packaging 101
 
 Beginner-friendly Python packaging tutorials that will take you through
-the full process of creating a Python package following modern best
+the full process of creating a Python package, following modern best
 practices.
 
 <div class="tutorial__container">
