@@ -34,10 +34,11 @@ packaging-easier:
      All contributions are recognized both on our website and in the guidebook's citation.
      "
      url: https://github.com/pyOpenSci/python-package-guide/pulls
-     btn_label: See what we're working on now
-     btn_class: btn--primary
+     btn_label: <i class="fa-solid fa-arrow-up-right-from-square"></i> See what we're working on now
+     btn_class: btn--success
 community-created:
    - image_path: images/pyopensci-people-working-together.png
+     image_size: 500px
      alt: "A group of people working on a tetris like set of building blocks, trying to stack the blocks together. "
      title: "Community-created Python Packaging Guide"
      excerpt: "
@@ -62,6 +63,7 @@ toc: false
 
 {% include feature_row id="community-created" type="right" %}
 
+<div class="subsection" markdown="1">
 ### Scientific Python packaging guidebook sections
 
 <div class="tutorial__container">
@@ -70,6 +72,7 @@ toc: false
 {% endfor %}
 </div>
 
+</div>
 <div class="clearfix"></div>
 
 </div>
@@ -80,7 +83,7 @@ toc: false
 <div class="pyos-section">
 <div class="content" markdown="1">
 
-## Python packaging 101
+## Beginner friendly Python packaging tutorials
 
 Beginner-friendly Python packaging tutorials that will take you through
 the full process of creating a Python package, following modern best
@@ -93,8 +96,6 @@ practices.
 </div>
 
 <div class="clearfix"></div>
-
-
 
 </div>
 </div>
