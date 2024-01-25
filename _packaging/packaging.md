@@ -1,5 +1,5 @@
 ---
-title: "Create your Python package structure"
+title: "Create Python package structure"
 excerpt: "Learn about the best way to create your Python package."
 subpages:
   - name: The structure of a Python package
