@@ -6,7 +6,7 @@ learning_objectives:
     - "Build your package’s distributions"
     - "Setup an account on test PyPI (the process is similar for the real PyPI)"
     - "Publish your package to test PyPI"
-url: https://www.pyopensci.org/python-package-guide/tutorials/publish-pypi.html
+link: https://www.pyopensci.org/python-package-guide/tutorials/publish-pypi.html
 btn_label: View Tutorial
 btn_class: btn--success btn--large
 ---
