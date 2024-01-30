@@ -536,6 +536,7 @@
   packages_editor:
     - astartes
     - crowsetta
+    - sunpy
   packages_submitted:
   packages_reviewed:
   location:
@@ -2909,9 +2910,12 @@
   board: false
   contributor_type:
     - guidebook-contrib
+    - maintainer
+    - peer-review
     - peer-review-guide
   packages_editor:
   packages_submitted:
+    - sunpy
   packages_reviewed:
   location: London, UK
   email: d.stansby@ucl.ac.uk
@@ -4391,10 +4395,13 @@
   website: https://about.me/sean.c.kelly
   board: false
   contributor_type:
+    - peer-review
     - peer-review-guide
+    - reviewer
   packages_editor:
   packages_submitted:
   packages_reviewed:
+    - sunpy
   location:
   email: kelly@seankelly.biz
 - name: Andrew Nesbitt
@@ -4564,3 +4571,331 @@
   packages_reviewed:
   location: München
   email: flying-sheep@web.de
+- name: Septaris/Babouh
+  github_username: Septaris
+  github_image_id: 8026975
+  title:
+  sort:
+  bio:
+  organization: Observatoire de Paris
+  date_added: '2024-01-30'
+  deia_advisory: false
+  editorial_board:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  website:
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - sunpy
+  location: Meudon
+  email:
+- name: Nabil Freij
+  github_username: nabobalis
+  github_image_id: 1392107
+  title:
+  sort:
+  bio: Research Software Engineer
+  organization: BAERI/LMSAL (@LM-SAL)
+  date_added: '2024-01-30'
+  deia_advisory: false
+  editorial_board:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+    - submitting-author
+  packages_editor:
+  packages_submitted:
+    - sunpy
+  packages_reviewed:
+  location: Palo Alto, CA, USA
+  email: nabil.freij@gmail.com
+- name: Steven Christe
+  github_username: ehsteve
+  github_image_id: 739053
+  title:
+  sort:
+  bio: Research Astrophysicist at the NASA Goddard Space Flight Center.
+  organization: NASA Goddard Space Flight Center
+  date_added: '2024-01-30'
+  deia_advisory: false
+  editorial_board:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  website: https://orcid.org/0000-0001-6127-795X
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_editor:
+  packages_submitted:
+    - sunpy
+  packages_reviewed:
+  location: Washington, DC
+  email:
+- name: David Pérez-Suárez
+  github_username: dpshelio
+  github_image_id: 963242
+  title:
+  sort:
+  bio: Astrophysicist lent towards the day side of it.Happy to be the happiness
+      of the the garden
+  organization: '@UCL-ARC'
+  date_added: '2024-01-30'
+  deia_advisory: false
+  editorial_board:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  website: https://dpshelio.github.io
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_editor:
+  packages_submitted:
+    - sunpy
+  packages_reviewed:
+  location: London
+  email:
+- name: Jack Ireland
+  github_username: wafels
+  github_image_id: 983575
+  title:
+  sort:
+  bio: Research Astrophysicist
+  organization:
+  date_added: '2024-01-30'
+  deia_advisory: false
+  editorial_board:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_editor:
+  packages_submitted:
+    - sunpy
+  packages_reviewed:
+  location:
+  email:
+- name: Albert Y. Shih
+  github_username: ayshih
+  github_image_id: 991759
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2024-01-30'
+  deia_advisory: false
+  editorial_board:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_editor:
+  packages_submitted:
+    - sunpy
+  packages_reviewed:
+  location:
+  email:
+- name: Stuart Mumford
+  github_username: Cadair
+  github_image_id: 1391051
+  title:
+  sort:
+  bio: I write open source software for solar and astro physics. I am the lead-developer
+      of SunPy, contribute to Astropy, and work on DKIST.
+  organization: Aperio Software
+  date_added: '2024-01-30'
+  deia_advisory: false
+  editorial_board:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  website: https://www.cadair.com
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_editor:
+  packages_submitted:
+    - sunpy
+  packages_reviewed:
+  location: Holmfirth
+  email: stuart@cadair.com
+- name: DanRyanIrish
+  github_username: DanRyanIrish
+  github_image_id: 6806704
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2024-01-30'
+  deia_advisory: false
+  editorial_board:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_editor:
+  packages_submitted:
+    - sunpy
+  packages_reviewed:
+  location:
+  email: ryand5@tcd.ie
+- name: Will Barnes
+  github_username: wtbarnes
+  github_image_id: 8676141
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2024-01-30'
+  deia_advisory: false
+  editorial_board:
+  advisory: false
+  twitter: wtbarnes_
+  mastodon:
+  orcidid:
+  website: https://wtbarnes.github.io/
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_editor:
+  packages_submitted:
+    - sunpy
+  packages_reviewed:
+  location: Washington, D.C.
+  email: will.t.barnes@gmail.com
+- name: Conor MacBride
+  github_username: ConorMacBride
+  github_image_id: 25007832
+  title:
+  sort:
+  bio: Data Scientist · Astrophysics PhD
+  organization:
+  date_added: '2024-01-30'
+  deia_advisory: false
+  editorial_board:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  website: https://macbride.me
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_editor:
+  packages_submitted:
+    - sunpy
+  packages_reviewed:
+  location: Derry, Northern Ireland
+  email: conor@macbride.me
+- name: Alasdair Wilson
+  github_username: alasdairwilson
+  github_image_id: 60351846
+  title:
+  sort:
+  bio:
+  organization: University of Oxford
+  date_added: '2024-01-30'
+  deia_advisory: false
+  editorial_board:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_editor:
+  packages_submitted:
+    - sunpy
+  packages_reviewed:
+  location:
+  email:
+- name: Laura Hayes
+  github_username: hayesla
+  github_image_id: 4620298
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2024-01-30'
+  deia_advisory: false
+  editorial_board:
+  advisory: false
+  twitter: Laura_hayess
+  mastodon:
+  orcidid:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_editor:
+  packages_submitted:
+    - sunpy
+  packages_reviewed:
+  location: Leiden, Netherlands
+  email: hayesla@tcd.ie
+- name: Vishnunarayan K I
+  github_username: vn-ki
+  github_image_id: 31964688
+  title:
+  sort:
+  bio: Just another curious guy.
+  organization: IIT Indore
+  date_added: '2024-01-30'
+  deia_advisory: false
+  editorial_board:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_editor:
+  packages_submitted:
+    - sunpy
+  packages_reviewed:
+  location: Kerala, India
+  email:
