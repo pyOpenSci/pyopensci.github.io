@@ -1,6 +1,7 @@
 ---
 layout: splash
 title: "Welcome to pyOpenSci"
+excerpt: "We support the scientific Python tools that drive open science through peer review, training and community building."
 author_profile: false
 published: true
 site-map: true
