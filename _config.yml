@@ -245,6 +245,10 @@ whitelist:
   - jekyll-redirect-from
 
 collections:
+  packaging:
+    people: true
+  tutorials:
+    people: true
   packages:
     output: true
     permalink: /:collection/:path/
