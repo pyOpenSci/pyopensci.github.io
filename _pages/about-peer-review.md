@@ -3,7 +3,7 @@ layout: splash
 permalink: /about-peer-review/
 title: "pyOpenSci Reviews Scientific Python Software"
 header:
-  overlay_image: images/header.jpg
+  overlay_image: images/header.png
   overlay_filter: 0.6
 intro:
   - excerpt: "Our open peer review process facilitates scientists getting credit and recognition for the work they've invested in developing scientific Python tools. The peer review process also supports scientists in finding vetted and maintained software, which drives their open science workflows."
