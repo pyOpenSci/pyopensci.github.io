@@ -1,4 +1,8 @@
-
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 /* Create & style a 3x3 grid wrapper */
 .grid {

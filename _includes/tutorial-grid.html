@@ -1,0 +1,27 @@
+
+    <article class="card" itemscope="" itemtype="https://schema.org/CreativeWork">
+        <div class="content">
+          <div class="title-block">
+            <h4 class="title" itemprop="headline">{{ atutorial.title }}</h4>
+          </div>
+      {% if atutorial.excerpt %}
+      <p class="excerpt">
+        {{ atutorial.excerpt }}
+    </p>
+      {% endif %}
+
+    {% if atutorial.subpages %}
+    <ul>
+        {% for page in atutorial.subpages %}
+          <li>
+            <a href="{{ page.url }}">{{ page.name }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+
+    {% endif %}
+  </div>
+    {% if atutorial.link %}
+      <a href="{{ atutorial.link }}" class="btn {{ atutorial.btn_class }}"><i class="fa-solid fa-magnifying-glass"></i> {{ atutorial.btn_label }}</a>
+    {% endif %}
+    </article>
