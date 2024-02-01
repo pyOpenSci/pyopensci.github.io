@@ -6,7 +6,7 @@ header:
   overlay_image: images/header.png
   overlay_filter: 0.8
 intro:
-  - excerpt: "Our open peer review process facilitates scientists getting credit and recognition for the work they've invested in developing scientific Python tools. The peer review process also supports scientists in finding vetted and maintained software, which drives their open science workflows."
+  - excerpt: "test edit Our open peer review process facilitates scientists getting credit and recognition for the work they've invested in developing scientific Python tools. The peer review process also supports scientists in finding vetted and maintained software, which drives their open science workflows."
 benefits_scientists:
   - image_path: images/trusted-scientific-python-tools.png
     alt: "A pencil sketch of a round table with people sitting around it from different backgrounds working on laptops and also writing together."
