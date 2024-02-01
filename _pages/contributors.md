@@ -5,7 +5,7 @@ title: "The pyOpenSci Team & Contributors"
 excerpt: "pyOpenSci is a diverse community of people interested in building a community of practice around scientific software written in Python."
 classes:
 header:
-  overlay_image: images/header.jpg
+  overlay_image: images/header.png
   overlay_filter: 0.6
 redirect_from:
   - /contributors.html
