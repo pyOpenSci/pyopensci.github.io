@@ -5,7 +5,7 @@ permalink: /python-packaging-science.html
 title: "Python packaging resources for scientists"
 excerpt: "We make the scientific Python package ecosystem easier to navigate through peer review and packaging resources."
 header:
-  overlay_image: images/header.jpg
+  overlay_image: images/header.png
   overlay_filter: 0.8
 intro:
   - excerpt: "There are many tools and approaches that can be used to create a Python package. We build resources that help you both understand the tool ecosystem and also learn how to create a Python package using modern best practices."
