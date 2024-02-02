@@ -28,7 +28,8 @@
     </p>
 
     &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}</div>
-  <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
-  <script src="https://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous" defer></script>
+  <script src="https://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js" async></script>
   <script src="https://npmcdn.com/imagesloaded@4/imagesloaded.pkgd.js"></script>
-  <script src="{{ '/assets/js/dropdown.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/dropdown.js' | relative_url }}" defer></script>
+  <script src="https://kit.fontawesome.com/2409929a54.js" crossorigin="anonymous" async></script>

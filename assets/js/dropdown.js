@@ -16,10 +16,6 @@
     // Handle making sure other drop menus are "closed" when another is open
     $(this).siblings(".dropdown").find(".dropdown-content").removeClass("open");
     $(this).siblings(".dropdown").find(".dropbtn").attr("aria-expanded", "false");
-
-    // this works but if user clicks on another drop down it should also return to closed
-    // with this code it just toggles the next thing that the user clicks so both
-    // dropdowns are set to expanded:true
     $(this).find(".dropbtn").attr('aria-expanded', function (i, attr) {
     return attr == 'true' ? 'false' : 'true' });
   });
@@ -29,15 +25,12 @@
     if (!e.target.closest("ul") && $(".dropdown-content").hasClass("open")) {
       $(".dropdown-content").removeClass("open");
     }
-
-
   });
 });
 
 
 // isotope filtering
 // This blog has a good example of smart resizing ... https://jewelfarazi.me/create-jquery-isotope-responsive-masonry-layout/
-// quick search regex
 var qsRegex;
 var buttonFilter;
 
@@ -79,7 +72,6 @@ $('.button-group').each( function( i, buttonGroup ) {
     $( this ).addClass('is-checked');
   });
 });
-
 
 // debounce so filtering doesn't happen every millisecond
 function debounce( fn, threshold ) {

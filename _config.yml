@@ -139,7 +139,6 @@ author:
 # Site Footer
 footer:
   scripts:
-    - https://kit.fontawesome.com/2409929a54.js
 
   links:
     - label: "Mastodon"
