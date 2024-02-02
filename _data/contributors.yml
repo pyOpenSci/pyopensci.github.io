@@ -1164,7 +1164,7 @@
   twitter: Jonny_Wireless
   mastodon:
   orcidid: 0000-0002-2575-9633
-  website: https://jonny.bio
+  website:
   board: false
   contributor_type:
     - maintainer
@@ -4021,6 +4021,7 @@
   board: false
   contributor_type:
     - maintainer
+    - package-guide
     - peer-review
     - submitting-author
   packages_editor:
