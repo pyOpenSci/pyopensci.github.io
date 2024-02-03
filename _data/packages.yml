@@ -3,7 +3,36 @@
   package_description: This is what this package does. and it's still what it does.
   submitting_author:
       github_username: ghuser
-      name: Author Name
+      name: Juno Dog
+  repository_link: https://github.com/astropy
+  categories:
+    - data-retrieval
+    - data-munging
+    - data-visualization
+    - geospatial
+    - astropy
+  astropy: true
+  communities:
+    - astropy
+    - pangeo
+  gh_meta:
+      name: afscgap
+      description: This is what this package does.
+      created_at: 02/18/2019
+      stargazers_count: 2
+      watchers_count: 3
+      forks: 3
+      open_issues_count: 2
+      forks_count: 3
+      documentation: https://ASTROPY.org/
+      contrib_count: 2
+      last_commit: 05/31/2023
+- package_name: greatest-package
+  highlight: true
+  package_description: This is what this package does. and it's still what it does.
+  submitting_author:
+      github_username: ghuser
+      name: Juno Dog
   repository_link: https://github.com/astropy
   categories:
     - data-retrieval
@@ -90,6 +119,9 @@
       name: Vishnunarayan K I
   repository_link: https://github.com/sunpy/sunpy
   version_submitted: 5.0.1
+  sunpy: true
+  communities:
+    - sunpy
   categories:
     - data-retrieval
     - data-extraction

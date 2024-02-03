@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: splash
 title: "Astropy"
 excerpt: "An ecosystem of interoperable astronomy packages"
 header:
@@ -8,6 +8,8 @@ header:
   overlay_image: images/partners/astropy-banner.png
   image_alt: "Digital elevation model"
 permalink: partners/astropy.html
+intro:
+    - excerpt: "Astropy is a pyOpenSci community peer review partner. [Learn more about our peer review partnership program](/partners.html)."
 classes: wide
 community: astropy
 ---
@@ -17,43 +19,33 @@ community: astropy
     | where_exp: "item", "item.communities contains page.community"
 %}
 
-## Welcome to {{ page.community }}
+{% include feature_row id="intro" type="center" %}
 
-The Astropy Project is a community effort to develop a common core package for Astronomy in Python and foster an ecosystem of interoperable astronomy packages.
+## pyOpenSci peer review partner: {{ page.community | capitalize }}
 
-The Astropy community is committed to supporting diversity and inclusion.
+## About Astropy
 
-Please remember to acknowledge and cite the use of Astropy!
+[Astropy](https://www.astropy.org/) is a community effort to develop a common
+core package for Astronomy in Python. Astropy also fosters an ecosystem of
+interoperable astronomy packages. As with all scientific Python packages,
+please remember to acknowledge and cite the use of any {{ page.community }}
+packages that you use!
 
-[![astropy](http://img.shields.io/badge/powered%20by-AstroPy-orange.svg?style=flat)](http://www.astropy.org/)
+***ATTN:*** It would be nice to add a bit more about astropy here
 
-<p><input type="text" id="quicksearch" placeholder="Search" /></p>
+<p><input type="text" id="quicksearch" placeholder="Search {{ page.community }} packages" /></p>
 
 <div id="filters" class="button-group">
-  <button class="button is-checked" data-filter="*">show all</button>
-  <button class="button" data-filter=".data-munging">pony factor</button>
-  <button class="button" data-filter=".data-extraction">last commit date</button>
-  <button class="button" data-filter=".data-retrieval">stars</button>
-  <button class="button" data-filter=".data-visualization">something else</button>
+  <button class="button is-checked" data-filter="*">Show All</button>
 </div>
 
-<div class="grid">
+<div class="grid-isotope">
 {% for apackage in pkgs %}
-  {% include package-grid-partners.html %}
+  {% include package-grid.html community=page.community %}
 {% endfor %}
 </div>
 
-## TODO's
+<!-- ## TODO's
 
-- We might want to implement filters for some of the metrics we look for
-  when considering package health that would be flags (ie a repo that hasn't been updated in a while). This will make it easier for people to identify packages that we may want to reach out to.
-- We will want to identify the specific metrics that we want to house on the cards.
-  - last commit
-  - number of contributors
-  - metrics maybe that [scientific python is collecting via devstats](https://devstats.scientific-python.org/_generated/astropy.html)?
-
-## TODO - add a sort by
-
-- last commit date
-- pony factor
-- other things??
+Do we want to somehow connect with the metrics
+[scientific python is collecting via devstats](https://devstats.scientific-python.org/_generated/astropy.html)? -->
