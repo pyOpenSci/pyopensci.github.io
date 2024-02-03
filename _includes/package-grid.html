@@ -1,12 +1,7 @@
-
 <div class="element-item cards bubble {% for aCategory in apackage.categories %}
 {{ aCategory }}
 {% endfor %}" data-category="data">
-    <article
-        class="archive__item"
-        itemscope=""
-        itemtype="https://schema.org/CreativeWork"
-    >
+    <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
         <h3 class="card__title no_toc" itemprop="headline">
             {{ apackage.package_name }}
         </h3>
@@ -14,35 +9,24 @@
             <span><i class="fas fa-feather" aria-hidden="true"></i>
             {% if apackage.all_current_maintainers %}
                 {% for maintainer in apackage.all_current_maintainers %}
-                    <a
-                        href="https://github.com/{{ maintainer.github_username }}"
-                        rel="maintainer"
-                        target="_blank"
-                    >
+                    <a href="https://github.com/{{ maintainer.github_username }}" rel="maintainer" target="_blank">
                         {% if maintainer.name %}
-                            {{ maintainer.name }}{% if forloop.last == false %},{% endif %}</a>
+                            {{ maintainer.name }}{% if forloop.last == false %},{% endif %}
                         {% else %}
-                            {{ maintainer.github_username }}{% if forloop.last == false %},{% endif %}</a>
+                            {{ maintainer.github_username }}{% if forloop.last == false %},{% endif %}
                         {% endif %}
+                    </a>
                 {% endfor %}
             {% elsif apackage.submitting_author.name != 'Name' %}
-                <a
-                    href="https://github.com/{{ apackage.submitting_author.github_username }}"
-                    rel="maintainer"
-                    target="_blank"
-                >
+                <a href="https://github.com/{{ apackage.submitting_author.github_username }}" rel="maintainer" target="_blank">
                     {{ apackage.submitting_author.name }}
                 </a>
             {% else %}
-                <a
-                    href="https://github.com/{{ apackage.submitting_author.github_username }}"
-                    rel="maintainer"
-                    target="_blank"
-                >
+                <a href="https://github.com/{{ apackage.submitting_author.github_username }}" rel="maintainer" target="_blank">
                     {{ apackage.submitting_author.github_username }}
                 </a>
             {% endif %}
-         </span>
+            </span>
         </p>
         <span class="narrow">
             <p class="archive__item-excerpt narrow" itemprop="description">
@@ -50,47 +34,32 @@
             </p>
         </span>
         <ul>
-            <li>
-                <a href="{{ apackage.repository_link }}" rel="permalink">
-                    <i class="fab fa-github"></i> View Code
-                </a>
-            </li>
+            <li><a href="{{ apackage.repository_link }}" rel="permalink"><i class="fab fa-github"></i> View Code</a></li>
             {% if apackage.gh_meta.documentation %}
-                <li>
-                    <a
-                        href="{{ apackage.gh_meta.documentation }}"
-                        rel="permalink"
-                    >
-                        <i class="fas fa-book-open"></i> View Docs
-                    </a>
-                </li>
+                <li><a href="{{ apackage.gh_meta.documentation }}" rel="permalink"><i class="fas fa-book-open"></i> View Docs</a></li>
             {% endif %}
             {% if apackage.citation-link %}
-                <li>
-                    <a href="{{ apackage.archive }}" rel="permalink">
-                        <i class="fas fa-bookmark fa-fw"></i> Cite
-                    </a>
-                </li>
+                <li><a href="{{ apackage.archive }}" rel="permalink"><i class="fas fa-bookmark fa-fw"></i> Cite</a></li>
             {% endif %}
-                <li>
-                    <a href= "{{ apackage.issue_link }}"> <i class="fa-solid fa-user-pen"></i> View Review </a>
-                </li>
-
+            <li><a href="{{ apackage.issue_link }}"><i class="fa-solid fa-user-pen"></i> View Review</a></li>
             {% if apackage.joss %}
-            <li>
-                <a href="{{ apackage.archive }}" rel="permalink">
-                    <i class="fas fa-bookmark fa-fw"></i> JOSS Approved
-                </a>
-            </li>
+                <li><a href="{{ apackage.archive }}" rel="permalink"><i class="fas fa-bookmark fa-fw"></i> JOSS Approved</a></li>
             {% endif %}
             {% if apackage.astropy %}
-            <li>
-                <a href="{{ apackage.archive }}" rel="permalink">
-                    <i class="fas fa-bookmark fa-fw"></i> Astropy Affiliated
-                </a>
-            </li>
+                <li><a href="partners/astropy.html"><i class="fa-solid fa-check-double"></i> <img src="http://img.shields.io/badge/Affiliated-Astropy-orange.svg?style=flat" alt="Astropy" /></a></li>
+            {% endif %}
+            {% if apackage.sunpy %}
+                <li><a href="partners/astropy.html"><i class="fa-solid fa-check-double"></i> <img src="http://img.shields.io/badge/Affiliated-Sunpy-yellow.svg?style=flat" alt="Astropy" /></a></li>
             {% endif %}
         </ul>
-
+        <hr>
+        {% if include.community %}
+            <h4>Package stats</h4>
+            <ul>
+                <li><strong>All Time Contributors:</strong> {{ apackage.gh_meta.contrib_count }}</li>
+                <li><strong>Last Commit date:</strong> {{ apackage.gh_meta.last_commit }}</li>
+                <li><strong>Date Created:</strong> {{ apackage.gh_meta.created_at }}</li>
+            </ul>
+        {% endif %}
     </article>
-    </div>
+</div>
