@@ -420,6 +420,9 @@
       github_username: vn-ki
   repository_link: https://github.com/sunpy/sunpy
   version_submitted: 5.0.1
+  sunpy: true
+  communities:
+    - sunpy
   categories:
     - data-retrieval
     - data-extraction
