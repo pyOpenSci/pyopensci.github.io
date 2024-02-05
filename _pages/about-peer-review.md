@@ -35,7 +35,7 @@ peer_review:
     btn_class: btn--primary
   - image_path: images/pyopensci-joss-partnership.png
     alt: "A pencil sketch of a round table with people sitting around it from different backgrounds working on laptops and also writing together."
-    excerpt: "Our partnership with JOSS means that you don't have to chose between pyOpenSci and JOSS. Simply submit your package to pyOS for review. If your package is accepted and in scope for JOSS, it will be fast-tracked through JOSS' review process. "
+    excerpt: "Our partnership with JOSS means that you don't have to choose between pyOpenSci and JOSS. Simply submit your package to pyOS for review. If your package is accepted and in scope for JOSS, it will be fast-tracked through JOSS' review process. "
     title: "Get published with JOSS through a pyOpenSci review"
     url: https://www.pyopensci.org/software-peer-review/partners/joss.html
     btn_label: Learn more about our JOSS partnership
@@ -44,7 +44,7 @@ get-involved:
   - image_path:
     title: "Become a pyOpenSci reviewer"
     alt:
-    excerpt: "We could use your help! Fill our our reviewer form. We will contact you if we have a package that we need reviewers for. It's OK if you've never reviewed a package before! We'll walk you through it."
+    excerpt: "We could use your help! Fill out our reviewer form. We will contact you if we have a package that we need reviewers for. It's OK if you've never reviewed a package before! We'll walk you through it."
     url: https://forms.gle/GHfxvmS47nQFDcBM6
     btn_label: "> Sign-up Now (Google Form)"
     btn_class: btn--inverse
