@@ -533,12 +533,14 @@
     - package-guide
     - peer-review
     - peer-review-guide
+    - reviewer
   packages_editor:
     - astartes
     - crowsetta
     - sunpy
   packages_submitted:
   packages_reviewed:
+    - ncompare
   location:
   email:
 - name: Jenny Palomino
@@ -657,6 +659,7 @@
     - web-contrib
   packages_editor:
     - cardsort
+    - sciform
     - xclim
   packages_submitted:
   packages_reviewed:
@@ -2617,6 +2620,7 @@
     - guest editor
     - peer-review
   packages_editor:
+    - ncompare
     - python-graphblas
   packages_submitted:
   packages_reviewed:
@@ -3648,9 +3652,11 @@
     - editor
     - package-guide
     - peer-review
+    - reviewer
   packages_editor:
   packages_submitted:
   packages_reviewed:
+    - sciform
   location: FLorida, USA
   email:
 - name: Eliot Robson
@@ -4900,3 +4906,105 @@
   packages_reviewed:
   location: Kerala, India
   email:
+- name: Michael Tso
+  github_username: cmtso
+  github_image_id: 37928699
+  title:
+  sort:
+  bio: environmental data scientist
+  organization: '@NERC-CEH'
+  date_added: '2024-02-15'
+  deia_advisory: false
+  editorial_board:
+  advisory: false
+  twitter: michael_ts0
+  mastodon:
+  orcidid:
+  website: https://cmtso.github.io
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - ncompare
+  location:
+  email:
+- name: Daniel Kaufman
+  github_username: danielfromearth
+  github_image_id: 114174502
+  title:
+  sort:
+  bio:
+  organization: NASA's Atmospheric Science Data Center
+  date_added: '2024-02-15'
+  deia_advisory: false
+  editorial_board:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  website: https://asdc.larc.nasa.gov/
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+    - submitting-author
+  packages_editor:
+  packages_submitted:
+    - ncompare
+  packages_reviewed:
+  location:
+  email:
+- name: Michael Chow
+  github_username: machow
+  github_image_id: 2574498
+  title:
+  sort:
+  bio: Learning, Memory, Computation
+  organization: '@rstudio'
+  date_added: '2024-02-15'
+  deia_advisory: false
+  editorial_board:
+  advisory: false
+  twitter: chowthedog
+  mastodon:
+  orcidid:
+  website: https://mchow.com
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - sciform
+  location:
+  email: chowmichedu@gmail.com
+- name: Justin Gerber
+  github_username: jagerber48
+  github_image_id: 48464524
+  title:
+  sort:
+  bio: Atomic Physicist
+  organization: Quantinuum
+  date_added: '2024-02-15'
+  deia_advisory: false
+  editorial_board:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+    - submitting-author
+  packages_editor:
+  packages_submitted:
+    - sciform
+  packages_reviewed:
+  location:
+  email: justin.gerber48@gmail.com
