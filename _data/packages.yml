@@ -50,21 +50,23 @@
   version_accepted: 5.1.1
   date_accepted: '2024-01-18'
   created_at: '2023-10-30'
-  updated_at: '2024-01-31'
+  updated_at: '2024-02-22'
   closed_at: '2024-01-27'
   issue_link: https://github.com/pyOpenSci/software-submission/issues/147
   joss:
+  partners:
+    - sunpy
   gh_meta:
       name: sunpy
       description: SunPy - Python for Solar Physics
       created_at: '2011-08-06'
-      stargazers_count: 844
-      watchers_count: 844
-      open_issues_count: 298
-      forks_count: 593
+      stargazers_count: 847
+      watchers_count: 847
+      open_issues_count: 299
+      forks_count: 596
       documentation: https://www.sunpy.org
       contrib_count: 30
-      last_commit: '2024-02-13'
+      last_commit: '2024-02-23'
 - package_name: ncompare
   package_description: '`ncompare` compares two netCDF files at the command line,
       by generating a report of the matching and non-matching groups, variables,
@@ -96,6 +98,7 @@
   closed_at: missing
   issue_link: https://github.com/pyOpenSci/software-submission/issues/146
   joss:
+  partners:
   gh_meta:
       name: ncompare
       description: Compare the structure of two netCDF files at the command line
@@ -133,21 +136,22 @@
   version_accepted: 0.33.0
   date_accepted: '2024-02-07'
   created_at: '2023-07-21'
-  updated_at: '2024-02-11'
+  updated_at: '2024-02-17'
   closed_at: missing
   issue_link: https://github.com/pyOpenSci/software-submission/issues/121
   joss:
+  partners:
   gh_meta:
       name: sciform
       description: A package for formatting numbers into scientific formatted strings.
       created_at: '2023-05-26'
-      stargazers_count: 7
-      watchers_count: 7
-      open_issues_count: 18
+      stargazers_count: 8
+      watchers_count: 8
+      open_issues_count: 15
       forks_count: 1
       documentation: https://sciform.readthedocs.io/en/stable/
       contrib_count: 1
-      last_commit: '2024-02-11'
+      last_commit: '2024-02-18'
 - package_name: astartes
   package_description: Better Data Splits for Machine Learning
   submitting_author:
@@ -179,17 +183,18 @@
   closed_at: '2023-11-12'
   issue_link: https://github.com/pyOpenSci/software-submission/issues/120
   joss:
+  partners:
   gh_meta:
       name: astartes
       description: Better Data Splits for Machine Learning
       created_at: '2022-04-22'
-      stargazers_count: 43
-      watchers_count: 43
-      open_issues_count: 18
-      forks_count: 1
+      stargazers_count: 44
+      watchers_count: 44
+      open_issues_count: 15
+      forks_count: 2
       documentation: https://jacksonburns.github.io/astartes/
       contrib_count: 3
-      last_commit: '2024-01-08'
+      last_commit: '2024-02-16'
 - package_name: XGI
   package_description: XGI is a Python package for higher-order networks.
   submitting_author:
@@ -233,6 +238,8 @@
   closed_at: '2023-10-23'
   issue_link: https://github.com/pyOpenSci/software-submission/issues/115
   joss:
+  partners:
+    - numfocus
   gh_meta:
       name: xgi
       description: CompleX Group Interactions (XGI) is a Python package for higher-order
@@ -240,11 +247,11 @@
       created_at: '2021-09-08'
       stargazers_count: 151
       watchers_count: 151
-      open_issues_count: 53
+      open_issues_count: 54
       forks_count: 26
       documentation: https://xgi.readthedocs.io
       contrib_count: 12
-      last_commit: '2024-02-12'
+      last_commit: '2024-02-20'
 - package_name: biocypher
   package_description: framework for creating biomedical knowledge graphs
   submitting_author:
@@ -280,13 +287,14 @@
   closed_at: '2023-11-28'
   issue_link: https://github.com/pyOpenSci/software-submission/issues/110
   joss:
+  partners:
   gh_meta:
       name: biocypher
       description: A unifying framework for biomedical research knowledge graphs
       created_at: '2021-09-10'
-      stargazers_count: 166
-      watchers_count: 166
-      open_issues_count: 144
+      stargazers_count: 167
+      watchers_count: 167
+      open_issues_count: 147
       forks_count: 19
       documentation: https://biocypher.org
       contrib_count: 10
@@ -322,6 +330,7 @@
   closed_at: '2023-08-23'
   issue_link: https://github.com/pyOpenSci/software-submission/issues/102
   joss:
+  partners:
   gh_meta:
       name: cardsort
       description: A python package to analyse cardsorting data from kardsort.com
@@ -369,6 +378,7 @@
   closed_at: '2023-06-28'
   issue_link: https://github.com/pyOpenSci/software-submission/issues/93
   joss:
+  partners:
   gh_meta:
       name: afscgap
       description: Python-based tools for NOAA AFSC GAP marine species surveys data
@@ -413,6 +423,7 @@
   closed_at: '2023-07-12'
   issue_link: https://github.com/pyOpenSci/software-submission/issues/84
   joss:
+  partners:
   gh_meta:
       name: taxpasta
       description: TAXnomic Profile Aggregation and STAndardisation
@@ -454,17 +465,18 @@
   closed_at: '2023-12-13'
   issue_link: https://github.com/pyOpenSci/software-submission/issues/83
   joss:
+  partners:
   gh_meta:
       name: bibat
       description: A batteries-included template for Bayesian data analysis projects
       created_at: '2021-03-04'
       stargazers_count: 16
       watchers_count: 16
-      open_issues_count: 12
+      open_issues_count: 11
       forks_count: 2
       documentation: https://bibat.readthedocs.io/
       contrib_count: 1
-      last_commit: '2024-02-01'
+      last_commit: '2024-02-16'
 - package_name: Python-graphblas
   package_description:
   submitting_author:
@@ -499,18 +511,19 @@
   closed_at: '2023-07-27'
   issue_link: https://github.com/pyOpenSci/software-submission/issues/81
   joss:
+  partners:
   gh_meta:
       name: python-graphblas
       description: 'Python library for GraphBLAS: high-performance sparse linear
           algebra for scalable graph analytics'
       created_at: '2019-11-11'
-      stargazers_count: 101
-      watchers_count: 101
-      open_issues_count: 54
+      stargazers_count: 103
+      watchers_count: 103
+      open_issues_count: 53
       forks_count: 15
       documentation: https://python-graphblas.readthedocs.io/en/stable/
       contrib_count: 10
-      last_commit: '2024-02-06'
+      last_commit: '2024-02-18'
 - package_name: xclim
   package_description: Climate indices computation package based on Xarray
   submitting_author:
@@ -546,18 +559,19 @@
   closed_at: '2023-05-22'
   issue_link: https://github.com/pyOpenSci/software-submission/issues/73
   joss:
+  partners:
   gh_meta:
       name: xclim
       description: 'Library of derived climate variables, ie climate indicators,
           based on xarray. '
       created_at: '2018-07-27'
-      stargazers_count: 283
-      watchers_count: 283
-      open_issues_count: 53
-      forks_count: 47
+      stargazers_count: 286
+      watchers_count: 286
+      open_issues_count: 45
+      forks_count: 48
       documentation: https://xclim.readthedocs.io/en/stable/
       contrib_count: 30
-      last_commit: '2024-02-14'
+      last_commit: '2024-02-23'
 - package_name: crowsetta
   package_description: A Python tool to work with any format for annotating animal
       vocalizations and bioacoustics data.
@@ -590,12 +604,13 @@
   closed_at: '2023-04-13'
   issue_link: https://github.com/pyOpenSci/software-submission/issues/68
   joss:
+  partners:
   gh_meta:
       name: crowsetta
       description: A tool to work with any format for annotating vocalizations
       created_at: '2018-12-01'
-      stargazers_count: 42
-      watchers_count: 42
+      stargazers_count: 43
+      watchers_count: 43
       open_issues_count: 33
       forks_count: 3
       documentation: https://crowsetta.readthedocs.io/en/latest/
@@ -633,6 +648,7 @@
   closed_at: '2023-04-12'
   issue_link: https://github.com/pyOpenSci/software-submission/issues/67
   joss:
+  partners:
   gh_meta:
       name: Pynteny
       description: Query sequence database by HMMs arranged in predefined synteny
@@ -677,6 +693,7 @@
   closed_at: '2022-01-12'
   issue_link: https://github.com/pyOpenSci/software-submission/issues/45
   joss:
+  partners:
   gh_meta:
       name: jointly
       description: 'Jointly: A Python package for synchronizing sensors with accelerometer
@@ -730,17 +747,18 @@
   closed_at: '2023-06-12'
   issue_link: https://github.com/pyOpenSci/software-submission/issues/43
   joss:
+  partners:
   gh_meta:
       name: pygmt
       description: A Python interface for the Generic Mapping Tools.
       created_at: '2017-03-17'
       stargazers_count: 695
       watchers_count: 695
-      open_issues_count: 181
+      open_issues_count: 182
       forks_count: 210
       documentation: https://www.pygmt.org
       contrib_count: 30
-      last_commit: '2024-02-13'
+      last_commit: '2024-02-23'
 - package_name: Devicely
   package_description: A Python package for reading, timeshifting and writing sensor
       data
@@ -771,6 +789,7 @@
   closed_at: '2022-09-07'
   issue_link: https://github.com/pyOpenSci/software-submission/issues/37
   joss:
+  partners:
   gh_meta:
       name: devicely
       description: 'Devicely: A Python package for reading, timeshifting and writing
@@ -778,8 +797,8 @@
       created_at: '2020-07-13'
       stargazers_count: 15
       watchers_count: 15
-      open_issues_count: 2
-      forks_count: 7
+      open_issues_count: 3
+      forks_count: 8
       documentation: https://hpi-dhc.github.io/devicely/
       contrib_count: 4
       last_commit: '2021-12-21'
@@ -816,6 +835,7 @@
   closed_at: '2021-05-10'
   issue_link: https://github.com/pyOpenSci/software-submission/issues/31
   joss:
+  partners:
   gh_meta:
       name: OpenOmics
       description: A bioinformatics API to interface with public multi-omics bio
@@ -860,6 +880,7 @@
   closed_at: '2021-09-18'
   issue_link: https://github.com/pyOpenSci/software-submission/issues/26
   joss:
+  partners:
   gh_meta:
       name: physcraper
       description: Welcome to Physcraper’s repository! Automatic gene tree updating
@@ -901,6 +922,7 @@
   closed_at: '2020-10-14'
   issue_link: https://github.com/pyOpenSci/software-submission/issues/25
   joss:
+  partners:
   gh_meta:
       name: pystiche
       description: Framework for Neural Style Transfer (NST) built upon PyTorch
@@ -942,6 +964,7 @@
   closed_at: '2021-05-17'
   issue_link: https://github.com/pyOpenSci/software-submission/issues/24
   joss:
+  partners:
   gh_meta:
       name: phenopype
       description: A phenotyping pipeline for Python
@@ -986,13 +1009,14 @@
   closed_at: '2020-06-09'
   issue_link: https://github.com/pyOpenSci/software-submission/issues/20
   joss:
+  partners:
   gh_meta:
       name: pyrolite
       description: A set of tools for getting the most from your geochemical data.
       created_at: '2018-06-13'
       stargazers_count: 121
       watchers_count: 121
-      open_issues_count: 15
+      open_issues_count: 14
       forks_count: 31
       documentation: https://pyrolite.readthedocs.io
       contrib_count: 11
@@ -1027,14 +1051,15 @@
   closed_at: '2020-04-08'
   issue_link: https://github.com/pyOpenSci/software-submission/issues/18
   joss:
+  partners:
   gh_meta:
       name: movingpandas
       description: Movement trajectory classes and functions built on top of GeoPandas
       created_at: '2018-12-16'
-      stargazers_count: 1095
-      watchers_count: 1095
-      open_issues_count: 43
-      forks_count: 185
+      stargazers_count: 1101
+      watchers_count: 1101
+      open_issues_count: 47
+      forks_count: 186
       documentation: https://movingpandas.org
       contrib_count: 30
       last_commit: '2024-02-09'
@@ -1069,18 +1094,19 @@
   closed_at: '2021-12-16'
   issue_link: https://github.com/pyOpenSci/software-submission/issues/12
   joss:
+  partners:
   gh_meta:
       name: pandera
       description: A light-weight, flexible, and expressive statistical data testing
           library
       created_at: '2018-11-01'
-      stargazers_count: 2831
-      watchers_count: 2831
-      open_issues_count: 333
-      forks_count: 243
+      stargazers_count: 2851
+      watchers_count: 2851
+      open_issues_count: 324
+      forks_count: 244
       documentation: https://www.union.ai/pandera
       contrib_count: 30
-      last_commit: '2024-02-08'
+      last_commit: '2024-02-23'
 - package_name: Nbless
   package_description: Construct, deconstruct, convert, execute, & prepare slides
       from Jupyter notebooks
@@ -1112,6 +1138,7 @@
   closed_at: '2019-08-06'
   issue_link: https://github.com/pyOpenSci/software-submission/issues/7
   joss:
+  partners:
   gh_meta:
       name: nbless
       description: Construct, deconstruct, convert, execute, and prepare slides
@@ -1162,13 +1189,14 @@
   closed_at: '2019-11-13'
   issue_link: https://github.com/pyOpenSci/software-submission/issues/3
   joss:
+  partners:
   gh_meta:
       name: earthpy
       description: A package built to support working with spatial data using open
           source python
       created_at: '2018-02-20'
-      stargazers_count: 474
-      watchers_count: 474
+      stargazers_count: 476
+      watchers_count: 476
       open_issues_count: 39
       forks_count: 161
       documentation: https://earthpy.readthedocs.io
