@@ -2031,7 +2031,7 @@
   twitter:
   mastodon:
   orcidid:
-  website: https://www.cs.cit.tum.de/sccs/personen/benjamin-rodenberg/
+  website:
   board: false
   contributor_type:
     - community
@@ -5008,3 +5008,49 @@
   packages_reviewed:
   location:
   email: justin.gerber48@gmail.com
+- name:
+  github_username: jaimergp
+  github_image_id: 2559438
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2024-02-25'
+  deia_advisory: false
+  editorial_board:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  website:
+  board: false
+  contributor_type:
+    - package-guide
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location:
+  email:
+- name:
+  github_username: h-vetinari
+  github_image_id: 33685575
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2024-02-25'
+  deia_advisory: false
+  editorial_board:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  website:
+  board: false
+  contributor_type:
+    - package-guide
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location:
+  email: h.vetinari@gmx.com
