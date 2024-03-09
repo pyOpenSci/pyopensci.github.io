@@ -104,6 +104,7 @@
   board: true
   contributor_type:
     - package-guide
+    - peer-review-guide
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -291,6 +292,7 @@
     - guidebook-contrib
     - leadership
     - metrics-contrib
+    - package-guide
     - peer-review
     - peer-review-guide
     - reviewer
@@ -588,7 +590,7 @@
   twitter:
   mastodon:
   orcidid:
-  website: https://ml-gis-service.com
+  website:
   board: false
   contributor_type:
     - code-contrib
@@ -2618,6 +2620,7 @@
     - contributor
     - editor
     - guest editor
+    - package-guide
     - peer-review
   packages_editor:
     - ncompare
@@ -3654,6 +3657,7 @@
     - peer-review
     - reviewer
   packages_editor:
+    - rdata
   packages_submitted:
   packages_reviewed:
     - sciform
@@ -5054,3 +5058,81 @@
   packages_reviewed:
   location:
   email: h.vetinari@gmx.com
+- name: Richard Iannone
+  github_username: rich-iannone
+  github_image_id: 5612024
+  title:
+  sort:
+  bio: I enjoy creating useful things for data analysis, transformation, and visualization.
+      It's super fun too! ₍⸍⸌̣ʷ̣̫⸍̣⸌₎
+  organization: '@rstudio'
+  date_added: '2024-03-09'
+  deia_advisory: false
+  editorial_board:
+  advisory: false
+  twitter: riannone
+  mastodon:
+  orcidid:
+  website:
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - rdata
+  location: Toronto, Canada
+  email: rich@posit.co
+- name: Hassan Kibirige
+  github_username: has2k1
+  github_image_id: 780341
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2024-03-09'
+  deia_advisory: false
+  editorial_board:
+  advisory: false
+  twitter: HKibirige
+  mastodon:
+  orcidid:
+  website:
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - rdata
+  location: Kampala, Uganda
+  email: has2k1@gmail.com
+- name: Carlos Ramos Carreño
+  github_username: vnmabus
+  github_image_id: 2364173
+  title:
+  sort:
+  bio: Software engineer and mathematician. I was awarded a PhD in Computer Science
+      (in the machine learning field) at Universidad Autónoma de Madrid.
+  organization:
+  date_added: '2024-03-09'
+  deia_advisory: false
+  editorial_board:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+    - submitting-author
+  packages_editor:
+  packages_submitted:
+    - rdata
+  packages_reviewed:
+  location: Frankfurt, Germany
+  email: carlosramosca@hotmail.com
