@@ -35,7 +35,7 @@
   categories:
     - data-retrieval
     - data-extraction
-    - data-processing/munging
+    - data-processing-munging
     - data-visualization
   editor:
       github_username: cmarmo
@@ -60,13 +60,13 @@
       name: sunpy
       description: SunPy - Python for Solar Physics
       created_at: '2011-08-06'
-      stargazers_count: 847
-      watchers_count: 847
-      open_issues_count: 299
-      forks_count: 596
+      stargazers_count: 874
+      watchers_count: 874
+      open_issues_count: 309
+      forks_count: 569
       documentation: https://www.sunpy.org
       contrib_count: 30
-      last_commit: '2024-02-23'
+      last_commit: '2024-03-08'
 - package_name: ncompare
   package_description: '`ncompare` compares two netCDF files at the command line,
       by generating a report of the matching and non-matching groups, variables,
@@ -80,7 +80,7 @@
   repository_link: https://github.com/nasa/ncompare
   version_submitted: 1.4.0
   categories:
-    - data-validation and-testing
+    - data-validation-testing
   editor:
       github_username: tomalrussell
       name: Tom Russell
@@ -105,11 +105,52 @@
       created_at: '2023-08-17'
       stargazers_count: 13
       watchers_count: 13
-      open_issues_count: 7
+      open_issues_count: 6
       forks_count: 5
       documentation: https://ncompare.readthedocs.io
       contrib_count: 3
       last_commit: '2024-02-06'
+- package_name: rdata
+  package_description: Read R datasets from Python.
+  submitting_author:
+      github_username: vnmabus
+      name: Name
+  all_current_maintainers:
+    - github_username: vnmabus
+      name: Carlos Ramos Carreño
+  repository_link: https://github.com/vnmabus/rdata
+  version_submitted: 0.9.2.dev1
+  categories:
+    - data-processing-munging
+  editor:
+      github_username: isabelizimm
+      name: Isabel Zimmerman
+  reviewer_1:
+      github_username: rich-iannone
+      name: Richard Iannone
+  reviewer_2:
+      github_username: has2k1
+      name: Hassan Kibirige
+  archive: TBD
+  version_accepted: TBD
+  date_accepted: missing
+  created_at: '2023-10-20'
+  updated_at: '2024-03-04'
+  closed_at: missing
+  issue_link: https://github.com/pyOpenSci/software-submission/issues/144
+  joss:
+  partners:
+  gh_meta:
+      name: rdata
+      description: Reader of R datasets in .rda format, in Python
+      created_at: '2018-07-02'
+      stargazers_count: 32
+      watchers_count: 32
+      open_issues_count: 6
+      forks_count: 2
+      documentation: https://rdata.readthedocs.io
+      contrib_count: 2
+      last_commit: '2024-03-07'
 - package_name: Sciform
   package_description: A package for converting python numbers (floats, Decimals)
       into scientific-formatted strings more suitable for reading and presentation.
@@ -145,13 +186,13 @@
       name: sciform
       description: A package for formatting numbers into scientific formatted strings.
       created_at: '2023-05-26'
-      stargazers_count: 8
-      watchers_count: 8
-      open_issues_count: 15
+      stargazers_count: 10
+      watchers_count: 10
+      open_issues_count: 13
       forks_count: 1
       documentation: https://sciform.readthedocs.io/en/stable/
       contrib_count: 1
-      last_commit: '2024-02-18'
+      last_commit: '2024-03-08'
 - package_name: astartes
   package_description: Better Data Splits for Machine Learning
   submitting_author:
@@ -165,7 +206,7 @@
   repository_link: https://github.com/JacksonBurns/astartes
   version_submitted: v[1.1.2](https://github.com/JacksonBurns/astartes/releases/tag/v1.1.2)
   categories:
-    - data-processing/munging
+    - data-processing-munging
   editor:
       github_username: cmarmo
       name: Chiara Marmo
@@ -194,7 +235,7 @@
       forks_count: 2
       documentation: https://jacksonburns.github.io/astartes/
       contrib_count: 3
-      last_commit: '2024-02-16'
+      last_commit: '2024-03-01'
 - package_name: XGI
   package_description: XGI is a Python package for higher-order networks.
   submitting_author:
@@ -219,7 +260,7 @@
   version_submitted: '0.7'
   categories:
     - data-retrieval
-    - data-processing/munging
+    - data-processing-munging
     - data-visualization
   editor:
       github_username: SimonMolinsky
@@ -245,13 +286,13 @@
       description: CompleX Group Interactions (XGI) is a Python package for higher-order
           networks.
       created_at: '2021-09-08'
-      stargazers_count: 151
-      watchers_count: 151
-      open_issues_count: 54
+      stargazers_count: 154
+      watchers_count: 154
+      open_issues_count: 55
       forks_count: 26
       documentation: https://xgi.readthedocs.io
       contrib_count: 12
-      last_commit: '2024-02-20'
+      last_commit: '2024-03-04'
 - package_name: biocypher
   package_description: framework for creating biomedical knowledge graphs
   submitting_author:
@@ -265,9 +306,9 @@
   categories:
     - data-retrieval
     - data-extraction
-    - data-processing/munging
+    - data-processing-munging
     - data-deposition
-    - data-validation and-testing
+    - data-validation-testing
     - workflow-automation
     - database-interoperability
   editor:
@@ -292,13 +333,13 @@
       name: biocypher
       description: A unifying framework for biomedical research knowledge graphs
       created_at: '2021-09-10'
-      stargazers_count: 167
-      watchers_count: 167
-      open_issues_count: 147
-      forks_count: 19
+      stargazers_count: 170
+      watchers_count: 170
+      open_issues_count: 148
+      forks_count: 20
       documentation: https://biocypher.org
-      contrib_count: 10
-      last_commit: '2024-02-02'
+      contrib_count: 11
+      last_commit: '2024-03-04'
 - package_name: cardsort
   package_description: A python package to analyse data from open card sorting tasks
   submitting_author:
@@ -311,7 +352,7 @@
   version_submitted: '[0.2.2](https://github.com/katoss/cardsort/releases/tag/v0.2.2)'
   categories:
     - data-extraction
-    - data-processing/munging
+    - data-processing-munging
     - data-visualization
   editor:
       github_username: Batalex
@@ -359,7 +400,7 @@
   version_submitted: 0.0.7
   categories:
     - data-retrieval
-    - data-processing/munging
+    - data-processing-munging
     - data-visualization
   editor:
       github_username: ocefpaf
@@ -405,7 +446,7 @@
   repository_link: https://github.com/taxprofiler/taxpasta
   version_submitted: 0.2.1
   categories:
-    - data-processing/munging
+    - data-processing-munging
   editor:
       github_username: ctb
       name: C. Titus Brown
@@ -428,8 +469,8 @@
       name: taxpasta
       description: TAXnomic Profile Aggregation and STAndardisation
       created_at: '2022-06-03'
-      stargazers_count: 25
-      watchers_count: 25
+      stargazers_count: 26
+      watchers_count: 26
       open_issues_count: 12
       forks_count: 6
       documentation: https://taxpasta.readthedocs.io/
@@ -470,13 +511,13 @@
       name: bibat
       description: A batteries-included template for Bayesian data analysis projects
       created_at: '2021-03-04'
-      stargazers_count: 16
-      watchers_count: 16
-      open_issues_count: 11
+      stargazers_count: 17
+      watchers_count: 17
+      open_issues_count: 7
       forks_count: 2
       documentation: https://bibat.readthedocs.io/
       contrib_count: 1
-      last_commit: '2024-02-16'
+      last_commit: '2024-03-01'
 - package_name: Python-graphblas
   package_description:
   submitting_author:
@@ -493,7 +534,7 @@
   version_submitted: 2023.1.0
   categories:
     - data-munging
-    - scientific-software wrappers (added-from [here](https://github.com/pyopensci/software-peer-review/pull/162))
+    - scientific-software-wrapper
   editor:
       github_username: tomalrussell
       name: Tom Russell
@@ -517,9 +558,9 @@
       description: 'Python library for GraphBLAS: high-performance sparse linear
           algebra for scalable graph analytics'
       created_at: '2019-11-11'
-      stargazers_count: 103
-      watchers_count: 103
-      open_issues_count: 53
+      stargazers_count: 104
+      watchers_count: 104
+      open_issues_count: 55
       forks_count: 15
       documentation: https://python-graphblas.readthedocs.io/en/stable/
       contrib_count: 10
@@ -565,13 +606,13 @@
       description: 'Library of derived climate variables, ie climate indicators,
           based on xarray. '
       created_at: '2018-07-27'
-      stargazers_count: 286
-      watchers_count: 286
-      open_issues_count: 45
+      stargazers_count: 288
+      watchers_count: 288
+      open_issues_count: 47
       forks_count: 48
       documentation: https://xclim.readthedocs.io/en/stable/
       contrib_count: 30
-      last_commit: '2024-02-23'
+      last_commit: '2024-03-08'
 - package_name: crowsetta
   package_description: A Python tool to work with any format for annotating animal
       vocalizations and bioacoustics data.
@@ -752,13 +793,13 @@
       name: pygmt
       description: A Python interface for the Generic Mapping Tools.
       created_at: '2017-03-17'
-      stargazers_count: 695
-      watchers_count: 695
-      open_issues_count: 182
+      stargazers_count: 696
+      watchers_count: 696
+      open_issues_count: 175
       forks_count: 210
       documentation: https://www.pygmt.org
       contrib_count: 30
-      last_commit: '2024-02-23'
+      last_commit: '2024-03-07'
 - package_name: Devicely
   package_description: A Python package for reading, timeshifting and writing sensor
       data
@@ -841,8 +882,8 @@
       description: A bioinformatics API to interface with public multi-omics bio
           databases for wicked fast data integration.
       created_at: '2018-03-16'
-      stargazers_count: 25
-      watchers_count: 25
+      stargazers_count: 26
+      watchers_count: 26
       open_issues_count: 13
       forks_count: 13
       documentation: https://openomics.readthedocs.io/en/latest/
@@ -930,7 +971,7 @@
       stargazers_count: 267
       watchers_count: 267
       open_issues_count: 15
-      forks_count: 29
+      forks_count: 28
       documentation:
       contrib_count: 10
       last_commit: '2022-03-18'
@@ -1014,13 +1055,13 @@
       name: pyrolite
       description: A set of tools for getting the most from your geochemical data.
       created_at: '2018-06-13'
-      stargazers_count: 121
-      watchers_count: 121
+      stargazers_count: 124
+      watchers_count: 124
       open_issues_count: 14
-      forks_count: 31
+      forks_count: 33
       documentation: https://pyrolite.readthedocs.io
-      contrib_count: 11
-      last_commit: '2023-07-21'
+      contrib_count: 13
+      last_commit: '2024-02-26'
 - package_name: MovingPandas
   package_description: Trajectory classes and functions built on top of GeoPandas
   submitting_author:
@@ -1056,13 +1097,13 @@
       name: movingpandas
       description: Movement trajectory classes and functions built on top of GeoPandas
       created_at: '2018-12-16'
-      stargazers_count: 1101
-      watchers_count: 1101
+      stargazers_count: 1110
+      watchers_count: 1110
       open_issues_count: 47
       forks_count: 186
       documentation: https://movingpandas.org
       contrib_count: 30
-      last_commit: '2024-02-09'
+      last_commit: '2024-03-04'
 - package_name: pandera
   package_description: validate the types, properties, and statistics of pandas
       data structures
@@ -1100,13 +1141,13 @@
       description: A light-weight, flexible, and expressive statistical data testing
           library
       created_at: '2018-11-01'
-      stargazers_count: 2851
-      watchers_count: 2851
-      open_issues_count: 324
-      forks_count: 244
+      stargazers_count: 2881
+      watchers_count: 2881
+      open_issues_count: 322
+      forks_count: 250
       documentation: https://www.union.ai/pandera
       contrib_count: 30
-      last_commit: '2024-02-23'
+      last_commit: '2024-03-08'
 - package_name: Nbless
   package_description: Construct, deconstruct, convert, execute, & prepare slides
       from Jupyter notebooks
@@ -1197,8 +1238,8 @@
       created_at: '2018-02-20'
       stargazers_count: 476
       watchers_count: 476
-      open_issues_count: 39
-      forks_count: 161
+      open_issues_count: 40
+      forks_count: 159
       documentation: https://earthpy.readthedocs.io
       contrib_count: 30
       last_commit: '2023-08-23'
