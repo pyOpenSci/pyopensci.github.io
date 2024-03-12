@@ -29,7 +29,7 @@ ecosystem. [Click here to check out packages that are currently under review.](h
 
 <div id="filters" class="button-group">
   <button class="button is-checked" data-filter="*">show all</button>
-  <button class="button" data-filter=".data-munging">data munging</button>
+  <button class="button" data-filter=".data-munging, .data-processing-munging">data munging</button>
   <button class="button" data-filter=".data-extraction">data extraction</button>
   <button class="button" data-filter=".data-retrieval">data retrieval</button>
   <button class="button" data-filter=".data-visualization">data-visualization</button>
@@ -37,9 +37,6 @@ ecosystem. [Click here to check out packages that are currently under review.](h
 
 <button class="button" data-filter=".geospatial">geospatial</button>
 <button class="button" data-filter=".reproducibility">reproducibility</button>
-
-  <!-- <button class="button" data-filter=":not(.transition)">not transition</button>
-  <button class="button" data-filter=".metal:not(.transition)">metal but not transition</button> -->
 </div>
 
 <div class="grid-isotope">
