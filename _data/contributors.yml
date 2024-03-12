@@ -9,7 +9,8 @@
   organization: pyOpenSci
   date_added: '2019-10-10'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
+  emeritus_editor: true
   advisory: false
   twitter: leahawasser
   mastodon: https://fosstodon.org/@leahawasser
@@ -273,7 +274,8 @@
   title:
     - Advisory Council
     - Emeritus editor
-  sort: 1
+  emeritus_editor: true
+  sort: 2
   bio: Open Source Developer
   organization: xmnlab
   date_added: '2019-10-15'
@@ -443,13 +445,16 @@
 - name: Ariane Sasso
   github_username: arianesasso
   github_image_id: 3659681
-  title: Editor
-  sort: 2
+  title:
+    - Emeritus Editor
+  emeritus_editor: true
+  editorial_board: false
+  sort: 3
   bio: Researcher in Medical Informatics and Digital Health ⌚ 👩‍💻 🧬
   organization: '@hpi-dhc'
   date_added: '2021-08-24'
   deia_advisory: true
-  editorial_board: true
+
   advisory: false
   twitter: arianemsasso
   mastodon:
@@ -477,8 +482,10 @@
 - name: David Nicholson
   github_username: NickleDave
   github_image_id: 11934090
-  title: Editor in Chief
-  sort: 1
+  title:
+    - Emeritus Editor in Chief
+    - Editor
+  sort: 2
   bio: ML, AI; behavior + cog + neuro. Open + inclusive science. Pythonista. He/him/they/them.
       Habla espanglish y baila salsa y bachata a medio tiempo.
   organization:
@@ -554,7 +561,8 @@
   organization: Google
   date_added: '2019-10-25'
   deia_advisory: false
-  editorial_board: true
+  editorial_board: false
+  emeritus_editor: true
   advisory: false
   twitter:
   mastodon:
@@ -609,13 +617,15 @@
 - name: Anita Graser
   github_username: anitagraser
   github_image_id: 590385
-  title: Editor
-  sort: 2
+  title:
+    - Emeritus Editor
+  sort: 3
   bio: Spatial data science with a focus on mobility & data quality
   organization:
   date_added: '2020-03-26'
   deia_advisory: false
-  editorial_board: true
+  editorial_board: false
+  emeritus_editor: true
   advisory: false
   twitter: underdarkGIS
   mastodon:
@@ -3268,12 +3278,15 @@
   github_username: hamogu
   github_image_id: 498688
   title:
-  sort:
+  sort: 2
   bio:
+  partners:
+    - Astropy
   organization: MIT
   date_added: '2023-07-15'
   deia_advisory: false
-  editorial_board:
+  emeritus_editor: false
+  editorial_board: true
   advisory: false
   twitter:
   mastodon:
@@ -3636,9 +3649,10 @@
   github_username: isabelizimm
   github_image_id: 54685329
   title:
+    - Editor in Chief
     - Editor
     - Peer review triage
-  sort: 2
+  sort: 1
   bio:
   organization: '@rstudio'
   date_added: '2023-08-14'
@@ -5136,3 +5150,10 @@
   packages_reviewed:
   location: Frankfurt, Germany
   email: carlosramosca@hotmail.com
+- name: Derek Homeier
+  github_username: dhomeier
+  editorial_board: true
+  emeritus_editor: false
+  sort: 1
+  partners:
+    - Astropy
