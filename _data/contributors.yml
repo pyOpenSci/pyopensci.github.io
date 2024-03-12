@@ -15,6 +15,7 @@
   twitter: leahawasser
   mastodon: https://fosstodon.org/@leahawasser
   orcidid: 0000-0002-8177-6550
+  partners:
   website: https://www.leahwasser.com
   board: true
   contributor_type:
@@ -49,10 +50,12 @@
   date_added: '2022-11-09'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: true
   contributor_type:
@@ -72,10 +75,12 @@
   date_added: '2022-11-09'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: kcranstn
   mastodon:
   orcidid:
+  partners:
   website: https://karencranston.ca/
   board: true
   contributor_type:
@@ -97,10 +102,12 @@
   date_added: '2023-11-21'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: true
   contributor_type:
@@ -122,10 +129,12 @@
   date_added: '2023-03-01'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: true
   twitter: WillingCarol
   mastodon:
   orcidid:
+  partners:
   website: https://hachyderm.io/web/@willingc
   board: false
   contributor_type:
@@ -152,10 +161,12 @@
   date_added: '2023-06-15'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: true
   twitter: connector_erin
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -176,10 +187,12 @@
   date_added: '2019-10-10'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: true
   twitter: choldgraf
   mastodon:
   orcidid:
+  partners:
   website: https://chrisholdgraf.com
   board: false
   contributor_type:
@@ -204,10 +217,12 @@
   date_added: '2023-03-21'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: true
   twitter: inessapawson
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -229,10 +244,12 @@
   date_added: '2023-03-01'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: true
   twitter: pradyunsg
   mastodon: https://mastodon.social/@pradyunsg
   orcidid:
+  partners:
   website: https://pradyunsg.me
   board: false
   contributor_type:
@@ -255,10 +272,12 @@
   date_added: '2023-01-18'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: true
   twitter:
   mastodon:
   orcidid:
+  partners:
   website: https://www.leouieda.com
   board: false
   contributor_type:
@@ -274,17 +293,18 @@
   title:
     - Advisory Council
     - Emeritus editor
-  emeritus_editor: true
   sort: 2
   bio: Open Source Developer
   organization: xmnlab
   date_added: '2019-10-15'
   deia_advisory: false
   editorial_board:
+  emeritus_editor: true
   advisory: true
   twitter: xmnlab
   mastodon:
   orcidid: 0000-0001-5049-4289
+  partners:
   website:
   board: false
   contributor_type:
@@ -322,10 +342,12 @@
   date_added: '2019-10-17'
   deia_advisory: false
   editorial_board: true
+  emeritus_editor:
   advisory: true
   twitter: ocefpaf
   mastodon:
   orcidid: 0000-0003-4165-2913
+  partners:
   website: https://ocefpaf.github.io/python4oceanographers
   board: false
   contributor_type:
@@ -354,10 +376,12 @@
   date_added: '2019-12-10'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: true
   twitter: lindsey_jh
   mastodon:
   orcidid:
+  partners:
   website: https://lindseyjh.ca/
   board: false
   contributor_type:
@@ -378,10 +402,12 @@
   date_added: '2020-04-09'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: true
   twitter: martinfleis
   mastodon: https://fosstodon.org/@martinfleis
   orcidid: 0000-0003-3319-3366
+  partners:
   website: https://martinfleischmann.net
   board: false
   contributor_type:
@@ -404,10 +430,12 @@
   date_added: '2023-01-18'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: true
   twitter:
   mastodon: https://hachyderm.io/@yuvipanda
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -429,10 +457,12 @@
   date_added: '2023-11-20'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: true
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -447,18 +477,18 @@
   github_image_id: 3659681
   title:
     - Emeritus Editor
-  emeritus_editor: true
-  editorial_board: false
   sort: 3
   bio: Researcher in Medical Informatics and Digital Health ⌚ 👩‍💻 🧬
   organization: '@hpi-dhc'
   date_added: '2021-08-24'
   deia_advisory: true
-
+  editorial_board: false
+  emeritus_editor: true
   advisory: false
   twitter: arianemsasso
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -492,10 +522,12 @@
   date_added: '2019-12-10'
   deia_advisory: false
   editorial_board: true
+  emeritus_editor:
   advisory: false
   twitter: nicholdav
   mastodon: https://fosstodon.org/@nicholdav
   orcidid: 0000-0002-4261-4719
+  partners:
   website: https://nicholdav.info/
   board: false
   contributor_type:
@@ -529,10 +561,12 @@
   date_added: '2023-01-24'
   deia_advisory: false
   editorial_board: true
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid: 0000-0003-2843-6044
+  partners:
   website: https://orcid.org/0000-0003-2843-6044
   board: false
   contributor_type:
@@ -567,6 +601,7 @@
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -594,10 +629,12 @@
   date_added: '2022-09-16'
   deia_advisory: false
   editorial_board: true
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -630,6 +667,7 @@
   twitter: underdarkGIS
   mastodon:
   orcidid:
+  partners:
   website: https://anitagraser.com
   board: false
   contributor_type:
@@ -655,10 +693,12 @@
   date_added: '2023-02-04'
   deia_advisory: false
   editorial_board: true
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon: https://fosstodon.org/@batalex
   orcidid:
+  partners:
   website: https://batalex.github.io
   board: false
   contributor_type:
@@ -688,10 +728,12 @@
   date_added: '2019-10-17'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: mxwlj
   mastodon:
   orcidid:
+  partners:
   website: https://mbjoseph.github.io
   board: false
   contributor_type:
@@ -723,6 +765,7 @@
   twitter:
   mastodon:
   orcidid:
+  partners:
   website: https://luizirber.org
   board: false
   contributor_type:
@@ -747,10 +790,12 @@
   date_added: '2023-02-24'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: dynamicwebpaige
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -770,10 +815,12 @@
   date_added: '2023-02-24'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: carsonfarmer
   mastodon:
   orcidid:
+  partners:
   website: https://carsonfarmer.com
   board: false
   contributor_type:
@@ -793,10 +840,12 @@
   date_added: '2023-02-24'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: _jhamman
   mastodon:
   orcidid:
+  partners:
   website: https://joehamman.com
   board: false
   contributor_type:
@@ -816,10 +865,12 @@
   date_added: '2023-02-24'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -844,10 +895,12 @@
   date_added: '2023-02-24'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website: https://marskar.github.io/
   board: false
   contributor_type:
@@ -871,10 +924,12 @@
   date_added: '2023-02-24'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -895,10 +950,12 @@
   date_added: '2023-02-24'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website: https://www.software.ac.uk
   board: false
   contributor_type:
@@ -918,10 +975,12 @@
   date_added: '2019-12-10'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: cosmicbboy
   mastodon:
   orcidid:
+  partners:
   website: https://cosmicbboy.github.io/
   board: false
   contributor_type:
@@ -948,10 +1007,12 @@
   date_added: '2019-12-10'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website: https://sgillies.net
   board: false
   contributor_type:
@@ -973,10 +1034,12 @@
   date_added: '2019-12-10'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: rg0swami
   mastodon:
   orcidid:
+  partners:
   website: https://rgoswami.me
   board: false
   contributor_type:
@@ -998,10 +1061,12 @@
   date_added: '2020-06-08'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: metasomite
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -1025,10 +1090,12 @@
   date_added: '2020-10-14'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -1054,10 +1121,12 @@
   date_added: '2020-10-14'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: edgarriba
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -1080,10 +1149,12 @@
   date_added: '2021-02-19'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website: https://www.dov.vlaanderen.be
   board: false
   contributor_type:
@@ -1104,10 +1175,12 @@
   date_added: '2021-03-02'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website: https://mastodon.social/@rhuybrec
   board: false
   contributor_type:
@@ -1128,10 +1201,12 @@
   date_added: '2021-03-02'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -1152,10 +1227,12 @@
   date_added: '2021-03-02'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website: https://corporate.dewatergroep.be/en
   board: false
   contributor_type:
@@ -1176,10 +1253,12 @@
   date_added: '2021-04-30'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: Jonny_Wireless
   mastodon:
   orcidid: 0000-0002-2575-9633
+  partners:
   website:
   board: false
   contributor_type:
@@ -1206,10 +1285,12 @@
   date_added: '2021-05-07'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: ksielemann
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -1232,10 +1313,12 @@
   date_added: '2021-05-13'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: mluerig
   mastodon:
   orcidid:
+  partners:
   website: https://www.luerig.net
   board: false
   contributor_type:
@@ -1260,10 +1343,12 @@
   date_added: '2021-09-16'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website: https://McTavishLab.github.io
   board: false
   contributor_type:
@@ -1290,10 +1375,12 @@
   date_added: '2021-09-16'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: LunaSare
   mastodon:
   orcidid:
+  partners:
   website: https://www.lunasare.com
   board: false
   contributor_type:
@@ -1317,10 +1404,12 @@
   date_added: '2022-01-12'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -1343,10 +1432,12 @@
   date_added: '2022-01-12'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -1368,10 +1459,12 @@
   date_added: '2022-09-08'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: JuliusBusecke
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -1393,10 +1486,12 @@
   date_added: '2023-03-01'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon: https://fediscience.org/@npalopoli
   orcidid: ​0000-0001-7925-6436
+  partners:
   website: https://about.me/npalopoli
   board: false
   contributor_type:
@@ -1415,10 +1510,12 @@
   date_added: '2023-03-01'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: eriknwelch
   mastodon:
   orcidid:
+  partners:
   website: https://fosstodon.org/@eriknw
   board: false
   contributor_type:
@@ -1445,10 +1542,12 @@
   date_added: '2023-03-01'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: PamphileRoy
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -1469,10 +1568,12 @@
   date_added: '2023-03-01'
   deia_advisory: false
   editorial_board: true
+  emeritus_editor:
   advisory: false
   twitter: json_dirs
   mastodon: https://neuromatch.social/@jonny
   orcidid: 0000-0003-0545-5066
+  partners:
   website: https://jon-e.net
   board: false
   contributor_type:
@@ -1497,10 +1598,12 @@
   date_added: '2023-03-01'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -1521,10 +1624,12 @@
   date_added: '2023-03-01'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -1547,10 +1652,12 @@
   date_added: '2023-03-01'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: henryschreiner3
   mastodon:
   orcidid:
+  partners:
   website: https://iscinumpy.dev
   board: false
   contributor_type:
@@ -1572,10 +1679,12 @@
   date_added: '2023-03-01'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: stefanvdwalt
   mastodon:
   orcidid:
+  partners:
   website: https://mentat.za.net
   board: false
   contributor_type:
@@ -1597,10 +1706,12 @@
   date_added: '2023-03-01'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -1622,10 +1733,12 @@
   date_added: '2023-03-01'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: ralfgommers
   mastodon:
   orcidid:
+  partners:
   website: https://github.com/rgommers/
   board: false
   contributor_type:
@@ -1646,10 +1759,12 @@
   date_added: '2023-03-01'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website: https://ofek.dev
   board: false
   contributor_type:
@@ -1671,10 +1786,12 @@
   date_added: '2023-03-01'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website: https://tomaugspurger.github.io
   board: false
   contributor_type:
@@ -1696,10 +1813,12 @@
   date_added: '2023-03-01'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: rabernat
   mastodon:
   orcidid:
+  partners:
   website: https://github.com/rabernat
   board: false
   contributor_type:
@@ -1721,10 +1840,12 @@
   date_added: '2023-03-01'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: gawbul
   mastodon:
   orcidid:
+  partners:
   website: https://www.gawbul.io
   board: false
   contributor_type:
@@ -1748,10 +1869,12 @@
   date_added: '2023-03-01'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -1772,10 +1895,12 @@
   date_added: '2023-03-01'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -1796,10 +1921,12 @@
   date_added: '2023-03-01'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: itss_sumit
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -1821,10 +1948,12 @@
   date_added: '2023-03-01'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: e_Sundell
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -1845,10 +1974,12 @@
   date_added: '2023-03-01'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website: https://arokem.org
   board: false
   contributor_type:
@@ -1870,10 +2001,12 @@
   date_added: '2023-03-01'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: starfleetjames
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -1894,10 +2027,12 @@
   date_added: '2023-04-13'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -1918,10 +2053,12 @@
   date_added: '2023-04-13'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: frostming90
   mastodon:
   orcidid:
+  partners:
   website: https://frostming.com
   board: false
   contributor_type:
@@ -1943,10 +2080,12 @@
   date_added: '2023-04-13'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -1967,10 +2106,12 @@
   date_added: '2023-04-13'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -1992,10 +2133,12 @@
   date_added: '2023-04-13'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: jezdez
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -2016,10 +2159,12 @@
   date_added: '2023-04-13'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: dave_hirschfeld
   mastodon:
   orcidid:
+  partners:
   website: https://dhirschfeld.github.io
   board: false
   contributor_type:
@@ -2040,10 +2185,12 @@
   date_added: '2023-04-14'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -2064,10 +2211,12 @@
   date_added: '2023-04-14'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -2091,10 +2240,12 @@
   date_added: '2023-04-14'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -2118,10 +2269,12 @@
   date_added: '2023-04-13'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website: https://gitlab.com/enra64
   board: false
   contributor_type:
@@ -2145,10 +2298,12 @@
   date_added: '2023-04-13'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: agricolabs
   mastodon:
   orcidid:
+  partners:
   website: https://fosstodon.org/@agricolab
   board: false
   contributor_type:
@@ -2172,10 +2327,12 @@
   date_added: '2023-04-13'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: boas_pucker
   mastodon:
   orcidid:
+  partners:
   website: https://www.tu-braunschweig.de/en/ifp/pbb
   board: false
   contributor_type:
@@ -2198,10 +2355,12 @@
   date_added: '2023-04-13'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: leomrtns
   mastodon:
   orcidid:
+  partners:
   website: https://leomrtns.github.io
   board: false
   contributor_type:
@@ -2223,10 +2382,12 @@
   date_added: '2023-04-13'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website: https://soumith.ch
   board: false
   contributor_type:
@@ -2248,10 +2409,12 @@
   date_added: '2023-04-13'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -2273,10 +2436,12 @@
   date_added: '2023-04-13'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: seth_donoughe
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -2304,6 +2469,7 @@
   twitter: jbencook
   mastodon:
   orcidid:
+  partners:
   website: https://sparrow.dev
   board: false
   contributor_type:
@@ -2326,10 +2492,12 @@
   date_added: '2023-04-13'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: romain_beucher
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -2352,10 +2520,12 @@
   date_added: '2023-04-13'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: Charles_LeLosq
   mastodon:
   orcidid:
+  partners:
   website: https://charlesll.github.io/
   board: false
   contributor_type:
@@ -2378,10 +2548,12 @@
   date_added: '2023-04-13'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website: https://weiji14.github.io
   board: false
   contributor_type:
@@ -2405,10 +2577,12 @@
   date_added: '2023-03-29'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: TessaRhinehart
   mastodon:
   orcidid: 0000-0002-4352-3464
+  partners:
   website: https://tessarhinehart.com
   board: false
   contributor_type:
@@ -2430,10 +2604,12 @@
   date_added: '2023-04-12'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid: 0000-0002-5538-8845
+  partners:
   website: https://aguspesce.github.io
   board: false
   contributor_type:
@@ -2456,10 +2632,12 @@
   date_added: '2023-04-13'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -2482,10 +2660,12 @@
   date_added: '2023-04-13'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -2512,10 +2692,12 @@
   date_added: '2023-04-13'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: srobainae
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -2543,10 +2725,12 @@
   date_added: '2023-04-13'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -2571,10 +2755,12 @@
   date_added: '2023-04-13'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: __jmunroe
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -2597,10 +2783,12 @@
   date_added: '2023-04-13'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -2622,10 +2810,12 @@
   date_added: '2023-04-18'
   deia_advisory: false
   editorial_board: true
+  emeritus_editor:
   advisory: false
   twitter: tlrss
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -2651,10 +2841,12 @@
   date_added: '2023-04-18'
   deia_advisory: false
   editorial_board: true
+  emeritus_editor:
   advisory: false
   twitter: ctitusbrown
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -2678,10 +2870,12 @@
   date_added: '2023-04-18'
   deia_advisory: false
   editorial_board: true
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -2705,10 +2899,12 @@
   date_added: '2023-04-24'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -2728,10 +2924,12 @@
   date_added: '2023-04-24'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -2752,10 +2950,12 @@
   date_added: '2023-04-24'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website: https://tiffanyxiao.com/
   board: false
   contributor_type:
@@ -2776,10 +2976,12 @@
   date_added: '2023-04-24'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -2800,10 +3002,12 @@
   date_added: '2023-04-24'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: paajake
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -2824,10 +3028,12 @@
   date_added: '2023-04-24'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -2849,10 +3055,12 @@
   date_added: '2023-05-26'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: ucodery
   mastodon:
   orcidid:
+  partners:
   website: https://blog.ucodery.com
   board: false
   contributor_type:
@@ -2873,10 +3081,12 @@
   date_added: '2023-05-26'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: IramMahe
   mastodon:
   orcidid:
+  partners:
   website: https://forgottenprogramme.github.io/
   board: false
   contributor_type:
@@ -2897,10 +3107,12 @@
   date_added: '2023-05-26'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -2921,10 +3133,12 @@
   date_added: '2023-05-26'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: davidstansby
   mastodon:
   orcidid:
+  partners:
   website: https://www.davidstansby.com
   board: false
   contributor_type:
@@ -2949,10 +3163,12 @@
   date_added: '2023-05-26'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: juanitagomezr
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -2975,10 +3191,12 @@
   date_added: '2023-05-26'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website: https://www.sckaiser.com
   board: false
   contributor_type:
@@ -3001,10 +3219,12 @@
   date_added: '2023-06-01'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website: https://gleap.org
   board: false
   contributor_type:
@@ -3028,10 +3248,12 @@
   date_added: '2023-06-14'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -3052,10 +3274,12 @@
   date_added: '2023-06-14'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: dpprdan
   mastodon:
   orcidid:
+  partners:
   website: https://possenrie.de
   board: false
   contributor_type:
@@ -3077,10 +3301,12 @@
   date_added: '2023-06-14'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: StarFleetTours
   mastodon:
   orcidid:
+  partners:
   website: https://www.hamma.dev
   board: false
   contributor_type:
@@ -3100,10 +3326,12 @@
   date_added: '2023-07-12'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid: 0000-0002-7109-3270
+  partners:
   website:
   board: false
   contributor_type:
@@ -3129,10 +3357,12 @@
   date_added: '2023-07-12'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: jfy133
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -3155,10 +3385,12 @@
   date_added: '2023-07-12'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: me_beber
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -3185,10 +3417,12 @@
   date_added: '2023-07-15'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid: 0000-0002-3100-523X
+  partners:
   website:
   board: false
   contributor_type:
@@ -3211,10 +3445,12 @@
   date_added: '2023-07-15'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -3236,10 +3472,12 @@
   date_added: '2023-07-15'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -3261,10 +3499,12 @@
   date_added: '2023-07-15'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website: https://orcid.org/0000-0001-6628-8033
   board: false
   contributor_type:
@@ -3282,17 +3522,17 @@
   title:
   sort: 2
   bio:
-  partners:
-    - Astropy
   organization: MIT
   date_added: '2023-07-15'
   deia_advisory: false
-  emeritus_editor: false
   editorial_board: true
+  emeritus_editor: false
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
+    - Astropy
   website:
   board: false
   contributor_type:
@@ -3313,10 +3553,12 @@
   date_added: '2023-07-15'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -3337,10 +3579,12 @@
   date_added: '2023-07-15'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -3360,10 +3604,12 @@
   date_added: '2023-07-15'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: thomasjpfan
   mastodon:
   orcidid:
+  partners:
   website: https://thomasjpfan.com
   board: false
   contributor_type:
@@ -3383,10 +3629,12 @@
   date_added: '2023-07-27'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -3406,10 +3654,12 @@
   date_added: '2023-07-27'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website: https://rickynilsson.github.io
   board: false
   contributor_type:
@@ -3429,10 +3679,12 @@
   date_added: '2023-07-27'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: OriolAbril
   mastodon:
   orcidid:
+  partners:
   website: https://oriolabrilpla.cat
   board: false
   contributor_type:
@@ -3454,10 +3706,12 @@
   date_added: '2023-07-27'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website: https://alizma.github.io/
   board: false
   contributor_type:
@@ -3479,10 +3733,12 @@
   date_added: '2023-07-27'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: saltyscientist
   mastodon:
   orcidid:
+  partners:
   website: https://bluegenes.github.io
   board: false
   contributor_type:
@@ -3504,10 +3760,12 @@
   date_added: '2023-07-27'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -3530,10 +3788,12 @@
   date_added: '2023-07-27'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: 7yl4r
   mastodon:
   orcidid:
+  partners:
   website: https://tylar.info
   board: false
   contributor_type:
@@ -3556,10 +3816,12 @@
   date_added: '2023-07-27'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: theayushanand
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -3581,10 +3843,12 @@
   date_added: '2023-07-27'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -3606,10 +3870,12 @@
   date_added: '2023-07-27'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -3631,10 +3897,12 @@
   date_added: '2023-07-27'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -3660,10 +3928,12 @@
   date_added: '2023-08-14'
   deia_advisory: false
   editorial_board: true
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -3689,10 +3959,12 @@
   date_added: '2023-09-11'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: eliotdexter
   mastodon:
   orcidid:
+  partners:
   website: https://eliotwrobson.github.io/
   board: false
   contributor_type:
@@ -3712,10 +3984,12 @@
   date_added: '2023-09-11'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -3735,10 +4009,12 @@
   date_added: '2023-09-11'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -3761,10 +4037,12 @@
   date_added: '2023-09-11'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: k_kloppenborg
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -3788,10 +4066,12 @@
   date_added: '2023-09-11'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website: https://seisman.info
   board: false
   contributor_type:
@@ -3814,10 +4094,12 @@
   date_added: '2023-09-11'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -3840,10 +4122,12 @@
   date_added: '2023-09-11'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -3865,10 +4149,12 @@
   date_added: '2023-09-11'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -3891,10 +4177,12 @@
   date_added: '2020-09-11'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -3916,10 +4204,12 @@
   date_added: '2020-09-11'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -3941,10 +4231,12 @@
   date_added: '2023-09-15'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -3966,10 +4258,12 @@
   date_added: '2023-10-22'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -3989,10 +4283,12 @@
   date_added: '2023-10-22'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -4014,10 +4310,12 @@
   date_added: '2023-10-22'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -4039,10 +4337,12 @@
   date_added: '2023-10-22'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: WowThatBurns
   mastodon:
   orcidid:
+  partners:
   website: https://jacksonwarnerburns.com
   board: false
   contributor_type:
@@ -4066,10 +4366,12 @@
   date_added: '2023-10-22'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -4091,10 +4393,12 @@
   date_added: '2023-10-22'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -4116,10 +4420,12 @@
   date_added: '2023-10-22'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -4141,10 +4447,12 @@
   date_added: '2023-10-22'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: nwlandry
   mastodon:
   orcidid:
+  partners:
   website: https://nwlandry.com
   board: false
   contributor_type:
@@ -4167,10 +4475,12 @@
   date_added: '2023-10-22'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -4192,10 +4502,12 @@
   date_added: '2023-10-22'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website: https://maximelucas.github.io
   board: false
   contributor_type:
@@ -4217,10 +4529,12 @@
   date_added: '2023-10-22'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: iacopoiacopini
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -4242,10 +4556,12 @@
   date_added: '2023-10-22'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: lordgrilo
   mastodon:
   orcidid:
+  partners:
   website: https://lordgrilo.github.io
   board: false
   contributor_type:
@@ -4267,10 +4583,12 @@
   date_added: '2023-10-22'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website: https://aliceschwarze.gitlab.io/
   board: false
   contributor_type:
@@ -4292,10 +4610,12 @@
   date_added: '2023-10-22'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: thomrobiglio
   mastodon:
   orcidid:
+  partners:
   website: https://thomasrobiglio.github.io
   board: false
   contributor_type:
@@ -4317,10 +4637,12 @@
   date_added: '2023-10-22'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: AlicePatania
   mastodon:
   orcidid:
+  partners:
   website: https://alpatania.github.io
   board: false
   contributor_type:
@@ -4343,10 +4665,12 @@
   date_added: '2023-12-14'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website: https://jhkennedy.org
   board: false
   contributor_type:
@@ -4367,10 +4691,12 @@
   date_added: '2023-12-14'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website: https://orcid.org/0000-0002-8999-9003
   board: false
   contributor_type:
@@ -4391,10 +4717,12 @@
   date_added: '2023-12-14'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website: https://grst.github.io
   board: false
   contributor_type:
@@ -4415,10 +4743,12 @@
   date_added: '2023-12-14'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: nutjob4life
   mastodon:
   orcidid:
+  partners:
   website: https://about.me/sean.c.kelly
   board: false
   contributor_type:
@@ -4441,10 +4771,12 @@
   date_added: '2023-12-14'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: teabass
   mastodon:
   orcidid:
+  partners:
   website: https://nesbitt.io
   board: false
   contributor_type:
@@ -4465,10 +4797,12 @@
   date_added: '2023-12-14'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: lukasheumos
   mastodon:
   orcidid:
+  partners:
   website: https://lukasheumos.com
   board: false
   contributor_type:
@@ -4490,10 +4824,12 @@
   date_added: '2023-12-14'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: slobentanzer
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -4516,10 +4852,12 @@
   date_added: '2023-12-15'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -4539,10 +4877,12 @@
   date_added: '2023-12-21'
   deia_advisory: false
   editorial_board: true
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -4562,10 +4902,12 @@
   date_added: '2023-12-27'
   deia_advisory: false
   editorial_board: true
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -4585,10 +4927,12 @@
   date_added: '2023-12-27'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website: https://phil.red
   board: false
   contributor_type:
@@ -4608,10 +4952,12 @@
   date_added: '2024-01-30'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -4633,10 +4979,12 @@
   date_added: '2024-01-30'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -4659,10 +5007,12 @@
   date_added: '2024-01-30'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website: https://orcid.org/0000-0001-6127-795X
   board: false
   contributor_type:
@@ -4685,10 +5035,12 @@
   date_added: '2024-01-30'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website: https://dpshelio.github.io
   board: false
   contributor_type:
@@ -4710,10 +5062,12 @@
   date_added: '2024-01-30'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -4735,10 +5089,12 @@
   date_added: '2024-01-30'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -4761,10 +5117,12 @@
   date_added: '2024-01-30'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website: https://www.cadair.com
   board: false
   contributor_type:
@@ -4786,10 +5144,12 @@
   date_added: '2024-01-30'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -4811,10 +5171,12 @@
   date_added: '2024-01-30'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: wtbarnes_
   mastodon:
   orcidid:
+  partners:
   website: https://wtbarnes.github.io/
   board: false
   contributor_type:
@@ -4836,10 +5198,12 @@
   date_added: '2024-01-30'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website: https://macbride.me
   board: false
   contributor_type:
@@ -4861,10 +5225,12 @@
   date_added: '2024-01-30'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -4886,10 +5252,12 @@
   date_added: '2024-01-30'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: Laura_hayess
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -4911,10 +5279,12 @@
   date_added: '2024-01-30'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -4936,10 +5306,12 @@
   date_added: '2024-02-15'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: michael_ts0
   mastodon:
   orcidid:
+  partners:
   website: https://cmtso.github.io
   board: false
   contributor_type:
@@ -4961,10 +5333,12 @@
   date_added: '2024-02-15'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website: https://asdc.larc.nasa.gov/
   board: false
   contributor_type:
@@ -4987,10 +5361,12 @@
   date_added: '2024-02-15'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: chowthedog
   mastodon:
   orcidid:
+  partners:
   website: https://mchow.com
   board: false
   contributor_type:
@@ -5012,10 +5388,12 @@
   date_added: '2024-02-15'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -5038,10 +5416,12 @@
   date_added: '2024-02-25'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -5061,10 +5441,12 @@
   date_added: '2024-02-25'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -5085,10 +5467,12 @@
   date_added: '2024-03-09'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: riannone
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -5110,10 +5494,12 @@
   date_added: '2024-03-09'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter: HKibirige
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -5136,10 +5522,12 @@
   date_added: '2024-03-09'
   deia_advisory: false
   editorial_board:
+  emeritus_editor:
   advisory: false
   twitter:
   mastodon:
   orcidid:
+  partners:
   website:
   board: false
   contributor_type:
@@ -5154,8 +5542,26 @@
   email: carlosramosca@hotmail.com
 - name: Derek Homeier
   github_username: dhomeier
+  github_image_id:
+  title:
+  sort: 1
+  bio:
+  organization:
+  date_added:
+  deia_advisory: false
   editorial_board: true
   emeritus_editor: false
-  sort: 1
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
   partners:
     - Astropy
+  website:
+  board: false
+  contributor_type:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location:
+  email:
