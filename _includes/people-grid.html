@@ -15,6 +15,13 @@
          </a>
       </h4>
       <p class="page__meta">
+        {% if aperson.partners %}
+        <span>
+          {{ aperson.partners | join: ', ' }}
+        </span>
+        {% endif %}
+        </p>
+      <p class="page__meta">
       {% if aperson.title %}
       <span>
         {{ aperson.title | join: ', ' }}

@@ -127,9 +127,21 @@ editor role at pyOpenSci [in our peer review guide.](https://www.pyopensci.org/s
 
 <div class="grid clean">
 {% for aperson in editors %}
-{% unless aperson.board %}
     {% include people-grid.html  %}
- {% endunless %}
+{% endfor %}
+</div>
+
+<br clear="both">
+
+## Emeritus Editors
+
+We are deeply grateful for those served on our editorial board previously!
+
+{% assign emeritus = site.data.contributors | where: 'emeritus_editor', true  %}
+
+<div class="grid clean">
+{% for aperson in emeritus %}
+    {% include people-grid.html  %}
 {% endfor %}
 </div>
 
