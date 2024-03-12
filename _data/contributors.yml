@@ -717,7 +717,8 @@
   organization:
   date_added: '2019-10-17'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
+  emeritus_editor: true
   advisory: false
   twitter:
   mastodon:
@@ -2297,7 +2298,8 @@
   organization:
   date_added: '2023-04-13'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
+  emeritus_editor: true
   advisory: false
   twitter: jbencook
   mastodon:

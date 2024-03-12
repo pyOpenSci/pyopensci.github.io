@@ -133,7 +133,7 @@ editor role at pyOpenSci [in our peer review guide.](https://www.pyopensci.org/s
 
 <br clear="both">
 
-## Emeritus Editors
+## Emeritus & Guest Editors
 
 We are deeply grateful for those served on our editorial board previously!
 
