@@ -139,6 +139,7 @@
   board: false
   contributor_type:
     - code-contrib
+    - community
     - guidebook-contrib
     - leadership
     - peer-review
@@ -310,6 +311,7 @@
   contributor_type:
     - alumni-editor
     - code-contrib
+    - community
     - editor
     - guidebook-contrib
     - leadership
@@ -639,6 +641,7 @@
   board: false
   contributor_type:
     - code-contrib
+    - community
     - editor
     - guidebook-contrib
     - package-guide
@@ -770,6 +773,7 @@
   board: false
   contributor_type:
     - code-contrib
+    - community
     - editor
     - metrics-contrib
     - peer-review
@@ -1769,6 +1773,7 @@
   board: false
   contributor_type:
     - code-contrib
+    - community
     - guidebook-contrib
     - package-guide
   packages_editor:
@@ -2853,6 +2858,7 @@
     - contributor
     - editor
     - guest editor
+    - package-guide
     - peer-review
   packages_editor:
     - taxpasta
@@ -2934,6 +2940,7 @@
   board: false
   contributor_type:
     - code-contrib
+    - community
     - metrics-contrib
   packages_editor:
   packages_submitted:
@@ -2960,6 +2967,7 @@
   board: false
   contributor_type:
     - code-contrib
+    - community
     - metrics-contrib
   packages_editor:
   packages_submitted:
@@ -2986,6 +2994,7 @@
   board: false
   contributor_type:
     - code-contrib
+    - community
     - metrics-contrib
   packages_editor:
   packages_submitted:
@@ -3012,6 +3021,7 @@
   board: false
   contributor_type:
     - code-contrib
+    - community
     - metrics-contrib
   packages_editor:
   packages_submitted:
@@ -3038,6 +3048,7 @@
   board: false
   contributor_type:
     - code-contrib
+    - community
     - metrics-contrib
     - web-contrib
   packages_editor:
@@ -3173,6 +3184,7 @@
   board: false
   contributor_type:
     - code-contrib
+    - community
     - metrics-contrib
     - web-contrib
   packages_editor:
@@ -3201,6 +3213,7 @@
   board: false
   contributor_type:
     - code-contrib
+    - community
     - metrics-contrib
     - web-contrib
   packages_editor:
@@ -3907,6 +3920,7 @@
   board: false
   contributor_type:
     - code-contrib
+    - community
     - maintainer
     - peer-review
   packages_editor:
@@ -4675,9 +4689,12 @@
   board: false
   contributor_type:
     - package-guide
+    - peer-review
+    - reviewer
   packages_editor:
   packages_submitted:
   packages_reviewed:
+    - eomaps
   location: Fairbanks, AK
   email:
 - name: William F. Broderick
@@ -4887,9 +4904,12 @@
   board: false
   contributor_type:
     - editor
+    - peer-review
+    - reviewer
   packages_editor:
   packages_submitted:
   packages_reviewed:
+    - eomaps
   location:
   email:
 - name: Bane Sullivan
@@ -4912,7 +4932,9 @@
   board: false
   contributor_type:
     - editor
+    - peer-review
   packages_editor:
+    - eomaps
   packages_submitted:
   packages_reviewed:
   location:
@@ -5562,6 +5584,60 @@
   contributor_type:
   packages_editor:
   packages_submitted:
+  packages_reviewed:
+  location:
+  email:
+- name: Sviatoslav Sydorenko (Святослав Сидоренко)
+  github_username: webknjaz
+  github_image_id: 578543
+  title:
+  sort:
+  bio: '🇺🇦 #StandWithUkraine* traveler* oversees @aio-libs CI* maintains @CherryPy*
+      made Octomachinery & alls-green, pypi-publish & checkout-python-sdist GHAs'
+  organization: '@Ansible Core Engineering Team @ @RedHatOfficial'
+  date_added: '2024-03-20'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor:
+  advisory: false
+  twitter: webknjaz
+  mastodon:
+  orcidid:
+  partners:
+  website: https://webknjaz.me
+  board: false
+  contributor_type:
+    - community
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: Mikulov, CZ ↜ Brno, CZ ↜ Brovary/Kyiv, UA
+  email: webknjaz+github/profile@redhat.com
+- name: Raphael Quast
+  github_username: raphaelquast
+  github_image_id: 22773387
+  title:
+  sort:
+  bio:
+  organization: TU Wien
+  date_added: '2024-03-20'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+    - submitting-author
+  packages_editor:
+  packages_submitted:
+    - eomaps
   packages_reviewed:
   location:
   email:
