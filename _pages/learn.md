@@ -17,21 +17,21 @@ scientists:
 overview:
   - excerpt: "pyOpenSci creates resources to help you navigate the Python packaging ecosystem with ease. All of our materials are community developed and go through extensive review."
 development:
-   - image_path: images/people-building-blocks.jpg
+   - image_path: images/pyopensci-learn-community-created.png
      alt: "alt here "
-     title: "Need image - how we create our tutorials"
-     excerpt: "More about our review process"
-     url: https://www.pyopensci.org/python-package-guide/tutorials/
-     btn_label: View our Python packaging guide
-     btn_class: btn--primary
+     title: "Community Developed Python Tutorials for Scientists"
+     excerpt: "Our tutorials are created through a multi-stage community review process.
+
+     * Tutorials are developed by the pyOpenSci team or community members.
+
+     * Tutorials are reviewed by tool maintainers to ensure ideas and concepts are accurate
+
+     * Before publication, tutorials then go through several rounds of community review for accuracy, usability and accessibility."
 whats_next:
-  - image_path: images/pyopensci-people-at-computer.jpg
+  - image_path: images/pyopensci-learn-github-collaboration.png
     alt: "A pencil sketch of a round table with people sitting around it from different backgrounds working on laptops and also writing together."
-    excerpt: "More here"
+    excerpt: "Through the Better software for science fellowship we will be developing lessons focused on teaching core Github collaboration skills needed for both contributing to open source software and for working in an open science team environment. "
     title: "What's next: Collaborative GitHub for Scientists"
-    url: https://www.pyopensci.org/python-packages.html
-    btn_label: View our growing list of accepted scientific Python packages
-    btn_class: btn--primary
 toc: false
 ---
 
