@@ -41,6 +41,10 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 3
+      - name: INstall gems
+        run: |
+          gem install html-proofer
+          gem install typhoeus
 
       - name: Cache HTMLProofer
         id: cache-htmlproofer
@@ -51,7 +55,5 @@ jobs:
 
       - name: Run htmlproofer
         run: |
-          git branch -a
-          gem install html-proofer
-          gem install typhoeus
           ruby scripts/htmlproofer.rb
+          ls
