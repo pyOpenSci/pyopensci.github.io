@@ -53,4 +53,5 @@ jobs:
         run: |
           git branch -a
           gem install html-proofer
+          gem install typhoeus
           ruby scripts/htmlproofer.rb

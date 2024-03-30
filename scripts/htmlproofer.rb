@@ -1,4 +1,5 @@
 require "html-proofer"
+require "typhoeus"
 
 directories = ['../_site']
 status_codes = [0, 200, 301, 403, 429, 503, 999]
@@ -14,4 +15,20 @@ end.map { |f| Regexp.new(File.basename(f, File.extname(f))) }
 diffable_files << %r{^https://fonts\.gstatic\.com.*}
 diffable_files << %r{^https://fonts\.googleapis\.com.*}
 
-HTMLProofer.check_directory("./_site", { ignore_urls: diffable_files, ignore_status_codes: status_codes, cache: { timeframe: { external: "7d", internal: "7d" } } }).run
+HTMLProofer.check_directory(
+  "./_site",
+  {
+    ignore_urls: diffable_files,
+    ignore_status_codes: status_codes,
+    cache: {
+      timeframe: {
+        external: "7d",
+        internal: "7d"
+      }
+    },
+    typhoeus: {
+      verbose: true,
+      ssl_verifyhost: 2
+    }
+  }
+).run
