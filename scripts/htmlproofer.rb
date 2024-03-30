@@ -27,8 +27,8 @@ HTMLProofer.check_directory(
       }
     },
     typhoeus: {
-      verbose: true,
-      ssl_verifyhost: 2
+      verbose: false,
+      ssl_verifyhost: 1
     }
   }
 ).run
