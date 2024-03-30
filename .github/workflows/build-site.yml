@@ -41,7 +41,7 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 3
-      - name: INstall gems
+      - name: Install gems
         run: |
           gem install html-proofer
           gem install typhoeus
@@ -57,3 +57,6 @@ jobs:
         run: |
           ruby scripts/htmlproofer.rb
           ls
+
+      - name: Error log
+        run: cat html_proofer_errors.txt

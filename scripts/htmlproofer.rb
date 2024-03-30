@@ -16,6 +16,8 @@ begin
   diffable_files << %r{^https://fonts\.gstatic\.com.*}
   diffable_files << %r{^https://fonts\.googleapis\.com.*}
 
+  # Create a file to capture errors
+  errors = StringIO.new
   HTMLProofer.check_directory(
     "./_site",
     {
@@ -32,7 +34,11 @@ begin
         ssl_verifyhost: 1
       }
     }
-  ).run
+  ).run { |message| errors.puts message }
+
+   # Write errors to a text file
+   File.write("html_proofer_errors.txt", errors.string)
+
 rescue StandardError => e
   # Print out the error message
   puts "An error occurred: #{e.message}"
