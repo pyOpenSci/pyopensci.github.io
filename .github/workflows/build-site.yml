@@ -6,8 +6,12 @@ on:
     branches:
       - main
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
-  github-pages:
+  build-site:
     runs-on: ubuntu-latest
     steps:
       - name: Check out the code
@@ -40,7 +44,7 @@ jobs:
 
       - name: Cache HTMLProofer
         id: cache-htmlproofer
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         with:
           path: tmp/.htmlproofer
           key: ${{ runner.os }}-htmlproofer
