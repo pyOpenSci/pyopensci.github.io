@@ -11,11 +11,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out the code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       # Use GitHub Actions' cache to shorten build times and decrease load on servers
       - name: Use cache to shorten build time
-        uses: actions/cache@v1
+        uses: actions/cache@v4
         with:
           path: vendor/bundle
           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
@@ -28,11 +28,20 @@ jobs:
           build_only: true
           build_dir: _site
 
-      - name: Check HTML using htmlproofer
-        uses: chabad360/htmlproofer@master
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
         with:
-          directory: "_site"
-          arguments: |
-            --ignore-urls "https://fonts.googleapis.com,https://fonts.gstatic.com,_site/_posts/README/index.html"
-            --ignore-files "/.+\/_posts\/README.md"
-            --ignore-status-codes "0, 200, 403, 429, 503, 999"
+          ruby-version: 3
+
+      - name: Cache HTMLProofer
+        id: cache-htmlproofer
+        uses: actions/cache@v2
+        with:
+          path: tmp/.htmlproofer
+          key: ${{ runner.os }}-htmlproofer
+
+      - name: Run htmlproofer
+        run: |
+          git branch -a
+          gem install html-proofer
+          ruby scripts/htmlproofer.rb
