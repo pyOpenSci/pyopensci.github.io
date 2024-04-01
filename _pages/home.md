@@ -40,7 +40,6 @@ peer-review:
     btn_class: btn--inverse
 ---
 
-[badlink](https://www.pyopensci.org/badlinkhere.html)
 
 {% include feature_row id="mission" type="center" %}
 
