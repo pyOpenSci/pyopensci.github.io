@@ -66,4 +66,4 @@ Happening July 8th–14th in Tacoma, WA, [SciPy registration is live](https://ww
 Have an upcoming scientific Python event that’s open to the public? Email us at [media@pyopensci.org](media@pyopensci.org) with the details to have your event listed.
 
 ## :envelope: Get the pyOpenSci monthly newsletter delivered directly to your inbox!
-In addition to catching our newsletter on Fosstodon, LinkedIn, and the pyOpenSci website, you can also [sign up to have the newsletter delivered to your inbox every month](http://eepurl.com/iM7SOM)!
+In addition to catching our newsletter on Fosstodon, LinkedIn, and the pyOpenSci website, you can also [sign up to have the newsletter delivered to your inbox every month](https://eepurl.com/iM7SOM)!
