@@ -11,11 +11,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out the code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       # Use GitHub Actions' cache to shorten build times and decrease load on servers
       - name: Use cache to shorten build time
-        uses: actions/cache@v1
+        uses: actions/cache@v4
         with:
           path: vendor/bundle
           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
