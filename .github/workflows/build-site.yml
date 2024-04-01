@@ -31,7 +31,7 @@ jobs:
       - name: Check HTML using htmlproofer
         uses: anishathalye/proof-html@v2
         with:
-          directory: ./_site
+          directory: _site
           enforce_https: false
           check_favicon: false
           check_html: false
@@ -40,3 +40,9 @@ jobs:
           ignore_url: |
             https://fonts.googleapis.com
             https://fonts.gstatic.com
+            _site/_posts/README/index.html
+          ignore_url_re: |
+            ^https://fonts.googleapis.com
+            ^https://fonts.gstatic.com
+            ^_site/_posts/README/index.html
+            ^/.+\/_posts\/README.md
