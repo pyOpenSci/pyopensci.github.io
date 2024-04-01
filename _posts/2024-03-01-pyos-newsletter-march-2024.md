@@ -53,4 +53,4 @@ Registration is still live for [PyConDE & PyData Berlin](https://2024.pycon.de/)
 The event is scheduled for April 22nd--24th, _**with Inessa Pawson delivering the keynote address,**_ titled, "The Art and Science of Tending Open Source Orchards". 
 
 ## :envelope: Get the pyOpenSci monthly newsletter delivered directly to your inbox!
-In addition to catching our newsletter on Fosstodon, LinkedIn, and the pyOpenSci website, you can also [sign up to have the newsletter delivered to your inbox every month](http://eepurl.com/iM7SOM)!
+In addition to catching our newsletter on Fosstodon, LinkedIn, and the pyOpenSci website, you can also [sign up to have the newsletter delivered to your inbox every month](https://eepurl.com/iM7SOM)!
