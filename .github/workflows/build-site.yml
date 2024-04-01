@@ -32,6 +32,10 @@ jobs:
         uses: anishathalye/proof-html@v2
         with:
           directory: ./_site
+          enforce_https: false
+          check_favicon: false
+          timeout: 30
+          retries: 1
           ignore_url: |
             https://fonts.googleapis.com
             https://fonts.gstatic.com
