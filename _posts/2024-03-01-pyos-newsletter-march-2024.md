@@ -54,9 +54,9 @@ pyOpenSci released new and updated lessons in our [Python Packaging Guide](https
 The [PyCon US 2024 Maintainers Summit Call for Proposals](https://us.pycon.org/2024/events/maintainers-summit/) is LIVE until March 25th! Share your insights and experiences on best practices, developing sustainable projects, and nurturing thriving communities in a 10--15 minute talk.
 
 ### PyConDE & PyData Berlin
-Registration is still live for [PyConDE & PyData Berlin](https://2024.pycon.de/), so be sure to grab your tickets while they still last! 
+Registration is still live for [PyConDE & PyData Berlin](https://2024.pycon.de/), so be sure to grab your tickets while they still last!
 
-The event is scheduled for April 22nd--24th, _**with Inessa Pawson delivering the keynote address,**_ titled, "The Art and Science of Tending Open Source Orchards". 
+The event is scheduled for April 22nd--24th, _**with Inessa Pawson delivering the keynote address,**_ titled, "The Art and Science of Tending Open Source Orchards".
 
 ## <i class="fa-regular fa-paper-plane"></i> Get the pyOpenSci monthly newsletter delivered directly to your inbox!
 In addition to catching our newsletter on Fosstodon, LinkedIn, and the pyOpenSci website, you can also [sign up to have the newsletter delivered to your inbox every month](https://eepurl.com/iM7SOM)!
