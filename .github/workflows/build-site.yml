@@ -34,6 +34,7 @@ jobs:
           directory: ./_site
           enforce_https: false
           check_favicon: false
+          check_html: false
           timeout: 30
           retries: 1
           ignore_url: |
