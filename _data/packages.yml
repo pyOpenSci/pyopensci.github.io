@@ -60,13 +60,13 @@
       name: sunpy
       description: SunPy - Python for Solar Physics
       created_at: '2011-08-06'
-      stargazers_count: 875
-      watchers_count: 875
-      open_issues_count: 283
+      stargazers_count: 878
+      watchers_count: 878
+      open_issues_count: 286
       forks_count: 573
       documentation: https://www.sunpy.org
       contrib_count: 30
-      last_commit: '2024-03-26'
+      last_commit: '2024-03-28'
 - package_name: ncompare
   package_description: '`ncompare` compares two netCDF files at the command line,
       by generating a report of the matching and non-matching groups, variables,
@@ -103,8 +103,8 @@
       name: ncompare
       description: Compare the structure of two netCDF files at the command line
       created_at: '2023-08-17'
-      stargazers_count: 16
-      watchers_count: 16
+      stargazers_count: 17
+      watchers_count: 17
       open_issues_count: 9
       forks_count: 5
       documentation: https://ncompare.readthedocs.io
@@ -186,9 +186,9 @@
       name: EOmaps
       description: A library to create interactive maps of geographical datasets
       created_at: '2021-09-27'
-      stargazers_count: 305
-      watchers_count: 305
-      open_issues_count: 21
+      stargazers_count: 307
+      watchers_count: 307
+      open_issues_count: 22
       forks_count: 21
       documentation: https://eomaps.readthedocs.io/
       contrib_count: 6
@@ -328,10 +328,10 @@
       description: CompleX Group Interactions (XGI) is a Python package for higher-order
           networks.
       created_at: '2021-09-08'
-      stargazers_count: 157
-      watchers_count: 157
-      open_issues_count: 52
-      forks_count: 25
+      stargazers_count: 160
+      watchers_count: 160
+      open_issues_count: 53
+      forks_count: 26
       documentation: https://xgi.readthedocs.io
       contrib_count: 12
       last_commit: '2024-03-19'
@@ -377,8 +377,8 @@
       created_at: '2021-09-10'
       stargazers_count: 180
       watchers_count: 180
-      open_issues_count: 151
-      forks_count: 20
+      open_issues_count: 152
+      forks_count: 21
       documentation: https://biocypher.org
       contrib_count: 11
       last_commit: '2024-03-19'
@@ -513,7 +513,7 @@
       created_at: '2022-06-03'
       stargazers_count: 27
       watchers_count: 27
-      open_issues_count: 12
+      open_issues_count: 13
       forks_count: 6
       documentation: https://taxpasta.readthedocs.io/
       contrib_count: 5
@@ -600,8 +600,8 @@
       description: 'Python library for GraphBLAS: high-performance sparse linear
           algebra for scalable graph analytics'
       created_at: '2019-11-11'
-      stargazers_count: 110
-      watchers_count: 110
+      stargazers_count: 111
+      watchers_count: 111
       open_issues_count: 55
       forks_count: 15
       documentation: https://python-graphblas.readthedocs.io/en/stable/
@@ -650,11 +650,11 @@
       created_at: '2018-07-27'
       stargazers_count: 295
       watchers_count: 295
-      open_issues_count: 47
+      open_issues_count: 48
       forks_count: 49
       documentation: https://xclim.readthedocs.io/en/stable/
       contrib_count: 30
-      last_commit: '2024-03-25'
+      last_commit: '2024-03-27'
 - package_name: crowsetta
   package_description: A Python tool to work with any format for annotating animal
       vocalizations and bioacoustics data.
@@ -835,13 +835,13 @@
       name: pygmt
       description: A Python interface for the Generic Mapping Tools.
       created_at: '2017-03-17'
-      stargazers_count: 699
-      watchers_count: 699
-      open_issues_count: 180
+      stargazers_count: 702
+      watchers_count: 702
+      open_issues_count: 181
       forks_count: 210
       documentation: https://www.pygmt.org
       contrib_count: 30
-      last_commit: '2024-03-26'
+      last_commit: '2024-03-31'
 - package_name: Devicely
   package_description: A Python package for reading, timeshifting and writing sensor
       data
@@ -1139,9 +1139,9 @@
       name: movingpandas
       description: Movement trajectory classes and functions built on top of GeoPandas
       created_at: '2018-12-16'
-      stargazers_count: 1129
-      watchers_count: 1129
-      open_issues_count: 48
+      stargazers_count: 1131
+      watchers_count: 1131
+      open_issues_count: 49
       forks_count: 188
       documentation: https://movingpandas.org
       contrib_count: 30
@@ -1183,13 +1183,13 @@
       description: A light-weight, flexible, and expressive statistical data testing
           library
       created_at: '2018-11-01'
-      stargazers_count: 2928
-      watchers_count: 2928
-      open_issues_count: 323
-      forks_count: 256
+      stargazers_count: 2942
+      watchers_count: 2942
+      open_issues_count: 324
+      forks_count: 258
       documentation: https://www.union.ai/pandera
       contrib_count: 30
-      last_commit: '2024-03-24'
+      last_commit: '2024-03-31'
 - package_name: Nbless
   package_description: Construct, deconstruct, convert, execute, & prepare slides
       from Jupyter notebooks
