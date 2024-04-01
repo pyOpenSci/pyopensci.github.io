@@ -41,7 +41,7 @@ Leah Wasser also received a [Better Scientific Software (BSSw) fellowship](https
 [BSSw](https://bssw.io/) provides a central hub for the community to address pressing challenges in software productivity, quality, and sustainability.
 
 ## :books: New lessons are LIVE!
-pyOpenSci released new and updated lessons in our [Python Packaging Guide](https://www.pyopensci.org/python-package-guide/index.html), designed to help scientists both make their Python code more shareable, as well as how to create a Python package. Be sure to check them out and let us know what you think!
+pyOpenSci released new and updated lessons in our [Python Packaging Guide](https://www.pyopensci.org/python-package-guide/tutorials/intro.html), designed to help scientists both make their Python code more shareable, as well as how to create a Python package. Be sure to check them out and let us know what you think!
 
 ## :scientist: Upcoming Python Events for Scientists
 ### PyCon US 2024
