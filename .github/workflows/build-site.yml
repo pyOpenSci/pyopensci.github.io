@@ -29,7 +29,7 @@ jobs:
           build_dir: _site
 
       - name: Check HTML using htmlproofer
-        uses: chabad360/htmlproofer@master
+        uses: chabad360/htmlproofer@v2
         with:
           directory: "_site"
           arguments: |
