@@ -50,12 +50,6 @@ jobs:
         id: cache-htmlproofer
         uses: actions/cache@v4
 
-      - name: Check HTML using htmlproofer
-        uses: chabad360/htmlproofer@v2
-        with:
-          path: tmp/.htmlproofer
-          key: ${{ runner.os }}-htmlproofer
-
       - name: Run htmlproofer
         run: |
           ruby scripts/htmlproofer.rb
