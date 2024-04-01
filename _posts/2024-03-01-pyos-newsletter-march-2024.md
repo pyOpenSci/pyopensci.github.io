@@ -36,7 +36,7 @@ Will we see you there? Our Executive Director and Founder, [Leah Wasser](https:/
 
 ## :tada: Congratulations, Leah!
 
-Leah Wasser also received a [Better Scientific Software (BSSw) fellowship](https://bssw.io/pages/bssw-fellowship-program) to create lessons around collaborative open science using GitHub. The courses are currently in development, and we'll be sure to let you know once they're ready for registration!
+Leah Wasser also received a [Better Scientific Software (BSSw) fellowship](https://bssw.io/pages/bssw-fellowship-program) to create lessons around collaborative open science using GitHub. We plan to turn the lessons into online workshops. We'll be sure to let you know once they're ready for registration!
 
 [BSSw](https://bssw.io/) provides a central hub for the community to address pressing challenges in software productivity, quality, and sustainability.
 
