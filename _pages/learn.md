@@ -4,8 +4,8 @@ permalink: /learn.html
 title: "Python Tutorials & Learning Resources for Scientists"
 classes: flowing
 header:
-  overlay_image: images/header.png
-  overlay_filter: 0.6
+  overlay_image: images/headers/pyopensci-learn-header.png
+  overlay_filter: 0.3
 scientists:
   - image_path: images/pyopensci-people-at-computer.jpg
     alt: "A pencil sketch of a round table with people sitting around it from different backgrounds working on laptops and also writing together."
