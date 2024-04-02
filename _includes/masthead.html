@@ -13,8 +13,8 @@
 
       <ul class="nav__links">
         {%- for alink in site.data.navigation.main -%}
+        <!-- If there are sub links drop down nav to display -->
               {% if alink.sub-nav %}
-              <!-- If there is sub nav to display -->
              <li class="dropdown">
                 <button class="dropbtn" tabindex="0" aria-expanded="false">{{ alink.title }} <i class="fas fa-caret-down"></i>
                 </button>
