@@ -46,6 +46,15 @@ jobs:
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
+      - name: Run HTML5 Validator
+        uses: Cyb3r-Jak3/html5validator-action@v7.1.1
+        with:
+          root: _site/
+          skip_git_check: true
+  
+      - name: Error log
+        run: cat html_proofer_errors.txt
+
       - name: Check HTML using htmlproofer
         uses: chabad360/htmlproofer@v2
         with:
