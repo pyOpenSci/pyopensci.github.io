@@ -24,7 +24,7 @@ development:
 
      * Tutorials are developed by the pyOpenSci team or community members.
 
-     * Tutorials are reviewed by tool maintainers to ensure ideas and concepts are accurate
+     * Tutorials are reviewed by tool maintainers to ensure ideas and concepts are accurate.
 
      * Before publication, tutorials then go through several rounds of community review for accuracy, usability and accessibility."
 whats_next:
