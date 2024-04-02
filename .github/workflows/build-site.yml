@@ -37,22 +37,6 @@ jobs:
           build_only: true
           build_dir: _site
 
-      - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: 3
-      - name: Install gems
-        run: |
-          gem install html-proofer
-          gem install typhoeus
-
-      - name: Cache HTMLProofer
-        id: cache-htmlproofer
-        uses: actions/cache@v4
-        with:
-          path: tmp/.htmlproofer
-          key: ${{ runner.os }}-htmlproofer
-
       - name: Check links with lychee
         id: lychee
         uses: lycheeverse/lychee-action@v1.9.0
@@ -61,10 +45,11 @@ jobs:
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
-      - name: Run htmlproofer
-        run: |
-          ruby scripts/htmlproofer.rb
-          ls
-
-      - name: Error log
-        run: cat html_proofer_errors.txt
+      - name: Check HTML using htmlproofer
+        uses: chabad360/htmlproofer@v2
+        with:
+          directory: "_site"
+          arguments: |
+            --ignore-urls "https://www.github.com,https://fonts.googleapis.com,https://fonts.gstatic.com,_site/_posts/README/index.html"
+            --ignore-files "/.+\/_posts\/README.md"
+            --ignore-status-codes "0, 200, 403, 429, 503, 999"

@@ -32,16 +32,22 @@
             padding: 1em;
         }
         h4.title {
-            color: rgb(84, 38, 104)!important;
+            color: #fff!important;
             font-size: 1.3em;
             margin: 0;
+            font-family: $sans-serif;
+            font-weight: 300;
         }
         .title-block {
-            background-color: #F7F2E2;
+            background-color: $pyos-darkpurple;
             display: flex;
-            height: auto;
+            height: 7em;
             padding: 1.2em;
             border-bottom: #555 2px solid;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
         }
 
         img {
