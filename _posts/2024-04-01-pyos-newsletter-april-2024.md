@@ -64,7 +64,7 @@ Registration is live for [GeoPython](https://2024.geopython.net/), THE event for
 ### SciPy–early bird ends soon!
 Happening July 8th–14th in Tacoma, WA, [SciPy registration is live](https://www.scipy2024.scipy.org/), and you can grab your early bird tickets until April 30th.
 
-Have an upcoming scientific Python event that’s open to the public? Email us at [media@pyopensci.org](media@pyopensci.org) with the details to have your event listed.
+Have an upcoming scientific Python event that’s open to the public? Email us at [media@pyopensci.org](mailto:media@pyopensci.org) with the details to have your event listed.
 
 ## <i class="fa-regular fa-paper-plane"></i> Get the pyOpenSci monthly newsletter delivered directly to your inbox!
 In addition to catching our newsletter on Fosstodon, LinkedIn, and the pyOpenSci website, you can also [sign up to have the newsletter delivered to your inbox every month](https://eepurl.com/iM7SOM)!
