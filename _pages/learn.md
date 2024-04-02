@@ -19,7 +19,7 @@ overview:
 development:
    - image_path: images/pyopensci-learn-community-created.png
      alt: "alt here "
-     title: "Community-developed Python Tutorials for Scientists"
+     title: "Our Development Process: Community-developed Python Tutorials for Scientists"
      excerpt: "Our tutorials are created through a multi-stage community review process.
 
      * Tutorials are developed by the pyOpenSci team or community members.
@@ -52,8 +52,10 @@ toc: false
 
 <div class="pyos-section">
 <div class="content" markdown="1">
+<!-- Feature wrapper has a clear both -->
+<div class="feature__wrapper padded" markdown="1">
 
-## Beginner-friendly Python packaging tutorials
+## Start Learning: Beginner-friendly Python packaging tutorials
 
 Beginner-friendly Python packaging tutorials that will take you through
 the full process of creating a Python package, following modern best
@@ -65,8 +67,8 @@ practices.
 {% endfor %}
 </div>
 
-<div class="clearfix"></div>
 
+</div>
 </div>
 </div>
 
