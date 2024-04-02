@@ -15,7 +15,7 @@ scientists:
     btn_label: View our growing list of accepted scientific Python packages
     btn_class: btn--primary
 overview:
-  - excerpt: "pyOpenSci creates resources to help you navigate the Python packaging ecosystem with ease. All of our materials are community developed and go through extensive review."
+  - excerpt: "pyOpenSci creates resources to help you navigate the Python packaging ecosystem with ease. Our materials are community developed and go through extensive technical and pedagogical review."
 development:
    - image_path: images/pyopensci-learn-community-created.png
      alt: "alt here "
