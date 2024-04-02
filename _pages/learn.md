@@ -19,7 +19,7 @@ overview:
 development:
    - image_path: images/pyopensci-learn-community-created.png
      alt: "alt here "
-     title: "Community Developed Python Tutorials for Scientists"
+     title: "Community-developed Python Tutorials for Scientists"
      excerpt: "Our tutorials are created through a multi-stage community review process.
 
      * Tutorials are developed by the pyOpenSci team or community members.
@@ -30,7 +30,7 @@ development:
 whats_next:
   - image_path: images/pyopensci-learn-github-collaboration.png
     alt: "A pencil sketch of a round table with people sitting around it from different backgrounds working on laptops and also writing together."
-    excerpt: "Through the Better software for science fellowship we will be developing lessons focused on teaching core Github collaboration skills needed for both contributing to open source software and for working in an open science team environment. "
+    excerpt: "Through the [Better Software for Science Fellowship](https://bssw.io/pages/bssw-fellowship-program) we will be developing lessons focused on teaching core Github collaboration skills needed for both contributing to open source software and for working in an open science team environment. "
     title: "What's next: Collaborative GitHub for Scientists"
 toc: false
 ---
@@ -50,7 +50,7 @@ toc: false
 <div class="pyos-section">
 <div class="content" markdown="1">
 
-## Beginner friendly Python packaging tutorials
+## Beginner-friendly Python packaging tutorials
 
 Beginner-friendly Python packaging tutorials that will take you through
 the full process of creating a Python package, following modern best
