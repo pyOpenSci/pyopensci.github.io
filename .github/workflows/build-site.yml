@@ -47,7 +47,7 @@ jobs:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
       - name: Run HTML5 Validator
-        uses: Cyb3r-Jak3/html5validator-action@v7.1.1
+        uses: Cyb3r-Jak3/html5validator-action@v7.2.0
         with:
           root: _site/
           skip_git_check: true
