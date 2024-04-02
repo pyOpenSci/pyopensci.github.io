@@ -18,6 +18,22 @@
     // Ensure all cards have the height of the tallest card
     align-items: stretch;
 
+    & a.btn.btn--success.btn--large {
+        background-color: $pyos-darkpurple!important;
+        color: $pyos-lightpurple!important;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        margin-bottom: 0!important;
+        font-size: 1.03em;
+
+    }
+
+    & .fa-solid .fa-magnifying-glass{
+        color: #81c0aa;
+    }
+
     .card {
         font-size: .8em;
         display: flex;
@@ -32,18 +48,18 @@
             padding: 1em;
         }
         h4.title {
-            color: #fff!important;
+            color: $pyos-darkpurple!important;
             font-size: 1.3em;
             margin: 0;
             font-family: $sans-serif;
-            font-weight: 300;
+            font-weight: 500;
         }
         .title-block {
-            background-color: $pyos-darkpurple;
+            background-color: $pyos-lightpurple;
             display: flex;
             height: 7em;
             padding: 1.2em;
-            border-bottom: #555 2px solid;
+            border-bottom: $pyos-darkpurple 1.3px solid;
             border-top-left-radius: 10px;
             border-top-right-radius: 10px;
             border-bottom-left-radius: 0;
