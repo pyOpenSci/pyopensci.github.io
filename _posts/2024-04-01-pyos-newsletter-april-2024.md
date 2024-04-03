@@ -32,8 +32,8 @@ We’ve been talking (a lot) about the [PyCon Maintainers Summit](https://us.pyc
 
 ## <i class="fa-regular fa-map"></i> Welcome, EOmaps!
 <figure>
-    <a href="/images/newsletter/04-2024-newsletter/eomaps-logo.png">
-    <img src="/images/newsletter/04-2024-newsletter/eomaps-logo.png" style="max-width:100%" alt="The EOmaps logo, which spells out EOmaps in white letters on a black background. In place of the letter 'O' is a grey globe with white meridian lines, and a red arrow pointing to the globe.">
+    <a href="/images/newsletter/04-2024-newsletter/eomapslogo.png">
+    <img src="/images/newsletter/04-2024-newsletter/eomapslogo.png" style="max-width:100%" alt="The EOmaps logo, which spells out EOmaps in white letters on a black background. In place of the letter 'O' is a grey globe with white meridian lines, and a red arrow pointing to the globe.">
     </a>
     <figcaption>
       Welcome to pyOpenSci, EOmaps!
