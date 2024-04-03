@@ -41,7 +41,8 @@ jobs:
         id: lychee
         uses: lycheeverse/lychee-action@v1.9.0
         with:
-          args: --verbose --no-progress _site/**/*.html
+          fail: true
+          args: --verbose --no-progress _site/*.html
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
