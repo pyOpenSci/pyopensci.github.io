@@ -51,7 +51,7 @@ jobs:
         with:
           root: _site/
           skip_git_check: true
-  
+
       - name: Error log
         run: cat html_proofer_errors.txt
 
