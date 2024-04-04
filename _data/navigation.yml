@@ -46,7 +46,7 @@ main:
         icon: "fa-brands fa-discourse"
       - title: "Governance"
         icon: "fas fa-external-link-alt"
-        url: "https://www.pyopensci.org/governance/"
+        url: "https://www.pyopensci.org/handbook/"
   - title: "Get Involved"
     sub-nav:
       - title: "Volunteer"
