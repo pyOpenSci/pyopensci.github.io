@@ -1,7 +1,7 @@
 ---
 title: "pyopensci redirect page"
 permalink: /peer-review-guide/about-peer-review/code-of-conduct.html
-redirect_to: https://www.pyopensci.org/governance/CODE_OF_CONDUCT.html
+redirect_to: https://www.pyopensci.org/handbook/CODE_OF_CONDUCT.html
 ---
 
 Oops - looks like you're looking for our {{ page.title }}. Directing you
