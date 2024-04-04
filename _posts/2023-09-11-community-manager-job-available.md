@@ -89,14 +89,14 @@ the work beyond June 2025.
 This position is fully remote. We also prefer that you live in the United States to simplify asynchronous remote work.
 **IMPORTANT:** While our reach is global, we can only hire someone who is either a resident / citizen in the United states or a resident with a valid work permit.
 
-All work that you do should exemplify our community [Code of Conduct](https://www.pyopensci.org/governance/CODE_OF_CONDUCT.html)
+All work that you do should exemplify our community [Code of Conduct](https://www.pyopensci.org/handbook/CODE_OF_CONDUCT.html)
 
 ## What Your Key Responsibilities Will Be:
 
 ### Community Management
 
 - Build and manage an active, diverse, and inclusive online pyOpenSci community by engaging with the community, staying informed of the needs and motivations of current and prospective members and responding with programming that meets these needs
-- Manage community conflict and [enforce our Code of Conduct](https://www.pyopensci.org/governance/CODE_OF_CONDUCT.html) as a driving member of the Code of Conduct team.
+- Manage community conflict and [enforce our Code of Conduct](https://www.pyopensci.org/handbook/CODE_OF_CONDUCT.html) as a driving member of the Code of Conduct team.
 - Facilitate regular communication with pyOpenSci community members.
 - Organize, plan, and drive participation at community building events, both virtual and in-person, that provide positive and valuable interactions for members, consistent with pyOpenSci’s mission
 - Lead diversity, equity, and inclusion (DEIA) efforts to ensure that pyOpenSci members from all backgrounds are supported and empowered to participate. This will include the development of a mentorship program for underrepresented groups in open source

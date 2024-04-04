@@ -3,7 +3,7 @@
 ## Organization
 
 If you are interested in contributing to pyOpenSci, please read about
-how we work in [**pyOpenSci's organization-wide contributing guide**](https://www.pyopensci.org/governance/CONTRIBUTING.html).
+how we work in [**pyOpenSci's organization-wide contributing guide**](https://www.pyopensci.org/handbook/CONTRIBUTING.html).
 
 ## Repositories
 
