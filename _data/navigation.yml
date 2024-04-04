@@ -44,7 +44,7 @@ main:
       - title: "Connect with us"
         url: "https://pyopensci.discourse.group/"
         icon: "fa-brands fa-discourse"
-      - title: "Governance"
+      - title: "Handbook"
         icon: "fas fa-external-link-alt"
         url: "https://www.pyopensci.org/handbook/"
   - title: "Get Involved"
