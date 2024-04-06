@@ -9,7 +9,7 @@
   margin-right: 0;
   width: 100%;
   margin-top: 3em;
-  color: #6c666d;
+  color: $muted-text-color;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   -webkit-animation-delay: 0.45s;
@@ -42,7 +42,7 @@
   .fab,
   .far,
   .fal {
-    color: #6c666d;
+    color: $muted-text-color;
   }
 }
 
