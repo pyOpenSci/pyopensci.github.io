@@ -29,7 +29,7 @@ pyOpenSci has officially partnered with the [AstroPy Project](https://www.astrop
 
 [sunPy](https://sunpy.org/), a Python package that provides fundamental tools for accessing, loading, and interacting with solar physics data in Python, has successfully gone through the pyOpenSci open peer review process, which is the first step in our budding partnership with the heliophysics community!
 
-You can read more about sunPy and pyOpenSci in [this lovely blog post](https://sunpy.org/posts/2024/2024-01-24-pyopensci) from Nabil Friej.
+You can read more about sunPy and pyOpenSci in [this lovely blog post](https://sunpy.org/posts/2024/2024-01-24-pyopensci.html) from Nabil Friej.
 
 ## <i class="fa-regular fa-face-smile"></i> Say hi to sciform
 
