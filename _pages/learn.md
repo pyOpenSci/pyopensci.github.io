@@ -4,7 +4,7 @@ permalink: /learn.html
 title: "Python Tutorials & Learning Resources for Scientists"
 classes: flowing
 header:
-  overlay_image: images/headers/pyopensci-learn-header.png
+  overlay_image: images/headers/pyopensci-learn-header.webp
   overlay_filter: 0.3
 scientists:
   - image_path: images/pyopensci-people-at-computer.jpg
