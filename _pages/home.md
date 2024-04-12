@@ -17,14 +17,14 @@ header:
 mission:
   - excerpt: "We build diverse community that supports free and open Python tools for processing scientific data. We also build technical skills needed to contribute to open source and that support open science. Join our global community."
 peer-review:
-  - image_path: images/software-peer-review.png
+  - image_path: images/software-peer-review.webp
     alt: "Light purple image that says software Peer Review. On the image is a woman at a laptop with a pyOpenSci logo on it and a cup of coffee next to her. There is a very light flower in the bottom right hand corner. "
     title: "Python Package Peer Review"
     excerpt: "We offer peer review of Python software to increase the quality, usability and long term maintenance of the open source tools that drive open science. [JOSS accepts our review as theirs](https://www.pyopensci.org/software-peer-review/partners/joss.html) so you can get the benefits of pyOpenSci and JOSS through one review."
     url: https://www.pyopensci.org/software-peer-review/about/benefits.html
     btn_label: "> Learn more about the benefits of peer review."
     btn_class: btn--inverse
-  - image_path: images/community-partnerships.png
+  - image_path: images/community-partnerships.webp
     alt: "Light purple image with a bunch from different backgrounds of stick figure people in a slightly darker color. The text on the image at the top says Community Partnerships"
     title: "Community Partnerships"
     excerpt: "We partner with domain-specific scientific Python communities such as [Pangeo](https://www.pyopensci.org/software-peer-review/partners/pangeo.html) who want to review affiliated packages. Through this collaboration, we develop community-specific standards that are used in our reviews to evaluate whether a package meets affiliation requirements. This removes the need for communities to develop their own peer review process."
