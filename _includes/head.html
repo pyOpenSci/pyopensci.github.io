@@ -15,6 +15,9 @@
 
 <!-- For all browsers -->
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+<link rel="canonical" href="{{ page.url | prepend: site.baseurl | prepend: site.url }}">
+<link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
 
 {% if site.head_scripts %}
   {% for script in site.head_scripts %}
