@@ -18,11 +18,11 @@ comments: true
 
 ## The three petals of pyOpenSci
 <figure>
-    <a href="/images/newsletter/04-2024-newsletter/eomapslogo.png">
-    <img src="/images/newsletter/04-2024-newsletter/eomapslogo.png" style="max-width:100%" alt="The EOmaps logo, which spells out EOmaps in white letters on a black background. In place of the letter 'O' is a grey globe with white meridian lines, and a red arrow pointing to the globe.">
+    <a href="/images/blog/2024/april/pyos-petals.png">
+    <img src="/images/blog/2024/april/pyos-petals.png" style="max-width:100%" alt="The three petals of pyOpenSci, a purple flower with a center and three petals. The center reads 'Diverse, Inclusive Community' while the petals, from left to right, read 'Software Peer Review', 'Community Partnerships', 'Community Driven Training & Open Education'.">
     </a>
     <figcaption>
-      Welcome to pyOpenSci, EOmaps!
+      The three petals of pyOpenSci
     </figcaption>
 </figure>
 pyOpenSci was founded with the mission to build diverse community that supports free and open Python tools for processing scientific data. We also build the technical skills needed to contribute to open source and that support open science. While a diverse, inclusive community is at our core, radiating out from it are the three petals–how we accomplish our community goals–of pyOpenSci. Those are: open peer review, community partnerships, and training and open educational resources.
@@ -47,11 +47,11 @@ pyOpenSci creates resources to help you navigate the Python packaging ecosystem 
 
 ## pyOpenSci believes in open education resources (OER)
 <figure>
-    <a href="/images/newsletter/04-2024-newsletter/eomapslogo.png">
-    <img src="/images/newsletter/04-2024-newsletter/eomapslogo.png" style="max-width:100%" alt="The EOmaps logo, which spells out EOmaps in white letters on a black background. In place of the letter 'O' is a grey globe with white meridian lines, and a red arrow pointing to the globe.">
+    <a href="/images/blog/2024/april/pyos-community-dev.png">
+    <img src="/images/blog/2024/april/pyos-community-dev.png" style="max-width:100%" alt="Multiple hands of various skin tones reaching up to a speech bubble that reads 'Community Developed'.">
     </a>
     <figcaption>
-      Welcome to pyOpenSci, EOmaps!
+      pyOpenSci's open education resources are community-developed
     </figcaption>
 </figure>
 When pyOpenSci publishes community-developed Python tutorials for scientists, it goes through a rigorous process of review and evaluation. ​​All of our tutorials are created through a multi-stage community review process–where tutorials are first developed by the pyOpenSci team or community members–before being  reviewed by tool maintainers to ensure ideas and concepts are accurate. Tutorials then go through several rounds of community review for accuracy, usability and accessibility before being published as part of pyOpenSci’s open education resources..
@@ -60,11 +60,11 @@ All of our written content is available on the [Learn section of our website](ht
 
 ### Free, online, asynchronous training
 <figure>
-    <a href="/images/newsletter/04-2024-newsletter/eomapslogo.png">
-    <img src="/images/newsletter/04-2024-newsletter/eomapslogo.png" style="max-width:100%" alt="The EOmaps logo, which spells out EOmaps in white letters on a black background. In place of the letter 'O' is a grey globe with white meridian lines, and a red arrow pointing to the globe.">
+    <a href="/images/blog/2024/april/pyos-collab-learn.png">
+    <img src="/images/blog/2024/april/pyos-collab-learn.png" style="max-width:100%" alt="A woman and a man sitting across from each other at a high table. They are smiling and working on their laptops. The text reads 'Essential Collaboration Skills for Scientists'.">
     </a>
     <figcaption>
-      Welcome to pyOpenSci, EOmaps!
+      Essential Collaboration Skills for Scientists is just one of the many free, online trainings we're excited to develop and deliver!
     </figcaption>
 </figure>
 Our vision for our free, online trainings is for the curriculum to be added to our library of open education resources, making them free, accessible, and published for anyone to use. And we intend to experiment with delivering this curriculum in an asynchronous, cohort-based manner that allows learners from all over the world to come together for a period of time to work through the curriculum together. If you were part of one of the original cohorts of the [R for Data Science Online Learning Community](https://dslc.io/) created by our Community Manager, [Jesse Mostipak](https://github.com/kierisi), then you know that these asynchronous trainings will be thoughtfully crafted, a fantastic learning experience, and a ton of fun!
@@ -78,11 +78,11 @@ pyOpenSci is also developing paid trainings that will be offered online to a sma
 
 ## Enroll in pyOpenSci’s upcoming workshop: From Python Code to Module
 <figure>
-    <a href="/images/newsletter/04-2024-newsletter/eomapslogo.png">
-    <img src="/images/newsletter/04-2024-newsletter/eomapslogo.png" style="max-width:100%" alt="The EOmaps logo, which spells out EOmaps in white letters on a black background. In place of the letter 'O' is a grey globe with white meridian lines, and a red arrow pointing to the globe.">
+    <a href="/images/blog/2024/april/pyos-code-to-mod.png">
+    <img src="/images/blog/2024/april/pyos-code-to-mod.png" style="max-width:100%" alt="A line art robot standing in a field of purple flowers. The text reads 'From Python Code to Module, a live, online workshop with pyOpenSci, Thursday, April 25th 2024'.">
     </a>
     <figcaption>
-      Welcome to pyOpenSci, EOmaps!
+      Tickets for our "From Python Code to Module" workshop are selling fast - get yours today!
     </figcaption>
 </figure>
 If you’re interested in participating in our first paid, online, real-time training, sign up for our upcoming workshop: [“From Python Code to Module”](https://www.eventbrite.com/e/879586546037?aff=oddtdtcreator). This three hour course is intended for individuals who have experience writing Python code and Python functions, and will be taught by pyOpenSci’s Executive Director and founder, [Leah Wasser](https://github.com/lwasser). Leah has over 20 years of experience teaching data-intensive science with an emphasis helping scientists work through the pain points of working with different types of data, and puts an incredible amount of care and attention into ensuring each learner is successful in their educational goals. This is definitely a workshop you don’t want to miss!
