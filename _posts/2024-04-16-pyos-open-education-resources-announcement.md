@@ -3,7 +3,7 @@ layout: single
 title: "pyOpenSci launches open, accessible, online educational trainings for scientists"
 excerpt: "We're excited to share information about the pyOpenSci approach to education, open education resources, and announce an upcoming workshop focused on Python packaging"
 author: "Jesse Mostipak"
-permalink: /blog/pyos-oer-announcement.html
+permalink: /blog/pyos-education-announcement.html
 header:
   overlay_color: "#666"
   overlay_filter: 0.6
