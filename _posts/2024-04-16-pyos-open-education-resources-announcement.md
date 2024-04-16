@@ -27,7 +27,6 @@ comments: true
 </figure>
 pyOpenSci was founded with the mission to build diverse community that supports free and open Python tools for processing scientific data. We also build the technical skills needed to contribute to open source and that support open science. While a diverse, inclusive community is at our core, radiating out from it are the three petals–how we accomplish our community goals–of pyOpenSci. Those are: open peer review, community partnerships, and training and open educational resources.
 
-
 ### Peer review
 The pyOpenSci open peer review process facilitates scientists getting credit and recognition for the work they’ve invested in developing scientific Python tools. The peer review process also supports scientists in finding vetted and maintained software, which drives their open science workflows.
 
