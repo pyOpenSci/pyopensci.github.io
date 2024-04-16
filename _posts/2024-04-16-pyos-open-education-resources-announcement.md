@@ -18,8 +18,8 @@ comments: true
 
 ## The three petals of pyOpenSci
 <figure>
-    <a href="/images/blog/2024/april/pyos-petals.png">
-    <img src="/images/blog/2024/april/pyos-petals.png" style="max-width:100%" alt="The three petals of pyOpenSci, a purple flower with a center and three petals. The center reads 'Diverse, Inclusive Community' while the petals, from left to right, read 'Software Peer Review', 'Community Partnerships', 'Community Driven Training & Open Education'.">
+    <a href="/images/pyopensci-pillars-flower.png">
+    <img src="/images/pyopensci-pillars-flower.png" style="max-width:100%" alt="The three petals of pyOpenSci, a purple flower with a center and three petals. The center reads 'Diverse, Inclusive Community' while the petals, from left to right, read 'Software Peer Review', 'Community Partnerships', 'Community Driven Training & Open Education'.">
     </a>
     <figcaption>
       The three petals of pyOpenSci
@@ -46,8 +46,8 @@ pyOpenSci creates resources to help you navigate the Python packaging ecosystem 
 
 ## pyOpenSci believes in open education resources (OER)
 <figure>
-    <a href="/images/blog/2024/april/pyos-community-dev.png">
-    <img src="/images/blog/2024/april/pyos-community-dev.png" style="max-width:100%" alt="Multiple hands of various skin tones reaching up to a speech bubble that reads 'Community Developed'.">
+    <a href="/images/pyopensci-learn-community-created.png">
+    <img src="/images/pyopensci-learn-community-created.png" style="max-width:100%" alt="Multiple hands of various skin tones reaching up to a speech bubble that reads 'Community Developed'.">
     </a>
     <figcaption>
       pyOpenSci's open education resources are community-developed
@@ -59,14 +59,14 @@ All of our written content is available on the [Learn section of our website](ht
 
 ### Free, online, asynchronous training
 <figure>
-    <a href="/images/blog/2024/april/pyos-collab-learn.png">
-    <img src="/images/blog/2024/april/pyos-collab-learn.png" style="max-width:100%" alt="A woman and a man sitting across from each other at a high table. They are smiling and working on their laptops. The text reads 'Essential Collaboration Skills for Scientists'.">
+    <a href="/images/pyopensci-learn-github-collaboration.png">
+    <img src="/images/pyopensci-learn-github-collaboration.png" style="max-width:100%" alt="A woman and a man sitting across from each other at a high table. They are smiling and working on their laptops. The text reads 'Essential Collaboration Skills for Scientists'.">
     </a>
     <figcaption>
       Essential Collaboration Skills for Scientists is just one of the many free, online trainings we're excited to develop and deliver!
     </figcaption>
 </figure>
-Our vision for our free, online trainings is for the curriculum to be added to our library of open education resources, making them free, accessible, and published for anyone to use. And we intend to experiment with delivering this curriculum in an asynchronous, cohort-based manner that allows learners from all over the world to come together for a period of time to work through the curriculum together. If you were part of one of the original cohorts of the [R for Data Science Online Learning Community](https://dslc.io/) created by our Community Manager, [Jesse Mostipak](https://github.com/kierisi), then you know that these asynchronous trainings will be thoughtfully crafted, a fantastic learning experience, and a ton of fun!
+Our vision for our free, online trainings is for the curriculum to be added to our library of open education resources, making them free, accessible, and published for anyone to use. And we intend to experiment with delivering this curriculum in an asynchronous, cohort-based manner that allows learners from all over the world to come together for a period of time to work through the curriculum together. If you were part of one of the original cohorts of the <a href="https://dslc.io/">R for Data Science Online Learning Community</a> created by our Community Manager, [Jesse Mostipak](https://github.com/kierisi), then you know that these asynchronous trainings will be thoughtfully crafted, a fantastic learning experience, and a ton of fun!
 
 pyOpenSci is the recipient of the [Better Software for Science Fellowship](https://bssw.io/fellows/leah-wasser), which will help fund the creation of these open educational resources. You can stay up to date with more information on these types of lessons through [our Discourse forum](https://pyopensci.discourse.group/) as well as [our mailing list](https://eepurl.com/iM7SOM).
 
@@ -96,4 +96,4 @@ She will also briefly discuss how LLM’s can be used to support tasks such as d
 The course will take place on Thursday, April 25th, from 10AM–1PM Mountain time, and use the Spatial Chat platform. Tickets are $10, and can be purchased on [the workshop’s Eventbrite page](https://www.eventbrite.com/e/from-python-code-to-module-tickets-879586546037?aff=oddtdtcreator). The class size is capped at 35, and tickets are selling fast–we hope to see you there!
 
 ## Connect with us!
-You can stay up-to-date with all things pyOpenSci by following us on [LinkedIn](https://www.linkedin.com/company/pyopensci) and [Fosstodon](https://fosstodon.org/@pyOpenSci), and you can connect with the broader pyOpenSci community on [our Discourse forum](https://pyopensci.discourse.group/). And if you’re interested in our weekly newsletter where we share news, blog posts, and monthly updates, [subscribe on LinkedIn](https://www.linkedin.com/newsletters/pyopensci-newsletter-7179551305344933888!
+You can stay up-to-date with all things pyOpenSci by following us on [LinkedIn](https://www.linkedin.com/company/pyopensci) and [Fosstodon](https://fosstodon.org/@pyOpenSci), and you can connect with the broader pyOpenSci community on [our Discourse forum](https://pyopensci.discourse.group/). And if you’re interested in our weekly newsletter where we share news, blog posts, and monthly updates, [subscribe on LinkedIn](https://www.linkedin.com/newsletters/pyopensci-newsletter-7179551305344933888!)
