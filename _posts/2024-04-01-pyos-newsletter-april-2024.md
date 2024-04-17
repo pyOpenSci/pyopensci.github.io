@@ -28,14 +28,14 @@ pyOpenSci editors are volunteers who fulfill a critical role within pyOpenSci. E
 
 We’ve been talking (a lot) about the [PyCon Maintainers Summit](https://us.pycon.org/2024/events/maintainers-summit/) (which is now full, but [you can sign up for the waitlist](https://us.pycon.org/2024/events/maintainers-summit/)), happening this May in Pittsburgh. The Maintainers Summit, included in your [PyCon registration](https://us.pycon.org/2024/accounts/login/?next=/2024/registration/register), is where we come together to discuss and foster best practices on how to develop sustainable projects and nurture thriving communities. And thanks to [Mariatta Wijaya](https://mariatta.ca/), we’ve got an inside look into everything you can expect in [this incredible video](https://www.youtube.com/watch?v=L-Ok_89QJOM) featuring Kara Sowles, Inessa Pawson, and our Executive Director, Leah Wasser!
 
-<a href="https://www.youtube.com/watch?v=L-Ok_89QJOM" target="_blank">
- <img src="/images/newsletter/04-2024-newsletter/ms-pycon-2024.png" alt="Watch the video" width="720" height="540" border="10" />
+<a href=https://www.youtube.com/watch?v=L-Ok_89QJOM" target="_blank">
+ <img src={{"/images/newsletter/04-2024-newsletter/ms-pycon-2024.png" | relative_url }} alt="Watch the video" width="720" height="540" border="10" />
 </a>
 
 ## <i class="fa-regular fa-map"></i> Welcome, EOmaps!
 <figure>
     <a href="/images/newsletter/04-2024-newsletter/eomapslogo.png">
-    <img src="/images/newsletter/04-2024-newsletter/eomapslogo.png" style="max-width:100%" alt="The EOmaps logo, which spells out EOmaps in white letters on a black background. In place of the letter 'O' is a grey globe with white meridian lines, and a red arrow pointing to the globe.">
+    <img src={{ "/images/newsletter/04-2024-newsletter/eomapslogo.png" | relative_url }} style="max-width:100%" alt="The EOmaps logo, which spells out EOmaps in white letters on a black background. In place of the letter 'O' is a grey globe with white meridian lines, and a red arrow pointing to the globe.">
     </a>
     <figcaption>
       Welcome to pyOpenSci, EOmaps!
