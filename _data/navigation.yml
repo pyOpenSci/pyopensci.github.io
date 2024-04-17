@@ -24,7 +24,7 @@ main:
         url: "python-packaging-science.html"
       - title: "Our packages"
         icon:
-        url: "/python-packages/"
+        url: "/python-packages.html"
       - title: "Package Guidebook"
         url: "https://www.pyopensci.org/python-package-guide/"
         icon: "fas fa-external-link-alt"
@@ -33,7 +33,7 @@ main:
       - title: Tutorials & Resources
         url: "learn.html"
       - title: Blog
-        url: "/blog/"
+        url: "/blog/index.html"
       - title: Ask a question
         url: "https://pyopensci.discourse.group/"
         icon: "fa-brands fa-discourse"
