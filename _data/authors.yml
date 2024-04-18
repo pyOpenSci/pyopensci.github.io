@@ -60,3 +60,17 @@ Jesse Mostipak:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/jessemostipak/"
+Carlos Ramos Carreño:
+  name        : "Carlos Ramos Carreño"
+  bio         : "Software Developer"
+  avatar      : "/images/people/carlos-ramos.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:vnmabus@gmail.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/vnmabus"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/carlos-ramos-carre%C3%B1o-3745932ab/"
