@@ -689,8 +689,10 @@
 - name: Alex Batisse
   github_username: Batalex
   github_image_id: 11004857
-  title: Editor
-  sort: 2
+  title:
+    - Editor in Chief
+    - Editor
+  sort: 1
   bio:
   organization:
   date_added: '2023-02-04'
@@ -3533,6 +3535,7 @@
   github_username: hamogu
   github_image_id: 498688
   title:
+    - Editor
   sort: 2
   bio:
   organization: MIT
@@ -3933,10 +3936,10 @@
   github_username: isabelizimm
   github_image_id: 54685329
   title:
-    - Editor in Chief
+    - Emeritus Editor in Chief
     - Editor
     - Peer review triage
-  sort: 1
+  sort: 2
   bio:
   organization: '@rstudio'
   date_added: '2023-08-14'
@@ -5566,6 +5569,7 @@
   github_username: dhomeier
   github_image_id: 709020
   title:
+    - Editor
   sort: 1
   bio:
   organization:
