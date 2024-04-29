@@ -56,29 +56,29 @@ Interested in writing a guest blog post for pyOpenSci? Reach out to [media@pyope
 
 [ZodiPy](https://github.com/Cosmoglobe/zodipy) is an open source, [Astropy affiliated](https://www.astropy.org/affiliated/), Python tool for simulating the zodiacal emission that a solar system observer is predicted to see given an interplanetary dust model. ZodiPy attempts to make zodiacal emission simulations more accessible by providing the community with a simple interface to existing models, and is also a new member of the pyOpenSci community!
 
-(podium) Listen to Leah at SciPy
+## <i class="fa-regular fa-message"></i> Listen to Leah at SciPy
 We’ve received the exciting news that our Executive Director and Founder, [Leah Wasser](https://github.com/lwasser), will be speaking as well as running a Python packaging workshop at [SciPy](https://www.scipy2024.scipy.org/) this year! We’ll be sharing more about Leah’s work as the conference gets closer, but consider this your reminder to grab your tickets!
 
-(celebrate) Congratulations on an amazing keynote, Inessa!
+## <i class="fa-solid fa-apple-whole"></i> Congratulations on an amazing keynote, Inessa!
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5Bjo6pWj-88?si=fUu5zYPrVCgmPEZF&amp;start=711" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 If you weren’t able to attend PyConDE & PyData Berlin 2024 to hear [Inessa Pawson’s](https://github.com/InessaPawson) keynote, [Tending Open Source Orchards](https://2024.pycon.de/program/7TEYDQ/), never fear! You can [watch her phenomenal talk,](https://www.youtube.com/live/5Bjo6pWj-88?feature=shared&t=711) where she dives into the resilient contributor communities behind every large open source project, and shares her insights on the art and science of fostering resilient open source communities.
 
-(python) Upcoming Python events for scientists
-PyCon US
+## <i class="fa-brands fa-python"></i> Upcoming Python events for scientists
+### PyCon US
 [Registration is still open](https://us.pycon.org/2024/accounts/login/?next=/2024/registration/register) for [PyCon US 2024]((https://us.pycon.org/2024/), happening May 15th–23rd in Pittsburgh, PA. There’s also an online component for folks who can’t be there in person. It’s shaping up to be a stacked event, and you can [view the schedule here(https://us.pycon.org/2024/schedule/).
 
-PyCon Italia
+### PyCon Italia
 Fancy a trip to Florence? Then grab your tickets for PyCon Italia! The conference runs Wednesday, May 22nd through Saturday, May 25th, and has a stacked list of [keynote speakers](https://2024.pycon.it/en/schedule/2024-05-22?view=grid).
 
-PyData London
+### PyData London
 Happening June 14–16, [PyData London](https://pydata.org/london2024/) tickets are available now! With tutorials on Friday, June 14th, and talks Saturday and Sunday, this is shaping up to be a phenomenal event for the international community of data scientists, data engineers, and developers of data analysis tools to share ideas and learn from each other.
 
-SciPy
+### SciPy
 Happening July 8th–14th in Tacoma, WA, [SciPy](https://www.scipy2024.scipy.org/) registration is live! Early bird pricing has ended, but it’s not too late to grab a standard ticket.
 
-Tell us about your event!
+### Tell us about your event!
 Have an upcoming scientific Python event that’s open to the public? Email us at [media@pyopensci.org](mailto:media@pyopensci.org) with the details to have your event listed.
 
-(paper airplane) Connect with us
+## <i class="fa-regular fa-paper-plane"></i> Connect with us
 You can stay up-to-date with all things pyOpenSci by following us on (LinkedIn)[https://www.linkedin.com/company/pyopensci] and [Fosstodon](https://fosstodon.org/@pyOpenSci), and you can connect with the broader pyOpenSci community on our [Discourse forum](https://pyopensci.discourse.group/). And if you’re interested in our weekly newsletter where we share news, blog posts, and monthly updates, [subscribe on LinkedIn](Subscribe on LinkedIn https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7179551305344933888). We also send out a monthly recap newsletter to [our mailing list](https://eepurl.com/iM7SOM)!
