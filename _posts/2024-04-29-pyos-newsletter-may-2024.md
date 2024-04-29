@@ -27,12 +27,12 @@ For those of us in the Northern Hemisphere, spring seems to have finally sprung.
       Thank you to everyone who made our first workshop such a fun experience!
     </figcaption>
 </figure>
-On Thursday, April 25th, pyOpenSci held its first-ever workshop, titled: [Build Your First Python Package!](https://www.eventbrite.com/e/build-your-first-python-package-tickets-879586546037). With eight countries represented, we had 28 learners create and install their first Python package using [Hatch](https://hatch.pypa.io/latest/) over the course of three hours.
+On Thursday, April 25th, pyOpenSci held its first-ever workshop, titled: [Build Your First Python Package!](https://www.eventbrite.com/e/build-your-first-python-package-tickets-879586546037). With eight countries represented, we had 28 learners create and install their first Python package using [Hatch](https://hatch.pypa.io/latest/), all in the course of three hours.
 
 This workshop was the first of many online educational events that we plan on hosting, and was a great opportunity for us to put [our educational philosophy](https://www.pyopensci.org/blog/pyos-education-announcement.html) into practice. All of the pyOpenSci educational materials are community-developed and go through extensive technical and pedagogical review. While the workshop will *not* be available as a recording, the written content is available on the [Learn section of our website](https://www.pyopensci.org/learn.html), where you’ll find resources such as our [Python Packaging Tutorial](https://www.pyopensci.org/python-package-guide/tutorials/intro.html#), as well as in-depth guides on [Python packaging](https://www.pyopensci.org/python-package-guide/package-structure-code/intro.html), [documentation](https://www.pyopensci.org/python-package-guide/documentation/index.html), and [testing](https://www.pyopensci.org/python-package-guide/tests/index.html).
 
 ## <i class="fa-solid fa-table"></i> Hello, rdata!
-[rdata](https://rdata.readthedocs.io/en/latest/), a Python package that offers a lightweight way to import R datasets/objects stored in the “.rda” and “.rds” formats into Python, has been accepted into the pyOpenSci ecosystem. Created by [Carlos Ramos Carreño](https://github.com/vnmabus), rdata has several key advantages:
+[rdata](https://rdata.readthedocs.io/en/latest/), a Python package that offers a lightweight way to import R datasets/objects stored in the `.rda` and `.rds` formats into Python, has been accepted into [the pyOpenSci ecosystem](https://www.pyopensci.org/python-packages.html). Created by [Carlos Ramos Carreño](https://github.com/vnmabus), rdata has several key advantages:
 
 rdata is a pure Python implementation, with no dependencies on the R language or related libraries. Thus, it can be used anywhere where Python is supported, including the web using [Pyodide](https://pyodide.org/en/stable/).
 rdata attempts to support all R objects that can be meaningfully translated. As opposed to other solutions, you are not limited to import dataframes or data with a particular structure.
@@ -46,11 +46,11 @@ Interested in writing a guest blog post for pyOpenSci? Reach out to [media@pyope
 
 ## <i class="fa-regular fa-handshake"></i> Welcome, ZodiPy
 <figure>
-    <a href="/images/blog/2024/may/april-workshop.png">
-    <img src="/images/blog/2024/may/april-workshop.png" style="max-width:100%" alt="Purple line art of a robot standing in a field of solid purple flowers. The text reads 'Build Your First Python Package! a live, online workshop with pyOpenSci. Thursday, April 25th, 2024.">
+    <a href="/images/blog/2024/may/zodipy.png">
+    <img src="/images/blog/2024/may/zodipy.png" style="max-width:100%" alt="Screenshot of the ZodiPy GitHub repository, showing the ZodiPy logo and simulated data output.">
     </a>
     <figcaption>
-      Thank you to everyone who made our first workshop such a fun experience!
+      Welcome, ZodiPy! We're so happy you're here.
     </figcaption>
 </figure>
 
@@ -66,7 +66,7 @@ If you weren’t able to attend PyConDE & PyData Berlin 2024 to hear [Inessa Paw
 
 ## <i class="fa-brands fa-python"></i> Upcoming Python events for scientists
 ### PyCon US
-[Registration is still open](https://us.pycon.org/2024/accounts/login/?next=/2024/registration/register) for [PyCon US 2024]((https://us.pycon.org/2024/), happening May 15th–23rd in Pittsburgh, PA. There’s also an online component for folks who can’t be there in person. It’s shaping up to be a stacked event, and you can [view the schedule here(https://us.pycon.org/2024/schedule/).
+[Registration is still open](https://us.pycon.org/2024/accounts/login/?next=/2024/registration/register) for [PyCon US 2024](https://us.pycon.org/2024/), happening May 15th–23rd in Pittsburgh, PA. There’s also an online component for folks who can’t be there in person. It’s shaping up to be a stacked event, and you can [view the schedule here](https://us.pycon.org/2024/schedule/).
 
 ### PyCon Italia
 Fancy a trip to Florence? Then grab your tickets for PyCon Italia! The conference runs Wednesday, May 22nd through Saturday, May 25th, and has a stacked list of [keynote speakers](https://2024.pycon.it/en/schedule/2024-05-22?view=grid).
@@ -81,4 +81,4 @@ Happening July 8th–14th in Tacoma, WA, [SciPy](https://www.scipy2024.scipy.org
 Have an upcoming scientific Python event that’s open to the public? Email us at [media@pyopensci.org](mailto:media@pyopensci.org) with the details to have your event listed.
 
 ## <i class="fa-regular fa-paper-plane"></i> Connect with us
-You can stay up-to-date with all things pyOpenSci by following us on (LinkedIn)[https://www.linkedin.com/company/pyopensci] and [Fosstodon](https://fosstodon.org/@pyOpenSci), and you can connect with the broader pyOpenSci community on our [Discourse forum](https://pyopensci.discourse.group/). And if you’re interested in our weekly newsletter where we share news, blog posts, and monthly updates, [subscribe on LinkedIn](Subscribe on LinkedIn https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7179551305344933888). We also send out a monthly recap newsletter to [our mailing list](https://eepurl.com/iM7SOM)!
+Stay up-to-date with all things pyOpenSci by following us on (LinkedIn)[https://www.linkedin.com/company/pyopensci] and [Fosstodon](https://fosstodon.org/@pyOpenSci), and you can connect with the broader pyOpenSci community on our [Discourse forum](https://pyopensci.discourse.group/). And if you’re interested in our weekly newsletter where we share news, blog posts, and monthly updates, [subscribe on LinkedIn](https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7179551305344933888). We also send out a monthly recap newsletter to [our mailing list](https://eepurl.com/iM7SOM)!
