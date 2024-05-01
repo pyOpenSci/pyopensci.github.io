@@ -65,16 +65,16 @@ The [PyCon Maintainers Summit](https://us.pycon.org/2024/events/maintainers-summ
 * [Carol Willing](https://github.com/willingc) (pyOpenSci Advisory Council) will be giving a talk titled: Team Compass: Setting a course for a dynamic project.
 * [Tracy Teal](https://github.com/tracykteal) (pyOpenSci Board Chair) will be giving a talk titled: Documentation: how you can build it so they will come
 
-### Leah's Packaging Talk
+### Leah's pyCon Packaging Talk
 On Saturday, May 18th, pyOpenSci's Executive Director and Founder, Leah Wasser, will be giving a talk titled []"Friends Don't Let Friends Package Alone"](https://us.pycon.org/2024/schedule/presentation/34/). As she helps us see how packaging doesn't have to be a thorny topic, she'll also share:
 * Why consensus-building and user-focused content development is critical for tackling thorny topics such as packaging.
 * How to decide which packaging tools satisfy your packaging needs.
 * Where to find more information and support around packaging.
 
-### pyOpenSci-led sprints
+### pyOpenSci-led sprints at PyCon
 PyCon US Development Sprints are four days of intensive learning and development on an open source project of your choice, in a team environment. It's a time to come together with colleagues, old and new, to share what you've learned and apply it to an open source project. Leah will be running a pyOpenSci sprint on Monday, May 20th, and would love to see you there! pyOpenSci is committed to diversity and inclusion, and Pythonistas of all backgrounds and skill levels are invited to participate.
 
-### pyOpenSci swag
+### Get your pyOpenSci swag at PyCon
 We saved the best for last, because we know everyone loves swag! We'll have a fresh batch of stickers and postcards that we want to put in your hands, so be sure to find Leah to say hello and learn more about all things pyOpenSci. Not sure where to find Leah? If you can't make it to her talk, sprints, or the Maintainers Summit, [follow her on Fosstodon](https://fosstodon.org/@leahawasser), and keep an eye on [the pyOpenSci Fosstodon account](https://fosstodon.org/@pyOpenSci) as well!
 
 ## <i class="fa-regular fa-message"></i> Listen to Leah at SciPy
