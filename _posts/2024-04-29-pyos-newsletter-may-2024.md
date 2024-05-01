@@ -21,7 +21,7 @@ For those of us in the Northern Hemisphere, spring seems to have finally sprung.
 ## <i class="fa-solid fa-chalkboard-user"></i> pyOpenSci’s first workshop was a success!
 <figure>
     <a href="/images/blog/2024/may/april-workshop.png">
-    <img src="{{ /images/blog/2024/may/april-workshop.png | relative_url }}" style="max-width:100%" alt="Purple line art of a robot standing in a field of solid purple flowers. The text reads 'Build Your First Python Package! a live, online workshop with pyOpenSci. Thursday, April 25th, 2024.">
+    <img src="/images/blog/2024/may/april-workshop.png" style="max-width:100%" alt="Purple line art of a robot standing in a field of solid purple flowers. The text reads 'Build Your First Python Package! a live, online workshop with pyOpenSci. Thursday, April 25th, 2024.">
     </a>
     <figcaption>
       Thank you to everyone who made our first workshop such a fun experience!
