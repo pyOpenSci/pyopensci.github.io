@@ -56,6 +56,27 @@ Interested in writing a guest blog post for pyOpenSci? Reach out to [media@pyope
 
 [ZodiPy](https://github.com/Cosmoglobe/zodipy) is an open source, [Astropy affiliated](https://www.astropy.org/affiliated/), Python tool for simulating the zodiacal emission that a solar system observer is predicted to see given an interplanetary dust model. ZodiPy attempts to make zodiacal emission simulations more accessible by providing the community with a simple interface to existing models, and is also a new member of the pyOpenSci community!
 
+## <i class="fa-solid fa-bolt"></i> pyOpenSci will be at PyCon 2024!
+Not only will be *be* at PyCon US 2024, we've got a lot going on while we're there, and we want you to be a part of it! This year's PyCon US will be held in Pittsburgh, PA, from May 15th - May 23rd.
+
+### pyOpenSci at the PyCon Maintainers Summit
+The [PyCon Maintainers Summit](https://us.pycon.org/2024/events/maintainers-summit/) is where the Python community comes together to discuss and foster best practices on how to develop sustainable projects and nurture thriving communities. Organized by Inessa Pawson (NumPy, Albus Code, OpenTeams), Chris Rose (PyHamcrest, GitHub), Kara Sowles (GitHub), and Leah Wasser (pyOpenSci), the Summit is a must-attend event, where you can hear talks from two pyOpenSci community members:
+
+* [Carol Willing](https://github.com/willingc) (pyOpenSci Advisory Council) will be giving a talk titled: Team Compass: Setting a course for a dynamic project.
+* [Tracy Teal](https://github.com/tracykteal) (pyOpenSci Board Chair) will be giving a talk titled: Documentation: how you can build it so they will come
+
+### Leah's Packaging Talk
+On Saturday, May 18th, pyOpenSci's Executive Director and Founder, Leah Wasser, will be giving a talk titled []"Friends Don't Let Friends Package Alone"](https://us.pycon.org/2024/schedule/presentation/34/). As she helps us see how packaging doesn't have to be a thorny topic, she'll also share:
+* Why consensus-building and user-focused content development is critical for tackling thorny topics such as packaging.
+* How to decide which packaging tools satisfy your packaging needs.
+* Where to find more information and support around packaging.
+
+### pyOpenSci-led sprints
+PyCon US Development Sprints are four days of intensive learning and development on an open source project of your choice, in a team environment. It's a time to come together with colleagues, old and new, to share what you've learned and apply it to an open source project. Leah will be running a pyOpenSci sprint on Monday, May 20th, and would love to see you there! pyOpenSci is committed to diversity and inclusion, and Pythonistas of all backgrounds and skill levels are invited to participate.
+
+### pyOpenSci swag
+We saved the best for last, because we know everyone loves swag! We'll have a fresh batch of stickers and postcards that we want to put in your hands, so be sure to find Leah to say hello and learn more about all things pyOpenSci. Not sure where to find Leah? If you can't make it to her talk, sprints, or the Maintainers Summit, [follow her on Fosstodon](https://fosstodon.org/@leahawasser), and keep an eye on [the pyOpenSci Fosstodon account](https://fosstodon.org/@pyOpenSci) as well!
+
 ## <i class="fa-regular fa-message"></i> Listen to Leah at SciPy
 We’ve received the exciting news that our Executive Director and Founder, [Leah Wasser](https://github.com/lwasser), will be speaking as well as running a Python packaging workshop at [SciPy](https://www.scipy2024.scipy.org/) this year! We’ll be sharing more about Leah’s work as the conference gets closer, but consider this your reminder to grab your tickets!
 
