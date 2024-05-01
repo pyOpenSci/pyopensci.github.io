@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "pyOpenSci Newsletter: May 2024"
-excerpt: "May has brought two new packages, the first (of many!) pyOpenSci workshops, and several incredible speaking opportunities. Read on to learn more!"
+excerpt: "May has brought two new packages, the first (of many!) pyOpenSci workshops, all things pyOpenSci and PyCon, and several incredible speaking opportunities. Read on to learn more!"
 author: "Jesse Mostipak"
 permalink: /blog/pyos-newsletter-may-2024.html
 header:
@@ -65,7 +65,7 @@ The [PyCon Maintainers Summit](https://us.pycon.org/2024/events/maintainers-summ
 * [Carol Willing](https://github.com/willingc) (pyOpenSci Advisory Council) will be giving a talk titled: Team Compass: Setting a course for a dynamic project.
 * [Tracy Teal](https://github.com/tracykteal) (pyOpenSci Board Chair) will be giving a talk titled: Documentation: how you can build it so they will come
 
-### Leah's pyCon Packaging Talk
+### Leah's PyCon Packaging Talk
 On Saturday, May 18th, pyOpenSci's Executive Director and Founder, Leah Wasser, will be giving a talk titled []"Friends Don't Let Friends Package Alone"](https://us.pycon.org/2024/schedule/presentation/34/). As she helps us see how packaging doesn't have to be a thorny topic, she'll also share:
 * Why consensus-building and user-focused content development is critical for tackling thorny topics such as packaging.
 * How to decide which packaging tools satisfy your packaging needs.
