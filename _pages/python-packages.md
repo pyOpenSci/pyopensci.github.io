@@ -25,6 +25,18 @@ redirect_from:
 To date, {{ total_packages }} packages have been accepted into the pyOpenSci
 ecosystem. [Click here to check out packages that are currently under review.](https://github.com/pyOpenSci/software-submission/issues)
 
+### Community Partners
+
+To view packages affiliated with our partner communities that are a part of ourpeer review partnership program, click on a community link below. [Learn more about our community partnerships here.](#)
+
+<a href="/partners/astropy.html"><button class="button community">Astropy</button></a>
+<button class="button community">Pangeo</button>
+<button class="button community">pyHeliophysics</button>
+
+### All Packages - Search and filters
+
+Below you can search and filter all of our packages.
+
 <p><input type="text" id="quicksearch" placeholder="Search" /></p>
 
 <div id="filters" class="button-group">
