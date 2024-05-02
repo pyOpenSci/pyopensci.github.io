@@ -34,10 +34,10 @@ This workshop was the first of many online educational events that we plan on ho
 ## <i class="fa-solid fa-table"></i> Hello, rdata!
 [rdata](https://rdata.readthedocs.io/en/latest/), a Python package that offers a lightweight way to import R datasets/objects stored in the `.rda` and `.rds` formats into Python, has been accepted into [the pyOpenSci ecosystem](https://www.pyopensci.org/python-packages.html). Created by [Carlos Ramos Carreño](https://github.com/vnmabus), rdata has several key advantages:
 
-rdata is a pure Python implementation, with no dependencies on the R language or related libraries. Thus, it can be used anywhere where Python is supported, including the web using [Pyodide](https://pyodide.org/en/stable/).
-rdata attempts to support all R objects that can be meaningfully translated. As opposed to other solutions, you are not limited to import dataframes or data with a particular structure.
-rdata allows users to easily customize the conversion of R classes to Python ones. Does your data use custom R classes? Worry no longer, as it is possible to define custom conversions to the Python classes of your choosing.
-rdata has a permissive license (MIT). As opposed to other packages that depend on R libraries and thus need to adhere to the GPL license, you can use rdata as a dependency on MIT, BSD or even closed source projects.
+* rdata is a pure Python implementation, with no dependencies on the R language or related libraries. Thus, it can be used anywhere where Python is supported, including the web using [Pyodide](https://pyodide.org/en/stable/).
+* rdata attempts to support all R objects that can be meaningfully translated. As opposed to other solutions, you are not limited to import dataframes or data with a particular structure.
+* rdata allows users to easily customize the conversion of R classes to Python ones. Does your data use custom R classes? Worry no longer, as it is possible to define custom conversions to the Python classes of your choosing.
+* rdata has a permissive license (MIT). As opposed to other packages that depend on R libraries and thus need to adhere to the GPL license, you can use rdata as a dependency on MIT, BSD or even closed source projects.
 
 If you’d like to learn more about rdata, we recommend [this guest blog post](https://www.pyopensci.org/blog/read-r-datasets-from-python.html) from Carlos!
 
