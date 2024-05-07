@@ -113,6 +113,7 @@
   contributor_type:
     - package-guide
     - peer-review-guide
+    - web-contrib
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -361,6 +362,7 @@
     - reviewer
   packages_editor:
     - afscgap
+    - xnemogcm
   packages_submitted:
     - errdapy
   packages_reviewed:
@@ -777,11 +779,13 @@
     - code-contrib
     - community
     - editor
+    - maintainer
     - metrics-contrib
     - peer-review
   packages_editor:
     - earthpy
   packages_submitted:
+    - sourmash
   packages_reviewed:
   location: Davis, CA
   email:
@@ -1359,12 +1363,14 @@
   board: false
   contributor_type:
     - contributor
+    - editor
     - maintainer
     - package-maintainer
     - peer-review
     - reviewer
     - submitting-author
   packages_editor:
+    - sourmash
   packages_submitted:
     - physcraper
   packages_reviewed:
@@ -2860,11 +2866,14 @@
     - contributor
     - editor
     - guest editor
+    - maintainer
     - package-guide
     - peer-review
+    - peer-review-guide
   packages_editor:
     - taxpasta
   packages_submitted:
+    - sourmash
   packages_reviewed:
   location: Davis, CA
   email: titus@idyll.org
@@ -3497,11 +3506,14 @@
   board: false
   contributor_type:
     - guidebook-contrib
+    - peer-review
     - peer-review-guide
+    - reviewer
     - web-contrib
   packages_editor:
   packages_submitted:
   packages_reviewed:
+    - zodipy
   location: Baltimore, MD, USA
   email:
 - name: Nick Murphy
@@ -3758,10 +3770,13 @@
   website: https://bluegenes.github.io
   board: false
   contributor_type:
+    - maintainer
     - peer-review
     - reviewer
+    - submitting-author
   packages_editor:
   packages_submitted:
+    - sourmash
   packages_reviewed:
     - taxpasta
   location: San Diego, CA
@@ -5586,7 +5601,10 @@
   website:
   board: false
   contributor_type:
+    - editor
+    - peer-review
   packages_editor:
+    - zodipy
   packages_submitted:
   packages_reviewed:
   location:
@@ -5644,4 +5662,402 @@
     - eomaps
   packages_reviewed:
   location:
+  email:
+- name: Cale Kochenour
+  github_username: calekochenour
+  github_image_id: 54423680
+  title:
+  sort:
+  bio: Remote sensing analyst.
+  organization:
+  date_added: '2024-05-07'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - package-guide
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: Colorado, United States
+  email: calekochenour@gmail.com
+- name: Miguel Alizo
+  github_username: miguelalizo
+  github_image_id: 108839050
+  title:
+  sort:
+  bio: Software Developer with a background in Mechanical and Aerospace engineering
+      🚀 ✈️ -Rustacean 🦀 and Pythonista 🐍
+  organization:
+  date_added: '2024-05-07'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - package-guide
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: Seattle, WA
+  email:
+- name:
+  github_username: nyeshlur
+  github_image_id: 72169901
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2024-05-07'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - package-guide
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location:
+  email:
+- name: Tyler Bonnell
+  github_username: Tyler-Bonnell
+  github_image_id: 89505514
+  title:
+  sort:
+  bio: Public health epidemiologist interested in injury and violence prevention
+      and data science tool development.
+  organization: Washington Start Department of Health
+  date_added: '2024-05-07'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - package-guide
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: Seattle, WA
+  email:
+- name: Pat Tressel
+  github_username: ptressel
+  github_image_id: 618916
+  title:
+  sort:
+  bio:
+  organization: Elcano Project @elcano
+  date_added: '2024-05-07'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - package-guide
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: Seattle, WA, USA
+  email: ptressel@myuw.net
+- name: Tobias Megies
+  github_username: megies
+  github_image_id: 1842780
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2024-05-07'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - peer-review-guide
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location:
+  email:
+- name: Leo Singer
+  github_username: lpsinger
+  github_image_id: 728407
+  title:
+  sort:
+  bio:
+  organization: NASA Goddard Space Flight Center
+  date_added: '2024-05-07'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor:
+  advisory: false
+  twitter: GravityAndBikes
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - zodipy
+  location: Greenbelt, MD
+  email: leo.singer@ligo.org
+- name: Metin San
+  github_username: MetinSa
+  github_image_id: 28634670
+  title:
+  sort:
+  bio: PhD Research Fellow in Cosmology at the University of Oslo.
+  organization: Institute of Theoretical Astrophysics (UiO)
+  date_added: '2024-05-07'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+    - submitting-author
+  packages_editor:
+  packages_submitted:
+    - zodipy
+  packages_reviewed:
+  location: Oslo, Norway
+  email: metin.san@astro.uio.no
+- name: Duncan Watts
+  github_username: dncnwtts
+  github_image_id: 6478137
+  title:
+  sort:
+  bio:
+  organization: University of Oslo
+  date_added: '2024-05-07'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor:
+  advisory: false
+  twitter: dncnwtts
+  mastodon:
+  orcidid:
+  partners:
+  website: https://dncnwtts.github.io
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_editor:
+  packages_submitted:
+    - zodipy
+  packages_reviewed:
+  location: Oslo
+  email: duncanjosephwatts@gmail.com
+- name: Daniel Herman
+  github_username: hermda02
+  github_image_id: 17911822
+  title:
+  sort:
+  bio: Data Scientist at chronos.ai -- PhD in Cosmology
+  organization:
+  date_added: '2024-05-07'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_editor:
+  packages_submitted:
+    - zodipy
+  packages_reviewed:
+  location: Oslo, Norway
+  email:
+- name: Paige Martin
+  github_username: paigem
+  github_image_id: 26591824
+  title:
+  sort:
+  bio: Open Science Expert, Climate Data Scientist, Science Capacity Sharing Enthusiast
+  organization: NASA Transform to Open Science
+  date_added: '2024-05-07'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor:
+  advisory: false
+  twitter: SciencePaige
+  mastodon:
+  orcidid:
+  partners:
+  website: https://paigem.github.io
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - xnemogcm
+  location: Canberra, Australia
+  email:
+- name: Callum Rollo
+  github_username: callumrollo
+  github_image_id: 28703282
+  title:
+  sort:
+  bio: Oceanographer, Pythonista and data science-ish. Breaks things on Fridays
+  organization: Voice of the Ocean Foundation
+  date_added: '2024-05-07'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://callumrollo.github.io/
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - xnemogcm
+  location: Gothenburg, Sweden
+  email: c.rollo@outlook.com
+- name: Romain Caneill
+  github_username: rcaneill
+  github_image_id: 18579092
+  title:
+  sort:
+  bio: Doctor in Physical Oceanography. Studying sea ice, ocean stratif, buoyancy
+      fluxes, nonlinear EOS, with numerical modelling (NextSIM, NEMO) and observations.
+  organization: Institut des Géosciences de l'Environnement
+  date_added: '2024-05-07'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://romaincaneill.fr
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+    - submitting-author
+  packages_editor:
+  packages_submitted:
+    - xnemogcm
+  packages_reviewed:
+  location: Grenoble, France
+  email: romain.caneill@ens-lyon.org
+- name: Lili Andersson-Li
+  github_username: LilyAnderssonLee
+  github_image_id: 64467552
+  title:
+  sort:
+  bio: Bioinformatician,Dept of Microbiology, Tumor and Cell Biology
+  organization: Karolinska Institutet
+  date_added: '2024-05-07'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - sourmash
+  location: Sweden
+  email:
+- name: Elais Player
+  github_username: elais
+  github_image_id: 2111879
+  title:
+  sort:
+  bio: Pfft.
+  organization: Lawrence Berkeley National Laboratory
+  date_added: '2024-05-07'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - sourmash
+  location: Oakland, California
   email:
