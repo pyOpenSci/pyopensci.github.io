@@ -1,3 +1,97 @@
+- package_name: ZodiPy
+  package_description: Zodiacal emission simulations in timestreams or HEALPix for
+      solar system observers.
+  submitting_author:
+      github_username: metinsa
+      name: Metin San
+  all_current_maintainers:
+    - github_username: metinsa
+      name: Metin San
+    - github_username: dncnwtts
+      name: Duncan Watts
+    - github_username: hermda02
+      name: Daniel Herman
+  repository_link: https://github.com/Cosmoglobe/zodipy
+  version_submitted: v.0.8.5
+  categories:
+    - scientific-software-wrapper
+  editor:
+      github_username: dhomeier
+      name: Derek Homeier
+  reviewer_1:
+      github_username: pllim
+      name: P. L. Lim
+  reviewer_2:
+      github_username: lpsinger
+      name: Leo Singer
+  archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10999612.svg)](https://doi.org/10.5281/zenodo.10999612)'
+  version_accepted: v.0.9.2
+  date_accepted: '2024-04-21'
+  created_at: '2024-02-24'
+  updated_at: '2024-05-13'
+  closed_at: '2024-05-13'
+  issue_link: https://github.com/pyOpenSci/software-submission/issues/161
+  joss:
+  partners:
+    - astropy
+  gh_meta:
+      name: zodipy
+      description: Zodiacal light simulations in timestreams or HEALPix for solar
+          system observers.
+      created_at: '2021-08-11'
+      stargazers_count: 11
+      watchers_count: 11
+      open_issues_count: 2
+      forks_count: 4
+      documentation: https://cosmoglobe.github.io/zodipy/
+      contrib_count: 6
+      last_commit: '2024-04-21'
+- package_name: xnemogcm
+  package_description: Interface to open NEMO global circulation model output dataset
+      with xarray and create a xgcm grid.
+  submitting_author:
+      github_username: rcaneill
+      name: Romain Caneill
+  all_current_maintainers:
+    - github_username: rcaneill
+      name: Romain Caneill
+  repository_link: https://github.com/rcaneill/xnemogcm/
+  version_submitted: 0.4.2
+  categories:
+    - data-processing-munging
+  editor:
+      github_username: ocefpaf
+      name: Filipe
+  reviewer_1:
+      github_username: paigem
+      name: Paige Martin
+  reviewer_2:
+      github_username: callumrollo
+      name: Callum Rollo
+  archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10973846.svg)](https://doi.org/10.5281/zenodo.10973846)'
+  version_accepted: 0.4.3
+  date_accepted: '2024-04-02'
+  created_at: '2024-01-06'
+  updated_at: '2024-05-02'
+  closed_at: '2024-04-18'
+  issue_link: https://github.com/pyOpenSci/software-submission/issues/155
+  joss:
+  partners:
+    - '[pangeo][pangeowebsite]'
+    - my-package adheres-to the [pangeo-standards listed-in the-pyopensci peer-review
+      guidebook][pangeocollaboration]
+  gh_meta:
+      name: xnemogcm
+      description: Interface to open NEMO global circulation model output dataset
+          with xarray and create a xgcm grid.
+      created_at: '2020-01-24'
+      stargazers_count: 21
+      watchers_count: 21
+      open_issues_count: 3
+      forks_count: 9
+      documentation: https://xnemogcm.readthedocs.io/
+      contrib_count: 5
+      last_commit: '2024-04-15'
 - package_name: sunpy
   package_description: Python for Solar Physics
   submitting_author:
@@ -60,13 +154,13 @@
       name: sunpy
       description: SunPy - Python for Solar Physics
       created_at: '2011-08-06'
-      stargazers_count: 878
-      watchers_count: 878
-      open_issues_count: 286
-      forks_count: 573
+      stargazers_count: 881
+      watchers_count: 881
+      open_issues_count: 290
+      forks_count: 572
       documentation: https://www.sunpy.org
       contrib_count: 30
-      last_commit: '2024-03-28'
+      last_commit: '2024-05-11'
 - package_name: ncompare
   package_description: '`ncompare` compares two netCDF files at the command line,
       by generating a report of the matching and non-matching groups, variables,
@@ -103,13 +197,13 @@
       name: ncompare
       description: Compare the structure of two netCDF files at the command line
       created_at: '2023-08-17'
-      stargazers_count: 17
-      watchers_count: 17
-      open_issues_count: 9
+      stargazers_count: 18
+      watchers_count: 18
+      open_issues_count: 15
       forks_count: 5
       documentation: https://ncompare.readthedocs.io
       contrib_count: 3
-      last_commit: '2024-03-12'
+      last_commit: '2024-04-12'
 - package_name: rdata
   package_description: Read R datasets from Python.
   submitting_author:
@@ -131,11 +225,11 @@
   reviewer_2:
       github_username: has2k1
       name: Hassan Kibirige
-  archive: TBD
+  archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10776842.svg)](https://doi.org/10.5281/zenodo.10776842)'
   version_accepted: 0.11.0
   date_accepted: 2024-2-29
   created_at: '2023-10-20'
-  updated_at: '2024-03-22'
+  updated_at: '2024-05-02'
   closed_at: missing
   issue_link: https://github.com/pyOpenSci/software-submission/issues/144
   joss:
@@ -144,13 +238,13 @@
       name: rdata
       description: Reader of R datasets in .rda format, in Python
       created_at: '2018-07-02'
-      stargazers_count: 32
-      watchers_count: 32
+      stargazers_count: 38
+      watchers_count: 38
       open_issues_count: 6
       forks_count: 2
       documentation: https://rdata.readthedocs.io
       contrib_count: 2
-      last_commit: '2024-03-07'
+      last_commit: '2024-04-17'
 - package_name: EOmaps
   package_description: EOmaps is a python package to visualize, analyze and compare
       geographical datasets.
@@ -186,13 +280,61 @@
       name: EOmaps
       description: A library to create interactive maps of geographical datasets
       created_at: '2021-09-27'
-      stargazers_count: 307
-      watchers_count: 307
-      open_issues_count: 22
-      forks_count: 21
+      stargazers_count: 316
+      watchers_count: 316
+      open_issues_count: 17
+      forks_count: 20
       documentation: https://eomaps.readthedocs.io/
       contrib_count: 6
-      last_commit: '2024-03-18'
+      last_commit: '2024-05-13'
+- package_name: sourmash
+  package_description: '`sourmash` is a command line tool and Python library for
+      sketching collections of DNA, RNA, and amino acid k-mers for biological sequence
+      search, comparison, and analysis.'
+  submitting_author:
+      github_username: bluegenes
+      name: Tessa Pierce-Ward
+  all_current_maintainers:
+    - github_username: ctb
+      name: C. Titus Brown
+    - github_username: luizirber
+      name: Luiz Irber
+    - github_username: bluegenes
+      name: Tessa Pierce Ward
+  repository_link: https://github.com/sourmash-bio/sourmash
+  version_submitted: '4.8'
+  categories:
+    - data-processing-munging
+  editor:
+      github_username: snacktavish Emily Jane McTavish
+      name: Emily Jane McTavish
+  reviewer_1:
+      github_username: LilyAnderssonLee Lili Andersson-Li
+      name: Lili Andersson-Li
+  reviewer_2:
+      github_username: elais Elais Player
+      name: Elais Player
+  archive: TBD
+  version_accepted: TBD
+  date_accepted: missing
+  created_at: '2023-08-14'
+  updated_at: '2024-04-09'
+  closed_at: missing
+  issue_link: https://github.com/pyOpenSci/software-submission/issues/129
+  joss:
+  partners:
+  gh_meta:
+      name: sourmash
+      description: Quickly search, compare, and analyze genomic and metagenomic
+          data sets.
+      created_at: '2016-04-09'
+      stargazers_count: 436
+      watchers_count: 436
+      open_issues_count: 684
+      forks_count: 77
+      documentation: https://sourmash.readthedocs.io/en/latest/
+      contrib_count: 30
+      last_commit: '2024-05-15'
 - package_name: Sciform
   package_description: A package for converting python numbers (floats, Decimals)
       into scientific-formatted strings more suitable for reading and presentation.
@@ -215,12 +357,12 @@
   reviewer_2:
       github_username: machow
       name: Michael Chow
-  archive: TBD
-  version_accepted: 0.33.0
+  archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10645273.svg)](https://doi.org/10.5281/zenodo.10645273)'
+  version_accepted: 0.34.1
   date_accepted: '2024-02-07'
   created_at: '2023-07-21'
-  updated_at: '2024-02-17'
-  closed_at: missing
+  updated_at: '2024-05-02'
+  closed_at: '2024-05-02'
   issue_link: https://github.com/pyOpenSci/software-submission/issues/121
   joss:
   partners:
@@ -228,13 +370,13 @@
       name: sciform
       description: A package for formatting numbers into scientific formatted strings.
       created_at: '2023-05-26'
-      stargazers_count: 10
-      watchers_count: 10
-      open_issues_count: 15
-      forks_count: 1
+      stargazers_count: 11
+      watchers_count: 11
+      open_issues_count: 16
+      forks_count: 2
       documentation: https://sciform.readthedocs.io/en/stable/
       contrib_count: 1
-      last_commit: '2024-03-08'
+      last_commit: '2024-04-01'
 - package_name: astartes
   package_description: Better Data Splits for Machine Learning
   submitting_author:
@@ -271,8 +413,8 @@
       name: astartes
       description: Better Data Splits for Machine Learning
       created_at: '2022-04-22'
-      stargazers_count: 45
-      watchers_count: 45
+      stargazers_count: 49
+      watchers_count: 49
       open_issues_count: 15
       forks_count: 2
       documentation: https://jacksonburns.github.io/astartes/
@@ -328,13 +470,13 @@
       description: CompleX Group Interactions (XGI) is a Python package for higher-order
           networks.
       created_at: '2021-09-08'
-      stargazers_count: 160
-      watchers_count: 160
-      open_issues_count: 53
+      stargazers_count: 164
+      watchers_count: 164
+      open_issues_count: 51
       forks_count: 26
       documentation: https://xgi.readthedocs.io
-      contrib_count: 12
-      last_commit: '2024-03-19'
+      contrib_count: 13
+      last_commit: '2024-05-10'
 - package_name: biocypher
   package_description: framework for creating biomedical knowledge graphs
   submitting_author:
@@ -375,13 +517,13 @@
       name: biocypher
       description: A unifying framework for biomedical research knowledge graphs
       created_at: '2021-09-10'
-      stargazers_count: 180
-      watchers_count: 180
-      open_issues_count: 152
-      forks_count: 21
+      stargazers_count: 189
+      watchers_count: 189
+      open_issues_count: 146
+      forks_count: 23
       documentation: https://biocypher.org
-      contrib_count: 11
-      last_commit: '2024-03-19'
+      contrib_count: 15
+      last_commit: '2024-04-24'
 - package_name: cardsort
   package_description: A python package to analyse data from open card sorting tasks
   submitting_author:
@@ -511,13 +653,13 @@
       name: taxpasta
       description: TAXnomic Profile Aggregation and STAndardisation
       created_at: '2022-06-03'
-      stargazers_count: 27
-      watchers_count: 27
-      open_issues_count: 13
+      stargazers_count: 32
+      watchers_count: 32
+      open_issues_count: 11
       forks_count: 6
       documentation: https://taxpasta.readthedocs.io/
       contrib_count: 5
-      last_commit: '2023-10-04'
+      last_commit: '2024-04-06'
 - package_name: bibat
   package_description: An interactive template for Bayesian statistical analysis
       projects
@@ -555,11 +697,11 @@
       created_at: '2021-03-04'
       stargazers_count: 17
       watchers_count: 17
-      open_issues_count: 7
+      open_issues_count: 13
       forks_count: 2
       documentation: https://bibat.readthedocs.io/
       contrib_count: 1
-      last_commit: '2024-03-01'
+      last_commit: '2024-04-10'
 - package_name: Python-graphblas
   package_description: Python library for GraphBLAS
   submitting_author:
@@ -600,9 +742,9 @@
       description: 'Python library for GraphBLAS: high-performance sparse linear
           algebra for scalable graph analytics'
       created_at: '2019-11-11'
-      stargazers_count: 111
-      watchers_count: 111
-      open_issues_count: 55
+      stargazers_count: 115
+      watchers_count: 115
+      open_issues_count: 57
       forks_count: 15
       documentation: https://python-graphblas.readthedocs.io/en/stable/
       contrib_count: 10
@@ -648,13 +790,13 @@
       description: 'Library of derived climate variables, ie climate indicators,
           based on xarray. '
       created_at: '2018-07-27'
-      stargazers_count: 295
-      watchers_count: 295
-      open_issues_count: 48
-      forks_count: 49
+      stargazers_count: 302
+      watchers_count: 302
+      open_issues_count: 50
+      forks_count: 50
       documentation: https://xclim.readthedocs.io/en/stable/
       contrib_count: 30
-      last_commit: '2024-03-27'
+      last_commit: '2024-05-10'
 - package_name: crowsetta
   package_description: A Python tool to work with any format for annotating animal
       vocalizations and bioacoustics data.
@@ -692,9 +834,9 @@
       name: crowsetta
       description: A tool to work with any format for annotating vocalizations
       created_at: '2018-12-01'
-      stargazers_count: 46
-      watchers_count: 46
-      open_issues_count: 33
+      stargazers_count: 48
+      watchers_count: 48
+      open_issues_count: 34
       forks_count: 3
       documentation: https://crowsetta.readthedocs.io/en/latest/
       contrib_count: 2
@@ -835,13 +977,13 @@
       name: pygmt
       description: A Python interface for the Generic Mapping Tools.
       created_at: '2017-03-17'
-      stargazers_count: 702
-      watchers_count: 702
+      stargazers_count: 722
+      watchers_count: 722
       open_issues_count: 181
-      forks_count: 210
+      forks_count: 211
       documentation: https://www.pygmt.org
       contrib_count: 30
-      last_commit: '2024-03-31'
+      last_commit: '2024-05-14'
 - package_name: Devicely
   package_description: A Python package for reading, timeshifting and writing sensor
       data
@@ -924,9 +1066,9 @@
       description: A bioinformatics API to interface with public multi-omics bio
           databases for wicked fast data integration.
       created_at: '2018-03-16'
-      stargazers_count: 28
-      watchers_count: 28
-      open_issues_count: 13
+      stargazers_count: 29
+      watchers_count: 29
+      open_issues_count: 16
       forks_count: 13
       documentation: https://openomics.readthedocs.io/en/latest/
       contrib_count: 9
@@ -1010,8 +1152,8 @@
       name: pystiche
       description: Framework for Neural Style Transfer (NST) built upon PyTorch
       created_at: '2019-09-16'
-      stargazers_count: 268
-      watchers_count: 268
+      stargazers_count: 267
+      watchers_count: 267
       open_issues_count: 15
       forks_count: 28
       documentation:
@@ -1097,9 +1239,9 @@
       name: pyrolite
       description: A set of tools for getting the most from your geochemical data.
       created_at: '2018-06-13'
-      stargazers_count: 125
-      watchers_count: 125
-      open_issues_count: 14
+      stargazers_count: 127
+      watchers_count: 127
+      open_issues_count: 15
       forks_count: 33
       documentation: https://pyrolite.readthedocs.io
       contrib_count: 13
@@ -1139,13 +1281,13 @@
       name: movingpandas
       description: Movement trajectory classes and functions built on top of GeoPandas
       created_at: '2018-12-16'
-      stargazers_count: 1131
-      watchers_count: 1131
-      open_issues_count: 49
+      stargazers_count: 1148
+      watchers_count: 1148
+      open_issues_count: 43
       forks_count: 188
       documentation: https://movingpandas.org
       contrib_count: 30
-      last_commit: '2024-03-04'
+      last_commit: '2024-05-11'
 - package_name: pandera
   package_description: validate the types, properties, and statistics of pandas
       data structures
@@ -1183,13 +1325,13 @@
       description: A light-weight, flexible, and expressive statistical data testing
           library
       created_at: '2018-11-01'
-      stargazers_count: 2942
-      watchers_count: 2942
-      open_issues_count: 324
-      forks_count: 258
+      stargazers_count: 3041
+      watchers_count: 3041
+      open_issues_count: 327
+      forks_count: 277
       documentation: https://www.union.ai/pandera
       contrib_count: 30
-      last_commit: '2024-03-31'
+      last_commit: '2024-05-14'
 - package_name: Nbless
   package_description: Construct, deconstruct, convert, execute, & prepare slides
       from Jupyter notebooks
@@ -1278,10 +1420,10 @@
       description: A package built to support working with spatial data using open
           source python
       created_at: '2018-02-20'
-      stargazers_count: 477
-      watchers_count: 477
+      stargazers_count: 478
+      watchers_count: 478
       open_issues_count: 41
-      forks_count: 159
+      forks_count: 160
       documentation: https://earthpy.readthedocs.io
-      contrib_count: 30
+      contrib_count: 29
       last_commit: '2023-08-23'
