@@ -84,6 +84,14 @@ The [Documentation Summit](https://us.pycon.org/2024/events/hatchery/docs-summit
 
 ## <i class="fa-regular fa-paper-plane"></i> Connect with us
 ### pyOpenSci at PyCon US 2024
+<figure>
+    <a href="/images/blog/2024/may/juno-stickers.png">
+    <img src="/images/blog/2024/may/juno-stickers.png" style="max-width:100%" alt="A close-up photo of Juno, a black lab mix, chewing on sticks. In front of Juno is a collection of pyOpenSci stickers.">
+    </a>
+    <figcaption>
+      Juno enjoying some sticks while showing off the latest pyOpenSci swag!
+    </figcaption>
+</figure>
 While there will be a whole host of pyOpenSci community members at PyCon US this year, be sure to make time to say hello to our Executive Director and Founder, Leah Wasser. Not only would she love to chat with you about Python, open source, and open science, she's got a whole new set of stickers (including holographic stickers!) to give away. And for those lucky few, she's also got a limited edition run of postcards to hand out!
 
 And we'd love to hear about your PyCon experience! Be sure to tag us on [LinkedIn](https://www.linkedin.com/company/pyopensci) and/or [Fosstodon](https://fosstodon.org/@pyOpenSci)!
