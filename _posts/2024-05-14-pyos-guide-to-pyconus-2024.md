@@ -84,12 +84,9 @@ The [Documentation Summit](https://us.pycon.org/2024/events/hatchery/docs-summit
 
 ## <i class="fa-regular fa-paper-plane"></i> Connect with us
 ### pyOpenSci at PyCon US 2024
-<figure>
-    <a href="/images/pets-of-pyos/juno-stickers-and-sticks.png">
-    <img src="/images/pets-of-pyos/juno-stickers-and-sticks.png" style="max-width:100%" alt="A puma leaning against a rock and flexing a front arm. Overlaid on the photo in meme text is the phrase 'so you want to talk about Python packaging.'">
-    </a>
-</figure>
-[juno image, stickers, postcards]
+While there will be a whole host of pyOpenSci community members at PyCon US this year, be sure to make time to say hello to our Executive Director and Founder, Leah Wasser. Not only would she love to chat with you about Python, open source, and open science, she's got a whole new set of stickers (including holographic stickers!) to give away. And for those lucky few, she's also got a limited edition run of postcards to hand out!
+
+And we'd love to hear about your PyCon experience! Be sure to tag us on [LinkedIn](https://www.linkedin.com/company/pyopensci) and/or [Fosstodon](https://fosstodon.org/@pyOpenSci)!
 
 ### pyOpenSci around the web
 Stay up-to-date with all things pyOpenSci by following us on [LinkedIn](https://www.linkedin.com/company/pyopensci) and [Fosstodon](https://fosstodon.org/@pyOpenSci), and you can connect with the broader pyOpenSci community on our [Discourse forum](https://pyopensci.discourse.group/). And if you’re interested in our weekly newsletter where we share news, blog posts, and monthly updates, [subscribe on LinkedIn](https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7179551305344933888). We also send out a monthly recap newsletter to [our mailing list](https://eepurl.com/iM7SOM)!
