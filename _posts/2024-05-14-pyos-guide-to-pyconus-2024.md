@@ -26,6 +26,8 @@ The [Maintainers Summit](https://us.pycon.org/2024/events/maintainers-summit/), 
  <img src="/images/newsletter/04-2024-newsletter/ms-pycon-2024.png" alt="Watch the video" width="720" height="540" border="10" />
 </a>
 
+Be sure you're at the Maintainers Summit not only for the opening remarks at 11:00 AM, but also so that you don't miss [Carol Willing's](https://github.com/willingc) 11:15 AM talk: Team Compass: Setting a course for a dynamic project!
+
 ### <i class="fa-solid fa-comment"></i> 11:45--12:15 PM: Making Beautiful, Publication Quality Tables in Python is Possible in 2024
 *Ballroom BC*\
 **[Rich Iannone](https://github.com/rich-iannone) & [Michael Chow](https://github.com/machow)**\
@@ -75,6 +77,8 @@ In this talk, Sarah will briefly cover why setting up container infrastructure, 
 ## <i class="fa-regular fa-calendar"></i> Sunday, May 18th
 ### <i class="fa-solid fa-users-between-lines"></i> 10:00--3:15 PM: Documentation Summit
 The [Documentation Summit](https://us.pycon.org/2024/events/hatchery/docs-summit/) will be a full-day summit including talks and panel sessions inviting leaders in documentation to share their experience in how to make good documentation, discussion about documentation tools such as sphinx, mkdocs, themes etc, what are the common mistakes and how to avoid them.
+
+And at 1:00 PM you can catch [Carol Willing](https://github.com/willingc) and [Mr. Batchelder](https://github.com/nedbat) giving an update from the Python Docs Editorial Board!
 
 ### <i class="fa-solid fa-key"></i> 3:15--4:00 PM: Keynote
 *Expo Hall B*\
