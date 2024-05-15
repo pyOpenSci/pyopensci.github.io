@@ -44,30 +44,42 @@ It's no secret that we're big fans of Hatch---we even [taught a Python Packaging
 ## <i class="fa-regular fa-calendar"></i> Saturday, May 18th
 ### <i class="fa-solid fa-people-group"></i> 9:00--9:25 AM: Diversity & Inclusion Panel
 *Expo Hall B*\
-
+Diversity and inclusion is core to the pyOpenSci mission, and we can't wait for this panel. The line-up is incredible, with [Débora Azevedo](https://github.com/deboraazevedo), [Dima Dinama](https://github.com/dmaharika), [Jessica Greene](https://github.com/sleepypioneer), Jules, [Mason Egger](https://github.com/MasonEgger), and [Abigail Dogbe](https://github.com/mesrenyamedogbe) all speaking. We know we'll be walking away from this panel inspired!
 
 ### <i class="fa-solid fa-comment"></i> 10:30--11:00 AM: Friends don't let friends package alone
 *Hall C*\
 **[Leah Wasser](https://github.com/lwasser)**\
+<figure>
+    <a href="/images/python-packages/lion-meme-pyopensci.jpeg">
+    <img src="/images/python-packages/lion-meme-pyopensci.jpeg" style="max-width:100%" alt="A puma leaning against a rock and flexing a front arm. Overlaid on the photo in meme text is the phrase 'so you want to talk about Python packaging.'">
+    </a>
+</figure>
+We couldn't talk about PyCon US without talking about our Executive Director and Founder, Leah Wasser, who will be talking all things Python packaging! Python packaging can be a scary and confusing endeavor. The ecosystem can be thorny and filled with many decisions around which tool or approach to use. You’re also likely to get pricked by an approach or tutorial that doesn't work as expected. However, the packaging journey doesn’t have to be prickly - particularly for pure Python packages. By building community consensus around user goals and moderating healthy discussion, pyOpenSci is paving a smooth, thorn-free path for successful packaging.
 
 ### <i class="fa-solid fa-users-between-lines"></i> 1:45--5:45 PM: Packaging Summit
 *David L. Lawrence Convention Center*\
+The goal of the [Packaging Summit](https://us.pycon.org/2024/events/packaging-summit/) is to try to take advantage of the fact that, at PyCon, we can get a high concentration of these stakeholders in one room at the same time. This allows us to sync up on current and future best practices and to quickly come to agreements that would take months or even years over higher-latency media of discussion (e.g. mailing lists, forums, issue tickets).
 
 ### <i class="fa-solid fa-comment"></i> 2:30--3:00 PM: NetworkX is Fast Now: Graph Analytics Unleashed
 *Hall C*\
 **[Mridul Seth](https://github.com/MridulS) & [Erik Welch](https://github.com/eriknw)**\
+Have you ever wondered how to find connections in your data and to gain insights from them? Come discover how NetworkX makes this easy (and fast!).
+
+This talk is broadly divided into two parts. First we will talk about the power of graph analytics and how you can use tools like NetworkX to extract information from your data, and then we will talk about how we made the machinery behind NetworkX work with heterogeneous backends like GraphBLAS (CPU optimized) and cuGraph (GPU optimized).
 
 ### <i class="fa-solid fa-comment"></i> 2:30--3:00 PM: Eternal sunshine of the spotless development environment
 *Room 301--305*\
 **[Sarah Kaiser](https://github.com/crazy4pi314)**\
+In this talk, Sarah will briefly cover why setting up container infrastructure, which can be useful for isolating your project environments and dig into how you can extend that with Dev Containers to configure a complete development experience using VS Code. She'll also look at two common OSS project situations, onboarding and workshops, to see how workflows for using Dev Containers and other supporting tools make things easier. No container experience required, and while a brief familiarity with VS Code is helpful, it's not necessary.
 
 ## <i class="fa-regular fa-calendar"></i> Sunday, May 18th
 ### <i class="fa-solid fa-users-between-lines"></i> 10:00--3:15 PM: Documentation Summit
-
+The [Documentation Summit](https://us.pycon.org/2024/events/hatchery/docs-summit/) will be a full-day summit including talks and panel sessions inviting leaders in documentation to share their experience in how to make good documentation, discussion about documentation tools such as sphinx, mkdocs, themes etc, what are the common mistakes and how to avoid them.
 
 ### <i class="fa-solid fa-key"></i> 3:15--4:00 PM: Keynote
 *Expo Hall B*\
 **[Sumana Harihareswara](https://github.com/brainwane)**\
+[Sumana Harihareswara](https://www.harihareswara.net/) is an open source contributor and leader who has managed work on pip, PyPI, GNOME, MediaWiki, HTTPS Everywhere, autoconf, GNU Mailman, and other projects---and who is working on a book to teach what she's learned along the way. Between 2016 and 2021, Harihareswara led fundraising for and managed the next-generation overhauls of PyPI and of pip's dependency resolver and user experience. Her work has earned her an Open Source Citizen Award and a Google Open Source Peer Bonus.
 
 
 ## <i class="fa-regular fa-paper-plane"></i> Connect with us
