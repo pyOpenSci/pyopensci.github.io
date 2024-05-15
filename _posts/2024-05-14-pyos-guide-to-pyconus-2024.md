@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "The pyOpenSci Guide to PyCon 2024"
-excerpt: "excerpt text"
+excerpt: "PyCon US 2024 is finally here, and we can't wait to connect with you! This post has all of the talks, panels, summits, and keynotes where pyOpenSci community members (and friends!) will be speaking."
 author: "Jesse Mostipak"
 permalink: /blog/pyos-guide-to-pyconus-2024.html
 header:
@@ -14,41 +14,54 @@ classes: wide
 toc: true
 comments: true
 ---
-## Connect with the pyOpenSci community at PyCon US 2024!
+## <i class="fa-solid fa-heart"></i> Connect with the pyOpenSci community at PyCon US 2024!
 We know there are a million
 
-## Friday, May 17th
-### 11:00--4:30 PM: Maintainers Summit
-**Room 402, David L. Lawrence Convention Center**
+## <i class="fa-regular fa-calendar"></i> Friday, May 17th
+### <i class="fa-solid fa-users-between-lines"></i> 11:00--4:30 PM: Maintainers Summit
+*Room 402, David L. Lawrence Convention Center*
 
-### 11:45--12:15 PM: Making Beautiful, Publication Quality Tables in Python is Possible in 2024
-**Ballroom BC**
 
-### 1:45--2:30 PM: Modern binary build systems
-**Ballroom A**
+### <i class="fa-solid fa-comment"></i> 11:45--12:15 PM: Making Beautiful, Publication Quality Tables in Python is Possible in 2024
+*Ballroom BC*
+**Rich Iannone & Michael Chow**
 
-### 2:45--3:15 PM: Hatch: The only tool you need
-**Ballroom A**
+### <i class="fa-solid fa-comment"></i> 1:45--2:30 PM: Modern binary build systems
+*Ballroom A*
+**Henry Fredrick Schreiner III**
+
+### <i class="fa-solid fa-comment"></i> 2:45--3:15 PM: Hatch: The only tool you need
+*Ballroom A*
+**Ofek Lev**
 (link to pyOS packaging training)
 
-## Saturday, May 18th
-### 9:00--9:25 AM: Diversity & Inclusion Panel
-**Expo Hall B**
+## <i class="fa-regular fa-calendar"></i> Saturday, May 18th
+### <i class="fa-solid fa-people-group"></i> 9:00--9:25 AM: Diversity & Inclusion Panel
+*Expo Hall B*
 
-### 10:30--11:00 AM: Friends don't let friends package alone
-**Hall C**
 
-### 1:45--5:45 PM: Packaging Summit
-**David L. Lawrence Convention Center**
+### <i class="fa-solid fa-comment"></i> 10:30--11:00 AM: Friends don't let friends package alone
+*Hall C*
+**Leah Wasser**
 
-### 2:30--3:00 PM: NetworkX is Fast Now: Graph Analytics Unleashed
-**Hall C**
+### <i class="fa-solid fa-users-between-lines"></i> 1:45--5:45 PM: Packaging Summit
+*David L. Lawrence Convention Center*
 
-### 2:30--3:00 PM: Eternal sunshine of the spotless development environment
-**Room 301--305**
+### <i class="fa-solid fa-comment"></i> 2:30--3:00 PM: NetworkX is Fast Now: Graph Analytics Unleashed
+*Hall C*
+**Mridul Seth & Erik Welch**
 
-## Sunday, May 18th
-### 10:00--3:15 PM: Documentation Summit
+### <i class="fa-solid fa-comment"></i> 2:30--3:00 PM: Eternal sunshine of the spotless development environment
+*Room 301--305*
+**Sarah Kaiser**
+
+## <i class="fa-regular fa-calendar"></i> Sunday, May 18th
+### <i class="fa-solid fa-users-between-lines"></i> 10:00--3:15 PM: Documentation Summit
+
+
+### <i class="fa-solid fa-key"></i> 3:15--4:00 PM: Keynote
+*Expo Hall B*
+**Sumana Harihareswara**
 
 
 ## <i class="fa-regular fa-paper-plane"></i> Connect with us
