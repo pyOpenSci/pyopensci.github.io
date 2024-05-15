@@ -15,7 +15,7 @@ toc: true
 comments: true
 ---
 ## <i class="fa-solid fa-heart"></i> Connect with the pyOpenSci community at PyCon US 2024!
-We know there are a million things to do and see while at [PyCon US 2024](https://us.pycon.org/2024/) in beautiful Pittsburgh this weekend, so we wanted to compile a list of every talk, keynote, summit, and panel where you can expect to meet some of the fantastic pyOpenSci community members!
+We know there are a million things to do and see while at [PyCon US 2024](https://us.pycon.org/2024/) in beautiful Pittsburgh this weekend, so we wanted to compile a list of every talk, keynote, summit, and panel where you can expect to meet some of the fantastic pyOpenSci community members as well as !
 
 ## <i class="fa-regular fa-calendar"></i> Friday, May 17th
 ### <i class="fa-solid fa-users-between-lines"></i> 11:00--4:30 PM: Maintainers Summit
@@ -78,7 +78,7 @@ In this talk, Sarah will briefly cover why setting up container infrastructure, 
 ### <i class="fa-solid fa-users-between-lines"></i> 10:00--3:15 PM: Documentation Summit
 The [Documentation Summit](https://us.pycon.org/2024/events/hatchery/docs-summit/) will be a full-day summit including talks and panel sessions inviting leaders in documentation to share their experience in how to make good documentation, discussion about documentation tools such as sphinx, mkdocs, themes etc, what are the common mistakes and how to avoid them.
 
-And at 1:00 PM you can catch [Carol Willing](https://github.com/willingc) and [Mr. Batchelder](https://github.com/nedbat) giving an update from the Python Docs Editorial Board!
+And at 1:00 PM you can catch [Carol Willing](https://github.com/willingc) and [Ned Batchelder](https://github.com/nedbat) giving an update from the Python Docs Editorial Board!
 
 ### <i class="fa-solid fa-key"></i> 3:15--4:00 PM: Keynote
 *Expo Hall B*\
