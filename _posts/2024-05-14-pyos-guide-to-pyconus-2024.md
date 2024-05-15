@@ -48,7 +48,7 @@ Diversity and inclusion is core to the pyOpenSci mission, and we can't wait for 
 
 ### <i class="fa-solid fa-comment"></i> 10:30--11:00 AM: Friends don't let friends package alone
 *Hall C*\
-**[Leah Wasser](https://github.com/lwasser)**\
+**[Leah Wasser](https://github.com/lwasser)**
 <figure>
     <a href="/images/python-packages/lion-meme-pyopensci.jpeg">
     <img src="/images/python-packages/lion-meme-pyopensci.jpeg" style="max-width:100%" alt="A puma leaning against a rock and flexing a front arm. Overlaid on the photo in meme text is the phrase 'so you want to talk about Python packaging.'">
@@ -84,6 +84,11 @@ The [Documentation Summit](https://us.pycon.org/2024/events/hatchery/docs-summit
 
 ## <i class="fa-regular fa-paper-plane"></i> Connect with us
 ### pyOpenSci at PyCon US 2024
+<figure>
+    <a href="/images/pets-of-pyos/juno-stickers-and-sticks.png">
+    <img src="/images/pets-of-pyos/juno-stickers-and-sticks.png" style="max-width:100%" alt="A puma leaning against a rock and flexing a front arm. Overlaid on the photo in meme text is the phrase 'so you want to talk about Python packaging.'">
+    </a>
+</figure>
 [juno image, stickers, postcards]
 
 ### pyOpenSci around the web
