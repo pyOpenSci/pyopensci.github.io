@@ -74,7 +74,7 @@ This talk is broadly divided into two parts. First we will talk about the power 
 **[Sarah Kaiser](https://github.com/crazy4pi314)**\
 In this talk, Sarah will briefly cover why setting up container infrastructure, which can be useful for isolating your project environments and dig into how you can extend that with Dev Containers to configure a complete development experience using VS Code. She'll also look at two common OSS project situations, onboarding and workshops, to see how workflows for using Dev Containers and other supporting tools make things easier. No container experience required, and while a brief familiarity with VS Code is helpful, it's not necessary.
 
-## <i class="fa-regular fa-calendar"></i> Sunday, May 18th
+## <i class="fa-regular fa-calendar"></i> Sunday, May 19th
 ### <i class="fa-solid fa-users-between-lines"></i> 10:00--3:15 PM: Documentation Summit
 The [Documentation Summit](https://us.pycon.org/2024/events/hatchery/docs-summit/) will be a full-day summit including talks and panel sessions inviting leaders in documentation to share their experience in how to make good documentation, discussion about documentation tools such as sphinx, mkdocs, themes etc, what are the common mistakes and how to avoid them.
 
