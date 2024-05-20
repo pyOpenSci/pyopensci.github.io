@@ -59,7 +59,7 @@ get-involved:
     title: "Ready to Submit a Package for Review?"
     alt:
     excerpt: "To submit a package to us, you need to [open an issue in our peer review GitHub repository](https://github.com/pyOpenSci/software-submission/issues/new/choose). Learn about the steps to submit a package for open peer review in our guidebook."
-    url: https://www.pyopensci.org/python-package-guide/
+    url: https://www.pyopensci.org/software-peer-review/how-to/author-guide.html
     btn_label: "> View our Author Guide"
     btn_class: btn--inverse
 toc: false
