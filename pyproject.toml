@@ -1,0 +1,3 @@
+[tool.codespell]
+ignore-words = "codespell-ignore.txt"
+skip = "./.git,./.nox,./_static,./_build,codespell-ignore.txt,*.svg"
