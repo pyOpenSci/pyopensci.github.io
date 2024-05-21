@@ -305,6 +305,16 @@
         "code",
         "review"
       ]
+    },
+    {
+      "login": "BradonZhang",
+      "name": "Bradon Zhang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10603251?v=4",
+      "profile": "https://github.com/BradonZhang",
+      "contributions": [
+        "code",
+        "review"
+      ]
     }
   ],
   "commitConvention": "angular",
