@@ -33,9 +33,6 @@ If applicable, add screenshots to help explain your problem.
  - Browser [e.g., stock browser, safari]
 
 **System/Environment (if issue was encountered while making a contribution to this repository):**
-- System CPU: [e.g., (8) x64 Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz]
-- System memory: [e.g., 16 GB]
-- Shell: [e.g., bash]
 - Ruby version: [e.g., 3.3.1]
 - Output of `gem list`: [paste as a [code block](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks#fenced-code-blocks)]
 
