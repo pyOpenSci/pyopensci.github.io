@@ -1,5 +1,7 @@
 # pyopensci.github.io
-[![All Contributors](https://img.shields.io/badge/all_contributors-25-orange.svg?style=flat-square)](#contributors)
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-26-orange.svg?style=flat-square)](#contributors)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 [![pages-build-deployment](https://github.com/pyOpenSci/pyopensci.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/pyOpenSci/pyopensci.github.io/actions/workflows/pages/pages-build-deployment)
 
 This repo contains the source code for the [pyOpenSci.org](https://pyopensci.org) website. Contributions are welcome. Thank you [**pyOpenSci contributors**](#contributors-✨)!!
@@ -79,6 +81,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://nesbitt.io"><img src="https://avatars.githubusercontent.com/u/1060?v=4?s=100" width="100px;" alt="Andrew Nesbitt"/><br /><sub><b>Andrew Nesbitt</b></sub></a><br /><a href="https://github.com/pyOpenSci/pyopensci.github.io/commits?author=andrew" title="Code">💻</a> <a href="https://github.com/pyOpenSci/pyopensci.github.io/pulls?q=is%3Apr+reviewed-by%3Aandrew" title="Reviewed Pull Requests">👀</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/kierisi"><img src="https://avatars.githubusercontent.com/u/23085445?v=4?s=100" width="100px;" alt="Jesse Mostipak"/><br /><sub><b>Jesse Mostipak</b></sub></a><br /><a href="https://github.com/pyOpenSci/pyopensci.github.io/commits?author=kierisi" title="Code">💻</a> <a href="https://github.com/pyOpenSci/pyopensci.github.io/pulls?q=is%3Apr+reviewed-by%3Akierisi" title="Reviewed Pull Requests">👀</a></td>
       <td align="center" valign="top" width="14.28%"><a href="http://flpm.dev"><img src="https://avatars.githubusercontent.com/u/17676929?v=4?s=100" width="100px;" alt="Felipe Moreno"/><br /><sub><b>Felipe Moreno</b></sub></a><br /><a href="https://github.com/pyOpenSci/pyopensci.github.io/commits?author=flpm" title="Code">💻</a> <a href="https://github.com/pyOpenSci/pyopensci.github.io/pulls?q=is%3Apr+reviewed-by%3Aflpm" title="Reviewed Pull Requests">👀</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/sn3hay"><img src="https://avatars.githubusercontent.com/u/156010030?v=4?s=100" width="100px;" alt="Sneha Yadav"/><br /><sub><b>Sneha Yadav</b></sub></a><br /><a href="https://github.com/pyOpenSci/pyopensci.github.io/commits?author=sn3hay" title="Code">💻</a> <a href="https://github.com/pyOpenSci/pyopensci.github.io/pulls?q=is%3Apr+reviewed-by%3Asn3hay" title="Reviewed Pull Requests">👀</a></td>
     </tr>
   </tbody>
 </table>
