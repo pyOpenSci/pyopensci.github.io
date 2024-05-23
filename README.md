@@ -29,6 +29,7 @@ for creating this site. To set up a **development environment** and **run the si
 3. Run `bundle install` in the root of the cloned repository directory. This will
    install the gems needed to run the site locally.
 4. Run `bundle exec jekyll serve` to start the jekyll web server.
+NOTE: if you want the page to automagically reload use: `bundle exec jekyll serve --livereload`. this requires Jekyll 3.7 or higher.
 5. Open your browser and navigate to `http://127.0.0.1:4000/`.
 
 Please test your changes locally prior to submitting a pull request (PR).
