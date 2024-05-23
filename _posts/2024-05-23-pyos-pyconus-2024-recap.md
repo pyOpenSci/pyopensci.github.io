@@ -103,6 +103,15 @@ fundamental concepts, and
 * avoid “Too Many Options and Opinions” (TMO) to keep things simple
 for beginners.
 
+
+
+<figure>
+  <img src="{{ site.baseurl }}/images/blog/2024/may/pyopensci-too-many-python-packaging-options-pycon-talk-2024.png
+" alt="A cute image of a black flat coated retriever laying on the floor with a purple ice pack on it's head looking right at you." />
+  <figcaption>Whether it's too many options or too many opinions, TMO will push beginner users away. Too many options create cognitive load that prevent users from having successful experiences.</figcaption>
+</figure>
+
+
 [I break this all down in more detail here if you want to read more.](#addlink)
 
 Giving a talk at PyConUS experience reinforced my belief in the power of community to tackle complex
@@ -148,8 +157,34 @@ quickly and a waitlist, the event was a success. Next year, we hope to better pi
 
 Also if you were wondering, yes that Monstera (plant) in the background is real! AND YES it is ginormous!
 
-## Our First pyOpenSci Openspace
+## Our second pyOpenSci sprint
 
+<figure class="half">
+  <img src="{{ site.baseurl }}/images/blog/2024/may/pycon-us-24-pyopensci-sprints-juno.png" alt="Image of the puycon us sprint board where projects signed up for different rooms." />
+  <img src="{{ site.baseurl }}/images/blog/2024/may/pycon-24-sprints-pyopensci.png" alt="Image of the puycon us sprint board where projects signed up for different rooms." />
+  <figcaption>The pyConUS sprint sign-up board had lots of projects. Because the rooms are large projects tend to share spaces. We ended up in the packaging room which was great as it allowed us to do some more difficult work around Python packages with C extensions!</figcaption>
+</figure>
+
+
+This year we had a tremendous turnout of 17 people from several countries and across the United States  for our 1-day sprint. At last count this resulted in over 35 issues and pull requests where volunteers who were there to support scientists, helped us fix issues on our website, in our tutorials and our packaging and peer review guidebooks. So many long-standing issues and bugs were fixed thanks to this wonderful python community.
+
+If you haven’t been to a sprint before, it’s an experience that every open source enthusiast should have. Sprints are where a bunch of people come together to work on a project. If you are running sprints that support software development in a professional environment (i.e. at a company) this might mean a team of people working together on releasing a new software feature. But for open source, sprints can also mean volunteers coming to a space to help maintainers work on various parts of a project - even a project like pyOpenSci that supports other people's software has has it's own software too. We have tools that help us keep track of our [open community-lead peer review process ](https://www.pyopensci.org/about-peer-review/index.html) and other programs.
+
+
+<figure>
+  <img src="{{ site.baseurl }}/images/blog/2024/may/pycon-24-sprints-table-pyopensci.png" alt="Image of a round table of people talking and working at computers during our sprints." />
+
+  <figcaption>We had people working at multiple tables on pyOpenSci issues. A handful of people worked through our Create Your First Python Package tutorials and provided input and found issues! Included in this image is Jeremiah Paige who is making our packaging guide so much better by adding actual package examples (including on that has C extensions!) using Hatch! </figcaption>
+</figure>
+
+At pyOpenSci, we have a [help-wanted project board](https://github.com/orgs/pyOpenSci/projects/3) where we list things that we could use help with across our organization. Some of the tasks that we need help with are beginner friendly. For example it's useful for beginners to test drive our [online packaging tutorials](https://www.pyopensci.org/python-package-guide/tutorials/intro.html) and then report bugs as GitHub issues. Your feedback might be errors in a lesson, typos or things that were confusing / didn’t work.
+
+Some of our help-wanted issues are more technical too. pyOpenSci is a non-profit organization whose heart is a community of volunteers. We have infrastructure that any other open source project would have and as such we need technical help working on CI (continuous integration) workflows, guidebook infrastructure, our website and more.
+
+As an Executive Director and Founder of pyOpenSci, I created most of this infrastructure to support our mission myself early on. While I cherish times when I have bandwidth to work on technical things, it’s hard to keep up. So I really appreciate when community members can help us tick off open issues - big and small.
+
+
+## Our first pyOpenSci Open Space
 
 <figure>
   <img src="{{ site.baseurl }}/images/blog/2024/may/pyconus-2024-pyopensci-openspace.png" alt="Image showing a room with round tables and people working at each table most of who have laptops sitting in front of them." style="width: 100%;" />
@@ -177,24 +212,6 @@ workflows that allow allowing scientists to focus on their research
 rather than tools. We plan to tackle some of these and other topics during our Fall festival on September 28-29,
 2024 so save the date and come ready to learn and share!
 
-## Our second pyOpenSci sprint
-
-
-<figure>
-  <img src="{{ site.baseurl }}/images/blog/2024/may/pycon-24-sprints-pyopensci.png" alt="Image of the puycon us sprint board where projects signed up for different rooms.  " style="width: 60%;" />
-  <figcaption>The pyConUS sprint signup board had lots of projects. Because the rooms are large projects tend to share spaces. We ended up in the packaging room which was great as it allowed us to do some more difficult work around Python packages with C extensions!</figcaption>
-</figure>
-
-pyOpenSci sprints at pyConUS 2024
-This year we had a tremendous turnout of 17 people from several countries and across the United States  for our 1-day sprint. At last count this resulted in over 35 issues and pull requests where volunteers who were there to support scientists, helped us fix issues on our website, in our tutorials and our packaging and peer review guidebooks. So many long-standing issues and bugs were fixed thanks to this wonderful python community.
-
-If you haven’t been to a sprint before, it’s an experience that every open source enthusiast should have. Sprints are where a bunch of people come together to work on a project. If you are running sprints that support software development in a professional environment (i.e. at a company) this might mean a team of people working together on releasing a new software feature. But for open source, sprints can also mean volunteers coming to a space to help maintainers work on various parts of a project - even a project like pyOpenSci that supports other people's software (but has it's own too to [run peer review](https://www.pyopensci.org/about-peer-review/index.html) and other programs).
-
-At pyOpenSci, we have a [help-wanted project board](https://github.com/orgs/pyOpenSci/projects/3) where we list things that we could use help with across our organization. Some of the tasks that we need help with are beginner friendly. For example it's useful for beginners to test drive our [online packaging tutorials](https://www.pyopensci.org/python-package-guide/tutorials/intro.html) and then report bugs as GitHub issues. Your feedback might be errors in a lesson, typos or things that were confusing / didn’t work.
-
-Some of our help-wanted issues are more technical too. pyOpenSci is a non-profit organization whose heart is a community of volunteers. We have infrastructure that any other open source project would have and as such we need technical help working on CI (continuous integration) workflows, guidebook infrastructure, our website and more.
-
-As an Executive Director and Founder of pyOpenSci, I created most of this infrastructure to support our mission myself early on. While I cherish times when I have bandwidth to work on technical things, it’s hard to keep up. So I really appreciate when community members can help us tick off open issues - big and small.
 
 ## Packaging summit
 Last but not least, pyOpenSci had a strong presence at the PyConUS packaging summit this year. The summit was organization by Pradyun Gedam, Jannis ... CAM, Filipe Laines. As I have mentioned several times, packaging is one of the more thorny topics in our Python ecosystem. However, this year, things felt different compared to last.
