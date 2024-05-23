@@ -325,6 +325,15 @@
         "code",
         "review"
       ]
+    },
+    {
+      "login": "blink1073",
+      "name": "Steven Silvester",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2096628?v=4",
+      "profile": "https://www.linkedin.com/in/steven-silvester-90318721/",
+      "contributions": [
+        "review"
+      ]
     }
   ],
   "commitConvention": "angular",
