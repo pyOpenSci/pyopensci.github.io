@@ -1,7 +1,7 @@
 ---
 layout: single
-title: "pyOpenSci at PyCon US 2024 Recap"
-excerpt: ""
+title: "My experience at PyCon US 2024 - pyOpenSci, Python packaging and community"
+excerpt: "Learn about  pyOpenSci's experience at PyCon US 2024, how pyOpenSci is making Python packaging more accessible and beginner friendly and how the Python community is helping us get there."
 author: "Leah Wasser"
 permalink: /blog/recap-pyos-pyconus-2024.html
 header:
