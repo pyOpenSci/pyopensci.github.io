@@ -87,4 +87,4 @@ We'll be sharing more information in a separate post with more details on how to
 
 ## <i class="fa-solid fa-link"></i> Connect with pyOpenSci
 ​​We are thrilled, honored, and humbled that you’re interested in getting involved with pyOpenSci, and created this guide with the intention of providing a resource on all the ways available to get involved with us. You can stay up-to-date with all things pyOpenSci by following us on [LinkedIn](https://linkedin.com/company/pyopensci
-) and [Fosstodon](https://fosstodon.org/@pyOpenSci), and you can connect with the broader pyOpenSci community on our [Discourse forum](https://pyopensci.discourse.group/). And if you’re interested in our weekly newsletter where we share news, blog posts, and monthly updates, [subscribe on LinkedIn](bit.ly/pyOSNewsletter).
+) and [Fosstodon](https://fosstodon.org/@pyOpenSci), and you can connect with the broader pyOpenSci community on our [Discourse forum](https://pyopensci.discourse.group/). And if you’re interested in our weekly newsletter where we share news, blog posts, and monthly updates, [subscribe on LinkedIn](https://www.bit.ly/pyOSNewsletter).
