@@ -14,19 +14,20 @@ classes: wide
 toc: true
 comments: true
 ---
-## PyCon was incredible!
+## <i class="fa-regular fa-comments"></i> PyCon was incredible!
 
 
-## See you at SciPy
+## <i class="fa-solid fa-handshake-simple"></i> See you at SciPy
 
 
-## Save the Date: pyOpenSci's Open Source Fall Festival
+## <i class="fa-solid fa-envelope-open"></i> Save the Date: pyOpenSci's Open Source Fall Festival
 
 
-## Python packages for everyone!
+## <i class="fa-solid fa-hand-holding-heart"></i> Python packages for everyone!
 
 
-## Get involved with pyOpenSci: call for editors
+
+## <i class="fa-solid fa-bullhorn"></i> Get involved with pyOpenSci: call for editors
 <figure>
     <a href="/images/blog/2024/may/pyos-call-for-editors.png">
     <img src="/images/blog/2024/may/pyos-call-for-editors.png" style="max-width:100%" alt="Off-white square on a purple floral background with text that reads: Get involved with pyOpenSci! We're growing out editorial team, and are seeking volunteers from a wide variety of scientific backgrounds. Editors: lead the review process for 3-4 packages a year and assist with editorial and peer review policies. People from diverse backgrounds are especially encouraged to apply! Questions? Email media@pyopensci.org. Apply: bit.ly/pyOSEditor">
