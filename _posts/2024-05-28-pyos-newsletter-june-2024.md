@@ -18,7 +18,34 @@ comments: true
 
 
 ## <i class="fa-solid fa-handshake-simple"></i> See you at SciPy
+[SciPy 2024](https://www.scipy2024.scipy.org/) is just around the corner, and we can't wait to see you there! We're pulling together our pyOpenSci Guide to SciPy, similar to the guide we did for [PyCon 2024](https://www.pyopensci.org/blog/pyos-guide-to-pyconus-2024.html), and wanted to give you a preview of some of the tutorials and talks being given by pyOpenSci Community members!
 
+### Tutorials
+#### [3D Visualization with PyVista](https://cfp.scipy.org/2024/talk/GKGRWE/)
+Led by [Tetsuo Koyama](https://cfp.scipy.org/2024/speaker/WY7NA9/), [Alexander Kaszynski](https://cfp.scipy.org/2024/speaker/3RXHG8/), [Bill Little](https://cfp.scipy.org/2024/speaker/FDVWDN/), and [Bane Sullivan](https://cfp.scipy.org/2024/speaker/NEC33M/), this tutorial demonstrates [PyVista's](https://github.com/pyvista/pyvista) latest capabilities and bring a wide range of users to the forefront of 3D visualization in Python, including:
+
+* Use PyVista to create 3D visualizations from a variety of datasets in common formats.
+* Overview the classes and data structures of PyVista with real-world examples.
+* Be familiar of the various filters and features of PyVista.
+* Know which Python libraries are used and can be used by PyVista (meshio, trimesh etc).
+* We see this tutorial catering to anyone who wants to visualize data in any domain, and this ranges from basic Python users to advanced power users.
+
+#### [Create Your First Python Package: Make Your Python Code Easier to Share and Use](https://cfp.scipy.org/2024/talk/QT9GBY/)
+Led by pyOpenSci's Executive Director and Founder, [Leah Wasser](https://github.com/lwasser), in this tutorial session you'll learn how to:
+
+* Create code that can be installed into different environments
+* Use [Hatch](https://hatch.pypa.io/latest/) as a workflow tool, making setup and installation of your code easier
+* Use Hatch to publish your package to (test) PyPI
+
+### Talks
+#### [The power of community in solving scientific Python’s most challenging problems](https://cfp.scipy.org/2024/talk/AMTLJ7/)
+This talk from our Executive Director and Founder, [Leah Wasser](https://github.com/lwasser), shares pyOpenSci’s knowledge in building a constructive open peer review process that supports maintainers, and also resources that make Python packaging more accessible and easier-to-navigate. Our insights are based on five years of experience working with over 200 community members, who have evaluated 58 packages developed by over 56 package maintainers.
+
+#### [Great Tables for Everyone](https://cfp.scipy.org/2024/talk/BRMQRW/)
+This talk from [Rich Iannone](https://cfp.scipy.org/2024/speaker/NJCPZ7/) will provide a demonstration of Great Tables, showing how data can come alive in when in tabular form. We’ll use data from the fields of meteorology, chemistry, and the atmospheric sciences within our table-making examples. We’ll learn how the different components of a table (e.g., the column labels, the header, etc.) can be manipulated to best convey the data. We believe tables are worthy of being deemed data visualizations and we hope that Great Tables can become an indispensable tool in your data analysis workflow.
+
+#### [From Code to Clarity: Using Quarto for Python Documentation](https://cfp.scipy.org/2024/talk/GFGSTS/)
+[Isabel Zimmerman](https://cfp.scipy.org/2024/speaker/AVSVUJ/) will be speaking from her experiences as an open source developer who works with multilingual tools, and how Quarto + quartodoc helped to fill those gaps. This talk is intended for anyone who might have to communicate with stakeholders through code using a web-based format. She'll be focusing on Python package documentation websites, but the stories and examples expose the difficulties in many types of technical communication. The intent is to have a lighthearted talk filled with examples of how to make technical communication and publishing easier and more accessible.
 
 ## <i class="fa-solid fa-envelope-open"></i> Save the Date: pyOpenSci's Open Source Fall Festival
 <figure>
