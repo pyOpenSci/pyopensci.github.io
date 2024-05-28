@@ -21,7 +21,12 @@ comments: true
 
 
 ## <i class="fa-solid fa-envelope-open"></i> Save the Date: pyOpenSci's Open Source Fall Festival
-
+<figure>
+    <a href="/images/blog/2024/may/oss-fall-festival.png">
+    <img src="/images/blog/2024/may/oss-fall-festival.png" style="max-width:100%" alt="Abstract shapes on a white background with the text: Save the Date. pyOpenSci Open Source Fall Festival. September 28 & 29, 2024. Entirely online! Follow us on socials for more info. fosstodon.org/@pyOpenSci linkedin.com/company/pyopensci pyopensci.org.">
+    </a>
+</figure>
+We love a good get-together, and our Open Source Fall Festival is no exception! Held entirely online using [Gather](https://www.gather.town/), our goals is to bring together members of the Python community that create open source tools with the members of the Python community who use the tools. In building this festival, our focus is on a grassroots, community-led event with some big unconference vibes. So mark your calendars, and save the date for September 28--29th, 2024!
 
 ## <i class="fa-solid fa-hand-holding-heart"></i> Python packages for everyone!
 pyOpenSci's [Open Peer Review process](https://www.pyopensci.org/about-peer-review/index.html) is experiencing an [unprecedented number of Python package submissions](https://github.com/pyOpenSci/software-submission/issues!) We're excited to see so many wonderful packages that are helping scientists help make the world a better place being submitted for review. Our open peer review process facilitates scientists getting credit and recognition for the work they’ve invested in developing scientific Python tools. The peer review process also supports scientists in finding vetted and maintained software, which drives their open science workflows.
