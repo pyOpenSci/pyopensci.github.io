@@ -1,9 +1,9 @@
 ---
 layout: single
 title: "pyOpenSci Newsletter: June 2024"
-excerpt: "May has brought two new packages, the first (of many!) pyOpenSci workshops, all things pyOpenSci and PyCon, and several incredible speaking opportunities. Read on to learn more!"
+excerpt: "We're starting June with a record number of Python package submissions, a call for editors, a PyCon reflection, and some SciPy news!"
 author: "Jesse Mostipak"
-permalink: /blog/pyos-newsletter-may-2024.html
+permalink: /blog/pyos-newsletter-june-2024.html
 header:
   overlay_color: "#666"
   overlay_filter: 0.6
