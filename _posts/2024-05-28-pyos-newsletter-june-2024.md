@@ -14,15 +14,6 @@ classes: wide
 toc: true
 comments: true
 ---
-<figure>
-    <a href="/images/blog/2024/may/april-workshop.png">
-    <img src="/images/blog/2024/may/april-workshop.png" style="max-width:100%" alt="Purple line art of a robot standing in a field of solid purple flowers. The text reads 'Build Your First Python Package! a live, online workshop with pyOpenSci. Thursday, April 25th, 2024.">
-    </a>
-    <figcaption>
-      Thank you to everyone who made our first workshop such a fun experience!
-    </figcaption>
-</figure>
-
 ## PyCon was incredible!
 
 
@@ -36,6 +27,22 @@ comments: true
 
 
 ## Get involved with pyOpenSci: call for editors
+<figure>
+    <a href="/images/blog/2024/may/pyos-call-for-editors.png">
+    <img src="/images/blog/2024/may/pyos-call-for-editors.png" style="max-width:100%" alt="Off-white square on a purple floral background with text that reads: Get involved with pyOpenSci! We're growing out editorial team, and are seeking volunteers from a wide variety of scientific backgrounds. Editors: lead the review process for 3-4 packages a year and assist with editorial and peer review policies. People from diverse backgrounds are especially encouraged to apply! Questions? Email media@pyopensci.org. Apply: bit.ly/pyOSEditor">
+    </a>
+</figure>
+
+If you're looking to give back to the broader Python community, consider joining our Editorial Board! The pyOpenSci Editorial Board is comprised of a diverse group of volunteer editors, each one responsible for the following tasks:
+
+* Finding reviewers from diverse backgrounds who have a mixture of scientific domain and Python experience.
+* Overseeing the entire review process for a package ensuring it runs in a timely and efficient manner.
+* Supporting the submitting authors and reviewers in answering questions related to the review.
+* Determining whether that package should be accepted into the pyOpenSci ecosystem once the review has wrapped up.
+
+While we have a current need for editors with expertise in climatology and/or energy, we're also recruiting editors from all scientific disciplines. If you feel you'd be a good fit for the pyOpenSci Editorial Board, please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLScRQHQ7NKVEAG3BKAphiUdVFvQ5nkez0IpyXBMZDzXjuBPloQ/viewform).
+
+If you're interested in joining our Editorial Board, but have questions or would like to chat with someone from pyOpenSci about volunteering to be an editor, please email us at [media@pyopensci.org](mailto:media@pyopensci.org).
 
 ## <i class="fa-brands fa-python"></i> Upcoming Python events for scientists
 ### SciPy
