@@ -24,8 +24,18 @@ comments: true
 
 
 ## <i class="fa-solid fa-hand-holding-heart"></i> Python packages for everyone!
+pyOpenSci's [Open Peer Review process](https://www.pyopensci.org/about-peer-review/index.html) is experiencing an [unprecedented number of Python package submissions](https://github.com/pyOpenSci/software-submission/issues! We're excited to see so many wonderful packages that are helping scientists help make the world a better place being submitted for review. Our open peer review process facilitates scientists getting credit and recognition for the work they’ve invested in developing scientific Python tools. The peer review process also supports scientists in finding vetted and maintained software, which drives their open science workflows.
 
+You can submit your package for review (or pre-submission inquiry to determine if it's in scope) by [submitting an issue](https://github.com/pyOpenSci/software-submission/issues/new/choose) to [our software-submission repository](https://github.com/pyOpenSci/software-submission). And because all of our reviews are open, [you can see our review process in action](https://github.com/pyOpenSci/software-submission).
 
+We're also accepting applications for [package reviewers](https://docs.google.com/forms/d/e/1FAIpQLSeVf-L_1-jYeO84OvEE8UemEoCmIiD5ddP_aO8S90vb7srADQ/viewform). We welcome reviewers from a diversity of background and with varying levels of Python technical expertise.
+
+Some of the basic things that we look for in a review include:
+* Familiarity with using the Python programming language.
+* Ability to evaluate a Python package for usability and documentation quality.
+* Ability to provide a technical review of Python package structure and code quality / approach to solving the problems that the package seeks to address.
+
+We like to have a mix of technical and usability focus in our reviews so it’s ok if you don’t have all of the above skills!
 
 ## <i class="fa-solid fa-bullhorn"></i> Get involved with pyOpenSci: call for editors
 <figure>
