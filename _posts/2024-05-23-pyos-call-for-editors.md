@@ -24,7 +24,7 @@ The pyOpenSci Editorial Board is comprised of a diverse group of volunteers. As 
 
   As an editor, you are responsible for the following tasks:
 
-* Finding reviewers from diverse backgrounds who have a mixture of scientific domain and Python experience.
+* Finding reviewers from diverse backgrounds who have a mixture of scientific domain, software usability and Python experience.
 * Overseeing the entire review process for a package ensuring it runs in a timely and efficient manner.
 * Supporting the submitting authors and reviewers in answering questions related to the review.
 * Determining whether that package should be accepted into the pyOpenSci ecosystem once the review has wrapped up.
