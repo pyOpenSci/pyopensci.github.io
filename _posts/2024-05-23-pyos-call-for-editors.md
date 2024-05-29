@@ -18,7 +18,8 @@ comments: true
 ### We're currently in need of editors with domain expertise in climatology and/or energy, and also accepting applications from all scientific domains
 Thanks to the efforts of our incredible team of volunteers, pyOpenSci is growing! As a result, we're currently seeing a large number of package submissions to [our open peer review process](https://www.pyopensci.org/about-peer-review/index.html). In order to continue supporting scientists in the development of open source scientific software, we're looking to add volunteer editors to our Editorial Board.
 
-> Learn more about the Volunteer Editor role in our [Editor Guide](https://www.pyopensci.org/software-peer-review/how-to/editors-guide.html).
+Learn more about the Volunteer Editor role in our [Editor Guide](https://www.pyopensci.org/software-peer-review/how-to/editors-guide.html).
+{: .notice}
 
 The pyOpenSci Editorial Board is comprised of a diverse group of volunteers, with each editor being responsible for the following tasks:
 
