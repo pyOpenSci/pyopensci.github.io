@@ -22,6 +22,8 @@ We feel so incredibly fortunate to have connected with so many of you at PyCon! 
     </a>
 </figure>
 
+During PyCon US we had over 20 people contribute to pyOpenSci at our sprint, where contributors found bugs in our [beginner-friendly Python Packaging tutorials](https://www.pyopensci.org/python-package-guide/), fixed continuing integration issues, helped with our peer review process infrastructure, and even improved our packaging guide! Keep an eye out for more in an upcoming blog post from our Executive Director and Founder, Leah Wasser!
+
 ## <i class="fa-solid fa-handshake-simple"></i> See you at SciPy
 [SciPy 2024](https://www.scipy2024.scipy.org/) is just around the corner, and we can't wait to see you there! We're pulling together our pyOpenSci Guide to SciPy, similar to the guide we did for [PyCon 2024](https://www.pyopensci.org/blog/pyos-guide-to-pyconus-2024.html), and wanted to give you a preview of some of the tutorials and talks being given by pyOpenSci Community members!
 
@@ -46,11 +48,14 @@ Led by pyOpenSci's Executive Director and Founder, [Leah Wasser](https://github.
 #### [The power of community in solving scientific Python’s most challenging problems](https://cfp.scipy.org/2024/talk/AMTLJ7/)
 This talk from our Executive Director and Founder, [Leah Wasser](https://github.com/lwasser), shares pyOpenSci’s knowledge in building a constructive open peer review process that supports maintainers, and also resources that make Python packaging more accessible and easier-to-navigate. Our insights are based on five years of experience working with over 200 community members, who have evaluated 58 packages developed by over 56 package maintainers.
 
+Leah's talk is about writing the [pyOpenSci Python Packaging Guide](https://www.pyopensci.org/python-package-guide/) via community!
+{ .notice}
+
 #### [Great Tables for Everyone](https://cfp.scipy.org/2024/talk/BRMQRW/)
-This talk from [Rich Iannone](https://cfp.scipy.org/2024/speaker/NJCPZ7/) will provide a demonstration of Great Tables, showing how data can come alive in when in tabular form. We’ll use data from the fields of meteorology, chemistry, and the atmospheric sciences within our table-making examples. We’ll learn how the different components of a table (e.g., the column labels, the header, etc.) can be manipulated to best convey the data. We believe tables are worthy of being deemed data visualizations and we hope that Great Tables can become an indispensable tool in your data analysis workflow.
+This talk from [Rich Iannone](https://cfp.scipy.org/2024/speaker/NJCPZ7/), whose package [Great Tables](https://github.com/pyOpenSci/software-submission/issues/184) is currently under review with pyOpenSci, will provide a demonstration of Great Tables, showing how data can come alive in when in tabular form. We’ll use data from the fields of meteorology, chemistry, and the atmospheric sciences within our table-making examples. We’ll learn how the different components of a table (e.g., the column labels, the header, etc.) can be manipulated to best convey the data. We believe tables are worthy of being deemed data visualizations and we hope that Great Tables can become an indispensable tool in your data analysis workflow.
 
 #### [From Code to Clarity: Using Quarto for Python Documentation](https://cfp.scipy.org/2024/talk/GFGSTS/)
-[Isabel Zimmerman](https://cfp.scipy.org/2024/speaker/AVSVUJ/) will be speaking from her experiences as an open source developer who works with multilingual tools, and how Quarto + quartodoc helped to fill those gaps. This talk is intended for anyone who might have to communicate with stakeholders through code using a web-based format. She'll be focusing on Python package documentation websites, but the stories and examples expose the difficulties in many types of technical communication. The intent is to have a lighthearted talk filled with examples of how to make technical communication and publishing easier and more accessible.
+[Isabel Zimmerman](https://cfp.scipy.org/2024/speaker/AVSVUJ/), a member of our triage team and an Emeritus Editor in Chief, will be speaking from her experiences as an open source developer who works with multilingual tools, and how Quarto + quartodoc helped to fill those gaps. This talk is intended for anyone who might have to communicate with stakeholders through code using a web-based format. She'll be focusing on Python package documentation websites, but the stories and examples expose the difficulties in many types of technical communication. The intent is to have a lighthearted talk filled with examples of how to make technical communication and publishing easier and more accessible.
 
 ## <i class="fa-solid fa-envelope-open"></i> Save the Date: pyOpenSci's Open Source Fall Festival
 <figure>
@@ -72,7 +77,7 @@ Some of the basic things that we look for in a review include:
 * Ability to evaluate a Python package for usability and documentation quality.
 * Ability to provide a technical review of Python package structure and code quality / approach to solving the problems that the package seeks to address.
 
-We like to have a mix of technical and usability focus in our reviews so it’s ok if you don’t have all of the above skills!
+We like to have a mix of technical and usability focus in our reviews so it’s ok if you don’t have all of the above skills! Not sure if you're ready to review on your own? Check out the [pyOpenSci mentorship program](https://www.pyopensci.org/software-peer-review/how-to/reviewer-guide.html#a-guide-for-new-reviewers)!
 
 ## <i class="fa-solid fa-bullhorn"></i> Get involved with pyOpenSci: call for editors
 <figure>
