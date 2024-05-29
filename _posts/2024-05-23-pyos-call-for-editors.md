@@ -16,11 +16,13 @@ comments: true
 ---
 ## Join the pyOpenSci Editorial Board
 ### We're currently in need of editors with domain expertise in climatology and/or energy, and also accepting applications from all scientific domains
-Thanks to the efforts of our incredible team of volunteers, pyOpenSci is growing! As a result, we're currently seeing a large number of package submissions to [our open peer review process](https://www.pyopensci.org/about-peer-review/index.html). In order to continue supporting scientists in the development of open source scientific software, we're looking to add volunteers to our Editorial Board.
+Thanks to the efforts of our incredible team of volunteers, pyOpenSci is growing! As a result, we're currently seeing a large number of package submissions to [our open peer review process](https://www.pyopensci.org/about-peer-review/index.html). In order to continue supporting scientists in the development of open source scientific software, we're looking to add volunteer editors to our Editorial Board.
 
 > Learn more about the Volunteer Editor role in our [Editor Guide](https://www.pyopensci.org/software-peer-review/how-to/editors-guide.html).
 
-The pyOpenSci Editorial Board is comprised of a diverse group of volunteers, with each editor being responsible for the following tasks:
+The pyOpenSci Editorial Board is comprised of a diverse group of volunteers. As an editor, you join a diverse group of volunteers who care deeply about supporting the scientific Python software that scientists need to do their science. You will lead 2--4 package reviews a year, and the typical amount of time per review is anywhere from 1--3 hours a week. You may, however, spend a bit more time upfront finding reviewers, which is normally the trickiest part.
+
+As an editor, you are responsible for the following tasks:
 
 * Finding reviewers from diverse backgrounds who have a mixture of scientific domain and Python experience.
 * Overseeing the entire review process for a package ensuring it runs in a timely and efficient manner.
@@ -29,7 +31,9 @@ The pyOpenSci Editorial Board is comprised of a diverse group of volunteers, wit
 
 We often find that people interested in joining our Editorial Board are more than capable of performing the role, but sometimes doubt themselves. We want to strongly encourage you to apply if you're interested in the role. Not only do we offer support and guidance in your role as an Editor, we also have a warm, welcoming community that is always happy to help. Everyone starts somewhere, and we'd love for you to join us!
 
-It's also critical to the pyOpenSci mission that our Editorial Board have a combined expertise in various scientific domains, technical expertise in Python packaging, awareness of the importance of documentation in package usability, and awareness of the importance of CI/test suites in order to ensure robust software development. We do not expect any single editor to be an expert in all of these areas!
+It's also critical to the pyOpenSci mission that our Editorial Board have a combined expertise in various scientific domains, technical expertise in Python packaging, awareness of the importance of documentation in package usability, and awareness of the importance of CI/test suites in order to ensure robust software development.
+
+**IMPORTANT:** We do not expect any single editor to be an expert in all of these areas!
 
 We also appreciate when editors have experience working with or in the Python open source software community be it maintaining packages, contributing to packages, previously reviewing a pyOpenSci package, or supporting the community. This is certainly not a requirement, however, if you are interested in getting involved with pyOpenSci!
 
