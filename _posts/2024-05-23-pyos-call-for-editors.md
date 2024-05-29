@@ -15,7 +15,10 @@ toc: true
 comments: true
 ---
 ## Join the pyOpenSci Editorial Board
+### We're currently in need of editors with domain expertise in climatology and/or energy, and also accepting applications from all scientific domains
 Thanks to the efforts of our incredible team of volunteers, pyOpenSci is growing! As a result, we're currently seeing a large number of package submissions to [our open peer review process](https://www.pyopensci.org/about-peer-review/index.html). In order to continue supporting scientists in the development of open source scientific software, we're looking to add volunteers to our Editorial Board.
+
+> Learn more about the Volunteer Editor role in our [Editor Guide](https://www.pyopensci.org/software-peer-review/how-to/editors-guide.html).
 
 The pyOpenSci Editorial Board is comprised of a diverse group of volunteers, with each editor being responsible for the following tasks:
 
@@ -24,22 +27,14 @@ The pyOpenSci Editorial Board is comprised of a diverse group of volunteers, wit
 * Supporting the submitting authors and reviewers in answering questions related to the review.
 * Determining whether that package should be accepted into the pyOpenSci ecosystem once the review has wrapped up.
 
-It's critical to our mission that our Editorial Board have a combined expertise in various scientific domains, technical expertise in Python packaging, awareness of the importance of documentation in package usability, and awareness of the importance of CI/test suites in order to ensure robust software development. We do not expect any single editor to be an expert in all of these areas!
+We often find that people interested in joining our Editorial Board are more than capable of performing the role, but sometimes doubt themselves. We want to strongly encourage you to apply if you're interested in the role. Not only do we offer support and guidance in your role as an Editor, we also have a warm, welcoming community that is always happy to help. Everyone starts somewhere, and we'd love for you to join us!
 
-### Guest and Full editors
-pyOpenSci has two primary types of editors: guest and full. Both types of editors are considered a part of the editorial board for pyOpenSci. The major difference between guest and full editors is that a guest editor may only join the board for a single review, and may be new to pyOpenSci’s review process and thus require a bit more support in their first review.
+It's also critical to the pyOpenSci mission that our Editorial Board have a combined expertise in various scientific domains, technical expertise in Python packaging, awareness of the importance of documentation in package usability, and awareness of the importance of CI/test suites in order to ensure robust software development. We do not expect any single editor to be an expert in all of these areas!
 
-In addition, a new editor will be considered “guest” for the first 3 months of their tenure and/or until they have completed their first review. Once they have a completed a review they can be considered to be a full editor as deemed appropriate by the software review lead and the current editorial board.
+We also appreciate when editors have experience working with or in the Python open source software community be it maintaining packages, contributing to packages, previously reviewing a pyOpenSci package, or supporting the community. This is certainly not a requirement, however, if you are interested in getting involved with pyOpenSci!
 
-#### Guest editors
-A guest editor is is invited to lead a review in the case where we need specific expertise for a single review. We also consider editors who are performing their first review as guest editors as they may require more guidance or mentorship to complete the review (if they are new to our organization).
-
-New editors who wish to continue on as full editors for pyOpenSci may do so as long as both parties (pyOpenSci and the guest editors) feel like it is a healthy fit for them and the organization.
-
-#### Full editors
-A full editor is most often someone who has experience with the pyOpenSci open package review process. A full editor ideally has completed a review for at least 1 package for pyOpenSci, and/or has submitted and gone through the pyOpenSci package review process, and/or has experience reviewing for an organization such as JOSS or rOpenSci.
-
-We also appreciate when editors have experience working with or in the Python open source software community be it maintaining packages, contributing to packages, or supporting the community. This is certainly not a requirement however if you are interested in getting involved with pyOpenSci!
+If you're new to the pyOpenSci review process, we do also have Guest Editor volunteer roles, where you'll have more guidance or mentorship in order to complete the review.
+{: .notice}
 
 ### Apply to be a pyOpenSci editor
 We're currently looking for editors from a wide variety of scientific backgrounds, with a current focus on climatology and energy. If you feel you'd be a good fit for the pyOpenSci Editorial Board, please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLScRQHQ7NKVEAG3BKAphiUdVFvQ5nkez0IpyXBMZDzXjuBPloQ/viewform).
