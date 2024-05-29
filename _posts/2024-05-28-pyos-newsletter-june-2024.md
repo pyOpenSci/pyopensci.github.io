@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "pyOpenSci Newsletter: June 2024"
-excerpt: "We're starting June with a record number of Python package submissions, a call for editors, a PyCon reflection, and some SciPy news!"
+excerpt: "We're starting June with a record number of Python package submissions, a call for editors, a PyCon US reflection, and some SciPy meeting news!"
 author: "Jesse Mostipak"
 permalink: /blog/pyos-newsletter-june-2024.html
 header:
@@ -15,7 +15,7 @@ toc: true
 comments: true
 ---
 ## <i class="fa-regular fa-comments"></i> PyCon was incredible!
-We feel so incredibly fortunate to have connected with so many of you at PyCon! While we're still recovering from a week of summits, talks, and sprints, we wanted to share this sentiment from our Executive Director and Founder, [Leah Wasser](https://github.com/lwasser), which she shared on [her Fosstodon account](https://fosstodon.org/@leahawasser):
+We feel so incredibly fortunate to have connected with so many of you at PyCon US! While we're still recovering from a week of summits, talks, and sprints, we wanted to share this sentiment from our Executive Director and Founder, [Leah Wasser](https://github.com/lwasser), which she shared on [her Fosstodon account](https://fosstodon.org/@leahawasser):
 <figure>
     <a href="/images/blog/2024/may/leah-pycon.png">
     <img src="/images/blog/2024/may/leah-pycon.png" style="max-width:100%" alt="Screenshot of a Fosstodon post from Leah Wasser, reading: In my first few moments at pycon I ran into some of my conda friends & was quickly reminded of why this conference is so powerful.  Python is more than a programming language. It's a community of people who I can geek out with about the most obscure topics. I belong. People care. They care a lot about their work. They care about helping each other learn.  While this is a tech conference, it's really people that make python the vibrant communty that it is.">
@@ -66,7 +66,7 @@ This talk from [Rich Iannone](https://cfp.scipy.org/2024/speaker/NJCPZ7/), whose
 We love a good get-together, and our Open Source Fall Festival is no exception! Held entirely online using [Gather](https://www.gather.town/), our goals is to bring together members of the Python community that create open source tools with the members of the Python community who use the tools. In building this festival, our focus is on a grassroots, community-led event with some big unconference vibes. So mark your calendars, and save the date for September 28--29th, 2024!
 
 ## <i class="fa-solid fa-hand-holding-heart"></i> Python packages for everyone!
-pyOpenSci's [Open Peer Review process](https://www.pyopensci.org/about-peer-review/index.html) is experiencing an [unprecedented number of Python package submissions](https://github.com/pyOpenSci/software-submission/issues!) We're excited to see so many wonderful packages that are helping scientists help make the world a better place being submitted for review. Our open peer review process facilitates scientists getting credit and recognition for the work they’ve invested in developing scientific Python tools. The peer review process also supports scientists in finding vetted and maintained software, which drives their open science workflows.
+pyOpenSci's [Open Peer Review process](https://www.pyopensci.org/about-peer-review/index.html) is experiencing an [unprecedented number of Python package submissions](https://github.com/pyOpenSci/software-submission/issues!) We're excited to see so many wonderful packages that are helping scientists help make the world a better place being submitted for review. Our open peer review process facilitates scientists getting credit and recognition for the work they’ve invested in developing scientific Python tools while also suppporting them in building better software. The peer review process also supports scientists in finding vetted and maintained software, which drives their open science workflows.
 
 You can submit your package for review (or pre-submission inquiry to determine if it's in scope) by [submitting an issue](https://github.com/pyOpenSci/software-submission/issues/new/choose) to [our software-submission repository](https://github.com/pyOpenSci/software-submission). And because all of our reviews are open, [you can see our review process in action](https://github.com/pyOpenSci/software-submission).
 
