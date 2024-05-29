@@ -20,11 +20,9 @@ Thanks to the efforts of our incredible team of volunteers, pyOpenSci is growing
 
 > Learn more about the Volunteer Editor role in our [Editor Guide](https://www.pyopensci.org/software-peer-review/how-to/editors-guide.html).
 
-The pyOpenSci Editorial Board is comprised of a diverse group of volunteers. As an editor, you join a diverse group of volunteers who care deeply about supporting the scientific Python software that scientists need to do their science. You will lead 2--4 package reviews a year, and the typical amount of time per review is anywhere from 1--3 hours a week. You may, however, spend a bit more time upfront finding reviewers, which is normally the trickiest part.
+The pyOpenSci Editorial Board is comprised of a diverse group of volunteers, with each editor being responsible for the following tasks:
 
-As an editor, you are responsible for the following tasks:
-
-* Finding reviewers from diverse backgrounds who have a mixture of scientific domain and Python experience.
+* Finding reviewers from diverse backgrounds who have a mixture of scientific domain, software usability and Python experience.
 * Overseeing the entire review process for a package ensuring it runs in a timely and efficient manner.
 * Supporting the submitting authors and reviewers in answering questions related to the review.
 * Determining whether that package should be accepted into the pyOpenSci ecosystem once the review has wrapped up.
