@@ -15,7 +15,7 @@ toc: true
 comments: true
 ---
 ## <i class="fa-regular fa-comments"></i> PyCon was incredible!
-We feel so incredibly fortunate to have connected with so many of you at PyCon! While we're still recovering from a week of summits, talks, and sprints, we wanted to share this sentiment from our Executive Director and Founder, [Leah Wasser](https://github.com/lwasser), which she shared on [her Fosstodon account](https://fosstodon.org/@leahawasser):
+We feel so incredibly fortunate to have connected with so many of you at PyCon US! While we're still recovering from a week of summits, talks, and sprints, we wanted to share this sentiment from our Executive Director and Founder, [Leah Wasser](https://github.com/lwasser), which she shared on [her Fosstodon account](https://fosstodon.org/@leahawasser):
 <figure>
     <a href="/images/blog/2024/may/leah-pycon.png">
     <img src="/images/blog/2024/may/leah-pycon.png" style="max-width:100%" alt="Screenshot of a Fosstodon post from Leah Wasser, reading: In my first few moments at pycon I ran into some of my conda friends & was quickly reminded of why this conference is so powerful.  Python is more than a programming language. It's a community of people who I can geek out with about the most obscure topics. I belong. People care. They care a lot about their work. They care about helping each other learn.  While this is a tech conference, it's really people that make python the vibrant communty that it is.">
