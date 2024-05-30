@@ -23,7 +23,7 @@ comments: true
 
 
 <div class="notice" markdown = "1">
-## TL&DR
+## TL;DR
 
 * pyOpenSci has a strong presence at pyCon US this year. I hope this continues for years to come! We held an open space, helped run the maintainers summit (lead by Inessa Pawson for 5 years and counting), gave a talk and ran a 1 day sprint where over 16 people contributed to our efforts.
 * pyOpenSci’s theme this year for PyConUS was people first. People first when trying to make technical concepts easier to understand, people first when trying to write good tutorials or documentation and people first when you are trying to solve the world’s hardest problems.
