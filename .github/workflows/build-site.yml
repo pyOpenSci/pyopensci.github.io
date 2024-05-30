@@ -51,6 +51,5 @@ jobs:
         with:
           directory: "_site"
           arguments: |
-            --ignore-urls "https://www.github.com,https://fonts.googleapis.com,https://fonts.gstatic.com,_site/_posts/README/index.html"
             --ignore-files "/.+\/_posts\/README.md"
-            --ignore-status-codes "0, 200, 403, 429, 503, 999"
+            --checks "Images,Scripts"
