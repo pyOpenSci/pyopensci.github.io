@@ -65,7 +65,7 @@ Led by pyOpenSci's Executive Director and Founder, [Leah Wasser](https://github.
 Creating code that can be shared and reused is the gold-standard of open science. But tools and skills to share your code can be tricky to learn. In this hands-on tutorial, you’ll learn how to turn your code into an installable Python module ( a file containing Python code that defines functions, classes, and variables), that can be shared with others. We will provide pre-built code and module examples for each step of the tutorial to make it more beginner-friendly. However, to get the most out of this tutorial, you should be familiar with writing Python code, writing and using functions and you should understand the concept of Python environments. You should also have Python and Hatch installed on your computer prior to attending. If you are newer to environments and don’t have a preferred tool, then we recommend that you use conda. However, any environment tool that you prefer works well.
 
 Interested in helping out with our Packaging workshop? Reach out to us at [media@pyopensci.org](mailto:media@pyopensci.org). We're looking for volunteers to assist learners throughout the workshop.
-{ .notice}
+{: .notice}
 
 #### [Data of an Unusual Size (2024 edition): A practical guide to analysis and interactive visualization of massive datasets](https://cfp.scipy.org/2024/talk/UKLNLQ/)
 [Pavithra Eswaramoorthy](https://cfp.scipy.org/2024/speaker/QGMGFB/), and [Dharhas Pothina](https://cfp.scipy.org/2024/speaker/EKHUEY/), both from [Quansight](https://quansight.com/), will help you learn the fundamentals of analyzing massive datasets with real-world examples on actual powerful machines on a public cloud provided by the presenters – starting from how the data is stored and read, to how it is processed and visualized.
@@ -75,7 +75,7 @@ Interested in helping out with our Packaging workshop? Reach out to us at [media
 This talk from our Executive Director and Founder, [Leah Wasser](https://github.com/lwasser), shares pyOpenSci’s knowledge in building a constructive open peer review process that supports maintainers, and also resources that make Python packaging more accessible and easier-to-navigate. Our insights are based on five years of experience working with over 200 community members, who have evaluated 58 packages developed by over 56 package maintainers.
 
 Leah's talk is about writing the [pyOpenSci Python Packaging Guide](https://www.pyopensci.org/python-package-guide/) via community!
-{ .notice}
+{: .notice}
 
 #### [Great Tables for Everyone](https://cfp.scipy.org/2024/talk/BRMQRW/)
 This talk from [Rich Iannone](https://cfp.scipy.org/2024/speaker/NJCPZ7/), whose package [Great Tables](https://github.com/pyOpenSci/software-submission/issues/184) is currently under review with pyOpenSci, will provide a demonstration of Great Tables, showing how data can come alive in when in tabular form. We’ll use data from the fields of meteorology, chemistry, and the atmospheric sciences within our table-making examples. We’ll learn how the different components of a table (e.g., the column labels, the header, etc.) can be manipulated to best convey the data. We believe tables are worthy of being deemed data visualizations and we hope that Great Tables can become an indispensable tool in your data analysis workflow.
