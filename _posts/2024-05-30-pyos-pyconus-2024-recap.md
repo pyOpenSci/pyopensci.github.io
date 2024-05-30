@@ -136,7 +136,7 @@ https://www.youtube.com/watch?v=Qxy7bxW72iA
 -->
 
 
-## The PyCon US maintainers Summit
+## <i class="fa-solid fa-rocket"></i> The PyCon US maintainers Summit <i class="fa-solid fa-rocket"></i>
 
 This year, I had the honor of helping [Inessa Pawson](https://github.com/InessaPawson) and [Kara Sowles](https://github.com/karasowles) organize the
 [PyCon US Maintainers Summit 2024](https://us.pycon.org/2024/events/maintainers-summit/), an event that has grown from an experimental
@@ -163,7 +163,7 @@ quickly and a waitlist, the event was a success. Next year (if we are invited ba
 
 Also if you were wondering, yes that Monstera Deliciosa (plant) in the background is real! AND YES it is ginormous! <i class="fa-solid fa-leaf"></i>
 
-## Our second pyOpenSci sprint
+## <i class="fa-solid fa-users-gear"></i> Our second pyOpenSci sprint <i class="fa-solid fa-users-gear"></i>
 
 This year we had a tremendous turnout of over 20 people from several countries for our 1-day pyConUS sprint. At last count this resulted in about [30 issues and pull requests](https://github.com/orgs/pyOpenSci/projects/12/views/1) where volunteers who were there to support scientists, helped us fix issues on our website, in our tutorials and our [packaging](https://www.pyopensci.org/python-package-guide/) and [peer review](https://www.pyopensci.org/software-peer-review/index.html) guidebooks. So many long-standing issues and bugs were fixed thanks to this wonderful Python community.
 
@@ -197,7 +197,7 @@ As an Executive Director and Founder of pyOpenSci, I created most of this infras
 
 While I cherish times when I have bandwidth to work on technical things, it’s hard to keep up. So I really appreciate when community members can help us tick off open issues - big and small.
 
-## Our first pyOpenSci Open Space
+## <i class="fa-solid fa-user-group"></i> Our first pyOpenSci  <i class="fa-solid fa-user-group"></i>
 
 <figure>
   <img src="{{ site.baseurl }}/images/blog/2024/may/pyconus-2024-pyopensci-openspace.png" alt="Image showing a room with round tables and people working at each table most of who have laptops sitting in front of them." style="width: 100%;" />
@@ -226,7 +226,7 @@ rather than tools. We plan to tackle some of these and other topics during our F
 2024 so save the date and come ready to learn and share!
 
 
-## Packaging summit
+## <i class="fa-solid fa-box-open"></i> Packaging summit
 Last but not least, pyOpenSci had a strong presence at the PyConUS packaging summit this year. The summit was organization by [Pradyun Gedam](https://github.com/pradyunsg), [Jannis Leidel](https://github.com/jezdez), [CAM Gerlach](https://github.com/CAM-Gerlach), [Filipe Laínes](https://github.com/FFY00). As I have mentioned several times, packaging is one of the more thorny topics in our Python ecosystem. However, this year, things felt different compared to last.
 
 For one, there were a lot more people in the room, and people with different perspectives. For starters, last year I was 1 of 3? female-identifying people in the room - this year there were people from many backgrounds and identities in the room! Last year also felt more technical whereas this year was a perfect mix of  discussing technical topics combined with a strong theme of considering user experience in both installing Python and creating packages. PLUS - documentation - yes PLEASE!
@@ -244,7 +244,7 @@ There is a path forward. And people who are working on tools in the ecosystem re
 
 A few other highlights for me included meeting Ofek, the maintainer of [Hatch](https://ofek.dev/projects/hatch/). It was a big deal for Ofek to attend this meeting in person! He also gave a talk on his end-to-end packaging tool Hatch.
 
-## Wrap up
+## <i class="fa-brands fa-python"></i> Wrap up
 
 <figure>
   <img src="{{ site.baseurl }}/images/blog/2024/may/pyopensci-pyconus-2024-juno-thankyou.png" alt="Image of Juno a black dog that looks like a flat coated retriever border collie mix with the PyCon US swag thank you bag and a pyOpenSci sticker on it with the name Leah Wasser Maintainers Summit." style="width: 60%;" />
