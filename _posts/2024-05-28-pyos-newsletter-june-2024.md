@@ -5,7 +5,7 @@ excerpt: "We're starting June with a record number of Python package submissions
 author: "Jesse Mostipak"
 permalink: /blog/pyos-newsletter-june-2024.html
 header:
-  overlay_image: images/blog/headers/pyos-june-newsletter.png
+  overlay_image: images/blog/2024/may/pyos-june-newsletter.png
   overlay_filter: 0.6
 categories:
   - blog-post
