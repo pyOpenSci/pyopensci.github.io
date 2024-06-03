@@ -74,3 +74,17 @@ Carlos Ramos Carreño:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/carlos-ramos-carre%C3%B1o-3745932ab/"
+Patrick J. Roddy:
+  name        : Patrick J. Roddy
+  bio         : Research Software Engineer, University College London
+  avatar      : /images/people/patrick-j-roddy.jpg
+  links:
+    - label: GitHub
+      icon: fab fa-fw fa-github
+      url: https://github.com/paddyroddy
+    - label: LinkedIn
+      icon: fab fa-fw fa-linkedin
+      url: https://www.linkedin.com/in/patrickjamesroddy
+    - label: Website
+      icon: fas fa-fw fa-link
+      url: https://paddyroddy.github.io
