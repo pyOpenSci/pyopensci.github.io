@@ -1,6 +1,6 @@
 # pyopensci.github.io
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-27-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-30-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 [![pages-build-deployment](https://github.com/pyOpenSci/pyopensci.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/pyOpenSci/pyopensci.github.io/actions/workflows/pages/pages-build-deployment)
 
@@ -29,6 +29,7 @@ for creating this site. To set up a **development environment** and **run the si
 3. Run `bundle install` in the root of the cloned repository directory. This will
    install the gems needed to run the site locally.
 4. Run `bundle exec jekyll serve` to start the jekyll web server.
+NOTE: if you want the page to automagically reload use: `bundle exec jekyll serve --livereload`. this requires Jekyll 3.7 or higher.
 5. Open your browser and navigate to `http://127.0.0.1:4000/`.
 
 Please test your changes locally prior to submitting a pull request (PR).
@@ -83,6 +84,11 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="http://flpm.dev"><img src="https://avatars.githubusercontent.com/u/17676929?v=4?s=100" width="100px;" alt="Felipe Moreno"/><br /><sub><b>Felipe Moreno</b></sub></a><br /><a href="https://github.com/pyOpenSci/pyopensci.github.io/commits?author=flpm" title="Code">💻</a> <a href="https://github.com/pyOpenSci/pyopensci.github.io/pulls?q=is%3Apr+reviewed-by%3Aflpm" title="Reviewed Pull Requests">👀</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/sn3hay"><img src="https://avatars.githubusercontent.com/u/156010030?v=4?s=100" width="100px;" alt="Sneha Yadav"/><br /><sub><b>Sneha Yadav</b></sub></a><br /><a href="https://github.com/pyOpenSci/pyopensci.github.io/commits?author=sn3hay" title="Code">💻</a> <a href="https://github.com/pyOpenSci/pyopensci.github.io/pulls?q=is%3Apr+reviewed-by%3Asn3hay" title="Reviewed Pull Requests">👀</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/BradonZhang"><img src="https://avatars.githubusercontent.com/u/10603251?v=4?s=100" width="100px;" alt="Bradon Zhang"/><br /><sub><b>Bradon Zhang</b></sub></a><br /><a href="https://github.com/pyOpenSci/pyopensci.github.io/commits?author=BradonZhang" title="Code">💻</a> <a href="https://github.com/pyOpenSci/pyopensci.github.io/pulls?q=is%3Apr+reviewed-by%3ABradonZhang" title="Reviewed Pull Requests">👀</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://ffy00.github.io/"><img src="https://avatars.githubusercontent.com/u/11718923?v=4?s=100" width="100px;" alt="Filipe Laíns"/><br /><sub><b>Filipe Laíns</b></sub></a><br /><a href="https://github.com/pyOpenSci/pyopensci.github.io/commits?author=FFY00" title="Code">💻</a> <a href="https://github.com/pyOpenSci/pyopensci.github.io/pulls?q=is%3Apr+reviewed-by%3AFFY00" title="Reviewed Pull Requests">👀</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://www.linkedin.com/in/steven-silvester-90318721/"><img src="https://avatars.githubusercontent.com/u/2096628?v=4?s=100" width="100px;" alt="Steven Silvester"/><br /><sub><b>Steven Silvester</b></sub></a><br /><a href="https://github.com/pyOpenSci/pyopensci.github.io/pulls?q=is%3Apr+reviewed-by%3Ablink1073" title="Reviewed Pull Requests">👀</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://www.stsci.edu/"><img src="https://avatars.githubusercontent.com/u/503615?v=4?s=100" width="100px;" alt="Megan Sosey"/><br /><sub><b>Megan Sosey</b></sub></a><br /><a href="https://github.com/pyOpenSci/pyopensci.github.io/pulls?q=is%3Apr+reviewed-by%3Asosey" title="Reviewed Pull Requests">👀</a></td>
     </tr>
   </tbody>
 </table>
