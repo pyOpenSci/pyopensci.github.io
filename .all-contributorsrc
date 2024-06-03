@@ -315,6 +315,34 @@
         "code",
         "review"
       ]
+    },
+    {
+      "login": "FFY00",
+      "name": "Filipe Laíns",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11718923?v=4",
+      "profile": "https://ffy00.github.io/",
+      "contributions": [
+        "code",
+        "review"
+      ]
+    },
+    {
+      "login": "blink1073",
+      "name": "Steven Silvester",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2096628?v=4",
+      "profile": "https://www.linkedin.com/in/steven-silvester-90318721/",
+      "contributions": [
+        "review"
+      ]
+    },
+    {
+      "login": "sosey",
+      "name": "Megan Sosey",
+      "avatar_url": "https://avatars.githubusercontent.com/u/503615?v=4",
+      "profile": "http://www.stsci.edu/",
+      "contributions": [
+        "review"
+      ]
     }
   ],
   "commitConvention": "angular",
