@@ -197,7 +197,7 @@ As an Executive Director and Founder of pyOpenSci, I created most of this infras
 
 While I cherish times when I have bandwidth to work on technical things, it’s hard to keep up. So I really appreciate when community members can help us tick off open issues - big and small.
 
-## <i class="fa-solid fa-user-group"></i> Our first pyOpenSci  <i class="fa-solid fa-user-group"></i>
+## <i class="fa-solid fa-user-group"></i> Our first pyOpenSci PyCon Open Space <i class="fa-solid fa-user-group"></i>
 
 <figure>
   <img src="{{ site.baseurl }}/images/blog/2024/may/pyconus-2024-pyopensci-openspace.png" alt="Image showing a room with round tables and people working at each table most of who have laptops sitting in front of them." style="width: 100%;" />
