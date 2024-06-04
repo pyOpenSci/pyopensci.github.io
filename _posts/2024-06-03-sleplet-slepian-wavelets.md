@@ -3,7 +3,7 @@ layout: single
 title: "SLEPLET: Slepian Scale-Discretised Wavelets in Python"
 excerpt: SLEPLET is a tool to create Slepian scale-discretised wavelets that has recently passed the PyOpenSci review.
 author: Patrick J. Roddy
-permalink: /blog/sleplet-slepian-wavelets.html
+permalink: /blog/sleplet-slepian-wavelets
 header:
     overlay_image: /images/sleplet/planck_2018_temp_mask.jpg
     overlay_filter: 0.5
