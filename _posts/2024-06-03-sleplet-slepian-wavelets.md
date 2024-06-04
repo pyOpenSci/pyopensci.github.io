@@ -136,7 +136,7 @@ If you use `SLEPLET` in your research, please cite the paper.
 
 ```bibtex
 @article{Roddy2023,
-  title   = {SLEPLET: Slepian Scale-Discretised Wavelets in Python},
+  title   = {%raw%}{{SLEPLET: Slepian Scale-Discretised Wavelets in Python}}{%endraw%},
   author  = {Roddy, Patrick J.},
   year    = 2023,
   journal = {Journal of Open Source Software},
