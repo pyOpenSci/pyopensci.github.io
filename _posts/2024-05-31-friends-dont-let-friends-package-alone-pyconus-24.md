@@ -156,7 +156,7 @@ And similar to how we created our packaging guide - my friends got me through it
 
 ## The core messages in my talk
 
-In my talk, I shared my experiences as a maintainer of [Stravalib](https://github.com/stravalib/stravalib). How
+In my talk, I shared my experiences as a maintainer of [stravalib](https://github.com/stravalib/stravalib). How
 challenging it was to figure out the best packaging infrastructure for our team.
 However, that experience of rebuilding stravalib also empowered me to better understand the pain points
 in the ecosystem from a "beginner and real world application lens." From a lens of "I just need to create a
