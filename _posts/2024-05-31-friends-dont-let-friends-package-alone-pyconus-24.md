@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Friends don't let friends package alone- my Python packaging talk at PyCon 2024"
-excerpt: "."
+excerpt: "A blog post from the Executive Director of pyOpenSci on Python packaging, technical things and imposter syndrome in data science."
 author: "Leah Wasser"
 permalink: /blog/python-packaging-friends-dont-let-friends-package-alone.html
 header:
@@ -17,10 +17,10 @@ comments: true
 
 ## <i class="fa-solid fa-heart"></i>  Python packaging and community: my first talk at PyCon US 2024
 
-This year I gave my first talk in the [PyCon US](https://us.pycon.org/2024/) main track! For context, PyCon US is a big meeting - with over 2,700 registrations this year - a record for the event! My talk was about my experiences navigating the packaging ecosystem from a few perspectives:
+This year I gave my first talk in the [PyCon US](https://us.pycon.org/2024/) main track! For context, PyCon US is a big meeting—with over 2,700 registrations this year—a record for the event! My talk was about my experiences navigating the packaging ecosystem from a few perspectives:
 
 * teaching scientists how to share their code,
-* as a maintainer of a smaller Python package - stravalib and
+* as a maintainer of a smaller Python package—stravalib and
 * Founder and Executive Director of a non profit organization - pyOpenSci - which strives to support scientists in tackling the world's greatest challenges using open software and workflows.
 
 The irony of these three  different perspectives is that the challenges that users face in each category are similar! Below I explore my experiences pulling together the talk.
@@ -70,7 +70,7 @@ In the Python ecosystem, choice is a value.
 
 Why?
 
-Because the Python language is used across many different domains and for lots of different reasons. And further, Python is a “glue” language. This means that it can wrap around other languages like C - making it even more flexible.
+Because the Python language is used across many different domains and for lots of different reasons. And further, Python is a “glue” language. This means that it can wrap around other languages like C—making it even more flexible.
 
 This flexibility warrants choice. It’s almost by design.
 
@@ -88,7 +88,7 @@ So if you think about that "opportunity to make a wrong decision", imagine what 
 
 <figure>
   <img src="{{ site.baseurl }}/images/blog/2024/june/pycon-python-packaging-too-many-options.png" alt="Image of a flat coated retriever lying down with a purple ice bag on its head looking sad." style="width: 90%;" />
-  <figcaption> Too many choices can lead to frustration for many users that are learning a new technical thing. More biscuits - or early wins - are more empowering for a learner and set them up for success.</figcaption>
+  <figcaption> Too many choices can lead to frustration for many users that are learning a new technical thing. More biscuits—or early wins—are more empowering for a learner and set them up for success.</figcaption>
 </figure>
 
 ### The evolution of the pyOpenSci Python packaging guide
@@ -137,7 +137,7 @@ in reality, it was all about people.
 ### Me and the child-like imposter inside
 
 Giving this talk was a big deal for me. Imposter syndrome—the feeling that I
-didn't belong, that I wasn't technical enough to build pyOpenSci — has always been
+didn't belong, that I wasn't technical enough to build pyOpenSci—has always been
 my reality. As a trained Landscape Architect, I spent most of my college and early graduate years
 practicing perfect lettering, using markers, fancy pens and colored pencils  to bring creative
 landscape visions to life.
@@ -148,11 +148,11 @@ different topics—including packaging.
 
 I wasn’t sure what it would be like to be on that big pyCon US presentation stage, in that big room full of chairs. Would they be empty? Luckily, I was able to focus on my friends sitting in the front rows
 
-Carol, Hugo, Jeremiah, and Inessa - they were all there.
+Carol, Hugo, Jeremiah, and Inessa—they were all there.
 
 Carol told me to lean into the teacher inside of me. I know that teacher best. My body calmed as I remembered why I was there. To help the community move forward.
 
-And similar to how we created our packaging guide - my friends got me through it.
+And similar to how we created our packaging guide—my friends got me through it.
 
 ## The core messages in my talk
 
@@ -162,7 +162,7 @@ However, that experience of rebuilding stravalib also empowered me to better und
 in the ecosystem from a "beginner and real world application lens." From a lens of "I just need to create a
 package and publish / release it to PyPI regularly."
 
-From a lens of - I am technical but I need to learn new-to-me packaging tools
+From a lens of—I am technical but I need to learn new-to-me packaging tools
 and workflows.
 
 <figure>
@@ -170,7 +170,7 @@ and workflows.
   <figcaption><i class="fa-solid fa-heart-pulse"></i> Even as technical maintainers, the folks on the stravalib team weren't packaging experts. Why would they be? They are focused on writing good usable code (and tests). <i class="fa-solid fa-heart-pulse"></i>.</figcaption>
 </figure>
 
-## Fundamental first - How to make a technical ecosystem beginner accessible
+## Fundamental first—How to make a technical ecosystem beginner accessible
 
 How do we collectively support and empower people who don't want to become
 packaging gurus to be successful?
@@ -217,7 +217,7 @@ In creating the guide, we knew we were tackling hard, complex technical problems
 We were able to move forward together.
 
 <figure>
-  <img src="{{ site.baseurl }}/images/blog/2024/june/pyopensci-python-packaging-people-can-help.png" alt="Image on a dark purple background that says - people can help. below are two people stick figure like loking at each other and smiling while chatting." style="width: 70%;" />
+  <img src="{{ site.baseurl }}/images/blog/2024/june/pyopensci-python-packaging-people-can-help.png" alt="Image on a dark purple background that says—people can help. below are two people stick figure like loking at each other and smiling while chatting." style="width: 70%;" />
   <figcaption><i class="fa-solid fa-heart-pulse"></i> When tackling Python's thorniest challenges, people can help.  <i class="fa-solid fa-heart-pulse"></i>.</figcaption>
 </figure>
 
@@ -272,7 +272,7 @@ Early on in creating our packaging guide, we found contributors, often quite exp
 
 ### Friends don’t let friends package alone
 
-When my talk finished, I felt this sense of relief but also I felt love, support and deep passion for this topic and the community. It’s more than just packaging. It is about empowering people with skills that will help them tackle the biggest scientific challenges that we face as humans. Science is about data. And to process data we need tools - open tools that are accessible for scientists to learn and use. It’s about carving out space for scientists to build and use these tools. And also to make space for people who may feel like outsiders because of who they are, to participate.
+When my talk finished, I felt this sense of relief but also I felt love, support and deep passion for this topic and the community. It’s more than just packaging. It is about empowering people with skills that will help them tackle the biggest scientific challenges that we face as humans. Science is about data. And to process data we need tools—open tools that are accessible for scientists to learn and use. It’s about carving out space for scientists to build and use these tools. And also to make space for people who may feel like outsiders because of who they are, to participate.
 
 I’m excited to have the privilege of moving the pyOpenSci mission forward. Of getting to connect with so many amazing people. I’m excited to continue to facilitate and support better science through better software and to empower more people with skills. And maybe, through this talk, a little piece of that child-like imposter within me has been chipped away!
 
