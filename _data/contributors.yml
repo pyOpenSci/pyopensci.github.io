@@ -650,6 +650,7 @@
     - peer-review
     - reviewer
   packages_editor:
+    - sleplet
     - xgi
   packages_submitted:
   packages_reviewed:
@@ -6061,3 +6062,388 @@
     - sourmash
   location: Oakland, California
   email:
+- name: Ken Seehart
+  github_username: kenseehart
+  github_image_id: 612119
+  title:
+  sort:
+  bio:
+  organization: Game of Y
+  date_added: '2024-06-01'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - package-guide
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location:
+  email:
+- name: Ryan
+  github_username: ryanskeith
+  github_image_id: 657220
+  title:
+  sort:
+  bio: A guy that likes python and anything automation, dsp or data-science.
+  organization: Anaconda, Inc.
+  date_added: '2024-06-01'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - package-guide
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: USA
+  email:
+- name: Patrick Byers
+  github_username: pb-413
+  github_image_id: 36516871
+  title:
+  sort:
+  bio:
+  organization: Lucas Systems
+  date_added: '2024-06-01'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor:
+  advisory: false
+  twitter: pb_413
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - package-guide
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: Pittsburgh PA
+  email:
+- name: Megan Sosey
+  github_username: sosey
+  github_image_id: 503615
+  title:
+  sort:
+  bio: Scientist, Developer, space enthusiast
+  organization: Space Telescope Science Institute
+  date_added: '2024-06-01'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor:
+  advisory: false
+  twitter: OmegaSpaces
+  mastodon:
+  orcidid:
+  partners:
+  website: https://www.stsci.edu/
+  board: false
+  contributor_type:
+    - package-guide
+    - web-contrib
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: Baltimore, MD
+  email: sosey@stsci.edu
+- name: Brianne Wilhelmi
+  github_username: BSuperbad
+  github_image_id: 100496041
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2024-06-01'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - package-guide
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location:
+  email:
+- name: Cheng H. Lee
+  github_username: chenghlee
+  github_image_id: 3485949
+  title:
+  sort:
+  bio:
+  organization: Anaconda
+  date_added: '2024-06-01'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - package-guide
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: Austin, TX
+  email:
+- name:
+  github_username: Vaunty
+  github_image_id: 68826427
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2024-06-01'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - package-guide
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location:
+  email:
+- name: Felipe Moreno
+  github_username: flpm
+  github_image_id: 17676929
+  title:
+  sort:
+  bio: Security + Python + Design
+  organization: Bloomberg LP
+  date_added: '2024-06-01'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://flpm.dev
+  board: false
+  contributor_type:
+    - package-guide
+    - web-contrib
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: New York, NY
+  email:
+- name: Sneha Yadav
+  github_username: sn3hay
+  github_image_id: 156010030
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2024-06-01'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - web-contrib
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location:
+  email:
+- name: Bradon Zhang
+  github_username: BradonZhang
+  github_image_id: 10603251
+  title:
+  sort:
+  bio: Hello, I make things sometimes.
+  organization:
+  date_added: '2024-06-01'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - web-contrib
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: New York
+  email: bradonzhang@gmail.com
+- name: Filipe Laíns
+  github_username: FFY00
+  github_image_id: 11718923
+  title:
+  sort:
+  bio: electro-metrology, semiconductor manufacturing, and nuclear physics enthusiast
+      • python core dev, archlinux packager
+  organization:
+  date_added: '2024-06-01'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor:
+  advisory: false
+  twitter: MissingClara
+  mastodon:
+  orcidid:
+  partners:
+  website: https://ffy00.github.io/
+  board: false
+  contributor_type:
+    - web-contrib
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: Portugal
+  email: lains@riseup.net
+- name: Steven Silvester
+  github_username: blink1073
+  github_image_id: 2096628
+  title:
+  sort:
+  bio:
+  organization: MongoDB
+  date_added: '2024-06-01'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - web-contrib
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location:
+  email:
+- name: Shannon
+  github_username: magsol
+  github_image_id: 135417
+  title:
+  sort:
+  bio:
+  organization: University of Georgia
+  date_added: '2024-06-01'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://magsol.github.io/
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - sleplet
+  location: Athens, GA
+  email: magsol@gmail.com
+- name: Jakub Tomasz Gnyp
+  github_username: gnypit
+  github_image_id: 62402006
+  title:
+  sort:
+  bio:
+  organization: University of Gdańsk
+  date_added: '2024-06-01'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - sleplet
+  location: Gdańsk
+  email:
+- name: Patrick J. Roddy
+  github_username: paddyroddy
+  github_image_id: 15052188
+  title:
+  sort:
+  bio: Research Software Developer at UCL
+  organization: '@UCL'
+  date_added: '2024-06-01'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://paddyroddy.github.io
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+    - submitting-author
+  packages_editor:
+  packages_submitted:
+    - sleplet
+  packages_reviewed:
+  location: London
+  email: patrickjamesroddy@gmail.com
