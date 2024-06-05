@@ -146,7 +146,7 @@ Now, as a Pythonista, coder, data scientist, and tech
 geek, I’m very aware of how much more others know than I do about lots of
 different topics—including packaging.
 
-I wasn’t sure what it would be like to be on that big pyCon US presentation stage, in that big room full of chairs. Would they be empty? Luckily, I was able to focus on my friends sitting in the front rows
+I wasn’t sure what it would be like to be on that big pyCon US presentation stage, in that big room full of chairs. Would they be empty? Luckily, I was able to focus on my friends sitting in the front rows.
 
 Carol, Hugo, Jeremiah, and Inessa—they were all there.
 
@@ -190,7 +190,7 @@ The essence of my Python packaging talk was the work that I have lead alongside 
 
 This work was really about people helping people tackle challenging things.
 
-Python packaging matters because scientists need open software to create open and reproducible workflows. To build upon each other's work. To tackle the world's hardest challenges more efficiently and effectively.
+Python packaging matters because scientists need open software to create open and reproducible workflows to build upon each other's work, and to tackle the world's hardest challenges more efficiently and effectively.
 
 Among other things, pyOpenSci reviews software <link> as a constructive way to help scientists both create better software and get credit for the important work they are doing.
 
@@ -223,7 +223,7 @@ We were able to move forward together.
 
 ### Create early wins for users
 
-As an educator, I’ve always known that the best way to empower someone new to any topic is to create a learning environment where they quickly make progress. I’ve [collected data on what approaches work better than others](https://osf.io/preprints/osf/xdj4z). I’ve explored how certain presentations of information empower, while others break people down triggering imposter syndrome and even isolation within a science field.
+As an educator, I’ve always known that the best way to empower someone new to any topic is to create a learning environment where they quickly make progress. I’ve [collected data on what approaches work better than others](https://osf.io/preprints/osf/xdj4z). I’ve explored how certain presentations of information empower, while others break people down, triggering imposter syndrome and even isolation within a science field.
 
 The key is early wins.
 
@@ -232,7 +232,7 @@ Early wins empower users to:
 * Want to do more
 * Feel like they belong and can be successful learning the skill at hand
 * Try again and expand their knowledge
-* Even help their colleagues which is the biggest win of all. \
+* Even help their colleagues, which is the biggest win of all.
 
 High quality documentation (or tutorials) helps users achieve this by providing quickstarts and resources that ensure they can get up and running quickly and have early positive experiences.
 
@@ -243,7 +243,7 @@ High quality documentation (or tutorials) helps users achieve this by providing 
 
 ### Fundamentals First
 
-When teaching beginners, break things down to their fundamental concepts. In the case of packaging, this meant explaining pure Python packaging in its most basic form, without immediately discussing tools. Notice that the diagram below doesn’t discuss tools at all!
+When teaching beginners, break things down to their fundamental concepts. In the case of packaging, this means explaining pure Python packaging in its most basic form, without immediately discussing tools. Notice that the diagram below doesn’t discuss tools at all!
 
 <figure>
   <img src="{{ site.baseurl }}/images/blog/2024/june/pyopensci-python-packaging-fundamentals-first.png" alt="Dark purple image that says Fundamentals First. Below are 4 steps in the packaging process that say 1 create package structure, 2 add code, 3 add metadata to pyproject toml file and 4 pip install package. " style="width: 70%;" />
@@ -272,9 +272,9 @@ Early on in creating our packaging guide, we found contributors, often quite exp
 
 ### Friends don’t let friends package alone
 
-When my talk finished, I felt this sense of relief but also I felt love, support and deep passion for this topic and the community. It’s more than just packaging. It is about empowering people with skills that will help them tackle the biggest scientific challenges that we face as humans. Science is about data. And to process data we need tools—open tools that are accessible for scientists to learn and use. It’s about carving out space for scientists to build and use these tools. And also to make space for people who may feel like outsiders because of who they are, to participate.
+When I finished my talk, I felt this sense of relief but also I felt love, support and deep passion for this topic and the community. It’s more than just packaging. It is about empowering people with skills that will help them tackle the biggest scientific challenges that we face as humans. Science is about data. And to process data we need tools - open tools that are accessible for scientists to learn and use. It’s about carving out space for scientists to build and use these tools. And also to make space for people who may feel like outsiders, because of who they are, to participate.
 
-I’m excited to have the privilege of moving the pyOpenSci mission forward. Of getting to connect with so many amazing people. I’m excited to continue to facilitate and support better science through better software and to empower more people with skills. And maybe, through this talk, a little piece of that child-like imposter within me has been chipped away!
+I’m excited to have the privilege of moving the pyOpenSci mission forward, and of getting to connect with so many amazing people. I’m excited to continue to facilitate and support better science through better software and to empower more people with skills. And maybe, through this talk, a little piece of that child-like imposter within me has been chipped away!
 
 I’m human too. I need friends too.
 
