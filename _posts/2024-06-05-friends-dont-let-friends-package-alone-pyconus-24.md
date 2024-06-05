@@ -19,8 +19,8 @@ comments: true
 
 This year I gave my first talk in the [PyCon US](https://us.pycon.org/2024/) main track! For context, PyCon US is a big meeting—with over 2,700 registrations this year—a record for the event! My talk was about my experiences navigating the packaging ecosystem from a few perspectives:
 
-* teaching scientists how to share their code,
-* as a maintainer of a smaller Python package—stravalib and
+* Teaching scientists how to share their code,
+* As a maintainer of a smaller Python package—stravalib and
 * Founder and Executive Director of a non profit organization - pyOpenSci - which strives to support scientists in tackling the world's greatest challenges using open software and workflows.
 
 The irony of these three  different perspectives is that the challenges that users face in each category are similar! Below I explore my experiences pulling together the talk.
@@ -140,10 +140,16 @@ Giving this talk was a big deal for me. Imposter syndrome—the feeling that I
 didn't belong, that I wasn't technical enough to build pyOpenSci—has always been
 my reality. As a trained Landscape Architect, I spent most of my college and early graduate years
 practicing perfect lettering, using markers, fancy pens and colored pencils  to bring creative
-landscape visions to life.
+landscape visions to life. I think moved on to get an advanced degree in ecology.
 
-Now, as a Pythonista, coder, data scientist, and tech
-geek, I’m very aware of how much more others know than I do about lots of
+I remember vividly almost crying when I tried to read and understand my first scientific paper.
+
+...talk about jargon and technical terms!
+
+Now, I consider myself a Pythonista, coder, data scientist, and tech
+geek. I've bounced around across different data science languages.
+
+AND, I’m very aware of how much more others know than I do about lots of
 different topics—including packaging.
 
 I wasn’t sure what it would be like to be on that big pyCon US presentation stage, in that big room full of chairs. Would they be empty? Luckily, I was able to focus on my friends sitting in the front rows.
@@ -194,10 +200,12 @@ Python packaging matters because scientists need open software to create open an
 
 Among other things, pyOpenSci reviews software <link> as a constructive way to help scientists both create better software and get credit for the important work they are doing.
 
-The pyOpenSci community has created a Python package guide that harnesses the expertise, opinions, and experiences of 55 people. This guide provides:
+The pyOpenSci community has created a Python package guide that harnesses the expertise, opinions, and experiences of 61+ people.
 
-* a beginner-friendly overview of the packaging ecosystem combined with a
-* start-to-finish tutorial that uses Hatch <link> to create a Python package.
+This guide provides:
+
+* A beginner-friendly overview of the packaging ecosystem combined with a
+* Start-to-finish tutorial that uses [Hatch](https://hatch.pypa.io/) to create a Python package.
 
 Python is known for its incredible community, so it only made sense to leverage that collective knowledge and experience to create a packaging guide. Packaging doesn’t have to be complex. Friends can help.
 
@@ -210,6 +218,7 @@ When tackling some of the most thorny technical Python problems, people can help
 
 * Learning together by working in a small supportive group to create your first Python package;
 * Bringing in experts to review and vet online resources to ensure they are accurate and accessible that support scientists worldwide in their packaging journey.
+* Also including beginners to ensure the content is accessible, understandable and usable.
 * Running a constructive peer review process where people volunteer their time to provide feedback on a package’s usability, function, and structure.
 
 In creating the guide, we knew we were tackling hard, complex technical problems. But also there is a tremendous amount of collective knowledge in this community that can be harnessed and focused on the problem at hand. By focusing people on the users of the guide first, rather than tools, we were able to build consensus.
