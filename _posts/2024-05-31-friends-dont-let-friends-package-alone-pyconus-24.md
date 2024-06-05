@@ -20,8 +20,8 @@ comments: true
 This year I gave my first talk in the [PyCon US](https://us.pycon.org/2024/) main track! For context, PyCon US is a big meeting - with over 2,700 registrations this year - a record for the event! My talk was about my experiences navigating the packaging ecosystem from a few perspectives:
 
 * teaching scientists how to share their code,
-* a maintainer of a smaller python package - stravalib and
-* founder and executive director of a non profit organization - pyOpenSci that strives to support scientists in tackling the worlds greatest challenges using open software and workflows.
+* as a maintainer of a smaller Python package - stravalib and
+* Founder and Executive Director of a non profit organization - pyOpenSci - which strives to support scientists in tackling the world's greatest challenges using open software and workflows.
 
 The irony of these three  different perspectives is that the challenges that users face in each category are similar! Below I explore my experiences pulling together the talk.
 
@@ -30,10 +30,10 @@ The irony of these three  different perspectives is that the challenges that use
 I started thinking about Python packaging in 2018 during our [early pyOpenSci
 community meetings](https://www.pyopensci.org/handbook/reference/index.html). In these meetings, we were trying to create an [open peer
 review process for scientific Python software](https://www.pyopensci.org/about-peer-review/index.html). A process that is running today
-with 17 scientific Python packages currently in some state of review as write
+with 17 scientific Python packages currently [in some state of review](https://github.com/pyOpenSci/software-submission/issues) as write
 this post.
 
-To me, as someone who was teaching Python to beginners and dabbling in creating
+As someone who was teaching Python to beginners and dabbling in creating
 and maintaining packages to support teaching, packaging was this somewhat
 undefined space. I wasn’t sure where to begin or what sources were truly
 authoritative. Generally, my approach to packaging was copying the
@@ -53,16 +53,16 @@ But as I thought about creating pyOpenSci's open peer review process, I knew
 scientists would need a process that:
 
 * Enforced “good enough” practices in scientific Python packaging
-* Was not overly binding but also set users up for success
+* Was not overly-binding, but also set users up for success
 
 I also knew that:
 
-* We needed to create some sort of packaging guide that set up expectations for our pyOpenSci open peer review of software process. And that
-* I wasn't the lead expert in the room. Thus, needed people from across the (scientific) Python ecosystem and beyond to build consensus and define what
+* We needed to create some sort of packaging guide that set up expectations for our pyOpenSci open peer review of software process, and that
+* I wasn't the lead expert in the room. Thus, we needed people from across the (scientific) Python ecosystem and beyond to build consensus and define what
 were “good enough” practices.
 
-But how could pyOpenSci in these early years, as a not-yet-created community empower people to
-navigate a tricky if not complex ecosystem empowered by choice?
+But how could pyOpenSci in these early years, as a not-yet-created community, empower people to
+navigate a tricky, if not complex, ecosystem empowered by choice?
 
 ## Choice is a value in the Python ecosystem
 
@@ -104,7 +104,7 @@ transformed into what’s now the [pyOpenSci Python package guide](https://www.p
 The pyOpenSci path is not the only path. It is just a path that works and
 enables early wins for scientists and others using Python.
 
-If you're reading this and you have your own path, that's ok too. But if you
+If you're reading this and you have your own path, that's OK too. But if you
 want to worry less about decisions and have a definitive way of doing things
 that follows modern standards -
 
@@ -115,7 +115,7 @@ we've got you.
 This guidebook was created by a community of people with beginner to expert packaging experience with the goal of building consensus
 around a single approach to pure Python packaging that would **yield user success**.
 
-Together we created a guidebook that acknowledges a suite of fantastic tools across the ecosystem while
+Together we created a guidebook that acknowledges a suite of fantastic tools across the ecosystem, while
 still leading users down a streamlined path.
 
 <figure>
@@ -126,7 +126,7 @@ still leading users down a streamlined path.
 
 ## Getting accepted to talk about packaging...  <i class="fa-solid fa-ghost"></i>
 
-I was thrilled and terrified to be accepted to give a talk on the process of creating the pyOpenSci Python packaging guidebook at pyCon US in Pittsburgh, Pennsylvania. My talk was called:
+I was thrilled and terrified to be accepted to give a talk at [PyCon US](https://us.pycon.org/2024/), in Pittsburgh, Pennsylvania, on the process of creating the pyOpenSci Python packaging guidebook . My talk was called:
 
 “Friends don’t let friends package alone”
 
