@@ -21,31 +21,30 @@ Founded in 2018 by our Executive Director, [Leah Wasser](https://github.com/lwas
 2. [Community partnerships](https://www.pyopensci.org/partners.html)
 3. [Training and open educational resources](https://www.pyopensci.org/blog/pyos-education-announcement.html)
 
-A great primer for all things pyOpenSci is our [pyOpenSci lightning talk template [currently WIP]](https://docs.google.com/presentation/d/1205l8y75SI9spdklKnxDZzwwjArHvpeIpwFGZOvVLjc/edit?usp=sharing).
-
 ## <i class="fa-solid fa-bullhorn"></i> Promote pyOpenSci online and in-person
 pyOpenSci is active on both [LinkedIn](https://www.linkedin.com/company/pyopensci) and [Fosstodon](https://fosstodon.org/@pyOpenSci), and you’re welcome to tag us on social media, as well as to [reach out with questions](mailto:media@pyopensci.org)! We also have [a series of brand assets and guidelines](https://docs.google.com/presentation/d/1glwf3BEPxo5H6pOHp6d55r2sbw8x-8kQZ9GzoLXwEDc/edit?usp=drive_link) if you need a copy of our logo, information on our fonts, and/or access to various illustrations we use.
 
-Dependent on timing, cost, and location, we’d also be more than happy to send you a set of pyOpenSci stickers to share! Please reach out to [media@pyopensci.org](mailto:media@pyopensci.org) to inquire about your event.
+Are you attending a large, recognized, Python meeting that we will be unable to attend? Reach out to us! Dependent on timing, cost, and location, we’d also be more than happy to send you a set of pyOpenSci stickers to share! You can email us at [media@pyopensci.org](mailto:media@pyopensci.org) to inquire about the event you'll be attending.
 
-Please feel free to use any information from [our website](https://www.pyopensci.org/) and our [pyOpenSci lightning talk template [currently WIP]](https://docs.google.com/presentation/d/1205l8y75SI9spdklKnxDZzwwjArHvpeIpwFGZOvVLjc/edit?usp=sharing), to share about the work pyOpenSci is doing. And don’t forget to share your personal experiences with pyOpenSci as well!
+Please feel free to use any information from [our website](https://www.pyopensci.org/) to share about the work pyOpenSci is doing, and to reach out via [email](mailto:media@pyopensci.org) or on [LinkedIn](https://linkedin.com/company/pyopensci
+) or [Fosstodon](https://fosstodon.org/@pyOpenSci) with any questions. And don’t forget to share your personal experiences with pyOpenSci as well!
 
 ## <i class="fa-solid fa-handshake-angle"></i> Volunteer with pyOpenSci
-If you're looking to be more hands-on with pyOpenSci, consider joining our Review Team or Editorial Board, digging into some code and working from our Help Wanted board, or writing a guest blog post!
+If you're looking to be more hands-on with pyOpenSci, consider joining our [Review Team](https://www.pyopensci.org/software-peer-review/how-to/reviewer-guide.html) or [Editorial Board](https://www.pyopensci.org/software-peer-review/how-to/editors-guide.html), digging into some code and working from our Help Wanted board, or writing a guest blog post!
 
 ### pyOpenSci's Review Team
-pyOpenSci welcomes reviewers from a diversity of background and with varying levels of Python technical expertise. Some of the basic things that we look for in a reviewer include:
+pyOpenSci welcomes reviewers from a diversity of backgrounds and with varying levels of Python technical expertise. Some of the basic things that we look for in a reviewer include:
 
 * Familiarity with using the Python programming language.
 * Ability to evaluate a Python package for usability and documentation quality.
 * Ability to provide a technical review of Python package structure and code quality/approach to solving the problems that the package seeks to address.
 
-We like to have a mix of technical and usability focus in our reviews so it’s ok if you don’t have all of the above skills! And if you are interested in peer review but have never reviewed before, we offer a mentorship program where we will pair you up with someone who has more experience reviewing code. From this experience you can learn more and empower yourself with code review skills. Software review skills are generally useful in data science, so they are skills worth investing in!
+We like to have a mix of technical and usability focus in our reviews so it’s ok if you don’t have all of the above skills! Reviewing code is an important skill, especially if you are working in a collaborative team environment (professionally or in academia). And if you are interested in peer review but have never reviewed before, we offer a [mentorship program](https://www.pyopensci.org/software-peer-review/how-to/reviewer-guide.html#a-guide-for-new-reviewers), where we will pair you up with someone who has more experience reviewing code. From this experience you can learn more and empower yourself with code review skills. Software review skills are generally useful in data science, so they are skills worth investing in!
 
 To join our review team, [fill out our reviewer form](https://docs.google.com/forms/d/e/1FAIpQLSeVf-L_1-jYeO84OvEE8UemEoCmIiD5ddP_aO8S90vb7srADQ/viewform). We will contact you if we have a package that we need reviewers for. It’s OK if you’ve never reviewed a package before! We’ll walk you through it.
 
 ### pyOpenSci's Editorial Team
-The pyOpenSci Editorial Board is comprised of a diverse group of volunteers, with each editor being responsible for the following tasks:
+The pyOpenSci [Editorial Board](https://www.pyopensci.org/about-peer-review/index.html#meet-our-editorial-board) is comprised of a diverse group of volunteers, with each editor being responsible for the following tasks:
 
 * Finding reviewers from diverse backgrounds who have a mixture of scientific domain and Python experience.
 * Overseeing the entire review process for a package ensuring it runs in a timely and efficient manner.
@@ -55,15 +54,17 @@ The pyOpenSci Editorial Board is comprised of a diverse group of volunteers, wit
 It's critical to our mission that our Editorial Board have a combined expertise in various scientific domains, technical expertise in Python packaging, awareness of the importance of documentation in package usability, and awareness of the importance of CI/test suites in order to ensure robust software development. We do not expect any single editor to be an expert in all of these areas!
 
 ### Apply to be a pyOpenSci editor
-As of May 2024, pyOpenSci looking for editors from a wide variety of scientific backgrounds due to an increased number of package submissions. If you feel you'd be a good fit for the pyOpenSci Editorial Board, please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLScRQHQ7NKVEAG3BKAphiUdVFvQ5nkez0IpyXBMZDzXjuBPloQ/viewform).
+As of May 2024, pyOpenSci looking for editors from a wide variety of scientific backgrounds due to an increased number of package submissions. If you feel you'd be a good fit for the pyOpenSci Editorial Board, please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLScRQHQ7NKVEAG3BKAphiUdVFvQ5nkez0IpyXBMZDzXjuBPloQ/viewform). We're looking to fill several volunteer spots, and will be accepting applications through June and July.
 
 If you're interested in joining our Editorial Board, but have questions or would like to chat with someone from pyOpenSci about volunteering to be an editor, please email us at [media@pyopensci.org](mailto:media@pyopensci.org).
 
-### pyOpenSci's GitHub Help Wanted board
-pyOpenSci maintains a [GitHub Help Wanted board](https://github.com/orgs/pyOpenSci/projects/3) filled with a wide variety of issues, ranging from highly technical to beginner-friendly. The status column makes it easy to identify the issue category, and the label column helps to further clarify any needs around the issue.
+### Contribute to pyOpenSci
+do you want to contribute to an open source project that is supporting other open science projects? We need your help! Check out our [GitHub Help Wanted board](https://github.com/orgs/pyOpenSci/projects/3), where we have a wide variety of issues, ranging from highly technical to beginner-friendly. The status column makes it easy to identify the issue category, and the label column helps to further clarify any needs around the issue.
+
+All contributors are credited and recognized on the [pyOpenSci website](https://www.pyopensci.org/).
 
 ### Write a guest blog post for pyOpenSci
-We are always looking for guest bloggers on [the pyOpenSci blog](https://www.pyopensci.org/blog/index.html)! If you’d like to write about a pyOpenSci package, your experiences with pyOpenSci, or how you’re using free and open Python tools in your scientific endeavors, we’d love to hear from you! Email our Community team at [media@pyopensci.org](mailto:media@pyopensci.org) for more information.
+We are always looking for guest bloggers on [the pyOpenSci blog](https://www.pyopensci.org/blog/index.html)! If you’d like to write about a pyOpenSci package that has been accepted into our ecosystem, your experiences with pyOpenSci, or how you’re using free and open Python tools in your scientific endeavors, we’d love to hear from you! Email our Community team at [media@pyopensci.org](mailto:media@pyopensci.org) for more information.
 
 ## <i class="fa-solid fa-circle-chevron-down"></i> Submit a package to pyOpenSci
 pyOpenSci’s suite of packages are contributed by community members with a great diversity of skills and backgrounds. This diversity of developer backgrounds enables us to vet and promote a broad ecosystem of high quality tools that supports scientists across domains with a suite of different data types and structures.
