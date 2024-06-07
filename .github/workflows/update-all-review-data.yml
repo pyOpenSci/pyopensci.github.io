@@ -4,6 +4,7 @@ on:
   workflow_dispatch:
 jobs:
   run-meta:
+    if: github.repository_owner == 'pyopensci'
     runs-on: ubuntu-latest
     steps:
       - name: Check out the code
