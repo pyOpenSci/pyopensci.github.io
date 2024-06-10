@@ -1,7 +1,7 @@
 ---
 layout: single
-title: "Save the Date: pyOpenSci's 2024 Open Source Fall Festival"
-excerpt: "Shake off those post-PyCon blues by adding our Open Source Fall Festival to your calendar!"
+title: "Save the Date: pyOpenSci's 2024 Open Science Fall Festival"
+excerpt: "Shake off those post-PyCon blues by adding our Open Science Fall Festival to your calendar!"
 author: "Jesse Mostipak"
 permalink: /blog/save-the-date-oss-fall-festival-2024.html
 header:
@@ -14,8 +14,8 @@ classes: wide
 toc: true
 comments: true
 ---
-## You're invited: pyOpenSci's Open Source Fall Festival 2024
-Happening September 28--29th, 2024, the pyOpenSci Open Source Fall Festival will be held entirely online, and be a fantastic opportunity to bring together members of the Python community that create open source tools with the members of the Python community who use the tools. In building this festival, our focus is on a grassroots, community-led event with some big unconference vibes.
+## You're invited: pyOpenSci's Open Science Fall Festival 2024
+Happening September 28--29th, 2024, the pyOpenSci Open Science Fall Festival will be held entirely online, and be a fantastic opportunity to bring together members of the Python community that create open source, open science tools with the members of the Python community who use the tools. In building this festival, our focus is on a grassroots, community-led event with some big unconference vibes.
 
 While we're still ironing out some of the details, we know it'll be a combination of talks, trainings, and opportunites to connect with the community through networking and social events. And we're working hard to keep ticket costs as accessible as we possibly can.
 
