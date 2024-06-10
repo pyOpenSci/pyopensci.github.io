@@ -21,8 +21,8 @@ While we're still ironing out some of the details, we know it'll be a combinatio
 
 ## Clear your calendar, tell your friends!
 <figure>
-    <a href="/images/blog/2024/may/pyOS-fall-festival-square.png">
-    <img src="/images/blog/2024/may/pyOS-fall-festival-square.png" style="max-width:100%" alt="Abstract shape and line art border, with centered text that reads 'pyOpenSci Save the date. pyOpenSci Open Source Fall Festival. September 28 & 29, 2024. Entirely online! Follow us on socials for more info. fosstodon.org/@pyOpenSci, linking.com/company/pyopensci, pyopensci.org'">
+    <a href="/images/blog/2024/may/pyOS-open-science-festival.png">
+    <img src="/images/blog/2024/may/pyOS-open-science-festival.png" style="max-width:100%" alt="Abstract shape and line art border, with centered text that reads 'pyOpenSci Save the date. pyOpenSci Open Source Fall Festival. September 28 & 29, 2024. Entirely online! Follow us on socials for more info. fosstodon.org/@pyOpenSci, linking.com/company/pyopensci, pyopensci.org'">
     </a>
     <figcaption>
       Feel free to download and share our Fall Festival flyer!
