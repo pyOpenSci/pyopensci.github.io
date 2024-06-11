@@ -6,7 +6,7 @@ author: Patrick J. Roddy
 permalink: /blog/sleplet-slepian-wavelets
 header:
     overlay_image: /images/sleplet/planck_2018_temp_mask.jpg
-    overlay_filter: 0.5
+    overlay_filter: rgba(20, 13, 36, 0.8)
     caption: "Figure credit: [**The Planck Collaboration 2018**](https://www.aanda.org/articles/aa/full_html/2020/09/aa33881-18/F38.html)"
 categories:
   - blog-post

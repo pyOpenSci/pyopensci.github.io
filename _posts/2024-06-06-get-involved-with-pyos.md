@@ -6,7 +6,7 @@ author: "Jesse Mostipak"
 permalink: /blog/get-involved-with-pyos.html
 header:
   overlay_image: images/blog/2024/may/23-05-2024-get-involved.png
-  overlay_filter: 0.4
+  overlay_filter: rgba(20, 13, 36, 0.8)
 categories:
   - blog-post
   - community

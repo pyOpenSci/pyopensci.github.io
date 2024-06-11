@@ -6,7 +6,7 @@ author: "Jesse Mostipak"
 permalink: /blog/pyos-call-for-editors-may-2024.html
 header:
   overlay_image: images/blog/headers/23-05-2024-call-for-editors.png
-  overlay_filter: 0.6
+  overlay_filter: rgba(20, 13, 36, 0.8)
 categories:
   - blog-post
   - community

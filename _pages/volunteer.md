@@ -6,6 +6,9 @@ author_profile: false
 published: true
 site-map: true
 permalink: /volunteer.html
+header:
+  overlay_image: images/headers/pyopensci-learn-header.png
+  overlay_filter: 0.3
 volunteer-mission:
   - excerpt: "The vibrant and diverse pyOpenSci community is driven by volunteer Pythonistas that care deeply about the scientific Python open source software that drives open science."
 help-us:
