@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out the code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
@@ -24,7 +24,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          pip install pyosmeta@git+https://github.com/pyopensci/update-web-metadata
+          pip install pyosmeta
           update-contributors
           update-reviews
           update-review-teams
