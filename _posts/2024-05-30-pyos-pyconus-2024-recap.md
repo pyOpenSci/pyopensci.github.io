@@ -6,7 +6,7 @@ author: "Leah Wasser"
 permalink: /blog/recap-pyos-pyconus-2024.html
 header:
   overlay_image: images/blog/2024/may/pycon-us-2024.png
-  overlay_filter: 0.6
+  overlay_filter: rgba(20, 13, 36, 0.8)
 categories:
   - blog-post
   - community
