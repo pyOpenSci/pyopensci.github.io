@@ -6,7 +6,7 @@ author: "Jesse Mostipak"
 permalink: /blog/save-the-date-oss-fall-festival-2024.html
 header:
   overlay_image: images/blog/2024/may/fall-festival-save-the-date-2024.png
-  overlay_filter: 0.6
+  overlay_filter: rgba(20, 13, 36, 0.8)
 categories:
   - blog-post
   - community
