@@ -11,6 +11,20 @@ header:
   overlay_filter: 0.3
 volunteer-mission:
   - excerpt: "The vibrant and diverse pyOpenSci community is driven by volunteer Pythonistas that care deeply about the scientific Python open source software that drives open science."
+build-skills:
+  - title: "pyOpenSci volunteers build skills and community"
+    excerpt: "When you volunteer with pyOpenSci, you’re both giving back and developing professional skills. As a volunteer you will:
+
+- **Learn new skills:** you don’t have to be a Python expert to get involved with pyOpenSci. We can help you level up your packaging game and learn how to constructively review both code and copy through contributions to our online learning resources.
+
+- **Meet and connect with new peers.** Our [public Discourse forum](https://pyopensci.discourse.group/) is a great place to ask and answer questions, as well as discuss packaging and open science with other Pythonistas.
+
+- **Get recognized** on the [pyOpenSci website](https://www.pyopensci.org/our-community/index.html) and in our [GitHub repositories](https://github.com/pyOpenSci): your contribution matters, and we want to ensure your work is recognized and celebrated in a public forum. If you serve as an editor you can also connect with pyOpenSci professionally as a volunteer for our organization on LinkedIn"
+    image_path: /images/people-building-blocks.jpg
+diverse-backgrounds:
+  - title: "pyOpenSci volunteers come from diverse backgrounds"
+    excerpt: "Our volunteers come from a diverse array of backgrounds, including industry, academia, agencies, national labs, and more. pyOpenSci volunteers are primarily engaged in both the peer review process and developing resources to support the scientific Python community. Volunteers  help improve the quality, maintainability and usability of the software that scientists need for open science. They also support maintainers in developing scientific Python software."
+    image_path: /images/people/pyopensci-sprint-pycon-2023.png
 help-us:
   - image_path:
     title: "Lend a Hand on GitHub"
@@ -40,9 +54,7 @@ help-us:
 <div class="pyos-section purple">
 <div class="content" markdown="1">
 
-## pyOpenSci volunteers come from diverse backgrounds
-
-Our volunteers come from a diverse array of backgrounds, including industry, academia, agencies, national labs, and more. pyOpenSci volunteers are primarily engaged in both the peer review process and developing resources to support the scientific Python community. Volunteers  help improve the quality, maintainability and usability of the software that scientists need for open science. They also support maintainers in developing scientific Python software.
+{% include feature_row id="diverse-backgrounds" type="left" %}
 
 </div>
 </div>
@@ -53,13 +65,7 @@ Our volunteers come from a diverse array of backgrounds, including industry, aca
 <div class="pyos-section" markdown="1">
 <div class="content" markdown="1">
 
-## pyOpenSci volunteers build skills and community
-
-When you volunteer with pyOpenSci, you’re not only giving back to the community, but also:
-
-- **Learning new skills:** you don’t have to be a Python expert to get involved with pyOpenSci. We can help you level up your packaging game and learn how to constructively review both code and copy through contributions to our online learning resources.
-- **Connecting with peers:** our [public Discourse forum](https://pyopensci.discourse.group/) is a great place to ask and answer questions, as well as discuss packaging and open science with other Pythonistas.
-- **Being recognized** on the [pyOpenSci website](https://www.pyopensci.org/our-community/index.html) and [GitHub repositories](https://github.com/pyOpenSci): your contribution matters, and we want to ensure your work is recognized and celebrated in a public forum.
+{% include feature_row id="build-skills" type="right" %}
 
 </div>
 </div>
@@ -67,7 +73,7 @@ When you volunteer with pyOpenSci, you’re not only giving back to the communit
 {% include div_purple_top.html  %}
 
 <div class="pyos-section purple" markdown="1">
-<div class="content" markdown="1">
+<div class="content padding" markdown="1">
 
 ## Volunteer opportunities with pyOpenSci
 
@@ -83,37 +89,23 @@ There are many ways to get involved with pyOpenSci! We’re always looking for f
 
 
 <div class="pyos-section" markdown="1">
-<div class="content" markdown="1">
+<div class="content padding" markdown="1">
 
 ## Share your expertise and experience with the broader community through blogging
 
 And last but not least, we’d also love for you to be a guest blogger on the [pyOpenSci blog](https://www.pyopensci.org/blog/index.html)! If you’d like to write about a pyOpenSci package, your experiences with pyOpenSci, or how you’re using free and open Python tools in your scientific endeavors, we’d love to hear from you! Email our Community team at [media@pyopensci.org](mailto:media@pyopensci.org) for more information.
 
-## Learn more about volunteering with pyOpenSci
 
-If you still have questions about volunteer roles at pyOpenSci, email our Community team at [media@pyopensci.org](mailto:media@pyopensci.org), and we’d be more than happy to help! You can also ask questions and network with the broader pyOpenSci community on our [Discourse forum](https://pyopensci.discourse.group/).
 
 </div>
 </div>
 
+
+
+{% include div_purple_top.html  %}
 
 <div class="pyos-section purple" markdown="1">
-<div class="content" markdown="1">
-
-## Let's connect!
-
-- [<i class="fa-brands fa-discourse"></i> Discourse](https://pyopensci.discourse.group/)
-- [<i class="fa-brands fa-mastodon"></i> Mastodon](https://fosstodon.org/@pyopensci)
-- [<i class="fa-solid fa-cloud"></i> Bluesky](https://bsky.app/profile/pyopensci.bsky.social)
-- [<i class="fa-brands fa-linkedin"></i> LinkedIn](https://www.linkedin.com/company/pyopensci)
-- [<i class="fa-brands fa-github"></i> GitHub](https://github.com/pyOpenSci)
-
-</div>
-</div>
-
-
-<div class="pyos-section" markdown="1">
-<div class="content" markdown="1">
+<div class="content padding" markdown="1">
 
 ## Meet the most recent PyOpenSci community contributors
 
@@ -131,7 +123,30 @@ pyOpenSci has a diverse and vibrant community of pythonistas! To date,
 {% endfor %}
 </div>
 
+<br clear="both">
+<br clear="both">
+
 <a href="/python-packages/" class="btn btn--info">View All Contributors <i class="fa fa-4 fa-arrow-circle-right" aria-hidden="true"></i></a>
+
+
+</div>
+</div>
+
+
+<div class="pyos-section" markdown="1">
+<div class="content padding" markdown="1">
+
+
+## Learn more about volunteering with pyOpenSci
+
+If you still have questions about volunteer roles at pyOpenSci, email our Community team at [media@pyopensci.org](mailto:media@pyopensci.org), and we’d be more than happy to help! You can also ask questions and network with the broader pyOpenSci community on our [Discourse forum](https://pyopensci.discourse.group/).
+
+## Let's connect!
+
+ [<i class="fa-brands fa-discourse"></i> Discourse](https://pyopensci.discourse.group/) ** [<i class="fa-brands fa-mastodon"></i> Mastodon](https://fosstodon.org/@pyopensci)
+** [<i class="fa-solid fa-cloud"></i> Bluesky](https://bsky.app/profile/pyopensci.bsky.social)
+** [<i class="fa-brands fa-linkedin"></i> LinkedIn](https://www.linkedin.com/company/pyopensci)
+** [<i class="fa-brands fa-github"></i> GitHub](https://github.com/pyOpenSci)
 
 
 </div>
