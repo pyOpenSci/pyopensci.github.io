@@ -37,6 +37,11 @@ svg.bottom {
     }
 }
 
+.content.padding {
+    max-width: 900px;
+    margin: auto;
+}
+
 // Add padding to non feature wrapper sections
 .feature__wrapper.padded {
     padding: 0 30px;
