@@ -178,7 +178,7 @@ Similar to the Domain specific section, our Community Partnerships are continuou
 ### For all submissions
 
 This section is important, as it helps us more holistically evaluate your package and determine whether or not it's a good fit for pyOpenSci review. Each of the following sections should be addressed/answered:
-* *Explain how and why the package falls under the categories you indicated above.* Here's where you'll provide us with information that connects your package and its functionality to both its domain and technical capabilites. 
+* *Explain how and why the package falls under the categories you indicated above.* Here's where you'll provide us with information that connects your package and its functionality to both its domain and technical capabilites.
 * *Who is the target audience and what are scientific applications of this package?* This helps us understand who will be using the package.
 * *Are there other Python packages that accomplish the same thing? If so, how does yours differ?* This helps us get a handle on other packages that fall within the same domain, as well as ensure that efforts aren't being duplicated.
 * *If you made a pre-submission enquiry, please paste the link to the corresponding issue, forum post, or other discussion, or `@tag` the editor you contacted.* This is an important section, as it links your pre-submission inquiry with your submission.
@@ -189,7 +189,7 @@ It's important that your package meet each of the qualifications in this section
 
 ### Publication Options
 
-One of the benefits of submitting your package to pyOpenSci for review is that once it's approved, it can be fast-tracked for publication with [JOSS](https://joss.theoj.org/). JOSS accepts pyOpenSci's review as theirs, and therefore you will not need to go through another full review. Instead, JOSS will only review your paper.md file. 
+One of the benefits of submitting your package to pyOpenSci for review is that once it's approved, it can be fast-tracked for publication with [JOSS](https://joss.theoj.org/). JOSS accepts pyOpenSci's review as theirs, and therefore you will not need to go through another full review. Instead, JOSS will only review your paper.md file.
 
 ### Are you OK with Reviewers Submitting Issues and/or pull requests to your Repo Directly?
 
