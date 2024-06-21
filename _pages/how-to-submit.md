@@ -1,5 +1,5 @@
 ---
-layout: splash
+layout: single
 title: "How to submit a package to pyOpenSci"
 header:
   overlay_image: images/header.png
@@ -8,6 +8,7 @@ author_profile: false
 published: true
 site-map: true
 permalink: /how-to-submit-a-package-to-pyopensci.html
+classes: wide
 toc: true
 ---
 # <i class="fa-solid fa-screwdriver-wrench"></i> Congratulations, you’ve created a package!
