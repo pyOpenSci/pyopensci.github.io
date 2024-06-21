@@ -118,6 +118,8 @@ including:
 * Learning and growing skills that may not be accessible in your day job.
 * Connecting with other developers, data scientists, and scientists in the community.
 * Engaging and being part of an online community or maintainer team.
+* Growing your professional network
+* Learning about a new project
 
 Or, maybe you're like me—an Executive Director of a community organization. Coding and
 development aren't in my job description, but to teach these topics, I need to keep my
@@ -126,8 +128,9 @@ skills fresh. And, I love to code. That's where Open Source comes into my life!
 
 
 <figure>
-  <img src="{{ site.baseurl }}/images/blog/2024/june/pyos-sprint-blog-learning.png" alt="Image that says  have you ever felt confused about python packaging. Below is the pyopensci flower logo. And the graphic shows a bunch of different cartoon like hands being raised." style="width: 80%;" />
-  <figcaption> Every time I ask this question, a majority of people in the room raise their hand.</figcaption>
+  <img src="{{ site.baseurl }}/images/blog/2024/june/pyos-sprint-blog-learning.png" alt="A graphic that at the top says - Why people attend sprints. Below are a series of boxes with text in them and white stick figures standing or sitting on top or to the side of the boxes as decoration. The boxes say Learn new technical skills, connect with the community, help a project they care about, build their network, learn about a new tool, build confidence, +many other motivations. The graphic is on a dark purple background with the pyOpenSci logo on it." style="width: 80%;" />
+  <figcaption> People have many different motivations for attending sprints. Understanding those motivations can go a long way in the sprinter and the sprint leader(s) having a collectively
+  successful experience. </figcaption>
 </figure>
 
 ### Challenges vs opportunities
@@ -249,7 +252,7 @@ maintainer and the contributor.
 
 <figure>
   <img src="{{ site.baseurl }}/images/blog/2024/june/pyopensci-issue-specific.png" alt="Image that says  have you ever felt confused about python packaging. Below is the pyopensci flower logo. And the graphic shows a bunch of different cartoon like hands being raised." style="width: 80%;" />
-  <figcaption> Every time I ask this question, a majority of people in the room raise their hand.</figcaption>
+  <figcaption> This is an issue opened in our pyConUS 2024 sprint that could be addressed in a future sprint. Often before a sprint, our team will go into the existing issues and add more information related to next steps associated with the sprint. In this case - a beginner could take on testing out the Hatch installation instructions. They could also add a note that Hatch installs Python for a user if they don't already have it installed.</figcaption>
 </figure>
 
 A good sprint begins with useful, labeled issues. The information in the body of
@@ -263,8 +266,8 @@ questions to answer during the sprint event.
 ### Label issues as help-wanted and/or sprintable
 
 <figure>
-  <img src="{{ site.baseurl }}/images/blog/2024/june/pyopensci-sprint-label-issues.png" alt="Image that says  have you ever felt confused about python packaging. Below is the pyopensci flower logo. And the graphic shows a bunch of different cartoon like hands being raised." style="width: 80%;" />
-  <figcaption> Every time I ask this question, a majority of people in the room raise their hand.</figcaption>
+  <img src="{{ site.baseurl }}/images/blog/2024/june/pyopensci-sprint-label-issues.png" alt="Graphic says Label issues with help-wanted / sprintable. Below it is a list of issues from the GitHub interface. One of the issues in the list is well labeled. It has 3 labels that say beginner-friendly, help wanted and then sprintable. Each has a different color." style="width: 80%;" />
+  <figcaption> We like to label issues as help-wanted and sprintable. A sprintable issue is a discrete issue that could be tackled (and ideally completed) during a sprint. A sprint's duration can span from  a half day to multiple full days depending on the event. What is most important is that the issue is confined in some way so a single person could tackle it in a reasonable amount of time.</figcaption>
 </figure>
 
 You never know when a contributor might be looking for a data science project to
@@ -278,8 +281,8 @@ with contributors through her work on the
 ### Collect issues in a single place - the help-wanted board
 
 <figure>
-  <img src="{{ site.baseurl }}/images/blog/2024/june/pyopensci-sprint-project-board.png" alt="Image that says  have you ever felt confused about python packaging. Below is the pyopensci flower logo. And the graphic shows a bunch of different cartoon like hands being raised." style="width: 80%;" />
-  <figcaption> Every time I ask this question, a majority of people in the room raise their hand.</figcaption>
+  <img src="{{ site.baseurl }}/images/blog/2024/june/pyopensci-sprint-project-board.png" alt="A graphic that shows the pyOpenSci GitHub project board. The graphic shows two columns of the project board. The first is Python Packaging and it has 7 issues in that column. The second column says Beginner-friendly / non technical. The point of this graphic is just to show a user that a project board is a nice way to organize issues that contributors might want to challenge during a sprint. At the bottom there is text that says includes a beginner-friendly column and should have easy-to-understand issue titles." style="width: 80%;" />
+  <figcaption> Project boards help you organize your sprintable tasks into categories that might help a contributor find something that interests them. Here we have a beginner-friendly column for beginners. but we also include columns that are topical such as Python programming, ci / devops and Sphinx. Also notice that the issues are generally clearly titled.</figcaption>
 </figure>
 
 Curate a `help-wanted` board that contains all the issues that could be completed
