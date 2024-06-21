@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "pyOpenSci beginner-friendly sprints at PyCon US 2024"
-excerpt: ""
+excerpt: "pyOpenSci holds beginner-friendly sprints with the goal of making new contributors feel welcome. Learn about our last sprint at PyCon US 2024 and tips we use to make sprints accessible to more people."
 author: "Leah Wasser"
 permalink: /blog/pyopensci-pyconus-2024-sprints.html
 header:
@@ -65,16 +65,17 @@ that we've learned at pyOpenSci about running beginner-friendly sprints.
 
 If you haven’t been to a sprint before, it’s an experience every open source
 enthusiast should have. Sprints are where people come together to work on a
-project. For professional development sprints, this might mean a team working
-together on releasing a new feature. For open source, sprints can mean volunteers
-helping maintainers work on various parts of a project.
+project. The word sprint can be used in a professional development setting. This might describe a team of developers working
+together to release a new feature. For the volunteer open source community, sprints often mean volunteers
+helping maintainers work on various parts of a project. And it's important to keep in mind that often the maintainers are
+also volunteers.
 
 ### What do people sprint on for pyOpenSci?
 pyOpenSci is a non profit organization that is devoted to building diverse and
 inclusive community that supports making science more open and collaborative.
 Among other things that we do, we run [open peer review of scientific Python software](/about-peer-review/index.html).
 
-Running an open peer review process for software is a challenge and as we grow,
+Running an volunteer-lead open peer review process for software is a challenge. As we grow,
 it requires infrastructure to support tracking the process. We also create
 community driven beginner-friendly
  [Python packaging resources](https://www.pyopensci.org/python-package-guide/) and
@@ -95,7 +96,10 @@ more open and collaborative forward.
 
 ## Barriers to contribute to open source
 
-There are many barriers for contributors, including:
+While sprints are a great way to engage the community in
+supporting an organization's (or a project's) mission, there are many barriers for contributors to consider.
+
+These barriers include:
 
 * Time to contribute.
 * Skills to contribute.
@@ -125,8 +129,6 @@ Or, maybe you're like me—an Executive Director of a community organization. Co
 development aren't in my job description, but to teach these topics, I need to keep my
 skills fresh. And, I love to code. That's where Open Source comes into my life!
 
-
-
 <figure>
   <img src="{{ site.baseurl }}/images/blog/2024/june/pyos-sprint-blog-learning.png" alt="A graphic that at the top says - Why people attend sprints. Below are a series of boxes with text in them and white stick figures standing or sitting on top or to the side of the boxes as decoration. The boxes say Learn new technical skills, connect with the community, help a project they care about, build their network, learn about a new tool, build confidence, +many other motivations. The graphic is on a dark purple background with the pyOpenSci logo on it." style="width: 80%;" />
   <figcaption> People have many different motivations for attending sprints. Understanding those motivations can go a long way in the sprinter and the sprint leader(s) having a collectively
@@ -140,7 +142,7 @@ So how do we align the challenges that contributors face with the potential oppo
 While new contributor sprints are not for everyone and assume some level of privilege
 in having the time and bandwidth to participate, they can be great for many.
 
-However, the sprint experience needs to be positive. Contributors need to gain something
+But a sprint will only be a good experience if the contributor's needs and goals are also considered. Contributors need to gain something
 from contributing, and this requires:
 
 * time and care in designing the sprint and
@@ -151,8 +153,8 @@ many if not most maintainers who are already volunteering their time to maintain
 a project! As such we can't expect all open source packages to be able to
 support beginner contributions in a comprehensive way.
 
-However, if you do have the bandwidth to hold a sprint, there
-is a lot to be learned from understanding learner motivations and types.
+However, if you do have the bandwidth to hold a sprint that embraces, empowers and uplifts those who are newer to open source, there
+is a lot to be learned from understanding learner motivations and types. And a few good experiences might mean that a beginner decides to stick around.
 
 ## Contributing vs learning
 
@@ -161,11 +163,15 @@ learner motivations. For me personally, contributing to Open Source met two of m
 and interests:
 
 * **Applied (project-based) learning:** I love to learn. Coding and data science are my
-  happy places. But the learning needs to be directly applicable.
+  happy places. But the learning needs to be directly applicable. If it isn't, I get  bored. But moreover, if I can't see the application of the skill, I have little motivation to learn that skill!
 * **Student-directed learning:** I love to learn on my own time, following my own
   processes that work for me. Open Source allows me to do just that (and without the
   pressures of a specific deadline in most cases).
 
+If you read the education literature, you will find both project-based learning and student-directed learning to be
+a commonly discussed topic - especially as it relates to empowering people who are underrepresented in a space.
+
+More on that next...
 
 ### The power of project-based learning
 
@@ -206,7 +212,7 @@ taught people the same way: in a classroom, using the same books and approaches.
 However, alternatives to this model allow learners to adapt their environment to their personal and learning goal needs.
 [Student-directed learning](https://scholar.google.com/scholar?q=student-directed+learning&hl=en&as_sdt=0&as_vis=1&oi=scholart)
 is based on the idea that people learn differently and have different needs. By creating
-a hybrid learning environment where students decide how to learn, you empower them.
+a hybrid learning environment where students are allowed to pick their learning path and approach, you empowering them to own their experience.
 
 Some learners benefit from hands-on demos, whether in a classroom or at the sprint
 table. They may pick things up quickly or need to watch and digest the demo. Others
@@ -222,10 +228,15 @@ Contributors at the sprint can decide if they need direction, mentorship, or jus
 short tutorial/guidebook for making their first contribution using the GitHub
 interface.
 
+### Collaborative git and GitHub lessons
+
+This past year, I was awarded the BSSw fellowship in which I proposed lessons on these lesser known collaborative,
+git and GitHub skills - the same skills that will support people attending sprints! I am looking forward to having these lessons on hand,for next year's sprints, to support those who are still fighting to learn git and GitHub (it can be an uphill process!).
+
 ## The Anatomy of a pyOpenSci Sprint
 
-Based on our understanding of the learning motivations and challenges that new
-contributors might face, pyOpenSci has developed a workflow that I've found to
+Based on my understanding of the learning motivations and challenges that new
+contributors face, I've developed a pyOpenSci sprint approach that I've found to
 be successful in empowering new contributors to make their first contributions.
 
 ### Create opportunities for first-time contributors
@@ -334,10 +345,14 @@ with Git and GitHub and have never contributed to open source. These people will
 be incredibly empowered if you can create a smooth path to their first
 contributions.
 
-## How do we connect how people learn with open source and sprints?
+## Wrap up
 
 Well-lead sprints offer both new and seasoned contributors an opportunity to
-contribute to a project while also learning new skills. If you plan to support new
+contribute to a project while also learning new skills, connecting with new people and learning about new projects. If you plan to support new
 contributors in your sprint, then
 then it's ideal to do some legwork before the sprint begins to ensure sprint
 attendees feel supported and have the help that they need, when they get stuck.
+
+pyOpenSci is looking forward to our next sprint - to be held at the SciPy 2024 meeting in Tacoma, Washington. Last year we had 3 people make their first contributions to open source in our SciPy 2023 sprint. I'm hoping that this year is even better!
+
+Come join us if you are there!
