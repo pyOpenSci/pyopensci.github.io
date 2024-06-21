@@ -23,22 +23,26 @@ In previous posts, I talked about:
 * My [personal experiences with the Python packaging ecosystem and building consensus
   within the scientific Python community](python-packaging-friends-dont-let-friends-package-alone.html).
 
-Here, I want to discuss our sprint at PyCon US this year. Specifically, I want to
-explore the varied motivations and barriers associated with contributions to Open Source,
-and how pyOpenSci is addressing them.
+Here, I will share with you what we have learned at pyOpenSci through holding
+beginner-friendly sprints over the past 2 years.
+Specifically, I want to
+explore the varied motivations and barriers associated with contributions to
+Open Source, and how pyOpenSci is addressing them.
 
-
+<div class="notice--success" markdown="1">
+## TL;DR
 
 * I believe that we can get more people involved in Open Source if it's done the right
   way. But despite the word "open" in the name, Open Source is not necessarily open to
   all people.
 * By setting up infrastructure such as project boards and tagging issues as beginner-
   friendly, you are on your way towards a beginner-friendly sprint.
-* Be prepared to support people who are newer to Git and GitHub. Create opportunities
-  for beginners to contribute to documentation, as their beginner lens is critical to
+* Be prepared to support people who are newer to Git and GitHub.
+* Create opportunities for beginners to contribute to documentation. The beginner lense
+reviewing your docs is critical to
   ensuring the documentation is usable! Documentation contributions can also be
-  implemented completely on GitHub without needing to use the command line!
-{: .notice--success }
+  implemented completely on GitHub without needing to use the command line.
+</div>
 
 ## pyOpenSci's PyCon US 2024 Sprint
 
@@ -50,7 +54,8 @@ pull requests where volunteers helped fix issues on our website, in our tutorial
 in our packaging and peer review guidebooks. Many long-standing issues and bugs were
 fixed thanks to this wonderful Python community.
 
-And I'm still working on closing up issues and pull requests now—weeks after the sprint
+We had so much activity that I'm still working on closing up issues and pull
+requests now—weeks after the sprint
 ended!
 
 After such a tremendous experience this year, I wanted to share with you the things
@@ -64,10 +69,28 @@ project. For professional development sprints, this might mean a team working
 together on releasing a new feature. For open source, sprints can mean volunteers
 helping maintainers work on various parts of a project.
 
-As the Executive Director and Founder of pyOpenSci, I created most of this
-infrastructure to support our mission. While I cherish times when I can work on
-technical things, it’s hard to keep up. So, I really appreciate when community
-members help us tick off open issues, big and small.
+### What do people sprint on for pyOpenSci?
+pyOpenSci is a non profit organization that is devoted to building diverse and
+inclusive community that supports making science more open and collaborative.
+Among other things that we do, we run [open peer review of scientific Python software](/about-peer-review/index.html).
+
+Running an open peer review process for software is a challenge and as we grow,
+it requires infrastructure to support tracking the process. We also create
+community driven beginner-friendly
+ [Python packaging resources](https://www.pyopensci.org/python-package-guide/) and
+ [tutorials](https://www.pyopensci.org/python-package-guide/tutorials/intro.html).
+High quality learning resources also require maintenance and review.
+As such we always need a mixture of packaging experts and those newer to packaging
+to catch errors and points of confusion.
+
+As the Executive Director and Founder of pyOpenSci, I created most of our
+pyOpenSci GitHub infrastructure to support our mission. While I cherish times
+when I can work on technical things, it’s hard to keep up.
+Mission, vision and community work will always come first.
+
+I really appreciate when community members help us tick off open issues,
+big and small. These contributions propel the pyOpenSci mission of making science
+more open and collaborative forward.
 
 
 ## Barriers to contribute to open source
@@ -100,6 +123,13 @@ Or, maybe you're like me—an Executive Director of a community organization. Co
 development aren't in my job description, but to teach these topics, I need to keep my
 skills fresh. And, I love to code. That's where Open Source comes into my life!
 
+
+
+<figure>
+  <img src="{{ site.baseurl }}/images/blog/2024/june/pyos-sprint-blog-learning.png" alt="Image that says  have you ever felt confused about python packaging. Below is the pyopensci flower logo. And the graphic shows a bunch of different cartoon like hands being raised." style="width: 80%;" />
+  <figcaption> Every time I ask this question, a majority of people in the room raise their hand.</figcaption>
+</figure>
+
 ### Challenges vs opportunities
 
 So how do we align the challenges that contributors face with the potential opportunities?
@@ -113,15 +143,17 @@ from contributing, and this requires:
 * time and care in designing the sprint and
 * time spent with new comers during the sprint.
 
-It's also important to note that this time required, is also a privilege for many maintainers who are already
-volunteering their time to maintain a project!
+It's also important to note that this time required, is also a privilege for
+many if not most maintainers who are already volunteering their time to maintain
+a project! As such we can't expect all open source packages to be able to
+support beginner contributions in a comprehensive way.
 
 However, if you do have the bandwidth to hold a sprint, there
 is a lot to be learned from understanding learner motivations and types.
 
 ## Contributing vs learning
 
-The educator inside of me can't help but align my experience in Open Source with my
+The educator inside of me can't help but align my experience in Open Source with
 learner motivations. For me personally, contributing to Open Source met two of my goals
 and interests:
 
@@ -132,12 +164,15 @@ and interests:
   pressures of a specific deadline in most cases).
 
 
-
 ### The power of project-based learning
 
-[Project-based learning](https://www.wpi.edu/project-based-learning/why-pbl) is founded on the idea that meaningful, applied projects are
+[Project-based learning](https://www.wpi.edu/project-based-learning/why-pbl) is
+founded on the idea that meaningful, applied projects are
 the best way to teach a topic. This works especially well in the data science space and
-is particularly effective with underrepresented groups.
+has been found to be particularly effective with underrepresented groups. In
+fact I implemented and collected data on this in a [previous project](https://www.leahwasser.com/training-diverse-communities-earth-data-science-corps)
+that I designed and ran when I was in academia.
+
 
 The idea behind project-based learning is that students select a topic they are
 personally interested in. If they are learning data science, they can find data to
@@ -146,11 +181,11 @@ learners), applied learning resonates because it involves a topic they care abou
 are motivated to pursue. Skills are learned in the process of achieving a meaningful
 outcome.
 
-It's similar to how you can immediately engage a diverse audience in GIS with Google
+It's similar to how you can immediately engage a diverse audience in GIS (spatial data) with Google
 Earth by asking them to zoom into the area where they live (place-based learning).
 
-As a volunteer maintainer of Stravalib, I am motivated to work on it because I learn in
-a very applied way.
+As a volunteer maintainer of Stravalib, I am motivated to work on stravalib
+because I learn in a very applied way.
 
 Sure, a sprint does not have the powerful outcome of a student understanding the
 impacts of climate change on their local tribal lands. But the concept is the same:
@@ -158,13 +193,14 @@ impacts of climate change on their local tribal lands. But the concept is the sa
 > The learning motivation comes from a meaningful outcome that a student wants or cares
   about.
 
-In leading a sprint, asking that question of "what are your goals for today" will help you as a sprint leader to direct their efforts towards a successful path.
+In leading a sprint, asking that question of "what are your goals for today"
+will help you as a sprint leader to direct their efforts towards a successful path.
 
 ### The power of student-directed learning
 
-Every person has different learning preferences. For many years, we taught people the
-same way: in a classroom, using the same books and approaches. However, alternatives
-allow learners to adapt their environment to their needs.
+Every person has different learning preferences. For many years, educators
+taught people the same way: in a classroom, using the same books and approaches.
+However, alternatives to this model allow learners to adapt their environment to their personal and learning goal needs.
 [Student-directed learning](https://scholar.google.com/scholar?q=student-directed+learning&hl=en&as_sdt=0&as_vis=1&oi=scholart)
 is based on the idea that people learn differently and have different needs. By creating
 a hybrid learning environment where students decide how to learn, you empower them.
@@ -186,7 +222,7 @@ interface.
 ## The Anatomy of a pyOpenSci Sprint
 
 Based on our understanding of the learning motivations and challenges that new
-contributors might face, pyOpenSci has developed a workflow that we've found to
+contributors might face, pyOpenSci has developed a workflow that I've found to
 be successful in empowering new contributors to make their first contributions.
 
 ### Create opportunities for first-time contributors
@@ -211,6 +247,11 @@ maintainer and the contributor.
 
 ### Write useful constructive issues
 
+<figure>
+  <img src="{{ site.baseurl }}/images/blog/2024/june/pyopensci-issue-specific.png" alt="Image that says  have you ever felt confused about python packaging. Below is the pyopensci flower logo. And the graphic shows a bunch of different cartoon like hands being raised." style="width: 80%;" />
+  <figcaption> Every time I ask this question, a majority of people in the room raise their hand.</figcaption>
+</figure>
+
 A good sprint begins with useful, labeled issues. The information in the body of
 an issue is critical. Be sure to include the specific details of the issue
 to be addressed with the lens of someone who is new to your project.
@@ -221,6 +262,11 @@ questions to answer during the sprint event.
 
 ### Label issues as help-wanted and/or sprintable
 
+<figure>
+  <img src="{{ site.baseurl }}/images/blog/2024/june/pyopensci-sprint-label-issues.png" alt="Image that says  have you ever felt confused about python packaging. Below is the pyopensci flower logo. And the graphic shows a bunch of different cartoon like hands being raised." style="width: 80%;" />
+  <figcaption> Every time I ask this question, a majority of people in the room raise their hand.</figcaption>
+</figure>
+
 You never know when a contributor might be looking for a data science project to
 work on. It's always helpful totag issues that could be completed or started
 during a sprint as `sprintable` and `help-wanted` if you think someone outside
@@ -230,6 +276,11 @@ with contributors through her work on the
 [Contributor Experience Project](https://contributor-experience.org/).
 
 ### Collect issues in a single place - the help-wanted board
+
+<figure>
+  <img src="{{ site.baseurl }}/images/blog/2024/june/pyopensci-sprint-project-board.png" alt="Image that says  have you ever felt confused about python packaging. Below is the pyopensci flower logo. And the graphic shows a bunch of different cartoon like hands being raised." style="width: 80%;" />
+  <figcaption> Every time I ask this question, a majority of people in the room raise their hand.</figcaption>
+</figure>
 
 Curate a `help-wanted` board that contains all the issues that could be completed
 by an outside community member in one place.
