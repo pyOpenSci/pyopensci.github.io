@@ -195,7 +195,7 @@ You'll notice that the section on having reviewers submit requested changes as i
 
 ### Please fill out our survey
 
-We know that surveys aren't necessarily your favorite thing to do, but completing the [pyOpenSci pre-review survey]((https://forms.gle/F9mou7S3jhe8DMJ16)) is a huge help to our team of volunteers, future package authors, and pyOpenSci as an organization. It helps us track submissions as well as continuously improve our peer review process.
+We know that surveys aren't necessarily your favorite thing to do, but completing the [pyOpenSci pre-review survey](https://forms.gle/F9mou7S3jhe8DMJ16) is a huge help to our team of volunteers, future package authors, and pyOpenSci as an organization. It helps us track submissions as well as continuously improve our peer review process.
 
 ### Editor and Review templates
 
