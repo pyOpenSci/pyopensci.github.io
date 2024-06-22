@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "pyOpenSci beginner-friendly sprints at PyCon US 2024"
-excerpt: "pyOpenSci holds beginner-friendly sprints with the goal of making new contributors feel welcome. Learn about our last sprint at PyCon US 2024 and tips we use to make sprints accessible to more people."
+excerpt: "pyOpenSci holds beginner-friendly sprints with the goal of making new contributors feel welcome. Learn about our latest sprint at PyCon US 2024, and tips we use to make sprints accessible to more people."
 author: "Leah Wasser"
 permalink: /blog/pyopensci-pyconus-2024-sprints.html
 header:
@@ -24,7 +24,7 @@ In previous posts, I talked about:
   within the scientific Python community](python-packaging-friends-dont-let-friends-package-alone.html).
 
 Here, I will share with you what we have learned at pyOpenSci through holding
-beginner-friendly sprints over the past 2 years.
+beginner-friendly sprints over the past two years.
 Specifically, I want to
 explore the varied motivations and barriers associated with contributions to
 Open Source, and how pyOpenSci is addressing them.
@@ -38,19 +38,19 @@ Open Source, and how pyOpenSci is addressing them.
 * By setting up infrastructure such as project boards and tagging issues as beginner-
   friendly, you are on your way towards a beginner-friendly sprint.
 * Be prepared to support people who are newer to Git and GitHub.
-* Create opportunities for beginners to contribute to documentation. The beginner lense
+* Create opportunities for beginners to contribute to documentation. The beginner lens
 reviewing your docs is critical to
   ensuring the documentation is usable! Documentation contributions can also be
-  implemented completely on GitHub without needing to use the command line.
+  implemented entirely on GitHub without needing to use the command line.
 </div>
 
-## pyOpenSci's PyCon US 2024 Sprint
+## pyOpenSci's [PyCon US 2024](https://us.pycon.org/2024/) Sprint
 
-I've been running pyOpenSci sprints for about 2 years now. This year was my second year
-leading a PyCon US sprint for pyOpenSci. I've learned a lot! While last year we had 2
+I've been running pyOpenSci sprints for about two years now. This year was my second year
+leading a PyCon US sprint for pyOpenSci. I've learned a lot! While last year we had two
 sprinters, this year we had a tremendous turnout of 18 people from several countries
 and across the United States for our 1-day sprint. This resulted in over 35 issues and
-pull requests where volunteers helped fix issues on our website, in our tutorials, and
+pull requests, where volunteers helped fix issues on our website, in our tutorials, and
 in our packaging and peer review guidebooks. Many long-standing issues and bugs were
 fixed thanks to this wonderful Python community.
 
@@ -65,13 +65,13 @@ that we've learned at pyOpenSci about running beginner-friendly sprints.
 
 If you haven’t been to a sprint before, it’s an experience every open source
 enthusiast should have. Sprints are where people come together to work on a
-project. The word sprint can be used in a professional development setting. This might describe a team of developers working
+project. The word sprint can also be used in a professional development setting. This might describe a team of developers working
 together to release a new feature. For the volunteer open source community, sprints often mean volunteers
 helping maintainers work on various parts of a project. And it's important to keep in mind that often the maintainers are
-also volunteers.
+also volunteers themselves.
 
 ### What do people sprint on for pyOpenSci?
-pyOpenSci is a non profit organization that is devoted to building diverse and
+pyOpenSci is a nonprofit organization that is devoted to building diverse and
 inclusive community that supports making science more open and collaborative.
 Among other things that we do, we run [open peer review of scientific Python software](/about-peer-review/index.html).
 
@@ -81,8 +81,8 @@ community driven beginner-friendly
  [Python packaging resources](https://www.pyopensci.org/python-package-guide/) and
  [tutorials](https://www.pyopensci.org/python-package-guide/tutorials/intro.html).
 High quality learning resources also require maintenance and review.
-As such we always need a mixture of packaging experts and those newer to packaging
-to catch errors and points of confusion.
+As such, we always need a mixture of packaging experts and those newer to packaging
+to help catch errors and identify points of confusion.
 
 As the Executive Director and Founder of pyOpenSci, I created most of our
 pyOpenSci GitHub infrastructure to support our mission. While I cherish times
@@ -94,7 +94,7 @@ big and small. These contributions propel the pyOpenSci mission of making scienc
 more open and collaborative forward.
 
 
-## Barriers to contribute to open source
+## Barriers in contributing to open source
 
 While sprints are a great way to engage the community in
 supporting an organization's (or a project's) mission, there are many barriers for contributors to consider.
