@@ -282,7 +282,7 @@ questions to answer during the sprint event.
 </figure>
 
 You never know when a contributor might be looking for a data science project to
-work on. It's always helpful totag issues that could be completed or started
+work on. It's always helpful to tag issues that could be completed or started
 during a sprint as `sprintable` and `help-wanted` if you think someone outside
 of your team could tackle the issue. This tip came from
 [Inessa Pawson](https://github.com/InessaPawson), who has extensive experience
