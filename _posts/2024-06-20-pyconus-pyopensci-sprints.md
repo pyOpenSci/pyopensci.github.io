@@ -104,7 +104,7 @@ These barriers include:
 * Time to contribute.
 * Skills to contribute.
 * Confidence in skills / fear of contributing the wrong thing.
-* Privilege: This is a loaded one. Open Source can't be diverse if it requires privilege
+* Privilege: This is a loaded one. Open Source can't be diverse if it requires privilege.
   to participate.
 
 And last but not least:
@@ -122,8 +122,8 @@ including:
 * Learning and growing skills that may not be accessible in your day job.
 * Connecting with other developers, data scientists, and scientists in the community.
 * Engaging and being part of an online community or maintainer team.
-* Growing your professional network
-* Learning about a new project
+* Growing your professional network.
+* Learning about a new project.
 
 Or, maybe you're like me—an Executive Director of a community organization. Coding and
 development aren't in my job description, but to teach these topics, I need to keep my
@@ -139,17 +139,17 @@ skills fresh. And, I love to code. That's where Open Source comes into my life!
 
 So how do we align the challenges that contributors face with the potential opportunities?
 
-While new contributor sprints are not for everyone and assume some level of privilege
+While new contributor sprints are not for everyone, and assume some level of privilege
 in having the time and bandwidth to participate, they can be great for many.
 
 But a sprint will only be a good experience if the contributor's needs and goals are also considered. Contributors need to gain something
 from contributing, and this requires:
 
-* time and care in designing the sprint and
-* time spent with new comers during the sprint.
+* time and care in designing the sprint, and
+* time spent with newcomers during the sprint.
 
-It's also important to note that this time required, is also a privilege for
-many if not most maintainers who are already volunteering their time to maintain
+It's also important to note that the time required to participate is also a privilege for
+many, if not most, maintainers who are already volunteering their time to maintain
 a project! As such we can't expect all open source packages to be able to
 support beginner contributions in a comprehensive way.
 
@@ -163,13 +163,13 @@ learner motivations. For me personally, contributing to Open Source met two of m
 and interests:
 
 * **Applied (project-based) learning:** I love to learn. Coding and data science are my
-  happy places. But the learning needs to be directly applicable. If it isn't, I get  bored. But moreover, if I can't see the application of the skill, I have little motivation to learn that skill!
+  happy places. But the learning needs to be directly applicable. If it isn't, I get bored. Moreover, if I can't see the application of the skill, I have little motivation to learn that skill!
 * **Student-directed learning:** I love to learn on my own time, following my own
   processes that work for me. Open Source allows me to do just that (and without the
   pressures of a specific deadline in most cases).
 
 If you read the education literature, you will find both project-based learning and student-directed learning to be
-a commonly discussed topic - especially as it relates to empowering people who are underrepresented in a space.
+a commonly discussed topic—especially as it relates to empowering people who are underrepresented in a space.
 
 More on that next...
 
@@ -177,9 +177,9 @@ More on that next...
 
 [Project-based learning](https://www.wpi.edu/project-based-learning/why-pbl) is
 founded on the idea that meaningful, applied projects are
-the best way to teach a topic. This works especially well in the data science space and
+the best way to teach a topic. This works especially well in the data science space, and
 has been found to be particularly effective with underrepresented groups. In
-fact I implemented and collected data on this in a [previous project](https://www.leahwasser.com/training-diverse-communities-earth-data-science-corps)
+fact, I implemented and collected data on this in a [previous project](https://www.leahwasser.com/training-diverse-communities-earth-data-science-corps)
 that I designed and ran when I was in academia.
 
 
@@ -193,7 +193,7 @@ outcome.
 It's similar to how you can immediately engage a diverse audience in GIS (spatial data) with Google
 Earth by asking them to zoom into the area where they live (place-based learning).
 
-As a volunteer maintainer of Stravalib, I am motivated to work on stravalib
+As a volunteer maintainer of [Stravalib](https://github.com/stravalib/stravalib), I am motivated to work on stravalib
 because I learn in a very applied way.
 
 Sure, a sprint does not have the powerful outcome of a student understanding the
@@ -202,8 +202,8 @@ impacts of climate change on their local tribal lands. But the concept is the sa
 > The learning motivation comes from a meaningful outcome that a student wants or cares
   about.
 
-In leading a sprint, asking that question of "what are your goals for today"
-will help you as a sprint leader to direct their efforts towards a successful path.
+In leading a sprint, asking the question of "what are your goals for today?"
+will help you as a sprint leader to direct sprinter efforts down a successful path.
 
 ### The power of student-directed learning
 
@@ -212,7 +212,7 @@ taught people the same way: in a classroom, using the same books and approaches.
 However, alternatives to this model allow learners to adapt their environment to their personal and learning goal needs.
 [Student-directed learning](https://scholar.google.com/scholar?q=student-directed+learning&hl=en&as_sdt=0&as_vis=1&oi=scholart)
 is based on the idea that people learn differently and have different needs. By creating
-a hybrid learning environment where students are allowed to pick their learning path and approach, you empowering them to own their experience.
+a hybrid learning environment where students are allowed to pick their learning path and approach, you empower them to own their experience.
 
 Some learners benefit from hands-on demos, whether in a classroom or at the sprint
 table. They may pick things up quickly or need to watch and digest the demo. Others
@@ -228,12 +228,12 @@ Contributors at the sprint can decide if they need direction, mentorship, or jus
 short tutorial/guidebook for making their first contribution using the GitHub
 interface.
 
-### Collaborative git and GitHub lessons
+### Collaborative Git and GitHub lessons
 
-This past year, I was awarded the BSSw fellowship in which I proposed lessons on these lesser known collaborative,
-git and GitHub skills - the same skills that will support people attending sprints! I am looking forward to having these lessons on hand,for next year's sprints, to support those who are still fighting to learn git and GitHub (it can be an uphill process!).
+This past year, I was awarded the [Better Scientific Software (BSSw) Fellowship](https://bssw.io/pages/bssw-fellowship-program), in which I proposed lessons on these lesser known collaborative
+Git and GitHub skills—the same skills that will support people attending sprints! I am looking forward to having these lessons on han ,for next year's sprints, in order to support those who are still fighting to learn Git and GitHub (it can be an uphill process!).
 
-## The Anatomy of a pyOpenSci Sprint
+## The anatomy of a pyOpenSci sprint
 
 Based on my understanding of the learning motivations and challenges that new
 contributors face, I've developed a pyOpenSci sprint approach that I've found to
@@ -270,7 +270,7 @@ A good sprint begins with useful, labeled issues. The information in the body of
 an issue is critical. Be sure to include the specific details of the issue
 to be addressed with the lens of someone who is new to your project.
 Give potential contributors everything
-they need to start working, reducing questions during the sprint. For a table of
+they need to start working, which helps reduce adminstrative questions during the sprint. For a table of
 10-20 people sprinting for pyOpenSci, this means the sprint leader will have less
 questions to answer during the sprint event.
 
@@ -289,11 +289,11 @@ of your team could tackle the issue. This tip came from
 with contributors through her work on the
 [Contributor Experience Project](https://contributor-experience.org/).
 
-### Collect issues in a single place - the help-wanted board
+### Collect issues in a single place—the help-wanted board
 
 <figure>
   <img src="{{ site.baseurl }}/images/blog/2024/june/pyopensci-sprint-project-board.png" alt="A graphic that shows the pyOpenSci GitHub project board. The graphic shows two columns of the project board. The first is Python Packaging and it has 7 issues in that column. The second column says Beginner-friendly / non technical. The point of this graphic is just to show a user that a project board is a nice way to organize issues that contributors might want to challenge during a sprint. At the bottom there is text that says includes a beginner-friendly column and should have easy-to-understand issue titles." style="width: 80%;" />
-  <figcaption> Project boards help you organize your sprintable tasks into categories that might help a contributor find something that interests them. Here we have a beginner-friendly column for beginners. but we also include columns that are topical such as Python programming, ci / devops and Sphinx. Also notice that the issues are generally clearly titled.</figcaption>
+  <figcaption> Project boards help you organize your sprintable tasks into categories that might help a contributor find something that interests them. Here we have a beginner-friendly column for beginners, but we also include columns that are topical such as Python programming, CI / DevOps and Sphinx. Also notice that the issues are generally clearly titled.</figcaption>
 </figure>
 
 Curate a `help-wanted` board that contains all the issues that could be completed
@@ -324,14 +324,14 @@ repository, which is why we set up the GitHub action.
 {: .notice}
 
 
-### Make it truly beginner friendly
+### Make it truly beginner-friendly
 
 To support beginners contributing to open source, consider having one or two helpers
 (depending on the size of your sprint) who can assist with:
 
 1. Understanding the issues
 2. Using Git/GitHub
-3. Directing them to beginner-friendly items
+3. Directing novice sprinters to beginner-friendly items
 
 In all of our sprints to date, we have had a mixture of people who:
 
@@ -347,12 +347,12 @@ contributions.
 
 ## Wrap up
 
-Well-lead sprints offer both new and seasoned contributors an opportunity to
-contribute to a project while also learning new skills, connecting with new people and learning about new projects. If you plan to support new
-contributors in your sprint, then
+Well-led sprints offer both new and seasoned contributors an opportunity to
+contribute to a project, while also learning new skills, connecting with new people and learning about new projects. If you plan to support new
+contributors in your sprint,
 then it's ideal to do some legwork before the sprint begins to ensure sprint
-attendees feel supported and have the help that they need, when they get stuck.
+attendees feel supported and have the help that they need when they get stuck.
 
-pyOpenSci is looking forward to our next sprint - to be held at the SciPy 2024 meeting in Tacoma, Washington. Last year we had 3 people make their first contributions to open source in our SciPy 2023 sprint. I'm hoping that this year is even better!
+pyOpenSci is looking forward to our next sprint—to be held at the [SciPy 2024 meeting](https://www.scipy2024.scipy.org/) in Tacoma, Washington. Last year we had three people make their first contributions to open source in our SciPy 2023 sprint. I'm hoping that this year is even better!
 
 Come join us if you are there!
