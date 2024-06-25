@@ -30,36 +30,41 @@ explore the varied motivations and barriers associated with contributions to
 Open Source, and how pyOpenSci is addressing them.
 
 <div class="notice--success" markdown="1">
+
 ## TL;DR
 
-* I believe that we can get more people involved in Open Source if it's done the right
-  way. But despite the word "open" in the name, Open Source is not necessarily open to
-  all people.
-* By setting up infrastructure such as project boards and tagging issues as beginner-
-  friendly, you are on your way towards a beginner-friendly sprint.
+* I believe that we can get more people involved in Open Source if it's done
+  the right way. Despite the word "open" in the name, Open Source is not
+  necessarily open to all people.
+* By setting up infrastructure such as project boards and tagging issues as
+  beginner-friendly, you are on your way towards a beginner-friendly sprint.
 * Be prepared to support people who are newer to Git and GitHub.
-* Create opportunities for beginners to contribute to documentation. The beginner lens
-reviewing your docs is critical to
-  ensuring the documentation is usable! Documentation contributions can also be
-  implemented entirely on GitHub without needing to use the command line.
+* Create opportunities for beginners to contribute to documentation. The
+  beginner lens reviewing your docs is critical to ensuring the documentation
+  is usable! Documentation contributions can also be implemented entirely on
+  GitHub without needing to use the command line.
+
+
+
 </div>
 
-## pyOpenSci's [PyCon US 2024](https://us.pycon.org/2024/) Sprint
+## PyOpenSci's [PyCon US 2024](https://us.pycon.org/2024/) sprint
 
-I've been running pyOpenSci sprints for about two years now. This year was my second year
-leading a PyCon US sprint for pyOpenSci. I've learned a lot! While last year we had two
-sprinters, this year we had a tremendous turnout of 18 people from several countries
-and across the United States for our 1-day sprint. This resulted in over 35 issues and
-pull requests, where volunteers helped fix issues on our website, in our tutorials, and
-in our packaging and peer review guidebooks. Many long-standing issues and bugs were
-fixed thanks to this wonderful Python community.
+I've been running pyOpenSci sprints for about two years now. This year was my
+second year leading a PyCon US sprint for pyOpenSci. I've learned a lot! While
+last year we had two sprinters, this year we had a tremendous turnout of 18
+people from several countries and across the United States for our 1-day
+sprint. This resulted in over 35 issues and pull requests, where volunteers
+helped fix issues on our website, in our tutorials, and in our packaging and
+peer review guidebooks. Many long-standing issues and bugs were fixed thanks to
+this wonderful Python community.
 
 We had so much activity that I'm still working on closing up issues and pull
-requests now—weeks after the sprint
-ended!
+requests now—weeks after the sprint ended!
 
-After such a tremendous experience this year, I wanted to share with you the things
-that we've learned at pyOpenSci about running beginner-friendly sprints.
+After such a tremendous experience this year, I wanted to share with you the
+things that we've learned at pyOpenSci about running beginner-friendly sprints.
+
 
 ## What is a sprint like?
 
@@ -71,6 +76,7 @@ helping maintainers work on various parts of a project. And it's important to ke
 also volunteers themselves.
 
 ### What do people sprint on for pyOpenSci?
+
 pyOpenSci is a nonprofit organization that is devoted to building diverse and
 inclusive community that supports making science more open and collaborative.
 Among other things that we do, we run [open peer review of scientific Python software](/about-peer-review/index.html).
@@ -176,62 +182,70 @@ More on that next...
 ### The power of project-based learning
 
 [Project-based learning](https://www.wpi.edu/project-based-learning/why-pbl) is
-founded on the idea that meaningful, applied projects are
-the best way to teach a topic. This works especially well in the data science space, and
-has been found to be particularly effective with underrepresented groups. In
-fact, I implemented and collected data on this in a [previous project](https://www.leahwasser.com/training-diverse-communities-earth-data-science-corps)
+founded on the idea that meaningful, applied projects are the best way to teach
+a topic. This works especially well in the data science space and has been found
+to be particularly effective with underrepresented groups. In fact, I implemented
+and collected data on this in a [previous project](https://www.leahwasser.com/training-diverse-communities-earth-data-science-corps)
 that I designed and ran when I was in academia.
 
-
 The idea behind project-based learning is that students select a topic they are
-personally interested in. If they are learning data science, they can find data to
-analyze and support their project. For underrepresented groups in STEM (and most
-learners), applied learning resonates because it involves a topic they care about and
-are motivated to pursue. Skills are learned in the process of achieving a meaningful
-outcome.
+personally interested in. If they are learning data science, they can find data
+to analyze and support their project. For underrepresented groups in STEM (and
+most learners), applied learning resonates because it involves a topic they care
+about and are motivated to pursue. Skills are learned in the process of achieving
+a meaningful outcome.
 
-It's similar to how you can immediately engage a diverse audience in GIS (spatial data) with Google
-Earth by asking them to zoom into the area where they live (place-based learning).
+It's similar to how you can immediately engage a diverse audience in GIS
+(spatial data) with Google Earth by asking them to zoom into the area where they
+live (place-based learning).
 
-As a volunteer maintainer of [Stravalib](https://github.com/stravalib/stravalib), I am motivated to work on stravalib
-because I learn in a very applied way.
+As a volunteer maintainer of [Stravalib](https://github.com/stravalib/stravalib),
+I am motivated to work on Stravalib because I learn in a very applied way.
 
 Sure, a sprint does not have the powerful outcome of a student understanding the
 impacts of climate change on their local tribal lands. But the concept is the same:
 
-> The learning motivation comes from a meaningful outcome that a student wants or cares
-  about.
+> The learning motivation comes from a meaningful outcome that a student wants or
+  cares about.
 
-In leading a sprint, asking the question of "what are your goals for today?"
-will help you as a sprint leader to direct sprinter efforts down a successful path.
+In leading a sprint, asking the question of "what are your goals for today?" will
+help you as a sprint leader to direct sprinter efforts down a successful path.
+
 
 ### The power of student-directed learning
 
 Every person has different learning preferences. For many years, educators
 taught people the same way: in a classroom, using the same books and approaches.
-However, alternatives to this model allow learners to adapt their environment to their personal and learning goal needs.
+However, alternatives to this model allow learners to adapt their environment to
+their personal and learning goal needs.
 [Student-directed learning](https://scholar.google.com/scholar?q=student-directed+learning&hl=en&as_sdt=0&as_vis=1&oi=scholart)
-is based on the idea that people learn differently and have different needs. By creating
-a hybrid learning environment where students are allowed to pick their learning path and approach, you empower them to own their experience.
+is based on the idea that people learn differently and have different needs. By
+creating a hybrid learning environment where students are allowed to pick their
+learning path and approach, you empower them to own their experience.
 
-Some learners benefit from hands-on demos, whether in a classroom or at the sprint
-table. They may pick things up quickly or need to watch and digest the demo. Others
-prefer reading quietly on their own, absorbing information, and trying things out until
-they figure it out.
+Some learners benefit from hands-on demos, whether in a classroom or at the
+sprint table. They may pick things up quickly or need to watch and digest the
+demo. Others prefer reading quietly on their own, absorbing information, and
+trying things out until they figure it out.
 
-If a sprint is set up correctly, learners can parse through available issues. Carefully
-tagged issues direct them to ones that are beginner-friendly. These issues should not
-require extensive Git and GitHub expertise, ensuring a good first experience and an
-early win to build confidence.
+If a sprint is set up correctly, learners can parse through available issues.
+Carefully tagged issues direct them to ones that are beginner-friendly. These
+issues should not require extensive Git and GitHub expertise, ensuring a good
+first experience and an early win to build confidence.
 
-Contributors at the sprint can decide if they need direction, mentorship, or just a
-short tutorial/guidebook for making their first contribution using the GitHub
-interface.
+Contributors at the sprint can decide if they need direction, mentorship, or
+just a short tutorial/guidebook for making their first contribution using the
+GitHub interface.
+
 
 ### Collaborative Git and GitHub lessons
 
-This past year, I was awarded the [Better Scientific Software (BSSw) Fellowship](https://bssw.io/pages/bssw-fellowship-program), in which I proposed lessons on these lesser known collaborative
-Git and GitHub skills—the same skills that will support people attending sprints! I am looking forward to having these lessons on han ,for next year's sprints, in order to support those who are still fighting to learn Git and GitHub (it can be an uphill process!).
+This past year, I was awarded the [Better Scientific Software (BSSw)
+Fellowship](https://bssw.io/pages/bssw-fellowship-program), in which I proposed
+lessons on these lesser-known collaborative Git and GitHub skills—the same skills
+that will support people attending sprints! I am looking forward to having these
+lessons on hand for next year's sprints, in order to support those who are still
+fighting to learn Git and GitHub (it can be an uphill process!).
 
 ## The anatomy of a pyOpenSci sprint
 
@@ -262,17 +276,25 @@ maintainer and the contributor.
 ### Write useful constructive issues
 
 <figure>
-  <img src="{{ site.baseurl }}/images/blog/2024/june/pyopensci-issue-specific.png" alt="Image that says  have you ever felt confused about python packaging. Below is the pyopensci flower logo. And the graphic shows a bunch of different cartoon like hands being raised." style="width: 80%;" />
-  <figcaption> This is an issue opened in our pyConUS 2024 sprint that could be addressed in a future sprint. Often before a sprint, our team will go into the existing issues and add more information related to next steps associated with the sprint. In this case - a beginner could take on testing out the Hatch installation instructions. They could also add a note that Hatch installs Python for a user if they don't already have it installed.</figcaption>
+  <img src="{{ site.baseurl }}/images/blog/2024/june/pyopensci-issue-specific.png"
+  alt="Image that says 'have you ever felt confused about python packaging.' Below
+  is the pyopensci flower logo. And the graphic shows a bunch of different cartoon
+  like hands being raised." style="width: 80%;" />
+  <figcaption>This is an issue opened in our pyConUS 2024 sprint that could be
+  addressed in a future sprint. Often before a sprint, our team will go into the
+  existing issues and add more information related to next steps associated with the
+  sprint. In this case - a beginner could take on testing out the Hatch installation
+  instructions. They could also add a note that Hatch installs Python for a user if
+  they don't already have it installed.</figcaption>
 </figure>
 
 A good sprint begins with useful, labeled issues. The information in the body of
-an issue is critical. Be sure to include the specific details of the issue
-to be addressed with the lens of someone who is new to your project.
-Give potential contributors everything
-they need to start working, which helps reduce adminstrative questions during the sprint. For a table of
-10-20 people sprinting for pyOpenSci, this means the sprint leader will have less
-questions to answer during the sprint event.
+an issue is critical. Be sure to include the specific details of the issue to be
+addressed with the lens of someone who is new to your project. Give potential
+contributors everything they need to start working, which helps reduce
+administrative questions during the sprint. For a table of 10-20 people sprinting
+for pyOpenSci, this means the sprint leader will have fewer questions to answer
+during the sprint event.
 
 ### Label issues as help-wanted and/or sprintable
 
@@ -326,8 +348,8 @@ repository, which is why we set up the GitHub action.
 
 ### Make it truly beginner-friendly
 
-To support beginners contributing to open source, consider having one or two helpers
-(depending on the size of your sprint) who can assist with:
+To support beginners contributing to open source, consider having one or two
+helpers (depending on the size of your sprint) who can assist with:
 
 1. Understanding the issues
 2. Using Git/GitHub
@@ -348,11 +370,15 @@ contributions.
 ## Wrap up
 
 Well-led sprints offer both new and seasoned contributors an opportunity to
-contribute to a project, while also learning new skills, connecting with new people and learning about new projects. If you plan to support new
-contributors in your sprint,
-then it's ideal to do some legwork before the sprint begins to ensure sprint
-attendees feel supported and have the help that they need when they get stuck.
+contribute to a project, while also learning new skills, connecting with new
+people, and learning about new projects. If you plan to support new
+contributors in your sprint, then it's ideal to do some legwork before the
+sprint begins to ensure sprint attendees feel supported and have the help that
+they need when they get stuck.
 
-pyOpenSci is looking forward to our next sprint—to be held at the [SciPy 2024 meeting](https://www.scipy2024.scipy.org/) in Tacoma, Washington. Last year we had three people make their first contributions to open source in our SciPy 2023 sprint. I'm hoping that this year is even better!
+pyOpenSci is looking forward to our next sprint—to be held at the [SciPy 2024
+meeting](https://www.scipy2024.scipy.org/) in Tacoma, Washington. Last year we
+had three people make their first contributions to open source in our SciPy
+2023 sprint. I'm hoping that this year is even better!
 
 Come join us if you are there!
