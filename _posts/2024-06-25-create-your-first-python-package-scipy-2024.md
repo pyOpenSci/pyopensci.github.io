@@ -51,7 +51,7 @@ You will leave this tutorial understanding how to:
 *If you don’t have homebrew*
 * Download a mamba installer and use bash to install mambaforge:
   * Download the installer: [Mambaforge installer for Mac](https://github.com/conda-forge/miniforge#mambaforge). 
-  * Note that if you have a newer mac with a m1 or m2 chip, then you will want to install the Apple Silicon version: OS X arm64 (Apple Silicon) Mambaforge-MacOSX-arm64. If you have an older mac use: OS X x86_64 Mambaforge-MacOSX-x86_64
+  * Note that if you have a newer mac with an M1 or M2 chip, then you will want to install the Apple Silicon version: OS X arm64 (Apple Silicon) Mambaforge-MacOSX-arm64. If you have an older mac use: OS X x86_64 Mambaforge-MacOSX-x86_64
 * In your Terminal window, cd to the location of the download file. Run: `bash Mambaforge3-latest-MacOSX-modify-filename-here.sh`
 * Follow the prompts on the installer screens.
 * If you are unsure about any setting, accept the defaults. You can change them later.
@@ -129,27 +129,27 @@ While you can update the `config.toml` file through the command line, it might b
 ### Hour One: the structure of an installable module
 
 **Key Takeaways: After this hour you will have an understanding of:**
-* the purpose of the __init__.py file, and
+* the purpose of the \_\_init\_\_.py file, and
 * how workflow tools such as Hatch can be useful when making code installable.
 
 **0-15 minutes:** Here we will get to know each other. I’ll also briefly introduce pyOpenSci and the work that we are doing in open science education and training space.
 
-**15-30 minutes:** Interactive discussion: Here, we’ll discuss why shareable code is important. And we’ll explore some best practices for making code easier to work with. I’ll also introduce Hatch as a workflow tool that streamlines tasks.
+**15-30 minutes, interactive discussion:** Here, we’ll discuss why shareable code is important. And we’ll explore some best practices for making code easier to work with. I’ll also introduce Hatch as a workflow tool that streamlines tasks.
 
 **30-60 minutes, hands-on:** You will take an existing script and turn it into an installable module. You are welcome to use the provided scripts for this. If you are more comfortable with Python, then you can also bring your own script with you and work on it during the workshop.
 
 
 ### Hour Two: everything you need to know about the `pyproject.toml` file & project metadata.
 
-**0-15 minutes:** Interactive Discussion: Here you’ll learn about the pyproject.toml and how it’s used to document dependencies, and metadata for your project.
+**0-15 minutes, interactive discussion:** Here you’ll learn about the pyproject.toml and how it’s used to document dependencies, and metadata for your project.
 
-**15-30 minutes:** Short Break. Stretch your legs, get a drink.
+**15-30 minutes:** A short break to stretch your legs and get a drink.
 
 **30-60 minutes, hands-on:** In the hands-on part of this hour, you will modify your pyproject.toml file with required dependencies needed to run your code. You will also learn how to install your code in interactive or development mode using both pip and Hatch. Interactive mode will allow you to dynamically update your code and test it locally without reinstalling it. Finally, you will take your shiny new Python module for a test drive in your favorite Python environment.
 
 ### Hour Three: the power of metadata and instructions for you, your future self & your colleagues
 
-**0-15 minutes:** Interactive discussion: In this part of the tutorial we’ll discuss the power of documentation when sharing code and also for you when you have to update things in the future. **
+**0-15 minutes, interactive discussion:** In this part of the tutorial we’ll discuss the power of documentation when sharing code and also for you when you have to update things in the future. **
 
 **15-50 minutes, hands-on:** Here you will [create a README file](https://www.pyopensci.org/python-package-guide/tutorials/add-readme.html) that helps users of your module understand how to install it and how to get started using it. You will also add [docstrings](https://www.pyopensci.org/python-package-guide/documentation/write-user-documentation/document-your-code-api-docstrings.html) to your code. See how docstrings are useful as “hints” when coding real time. Optional: if you are speedy, you can also delve into [typing](https://www.pyopensci.org/python-package-guide/documentation/write-user-documentation/document-your-code-api-docstrings.html#adding-type-hints-to-your-docstrings) your code on your own. However, we won’t directly cover typing in this tutorial.
 
@@ -157,11 +157,11 @@ While you can update the `config.toml` file through the command line, it might b
 
 ### Hour Four: publishing and sharing your code
 
-**0-15 minutes:** Interactive discussion: Here we will discuss what it means to “[publish](https://www.pyopensci.org/python-package-guide/tutorials/publish-pypi.html)” code. We will also discuss other important elements such as license files and codes of conduct if you intend to turn your code into a published [package](https://www.pyopensci.org/python-package-guide/tutorials/intro.html).
+**0-15 minutes, interactive discussion:** Here we will discuss what it means to “[publish](https://www.pyopensci.org/python-package-guide/tutorials/publish-pypi.html)” code. We will also discuss other important elements such as license files and codes of conduct if you intend to turn your code into a published [package](https://www.pyopensci.org/python-package-guide/tutorials/intro.html).
 
 **15-45 minutes, hands-on:** Publishing to PyPI vs. installing from Github. Those who’d like to follow along interactively can do so here. However, if your brain is tired, sit back and learn how to build your module into a package distribution using Hatch. And then we will give you all of the tools needed to [publish to the test version of PyPI](https://www.pyopensci.org/python-package-guide/tutorials/publish-pypi.html).
 
-**45-60 minutes:** wrap up, questions. Feedback.
+**45-60 minutes:** wrap up, answer any questions, and provide feedback on the session.
 
 ## <i class="fa-solid fa-link"></i> Connect with pyOpenSci
 
