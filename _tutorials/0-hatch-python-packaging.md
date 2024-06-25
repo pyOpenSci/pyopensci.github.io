@@ -1,5 +1,5 @@
 ---
-title: "Add metadata using a pyproject.toml file to your Python package"
+title: "0. Get to know Hatch"
 excerpt: "
   Hatch is an end-to-end Python packaging and workflow tool. In this tutorial, you will install and learn how to configure Hatch for Python packaging."
 learning_objectives:
