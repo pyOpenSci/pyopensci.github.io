@@ -1,5 +1,5 @@
 ---
-title: "What is a Python package"
+title: "1. What is a Python package"
 excerpt: "
   Learn about what a Python package is and the basic components that make up a Python package."
 learning_objectives:

@@ -1,5 +1,5 @@
 ---
-title: "Add a README file to your Python package"
+title: "5. Add a README file to your Python package"
 excerpt: "
   A README file is often the landing page that a user will use to understand your package. Learn about how to create a useful README file for your Python package."
 learning_objectives:

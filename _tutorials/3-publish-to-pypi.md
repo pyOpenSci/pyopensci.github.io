@@ -1,5 +1,5 @@
 ---
-title: "Publish your Python package to PyPI"
+title: "3. Publish your Python package to PyPI"
 excerpt: "
   Learn how to publish your Python package to test.PyPI.org and to PyPI.org."
 learning_objectives:

@@ -1,5 +1,5 @@
 ---
-title: "Make your Python code installable"
+title: "2. Make your Python code installable"
 excerpt: "
   Learn how to create the most basic version of a Python package which can then be installed into a Python environment."
 learning_objectives:
