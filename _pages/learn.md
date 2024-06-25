@@ -57,9 +57,7 @@ toc: false
 
 ## Start learning: Beginner-friendly Python packaging tutorials
 
-Beginner-friendly Python packaging tutorials that will take you through
-the full process of creating a Python package, following modern best
-practices.
+Beginner-friendly Python packaging tutorials guide you through creating a Python package, following modern best practices. It's best to follow the tutorials in order, but you can always pick a specific topic if you wish to jump around.
 
 <div class="tutorial__container">
 {% for atutorial in site.tutorials %}
