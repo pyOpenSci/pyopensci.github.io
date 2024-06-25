@@ -18,8 +18,8 @@ comments: true
 ## Create Your First Python Package: Make Your Python Code Easier to Share and Use
 
 * **What:** A hands-on workshop, titled: [Create Your First Python Package: Make Your Python Code Easier to Share and Use](https://cfp.scipy.org/2024/talk/QT9GBY/)
-* **Where:** [SciPy 2024](https://www.scipy2024.scipy.org/), Room 316  
-* **When:** Tuesday, July 9th, 2024, from 13:30--17:30 Pacific  
+* **Where:** [SciPy 2024](https://www.scipy2024.scipy.org/), Room 316
+* **When:** Tuesday, July 9th, 2024, from 13:30--17:30 Pacific
 
 ## Event overview
 
@@ -35,7 +35,7 @@ You will leave this tutorial understanding how to:
 * How to write functions in Python
 * How to use a Python environment manager of your choosing
 
-## What you need installed 
+## What you need installed
 * Python
 * An environment manager
 * Hatch
@@ -43,14 +43,14 @@ You will leave this tutorial understanding how to:
 ### Install Python using `conda` and the `conda-forge` channel
 *These instructions were adapted from the [Install Python Using Conda & Conda-forge - Mambaforge post](https://datascienceskills.org/install-python-science-conda/) from Leah Wasser and Jenny Palomino, originally posted on [datascienceskills.org](http://datascienceskills.org).*
 
-#### For Mac users 
+#### For Mac users
 *For homebrew users*
 * Find directions for installing homebrew here.
 * If you have homebrew installed, then the easiest way to install mambaforge is to use: `brew install mambaforge`
 
 *If you don’t have homebrew*
 * Download a mamba installer and use bash to install mambaforge:
-  * Download the installer: [Mambaforge installer for Mac](https://github.com/conda-forge/miniforge#mambaforge). 
+  * Download the installer: [Mambaforge installer for Mac](https://github.com/conda-forge/miniforge#mambaforge).
   * Note that if you have a newer mac with an M1 or M2 chip, then you will want to install the Apple Silicon version: OS X arm64 (Apple Silicon) Mambaforge-MacOSX-arm64. If you have an older mac use: OS X x86_64 Mambaforge-MacOSX-x86_64
 * In your Terminal window, cd to the location of the download file. Run: `bash Mambaforge3-latest-MacOSX-modify-filename-here.sh`
 * Follow the prompts on the installer screens.
@@ -110,7 +110,7 @@ Once you have installed Hatch, you will want to customize the configuration. Hat
 While you can update the `config.toml` file through the command line, it might be easier to look at it and update it in a text editor if you are using it for the first time.
 
 1. Open and edit your `config.toml` file by either:
-  * Running `hatch config explore` in your shell, which will open up a directory window that will allow you to double click on the file and open it in your favorite text editor. 
+  * Running `hatch config explore` in your shell, which will open up a directory window that will allow you to double click on the file and open it in your favorite text editor.
   * Alternatively, you can retrieve the location of the Hatch config file by running `hatch config find` in your shell.
 2. Update your email and name
   * Once the file is open, update the \[template\] table of the `config.toml` file with your name and email. This information will be used in any `pyproject.toml` metadata files that you create using Hatch.
