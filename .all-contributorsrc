@@ -353,6 +353,16 @@
         "code",
         "review"
       ]
+    },
+    {
+      "login": "g4brielvs",
+      "name": "Gabriel Stefanini Vicente",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4053416?v=4",
+      "profile": "http://g4brielvs.me",
+      "contributions": [
+        "code",
+        "review"
+      ]
     }
   ],
   "commitConvention": "angular",
