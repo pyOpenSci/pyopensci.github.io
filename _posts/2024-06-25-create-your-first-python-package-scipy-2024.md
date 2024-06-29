@@ -6,11 +6,12 @@ excerpt: "pyOpenSci will be running our `Create Your First Python Package: Make 
 author: "Jesse Mostipak"
 permalink: /blog/pyos-workshop-scipy-2024.html
 header:
-  overlay_image: images/blog/2024/june/scipy-2024-workshop.png
+  overlay_image: images/headers/scipy-2024-workshop.png
   overlay_filter: rgba(20, 13, 36, 0.8)
 categories:
   - blog-post
   - community
+  - events
 classes: wide
 toc: true
 comments: true
@@ -20,6 +21,8 @@ comments: true
 * **What:** A hands-on workshop, titled: [Create Your First Python Package: Make Your Python Code Easier to Share and Use](https://cfp.scipy.org/2024/talk/QT9GBY/)
 * **Where:** [SciPy 2024](https://www.scipy2024.scipy.org/), Room 316
 * **When:** Tuesday, July 9th, 2024, from 13:30--17:30 Pacific
+* **Workshop GitHub repository:** [https://github.com/pyOpenSci/code-to-module-workshop/](https://github.com/pyOpenSci/code-to-module-workshop/)
+* **pyOpenSci demo package:** [https://github.com/pyOpenSci/pyosPackage](https://github.com/pyOpenSci/pyosPackage)
 
 ## Event overview
 
@@ -40,128 +43,231 @@ You will leave this tutorial understanding how to:
 * An environment manager
 * Hatch
 
-### Install Python using `conda` and the `conda-forge` channel
-*These instructions were adapted from the [Install Python Using Conda & Conda-forge - Mambaforge post](https://datascienceskills.org/install-python-science-conda/) from Leah Wasser and Jenny Palomino, originally posted on [datascienceskills.org](http://datascienceskills.org).*
+## Workshop agenda
+<table width="100%">
+  <tbody>
+    <tr>
+      <td colspan="2"><strong>Hour one:</strong> The structure of an installable module.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td rowspan="5" width="25%" style="vertical-align: top;"><strong>Key takeaways</strong><ul>
+          <li>The purpose of the __init__.py file</li>
+          <li>How workflow tools such as Hatch can be useful when making code installable.</li>
+        </ul></td>
+    </tr>
+    <tr>
+      <td><strong>Breakdown</strong></td>
+    </tr>
+      <td><strong>0-15 minutes:</strong> Here we will get to know each other. I’ll also briefly introduce pyOpenSci and the work that we are doing in open science education and training space.</td>
+    <tr>
+      <td><strong>15-30 minutes, interactive discussion:</strong> Here, we’ll discuss why shareable code is important. And we’ll explore some best practices for making code easier to work with. I’ll also introduce Hatch as a workflow tool that streamlines tasks.</td>
+    </tr>
+    <tr>
+      <td><strong>30-60 minutes, hands-on:</strong> You will take an existing script and turn it into an installable module. You are welcome to use the provided scripts for this. If you are more comfortable with Python, then you can also bring your own script with you and work on it during the workshop.</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<table width="100%">
+  <tbody>
+    <tr>
+      <td colspan="2"><strong>Hour two:</strong> Everything you need to know about the <code>pyproject.toml</code> file & project metadata.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td rowspan="5" width="25%"><strong>Breakdown</strong></td>
+    </tr>
+      <td><strong>0-15 minutes, interactive discussion:</strong> Here you’ll learn about the pyproject.toml and how it’s used to document dependencies, and metadata for your project.</td>
+    <tr>
+      <td><strong>15-30 minutes:</strong> A short break to stretch your legs and get a drink.</td>
+    </tr>
+    <tr>
+      <td><strong>30-60 minutes, hands-on:</strong> In the hands-on part of this hour, you will modify your <code>pyproject.toml</code> file with required dependencies needed to run your code. You will also learn how to install your code in interactive or development mode using both pip and Hatch. Interactive mode will allow you to dynamically update your code and test it locally without reinstalling it. Finally, you will take your shiny new Python module for a test drive in your favorite Python environment.</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<table width="100%">
+  <tbody>
+    <tr>
+      <td colspan="2"><strong>Hour three:</strong> The power of metadata and instructions for you, your future self & your colleagues.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td rowspan="5" width="25%"><strong>Breakdown</strong></td>
+    </tr>
+      <td><strong>0-15 minutes, interactive discussion:</strong> In this part of the tutorial we’ll discuss the power of documentation when sharing code and also for you when you have to update things in the future.</td>
+    <tr>
+      <td><strong>15-50 minutes, hands-on:</strong> Here you will <a href="https://www.pyopensci.org/python-package-guide/tutorials/add-readme.html">create a README file</a> that helps users of your module understand how to install it and how to get started using it. You will also add <a href="https://www.pyopensci.org/python-package-guide/documentation/write-user-documentation/document-your-code-api-docstrings.html">docstrings</a> to your code. See how docstrings are useful as “hints” when coding real time. Optional: if you are speedy, you can also delve into <a href="https://www.pyopensci.org/python-package-guide/documentation/write-user-documentation/document-your-code-api-docstrings.html#adding-type-hints-to-your-docstrings">typing</a> your code on your own. However, we won’t directly cover typing in this tutorial.</td>
+    </tr>
+    <tr>
+      <td><strong>50-60 minutes:</strong> Break</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<table width="100%">
+  <tbody>
+    <tr>
+      <td colspan="2"><strong>Hour four:</strong> Publishing and sharing your code.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td rowspan="5" width="25%"><strong>Breakdown</strong></td>
+    </tr>
+      <td><strong>0-15 minutes, interactive discussion:</strong> Here we will discuss what it means to “<a href="https://www.pyopensci.org/python-package-guide/tutorials/publish-pypi.html">publish</a>” code. We will also discuss other important elements such as license files and codes of conduct if you intend to turn your code into a published <a href="https://www.pyopensci.org/python-package-guide/tutorials/intro.html">package</a>.</td>
+    <tr>
+      <td><strong>15-45 minutes, hands-on:</strong> Publishing to PyPI vs. installing from Github. Those who’d like to follow along interactively can do so here. However, if your brain is tired, sit back and learn how to build your module into a package distribution using Hatch. And then we will give you all of the tools needed to <a href="https://www.pyopensci.org/python-package-guide/tutorials/publish-pypi.html">publish to the test version of PyPI</a>.</td>
+    </tr>
+    <tr>
+      <td><strong>45-60 minutes:</strong> Wrap up, answer any questions, and provide feedback on the session.</td>
+    </tr>
+  </tbody>
+</table>
 
-#### For Mac users
-*For homebrew users*
-* Find directions for installing homebrew here.
-* If you have homebrew installed, then the easiest way to install mambaforge is to use: `brew install mambaforge`
+## Hatch & Python
 
-*If you don’t have homebrew*
-* Download a mamba installer and use bash to install mambaforge:
-  * Download the installer: [Mambaforge installer for Mac](https://github.com/conda-forge/miniforge#mambaforge).
-  * Note that if you have a newer mac with an M1 or M2 chip, then you will want to install the Apple Silicon version: OS X arm64 (Apple Silicon) Mambaforge-MacOSX-arm64. If you have an older mac use: OS X x86_64 Mambaforge-MacOSX-x86_64
-* In your Terminal window, cd to the location of the download file. Run: `bash Mambaforge3-latest-MacOSX-modify-filename-here.sh`
-* Follow the prompts on the installer screens.
-* If you are unsure about any setting, accept the defaults. You can change them later.
-* To make sure that the changes take effect, close and then re-open your Terminal window.
+If you already have a working version of Python on your computer, then you are in good shape!**If you don’t have Python installed on your computer, then Hatch will install Python for you when you install it following the instructions below.**
 
-#### For Linux users
-* Download the installer: [Mambaforge installer for Linux](https://github.com/conda-forge/miniforge#mambaforge).
-In your Terminal window, run making sure to modify the file name to match the file that you downloaded: `bash Mambaforge3-latest-Linux-modify-file-name-here.sh`
-* Follow the prompts on the installer screens.
-* If you are unsure about any setting, accept the defaults. You can change them later.
-* To make sure that the changes take effect, close and then re-open your Terminal window.
+## Install Hatch
 
-#### For Windows users
-Download the [Mambaforge installer for Windows](https://github.com/conda-forge/miniforge#mambaforge) and run the installer by double-clicking on the downloaded file. Then follow the steps below:
-* Click “Run”.
-* Click on “Next”.
-* Click on “I agree”.
-* Leave the selection on “Just me” and click on “Next”.
-* Click on “Next”.
-* **Select the first option for “Add Anaconda to my PATH environment variable”** and also **leave the selection on “Register Anaconda as my default Python 3.x”**. Click on “Install”.
-  * Note that even though the installation is for Mambaforge, the installer uses the word Anaconda in these options.
-  * You will also see a message in red text that selecting “Add Anaconda to my PATH environment variable” is not recommended; continue with this selection to make using conda easier in Git Bash. If you have questions or concerns, please contact your instructor.
-* When the install is complete, Click on “Next”.
-* Click on “Finish”.
+_These instructions were adapted from the [Introduction to hatch](https://www.pyopensci.org/python-package-guide/tutorials/get-to-know-hatch.html) section of the [pyOpenSci Python Packaging Guide](https://www.pyopensci.org/python-package-guide/)._
 
-#### Test that the installation was successful (all systems)
-* Search for and open the Terminal program (found in /Applications/Utilities). In this `Terminal` window, type `bash` and hit enter. If you do not get a message back, then `Bash` is available for use.
-* Next, type `git` and hit enter. If you see a list of commands that you can execute, then `Git` has been installed correctly.
-* Next, type `conda` and hit enter. Again, if you see a list of commands that you can execute, then Mambaforge `Python` has been installed correctly.
-* Close the `Terminal` by typing `exit`.
+### For Mac users
 
-### Install Hatch
-*These instructions were adapted from the [Introduction to Hatch](https://www.pyopensci.org/python-package-guide/tutorials/get-to-know-hatch.html) section of the [pyOpenSci Python Packaging Guide](https://www.pyopensci.org/python-package-guide/).*
+_These instructions are for installing Hatch using the GUI installer. If you’d prefer to use the Command line installer, please see the [Hatch documentation](https://hatch.pypa.io/latest/install/#command-line-installer)._
 
-#### For Mac users
-*These instructions are for installing Hatch using the GUI installer. If you’d prefer to use the Command line installer, please see the [Hatch documentation](https://hatch.pypa.io/latest/install/.#command-line-installer).*
 1. In your browser, download the `.pkg` file: [hatch-universal.pkg](https://github.com/pypa/hatch/releases/latest/download/hatch-universal.pkg)
-2. Run your downloaded file and follow the on-screen instructions.
-3. Restart your terminal.
-4. To verify that the shell can find and run the hatch command in your `PATH`, run `hatch --version` in your Terminal.
+2. Run the downloaded file and follow the on-screen instructions to install Hatch.
+3. Restart your terminal if it is already open.
+4. To verify that shell can find and run the `hatch` command, run:
+    1. `hatch --version` (in your Terminal / shell).
 
-#### For Linux users
-*Note: if you prefer to use a tool other than pipx, please refer to the [Hatch documentation](https://hatch.pypa.io/latest/) for more information.*
-* Install hatch from the command line using pipx: `pip install hatch`
+### For Linux users
 
-#### For Windows users
-*These instructions are for installing Hatch using the GUI installer. If you’d prefer to use the Command line installer, please see the [Hatch documentation](https://hatch.pypa.io/latest/install/#command-line-installer_1).*
-1. In your browser, download the `.msi` file: [hatch-x64.msi](https://github.com/pypa/hatch/releases/latest/download/hatch-x64.msi).
+_For linux users, the easiest way to install Hatch is to use pipx which can be installed using apt install. Note: if you prefer to use a tool other than pipx, please refer to the [Hatch documentation](https://hatch.pypa.io/latest/) for more information_
+
+* Install hatch from the command line using [pipx](https://pipx.pypa.io/stable/):  
+
+```bash
+# First install pipx using apt install
+>> apt install pipx
+# Then use pipx to install hatch
+>> pipx install hatch
+```
+
+### For Windows users
+
+_These instructions are for installing Hatch using the GUI installer. If you’d prefer to use the Command line installer, please see the [Hatch documentation](https://hatch.pypa.io/latest/install/#command-line-installer_1)._
+
+1. In your browser, download the `.msi` file: [hatch-x64.msi](https://github.com/pypa/hatch/releases/latest/download/hatch-x64.msi)
 2. Run your downloaded file and follow the on-screen instructions.
-3. Restart your terminal.
-4. To verify that the shell can find and run the hatch command in your `PATH`, run `hatch --version` in your Terminal.
+3. Restart your terminal if it was already open.
+4. To verify that the shell can find and run the `hatch` command in your `PATH`, in your terminal run:
+    1. `hatch --version`
 
 ### Configure Hatch (all systems)
-Once you have installed Hatch, you will want to customize the configuration. Hatch stores your configuration information in a `config.toml` file.
 
-While you can update the `config.toml` file through the command line, it might be easier to look at it and update it in a text editor if you are using it for the first time.
+After installing Hatch, it’s useful to customize the Hatch configuration. The
+configuration allows you to specify things like the default name and email to
+use in your package’s metadata. If you don’t configure Hatch, you can always
+edit files later! However your Hatch package outputs might look a bit different
+than the ones in the workshop. (This is ok!)
+
+Hatch stores your configuration information in a `config.toml` file.
+
+While you can update the `config.toml` file through the command line, it might
+be easier to look at it and update it in a text editor if you are using it for
+the first time.
 
 1. Open and edit your `config.toml` file by either:
-  * Running `hatch config explore` in your shell, which will open up a directory window that will allow you to double click on the file and open it in your favorite text editor.
-  * Alternatively, you can retrieve the location of the Hatch config file by running `hatch config find` in your shell.
+    1. Running `hatch config explore` in your shell, which will open up a directory window that will allow you to double click on the file and open it in your favorite text editor.
+    2. Alternatively, you can retrieve the location of the Hatch config file by running `hatch config find` in your shell.
 2. Update your email and name
-  * Once the file is open, update the \[template\] table of the `config.toml` file with your name and email. This information will be used in any `pyproject.toml` metadata files that you create using Hatch.
+    3. Once the file is open, update the [template] table of the `config.toml` file with your name and email. This information will be used in any `pyproject.toml` metadata files that you create using Hatch.
 3. Set tests to `false`
-*While tests are important, setting the tests configuration in Hatch to true will create a more complex pyproject.toml file. You won’t need to use this feature in this beginner friendly tutorial series but we will introduce it in later tutorials.*
-  * Set tests to `false` in the `[template.plugins.default]` table.
-4. Close the config file and `run hatch config show`
-`hatch config show` will print out the contents of your config.toml file in your shell. Look at the values and ensure that your name and email are set, and also  make sure that `tests=false`.
+
+    _While tests are important, setting the tests configuration in Hatch to true will create a more complex pyproject.toml file. We won’t be creating tests in this workshop._
+
+    Set tests to `false` in the `[template.plugins.default]` table.
+
+Your config file should look something like this:
+
+```toml
+mode = "local"
+project = ""
+shell = ""
+
+[dirs]
+project = []
+python = "isolated"
+data = "/Users/leahawasser/Library/Application Support/hatch"
+cache = "/Users/leahawasser/Library/Caches/hatch"
+
+[dirs.env]
+
+[projects]
+
+[publish.index]
+repo = "main"
+
+[template]
+name = "Leah Wasser"
+email = "leah@pyopensci.org"
+
+[template.licenses]
+headers = true
+default = [
+    "MIT",
+]
+
+[template.plugins.default]
+tests = false
+ci = false
+src-layout = true
+
+[terminal.styles]
+info = "bold"
+success = "bold cyan"
+error = "bold red"
+warning = "bold yellow"
+waiting = "bold magenta"
+debug = "bold"
+spinner = "simpleDotsScrolling"
+```
+
+Note: for future packages you may want to enable both CI and tests. This
+configuration is to simplify things for our beginner-friendly tutorial.
+
+4. Close the config file and run `hatch config show`
+
+    `hatch config show`
+
+This command prints out the contents of your config.toml file in your shell.
+Look at the values and ensure that your name and email are set and also make
+sure that `tests=false`.
+
+## Useful Commands
+
+### Conda environments
+
+* **Create environment:** `conda create -n env_name python=3.11`
+* **Activate environment:** `conda activate env_name`
+* **Leave environment:** `conda deactivate`
+
+### Venv environments
+
+Create environment
+
+* `python -m venv env_name`
+* Activate_windows: `env_name\Scripts\activate`
+* Activate MAC / LINUX: `source env_name/bin/activate`
+* Leave environment: `deactivate`
 
 ## Helpful links
 * Our [example Python package repo, `pyosPackage`](https://github.com/pyOpenSci/pyosPackage), that goes along with pyOpenSci tutorials.
 * [Workshop information on the SciPy 2024 website](https://cfp.scipy.org/2024/talk/QT9GBY/).
-
-## Workshop agenda
-
-### Hour One: the structure of an installable module
-
-**Key Takeaways: After this hour you will have an understanding of:**
-* the purpose of the \_\_init\_\_.py file, and
-* how workflow tools such as Hatch can be useful when making code installable.
-
-**0-15 minutes:** Here we will get to know each other. I’ll also briefly introduce pyOpenSci and the work that we are doing in open science education and training space.
-
-**15-30 minutes, interactive discussion:** Here, we’ll discuss why shareable code is important. And we’ll explore some best practices for making code easier to work with. I’ll also introduce Hatch as a workflow tool that streamlines tasks.
-
-**30-60 minutes, hands-on:** You will take an existing script and turn it into an installable module. You are welcome to use the provided scripts for this. If you are more comfortable with Python, then you can also bring your own script with you and work on it during the workshop.
-
-
-### Hour Two: everything you need to know about the `pyproject.toml` file & project metadata.
-
-**0-15 minutes, interactive discussion:** Here you’ll learn about the pyproject.toml and how it’s used to document dependencies, and metadata for your project.
-
-**15-30 minutes:** A short break to stretch your legs and get a drink.
-
-**30-60 minutes, hands-on:** In the hands-on part of this hour, you will modify your pyproject.toml file with required dependencies needed to run your code. You will also learn how to install your code in interactive or development mode using both pip and Hatch. Interactive mode will allow you to dynamically update your code and test it locally without reinstalling it. Finally, you will take your shiny new Python module for a test drive in your favorite Python environment.
-
-### Hour Three: the power of metadata and instructions for you, your future self & your colleagues
-
-**0-15 minutes, interactive discussion:** In this part of the tutorial we’ll discuss the power of documentation when sharing code and also for you when you have to update things in the future. **
-
-**15-50 minutes, hands-on:** Here you will [create a README file](https://www.pyopensci.org/python-package-guide/tutorials/add-readme.html) that helps users of your module understand how to install it and how to get started using it. You will also add [docstrings](https://www.pyopensci.org/python-package-guide/documentation/write-user-documentation/document-your-code-api-docstrings.html) to your code. See how docstrings are useful as “hints” when coding real time. Optional: if you are speedy, you can also delve into [typing](https://www.pyopensci.org/python-package-guide/documentation/write-user-documentation/document-your-code-api-docstrings.html#adding-type-hints-to-your-docstrings) your code on your own. However, we won’t directly cover typing in this tutorial.
-
-**50-60 minutes:** Break
-
-### Hour Four: publishing and sharing your code
-
-**0-15 minutes, interactive discussion:** Here we will discuss what it means to “[publish](https://www.pyopensci.org/python-package-guide/tutorials/publish-pypi.html)” code. We will also discuss other important elements such as license files and codes of conduct if you intend to turn your code into a published [package](https://www.pyopensci.org/python-package-guide/tutorials/intro.html).
-
-**15-45 minutes, hands-on:** Publishing to PyPI vs. installing from Github. Those who’d like to follow along interactively can do so here. However, if your brain is tired, sit back and learn how to build your module into a package distribution using Hatch. And then we will give you all of the tools needed to [publish to the test version of PyPI](https://www.pyopensci.org/python-package-guide/tutorials/publish-pypi.html).
-
-**45-60 minutes:** wrap up, answer any questions, and provide feedback on the session.
 
 ## <i class="fa-solid fa-link"></i> Connect with pyOpenSci
 
