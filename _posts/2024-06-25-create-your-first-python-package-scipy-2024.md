@@ -148,7 +148,7 @@ _These instructions are for installing Hatch using the GUI installer. If you’d
 
 _For linux users, the easiest way to install Hatch is to use pipx which can be installed using apt install. Note: if you prefer to use a tool other than pipx, please refer to the [Hatch documentation](https://hatch.pypa.io/latest/) for more information_
 
-* Install hatch from the command line using [pipx](https://pipx.pypa.io/stable/):  
+* Install hatch from the command line using [pipx](https://pipx.pypa.io/stable/):
 
 ```bash
 # First install pipx using apt install
