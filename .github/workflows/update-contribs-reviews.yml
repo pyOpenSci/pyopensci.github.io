@@ -24,7 +24,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          pip install pyosmeta
+          pip install git+https://github.com/pyOpenSci/pyosmeta.git@main
           update-contributors
           update-reviews
           update-review-teams
