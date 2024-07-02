@@ -88,3 +88,17 @@ Patrick J. Roddy:
     - label: Website
       icon: fas fa-fw fa-link
       url: https://paddyroddy.github.io
+Eliot W. Robson:
+  name        : Eliot W. Robson
+  bio         : "PhD Student, University of Illinois Urbana-Champaign"
+  avatar      : /images/people/eliot-w-robson.jpg
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:eliot.robson24@gmail.com"
+    - label: GitHub
+      icon: fab fa-fw fa-github
+      url: https://github.com/eliotwrobson
+    - label: LinkedIn
+      icon: fab fa-fw fa-linkedin
+      url: https://www.linkedin.com/in/eliot-robson/
