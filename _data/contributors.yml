@@ -3506,6 +3506,7 @@
   website:
   board: false
   contributor_type:
+    - community
     - guidebook-contrib
     - peer-review
     - peer-review-guide
@@ -6283,6 +6284,7 @@
   website:
   board: false
   contributor_type:
+    - package-guide
     - web-contrib
   packages_editor:
   packages_submitted:
@@ -6359,6 +6361,7 @@
   website:
   board: false
   contributor_type:
+    - community
     - web-contrib
   packages_editor:
   packages_submitted:
@@ -6441,9 +6444,139 @@
     - maintainer
     - peer-review
     - submitting-author
+    - web-contrib
   packages_editor:
   packages_submitted:
     - sleplet
   packages_reviewed:
   location: London
   email: patrickjamesroddy@gmail.com
+- name: Zack Weinberg
+  github_username: zackw
+  github_image_id: 325899
+  title:
+  sort:
+  bio: I AM NOT LOOKING FOR A JOB. DO NOT CONTACT ME WITH  JOB OFFERS. I do security
+      research and misc systems coding. Please see my personal website for more
+      detail.
+  organization:
+  date_added: '2024-07-02'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://www.owlfolio.org/
+  board: false
+  contributor_type:
+    - package-guide
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: Pittsburgh, PA
+  email:
+- name: Stefano Rivera
+  github_username: stefanor
+  github_image_id: 442117
+  title:
+  sort:
+  bio: 'Linux engineer: doing dev-ops, full-stack work, and some management. Looks
+      after some Python things in DebianI am COS positive (Conference Organizer
+      Syndrome'
+  organization: Freexian, Debian, Ubuntu
+  date_added: '2024-07-02'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor:
+  advisory: false
+  twitter: stefanorivera
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - package-guide
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: The Internet
+  email: stefanor@debian.org
+- name: Stefanie Molin
+  github_username: stefmolin
+  github_image_id: 24376333
+  title:
+  sort:
+  bio: Software Engineer | Speaker | Author of "Hands-On Data Analysis with Pandas"
+  organization: '@Bloomberg'
+  date_added: '2024-07-02'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor:
+  advisory: false
+  twitter: StefanieMolin
+  mastodon:
+  orcidid:
+  partners:
+  website: https://stefaniemolin.com
+  board: false
+  contributor_type:
+    - package-guide
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location:
+  email:
+- name: Ananthu C V
+  github_username: WeepingClown13
+  github_image_id: 95921427
+  title:
+  sort:
+  bio: Debian Maintainer. Lives in terminal.
+  organization:
+  date_added: '2024-07-02'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - package-guide
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location:
+  email: ananthucv5@gmail.com
+- name: Gabriel Stefanini Vicente
+  github_username: g4brielvs
+  github_image_id: 4053416
+  title:
+  sort:
+  bio: The true delight is in the finding out rather than in the knowing
+  organization: '@worldbank'
+  date_added: '2024-07-02'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://g4brielvs.me
+  board: false
+  contributor_type:
+    - web-contrib
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location:
+  email: gvicente@worldbank.org
