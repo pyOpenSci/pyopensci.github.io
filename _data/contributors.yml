@@ -153,6 +153,30 @@
     - devicely
   location: San Diego
   email: carolcode@willingconsulting.com
+- name: Neil Chue Hong
+  github_username: npch
+  github_image_id: 1507151
+  title: Advisory Council
+  sort:
+  bio: Director of the Software Sustainability Institute (@softwaresaved). Editor-in-Chief of the Journal of Open Research Software. Interested in software metrics.
+  organization: Software Sustainability Institute
+  date_added: '2024-07-04'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor:
+  advisory: true
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location:
+  email:
 - name: Erin Robinson
   github_username: erinmr
   github_image_id: 2915555
@@ -263,32 +287,6 @@
   packages_reviewed:
   location: London, UK
   email:
-- name: Leonardo Uieda
-  github_username: leouieda
-  github_image_id: 290082
-  title: Advisory Council
-  sort:
-  bio: Geophysicist investigating Earth's gravity & magnetic fields from global
-      to microscopic scale 🛰️🔬🌎
-  organization: University of Liverpool
-  date_added: '2023-01-18'
-  deia_advisory: false
-  editorial_board:
-  emeritus_editor:
-  advisory: true
-  twitter:
-  mastodon:
-  orcidid:
-  partners:
-  website: https://www.leouieda.com
-  board: false
-  contributor_type:
-    - leadership
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
-  location: Liverpool, UK
-  email: email@leouieda.com
 - name: Ivan Ogasawara
   github_username: xmnlab
   github_image_id: 5209757
@@ -369,10 +367,37 @@
     - nbless
   location: Florianópolis, SC
   email: ocefpaf@gmail.com
+- name: Leonardo Uieda
+  github_username: leouieda
+  github_image_id: 290082
+  title: Emeritus Advisory Council
+  sort:
+  bio: Geophysicist investigating Earth's gravity & magnetic fields from global
+      to microscopic scale 🛰️🔬🌎
+  organization: University of Liverpool
+  date_added: '2023-01-18'
+  deia_advisory: false
+  emeritus_advisory: true
+  editorial_board:
+  emeritus_editor:
+  advisory: true
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://www.leouieda.com
+  board: false
+  contributor_type:
+    - leadership
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: Liverpool, UK
+  email: email@leouieda.com
 - name: Lindsey Heagy
   github_username: lheagy
   github_image_id: 6361812
-  title: Advisory Council
+  title: Emeritus Advisory Council
   sort:
   bio: Asst. Prof at UBC EOAS. Researcher working on geophysical simulations and
       inversions (in @simpeg!) and data science.
@@ -381,7 +406,8 @@
   deia_advisory: false
   editorial_board:
   emeritus_editor:
-  advisory: true
+  emeritus_advisory: true
+  advisory: false
   twitter: lindsey_jh
   mastodon:
   orcidid:
