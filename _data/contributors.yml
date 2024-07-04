@@ -1590,12 +1590,15 @@
   website: https://jon-e.net
   board: false
   contributor_type:
+    - community
+    - editor
     - guidebook-contrib
     - package-guide
     - peer-review
     - reviewer
     - web-contrib
   packages_editor:
+    - automata
   packages_submitted:
   packages_reviewed:
     - python-graphblas
@@ -3506,6 +3509,7 @@
   website:
   board: false
   contributor_type:
+    - community
     - guidebook-contrib
     - peer-review
     - peer-review-guide
@@ -3565,9 +3569,12 @@
   website:
   board: false
   contributor_type:
+    - editor
     - guidebook-contrib
+    - peer-review
     - peer-review-guide
   packages_editor:
+    - martini
   packages_submitted:
   packages_reviewed:
   location: Cambridge, MA, USA
@@ -4001,9 +4008,13 @@
   website: https://eliotwrobson.github.io/
   board: false
   contributor_type:
+    - maintainer
+    - peer-review
+    - submitting-author
     - web-contrib
   packages_editor:
   packages_submitted:
+    - automata
   packages_reviewed:
   location: Urbana, IL
   email: erobson2@illinois.edu
@@ -6283,6 +6294,7 @@
   website:
   board: false
   contributor_type:
+    - package-guide
     - web-contrib
   packages_editor:
   packages_submitted:
@@ -6359,6 +6371,7 @@
   website:
   board: false
   contributor_type:
+    - community
     - web-contrib
   packages_editor:
   packages_submitted:
@@ -6441,9 +6454,358 @@
     - maintainer
     - peer-review
     - submitting-author
+    - web-contrib
   packages_editor:
   packages_submitted:
     - sleplet
   packages_reviewed:
   location: London
   email: patrickjamesroddy@gmail.com
+- name: Zack Weinberg
+  github_username: zackw
+  github_image_id: 325899
+  title:
+  sort:
+  bio: I AM NOT LOOKING FOR A JOB. DO NOT CONTACT ME WITH  JOB OFFERS. I do security
+      research and misc systems coding. Please see my personal website for more
+      detail.
+  organization:
+  date_added: '2024-07-04'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://www.owlfolio.org/
+  board: false
+  contributor_type:
+    - package-guide
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: Pittsburgh, PA
+  email:
+- name: Stefano Rivera
+  github_username: stefanor
+  github_image_id: 442117
+  title:
+  sort:
+  bio: 'Linux engineer: doing dev-ops, full-stack work, and some management. Looks
+      after some Python things in DebianI am COS positive (Conference Organizer
+      Syndrome'
+  organization: Freexian, Debian, Ubuntu
+  date_added: '2024-07-04'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor:
+  advisory: false
+  twitter: stefanorivera
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - package-guide
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: The Internet
+  email: stefanor@debian.org
+- name: Stefanie Molin
+  github_username: stefmolin
+  github_image_id: 24376333
+  title:
+  sort:
+  bio: Software Engineer | Speaker | Author of "Hands-On Data Analysis with Pandas"
+  organization: '@Bloomberg'
+  date_added: '2024-07-04'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor:
+  advisory: false
+  twitter: StefanieMolin
+  mastodon:
+  orcidid:
+  partners:
+  website: https://stefaniemolin.com
+  board: false
+  contributor_type:
+    - package-guide
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location:
+  email:
+- name: Ananthu C V
+  github_username: WeepingClown13
+  github_image_id: 95921427
+  title:
+  sort:
+  bio: Debian Maintainer. Lives in terminal.
+  organization:
+  date_added: '2024-07-04'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - package-guide
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location:
+  email: ananthucv5@gmail.com
+- name: Gabriel Stefanini Vicente
+  github_username: g4brielvs
+  github_image_id: 4053416
+  title:
+  sort:
+  bio: The true delight is in the finding out rather than in the knowing
+  organization: '@worldbank'
+  date_added: '2024-07-04'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://g4brielvs.me
+  board: false
+  contributor_type:
+    - web-contrib
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location:
+  email: gvicente@worldbank.org
+- name: Tom Aldcroft
+  github_username: taldcroft
+  github_image_id: 348089
+  title:
+  sort:
+  bio:
+  organization: Center for Astrophysics | Harvard & Smithsonian
+  date_added: '2024-07-04'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://cxc.harvard.edu/cdo/cxcstaff/staff_details.php?si=50
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - martini
+  location: Cambridge, MA
+  email: taldcroft@gmail.com
+- name:
+  github_username: MicheleDelliVeneri
+  github_image_id: 46787099
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2024-07-04'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - martini
+  location:
+  email:
+- name: Kyle Oman
+  github_username: kyleaoman
+  github_image_id: 32932511
+  title:
+  sort:
+  bio: Assistant Professor and Royal Society Dorothy Hodgkin Fellow at the Institute
+      for Computational Cosmology, Durham University.
+  organization:
+  date_added: '2024-07-04'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://kyleaoman.github.io
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+    - submitting-author
+  packages_editor:
+  packages_submitted:
+    - martini
+  packages_reviewed:
+  location:
+  email: kyle.a.oman@durham.ac.uk
+- name:
+  github_username: phildong
+  github_image_id: 35715936
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2024-07-04'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - automata
+  location:
+  email:
+- name: Iris Young
+  github_username: irisdyoung
+  github_image_id: 14185571
+  title:
+  sort:
+  bio: Structural biology methods developer and scientific software developer
+  organization: Lawrence Berkeley National Laboratory
+  date_added: '2024-07-04'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://irisdyoung.github.io/
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - automata
+  location: San Francisco, CA
+  email: irisdyoung@gmail.com
+- name: Nima Sarajpoor
+  github_username: NimaSarajpoor
+  github_image_id: 38519522
+  title:
+  sort:
+  bio: Data Scientist  | OSS Contributor  | Philomath
+  organization:
+  date_added: '2024-07-04'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://nimasarajpoor.github.io/blog/
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - automata
+  location:
+  email: nimasarajpoor@gmail.com
+- name: Caleb Evans
+  github_username: caleb531
+  github_image_id: 872474
+  title:
+  sort:
+  bio: Hi, I'm Caleb, a web developer who lives for Christ by building enjoyable
+      apps and useful tools. I hope you are blessed by what I've made!
+  organization:
+  date_added: '2024-07-04'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor:
+  advisory: false
+  twitter: caleb531
+  mastodon:
+  orcidid:
+  partners:
+  website: https://calebevans.me/
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_editor:
+  packages_submitted:
+    - automata
+  packages_reviewed:
+  location: Carlsbad, CA
+  email: caleb@calebevans.me
+- name:
+  github_username: Sinna
+  github_image_id: 2612667
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2024-07-04'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor:
+  advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - biocypher
+  location:
+  email:
