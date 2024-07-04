@@ -11,7 +11,12 @@
           </div>
         {% endif %}
       <h4 class="person_name" itemprop="headline">
-          <a href="https://github.com/{{ aperson.github_username }}" rel="permalink"> {{ aperson.name }}
+          <a href="https://github.com/{{ aperson.github_username }}" rel="permalink">
+            {% if aperson.name %}
+              {{ aperson.name }}
+            {% else %}
+              @{{ aperson.github_username }}
+            {% endif %}
          </a>
       </h4>
       <p class="page__meta">
