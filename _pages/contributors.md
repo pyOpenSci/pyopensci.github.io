@@ -59,10 +59,10 @@ the organization.
 We are grateful for the time that these community members spent on our
 advisory council.
 
-{% assign advisory_emeritus = site.data.contributors | where:"emeritus_advisory", true %}
+{% assign emeritus_advisory = site.data.contributors | where:"emeritus_advisory", true %}
 
 <div class="grid" style="width:50%">
-{% for aperson in advisory_emeritus %}
+{% for aperson in emeritus_advisory %}
   {{ aperson.person_name }}
     {% include people-grid.html  %}
 {% endfor %}
