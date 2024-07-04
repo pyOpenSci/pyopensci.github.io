@@ -13,7 +13,7 @@ jobs:
       - name: Check out the code
         uses: actions/checkout@v4
       - name: Setup Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: "3.10"
       - name: Upgrade pip
@@ -30,10 +30,10 @@ jobs:
           update-review-teams
 
       - name: run precommit hooks
-        uses: pre-commit/action@v3.0.0
+        uses: pre-commit/action@v3.0.1
         continue-on-error: true
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v5
+        uses: peter-evans/create-pull-request@v6
         with:
           add-paths: |
             _data/contributors.yml
