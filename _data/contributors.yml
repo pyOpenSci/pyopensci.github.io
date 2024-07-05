@@ -583,9 +583,10 @@
   github_username: cmarmo
   github_image_id: 1662261
   title:
+    - Editor in Chief
     - Editor
     - Peer review triage
-  sort: 2
+  sort: 1
   bio:
   organization:
   date_added: '2023-01-24'
@@ -719,9 +720,9 @@
   github_username: Batalex
   github_image_id: 11004857
   title:
-    - Editor in Chief
+    - Emeritus Editor in Chief
     - Editor
-  sort: 1
+  sort: 2
   bio:
   organization:
   date_added: '2023-02-04'
