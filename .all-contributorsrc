@@ -363,6 +363,16 @@
         "code",
         "review"
       ]
+    },
+    {
+      "login": "SeanAverS",
+      "name": "SeanAverS",
+      "avatar_url": "https://avatars.githubusercontent.com/u/110581427?v=4",
+      "profile": "https://github.com/SeanAverS",
+      "contributions": [
+        "code",
+        "review"
+      ]
     }
   ],
   "commitConvention": "angular",
