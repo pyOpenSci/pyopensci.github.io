@@ -1,16 +1,14 @@
 ---
 layout: single
-title: "pyOpenSci Workshop: Create Your First Python Package"
+title: "Workshop: pyOpenSci @ SciPy 2024 -- Create Your First Python Package"
 excerpt: "pyOpenSci will be running our `Create Your First Python Package: Make Your Python Code Easier to Share and Use
 ` workshop at SciPy 2024. Read on to learn more!"
-author: "Jesse Mostipak"
-permalink: /blog/pyos-workshop-scipy-2024.html
+author:
+permalink: /events/code-to-module-python-package-scipy-2024.html
 header:
   overlay_image: images/headers/scipy-2024-workshop.png
   overlay_filter: rgba(20, 13, 36, 0.8)
 categories:
-  - blog-post
-  - community
   - events
 classes: wide
 toc: true
@@ -29,21 +27,25 @@ comments: true
 Creating code that can be shared and reused is the gold-standard of open science. But the tools and skills to share your code can be tricky to learn. In this hands-on tutorial, you’ll learn how to turn your code into an installable Python module (a file containing Python code that defines functions, classes, and variables), that can be shared with others. We will provide pre-built code and module examples for each step of the tutorial to help make it more beginner-friendly, but you will need some basic Python skills to get the most out of this session.
 
 You will leave this tutorial understanding how to:
+
 * Create code that can be installed into different environments
 * Use [Hatch](https://hatch.pypa.io/latest/) as a workflow tool, making setup and installation of your code easier
 * Use Hatch to publish your package to the test version of [PyPI](https://pypi.org/)
 
 ## What you need to know
+
 * Basic Python programming
 * How to write functions in Python
 * How to use a Python environment manager of your choosing
 
 ## What you need installed
+
 * Python
 * An environment manager
 * Hatch
 
 ## Workshop agenda
+
 <table width="100%">
   <tbody>
     <tr>
@@ -266,6 +268,7 @@ Create environment
 * Leave environment: `deactivate`
 
 ## Helpful links
+
 * Our [example Python package repo, `pyosPackage`](https://github.com/pyOpenSci/pyosPackage), that goes along with pyOpenSci tutorials.
 * [Workshop information on the SciPy 2024 website](https://cfp.scipy.org/2024/talk/QT9GBY/).
 
