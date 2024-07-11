@@ -34,6 +34,8 @@ main:
         url: "learn.html"
       - title: Blog
         url: "/blog/index.html"
+      - title: Events
+        url: "/events/index.html"
       - title: Ask a question
         url: "https://pyopensci.discourse.group/"
         icon: "fa-brands fa-discourse"
