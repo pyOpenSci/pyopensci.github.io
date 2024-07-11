@@ -1,9 +1,9 @@
 ---
-layout: posts_gallery
-permalink: /blog/
+layout: posts_events
+permalink: /events/
 classes: wide
-title: "pyOpenSci Blog"
-excerpt: "Here we will both post updates about pyOpenSci and also highlight contributors. We will also highlight new packages that have been reviewed and accepted into the pyOpenSci ecosystem."
+title: "pyOpenSci Events"
+excerpt: "Events."
 header:
     overlay_color: "#666"
     overlay_filter: 0.6
