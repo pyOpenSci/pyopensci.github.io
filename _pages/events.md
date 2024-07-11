@@ -10,7 +10,8 @@ header:
 author_profile: false
 ---
 
-## Recent pyOpenSci Posts
+## pyOpenSci Events
+
 <!--
 {% comment %}
 {% include base_path %}
