@@ -12,6 +12,7 @@
   editorial_board: false
   emeritus_editor: true
   advisory: false
+  emeritus_advisory: true
   twitter: leahawasser
   mastodon: https://fosstodon.org/@leahawasser
   orcidid: 0000-0002-8177-6550
@@ -52,6 +53,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -77,6 +79,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: kcranstn
   mastodon:
   orcidid:
@@ -104,6 +107,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -132,6 +136,7 @@
   editorial_board:
   emeritus_editor:
   advisory: true
+  emeritus_advisory:
   twitter: WillingCarol
   mastodon:
   orcidid:
@@ -156,26 +161,30 @@
 - name: Neil Chue Hong
   github_username: npch
   github_image_id: 1507151
-  title: Advisory Council
+  title:
   sort:
-  bio: Director of the Software Sustainability Institute (@softwaresaved). Editor-in-Chief of the Journal of Open Research Software. Interested in software metrics.
-  organization: Software Sustainability Institute
-  date_added: '2024-07-04'
+  bio: Director of the Software Sustainability Institute (@softwaresaved). Editor-in-Chief
+      of the Journal of Open Research Software. Interested in software metrics.
+  organization: '@softwaresaved'
+  date_added: '2023-02-24'
   deia_advisory: false
   editorial_board:
   emeritus_editor:
-  advisory: true
+  advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
   partners:
-  website:
+  website: https://www.software.ac.uk
   board: false
   contributor_type:
+    - contributor
+    - package-guide
   packages_editor:
   packages_submitted:
   packages_reviewed:
-  location:
+  location: Edinburgh, United Kingdom
   email:
 - name: Erin Robinson
   github_username: erinmr
@@ -189,6 +198,7 @@
   editorial_board:
   emeritus_editor:
   advisory: true
+  emeritus_advisory:
   twitter: connector_erin
   mastodon:
   orcidid:
@@ -215,6 +225,7 @@
   editorial_board:
   emeritus_editor:
   advisory: true
+  emeritus_advisory:
   twitter: choldgraf
   mastodon:
   orcidid:
@@ -224,6 +235,7 @@
   contributor_type:
     - guidebook-contrib
     - leadership
+    - package-guide
     - peer-review-guide
     - reviewer
   packages_editor:
@@ -245,6 +257,7 @@
   editorial_board:
   emeritus_editor:
   advisory: true
+  emeritus_advisory:
   twitter: inessapawson
   mastodon:
   orcidid:
@@ -272,6 +285,7 @@
   editorial_board:
   emeritus_editor:
   advisory: true
+  emeritus_advisory:
   twitter: pradyunsg
   mastodon: https://mastodon.social/@pradyunsg
   orcidid:
@@ -301,6 +315,7 @@
   editorial_board:
   emeritus_editor: true
   advisory: true
+  emeritus_advisory: true
   twitter: xmnlab
   mastodon:
   orcidid: 0000-0001-5049-4289
@@ -345,6 +360,7 @@
   editorial_board: true
   emeritus_editor:
   advisory: true
+  emeritus_advisory:
   twitter: ocefpaf
   mastodon:
   orcidid: 0000-0003-4165-2913
@@ -377,10 +393,10 @@
   organization: University of Liverpool
   date_added: '2023-01-18'
   deia_advisory: false
-  emeritus_advisory: true
   editorial_board:
   emeritus_editor:
   advisory: true
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -406,8 +422,8 @@
   deia_advisory: false
   editorial_board:
   emeritus_editor:
-  emeritus_advisory: true
   advisory: false
+  emeritus_advisory:
   twitter: lindsey_jh
   mastodon:
   orcidid:
@@ -434,6 +450,7 @@
   editorial_board:
   emeritus_editor:
   advisory: true
+  emeritus_advisory:
   twitter: martinfleis
   mastodon: https://fosstodon.org/@martinfleis
   orcidid: 0000-0003-3319-3366
@@ -462,6 +479,7 @@
   editorial_board:
   emeritus_editor:
   advisory: true
+  emeritus_advisory:
   twitter:
   mastodon: https://hachyderm.io/@yuvipanda
   orcidid:
@@ -489,6 +507,7 @@
   editorial_board:
   emeritus_editor:
   advisory: true
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -515,6 +534,7 @@
   editorial_board: false
   emeritus_editor: true
   advisory: false
+  emeritus_advisory: true
   twitter: arianemsasso
   mastodon:
   orcidid:
@@ -554,6 +574,7 @@
   editorial_board: true
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: nicholdav
   mastodon: https://fosstodon.org/@nicholdav
   orcidid: 0000-0002-4261-4719
@@ -594,6 +615,7 @@
   editorial_board: true
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid: 0000-0003-2843-6044
@@ -629,6 +651,7 @@
   editorial_board: false
   emeritus_editor: true
   advisory: false
+  emeritus_advisory: true
   twitter:
   mastodon:
   orcidid:
@@ -662,6 +685,7 @@
   editorial_board: true
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -697,6 +721,7 @@
   editorial_board: false
   emeritus_editor: true
   advisory: false
+  emeritus_advisory: true
   twitter: underdarkGIS
   mastodon:
   orcidid:
@@ -730,6 +755,7 @@
   editorial_board: true
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon: https://fosstodon.org/@batalex
   orcidid:
@@ -765,6 +791,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: mxwlj
   mastodon:
   orcidid:
@@ -797,6 +824,7 @@
   editorial_board: false
   emeritus_editor: true
   advisory: false
+  emeritus_advisory: true
   twitter:
   mastodon:
   orcidid:
@@ -830,6 +858,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: dynamicwebpaige
   mastodon:
   orcidid:
@@ -855,6 +884,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: carsonfarmer
   mastodon:
   orcidid:
@@ -880,6 +910,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: _jhamman
   mastodon:
   orcidid:
@@ -905,6 +936,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -935,6 +967,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -964,6 +997,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -977,32 +1011,6 @@
   packages_reviewed:
   location: Washington, DC
   email: triznam@si.edu
-- name: Neil Chue Hong
-  github_username: npch
-  github_image_id: 1507151
-  title:
-  sort:
-  bio: Director of the Software Sustainability Institute (@softwaresaved). Editor-in-Chief
-      of the Journal of Open Research Software. Interested in software metrics.
-  organization: '@softwaresaved'
-  date_added: '2023-02-24'
-  deia_advisory: false
-  editorial_board:
-  emeritus_editor:
-  advisory: false
-  twitter:
-  mastodon:
-  orcidid:
-  partners:
-  website: https://www.software.ac.uk
-  board: false
-  contributor_type:
-    - contributor
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
-  location: Edinburgh, United Kingdom
-  email:
 - name: Niels Bantilan
   github_username: cosmicBboy
   github_image_id: 2816689
@@ -1015,6 +1023,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: cosmicbboy
   mastodon:
   orcidid:
@@ -1047,6 +1056,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -1074,6 +1084,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: rg0swami
   mastodon:
   orcidid:
@@ -1101,6 +1112,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: metasomite
   mastodon:
   orcidid:
@@ -1130,6 +1142,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -1161,6 +1174,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: edgarriba
   mastodon:
   orcidid:
@@ -1189,6 +1203,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -1215,6 +1230,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -1241,6 +1257,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -1267,6 +1284,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -1293,6 +1311,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: Jonny_Wireless
   mastodon:
   orcidid: 0000-0002-2575-9633
@@ -1325,6 +1344,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: ksielemann
   mastodon:
   orcidid:
@@ -1353,6 +1373,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: mluerig
   mastodon:
   orcidid:
@@ -1383,6 +1404,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -1417,6 +1439,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: LunaSare
   mastodon:
   orcidid:
@@ -1446,6 +1469,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -1474,6 +1498,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -1501,6 +1526,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: JuliusBusecke
   mastodon:
   orcidid:
@@ -1528,6 +1554,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon: https://fediscience.org/@npalopoli
   orcidid: ​0000-0001-7925-6436
@@ -1552,6 +1579,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: eriknwelch
   mastodon:
   orcidid:
@@ -1584,6 +1612,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: PamphileRoy
   mastodon:
   orcidid:
@@ -1610,6 +1639,7 @@
   editorial_board: true
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: json_dirs
   mastodon: https://neuromatch.social/@jonny
   orcidid: 0000-0003-0545-5066
@@ -1643,6 +1673,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -1669,6 +1700,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -1697,6 +1729,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: henryschreiner3
   mastodon:
   orcidid:
@@ -1724,6 +1757,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: stefanvdwalt
   mastodon:
   orcidid:
@@ -1751,6 +1785,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -1778,6 +1813,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: ralfgommers
   mastodon:
   orcidid:
@@ -1804,6 +1840,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -1832,6 +1869,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -1859,6 +1897,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: rabernat
   mastodon:
   orcidid:
@@ -1886,6 +1925,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: gawbul
   mastodon:
   orcidid:
@@ -1915,6 +1955,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -1941,6 +1982,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -1967,6 +2009,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: itss_sumit
   mastodon:
   orcidid:
@@ -1994,6 +2037,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: e_Sundell
   mastodon:
   orcidid:
@@ -2020,6 +2064,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -2047,6 +2092,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: starfleetjames
   mastodon:
   orcidid:
@@ -2073,6 +2119,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -2099,6 +2146,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: frostming90
   mastodon:
   orcidid:
@@ -2126,6 +2174,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -2152,6 +2201,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -2179,6 +2229,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: jezdez
   mastodon:
   orcidid:
@@ -2205,6 +2256,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: dave_hirschfeld
   mastodon:
   orcidid:
@@ -2231,6 +2283,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -2257,6 +2310,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -2286,6 +2340,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -2315,6 +2370,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -2344,6 +2400,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: agricolabs
   mastodon:
   orcidid:
@@ -2373,6 +2430,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: boas_pucker
   mastodon:
   orcidid:
@@ -2401,6 +2459,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: leomrtns
   mastodon:
   orcidid:
@@ -2428,6 +2487,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -2455,6 +2515,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -2482,6 +2543,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: seth_donoughe
   mastodon:
   orcidid:
@@ -2510,6 +2572,7 @@
   editorial_board: false
   emeritus_editor: true
   advisory: false
+  emeritus_advisory: true
   twitter: jbencook
   mastodon:
   orcidid:
@@ -2538,6 +2601,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: romain_beucher
   mastodon:
   orcidid:
@@ -2566,6 +2630,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: Charles_LeLosq
   mastodon:
   orcidid:
@@ -2594,6 +2659,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -2623,6 +2689,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: TessaRhinehart
   mastodon:
   orcidid: 0000-0002-4352-3464
@@ -2650,6 +2717,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid: 0000-0002-5538-8845
@@ -2678,6 +2746,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -2706,6 +2775,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -2738,6 +2808,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: srobainae
   mastodon:
   orcidid:
@@ -2771,6 +2842,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -2801,6 +2873,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: __jmunroe
   mastodon:
   orcidid:
@@ -2829,6 +2902,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -2856,6 +2930,7 @@
   editorial_board: true
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: tlrss
   mastodon:
   orcidid:
@@ -2887,6 +2962,7 @@
   editorial_board: true
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: ctitusbrown
   mastodon:
   orcidid:
@@ -2920,6 +2996,7 @@
   editorial_board: true
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -2949,6 +3026,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -2974,6 +3052,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -3001,6 +3080,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -3028,6 +3108,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -3055,6 +3136,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: paajake
   mastodon:
   orcidid:
@@ -3082,6 +3164,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -3110,6 +3193,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: ucodery
   mastodon:
   orcidid:
@@ -3136,6 +3220,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: IramMahe
   mastodon:
   orcidid:
@@ -3162,6 +3247,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -3188,6 +3274,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: davidstansby
   mastodon:
   orcidid:
@@ -3218,6 +3305,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: juanitagomezr
   mastodon:
   orcidid:
@@ -3247,6 +3335,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -3276,6 +3365,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -3305,6 +3395,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -3331,6 +3422,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: dpprdan
   mastodon:
   orcidid:
@@ -3358,6 +3450,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: StarFleetTours
   mastodon:
   orcidid:
@@ -3383,6 +3476,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid: 0000-0002-7109-3270
@@ -3414,6 +3508,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: jfy133
   mastodon:
   orcidid:
@@ -3442,6 +3537,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: me_beber
   mastodon:
   orcidid:
@@ -3474,6 +3570,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid: 0000-0002-3100-523X
@@ -3502,6 +3599,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -3529,6 +3627,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -3560,6 +3659,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -3588,6 +3688,7 @@
   editorial_board: true
   emeritus_editor: false
   advisory: false
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -3618,6 +3719,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -3644,6 +3746,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -3669,6 +3772,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: thomasjpfan
   mastodon:
   orcidid:
@@ -3694,6 +3798,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -3719,6 +3824,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -3744,6 +3850,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: OriolAbril
   mastodon:
   orcidid:
@@ -3771,6 +3878,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -3798,6 +3906,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: saltyscientist
   mastodon:
   orcidid:
@@ -3828,6 +3937,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -3856,6 +3966,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: 7yl4r
   mastodon:
   orcidid:
@@ -3884,6 +3995,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: theayushanand
   mastodon:
   orcidid:
@@ -3911,6 +4023,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -3938,6 +4051,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -3965,6 +4079,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -3997,6 +4112,7 @@
   editorial_board: true
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -4028,6 +4144,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: eliotdexter
   mastodon:
   orcidid:
@@ -4057,6 +4174,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -4082,6 +4200,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -4110,6 +4229,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: k_kloppenborg
   mastodon:
   orcidid:
@@ -4139,6 +4259,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -4167,6 +4288,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -4195,6 +4317,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -4222,6 +4345,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -4250,6 +4374,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -4277,6 +4402,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -4304,6 +4430,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -4331,6 +4458,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -4356,6 +4484,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -4383,6 +4512,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -4410,6 +4540,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: WowThatBurns
   mastodon:
   orcidid:
@@ -4439,6 +4570,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -4466,6 +4598,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -4493,6 +4626,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -4520,6 +4654,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: nwlandry
   mastodon:
   orcidid:
@@ -4548,6 +4683,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -4575,6 +4711,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -4602,6 +4739,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: iacopoiacopini
   mastodon:
   orcidid:
@@ -4629,6 +4767,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: lordgrilo
   mastodon:
   orcidid:
@@ -4656,6 +4795,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -4683,6 +4823,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: thomrobiglio
   mastodon:
   orcidid:
@@ -4710,6 +4851,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: AlicePatania
   mastodon:
   orcidid:
@@ -4738,6 +4880,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -4767,6 +4910,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -4793,6 +4937,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -4819,6 +4964,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: nutjob4life
   mastodon:
   orcidid:
@@ -4847,6 +4993,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: teabass
   mastodon:
   orcidid:
@@ -4873,6 +5020,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: lukasheumos
   mastodon:
   orcidid:
@@ -4900,6 +5048,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: slobentanzer
   mastodon:
   orcidid:
@@ -4928,6 +5077,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -4953,6 +5103,7 @@
   editorial_board: true
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -4981,6 +5132,7 @@
   editorial_board: true
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -5008,6 +5160,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -5033,6 +5186,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -5060,6 +5214,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -5088,6 +5243,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -5116,6 +5272,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -5143,6 +5300,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -5170,6 +5328,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -5198,6 +5357,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -5225,6 +5385,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -5252,6 +5413,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: wtbarnes_
   mastodon:
   orcidid:
@@ -5279,6 +5441,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -5306,6 +5469,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -5333,6 +5497,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: Laura_hayess
   mastodon:
   orcidid:
@@ -5360,6 +5525,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -5387,6 +5553,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: michael_ts0
   mastodon:
   orcidid:
@@ -5414,6 +5581,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -5442,6 +5610,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: chowthedog
   mastodon:
   orcidid:
@@ -5469,6 +5638,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -5497,6 +5667,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -5522,6 +5693,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -5548,6 +5720,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: riannone
   mastodon:
   orcidid:
@@ -5575,6 +5748,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: HKibirige
   mastodon:
   orcidid:
@@ -5603,6 +5777,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -5632,6 +5807,7 @@
   editorial_board: true
   emeritus_editor: false
   advisory: false
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -5661,6 +5837,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: webknjaz
   mastodon:
   orcidid:
@@ -5686,6 +5863,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -5714,6 +5892,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -5740,6 +5919,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -5765,6 +5945,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -5791,6 +5972,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -5816,6 +5998,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -5841,6 +6024,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -5866,6 +6050,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: GravityAndBikes
   mastodon:
   orcidid:
@@ -5893,6 +6078,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -5921,6 +6107,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: dncnwtts
   mastodon:
   orcidid:
@@ -5948,6 +6135,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -5975,6 +6163,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: SciencePaige
   mastodon:
   orcidid:
@@ -6002,6 +6191,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -6030,6 +6220,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -6058,6 +6249,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -6085,6 +6277,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -6112,6 +6305,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -6137,6 +6331,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -6162,6 +6357,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: pb_413
   mastodon:
   orcidid:
@@ -6187,6 +6383,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: OmegaSpaces
   mastodon:
   orcidid:
@@ -6213,6 +6410,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -6238,6 +6436,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -6263,6 +6462,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -6288,6 +6488,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -6314,6 +6515,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -6340,6 +6542,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -6366,6 +6569,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: MissingClara
   mastodon:
   orcidid:
@@ -6391,6 +6595,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -6417,6 +6622,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -6444,6 +6650,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -6471,6 +6678,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -6502,6 +6710,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -6529,6 +6738,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: stefanorivera
   mastodon:
   orcidid:
@@ -6554,6 +6764,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: StefanieMolin
   mastodon:
   orcidid:
@@ -6579,6 +6790,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -6604,6 +6816,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -6629,6 +6842,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -6656,6 +6870,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -6684,6 +6899,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -6712,6 +6928,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -6739,6 +6956,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -6766,6 +6984,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -6794,6 +7013,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter: caleb531
   mastodon:
   orcidid:
@@ -6821,6 +7041,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
+  emeritus_advisory:
   twitter:
   mastodon:
   orcidid:
@@ -6834,5 +7055,57 @@
   packages_submitted:
   packages_reviewed:
     - biocypher
+  location:
+  email:
+- name:
+  github_username: SeanAverS
+  github_image_id: 110581427
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2024-07-15'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor:
+  advisory: false
+  emeritus_advisory:
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - web-contrib
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: Canada
+  email:
+- name: Han
+  github_username: ayhanxian
+  github_image_id: 20816603
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2024-07-15'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor:
+  advisory: false
+  emeritus_advisory:
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - web-contrib
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email:
