@@ -10,3 +10,4 @@ all_contribs.pickle
 .vale.ini
 styles/*
 tmp/*
+.bundle
