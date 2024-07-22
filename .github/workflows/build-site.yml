@@ -22,20 +22,15 @@ jobs:
           git fetch origin main --depth 1
           git branch
 
-      # Use GitHub Actions' cache to shorten build times and decrease load on servers
-      - name: Use cache to shorten build time
-        uses: actions/cache@v4
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@1
         with:
-          path: vendor/bundle
-          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-gems-
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
 
-      - name: Build Jekyll site
-        uses: helaili/jekyll-action@v2
-        with:
-          build_only: true
-          build_dir: _site
+      - name: Build with Jekyll
+        run: bundle exec jekyll build
+        env:
+          JEKYLL_ENV: production
 
       - name: Check links with lychee
         id: lychee
