@@ -16,7 +16,7 @@ comments: true
 ---
 ## <i class="fa-regular fa-handshake"></i> See you at SciPy!
 
-[SciPy 2024](https://www.scipy2024.scipy.org/) is just around the corner, and we can’t wait to see you there! We’re pulling together our pyOpenSci Guide to SciPy, similar to the guide we did for [PyCon 2024](https://www.pyopensci.org/blog/pyos-guide-to-pyconus-2024.html), and wanted to give you a preview of some of the tutorials and talks being given by pyOpenSci Community members!
+[SciPy 2024](https://www.scipy2024.scipy.org/) is just around the corner. We can’t wait to see you there! We’re pulling together our pyOpenSci Guide to SciPy, similar to the guide we did for [PyCon 2024](https://www.pyopensci.org/blog/pyos-guide-to-pyconus-2024.html), and wanted to give you a preview of some of the tutorials and talks being given by pyOpenSci Community members!
 
 ## <i class="fa-solid fa-chalkboard-user"></i> Tutorials
 
