@@ -21,15 +21,14 @@ comments: true
 * fix captions
 * add stravalib note at the end of my talk section -->
 
-
 <div class="notice" markdown = "1">
 ## TL;DR
 
 * pyOpenSci had a strong presence at [PyCon US](https://us.pycon.org/2024/) this year. I hope this continues for years to come! We held an open space, helped run the [Maintainers Summit](https://us.pycon.org/2024/events/maintainers-summit/) (lead by [Inessa Pawson](https://github.com/InessaPawson) for 5 years and counting), gave [a talk on Python packaging](https://us.pycon.org/2024/schedule/presentation/34/) and ran a 1 day sprint where over 16 people contributed to our efforts.
 * pyOpenSci’s theme this year for PyConUS was people first: people first when trying to make technical concepts easier to understand, people first when trying to write good tutorials or documentation and people first when you are trying to solve the world’s hardest problems.
 * Giving a talk on packaging at pyConUS triggered every ounce of the imposter in me. But in the end it was a rewarding experience. Having friends in the audience made a world of difference. It was calming to focus on people who I know support both me and this vibrant organization. Friends really should never let friends…package…or use Python…or do anything technical…alone.
-</div>
 
+</div>
 
 ## Another year, another incredible PyCon
 
@@ -41,7 +40,6 @@ reproducible** so they can tackle the world's greatest challenges.
 PyCon US, run by the [Python Software
 Foundation,](https://www.python.org/psf-landing/) is one of the biggest Python meetings in the world, with a record 2,700 registrations this year.
 {: .notice }
-
 
 I also knew that I'd get to see a bunch of the friends who I met last year. I was returning to
 this inclusive community, filled with Pythonistas like me
@@ -73,7 +71,6 @@ projects and organizations and our sprints were awesome with many new contributi
 My takeaway: if you are considering going to PyCon but are worried about not knowing
 people YOU SHOULD STILL GO! You can feel the true spirit of open source (and open science) at PyCon US. No judgement. All "levels" of Pythonistas welcome.
 
-
 ## My first main track PyCon US talk: Friends don't let friends package alone
 
 This year, I gave my first main track talk at PyCon, titled “Friends Don’t Let
@@ -81,12 +78,15 @@ Friends Package Alone.” Getting a main track slot means presenting on a big
 stage to a huge room of people! It was real - headset mic, incredible
 tech support, and even an “escort” from the speaker room to the main stage. Wow!
 
+You can check it out on youtube below:
+
+{% include video id="mJPoj9Ex9fk" provider="youtube" %}
+
 Speaking of friends, it was my friends who got me through this talk. I saw them sitting in
 the front rows, smiling and supporting me. They both empowered me and gave me calm.
 
 As someone who often battles imposter syndrome, giving a talk on the "big" stage of a tech meeting
 was unforgettable.
-
 
 <figure>
   <img src="{{ site.baseurl }}/images/blog/2024/may/leah-talking-pyconus-2024.jpg" alt="Image of a woman on a big stage wearing a red tank top talking. On the side is a slide that says pyOpenSci - Save the Date. Open science fall festival september 28-29 2024" style="width: 70%;" />
@@ -94,6 +94,7 @@ was unforgettable.
 </figure>
 
 ### A talk about making Python packaging more beginner friendly
+
 My talk focused on how pyOpenSci helps beginners by breaking down
 complex packaging concepts into simple, digestible pieces. I leaned into decades of
 experience and study of teaching data science to various audiences, from big-ten university students
@@ -110,21 +111,16 @@ fundamental concepts, and
 * avoid “Too Many Options and Opinions” (TMO) to keep things simple
 for beginners.
 
-
-
 <figure>
   <img src="{{ site.baseurl }}/images/blog/2024/may/pyopensci-too-many-python-packaging-options-pycon-talk-2024.png
 " alt="A cute image of a black flat coated retriever laying on the floor with a purple ice pack on it's head looking right at you." />
   <figcaption>Whether it's too many options or too many opinions, TMO will push beginner users away. Too many options create cognitive load that prevent users from having successful experiences.</figcaption>
 </figure>
 
-
 <!-- [I break this all down in more detail here if you want to read more.](#addlink) -->
 
 Giving a talk at PyConUS experience reinforced my belief in the power of community to tackle complex
 problems and support each other in our scientific journeys.
-
-
 
 <!--
 Or you can check out the talk itself on youtube below:
@@ -134,7 +130,6 @@ TODO: embed video - they are slowly being posted - 145 are in draft state....
 2023 talk --
 https://www.youtube.com/watch?v=Qxy7bxW72iA
 -->
-
 
 ## <i class="fa-solid fa-rocket"></i> The PyCon US maintainers Summit <i class="fa-solid fa-rocket"></i>
 
@@ -160,7 +155,6 @@ quickly and a waitlist, the event was a success. Next year (if we are invited ba
 
 {% include video id="L-Ok_89QJOM" provider="youtube" %}
 
-
 Also if you were wondering, yes that Monstera Deliciosa (plant) in the background is real! AND YES it is ginormous! <i class="fa-solid fa-leaf"></i>
 
 ## <i class="fa-solid fa-users-gear"></i> Our second pyOpenSci sprint <i class="fa-solid fa-users-gear"></i>
@@ -173,11 +167,9 @@ This year we had a tremendous turnout of over 20 people from several countries f
   <figcaption>The pyConUS sprint sign-up board had lots of projects. Because the rooms are large, projects tend to share spaces. We ended up in the packaging room which was great as it allowed us to do some more difficult work around Python packages with C extensions!</figcaption>
 </figure>
 
-
-
 If you haven’t been to a sprint before, it’s an experience that every open source enthusiast should have. Sprints are where a bunch of people come together to work on a project. If you are running sprints that support software development in a professional environment (i.e. at a company) this might mean a team of people working together on releasing a new software feature. But for the open source community, sprints can also mean volunteers coming to a space to help maintainers work on various parts of a project that they care about - like pyOpenSci!
 
-pyOpenSci supports other people's software through it's [open community-lead peer review process ](https://www.pyopensci.org/about-peer-review/index.html) and it's online, free [packaging resources](https://www.pyopensci.org/python-package-guide/). But it also has it's own software too. We have tools that help us keep track of our review process and volunteer contributions so we can acknowledge everyone for their effort.
+pyOpenSci supports other people's software through it's [open community-lead peer review process](https://www.pyopensci.org/about-peer-review/index.html) and it's online, free [packaging resources](https://www.pyopensci.org/python-package-guide/). But it also has it's own software too. We have tools that help us keep track of our review process and volunteer contributions so we can acknowledge everyone for their effort.
 
 Acknowledging contributions is so so so (did I mention SO?) important. And we value them so much.
 
@@ -225,8 +217,8 @@ workflows that allow allowing scientists to focus on their research
 rather than tools. We plan to tackle some of these and other topics during our Fall festival on September 28-29,
 2024 so save the date and come ready to learn and share!
 
-
 ## <i class="fa-solid fa-box-open"></i> Packaging summit
+
 Last but not least, pyOpenSci had a strong presence at the PyConUS packaging summit this year. The summit was organization by [Pradyun Gedam](https://github.com/pradyunsg), [Jannis Leidel](https://github.com/jezdez), [CAM Gerlach](https://github.com/CAM-Gerlach), [Filipe Laínes](https://github.com/FFY00). As I have mentioned several times, packaging is one of the more thorny topics in our Python ecosystem. However, this year, things felt different compared to last.
 
 For one, there were a lot more people in the room, and people with different perspectives. For starters, last year I was 1 of 3? female-identifying people in the room - this year there were people from many backgrounds and identities in the room! Last year also felt more technical whereas this year was a perfect mix of  discussing technical topics combined with a strong theme of considering user experience in both installing Python and creating packages. PLUS - documentation - yes PLEASE!
@@ -237,7 +229,7 @@ I'm hopeful.
 
 From my perspective, the biggest challenges in our ecosystem revolve around:
 
-*  too much focus on tools and not enough focus on user experience and documentation, and
+* too much focus on tools and not enough focus on user experience and documentation, and
 * too many options and opinions that prevent users from have early success.
 
 There is a path forward. And people who are working on tools in the ecosystem really do care -- a lot. So please thank them - thank the maintainers and people who work on the tools that you use - or might use in the future. It's all volunteer time.
