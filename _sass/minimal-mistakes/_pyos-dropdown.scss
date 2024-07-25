@@ -349,8 +349,8 @@ drop shadow
   /* Positioned by burger
   TODO: might be better within the drop down??*/
   .search__toggle {
-    position: fixed;
-    right: 20%;
+    position: absolute;
+    right: -6%;
     font-size: 1.4em;
     top: 3%;
   }
