@@ -3,10 +3,10 @@ layout: posts_events
 permalink: /events/
 classes: wide
 title: "pyOpenSci Events"
-excerpt: "Events."
+excerpt: "pyOpenSci holds events that support scientists developing open science skills."
 header:
-    overlay_color: "#666"
-    overlay_filter: 0.6
+  overlay_image: images/headers/scipy-2024-workshop.png
+  overlay_filter: rgba(20, 13, 36, 0.8)
 author_profile: false
 ---
 
