@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Workshop: pyOpenSci @ SciPy 2024 -- Create Your First Python Package"
+title: "Workshop: pyOpenSci @ SciPy 2024--Create your first Python package"
 excerpt: "Python packaging can be tricky to navigate. pyOpenSci will lead a workshop on creating your first Python package at SciPy 2024. The goal of this workshop is to help scientists learn how to package and make code installable and shareable. Read on to learn more!"
 author:
 permalink: /events/create-first-python-package-scipy-2024.html
@@ -133,15 +133,15 @@ You will leave this tutorial understanding how to:
 
 ## Hatch & Python
 
-If you already have a working version of Python on your computer, then you are in good shape!**If you don’t have Python installed on your computer, then Hatch will install Python for you when you install it following the instructions below.**
+If you already have a working version of Python on your computer, then you are in good shape! **If you don’t have Python installed on your computer, then Hatch will install Python for you when you install it following the instructions below.**
 
 ## Install Hatch
 
-_These instructions were adapted from the [Introduction to hatch](https://www.pyopensci.org/python-package-guide/tutorials/get-to-know-hatch.html) section of the [pyOpenSci Python Packaging Guide](https://www.pyopensci.org/python-package-guide/)._
+_These instructions were adapted from the [Introduction to Hatch](https://www.pyopensci.org/python-package-guide/tutorials/get-to-know-hatch.html) section of the [pyOpenSci Python Packaging Guide](https://www.pyopensci.org/python-package-guide/)._
 
 ### For Mac users
 
-_These instructions are for installing Hatch using the GUI installer. If you’d prefer to use the Command line installer, please see the [Hatch documentation](https://hatch.pypa.io/latest/install/#command-line-installer)._
+_These instructions are for installing Hatch using the GUI installer. If you’d prefer to use the command line installer, please see the [Hatch documentation](https://hatch.pypa.io/latest/install/#command-line-installer)._
 
 1. In your browser, download the `.pkg` file: [hatch-universal.pkg](https://github.com/pypa/hatch/releases/latest/download/hatch-universal.pkg)
 2. Run the downloaded file and follow the on-screen instructions to install Hatch.
@@ -151,9 +151,9 @@ _These instructions are for installing Hatch using the GUI installer. If you’d
 
 ### For Linux users
 
-_For linux users, the easiest way to install Hatch is to use pipx which can be installed using apt install. Note: if you prefer to use a tool other than pipx, please refer to the [Hatch documentation](https://hatch.pypa.io/latest/) for more information_
+_For Linux users, the easiest way to install Hatch is to use pipx which can be installed using apt install. Note: if you prefer to use a tool other than pipx, please refer to the [Hatch documentation](https://hatch.pypa.io/latest/) for more information_
 
-* Install hatch from the command line using [pipx](https://pipx.pypa.io/stable/):
+* Install Hatch from the command line using [pipx](https://pipx.pypa.io/stable/):
 
 ```bash
 # First install pipx using apt install
@@ -164,7 +164,7 @@ _For linux users, the easiest way to install Hatch is to use pipx which can be i
 
 ### For Windows users
 
-_These instructions are for installing Hatch using the GUI installer. If you’d prefer to use the Command line installer, please see the [Hatch documentation](https://hatch.pypa.io/latest/install/#command-line-installer_1)._
+_These instructions are for installing Hatch using the GUI installer. If you’d prefer to use the command line installer, please see the [Hatch documentation](https://hatch.pypa.io/latest/install/#command-line-installer_1)._
 
 1. In your browser, download the `.msi` file: [hatch-x64.msi](https://github.com/pypa/hatch/releases/latest/download/hatch-x64.msi)
 2. Run your downloaded file and follow the on-screen instructions.
@@ -178,7 +178,7 @@ After installing Hatch, it’s useful to customize the Hatch configuration. The
 configuration allows you to specify things like the default name and email to
 use in your package’s metadata. If you don’t configure Hatch, you can always
 edit files later! However your Hatch package outputs might look a bit different
-than the ones in the workshop. (This is ok!)
+than the ones in the workshop. (This is OK!)
 
 Hatch stores your configuration information in a `config.toml` file.
 
