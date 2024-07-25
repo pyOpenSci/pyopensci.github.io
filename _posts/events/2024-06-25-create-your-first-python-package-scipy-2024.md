@@ -14,13 +14,14 @@ toc: true
 comments: true
 ---
 
-## Create Your First Python Package: Make Your Python Code Easier to Share and Use
+## Create your first Python package: make your Python code easier to share and use
 
 * **What:** A hands-on workshop, titled: [Create Your First Python Package: Make Your Python Code Easier to Share and Use](https://cfp.scipy.org/2024/talk/QT9GBY/)
 * **Where:** [SciPy 2024](https://www.scipy2024.scipy.org/), Ballroom B/C
 * **When:** Tuesday, July 9th, 2024, from 13:30--17:30 Pacific
-* **Workshop GitHub repository:** [https://github.com/pyOpenSci/code-to-module-workshop/](https://github.com/pyOpenSci/code-to-module-workshop/)
-* **pyOpenSci demo package:** [https://github.com/pyOpenSci/pyosPackage](https://github.com/pyOpenSci/pyosPackage)
+* Resources:
+  *  [**Workshop GitHub repository:**](https://github.com/pyOpenSci/code-to-module-workshop/)
+  *  [**pyOpenSci demo package:**](https://github.com/pyOpenSci/pyosPackage)
 
 ## Event overview
 
