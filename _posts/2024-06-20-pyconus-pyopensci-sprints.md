@@ -27,14 +27,14 @@ Here, I will share with you what we have learned at pyOpenSci through holding
 beginner-friendly sprints over the past two years.
 Specifically, I want to
 explore the varied motivations and barriers associated with contributions to
-Open Source, and how pyOpenSci is addressing them.
+open source, and how pyOpenSci is addressing them.
 
 <div class="notice--success" markdown="1">
 
 ## TL;DR
 
 * I believe that we can get more people involved in Open Source if it's done
-  the right way. Despite the word "open" in the name, Open Source is not
+  the right way. Despite the word "open" in the name, open source is not
   necessarily open to all people.
 * By setting up infrastructure such as project boards and tagging issues as
   beginner-friendly, you are on your way towards a beginner-friendly sprint.
@@ -99,27 +99,6 @@ I really appreciate when community members help us tick off open issues,
 big and small. These contributions propel the pyOpenSci mission of making science
 more open and collaborative forward.
 
-
-## Barriers in contributing to open source
-
-While sprints are a great way to engage the community in
-supporting an organization's (or a project's) mission, there are many barriers for contributors to consider.
-
-These barriers include:
-
-* Time to contribute.
-* Skills to contribute.
-* Confidence in skills / fear of contributing the wrong thing.
-* Privilege: This is a loaded one. Open Source can't be diverse if it requires privilege.
-  to participate.
-
-And last but not least:
-
-* GitHub: This is the big one. Using Git and GitHub is always one of the
-  biggest technical barriers that contributors encounter in their Open Source and data science
-  journeys.
-
-
 ### Contribution opportunities
 
 While barriers to contribution are abundant and hard, there are also many opportunities,
@@ -131,15 +110,36 @@ including:
 * Growing your professional network.
 * Learning about a new project.
 
-Or, maybe you're like me—an Executive Director of a community organization. Coding and
-development aren't in my job description, but to teach these topics, I need to keep my
-skills fresh. And, I love to code. That's where Open Source comes into my life!
+Or, maybe you're like me —- an Executive Director of a community organization.
+Coding and development aren't in my job description, but to teach these topics,
+I need to keep my skills fresh. And, I love to code. That's where open source
+comes into my life!
 
 <figure>
   <img src="{{ site.baseurl }}/images/blog/2024/june/pyos-sprint-blog-learning.png" alt="A graphic that at the top says - Why people attend sprints. Below are a series of boxes with text in them and white stick figures standing or sitting on top or to the side of the boxes as decoration. The boxes say Learn new technical skills, connect with the community, help a project they care about, build their network, learn about a new tool, build confidence, +many other motivations. The graphic is on a dark purple background with the pyOpenSci logo on it." style="width: 80%;" />
   <figcaption> People have many different motivations for attending sprints. Understanding those motivations can go a long way in the sprinter and the sprint leader(s) having a collectively
   successful experience. </figcaption>
 </figure>
+
+## Barriers in contributing to open source
+
+While sprints are a great way to engage the community in supporting an
+organization's (or a project's) mission, there are many contributor barriers
+that sprint organizers need to consider.
+
+These barriers include:
+
+* Time to contribute.
+* Skills to contribute.
+* Confidence in skills / fear of contributing the wrong thing.
+* Privilege: This is a loaded one. Open source can't be diverse if it requires privilege.
+  to participate.
+
+And last but not least:
+
+* GitHub: Using Git and GitHub is always one of the biggest technical barriers
+that contributors encounter in their open source and data science journeys.
+
 
 ### Challenges vs opportunities
 
@@ -164,14 +164,14 @@ is a lot to be learned from understanding learner motivations and types. And a f
 
 ## Contributing vs learning
 
-The educator inside of me can't help but align my experience in Open Source with
-learner motivations. For me personally, contributing to Open Source met two of my goals
+The educator inside of me can't help but align my experience in open source with
+learner motivations. For me personally, contributing to open source met two of my goals
 and interests:
 
 * **Applied (project-based) learning:** I love to learn. Coding and data science are my
   happy places. But the learning needs to be directly applicable. If it isn't, I get bored. Moreover, if I can't see the application of the skill, I have little motivation to learn that skill!
 * **Student-directed learning:** I love to learn on my own time, following my own
-  processes that work for me. Open Source allows me to do just that (and without the
+  processes that work for me. Open source allows me to do just that (and without the
   pressures of a specific deadline in most cases).
 
 If you read the education literature, you will find both project-based learning and student-directed learning to be
@@ -206,7 +206,7 @@ Sure, a sprint does not have the powerful outcome of a student understanding the
 impacts of climate change on their local tribal lands. But the concept is the same:
 
 > The learning motivation comes from a meaningful outcome that a student wants or
-  cares about.
+> cares about.
 
 In leading a sprint, asking the question of "what are your goals for today?" will
 help you as a sprint leader to direct sprinter efforts down a successful path.
@@ -342,7 +342,7 @@ that can be added to any repository. This workflow moves any issue labeled
 **GitHub project boards support project workflows** that auto-add issues to a
 project board with a specific label. However, our GitHub organization's open source
 subscription only allows for one project workflow of this kind associated with one
-repository, which is why we set up the GitHub action.
+repository, which is why we set up the GitHub action. We also have things setup so an issue is removed / archived from the GitHub project board once it is closed.
 {: .notice}
 
 
