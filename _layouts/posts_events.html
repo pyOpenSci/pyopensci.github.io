@@ -5,6 +5,37 @@ layout: archive
 
 {{ content }}
 
+
+<h2>Upcoming events</h2>
+{% assign allEvents = site.posts
+  | where_exp: "item", "item.hidden != true"
+  | where_exp: "item", "item.categories contains 'events'"
+%}
+
+{% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
+
+{% for event in allEvents %}
+
+  {% capture posttime %}{{event.event_date | date: '%s'}}{% endcapture %}
+
+  {% if posttime > nowunix %}
+  <div markdown="1">
+  <h3>{{ event.title }}</h3>
+  <p>{{ event.excerpt }} </p>
+  <ul>
+   <li> <b>Event Date:</b> {{ event.event_date }} </li>
+   <li> <b>Cost:</b> {{ event.cost }} </li>
+   <li> <b>Location:</b> {{ event.cost }} </li>
+  </ul>
+  Learn more.
+  </div>
+  {% endif %}
+
+{% endfor %}
+
+
+<h2>Past events</h2>
+
 <ul class="taxonomy__index">
   {% assign eventsInYear = site.posts
     | where_exp: "item", "item.hidden != true"
@@ -12,6 +43,7 @@ layout: archive
     | group_by_exp: 'post', 'post.date | date: "%Y"'
   %}
   {% for year in eventsInYear %}
+
     <li>
       <a href="#{{ year.name }}">
         <strong>{{ year.name }}</strong> <span class="taxonomy__count">{{ year.items | size }}</span>
@@ -32,7 +64,10 @@ layout: archive
     <h2 class="archive__subtitle">{{ year.name }}</h2>
     <div class="blog__grid">
       {% for post in year.items %}
-        {% include archive-cards.html %}
+      {% capture posttime %}{{post.event_date | date: '%s'}}{% endcapture %}
+        {% if posttime < nowunix %}
+          {% include archive-cards.html %}
+        {% endif %}
       {% endfor %}
     </div>
     <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>

@@ -10,7 +10,10 @@ header:
 author_profile: false
 ---
 
-## pyOpenSci Events
+pyOpenSci runs free and paid training events that teach skills that scientists need
+to make their science more open and collaborative.
+
+Note the past events counter currently is off by one.
 
 <!--
 {% comment %}
