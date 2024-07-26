@@ -19,15 +19,16 @@ layout: archive
   {% capture posttime %}{{event.event_date | date: '%s'}}{% endcapture %}
 
   {% if posttime > nowunix %}
-  <div markdown="1">
+  <div markdown="1" class="upcoming-event">
   <h3>{{ event.title }}</h3>
   <p>{{ event.excerpt }} </p>
   <ul>
    <li> <b>Event Date:</b> {{ event.event_date }} </li>
-   <li> <b>Cost:</b> {{ event.cost }} </li>
-   <li> <b>Location:</b> {{ event.cost }} </li>
+   <li> <b>Cost:</b> {{ event.event_cost }} </li>
+   <li> <b>Location:</b> {{ event.event_location }} </li>
   </ul>
-  Learn more.
+
+  <a href = {{ event.permalink}}, class="btn btn--info" >Learn More</a>
   </div>
   {% endif %}
 
@@ -46,7 +47,7 @@ layout: archive
 
     <li>
       <a href="#{{ year.name }}">
-        <strong>{{ year.name }}</strong> <span class="taxonomy__count">{{ year.items | size }}</span>
+         <strong>{{ year.name }}</strong> <!--<span class="taxonomy__count">{{ year.items | size }}</span> -->
       </a>
     </li>
   {% endfor %}
