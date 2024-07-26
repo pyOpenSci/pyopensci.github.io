@@ -1,9 +1,11 @@
 ---
 layout: single
 title: "pyOpenSci Fall Festival"
-excerpt: "More here"
+excerpt: "More here on the fall festival. More here on the fall festival. More here on the fall festival. More here on the fall festival. More here on the fall festival. "
 author:
 event_date: 2024-09-05
+event_cost: Coming Soon
+event_location: Online - gather
 permalink: /events/pyopensci-2024-fall-festival.html
 header:
   overlay_image: images/headers/scipy-2024-workshop.png
