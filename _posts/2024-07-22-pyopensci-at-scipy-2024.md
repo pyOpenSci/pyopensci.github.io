@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "pyOpenSci and Another fantastic SciPy Meeting - Tacoma"
+title: "pyOpenSci a Recap of @ SciPy 2024 Meeting - Tacoma, Washington"
 excerpt: "More"
 author: "Leah Wasser"
 permalink: /blog/pyos-scipy-2024-recap.html
@@ -22,49 +22,52 @@ comments: true
 * pyOpenSci lead 3 incredibly successful events at SciPy this year: A tutorial,
 a talk and a 1.5 day sprint
 * During our sprint we had over 35 GitHub issues and pull requests submitted by XX new contributors.
-xxx
-* learn about new tools, approaches
-* build skills - at tutorials <link to our tutorial> and sprints <link to sprint post>
-* connect with peers and network with future employers // collaborators
+* Our tutorial had 40 registrations and about 30 people showed up. Almost all learners had never created a Python package before and almost all learners were successful creating their first Python package.
+* I thoroughly enjoyed connect with new and old colleagues and friends.
 
 </div>
 
 ## My SciPy 2024 experience
 
-This year was my 4th time attending the annual SciPy meeting. My first experience was in 2019,
-where we held the very first pyOpenSci BoF (Birds of a Feather) session!
+This year was my 4th time attending the annual SciPy meeting - a meeting organized by NumFocus that celebrates the scientific Python ecosystem. My first experience was in 2019,
+where we held the very first pyOpenSci BoF (Birds of a Feather) session.
 
 A birds of a feather session also known as a BoF is a community organized event where people lead a discussion around a specific topic. Our BoF was about our peer review process that we had just kicking launched that year.
 {: .notice }
 
-In previous years, pyOpenSci was less known in the community. This year, however, was different. There were so many
-familiar faces including maintainers of packages that we have reviewed and accepted
-through our [scientific Python software peer review process](/about-peer-review/index.html), colleagues who I have met at other
-meetings such as PyCon, reviewers and editors from our community, members of our
-advisory council, contributors, and friends — so many friends.
+In previous years, pyOpenSci was less known in the community. This year, however, was different. There were many
+familiar faces including:
+
+* maintainers of packages that we have reviewed and accepted
+through our [scientific Python software peer review process](/about-peer-review/index.html),
+* colleagues who I have met at other meetings such as PyCon,
+* reviewers and editors from our community,
+* members of our advisory council, contributors, and
+* friends — so many friends.
 
 This year, I was busy:
 
 1. Running an in-person tutorial: Create Your First Python Package.
 2. Giving a talk in the Maintainers Track (what an honor!).
 3. Working the hallway track.
-4. Running a 1.5-day sprint that resulted in over 35 issues and pull requests.
+4. Running a 1.5-day sprint that resulted in over 35 issues and pull requests. Wow.
 
 Admittedly, I started off this conference behind and frazzled. You see, pyOpenSci
 has been growing in recent months. With that
-growth comes more wonderful people to support and engage with. More people means
-more work. However, the incredible people that want to contribute make every
-second of the work -- totally worth it.
+growth comes more wonderful people to support and engage with. More people
+getting involved does mean more work for pyOpenSci. However, the time is worth
+it as all of this effort is moving pyOpenSci's mission of support open science forward.
 
 <figure>
-  <img src="{{ site.baseurl }}/images/blog/2024/july/scipy-24-pyopensci-package-submission-growth.png" alt="XXX" style="width: 100%;" />
+  <img src="{{ site.baseurl }}/images/blog/2024/july/scipy-24-pyopensci-package-submission-growth.png" alt="A bar plot with purple bars titled - number of submissions by quarter per year. The plot shows the number of submissions that pyOS has received since it started peer review in 2019. We started with only a few submissions per quarter but the numbers have grown to about 13 per quarter on average in the 2024. " style="width: 100%;" />
   <figcaption><i class="fa-solid fa-heart-pulse"></i> pyOpenSci runs an open software peer review process. Above you can see how submissions have increased since we started in 2019. I started full time on pyOpenSci in late 2022. <i class="fa-solid fa-heart-pulse"></i>.</figcaption>
 </figure>
 
-In the end it all worked out wonderfully — a lesson for me in understanding that things
-can be less than perfect and still go well!
+In the end, even though I wasn't quite as prepared as I wanted to be, my talk
+and the workshop went great! This was a lesson for me in understanding that
+things can be less than perfect and still go well!
 
-More on all of that below. But first - what is the SciPy meeting?
+More on all of that below. But first--what is the SciPy meeting?
 
 ## About the SciPy meeting
 
@@ -94,7 +97,7 @@ off-beat distractions from the moderators along the way such as the infamous
 grab claw (see below). Yes, it is as ridiculously hilarious as it seems.
 
 <figure>
-  <img src="{{ site.baseurl }}/images/blog/2024/july/scipy-24-lobster-claw.jpeg" alt="XXXX" style="width: 90%;" />
+  <img src="{{ site.baseurl }}/images/blog/2024/july/scipy-24-lobster-claw.jpeg" alt="Photograph showing a man with a beard holding a red lobsterclaw - while deviously looking at a blond woman at a podium who is smirking at him. She is wearing a blue top and beige pants" style="width: 90%;" />
   <figcaption><i class="fa-solid fa-heart-pulse"></i> It's a commonly knowns that lighting talk organizers enjoy heckling presenters. Sometimes they do so using props such as the lobster claw seen here<i class="fa-solid fa-heart-pulse"></i>. Photo Credit: ScipyConf Fosstodon </figcaption>
 </figure>
 
@@ -123,65 +126,51 @@ It was a rush to be back in the "classroom" at SciPy 2024!
 
 ### Workshop setup
 
-This workshop was an incredible experience filled with great helpers, enthusiastic participants, and a few challenges that we managed to overcome together.The SciPy tutorial organizers did an amazing job of ensuring everything ran smoothly in the room.
+Our workshop room was full of people who were eager to better understand Python packaging. We also had great helpers and all of the tech in the room just worked.
+The SciPy tutorial organizers did an amazing job of ensuring everything ran smoothly.
 
-And get this -- the tech just worked. I plugged in my computer, the projector
-magically turned on, and I was ready to go.
+After a really tricky internet situation at PyCon this past May, I really
+appreciated the smoothness of the room setup.
 
-What? When does the tech EVER just work at a tech meeting? :laughing:
-
-The room itself was fantastic, with lots of space and power for all of the participants.
-
-A special shout-out to [Jeremiah](https://www.github.com/ucodery) and Isabel <link>, who were there to save the day
-whenever needed. Their support was invaluable. We had a room of eager learners
-who were excited to dive into Python packaging.
+A special shout-out to pyOpenSci community members
+[Jeremiah](https://www.github.com/ucodery) and
+[Isabel Zimmerman](https://github.com/isabelizimm), who were there and
+committed to helping all of the learners having a successful experience. Their
+support and expertise was invaluable.
 
 <figure>
-  <img src="{{ site.baseurl }}/images/blog/2024/july/pyos-tutorial-scipy-24.jpeg" alt="Image of a flat coated retriever chewing on a stick with a bunch of pyOpenSci stickers in front of her cut face. " style="width: 90%;" />
-  <figcaption><i class="fa-solid fa-heart-pulse"></i> This image is about half way into the workshop. We had lost a few folks to other conference activities but most were still engaged! <i class="fa-solid fa-heart-pulse"></i> Source: SciPyConf Fosstodon.</figcaption>
+  <img src="{{ site.baseurl }}/images/blog/2024/july/pyos-tutorial-scipy-24.jpeg" alt="A photograph showing a large open and well lit meeting room with two rows of horizontal tables. In the room are people working at laptops. There is an instructor in the front with their laptop screen projected on the screen" style="width: 90%;" />
+  <figcaption><i class="fa-solid fa-heart-pulse"></i> This image was taken about half way into the workshop. We had lost a few folks to other conference activities but most were still engaged! <i class="fa-solid fa-heart-pulse"></i> Source: SciPyConf Fosstodon.</figcaption>
 </figure>
 
 ### Navigating the packaging // tutorial challenges together
 
 Of course, there were a few challenges too.
 
-#### Challenge one: Learners didn't complete our setup instructions
+1. Many participants came without working through the setup instructions. This was particularly problematic for folks with government issued laptops where they couldn't install software.
 
-Many participants came without working through the setup instructions. This was particularly problematic for folks with government issued laptops where they couldn't install software.
+2. While most workshops could use the cloud platform that Quantsite labs hosts called Nebari, it didn't support our development use case. Thus we didn't have a "backup" platform for participants that didn't get things setup to use. However, I was able to later work on this with [Sarah Kaiser](https://github.com/crazy4pi314) from GitHub, who got
+us set up with a Codespace later that week that we can use for future workshops.
 
-#### Challenge two: We didn't have a cloud backup platform for them to use instead
+3. Installation quirks. In this workshop, we switched from suggesting [pipx](https://pipxproject.github.io/pipx/)
+to using [Hatch installers](https://hatch.pypa.io/latest/install/). We made this change because Windows users previously had significant issues installing pipx.
 
-For various reasons we didn't have a solid cloud backup for students to use instead. BUT -- a huge shout-out to [Sarah Kaiser](https://github.com/crazy4pi314) from GitHub, who got
-us set up with a Codespace later that week that we can use for future workshops. Having a working cloud environment where learners can use hatch and develop a Python package will
-definitely streamline things going forward.
-
-#### Challenge three: Installation quirks
-
-We also switched from suggesting [pipx](https://pipxproject.github.io/pipx/)
-to using [Hatch installers](https://hatch.pypa.io/latest/install/) in this
-workshop. We made this change because Windows users previously had
-significant issues installing pipx.
-
-The one glitch we encountered this time was that Hatch would initiate an
+The glitch we encountered was that Hatch would initiate an
 update on some computers that already had it installed when users ran
 `hatch --version` for the first time. This is something we need to address
 in the future or at least warn users about.
 
 ### Workshop outcomes
 
-#### People were successful creating their first Python packages
+Challenges aside, we also had a lot of successes to celebrate!
 
 Similar to our online workshop in April <link>, many attendees created their first Python package!!
 
-Success!!
-
-And several enjoyed the process so much that they joined our sprint
-afterwards to help build out the packaging guide. More on that below.
 
 <figure class="half">
-    <a href="{{ site.baseurl }}/images/blog/2024/july/pyopensci-have-you-created-package.png"><img src="{{ site.baseurl }}/images/blog/2024/july/pyopensci-have-you-created-package.png"></a>
-    <a href="{{ site.baseurl }}/images/blog/2024/july/pyopensci-workshop-successful-package.png"> <img src="{{ site.baseurl }}/images/blog/2024/july/pyopensci-workshop-successful-package.png"></a>
-    <figcaption>Caption describing these two images. blah</figcaption>
+    <a href="{{ site.baseurl }}/images/blog/2024/july/pyopensci-have-you-created-package.png"><img src="{{ site.baseurl }}/images/blog/2024/july/pyopensci-have-you-created-package.png" alt="An image showing a question - have you created a Python package before. Below is a bar plot with 3 colored bars. 3 people answered Yes, 10 people answered no and 4 answered I strugged trying."></a>
+    <a href="{{ site.baseurl }}/images/blog/2024/july/pyopensci-workshop-successful-package.png"> <img src="{{ site.baseurl }}/images/blog/2024/july/pyopensci-workshop-successful-package.png" alt="An image showing a question - Were you able to create a package during this workshop. 10 people answered yes, 1 person answered no, and no one answer i am not sure."></a>
+    <figcaption>We used Mentimeter during the workshop to get feedback from participants along the way. Next workshop I think I will use this tool more to get feedback. Feedback is so important to iteratively improve any event but is more important when teaching as it allows you to address pain points dynamically which both improve online lessons and in person trainings. </figcaption>
 </figure>
 
 The verbal feedback from participants was overwhelmingly positive.
@@ -196,7 +185,10 @@ and
 
 made all the effort worthwhile.
 
-I left the event with a full heart.🫶
+Needless to say, I left the event with a full heart.🫶
+
+And several enjoyed the process so much that they joined our sprint
+afterwards to help build out the packaging guide. More on that below.
 
 ## My talk on Python packaging at SciPy 2024
 
