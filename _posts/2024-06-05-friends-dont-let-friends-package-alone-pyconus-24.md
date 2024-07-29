@@ -25,6 +25,10 @@ This year I gave my first talk in the [PyCon US](https://us.pycon.org/2024/) mai
 
 The irony of these three  different perspectives is that the challenges that users face in each category are similar! Below I explore my experiences pulling together the talk.
 
+You can also watch the talk here:
+
+{% include video id="mJPoj9Ex9fk" provider="youtube" %}
+
 ### My early experiences with Python packaging
 
 I started thinking about Python packaging in 2018 during our [early pyOpenSci
@@ -41,13 +45,10 @@ infrastructure that other package maintainers I trusted used—mainly GeoPandas.
 
 *I am a spatial data nerd at heart.*
 
-
 <figure>
   <img src="{{ site.baseurl }}/images/blog/2024/june/pycon-python-packaging-confusion.png" alt="Image that says  have you ever felt confused about python packaging. Below is the pyopensci flower logo. And the graphic shows a bunch of different cartoon like hands being raised." style="width: 90%;" />
   <figcaption> Every time I ask this question, a majority of people in the room raise their hand.</figcaption>
 </figure>
-
-
 
 But as I thought about creating pyOpenSci's open peer review process, I knew
 scientists would need a process that:
@@ -92,6 +93,7 @@ So if you think about that "opportunity to make a wrong decision", imagine what 
 </figure>
 
 ### The evolution of the pyOpenSci Python packaging guide
+
 Years later, what started out as a generic Python development guide, was
 transformed into what’s now the [pyOpenSci Python package guide](https://www.pyopensci.org/python-package-guide/).
 
@@ -122,7 +124,6 @@ still leading users down a streamlined path.
   <img src="{{ site.baseurl }}/images/blog/2024/june/pyopensci-packaging-guide-overview.png" alt="Image with the pyOpenSci flower logo in the upper right hand corner. The image shows the packaging lifecycle. The graphic shows a high level overview of the elements of a Python package. the inside circle has 5 items - user documentation, code/api, test suite, contributor documentation, project metadata / license / readme. In the middle of the circle is says maintainers and has a small icon with people. on the outside circle there is an arrow and it says infrastructure." style="width: 70%;" />
   <figcaption><i class="fa-solid fa-heart-pulse"></i> The generalized scientific Python package development process. <i class="fa-solid fa-heart-pulse"></i>.</figcaption>
 </figure>
-
 
 ## Getting accepted to talk about packaging...  <i class="fa-solid fa-ghost"></i>
 
@@ -192,7 +193,7 @@ Sometimes, that someone is me — before I can teach the topic to others!
 
 ## So what about packaging with friends?
 
-The essence of my Python packaging talk was the work that I have lead alongside the pyOpenSci community to demystify and help _people_ navigate the complex Python packaging ecosystem.
+The essence of my Python packaging talk was the work that I have lead alongside the pyOpenSci community to demystify and help *people* navigate the complex Python packaging ecosystem.
 
 This work was really about people helping people tackle challenging things.
 
@@ -211,8 +212,7 @@ Python is known for its incredible community, so it only made sense to leverage 
 
 The talk can be broken down into 4 takeaways:
 
-
-### People can help (_surprise_!)
+### People can help (*surprise*!)
 
 When tackling some of the most thorny technical Python problems, people can help. This might mean:
 
@@ -259,11 +259,9 @@ When teaching beginners, break things down to their fundamental concepts. In the
   <figcaption><i class="fa-solid fa-heart-pulse"></i> By breaking down packaging in to it's most basic steps you are making the concepts immediately more digestable to users. Once they understand the basics you can slowly layer in additional complexity.  <i class="fa-solid fa-heart-pulse"></i>.</figcaption>
 </figure>
 
-
 While some may think that this approach is over simplified, it’s not. The idea here is that you begin with digestible information that empowers a learner. You help them understand that they can do this! And then, and only then, you add more complexity when they are ready to absorb it.
 
 This also opens the door wide to early wins.
-
 
 ### Just say no to TMO
 
@@ -271,13 +269,10 @@ Avoid TMO—Too Many Options or Too Many Opinions at all costs when teaching beg
 
 Early on in creating our packaging guide, we found contributors, often quite expert in the packaging ecosystem, arguing about the best tools and best practices. Since we invited many people with different levels of experience to review our content, these arguments pushed some people away and created an unhealthy environment. Moderating these conversations to focus on the users and their needs, rather than debating tools, was critical. This approach helped create a truly beginner-friendly guide and fostered a review environment that was safe and inclusive, where both beginners and experts could contribute.
 
-
 <figure>
   <img src="{{ site.baseurl }}/images/blog/2024/june/pyopensci-python-packaging-tmo.png" alt="Dark purple background image that says no TMO. Below is a yellow lab retriever with a purple ice bag on it's head looking sad and directly at you." style="width: 100%;" />
   <figcaption><i class="fa-solid fa-heart-pulse"></i> When it comes to packaging, too many options and too many opinions get in the way of a positive user experience. We need to work towards breaking things down and providing opinionated paths for those who want and need them.  <i class="fa-solid fa-heart-pulse"></i>.</figcaption>
 </figure>
-
-
 
 ### Friends don’t let friends package alone
 
