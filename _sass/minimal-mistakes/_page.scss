@@ -89,9 +89,9 @@ body {
 }
 
 .page__content {
-  p {
+  p, li {
     max-width: 900px;
-    font-weight: $weight-4;
+    font-weight: $weight-3;
   }
   h2 {
     padding-bottom: 0.2em;
@@ -116,7 +116,6 @@ body {
 	}
 
   p,
-  li,
   dl {
     font-size: 1em;
   }
