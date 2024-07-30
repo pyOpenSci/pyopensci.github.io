@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "pyOpenSci a Recap of @ SciPy 2024 Meeting - Tacoma, Washington"
-excerpt: "More"
+excerpt: "This year I gave a talk and lead a packaging workshop at the SciPy 2024 conference in Tacoma Washington. Learn more about the SciPy meeting and how exciting it was for pyOpenSci to be there this year!"
 author: "Leah Wasser"
 permalink: /blog/pyos-scipy-2024-recap.html
 header:
