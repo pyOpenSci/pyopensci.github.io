@@ -159,6 +159,8 @@ kbd,
 samp,
 pre {
   font-family: $monospace;
+  font-weight: $weight-5;
+  font-size: 1em;
 }
 
 pre {
@@ -176,14 +178,21 @@ hr {
 
 /* lists */
 
+ul, ol {
+  margin-bottom: 1.9em;
+  font-weight: $weight-3;
+}
 ul li,
 ol li {
   margin-bottom: 0.5em;
+  font-size: .95em;
+  list-style: 1.4em;
 }
 
 li ul,
 li ol {
   margin-top: 0.5em;
+
 }
 
 /*
