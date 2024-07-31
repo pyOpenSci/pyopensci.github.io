@@ -128,10 +128,9 @@ $colors: (
         transition: transform 0.15s ease-out;
     }
 
+// Cards are also used to style the isotope layout
+// do not adjust the display or structure of the cards element.
 .cards {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
     top: 0px;
     position: relative;
     max-width: 362px;
@@ -142,13 +141,6 @@ $colors: (
     overflow: hidden;
     border: 1px solid #f2f8f9;
     font-size: .8em;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-
-    &:hover {
-      transform: scale(1.05); // Slightly enlarge the card
-      box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4); // Enhanced shadow on hover
-    }
 
     &.highlight div {
       padding:0;
@@ -238,6 +230,16 @@ $colors: (
 
 .blog__grid .cards {
     padding: 0 !important;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+      transform: scale(1.05); // Slightly enlarge the card
+      box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4); // Enhanced shadow on hover
+    }
 
     .card__header {
       position: relative;
