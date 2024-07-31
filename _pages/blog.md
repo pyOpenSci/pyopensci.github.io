@@ -7,6 +7,7 @@ excerpt: "Here we will both post updates about pyOpenSci and also highlight cont
 header:
     overlay_color: "#666"
     overlay_filter: 0.6
+    overlay_image: images/headers/pyopensci-learn-header.png
 author_profile: false
 ---
 

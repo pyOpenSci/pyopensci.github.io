@@ -1,3 +1,32 @@
+// Create colormap for cards
+$colors: (
+  color-0: #bb82b0,
+  color-1: #6b5b95,
+  color-2: #bab3d4,
+  color-3: #81c0aa
+);
+
+@mixin generate-color-styles($color-map) {
+  @each $name, $color in $color-map {
+    .card__header-#{$name} {
+      background-color: $color;
+
+      &::before {
+        background: rgba(0, 0, 0, 0.4)!important;
+      }
+    }
+    .cards:hover .card__header-#{$name} {
+      background-color: lighten($color, 15%) !important; // Lighten the color by 40%
+    }
+  }
+}
+
+
+
+// Include the mixin
+@include generate-color-styles($colors);
+
+
 .clearfix::after {
   content: "";
   display: table;
@@ -59,7 +88,6 @@
 
   .card-excerpt p {
     font-size: 1.1em;
-
   }
 
   .card__bkg {
@@ -107,14 +135,20 @@
     top: 0px;
     position: relative;
     max-width: 362px;
-    background-color: #f1f0f1;;
+    background-color: #fcfbf5;;
     border-radius: 4px;
-    // padding: 32px 24px;
     text-decoration: none;
     z-index: 0;
     overflow: hidden;
     border: 1px solid #f2f8f9;
     font-size: .8em;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+      transform: scale(1.05); // Slightly enlarge the card
+      box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4); // Enhanced shadow on hover
+    }
 
     &.highlight div {
       padding:0;
@@ -127,6 +161,7 @@
       &:before {
         background-color: #fff;
       }
+
       &:hover {
         cursor:default;
       }
@@ -144,7 +179,6 @@
           margin-top: 0;
           margin-bottom: 0;
           border-bottom: none;
-
         }
       }
     }
@@ -200,10 +234,40 @@
 
 
 
-/* Blog grid styles*/
+/* Blog & event grid styles*/
 
 .blog__grid .cards {
     padding: 0 !important;
+
+    .card__header {
+      position: relative;
+      background-size: cover;
+      background-position: center;
+      overflow: hidden;
+
+      &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.6); // Initial overlay color (faded)
+        transition: background 0.3s ease; // Smooth transition effect
+      }
+    }
+    // Changed hover selector to target .cards instead of .card__header
+    &:hover .card__header::before {
+          background: rgba(0, 0, 0, 0.2); // Darker overlay on hover
+
+        }
+
+    .card__title-container {
+      min-height: 60px; /* Set a minimum height to standardize the title area */
+      display: flex;
+      align-items: center; /* Vertically center the title */
+      padding: 0 15px; /* Padding around the title */
+    }
 
     .card-excerpt{
       font-size: .8em;
