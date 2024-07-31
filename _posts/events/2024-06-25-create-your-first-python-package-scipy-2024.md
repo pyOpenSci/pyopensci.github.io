@@ -9,8 +9,8 @@ header:
   overlay_filter: rgba(20, 13, 36, 0.8)
 categories:
   - events
+start_date: 2024-07-13
 classes: wide
-toc: true
 type: "event"
 comments: true
 ---

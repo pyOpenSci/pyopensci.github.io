@@ -1,0 +1,28 @@
+<article class="event-card">
+    <a href="{{ post.url | relative_url }}">
+      <div class="event-card__content">
+        <div class="event-card__date">
+          <div class="event-card__date-background"
+               style="background-image: url('{{ post.header.overlay_image | relative_url }}');"></div>
+          <div class="event-card__date-text">
+            {% assign start_date = post.start_date | date: "%d" %}
+            {% assign end_date = post.end_date | date: "%d" %}
+            {% assign start_month = post.start_date  | date: "%b" %}
+            {% assign start_year = post.start_date | date: "%Y" %}
+            {% if end_date and end_date != start_date %}
+              <span>howdy {{ start_date }}-{{ end_date }}</span>
+            {% else %}
+              <span>{{ start_date }}</span>
+            {% endif %}
+            <span>{{ start_month }}</span>
+            <span>{{ start_year }}</span>
+          </div>
+        </div>
+        <div class="event-card__details">
+          <h3 class="event-card__title">{{ post.title | markdownify | strip_html }}</h3>
+          <p>{{ post.excerpt }}</p>
+          <a href="{{ post.url | relative_url }}" class="event-card__button">Learn More</a>
+        </div>
+      </div>
+    </a>
+  </article>
