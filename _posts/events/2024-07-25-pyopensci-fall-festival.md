@@ -14,6 +14,7 @@ categories:
   - events
 classes: wide
 toc: true
+type: "event"
 comments: true
 ---
 
