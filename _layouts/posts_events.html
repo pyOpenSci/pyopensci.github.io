@@ -7,28 +7,22 @@ layout: archive
 
 
 <h2>Upcoming events</h2>
-{% assign allEvents = site.posts
+
+{% assign all_events = site.posts
   | where_exp: "item", "item.hidden != true"
   | where_exp: "item", "item.categories contains 'events'"
 %}
 
 {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
 
-{% for event in allEvents %}
+{% for post in all_events %}
 
-  {% capture posttime %}{{event.event_date | date: '%s'}}{% endcapture %}
+  {% assign start_date = post.event.start_date | date: "%Y-%m-%d" %}
+  {% capture posttime %}{{ start_date | date: '%s'}}{% endcapture %}
 
   {% if posttime > nowunix %}
-  <div markdown="1" class="upcoming-event">
-  <h3>{{ event.title }}</h3>
-  <p>{{ event.excerpt }} </p>
-  <ul>
-   <li> <b>Event Date:</b> {{ event.event_date }} </li>
-   <li> <b>Cost:</b> {{ event.event_cost }} </li>
-   <li> <b>Location:</b> {{ event.event_location }} </li>
-  </ul>
-
-  <a href = {{ event.permalink}}, class="btn btn--info" >Learn More</a>
+  <div class="upcoming">
+    {% include event-cards.html %}
   </div>
   {% endif %}
 
@@ -41,7 +35,7 @@ layout: archive
   {% assign eventsInYear = site.posts
     | where_exp: "item", "item.hidden != true"
     | where_exp: "item", "item.categories contains 'events'"
-    | group_by_exp: 'post', 'post.date | date: "%Y"'
+    | group_by_exp: 'post', 'post.event.start_date | date: "%Y"'
   %}
   {% for year in eventsInYear %}
 
@@ -57,7 +51,7 @@ layout: archive
 {% assign eventsByYear = site.posts
   | where_exp: "item", "item.hidden != true"
   | where_exp: "item", "item.categories contains 'events'"
-  | group_by_exp: 'post', 'post.date | date: "%Y"'
+  | group_by_exp: 'post', 'post.event.start_date | date: "%Y"'
 %}
 
 {% for year in eventsByYear %}
@@ -65,7 +59,7 @@ layout: archive
     <h2 class="archive__subtitle">{{ year.name }}</h2>
     <div class="event__grid">
       {% for post in year.items %}
-      {% capture posttime %}{{post.event_date | date: '%s'}}{% endcapture %}
+      {% capture posttime %}{{ post.event.start_date | date: '%s'}}{% endcapture %}
         {% if posttime < nowunix %}
           {% include event-cards.html %}
         {% endif %}

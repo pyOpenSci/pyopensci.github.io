@@ -9,7 +9,10 @@ header:
   overlay_filter: rgba(20, 13, 36, 0.8)
 categories:
   - events
-start_date: 2024-07-13
+event:
+  start_date: 2024-07-13
+  cost: Registration through the scipy meeting
+  location: Online
 classes: wide
 type: "event"
 comments: true
