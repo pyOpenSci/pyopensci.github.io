@@ -63,11 +63,11 @@ layout: archive
 {% for year in eventsByYear %}
   <section id="{{ year.name }}" class="taxonomy__section">
     <h2 class="archive__subtitle">{{ year.name }}</h2>
-    <div class="blog__grid">
+    <div class="event__grid">
       {% for post in year.items %}
       {% capture posttime %}{{post.event_date | date: '%s'}}{% endcapture %}
         {% if posttime < nowunix %}
-          {% include archive-cards.html %}
+          {% include event-cards.html %}
         {% endif %}
       {% endfor %}
     </div>
