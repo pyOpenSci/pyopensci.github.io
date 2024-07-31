@@ -12,7 +12,7 @@
   editorial_board: false
   emeritus_editor: true
   advisory: false
-  emeritus_advisory: true
+  emeritus_advisory: false
   twitter: leahawasser
   mastodon: https://fosstodon.org/@leahawasser
   orcidid: 0000-0002-8177-6550
@@ -170,7 +170,7 @@
   deia_advisory: false
   editorial_board:
   emeritus_editor:
-  advisory: false
+  advisory: true
   emeritus_advisory:
   twitter:
   mastodon:
@@ -315,7 +315,7 @@
   editorial_board:
   emeritus_editor: true
   advisory: true
-  emeritus_advisory: true
+  emeritus_advisory: false
   twitter: xmnlab
   mastodon:
   orcidid: 0000-0001-5049-4289
@@ -394,9 +394,9 @@
   date_added: '2023-01-18'
   deia_advisory: false
   editorial_board:
-  emeritus_editor:
-  advisory: true
-  emeritus_advisory:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: true
   twitter:
   mastodon:
   orcidid:
@@ -423,7 +423,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: true
   twitter: lindsey_jh
   mastodon:
   orcidid:
@@ -534,7 +534,7 @@
   editorial_board: false
   emeritus_editor: true
   advisory: false
-  emeritus_advisory: true
+  emeritus_advisory: false
   twitter: arianemsasso
   mastodon:
   orcidid:
@@ -651,7 +651,7 @@
   editorial_board: false
   emeritus_editor: true
   advisory: false
-  emeritus_advisory: true
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -721,7 +721,7 @@
   editorial_board: false
   emeritus_editor: true
   advisory: false
-  emeritus_advisory: true
+  emeritus_advisory: false
   twitter: underdarkGIS
   mastodon:
   orcidid:
@@ -824,7 +824,7 @@
   editorial_board: false
   emeritus_editor: true
   advisory: false
-  emeritus_advisory: true
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -2572,7 +2572,7 @@
   editorial_board: false
   emeritus_editor: true
   advisory: false
-  emeritus_advisory: true
+  emeritus_advisory: false
   twitter: jbencook
   mastodon:
   orcidid:
@@ -5799,7 +5799,7 @@
   github_image_id: 709020
   title:
     - Editor
-  sort: 1
+  sort: 2
   bio:
   organization:
   date_added:
@@ -6976,12 +6976,12 @@
   github_username: NimaSarajpoor
   github_image_id: 38519522
   title:
-  sort:
+  sort: 2
   bio: Data Scientist  | OSS Contributor  | Philomath
   organization:
   date_added: '2024-07-04'
   deia_advisory: false
-  editorial_board:
+  editorial_board: true
   emeritus_editor:
   advisory: false
   emeritus_advisory:
