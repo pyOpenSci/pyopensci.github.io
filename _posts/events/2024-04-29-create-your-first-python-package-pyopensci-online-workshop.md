@@ -2,7 +2,10 @@
 layout: single
 title: "pyOpenSci Online Workshop: Create your first Python package"
 excerpt: "Python packaging can be tricky to navigate. pyOpenSci will lead a pilot workshop on creating your first Python package. The goal of this workshop is to help scientists learn how to package and make code installable and shareable. Read on to learn more!"
-author:
+event:
+  start_date: 2024-04-29
+  cost: 10$
+  location: Online
 permalink: /events/april-2024-create-python-package-pyopensci-online-workshop.html
 header:
   overlay_image: images/headers/scipy-2024-workshop.png

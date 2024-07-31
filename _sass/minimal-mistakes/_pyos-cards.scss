@@ -201,6 +201,19 @@
     }
   }
 
+
+// Modifications for upcoming events
+.upcoming {
+    & .event-card__date-background {
+    opacity: 1;
+    }
+    .event-card__date-text {
+        color: #fff;
+    }
+
+}
+
+
   // Responsive design adjustments
   @media (max-width: 600px) {
     .event-card {

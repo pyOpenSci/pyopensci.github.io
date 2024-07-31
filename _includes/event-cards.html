@@ -2,15 +2,20 @@
     <a href="{{ post.url | relative_url }}">
       <div class="event-card__content">
         <div class="event-card__date">
-          <div class="event-card__date-background"
-               style="background-image: url('{{ post.header.overlay_image | relative_url }}');"></div>
+            {% if posttime > nowunix %}
+                <!-- Style upcoming events to be more vibrant -->
+                <div class="event-card__date-background" style="background-image: linear-gradient(rgba(20, 13, 36, 0.8), rgba(20, 13, 36, 0.8)),  url('{{ post.header.overlay_image | relative_url }}');"></div>
+               {% else %}
+               <div class="event-card__date-background" style="background-image: url('{{ post.header.overlay_image | relative_url }}');"></div>
+               {% endif %}
+
           <div class="event-card__date-text">
-            {% assign start_date = post.start_date | date: "%d" %}
-            {% assign end_date = post.end_date | date: "%d" %}
-            {% assign start_month = post.start_date  | date: "%b" %}
-            {% assign start_year = post.start_date | date: "%Y" %}
+            {% assign start_date = post.event.start_date | date: "%d" %}
+            {% assign end_date = post.event.end_date | date: "%d" %}
+            {% assign start_month = post.event.start_date  | date: "%b" %}
+            {% assign start_year = post.event.start_date | date: "%Y" %}
             {% if end_date and end_date != start_date %}
-              <span>howdy {{ start_date }}-{{ end_date }}</span>
+              <span> {{ start_date }}-{{ end_date }}</span>
             {% else %}
               <span>{{ start_date }}</span>
             {% endif %}
