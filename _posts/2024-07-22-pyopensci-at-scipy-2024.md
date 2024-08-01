@@ -124,12 +124,12 @@ Since the pandemic, the SciPy meeting has adapted to support virtual/hybrid
 participation, which has further increased its reach. In fact, some remote
 attendees also helped organize the meeting!
 
-If you are a Pythonista who loves science, this meeting might be for you!
+If you are a Pythonista who loves science, this meeting is for you!
 
 ## Create your first Python package tutorial @ SciPy 2024
 
 My adventure at the SciPy meeting kicked off with a 4-hour tutorial entitled:
-_Create Your First Python Package: From Code to Module_. This tutorial was an
+_[Create Your First Python Package: From Code to Module](https://cfp.scipy.org/2024/talk/QT9GBY/)_. This tutorial was an
 expanded version of the [Create Your First Python Package tutorial that
 pyOpenSci ran in April 2024](pyos-education-announcement.html). In our first
 workshop, we had over 20 people create their first Python package. We had
@@ -143,8 +143,8 @@ That class happened on the Wednesday before the pandemic lockdown started in the
 United States. It was a sad day to say "goodbye for now" to in-person teaching
 and to my students. Teaching and working with learners is, after all, one of my
 favorite things. However, luckily we had been running the program using a
-hybrid - online and in person approach so the transition was sad but didn't
-impacts our learners too much.
+hybrid online and in-person approach, so the transition was sad, but didn't
+impact our learners too much.
 
 But back to SciPy, it was a rush to be back in the "classroom" at SciPy 2024!
 
@@ -171,7 +171,7 @@ expertise were invaluable.
 
 ### Navigating the Python packaging challenges together
 
-Of course, there were a few challenges too.
+Of course, there were a few challenges, too.
 
 1. Many participants came without working through the setup instructions. This
    was particularly problematic for those with government-issued laptops, where
@@ -189,13 +189,13 @@ Of course, there were a few challenges too.
    [pipx](https://pipxproject.github.io/pipx/) to using
    [Hatch installers](https://hatch.pypa.io/latest/install/) for Mac and
    Windows users. We made this change because Windows users previously had
-   significant issues installing `pipx` both during our previous workshop and
-   during our PyCon sprint.
+   significant issues installing `pipx` both during our previous workshop, and
+   during our [PyCon 2024](https://us.pycon.org/2024/) sprint.
 
-   The glitch we encountered this time with the installers was that Hatch would
+   The glitch we encountered this time with the installers was that [Hatch](https://hatch.pypa.io/latest/) would
    initiate an update on some computers that already had it installed when users
    ran `hatch --version` for the first time. This is something we need to
-   address in the future or at least warn users about.
+   address in the future, or at least warn users about.
 
 ### Workshop outcomes
 
@@ -231,7 +231,7 @@ afterwards to help build out the packaging guide. More on that below.
 ## My talk on Python packaging at SciPy 2024
 
 The day after the workshop discussed above, and the first day of the conference,
-I gave my first-ever talk in the maintainers track at SciPy. <i class="fa-solid fa-gift"></i>
+I gave my first-ever talk, [The power of community in solving scientific Python’s most challenging problems](https://cfp.scipy.org/2024/talk/AMTLJ7/), in the maintainers track at SciPy. <i class="fa-solid fa-gift"></i>
 
 What an honor to be selected as a speaker.
 
@@ -257,24 +257,24 @@ My talk closed out the session.
 
 My talk was about how pyOpenSci has been carving out space and coordinating
 community efforts to address several core challenges in our scientific Python
-ecosystem:
+ecosystem. These include:
 
 1. Helping scientists find and use the right open-source tools.
 2. Encouraging scientists to write better code, share their code, and build better software.
 3. Ensuring scientists get credit for their open-source work.
 4. Addressing the ongoing challenges of packaging in the Python ecosystem-—a topic
    I discussed in my [PyCon talk in April](blog/python-packaging-friends-dont-let-friends-package-alone.html),
-   which is also available on YouTube if you want to check it out.
+   which is also available on [YouTube](https://www.youtube.com/watch?v=mJPoj9Ex9fk&list=PL2Uw4_HvXqvYhjub9bw4uDAmNtprgAvlJ). I'd love for you to check it out!
 
 ### pyOpenSci's impact on the scientific Python ecosystem
 
 
 During my talk, I addressed critical pain points I've experienced as an
 educator teaching spatial and earth data science, and as a maintainer of
-stravalib—a package that supports my pre-COVID obsession with ultra mountain
+[stravalib](https://stravalib.readthedocs.io/en/latest/)—a package that supports my pre-COVID obsession with ultra mountain
 running.
 
-Things kicked off with a bang, thanks to the best meme ever created by
+Things kicked off with a bang, thanks to the best meme ever, created by
 [Filipe Fernandes](https://github.com/ocefpaf). Filipe, a conda-forge
 maintainer, introduced me to conda environments when I was struggling with
 creating consistent spatial data environments for my students. Anyone who's
@@ -283,13 +283,13 @@ Thanks to folks like Filipe and the conda-forge community, managing spatial
 environments has become much easier for everyone!
 
 <figure>
-  <img src="{{ site.baseurl }}/images/blog/2024/july/pyopensci-leah-talk-pip-install-gdal.jpg" alt="Image of me with my eyes closed chuckling as people laugh at the meme on the screen. The meme has a man holding something in his hands with the words 'One does not simply pip install GDAL.'" style="width: 90%;" />
+  <img src="{{ site.baseurl }}/images/blog/2024/july/pyopensci-leah-talk-pip-install-gdal.jpg" alt="Image of me with my eyes closed chuckling as people laugh at the meme on the screen. The meme has Boromir, played by Sean Bean in the Lord of the Rings Trilogy, making a circle with his right hand with the words 'One does not simply pip install GDAL overlaid on the image.'" style="width: 90%;" />
   <figcaption><i class="fa-solid fa-heart-pulse"></i> Filipe's meme is always a hit. Thinking about pip installing GDAL is not for the faint of heart. In the early years of using Python for spatial data, it was incredibly challenging to create a successful environment that contained spatial libraries (which often depend on GDAL)... <i class="fa-solid fa-heart-pulse"></i> Photo Credit: Luis López</figcaption>
 </figure>
 
 I discussed how pyOpenSci is working to make things easier for
 scientists by improving access to the right packages, maintaining community-vetted
-tools in one place, helping maintainers transition out, and making documentation
+tools in one place, helping maintainers step down and transition out, and making documentation
 more beginner-friendly.
 
 <figure>
@@ -303,9 +303,9 @@ I also talked about how pyOpenSci is using an inclusive,
 [community-led peer review process](/about-peer-review/index.html) to achieve
 several goals:
 
-* Help scientists find vetted, trusted, and maintained software.
-* Help scientists build better software.
-* Provide maintainers with credit for the important work they do to support open
+* Helping scientists find vetted, trusted, and maintained software.
+* Helping scientists build better software.
+* Providing maintainers with credit for the important work they do to support open
   science.
 
 <figure>
@@ -340,7 +340,7 @@ Python challenges. These people include:
 * Scientists
 * People new to packaging
 
-All of these people have helped pyOpenSci create a guidebook that is both
+All of these people have helped pyOpenSci create a [Python packaging guide](https://www.pyopensci.org/python-package-guide/index.html) that is both
 accurate and beginner-friendly.
 
 <figure>
@@ -360,7 +360,7 @@ of the use cases scientists have when sharing their code.
 I met some great people and had good discussions about peer review and Python
 packaging. The presentation will be on YouTube at some point, and I will update
 this post with the link when it's live. In the meantime, my slides are available
-on [Zenodo pyOpenSci community](https://zenodo.org/records/8045448).
+on [pyOpenSci's Zenodo community](https://zenodo.org/records/8045448).
 
 ## The hallway track
 
@@ -375,7 +375,7 @@ I spent a lot of time talking with colleagues, friends, and community members
 about all things Python, open source, and open science.
 
 * I worked with Sarah Kaiser on our new GitHub container to support workshops.
-* I had an ad hoc sprint with Angus and Rowan from the MyST Markdown community
+* I had an _ad hoc_ sprint with [Angus](https://github.com/agoose77) and [Rowan](https://github.com/rowanc1) from the [MyST Markdown](https://mystmd.org/) community
   to develop our [pyOpenSci peer review metrics dashboard](https://www.pyopensci.org/peer-review-metrics).
 
 Additionally, I caught up with colleagues, chatting about packaging and scientific Python.
@@ -458,6 +458,6 @@ After this spectacular year, I can't wait to see what 2025 brings!
 
 ### Get involved
 
-If you are interested in getting involved with us, there are many ways to do so! Check out our [volunteer](/volunteer.html) page as a starting place. Or shoot an email to media at pyopensci.org.
+If you are interested in getting involved with us, there are many ways to do so! Check out our [volunteer](/volunteer.html) page as a starting place. Or shoot an email to [media at pyopensci.org](mailto:media@pyopensci.org).
 
-And maybe I'll see you next year at PyCon US or SciPy 2025!
+I can't wait to see you next year at PyCon US and SciPy 2025!
