@@ -19,11 +19,11 @@ comments: true
 <div class="notice" markdown = "1">
 ## TL;DR
 
-* pyOpenSci lead 3 incredibly successful events at SciPy this year: A tutorial,
-a talk and a 1.5 day sprint
+* pyOpenSci lea 3 incredibly successful events at [SciPy](https://www.scipy2024.scipy.org/ this year: A tutorial,
+a talk and a 1.5 day sprint.
 * During our SciPy 2024 meeting sprint we had over 35 GitHub issues and pull requests submitted by XX new contributors.
-* Our tutorial had 40 registrations and ~30 people showed up. Almost all learners had never created a Python package before and almost all learners were successful creating their first Python package.
-* I thoroughly enjoyed connect with new and old colleagues and friends.
+* Our tutorial had over 30 attendees. Almost all of the learners had never created a Python package before, and most of them were successful creating their first Python package.
+* I thoroughly enjoyed connecting with new and old colleagues and friends.
 
 </div>
 
@@ -32,34 +32,33 @@ a talk and a 1.5 day sprint
 This year was my fourth time attending the annual SciPy meeting—a meeting
 organized by [NumFocus](https://www.numfocus.org) that celebrates the scientific
 Python ecosystem. My first experience was in 2019, where we held the very first
-pyOpenSci BoF (Birds of a Feather) session.
+pyOpenSci Birds of a Feather (BoF) session.
 
 A Birds of a Feather session, also known as a BoF, is a community-organized
-event where people lead a discussion around a specific topic. Our BoF was about
+event where people lead a discussion around a specific topic. Our 2019 SciPy BoF was about
 our peer review process, which we had just launched that year.
 {: .notice }
 
-In previous years, pyOpenSci was less known in the community. This year, however,
-was different. There were many familiar faces, including:
+One of the biggest differences this year has been how much pyOpenSci has grown, which means we saw many familiar faces, including: 
 
 * Maintainers of packages that we have reviewed and accepted through our
-  [scientific Python software peer review process](/about-peer-review/index.html)
-* Colleagues who I have met at other meetings such as PyCon,
+  [scientific Python software peer review process](/about-peer-review/index.html),
+* Colleagues who I have met at other meetings, such as [PyCon](https://pycon.org/),
 * Reviewers and editors from our community,
 * Members of our advisory council, contributors, and
 * Friends—so many friends.
 
-This year, I was busy as SciPy:
+This year, I was busy at SciPy, and spent my days:
 
-1. Running an in-person tutorial: Create Your First Python Package.
-2. Giving a talk in the Maintainers Track (what an honor!).
+1. Running an in-person tutorial: [Create Your First Python Package](https://cfp.scipy.org/2024/talk/QT9GBY/).
+2. Giving a talk, [The power of community in solving scientific Python’s most challenging problems](https://cfp.scipy.org/2024/talk/AMTLJ7/), in the Maintainers Track (what an honor!).
 3. Working the hallway track.
 4. Running a 1.5-day sprint that resulted in over 35 issues and pull requests.
    Wow.
 
 Admittedly, I started off this conference behind and frazzled. You see, pyOpenSci
 has been growing in recent months. With that growth comes more wonderful people
-to support and engage with. More people getting involved does mean more work for
+to support and engage with, which is wonderful! But more people getting involved does mean more work for
 pyOpenSci. However, the time is worth it, as all of this effort is moving
 pyOpenSci's mission of supporting open science forward.
 
@@ -78,15 +77,15 @@ More on all of that below. But first--what is the SciPy Conference?
 
 If you haven't attended this meeting before, let me give you the rundown. The
 SciPy Conference is an annual event dedicated to celebrating and learning more
-about scientific computing using the Python programming language. The meeting
+about scientific computing, all using the Python programming language. The meeting
 started back in [~2002](https://web.archive.org/web/20021030003450/http://www.scipy.org/site_content/scipy02/). The early meetings were run by EnThought and
 were smaller in size and scope. Over the years, SciPy has evolved significantly,
 mirroring the [🚀 explosive growth of the Python ecosystem 🚀](https://stackoverflow.blog/2023/01/26/comparing-tag-trends-with-our-most-loved-programming-languages/)
 in scientific computing and data science.
 
-Today, the SciPy Conference, hosted by [NumFocus](https://numfocus.org/),
+Today the SciPy Conference, hosted by [NumFocus](https://numfocus.org/),
 attracts over 700 attendees from diverse scientific fields such as astronomy,
-biology, geophysics, and more. SciPy is much more than just a workshop.
+biology, geophysics, and more. SciPy is much more than just a meeting.
 
 SciPy features:
 
@@ -95,7 +94,7 @@ SciPy features:
 * Talks from the community about tools and approaches.
 * Poster sessions that allow presenters to directly engage and discuss cool
   work with the meeting attendees.
-* Tutorials led by community members (and pyOpenSci) that cover important
+* Tutorials led by community members (including pyOpenSci) that cover important
   scientific data processing and analysis-related Python skills.
 * Sprints: collaborative coding sessions where people come to contribute to
   and learn about open-source projects.
