@@ -55,7 +55,7 @@ peer-review:
             <img src="/images/people/pyopensci-sprint-pycon-2023.png" alt="Image showing 3 people working at 2 computers during a spring at pyCon USA 2023.">
          </div>
          <div class="archive__item-body">
-            <h2 class="archive__item-title">Peer Review Mentorship Program</h2>
+            <h2 class="archive__item-title">Peer review mentorship program</h2>
             <div class="archive__item-excerpt">
                <p>We are building diverse community around the scientific packages that drive open science. We recruit and support editors and reviewers from different backgrounds and gender-identities in each review that we perform.
             </p>
@@ -81,11 +81,14 @@ peer-review:
 
 <br clear="both">
 
+<!-- pull blog posts not events -->
+{% assign blog_posts = site.posts |  where_exp: "item", "item.categories contains 'blog-post'" %}
+
 <div class="notice-highlight" markdown="1">
-## Recent Blog Posts & Updates
+## Recent blog posts & updates
 
 <div class="grid col-3">
-  {% for post in site.posts limit:3 %}
+  {% for post in blog_posts limit:3 %}
 
   <div class="cards">
   <h3 ><a href="{{ site.baseurl }}{{ post.url}}" rel="permalink">{{ post.title }}</a></h3>

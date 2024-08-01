@@ -14,13 +14,14 @@ layout: archive
 %}
 
 {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
-
+{% assign has_upcoming_events = false %}
 {% for post in all_events %}
 
   {% assign start_date = post.event.start_date | date: "%Y-%m-%d" %}
   {% capture posttime %}{{ start_date | date: '%s'}}{% endcapture %}
 
   {% if posttime > nowunix %}
+  {% assign has_upcoming_events = true %}
   <div class="upcoming">
     {% include event-cards.html %}
   </div>
@@ -28,6 +29,11 @@ layout: archive
 
 {% endfor %}
 
+
+{% if has_upcoming_events == false %}
+<p>pyOpenSci doesn't have any events coming up right now. However, check back
+  to see what we are planning! </p>
+{% endif %}
 
 <h2>Past events</h2>
 
