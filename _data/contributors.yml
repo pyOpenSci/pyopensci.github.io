@@ -12,7 +12,7 @@
   editorial_board: false
   emeritus_editor: true
   advisory: false
-  emeritus_advisory: false
+  emeritus_advisory: true
   twitter: leahawasser
   mastodon: https://fosstodon.org/@leahawasser
   orcidid: 0000-0002-8177-6550
@@ -315,7 +315,7 @@
   editorial_board:
   emeritus_editor: true
   advisory: true
-  emeritus_advisory: false
+  emeritus_advisory: true
   twitter: xmnlab
   mastodon:
   orcidid: 0000-0001-5049-4289
@@ -396,7 +396,7 @@
   editorial_board:
   emeritus_editor: false
   advisory: false
-  emeritus_advisory: true
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -423,7 +423,7 @@
   editorial_board:
   emeritus_editor:
   advisory: false
-  emeritus_advisory: true
+  emeritus_advisory:
   twitter: lindsey_jh
   mastodon:
   orcidid:
@@ -534,7 +534,7 @@
   editorial_board: false
   emeritus_editor: true
   advisory: false
-  emeritus_advisory: false
+  emeritus_advisory: true
   twitter: arianemsasso
   mastodon:
   orcidid:
@@ -651,7 +651,7 @@
   editorial_board: false
   emeritus_editor: true
   advisory: false
-  emeritus_advisory: false
+  emeritus_advisory: true
   twitter:
   mastodon:
   orcidid:
@@ -721,7 +721,7 @@
   editorial_board: false
   emeritus_editor: true
   advisory: false
-  emeritus_advisory: false
+  emeritus_advisory: true
   twitter: underdarkGIS
   mastodon:
   orcidid:
@@ -824,7 +824,7 @@
   editorial_board: false
   emeritus_editor: true
   advisory: false
-  emeritus_advisory: false
+  emeritus_advisory: true
   twitter:
   mastodon:
   orcidid:
@@ -2572,7 +2572,7 @@
   editorial_board: false
   emeritus_editor: true
   advisory: false
-  emeritus_advisory: false
+  emeritus_advisory: true
   twitter: jbencook
   mastodon:
   orcidid:
@@ -7103,9 +7103,141 @@
   website:
   board: false
   contributor_type:
+    - package-guide
     - web-contrib
   packages_editor:
   packages_submitted:
   packages_reviewed:
   location:
+  email:
+- name: Roberto Pastor Muela
+  github_username: RobPasMue
+  github_image_id: 37798125
+  title:
+  sort:
+  bio: Aerospace engineer, passionate about simulations, CFD and astrodynamics.
+  organization: '@ansys'
+  date_added: '2024-08-01'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor:
+  advisory: false
+  emeritus_advisory:
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://robpasmue.github.io
+  board: false
+  contributor_type:
+    - package-guide
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: Leganés, Madrid
+  email:
+- name: Olek
+  github_username: yardasol
+  github_image_id: 45364492
+  title:
+  sort:
+  bio: PhD student @ ARFC.Working on literature review for PhD Thesis, but am always
+      open for PR reviews!
+  organization:
+  date_added: '2024-08-01'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor:
+  advisory: false
+  emeritus_advisory:
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - package-guide
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location:
+  email:
+- name:
+  github_username: hpodzorski-USGS
+  github_image_id: 159824971
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2024-08-01'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor:
+  advisory: false
+  emeritus_advisory:
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - package-guide
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location:
+  email:
+- name: Naty Clementi
+  github_username: ncclementi
+  github_image_id: 7526622
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2024-08-01'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor:
+  advisory: false
+  emeritus_advisory:
+  twitter: ncclementi
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - package-guide
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: Arlington, VA
+  email:
+- name: John Drake
+  github_username: John-Drake
+  github_image_id: 22374979
+  title:
+  sort:
+  bio: Bioinformatician
+  organization:
+  date_added: '2024-08-01'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor:
+  advisory: false
+  emeritus_advisory:
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - package-guide
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: Phoenix, AZ
   email:
