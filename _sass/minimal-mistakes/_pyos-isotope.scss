@@ -72,6 +72,26 @@ input[type="text"] {
 .button-group .button:first-child { border-radius: 0.5em 0 0 0.5em; }
 .button-group .button:last-child { border-radius: 0 0.5em 0.5em 0; }
 
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+
+  .button {
+    flex-grow: 1;
+
+    @media (max-width: $small){
+      padding: 0.25em 0.5em;
+      margin-bottom: 0.25em;
+      box-shadow: unset;
+
+      &:first-child, &:last-child {
+        border-radius: 0;
+      }
+    }
+  }
+}
+
+
 /* ---- grid ---- */
 
 
