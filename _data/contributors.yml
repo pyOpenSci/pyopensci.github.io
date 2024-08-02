@@ -50,10 +50,10 @@
   organization:
   date_added: '2022-11-09'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -76,10 +76,10 @@
   organization:
   date_added: '2022-11-09'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: kcranstn
   mastodon:
   orcidid:
@@ -104,10 +104,10 @@
   organization: pyOpenSci
   date_added: '2023-11-21'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -133,10 +133,10 @@
   organization: Willing Consulting
   date_added: '2023-03-01'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: true
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: WillingCarol
   mastodon:
   orcidid:
@@ -168,10 +168,10 @@
   organization: '@softwaresaved'
   date_added: '2023-02-24'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: true
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -195,10 +195,10 @@
   organization:
   date_added: '2023-06-15'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: true
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: connector_erin
   mastodon:
   orcidid:
@@ -222,10 +222,10 @@
   organization: UC Berkeley
   date_added: '2019-10-10'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: true
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: choldgraf
   mastodon:
   orcidid:
@@ -254,10 +254,10 @@
   organization: '@numpy'
   date_added: '2023-03-21'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: true
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: inessapawson
   mastodon:
   orcidid:
@@ -282,10 +282,10 @@
   organization: '@bloomberg Python Infrastructure'
   date_added: '2023-03-01'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: true
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: pradyunsg
   mastodon: https://mastodon.social/@pradyunsg
   orcidid:
@@ -312,7 +312,7 @@
   organization: xmnlab
   date_added: '2019-10-15'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: true
   advisory: true
   emeritus_advisory: false
@@ -358,9 +358,9 @@
   date_added: '2019-10-17'
   deia_advisory: false
   editorial_board: true
-  emeritus_editor:
+  emeritus_editor: false
   advisory: true
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: ocefpaf
   mastodon:
   orcidid: 0000-0003-4165-2913
@@ -393,7 +393,7 @@
   organization: University of Liverpool
   date_added: '2023-01-18'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: true
@@ -420,8 +420,8 @@
   organization: '@simpeg, @geoscixyz, @ubcgif, @2i2c_org'
   date_added: '2019-12-10'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
   emeritus_advisory: true
   twitter: lindsey_jh
@@ -447,10 +447,10 @@
   organization:
   date_added: '2020-04-09'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: true
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: martinfleis
   mastodon: https://fosstodon.org/@martinfleis
   orcidid: 0000-0003-3319-3366
@@ -476,10 +476,10 @@
   organization: '@2i2c-org'
   date_added: '2023-01-18'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: true
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon: https://hachyderm.io/@yuvipanda
   orcidid:
@@ -504,10 +504,10 @@
   organization:
   date_added: '2023-11-20'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: true
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -572,9 +572,9 @@
   date_added: '2019-12-10'
   deia_advisory: false
   editorial_board: true
-  emeritus_editor:
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: nicholdav
   mastodon: https://fosstodon.org/@nicholdav
   orcidid: 0000-0002-4261-4719
@@ -613,9 +613,9 @@
   date_added: '2023-01-24'
   deia_advisory: false
   editorial_board: true
-  emeritus_editor:
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid: 0000-0003-2843-6044
@@ -683,9 +683,9 @@
   date_added: '2022-09-16'
   deia_advisory: false
   editorial_board: true
-  emeritus_editor:
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -753,9 +753,9 @@
   date_added: '2023-02-04'
   deia_advisory: false
   editorial_board: true
-  emeritus_editor:
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon: https://fosstodon.org/@batalex
   orcidid:
@@ -788,10 +788,10 @@
   organization: '@planetlabs'
   date_added: '2019-10-17'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: mxwlj
   mastodon:
   orcidid:
@@ -855,10 +855,10 @@
   organization: '@GitHub'
   date_added: '2023-02-24'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: dynamicwebpaige
   mastodon:
   orcidid:
@@ -881,10 +881,10 @@
   organization: '@textileio @tablelandnetwork'
   date_added: '2023-02-24'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: carsonfarmer
   mastodon:
   orcidid:
@@ -907,10 +907,10 @@
   organization: Earthmover
   date_added: '2023-02-24'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: _jhamman
   mastodon:
   orcidid:
@@ -933,10 +933,10 @@
   organization:
   date_added: '2023-02-24'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -964,10 +964,10 @@
   organization:
   date_added: '2023-02-24'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -994,10 +994,10 @@
   organization: Smithsonian Institution
   date_added: '2023-02-24'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -1020,10 +1020,10 @@
   organization: '@unionai'
   date_added: '2019-12-10'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: cosmicbboy
   mastodon:
   orcidid:
@@ -1053,10 +1053,10 @@
   organization: '@planetlabs'
   date_added: '2019-12-10'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -1081,10 +1081,10 @@
   organization: '@Quansight-Labs, @TheochemUI'
   date_added: '2019-12-10'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: rg0swami
   mastodon:
   orcidid:
@@ -1109,10 +1109,10 @@
   organization: CSIRO Mineral Resources
   date_added: '2020-06-08'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: metasomite
   mastodon:
   orcidid:
@@ -1139,10 +1139,10 @@
   organization: '@Quansight'
   date_added: '2020-10-14'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -1171,10 +1171,10 @@
   organization: Kornia.org
   date_added: '2020-10-14'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: edgarriba
   mastodon:
   orcidid:
@@ -1200,10 +1200,10 @@
   organization:
   date_added: '2021-02-19'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -1227,10 +1227,10 @@
   organization:
   date_added: '2021-03-02'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -1254,10 +1254,10 @@
   organization: '@fluves'
   date_added: '2021-03-02'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -1281,10 +1281,10 @@
   organization: De Watergroep
   date_added: '2021-03-02'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -1308,10 +1308,10 @@
   organization: Actively looking
   date_added: '2021-04-30'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: Jonny_Wireless
   mastodon:
   orcidid: 0000-0002-2575-9633
@@ -1341,10 +1341,10 @@
   organization:
   date_added: '2021-05-07'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: ksielemann
   mastodon:
   orcidid:
@@ -1370,10 +1370,10 @@
   organization: Lund University
   date_added: '2021-05-13'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: mluerig
   mastodon:
   orcidid:
@@ -1401,10 +1401,10 @@
   organization:
   date_added: '2021-09-16'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -1436,10 +1436,10 @@
   organization: University of California, Merced
   date_added: '2021-09-16'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: LunaSare
   mastodon:
   orcidid:
@@ -1466,10 +1466,10 @@
   organization: University of Montana NTSG
   date_added: '2022-01-12'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -1495,10 +1495,10 @@
   organization: AIRBUS D&S
   date_added: '2022-01-12'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -1523,10 +1523,10 @@
   organization: Columbia/LDEO -- @ocean-transport
   date_added: '2022-09-08'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: JuliusBusecke
   mastodon:
   orcidid:
@@ -1551,10 +1551,10 @@
   organization: Universidad Nacional de Quilmes & MetaDocencia
   date_added: '2023-03-01'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon: https://fediscience.org/@npalopoli
   orcidid: ​0000-0001-7925-6436
@@ -1576,10 +1576,10 @@
   organization:
   date_added: '2023-03-01'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: eriknwelch
   mastodon:
   orcidid:
@@ -1609,10 +1609,10 @@
   organization: '@Quansight'
   date_added: '2023-03-01'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: PamphileRoy
   mastodon:
   orcidid:
@@ -1637,9 +1637,9 @@
   date_added: '2023-03-01'
   deia_advisory: false
   editorial_board: true
-  emeritus_editor:
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: json_dirs
   mastodon: https://neuromatch.social/@jonny
   orcidid: 0000-0003-0545-5066
@@ -1670,10 +1670,10 @@
   organization:
   date_added: '2023-03-01'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -1697,10 +1697,10 @@
   organization: '@kedro-org'
   date_added: '2023-03-01'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -1726,10 +1726,10 @@
   organization: Princeton University
   date_added: '2023-03-01'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: henryschreiner3
   mastodon:
   orcidid:
@@ -1754,10 +1754,10 @@
   organization: University of California, Berkeley
   date_added: '2023-03-01'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: stefanvdwalt
   mastodon:
   orcidid:
@@ -1782,10 +1782,10 @@
   organization:
   date_added: '2023-03-01'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -1810,10 +1810,10 @@
   organization: Quansight
   date_added: '2023-03-01'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: ralfgommers
   mastodon:
   orcidid:
@@ -1837,10 +1837,10 @@
   organization: '@datadog'
   date_added: '2023-03-01'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -1866,10 +1866,10 @@
   organization: '@microsoft'
   date_added: '2023-03-01'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -1894,10 +1894,10 @@
   organization: Earthmover PBC
   date_added: '2023-03-01'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: rabernat
   mastodon:
   orcidid:
@@ -1922,10 +1922,10 @@
   organization: Dr Stephen P. Moss
   date_added: '2023-03-01'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: gawbul
   mastodon:
   orcidid:
@@ -1952,10 +1952,10 @@
   organization: London Interdisciplinary School
   date_added: '2023-03-01'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -1979,10 +1979,10 @@
   organization:
   date_added: '2023-03-01'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -2006,10 +2006,10 @@
   organization:
   date_added: '2023-03-01'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: itss_sumit
   mastodon:
   orcidid:
@@ -2034,10 +2034,10 @@
   organization: Sundell Open Source Consulting AB
   date_added: '2023-03-01'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: e_Sundell
   mastodon:
   orcidid:
@@ -2061,10 +2061,10 @@
   organization: The University of Washington eScience Institute
   date_added: '2023-03-01'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -2089,10 +2089,10 @@
   organization: Johns Hopkins Applied Physics Lab
   date_added: '2023-03-01'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: starfleetjames
   mastodon:
   orcidid:
@@ -2116,10 +2116,10 @@
   organization: Department of Physics and Astronomy, Macquarie University
   date_added: '2023-04-13'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -2143,10 +2143,10 @@
   organization:
   date_added: '2023-04-13'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: frostming90
   mastodon:
   orcidid:
@@ -2171,10 +2171,10 @@
   organization: Nord Software
   date_added: '2023-04-13'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -2198,10 +2198,10 @@
   organization: '@equinor'
   date_added: '2023-04-13'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -2226,10 +2226,10 @@
   organization: '@anaconda'
   date_added: '2023-04-13'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: jezdez
   mastodon:
   orcidid:
@@ -2253,10 +2253,10 @@
   organization:
   date_added: '2023-04-13'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: dave_hirschfeld
   mastodon:
   orcidid:
@@ -2280,10 +2280,10 @@
   organization: Technical University of Munich
   date_added: '2023-04-14'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -2307,10 +2307,10 @@
   organization: Ouranos
   date_added: '2023-04-14'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -2337,10 +2337,10 @@
   organization: Ouranos
   date_added: '2023-04-14'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -2367,10 +2367,10 @@
   organization:
   date_added: '2023-04-13'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -2397,10 +2397,10 @@
   organization: neuroConn
   date_added: '2023-04-13'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: agricolabs
   mastodon:
   orcidid:
@@ -2427,10 +2427,10 @@
       TU Braunschweig
   date_added: '2023-04-13'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: boas_pucker
   mastodon:
   orcidid:
@@ -2456,10 +2456,10 @@
   organization: '@quadram-institute-bioscience'
   date_added: '2023-04-13'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: leomrtns
   mastodon:
   orcidid:
@@ -2484,10 +2484,10 @@
   organization: Facebook AI Research
   date_added: '2023-04-13'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -2512,10 +2512,10 @@
   organization:
   date_added: '2023-04-13'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -2540,10 +2540,10 @@
   organization:
   date_added: '2023-04-13'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: seth_donoughe
   mastodon:
   orcidid:
@@ -2598,10 +2598,10 @@
   organization: ACCESS-NRI
   date_added: '2023-04-13'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: romain_beucher
   mastodon:
   orcidid:
@@ -2627,10 +2627,10 @@
   organization: Institut de physique du globe de Paris
   date_added: '2023-04-13'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: Charles_LeLosq
   mastodon:
   orcidid:
@@ -2656,10 +2656,10 @@
   organization: '@developmentseed'
   date_added: '2023-04-13'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -2686,10 +2686,10 @@
   organization: University of Pittsburgh
   date_added: '2023-03-29'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: TessaRhinehart
   mastodon:
   orcidid: 0000-0002-4352-3464
@@ -2714,10 +2714,10 @@
   organization:
   date_added: '2023-04-12'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid: 0000-0002-5538-8845
@@ -2743,10 +2743,10 @@
   organization:
   date_added: '2023-04-13'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -2772,10 +2772,10 @@
       Brussel
   date_added: '2023-04-13'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -2805,10 +2805,10 @@
   organization: ULL
   date_added: '2023-04-13'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: srobainae
   mastodon:
   orcidid:
@@ -2839,10 +2839,10 @@
   organization: Ouranos
   date_added: '2023-04-13'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -2870,10 +2870,10 @@
   organization: '@2i2c-org'
   date_added: '2023-04-13'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: __jmunroe
   mastodon:
   orcidid:
@@ -2899,10 +2899,10 @@
   organization:
   date_added: '2023-04-13'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -2928,9 +2928,9 @@
   date_added: '2023-04-18'
   deia_advisory: false
   editorial_board: true
-  emeritus_editor:
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: tlrss
   mastodon:
   orcidid:
@@ -2960,9 +2960,9 @@
   date_added: '2023-04-18'
   deia_advisory: false
   editorial_board: true
-  emeritus_editor:
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: ctitusbrown
   mastodon:
   orcidid:
@@ -2994,9 +2994,9 @@
   date_added: '2023-04-18'
   deia_advisory: false
   editorial_board: true
-  emeritus_editor:
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -3023,10 +3023,10 @@
   organization:
   date_added: '2023-04-24'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -3049,10 +3049,10 @@
   organization: Fred Hutch
   date_added: '2023-04-24'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -3077,10 +3077,10 @@
   organization: Bloomberg
   date_added: '2023-04-24'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -3105,10 +3105,10 @@
   organization:
   date_added: '2023-04-24'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -3133,10 +3133,10 @@
   organization:
   date_added: '2023-04-24'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: paajake
   mastodon:
   orcidid:
@@ -3161,10 +3161,10 @@
   organization: '@vitalsource'
   date_added: '2023-04-24'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -3190,10 +3190,10 @@
   organization: '@ActiveState'
   date_added: '2023-05-26'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: ucodery
   mastodon:
   orcidid:
@@ -3217,10 +3217,10 @@
   organization: Anaconda Inc.
   date_added: '2023-05-26'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: IramMahe
   mastodon:
   orcidid:
@@ -3244,10 +3244,10 @@
   organization:
   date_added: '2023-05-26'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -3271,10 +3271,10 @@
   organization: UCL
   date_added: '2023-05-26'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: davidstansby
   mastodon:
   orcidid:
@@ -3302,10 +3302,10 @@
   organization: UC, Santa Cruz
   date_added: '2023-05-26'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: juanitagomezr
   mastodon:
   orcidid:
@@ -3332,10 +3332,10 @@
   organization: Microsoft
   date_added: '2023-05-26'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -3362,10 +3362,10 @@
   organization: UC Berkeley
   date_added: '2023-06-01'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -3392,10 +3392,10 @@
   organization: University of Bristol
   date_added: '2023-06-14'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -3419,10 +3419,10 @@
   organization:
   date_added: '2023-06-14'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: dpprdan
   mastodon:
   orcidid:
@@ -3447,10 +3447,10 @@
   organization: '@hamma-dev @python @spyder-ide @star-fleet-tours'
   date_added: '2023-06-14'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: StarFleetTours
   mastodon:
   orcidid:
@@ -3473,10 +3473,10 @@
   organization:
   date_added: '2023-07-12'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid: 0000-0002-7109-3270
@@ -3505,10 +3505,10 @@
   organization: HKI Jena, MPI-EVA Leipzig
   date_added: '2023-07-12'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: jfy133
   mastodon:
   orcidid:
@@ -3534,10 +3534,10 @@
   organization:
   date_added: '2023-07-12'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: me_beber
   mastodon:
   orcidid:
@@ -3567,10 +3567,10 @@
   organization:
   date_added: '2023-07-15'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid: 0000-0002-3100-523X
@@ -3596,10 +3596,10 @@
   organization:
   date_added: '2023-07-15'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -3624,10 +3624,10 @@
   organization: Space Telescope Science Institute
   date_added: '2023-07-15'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -3656,10 +3656,10 @@
   organization: Center for Astrophysics | Harvard & Smithsonian
   date_added: '2023-07-15'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -3716,10 +3716,10 @@
   organization:
   date_added: '2023-07-15'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -3743,10 +3743,10 @@
   organization: '@posit-pbc'
   date_added: '2023-07-15'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -3769,10 +3769,10 @@
   organization: '@Quansight-Labs'
   date_added: '2023-07-15'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: thomasjpfan
   mastodon:
   orcidid:
@@ -3795,10 +3795,10 @@
   organization: '@ansys'
   date_added: '2023-07-27'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -3821,10 +3821,10 @@
   organization: Caltech-IPAC/NExScI
   date_added: '2023-07-27'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -3847,10 +3847,10 @@
   organization:
   date_added: '2023-07-27'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: OriolAbril
   mastodon:
   orcidid:
@@ -3875,10 +3875,10 @@
   organization: '{Ø,{Ø},{Ø,{Ø}}, ... }'
   date_added: '2023-07-27'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -3903,10 +3903,10 @@
   organization:
   date_added: '2023-07-27'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: saltyscientist
   mastodon:
   orcidid:
@@ -3934,10 +3934,10 @@
   organization:
   date_added: '2023-07-27'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -3963,10 +3963,10 @@
   organization: USF IMaRS
   date_added: '2023-07-27'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: 7yl4r
   mastodon:
   orcidid:
@@ -3992,10 +3992,10 @@
   organization:
   date_added: '2023-07-27'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: theayushanand
   mastodon:
   orcidid:
@@ -4020,10 +4020,10 @@
   organization:
   date_added: '2023-07-27'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -4048,10 +4048,10 @@
   organization: Anaconda
   date_added: '2023-07-27'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -4076,10 +4076,10 @@
   organization: '@cid-harvard'
   date_added: '2023-07-27'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -4110,9 +4110,9 @@
   date_added: '2023-08-14'
   deia_advisory: false
   editorial_board: true
-  emeritus_editor:
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -4141,10 +4141,10 @@
   organization: UIUC
   date_added: '2023-09-11'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: eliotdexter
   mastodon:
   orcidid:
@@ -4171,10 +4171,10 @@
   organization:
   date_added: '2023-09-11'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -4197,10 +4197,10 @@
   organization:
   date_added: '2023-09-11'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -4226,10 +4226,10 @@
   organization: CRI
   date_added: '2023-09-11'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: k_kloppenborg
   mastodon:
   orcidid:
@@ -4256,10 +4256,10 @@
   organization: China University of Geosciences
   date_added: '2023-09-11'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -4285,10 +4285,10 @@
   organization: '@carbonplan'
   date_added: '2023-09-11'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -4314,10 +4314,10 @@
   organization: SNP Innovation Lab
   date_added: '2023-09-11'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -4342,10 +4342,10 @@
   organization:
   date_added: '2023-09-11'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -4371,10 +4371,10 @@
   organization:
   date_added: '2020-09-11'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -4399,10 +4399,10 @@
   organization: '@hydrosat'
   date_added: '2020-09-11'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -4427,10 +4427,10 @@
   organization: Karlsruhe Institute of Technology - Geophysical Institute
   date_added: '2023-09-15'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -4455,10 +4455,10 @@
   organization:
   date_added: '2023-10-22'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -4481,10 +4481,10 @@
   organization:
   date_added: '2023-10-22'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -4509,10 +4509,10 @@
   organization: '@dataiku'
   date_added: '2023-10-22'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -4537,10 +4537,10 @@
   organization:
   date_added: '2023-10-22'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: WowThatBurns
   mastodon:
   orcidid:
@@ -4567,10 +4567,10 @@
   organization:
   date_added: '2023-10-22'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -4595,10 +4595,10 @@
   organization: University of Delaware
   date_added: '2023-10-22'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -4623,10 +4623,10 @@
   organization:
   date_added: '2023-10-22'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -4651,10 +4651,10 @@
   organization: University of Vermont
   date_added: '2023-10-22'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: nwlandry
   mastodon:
   orcidid:
@@ -4680,10 +4680,10 @@
   organization: leotrs.com
   date_added: '2023-10-22'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -4708,10 +4708,10 @@
   organization: CENTAI Institute
   date_added: '2023-10-22'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -4736,10 +4736,10 @@
   organization: Network Science Institute, Northeastern University London
   date_added: '2023-10-22'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: iacopoiacopini
   mastodon:
   orcidid:
@@ -4764,10 +4764,10 @@
   organization: Northeastern University London / CENTAI Institute
   date_added: '2023-10-22'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: lordgrilo
   mastodon:
   orcidid:
@@ -4792,10 +4792,10 @@
   organization: Dartmouth College
   date_added: '2023-10-22'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -4820,10 +4820,10 @@
   organization: Politecnico di Torino
   date_added: '2023-10-22'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: thomrobiglio
   mastodon:
   orcidid:
@@ -4848,10 +4848,10 @@
   organization: University of Vermont
   date_added: '2023-10-22'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: AlicePatania
   mastodon:
   orcidid:
@@ -4877,10 +4877,10 @@
   organization: Alaska Satellite Facility
   date_added: '2023-12-14'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -4907,10 +4907,10 @@
   organization: Flatiron Institute
   date_added: '2023-12-14'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -4934,10 +4934,10 @@
   organization: Boehringer Ingelheim
   date_added: '2023-12-14'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -4961,10 +4961,10 @@
   organization: Sean Kelly Consulting
   date_added: '2023-12-14'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: nutjob4life
   mastodon:
   orcidid:
@@ -4990,10 +4990,10 @@
   organization: '@ecosyste-ms and @octobox'
   date_added: '2023-12-14'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: teabass
   mastodon:
   orcidid:
@@ -5017,10 +5017,10 @@
   organization: '@theislab @schillerlab @scverse @laminlabs'
   date_added: '2023-12-14'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: lukasheumos
   mastodon:
   orcidid:
@@ -5045,10 +5045,10 @@
   organization:
   date_added: '2023-12-14'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: slobentanzer
   mastodon:
   orcidid:
@@ -5074,10 +5074,10 @@
   organization: Tweag
   date_added: '2023-12-15'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -5101,9 +5101,9 @@
   date_added: '2023-12-21'
   deia_advisory: false
   editorial_board: true
-  emeritus_editor:
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -5130,9 +5130,9 @@
   date_added: '2023-12-27'
   deia_advisory: false
   editorial_board: true
-  emeritus_editor:
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -5157,10 +5157,10 @@
   organization: '@theislab'
   date_added: '2023-12-27'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -5183,10 +5183,10 @@
   organization: Observatoire de Paris
   date_added: '2024-01-30'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -5211,10 +5211,10 @@
   organization: BAERI/LMSAL (@LM-SAL)
   date_added: '2024-01-30'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -5240,10 +5240,10 @@
   organization: NASA Goddard Space Flight Center
   date_added: '2024-01-30'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -5269,10 +5269,10 @@
   organization: '@UCL-ARC'
   date_added: '2024-01-30'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -5297,10 +5297,10 @@
   organization:
   date_added: '2024-01-30'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -5325,10 +5325,10 @@
   organization:
   date_added: '2024-01-30'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -5354,10 +5354,10 @@
   organization: Aperio Software
   date_added: '2024-01-30'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -5382,10 +5382,10 @@
   organization:
   date_added: '2024-01-30'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -5410,10 +5410,10 @@
   organization:
   date_added: '2024-01-30'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: wtbarnes_
   mastodon:
   orcidid:
@@ -5438,10 +5438,10 @@
   organization:
   date_added: '2024-01-30'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -5466,10 +5466,10 @@
   organization: University of Oxford
   date_added: '2024-01-30'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -5494,10 +5494,10 @@
   organization:
   date_added: '2024-01-30'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: Laura_hayess
   mastodon:
   orcidid:
@@ -5522,10 +5522,10 @@
   organization: IIT Indore
   date_added: '2024-01-30'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -5550,10 +5550,10 @@
   organization: '@NERC-CEH'
   date_added: '2024-02-15'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: michael_ts0
   mastodon:
   orcidid:
@@ -5578,10 +5578,10 @@
   organization: NASA's Atmospheric Science Data Center
   date_added: '2024-02-15'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -5607,10 +5607,10 @@
   organization: '@rstudio'
   date_added: '2024-02-15'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: chowthedog
   mastodon:
   orcidid:
@@ -5635,10 +5635,10 @@
   organization: Quantinuum
   date_added: '2024-02-15'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -5664,10 +5664,10 @@
   organization:
   date_added: '2024-02-25'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -5690,10 +5690,10 @@
   organization:
   date_added: '2024-02-25'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -5717,10 +5717,10 @@
   organization: '@rstudio'
   date_added: '2024-03-09'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: riannone
   mastodon:
   orcidid:
@@ -5745,10 +5745,10 @@
   organization:
   date_added: '2024-03-09'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: HKibirige
   mastodon:
   orcidid:
@@ -5774,10 +5774,10 @@
   organization:
   date_added: '2024-03-09'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -5834,10 +5834,10 @@
   organization: '@Ansible Core Engineering Team @ @RedHatOfficial'
   date_added: '2024-03-20'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: webknjaz
   mastodon:
   orcidid:
@@ -5860,10 +5860,10 @@
   organization: TU Wien
   date_added: '2024-03-20'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -5889,10 +5889,10 @@
   organization:
   date_added: '2024-05-07'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -5916,10 +5916,10 @@
   organization:
   date_added: '2024-05-07'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -5942,10 +5942,10 @@
   organization:
   date_added: '2024-05-07'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -5969,10 +5969,10 @@
   organization: Washington Start Department of Health
   date_added: '2024-05-07'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -5995,10 +5995,10 @@
   organization: Elcano Project @elcano
   date_added: '2024-05-07'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -6021,10 +6021,10 @@
   organization:
   date_added: '2024-05-07'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -6047,10 +6047,10 @@
   organization: NASA Goddard Space Flight Center
   date_added: '2024-05-07'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: GravityAndBikes
   mastodon:
   orcidid:
@@ -6075,10 +6075,10 @@
   organization: Institute of Theoretical Astrophysics (UiO)
   date_added: '2024-05-07'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -6104,10 +6104,10 @@
   organization: University of Oslo
   date_added: '2024-05-07'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: dncnwtts
   mastodon:
   orcidid:
@@ -6132,10 +6132,10 @@
   organization:
   date_added: '2024-05-07'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -6160,10 +6160,10 @@
   organization: NASA Transform to Open Science
   date_added: '2024-05-07'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: SciencePaige
   mastodon:
   orcidid:
@@ -6188,10 +6188,10 @@
   organization: Voice of the Ocean Foundation
   date_added: '2024-05-07'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -6217,10 +6217,10 @@
   organization: Institut des Géosciences de l'Environnement
   date_added: '2024-05-07'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -6246,10 +6246,10 @@
   organization: Karolinska Institutet
   date_added: '2024-05-07'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -6274,10 +6274,10 @@
   organization: Lawrence Berkeley National Laboratory
   date_added: '2024-05-07'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -6302,10 +6302,10 @@
   organization: Game of Y
   date_added: '2024-06-01'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -6328,10 +6328,10 @@
   organization: Anaconda, Inc.
   date_added: '2024-06-01'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -6354,10 +6354,10 @@
   organization: Lucas Systems
   date_added: '2024-06-01'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: pb_413
   mastodon:
   orcidid:
@@ -6380,10 +6380,10 @@
   organization: Space Telescope Science Institute
   date_added: '2024-06-01'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: OmegaSpaces
   mastodon:
   orcidid:
@@ -6407,10 +6407,10 @@
   organization:
   date_added: '2024-06-01'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -6433,10 +6433,10 @@
   organization: Anaconda
   date_added: '2024-06-01'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -6459,10 +6459,10 @@
   organization:
   date_added: '2024-06-01'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -6485,10 +6485,10 @@
   organization: Bloomberg LP
   date_added: '2024-06-01'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -6512,10 +6512,10 @@
   organization:
   date_added: '2024-06-01'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -6539,10 +6539,10 @@
   organization:
   date_added: '2024-06-01'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -6566,10 +6566,10 @@
   organization:
   date_added: '2024-06-01'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: MissingClara
   mastodon:
   orcidid:
@@ -6592,10 +6592,10 @@
   organization: MongoDB
   date_added: '2024-06-01'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -6619,10 +6619,10 @@
   organization: University of Georgia
   date_added: '2024-06-01'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -6647,10 +6647,10 @@
   organization: University of Gdańsk
   date_added: '2024-06-01'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -6675,10 +6675,10 @@
   organization: '@UCL'
   date_added: '2024-06-01'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -6707,10 +6707,10 @@
   organization:
   date_added: '2024-07-04'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -6735,10 +6735,10 @@
   organization: Freexian, Debian, Ubuntu
   date_added: '2024-07-04'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: stefanorivera
   mastodon:
   orcidid:
@@ -6761,10 +6761,10 @@
   organization: '@Bloomberg'
   date_added: '2024-07-04'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: StefanieMolin
   mastodon:
   orcidid:
@@ -6787,10 +6787,10 @@
   organization:
   date_added: '2024-07-04'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -6813,10 +6813,10 @@
   organization: '@worldbank'
   date_added: '2024-07-04'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -6839,10 +6839,10 @@
   organization: Center for Astrophysics | Harvard & Smithsonian
   date_added: '2024-07-04'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -6867,10 +6867,10 @@
   organization:
   date_added: '2024-07-04'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -6896,10 +6896,10 @@
   organization:
   date_added: '2024-07-04'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -6925,10 +6925,10 @@
   organization:
   date_added: '2024-07-04'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -6953,10 +6953,10 @@
   organization: Lawrence Berkeley National Laboratory
   date_added: '2024-07-04'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -6982,9 +6982,9 @@
   date_added: '2024-07-04'
   deia_advisory: false
   editorial_board: true
-  emeritus_editor:
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -7010,10 +7010,10 @@
   organization:
   date_added: '2024-07-04'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter: caleb531
   mastodon:
   orcidid:
@@ -7038,10 +7038,10 @@
   organization:
   date_added: '2024-07-04'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -7066,10 +7066,10 @@
   organization:
   date_added: '2024-07-15'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -7092,10 +7092,10 @@
   organization:
   date_added: '2024-07-15'
   deia_advisory: false
-  editorial_board:
-  emeritus_editor:
+  editorial_board: false
+  emeritus_editor: false
   advisory: false
-  emeritus_advisory:
+  emeritus_advisory: false
   twitter:
   mastodon:
   orcidid:
@@ -7103,9 +7103,193 @@
   website:
   board: false
   contributor_type:
+    - package-guide
     - web-contrib
   packages_editor:
   packages_submitted:
   packages_reviewed:
   location:
+  email:
+- name: Roberto Pastor Muela
+  github_username: RobPasMue
+  github_image_id: 37798125
+  title:
+  sort:
+  bio: Aerospace engineer, passionate about simulations, CFD and astrodynamics.
+  organization: '@ansys'
+  date_added: '2024-08-01'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://robpasmue.github.io
+  board: false
+  contributor_type:
+    - package-guide
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: Leganés, Madrid
+  email:
+- name: Olek
+  github_username: yardasol
+  github_image_id: 45364492
+  title:
+  sort:
+  bio: PhD student @ ARFC.Working on literature review for PhD Thesis, but am always
+      open for PR reviews!
+  organization:
+  date_added: '2024-08-01'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - package-guide
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location:
+  email:
+- name:
+  github_username: hpodzorski-USGS
+  github_image_id: 159824971
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2024-08-01'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - package-guide
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location:
+  email:
+- name: Naty Clementi
+  github_username: ncclementi
+  github_image_id: 7526622
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2024-08-01'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter: ncclementi
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - package-guide
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: Arlington, VA
+  email:
+- name: John Drake
+  github_username: John-Drake
+  github_image_id: 22374979
+  title:
+  sort:
+  bio: Bioinformatician
+  organization:
+  date_added: '2024-08-01'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - package-guide
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: Phoenix, AZ
+  email:
+- name: Revathy Venugopal
+  github_username: Revathyvenugopal162
+  github_image_id: 104772255
+  title:
+  sort:
+  bio:
+  organization: ANSYS
+  date_added: '2024-08-01'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - package-guide
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: Lyon, France
+  email:
+- name: Elise Hinman
+  github_username: ehinman
+  github_image_id: 121896266
+  title:
+  sort:
+  bio: Data Scientist
+  organization: USGS
+  date_added: '2024-08-01'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - community
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: Madison, WI
   email:
