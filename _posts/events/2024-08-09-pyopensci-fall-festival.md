@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "pyOpenSci Fall Festival"
-excerpt: "We will be announcing an updated date and cost for the fall festival in early august. Please check back for more information."
+excerpt: "We will be announcing an updated date, along with logistics, speakers, workshop offerings, and associated costs for our 2024 Fall Festival in early August. Please check back later for more information."
 author:
 event:
   start_date: "2024-11-05"
