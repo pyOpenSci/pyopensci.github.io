@@ -1,7 +1,7 @@
 ---
 layout: single
-title: "pyOpenSci a Recap of @ SciPy 2024 Meeting - Tacoma, Washington"
-excerpt: "This year I gave a talk and lead a packaging workshop at the SciPy 2024 conference in Tacoma Washington. Learn more about the SciPy meeting and how exciting it was for pyOpenSci to be there this year!"
+title: "pyOpenSci @ SciPy 2024 - Python Packaging Tutorials, Talks and Community :heart:"
+excerpt: "pyOpenSci had an incredibly impactful SciPy conference this year in Tacoma Washingon. I gave a talk and we lead a workshop on Python packaging and we had 39 issues and pull requests submitted during our sprints. Learn more about both the SciPy meeting and my expeirence SciPy in Tacoma, Washington this year."
 author: "Leah Wasser"
 permalink: /blog/pyos-scipy-2024-recap.html
 header:
@@ -39,7 +39,7 @@ event where people lead a discussion around a specific topic. Our 2019 SciPy BoF
 our peer review process, which we had just launched that year.
 {: .notice }
 
-One of the biggest differences this year has been how much pyOpenSci has grown, which means we saw many familiar faces, including: 
+One of the biggest differences this year has been how much pyOpenSci has grown, which means we saw many familiar faces, including:
 
 * Maintainers of packages that we have reviewed and accepted through our
   [scientific Python software peer review process](/about-peer-review/index.html),
@@ -58,7 +58,7 @@ This year, I was busy at SciPy, and spent my days:
 
 Admittedly, I started off this conference behind and frazzled. You see, pyOpenSci
 has been growing in recent months. With that growth comes more wonderful people
-to support and engage with, which is wonderful! But more people getting involved does mean more work for
+to support and engage with! More people getting involved does mean more work for
 pyOpenSci. However, the time is worth it, as all of this effort is moving
 pyOpenSci's mission of supporting open science forward.
 
@@ -73,7 +73,7 @@ things can be less than perfect and still go well.
 
 More on all of that below. But first--what is the SciPy Conference?
 
-## About the SciPy Conference
+## A brief history of the annual SciPy conference
 
 If you haven't attended this meeting before, let me give you the rundown. The
 SciPy Conference is an annual event dedicated to celebrating and learning more
@@ -102,7 +102,9 @@ SciPy features:
 I'd be remiss if I didn't mention the lightning talk sessions. During lightning
 talks, people throw their names into a literal bucket. If their name is selected,
 they are given 5 minutes (or less if the dice are rolled) to talk about a topic
-they love. At SciPy, there are often off-beat distractions from the moderators
+they love. Last year the talks featured a large stuffed dice that you would roll. the number that was rolled determined how much time you have to present and what distractions the moderators would apply to you. :laughing:
+
+You see, at SciPy, there are often off-beat distractions from the moderators
 along the way, such as the infamous grab claw (see below). Yes, it is as
 ridiculously hilarious as it sounds.
 
@@ -112,8 +114,9 @@ ridiculously hilarious as it sounds.
 </figure>
 
 [Did someone mention sharks? More here on my experience last year giving a SciPy lighting talk.](scipy-2023-community.html)
+{: .notice }
 
-The entire meeting is community-driven. The scientific Python community really
+Another cool thing about SciPy is that the entire meeting is community-driven. The scientific Python community really
 shows up to make this meeting what it is. All of the sessions are volunteer
 organized and run. Volunteers also spend considerable time engaging with
 presenters, ensuring there are social activities that everyone is invited to in
@@ -125,7 +128,7 @@ attendees also helped organize the meeting!
 
 If you are a Pythonista who loves science, this meeting is for you!
 
-## Create your first Python package tutorial @ SciPy 2024
+## pyOpenSci's first SciPy tutorial: Create your first Python package
 
 My adventure at the SciPy meeting kicked off with a 4-hour tutorial entitled:
 _[Create Your First Python Package: From Code to Module](https://cfp.scipy.org/2024/talk/QT9GBY/)_. This tutorial was an
@@ -147,7 +150,7 @@ impact our learners too much.
 
 But back to SciPy, it was a rush to be back in the "classroom" at SciPy 2024!
 
-### Workshop setup
+### A tutorial room full of eager learners and tech that worked
 
 Our workshop room was full of people eager to better understand Python packaging.
 We also had great helpers, and all the tech in the room just worked seamlessly.
@@ -457,6 +460,8 @@ After this spectacular year, I can't wait to see what 2025 brings!
 
 ### Get involved
 
-If you are interested in getting involved with us, there are many ways to do so! Check out our [volunteer](/volunteer.html) page as a starting place. Or shoot an email to [media at pyopensci.org](mailto:media@pyopensci.org).
+If you are interested in getting involved with us, there are many ways to do so!
+Check out our [volunteer](/volunteer.html) page as a starting place. Or shoot
+an email to [media at pyopensci.org](mailto:media@pyopensci.org).
 
 I can't wait to see you next year at PyCon US and SciPy 2025!
