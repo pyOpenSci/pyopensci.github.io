@@ -8,7 +8,7 @@
   {% for f in feature_row %}
     <div class="cards highlight">
       {% if f.image_path %}
-      <div>
+      <div class="cards__image">
         <img src="{{ f.image_path | relative_url }}"
              alt="{% if f.alt %}{{ f.alt }}{% endif %}">
         {% if f.image_caption %}
