@@ -27,7 +27,7 @@ a talk and a 1.5 day sprint.
 
 </div>
 
-## My SciPy 2024 experience
+## pyOpenSci's fourth year attending SciPy - my experience
 
 This year was my fourth time attending the annual SciPy meeting—a meeting
 organized by [NumFocus](https://www.numfocus.org) that celebrates the scientific
@@ -128,10 +128,17 @@ attendees also helped organize the meeting!
 
 If you are a Pythonista who loves science, this meeting is for you!
 
-## pyOpenSci's first SciPy tutorial: Create your first Python package
+## pyOpenSci's first SciPy tutorial was a huge success: Create your first Python package
 
 My adventure at the SciPy meeting kicked off with a 4-hour tutorial entitled:
-_[Create Your First Python Package: From Code to Module](https://cfp.scipy.org/2024/talk/QT9GBY/)_. This tutorial was an
+_[Create Your First Python Package: From Code to Module](https://cfp.scipy.org/2024/talk/QT9GBY/)_.
+
+I have to start by saying the tutorial went great. Here is what one person
+had to say about it:
+
+> The content and the crew! The team was so kind, patient and approachable. I appreciate the amount of support and reassurance given during this tutorial. The content of the tutorial was also spot on. Everything we covered felt relevant and useful, and gave me the confidence to feel capable of creating my own packages.
+
+This tutorial was an
 expanded version of the [Create Your First Python Package tutorial that
 pyOpenSci ran in April 2024](pyos-education-announcement.html). In our first
 workshop, we had over 20 people create their first Python package. We had
@@ -150,7 +157,7 @@ impact our learners too much.
 
 But back to SciPy, it was a rush to be back in the "classroom" at SciPy 2024!
 
-### A tutorial room full of eager learners and tech that worked
+### A pyOpenSci tutorial room full of eager learners and tech that worked
 
 Our workshop room was full of people eager to better understand Python packaging.
 We also had great helpers, and all the tech in the room just worked seamlessly.
@@ -171,7 +178,7 @@ expertise were invaluable.
   <figcaption><i class="fa-solid fa-heart-pulse"></i> This image was taken about halfway into the workshop. We had lost a few folks to other conference activities, but most were still engaged! <i class="fa-solid fa-heart-pulse"></i> Source: SciPyConf Fosstodon.</figcaption>
 </figure>
 
-### Navigating the Python packaging challenges together
+### pyOpenSci is helping the community navigate Python packaging challenges together
 
 Of course, there were a few challenges, too.
 
@@ -179,14 +186,16 @@ Of course, there were a few challenges, too.
    was particularly problematic for those with government-issued laptops, where
    they couldn't install software.
 
-2. While most workshops could use the Jupyter-Hub cloud platform called Nebari, hosted by
+1. While most workshops could use the Jupyter-Hub cloud platform called Nebari, hosted by
    Quansight Labs, it didn't support our development use case. Thus, we didn't
    have a "backup" platform for participants who couldn't get things set up.
    However, I later worked with [Sarah Kaiser](https://github.com/crazy4pi314)
    from GitHub, who set us up with a [Codespace](https://github.com/features/codespaces)
    that we can use for future workshops.
 
-3. Installing things across operating systems (Linux, Mac and windows) is always
+1. Because we practiced publishing to (test) PyPI, we should have suggested that participants create an account in advance!
+
+1. Installing things across operating systems (Linux, Mac and windows) is always
    tricky. In this workshop, we switched from suggesting
    [pipx](https://pipxproject.github.io/pipx/) to using
    [Hatch installers](https://hatch.pypa.io/latest/install/) for Mac and
@@ -199,7 +208,7 @@ Of course, there were a few challenges, too.
    ran `hatch --version` for the first time. This is something we need to
    address in the future, or at least warn users about.
 
-### Workshop outcomes
+### Our pyOpenSci tutorial at SciPy 2024 was hugely successful
 
 Challenges aside, we also had a lot of successes to celebrate!
 
@@ -230,7 +239,7 @@ Needless to say, I left the event with a full heart. 🫶
 Several participants enjoyed the process so much that they joined our sprint
 afterwards to help build out the packaging guide. More on that below.
 
-## My talk on Python packaging at SciPy 2024
+## pyOpenSci, Python packaging and community -- my talk at SciPy 2024
 
 The day after the workshop discussed above, and the first day of the conference,
 I gave my first-ever talk, [The power of community in solving scientific Python’s most challenging problems](https://cfp.scipy.org/2024/talk/AMTLJ7/), in the maintainers track at SciPy. <i class="fa-solid fa-gift"></i>
@@ -255,7 +264,7 @@ My talk closed out the session.
   <figcaption><i class="fa-solid fa-heart-pulse"></i> Me, giving my talk about community, packaging, and peer review at SciPy 2024. The coolest part of the talk was meeting people afterwards who I hadn't met in real life before. <i class="fa-solid fa-heart-pulse"></i> Photo Credit: Inessa Pawson</figcaption>
 </figure>
 
-### pyOpenSci and community
+### pyOpenSci is leveraging and working with the community to solve scientific Python's  challenges
 
 My talk was about how pyOpenSci has been carving out space and coordinating
 community efforts to address several core challenges in our scientific Python
@@ -268,12 +277,12 @@ ecosystem. These include:
    I discussed in my [PyCon talk in April](blog/python-packaging-friends-dont-let-friends-package-alone.html),
    which is also available on [YouTube](https://www.youtube.com/watch?v=mJPoj9Ex9fk&list=PL2Uw4_HvXqvYhjub9bw4uDAmNtprgAvlJ). I'd love for you to check it out!
 
-### pyOpenSci's impact on the scientific Python ecosystem
-
+### pyOpenSci's Python packaging guidebook is having a positive impact on the scientific Python ecosystem
 
 During my talk, I addressed critical pain points I've experienced as an
 educator teaching spatial and earth data science, and as a maintainer of
-[stravalib](https://stravalib.readthedocs.io/en/latest/)—a package that supports my pre-COVID obsession with ultra mountain
+[stravalib](https://stravalib.readthedocs.io/en/latest/)—a package that supports
+my pre-getting-COVID obsession with ultra mountain
 running.
 
 Things kicked off with a bang, thanks to the best meme ever, created by
@@ -299,7 +308,7 @@ more beginner-friendly.
   <figcaption><i class="fa-solid fa-heart-pulse"></i> pyOpenSci asks and addresses the questions - what would happen if things were easier for scientists? <i class="fa-solid fa-heart-pulse"></i>.</figcaption>
 </figure>
 
-### pyOpenSci and inclusive, open software peer review
+### pyOpenSci and running community lead inclusive, open software peer review
 
 I also talked about how pyOpenSci is using an inclusive,
 [community-led peer review process](/about-peer-review/index.html) to achieve
@@ -327,7 +336,7 @@ open source and open science. By working together, we can move forward together.
     <figcaption>Through our partnership with the Journal of Open Source Software (JOSS), a package submitted to us can also be published by JOSS if it's in scope. JOSS accepts our review and only reviews the paper, providing a huge benefit to the maintainer team. We also partner with communities such as Astropy. Through the Astropy partnership, an Astropy-related package can also become Astropy-affiliated. Members of the Astropy community volunteer on our editorial board and support these reviews.</figcaption>
 </figure>
 
-### pyOpenSci and Python packaging
+### pyOpenSci and how we created a truly community-driven Python packaging guidebook
 
 I also discussed our work in the Python packaging ecosystem, specifically around
 making packaging more beginner-accessible and friendly. pyOpenSci leans into
@@ -364,7 +373,7 @@ packaging. The presentation will be on YouTube at some point, and I will update
 this post with the link when it's live. In the meantime, my slides are available
 on [pyOpenSci's Zenodo community](https://zenodo.org/records/8045448).
 
-## The hallway track
+## pyOpenSci and reconnecting with the scientific Python community -- the hallway track
 
 It seems like this year has been the year of the hallway track. The hallway
 track refers to the time spent in the hallways of a meeting, talking to people
@@ -383,7 +392,7 @@ about all things Python, open source, and open science.
 Additionally, I caught up with colleagues, chatting about packaging and scientific Python.
 
 
-## Sprints
+## pyOpenSci sprints at SciPy -- over 39 pull requests and issues :rocket:
 
 Every year at SciPy, we spend the last two days of the meeting sprinting.
 This year was the first time I stayed for both days of the sprints.
@@ -392,13 +401,12 @@ This year was the first time I stayed for both days of the sprints.
 
 If you haven't been to an open-source sprint before, a sprint is an open
 session where contributors join a project and help address specific issues and
-tasks that the project needs help with. Sprints are a lot of fun because,
+tasks that the project needs help with. I wrote [more about how pyOpenSci runs
+beginner-friendly sprints here](pyopensci-pyconus-2024-sprints.html).
+
+Sprints are a lot of fun because,
 given enough time, you can make significant progress on a project and support
 first-time and new contributors in making their first contributions!
-
-[If you want to learn more about sprints and how pyOpenSci runs them, check out
-this blog post.](pyopensci-pyconus-2024-sprints.html)
-{: .notice }
 
 This is what the second sprint room looked like this year at SciPy. There was a
 scramble to find a new location for our sprints due to some power issues
@@ -444,9 +452,9 @@ We had a great group this year who worked on a variety of tasks, including:
 
 Several people made their first-ever contributions to open source during our
 pyOpenSci sprints, which was fantastic. We had a lot of great people get
-involved and support us! The energy was great.
+involved and support us. The positive vibes were contagious!
 
-## Wrapping up
+## pyOpenSci's most successful SciPy meeting yet - and we're just getting started
 
 It's amazing to think about how far pyOpenSci has come in the past five years.
 In 2019, pyOpenSci was just kicking off its peer review process, and only a
@@ -458,7 +466,7 @@ scientists find and build better software and develop better open science skills
 
 After this spectacular year, I can't wait to see what 2025 brings!
 
-### Get involved
+### Get involved with pyOpenSci
 
 If you are interested in getting involved with us, there are many ways to do so!
 Check out our [volunteer](/volunteer.html) page as a starting place. Or shoot
