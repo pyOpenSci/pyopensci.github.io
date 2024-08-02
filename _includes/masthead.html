@@ -1,59 +1,61 @@
 {% capture logo_path %}{{ site.logo }}{% endcapture %}
 
 <div class="masthead">
-  <div class="masthead__inner-wrap">
-    <div class="masthead__menu">
-      <nav id="site-nav" class="nav__topbar" aria-label="Top Bar">
-        <!-- More accessible as a screen reader will group the title and image in the same link -->
-        {% unless logo_path == empty %}
-        <a class="site-logo" href="{{ '/' | relative_url }}">
-          <img src="{{ logo_path | relative_url }}" alt="Welcome to the pyOpenSci website. The pyOpenSci logo is a purple flower opening over the O (for open).">
-        </a>
-        {% endunless %}
+  <nav id="site-nav" class="masthead__menu" aria-label="Top Bar">
+    <!-- More accessible as a screen reader will group the title and image in the same link -->
+    {% unless logo_path == empty %}
+    <a class="site-logo" href="{{ '/' | relative_url }}">
+      <img src="{{ logo_path | relative_url }}" alt="Welcome to the pyOpenSci website. The pyOpenSci logo is a purple flower opening over the O (for open).">
+    </a>
+    {% endunless %}
 
-      <ul class="nav__links">
-        {%- for alink in site.data.navigation.main -%}
-        <!-- If there are sub links drop down nav to display -->
-              {% if alink.sub-nav %}
-             <li class="dropdown">
-                <button class="dropbtn" tabindex="0" aria-expanded="false">{{ alink.title }} <i class="fas fa-caret-down"></i>
-                </button>
-                <ul class="dropdown-content">
-                  {% for subnav in alink.sub-nav %}
-                  <li>
-                    <a href="{{ subnav.url | relative_url }}" class="masthead__menu-item hover-underline">{{ subnav.title }}
-                      {% if subnav.icon %} <i class="{{ subnav.icon }}"></i> {% endif %}
-                    </a>
-                  </li>
-                  {% endfor %}
-                </ul>
-            </li>
-              {% else %}
+    <div class="spacer"></div>
+
+    <ul class="nav__links">
+      {%- for alink in site.data.navigation.main -%}
+      <!-- If there are sub links drop down nav to display -->
+        {% if alink.sub-nav %}
+          <li class="dropdown">
+            <button class="dropbtn" tabindex="0" aria-expanded="false">
+              {{ alink.title }} <i class="fas fa-caret-down"></i>
+            </button>
+            <ul class="dropdown-content">
+              {% for subnav in alink.sub-nav %}
               <li>
-                <a href="{{ alink.url | relative_url }}" class="hover-underline">{{ alink.title }}</a>
+                <a
+                  href="{{ subnav.url | relative_url }}"
+                  class="masthead__menu-item hover-underline"
+                  >{{ subnav.title }}
+                  {% if subnav.icon %}
+                  <i class="{{ subnav.icon }}"></i>
+                  {% endif %}
+                </a>
               </li>
-              {% endif %}
-        {% endfor %}
-        <li>
+              {% endfor %}
+            </ul>
+          </li>
+        {% else %}
+          <li>
+            <a href="{{ alink.url | relative_url }}" class="hover-underline">
+              {{ alink.title }}
+            </a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
 
-      </li>
-      </ul>
+    {% if site.search == true %}
+        <button class="search__toggle" type="button">
+        <span class="visually-hidden">{{ site.data.ui-text[site.locale].search_label | default: "Toggle search" }}</span>
+        <i class="fas fa-search"></i>
+      </button>
+    {% endif %}
 
-      {% if site.search == true %}
-          <button class="search__toggle" type="button">
-          <span class="visually-hidden">{{ site.data.ui-text[site.locale].search_label | default: "Toggle search" }}</span>
-          <i class="fas fa-search"></i>
-        </button>
-      {% endif %}
-
-
-      <ul class="hidden-links hidden"></ul>
-        <!-- Burger button  - span class for screen readers-->
-        <button class="hamburger__btn-toggle" type="button" count="1" aria-expanded="false">
-          <span class="visually-hidden">Toggle top navigation menu</span> <!--screen readers-->
-          <div class="burger__icon"></div>
-        </button>
-      </nav>
-      </div>
-    </div>
-  </div>
+    <ul class="hidden-links hidden"></ul>
+    <!-- Burger button  - span class for screen readers-->
+    <button class="hamburger__btn-toggle" type="button" count="1" aria-expanded="false">
+      <span class="visually-hidden">Toggle top navigation menu</span> <!--screen readers-->
+      <div class="burger__icon"></div>
+    </button>
+  </nav>
+</div>
