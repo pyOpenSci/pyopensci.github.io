@@ -239,7 +239,7 @@ Needless to say, I left the event with a full heart. 🫶
 Several participants enjoyed the process so much that they joined our sprint
 afterwards to help build out the packaging guide. More on that below.
 
-## pyOpenSci, Python packaging and community -- my talk at SciPy 2024
+## pyOpenSci, Python packaging and community--my talk at SciPy 2024
 
 The day after the workshop discussed above, and the first day of the conference,
 I gave my first-ever talk, [The power of community in solving scientific Python’s most challenging problems](https://cfp.scipy.org/2024/talk/AMTLJ7/), in the maintainers track at SciPy. <i class="fa-solid fa-gift"></i>
@@ -264,7 +264,7 @@ My talk closed out the session.
   <figcaption><i class="fa-solid fa-heart-pulse"></i> Me, giving my talk about community, packaging, and peer review at SciPy 2024. The coolest part of the talk was meeting people afterwards who I hadn't met in real life before. <i class="fa-solid fa-heart-pulse"></i> Photo Credit: Inessa Pawson</figcaption>
 </figure>
 
-### pyOpenSci is leveraging and working with the community to solve scientific Python's  challenges
+### pyOpenSci is leveraging and working with the community to solve scientific Python's challenges
 
 My talk was about how pyOpenSci has been carving out space and coordinating
 community efforts to address several core challenges in our scientific Python
@@ -308,7 +308,7 @@ more beginner-friendly.
   <figcaption><i class="fa-solid fa-heart-pulse"></i> pyOpenSci asks and addresses the questions - what would happen if things were easier for scientists? <i class="fa-solid fa-heart-pulse"></i>.</figcaption>
 </figure>
 
-### pyOpenSci and running community lead inclusive, open software peer review
+### pyOpenSci is running community-led inclusive, open software peer review
 
 I also talked about how pyOpenSci is using an inclusive,
 [community-led peer review process](/about-peer-review/index.html) to achieve
@@ -373,7 +373,7 @@ packaging. The presentation will be on YouTube at some point, and I will update
 this post with the link when it's live. In the meantime, my slides are available
 on [pyOpenSci's Zenodo community](https://zenodo.org/records/8045448).
 
-## pyOpenSci and reconnecting with the scientific Python community -- the hallway track
+## pyOpenSci and reconnecting with the scientific Python community--the hallway track
 
 It seems like this year has been the year of the hallway track. The hallway
 track refers to the time spent in the hallways of a meeting, talking to people
@@ -392,7 +392,7 @@ about all things Python, open source, and open science.
 Additionally, I caught up with colleagues, chatting about packaging and scientific Python.
 
 
-## pyOpenSci sprints at SciPy -- over 39 pull requests and issues :rocket:
+## pyOpenSci sprints at SciPy--over 39 pull requests and issues <i class="fa-solid fa-rocket"></i>
 
 Every year at SciPy, we spend the last two days of the meeting sprinting.
 This year was the first time I stayed for both days of the sprints.
@@ -454,7 +454,7 @@ Several people made their first-ever contributions to open source during our
 pyOpenSci sprints, which was fantastic. We had a lot of great people get
 involved and support us. The positive vibes were contagious!
 
-## pyOpenSci's most successful SciPy meeting yet - and we're just getting started
+## pyOpenSci's most successful SciPy meeting yet, and we're just getting started
 
 It's amazing to think about how far pyOpenSci has come in the past five years.
 In 2019, pyOpenSci was just kicking off its peer review process, and only a
