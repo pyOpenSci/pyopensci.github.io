@@ -44,7 +44,7 @@ This past May, during our [PyCon US sprints](https://www.pyopensci.org/blog/pyop
 
 Following Felipe’s initial efforts, several of our SciPy sprint attendees continued to work on translation of the pyOpenSci Python Packaging Guide, and you can see their progress in the [guide repository on GitHub](https://github.com/pyOpenSci/python-package-guide/issues?q=is%3Aopen+is%3Aissue+label%3Ascipy-24). This has resulted in 13 PRs to our packaging guide. Our next steps are to create an editorial team composed of members who are fluent in Spanish/native speakers. This team will be  responsible for reviewing and merging these contributions. Stay tuned for updates on this incredible community-driven project!
 
-If you have other suggestions for how to get involved, please reach out to [media@pyopensci.org](media@pyopensci.org) so that we can connect you with the right people!
+If you have questions about how to get involved with pyOpenSci, please reach out to [media@pyopensci.org](media@pyopensci.org) so that we can connect you with the right people!
 
 ## <i class="fa-solid fa-rainbow"></i> All the credit for our contributors
 
