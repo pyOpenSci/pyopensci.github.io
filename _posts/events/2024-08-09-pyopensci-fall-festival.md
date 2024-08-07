@@ -23,7 +23,14 @@ comments: true
 
 _This post was last updated on 6 August, 2024_
 
-Happening October 28--November 01, 2024, the pyOpenSci Fall Festival is an online community training and networking event designed to empower scientists with in demand open science skills. Our goals with the Fall Festival are to empower the community with technically-relevant open science skills, build community, and help raise funds for pyOpenSci operations that allow us to continue supporting community work. Interested? Read on to learn more!
+Happening October 28--November 01, 2024, the pyOpenSci Fall Festival is an online community training and networking event designed to empower scientists with in demand open science skills. Our goals for the Fall Festival are to 
+
+* empower you with technically-relevant open science skills, 
+* call attention to and celebrate new and upcoming tools that support open reproducible science
+* build community, and 
+* help raise funds for pyOpenSci operations that allow us to continue supporting community work. 
+
+Interested? Read on to learn more!
 
 ## <i class="fa-regular fa-file-lines"></i> pyOpenSci's 2024 Fall Festival logistics:
 
