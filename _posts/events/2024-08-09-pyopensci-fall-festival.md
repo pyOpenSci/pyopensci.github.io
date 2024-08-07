@@ -63,7 +63,7 @@ Our Fall Festival is broken down into a series of events that make it easy to co
 
 We're excited to share two events happening on Monday, October 28th. The first will be a kick-off talk from an incredible speaker. This Fall Festival kickoff talk will be free, open to the public, recorded, and later published to YouTube.  
 
-We'll also be holding "Day 0" office hours for all registered attendees. This will be a block of time that can be used as drop-in office hours, allowing you to say hello and get any assistance you might need with setting up your computer for the upcoming workshops.
+We'll also be holding "Day 0" office hours for all registered attendees. You can use this time to drop in to say hello, get used to using our online platform, gather and get help with any computer setup issues that you might have. 
 
 ### Tuesday, October 29th--Friday, November 01st
 
