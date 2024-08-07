@@ -30,7 +30,7 @@ Happening October 28--November 01, 2024, the pyOpenSci Fall Festival is an onlin
 * **What:** An online community training and networking event
 * **Where:** Online using [Gather](https://www.gather.town/)
 * **When:** Monday, October 28--Friday, November 01, 2024
-* **Who:** Anyone with basic Python skills working, studying or interested in open science
+* **Who:** If you are a scientist, a researcher, a student or anyone who is interested in making your workflows better, more open and reproducible, then this event is for you!   
 * **Cost:** $350--$600, with scholarships and learner sponsorship opportunities
 * Resources:
   *  [**Workshop GitHub repository:**](https://github.com/pyOpenSci/code-to-module-workshop/)
