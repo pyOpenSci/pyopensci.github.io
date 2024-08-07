@@ -34,7 +34,7 @@ If you’d like to dig into the details of our Hatch installation adventures, we
 And for those of you who are interested in the end result, after a robust and lively community discussion, we’ve updated our Get to know Hatch tutorial with the following changes:
 
 1. Suggest users default to the Hatch installers rather than `pipx`.
-2. Suggest Linux users use pipx as the install there is simpler.
+2. Suggest Linux users use `pipx` as the install there is simpler.
 
 It’s important to us to elevate this conversation, because all of our materials are community–developed and go through extensive technical review not only before they’re published for the first time, but also for the entire lifetime of the content! We value openness and transparency, and because of the open discussions with community members, we’ve been able to make it even easier to get started with Python packaging!
 
