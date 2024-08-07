@@ -26,7 +26,7 @@ Education is one of the [three petals of pyOpenSci](https://www.pyopensci.org/bl
 
 We know that it can be challenging to wrap your head around packaging, but what it boils down to is that packaging is really just a process of making your code installable so that it can be reused in different places. And while we decided to use Hatch because it makes packaging life easier, it turns out that Hatch has its own nuanced pain points that we’re still filing down! And we want to share this, because we firmly believe that even someone who is brand new to packaging can get value out of our materials.
 
-If you’d like to dig into the details of our Hatch adventures, we recommend reading through the discussions in the associated issue and PR:
+If you’d like to dig into the details of our Hatch installation adventures, we recommend reading through the discussions in the associated issue and PR:
 
 * [Fix: update hatch install instructions to use the hatch installers rather than pipx in our tutorial #301](https://github.com/pyOpenSci/python-package-guide/issues/301)
 * [All Hatch PRs: [Tuesday july 2 merge] Fix: update hatch install instructions](https://github.com/pyOpenSci/python-package-guide/pull/308)
