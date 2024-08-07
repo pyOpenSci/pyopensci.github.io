@@ -47,8 +47,8 @@ Registration will grant you admission to all
 
 In order to make the Fall Festival accessible to as many people as possible, we've created several pricing tiers. 
 
-* Students: $300
-* Academics: $500
+* Student: $300
+* Standard: $450
 * Corporate: $600
 
 ### Scholarships
