@@ -37,7 +37,7 @@ $colors: (
 .grid {
     display: grid;
     // minmax can be used to modify width
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(calc($small/2), 1fr));
     grid-gap: 10px;
 
     h4.grid_title {
@@ -133,7 +133,7 @@ $colors: (
 .cards {
     top: 0px;
     position: relative;
-    max-width: 362px;
+    // max-width: 362px;
     background-color: #fcfbf5;;
     border-radius: 4px;
     text-decoration: none;
@@ -141,6 +141,12 @@ $colors: (
     overflow: hidden;
     border: 1px solid #f2f8f9;
     font-size: .8em;
+
+    &__image {
+      max-height: calc($small/3);
+      overflow: hidden;
+      border-radius: 10px;
+    }
 
     &.highlight div {
       padding:0;
