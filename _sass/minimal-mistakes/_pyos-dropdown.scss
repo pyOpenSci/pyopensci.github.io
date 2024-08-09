@@ -1,42 +1,21 @@
 
 /* ==========================================================================
    pyos custom drop down menus
+
+   Styles for the *contents* of the menus and the
+   menu buttons. For layout within the page,
+   see _masthead.scss
    ========================================================================== */
-
-/* replaces mm greedy_nav */
-.nav__topbar {
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  min-height: 2em;
-  background: #fff;
-}
-
-/* Center logo in div - TODO: adjust fonts (will do this at end) */
-.site-subtitle {
-  font-weight: 400;
-  font-size: .8em!important;
-  color: $nav-font-color;
-}
-
-.site-logo img {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  max-height: 3rem!important;
-  box-shadow: none!important;
-}
-
 
 .nav__links {
   overflow: hidden;
+  margin: 0 auto;
+  padding: 0;
   display: flex;
-  align-items: center;
-  margin-left: auto!important;
+  align-items: stretch;
+  gap: 1em;
+  clear: both;
+  list-style-type: none;
 
   a {
     float: left;
@@ -55,6 +34,60 @@
   .icon {
     display: none;
   }
+
+  @media (max-width: $medium-wide){
+    gap: 0.5em;
+  }
+
+  /* Upon click the menu should turn into a vertical stacked menu with a soft
+  drop shadow */
+  &.vertical {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 1em;
+    margin-top: 3em;
+    top: 90%;
+    left: 5%;
+    right: 5%;
+    gap: 0;
+    font-size: 1.2em;
+    background-color: #fff;
+    z-index: 1;
+    border: 1px solid #f2f3f3;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+
+    a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+
+    li {
+      width: 100%;
+    }
+
+    .dropdown {
+      float: none;
+
+      .dropbtn {
+        width: 100%;
+        text-align: left;
+        display: block;
+        padding: 1em 0;
+      }
+
+      .dropdown-content {
+        width: 100%;
+        min-width: 100%;
+        position: relative;
+        box-shadow: unset;
+      }
+    }
+  }
 }
 
 /* down arrow works better with ascii vs font awesome */
@@ -67,67 +100,61 @@
   font-size: 1em!important;
 }
 
-/* Make sure drop down horizontal doesn't push content down
-(put push it down in vertical mode */
-.nav__links .dropdown .dropdown-content {
-  position: absolute;
-  max-width: 25%;
-}
+/* Dropdown container for nav links */
+.dropdown {
+  float: left;
+  overflow: hidden;
 
-/* Upon click the menu should turn into a vertical stacked menu with a soft
-drop shadow
-*/
-.nav__links.vertical {
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin-top: 2em;
-  top: 90%;
-  left: 0%;
-  width: 100%;
-  font-size: 1.2em;
-  background-color: #fff;
-  z-index: 1;
-  border: 1px solid #f2f3f3;
-  border-radius: 4px;
-  -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
-
-  li {
-    width: 100%;
-  }
-
-  .dropdown-content {
-    min-width: 100%;
-  }
   .dropbtn {
+    border: none;
+    outline: none;
+    color: $nav-font-color;
+    height: 100%;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    line-height: 1em;
+  }
+
+  /* Style the dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    background-color: #fff;
+    min-width: 160px;
+    max-width: 25%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
     width: 100%;
-    text-align: left;
-  }
+    transition: all 0.25s ease-in;
+    transform: translateY(-10px);
+    position: absolute;
 
-  a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-  .dropdown {
-    float: none;
-  }
+    &.open {
+      display: block;
+    }
 
-  .dropdown-content {position: relative;}
+    li {
+      list-style-type: none;
+    }
 
-  .dropdown .dropbtn {
-    display: block;
-    width: 100%;
-    text-align: left;
-  }
+    a {
+      float: none;
+      // color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+      white-space: nowrap;
 
-  .dropdown .dropdown-content {
-    position: relative!important;
-    width: 100%;
+      &:hover {
+        background-color: #fff;
+        color: $nav-hover-color;
+      }
+    }
   }
 }
+
+
 /*  End nav links bar styles */
 
 /* Begin burger stylin */
@@ -168,7 +195,7 @@ drop shadow
 }
 
 /* Begin burger styling: actual hamburger element (the horiz lines)*/
- .burger__icon {
+.burger__icon {
   position: relative;
   width: 1.5rem;
   height: .25rem;
@@ -178,12 +205,6 @@ drop shadow
   transition: 0.3s;
 }
 
-/* Position the burger in it's x closed state - min mistakes didn't have to do this */
-.close .burger__icon {
-  position: absolute;
-  top: auto;
-  right: .1em;
-}
 
 /* Hide the middle bar when in "closed" style state so it's an x */
 .close .burger__icon {
@@ -236,52 +257,7 @@ drop shadow
 }
 /*  end burger */
 
-/* Dropdown container for nav links */
-.dropdown {
-  float: left;
-  overflow: hidden;
 
-  .dropbtn {
-    border: none;
-    outline: none;
-    color: $nav-font-color;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-  }
-}
-
-/* Style the dropdown content (hidden by default) */
-.dropdown-content {
-  display: none;
-  background-color: #fff;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-  width: 100%;
-  transition: all 0.25s ease-in;
-  transform: translateY(-10px);
-}
-
-/* Style the links inside the dropdown */
-.dropdown-content a {
-  float: none;
-  // color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.dropdown-content a:hover {
-  background-color: #fff;
-  color: $nav-hover-color;
-}
-
-.dropdown .dropdown-content.open {
-  display: block;
-}
 /* This style may be removed ultimately - it is the fancy underline */
 
 .hover-underline {
@@ -322,7 +298,7 @@ drop shadow
   color: white;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: $medium) {
 
   /* Hide horizontal drop down links at 48em / 768px */
   .nav__links { display: none;}
@@ -337,21 +313,10 @@ drop shadow
 
   .hamburger__btn-toggle {
     display: block;
-    position: absolute;
-    top: 5%;
-    right: 5%;
     width: 2.0rem;
   }
 
   .burger__icon, burger__icon::before, burger__icon::after {
     display: block; }
 
-  /* Positioned by burger
-  TODO: might be better within the drop down??*/
-  .search__toggle {
-    position: absolute;
-    right: -6%;
-    font-size: 1.4em;
-    top: 3%;
-  }
 }

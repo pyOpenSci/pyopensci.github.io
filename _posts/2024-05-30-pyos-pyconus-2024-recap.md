@@ -112,8 +112,7 @@ fundamental concepts, and
 for beginners.
 
 <figure>
-  <img src="{{ site.baseurl }}/images/blog/2024/may/pyopensci-too-many-python-packaging-options-pycon-talk-2024.png
-" alt="A cute image of a black flat coated retriever laying on the floor with a purple ice pack on it's head looking right at you." />
+  <img src="{{ site.baseurl }}/images/blog/2024/may/pyopensci-too-many-python-packaging-options-pycon-talk-2024.png" alt="A cute image of a black flat coated retriever laying on the floor with a purple ice pack on it's head looking right at you." />
   <figcaption>Whether it's too many options or too many opinions, TMO will push beginner users away. Too many options create cognitive load that prevent users from having successful experiences.</figcaption>
 </figure>
 
