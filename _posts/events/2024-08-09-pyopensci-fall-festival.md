@@ -39,9 +39,7 @@ Interested? Read on to learn more!
 * **When:** Monday, October 28--Friday, November 01, 2024
 * **Who:** If you are a scientist, a researcher, a student or anyone who is interested in making your workflows better, more open and reproducible, then this event is for you!   
 * **Cost:** $300--$600, with scholarships and learner sponsorship opportunities
-* Resources:
-  *  [**Workshop GitHub repository:**](https://github.com/pyOpenSci/code-to-module-workshop/)
-  *  [**pyOpenSci demo package:**](https://github.com/pyOpenSci/pyosPackage)
+* [**pyOpenSci demo package:**](https://github.com/pyOpenSci/pyosPackage)
 
 ## pyOpenSci's Fall Festival registration, cost, and scholarship information
 
