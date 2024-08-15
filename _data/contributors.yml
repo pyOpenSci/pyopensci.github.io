@@ -148,6 +148,7 @@
     - community
     - guidebook-contrib
     - leadership
+    - package-guide
     - peer-review
     - peer-review-guide
     - reviewer
@@ -772,6 +773,7 @@
     - web-contrib
   packages_editor:
     - cardsort
+    - harmonize-wq
     - sciform
     - xclim
   packages_submitted:
@@ -6230,11 +6232,13 @@
   contributor_type:
     - maintainer
     - peer-review
+    - reviewer
     - submitting-author
   packages_editor:
   packages_submitted:
     - xnemogcm
   packages_reviewed:
+    - harmonize-wq
   location: Grenoble, France
   email: romain.caneill@ens-lyon.org
 - name: Lili Andersson-Li
@@ -7119,7 +7123,7 @@
   organization: '@ansys'
   date_added: '2024-08-01'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -7146,7 +7150,7 @@
   organization:
   date_added: '2024-08-01'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -7172,7 +7176,7 @@
   organization:
   date_added: '2024-08-01'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -7198,7 +7202,7 @@
   organization:
   date_added: '2024-08-01'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -7224,7 +7228,7 @@
   organization:
   date_added: '2024-08-01'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -7250,7 +7254,7 @@
   organization: ANSYS
   date_added: '2024-08-01'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -7276,7 +7280,7 @@
   organization: USGS
   date_added: '2024-08-01'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -7293,3 +7297,114 @@
   packages_reviewed:
   location: Madison, WI
   email:
+- name: Tetsuo Koyama
+  github_username: tkoyama010
+  github_image_id: 7513610
+  title:
+  sort:
+  bio: '3D visualization library @pyvista maintainer & translator,@scipy-conference
+      chairperson,Photo by: @peacock0803sz CC-BY 2.0'
+  organization: '@ark-info-sys'
+  date_added: '2024-08-15'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter: tkoyama010
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - package-guide
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: Japan
+  email: tkoyama010@gmail.com
+- name: Kozo Nishida
+  github_username: kozo2
+  github_image_id: 12192
+  title:
+  sort:
+  bio: PyData Osaka organizer,Bioconductor Community Advisory Board,Software Carpentry
+      Japanese Team
+  organization:
+  date_added: '2024-08-15'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter: kozo2
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - package-guide
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: Tokyo, Japan
+  email:
+- name: Jacqui Levy
+  github_username: Jacqui-123
+  github_image_id: 110696550
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2024-08-15'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - harmonize-wq
+  location:
+  email:
+- name: Justin Bousquin
+  github_username: jbousquin
+  github_image_id: 6400726
+  title:
+  sort:
+  bio: People | Water | Where
+  organization: U.S. Environmental Protection Agency
+  date_added: '2024-08-15'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+    - submitting-author
+  packages_editor:
+  packages_submitted:
+    - harmonize-wq
+  packages_reviewed:
+  location: Gulf Breeze, FL
+  email: bousquin.justin@epa.gov
