@@ -21,7 +21,7 @@ comments: true
 
 ## <i class="fa-regular fa-heart"></i> Announcing the pyOpenSci Fall Festival!
 
-_This post was last updated on 6 August, 2024_
+_This post was last updated on 15 August, 2024_
 
 Happening October 28--November 01, 2024, the pyOpenSci Fall Festival is an online community training and networking event designed to empower scientists with in demand open science skills. Our goals for the Fall Festival are to
 
@@ -52,9 +52,9 @@ Registration will grant you admission to all
 
 In order to make the Fall Festival accessible to as many people as possible, we've created several pricing tiers.
 
-* Student: $300
-* Standard: $450
-* Corporate: $600
+* Student: $350
+* Standard: $475
+* Corporate: $625
 
 ### Scholarships
 
