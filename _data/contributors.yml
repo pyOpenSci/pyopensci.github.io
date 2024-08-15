@@ -7107,6 +7107,7 @@
   website:
   board: false
   contributor_type:
+    - community
     - package-guide
     - web-contrib
   packages_editor:
@@ -7265,6 +7266,7 @@
   website:
   board: false
   contributor_type:
+    - community
     - package-guide
   packages_editor:
   packages_submitted:
@@ -7307,7 +7309,7 @@
   organization: '@ark-info-sys'
   date_added: '2024-08-15'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -7334,7 +7336,7 @@
   organization:
   date_added: '2024-08-15'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -7360,7 +7362,7 @@
   organization:
   date_added: '2024-08-15'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -7388,7 +7390,7 @@
   organization: U.S. Environmental Protection Agency
   date_added: '2024-08-15'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
