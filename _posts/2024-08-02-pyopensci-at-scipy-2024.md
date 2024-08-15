@@ -19,7 +19,7 @@ comments: true
 <div class="notice" markdown = "1">
 ## TL;DR
 
-* pyOpenSci lea 3 incredibly successful events at [SciPy](https://www.scipy2024.scipy.org/) this year: A tutorial,
+* pyOpenSci lead 3 incredibly successful events at [SciPy](https://www.scipy2024.scipy.org/) this year: A tutorial,
 a talk and a 1.5 day sprint.
 * During our SciPy 2024 meeting sprint we had over 35 GitHub issues and pull requests submitted by XX new contributors.
 * Our tutorial had over 30 attendees. Almost all of the learners had never created a Python package before, and most of them were successful creating their first Python package.
