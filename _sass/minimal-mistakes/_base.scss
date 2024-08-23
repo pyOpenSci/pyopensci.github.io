@@ -15,7 +15,6 @@ body {
   font-family: $global-font-family;
   line-height: 1.6;
   weight: $weight-3;
-  font-size: 1em;
 
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */
@@ -132,91 +131,47 @@ blockquote {
   }
 }
 
-%quote-style {
-  font-weight: bold;
-  font-size: 100px;
-  color: $pyos-teal;
-  line-height: 0;
-}
-
 /* Block quote with bigger quotes*/
 blockquote.highlight-quote {
   border: none;
   font-family: Georgia, "Times New Roman", Times, serif;
-  margin-top: 6rem;
-  margin-bottom: 4rem;
-  padding: 0 2rem;
-  max-width: $medium;
-
-  footer {
-    font-style: italic;
-    font-weight: 500;
-    text-align: right;
-  }
-
-  &:after{
-    @extend %quote-style;
-    position: absolute;
-    content: close-quote;
-    right: 4rem;
-    margin-top:2rem;
-  }
-  & > div.end {
-    position: relative;
-  }
-
-  & > div.end:after {
-    @extend %quote-style;
-    content: close-quote;
-    position: absolute;
-    right: 0;
-    margin-top:2.8rem;
-  }
+  margin-bottom: 90px;
+  margin-top: 110px;
+  padding: 0 80px 0 30px;
+  max-width: 35rem;
+  //quotes: "\201C""\201D""\2018""\2019";
 
   p {
-    font-size: 1.3rem;
+    font-size: 21px;
     position: relative;
-    margin-bottom: 0.63rem;
+    //padding-left: 40px;
+
+    &:before,
+    &:after {
+      position: absolute;
+      font-weight: bold;
+      font-size: 100px;
+      color: $pyos-teal;
+      line-height: 0;
+    }
 
     &:before {
-      @extend %quote-style;
-      position: absolute;
       content: open-quote;
       left: 0;
       top: -20px;
     }
-  }
 
-  &.magenta {
-    & > div.end:after,
-    p:before,
-    p:after {
-      color: $pyos-magenta;
+    &:after {
+      content: close-quote;
+      right: 0;
+      bottom: -20px;
     }
-  }
-
-  &.purple {
-    & > div.end:after,
-    p:before,
-    p:after {
-      color: $pyos-mediumpurple;
-    }
-  }
-
-  @include breakpoint('max-width: #$mobile') {
-    padding: 0;
-    //font-size: 2rem;
   }
 }
 
 /* links */
 
 a {
-  text-underline-offset: .1em;
-  text-decoration-color: rgba($text-color, 0.7);
-  text-decoration: underline;
-
-
   &:focus {
     @extend %tab-focus;
   }
@@ -228,9 +183,6 @@ a {
   &:hover {
     color: $link-color-hover;
     outline: 0;
-    text-decoration: none !important;
-    text-decoration-line: none !important;
-    transition: color 0.3s ease, text-decoration-color 0.3s ease;
   }
 }
 

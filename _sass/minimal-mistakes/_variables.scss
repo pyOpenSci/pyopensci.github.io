@@ -57,10 +57,10 @@ $type-size-1: 2.441em !default; // ~39.056px
 $type-size-2: 1.953em !default; // ~31.248px
 $type-size-3: 1.563em !default; // ~25.008px
 $type-size-4: 1.25em !default; // ~20px
-$type-size-5: 0.85em !default; // ~13.6px
-$type-size-6: 0.75em !default; // ~12px main body font
-$type-size-7: 0.64em !default; // ~10.24px
-$type-size-8: 0.635em !default; // ~10.16px
+$type-size-5: 0.85em !default; // ~16px
+$type-size-6: 0.65em !default; // ~12px main body font
+$type-size-7: 0.6875em !default; // ~11px
+$type-size-8: 0.625em !default; // ~10px
 
 /* headline scale */
 $h-size-1: 1.563em !default; // ~25.008px
@@ -84,7 +84,6 @@ $pyos-lightpurple: #e1dfed;
 $pyos-teal: #81c0aa;
 $pyos-magenta: #bb82b0;
 $pyos-yellow: #f6f0dc;
-$pyos-mediumpurple: #735fab;
 
 $gray: #24052f !default;
 $dark-gray: #4c454e !default;
@@ -101,11 +100,11 @@ $border-color: $lighter-gray !default;
 $form-background-color: $lighter-gray !default;
 $footer-background-color: $lighter-gray !default;
 
-$primary-color: #bab3d4 !default;
+$primary-color: #6f777d !default;
 $success-color: #81c0aa !default;
-$warning-color: #e6cb72 !default;
-$danger-color: #f9937c !default;
-$info-color: #33205c !default;
+$warning-color: #d67f05 !default;
+$danger-color: #ee5f5b !default;
+$info-color: #320e5b !default;
 $focus-color: $primary-color !default;
 $active-color: mix(#fff, $primary-color, 80%) !default;
 
@@ -176,9 +175,9 @@ $base0f: #ff5370 !default;
 /*
    Breakpoints
    ========================================================================== */
-$mobile: 480px !default;
+
 $small: 600px !default;
-$medium: 768px !default;
+$medium: 34rem !default;
 $medium-wide: 900px !default;
 $large: 1024px !default;
 $x-large: 1280px !default;

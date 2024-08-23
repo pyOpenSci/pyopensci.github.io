@@ -514,7 +514,6 @@
   border-radius: $border-radius;
   -webkit-box-shadow: $box-shadow;
   box-shadow: $box-shadow;
-  max-width: $medium;
 
   .nav__title {
     color: #fff;
@@ -528,13 +527,11 @@
   .active a {
     @include yiq-contrasted($active-color);
   }
-
-  @include breakpoint($large) {
-    max-width: $medium;
-    font-size: $type-size-4;
-  }
 }
 
+ul.toc__menu li ul li a {
+  font-size: 1.2em;
+}
 
 // Force the sub menu in a toctree to be the same size as the main menu
 .toc__menu {
@@ -542,10 +539,10 @@
   padding: 0;
   width: 100%;
   list-style: none;
-  font-size: $type-size-5;
+  font-size: $type-size-6;
 
   @include breakpoint($large) {
-    font-size: $type-size-6;
+    font-size: $type-size-7;
   }
 
   a {
@@ -568,6 +565,7 @@
 
   li ul li ul > li a {
     padding-left: 1.75rem;
+    font-size: 1.2em;
   }
 
   li ul li ul li ul > li a {
