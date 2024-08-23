@@ -10,23 +10,29 @@
 $weight-1: 100;
 $thin-weight: 200;
 $weight-3: 300;
-$weight-4:   400;
-$weight-5:   500;
+$weight-4: 400;
+$weight-5: 500;
 $semibold-weight: 600;
-$bold-weight:     700;
-$xbold-weight:    800;
-$black-weight:    900;
+$bold-weight: 700;
+$xbold-weight: 800;
+$black-weight: 900;
 
 $doc-font-size: 15 !default;
 
 /* paragraph indention */
 $paragraph-indent: false !default; // true, false (default)
-$indent-var: 1.3em !default;
+$indent-var: 2em !default;
 
 /* system typefaces */
 $serif: Georgia, Times, serif !default;
-$sans-serif: "Poppins", -apple-system, BlinkMacSystemFont,
-  "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
+$sans-serif:
+  "Poppins",
+  -apple-system,
+  BlinkMacSystemFont,
+  "Helvetica Neue",
+  "Lucida Grande",
+  Arial,
+  sans-serif !default;
 $monospace: "Poppins", Monaco, Consolas, monospace !default;
 
 /* sans serif typefaces */
@@ -40,28 +46,26 @@ $bodoni: "Bodoni MT", serif !default;
 $calisto: "Calisto MT", serif !default;
 $garamond: Garamond, serif !default;
 
-$global-font-family: $sans-serif!default;
-$header-font-family: 'Itim', cursive, $sans-serif !default;
+$global-font-family: $sans-serif !default;
+$header-font-family: "Itim", cursive, $sans-serif !default;
 $caption-font-family: $serif !default;
-$header-font: 'Itim', cursive;
-$body-font: 'Poppins', sans-serif!default;//'Open Sans', sans-serif;
-
-
+$header-font: "Itim", cursive;
+$body-font: "Poppins", sans-serif !default; //'Open Sans', sans-serif;
 
 /* type scale */
 $type-size-1: 2.441em !default; // ~39.056px
 $type-size-2: 1.953em !default; // ~31.248px
 $type-size-3: 1.563em !default; // ~25.008px
 $type-size-4: 1.25em !default; // ~20px
-$type-size-5: .85em !default; // ~16px
+$type-size-5: 0.85em !default; // ~16px
 $type-size-6: 0.65em !default; // ~12px main body font
 $type-size-7: 0.6875em !default; // ~11px
 $type-size-8: 0.625em !default; // ~10px
 
 /* headline scale */
 $h-size-1: 1.563em !default; // ~25.008px
-$h-size-2: 1.85em !default; // ~20px H2 tag increased to 1.45 (1.25 origin)
-$h-size-3: 1.45em !default; // ~18px
+$h-size-2: 2em !default; // ~20px H2 increased 2.0
+$h-size-3: 1.5em !default; // ~18px
 $h-size-4: 1.0625em !default; // ~17px
 $h-size-5: 1.03125em !default; // ~16.5px
 $h-size-6: 1em !default; // ~16px
@@ -77,7 +81,9 @@ $background-block: #d6cfde;
 
 $pyos-darkpurple: #542668;
 $pyos-lightpurple: #e1dfed;
-$pyos-teal:#81c0aa;
+$pyos-teal: #81c0aa;
+$pyos-magenta: #bb82b0;
+$pyos-yellow: #f6f0dc;
 
 $gray: #24052f !default;
 $dark-gray: #4c454e !default;
@@ -171,7 +177,7 @@ $base0f: #ff5370 !default;
    ========================================================================== */
 
 $small: 600px !default;
-$medium: 768px !default;
+$medium: 34rem !default;
 $medium-wide: 900px !default;
 $large: 1024px !default;
 $x-large: 1280px !default;
