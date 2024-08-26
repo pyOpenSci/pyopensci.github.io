@@ -52,8 +52,8 @@ Diversity and inclusion is core to the pyOpenSci mission, and we can't wait for 
 *Hall C*\
 **[Leah Wasser](https://github.com/lwasser)**
 <figure>
-    <a href="/images/python-packages/lion-meme-pyopensci.jpeg">
-    <img src="/images/python-packages/lion-meme-pyopensci.jpeg" style="max-width:100%" alt="A puma leaning against a rock and flexing a front arm. Overlaid on the photo in meme text is the phrase 'so you want to talk about Python packaging.'">
+    <a href="/images/python-packaging/lion-meme-pyopensci.jpeg">
+    <img src="/images/python-packaging/lion-meme-pyopensci.jpeg" style="max-width:100%" alt="A puma leaning against a rock and flexing a front arm. Overlaid on the photo in meme text is the phrase 'so you want to talk about Python packaging.'">
     </a>
 </figure>
 We couldn't talk about PyCon US without talking about our Executive Director and Founder, Leah Wasser, who will be talking all things Python packaging! Python packaging can be a scary and confusing endeavor. The ecosystem can be thorny and filled with many decisions around which tool or approach to use. You’re also likely to get pricked by an approach or tutorial that doesn't work as expected. However, the packaging journey doesn’t have to be prickly - particularly for pure Python packages. By building community consensus around user goals and moderating healthy discussion, pyOpenSci is paving a smooth, thorn-free path for successful packaging.
