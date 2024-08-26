@@ -58,7 +58,7 @@ In order to make the Fall Festival accessible to as many people as possible, we'
 
 ### Scholarships
 
-If you are financially unable to attend pyOpenSci's Fall Festival, please reach out to us at [media@pyopensci.org](mailto:pyopensci.org) to request a link to our scholarship application. We will be accepting applications until Friday, September 20th, and sending out notifications the week of September 30th, 2024.
+If you are financially unable to attend pyOpenSci's Fall Festival, please reach out to us at [media@pyopensci.org](mailto:pyopensci.org) to request a link to our scholarship application. We will be accepting applications until Monday, September 30th, and reviewing them through Friday, October 11th.
 
 ## pyOpenSci Fall Festival events
 
@@ -95,7 +95,7 @@ Interested in volunteering? While we can't guarantee availability of volunteer s
 
 * **How do I apply for a scholarship?**
 
-If you are financially unable to attend pyOpenSci's Fall Festival, please reach out to us at [media@pyopensci.org](mailto:pyopensci.org) to request a link to our scholarship application. We will be accepting applications until Friday, September 20th, and sending out notifications the week of September 30th, 2024.
+If you are financially unable to attend pyOpenSci's Fall Festival, please reach out to us at [media@pyopensci.org](mailto:pyopensci.org) to request a link to our scholarship application. We will be accepting applications until Monday, September 30th, and reviewing them through Friday, October 11th.
 
 * **Can I register for a single day?**
 
