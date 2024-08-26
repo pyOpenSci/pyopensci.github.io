@@ -38,7 +38,7 @@ Interested? Read on to learn more!
 * **Where:** Online using [Gather](https://www.gather.town/)
 * **When:** Monday, October 28--Friday, November 01, 2024
 * **Who:** If you are a scientist, a researcher, a student or anyone who is interested in making your workflows better, more open and reproducible, then this event is for you!
-* **Cost:** $300--$600, with scholarships and learner sponsorship opportunities
+* **Cost:** $350--$625, with scholarships and learner sponsorship opportunities
 * [**pyOpenSci demo package:**](https://github.com/pyOpenSci/pyosPackage)
 
 ## pyOpenSci's Fall Festival registration, cost, and scholarship information
