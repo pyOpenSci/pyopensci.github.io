@@ -1,4 +1,3 @@
-
 /* ==========================================================================
    pyos custom drop down menus
 
@@ -20,7 +19,7 @@
   a {
     float: left;
     display: block;
-    color: $nav-font-color!important;
+    color: $nav-font-color !important;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -28,14 +27,14 @@
   }
 
   a:hover {
-    color: $nav-hover-color!important;
-   }
+    color: $nav-hover-color !important;
+  }
 
   .icon {
     display: none;
   }
 
-  @media (max-width: $medium-wide){
+  @media (max-width: $medium-wide) {
     gap: 0.5em;
   }
 
@@ -57,8 +56,12 @@
     z-index: 1;
     border: 1px solid #f2f3f3;
     border-radius: 4px;
-    -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    -webkit-box-shadow:
+      0 2px 4px 0 rgba(0, 0, 0, 0.16),
+      0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    box-shadow:
+      0 2px 4px 0 rgba(0, 0, 0, 0.16),
+      0 2px 10px 0 rgba(0, 0, 0, 0.12);
 
     a {
       float: none;
@@ -92,12 +95,13 @@
 
 /* down arrow works better with ascii vs font awesome */
 .downBtn {
-  font-size: .8em;
+  font-size: 0.8em;
 }
 
 /* Force button and a href fonts to be same size and style */
-.dropdown .dropbtn, .nav__links a {
-  font-size: 1em!important;
+.dropdown .dropbtn,
+.nav__links a {
+  font-size: 1em !important;
 }
 
 /* Dropdown container for nav links */
@@ -122,7 +126,7 @@
     background-color: #fff;
     min-width: 160px;
     max-width: 25%;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     width: 100%;
     transition: all 0.25s ease-in;
@@ -153,7 +157,6 @@
     }
   }
 }
-
 
 /*  End nav links bar styles */
 
@@ -191,42 +194,42 @@
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   pointer-events: auto;
-  z-index: -1!important;
+  z-index: -1 !important;
 }
 
 /* Begin burger styling: actual hamburger element (the horiz lines)*/
 .burger__icon {
   position: relative;
   width: 1.5rem;
-  height: .25rem;
+  height: 0.25rem;
   background: #6f777d;
   margin: auto;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
-
 /* Hide the middle bar when in "closed" style state so it's an x */
 .close .burger__icon {
   background: transparent;
 }
 
-.burger__icon::before, .burger__icon::after {
-	content: "";
-	position: absolute;
-	left: 0;
-	width: 1.5rem;
-	height: .25rem;
-	background: #6f777d;
-	-webkit-transition: 0.3s;
-	transition: 0.3s;
+.burger__icon::before,
+.burger__icon::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 1.5rem;
+  height: 0.25rem;
+  background: #6f777d;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .burger__icon::after {
-  bottom: -.5rem;
+  bottom: -0.5rem;
 }
 .burger__icon::before {
-  top: -.5rem;
+  top: -0.5rem;
 }
 
 // This creates the x by rotating the burger bars
@@ -239,7 +242,8 @@
   transform: rotate3d(0, 0, 1, 45deg);
 }
 
-.close .burger__icon::before, .close .burger__icon::after {
+.close .burger__icon::before,
+.close .burger__icon::after {
   -webkit-transform-origin: 50% 50%;
   -ms-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
@@ -257,7 +261,6 @@
 }
 /*  end burger */
 
-
 /* This style may be removed ultimately - it is the fancy underline */
 
 .hover-underline {
@@ -272,7 +275,7 @@
 }
 
 .hover-underline:after {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   transform: scaleX(0);
@@ -294,14 +297,15 @@
 
 /* Add an active class to highlight the current page - might want to reinstate this */
 .active {
-  background-color: #04AA6D;
+  background-color: #81c0aa;
   color: white;
 }
 
 @media screen and (max-width: $medium) {
-
   /* Hide horizontal drop down links at 48em / 768px */
-  .nav__links { display: none;}
+  .nav__links {
+    display: none;
+  }
 
   /* Nav links goes vertical in responsive mode */
   .nav__links .vertical {
@@ -313,10 +317,12 @@
 
   .hamburger__btn-toggle {
     display: block;
-    width: 2.0rem;
+    width: 2rem;
   }
 
-  .burger__icon, burger__icon::before, burger__icon::after {
-    display: block; }
-
+  .burger__icon,
+  burger__icon::before,
+  burger__icon::after {
+    display: block;
+  }
 }
