@@ -84,6 +84,7 @@ $pyos-lightpurple: #e1dfed;
 $pyos-teal: #81c0aa;
 $pyos-magenta: #bb82b0;
 $pyos-yellow: #f6f0dc;
+$pyos-mediumpurple: #735fab;
 
 $gray: #24052f !default;
 $dark-gray: #4c454e !default;
@@ -100,11 +101,11 @@ $border-color: $lighter-gray !default;
 $form-background-color: $lighter-gray !default;
 $footer-background-color: $lighter-gray !default;
 
-$primary-color: #6f777d !default;
+$primary-color: #bab3d4 !default;
 $success-color: #81c0aa !default;
-$warning-color: #d67f05 !default;
-$danger-color: #ee5f5b !default;
-$info-color: #320e5b !default;
+$warning-color: #e6cb72 !default;
+$danger-color: #f9937c !default;
+$info-color: #33205c !default;
 $focus-color: $primary-color !default;
 $active-color: mix(#fff, $primary-color, 80%) !default;
 

@@ -7,17 +7,13 @@ permalink: docs/pyos-website/
 header:
     overlay_filter: 0.6
     overlay_color: "#333"
-last_modified: 
+last_modified: 2024-08-23
+toc: true
 categories:
   - docs
   - blog-post
 ---
 
-
-Using the Kramdown Markdown renderer with Jekyll allows you to add [block](http://kramdown.gettalong.org/quickref.html#block-attributes) and [inline attributes](http://kramdown.gettalong.org/quickref.html#inline-attributes). This is nice if you want to add custom styling to text and image, and still write in Markdown.
-
-**Jekyll 3:** Kramdown is the default for `jekyll new` sites and those hosted on GitHub Pages. Not using Kramdown? That's OK. The following classes are still available when used with standard HTML.
-{: .notice--warning}
 
 ## Text alignment
 
@@ -75,43 +71,118 @@ No wrap text.
 
 Position images with the following classes.
 
-![image-center]({{ "/assets/images/image-alignment-580x300.jpg" | relative_url }}){: .align-center}
+
+### Figure -- align center
+
+<figure class="align-center">
+  <img src="/images/pyopensci-general/pyopensci-timeline2019-2024.png" alt="A timeline showing the growth of pyOpenSci from 2019 to 2024." style="width: 50%;">
+  <figcaption>Growth of pyOpenSci from 2019 to 2024. Growth of pyOpenSci from 2019 to 2024. Growth of pyOpenSci from 2019 to 2024. Growth of pyOpenSci from 2019 to 2024. </figcaption>
+</figure>
 
 The image above happens to be **centered**.
 
-```markdown
-![image-center](/assets/images/filename.jpg){: .align-center}
+```html
+<figure class="align-center">
+  <img src="/images/pyopensci-general/pyopensci-timeline2019-2024.png" alt="A timeline showing the growth of pyOpenSci from 2019 to 2024.">
+  <figcaption>Growth of pyOpenSci from 2019 to 2024</figcaption>
+</figure>
 ```
 
----
 
-![image-left]({{ "/assets/images/image-alignment-150x150.jpg" | relative_url }}){: .align-left} The rest of this paragraph is filler for the sake of seeing the text wrap around the 150×150 image, which is **left aligned**. There should be plenty of room above, below, and to the right of the image. Just look at him there --- Hey guy! Way to rock that left side. I don't care what the right aligned image says, you look great. Don't let anyone else tell you differently.
+### Figure -- align left
 
-```markdown
-![image-left](/assets/images/filename.jpg){: .align-left}
+<figure class="align-left">
+  <img src="/images/pyopensci-general/pyopensci-timeline2019-2024.png" alt="A timeline showing the growth of pyOpenSci from 2019 to 2024." style="width: 50%;">
+  <figcaption>Growth of pyOpenSci from 2019 to 2024 Growth of pyOpenSci from 2019 to 2024 Growth of pyOpenSci from 2019 to 2024 Growth of pyOpenSci from 2019 to 2024</figcaption>
+</figure>
+
+
+The rest of this paragraph is filler for the sake of seeing the text wrap around the 150×150 image, which is **left aligned**. There should be plenty of room above, below, and to the right of the image. Just look at him there --- Hey guy! Way to rock that left side. I don't care what the right aligned image says, you look great. Don't let anyone else tell you differently.
+
+```html
+<figure class="align-left">
+  <img src="/images/pyopensci-general/pyopensci-timeline2019-2024.png" alt="A timeline showing the growth of pyOpenSci from 2019 to 2024.">
+  <figcaption>Growth of pyOpenSci from 2019 to 2024</figcaption>
+</figure>
 ```
 
----
+You can also adjust the width inline:
 
-![image-right]({{ "/assets/images/image-alignment-300x200.jpg" | relative_url }}){: .align-right}
+```html
+<figure class="align-left">
+  <img src="/images/pyopensci-general/pyopensci-timeline2019-2024.png" alt="A timeline showing the growth of pyOpenSci from 2019 to 2024." style="width: 50%;">
+  <figcaption>Growth of pyOpenSci from 2019 to 2024</figcaption>
+</figure>
+```
+
+### Figure -- align right
 
 And now we're going to shift things to the **right align**. Again, there should be plenty of room above, below, and to the left of the image. Just look at him there --- Hey guy! Way to rock that right side. I don't care what the left aligned image says, you look great. Don't let anyone else tell you differently.
 
-```markdown
-![image-right](/assets/images/filename.jpg){: .align-right}
+<figure class="align-right">
+  <img src="/images/pyopensci-general/pyopensci-timeline2019-2024.png" alt="A timeline showing the growth of pyOpenSci from 2019 to 2024." style="width: 50%;">
+  <figcaption>Growth of pyOpenSci from 2019 to 2024 Growth of pyOpenSci from 2019 to 2024 Growth of pyOpenSci from 2019 to 2024 Growth of pyOpenSci from 2019 to 2024</figcaption>
+</figure>
+
+The html looks like this:
+
+
+```html
+<figure class="align-right">
+  <img src="/images/pyopensci-general/pyopensci-timeline2019-2024.png" alt="A timeline showing the growth of pyOpenSci from 2019 to 2024.">
+  <figcaption>Growth of pyOpenSci from 2019 to 2024 Growth of pyOpenSci from 2019 to 2024 Growth of pyOpenSci from 2019 to 2024 Growth of pyOpenSci from 2019 to 2024</figcaption>
+</figure>
 ```
 
----
+### Figure -- full extending outside of the current area
 
-![full]({{ "/assets/images/image-alignment-1200x4002.jpg" | relative_url }})
-{: .full}
+The image below should extend outside of the parent container on right.
 
-The image above should extend outside of the parent container on right.
+
+<figure class="full">
+  <img src="/images/pyopensci-general/pyopensci-timeline2019-2024.png" alt="A timeline showing the growth of pyOpenSci from 2019 to 2024.">
+  <figcaption>Growth of pyOpenSci from 2019 to 2024 Growth of pyOpenSci from 2019 to 2024 Growth of pyOpenSci from 2019 to 2024 Growth of pyOpenSci from 2019 to 2024</figcaption>
+</figure>
+
+
+
+
+```html
+<figure class="full">
+  <img src="/images/pyopensci-general/pyopensci-timeline2019-2024.png" alt="A timeline showing the growth of pyOpenSci from 2019 to 2024.">
+  <figcaption>Growth of pyOpenSci from 2019 to 2024 Growth of pyOpenSci from 2019 to 2024 Growth of pyOpenSci from 2019 to 2024 Growth of pyOpenSci from 2019 to 2024</figcaption>
+</figure>
+```
+
+## Blockquote styles
+
+### Regular blockquote
 
 ```markdown
-![full](/assets/images/filename.jpg)
-{: .full}
+> This entire effort underscores the power of community when guided in
+> the right direction, showcasing how collective effort can drive
+> meaningful progress.
+{: .highlight-quote }
 ```
+
+> This entire effort underscores the power of community when guided in
+> the right direction, showcasing how collective effort can drive
+> meaningful progress.
+
+
+### Fancy blockquote
+
+```markdown
+> This entire effort underscores the power of community when guided in
+> the right direction, showcasing how collective effort can drive
+> meaningful progress.
+{: .highlight-quote }
+```
+
+> This entire effort underscores the power of community when guided in
+> the right direction, showcasing how collective effort can drive
+> meaningful progress.
+{: .highlight-quote }
 
 ## Buttons
 
@@ -152,7 +223,7 @@ Call attention to a block of text.
 | Success     | `.notice--success` |
 | Danger      | `.notice--danger`  |
 
-**Watch out!** This paragraph of text has been [emphasized](#) with the `{: .notice}` class.
+**Watch out!** This paragraph of text has been [emphasized](#) with the `{: .notice}` class. The purpose of this test paragraph is to check how different styles are applied across various sections of text. You can [highlight](#) certain words or phrases, adjust the [font size](#), or change the [text color](#) to see how the styling adapts. Additionally, experimenting with [different classes](#) and observing the effects on alignment, spacing, and other typographic elements will help ensure that your CSS is applied consistently and effectively across your site.
 {: .notice}
 
 **Watch out!** This paragraph of text has been [emphasized](#) with the `{: .notice--primary}` class.
@@ -170,14 +241,41 @@ Call attention to a block of text.
 **Watch out!** This paragraph of text has been [emphasized](#) with the `{: .notice--danger}` class.
 {: .notice--danger}
 
-{% capture notice-text %}
-You can also add the `.notice` class to a `<div>` element.
+<div class="notice" markdown="1">
+You can also add the `.notice` class to a `<div>` element like this:
+
+```html
+<div class="notice">
+You can also add the .notice class to a <div> element.
 
 * Bullet point 1
 * Bullet point 2
-{% endcapture %}
+</div>
+```
 
+</div>
+
+To add a heading element to a notice  block but ignore in the TOC, use `no_toc` as a class like this:
+
+```html
 <div class="notice--info">
   <h4 class="no_toc">Notice Headline:</h4>
-  {{ notice-text | markdownify }}
+   here is some html text.
 </div>
+```
+
+Which will render like this
+
+<div class="notice--info">
+  <h4 class="no_toc">Notice Headline that won't appear in toc</h4>
+  {{ notice-text | markdownify }}.
+  You can add more text here too
+</div>
+
+
+
+
+Using the Kramdown Markdown renderer with Jekyll allows you to add [block](http://kramdown.gettalong.org/quickref.html#block-attributes) and [inline attributes](http://kramdown.gettalong.org/quickref.html#inline-attributes). This is nice if you want to add custom styling to text and image, and still write in Markdown.
+
+**Jekyll 3:** Kramdown is the default for `jekyll new` sites and those hosted on GitHub Pages. Not using Kramdown? That's OK. The following classes are still available when used with standard HTML.
+{: .notice--warning}
