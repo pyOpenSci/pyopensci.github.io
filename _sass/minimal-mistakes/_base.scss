@@ -183,7 +183,7 @@ blockquote.highlight-quote {
   &.purple p {
     &:before,
     &:after {
-      color: pyos-mediumpurple;
+      color: $pyos-mediumpurple;
     }
   }
 }
