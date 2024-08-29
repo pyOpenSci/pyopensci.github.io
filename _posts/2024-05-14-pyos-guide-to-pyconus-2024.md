@@ -13,6 +13,7 @@ categories:
 classes: wide
 toc: true
 comments: true
+last_modified: 2024-08-26
 ---
 ## <i class="fa-solid fa-heart"></i> Connect with the pyOpenSci community at PyCon US 2024!
 We know there are a million things to do and see while at [PyCon US 2024](https://us.pycon.org/2024/) in beautiful Pittsburgh this weekend, so we wanted to compile a list of every talk, keynote, summit, and panel where you can expect to meet some of the fantastic pyOpenSci community members as well as hear from some friends of pyOpenSci!

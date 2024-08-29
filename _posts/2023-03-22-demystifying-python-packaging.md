@@ -13,6 +13,7 @@ categories:
   - python-packaging
 toc: false
 comments: true
+last_modified: 2024-08-26
 ---
 
 ## A guide to make Python packaging easier for scientists

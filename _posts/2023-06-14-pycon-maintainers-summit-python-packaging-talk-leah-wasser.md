@@ -15,6 +15,7 @@ categories:
 classes: wide
 toc: false
 comments: true
+last_modified: 2024-08-26
 ---
 
 ## How it all went down - PyCON US 2023, Salt Lake City, Utah

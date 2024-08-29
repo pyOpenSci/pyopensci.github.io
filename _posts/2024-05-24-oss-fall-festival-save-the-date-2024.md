@@ -13,6 +13,7 @@ categories:
 classes: wide
 toc: true
 comments: true
+last_modified: 2024-08-12
 ---
 ## You're invited: pyOpenSci's Open Science Fall Festival 2024
 Happening ~~September 28--29th, 2024,~~ October 28th through November 1st, 2024, the pyOpenSci Open Science Fall Festival will be held entirely online, and be a fantastic opportunity to bring together members of the Python community that create open source, open science tools with the members of the Python community who use these tools. In building this festival, our focus is on a grassroots, community-led event with some big unconference vibes.

@@ -15,6 +15,7 @@ categories:
 classes: wide
 toc: false
 comments: true
+last_modified: 2023-07-25
 ---
 
 ## <i class="fa-solid fa-fish-fins"></i> Shark attack - pyOpenSci at SciPy

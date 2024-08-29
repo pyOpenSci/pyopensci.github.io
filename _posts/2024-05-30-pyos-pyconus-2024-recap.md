@@ -13,13 +13,8 @@ categories:
 classes: wide
 toc: true
 comments: true
+last_modified: 2024-08-02
 ---
-
-<!-- TODOs:
-* embed video when live
-* add graphics from social that jesse sent
-* fix captions
-* add stravalib note at the end of my talk section -->
 
 <div class="notice" markdown = "1">
 ## TL;DR
