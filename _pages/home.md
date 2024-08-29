@@ -57,11 +57,13 @@ peer-review:
          <div class="archive__item-body">
             <h2 class="archive__item-title">Peer review mentorship program</h2>
             <div class="archive__item-excerpt">
-               <p>We are building diverse community around the scientific packages that drive open science. We recruit and support editors and reviewers from different backgrounds and gender-identities in each review that we perform.
-            </p>
-              Are you new to peer review? We got you!
+               <p>
+               We are building diverse community around the scientific packages that drive open science. We recruit and support editors and reviewers from different backgrounds and gender-identities in each review that we perform.
+               </p>
+               <p>
+              Are you new to peer review?
               We offer a <a href="https://www.pyopensci.org/software-peer-review/how-to/reviewer-guide.html#a-guide-for-new-reviewers">mentorship program </a> for anyone interested in participating in peer review but who might like a bit of support.
-
+              </p>
             </div>
          </div>
       </div>
@@ -71,7 +73,7 @@ peer-review:
 
 {% assign new_ppl = site.data.contributors | reverse %}
 
-## Latest contributors
+## New pyOpenSci contributors
 
 <div class="entries-grid">
 {% for aperson in new_ppl limit:4 %}

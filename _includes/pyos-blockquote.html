@@ -1,0 +1,9 @@
+<blockquote
+  class="highlight-quote {% if include.class %}{{ include.class }}{% endif %}"
+>
+  <p class="quote">{{ include.quote }}</p>
+  <footer>
+    {% if include.author %}<strong>~{{ include.author }}{% endif %}</strong>{%
+    if include.event %}, <em>{{ include.event }}</em>{% endif %}
+  </footer>
+</blockquote>

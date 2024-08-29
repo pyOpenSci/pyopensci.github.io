@@ -13,7 +13,7 @@ body {
   padding: 0;
   color: $text-color;
   font-family: $global-font-family;
-  line-height: 1.5;
+  line-height: 1.6;
   weight: $weight-3;
 
   &.overflow--hidden {
@@ -28,35 +28,38 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 2em 0 0.5em;
+  margin: 3.5rem 0 1rem 0;
   line-height: 1.2;
-  font-family: $header-font-family;
-  font-weight: bold;
-  color: #542668
+  color: #542668;
 }
 
 h1 {
   margin-top: 0;
   font-size: $h-size-1;
-  font-weight: 200!important;
+  font-weight: 200 !important;
+  font-family: $header-font-family;
 }
 
 h2 {
   font-size: $h-size-2;
+  font-family: $header-font-family;
 }
 
 h3 {
   font-size: $h-size-3;
   //font-family: $sans-serif;
-  font-weight: $weight-4
+  font-weight: $weight-4;
+  line-height: 1.1em;
 }
 
 h4 {
   font-size: $h-size-4;
+  font-weight: $semibold-weight;
 }
 
 h5 {
   font-size: $h-size-5;
+  font-weight: $semibold-weight;
 }
 
 h6 {
@@ -128,6 +131,63 @@ blockquote {
   }
 }
 
+/* Block quote with bigger quotes*/
+blockquote.highlight-quote {
+  border: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 90px;
+  margin-top: 110px;
+  padding: 0 80px 0 30px;
+  max-width: 35rem;
+  //quotes: "\201C""\201D""\2018""\2019";
+
+  footer {
+    text-align: left;
+    font-style: italic;
+    font-weight: 500;
+  }
+
+  p {
+    font-size: 21px;
+    position: relative;
+    margin-bottom: 10px;
+
+    &:before,
+    &:after {
+      position: absolute;
+      font-weight: bold;
+      font-size: 100px;
+      color: $pyos-teal;
+      line-height: 0;
+    }
+
+    &:before {
+      content: open-quote;
+      left: 0;
+      top: -20px;
+    }
+
+    &:after {
+      content: close-quote;
+      right: 0;
+      bottom: -20px;
+    }
+  }
+  // Success class (magenta)
+  &.magenta p {
+    &:before,
+    &:after {
+      color: $pyos-magenta;
+    }
+  }
+  &.purple p {
+    &:before,
+    &:after {
+      color: pyos-mediumpurple;
+    }
+  }
+}
+
 /* links */
 
 a {
@@ -178,21 +238,21 @@ hr {
 
 /* lists */
 
-ul, ol {
+ul,
+ol {
   margin-bottom: 1.9em;
   font-weight: $weight-3;
 }
 ul li,
 ol li {
   margin-bottom: 0.5em;
-  font-size: .95em;
+  font-size: $type-size-5;
   list-style: 1.4em;
 }
 
 li ul,
 li ol {
   margin-top: 0.5em;
-
 }
 
 /*
