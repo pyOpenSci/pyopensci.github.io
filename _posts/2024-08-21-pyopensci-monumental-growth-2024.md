@@ -306,7 +306,7 @@ In four months, we published a shiny new peer review guide. In January 2023, we 
 
 <!-- TODO: rename  repo to "guide" (rename it to be metrics and then link to it) -->
 
-You can see more of our [peer review metrics on the myst markdown metrics dashboard here](https://www.pyopensci.org/peer-review-metrics/pyopensci-peer-review-stats)
+You can see more of our [peer review metrics on our MyST Markdown metrics dashboard here](https://www.pyopensci.org/peer-review-metrics/pyopensci-peer-review-stats)
 {: .button }
 
 
@@ -368,7 +368,7 @@ There’s a strong demand for the work pyOpenSci is doing. Still, every nonprofi
 
 *How do we keep this going long-term?*
 
-Writing grants to bring in funding is essential, but I need to do more than just write grants. Writing grants takes tremendous energy, with only a ~10-20% chance of success. Also, grant calls usually focus on innovation rather than keeping a project maintenance.
+Writing grants to bring in funding is essential, but I need to do more than just write grants. Writing grants takes tremendous energy, with only a ~10-20% chance of success. Also, grant calls usually focus on innovation. They do not often support project maintenance and daily operations.
 
 To ensure that pyOpenSci is sustainable, we’re rolling out paid online training events. Paid events are a revenue model used by other nonprofits in our ecosystem:
 
@@ -377,7 +377,7 @@ The Python Software Foundation runs PyCon as a significant fundraising event.
 These paid events will support the low-cost training, event scholarships, free online tutorials, and resources we will continue to create and publish online.
 
 ## What's next for pyOpenSci - The Road Ahead
-Our next training event is the inaugural pyOpenSci Fall Festival - a week-long event that teaches skills needed to:
+Our next training event is the inaugural pyOpenSci Fall Festival--a week-long event that teaches skills needed to:
 
 * Write cleaner, more modular code,
 * Package and share code,
@@ -403,7 +403,7 @@ Follow us on social platforms:
 ** [<i class="fa-brands fa-linkedin"></i> LinkedIn](https://www.linkedin.com/company/pyopensci)
 ** [<i class="fa-brands fa-github"></i> GitHub](https://github.com/pyOpenSci)
 
-If you are on LinkedIn, you should subscribe to our newsletter too.
+If you are on LinkedIn, you should [subscribe to our newsletter, too](https://www.linkedin.com/newsletters/7179551305344933888/?displayConfirmation=true).
 
 <div class = "notice" markdown="1">
 ## About Me
@@ -412,7 +412,7 @@ My name is Leah, and I'm the executive director and founder of pyOpenSci. I have
 1. **NEON Data Skills Program** at NEON
 2. **Earth Analytics Program** at CU Boulder
 
-I'm now building  **pyOpenSci** - a vibrant, active, and diverse community of practice that supports open science and the open-source software that drives that science.
+I'm now building  **pyOpenSci**--a vibrant, active, and diverse community of practice that supports open science and the open-source software that drives that science.
 
 The programs I build have consistently stayed at the cutting edge of technology through continual evaluation and a data-driven approach. Throughout my career, I've observed significant gaps between the innovative tools being developed and the training scientists receive, which has driven my work in bridging these gaps.
 </div>
