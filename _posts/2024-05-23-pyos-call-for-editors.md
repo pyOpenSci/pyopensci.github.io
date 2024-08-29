@@ -13,6 +13,7 @@ categories:
 classes: wide
 toc: true
 comments: true
+last_modified: 2024-06-10
 ---
 ## Join the pyOpenSci Editorial Board
 ### We're currently in need of editors with domain expertise in climatology and/or energy, and also accepting applications from all scientific domains

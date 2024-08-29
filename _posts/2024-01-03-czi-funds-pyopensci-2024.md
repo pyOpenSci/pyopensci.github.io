@@ -12,6 +12,7 @@ categories:
   - community
 toc: true
 comments: true
+last_modified: 2023-12-29
 ---
 
 ## A bright 2024 is ahead for pyOpenSci
