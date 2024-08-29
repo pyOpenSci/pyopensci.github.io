@@ -34,6 +34,11 @@ $colors: (
 }
 
 /* Create & style a 3x3 grid wrapper */
+/* Adjust grid side for the flowing layout */
+.flowing .grid {
+  grid-template-columns: repeat(auto-fit, minmax(calc($small/3), 1fr));
+ }
+
 .grid {
     display: grid;
     // minmax can be used to modify width
