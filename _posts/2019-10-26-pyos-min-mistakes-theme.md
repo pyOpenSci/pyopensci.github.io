@@ -184,6 +184,23 @@ The image below should extend outside of the parent container on right.
 > meaningful progress.
 {: .highlight-quote }
 
+You can also create blockquotes using include files.
+Below is a green and magenta version of the same quote
+
+```
+{% include pyos-blockquote.html quote="[*I want to... *] Streamline the development of good quality, socially responsible, and easily shareable software." author="Anonymous" event="AGU 2019 Townhall" class="highlight magenta" %}
+```
+
+{% include pyos-blockquote.html quote="[*I want to... *] Streamline the development of good quality, socially responsible, and easily shareable software." author="Anonymous" event="AGU 2019 Townhall" class="highlight magenta" %}
+
+The default color for the quotes is the pyos teal green.
+
+```
+{% include pyos-blockquote.html quote="[*I want to... *] Streamline the development of good quality, socially responsible, and easily shareable software." author="Anonymous" event="AGU 2019 Townhall" class="highlight" %}
+```
+
+{% include pyos-blockquote.html quote="[*I want to... *] Streamline the development of good quality, socially responsible, and easily shareable software." author="Anonymous" event="AGU 2019 Townhall" class="highlight" %}
+
 ## Buttons
 
 Make any link standout more when applying the `.btn .btn--primary` classes.
