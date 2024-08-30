@@ -13,6 +13,7 @@ categories:
   - python-packaging
 toc: false
 comments: true
+last_modified: 2024-08-26
 ---
 
 ## A guide to make Python packaging easier for scientists
@@ -58,8 +59,8 @@ At the same time I noticed that many did not want to talk about
 Python packaging. And I wondered, why?
 
 <figure>
-    <a href="/images/python-packages/lion-meme-pyopensci.jpeg">
-    <img src="/images/python-packages/lion-meme-pyopensci.jpeg" style="max-width:100%" alt="A meme showing a mountain lion with it's little paw up like an italian mobster. the meme text says - so you want to talk about python packaging..">
+    <a href="/images/python-packaging/lion-meme-pyopensci.jpeg">
+    <img src="/images/python-packaging/lion-meme-pyopensci.jpeg" style="max-width:100%" alt="A meme showing a mountain lion with it's little paw up like an italian mobster. the meme text says - so you want to talk about python packaging..">
     </a>
     <figcaption>People didn't want to talk about Python packaging. It was such a painful, sore topic.
     </figcaption>
@@ -143,8 +144,8 @@ In general, users want to use the simplest approach to publish their packages on
 Remember - early wins go a long way.
 
 <figure>
-    <a href="/images/python-packages/dont-talk-about-peps-pyopensci.jpeg">
-    <img src="/images/python-packages/dont-talk-about-peps-pyopensci.jpeg" style="max-width:100%" alt="A meme from the movie flight flub showing brad pitt with his arms crossed in a black tshirt. The text says - the first rul of peps is do not talk about peps.">
+    <a href="/images/python-packaging/dont-talk-about-peps-pyopensci.jpeg">
+    <img src="/images/python-packaging/dont-talk-about-peps-pyopensci.jpeg" style="max-width:100%" alt="A meme from the movie flight flub showing brad pitt with his arms crossed in a black tshirt. The text says - the first rul of peps is do not talk about peps.">
     </a>
     <figcaption>At one point, I was trying to link to Python standards - known as PEPS (Python Enhancement Protocols) given everyone was sharing the various PEPs that tools follow. I was then told that we should avoid linking to these pages as they weren't intended for public consumption. If that is the case then how does the public get current information about standards? While I understood the goal, My mind was a bit blown. This was one of many points of confusion that I had to sort through.  :)
     </figcaption>

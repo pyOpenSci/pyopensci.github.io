@@ -14,6 +14,7 @@ categories:
   - peer-review
 toc: false
 comments: true
+last_modified: 2024-08-26
 ---
 
 <div class="notice" markdown="1">
@@ -72,7 +73,7 @@ ecosystem. These packages tend to have smaller user bases, and smaller maintaine
 teams (or often are maintained by one volunteer person).
 
 <figure>
-    <a href="/images/python-packages/python-ecosystem-jake-vanderploss-pycon-2017.png"><img src="/images/python-packages/python-ecosystem-jake-vanderploss-pycon-2017.png" alt="Image used by Jake Vanderploss in the 2017 pycon conference that shows
+    <a href="/images/python-packaging/python-ecosystem-jake-vanderploss-pycon-2017.png"><img src="/images/python-packaging/python-ecosystem-jake-vanderploss-pycon-2017.png" alt="Image used by Jake Vanderploss in the 2017 pycon conference that shows
     the ecosystem of scientific python packages starting with foundational packages
     and moving out to the wealth of smaller, domain specific packages."></a>
     <figcaption>Image used by Jake Vanderploss in the 2017 pycon conference that shows

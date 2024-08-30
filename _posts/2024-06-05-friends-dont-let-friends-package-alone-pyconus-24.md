@@ -13,6 +13,7 @@ categories:
 classes: wide
 toc: true
 comments: true
+last_modified: 2024-07-29
 ---
 
 ## <i class="fa-solid fa-heart"></i>  Python packaging and community: my first talk at PyCon US 2024

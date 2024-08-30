@@ -13,6 +13,7 @@ categories:
 classes: wide
 toc: true
 comments: true
+last_modified: 2024-07-23
 ---
 ## <i class="fa-regular fa-handshake"></i> See you at SciPy!
 
