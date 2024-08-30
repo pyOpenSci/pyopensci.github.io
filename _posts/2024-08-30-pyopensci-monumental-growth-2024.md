@@ -43,8 +43,8 @@ pyOpenSci makes open science more accessible by [developing educational resource
 
 Our software peer review program has seen **over 50 packages**; we've [accepted 35 scientific Python packages into our growing library of trusted scientific Python packages](https://www.pyopensci.org/python-packages.html) and have **17 packages** in [active stages of review](https://github.com/orgs/pyOpenSci/projects/7) as I write this post.
 
-[<i class="fa-solid fa-wand-magic-sparkles"></i> Learn more about how pyOpenSci started <i class="fa-solid fa-wand-magic-sparkles"></i>](/blog/how-pyopensci-got-started.html)
-{: .button }
+<!-- [<i class="fa-solid fa-wand-magic-sparkles"></i> Learn more about how pyOpenSci started <i class="fa-solid fa-wand-magic-sparkles"></i>](/blog/how-pyopensci-got-started.html)
+{: .button } -->
 
 <figure>
     <a href="/images/pyopensci-general/pyopensci-flower-pillars.png">
@@ -203,10 +203,9 @@ I have created hundreds of [open online lessons](https://www.leahwasser.com/my-p
 
 <i class="fa-solid fa-heart-pulse" style="color: #B197FC;"></i><i class="fa-solid fa-heart-pulse" style="color: #B197FC;"></i><i class="fa-solid fa-heart-pulse" style="color: #B197FC;"></i><i class="fa-solid fa-heart-pulse" style="color: #B197FC;"></i><i class="fa-solid fa-heart-pulse" style="color: #B197FC;"></i><i class="fa-solid fa-heart-pulse" style="color: #B197FC;"></i>
 
-> Hi Leah. Thanks for the course today. I really enjoyed it. I heard about it from your post here in the Python channel so I'm glad you shared it here. I'll keep my eye out for more coming up and will be referring to the tutorials and guides on your site. Hopefully you work out the spatial chat because that seemed to have a lot of potential!
-I also want to let you know that I got a ton of value out of your materials on the CU Open Earth data analytics site, and it's still my go-to resource to point people to when they ask me how to get started learning the open source spatial stack. So thank you!
-> workshop attendee -- Software Underground community
-{: .highlight-quote }
+
+{% include pyos-blockquote.html quote="Hi Leah. Thanks for the course today. I really enjoyed it. I heard about it from your post here in the Python channel so I'm glad you shared it here. I'll keep my eye out for more coming up and will be referring to the tutorials and guides on your site. Hopefully you work out the spatial chat because that seemed to have a lot of potential! I also want to let you know that I got a ton of value out of your materials on the CU Open Earth data analytics site, and it's still my go-to resource to point people to when they ask me how to get started learning the open source spatial stack. So thank you!" author="Michael Harty, Software Underground Community" class="highlight" %}
+
 
 <i class="fa-solid fa-heart-pulse" style="color: #B197FC;"></i><i class="fa-solid fa-heart-pulse" style="color: #B197FC;"></i><i class="fa-solid fa-heart-pulse" style="color: #B197FC;"></i><i class="fa-solid fa-heart-pulse" style="color: #B197FC;"></i><i class="fa-solid fa-heart-pulse" style="color: #B197FC;"></i><i class="fa-solid fa-heart-pulse" style="color: #B197FC;"></i>
 
