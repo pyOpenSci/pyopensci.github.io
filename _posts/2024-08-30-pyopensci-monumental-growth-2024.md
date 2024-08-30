@@ -193,7 +193,7 @@ Our Python packaging tutorials went through the same community development and r
 
 <figure>
     <a href="{{ site.baseurl }}/images/python-packaging/successfully-created-python-package-scipy-24.png"><img src="{{ site.baseurl }}/images/python-packaging/successfully-created-python-package-scipy-24.png" style="max-width:80%" alt="Another survey result image. The question is: were you able to create a package? 91% responded yes (10 people), 9% (1 person) said no; no one responded 'I'm not sure'"></a>
-    <figcaption>It's always hard to collect data at the end of a long workshop. Here, 11 out of 30+ people responded. Most people in our workshop were successful. We worked with the one person who responded "no" after the survey at the end of the workshop. They successfully made their first package with our support! This feedback was similar to the success rates at [our first online workshop](https://www.pyopensci.org/events/april-2024-create-python-package-pyopensci-online-workshop.html), held in May 2024. </figcaption>
+    <figcaption>It's always hard to collect data at the end of a long workshop. Here, 11 out of 30+ people responded. Most people in our workshop were successful. We worked with the one person who responded "no" after the survey at the end of the workshop. They successfully made their first package with our support! This feedback was similar to the success rates at our <a href="https://www.pyopensci.org/events/april-2024-create-python-package-pyopensci-online-workshop.html">first online workshop</a>, held in May 2024. </figcaption>
 </figure>
 
 
@@ -250,10 +250,18 @@ I'll talk about that next.
 
 ## pyOpenSci at PyCon and SciPy 2024 -- sprints, talks and new contributors
 
-We've held sprints at SciPy and PyCon US in the past two years.
-We had significantly more engagement at SciPy and PyCon in 2024 compared to 2023. What is most impressive is many of our sprint participants have continued to contribute to pyOpenSci after our in-person sprint events.
+Sprints are one of my most favorite types of events to hold because they involve this [cool mix of learning, helping and community]({{ site.baseurl }}/blog/pyopensci-pyconus-2024-sprints.html).
 
-While pyOpenSci operates mainly as an online community, I find there is no better way to build a core community than by holding in-person events at large meetings. While we get plenty of expert Pythonistas at our sprints, our sprint events are always beginner-friendly. Many first-time contributors help pyOpenSci with various open issues on our help-wanted GitHub project board while submitting their first pull requests and issues to GitHub.
+### pyOpenSci sprints at Python meetings
+
+We started holding sprints at PyCon US in 2023.
+Engagement at pyOpenSci sprints has grown significantly since we started leading these events. This year alone, we engaged with over 50 contributors at sprints who have submitted 86 issues and pull requests!
+
+What is most impressive is many of our sprint participants have continued to contribute to pyOpenSci after our in-person sprint events.
+
+While pyOpenSci operates mainly as an online community, I find there is no better way to build a core community than by holding in-person events at large meetings. While we get plenty of expert Pythonistas at our sprints, our sprint events are always beginner-friendly. Many first-time contributors help pyOpenSci with various open issues on our [help-wanted GitHub project board](https://github.com/orgs/pyOpenSci/projects/3) while submitting their first pull requests and issues to GitHub.
+
+### pyOpenSci beginner-friendly sprints help us and also the community
 
 Beginner-friendly sprints represent a true win-win for both contributors and pyOpenSci. Contributors learn new skills, and pyOpenSci gets help with the vital work that we are doing.
 
@@ -333,7 +341,7 @@ Every morning, I wake up and am excited to begin my work. It doesn't matter if I
 
 <i class="fa-solid fa-circle-check" style="color: #63E6BE;"></i> The community is kind; the discussions are engaging and people help each other.
 
-{% include pyos-blockquote.html quote="I love the friendliness and positive energy around the combination of science+computing (in Python, too)! It's a lovely community of practice!" author="Titus Brown, Faculty - University of California, Davis, pyOpenSci community member" class="highlight magenta" %}
+{% include pyos-blockquote.html quote="I love the friendliness and positive energy around the combination of science+computing (in Python, too)! It's a lovely community of practice!" author="Titus Brown, Faculty - University of California, Davis" class="highlight magenta" %}
 
 The community also cares a lot about the scientific Python ecosystem and wants to see more robust software.
 
