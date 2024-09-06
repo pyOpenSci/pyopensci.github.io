@@ -345,7 +345,9 @@ Every morning, I wake up and am excited to begin my work. It doesn't matter if I
 
 The community also cares a lot about the scientific Python ecosystem and wants to see more robust software.
 
+<div>
 {% include pyos-blockquote.html quote="As maintainers of the Scientific Python library, we see great potential in pyOpenSci. Test, code, documentation, and internationalization. These are things we have gradually accumulated know-how for in order to create a robust library on GitHub. Now, these are about to be integrated by the pyOpenSci project." author="Tetsuo Koyama - PyVista maintainer" class="highlight" %}
+</div>
 
 They care about the packaging guidelines we have worked so hard to co-create and the impact those guidelines and online resources have on scientists who are just trying to get their jobs done.
 
@@ -360,7 +362,9 @@ accessible to more people.
 Carol below was more than just a participant! She also helped many students
 in their workshop learning experience.
 
+<div>
 {% include pyos-blockquote.html quote="As a participant in the first packaging workshop, I found that individual attention and focus on success were outstanding. The organization and approach to teaching a scientist how to create a package helped build skills and ongoing productivity." author="Carol Willing - Open Source & Open Science Leader, Project Jupyter, Python Core Dev" class="highlight purple" %}
+</div>
 
 ## Building a sustainability model for pyOpenSci so we can continue to thrive - what's next
 
