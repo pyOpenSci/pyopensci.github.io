@@ -15,6 +15,7 @@ body {
   font-family: $global-font-family;
   line-height: 1.6;
   weight: $weight-3;
+  font-size: 1em;
 
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */
@@ -135,10 +136,10 @@ blockquote {
 blockquote.highlight-quote {
   border: none;
   font-family: Georgia, "Times New Roman", Times, serif;
-  margin-bottom: 130px;
-  margin-top: 110px;
-  padding: 0 80px 0 30px;
-  max-width: 35rem;
+  margin-top: 6rem;
+  margin-bottom: 4rem;
+  padding: 0 2rem;
+  max-width: $medium;
 
   footer {
     text-align: left;
@@ -147,43 +148,51 @@ blockquote.highlight-quote {
     text-align: right;
   }
 
+  %quote-style {
+    font-weight: bold;
+    font-size: 100px;
+    color: $pyos-teal;
+    line-height: 0;
+  }
+  & > div.end {
+    position: relative;
+  }
+
+  & > div.end:after {
+    @extend %quote-style;
+    content: close-quote;
+    position: absolute;
+    right: 0;
+    margin-top:2.8rem;
+  }
+
   p {
     font-size: 21px;
     position: relative;
     margin-bottom: 10px;
 
-    &:before,
-    &:after {
-      font-weight: bold;
-      font-size: 100px;
-      color: $pyos-teal;
-      line-height: 0;
-    }
-
     &:before {
+      @extend %quote-style;
       position: absolute;
       content: open-quote;
       left: 0;
       top: -20px;
     }
-
-    &:after {
-      content: close-quote;
-      position: absolute;
-      right: 0;
-      bottom: -80px;
-    }
   }
   // Success class (magenta)
-  &.magenta p {
-    &:before,
-    &:after {
+  &.magenta {
+    & > div.end:after,
+    p:before,
+    p:after {
       color: $pyos-magenta;
     }
   }
-  &.purple p {
-    &:before,
-    &:after {
+
+  // Purple class
+  &.purple {
+    & > div.end:after,
+    p:before,
+    p:after {
       color: $pyos-mediumpurple;
     }
   }
