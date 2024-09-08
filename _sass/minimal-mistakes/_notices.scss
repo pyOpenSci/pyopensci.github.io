@@ -70,6 +70,9 @@
       margin-bottom: 0; /* override*/
     }
   }
+  @include breakpoint-max-width($mobile) {
+    padding: 0.5em;
+  }
 }
 
 /* Default notice */
@@ -143,59 +146,48 @@
 }
 
 /* Notice elements with figures */
-
-.notice figcaption, figcaption {
-  font-family: $body-font;
-}
-
 .notice {
-  border-radius: 15px!important;
-  box-shadow: 0 1px 1px rgba(189,193,196,0.25)!important;
+  border-radius: 15px !important;
+  box-shadow: 0 1px 1px rgba(189, 193, 196, 0.25) !important;
   padding: 3em;
 
   p, li {
-  font-size: 1.1em!important;
+    font-size: 1.1em !important;
   }
 
   h2, h3 {
-    margin-top:0!important;
+    margin-top: 0 !important;
   }
 
   figcaption {
-    font-size: 1.3em;
+    font-family: $body-font;
+    font-size: 1.2em; // This will override the previous 1.3em
+  }
+
+  &--info {
+    .btn.btn--info {
+      color: #fff;
+    }
+
+    .archive__item-excerpt {
+      font-size: 0.95em;
+    }
+
+    h2 {
+      font-size: 1.5em;
+    }
+
+    h3 a,
+    h2 a:visited {
+      font-size: 1.5em;
+      text-decoration: none;
+    }
   }
 }
-
-/* Fix buttons and text in notice boxes */
-.notice figcaption {
-  font-size: 1.2em;
-}
-
-
-
-.notice--info .btn.btn--info {
-  color:#fff;
-}
-
-.notice--info .archive__item-excerpt {
-  font-size: .95em;
-}
-
-.notice--info h2 {
-  font-size: 1.5em;
-}
-
-.notice--info h3 a, .notice--info h2 a:visited {
-  font-size: 1.5em;
-  text-decoration: none;
-  font-size: 1.0em;
-}
-
-
 /* max 480 px */
 @media screen and (max-width: 480px) {
   .notice {
-    padding: 1.8em;
+    padding: .5em;
   }
 
   blockquote.highlight-quote>div.end:after {

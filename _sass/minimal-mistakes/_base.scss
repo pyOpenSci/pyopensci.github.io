@@ -132,6 +132,13 @@ blockquote {
   }
 }
 
+%quote-style {
+  font-weight: bold;
+  font-size: 100px;
+  color: $pyos-teal;
+  line-height: 0;
+}
+
 /* Block quote with bigger quotes*/
 blockquote.highlight-quote {
   border: none;
@@ -142,17 +149,17 @@ blockquote.highlight-quote {
   max-width: $medium;
 
   footer {
-    text-align: left;
     font-style: italic;
     font-weight: 500;
     text-align: right;
   }
 
-  %quote-style {
-    font-weight: bold;
-    font-size: 100px;
-    color: $pyos-teal;
-    line-height: 0;
+  &:after{
+    @extend %quote-style;
+    position: absolute;
+    content: close-quote;
+    right: 4rem;
+    margin-top:2rem;
   }
   & > div.end {
     position: relative;
@@ -179,7 +186,7 @@ blockquote.highlight-quote {
       top: -20px;
     }
   }
-  // Success class (magenta)
+
   &.magenta {
     & > div.end:after,
     p:before,
@@ -188,13 +195,17 @@ blockquote.highlight-quote {
     }
   }
 
-  // Purple class
   &.purple {
     & > div.end:after,
     p:before,
     p:after {
       color: $pyos-mediumpurple;
     }
+  }
+
+  @include breakpoint('max-width: #$mobile') {
+    padding: 0;
+    //font-size: 2rem;
   }
 }
 

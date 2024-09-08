@@ -86,7 +86,7 @@ peer-review:
 <!-- pull blog posts not events -->
 {% assign blog_posts = site.posts |  where_exp: "item", "item.categories contains 'blog-post'" %}
 
-<div class="notice-highlight" markdown="1">
+<div class="notice notice-highlight" markdown="1">
 ## Recent blog posts & updates
 
 <div class="grid col-3">
