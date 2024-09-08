@@ -1,5 +1,5 @@
 /* ==========================================================================
-   STYLE RESETS
+   Media queries for responsive desitn
    ========================================================================== */
 
 * { box-sizing: border-box; }
@@ -8,18 +8,18 @@ html {
   /* apply a natural box layout model to all elements */
   box-sizing: border-box;
   background-color: $background-color;
-  font-size: 15px;
+  font-size: 1rem;
 
   @include breakpoint($medium) {
-    font-size: 17px;
+    font-size: 1.0625rem; // 17px / 16px = 1.0625rem
   }
 
   @include breakpoint($large) {
-    font-size: 19px;
+    font-size: 1.1875rem; // 19px / 16px = 1.1875rem
   }
 
   @include breakpoint($x-large) {
-    font-size: 21px;
+    font-size: 1.3125rem; // 21px / 16px = 1.3125rem
   }
 
   -webkit-text-size-adjust: 100%;
