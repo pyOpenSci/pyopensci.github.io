@@ -174,9 +174,9 @@ blockquote.highlight-quote {
   }
 
   p {
-    font-size: 21px;
+    font-size: 1.3rem;
     position: relative;
-    margin-bottom: 10px;
+    margin-bottom: 0.63rem;
 
     &:before {
       @extend %quote-style;
