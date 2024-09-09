@@ -117,12 +117,15 @@ You can also adjust the width inline:
 
 ### Figure -- align right
 
-And now we're going to shift things to the **right align**. Again, there should be plenty of room above, below, and to the left of the image. Just look at him there --- Hey guy! Way to rock that right side. I don't care what the left aligned image says, you look great. Don't let anyone else tell you differently.
+Below is a right aligned image
 
 <figure class="align-right">
   <img src="/images/pyopensci-general/pyopensci-timeline2019-2024.png" alt="A timeline showing the growth of pyOpenSci from 2019 to 2024." style="width: 50%;">
   <figcaption>Growth of pyOpenSci from 2019 to 2024 Growth of pyOpenSci from 2019 to 2024 Growth of pyOpenSci from 2019 to 2024 Growth of pyOpenSci from 2019 to 2024</figcaption>
 </figure>
+
+
+And now we're going to shift things to the **right align**. Again, there should be plenty of room above, below, and to the left of the image. Just look at him there --- Hey guy! Way to rock that right side. I don't care what the left aligned image says, you look great. Don't let anyone else tell you differently.
 
 The html looks like this:
 
@@ -184,22 +187,52 @@ The image below should extend outside of the parent container on right.
 > meaningful progress.
 {: .highlight-quote }
 
+
+### Quotes using include files
+
 You can also create blockquotes using include files.
 Below is a green and magenta version of the same quote
 
-```
+````html
+{% raw %}
 {% include pyos-blockquote.html quote="[*I want to... *] Streamline the development of good quality, socially responsible, and easily shareable software." author="Anonymous" event="AGU 2019 Townhall" class="highlight magenta" %}
-```
+{% endraw %}
+````
 
 {% include pyos-blockquote.html quote="[*I want to... *] Streamline the development of good quality, socially responsible, and easily shareable software." author="Anonymous" event="AGU 2019 Townhall" class="highlight magenta" %}
+
+```markdown
+{% raw %}
+{% include pyos-blockquote.html quote="[*I want to... *] Streamline the development of good quality, socially responsible, and easily shareable software." author="Anonymous" event="AGU 2019 Townhall" class="highlight purple" %}
+{% endraw %}
+```
+
+{% include pyos-blockquote.html quote="[*I want to... *] Streamline the development of good quality, socially responsible, and easily shareable software." author="Anonymous" event="AGU 2019 Townhall" class="highlight purple" %}
 
 The default color for the quotes is the pyos teal green.
 
 ```
+{% raw %}
 {% include pyos-blockquote.html quote="[*I want to... *] Streamline the development of good quality, socially responsible, and easily shareable software." author="Anonymous" event="AGU 2019 Townhall" class="highlight" %}
+{% endraw %}
 ```
 
 {% include pyos-blockquote.html quote="[*I want to... *] Streamline the development of good quality, socially responsible, and easily shareable software." author="Anonymous" event="AGU 2019 Townhall" class="highlight" %}
+
+### Quotes in notice blocks
+
+```
+<div class="notice">
+{% raw %}
+{% include pyos-blockquote.html quote="[*I want to... *] Streamline the development of good quality, socially responsible, and easily shareable software." author="Anonymous" event="AGU 2019 Townhall" class="highlight" %}
+{% endraw %}
+</div>
+```
+
+<div class="notice">
+{% include pyos-blockquote.html quote="[*I want to... *] Streamline the development of good quality, socially responsible, and easily shareable software." author="Anonymous" event="AGU 2019 Townhall" class="highlight" %}
+
+</div>
 
 ## Buttons
 

@@ -216,8 +216,7 @@ I will leave web and social media growth, which have also shown extraordinary gr
 
 The success of our packaging guide has been remarkable, thanks to the tremendous input and feedback from the community. What began as a simple guide has evolved into a collaborative project, with enthusiastic participation from contributors worldwide.
 
-> @leahawasser @pyOpenSci clicking through and eventually found myself looking at "what is a python package" [www.pyopensci.org] and involuntarily performed a standing ovation. bookmarked it as an example of great docs for an incredibly complex subject with many meanings in many different contexts
-{: .highlight-quote }
+{% include pyos-blockquote.html quote="@leahawasser @pyOpenSci clicking through and eventually found myself looking at 'what is a Python package' and involuntarily performed a standing ovation. bookmarked it as an example of great docs for an incredibly complex subject with many meanings in many different contexts" author="Mastodon Toot" class="highlight" %}
 
 [View toot on mastodon](https://circumstances.run/@hipsterelectron/112557545629456885)
 
