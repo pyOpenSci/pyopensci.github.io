@@ -13,6 +13,7 @@ categories:
 classes: wide
 toc: true
 comments: true
+last_modified: 2024-08-01
 ---
 
 ## pyOpenSci's approach to beginner-friendly sprints

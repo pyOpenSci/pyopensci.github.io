@@ -125,10 +125,12 @@ editor role at pyOpenSci [in our peer review guide.](https://www.pyopensci.org/s
 {% assign editors = site.data.contributors | where: 'editorial_board', true  %}
 {% assign editors = editors | sort: 'sort'  %}
 
-<div class="grid clean">
+<div class="grid">
 {% for aperson in editors %}
     {% include people-grid.html  %}
 {% endfor %}
+
+
 </div>
 
 <br clear="both">
@@ -139,7 +141,7 @@ We are deeply grateful for those served on our editorial board previously!
 
 {% assign emeritus = site.data.contributors | where: 'emeritus_editor', true  %}
 
-<div class="grid clean">
+<div class="grid">
 {% for aperson in emeritus %}
     {% include people-grid.html  %}
 {% endfor %}

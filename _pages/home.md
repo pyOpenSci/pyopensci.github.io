@@ -29,14 +29,14 @@ peer-review:
     title: "Community Partnerships"
     excerpt: "We partner with domain-specific scientific Python communities such as [Pangeo](https://www.pyopensci.org/software-peer-review/partners/pangeo.html) who want to review affiliated packages. Through this collaboration, we develop community-specific standards that are used in our reviews to evaluate whether a package meets affiliation requirements. This removes the need for communities to develop their own peer review process."
     url: https://www.pyopensci.org/partners.html
-    btn_label: "> Learn More About Our Community Partners"
+    btn_label: "> Learn About Community Partners"
     btn_class: btn--inverse
   - image_path: images/python-packaging-guide.png
     title: "Simplifying Packaging"
     alt: Light purple image that says python packaging guide and below it says simplifying python packaging. The background is a grey laptop with a hand looking down at the laptop the above.
     excerpt: "We are creating a beginner-friendly, **community-driven Python packaging guide**. Our guide is reviewed by members of the Python Packaging Authority, maintainers of core packaging tools and members of the scientific Python community. It recommends best practices for you to follow when creating a Python package."
     url: https://www.pyopensci.org/python-package-guide/
-    btn_label: "> Check out our Python packaging guide"
+    btn_label: "> Read our packaging guide"
     btn_class: btn--inverse
 ---
 
@@ -57,11 +57,13 @@ peer-review:
          <div class="archive__item-body">
             <h2 class="archive__item-title">Peer review mentorship program</h2>
             <div class="archive__item-excerpt">
-               <p>We are building diverse community around the scientific packages that drive open science. We recruit and support editors and reviewers from different backgrounds and gender-identities in each review that we perform.
-            </p>
-              Are you new to peer review? We got you!
+               <p>
+               We are building diverse community around the scientific packages that drive open science. We recruit and support editors and reviewers from different backgrounds and gender-identities in each review that we perform.
+               </p>
+               <p>
+              Are you new to peer review?
               We offer a <a href="https://www.pyopensci.org/software-peer-review/how-to/reviewer-guide.html#a-guide-for-new-reviewers">mentorship program </a> for anyone interested in participating in peer review but who might like a bit of support.
-
+              </p>
             </div>
          </div>
       </div>
@@ -71,7 +73,7 @@ peer-review:
 
 {% assign new_ppl = site.data.contributors | reverse %}
 
-## Latest contributors
+## New pyOpenSci contributors
 
 <div class="entries-grid">
 {% for aperson in new_ppl limit:4 %}
@@ -84,14 +86,14 @@ peer-review:
 <!-- pull blog posts not events -->
 {% assign blog_posts = site.posts |  where_exp: "item", "item.categories contains 'blog-post'" %}
 
-<div class="notice-highlight" markdown="1">
+<div class="notice notice-highlight" markdown="1">
 ## Recent blog posts & updates
 
-<div class="grid col-3">
+<div class="grid">
   {% for post in blog_posts limit:3 %}
 
   <div class="cards">
-  <h3 ><a href="{{ site.baseurl }}{{ post.url}}" rel="permalink">{{ post.title }}</a></h3>
+  <h3 class="card-title"><a href="{{ site.baseurl }}{{ post.url}}" rel="permalink">{{ post.title }}</a></h3>
 
     <div>
         <p>{{ post.excerpt | markdownify }}</p>
