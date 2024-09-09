@@ -109,7 +109,7 @@ If you purchased your ticket after October 21st you will be ineligible for a ref
 
 * **How will pyOpenSci use my registration information?**
 
-pyOpenSci will use your registration information to send you information related to the Fall Festival, as well as to send you both pre- and post-surveys related to the Fall Festival. 
+pyOpenSci will use your registration information to send you information related to the Fall Festival, as well as to send you both pre- and post-surveys related to the Fall Festival.
 
 * **How can I help promote the Fall Festival?**
 
