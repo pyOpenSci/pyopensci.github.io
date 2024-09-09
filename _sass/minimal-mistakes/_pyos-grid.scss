@@ -24,7 +24,7 @@ $colors: (
 
 
 // Include the mixin
-@include generate-color-styles($colors);
+//@include generate-color-styles($colors);
 
 
 .clearfix::after {
@@ -70,10 +70,16 @@ $colors: (
     }
   }
 
-
+.grid-item {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
 
 /* Blog grid styles */
-
 .blog__grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -113,10 +119,7 @@ $colors: (
   }
 }
 
-/* Package cards splash */
-.cards h2.archive__item-title {
-  font-size: 1.1em!important;
-}
+
 
 .bubble:before {
         content: "";
@@ -135,113 +138,185 @@ $colors: (
 
 // Cards are also used to style the isotope layout
 // do not adjust the display or structure of the cards element.
+/* Package cards splash */
 .cards {
-    top: 0px;
-    position: relative;
-    background-color: #fcfbf5;;
-    border-radius: 4px;
-    text-decoration: none;
-    z-index: 0;
+  top: 0px;
+  position: relative;
+  background-color: #fcfbf5;
+  border-radius: 4px;
+  text-decoration: none;
+  z-index: 0;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  font-size: .8em;
+
+  @include breakpoint-max-width(480px) {
+    padding: 2em;
+  }
+
+  &__image {
+    max-height: calc($small / 3);
     overflow: hidden;
-    border: 1px solid #ccc;
-    font-size: .8em;
+    border-radius: 10px;
+  }
 
-    @include breakpoint-max-width(480px) {
-      .cards {
-        padding: 2em;
-      }
-    }
+  &:hover {
+    transition: all 0.2s ease-out;
+    box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+    top: -4px;
+    border: 1px solid #cccccc;
+    background-color: white;
+    cursor: pointer;
+  }
 
-    &__image {
-      max-height: calc($small/3);
-      overflow: hidden;
-      border-radius: 10px;
-    }
+  &:hover:before {
+    transform: scale(2.15);
+  }
 
-    &.highlight div {
-      padding:0;
-    }
+  p {
+    font-size: .9em;
+  }
 
-    &.highlight {
-      background-color:#f0f0f0!important;
-      padding: 0;
-
-      &:before {
-        background-color: #fff;
-      }
-
-      &:hover {
-        cursor:default;
-      }
-
-
-      .card-body {
-        margin: .2em;
-        padding: 1.2em;
-
-        p {
-          font-size: 1.2em;
-        }
-
-        .card-title {
-          margin-top: 0;
-          margin-bottom: 0;
-          border-bottom: none;
-        }
-      }
-    }
-
-    &:hover {
-        transition: all 0.2s ease-out;
-        box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
-        top: -4px;
-        border: 1px solid #cccccc;
-        background-color: white;
-        cursor: pointer;
-    }
-
-
-    &:hover:before {
-        transform: scale(2.15);
-    }
-
-    p {
-      font-size: .9em
-    }
-
-    h2 a {
+  h2 {
+    a {
       text-decoration: none;
       font-size: 1.2em;
     }
 
-    h3.card__title.no_toc, .card__title.no_toc {
-      margin-top: .3em;
-      font-size: 1.5em;
-      color: #320a44;
-    }
-
-    .page__meta.contributors {
-      font-size: .7em;
-    }
-
-    .contributors a {
-      text-decoration: none;
-    }
-
-    ul {
-      font-size: .8em;
-      list-style-type: none;
-      margin-left: 0;
-      padding: .2em;
-    }
-
-    ul a {
-      text-decoration: none;
+    &.archive__item-title {
+      font-size: 1.1em !important;
     }
   }
 
+  h3.card__title.no_toc,
+  .card__title.no_toc {
+    margin-top: .3em;
+    font-size: 1.5em;
+    color: #320a44;
+  }
+
+  .page__meta.contributors {
+    font-size: .7em;
+  }
+
+  .contributors a {
+    text-decoration: none;
+  }
+
+  ul {
+    font-size: .8em;
+    list-style-type: none;
+    margin-left: 0;
+    padding: .2em;
+  }
+
+  ul a {
+    text-decoration: none;
+  }
+}
+
+.grid h3.card-title a {
+  margin-top: .3em;
+  font-size: 1.3em;
+  color: $pyos-darkpurple;
+  margin-top: 0;
+  margin-bottom: 0;
+  border-bottom: none;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  //padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+
+  .grid-item {
+    display: flex;
+    flex-direction: column;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+  }
 
 
+  div>div {
+    padding:0;
+  }
+}
+
+// Highlight is used for the home page highlight feature cards
+.cards.highlight {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  .cards__image {
+    max-height: 200px;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+
+  &:before {
+    background-color: #fff;
+  }
+
+  &:hover {
+    cursor: default;
+  }
+
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 15px;
+
+    h2.card-title {
+      margin:0;
+    }
+
+    .card-content {
+      flex-grow: 1;
+    }
+
+    .card-footer {
+      padding: 15px;
+      text-align: center;
+
+      a.btn {
+        margin-top: auto
+      }
+    }
+
+    /* Ensure content is spaced properly and button stays at the bottom */
+    > div {
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      justify-content: space-between; /* Distribute content vertically */
+    }
+
+    /* Style for the p containing the button */
+    p {
+      font-size: 1.2em;
+      margin-bottom: 0.5em;
+    }
+
+    /* Ensure the button is pushed to the bottom */
+    p a.btn {
+      margin-top: auto; /* This ensures the button stays at the bottom */
+      border: 1px solid yellow;
+      align-self: flex-start; /* Optional, to align the button to the left */
+    }
+  }
+}
 /* Blog & event grid styles*/
 
 .blog__grid .cards {
