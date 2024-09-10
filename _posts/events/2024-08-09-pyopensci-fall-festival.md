@@ -21,7 +21,7 @@ comments: true
 
 ## <i class="fa-regular fa-heart"></i> Announcing the pyOpenSci Fall Festival!
 
-_This post was last updated on 15 August, 2024_
+_This post was last updated on 4 September, 2024_
 
 Happening October 28--November 01, 2024, the pyOpenSci Fall Festival is an online community training and networking event designed to empower scientists with in demand open science skills. Our goals for the Fall Festival are to
 
@@ -109,14 +109,12 @@ If you purchased your ticket after October 21st you will be ineligible for a ref
 
 * **How will pyOpenSci use my registration information?**
 
-pyOpenSci will use your registration information to send you information related to the Fall Festival, as well as to send you both pre- and post-surveys related to the Fall Festival. We will also add your email to a list to be notified about any upcoming educational events from pyOpenSci. All emails about future educational events will include the ability to unsubscribe.
-
-pyOpenSci will not share, sell, or otherwise disclose your registration information with any third parties.
+pyOpenSci will use your registration information to send you information related to the Fall Festival, as well as to send you both pre- and post-surveys related to the Fall Festival.
 
 * **How can I help promote the Fall Festival?**
 
-We would love for you to share your excitement and enthusiasm with your peers, both in-person and on social media! You're welcome to use any of the images that pyOpenSci has created (or will create) related to the event, and we'd love if you could tag us in anything you share!
+We would love for you to share your excitement and enthusiasm with your peers, both in-person and on social media! You’re welcome to use any of the images that we've shared on social media related to the event, and we’d love if you could tag us in anything you share!
 
 * **Will the Fall Festival workshops be recorded?**
 
-The only recording will be of the kickoff talk, happening on Monday, October 28th, 2024. The additional talks and workshops will not be recorded, nor will they be made available after the workshop. Should workshop instructors choose to share their content online, we will be sure to share the relevant links on social media.
+The only recording will be of the kickoff talk, happening on Monday, October 28th, 2024. The additional talks and workshops will not be recorded. Should workshop instructors choose to share their content online, we will be sure to share the relevant links on social media.
