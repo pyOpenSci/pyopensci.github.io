@@ -130,7 +130,15 @@ With Great Tables you can make wonderful-looking tables in Python. Great Tables 
 
 ## Speakers and instructors
 
-_Once we've confirmed all of our speakers and instructors, we'll be updating this section with more information!_
+_We'll continue to update this section with more information as we continue to confirm our speakers and instructors!_  
+
+* [Leah Wasser](https://www.leahwasser.com/)
+* [Eric Mah](https://ericmjl.github.io/)
+* [Melissa Mendoça](https://github.com/melissawm)
+* [Carol Willing](https://www.willingconsulting.com/)
+* [Tracy Teal](https://tkteal.com/)
+* [Rich Iannone](https://github.com/rich-iannone)
+* [Jesse Mostipak](https://github.com/kierisi)
 
 ## Volunteers
 
@@ -144,7 +152,7 @@ If you are financially unable to attend pyOpenSci's Fall Festival, please reach 
 
 * **Can I register for a single day?**
 
-At this point in time we only offer tickets for the entire event. However, we may open up selected spots for individual workshops as we get closer to the event. To stay up to date on any changes to our ticketing for the pyOpenSci Fall Festival, be sure to follow us on [Fosstodon](https://fosstodon.org/@pyOpenSci) or [LinkedIn](https://linkedin.com/company/pyopensci).
+Yes! You can chose to register for entire event or you can buy tickets for 1, 2 or 3 days. To stay up to date on any changes to our ticketing for the pyOpenSci Fall Festival, be sure to follow us on [Fosstodon](https://fosstodon.org/@pyOpenSci) or [LinkedIn](https://linkedin.com/company/pyopensci).
 
 * **What if I purchased a ticket but can no longer attend?**
 
