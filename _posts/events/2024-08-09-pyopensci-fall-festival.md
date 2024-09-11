@@ -84,26 +84,26 @@ Every workshop day of the pyOpenSci Fall Festival will follow the same format:
 
 ### Tuesday, October 29th: Write modular, clean code
 
-When developing a data processing workflow, it’s tempting to start at the “top” and write each line of code needed to process your data. Or you may ask a LLM to write your code for you. However, this approach often makes maintaining code less efficient and complex. In this workshop, you will learn how to think about developing the code needed to process your data more efficiently. 
+When developing a data processing workflow, it’s tempting to start at the “top” and write each line of code needed to process your data. Or you may ask a LLM to write your code for you. However, this approach often makes maintaining code less efficient and complex. In this workshop, you will learn how to think about developing the code needed to process your data more efficiently.
 
-You will learn how to: 
+You will learn how to:
 
 1. Describe and organize the steps needed to create your workflow using pseudocode. Pseudocode is not only helpful in organizing your workflow; it is also what an AI-coding assistant tool such as ChatGPT or GitHub CoPilot requires to build a workflow for you.
-2. Create well-documented functions to perform repeated tasks. Functions allow you to make your code more modular and reduce the number of variables your code produces and stores in memory. LLMs can be helpful here, too, once you understand what you need to accomplish. 
-3. Create expressive, human-readable variable and function names to make your code easier to read and maintain. 
-4. Organize your workflow into modules, functions, and scripts that run and process your data. 
+2. Create well-documented functions to perform repeated tasks. Functions allow you to make your code more modular and reduce the number of variables your code produces and stores in memory. LLMs can be helpful here, too, once you understand what you need to accomplish.
+3. Create expressive, human-readable variable and function names to make your code easier to read and maintain.
+4. Organize your workflow into modules, functions, and scripts that run and process your data.
 
 This workshop will help you transform messy, hard-to-manage code into clean, efficient, and reusable Python workflows. Over 3-4 hours, you’ll learn the core concepts of refactoring your code so that it’s easier to understand, maintain, and share with others. We’ll start by looking at how to break down repetitive tasks into smaller, reusable functions or objects. Refactoring will make your code more organized and save you time in the long run by reducing the amount of repetitive work.
 
-Next, we’ll focus on writing code that’s functional and easy to read. Using clear, descriptive names and well-structured logic, you’ll learn to write code that others (and your future self) can easily understand and modify. We’ll also cover how to manage your code’s use of memory and compute power, ensuring that your scripts run efficiently. Once the core concepts are understood, you will use LLM’s to make your code more modular and easier to read and maintain. You will add functions needed to process your data reusable into a new Python module. 
+Next, we’ll focus on writing code that’s functional and easy to read. Using clear, descriptive names and well-structured logic, you’ll learn to write code that others (and your future self) can easily understand and modify. We’ll also cover how to manage your code’s use of memory and compute power, ensuring that your scripts run efficiently. Once the core concepts are understood, you will use LLM’s to make your code more modular and easier to read and maintain. You will add functions needed to process your data reusable into a new Python module.
 
 By the end of the workshop, you’ll have refactored your code into a well-organized module. This module will then serve as the foundation for the second workshop, where you’ll learn how to turn it into a fully-fledged Python package that you can install and reuse across different projects and in different Python environments. This step-by-step approach will equip you with the skills to create robust, maintainable Python workflows for processing, visualizing, and analyzing data.
 
 ### Wednesday, October 30th: Package your code
 
-**Summary**  
+**Summary**
 
-In the second Fall Festival workshop, you’ll learn how to turn a Python module and script into an installable package. Optionally, you’ll also learn how to make your script run through your packaging using entry points. We will provide a module and script from Workshop 1 that you can use to complete Workshop 2. 
+In the second Fall Festival workshop, you’ll learn how to turn a Python module and script into an installable package. Optionally, you’ll also learn how to make your script run through your packaging using entry points. We will provide a module and script from Workshop 1 that you can use to complete Workshop 2.
 
 Packaging your code makes sharing, reproducing, and reusing your work easier—a fundamental element of open science. Packaging your Python code ensures it can be easily reused across different environments and workflows, whether locally, in the cloud, or when collaborating with others. Packaged code simplifies your work by allowing you to reuse your code in various projects. It also enhances your ability to share your tools with the broader scientific community, making your contributions more accessible and impactful.
 
@@ -115,7 +115,7 @@ This workshop will help you make your code more accessible and reproducible. You
 
 ### Thursday, October 31st: Share your code
 
-**Summary**  
+**Summary**
 
 In Workshop 3: share your code, you will learn the essential steps to make your Python packages publicly available and easily installable. You’ll start by setting up your package on GitHub, enabling others to `pip install` it directly. You’ll also learn how to integrate Zenodo to assign a DOI to your package, allowing it to be cited in academic works, with easy updates for each new release. If there is time, the workshop will guide you through creating package releases, setting up GitHub Actions to automate the publication process to PyPI, and using Test PyPI with Hatch to ensure everything works smoothly before going live. Finally, you will learn how to publish your package to (test) PyPI and conda-forge as a stepping stone to publishing to the real PyPI. While the workshop will introduce the process of creating a Conda-Forge recipe, the actual publication to Conda-forge will be something you can explore further on your own
 
@@ -130,7 +130,7 @@ With Great Tables you can make wonderful-looking tables in Python. Great Tables 
 
 ## Speakers and instructors
 
-_We'll continue to update this section with more information as we continue to confirm our speakers and instructors!_  
+_We'll continue to update this section with more information as we continue to confirm our speakers and instructors!_
 
 * [Leah Wasser](https://www.leahwasser.com/)
 * [Eric Mah](https://ericmjl.github.io/)
