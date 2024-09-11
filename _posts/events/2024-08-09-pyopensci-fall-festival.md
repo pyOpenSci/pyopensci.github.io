@@ -101,6 +101,8 @@ By the end of the workshop, you’ll have refactored your code into a well-organ
 
 ### Wednesday, October 30th: Package your code
 
+**Summary**  
+
 In the second Fall Festival workshop, you’ll learn how to turn a Python module and script into an installable package. Optionally, you’ll also learn how to make your script run through your packaging using entry points. We will provide a module and script from Workshop 1 that you can use to complete Workshop 2. 
 
 Packaging your code makes sharing, reproducing, and reusing your work easier—a fundamental element of open science. Packaging your Python code ensures it can be easily reused across different environments and workflows, whether locally, in the cloud, or when collaborating with others. Packaged code simplifies your work by allowing you to reuse your code in various projects. It also enhances your ability to share your tools with the broader scientific community, making your contributions more accessible and impactful.
@@ -110,6 +112,21 @@ Notes: In the first workshop of the pyOpenSci Fall Festival, you learned how to 
 In this workshop, you’ll learn how to use the pyproject.toml file, a modern and straightforward way to define your package’s metadata, dependencies, and setup instructions. We’ll also introduce Hatch, a powerful tool that simplifies the packaging process, ensuring you can install your package into any Python environment with a single command. By the end of the workshop, you’ll have the skills to transform your code into a Python package ready for distribution and use by others.
 
 This workshop will help you make your code more accessible and reproducible. You’ll leave with a fully functional Python package created from your own module.  Whether you’re new to Python packaging or looking to refine your skills, this workshop will equip you with the tools and knowledge to distribute your scientific code efficiently and effectively.
+
+### Thursday, October 31st: Share your code
+
+**Summary**  
+
+In Workshop 3: share your code, you will learn the essential steps to make your Python packages publicly available and easily installable. You’ll start by setting up your package on GitHub, enabling others to `pip install` it directly. You’ll also learn how to integrate Zenodo to assign a DOI to your package, allowing it to be cited in academic works, with easy updates for each new release. If there is time, the workshop will guide you through creating package releases, setting up GitHub Actions to automate the publication process to PyPI, and using Test PyPI with Hatch to ensure everything works smoothly before going live. Finally, you will learn how to publish your package to (test) PyPI and conda-forge as a stepping stone to publishing to the real PyPI. While the workshop will introduce the process of creating a Conda-Forge recipe, the actual publication to Conda-forge will be something you can explore further on your own
+
+By the end of this workshop, you know how to share your Python packages with the broader community effectively. You’ll understand how to automate critical aspects of the release process, making it easier to maintain and update your packages over time. Overall, you’ll leave this workshop empowered to contribute your code to the open-source ecosystem in a way that is accessible, citable, and well-maintained.
+
+### Friday, November 1st: Reproducible reports and presentations with Quarto and Great Tables
+
+If you want to use data to make decisions, answer scientific questions, inform people on issues or participate in data-driven journalism, just conducting the data analysis is not enough. Effective communication requires weaving together narrative text and code to produce elegantly formatted output that people can easily read and understand. In this workshop, you’ll learn how to use Quarto for reports and presentations and Great Tables for elegantly formatted tables to convey information that's great for the readers, and easy for you to create too.
+Quarto is an open source tool based on Pandoc that allows you to create and publish reproducible, production-quality articles, presentations, dashboards, websites, blogs, and books in HTML, PDF, MS Word, ePub, and more, right from your Jupyter notebooks.
+
+With Great Tables you can make wonderful-looking tables in Python. Great Tables is an open source Python package that lets you mix and match things like a header and footer, attach a stub (which contains row labels), arrange spanner labels over top of the column labels, and much more. Not only that, but you can format the cell values in a variety of awesome ways.
 
 ## Speakers and instructors
 
