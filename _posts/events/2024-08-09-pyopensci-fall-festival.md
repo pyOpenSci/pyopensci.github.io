@@ -39,7 +39,7 @@ Interested? Read on to learn more!
 * **When:** Monday, October 28--Friday, November 01, 2024
 * **Who:** If you are a scientist, a researcher, a student or anyone who is interested in making your workflows better, more open and reproducible, then this event is for you!
 * **Cost:** $350--$625, with scholarships and learner sponsorship opportunities
-* [**pyOpenSci demo package:**](https://github.com/pyOpenSci/pyosPackage)
+* [**pyOpenSci demo package**](https://github.com/pyOpenSci/pyosPackage)
 
 ## pyOpenSci's Fall Festival registration, cost, and scholarship information
 
@@ -63,7 +63,7 @@ If you are financially unable to attend pyOpenSci's Fall Festival, you can apply
 
 Our Fall Festival is broken down into a series of events that make it easy to connect with other people, listen to inspiring talks, and learn at a comfortable pace.
 
-### Monday, October 28th
+### Monday, October 28th: Kickoff and keynotes
 
 We're excited to share two events happening on Monday, October 28th. The first will be keynote talks from not one, but two, incredible speakers. These Fall Festival keynotes talks will be free, open to the public, recorded, and later published to YouTube. Our speakers for the Fall Festival are:
 
