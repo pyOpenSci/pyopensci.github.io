@@ -21,9 +21,9 @@ comments: true
 
 ## <i class="fa-regular fa-heart"></i> Announcing the pyOpenSci Fall Festival!
 
-_This post was last updated on 15 August, 2024_
+_This post was last updated on 11 September, 2024_
 
-Happening October 28--November 01, 2024, the pyOpenSci Fall Festival is an online community training and networking event designed to empower scientists with in demand open science skills. Our goals for the Fall Festival are to
+Happening October 28--November 01, 2024, the pyOpenSci Fall Festival is an online community training and networking event designed to empower scientists with in demand open science skills. Our goals for the Fall Festival are to:
 
 * empower you with technically-relevant open science skills,
 * call attention to and celebrate new and upcoming tools that support open reproducible science
@@ -45,8 +45,7 @@ Interested? Read on to learn more!
 
 ### Registration
 
-**Register for the pyOpenSci Fall Festival:** _stay tuned! Registration will be going live soon!_
-Registration will grant you admission to all
+**Register for the pyOpenSci Fall Festival:** Our [registration](https://www.eventbrite.com/e/pyopensci-fall-festival-2024-registration-1000762657047) is live for the pyOpenSci Open Science Fall Festival! Please note that at this time the agenda items are listed in UTC-6:00. If you need clarification on start times, please email us at [media@pyopensci.org](mailto:media@pyopensci.org).
 
 ### Pricing tiers
 
@@ -58,7 +57,7 @@ In order to make the Fall Festival accessible to as many people as possible, we'
 
 ### Scholarships
 
-If you are financially unable to attend pyOpenSci's Fall Festival, please reach out to us at [media@pyopensci.org](mailto:pyopensci.org) to request a link to our scholarship application. We will be accepting applications until Monday, September 30th, and reviewing them through Friday, October 11th.
+If you are financially unable to attend pyOpenSci's Fall Festival, you can apply for a scholarship using [this form](https://www.surveymonkey.com/r/pyOSFF2024). We will be accepting applications until Monday, September 30th, and reviewing them through Friday, October 11th.
 
 ## pyOpenSci Fall Festival events
 
@@ -66,22 +65,51 @@ Our Fall Festival is broken down into a series of events that make it easy to co
 
 ### Monday, October 28th
 
-We're excited to share two events happening on Monday, October 28th. The first will be a kick-off talk from an incredible speaker. This Fall Festival kickoff talk will be free, open to the public, recorded, and later published to YouTube.
+We're excited to share two events happening on Monday, October 28th. The first will be keynote talks from not one, but two, incredible speakers. These Fall Festival keynotes talks will be free, open to the public, recorded, and later published to YouTube. Our speakers for the Fall Festival are:
 
-We'll also be holding "Day 0" office hours for all registered attendees. You can use this time to drop in to say hello, get used to using our online platform, gather and get help with any computer setup issues that you might have.
+* [Eric Mah](https://ericmjl.github.io/)
+* [Melissa Mendoça](https://github.com/melissawm)
+
+We'll also be holding "Day 0" office hours for all registered attendees. You can use this time to drop in to say hello, get used to using our online platform, [Gather](https://www.gather.town/), and get help with any computer setup issues that you might have.
 
 ### Tuesday, October 29th--Friday, November 01st
 
 Every workshop day of the pyOpenSci Fall Festival will follow the same format:
 
-* A short, opening talk that will inspire you and get you excited about that day's workshop
 * A hands-on, interactive workshop with a highly-qualified instructor and a series of dedicated support volunteers
 * A lengthy lunch break
 * Optional afternoon office hours, where registered attendeess can get further assistance with the topics covered during the morning workshop
 
 ## pyOpenSci's Fall Festival workshop agendas
 
-_Once we've confirmed all of our workshops, we'll be updating this section with more information!_
+### Tuesday, October 29th: Write modular, clean code
+
+When developing a data processing workflow, it’s tempting to start at the “top” and write each line of code needed to process your data. Or you may ask a LLM to write your code for you. However, this approach often makes maintaining code less efficient and complex. In this workshop, you will learn how to think about developing the code needed to process your data more efficiently. 
+
+You will learn how to: 
+
+1. Describe and organize the steps needed to create your workflow using pseudocode. Pseudocode is not only helpful in organizing your workflow; it is also what an AI-coding assistant tool such as ChatGPT or GitHub CoPilot requires to build a workflow for you.
+2. Create well-documented functions to perform repeated tasks. Functions allow you to make your code more modular and reduce the number of variables your code produces and stores in memory. LLMs can be helpful here, too, once you understand what you need to accomplish. 
+3. Create expressive, human-readable variable and function names to make your code easier to read and maintain. 
+4. Organize your workflow into modules, functions, and scripts that run and process your data. 
+
+This workshop will help you transform messy, hard-to-manage code into clean, efficient, and reusable Python workflows. Over 3-4 hours, you’ll learn the core concepts of refactoring your code so that it’s easier to understand, maintain, and share with others. We’ll start by looking at how to break down repetitive tasks into smaller, reusable functions or objects. Refactoring will make your code more organized and save you time in the long run by reducing the amount of repetitive work.
+
+Next, we’ll focus on writing code that’s functional and easy to read. Using clear, descriptive names and well-structured logic, you’ll learn to write code that others (and your future self) can easily understand and modify. We’ll also cover how to manage your code’s use of memory and compute power, ensuring that your scripts run efficiently. Once the core concepts are understood, you will use LLM’s to make your code more modular and easier to read and maintain. You will add functions needed to process your data reusable into a new Python module. 
+
+By the end of the workshop, you’ll have refactored your code into a well-organized module. This module will then serve as the foundation for the second workshop, where you’ll learn how to turn it into a fully-fledged Python package that you can install and reuse across different projects and in different Python environments. This step-by-step approach will equip you with the skills to create robust, maintainable Python workflows for processing, visualizing, and analyzing data.
+
+### Wednesday, October 30th: Package your code
+
+In the second Fall Festival workshop, you’ll learn how to turn a Python module and script into an installable package. Optionally, you’ll also learn how to make your script run through your packaging using entry points. We will provide a module and script from Workshop 1 that you can use to complete Workshop 2. 
+
+Packaging your code makes sharing, reproducing, and reusing your work easier—a fundamental element of open science. Packaging your Python code ensures it can be easily reused across different environments and workflows, whether locally, in the cloud, or when collaborating with others. Packaged code simplifies your work by allowing you to reuse your code in various projects. It also enhances your ability to share your tools with the broader scientific community, making your contributions more accessible and impactful.
+
+Notes: In the first workshop of the pyOpenSci Fall Festival, you learned how to turn a Python script into a maintainable command-line script that imports modular functionality from a well-written Python module. You can use the work you did in workshop 1 in this workshop.
+
+In this workshop, you’ll learn how to use the pyproject.toml file, a modern and straightforward way to define your package’s metadata, dependencies, and setup instructions. We’ll also introduce Hatch, a powerful tool that simplifies the packaging process, ensuring you can install your package into any Python environment with a single command. By the end of the workshop, you’ll have the skills to transform your code into a Python package ready for distribution and use by others.
+
+This workshop will help you make your code more accessible and reproducible. You’ll leave with a fully functional Python package created from your own module.  Whether you’re new to Python packaging or looking to refine your skills, this workshop will equip you with the tools and knowledge to distribute your scientific code efficiently and effectively.
 
 ## Speakers and instructors
 
