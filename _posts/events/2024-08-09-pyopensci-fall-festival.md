@@ -136,6 +136,7 @@ _We'll continue to update this section with more information as we continue to c
 * [Eric Mah](https://ericmjl.github.io/)
 * [Melissa Mendoça](https://github.com/melissawm)
 * [Carol Willing](https://www.willingconsulting.com/)
+* [Jeremiah Paige](https://github.com/ucodery)
 * [Tracy Teal](https://tkteal.com/)
 * [Rich Iannone](https://github.com/rich-iannone)
 * [Jesse Mostipak](https://github.com/kierisi)
