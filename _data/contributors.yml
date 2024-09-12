@@ -20,6 +20,7 @@
   website: https://www.leahwasser.com
   board: true
   contributor_type:
+    - community
     - editor
     - guidebook-contrib
     - leadership
@@ -3860,6 +3861,7 @@
   website: https://oriolabrilpla.cat
   board: false
   contributor_type:
+    - package-guide
     - peer-review
     - reviewer
   packages_editor:
@@ -7410,3 +7412,30 @@
   packages_reviewed:
   location: Gulf Breeze, FL
   email: bousquin.justin@epa.gov
+- name: Melissa Weber Mendonça
+  github_username: melissawm
+  github_image_id: 3949932
+  title:
+  sort:
+  bio: Senior DevEx Engineer at Quansight, former math professor (UFSC). Mathematical
+      optimization, numerical linear algebra, LaTeX, Python, Fortran, OSS.
+  organization: '@Quansight'
+  date_added: '2024-09-01'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://melissawm.github.io
+  board: false
+  contributor_type:
+    - package-guide
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: Florianópolis, Brazil
+  email: melissawm@gmail.com
