@@ -35,7 +35,7 @@ Interested? Read on to learn more!
 ## <i class="fa-regular fa-file-lines"></i> pyOpenSci's 2024 Fall Festival logistics:
 
 * **What:** An online community training and networking event
-* **Where:** Online using [Gather](https://www.gather.town/)
+* **Where:** Online using [Gather](https://www.gather.town/) (learn more about Gather's system requirements [here](https://support.gather.town/hc/en-us/articles/15909789090452-System-Requirements))
 * **When:** Monday, October 28--Friday, November 01, 2024
 * **Who:** If you are a scientist, a researcher, a student or anyone who is interested in making your workflows better, more open and reproducible, then this event is for you!
 * **Cost:** $350--$625, with scholarships and learner sponsorship opportunities
