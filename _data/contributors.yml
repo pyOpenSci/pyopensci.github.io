@@ -7439,3 +7439,12 @@
   packages_reviewed:
   location: Florianópolis, Brazil
   email: melissawm@gmail.com
+- name: Russ Biggs
+  github_username: russbiggs
+  editorial_board: true
+- name: Kelly L. Rowland 
+  github_username: kellyrowland
+  editorial_board: true
+- name: Silvana Ovaitt
+  github_username: shirubana
+  editorial_board: true
