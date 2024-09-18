@@ -635,6 +635,7 @@
   packages_editor:
     - astartes
     - crowsetta
+    - pooltool
     - sunpy
   packages_submitted:
   packages_reviewed:
@@ -4158,12 +4159,14 @@
   contributor_type:
     - maintainer
     - peer-review
+    - reviewer
     - submitting-author
     - web-contrib
   packages_editor:
   packages_submitted:
     - automata
   packages_reviewed:
+    - pooltool
   location: Urbana, IL
   email: erobson2@illinois.edu
 - name: Ty Schlichenmeyer
@@ -7441,10 +7444,134 @@
   email: melissawm@gmail.com
 - name: Russ Biggs
   github_username: russbiggs
+  github_image_id:
+  title:
+  sort:
+  bio:
+  organization:
+  date_added:
+  deia_advisory: false
   editorial_board: true
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location:
+  email:
 - name: Kelly L. Rowland
   github_username: kellyrowland
+  github_image_id:
+  title:
+  sort:
+  bio:
+  organization:
+  date_added:
+  deia_advisory: false
   editorial_board: true
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location:
+  email:
 - name: Silvana Ovaitt
   github_username: shirubana
+  github_image_id:
+  title:
+  sort:
+  bio:
+  organization:
+  date_added:
+  deia_advisory: false
   editorial_board: true
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location:
+  email:
+- name: Sebastiano Tronto
+  github_username: sebastianotronto
+  github_image_id: 14557809
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2024-09-17'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://sebastiano.tronto.net
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - pooltool
+  location:
+  email: sebastiano@tronto.net
+- name: Evan Kiefl
+  github_username: ekiefl
+  github_image_id: 8688665
+  title:
+  sort:
+  bio: Software Engineer / Biologist / Billiards addict. I did my PhD in Biophysical
+      Sciences at the University of Chicago.
+  organization:
+  date_added: '2024-09-17'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter: evankiefl
+  mastodon:
+  orcidid:
+  partners:
+  website: https://ekiefl.github.io
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+    - submitting-author
+  packages_editor:
+  packages_submitted:
+    - pooltool
+  packages_reviewed:
+  location:
+  email:
