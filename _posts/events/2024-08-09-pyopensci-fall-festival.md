@@ -99,7 +99,7 @@ If you are financially unable to attend pyOpenSci's Fall Festival, please reach 
 
 * **Can I register for a single day?**
 
-At this point in time we only offer tickets for the entire event. However, we may open up selected spots for individual workshops as we get closer to the event. To stay up to date on any changes to our ticketing for the pyOpenSci Fall Festival, be sure to follow us on [Fosstodon](https://fosstodon.org/@pyOpenSci) or [LinkedIn](https://linkedin.com/company/pyopensci).
+At this point in time we only offer tickets for the entire event. However, we may open up selected spots for individual workshops as we get closer to the event. To stay up to date on any changes to our ticketing for the pyOpenSci Fall Festival, be sure to follow us on [Fosstodon](https://fosstodon.org/@pyOpenSci) or [LinkedIn](http://linkedin.com/company/pyopensci).
 
 * **What if I purchased a ticket but can no longer attend?**
 
