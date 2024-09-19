@@ -383,6 +383,16 @@
         "code",
         "review"
       ]
+    },
+    {
+      "login": "jonkiparsky",
+      "name": "Jon Kiparsky",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5283553?v=4",
+      "profile": "https://github.com/jonkiparsky",
+      "contributions": [
+        "bug",
+        "ideas"
+      ]
     }
   ],
   "commitConvention": "angular",

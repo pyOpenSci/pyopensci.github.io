@@ -1,6 +1,6 @@
 # pyopensci.github.io
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-34-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-35-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 [![pages-build-deployment](https://github.com/pyOpenSci/pyopensci.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/pyOpenSci/pyopensci.github.io/actions/workflows/pages/pages-build-deployment)
 [![DOI](https://zenodo.org/badge/174412809.svg)](https://zenodo.org/doi/10.5281/zenodo.10594115)
@@ -95,6 +95,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="http://g4brielvs.me"><img src="https://avatars.githubusercontent.com/u/4053416?v=4?s=100" width="100px;" alt="Gabriel Stefanini Vicente"/><br /><sub><b>Gabriel Stefanini Vicente</b></sub></a><br /><a href="https://github.com/pyOpenSci/pyopensci.github.io/commits?author=g4brielvs" title="Code">💻</a> <a href="https://github.com/pyOpenSci/pyopensci.github.io/pulls?q=is%3Apr+reviewed-by%3Ag4brielvs" title="Reviewed Pull Requests">👀</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/SeanAverS"><img src="https://avatars.githubusercontent.com/u/110581427?v=4?s=100" width="100px;" alt="SeanAverS"/><br /><sub><b>SeanAverS</b></sub></a><br /><a href="https://github.com/pyOpenSci/pyopensci.github.io/commits?author=SeanAverS" title="Code">💻</a> <a href="https://github.com/pyOpenSci/pyopensci.github.io/pulls?q=is%3Apr+reviewed-by%3ASeanAverS" title="Reviewed Pull Requests">👀</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/ayhanxian"><img src="https://avatars.githubusercontent.com/u/20816603?v=4?s=100" width="100px;" alt="Han"/><br /><sub><b>Han</b></sub></a><br /><a href="https://github.com/pyOpenSci/pyopensci.github.io/commits?author=ayhanxian" title="Code">💻</a> <a href="https://github.com/pyOpenSci/pyopensci.github.io/pulls?q=is%3Apr+reviewed-by%3Aayhanxian" title="Reviewed Pull Requests">👀</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/jonkiparsky"><img src="https://avatars.githubusercontent.com/u/5283553?v=4?s=100" width="100px;" alt="Jon Kiparsky"/><br /><sub><b>Jon Kiparsky</b></sub></a><br /><a href="https://github.com/pyOpenSci/pyopensci.github.io/issues?q=author%3Ajonkiparsky" title="Bug reports">🐛</a> <a href="#ideas-jonkiparsky" title="Ideas, Planning, & Feedback">🤔</a></td>
     </tr>
   </tbody>
 </table>
