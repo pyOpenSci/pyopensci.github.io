@@ -21,7 +21,7 @@ comments: true
 
 ## <i class="fa-regular fa-heart"></i> Announcing the pyOpenSci Fall Festival!
 
-_This post was last updated on 11 September, 2024_
+_This post was last updated on 23 September, 2024_
 
 Happening October 28--November 01, 2024, the pyOpenSci Fall Festival is an online community training and networking event designed to empower scientists with in demand open science skills. Our goals for the Fall Festival are to:
 
@@ -69,8 +69,31 @@ We're excited to share two events happening on Monday, October 28th. The first w
 
 * [Eric Mah](https://ericmjl.github.io/)
 * [Melissa Mendoça](https://github.com/melissawm)
+* [Rowan Cockett](https://curvenote.com/mission)
 
-We'll also be holding "Day 0" office hours for all registered attendees. You can use this time to drop in to say hello, get used to using our online platform, [Gather](https://www.gather.town/), and get help with any computer setup issues that you might have.
+We'll also be holding "Day 0" office hours for all registered attendees. You can use this time to drop in to say hello, get used to using our online platform, [Gather](https://www.gather.town/), and get help with any computer setup issues that you might have.  
+
+#### Keynote speaker bios 
+
+**[Eric Mah](https://ericmjl.github.io/)**  
+As Senior Principal Data Scientist at [Moderna](https://www.modernatx.com/en-US) Eric leads the Data Science and Artificial Intelligence (Research) team to accelerate science to the speed of thought. Prior to Moderna, he was at the [Novartis Institutes for Biomedical Research](https://www.novartis.com/research-and-development) conducting biomedical data science research with a focus on using Bayesian statistical methods in the service of discovering medicines for patients. Prior to Novartis, he was an [Insight Health Data Fellow](https://insightfellows.com/health-data) in the summer of 2017 and defended his doctoral [thesis](https://ericmjl.github.io/thesis/) in the [Department of Biological Engineering](https://be.mit.edu/) at [MIT](https://web.mit.edu/) in the spring of 2017.  
+
+Eric is also an open-source software developer and has led the development of [pyjanitor](https://github.com/pyjanitor-devs/pyjanitor), a clean API for cleaning data in Python, and [nxviz](https://github.com/ericmjl/nxviz), a visualization package for NetworkX. He is also on the core developer team of NetworkX and PyMC. In addition, he gives back to the community through [code contributions](https://deploy-preview-108--ericmjl-github-io.netlify.app/open-source/), [blogging](https://deploy-preview-108--ericmjl-github-io.netlify.app/blog/), [teaching](https://deploy-preview-108--ericmjl-github-io.netlify.app/teaching/), and [writing](https://deploy-preview-108--ericmjl-github-io.netlify.app/books/).  
+
+His personal life motto is found in the Gospel of Luke 12:48.   
+
+**[Melissa Mendoça](https://github.com/melissawm)**   
+I am a Senior DevEx Engineer at Quansight, working on NumPy, SciPy and other open source projects. I care deeply about teaching, mentoring, and have been involved in the Python community for some time. You can find most of my talk slides here on github or in [my website](https://melissawm.github.io/); feel free to use those according to the licenses stated in each repo/presentation.
+
+💬 Ask me about [NumPy](https://numpy.org/), [SciPy](https://scipy.org/), [napari](https://napari.org/stable/), Fortran, LaTeX, mathematical optimization, numerical linear algebra, [Contributor Experience](https://contributor-experience.org/).  
+
+**[Rowan Cockett](https://curvenote.com/mission)**   
+
+Rowan is the CEO and founder of [Curvenote](https://curvenote.com), where we build tools to free science from static PDF documents such that the scientific community can share more interactive, reproducible, and richly-linked scientific content. Curvenote provides an all-in-one publishing platform for researchers, societies and institutes, with a focus on computational research.
+
+Rowan is also on the steering-council for JupyterBook and MyST Markdown, which is part of Project Jupyter and provides widely used open-source tools for authoring and sharing scientific content. Rowan has a Ph.D. in computational geophysics from the University of British Columbia (UBC). While at UBC, Rowan helped start [SimPEG](https://simpeg.xyz), a large-scale simulation and parameter estimation package for geophysical processes (electromagnetics, fluid-flow, gravity, etc.), which is used in industry, national labs, and universities globally.
+
+Rowan has won multiple awards for innovative dissemination of research and open-educational resources, including a geoscience modeling application, Visible Geology, that has been used by more than a million geoscience students to interactively explore conceptual geologic models. In his previous role as the VP of Cloud Architecture at Seequent, Rowan ran a large software team working on computational software platforms, visualization tools, and version control systems for geoscientists.
 
 ### Tuesday, October 29th--Friday, November 01st
 
@@ -123,6 +146,15 @@ By the end of this workshop, you know how to share your Python packages with the
 
 ### Friday, November 1st: Reproducible reports and presentations with Quarto and Great Tables
 
+#### Morning talks  
+
+We'll be opening this session with two incredible talks on Quarto from James Balamuta and George Stagg!
+
+**[James Balamuta](https://github.com/coatless)**
+**[George Stagg](https://gws.phd/)**
+
+#### Workshop  
+
 If you want to use data to make decisions, answer scientific questions, inform people on issues or participate in data-driven journalism, just conducting the data analysis is not enough. Effective communication requires weaving together narrative text and code to produce elegantly formatted output that people can easily read and understand. In this workshop, you’ll learn how to use Quarto for reports and presentations and Great Tables for elegantly formatted tables to convey information that's great for the readers, and easy for you to create too.
 Quarto is an open source tool based on Pandoc that allows you to create and publish reproducible, production-quality articles, presentations, dashboards, websites, blogs, and books in HTML, PDF, MS Word, ePub, and more, right from your Jupyter notebooks.
 
@@ -135,8 +167,11 @@ _We'll continue to update this section with more information as we continue to c
 * [Leah Wasser](https://www.leahwasser.com/)
 * [Eric Mah](https://ericmjl.github.io/)
 * [Melissa Mendoça](https://github.com/melissawm)
+* [Rowan Cockett]()
 * [Carol Willing](https://www.willingconsulting.com/)
 * [Jeremiah Paige](https://github.com/ucodery)
+* [James Balamuta](https://github.com/coatless) 
+* [George Stagg](https://gws.phd/)
 * [Tracy Teal](https://tkteal.com/)
 * [Rich Iannone](https://github.com/rich-iannone)
 * [Jesse Mostipak](https://github.com/kierisi)
