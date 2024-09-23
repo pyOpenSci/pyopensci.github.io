@@ -148,10 +148,7 @@ By the end of this workshop, you know how to share your Python packages with the
 
 #### Morning talks  
 
-We'll be opening this session with two incredible talks on Quarto from James Balamuta and George Stagg!
-
-**[James Balamuta](https://github.com/coatless)**
-**[George Stagg](https://gws.phd/)**
+We'll be opening this session with two incredible talks on Quarto from [James Balamuta](https://github.com/coatless) and [George Stagg](https://gws.phd/)!  
 
 #### Workshop  
 
@@ -167,7 +164,7 @@ _We'll continue to update this section with more information as we continue to c
 * [Leah Wasser](https://www.leahwasser.com/)
 * [Eric Mah](https://ericmjl.github.io/)
 * [Melissa Mendoça](https://github.com/melissawm)
-* [Rowan Cockett]()
+* [Rowan Cockett](https://curvenote.com/blog/myst-markdown-pyopensci-2024)
 * [Carol Willing](https://www.willingconsulting.com/)
 * [Jeremiah Paige](https://github.com/ucodery)
 * [James Balamuta](https://github.com/coatless) 
@@ -182,28 +179,28 @@ Interested in volunteering? While we can't guarantee availability of volunteer s
 
 ## FAQ
 
-* **How do I apply for a scholarship?**
+**How do I apply for a scholarship?**
 
 If you are financially unable to attend pyOpenSci's Fall Festival, please reach out to us at [media@pyopensci.org](mailto:pyopensci.org) to request a link to our scholarship application. We will be accepting applications until Monday, September 30th, and reviewing them through Friday, October 11th.
 
-* **Can I register for a single day?**
+**Can I register for a single day?**
 
 Yes! You can chose to register for entire event or you can buy tickets for 1, 2 or 3 days. To stay up to date on any changes to our ticketing for the pyOpenSci Fall Festival, be sure to follow us on [Fosstodon](https://fosstodon.org/@pyOpenSci) or [LinkedIn](https://linkedin.com/company/pyopensci).
 
-* **What if I purchased a ticket but can no longer attend?**
+**What if I purchased a ticket but can no longer attend?**
 
 All refunds are processed through Eventbrite, and will be accepted until October 21st, 2024. You will receive a refund for your ticket price less any service fees.
 
 If you purchased your ticket after October 21st you will be ineligible for a refund, however you may donate it to another learner. To do so, please email [media@pyopensci.org](mailto:media@pyopensci.org).
 
-* **How will pyOpenSci use my registration information?**
+**How will pyOpenSci use my registration information?**
 
 pyOpenSci will use your registration information to send you information related to the Fall Festival, as well as to send you both pre- and post-surveys related to the Fall Festival.
 
-* **How can I help promote the Fall Festival?**
+**How can I help promote the Fall Festival?**
 
 We would love for you to share your excitement and enthusiasm with your peers, both in-person and on social media! You’re welcome to use any of the images that we've shared on social media related to the event, and we’d love if you could tag us in anything you share!
 
-* **Will the Fall Festival workshops be recorded?**
+**Will the Fall Festival workshops be recorded?**
 
 The only recording will be of the kickoff talk, happening on Monday, October 28th, 2024. The additional talks and workshops will not be recorded. Should workshop instructors choose to share their content online, we will be sure to share the relevant links on social media.
