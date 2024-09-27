@@ -41,7 +41,6 @@ Interested? Read on to learn more!
 * **Who:** If you are a scientist, a researcher, a student, or anyone interested in writing better, cleaner code that can be installed into different environments and shared, then this event is for you!
 * **Cost - Day 1 Keynote talks:** free.
 * **Cost- workshops:** $350--$625, with scholarships available
-* [**pyOpenSci demo package**](https://github.com/pyOpenSci/pyosPackage)
 
 ## pyOpenSci's Fall Festival registration, cost, and scholarship information
 
@@ -68,9 +67,9 @@ You can register for a single-day workshop or the full event. Workshop registrat
 | Registration Type  | Cost |
 |----------|----------|
 | Day One Keynote Talks - October 28 2024 | Free | |
-| Full Workshop: Student | $350 | |
-| Full Workshop: Standard | $475 | |
-| Full Workshop: Corporate | $625 | |
+| Full 4-day Workshop: Student | $350 | |
+| Full 4-day Workshop: Standard | $475 | |
+| Full 4-day Workshop: Corporate | $625 | |
 |  |  | |
 | Single Day Workshop: Student | $100 | |
 | Single Day Workshop: Standard | $150 | |
@@ -194,7 +193,7 @@ With Great Tables you can make wonderful-looking tables in Python. Great Tables 
 
 ## Speakers and instructors
 
-_We'll continue to update this section with more information as we confirm speakers and instructors for the event!_
+*We'll continue to update this section with more information as we confirm speakers and instructors for the event!*
 
 * [Leah Wasser](https://www.leahwasser.com/)
 * [Eric Mah](https://ericmjl.github.io/)
