@@ -94,7 +94,7 @@ These Fall Festival keynote talks are free for anyone to attend. They will be re
 
 Our speakers for the Fall Festival are:
 
-* [Eric Mah](https://ericmjl.github.io/)
+* [Eric Ma](https://ericmjl.github.io/)
 * [Melissa Mendoça](https://github.com/melissawm)
 * [Rowan Cockett](https://curvenote.com/mission)
 
@@ -104,7 +104,7 @@ We want to set you up for learning success!
 
 #### Keynote speaker bios
 
-**[Eric Mah](https://ericmjl.github.io/)**
+**[Eric Ma](https://ericmjl.github.io/)**
 As Senior Principal Data Scientist at [Moderna](https://www.modernatx.com/en-US) Eric leads the Data Science and Artificial Intelligence (Research) team to accelerate science to the speed of thought. Prior to Moderna, he was at the [Novartis Institutes for Biomedical Research](https://www.novartis.com/research-and-development) conducting biomedical data science research with a focus on using Bayesian statistical methods in the service of discovering medicines for patients. Prior to Novartis, he was an [Insight Health Data Fellow](https://insightfellows.com/health-data) in the summer of 2017 and defended his doctoral [thesis](https://ericmjl.github.io/thesis/) in the [Department of Biological Engineering](https://be.mit.edu/) at [MIT](https://web.mit.edu/) in the spring of 2017.
 
 Eric is also an open-source software developer and has led the development of [pyjanitor](https://github.com/pyjanitor-devs/pyjanitor), a clean API for cleaning data in Python, and [nxviz](https://github.com/ericmjl/nxviz), a visualization package for NetworkX. He is also on the core developer team of NetworkX and PyMC. In addition, he gives back to the community through [code contributions](https://deploy-preview-108--ericmjl-github-io.netlify.app/open-source/), [blogging](https://deploy-preview-108--ericmjl-github-io.netlify.app/blog/), [teaching](https://deploy-preview-108--ericmjl-github-io.netlify.app/teaching/), and [writing](https://deploy-preview-108--ericmjl-github-io.netlify.app/books/).
@@ -196,7 +196,7 @@ With Great Tables you can make wonderful-looking tables in Python. Great Tables 
 *We'll continue to update this section with more information as we confirm speakers and instructors for the event!*
 
 * [Leah Wasser](https://www.leahwasser.com/)
-* [Eric Mah](https://ericmjl.github.io/)
+* [Eric Ma](https://ericmjl.github.io/)
 * [Melissa Mendoça](https://github.com/melissawm)
 * [Rowan Cockett](https://curvenote.com/blog/myst-markdown-pyopensci-2024)
 * [Carol Willing](https://www.willingconsulting.com/)
