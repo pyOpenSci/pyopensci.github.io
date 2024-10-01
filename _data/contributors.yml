@@ -6505,6 +6505,7 @@
   website: https://flpm.dev
   board: false
   contributor_type:
+    - community
     - package-guide
     - web-contrib
   packages_editor:
@@ -7526,7 +7527,7 @@
   organization:
   date_added: '2024-09-17'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -7555,7 +7556,7 @@
   organization:
   date_added: '2024-09-17'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -7575,3 +7576,29 @@
   packages_reviewed:
   location:
   email:
+- name: Jon Kiparsky
+  github_username: jonkiparsky
+  github_image_id: 5283553
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2024-10-01'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - web-contrib
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location:
+  email: jon.kiparsky@gmail.com
