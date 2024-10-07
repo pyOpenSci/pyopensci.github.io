@@ -78,7 +78,7 @@ You can register for a single-day workshop or the full event. Workshop registrat
 
 ### Scholarships
 
-If you are financially unable to attend pyOpenSci's Fall Festival, you can apply for a scholarship using [this form](https://www.surveymonkey.com/r/pyOSFF2024).
+If you are financially unable to attend pyOpenSci's Fall Festival, you can apply for a scholarship using [this form](https://www.surveymonkey.com/r/pyOSFF2024). We will be accepting scholarship applications through October 24th, but review will begin on October 15, with priority given to early applications.
 
 [Click to apply for a scholarship.](https://www.surveymonkey.com/r/pyOSFF2024){: .btn .btn--success }
 
@@ -215,7 +215,7 @@ Are you interested in volunteering? Please contact [media@pyopensci.org](mailto:
 
 **How do I apply for a scholarship?**
 
-If you are financially unable to attend pyOpenSci's Fall Festival, please reach out to us at [media@pyopensci.org](mailto:pyopensci.org) to request a link to our scholarship application. We will accept scholarship applications until Monday, October 7 2024. We will begin reviewing applications on Friday, October 11, 2024.
+If you are financially unable to attend pyOpenSci's Fall Festival, you can apply for a scholarship using [this form](https://www.surveymonkey.com/r/pyOSFF2024). We will be accepting scholarship applications through October 24th, but review will begin on October 15, with priority given to early applications.
 
 **Can I register for a single day?**
 
