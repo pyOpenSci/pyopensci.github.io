@@ -18,7 +18,7 @@ last_modified: 2024-10-10
 
 # pyOpenSci Celebrates Inessa
 
-Today, I want to take a moment to celebrate a devoted pyOpenSci community member, colleague, and friend, Inessa, who was just awarded the NumFOCUS Community Leadership award. In my opinion, no one is more deserving of recognition for their contributions and dedication to the open source community. Inessa's day job is devoted to open source, where she serves as the Open Source Program Manager at [Open Teams](https://otincubator.com/team.html). But her open source work extends far beyond her professional role!
+Today, I want to take a moment to celebrate a devoted pyOpenSci community member, colleague, and friend, [Inessa](https://github.com/InessaPawson/InessaPawson), who was just awarded the NumFOCUS Community Leadership award. In my opinion, no one is more deserving of recognition for their contributions and dedication to the open source community. Inessa's day job is devoted to open source, where she serves as the Open Source Program Manager at [Open Teams](https://otincubator.com/team.html). But her open source work extends far beyond her professional role!
 
 <figure>
     <a href="/images/people/Inessa-NumFocus-award-fall-2024.png">
