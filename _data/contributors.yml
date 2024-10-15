@@ -63,6 +63,7 @@
   board: true
   contributor_type:
     - leadership
+    - web-contrib
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -3707,6 +3708,7 @@
     - peer-review-guide
   packages_editor:
     - martini
+    - stingray
   packages_submitted:
   packages_reviewed:
   location: Cambridge, MA, USA
@@ -7585,7 +7587,7 @@
   organization:
   date_added: '2024-10-01'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -7602,3 +7604,90 @@
   packages_reviewed:
   location:
   email: jon.kiparsky@gmail.com
+- name: TBD
+  github_username: TBD
+  github_image_id: 7951
+  title:
+  sort:
+  bio: New apps/language tester, SketchUp Podium 1.x developer, Internet of Things
+      tinker
+  organization:
+  date_added: '2024-10-15'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - stingray
+  location: Timisoara, Romania
+  email: tbd_fr@yahoo.fr
+- name: Matteo Bachetti
+  github_username: matteobachetti
+  github_image_id: 7190189
+  title:
+  sort:
+  bio: Astrophysicist at INAF, time series cruncher@StingraySoftware @NuSTAR @astropy
+      @discos
+  organization: INAF/Osservatorio Astronomico di Cagliari
+  date_added: '2024-10-15'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+    - submitting-author
+  packages_editor:
+  packages_submitted:
+    - stingray
+  packages_reviewed:
+  location: Selargius (CA), Italy
+  email:
+- name: Daniela Huppenkothen
+  github_username: dhuppenkothen
+  github_image_id: 5237391
+  title:
+  sort:
+  bio:
+  organization: SRON Netherlands Institute for Space Research
+  date_added: '2024-10-15'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_editor:
+  packages_submitted:
+    - stingray
+  packages_reviewed:
+  location: Utrecht, Netherlands
+  email:
