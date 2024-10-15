@@ -168,7 +168,11 @@ We're excited for this event! I'm excited to continue to test out these differen
 
 You can learn more about the [Open Science Fall Festival, here](https://www.pyopensci.org/events/pyopensci-2024-fall-festival.html). Please reach out if you have any questions.
 
-I look forward to seeing you there!
+We look forward to seeing you there!
+
+~ Leah with support from the [pyOpenSci Executive Council - Tracy Teal & Karen Cranston](/our-community/index.html#executive-council-leadership--staff)
+
+
 
 <div class="notice" markdown="1">
 ## Get involved with pyOpenSci
