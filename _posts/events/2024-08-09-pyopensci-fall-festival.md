@@ -36,7 +36,7 @@ Interested? Read on to learn more!
 ## <i class="fa-regular fa-file-lines"></i> pyOpenSci's 2024 Fall Festival logistics:
 
 * **What:** An online community training and networking event
-* **Where:** Online using [Gather](https://www.gather.town/) (learn more about Gather's system requirements [here](https://support.gather.town/hc/en-us/articles/15909789090452-System-Requirements))
+* **Where:** Online using [SpatialChat]([https://www.gather.town/](https://www.spatial.chat/)) (learn more about SpatialChats's system requirements [here](https://guide.spatialinc.com/hc/en-us/articles/1500004491422-Minimum-System-Requirements)
 * **When:** Monday, October 28--Friday, November 01, 2024
 * **Who:** If you are a scientist, a researcher, a student, or anyone interested in writing better, cleaner code that can be installed into different environments and shared, then this event is for you!
 * **Cost - Day 1 Keynote talks:** free.
@@ -60,7 +60,24 @@ We've created several pricing tiers to make the Fall Festival accessible to as m
 
 Keynote talks are free for anyone to attend. Register now before we fill up!
 
+| Time | Speaker | Topic |
+|----------|----------|----------|
+| 8:30am - 9:00 AM UTC-6 | Leah Wasser | Welcome to the Fall Festival - pyOpenSci, open source and open science |
+| 9:00am - 10:00 AM UTC-6 | Eric Mah | Open Science, biomedical work and LLMs |
+| 10:00am - 11:00 AM UTC-6 | Melissa Mendoça  | The value of open source for open science |
+| 11:00am - 12:00 AM UTC-6 | Rowan Crocket  | Catalyzing how scientists publish using MystMarkdown  |
+
+
 #### Days 2-4 - 29 October - November 1, 2024: Technical Workshops
+
+The general schedule for each days' event is below:
+
+| Time | Event |  
+|----------|----------|----------|
+| 8:45am - 1:00 PM UTC-6 | Online Training |
+| 2:00pm - 4:00 PM UTC-6 | Online Office Hours |
+
+Friday's event will begin at 8:30 to support 2 speakers. 
 
 You can register for a single-day workshop or the full event. Workshop registration includes office hours each day for more one-on-one help in the afternoon.
 
@@ -205,11 +222,10 @@ With Great Tables you can make wonderful-looking tables in Python. Great Tables 
 * [George Stagg](https://gws.phd/)
 * [Tracy Teal](https://tkteal.com/)
 * [Rich Iannone](https://github.com/rich-iannone)
-* [Jesse Mostipak](https://github.com/kierisi)
 
 ## Volunteers
 
-Are you interested in volunteering? Please contact [media@pyopensci.org](mailto:media@pyopensci.org) to stay up to date about any event needs!
+Are you interested in volunteering? Please contact [fallfestival@pyopensci.org](mailto:fallfestival@pyopensci.org) to stay up to date about any event needs!
 
 ## FAQ
 
@@ -225,7 +241,7 @@ Yes! You can register for the entire event or buy tickets for one, two, or three
 
 All refunds are processed through Eventbrite, and will be accepted until October 21, 2024. You will receive a refund for the price of your ticket minus any service fees.
 
-If you purchased your ticket after October 21, 2024 you will be ineligible for a refund, however you may donate it to another learner. To do so, please email [media@pyopensci.org](mailto:media@pyopensci.org).
+If you purchased your ticket after October 21, 2024 you will be ineligible for a refund, however you may donate it to another learner. To do so, please email [fallfestival@pyopensci.org](mailto:fallfestival@pyopensci.org).
 
 **How will pyOpenSci use my registration information?**
 
