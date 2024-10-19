@@ -6,7 +6,6 @@ author:
 event:
   start_date: "2024-10-28"
   end_date: "2024-11-01"
-  cost: Coming Soon
   location: Online using [Gather](https://www.gather.town/)
 permalink: /events/pyopensci-2024-fall-festival.html
 header:
@@ -65,7 +64,7 @@ Keynote talks are free for anyone to attend. Register now before we fill up!
 | 8:30am - 9:00 AM UTC-6 | Leah Wasser | Welcome to the Fall Festival - pyOpenSci, open source and open science |
 | 9:00am - 10:00 AM UTC-6 | Eric Mah | Open Science, biomedical work and LLMs |
 | 10:00am - 11:00 AM UTC-6 | Melissa Mendoça  | The value of open source for open science |
-| 11:00am - 12:00 AM UTC-6 | Rowan Crocket  | Catalyzing how scientists publish using MystMarkdown  |
+| 11:00am - 12:00 PM UTC-6 | Rowan Crocket  | Catalyzing how scientists publish using MystMarkdown  |
 
 
 #### Days 2-4 - 29 October - November 1, 2024: Technical Workshops
