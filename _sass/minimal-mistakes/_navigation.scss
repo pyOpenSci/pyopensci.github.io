@@ -268,9 +268,12 @@
     border: 1px solid $border-color;
     border-radius: $border-radius;
     background: $background-color;
-    -webkit-box-shadow: 0 2px 4px 0 rgba(#000, 0.16),
+    -webkit-box-shadow:
+      0 2px 4px 0 rgba(#000, 0.16),
       0 2px 10px 0 rgba(#000, 0.12);
-    box-shadow: 0 2px 4px 0 rgba(#000, 0.16), 0 2px 10px 0 rgba(#000, 0.12);
+    box-shadow:
+      0 2px 4px 0 rgba(#000, 0.16),
+      0 2px 10px 0 rgba(#000, 0.12);
 
     &.hidden {
       display: none;
@@ -511,6 +514,7 @@
   border-radius: $border-radius;
   -webkit-box-shadow: $box-shadow;
   box-shadow: $box-shadow;
+  max-width: $medium;
 
   .nav__title {
     color: #fff;
@@ -524,17 +528,24 @@
   .active a {
     @include yiq-contrasted($active-color);
   }
+
+  @include breakpoint($large) {
+    max-width: $medium;
+    font-size: $type-size-4;
+  }
 }
 
+
+// Force the sub menu in a toctree to be the same size as the main menu
 .toc__menu {
   margin: 0;
   padding: 0;
   width: 100%;
   list-style: none;
-  font-size: $type-size-6;
+  font-size: $type-size-5;
 
   @include breakpoint($large) {
-    font-size: $type-size-7;
+    font-size: $type-size-6;
   }
 
   a {
@@ -568,6 +579,6 @@
   }
 
   li ul li ul li ul li ul li ul > li a {
-    padding-left: 3.25rem
+    padding-left: 3.25rem;
   }
 }

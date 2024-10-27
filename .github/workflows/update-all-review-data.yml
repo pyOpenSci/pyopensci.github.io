@@ -30,7 +30,7 @@ jobs:
         with:
           extra_args: --files _data/packages.yml _data/contributors.yml
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v6
+        uses: peter-evans/create-pull-request@v7
         with:
           add-paths: |
             _data/contributors.yml

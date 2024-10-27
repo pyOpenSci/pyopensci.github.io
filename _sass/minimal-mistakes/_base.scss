@@ -13,8 +13,9 @@ body {
   padding: 0;
   color: $text-color;
   font-family: $global-font-family;
-  line-height: 1.5;
+  line-height: 1.6;
   weight: $weight-3;
+  font-size: 1em;
 
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */
@@ -28,35 +29,38 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 2em 0 0.5em;
+  margin: 3.5rem 0 1rem 0;
   line-height: 1.2;
-  font-family: $header-font-family;
-  font-weight: bold;
-  color: #542668
+  color: #542668;
 }
 
 h1 {
   margin-top: 0;
   font-size: $h-size-1;
-  font-weight: 200!important;
+  font-weight: 200 !important;
+  font-family: $header-font-family;
 }
 
 h2 {
   font-size: $h-size-2;
+  font-family: $header-font-family;
 }
 
 h3 {
   font-size: $h-size-3;
   //font-family: $sans-serif;
-  font-weight: $weight-4
+  font-weight: $weight-4;
+  line-height: 1.1em;
 }
 
 h4 {
   font-size: $h-size-4;
+  font-weight: $semibold-weight;
 }
 
 h5 {
   font-size: $h-size-5;
+  font-weight: $semibold-weight;
 }
 
 h6 {
@@ -128,9 +132,91 @@ blockquote {
   }
 }
 
+%quote-style {
+  font-weight: bold;
+  font-size: 100px;
+  color: $pyos-teal;
+  line-height: 0;
+}
+
+/* Block quote with bigger quotes*/
+blockquote.highlight-quote {
+  border: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 6rem;
+  margin-bottom: 4rem;
+  padding: 0 2rem;
+  max-width: $medium;
+
+  footer {
+    font-style: italic;
+    font-weight: 500;
+    text-align: right;
+  }
+
+  &:after{
+    @extend %quote-style;
+    position: absolute;
+    content: close-quote;
+    right: 4rem;
+    margin-top:2rem;
+  }
+  & > div.end {
+    position: relative;
+  }
+
+  & > div.end:after {
+    @extend %quote-style;
+    content: close-quote;
+    position: absolute;
+    right: 0;
+    margin-top:2.8rem;
+  }
+
+  p {
+    font-size: 1.3rem;
+    position: relative;
+    margin-bottom: 0.63rem;
+
+    &:before {
+      @extend %quote-style;
+      position: absolute;
+      content: open-quote;
+      left: 0;
+      top: -20px;
+    }
+  }
+
+  &.magenta {
+    & > div.end:after,
+    p:before,
+    p:after {
+      color: $pyos-magenta;
+    }
+  }
+
+  &.purple {
+    & > div.end:after,
+    p:before,
+    p:after {
+      color: $pyos-mediumpurple;
+    }
+  }
+
+  @include breakpoint('max-width: #$mobile') {
+    padding: 0;
+    //font-size: 2rem;
+  }
+}
+
 /* links */
 
 a {
+  text-underline-offset: .1em;
+  text-decoration-color: rgba($text-color, 0.7);
+  text-decoration: underline;
+
+
   &:focus {
     @extend %tab-focus;
   }
@@ -142,6 +228,9 @@ a {
   &:hover {
     color: $link-color-hover;
     outline: 0;
+    text-decoration: none !important;
+    text-decoration-line: none !important;
+    transition: color 0.3s ease, text-decoration-color 0.3s ease;
   }
 }
 
@@ -178,21 +267,21 @@ hr {
 
 /* lists */
 
-ul, ol {
+ul,
+ol {
   margin-bottom: 1.9em;
   font-weight: $weight-3;
 }
 ul li,
 ol li {
   margin-bottom: 0.5em;
-  font-size: .95em;
+  font-size: $type-size-5;
   list-style: 1.4em;
 }
 
 li ul,
 li ol {
   margin-top: 0.5em;
-
 }
 
 /*

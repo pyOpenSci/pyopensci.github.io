@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "pyOpenSci Community News: August 2024"
-excerpt: "Welcome to the first edition of pyOpenSci's Community News newsletter, where we summarize and share conversations, contributions, and news related to our diverse and vibrant community! Read on for insights into running pyOpenSci sprints, Python packaging guide Spanish translation efforts, and using Hatch to create and maintain Pythons."
+excerpt: "Welcome to the first edition of pyOpenSci's Community News newsletter, where we summarize and share conversations, contributions, and news related to our diverse and vibrant community! Read on for insights into running pyOpenSci sprints, Python packaging guide Spanish translation efforts, and using Hatch to create and maintain Python."
 author: "Jesse Mostipak"
 permalink: /blog/pyos-community-news-aug-2024.html
 header:
@@ -13,6 +13,7 @@ categories:
 classes: wide
 toc: true
 comments: true
+last_modified: 2024-08-15
 ---
 
 
@@ -47,7 +48,7 @@ It’s important to us to elevate this conversation, because all of our material
 
 ## <i class="fa-solid fa-earth-americas"></i> Coming soon: a Spanish translation of the pyOpenSci Python Package Guide
 
-This past May, during our [PyCon US sprints](https://www.pyopensci.org/blog/pyopensci-pyconus-2024-sprints.html), pyOpenSci community member [Felipe Moreno](https://github.com/flpm) submitted [an issue to our Python Package Guide GitHub repository](https://github.com/pyOpenSci/python-package-guide/issues/287), asking if we had considered translating the guide to Spanish. Felipe is an experienced security engineering manager with a strong background in Python software development, data science and user-centered design, who leads the Security Data Science team at [Bloomberg LP](https://www.bloomberg.com/company/). Felipe has worked with other projects, setting up infrastructure support through [Sphinx](https://www.sphinx-doc.org/en/master/) for this kind of work. We were, of course, immediately thrilled with the idea, and took Felipe up on the offer! From there, Felipe built a PR that created a [translation guide for contributors](https://github.com/pyOpenSci/python-package-guide/pull/304), along with another PR that [provides internationalization support](https://github.com/pyOpenSci/python-package-guide/pull/298).
+This past May, during our [PyCon US sprints](https://www.pyopensci.org/blog/pyopensci-pyconus-2024-sprints.html), pyOpenSci community member [Felipe Moreno](https://github.com/flpm) submitted [an issue to our Python Package Guide GitHub repository](https://github.com/pyOpenSci/python-package-guide/issues/287), asking if we had considered translating the guide to Spanish. Felipe is an experienced security engineering manager with a strong background in Python software development, data science and user-centered design, who leads the Security Data Science team in the CISO Office at [Bloomberg](https://www.bloomberg.com/company/). Felipe has worked with other projects, setting up infrastructure support through [Sphinx](https://www.sphinx-doc.org/en/master/) for this kind of work. We were, of course, immediately thrilled with the idea, and took Felipe up on the offer! From there, Felipe built a PR that created a [translation guide for contributors](https://github.com/pyOpenSci/python-package-guide/pull/304), along with another PR that [provides internationalization support](https://github.com/pyOpenSci/python-package-guide/pull/298).
 
 Following Felipe’s initial efforts, several of our SciPy sprint attendees continued to work on translation of the pyOpenSci Python Packaging Guide, and you can see their progress in the [guide repository on GitHub](https://github.com/pyOpenSci/python-package-guide/issues?q=is%3Aopen+is%3Aissue+label%3Ascipy-24). This has resulted in 13 PRs to our packaging guide. Our next steps are to create an editorial team composed of members who are fluent in Spanish/native speakers. This team will be  responsible for reviewing and merging these contributions. Stay tuned for updates on this incredible community-driven project!
 

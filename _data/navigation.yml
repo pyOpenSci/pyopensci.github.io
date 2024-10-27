@@ -53,3 +53,6 @@ main:
     sub-nav:
       - title: "Volunteer"
         url: "/volunteer.html"
+      - title: "Donate"
+        icon: "fas fa-external-link-alt"
+        url: "https://fnd.us/pyopensci_2024"
