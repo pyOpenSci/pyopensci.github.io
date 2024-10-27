@@ -72,12 +72,12 @@ Keynote talks are free for anyone to attend. Register now before we fill up!
 
 The general schedule for each days' event is below:
 
-| Time | Event |  
+| Time | Event |
 |----------|----------|----------|
 | 8:45am - 1:00 PM UTC-6 | Online Training |
 | 2:00pm - 4:00 PM UTC-6 | Online Office Hours |
 
-Friday's event will begin at 8:30 to support 2 speakers. 
+Friday's event will begin at 8:30 to support 2 speakers.
 
 You can register for a single-day workshop or the full event. Workshop registration includes office hours each day for more one-on-one help in the afternoon.
 
