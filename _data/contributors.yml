@@ -100,7 +100,6 @@
   github_username: kierisi
   github_image_id: 23085445
   title:
-    - Community Manager
   sort: 3
   bio:
   organization: pyOpenSci
@@ -115,7 +114,7 @@
   orcidid:
   partners:
   website:
-  board: true
+  board: false
   contributor_type:
     - package-guide
     - peer-review-guide
@@ -124,7 +123,7 @@
   packages_submitted:
   packages_reviewed:
   location:
-  email: jesse@pyopensci.org
+  email:
 - name: Carol Willing
   github_username: willingc
   github_image_id: 2680980
