@@ -6867,6 +6867,7 @@
   packages_submitted:
   packages_reviewed:
     - martini
+    - stingray
   location: Cambridge, MA
   email: taldcroft@gmail.com
 - name:
@@ -7613,7 +7614,7 @@
   organization: INAF/Osservatorio Astronomico di Cagliari
   date_added: '2024-10-15'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -7642,7 +7643,7 @@
   organization: SRON Netherlands Institute for Space Research
   date_added: '2024-10-15'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -7660,4 +7661,33 @@
     - stingray
   packages_reviewed:
   location: Utrecht, Netherlands
+  email:
+- name: Mason Ng
+  github_username: masonng-astro
+  github_image_id: 46072835
+  title:
+  sort:
+  bio: "['23-'24] 6th year PhD candidate in the MIT Department of Physics (+MIT
+      Kavli Institute for Astrophysics and Space Research)"
+  organization: Massachusetts Institute of Technology
+  date_added: '2024-11-01'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter: NZMason
+  mastodon:
+  orcidid:
+  partners:
+  website: https://mason-ng.com
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - stingray
+  location: Cambridge, MA
   email:
