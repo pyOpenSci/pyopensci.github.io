@@ -7604,35 +7604,6 @@
   packages_reviewed:
   location:
   email: jon.kiparsky@gmail.com
-- name: TBD
-  github_username: TBD
-  github_image_id: 7951
-  title:
-  sort:
-  bio: New apps/language tester, SketchUp Podium 1.x developer, Internet of Things
-      tinker
-  organization:
-  date_added: '2024-10-15'
-  deia_advisory: false
-  editorial_board: false
-  emeritus_editor: false
-  advisory: false
-  emeritus_advisory: false
-  twitter:
-  mastodon:
-  orcidid:
-  partners:
-  website:
-  board: false
-  contributor_type:
-    - peer-review
-    - reviewer
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
-    - stingray
-  location: Timisoara, Romania
-  email: tbd_fr@yahoo.fr
 - name: Matteo Bachetti
   github_username: matteobachetti
   github_image_id: 7190189
