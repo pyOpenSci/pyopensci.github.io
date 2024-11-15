@@ -7328,6 +7328,7 @@
   website:
   board: false
   contributor_type:
+    - community
     - package-guide
   packages_editor:
   packages_submitted:
@@ -7672,7 +7673,7 @@
   organization: Massachusetts Institute of Technology
   date_added: '2024-11-01'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
