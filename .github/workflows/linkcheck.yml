@@ -10,13 +10,23 @@ jobs:
   linkChecker:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Check out the code
+        uses: actions/checkout@v4
 
-      - name: Build Jekyll site
-        uses: helaili/jekyll-action@v2
+      - name: Fetch main
+        run: |
+          git fetch origin main --depth 1
+          git branch
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
         with:
-          build_only: true
-          build_dir: _site
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+
+      - name: Build with Jekyll
+        run: bundle exec jekyll build
+        env:
+          JEKYLL_ENV: production
 
       - name: Link Checker
         id: lychee
