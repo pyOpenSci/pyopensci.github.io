@@ -20,6 +20,7 @@ redirect_from:
 {% assign packages_sorted = site.data.packages | sort_natural: 'date_accepted' | reverse %}
 {% assign total_packages = packages_sorted | size %}
 
+
 ## Explore our accepted scientific Python open source packages
 
 To date, {{ total_packages }} packages have been accepted into the pyOpenSci
@@ -29,9 +30,7 @@ ecosystem. [Click here to check out packages that are currently under review.](h
 
 To view packages affiliated with our partner communities that are a part of ourpeer review partnership program, click on a community link below. [Learn more about our community partnerships here.](#)
 
-<a href="/partners/astropy.html"><button class="button community">Astropy</button></a>
-<button class="button community">Pangeo</button>
-<button class="button community">pyHeliophysics</button>
+<a href="/communities/astropy.html"><button class="button community">Astropy</button></a>
 
 ### All Packages - Search and filters
 
