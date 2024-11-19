@@ -2,11 +2,17 @@
   package_description: A spectral-timing software package for astrophysical X-ray
       (and other) data
   submitting_author:
-      name: Name
+      name: Matteo Bachetti
       github_username: matteobachetti
   all_current_maintainers:
     - name: Daniela Huppenkothen
-      github_username: dhuppenkothen mgullik jdswinbank matteolucchini1
+      github_username: dhuppenkothen
+    - name: Guglielmo Mastroserio
+      github_username: mgullik
+    - name: John Swinbank
+      github_username: jdswinbank
+    - name: Matteo Lucchini
+      github_username: matteolucchini1
   repository_link: https://github.com/stingraysoftware/stingray
   version_submitted: '2.1'
   categories:
@@ -16,7 +22,7 @@
       name: Hans Moritz Günther
       github_username: hamogu
   eic:
-      name:
+      name: Chiara Marmo
       github_username: cmarmo
   reviewers:
     - name: Tom Aldcroft
@@ -117,7 +123,7 @@
   reviewers:
     - name: Tom Aldcroft
       github_username: taldcroft
-    - name:
+    - name: Michele Delli Veneri
       github_username: MicheleDelliVeneri
   archive: https://zenodo.org/doi/10.5281/zenodo.11193206
   version_accepted: 2.0.15
@@ -308,18 +314,17 @@
       name: Jonny Saunders
       github_username: sneakers-the-rat
   eic:
-      name:
+      name: Isabel Zimmerman
       github_username: isabelizimm
   reviewers:
-    - name:
+    - name: Phil Dong
       github_username: phildong
     - name: Iris Young
       github_username: irisdyoung
     - name: Nima Sarajpoor
       github_username: NimaSarajpoor
   archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10864492.svg)](https://doi.org/10.5281/zenodo.10864492)'
-  version_accepted: 8.4.0 ([repo](https://github.com/caleb531/automata/releases/tag/v8.4.0),
-      [pypi](https://pypi.org/project/automata-lib/8.4.0/), [archive](https://zenodo.org/records/12594180))
+  version_accepted: 8.4.0
   date_accepted: '2024-06-29'
   created_at: 2023-12-31 02:23:34+00:00
   updated_at: 2024-08-01 19:14:28+00:00
@@ -350,7 +355,7 @@
     - name: Patrick J. Roddy
       github_username: paddyroddy
   repository_link: https://github.com/astro-informatics/sleplet
-  version_submitted: '[v1.4.4](https://pypi.org/project/sleplet/1.4.4)'
+  version_submitted: v1.4.4
   categories:
     - data-processing-munging
     - data-visualization
@@ -363,7 +368,7 @@
       github_username: magsol
     - name: Jakub Tomasz Gnyp
       github_username: gnypit
-  archive: '[10.5281/zenodo.7268074](https://doi.org/10.5281/zenodo.7268074)'
+  archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7268074.svg)](https://doi.org/10.5281/zenodo.7268074)'
   version_accepted: 1.4.7
   date_accepted: '2024-05-21'
   created_at: 2023-11-16 01:32:15+00:00
@@ -482,7 +487,7 @@
       github_username: cmarmo
     - name: Michael Tso
       github_username: cmtso
-  archive: '[10.5281/zenodo.10625407](https://zenodo.org/doi/10.5281/zenodo.10625407)'
+  archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10625407.svg)](https://doi.org/10.5281/zenodo.10625407)'
   version_accepted: 1.7.2
   date_accepted: '2024-02-06'
   created_at: 2023-10-25 13:12:48+00:00
@@ -508,7 +513,7 @@
 - package_name: rdata
   package_description: Read R datasets from Python.
   submitting_author:
-      name: Name
+      name: Carlos Ramos Carreño
       github_username: vnmabus
   all_current_maintainers:
     - name: Carlos Ramos Carreño
@@ -527,7 +532,7 @@
     - name: Hassan Kibirige
       github_username: has2k1
   archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10776842.svg)](https://doi.org/10.5281/zenodo.10776842)'
-  version_accepted: '[0.11.0](https://github.com/vnmabus/rdata/releases/tag/0.11.0)'
+  version_accepted: 0.11.0
   date_accepted: 2024-2-29
   created_at: 2023-10-20 08:26:10+00:00
   updated_at: 2024-11-10 14:12:11+00:00
@@ -620,7 +625,7 @@
     - name: Elais Player
       github_username: elais
   archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10951577.svg)](https://doi.org/10.5281/zenodo.10951577)'
-  version_accepted: '[v4.8.8](https://github.com/sourmash-bio/sourmash/releases/tag/v4.8.8)'
+  version_accepted: v4.8.8
   date_accepted: 2024-4-4
   created_at: 2023-08-14 21:02:57+00:00
   updated_at: 2024-07-23 19:41:56+00:00
@@ -690,15 +695,15 @@
 - package_name: astartes
   package_description: Better Data Splits for Machine Learning
   submitting_author:
-      name: Name
+      name: Jackson Burns
       github_username: JacksonBurns
   all_current_maintainers:
     - name: Kevin Spiekermann
       github_username: kspieks
-    - name:
+    - name: Himaghna Bhattacharjee
       github_username: himaghna
   repository_link: https://github.com/JacksonBurns/astartes
-  version_submitted: v[1.1.2](https://github.com/JacksonBurns/astartes/releases/tag/v1.1.2)
+  version_submitted: v1.1.2
   categories:
     - data-processing-munging
   editor:
@@ -706,12 +711,12 @@
       github_username: cmarmo
   eic:
   reviewers:
-    - name:
+    - name: Beryl Kanali
       github_username: BerylKanali
     - name: Du Phan
       github_username: du-phan
   archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8431894.svg)](https://doi.org/10.5281/zenodo.8431894)'
-  version_accepted: v[1.1.3](https://github.com/JacksonBurns/astartes/releases/tag/v1.1.3)
+  version_accepted: v1.1.3
   date_accepted: '2023-10-15'
   created_at: 2023-07-10 22:12:51+00:00
   updated_at: 2023-12-13 10:34:01+00:00
@@ -736,7 +741,7 @@
 - package_name: XGI
   package_description: XGI is a Python package for higher-order networks.
   submitting_author:
-      name: Name
+      name: Nicholas Landry
       github_username: nwlandry
   all_current_maintainers:
     - name: Nicholas Landry
@@ -753,7 +758,7 @@
       github_username: acuschwarze
     - name: Thomas Robiglio
       github_username: thomasrobiglio
-    - name: alice patania
+    - name: Alice Patania
       github_username: alpatania
   repository_link: https://github.com/xgi-org/xgi
   version_submitted: '0.7'
@@ -869,7 +874,7 @@
     - name:
       github_username: khynder
   archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8214655.svg)](https://doi.org/10.5281/zenodo.8214655)'
-  version_accepted: v [0.2.36](https://github.com/katoss/cardsort/releases/tag/v0.2.36)
+  version_accepted: v0.2.36
   date_accepted: '2023-08-16'
   created_at: 2023-04-20 11:29:27+00:00
   updated_at: 2023-12-13 10:40:37+00:00
@@ -1146,7 +1151,7 @@
     - name: David Nicholson
       github_username: NickleDave
   repository_link: https://github.com/vocalpy/crowsetta
-  version_submitted: '[4.0.0.post2](https://github.com/vocalpy/crowsetta/releases/tag/4.0.0.post2)'
+  version_submitted: 4.0.0.post2
   categories:
     - data-extraction
     - data-munging
@@ -1161,7 +1166,7 @@
     - name: Sylvain HAUPERT
       github_username: shaupert
   archive: '[![DOI](https://zenodo.org/badge/159904494.svg)](https://zenodo.org/badge/latestdoi/159904494)'
-  version_accepted: v [5.0](https://github.com/vocalpy/crowsetta/releases/tag/5.0.0)
+  version_accepted: v5.0
   date_accepted: '2023-03-28'
   created_at: 2023-01-03 19:39:16+00:00
   updated_at: 2023-08-29 01:27:19+00:00
@@ -1311,9 +1316,9 @@
       github_username: jbusecke
     - name: Szymon Moliński
       github_username: simonmolinsky
-  archive: '[Zenodo Archive](https://zenodo.org/record/6702566)'
-  version_accepted: V 0.7.0
-  date_accepted: 2022-9-1
+  archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6702566.svg)](https://doi.org/10.5281/zenodo.6702566)'
+  version_accepted: v0.7.0
+  date_accepted: '2022-09-01'
   created_at: 2021-07-23 00:37:07+00:00
   updated_at: 2023-09-14 17:47:44+00:00
   closed_at: 2023-06-12 22:47:16+00:00
@@ -1383,13 +1388,13 @@
   package_description: Library for integration of multi-omics, annotation, and interaction
       data
   submitting_author:
-      name: Jonny Tran
+      name: Nhat (Jonny) Tran
       github_username: JonnyTran
   all_current_maintainers:
     - name: Nhat (Jonny) Tran
       github_username: JonnyTran
   repository_link: https://github.com/JonnyTran/OpenOmics
-  version_submitted: '[0.8.4](https://github.com/JonnyTran/OpenOmics/releases/tag/v0.8.4)'
+  version_submitted: 0.8.4
   categories:
     - data-retrieval
     - data-extraction
@@ -1405,7 +1410,7 @@
     - name: Katharina Sielemann
       github_username: ksielemann
   archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4731011.svg)](https://doi.org/10.5281/zenodo.4731011)'
-  version_accepted: v [0.8.8](https://github.com/JonnyTran/OpenOmics/releases/tag/v0.8.8)
+  version_accepted: v0.8.8
   date_accepted: '2021-04-17'
   created_at: 2021-01-01 19:54:20+00:00
   updated_at: 2023-11-09 17:53:10+00:00
@@ -1439,7 +1444,7 @@
     - name: Luna L. Sanchez Reyes
       github_username: LunaSare
   repository_link: https://github.com/McTavishLab/physcraper
-  version_submitted: '[0.55](https://github.com/McTavishLab/physcraper/releases/tag/0.55)'
+  version_submitted: 0.55
   categories:
     - data-retrieval
     - data-munging
@@ -1453,7 +1458,7 @@
     - name: Leonardo de Oliveira Martins
       github_username: leomrtns
   archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5512990.svg)](https://doi.org/10.5281/zenodo.5512990)'
-  version_accepted: v [1.0](https://github.com/McTavishLab/physcraper/releases/tag/v1.0.0)
+  version_accepted: v1.0
   date_accepted: '2021-09-14'
   created_at: 2020-07-15 22:31:52+00:00
   updated_at: 2023-09-09 19:52:35+00:00
@@ -1484,7 +1489,7 @@
     - name: Philip Meier
       github_username: pmeier
   repository_link: https://github.com/pystiche/pystiche
-  version_submitted: '[0.5.0post0](https://github.com/pystiche/pystiche/releases/tag/v0.5.0.post0)'
+  version_submitted: 0.5.0post0
   categories:
     - reproducibility
   editor:
@@ -1497,7 +1502,7 @@
     - name: Soumith Chintala
       github_username: soumith
   archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4073515.svg)](https://doi.org/10.5281/zenodo.4073515)'
-  version_accepted: v [0.6.0](https://github.com/pystiche/pystiche/releases/tag/v0.6.0)
+  version_accepted: v0.6.0
   date_accepted: '2020-10-08'
   created_at: 2020-07-02 12:57:08+00:00
   updated_at: 2023-11-08 23:49:27+00:00
@@ -1573,7 +1578,7 @@
     - name: Morgan Williams
       github_username: morganjwilliams
   repository_link: https://github.com/morganjwilliams/pyrolite
-  version_submitted: '[0.2.5](https://github.com/morganjwilliams/pyrolite/releases/tag/0.2.5)'
+  version_submitted: 0.2.5
   categories:
     - data-munging
     - reproducibility
@@ -1589,7 +1594,7 @@
     - name: Charles Le Losq
       github_username: charlesll
   archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3877690.svg)](https://doi.org/10.5281/zenodo.3877690)'
-  version_accepted: v [0.2.7](https://github.com/morganjwilliams/pyrolite/releases/tag/0.2.7)
+  version_accepted: v0.2.7
   date_accepted: '2020-06-04'
   created_at: 2020-02-19 04:54:35+00:00
   updated_at: 2023-09-10 20:51:18+00:00
@@ -1765,7 +1770,7 @@
     - name: Jenny Palomino
       github_username: jlpalomino
   repository_link: https://github.com/earthlab/earthpy
-  version_submitted: '[0.7](https://github.com/earthlab/earthpy/releases/tag/v0.7.0)'
+  version_submitted: 0.7
   categories:
     - geospatial
   editor:
@@ -1778,7 +1783,7 @@
     - name: Sean Gillies
       github_username: sgillies
   archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3520899.svg)](https://doi.org/10.5281/zenodo.3520899)'
-  version_accepted: v [0.7.5](https://github.com/earthlab/earthpy/releases/tag/v0.7.5)
+  version_accepted: v0.7.5
   date_accepted: '2019-11-06'
   created_at: 2019-05-08 15:02:14+00:00
   updated_at: 2023-09-10 21:01:47+00:00
