@@ -37,7 +37,7 @@ Astropy currently has {{ total_packages }} packages that have been accepted by p
 
 <p><input type="text" id="quicksearch" placeholder="Search {{ page.community }} packages" /></p>
 
-
+<!-- TODO: Should we re-enable this but with categories more specific to Astropy?
 <div id="filters" class="button-group">
   <button class="button is-checked" data-filter="*">show all</button>
   <button class="button" data-filter=".data-munging, .data-processing-munging">data munging</button>
@@ -45,12 +45,10 @@ Astropy currently has {{ total_packages }} packages that have been accepted by p
   <button class="button" data-filter=".data-retrieval">data retrieval</button>
   <button class="button" data-filter=".data-visualization">data-visualization</button>
   <button class="button" data-filter=".education">education</button>
-
-<button class="button" data-filter=".geospatial">geospatial</button>
-<button class="button" data-filter=".reproducibility">reproducibility</button>
+  <button class="button" data-filter=".geospatial">geospatial</button>
+  <button class="button" data-filter=".reproducibility">reproducibility</button>
 </div>
-
-
+-->
 
 <div class="grid-isotope">
 {% for apackage in pkgs %}
