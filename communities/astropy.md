@@ -9,7 +9,7 @@ header:
   image_alt: "Digital elevation model"
 permalink: communities/astropy.html
 intro:
-    - excerpt: "Astropy is a pyOpenSci community peer review partner. [Learn more about our peer review partnership program](/partners.html)."
+    - excerpt: "Astropy is a pyOpenSci community peer review partner. [Learn more about our peer review partnership program](https://www.pyopensci.org/partners.html)."
 classes: wide
 community: astropy
 ---
@@ -32,7 +32,7 @@ core package for Astronomy in Python. Astropy also fosters an ecosystem of
 interoperable astronomy packages. Please remember to acknowledge and cite the use of any {{ page.community }}
 packages that you use.
 
-Astropy currently has {{ total_packages }} packages that have been accepted by pyOpenSci and also become affiliated Astropy packages through our [partnership](partners.html).
+Astropy currently has {{ total_packages }} packages that have been accepted by pyOpenSci and also become affiliated Astropy packages through our [partnership](https://www.pyopensci.org/partners.html).
 
 
 <p><input type="text" id="quicksearch" placeholder="Search {{ page.community }} packages" /></p>
