@@ -1123,7 +1123,6 @@
   updated_at: 2023-09-18 22:18:20+00:00
   closed_at: 2023-05-22 04:04:53+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/73
-  joss:
   partners:
   gh_meta:
       name: xclim
