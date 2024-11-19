@@ -612,13 +612,13 @@
     - data-processing-munging
   editor:
       name: Emily Jane McTavish
-      github_username: snacktavish Emily Jane McTavish
+      github_username: snacktavish
   eic:
   reviewers:
     - name: Lili Andersson-Li
-      github_username: LilyAnderssonLee Lili Andersson-Li
+      github_username: LilyAnderssonLee
     - name: Elais Player
-      github_username: elais Elais Player
+      github_username: elais
   archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10951577.svg)](https://doi.org/10.5281/zenodo.10951577)'
   version_accepted: '[v4.8.8](https://github.com/sourmash-bio/sourmash/releases/tag/v4.8.8)'
   date_accepted: 2024-4-4
