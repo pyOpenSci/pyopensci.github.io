@@ -28,7 +28,7 @@ ecosystem. [Click here to check out packages that are currently under review.](h
 
 ### Community Partners
 
-To view packages affiliated with our partner communities that are a part of ourpeer review partnership program, click on a community link below. [Learn more about our community partnerships here.](#)
+To view packages affiliated with our partner communities that are a part of ourpeer review partnership program, click on a community link below. [Learn more about our community partnerships here.](/partners.html)
 
 <a href="/communities/astropy.html"><button class="button community">Astropy</button></a>
 
