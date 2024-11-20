@@ -125,7 +125,7 @@
       github_username: taldcroft
     - name: Michele Delli Veneri
       github_username: MicheleDelliVeneri
-  archive: https://zenodo.org/doi/10.5281/zenodo.11193206
+  archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11193206.svg)](https://doi.org/10.5281/zenodo.11193206)'
   version_accepted: 2.0.15
   date_accepted: '2024-06-03'
   created_at: 2024-03-06 17:08:29+00:00
@@ -971,7 +971,7 @@
       github_username: snacktavish
     - name: Tessa Pierce Ward
       github_username: bluegenes
-  archive: https://github.com/taxprofiler/taxpasta/releases/tag/0.4.0
+  archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11526449.svg)](https://doi.org/10.5281/zenodo.11526449)'
   version_accepted: 0.4.0
   date_accepted: '2023-07-05'
   created_at: 2023-03-02 16:50:50+00:00
@@ -1682,7 +1682,7 @@
       github_username: mbjoseph
     - name: Ivan Ogasawara
       github_username: xmnlab
-  archive: https://github.com/pandera-dev/pandera/releases/tag/v0.2.3
+  archive: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6985652.svg)](https://doi.org/10.5281/zenodo.6985652)
   version_accepted: v0.2.3
   date_accepted: '2019-10-10'
   created_at: 2019-08-14 22:21:25+00:00
