@@ -38,22 +38,40 @@
             {% if apackage.gh_meta.documentation %}
                 <li><a href="{{ apackage.gh_meta.documentation }}" rel="permalink"><i class="fas fa-book-open"></i> View Docs</a></li>
             {% endif %}
-            {% if apackage.citation-link %}
-                <li><a href="{{ apackage.archive }}" rel="permalink"><i class="fas fa-bookmark fa-fw"></i> Cite</a></li>
-            {% endif %}
             <li><a href="{{ apackage.issue_link }}"><i class="fa-solid fa-user-pen"></i> View Review</a></li>
+
+            {% if apackage.archive and apackage.joss == nil %}
+                {% assign raw_string = apackage.archive %}
+                {% if raw_string contains "github.com" %}
+                <!-- If github is in the link, it's a link to a tag -->
+                    <li>
+                        <a href="{{ raw_string }}" rel="permalink">
+                            <i class="fas fa-bookmark fa-fw"></i> GitHub Tag:
+                        </a>
+                    </li>
+                {% elsif raw_string contains "latest" %}
+                    <li>Missing tagged DOI</li>
+                {% elsif raw_string contains "doi.org/" %}
+                    <!-- This isn't working when the badge is latest doi because it has zenodo.org not doi.org -->
+
+                    {% assign doi_url = raw_string | split: 'doi.org/' | last %}
+                    {% assign doi = doi_url | split: ')' | first %}
+                    <li>
+                        Cite: <a href="https://doi.org/{{ doi }}" rel="permalink">
+                            <img src="https://zenodo.org/badge/DOI/{{ doi | uri_escape }}.svg" alt="DOI badge for {{ doi }}">
+                        </a>
+                    </li>
+                {% endif %}
+            {% endif %}
+
             {% if apackage.joss %}
-            {% assign raw_string = apackage.joss %}
+                {% assign raw_string = apackage.joss %}
                 {%- comment -%}
-                Step 1: Split to isolate the DOI URL from the markdown string
+                Split to isolate the DOI URL from the markdown string
                 {%- endcomment -%}
                 {% assign doi_url = raw_string | split: 'doi.org/' | last %}
                 {% assign doi_url = doi_url | split: ')' | first %}
-
-                {%- comment -%}
-                Render the cleaned DOI as an HTML badge and link
-                {%- endcomment -%}
-                <li><i class="fa-solid fa-thumbs-up"></i> JOSS Published
+                <li><i class="fa-solid fa-thumbs-up"></i> Cite:
                     <a href="https://doi.org/{{ doi_url }}" target="_blank">
                         <img src="https://zenodo.org/badge/DOI/{{ doi_url | uri_escape }}.svg" alt="DOI badge for {{ doi }}">
                     </a>
