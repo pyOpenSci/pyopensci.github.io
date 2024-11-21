@@ -43,9 +43,24 @@
             {% endif %}
             <li><a href="{{ apackage.issue_link }}"><i class="fa-solid fa-user-pen"></i> View Review</a></li>
             {% if apackage.joss %}
-                <li><a href="{{ apackage.archive }}" rel="permalink"><i class="fas fa-bookmark fa-fw"></i> JOSS Approved</a></li>
+            {% assign raw_string = apackage.joss %}
+                {%- comment -%}
+                Step 1: Split to isolate the DOI URL from the markdown string
+                {%- endcomment -%}
+                {% assign doi_url = raw_string | split: 'doi.org/' | last %}
+                {% assign doi_url = doi_url | split: ')' | first %}
+
+                {%- comment -%}
+                Render the cleaned DOI as an HTML badge and link
+                {%- endcomment -%}
+                <li><i class="fa-solid fa-thumbs-up"></i> JOSS Published
+                    <a href="https://doi.org/{{ doi_url }}" target="_blank">
+                        <img src="https://zenodo.org/badge/DOI/{{ doi_url | uri_escape }}.svg" alt="DOI badge for {{ doi }}">
+                    </a>
+                </li>
             {% endif %}
             {% if apackage.astropy %}
+                True
                 <li><a href="communities/astropy.html"><i class="fa-solid fa-check-double"></i> <img src="http://img.shields.io/badge/Affiliated-Astropy-orange.svg?style=flat" alt="Astropy" /></a></li>
             {% endif %}
             {% if apackage.sunpy %}
