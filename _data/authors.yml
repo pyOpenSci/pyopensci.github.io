@@ -48,18 +48,12 @@ Anita Graser:
       url: "https://twitter.com/underdarkGIS"
 Jesse Mostipak:
   name        : "Jesse Mostipak"
-  bio         : "Community Manager"
+  bio         : ""
   avatar      : "/images/people/jesse-headshot-bandw.jpg"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:jesse@pyopensci.org"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/kierisi"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/jessemostipak/"
 Carlos Ramos Carreño:
   name        : "Carlos Ramos Carreño"
   bio         : "Software Developer"
