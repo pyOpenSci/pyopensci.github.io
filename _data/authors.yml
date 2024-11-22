@@ -62,15 +62,12 @@ Eric J. Ma:
       url: "https://www.linkedin.com/in/ericmjl/"
 Jesse Mostipak:
   name        : "Jesse Mostipak"
-  bio         : "Community Manager"
+  bio         : ""
   avatar      : "/images/people/jesse-headshot-bandw.jpg"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/kierisi"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/jessemostipak/"
 Carlos Ramos Carreño:
   name        : "Carlos Ramos Carreño"
   bio         : "Software Developer"
