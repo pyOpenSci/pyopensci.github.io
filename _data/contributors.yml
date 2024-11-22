@@ -6870,7 +6870,7 @@
     - stingray
   location: Cambridge, MA
   email: taldcroft@gmail.com
-- name:
+- name: Michele Delli Veneri
   github_username: MicheleDelliVeneri
   github_image_id: 46787099
   title:
@@ -7692,3 +7692,29 @@
     - stingray
   location: Cambridge, MA
   email:
+- name: Carlos Ramos Carreño
+  github_username: vnmabus
+  github_image_id:
+  title:
+  sort:
+  bio:  Software engineer and mathematician
+  organization:
+  date_added: '2024-11-22'
+  deia_advisory: false
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+  packages_editor:
+  packages_submitted:
+    - rdata
+  packages_reviewed:
+  location: Frankfurt, Germany
+  email: carlosramosca@hotmail.com
