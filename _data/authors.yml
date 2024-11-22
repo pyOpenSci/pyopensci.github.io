@@ -46,14 +46,25 @@ Anita Graser:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/underdarkGIS"
+Eric J. Ma:
+  name        : "Eric J. Ma"
+  bio         : "Senior Principal Data Scientist, Moderna"
+  avatar      : "/images/people/eric-ma-headshot.jpeg"
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://ericmjl.github.io/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/ericmjl"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/ericmjl/"
 Jesse Mostipak:
   name        : "Jesse Mostipak"
   bio         : "Community Manager"
   avatar      : "/images/people/jesse-headshot-bandw.jpg"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:jesse@pyopensci.org"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/kierisi"
