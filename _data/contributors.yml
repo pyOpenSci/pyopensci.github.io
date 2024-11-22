@@ -4480,7 +4480,7 @@
   packages_reviewed:
   location:
   email:
-- name:
+- name: Beryl Kanali
   github_username: BerylKanali
   github_image_id: 50364045
   title:
@@ -4594,7 +4594,7 @@
   packages_reviewed:
   location:
   email:
-- name:
+- name: Himaghna Bhattacharjee
   github_username: himaghna
   github_image_id: 35175139
   title:
@@ -4847,7 +4847,7 @@
   packages_reviewed:
   location: Torino, Italy
   email:
-- name: alice patania
+- name: Alice Patania
   github_username: alpatania
   github_image_id: 4749196
   title:
@@ -7712,6 +7712,8 @@
   website:
   board: false
   contributor_type:
+    - maintainer
+    - peer-review
   packages_editor:
   packages_submitted:
     - rdata
