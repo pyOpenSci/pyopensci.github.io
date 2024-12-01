@@ -29,6 +29,7 @@
     - package-maintainer
     - peer-review
     - submitting-author
+  packages_eic:
   packages_editor:
     - errdapy
     - nbless
@@ -64,6 +65,7 @@
   contributor_type:
     - leadership
     - web-contrib
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -91,6 +93,7 @@
   contributor_type:
     - leadership
     - package-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -119,6 +122,7 @@
     - package-guide
     - peer-review-guide
     - web-contrib
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -154,6 +158,7 @@
     - peer-review-guide
     - reviewer
     - web-contrib
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -183,6 +188,7 @@
   contributor_type:
     - contributor
     - package-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -209,6 +215,7 @@
   board: false
   contributor_type:
     - leadership
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -240,6 +247,7 @@
     - package-guide
     - peer-review-guide
     - reviewer
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -269,6 +277,7 @@
   contributor_type:
     - leadership
     - package-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -298,6 +307,7 @@
     - guidebook-contrib
     - leadership
     - package-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -337,6 +347,7 @@
     - peer-review-guide
     - reviewer
     - web-contrib
+  packages_eic:
   packages_editor:
     - devicely
     - jointly
@@ -376,6 +387,7 @@
     - package-guide
     - peer-review
     - reviewer
+  packages_eic:
   packages_editor:
     - afscgap
     - xnemogcm
@@ -407,6 +419,7 @@
   board: false
   contributor_type:
     - leadership
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -434,6 +447,7 @@
   board: false
   contributor_type:
     - leadership
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -463,6 +477,7 @@
     - leadership
     - peer-review
     - reviewer
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -492,6 +507,7 @@
     - guidebook-contrib
     - leadership
     - peer-review-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -518,6 +534,7 @@
   board: false
   contributor_type:
     - leadership
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -552,6 +569,7 @@
     - peer-review
     - peer-review-guide
     - submitting-author
+  packages_eic:
   packages_editor:
     - biocypher
     - pynteny
@@ -592,6 +610,7 @@
     - peer-review-guide
     - submitting-author
     - web-contrib
+  packages_eic:
   packages_editor:
     - openomics
     - physcraper
@@ -627,11 +646,15 @@
   contributor_type:
     - community
     - editor
+    - eic
     - guidebook-contrib
     - package-guide
     - peer-review
     - peer-review-guide
     - reviewer
+  packages_eic:
+    - stingray
+    - thztools
   packages_editor:
     - astartes
     - crowsetta
@@ -668,6 +691,7 @@
     - peer-review
     - reviewer
     - web-contrib
+  packages_eic:
   packages_editor:
     - movingpandas
   packages_submitted:
@@ -703,6 +727,7 @@
     - package-guide
     - peer-review
     - reviewer
+  packages_eic:
   packages_editor:
     - sleplet
     - xgi
@@ -738,6 +763,7 @@
     - peer-review
     - submitting-author
     - web-contrib
+  packages_eic:
   packages_editor:
   packages_submitted:
     - movingpandas
@@ -768,11 +794,14 @@
   contributor_type:
     - community
     - editor
+    - eic
     - package-guide
     - peer-review
     - peer-review-guide
     - reviewer
     - web-contrib
+  packages_eic:
+    - pooltool
   packages_editor:
     - cardsort
     - harmonize-wq
@@ -808,6 +837,7 @@
     - peer-review
     - peer-review-guide
     - reviewer
+  packages_eic:
   packages_editor:
   packages_submitted:
     - earthpy
@@ -842,6 +872,7 @@
     - maintainer
     - metrics-contrib
     - peer-review
+  packages_eic:
   packages_editor:
     - earthpy
   packages_submitted:
@@ -871,6 +902,7 @@
   board: false
   contributor_type:
     - contributor
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -897,6 +929,7 @@
   board: false
   contributor_type:
     - contributor
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -923,6 +956,7 @@
   board: false
   contributor_type:
     - contributor
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -953,6 +987,7 @@
     - peer-review
     - peer-review-guide
     - reviewer
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -983,6 +1018,7 @@
     - maintainer
     - peer-review
     - submitting-author
+  packages_eic:
   packages_editor:
   packages_submitted:
     - nbless
@@ -1010,6 +1046,7 @@
   board: false
   contributor_type:
     - contributor
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -1042,6 +1079,7 @@
     - peer-review-guide
     - submitting-author
     - web-contrib
+  packages_eic:
   packages_editor:
   packages_submitted:
     - pandera
@@ -1070,6 +1108,7 @@
   contributor_type:
     - peer-review
     - reviewer
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -1098,6 +1137,7 @@
   contributor_type:
     - peer-review
     - reviewer
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -1128,6 +1168,7 @@
     - package-maintainer
     - peer-review
     - submitting-author
+  packages_eic:
   packages_editor:
   packages_submitted:
     - pyrolite
@@ -1159,6 +1200,7 @@
     - peer-review
     - reviewer
     - submitting-author
+  packages_eic:
   packages_editor:
   packages_submitted:
     - pystiche
@@ -1188,6 +1230,7 @@
   contributor_type:
     - peer-review
     - reviewer
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -1216,6 +1259,7 @@
   board: false
   contributor_type:
     - package-maintainer
+  packages_eic:
   packages_editor:
   packages_submitted:
     - pydov
@@ -1243,6 +1287,7 @@
   board: false
   contributor_type:
     - package-maintainer
+  packages_eic:
   packages_editor:
   packages_submitted:
     - pydov
@@ -1270,6 +1315,7 @@
   board: false
   contributor_type:
     - package-maintainer
+  packages_eic:
   packages_editor:
   packages_submitted:
     - pydov
@@ -1297,6 +1343,7 @@
   board: false
   contributor_type:
     - package-maintainer
+  packages_eic:
   packages_editor:
   packages_submitted:
     - pydov
@@ -1329,6 +1376,7 @@
     - reviewer
     - submitting-author
     - web-contrib
+  packages_eic:
   packages_editor:
   packages_submitted:
     - openomics
@@ -1358,6 +1406,7 @@
   contributor_type:
     - peer-review
     - reviewer
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -1390,6 +1439,7 @@
     - package-maintainer
     - peer-review
     - submitting-author
+  packages_eic:
   packages_editor:
   packages_submitted:
     - phenopype
@@ -1423,6 +1473,7 @@
     - peer-review
     - reviewer
     - submitting-author
+  packages_eic:
   packages_editor:
     - sourmash
   packages_submitted:
@@ -1455,6 +1506,7 @@
     - maintainer
     - package-maintainer
     - peer-review
+  packages_eic:
   packages_editor:
   packages_submitted:
     - physcraper
@@ -1483,6 +1535,7 @@
   contributor_type:
     - peer-review
     - reviewer
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -1512,6 +1565,7 @@
   contributor_type:
     - peer-review
     - reviewer
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -1540,6 +1594,7 @@
   contributor_type:
     - peer-review
     - reviewer
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -1566,6 +1621,7 @@
   website: https://about.me/npalopoli
   board: false
   contributor_type:
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -1597,6 +1653,7 @@
     - peer-review
     - peer-review-guide
     - submitting-author
+  packages_eic:
   packages_editor:
   packages_submitted:
     - python-graphblas
@@ -1626,6 +1683,7 @@
   contributor_type:
     - guidebook-contrib
     - package-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -1658,6 +1716,7 @@
     - peer-review
     - reviewer
     - web-contrib
+  packages_eic:
   packages_editor:
     - automata
   packages_submitted:
@@ -1687,6 +1746,7 @@
   contributor_type:
     - guidebook-contrib
     - package-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -1715,6 +1775,7 @@
     - guidebook-contrib
     - package-guide
     - peer-review-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -1743,6 +1804,7 @@
   contributor_type:
     - guidebook-contrib
     - package-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -1772,6 +1834,7 @@
     - guidebook-contrib
     - package-guide
     - peer-review-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -1799,6 +1862,7 @@
   contributor_type:
     - guidebook-contrib
     - package-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -1827,6 +1891,7 @@
   contributor_type:
     - guidebook-contrib
     - package-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -1856,6 +1921,7 @@
     - community
     - guidebook-contrib
     - package-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -1883,6 +1949,7 @@
   contributor_type:
     - guidebook-contrib
     - peer-review-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -1911,6 +1978,7 @@
   contributor_type:
     - guidebook-contrib
     - peer-review-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -1941,6 +2009,7 @@
     - peer-review
     - peer-review-guide
     - reviewer
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -1969,6 +2038,7 @@
   contributor_type:
     - guidebook-contrib
     - peer-review-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -1996,6 +2066,7 @@
   contributor_type:
     - guidebook-contrib
     - peer-review-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -2023,6 +2094,7 @@
   contributor_type:
     - guidebook-contrib
     - peer-review-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -2051,6 +2123,7 @@
   contributor_type:
     - guidebook-contrib
     - peer-review-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -2078,6 +2151,7 @@
   contributor_type:
     - guidebook-contrib
     - peer-review-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -2106,6 +2180,7 @@
   contributor_type:
     - guidebook-contrib
     - peer-review-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -2133,6 +2208,7 @@
   contributor_type:
     - guidebook-contrib
     - package-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -2160,6 +2236,7 @@
   contributor_type:
     - guidebook-contrib
     - package-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -2188,6 +2265,7 @@
   contributor_type:
     - guidebook-contrib
     - package-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -2215,6 +2293,7 @@
   contributor_type:
     - guidebook-contrib
     - package-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -2243,6 +2322,7 @@
   contributor_type:
     - guidebook-contrib
     - package-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -2270,6 +2350,7 @@
   contributor_type:
     - guidebook-contrib
     - package-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -2297,6 +2378,7 @@
   contributor_type:
     - community
     - peer-review
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -2325,6 +2407,7 @@
     - community
     - maintainer
     - peer-review
+  packages_eic:
   packages_editor:
   packages_submitted:
     - xclim
@@ -2355,6 +2438,7 @@
     - community
     - maintainer
     - peer-review
+  packages_eic:
   packages_editor:
   packages_submitted:
     - xclim
@@ -2385,6 +2469,7 @@
     - maintainer
     - peer-review
     - submitting-author
+  packages_eic:
   packages_editor:
   packages_submitted:
     - jointly
@@ -2414,6 +2499,7 @@
   contributor_type:
     - peer-review
     - reviewer
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -2444,6 +2530,7 @@
   contributor_type:
     - peer-review
     - reviewer
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -2473,6 +2560,7 @@
   contributor_type:
     - peer-review
     - reviewer
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -2501,6 +2589,7 @@
   contributor_type:
     - peer-review
     - reviewer
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -2529,6 +2618,7 @@
   contributor_type:
     - peer-review
     - reviewer
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -2557,6 +2647,7 @@
   contributor_type:
     - peer-review
     - reviewer
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -2586,6 +2677,7 @@
   contributor_type:
     - editor
     - peer-review
+  packages_eic:
   packages_editor:
     - phenopype
   packages_submitted:
@@ -2615,6 +2707,7 @@
   contributor_type:
     - peer-review
     - reviewer
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -2644,6 +2737,7 @@
   contributor_type:
     - peer-review
     - reviewer
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -2674,6 +2768,7 @@
     - maintainer
     - peer-review
     - submitting-author
+  packages_eic:
   packages_editor:
   packages_submitted:
     - pygmt
@@ -2703,6 +2798,7 @@
   contributor_type:
     - peer-review
     - reviewer
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -2732,6 +2828,7 @@
     - community
     - peer-review
     - reviewer
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -2760,6 +2857,7 @@
   contributor_type:
     - peer-review
     - reviewer
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -2787,6 +2885,7 @@
   website:
   board: false
   contributor_type:
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -2826,6 +2925,7 @@
     - reviewer
     - submitting-author
     - web-contrib
+  packages_eic:
   packages_editor:
   packages_submitted:
     - pynteny
@@ -2859,6 +2959,7 @@
     - package-guide
     - peer-review
     - submitting-author
+  packages_eic:
   packages_editor:
   packages_submitted:
     - xclim
@@ -2888,6 +2989,7 @@
     - community
     - peer-review
     - reviewer
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -2916,6 +3018,7 @@
   contributor_type:
     - peer-review
     - reviewer
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -2947,6 +3050,7 @@
     - guest editor
     - package-guide
     - peer-review
+  packages_eic:
   packages_editor:
     - ncompare
     - python-graphblas
@@ -2981,6 +3085,7 @@
     - package-guide
     - peer-review
     - peer-review-guide
+  packages_eic:
   packages_editor:
     - taxpasta
   packages_submitted:
@@ -3012,6 +3117,7 @@
     - editor
     - guest editor
     - peer-review
+  packages_eic:
   packages_editor:
     - bibat
   packages_submitted:
@@ -3039,6 +3145,7 @@
   board: false
   contributor_type:
     - community
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -3067,6 +3174,7 @@
     - code-contrib
     - community
     - metrics-contrib
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -3095,6 +3203,7 @@
     - code-contrib
     - community
     - metrics-contrib
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -3123,6 +3232,7 @@
     - code-contrib
     - community
     - metrics-contrib
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -3151,6 +3261,7 @@
     - code-contrib
     - community
     - metrics-contrib
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -3180,6 +3291,7 @@
     - community
     - metrics-contrib
     - web-contrib
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -3205,8 +3317,10 @@
   website: https://blog.ucodery.com
   board: false
   contributor_type:
+    - community
     - guidebook-contrib
     - package-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -3234,6 +3348,7 @@
   contributor_type:
     - guidebook-contrib
     - peer-review-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -3261,6 +3376,7 @@
   contributor_type:
     - guidebook-contrib
     - peer-review-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -3290,6 +3406,7 @@
     - maintainer
     - peer-review
     - peer-review-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
     - sunpy
@@ -3321,6 +3438,7 @@
     - community
     - metrics-contrib
     - web-contrib
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -3351,6 +3469,7 @@
     - community
     - metrics-contrib
     - web-contrib
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -3381,6 +3500,7 @@
     - package-maintainer
     - peer-review
     - submitting-author
+  packages_eic:
   packages_editor:
   packages_submitted:
     - afscgap
@@ -3409,6 +3529,7 @@
   contributor_type:
     - guidebook-contrib
     - package-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -3436,6 +3557,7 @@
   contributor_type:
     - guidebook-contrib
     - package-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -3463,6 +3585,7 @@
   board: false
   contributor_type:
     - web-contrib
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -3493,6 +3616,7 @@
     - peer-review
     - submitting-author
     - web-contrib
+  packages_eic:
   packages_editor:
   packages_submitted:
     - bibat
@@ -3523,6 +3647,7 @@
     - community
     - maintainer
     - peer-review
+  packages_eic:
   packages_editor:
   packages_submitted:
     - taxpasta
@@ -3555,6 +3680,7 @@
     - peer-review
     - reviewer
     - submitting-author
+  packages_eic:
   packages_editor:
   packages_submitted:
     - taxpasta
@@ -3585,6 +3711,7 @@
     - peer-review
     - reviewer
     - web-contrib
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -3614,6 +3741,7 @@
     - guidebook-contrib
     - package-guide
     - peer-review-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -3645,6 +3773,7 @@
     - peer-review-guide
     - reviewer
     - web-contrib
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -3674,6 +3803,7 @@
     - guidebook-contrib
     - package-guide
     - peer-review-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -3705,6 +3835,7 @@
     - guidebook-contrib
     - peer-review
     - peer-review-guide
+  packages_eic:
   packages_editor:
     - martini
     - stingray
@@ -3734,6 +3865,7 @@
   contributor_type:
     - guidebook-contrib
     - peer-review-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -3760,6 +3892,7 @@
   board: false
   contributor_type:
     - web-contrib
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -3786,6 +3919,7 @@
   board: false
   contributor_type:
     - web-contrib
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -3812,6 +3946,7 @@
   board: false
   contributor_type:
     - web-contrib
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -3838,6 +3973,7 @@
   board: false
   contributor_type:
     - web-contrib
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -3866,6 +4002,7 @@
     - package-guide
     - peer-review
     - reviewer
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -3894,6 +4031,7 @@
   contributor_type:
     - peer-review
     - reviewer
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -3924,6 +4062,7 @@
     - peer-review
     - reviewer
     - submitting-author
+  packages_eic:
   packages_editor:
   packages_submitted:
     - sourmash
@@ -3953,6 +4092,7 @@
   contributor_type:
     - maintainer
     - peer-review
+  packages_eic:
   packages_editor:
   packages_submitted:
     - taxpasta
@@ -3982,6 +4122,7 @@
   contributor_type:
     - peer-review
     - reviewer
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -4011,6 +4152,7 @@
   contributor_type:
     - peer-review
     - reviewer
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -4039,6 +4181,7 @@
   contributor_type:
     - maintainer
     - peer-review
+  packages_eic:
   packages_editor:
   packages_submitted:
     - afscgap
@@ -4067,6 +4210,7 @@
   contributor_type:
     - maintainer
     - peer-review
+  packages_eic:
   packages_editor:
   packages_submitted:
     - python-graphblas
@@ -4097,6 +4241,7 @@
     - community
     - maintainer
     - peer-review
+  packages_eic:
   packages_editor:
   packages_submitted:
     - python-graphblas
@@ -4128,9 +4273,12 @@
   contributor_type:
     - community
     - editor
+    - eic
     - package-guide
     - peer-review
     - reviewer
+  packages_eic:
+    - automata
   packages_editor:
     - rdata
   packages_submitted:
@@ -4163,6 +4311,7 @@
     - reviewer
     - submitting-author
     - web-contrib
+  packages_eic:
   packages_editor:
   packages_submitted:
     - automata
@@ -4191,6 +4340,7 @@
   board: false
   contributor_type:
     - community
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -4218,6 +4368,7 @@
   contributor_type:
     - peer-review
     - reviewer
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -4248,6 +4399,7 @@
     - maintainer
     - peer-review
     - submitting-author
+  packages_eic:
   packages_editor:
   packages_submitted:
     - cardsort
@@ -4277,6 +4429,7 @@
   contributor_type:
     - maintainer
     - peer-review
+  packages_eic:
   packages_editor:
   packages_submitted:
     - pygmt
@@ -4306,6 +4459,7 @@
   contributor_type:
     - maintainer
     - peer-review
+  packages_eic:
   packages_editor:
   packages_submitted:
     - pygmt
@@ -4335,6 +4489,7 @@
   contributor_type:
     - maintainer
     - peer-review
+  packages_eic:
   packages_editor:
   packages_submitted:
     - pygmt
@@ -4363,6 +4518,7 @@
   contributor_type:
     - maintainer
     - peer-review
+  packages_eic:
   packages_editor:
   packages_submitted:
     - pygmt
@@ -4392,6 +4548,7 @@
   contributor_type:
     - maintainer
     - peer-review
+  packages_eic:
   packages_editor:
   packages_submitted:
     - earthpy
@@ -4420,6 +4577,7 @@
   contributor_type:
     - maintainer
     - peer-review
+  packages_eic:
   packages_editor:
   packages_submitted:
     - earthpy
@@ -4448,6 +4606,7 @@
   contributor_type:
     - maintainer
     - peer-review
+  packages_eic:
   packages_editor:
   packages_submitted:
     - pygmt
@@ -4475,6 +4634,7 @@
   board: false
   contributor_type:
     - package-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -4502,6 +4662,7 @@
   contributor_type:
     - peer-review
     - reviewer
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -4530,6 +4691,7 @@
   contributor_type:
     - peer-review
     - reviewer
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -4560,6 +4722,7 @@
     - package-guide
     - peer-review
     - submitting-author
+  packages_eic:
   packages_editor:
   packages_submitted:
     - astartes
@@ -4588,6 +4751,7 @@
   contributor_type:
     - maintainer
     - peer-review
+  packages_eic:
   packages_editor:
   packages_submitted:
     - astartes
@@ -4616,6 +4780,7 @@
   contributor_type:
     - maintainer
     - peer-review
+  packages_eic:
   packages_editor:
   packages_submitted:
     - astartes
@@ -4644,6 +4809,7 @@
   contributor_type:
     - peer-review
     - reviewer
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -4673,6 +4839,7 @@
     - maintainer
     - peer-review
     - submitting-author
+  packages_eic:
   packages_editor:
   packages_submitted:
     - xgi
@@ -4701,6 +4868,7 @@
   contributor_type:
     - maintainer
     - peer-review
+  packages_eic:
   packages_editor:
   packages_submitted:
     - xgi
@@ -4729,6 +4897,7 @@
   contributor_type:
     - maintainer
     - peer-review
+  packages_eic:
   packages_editor:
   packages_submitted:
     - xgi
@@ -4757,6 +4926,7 @@
   contributor_type:
     - maintainer
     - peer-review
+  packages_eic:
   packages_editor:
   packages_submitted:
     - xgi
@@ -4785,6 +4955,7 @@
   contributor_type:
     - maintainer
     - peer-review
+  packages_eic:
   packages_editor:
   packages_submitted:
     - xgi
@@ -4813,6 +4984,7 @@
   contributor_type:
     - maintainer
     - peer-review
+  packages_eic:
   packages_editor:
   packages_submitted:
     - xgi
@@ -4841,6 +5013,7 @@
   contributor_type:
     - maintainer
     - peer-review
+  packages_eic:
   packages_editor:
   packages_submitted:
     - xgi
@@ -4869,6 +5042,7 @@
   contributor_type:
     - maintainer
     - peer-review
+  packages_eic:
   packages_editor:
   packages_submitted:
     - xgi
@@ -4899,6 +5073,7 @@
     - package-guide
     - peer-review
     - reviewer
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -4927,6 +5102,7 @@
   board: false
   contributor_type:
     - package-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -4954,6 +5130,7 @@
   board: false
   contributor_type:
     - peer-review-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -4983,6 +5160,7 @@
     - peer-review
     - peer-review-guide
     - reviewer
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -5010,6 +5188,7 @@
   board: false
   contributor_type:
     - web-contrib
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -5038,6 +5217,7 @@
   contributor_type:
     - peer-review
     - reviewer
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -5067,6 +5247,7 @@
     - maintainer
     - peer-review
     - submitting-author
+  packages_eic:
   packages_editor:
   packages_submitted:
     - biocypher
@@ -5094,6 +5275,7 @@
   board: false
   contributor_type:
     - package-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -5122,6 +5304,7 @@
     - editor
     - peer-review
     - reviewer
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -5150,8 +5333,10 @@
   contributor_type:
     - editor
     - peer-review
+  packages_eic:
   packages_editor:
     - eomaps
+    - thztools
   packages_submitted:
   packages_reviewed:
   location:
@@ -5177,6 +5362,7 @@
   board: false
   contributor_type:
     - package-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -5204,6 +5390,7 @@
   contributor_type:
     - peer-review
     - reviewer
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -5233,6 +5420,7 @@
     - maintainer
     - peer-review
     - submitting-author
+  packages_eic:
   packages_editor:
   packages_submitted:
     - sunpy
@@ -5261,6 +5449,7 @@
   contributor_type:
     - maintainer
     - peer-review
+  packages_eic:
   packages_editor:
   packages_submitted:
     - sunpy
@@ -5290,6 +5479,7 @@
   contributor_type:
     - maintainer
     - peer-review
+  packages_eic:
   packages_editor:
   packages_submitted:
     - sunpy
@@ -5318,6 +5508,7 @@
   contributor_type:
     - maintainer
     - peer-review
+  packages_eic:
   packages_editor:
   packages_submitted:
     - sunpy
@@ -5346,6 +5537,7 @@
   contributor_type:
     - maintainer
     - peer-review
+  packages_eic:
   packages_editor:
   packages_submitted:
     - sunpy
@@ -5375,6 +5567,7 @@
   contributor_type:
     - maintainer
     - peer-review
+  packages_eic:
   packages_editor:
   packages_submitted:
     - sunpy
@@ -5403,6 +5596,7 @@
   contributor_type:
     - maintainer
     - peer-review
+  packages_eic:
   packages_editor:
   packages_submitted:
     - sunpy
@@ -5431,6 +5625,7 @@
   contributor_type:
     - maintainer
     - peer-review
+  packages_eic:
   packages_editor:
   packages_submitted:
     - sunpy
@@ -5459,6 +5654,7 @@
   contributor_type:
     - maintainer
     - peer-review
+  packages_eic:
   packages_editor:
   packages_submitted:
     - sunpy
@@ -5487,6 +5683,7 @@
   contributor_type:
     - maintainer
     - peer-review
+  packages_eic:
   packages_editor:
   packages_submitted:
     - sunpy
@@ -5515,6 +5712,7 @@
   contributor_type:
     - maintainer
     - peer-review
+  packages_eic:
   packages_editor:
   packages_submitted:
     - sunpy
@@ -5543,6 +5741,7 @@
   contributor_type:
     - maintainer
     - peer-review
+  packages_eic:
   packages_editor:
   packages_submitted:
     - sunpy
@@ -5571,6 +5770,7 @@
   contributor_type:
     - peer-review
     - reviewer
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -5600,6 +5800,7 @@
     - maintainer
     - peer-review
     - submitting-author
+  packages_eic:
   packages_editor:
   packages_submitted:
     - ncompare
@@ -5628,6 +5829,7 @@
   contributor_type:
     - peer-review
     - reviewer
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -5657,6 +5859,7 @@
     - maintainer
     - peer-review
     - submitting-author
+  packages_eic:
   packages_editor:
   packages_submitted:
     - sciform
@@ -5684,6 +5887,7 @@
   board: false
   contributor_type:
     - package-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -5710,6 +5914,7 @@
   board: false
   contributor_type:
     - package-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -5738,6 +5943,7 @@
   contributor_type:
     - peer-review
     - reviewer
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -5766,6 +5972,7 @@
   contributor_type:
     - peer-review
     - reviewer
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -5777,10 +5984,9 @@
   github_image_id: 2364173
   title:
   sort:
-  bio: Software engineer and mathematician. I was awarded a PhD in Computer Science
-      (in the machine learning field) at Universidad Autónoma de Madrid.
+  bio: Software engineer and mathematician
   organization:
-  date_added: '2024-03-09'
+  date_added: '2024-11-22'
   deia_advisory: false
   editorial_board: false
   emeritus_editor: false
@@ -5796,6 +6002,7 @@
     - maintainer
     - peer-review
     - submitting-author
+  packages_eic:
   packages_editor:
   packages_submitted:
     - rdata
@@ -5826,6 +6033,7 @@
   contributor_type:
     - editor
     - peer-review
+  packages_eic:
   packages_editor:
     - zodipy
   packages_submitted:
@@ -5854,6 +6062,7 @@
   board: false
   contributor_type:
     - community
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -5882,6 +6091,7 @@
     - maintainer
     - peer-review
     - submitting-author
+  packages_eic:
   packages_editor:
   packages_submitted:
     - eomaps
@@ -5909,6 +6119,7 @@
   board: false
   contributor_type:
     - package-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -5936,6 +6147,7 @@
   board: false
   contributor_type:
     - package-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -5962,6 +6174,7 @@
   board: false
   contributor_type:
     - package-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -5989,6 +6202,7 @@
   board: false
   contributor_type:
     - package-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -6015,6 +6229,7 @@
   board: false
   contributor_type:
     - package-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -6041,6 +6256,7 @@
   board: false
   contributor_type:
     - peer-review-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -6068,6 +6284,7 @@
   contributor_type:
     - peer-review
     - reviewer
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -6097,6 +6314,7 @@
     - maintainer
     - peer-review
     - submitting-author
+  packages_eic:
   packages_editor:
   packages_submitted:
     - zodipy
@@ -6125,6 +6343,7 @@
   contributor_type:
     - maintainer
     - peer-review
+  packages_eic:
   packages_editor:
   packages_submitted:
     - zodipy
@@ -6153,6 +6372,7 @@
   contributor_type:
     - maintainer
     - peer-review
+  packages_eic:
   packages_editor:
   packages_submitted:
     - zodipy
@@ -6181,6 +6401,7 @@
   contributor_type:
     - peer-review
     - reviewer
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -6209,6 +6430,7 @@
   contributor_type:
     - peer-review
     - reviewer
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -6240,6 +6462,7 @@
     - peer-review
     - reviewer
     - submitting-author
+  packages_eic:
   packages_editor:
   packages_submitted:
     - xnemogcm
@@ -6269,6 +6492,7 @@
   contributor_type:
     - peer-review
     - reviewer
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -6297,6 +6521,7 @@
   contributor_type:
     - peer-review
     - reviewer
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -6324,6 +6549,7 @@
   board: false
   contributor_type:
     - package-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -6350,6 +6576,7 @@
   board: false
   contributor_type:
     - package-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -6376,6 +6603,7 @@
   board: false
   contributor_type:
     - package-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -6403,6 +6631,7 @@
   contributor_type:
     - package-guide
     - web-contrib
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -6429,6 +6658,7 @@
   board: false
   contributor_type:
     - package-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -6455,6 +6685,7 @@
   board: false
   contributor_type:
     - package-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -6481,6 +6712,7 @@
   board: false
   contributor_type:
     - package-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -6509,6 +6741,7 @@
     - community
     - package-guide
     - web-contrib
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -6536,6 +6769,7 @@
   contributor_type:
     - package-guide
     - web-contrib
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -6562,6 +6796,7 @@
   board: false
   contributor_type:
     - web-contrib
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -6589,6 +6824,7 @@
   board: false
   contributor_type:
     - web-contrib
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -6616,6 +6852,7 @@
   contributor_type:
     - community
     - web-contrib
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -6643,6 +6880,7 @@
   contributor_type:
     - peer-review
     - reviewer
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -6671,6 +6909,7 @@
   contributor_type:
     - peer-review
     - reviewer
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -6701,6 +6940,7 @@
     - peer-review
     - submitting-author
     - web-contrib
+  packages_eic:
   packages_editor:
   packages_submitted:
     - sleplet
@@ -6730,6 +6970,7 @@
   board: false
   contributor_type:
     - package-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -6758,6 +6999,7 @@
   board: false
   contributor_type:
     - package-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -6784,6 +7026,7 @@
   board: false
   contributor_type:
     - package-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -6810,6 +7053,7 @@
   board: false
   contributor_type:
     - package-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -6836,6 +7080,7 @@
   board: false
   contributor_type:
     - web-contrib
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -6863,6 +7108,7 @@
   contributor_type:
     - peer-review
     - reviewer
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -6892,6 +7138,7 @@
   contributor_type:
     - peer-review
     - reviewer
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -6922,6 +7169,7 @@
     - maintainer
     - peer-review
     - submitting-author
+  packages_eic:
   packages_editor:
   packages_submitted:
     - martini
@@ -6950,6 +7198,7 @@
   contributor_type:
     - peer-review
     - reviewer
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -6978,6 +7227,7 @@
   contributor_type:
     - peer-review
     - reviewer
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -7006,6 +7256,7 @@
   contributor_type:
     - peer-review
     - reviewer
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -7035,6 +7286,7 @@
   contributor_type:
     - maintainer
     - peer-review
+  packages_eic:
   packages_editor:
   packages_submitted:
     - automata
@@ -7063,6 +7315,7 @@
   contributor_type:
     - peer-review
     - reviewer
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -7090,6 +7343,7 @@
   board: false
   contributor_type:
     - web-contrib
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -7118,6 +7372,7 @@
     - community
     - package-guide
     - web-contrib
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -7144,6 +7399,7 @@
   board: false
   contributor_type:
     - package-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -7171,6 +7427,7 @@
   board: false
   contributor_type:
     - package-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -7197,6 +7454,7 @@
   board: false
   contributor_type:
     - package-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -7223,6 +7481,7 @@
   board: false
   contributor_type:
     - package-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -7249,6 +7508,7 @@
   board: false
   contributor_type:
     - package-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -7276,6 +7536,7 @@
   contributor_type:
     - community
     - package-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -7302,6 +7563,7 @@
   board: false
   contributor_type:
     - community
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -7330,6 +7592,7 @@
   contributor_type:
     - community
     - package-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -7357,6 +7620,7 @@
   board: false
   contributor_type:
     - package-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -7384,6 +7648,7 @@
   contributor_type:
     - peer-review
     - reviewer
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -7413,6 +7678,7 @@
     - maintainer
     - peer-review
     - submitting-author
+  packages_eic:
   packages_editor:
   packages_submitted:
     - harmonize-wq
@@ -7441,6 +7707,7 @@
   board: false
   contributor_type:
     - package-guide
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -7466,6 +7733,7 @@
   website:
   board: false
   contributor_type:
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -7491,6 +7759,7 @@
   website:
   board: false
   contributor_type:
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -7516,6 +7785,7 @@
   website:
   board: false
   contributor_type:
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -7543,6 +7813,7 @@
   contributor_type:
     - peer-review
     - reviewer
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -7573,6 +7844,7 @@
     - maintainer
     - peer-review
     - submitting-author
+  packages_eic:
   packages_editor:
   packages_submitted:
     - pooltool
@@ -7600,6 +7872,7 @@
   board: false
   contributor_type:
     - web-contrib
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -7629,6 +7902,7 @@
     - maintainer
     - peer-review
     - submitting-author
+  packages_eic:
   packages_editor:
   packages_submitted:
     - stingray
@@ -7657,6 +7931,7 @@
   contributor_type:
     - maintainer
     - peer-review
+  packages_eic:
   packages_editor:
   packages_submitted:
     - stingray
@@ -7686,22 +7961,111 @@
   contributor_type:
     - peer-review
     - reviewer
+  packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
     - stingray
   location: Cambridge, MA
   email:
-- name: Carlos Ramos Carreño
-  github_username: vnmabus
-  github_image_id: 2364173
+- name: Frank Male
+  github_username: frank1010111
+  github_image_id: 4694479
   title:
   sort:
-  bio:  Software engineer and mathematician
-  organization:
-  date_added: '2024-11-22'
+  bio: Full stack scientific programmer - from raw data to decisions
+  organization: Penn State University
+  date_added: '2024-12-01'
   deia_advisory: false
-  editorial_board: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - thztools
+  location: State College, PA
+  email:
+- name:
+  github_username: Romain-Peretti
+  github_image_id: 184390495
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2024-12-01'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - thztools
+  location:
+  email:
+- name: J. Steven Dodge
+  github_username: jsdodge
+  github_image_id: 4602669
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2024-12-01'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://www.sfu.ca/lux/author/j.-steven-dodge/
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+    - submitting-author
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - thztools
+  packages_reviewed:
+  location:
+  email:
+- name: Guglielmo Mastroserio
+  github_username: mgullik
+  github_image_id: 14329835
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2024-12-01'
+  deia_advisory: false
+  editorial_board:
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -7714,9 +8078,68 @@
   contributor_type:
     - maintainer
     - peer-review
+  packages_eic:
   packages_editor:
   packages_submitted:
-    - rdata
+    - stingray
   packages_reviewed:
-  location: Frankfurt, Germany
-  email: carlosramosca@hotmail.com
+  location:
+  email:
+- name: John Swinbank
+  github_username: jdswinbank
+  github_image_id: 460854
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2024-12-01'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://swinbank.org/
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - stingray
+  packages_reviewed:
+  location: Utrecht, NL
+  email: john@swinbank.org
+- name:
+  github_username: matteolucchini1
+  github_image_id: 35686549
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2024-12-01'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - stingray
+  packages_reviewed:
+  location:
+  email:
