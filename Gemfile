@@ -3,6 +3,7 @@ source "https://rubygems.org"
 gem "jekyll-include-cache"
 gem "webrick"
 gem "html-proofer"
+gem "jekyll-webp"
 gem "ffi", "= 1.16.3"
 
 gem "jekyll", "~>4.3.3"
