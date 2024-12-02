@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "The Human Dimension to Clean, Distributable, and Documented Data Science Code"
-excerpt: "Inessa’s leadership and dedication have profoundly shaped the open source community, from NumFOCUS to NumPy and SciPy. Learn more about her impact and contributions."
+excerpt: "Discover how to create clean, accessible, and impactful data science code by focusing on the human side of coding practices. Here, Eric Ma shares insights from his talk at the 2024 pyOpenSci Fall Festival. Learn key open science principles, including readability, cognitive load, and the toolmaker’s mindset, and explore practical strategies to enhance your work"
 author: "Eric J. Ma"
 permalink: /blog/human-dimension-clean-documented-data-science-code.html
 header:
@@ -25,14 +25,6 @@ This post was originally posted on [Eric's blog](https://ericmjl.github.io/blog/
 </picture>
 </figure>
 
-**Note:** This blog post is my keynote talk for the pyOpenSci Fall Festival keynote.
-In lieu of making slides and presenting that way,
-I decided to write a blog post to
-(a) leave attendees with an artifact that can be referenced,
-(b) provide pyOpenSci with content that can be hosted on their blog,
-(c) leave myself an artifact for my own blog, and
-(d) do it in a way that is more fleshed out than a presentation deck.
-{: .notice--info }
 
 ## Introduction
 
@@ -561,25 +553,3 @@ see if you're able to procure hardware to run local LLMs on your own machine.
 It turns out that we have supercomputers (by 1980s standards) in our pockets,
 on our laps, and on our desks,
 and the total amount of compute capacity that just runs idle is staggering.
-
----
-twitter_handle: ericmjl
----
-pub_date: 2024-10-25
----
-summary: This blog post, which is my pyOpenSci Fall Training keynote,
-explores the importance of creating clean, distributable, and well-documented data science code,
-emphasizing the human dimension of coding practices.
-In it, I discuss key concepts such as readability, cognitive load, and the toolmaker's mindset,
-and provide practical insights on
-how to make code more accessible and impactful for both the creator and other users.
-I also touch on the role of AI in coding and documentation.
----
-tags:data science
-coding
-documentation
-readability
-distribution
-best practices
-cognition
-tool making
