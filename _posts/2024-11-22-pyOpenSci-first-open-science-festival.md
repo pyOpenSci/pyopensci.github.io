@@ -39,7 +39,7 @@ We kicked the event off on Monday, October 28, with a morning of KeyNote talks h
 - Share the vibe of the event, emphasizing what stood out (e.g., collaboration, energy).
 - Include 1-2 quotes from participants or speakers that capture the atmosphere.
 
-## Keynote talks 
+## Keynote talks
 
 
 <figure class="align-center">
@@ -60,10 +60,10 @@ We kicked the event off on Monday, October 28, with a morning of KeyNote talks h
 
 [Eric's talk](human-dimension-clean-documented-data-science-code.html) emphasized the importance of readability, user-friendly installation, and thorough documentation in data science projects. He shared personal experiences and best practices to highlight how these elements enhance collaboration and the overall impact of scientific work.
 
-The "Roast Your Repo" exercise was my favorite part of this talk. Eric invited attendees to critique a repository from his thesis. We discussed the repo's shortcomings, which were highlighted by a lack of documentation, testing, and modularity. Often when we are talking about making code and workflows reusable, small non-technical things like fleshed-out README files that describe the repo contents and file names make a huge difference in reusing the work. 
+The "Roast Your Repo" exercise was my favorite part of this talk. Eric invited attendees to critique a repository from his thesis. We discussed the repo's shortcomings, which were highlighted by a lack of documentation, testing, and modularity. Often when we are talking about making code and workflows reusable, small non-technical things like fleshed-out README files that describe the repo contents and file names make a huge difference in reusing the work.
 
 ### Melissa Mendonça
-Melissa Mendonça shared her personal journey into open source. I really appreciated the discussion of her transition from academia to a career focused on open source scientific software. It can be hard and brave to leave academia- a difficult experience I've recently endured in my career. Melissa emphasized the importance of the scientific Python ecosystem, showcasing how foundational libraries like NumPy and SciPy form the basis for a vast and interconnected network of specialized domain-specific projects. 
+Melissa Mendonça shared her personal journey into open source. I really appreciated the discussion of her transition from academia to a career focused on open source scientific software. It can be hard and brave to leave academia- a difficult experience I've recently endured in my career. Melissa emphasized the importance of the scientific Python ecosystem, showcasing how foundational libraries like NumPy and SciPy form the basis for a vast and interconnected network of specialized domain-specific projects.
 
 Melissa also discussed the challenges and benefits of working within a volunteer-driven community, emphasizing the need for clear governance, transparent decision-making, and a thoughtful approach to engaging with software users. Topics that pyOpenSci cares a lot about. Melissa outlined her interpretation of open science, emphasizing transparency, reproducibility, accessibility, and the need for independent investigation of research results.
 
@@ -86,7 +86,7 @@ How to [write better, cleaner code](https://www.pyopensci.org/lessons/clean-modu
 
 ### Create your first Python package
 
-Day two was about [Python Packaging](https://www.pyopensci.org/python-package-guide/tutorials/intro.html#what-is-a-python-package): Guidance on creating and distributing Python packages, including best practices for packaging and sharing code. We taught learners how to make the code that they write reusable and [installable in Python environments](https://www.pyopensci.org/python-package-guide/tutorials/installable-code.html) using [Hatch](https://www.pyopensci.org/python-package-guide/tutorials/get-to-know-hatch.html). We also covered how to add [metadata to your package using a pyproject.toml file which is the modern standard for Python packaging](https://www.pyopensci.org/python-package-guide/tutorials/pyproject-toml.html), and a [license](https://www.pyopensci.org/python-package-guide/tutorials/add-license-coc.html). 
+Day two was about [Python Packaging](https://www.pyopensci.org/python-package-guide/tutorials/intro.html#what-is-a-python-package): Guidance on creating and distributing Python packages, including best practices for packaging and sharing code. We taught learners how to make the code that they write reusable and [installable in Python environments](https://www.pyopensci.org/python-package-guide/tutorials/installable-code.html) using [Hatch](https://www.pyopensci.org/python-package-guide/tutorials/get-to-know-hatch.html). We also covered how to add [metadata to your package using a pyproject.toml file which is the modern standard for Python packaging](https://www.pyopensci.org/python-package-guide/tutorials/pyproject-toml.html), and a [license](https://www.pyopensci.org/python-package-guide/tutorials/add-license-coc.html).
 
 ### Share your code
 
@@ -94,20 +94,20 @@ Day two was about [Python Packaging](https://www.pyopensci.org/python-package-gu
 
 [Adding a doi using Zenodo.](https://www.pyopensci.org/lessons/publish-share-code/cite-code.html)
 
-[Publishing your code both via a journal like JOSS](https://www.pyopensci.org/lessons/publish-share-code/publish-code.html) and through the pyOpenSci peer review partnership with JOSS. and also making it ["published" and accessible using PyPI](https://www.pyopensci.org/lessons/publish-share-code/publish-code.html#pypi) and conda-forge. 
+[Publishing your code both via a journal like JOSS](https://www.pyopensci.org/lessons/publish-share-code/publish-code.html) and through the pyOpenSci peer review partnership with JOSS. and also making it ["published" and accessible using PyPI](https://www.pyopensci.org/lessons/publish-share-code/publish-code.html#pypi) and conda-forge.
 
 - Summarize the primary focus areas or skills covered during the event.
 - Highlight relevance to open science challenges or community needs.
-Tip: you can publish a package to PyPI using Hatch as well. Check out the tutorial 
+Tip: you can publish a package to PyPI using Hatch as well. Check out the tutorial
 
-## What we learned 
+## What we learned
 - Discuss 1-2 lessons learned from organizing or hosting the event.
 - Frame these as goals for improvement or ideas for future events.
 
 
 ## Resources and Takeaways
 
-Most of the resources used to teach are published on our [pyOpenSci lessons website](https://www.pyopensci.org/lessons).  packaging guide... 
+Most of the resources used to teach are published on our [pyOpenSci lessons website](https://www.pyopensci.org/lessons).  packaging guide...
 
 Our packaging guide is also being activiesly translated to Spanish and Japanese.
 
