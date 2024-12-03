@@ -158,7 +158,7 @@ blockquote.highlight-quote {
     @extend %quote-style;
     position: absolute;
     content: close-quote;
-    right: 4rem;
+    right: 10rem; // To ensure the right quote is within the margin
     margin-top:2rem;
   }
   & > div.end {
