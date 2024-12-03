@@ -188,26 +188,36 @@ blockquote.highlight-quote {
   }
 
   &.magenta {
-    & > div.end:after,
+    div.end:after,
     p:before,
     p:after {
+      @extend %quote-style;
       color: $pyos-magenta;
     }
   }
 
   &.purple {
-    & > div.end:after,
+    div.end:after,
     p:before,
     p:after {
       color: $pyos-mediumpurple;
     }
   }
 
+
   @include breakpoint('max-width: #$mobile') {
     padding: 0;
     //font-size: 2rem;
   }
 }
+
+// for some reason i have to manually override here
+blockquote.highlight-quote.magenta:after{
+    color: $pyos-magenta;
+    }
+blockquote.highlight-quote.purple:after{
+    color: $pyos-mediumpurple;
+    }
 
 /* links */
 

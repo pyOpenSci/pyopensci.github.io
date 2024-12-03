@@ -188,6 +188,34 @@ The image below should extend outside of the parent container on right.
 {: .highlight-quote }
 
 
+### Fancy blockquote magenta & purple variants
+
+```markdown
+> This entire effort underscores the power of community when guided in
+> the right direction, showcasing how collective effort can drive
+> meaningful progress.
+{: .highlight-quote .magenta }
+```
+
+> This entire effort underscores the power of community when guided in
+> the right direction, showcasing how collective effort can drive
+> meaningful progress.
+{: .highlight-quote .magenta }
+
+
+```markdown
+> This entire effort underscores the power of community when guided in
+> the right direction, showcasing how collective effort can drive
+> meaningful progress.
+{: .highlight-quote .purple }
+```
+
+> This entire effort underscores the power of community when guided in
+> the right direction, showcasing how collective effort can drive
+> meaningful progress.
+{: .highlight-quote .purple }
+
+
 ### Quotes using include files
 
 You can also create blockquotes using include files.
