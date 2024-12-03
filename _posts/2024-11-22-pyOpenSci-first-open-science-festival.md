@@ -18,62 +18,59 @@ last_modified: 2024-11-22
 
 ## Our inaugural fall festival was a great success!
 
-Three years ago, I envisioned an online event where our community could come together to celebrate open source and  open science, share knowledge, and learn new skills. Last month, that vision became reality with pyOpenSci’s first-ever [Fall Festival, held from October 28 to November 1](/events/pyopensci-2024-fall-festival.html). The event brought together 64 participants from over 15 countries—a global mix of researchers, developers, educators, and Python enthusiasts.
+Three years ago, I envisioned an online event where our community could come together to celebrate open source and open science, share knowledge, and learn new skills. Last month, that vision became reality with pyOpenSci’s first-ever [Fall Festival, held from October 28 to November 1](/events/pyopensci-2024-fall-festival.html). The event brought together **64 participants** from over **15 countries**—a global mix of researchers, developers, educators, and Python enthusiasts.
 
 
-<figure>
-    <a href="/images/events/fall-festival-2024-stats.svg">
-    <img src="/images/events/fall-festival-2024-stats.svg" style="max-width:90%" alt="">
+<figure class="align-center">
+    <a href="/images/events/fall-festival-2024-stats.png">
+    <img src="/images/events/fall-festival-2024-stats.png" style="max-width:90%" alt="">
     </a>
-    <figcaption>Graphic the shows stats 64 participants, 15+ countries
-    </figcaption>
 </figure>
 
 
 The week was packed with inspiring keynotes, hands-on workshops, and informal office hours, where participants connected and reflected on their learning. It was an incredible celebration of the amazing work happening across our community!
 
-We kicked the event off on Monday, October 28, with a morning of KeyNote talks headlined by **Eric Ma, Melissa Mendonça, and Rowan Cockett**. The Monday talks aligned perfectly with the training events held Tuesday through Friday. The talks set the stage for a truly engaging week of learning together.
+******
 
-## Quotes to add
-
-What did you enjoy most:
-
-> I love the engagement…how people were attended to individually despite being in a group setting. I enjoyed that learning could happen in a personal and group setting.
-{: .highlight-quote }
-
-
-> Getting to know about pyOpenSci as an organization and resource. Also, practical, professional tools that I can use right away.
-{: .highlight-quote .magenta }
+What did you enjoy most about the fall festival:
+> Getting to know about pyOpenSci as an organization and resource. Also, [being provided with] practical, professional tools that I can use right away.
+{: .highlight-quote .purple }
 
 
 
-> [I enjoyed....] Leah's teaching style, the platform, and the tutorials. I felt very ease learning together with the pyOpenSci community.
-{: .highlight-quote .magenta }
-
-What topics were most valuable
-
-
-This quote really made my week. My motivation for building pyOpenSci is about community and making open source and data science more accessible to learners from all kinds of backgrounds.
-
-> Thank you so much Leah for your amazing teaching! You are so kind, patient and nice with the students, you make this community inclusive and safe for new learners.
-{: .highlight-quote .magenta }
+*****
 
 ## Acknowledging our amazing team
 
-<figure class="align-center">
+I want to extend our heartfelt gratitude to all the instructors, helpers, and keynote speakers who contributed their time and expertise to make this event truly special. Your dedication, energy, and enthusiasm ensured an engaging and impactful experience for everyone involved!
+
+<figure>
     <a href="/images/events/fall-festival-thank-you.png">
     <img src="/images/events/fall-festival-thank-you.png" alt="Fall Festival Team">
     </a>
-    <figcaption>Our incredible team of instructors, helpers, and keynote speakers. Thank you for making the 2024 Fall Festival a success!</figcaption>
 </figure>
-
-I want to extend our heartfelt gratitude to all the instructors, helpers, and keynote speakers who contributed their time and expertise to make this event truly special. Your dedication, energy, and enthusiasm ensured an engaging and impactful experience for everyone involved!
 
 A special shout-out to Carol Willing, Jeremiah Paige, and Jonny Saunders, who supported multiple workshops and co-developed and reviewed many of the lessons now published online. We’re so lucky to have such an incredible community. 🫶
 
 ## What Made This Event Special
-- Share the vibe of the event, emphasizing what stood out (e.g., collaboration, energy).
-- Include 1-2 quotes from participants or speakers that capture the atmosphere.
+
+
+We kicked the event off on Monday, October 28, with a morning of KeyNote talks headlined by **Eric Ma, Melissa Mendonça, and Rowan Cockett**. The Monday talks aligned perfectly with the training events held Tuesday through Friday. The talks set the stage for a truly engaging week of learning together.]
+
+
+> I love the engagement…how people were attended to individually despite being in a group setting. I enjoyed that learning could happen in a personal and group setting.
+{: .highlight-quote }
+>
+
+What made this event special was the vibe. The energy of participants who wanted to learn together was supported by the vibrant and knowledgeable pyOpenSci community. While many mentioned me directly, the vibe was more than just me. It was our community coming together to help scientists learn hard technical skills -- together and without judgement.
+
+We met learners where they were at!
+
+
+> The enthusiasm of Leah and her friends, Spatial chat and all new Python things I didn't used before like Packaging, Great Tables, Quarto, Clean Code and Programming in [GitHub] CodeSpaces
+{: .highlight-quote }
+
+Using the interactive platform SpatialChat helped to create that vibe. More on that below.
 
 ## Keynote talks
 
@@ -103,7 +100,8 @@ Rowan challenged us to imagine a world where scientific publications are as dyna
 Yes, data!
 
 His vision of collaborative, automated, and iterative publishing—drawing from open-source software principles—was truly inspiring. By shifting away from traditional, static publishing methods, Rowan reminded us that we have the tools to make science more accessible, reproducible, and impactful. Talk about a game-changer!
-## What We Taught
+
+## Let the (open science & open source) learning begin!
 
 <figure class="align-center">
     <a href="/images/events/people-table-working.svg">
@@ -111,10 +109,14 @@ His vision of collaborative, automated, and iterative publishing—drawing from 
     </a>
 </figure>
 
-Over four action-packed days, participants engaged in interactive workshops designed to build skills and confidence in writing, sharing, and publishing scientific code. Using SpatialChat, we created a dynamic and collaborative environment that fostered real-time learning and group discussions—something you just can’t replicate in traditional video call platforms.
+The main "course" of the event was 4 days of active learning. Here, participants engaged in interactive workshops designed to build skills and confidence in writing, sharing, and publishing scientific code. Using SpatialChat, we created a dynamic and collaborative environment that fostered real-time learning and group discussions—something you just can’t replicate in traditional video call platforms like Zoom.
 
-The curriculum followed a clear narrative:
+Our curriculum followed a clear narrative:
+
 **Write better code → Package it → Share it → Tell an interactive data story.**
+
+> [I enjoyed....] Leah's teaching style, the platform, and the tutorials. I felt very ease learning together with the pyOpenSci community.
+{: .highlight-quote .magenta }
 
 Each day introduced new tools and practices to help participants transform their workflows and make their science more accessible, reusable, and impactful. Here’s how we approached it:
 
@@ -129,9 +131,9 @@ We introduced strategies to improve robustness, such as creating [functions](htt
 
 ### Day 2: Create Your First Python Package
 
-On Day 2, participants learned how to turn their code into reusable, installable Python packages. I've taught Python packaging with Hatch now several times over the past year and everyone consistently loves having an all-in-one tool! They also pick it up quickly, which means the tool is accessible and usable - a win-win! This was one person's response to their favorite day:
+On Day 2, participants learned how to turn their code into reusable, installable Python packages. I've taught Python packaging with Hatch several times over the past year, and everyone consistently loves having an all-in-one tool! They also pick it up quickly, making the tool accessible and usable--a win-win! This was one person's response to their favorite day:
 
-The packaging part. I thought Hatch was really useful and I liked the fact that it can do a couple of things as one tool.
+> ...I thought Hatch was really useful and I liked the fact that it can do a couple of things as one tool.
 {: .highlight-quote }
 
 
@@ -143,9 +145,10 @@ The packaging day covered:
 
 ### Day 4: share your Python code (with everyone!)
 
-On Day 4, we empowered participants to share their work more broadly. Many learners enjoyed this day which was cool for me because it was entirely new content I had never taught before but thought was so important to any scientist building software and writing code. Below we asked them what day was their favorite. The theme of this response was common in the feedback:
+On Day 4, we empowered participants to share their work more broadly. Many learners enjoyed this day which was cool for me because it was entirely new content I had never taught before but thought was so important to any scientist building software and writing code. Below, we asked them what day their favorite was. The theme of this response was common in the feedback:
 
->  Definitely day 4 -> making package installable via PyPI by using hatch (one often writes code, but never gets to this stage)
+
+>  [I enjoyed] making package installable via PyPI by using hatch (one often writes code, but never gets to this stage)
 {: .highlight-quote .magenta }
 
  Key share your code topics included:
@@ -177,7 +180,7 @@ The 2024 Fall Festival was an incredible learning experience for pyOpenSci! One 
 > I liked the use of software like spatialchat, where you could break out into groups to work on things. This makes everything a lot more casual and fosters networking.
 {: .highlight-quote }
 
-We were thrilled to offer 16 scholarships for this event, making the festival accessible to a diverse group of attendees. While not all scholarship recipients could attend or verbally participate—likely due to work or other responsibilities—their presence enriched the event in many ways. This highlighted the need for a thoughtful addition of "quiet" tables or spaces for future events, ensuring all participants can engage at their comfort level.
+We were thrilled to offer 16 scholarships for this event, making the festival accessible to diverse attendees. While not all scholarship recipients could attend or verbally participate—likely due to work or other responsibilities—their presence enriched the event in many ways. This highlighted the need for a thoughtful addition of "quiet" tables or spaces for future events, ensuring all participants can engage at their comfort level.
 
 Another valuable insight we gained is that late October can be a busy time for students due to classes and other daytime commitments. This feedback will guide us to explore timing options for future events, potentially outside of traditional school sessions, to better accommodate all participants.
 
@@ -187,11 +190,13 @@ By reflecting on these lessons, we’re excited to continue improving our events
 
 Most of the resources used to teach are published on our [pyOpenSci lessons website](https://www.pyopensci.org/lessons). We’re actively working on updates to incorporate additional content still housed in Google Docs, ensuring it’s accessible to all.
 
-Looking ahead, we’re excited to connect these events more deeply with pyOpenSci’s broader mission of supporting the open-source software that scientist need to make their work open.
+Looking ahead, we’re excited to connect these events more deeply with pyOpenSci’s broader mission of supporting the open-source software scientists need to make their work open. We are also working on:
 
-We are looking forward to next spring and summer, when we'll be at PyCon 2025 and SciPy 2025, holding sprints giving talks, and connecting with you (I hope!) along the way!
+* A new set of lessons that support using GitHub collaboratively and empower contributors to make their first open-source contributions.
+* Running online beginner-friendly sprints that further engage the community in making contributors to open source, no matter how big or small, we want to ease pain points!
+* We are looking forward to next spring and summer, when we'll be at PyCon 2025 and SciPy 2025, holding sprints, giving talks, and connecting with you!
 
-Key an eye out on our blog and events page for upcoming events, new initiatives, and even more opportunities to engage with the vibrant pyOpenSci community. <i class="fa-solid fa-hand-sparkles"></i>
+Check our blog and events page for upcoming events, new initiatives, and even more opportunities to engage with the vibrant pyOpenSci community. <i class="fa-solid fa-hand-sparkles"></i>
 
 
 ## <i class="fa-solid fa-hands"></i> Wrap up
@@ -224,3 +229,22 @@ Follow us on social platforms:
 If you are on LinkedIn, check out and [subscribe to our newsletter, too](https://www.linkedin.com/newsletters/7179551305344933888/?displayConfirmation=true).
 
 </div>
+
+
+******
+
+## Quotes to add
+
+What did you enjoy most:
+
+
+
+
+
+
+What topics were most valuable
+
+This quote really made my week. My motivation for building pyOpenSci is about community and making open source and data science more accessible to learners from all kinds of backgrounds.
+
+> Thank you so much Leah for your amazing teaching! You are so kind, patient and nice with the students, you make this community inclusive and safe for new learners.
+{: .highlight-quote .magenta }
