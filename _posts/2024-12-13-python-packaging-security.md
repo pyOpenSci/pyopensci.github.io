@@ -160,7 +160,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.9'
+          python-version: '3.12'
 
       # Step 3: Cache dependencies
       - name: Cache dependencies
