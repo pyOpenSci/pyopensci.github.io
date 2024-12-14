@@ -16,30 +16,23 @@ comments: true
 last_modified: 2024-12-13
 ---
 
-
 ## Is your PyPI publication workflow secure?
 
-The recent Python package breach [involving Ultralytics](https://blog.yossarian.net/2024/12/06/zizmor-ultralytics-injection) has spotlighted the importance of securing your Python package PyPI publishing workflows. The Ultralytics breach was a supply chain attack where malicious actors exploited a GitHub workflow to inject harmful code into a Python package, enabling them to hijack users’ machines for Bitcoin mining. What this means in English:
+The recent Python package breach [involving Ultralytics](https://blog.pypi.org/posts/2024-12-11-ultralytics-attack-analysis/) has highlighted the need for secure PyPI publishing workflows. Hackers exploited a GitHub workflow (`pull_request_target`) to inject malicious code, which was published to PyPI. Users who downloaded the package unknowingly allowed their machines to be hijacked for Bitcoin mining.
 
-> The Ultralytics breach happened when hackers tricked a Python package into running bad code, letting them use other people’s computers to mine Bitcoin without permission.
+> Hackers tricked a Python package into running bad code, using other people’s computers to mine Bitcoin without permission. Yikes!
 
-Yikes!
-
-todo: just say no to bitcoin mining graphic
-
-
-As open source maintainers, it’s unsettling to consider that our package users could become vulnerable to breaches like this.
-
-
-However, there’s a silver lining. In this case, the incredible PyPI security team had already addressed most of the issues that led to the Ultralytics breach. This incident highlights a gap in understanding of Python packaging security best practices.
+While unsettling, there’s a silver lining: the PyPI security team had already addressed most of the issues that caused this breach.
 
 
 {% include pyos-blockquote.html quote="Because the Ultralytics project was using Trusted Publishing and the PyPA’s publishing GitHub Action: PyPI staff, volunteers, and security researchers were able to dig into how maliciously injected software was able to make its way into the package." author="Seth Larson, PSF Security Expert" class="highlight magenta" %}
 
+This incident underscores the importance of understanding Python packaging security best practices.
 
-This makes sense--we love open source but can't be experts in everything.
+In this blog post, we'll cover the lessons learned that you can apply - TODAY - to your own Python packaging workflows!
 
-## Takeaways
+<div class="notice" markdown="1">
+## TL&DR Takeaways
 
 The Ultralytics breach is a wake-up call for all maintainers: secure your workflows now to protect your users and the Python ecosystem. Start with these key actions:
 
@@ -57,28 +50,7 @@ The Ultralytics breach is a wake-up call for all maintainers: secure your workfl
 - 📱 Enable 2FA for your PyPI account and store recovery codes securely.
 
 These steps will significantly reduce risks to your packages, contributors, and the broader Python ecosystem. Don’t wait—start securing your workflows today.
-
-### What happened in the Ultralytics breach?
-
-The Ultralytics incident was a **supply chain attack**—a type of attack where sneaky coders compromise the tools or processes used to create or distribute software. In this case, the bad actors/hackers wanted to use the user's machines to mine Bitcoin. This was a hack with the goal of using other people's compute for illegal profit!
-
-In this case:
-
-- An attacker exploited a GitHub action's trigger (`pull_request_target`) to inject malicious dependencies into the project.
-- This code was then published to PyPI
-- When a user downloaded and installed the package, their local machine was compromised.
-
-**Yikes!**
-
-TODO: image meme of someone's head exploding
-
-The root cause of the breach was actually:
-
-* A GitHub action workflow configuration that granted publish permissions to pull requests, allowing the attacker to execute unauthorized actions.
-* A leak of the repositories' PyPI token (likely through GitHub secrets).
-* A user (or bot?) gained direct access to the repo itself to push changes to the build that had previously provided some level of security around who could kick off a build that was published to PyPI.
-
-If you want more details about what happened, [you should check out Seth Larson's PyPI blog post on the event](https://blog.pypi.org/posts/2024-12-11-ultralytics-attack-analysis/), Seth is the resident security expert for the PSF and Python.
+</div>
 
 
 ## A call to action if you are publishing to PyPI using GitHub actions
@@ -87,7 +59,7 @@ What's important for us is that this event highlights the need for our ecosystem
 
 For this post, we will use [this workflow that pyOpenSci has setup](https://github.com/pyOpenSci/pyosMeta/blob/main/.github/workflows/publish-pypi.yml) that was reviewed and developed by both a PyPI maintainer and also several core pyOpenSci community members that have significant knowledge about best practices in publishing to PyPI.
 
-Below, are actionable steps you can take to enhance security when publishing Python packages to PyPI using GitHub actions.
+Below are actionable steps you can take to enhance security when publishing Python packages to PyPI using GitHub actions.
 
 
 ## 1. Avoid `pull_request_target` and consider release-based workflows
@@ -176,7 +148,6 @@ jobs:
       ...
 ```
 
-
 ## 4. Use Trusted Publisher for PyPI
 
 If you only [publish locally to PyPI using the command line](https://www.pyopensci.org/python-package-guide/tutorials/publish-pypi.html), you need to use a PyPI token. However, if you’re using GitHub Actions to automate your publishing process, setting up **Trusted Publisher** is a more secure option.
@@ -231,7 +202,7 @@ If you look at the pyometra workflow, notice that we have an [environment called
       url: https://pypi.org/p/pyosmeta
 ```
 
-## Sanitize a branch name in your workflow, before calling it!
+## 6. Sanitize a branch name in your workflow, before calling it!
 
 One of the critical issues in the Ultralytics breach was that attackers crafted a [**malicious branch name containing a shell script**](https://github.com/ultralytics/ultralytics/pull/18020) 🤯. This script executed within the GitHub Action workflow because the branch name was directly referenced using `github.ref`.
 
@@ -304,24 +275,14 @@ The good news here is that if you use a release-based workflow as discussed earl
 
 Restricting publish workflows to tagged releases significantly reduces the risk of such attacks.
 
-### Delete old tokens
-
-If you are using a trusted publisher workflow but have previously created PyPI API tokens for your package to use in GitHub Actions, it’s time to clean house:
-
-- Identify and revoke/delete any unused or old tokens in your PyPI account!!
-- Do the same for your GitHub secrets!
-- Migrate to Trusted Publisher workflows to avoid using tokens entirely (if you can).
 
 ## GitHub & PyPI security tips
 
-The above tips are focused on your GitHub workflows. However, you can also consider locking down your accounts too!
+In addition to securing your workflows, lock down your accounts and repositories:
 
-* Make sure you have 2FA (2-factor authentication) setup for both PyPI and GitHub. This is common these days for financial and even social media accounts. Set things up for your tech and open source accounts too!
-
-Important: Store recovery codes securely (e.g., a password manager).
-
-* Be careful about who can gain direct write access to your project's repository. Only a specific, trusted subset of maintainers should be able to trigger a publish-to-PyPI workflow. Most contributors and maintainers don’t need direct write access to your repository; limiting access reduces security risks.
-
+- **Enable 2FA (2-factor authentication)** for both PyPI and GitHub to prevent unauthorized access. Store recovery codes securely (e.g., in a password manager).
+- **Revoke old tokens**: If you've previously created PyPI API tokens or GitHub secrets, delete any unused or outdated ones.
+- **Restrict repository access**: Limit write access to a trusted subset of maintainers. Most contributors don’t need direct write access, which reduces security risks.
 
 ## Learn More
 
@@ -329,6 +290,7 @@ pyOpenSci follows best practices for PyPI publishing using our custom GitHub Act
 👉 [pyOpenSci Packaging Tutorial](https://www.pyopensci.org/python-package-guide/package-structure-code/python-package-structure.html)
 👉 Join our discourse here
 
+<div class="notice" markdown="1">
 ## Get involved with pyOpenSci
 
 * Keep an eye on our [events page](/events.html) for upcoming training events.
@@ -342,3 +304,4 @@ Follow us on social platforms:
 * [<i class="fa-brands fa-github"></i> GitHub](https://github.com/pyOpenSci)
 
 If you are on LinkedIn, you should [subscribe to our newsletter, too](https://www.linkedin.com/newsletters/7179551305344933888/?displayConfirmation=true).
+</div>
