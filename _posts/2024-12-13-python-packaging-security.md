@@ -17,9 +17,6 @@ last_modified: 2024-12-13
 ---
 
 
-
-
-
 ## Is your PyPI publication workflow secure?
 
 The recent Python package breach [involving Ultralytics](https://blog.yossarian.net/2024/12/06/zizmor-ultralytics-injection) has spotlighted the importance of securing your Python package PyPI publishing workflows. The Ultralytics breach was a supply chain attack where malicious actors exploited a GitHub workflow to inject harmful code into a Python package, enabling them to hijack users’ machines for Bitcoin mining. What this means in English:
@@ -49,19 +46,19 @@ The Ultralytics breach is a wake-up call for all maintainers: secure your workfl
 ### 🔐 Secure your workflows 🔐
 - 🚫 Avoid risky events like `pull_request_target` and adopt release-based workflows.
 - ♻️ Don’t cache dependencies in your publish workflows to prevent tampering.
-- If you reference branches that others may use in a pull request, clean or sanitize branch names in your workflow.
+- If you reference branches in a pull request, clean or sanitize branch names in your workflow.
 
-### **Lock down GitHub repo access**
+### Lock down GitHub repo access
 - 🔒 Restrict repository access to essential maintainers only.
 - ✅ Add automated checks to ensure releases are authorized and secure.
 
-### **Strengthen PyPI security**
+### Strengthen PyPI security
 - 🔑 Set up Trusted Publisher for tokenless authentication with PyPI.
 - 📱 Enable 2FA for your PyPI account and store recovery codes securely.
 
-Taking these steps will significantly reduce risks to your packages, contributors, and the broader Python ecosystem. Don’t wait—start securing your workflows today.
+These steps will significantly reduce risks to your packages, contributors, and the broader Python ecosystem. Don’t wait—start securing your workflows today.
 
-### **What Happened in the Ultralytics Breach?**
+### What happened in the Ultralytics breach?
 
 The Ultralytics incident was a **supply chain attack**—a type of attack where sneaky coders compromise the tools or processes used to create or distribute software. In this case, the bad actors/hackers wanted to use the user's machines to mine Bitcoin. This was a hack with the goal of using other people's compute for illegal profit!
 
@@ -93,7 +90,7 @@ For this post, we will use [this workflow that pyOpenSci has setup](https://gith
 Below, are actionable steps you can take to enhance security when publishing Python packages to PyPI using GitHub actions.
 
 
-## **1. Avoid `pull_request_target` and consider release-based workflows**
+## 1. Avoid `pull_request_target` and consider release-based workflows
 
 The [`pull_request_target`](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#pull_request_target) event in GitHub Actions that Ultralytics used, allows workflows to run with elevated permissions on the base branch, even when triggered by changes from a fork. Thus, when used as a trigger to push a release to PyPI, your workflow becomes vulnerable.
 
@@ -214,12 +211,12 @@ You can see how to set up GitHub Actions securely in our own [PyPI publishing Gi
 **Note:** Trusted Publisher workflows are currently only available for GitHub. Support for GitLab may be coming in the future—stay tuned!
 {: .notice }
 
-## **5. Create a Dedicated Environment for Publish Actions**
+## 5. Create a dedicated environment for publish actions
 
 Use isolated environments in combination with Trusted Publisher in your GitHub workflow to publish to PyPI.
-Isolated environments ensure that your publishing process remains secure even if other parts of your CI pipeline are compromised.
+Isolated environments ensure your publishing process remains secure even if other parts of your CI pipeline are compromised.
 
-If you look at the pyometra workflow, notice that we have an [environment called `pypi`](https://github.com/pyOpenSci/pyosMeta/blob/main/.github/workflows/publish-pypi.yml#L57) that is used for trusted publishing. By setting this up, we have created a direct pipeline between this action and PyPI via the pypi environment and the trusted publisher setup which refers to the workflow file's name.
+If you look at the pyometra workflow, notice that we have an [environment called `pypi`](https://github.com/pyOpenSci/pyosMeta/blob/main/.github/workflows/publish-pypi.yml#L57) that is used for trusted publishing. By setting this up, we have created a direct pipeline between this action and PyPI via the PyPI environment and the trusted publisher setup, which refers to the workflow file's name.
 
 ```yaml
   publish:
@@ -307,7 +304,7 @@ The good news here is that if you use a release-based workflow as discussed earl
 
 Restricting publish workflows to tagged releases significantly reduces the risk of such attacks.
 
-### Delete Old Tokens
+### Delete old tokens
 
 If you are using a trusted publisher workflow but have previously created PyPI API tokens for your package to use in GitHub Actions, it’s time to clean house:
 
@@ -326,8 +323,22 @@ Important: Store recovery codes securely (e.g., a password manager).
 * Be careful about who can gain direct write access to your project's repository. Only a specific, trusted subset of maintainers should be able to trigger a publish-to-PyPI workflow. Most contributors and maintainers don’t need direct write access to your repository; limiting access reduces security risks.
 
 
-## **Learn More**
+## Learn More
 
 pyOpenSci follows best practices for PyPI publishing using our custom GitHub Actions workflow. Check out our tutorial on Python packaging here:
 👉 [pyOpenSci Packaging Tutorial](https://www.pyopensci.org/python-package-guide/package-structure-code/python-package-structure.html)
 👉 Join our discourse here
+
+## Get involved with pyOpenSci
+
+* Keep an eye on our [events page](/events.html) for upcoming training events.
+
+Follow us on social platforms:
+
+* [<i class="fa-brands fa-discourse"></i> Discourse](https://pyopensci.discourse.group/)
+* [<i class="fa-brands fa-mastodon"></i> Mastodon](https://fosstodon.org/@pyopensci)
+* [<i class="fa-solid fa-cloud"></i> Bluesky](https://bsky.app/profile/pyopensci.bsky.social)
+* [<i class="fa-brands fa-linkedin"></i> LinkedIn](https://www.linkedin.com/company/pyopensci)
+* [<i class="fa-brands fa-github"></i> GitHub](https://github.com/pyOpenSci)
+
+If you are on LinkedIn, you should [subscribe to our newsletter, too](https://www.linkedin.com/newsletters/7179551305344933888/?displayConfirmation=true).
