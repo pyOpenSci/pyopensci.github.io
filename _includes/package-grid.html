@@ -52,6 +52,9 @@
                 <!-- TODO: Create and use sunpy.html here -->
                 <li><a href="communities/astropy.html"><i class="fa-solid fa-check-double"></i> <img src="http://img.shields.io/badge/Affiliated-SunPy-yellow.svg?style=flat" alt="SunPy" /></a></li>
             {% endif %}
+            {% if not apackage.active %}
+                <li><i class="fa-solid fa-box-archive"></i> Not Active</li>
+            {% endif %}
         </ul>
         <hr>
         {% if include.community %}
