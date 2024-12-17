@@ -80,6 +80,7 @@ Community Initiatives is an equal opportunity employer and considers applicants 
 We encourage applications from candidates of all backgrounds, especially those traditionally underrepresented in open science and open source communities.
 To apply, please email admin@pyopensci.org with the following:
 
+* A current resume.
 * A cover letter that discusses your experience developing social content. In that cover letter, please include at least one link, image, or example of each of the following:
     * Social posts that you have created (ideally with graphics you have created),
     * A blog post that you have written that you are proud of
