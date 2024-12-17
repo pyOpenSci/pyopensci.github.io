@@ -1,7 +1,7 @@
 ---
 layout: single
-title: "Staying Secure: Best Practices for Publishing Python Packages to PyPI"
-excerpt: "blah"
+title: "How to Secure Your Python Packages on PyPI: Stop the Mining Madness"
+excerpt: "Learn how to secure your Python package PyPI publishing workflows and protect your package from attacks. This post covers actionable steps, using PyPI Trusted Publisher, and sanitizing workflows, to ensure your projects stay safe."
 author: "Leah Wasser"
 permalink: /blog/python-packaging-security-publish-pypi.html
 header:
