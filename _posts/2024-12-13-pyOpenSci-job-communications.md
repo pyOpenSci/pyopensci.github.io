@@ -22,7 +22,8 @@ last_modified: 2024-12-13
 
 ### About the role
 
-pyOpenSci seeks a talented Writer and Social Media Specialist to enhance our communications and engagement with the scientific Python community. This position involves crafting engaging content highlighting our [online learning content](https://www.pyopensci.org/lessons/), [tutorials](https://www.pyopensci.org/python-package-guide/tutorials/intro.html), [events](https://www.pyopensci.org/events/), and [package ecosystem](https://www.pyopensci.org/python-packages.html) for our social media channels, newsletters, and blog to keep our community informed and inspired. It also involved reviewing and editing educational content. This is an excellent opportunity for someone passionate about open science and skilled in clear, impactful communication. The position requires 10-15 hours per week at a rate of 25-40$/hour based on experience, with the flexibility of remote, part-time work. There is some flexibility in this position week-to-week based on pyOpenSci's deadlines. This is a non-regular, part-time, remote, non-exempt position.
+pyOpenSci seeks a talented Writer and Social Media Specialist to enhance our communications and engagement with the scientific Python community. This position involves crafting engaging content highlighting our [online learning content](https://www.pyopensci.org/lessons/), [tutorials](https://www.pyopensci.org/python-package-guide/tutorials/intro.html), [events](https://www.pyopensci.org/events/), and [package ecosystem](https://www.pyopensci.org/python-packages.html) for our social media channels, newsletters, and blog to keep our community informed and inspired. It also involved reviewing and editing educational content. This is an excellent opportunity for someone passionate about open science and skilled in clear, impactful communication. The position requires 10-15 hours per week at a rate of 25-40$/hour based on experience, with the flexibility of remote, part-time work. There is some flexibility in this position week-to-week based on pyOpenSci's deadlines. This is a non-regular, part-time, remote, non-exempt position. This position will report
+to the pyOpenSci Executive Director. Applicants must be eligible for employment in the United States.
 
 ### About pyOpenSci
 
@@ -58,7 +59,7 @@ pyOpenSci also has plans to launch a YouTube channel. Video editing skills are n
 
 ## About You
 
-* Broadly familiar with open science and open source principles.
+* Broadly familiar with open science and open source principles and excited about developing content that promotes these principles.
 * Experienced in science communication, writing, or a related field.
 * Fluent in written and spoken English.
 
