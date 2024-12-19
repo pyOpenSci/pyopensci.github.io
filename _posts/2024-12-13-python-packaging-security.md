@@ -57,7 +57,7 @@ The Ultralytics breach is a wake-up call for all maintainers: secure your workfl
 - 📱 Enable 2FA for your PyPI account and store recovery codes securely.
 >>>>>>> 029bd04 (fix: edits from @webknjaz)
 
-These steps will significantly reduce risks to your packages, contributors, and the broader Python ecosystem. Don’t wait—start securing your workflows today.
+These steps will significantly reduce risks to your packages, contributors, and the broader Python ecosystem. Don’t wait — start securing your workflows today.
 </div>
 
 
