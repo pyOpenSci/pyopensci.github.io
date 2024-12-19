@@ -175,8 +175,13 @@ NOTE: vI don't fully agree with that note on unauthorized publication. Unauthori
 
 The basic steps associated with Trusted Publisher are:
 1. Go to your PyPI account and add a trusted publisher workflow to your account.
+<<<<<<< HEAD
 2. Fill out a form that looks like the one below. Notice that it asks for your workflow name, environment (STRONGLY recommended), and package name.
 3. Update your GitHub action workflow to reference the Trusted Publisher configuration.
+=======
+2. Fill out a form that looks like the one below. Notice that it asks for your workflow name, (optional) environment, and package name.
+3. Update your GitHub Actions workflow to reference the Trusted Publisher configuration.
+>>>>>>> e16facb (fix: edits from @webknjaz)
 
 <figure>
   <picture>
