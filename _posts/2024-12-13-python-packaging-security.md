@@ -49,8 +49,13 @@ The Ultralytics breach is a wake-up call for all maintainers: secure your workfl
 - Delete old GitHub tokens that you are no longer using. And Refresh existing tokens that you need periodically.
 
 ### Strengthen PyPI security
+<<<<<<< HEAD
 - 🔑 Set up Trusted Publisher for tokenless authentication with PyPI.
 - Make sure you store recovery codes securely for PyPI 2-factor authentication (2FA).
+=======
+- 🔑 Set up Trusted Publisher for tokenless authentication with PyPI and **always** set the validated environment in it.
+- 📱 Enable 2FA for your PyPI account and store recovery codes securely.
+>>>>>>> 029bd04 (fix: edits from @webknjaz)
 
 These steps will significantly reduce risks to your packages, contributors, and the broader Python ecosystem. Don’t wait—start securing your workflows today.
 </div>
