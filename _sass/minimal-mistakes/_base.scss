@@ -262,6 +262,24 @@ pre {
   font-size: 1em;
 }
 
+
+
+
+kbd {
+    background-color: $kbd-color-background;
+    color: $kbd-color-text;
+    border-radius: 0.25rem;
+    box-shadow: 0 2px 0 1px $kbd-color-border;
+    line-height: 1;
+    font-size: .75em;
+    padding: .15em .25em;
+
+    &:hover {
+         box-shadow: 0 1px 0 0.5px $kbd-color-border;
+         top: 1px;
+  }
+}
+
 pre {
   overflow-x: auto; /* add scrollbars to wide code blocks*/
 }

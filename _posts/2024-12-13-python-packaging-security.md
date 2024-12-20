@@ -18,7 +18,7 @@ last_modified: 2024-12-19
 
 ## Is your PyPI publication workflow secure?
 
-We can learn a lot from the recent Python package breach [involving Ultralytics](https://blog.pypi.org/posts/2024-12-11-ultralytics-attack-analysis/). This breach highlighted our need to use more secure PyPI publishing workflows for Python packages.
+We can learn a lot from the Python package breach [involving Ultralytics](https://blog.pypi.org/posts/2024-12-11-ultralytics-attack-analysis/). This breach highlighted the importance of making our PyPI publishing workflows for Python packages more secure.
 
 In this breach, hackers exploited a GitHub action workflow to inject malicious code into a Python package. This package was then published to PyPI. The outcome: Users who downloaded the package unknowingly allowed their machines to be hijacked for Bitcoin mining.
 
@@ -28,11 +28,10 @@ While unsettling, there’s a silver lining: the PyPI security team had already 
 
 {% include pyos-blockquote.html quote="Because the Ultralytics project was using Trusted Publishing and the PyPA’s publishing GitHub Action: PyPI staff, volunteers, and security researchers were able to dig into how maliciously injected software was able to make its way into the package." author="Seth Larson, PSF Security Expert" class="highlight magenta" %}
 
-This incident underscores the importance of understanding Python packaging security best practices, and this includes understanding how to lock things down on GitHub & GitLab!
+This means that the important thing for us, as maintainers, is that we all should know how to lock down our publishing workflows.
+Here, I'll cover the lessons learned that you can apply TODAY to your Python packaging workflows!
 
-But never fear, here, I'll cover the lessons learned that you can apply TODAY to your Python packaging workflows!
-
-*Special thanks to [Sviatoslav Sydorenko](https://github.com/webknjaz) for reviewing this blog post!!*
+*Special thanks to [Sviatoslav Sydorenko](https://github.com/webknjaz) for reviewing and providing significant input on this blog post!!*
 
 <div class="notice" markdown="1">
 ## TL;DR Takeaways
@@ -58,7 +57,7 @@ Don’t wait--start securing your Python publishing workflows today. 🔒
 
 The Ultralytics breach highlights the need for us all to follow and understand secure PyPI publishing practices and carefully monitor workflows. Below are actionable steps you can take to enhance security when publishing Python packages to PyPI using GitHub actions.
 
-[PyPA provides a great overview of using actions to publish your Python package.](https://packaging.python.org/en/latest/guides/publishing-package-distribution-releases-using-github-actions-ci-cd-workflows/)
+<i class="fa-solid fa-circle-info"></i> [PyPA provides a great overview of using actions to publish your Python package.](https://packaging.python.org/en/latest/guides/publishing-package-distribution-releases-using-github-actions-ci-cd-workflows/)
 {: .notice }
 
 ## 1. Create a dedicated GitHub environment for publishing actions
@@ -83,16 +82,21 @@ If you look at the workflow example below, notice that we have an [environment c
 
 To lockdown a GitHub environment:
 
-* First, go to the **settings** in your repository where the workflow is run
+* First, go to the <kbd>Settings</kbd> in your repository where the workflow is run
 * Within settings, select **environments** from the left-hand sidebar
-* Add a new environment. Use `pypi` as your environment name; this is what PyPA (the Python Packaging Authority) recommends.
-* Ensure **Required reviewers** is enabled. This setting allows you to designate specific individuals who can approve and manually run the workflow on GitHub. Any reviewers you add must have the appropriate permissions to authorize the workflow by clicking a button. This adds a human verification step to the process.
-* Once the required reviewers are checked, add maintainers who you want to be able to enable the action to run.
+* Add a new environment. Use <kbd>pypi</kbd> as your environment name; this is what PyPA (the Python Packaging Authority) recommends.
+* Ensure <kbd>Required reviewers</kbd> is enabled. This setting allows you to designate specific individuals who can approve and manually run the workflow on GitHub. Any reviewers you add must have the appropriate permissions to authorize the workflow by clicking a button. This adds a human verification step to the process.
+* Once the <kbd>Required reviewers</kbd> button is checked, add maintainers who you want to be able to enable the action to run.
 
-*Optionally, you can prevent self-review, preventing someone from triggering a release or a build and then running it!*
+*Optionally, you can click <kbd>prevent self-review</kbd>, preventing someone from triggering a release or a build and then running it!*
 
-TODO: add an animated gif that shows the process on GitHub of creating the environment in setting and adding users. Or add screenshots.
-{: .notice }
+<figure>
+    <img src="/images/python-packaging/create-github-environment.gif" alt="Animated gif file that shows the github interface where you can click on settings and go to the environment setting to create or edit a GitHub environment">
+  <figcaption>
+    To create a new environment to use in a GitHub action, 1) go to your repo's settings; 2) click <kbd>environment</kbd>; 3) add a new environment. In this screenshot, we already have a <kbd>pypi</kbd> environment created. Note that you can name your environment whatever you want, however, PyPI suggests that you use the name <kbd>pypi</kbd> for a Trusted Publisher workflow.
+  </figcaption>
+</figure>
+
 
 <figure>
     <img src="/images/python-packaging/github-action-environment-pypi.png" alt="Screenshot of the GitHub settings interface showing the ‘Environments’ section with configuration options for ‘pypi.’ The ‘Deployment protection rules’ section is visible, with ‘Required reviewers’ enabled and two reviewers listed: ‘lwasser’ and ‘willingc.’ Other options such as ‘Prevent self-review’ and ‘Wait timer’ are present but not enabled.">
@@ -135,6 +139,7 @@ The steps for setting up Trusted Publisher are:
 7. Fill out a form that looks like the one below in the add a new pending publisher section. Notice that you can select GitHub, GitLab, Google and Active State as platforms.
 10. Notice that the form asks for your project name, owner, repo name, workflow's file name, and environment (**STRONGLY recommended**).
 
+
 <figure>
   <picture>
     <source srcset="/images/python-packaging/trusted-publisher-form.webp" type="image/webp">
@@ -146,6 +151,18 @@ The steps for setting up Trusted Publisher are:
 </figure>
 
 For an example of a GitHub workflow that uses trusted publishing, check out our active pyOpenSci [PyPI publishing GitHub workflow](https://github.com/pyOpenSci/pyosMeta/blob/main/.github/workflows/publish-pypi.yml), which follows the Trusted Publisher approach.
+
+
+<figure>
+  <picture>
+    <source srcset="/images/python-packaging/trusted-publisher-manage.webp" type="image/webp">
+    <img src="trusted-publisher-form.webp" alt="PyPI Trusted Publisher manage settings showing what the Trusted Publisher setup looks like after you've created it in PyPI. It shows all of the items that you filled out in the form and has a remove button if you want to remove it from PyPI. " loading="lazy">
+  </picture>
+  <figcaption>
+    Example of the PyPI Trusted Publisher setup in PyPI once you've created the Trusted PuUblisher link by filling the form out above.
+  </figcaption>
+</figure>
+
 
 **Note:** Read more here about [support for publishing to GitLab](https://docs.pypi.org/trusted-publishers/adding-a-publisher/#gitlab-cicd) using trusted publishing.
 {: .notice }
