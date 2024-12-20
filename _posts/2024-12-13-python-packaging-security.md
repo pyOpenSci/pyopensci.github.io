@@ -13,12 +13,12 @@ categories:
 classes: wide
 toc: true
 comments: true
-last_modified: 2024-12-13
+last_modified: 2024-12-19
 ---
 
 ## Is your PyPI publication workflow secure?
 
-We can learn a lot from the recent Python package breach [involving Ultralytics](https://blog.pypi.org/posts/2024-12-11-ultralytics-attack-analysis/). This breach has highlighted our need to use more secure PyPI publishing workflows.
+We can learn a lot from the recent Python package breach [involving Ultralytics](https://blog.pypi.org/posts/2024-12-11-ultralytics-attack-analysis/). This breach highlighted our need to use more secure PyPI publishing workflows for Python packages.
 
 In this breach, hackers exploited a GitHub action workflow to inject malicious code into a Python package. This package was then published to PyPI. The outcome: Users who downloaded the package unknowingly allowed their machines to be hijacked for Bitcoin mining.
 
@@ -30,37 +30,27 @@ While unsettling, there’s a silver lining: the PyPI security team had already 
 
 This incident underscores the importance of understanding Python packaging security best practices, and this includes understanding how to lock things down on GitHub & GitLab!
 
-Here, I'll cover the lessons learned that you can apply TODAY to your Python packaging workflows!
+But never fear, here, I'll cover the lessons learned that you can apply TODAY to your Python packaging workflows!
+
+*Special thanks to [Sviatoslav Sydorenko](https://github.com/webknjaz) for reviewing this blog post!!*
 
 <div class="notice" markdown="1">
 ## TL;DR Takeaways
 
 The Ultralytics breach is a wake-up call for all maintainers: secure your workflows to protect your users and the Python ecosystem. The most important steps that you can take are actually the simplest:
 
-Below are **2 things that you can do right now** to secure your PyPI Python packaging workflow:
+Below are **3 things that you can do right now** to secure your PyPI Python packaging workflow:
 
 ### Secure GitHub--Human and GitHub--PyPI connections
 
+1. 🔒 If you have a GitHub action that publishes to PyPI, make sure that the **publish section of your action uses a controlled GitHub environment**. Name that environment `pypi` and set environment permissions in GitHub that allow specific trusted maintainers to authorize the environment to run. I'll show you how to do this below.
+1. 🤝 Create a **Trusted Publisher link between your package's (GitHub/GitLab) repository and PyPI**. You can call this trusted connection within the locked-down GitHub environment (named `pypi`) that you created above.
+1. 🍒 Add [`zizmor`](https://woodruffw.github.io/zizmor/) to your build to check GitHub actions for vulnerabilities. You can run zizmor on your workflow files locally, or you can set it up as a pre-commit hook which is probably a better bet.
 
-### Strengthen PyPI security
-- 🔑 Set up Trusted Publisher for tokenless authentication with PyPI and **always** set the validated environment in it.
-- 📱 Enable 2FA for your PyPI account and store recovery codes securely.
+Together, these three steps protect both sides of your PyPI publication process--the trigger on GitHub and the connection between GitHub and PyPI. 🚀🚀🚀
 
-1. 🔒 If you have a GitHub action that publishes to PyPI, make sure that the publish section of your action uses a GitHub environment. Name that environment `pypi` and set environment permissions in GitHub that allow specific trusted maintainers to authorize the environment to run. I'll show you how to do this below.
-1. 🤝 Create a Trusted Publisher link between GitHub and PyPI. You can call this trusted connection within the locked-down GitHub environment (named `pypi`) that you created above.
+Don’t wait--start securing your Python publishing workflows today. 🔒
 
-Together, these two measures protect both sides of your PyPI publication process - the trigger on GitHub and the connection between GitHub and PyPI.
-
-Yaas!
-
-If you want a 🍒 cherry on top (because who doesn't love cherries?!), add [`zizmor`](https://woodruffw.github.io/zizmor/) to your build to check GitHub actions for vulnerabilities. We'll talk about zizmor, more, below.
-
-These steps (and the other best practices mentioned below) will significantly reduce risks to your packages, contributors, and the broader Python ecosystem.
-
-Don’t wait--start securing your Python publishing workflows today.
-
-TODO add all reviewers and link to their githubs...
-note: many thanks to xxxx for reviewing this post for accuracy and accessibility!
 </div>
 
 
@@ -68,11 +58,14 @@ note: many thanks to xxxx for reviewing this post for accuracy and accessibility
 
 The Ultralytics breach highlights the need for us all to follow and understand secure PyPI publishing practices and carefully monitor workflows. Below are actionable steps you can take to enhance security when publishing Python packages to PyPI using GitHub actions.
 
+[PyPA provides a great overview of using actions to publish your Python package.](https://packaging.python.org/en/latest/guides/publishing-package-distribution-releases-using-github-actions-ci-cd-workflows/)
+{: .notice }
+
 ## 1. Create a dedicated GitHub environment for publishing actions
 
-First, make sure that your publish action uses an isolated GitHub environment. Isolated environments ensure your publishing process remains secure even if other parts of your CI pipeline are compromised. This is because you can lock an environment down by ensuring that only specific users have access to authorize this environment to run.
+First, make sure that your PyPI publish GitHub action uses an isolated GitHub environment. Isolated environments ensure your publishing process remains secure even if other parts of your CI pipeline are compromised. This is because you can lock an environment down by ensuring that only specific users can authorize this environment to run.
 
-If you look at the pyoMeta workflow, notice that we have an [environment called `pypi`](https://github.com/pyOpenSci/pyosMeta/blob/2a09fba/.github/workflows/publish-pypi.yml#L57) that is used for trusted publishing. The `pypi` environment creates a direct link between this action and PyPI Trusted Published (discussed below).
+If you look at the workflow example below, notice that we have an [environment called `pypi`](https://github.com/pyOpenSci/pyosMeta/blob/2a09fba/.github/workflows/publish-pypi.yml#L57) that is used for trusted publishing. The `pypi` environment creates a direct link between this action and PyPI Trusted Published (discussed below).
 
 ```yaml
   publish:
@@ -86,12 +79,19 @@ If you look at the pyoMeta workflow, notice that we have an [environment called 
       name: pypi
       url: https://pypi.org/p/pyosmeta
 ```
+*****
 
-To lock the environment down in GitHub go to:
+To lockdown a GitHub environment:
 
-* settings --> environments --> add the environment name --> and then add trusted users who can manually authorize the action that uses the environment to run.
+* First, go to the **settings** in your repository where the workflow is run
+* Within settings, select **environments** from the left-hand sidebar
+* Add a new environment. Use `pypi` as your environment name; this is what PyPA (the Python Packaging Authority) recommends.
+* Ensure **Required reviewers** is enabled. This setting allows you to designate specific individuals who can approve and manually run the workflow on GitHub. Any reviewers you add must have the appropriate permissions to authorize the workflow by clicking a button. This adds a human verification step to the process.
+* Once the required reviewers are checked, add maintainers who you want to be able to enable the action to run.
 
-TODO: add an animated gif that shows creating the environment in GitHub. or add a screenshot of the environment screen where you make a new one.
+*Optionally, you can prevent self-review, preventing someone from triggering a release or a build and then running it!*
+
+TODO: add an animated gif that shows the process on GitHub of creating the environment in setting and adding users. Or add screenshots.
 {: .notice }
 
 <figure>
@@ -104,28 +104,36 @@ TODO: add an animated gif that shows creating the environment in GitHub. or add 
 
 ## 2. 🔑 Use Trusted Publisher for PyPI
 
-If you only [publish locally to PyPI using the command line](https://www.pyopensci.org/python-package-guide/tutorials/publish-pypi.html), you must use a PyPI token. However, if you’re using GitHub Actions to automate your publishing process, setting up **Trusted Publisher** is a secure and easier-to-manage option.
+Now that you have a GitHub environment setup, you can set up Trusted Publisher in your PyPI account.
 
-A Trusted Publisher setup creates a secure link or "pipeline" between PyPI and your GitHub repository because:
+A Trusted Publisher setup creates a short-lived secure link between PyPI and your repository.
 - PyPI is allowed to authenticate your [package distribution files (sDist and Wheel archives)](https://www.pyopensci.org/python-package-guide/package-structure-code/python-package-distribution-files-sdist-wheel.html#how-to-create-the-distribution-format-that-pypi-and-pip-expects) uploads directly, so no additional configuration is required.
-- It restricts publishing to specific GitHub action workflows and environments defined in your repository.
+- Trusted Publisher restricts publishing to a specific GitHub action workflows and environments defined in your repository.
 
+Using a Trusted publisher combined with a locked-down environment eliminates the need to store sensitive tokens as GitHub secrets. It also removes the need to refresh and update tokens periodically to avoid token leaks or theft issues.
 
-Using a Trusted publisher + a locked-down environment eliminates the need to store sensitive tokens as GitHub secrets. It also removes the need to refresh and update tokens periodically to avoid issues with token leaks or theft.
-{: .notice .notice--success }
+<figure>
+    <img src="/images/python-packaging/trusted-publisher-pypi-github.png" alt="A workflow diagram showing GitHub Actions building distribution files (sdist and wheel), publishing them securely to PyPI, represented as a warehouse. The diagram includes a lock icon emphasizing security, with the pyOpenSci logo in the top-left corner.">
+  <figcaption>
+    Example of the PyPI Trusted Publisher form, used to securely link a GitHub repository with PyPI for publishing Python packages. Trusted Publisher reduces the risk of token theft and improves overall security.
+  </figcaption>
+</figure>
+
+If you only [publish locally to PyPI using the command line](https://www.pyopensci.org/python-package-guide/tutorials/publish-pypi.html), you must use a PyPI token. However, if you’re using GitHub Actions to automate your publishing process, setting up **Trusted Publisher** is a secure and easier-to-manage option.
+{: .notice }
 
 ### How to get started
 
 [PyPI provides a great guide to getting started with Trusted Publisher](https://docs.pypi.org/trusted-publishers/adding-a-publisher/).
 
-The basic steps associated with Trusted Publisher are:
-1. Go to your PyPI account and add a trusted publisher workflow to your account.
-2. Fill out a form that looks like the one below. Notice that it asks for your workflow name, environment (STRONGLY recommended), and package name.
-3. Update your GitHub action workflow to reference the Trusted Publisher configuration.
-=======
-2. Fill out a form that looks like the one below. Notice that it asks for your workflow name, (optional) environment, and package name.
-3. Update your GitHub Actions workflow to reference the Trusted Publisher configuration.
->>>>>>> e16facb (fix: edits from @webknjaz)
+
+The steps for setting up Trusted Publisher are:
+1. Login to your PyPI account
+2. Click on your profile which should take you to **Your projects**.
+3. Click on **publishing** on the left-hand side of the site. (it's below account settings).
+4. At the top of the page is a Manage publishers section. At the bottom you will see **Add a new pending publisher**
+7. Fill out a form that looks like the one below in the add a new pending publisher section. Notice that you can select GitHub, GitLab, Google and Active State as platforms.
+10. Notice that the form asks for your project name, owner, repo name, workflow's file name, and environment (**STRONGLY recommended**).
 
 <figure>
   <picture>
@@ -137,25 +145,27 @@ The basic steps associated with Trusted Publisher are:
   </figcaption>
 </figure>
 
-You can see how to set up GitHub Actions securely in our own [PyPI publishing GitHub workflow](https://github.com/pyOpenSci/pyosMeta/blob/main/.github/workflows/publish-pypi.yml), which follows the Trusted Publisher approach.
+For an example of a GitHub workflow that uses trusted publishing, check out our active pyOpenSci [PyPI publishing GitHub workflow](https://github.com/pyOpenSci/pyosMeta/blob/main/.github/workflows/publish-pypi.yml), which follows the Trusted Publisher approach.
 
 **Note:** Read more here about [support for publishing to GitLab](https://docs.pypi.org/trusted-publishers/adding-a-publisher/#gitlab-cicd) using trusted publishing.
 {: .notice }
 
-## 3. Consider adding zizmor to your builds
+## 3. Add `zizmor` to your CI workflows
 
-Finally, consider adding [Zizmor](https://woodruffw.github.io/zizmor/) to your builds. Zizmor is a static analysis tool designed to help identify GitHub Action security issues. Zizmor scans your workflows and highlights common vulnerabilities, ensuring your (continuous integration / continuous deployment) pipelines remain secure and efficient.
+Finally, consider adding [Zizmor](https://woodruffw.github.io/zizmor/) to your CI and pre-commit checks.
+
+Zizmor is a static analysis tool designed to help identify GitHub Action security issues. Zizmor scans your workflows and highlights common vulnerabilities, ensuring your (continuous integration / continuous deployment) pipelines remain secure and efficient.
 
 **TODO: link to packaging guide page on CI when it's published friday**
 
-Named as a playful nod to Dr. Zizmor’s famous “clear skin” ads, Zizmor aims to give you “beautiful clean workflows.” The tool is beginner-friendly and straightforward to use, even for those new to workflow security.
+Named as a playful nod to Dr. Zizmor’s famous “clear skin” ads, Zizmor aims to give you “beautiful clean workflows.”
 
 Learn more about Zizmor on the [official blog post by Yossarian](https://blog.yossarian.net/2024/10/27/Now-you-can-have-beautiful-clean-workflows).
 {: .notice .notice--success }
 
 ### How it works
 
-To use zizmor first install it using `pip` or `pipx`:
+To use zizmor locally to check your workflows, first install it using `pip` or `pipx`:
 
 `pip install zizmor`
 
@@ -173,12 +183,18 @@ error[template-injection]: code injection via template expansion
 github.ref_name may expand into attacker-controllable code
 ```
 
+You can also set up `zizmor` as a pre-commit hook. pyOpenSci plans to do this in the near future, but here is an example of it [setup for core Python](https://github.com/python/cpython/pull/127749/files#diff-63a9c44a44acf85fea213a857769990937107cf072831e1a26808cfde9d096b9R64).
+
+Pre-commit hooks run checks every time you commit a file to git history. [Learn more about using them here.](https://www.pyopensci.org/python-package-guide/package-structure-code/code-style-linting-format.html#use-pre-commit-hooks-to-run-code-formatters-and-linters-on-commits)
+
+
+
 ## Other security measures you can consider
 
-There are other things that we can learn too from the recent breach. These are discussed below.
+There are other things that we can learn too from the recent breach. Many of htese will be identified if you setup zizmor. These are discussed below.
 
 
-## Sanitize branch names in your workflow
+### Sanitize branch names in your workflow
 
 One of the critical issues in the Ultralytics breach involved a
 [**malicious branch name containing a shell script**](https://github.com/ultralytics/ultralytics/pull/18020)
@@ -283,6 +299,3 @@ Follow us on social platforms:
 
 If you are on LinkedIn, you should [subscribe to our newsletter, too](https://www.linkedin.com/newsletters/7179551305344933888/?displayConfirmation=true).
 </div>
-
-****** TODO add this link****
-https://packaging.python.org/en/latest/guides/publishing-package-distribution-releases-using-github-actions-ci-cd-workflows/
