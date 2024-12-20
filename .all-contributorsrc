@@ -413,6 +413,15 @@
         "code",
         "review"
       ]
+    },
+    {
+      "login": "sethmlarson",
+      "name": "Seth Michael Larson",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18519037?v=4",
+      "profile": "https://sethmlarson.dev",
+      "contributions": [
+        "review"
+      ]
     }
   ],
   "commitConvention": "angular",
