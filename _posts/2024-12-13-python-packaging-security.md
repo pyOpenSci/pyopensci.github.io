@@ -64,6 +64,10 @@ The Ultralytics breach highlights the need for us all to follow and understand s
 
 First, make sure that your PyPI publish GitHub action uses an isolated GitHub environment. Isolated environments ensure your publishing process remains secure even if other parts of your CI pipeline are compromised. This is because you can lock an environment down by ensuring that only specific users can authorize this environment to run.
 
+
+A GitHub action is a CI/CD (Continuous Integration/Continuous Deployment) tool that allows you to automate tests. [Click here to read more about what CI/CI is.](https://www.pyopensci.org/python-package-guide/continuous-integration/ci.html)
+{: .notice .notice--success }
+
 If you look at the workflow example below, notice that we have an [environment called `pypi`](https://github.com/pyOpenSci/pyosMeta/blob/2a09fba/.github/workflows/publish-pypi.yml#L57) that is used for trusted publishing. The `pypi` environment creates a direct link between this action and PyPI Trusted Published (discussed below).
 
 ```yaml
@@ -133,9 +137,9 @@ If you only [publish locally to PyPI using the command line](https://www.pyopens
 
 The steps for setting up Trusted Publisher are:
 1. Login to your PyPI account
-2. Click on your profile which should take you to **Your projects**.
+2. Click on your profile to take you to **Your projects**.
 3. Click on **publishing** on the left-hand side of the site. (it's below account settings).
-4. At the top of the page is a Manage publishers section. At the bottom you will see **Add a new pending publisher**
+4. At the top of the page is a Manage Publishers section. At the bottom, you will see **Add a new pending publisher**
 7. Fill out a form that looks like the one below in the add a new pending publisher section. Notice that you can select GitHub, GitLab, Google and Active State as platforms.
 10. Notice that the form asks for your project name, owner, repo name, workflow's file name, and environment (**STRONGLY recommended**).
 
@@ -252,7 +256,7 @@ jobs:
 ```
 
 
-## Lock down GitHub permissions
+## Lock down GitHub permissions & delete old PyPI tokens and GitHub secrets
 
 In addition to securing your workflows, lock down your accounts and repositories. 2FA (2-factor authentication) is thankfully now required as a security measure for both GitHub and PyPI. However, be sure to store your recovery codes somewhere safe (like in a password manager!).
 
@@ -266,7 +270,7 @@ Also consider:
 
 A trigger event in a GitHub action is an event that sets off an action to run. For instance, you might have a trigger that runs a linter like Black or Ruff when a new pull request is opened.
 
-The [`pull_request_target`](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#pull_request_target) trigger event in GitHub Actions that Ultralytics used, allows workflows to run with elevated permissions on the base branch, even when triggered by changes from a fork. Thus, your workflow becomes vulnerable when used as a trigger to push a release to PyPI.
+The [`pull_request_target`](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#pull_request_target) trigger event in GitHub Actions that Ultralytics used allows workflows to run with elevated permissions on the base branch, even when triggered by changes from a fork. Thus, your workflow becomes vulnerable when used as a trigger to push a release to PyPI.
 
 Instead of a pull_request_target or a pull_request, consider adopting a **release-based publishing workflow**. This approach:
 
@@ -310,7 +314,7 @@ Follow us on social platforms:
 
 * [<i class="fa-brands fa-discourse"></i> Discourse](https://pyopensci.discourse.group/)
 * [<i class="fa-brands fa-mastodon"></i> Mastodon](https://fosstodon.org/@pyopensci)
-* [<i class="fa-solid fa-cloud"></i> Bluesky](https://bsky.app/profile/pyopensci.bsky.social)
+* [<i class="fa-solid fa-cloud"></i> Bluesky](https://bsky.app/profile/pyopensci.org)
 * [<i class="fa-brands fa-linkedin"></i> LinkedIn](https://www.linkedin.com/company/pyopensci)
 * [<i class="fa-brands fa-github"></i> GitHub](https://github.com/pyOpenSci)
 
