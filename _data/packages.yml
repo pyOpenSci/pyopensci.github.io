@@ -21,7 +21,7 @@
       github_username: frank1010111
     - name:
       github_username: Romain-Peretti
-  archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10100093.svg)](https://doi.org/10.5281/zenodo.10100093)'
+  archive: https://doi.org/10.5281/zenodo.10100093
   version_accepted: 0.5.5
   date_accepted: '2024-11-22'
   created_at: 2024-08-01 11:54:53+00:00
@@ -75,7 +75,7 @@
       github_username: taldcroft
     - name: Mason Ng
       github_username: masonng-astro
-  archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11383212.svg)](https://doi.org/10.5281/zenodo.11383212)'
+  archive: https://doi.org/10.5281/zenodo.11383212
   version_accepted: '2.1'
   date_accepted: '2024-10-01'
   created_at: 2024-06-14 12:59:47+00:00
@@ -177,7 +177,7 @@
       github_username: sebastianotronto
     - name: Eliot Robson
       github_username: eliotwrobson
-  archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13824503.svg)](https://doi.org/10.5281/zenodo.13824503)'
+  archive: https://doi.org/10.5281/zenodo.13824503
   version_accepted: 0.4.1
   date_accepted: '2024-09-16'
   created_at: 2024-04-15 21:44:43+00:00
@@ -276,7 +276,7 @@
       github_username: pllim
     - name: Leo Singer
       github_username: lpsinger
-  archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10999612.svg)](https://doi.org/10.5281/zenodo.10999612)'
+  archive: https://doi.org/10.5281/zenodo.10999612
   version_accepted: v.0.9.2
   date_accepted: '2024-04-21'
   created_at: 2024-02-24 12:28:07+00:00
@@ -370,7 +370,7 @@
       github_username: paigem
     - name: Callum Rollo
       github_username: callumrollo
-  archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10973846.svg)](https://doi.org/10.5281/zenodo.10973846)'
+  archive: https://doi.org/10.5281/zenodo.10973846
   version_accepted: 0.4.3
   date_accepted: '2024-04-02'
   created_at: 2024-01-06 12:33:45+00:00
@@ -422,7 +422,7 @@
       github_username: irisdyoung
     - name: Nima Sarajpoor
       github_username: NimaSarajpoor
-  archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10864492.svg)](https://doi.org/10.5281/zenodo.10864492)'
+  archive: https://doi.org/10.5281/zenodo.10864492
   version_accepted: 8.4.0 ([repo](https://github.com/caleb531/automata/releases/tag/v8.4.0),
       [pypi](https://pypi.org/project/automata-lib/8.4.0/), [archive](https://zenodo.org/records/12594180))
   date_accepted: '2024-06-29'
@@ -468,7 +468,7 @@
       github_username: magsol
     - name: Jakub Tomasz Gnyp
       github_username: gnypit
-  archive: '[10.5281/zenodo.7268074](https://doi.org/10.5281/zenodo.7268074)'
+  archive: https://doi.org/10.5281/zenodo.7268074
   version_accepted: 1.4.7
   date_accepted: '2024-05-21'
   created_at: 2023-11-16 01:32:15+00:00
@@ -539,7 +539,7 @@
       github_username: Septaris
     - name: Sean Kelly
       github_username: nutjob4life
-  archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8384174.svg)](https://doi.org/10.5281/zenodo.8384174)'
+  archive: https://doi.org/10.5281/zenodo.8384174
   version_accepted: 5.1.1
   date_accepted: '2024-01-18'
   created_at: 2023-10-30 18:45:06+00:00
@@ -548,6 +548,7 @@
   issue_link: https://github.com/pyOpenSci/software-submission/issues/147
   joss:
   partners:
+    - sunpy
   gh_meta:
       name: sunpy
       description: SunPy - Python for Solar Physics
@@ -584,7 +585,7 @@
       github_username: cmarmo
     - name: Michael Tso
       github_username: cmtso
-  archive: '[10.5281/zenodo.10625407](https://zenodo.org/doi/10.5281/zenodo.10625407)'
+  archive: https://zenodo.org/doi/10.5281/zenodo.10625407
   version_accepted: 1.7.2
   date_accepted: '2024-02-06'
   created_at: 2023-10-25 13:12:48+00:00
@@ -628,7 +629,7 @@
       github_username: rich-iannone
     - name: Hassan Kibirige
       github_username: has2k1
-  archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10776842.svg)](https://doi.org/10.5281/zenodo.10776842)'
+  archive: https://doi.org/10.5281/zenodo.10776842
   version_accepted: '[0.11.0](https://github.com/vnmabus/rdata/releases/tag/0.11.0)'
   date_accepted: 2024-2-29
   created_at: 2023-10-20 08:26:10+00:00
@@ -672,7 +673,7 @@
       github_username: yeelauren
     - name: Joseph H Kennedy
       github_username: jhkennedy
-  archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10822829.svg)](https://doi.org/10.5281/zenodo.10822829)'
+  archive: https://doi.org/10.5281/zenodo.10822829
   version_accepted: 8.0.2
   date_accepted: '2024-03-14'
   created_at: 2023-09-26 12:14:47+00:00
@@ -721,7 +722,7 @@
       github_username: LilyAnderssonLee
     - name: Elais Player
       github_username: elais
-  archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10951577.svg)](https://doi.org/10.5281/zenodo.10951577)'
+  archive: https://doi.org/10.5281/zenodo.10951577
   version_accepted: '[v4.8.8](https://github.com/sourmash-bio/sourmash/releases/tag/v4.8.8)'
   date_accepted: 2024-4-4
   created_at: 2023-08-14 21:02:57+00:00
@@ -767,7 +768,7 @@
       github_username: isabelizimm
     - name: Michael Chow
       github_username: machow
-  archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10645273.svg)](https://doi.org/10.5281/zenodo.10645273)'
+  archive: https://doi.org/10.5281/zenodo.10645273
   version_accepted: 0.34.1
   date_accepted: '2024-02-07'
   created_at: 2023-07-21 04:41:08+00:00
@@ -812,7 +813,7 @@
       github_username: BerylKanali
     - name: Du Phan
       github_username: du-phan
-  archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8431894.svg)](https://doi.org/10.5281/zenodo.8431894)'
+  archive: https://doi.org/10.5281/zenodo.8431894
   version_accepted: v[1.1.3](https://github.com/JacksonBurns/astartes/releases/tag/v1.1.3)
   date_accepted: '2023-10-15'
   created_at: 2023-07-10 22:12:51+00:00
@@ -872,7 +873,7 @@
       github_username: JonnyTran
     - name: Marta Leszczyńska
       github_username: Reckony
-  archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8365068.svg)](https://doi.org/10.5281/zenodo.8365068)'
+  archive: https://doi.org/10.5281/zenodo.8365068
   version_accepted: 0.7.4
   date_accepted: '2023-09-23'
   created_at: 2023-06-08 16:15:32+00:00
@@ -925,7 +926,7 @@
       github_username: Midnighter
     - name:
       github_username: Sinna
-  archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10158204.svg)](https://doi.org/10.5281/zenodo.10158204)'
+  archive: https://doi.org/10.5281/zenodo.10158204
   version_accepted: v0.5.33
   date_accepted: '2023-11-14'
   created_at: 2023-05-04 18:08:32+00:00
@@ -970,7 +971,7 @@
       github_username: Robaina
     - name:
       github_username: khynder
-  archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8214655.svg)](https://doi.org/10.5281/zenodo.8214655)'
+  archive: https://doi.org/10.5281/zenodo.8214655
   version_accepted: v [0.2.36](https://github.com/katoss/cardsort/releases/tag/v0.2.36)
   date_accepted: '2023-08-16'
   created_at: 2023-04-20 11:29:27+00:00
@@ -1020,7 +1021,7 @@
       github_username: 7yl4r
     - name: Ayush Anand
       github_username: ayushanand18
-  archive: '[![DOI](https://zenodo.org/badge/603308264.svg)](https://zenodo.org/badge/latestdoi/603308264)'
+  archive: https://zenodo.org/badge/latestdoi/603308264
   version_accepted: 0.0.7
   date_accepted: '2023-05-30'
   created_at: 2023-03-25 00:27:27+00:00
@@ -1113,7 +1114,7 @@
       github_username: OriolAbril
     - name: Alexey Izmailov
       github_username: alizma
-  archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8124312.svg)](https://doi.org/10.5281/zenodo.8124312)'
+  archive: https://doi.org/10.5281/zenodo.8124312
   version_accepted: 0.1.10
   date_accepted: '2023-07-05'
   created_at: 2023-03-01 14:16:51+00:00
@@ -1162,7 +1163,7 @@
       github_username: sneakers-the-rat
     - name: Szabolcs Horvát
       github_username: szhorvat
-  archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8125660.svg)](https://doi.org/10.5281/zenodo.8125660)'
+  archive: https://doi.org/10.5281/zenodo.8125660
   version_accepted: 2023.7.0
   date_accepted: '2023-07-14'
   created_at: 2023-02-04 23:07:20+00:00
@@ -1212,7 +1213,7 @@
       github_username: jmunroe
     - name: Agustina
       github_username: aguspesce
-  archive: '[![DOI](https://zenodo.org/badge/142608764.svg)](https://zenodo.org/badge/latestdoi/142608764)'
+  archive: https://zenodo.org/badge/latestdoi/142608764
   version_accepted: v0.42.0
   date_accepted: '2023-04-11'
   created_at: 2023-01-16 16:59:20+00:00
@@ -1261,7 +1262,7 @@
       github_username: rhine3
     - name: Sylvain HAUPERT
       github_username: shaupert
-  archive: '[![DOI](https://zenodo.org/badge/159904494.svg)](https://zenodo.org/badge/latestdoi/159904494)'
+  archive: https://zenodo.org/badge/latestdoi/159904494
   version_accepted: v [5.0](https://github.com/vocalpy/crowsetta/releases/tag/5.0.0)
   date_accepted: '2023-03-28'
   created_at: 2023-01-03 19:39:16+00:00
@@ -1308,7 +1309,7 @@
       github_username: Batalex
     - name: Corinna Thoben
       github_username: c-thoben
-  archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7696204.svg)](https://doi.org/10.5281/zenodo.7696204)'
+  archive: https://doi.org/10.5281/zenodo.7696204
   version_accepted: 1.0.0
   date_accepted: '2023-03-10'
   created_at: 2022-12-16 22:02:53+00:00
@@ -1356,7 +1357,7 @@
       github_username: AlexS12
     - name: K. Arthur Endsley
       github_username: arthur-e
-  archive: '[![DOI](https://zenodo.org/badge/303936309.svg)](https://zenodo.org/badge/latestdoi/303936309)'
+  archive: https://zenodo.org/badge/latestdoi/303936309
   version_accepted: 1.0.3
   date_accepted: '2021-12-29'
   created_at: 2021-08-31 12:58:45+00:00
@@ -1412,7 +1413,7 @@
       github_username: jbusecke
     - name: Szymon Moliński
       github_username: simonmolinsky
-  archive: '[Zenodo Archive](https://zenodo.org/record/6702566)'
+  archive: https://zenodo.org/record/6702566
   version_accepted: V 0.7.0
   date_accepted: 2022-9-1
   created_at: 2021-07-23 00:37:07+00:00
@@ -1456,7 +1457,7 @@
       github_username: willingc
     - name: Robert Guggenberger
       github_username: agricolab
-  archive: '[![DOI](https://zenodo.org/badge/279395106.svg)](https://zenodo.org/badge/latestdoi/279395106)'
+  archive: https://zenodo.org/badge/latestdoi/279395106
   version_accepted: v1.1.1
   date_accepted: '2021-08-19'
   created_at: 2021-04-03 19:25:41+00:00
@@ -1505,7 +1506,7 @@
       github_username: gawbul
     - name: Katharina Sielemann
       github_username: ksielemann
-  archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4731011.svg)](https://doi.org/10.5281/zenodo.4731011)'
+  archive: https://doi.org/10.5281/zenodo.4731011
   version_accepted: v [0.8.8](https://github.com/JonnyTran/OpenOmics/releases/tag/v0.8.8)
   date_accepted: '2021-04-17'
   created_at: 2021-01-01 19:54:20+00:00
@@ -1553,7 +1554,7 @@
       github_username: bpucker
     - name: Leonardo de Oliveira Martins
       github_username: leomrtns
-  archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5512990.svg)](https://doi.org/10.5281/zenodo.5512990)'
+  archive: https://doi.org/10.5281/zenodo.5512990
   version_accepted: v [1.0](https://github.com/McTavishLab/physcraper/releases/tag/v1.0.0)
   date_accepted: '2021-09-14'
   created_at: 2020-07-15 22:31:52+00:00
@@ -1597,7 +1598,7 @@
       github_username: edgarriba
     - name: Soumith Chintala
       github_username: soumith
-  archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4073515.svg)](https://doi.org/10.5281/zenodo.4073515)'
+  archive: https://doi.org/10.5281/zenodo.4073515
   version_accepted: v [0.6.0](https://github.com/pystiche/pystiche/releases/tag/v0.6.0)
   date_accepted: '2020-10-08'
   created_at: 2020-07-02 12:57:08+00:00
@@ -1642,7 +1643,7 @@
       github_username: agporto
     - name: Seth Donoughe
       github_username: sdonoughe
-  archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4761417.svg)](https://doi.org/10.5281/zenodo.4761417)'
+  archive: https://doi.org/10.5281/zenodo.4761417
   version_accepted: 2.0.1
   date_accepted: '2021-05-13'
   created_at: 2020-05-04 16:51:36+00:00
@@ -1689,7 +1690,7 @@
       github_username: rbeucher
     - name: Charles Le Losq
       github_username: charlesll
-  archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3877690.svg)](https://doi.org/10.5281/zenodo.3877690)'
+  archive: https://doi.org/10.5281/zenodo.3877690
   version_accepted: v [0.2.7](https://github.com/morganjwilliams/pyrolite/releases/tag/0.2.7)
   date_accepted: '2020-06-04'
   created_at: 2020-02-19 04:54:35+00:00
@@ -1734,7 +1735,7 @@
       github_username: xmnlab
     - name: Martin Fleischmann
       github_username: martinfleis
-  archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3710951.svg)](https://doi.org/10.5281/zenodo.3710951)'
+  archive: https://doi.org/10.5281/zenodo.3710951
   version_accepted: v [0.3.rc1](https://github.com/movingpandas/movingpandas/releases/tag/v0.3.rc1)
   date_accepted: '2020-03-19'
   created_at: 2020-01-06 17:13:27+00:00
@@ -1879,7 +1880,7 @@
       github_username: HaoZeke
     - name: Sean Gillies
       github_username: sgillies
-  archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3520899.svg)](https://doi.org/10.5281/zenodo.3520899)'
+  archive: https://doi.org/10.5281/zenodo.3520899
   version_accepted: v [0.7.5](https://github.com/earthlab/earthpy/releases/tag/v0.7.5)
   date_accepted: '2019-11-06'
   created_at: 2019-05-08 15:02:14+00:00
