@@ -20,10 +20,9 @@ last_modified: 2025-01-06
 
 In 2024, pyOpenSci’s vibrant community led efforts to break down barriers to participation in open source scientific software. We empowered scientists to create, contribute to, and discover better software through beginner-friendly training events, collaborative tutorials, and peer review.
 
-
 <figure>
 <picture>
-  <source srcset="/images/pyopensci-general/pyopensci-by-the-numbers-2024.png" type="image/webp">
+  <source srcset="/images/pyopensci-general/pyopensci-by-the-numbers-2024.webp" type="image/webp">
   <img src="/images/pyopensci-general/pyopensci-by-the-numbers-2024.png" alt="Infographic summarizing pyOpenSci’s achievements in 2024 with the title ‘pyOpenSci 2024: A year of community & growth.’ The ‘Training & Sprints’ section shows 7 events and 180 attendees. The ‘Peer Review’ section highlights 39 accepted packages and approximately 100 editors and reviewers. The ‘Community’ section emphasizes 1,436 issues and pull requests submitted, 278 contributors, and 23 new co-developed lessons." />
 </picture>
 </figure>
@@ -36,14 +35,12 @@ Looking back, I’m inspired and humbled by what we’ve achieved together:
 
 As I reflect on an incredible year, I want to take a moment to celebrate these milestones and set the stage for an ambitious 2025. Here’s a look back at what we accomplished together in 2024 and where we're heading next.
 
-<!-- **TODO: count all sprints, all training events (airtable), all other events (airtable) and then count all package reviews for 2024**
-
+<!--
 https://github.com/pyOpenSci/software-submission/issues?q=is%3Aissue+is%3Aopen+created%3A%3E%3D2024-01-01+
 55 new software submissions for our peer review process supported by a strong editorial team and reviewrs
 
 674 community issues and prs
 762 staff
-
 -->
 
 ## Beginner-friendly content development: harnessing diverse expertise
@@ -72,7 +69,7 @@ Our first-ever [Fall Festival](#) featured inspiring keynote speakers like Rowan
 
 <figure>
 <picture>
-  <source srcset="/images/events/fall-festival-blog-keynote-speakers.png" type="image/webp">
+  <source srcset="/images/events/fall-festival-blog-keynote-speakers.webp" type="image/webp">
   <img src="/images/events/fall-festival-blog-keynote-speakers.png" alt="Graphic showing the keynote speakers for the pyOpenSci Fall Festival. The title reads ‘pyOpenSci Fall Festival Keynote Speakers.’ The featured speakers are Melissa Mendoça, James Balamuta, Eric Ma, George Stagg, and Rowan Cockett, each displayed in a circular frame against a purple background with connecting nodes as a design element." />
 </picture>
 </figure>
@@ -87,7 +84,7 @@ The Fall Festival wouldn’t have been possible without the dedication of our in
 
 <figure>
 <picture>
-  <source srcset="/images/events/fall-festival-thank-you.png" type="image/webp">
+  <source srcset="/images/events/fall-festival-thank-you.webp" type="image/webp">
   <img src="/images/events/fall-festival-thank-you.png" alt="Graphic showing a ‘Thank You’ message to pyOpenSci Fall Festival community supporters. The text reads ‘Thank You, pyOpenSci Community Supporters!’ with the Fall Festival logo. Circular photos of community members include Rich Iannone, Steven Sylvester, Jonny Saunders, Tracy Teal, Carol Willing, Felipe Moreno, Tetsuo Koyama, Isabel Zimmerman, and Jeremiah Paige, displayed against a purple background with connecting nodes as a design element. The pyOpenSci URL (pyopensci.org) is displayed in the lower left." />
 </picture>
 </figure>
@@ -122,10 +119,9 @@ This was also the first year where volunteer contributions outnumbered staff con
 
 Wow!
 
-
 <figure>
 <picture>
-  <source srcset="/images/pyopensci-general/pyopensci-github-prs-issues.png" type="image/webp">
+  <source srcset="/images/pyopensci-general/pyopensci-github-prs-issues.webp" type="image/webp">
   <img src="/images/pyopensci-general/pyopensci-github-prs-issues.png" alt="Bar chart titled ‘Staff vs. Volunteer Contributor by Quarter,’ showing the count of contributions by quarter from Q4 2018 to Q1 2025. The chart uses stacked bars with green representing volunteer contributors and purple representing staff contributions. The chart shows significant growth in contributions starting around 2023, with volunteer contributions surpassing staff contributions in recent quarters." />
 </picture>
   <figcaption>Plot that shows an increase in contributions to pyOpenSci open education content.</figcaption>
@@ -150,7 +146,7 @@ We also tried out a new editor in chief rotation system to avoid too much time b
 
 <figure>
 <picture>
-  <source srcset="/images/peer-review/pyos-eic-rotation-2024.png" type="image/webp">
+  <source srcset="/images/peer-review/pyos-eic-rotation-2024.webp" type="image/webp">
   <img src="/images/peer-review/pyos-eic-rotation-2024.png" alt="Graphic titled ‘Editor in Chief 2024 Software Peer Review,’ highlighting the four Editors-in-Chief for 2024 with photos and descriptions.
 	•	Szymon Molinski (Fall 2024): Image of Szymon holding a dog by the ocean. Passion: Open source development, breakdancing, and hiking with his pug.
 	•	Chiara Marmo (Summer 2024): Illustrated portrait of Chiara. Fun fact: She enjoys reading theater pieces playing all roles herself and takes pride in accomplishing unexpected things.
@@ -173,7 +169,7 @@ In 2024, we received over **28 new submissions**.
 
 <figure>
 <picture>
-  <source srcset="/images/peer-review/pyos-partnerships-peer-review.png" type="image/webp">
+  <source srcset="/images/peer-review/pyos-partnerships-peer-review.webp" type="image/webp">
   <img src="/images/peer-review/pyos-partnerships-peer-review.png" alt="Graphic illustrating the pyOpenSci partnerships and review flow:
 	1.	pyOpenSci Accepted: The process starts with a package being accepted by pyOpenSci, represented by the pyOpenSci logo and a checkmark.
 	2.	JOSS Published: Accepted packages can be published in the Journal of Open Source Software (JOSS), indicated by the JOSS logo and a checkmark.
@@ -181,9 +177,7 @@ In 2024, we received over **28 new submissions**.
 
 The flowchart shows arrows connecting these stages, visually demonstrating the possible outcomes after pyOpenSci acceptance." />
 </picture>
-
 </figure>
-
 
 ### Navigating ethical challenges in generative AI
 
@@ -197,13 +191,14 @@ In 2024, we reached an important milestone in pyOpenSci’s journey. Our initial
 
 We are deeply grateful for Sloan’s belief in our vision and commitment to open science. Last fall, we also received support from the Chan Zuckerberg Initiative (CZI), which will empower us as we move forward. This combined funding has enabled us to launch our training initiative, expand our peer review program, and co-develop beginner-friendly lessons and tutorials.
 
-
 ## Building the future: new initiatives and funding efforts
 
 As we look to the future, our current focus includes:
-
-- **GitHub Collaboration Lessons:** We’re developing lessons to teach contributors GitHub workflows. These lessons are well underway and set to be released in Spring 2025.
-- **Educational Videos:** We’re working on a series of educational videos to complement our text-based tutorials. We recognize that people learn differently, and video content provides an accessible way for contributors to engage with technical topics.
+- **Exploring funding models for pyOpenSci**
+- **Growing our peer review partners and program**
+- **Connecting with University OSPOS (Open Source Program Offices)**
+- **A focus on empowering the community to contribute to open source**
+- **Educational Videos that support our online content**
 
 ## Sustaining our impact
 
@@ -211,13 +206,16 @@ As we head into 2025, sustainability remains a top priority. We’re committed t
 
 To our funders, contributors, and community members—thank you. Your support makes our work possible and helps us build a future where scientific software is open, accessible, and collaborative.
 
-Stay engaged, and let’s continue building the future of open science, one contribution at a time.
+As we reflect on where we’ve been and where we’re going, it’s important to acknowledge the teams that continue to guide our vision and growth.
+Our leadership teams—including the [Executive Council](https://www.pyopensci.org/our-community/index.html#executive-council-leadership--staff), [Advisory Council](https://www.pyopensci.org/our-community/index.html#pyopensci-advisory-council) and
+[Peer Review Editorial Board](https://www.pyopensci.org/about-peer-review/index.html#meet-our-editorial-board) have been instrumental in carving the path forward for pyOpenSci.
 
+We look forward to building the future of open science, one contribution at a time—and we invite you to join us on this journey.
 
 <div class="notice" markdown="1">
 ## Get involved with pyOpenSci
 
-* if you'd like to get involved with pyOpenSci, check out our [volunteer page](/volunteer.html).
+If you'd like to get involved with pyOpenSci, check out our [volunteer page](/volunteer.html).
 
 You can also:
 
