@@ -21,7 +21,7 @@ This post was originally posted on [Eric's blog](https://ericmjl.github.io/blog/
 <figure class="align-center">
 <picture>
   <source srcset="/images/blog/2024/eric-ma-blog-post-header.webp" type="image/webp">
-  <img src="/images/blog/2024/eric-ma-blog-post-header.jpg" alt="An illustration of a diverse group of people collaboratively analyzing and discussing code displayed on a large transparent screen, surrounded by books, plants, and abstract symbols, set against a vibrant gradient background." />
+  <img src="/images/blog/2024/eric-ma-blog-post-header.png" alt="An illustration of a diverse group of people collaboratively analyzing and discussing code displayed on a large transparent screen, surrounded by books, plants, and abstract symbols, set against a vibrant gradient background." />
 </picture>
 </figure>
 
