@@ -20,7 +20,7 @@ last_modified: 2024-12-19
 
 We can learn a lot from the Python package breach [involving Ultralytics](https://blog.pypi.org/posts/2024-12-11-ultralytics-attack-analysis/). This breach highlighted the importance of making our PyPI publishing workflows for Python packages more secure.
 
-In this breach, hackers exploited a GitHub action workflow to inject malicious code into a Python package. This package was then published to PyPI. The outcome: Users who downloaded the package unknowingly allowed their machines to be hijacked for Bitcoin mining.
+In this breach, hackers exploited a GitHub Actions workflow to inject malicious code into a Python package. This package was then published to PyPI. The outcome: users who downloaded the package unknowingly allowed their machines to be hijacked for Bitcoin mining.
 
 {% include pyos-blockquote.html quote="Hackers tricked a Python package into running bad code, using other people’s computers to mine Bitcoin without permission. Yikes!" class="highlight" %}
 
@@ -42,9 +42,9 @@ Below are **3 things that you can do right now** to secure your PyPI Python pack
 
 ### Secure GitHub--Human and GitHub--PyPI connections
 
-1. 🔒 If you have a GitHub action that publishes to PyPI, make sure that the **publish section of your action uses a controlled GitHub environment**. Name that environment `pypi` and set environment permissions in GitHub that allow specific trusted maintainers to authorize the environment to run. I'll show you how to do this below.
+1. 🔒 If you have a GitHub Action that publishes to PyPI, make sure that the **publish section of your action uses a controlled GitHub environment**. Name that environment `pypi` and set environment permissions in GitHub that allow specific trusted maintainers to authorize the environment to run. I'll show you how to do this below.
 1. 🤝 Create a **Trusted Publisher link between your package's (GitHub/GitLab) repository and PyPI**. You can call this trusted connection within the locked-down GitHub environment (named `pypi`) that you created above.
-1. 🍒 Add [`zizmor`](https://woodruffw.github.io/zizmor/) to your build to check GitHub actions for vulnerabilities. You can run zizmor on your workflow files locally, or you can set it up as a pre-commit hook which is probably a better bet.
+1. 🍒 Add [`zizmor`](https://woodruffw.github.io/zizmor/) to your build to check GitHub Actions for vulnerabilities. You can run zizmor on your workflow files locally, or you can set it up as a pre-commit hook which is probably a better bet.
 
 Together, these three steps protect both sides of your PyPI publication process--the trigger on GitHub and the connection between GitHub and PyPI. 🚀🚀🚀
 
@@ -55,17 +55,17 @@ Don’t wait--start securing your Python publishing workflows today. 🔒
 
 ## A call to (GitHub) actions ...
 
-The Ultralytics breach highlights the need for us all to follow and understand secure PyPI publishing practices and carefully monitor workflows. Below are actionable steps you can take to enhance security when publishing Python packages to PyPI using GitHub actions.
+The Ultralytics breach highlights the need for us all to follow and understand secure PyPI publishing practices and carefully monitor workflows. Below are actionable steps you can take to enhance security when publishing Python packages to PyPI using GitHub Actions.
 
 <i class="fa-solid fa-circle-info"></i> [PyPA provides a great overview of using actions to publish your Python package.](https://packaging.python.org/en/latest/guides/publishing-package-distribution-releases-using-github-actions-ci-cd-workflows/)
 {: .notice }
 
 ## 1. Create a dedicated GitHub environment for publishing actions
 
-First, make sure that your PyPI publish GitHub action uses an isolated GitHub environment. Isolated environments ensure your publishing process remains secure even if other parts of your CI pipeline are compromised. This is because you can lock an environment down by ensuring that only specific users can authorize this environment to run.
+First, make sure that your PyPI publish GitHub Action uses an isolated GitHub environment. Isolated environments ensure your publishing process remains secure even if other parts of your CI pipeline are compromised. This is because you can lock an environment down by ensuring that only specific users can authorize this environment to run.
 
 
-A GitHub action is a CI/CD (Continuous Integration/Continuous Deployment) tool that allows you to automate tests. [Click here to read more about what CI/CI is.](https://www.pyopensci.org/python-package-guide/continuous-integration/ci.html)
+A GitHub Action is a CI/CD (Continuous Integration/Continuous Deployment) tool that allows you to automate tests. [Click here to read more about what CI/CI is.](https://www.pyopensci.org/python-package-guide/continuous-integration/ci.html)
 {: .notice .notice--success }
 
 If you look at the workflow example below, notice that we have an [environment called `pypi`](https://github.com/pyOpenSci/pyosMeta/blob/2a09fba/.github/workflows/publish-pypi.yml#L57) that is used for trusted publishing. The `pypi` environment creates a direct link between this action and PyPI Trusted Published (discussed below).
@@ -84,7 +84,7 @@ If you look at the workflow example below, notice that we have an [environment c
 ```
 *****
 
-To lockdown a GitHub environment:
+To lock down a GitHub environment:
 
 * First, go to the <kbd>Settings</kbd> in your repository where the workflow is run
 * Within settings, select **environments** from the left-hand sidebar
@@ -95,9 +95,9 @@ To lockdown a GitHub environment:
 *Optionally, you can click <kbd>prevent self-review</kbd>, preventing someone from triggering a release or a build and then running it!*
 
 <figure>
-    <img src="/images/python-packaging/create-github-environment.gif" alt="Animated gif file that shows the github interface where you can click on settings and go to the environment setting to create or edit a GitHub environment">
+    <img src="/images/python-packaging/create-github-environment.gif" alt="Animated gif file that shows the GitHub interface where you can click on settings and go to the environment setting to create or edit a GitHub environment">
   <figcaption>
-    To create a new environment to use in a GitHub action, 1) go to your repo's settings; 2) click <kbd>environment</kbd>; 3) add a new environment. In this screenshot, we already have a <kbd>pypi</kbd> environment created. Note that you can name your environment whatever you want, however, PyPI suggests that you use the name <kbd>pypi</kbd> for a Trusted Publisher workflow.
+    To create a new environment to use in a GitHub Action, 1) go to your repo's settings; 2) click <kbd>environment</kbd>; 3) add a new environment. In this screenshot, we already have a <kbd>pypi</kbd> environment created. Note that you can name your environment whatever you want, however, PyPI suggests that you use the name <kbd>pypi</kbd> for a Trusted Publisher workflow.
   </figcaption>
 </figure>
 
