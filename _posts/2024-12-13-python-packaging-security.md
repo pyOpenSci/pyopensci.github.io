@@ -115,10 +115,10 @@ To lock down a GitHub environment:
 Now that you have a GitHub environment setup, you can set up Trusted Publisher in your PyPI account.
 
 A Trusted Publisher setup creates a short-lived secure link between PyPI and your repository.
-- PyPI is allowed to authenticate your [package distribution files (sDist and Wheel archives)](https://www.pyopensci.org/python-package-guide/package-structure-code/python-package-distribution-files-sdist-wheel.html#how-to-create-the-distribution-format-that-pypi-and-pip-expects) uploads directly, so no additional configuration is required.
-- Trusted Publisher restricts publishing to a specific GitHub action workflows and environments defined in your repository.
+- PyPI is allowed to authenticate your [package distribution files (sdist and wheel archives)](https://www.pyopensci.org/python-package-guide/package-structure-code/python-package-distribution-files-sdist-wheel.html#how-to-create-the-distribution-format-that-pypi-and-pip-expects) uploads directly, so no additional configuration is required.
+- Trusted Publisher restricts publishing to a specific GitHub Actions workflows and environments defined in your repository.
 
-Using a Trusted publisher combined with a locked-down environment eliminates the need to store sensitive tokens as GitHub secrets. It also removes the need to refresh and update tokens periodically to avoid token leaks or theft issues.
+Using a Trusted Publisher combined with a locked-down environment eliminates the need to store sensitive tokens as GitHub secrets. It also removes the need to refresh and update tokens periodically to avoid token leaks or theft issues.
 
 <figure>
     <img src="/images/python-packaging/trusted-publisher-pypi-github.png" alt="A workflow diagram showing GitHub Actions building distribution files (sdist and wheel), publishing them securely to PyPI, represented as a warehouse. The diagram includes a lock icon emphasizing security, with the pyOpenSci logo in the top-left corner.">
@@ -140,8 +140,8 @@ The steps for setting up Trusted Publisher are:
 2. Click on your profile to take you to **Your projects**.
 3. Click on **publishing** on the left-hand side of the site. (it's below account settings).
 4. At the top of the page is a Manage Publishers section. At the bottom, you will see **Add a new pending publisher**
-7. Fill out a form that looks like the one below in the add a new pending publisher section. Notice that you can select GitHub, GitLab, Google and Active State as platforms.
-10. Notice that the form asks for your project name, owner, repo name, workflow's file name, and environment (**STRONGLY recommended**).
+5. Fill out a form that looks like the one below in the add a new pending publisher section. Notice that you can select GitHub, GitLab, Google and ActiveState as platforms.
+6. Notice that the form asks for your project name, owner, repo name, workflow's file name, and environment (**STRONGLY recommended**).
 
 
 <figure>
@@ -154,7 +154,7 @@ The steps for setting up Trusted Publisher are:
   </figcaption>
 </figure>
 
-For an example of a GitHub workflow that uses trusted publishing, check out our active pyOpenSci [PyPI publishing GitHub workflow](https://github.com/pyOpenSci/pyosMeta/blob/main/.github/workflows/publish-pypi.yml), which follows the Trusted Publisher approach.
+For an example of a GitHub workflow that uses Trusted Publishing, check out our active pyOpenSci [PyPI publishing GitHub workflow](https://github.com/pyOpenSci/pyosMeta/blob/main/.github/workflows/publish-pypi.yml), which follows the Trusted Publisher approach.
 
 
 <figure>
@@ -179,9 +179,9 @@ Zizmor is a static analysis tool designed to help identify GitHub Action securit
 
 **TODO: link to packaging guide page on CI when it's published friday**
 
-Named as a playful nod to Dr. Zizmor’s famous “clear skin” ads, Zizmor aims to give you “beautiful clean workflows.”
+Named as a playful nod to Dr. Zizmor’s famous “clear skin” ads, zizmor aims to give you “beautiful clean workflows.”
 
-Learn more about Zizmor on the [official blog post by Yossarian](https://blog.yossarian.net/2024/10/27/Now-you-can-have-beautiful-clean-workflows).
+Learn more about zizmor on the [official blog post by William Woodruff](https://blog.yossarian.net/2024/10/27/Now-you-can-have-beautiful-clean-workflows).
 {: .notice .notice--success }
 
 ### How it works
@@ -196,13 +196,12 @@ Below, I ran it on our pyosMeta PyPI build. Among other things, it found a templ
 
 PyPI really is on top of things!
 
-```bash
+```console
 $ zizmor .github/workflows/publish-pypi.yml
 
 error[template-injection]: code injection via template expansion
    --> path/here/pyosMeta/.github/workflows/publish-pypi.yml:97:7
 github.ref_name may expand into attacker-controllable code
-```
 
 You can also set up `zizmor` as a pre-commit hook. pyOpenSci plans to do this in the near future, but here is an example of it [setup for core Python](https://github.com/python/cpython/pull/127749/files#diff-63a9c44a44acf85fea213a857769990937107cf072831e1a26808cfde9d096b9R64).
 
