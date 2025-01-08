@@ -114,7 +114,7 @@ To lock down a GitHub environment:
 
 Now that you have a GitHub environment setup, you can set up Trusted Publisher in your PyPI account.
 
-A Trusted Publisher setup creates a short-lived secure link between PyPI and your repository.
+A Trusted Publisher setup creates a secure link between PyPI and your repository.
 - PyPI is allowed to authenticate your [package distribution files (sdist and wheel archives)](https://www.pyopensci.org/python-package-guide/package-structure-code/python-package-distribution-files-sdist-wheel.html#how-to-create-the-distribution-format-that-pypi-and-pip-expects) uploads directly, so no additional configuration is required.
 - Trusted Publisher restricts publishing to a specific GitHub Actions workflows and environments defined in your repository.
 
