@@ -22,8 +22,8 @@ In 2024, pyOpenSci’s vibrant community led efforts to break down barriers to p
 
 <figure>
 <picture>
-  <source srcset="/images/pyopensci-general/pyopensci-by-the-numbers-2024.webp" type="image/webp">
-  <img src="/images/pyopensci-general/pyopensci-by-the-numbers-2024.png" alt="Infographic summarizing pyOpenSci’s achievements in 2024 with the title ‘pyOpenSci 2024: A year of community & growth.’ The ‘Training & Sprints’ section shows 7 events and 180 attendees. The ‘Peer Review’ section highlights 39 accepted packages and approximately 100 editors and reviewers. The ‘Community’ section emphasizes 1,436 issues and pull requests submitted, 278 contributors, and 23 new co-developed lessons." />
+  <source srcset="{{ '/images/pyopensci-general/pyopensci-by-the-numbers-2024.webp' | relative_url }}" type="image/webp">
+  <img src= "{{ '/images/pyopensci-general/pyopensci-by-the-numbers-2024.png' | relative_url }}" alt="Infographic summarizing pyOpenSci’s achievements in 2024 with the title ‘pyOpenSci 2024: A year of community & growth.’ The ‘Training & Sprints’ section shows 7 events and 180 attendees. The ‘Peer Review’ section highlights 39 accepted packages and approximately 100 editors and reviewers. The ‘Community’ section emphasizes 1,436 issues and pull requests submitted, 278 contributors, and 23 new co-developed lessons." />
 </picture>
 </figure>
 
@@ -69,8 +69,8 @@ Our first-ever [Fall Festival](#) featured inspiring keynote speakers like Rowan
 
 <figure>
 <picture>
-  <source srcset="/images/events/fall-festival-blog-keynote-speakers.webp" type="image/webp">
-  <img src="/images/events/fall-festival-blog-keynote-speakers.png" alt="Graphic showing the keynote speakers for the pyOpenSci Fall Festival. The title reads ‘pyOpenSci Fall Festival Keynote Speakers.’ The featured speakers are Melissa Mendoça, James Balamuta, Eric Ma, George Stagg, and Rowan Cockett, each displayed in a circular frame against a purple background with connecting nodes as a design element." />
+  <source srcset="{{ '/images/events/fall-festival-blog-keynote-speakers.webp' | relative_url }}" type="image/webp">
+  <img src="{{ '/images/events/fall-festival-blog-keynote-speakers.png' | relative_url }}" alt="Graphic showing the keynote speakers for the pyOpenSci Fall Festival. The title reads: pyOpenSci Fall Festival Keynote Speakers. The featured speakers are Melissa Mendoça, James Balamuta, Eric Ma, George Stagg, and Rowan Cockett, each displayed in a circular frame against a purple background with connecting nodes as a design element." />
 </picture>
 </figure>
 
@@ -84,8 +84,8 @@ The Fall Festival wouldn’t have been possible without the dedication of our in
 
 <figure>
 <picture>
-  <source srcset="/images/events/fall-festival-thank-you.webp" type="image/webp">
-  <img src="/images/events/fall-festival-thank-you.png" alt="Graphic showing a ‘Thank You’ message to pyOpenSci Fall Festival community supporters. The text reads ‘Thank You, pyOpenSci Community Supporters!’ with the Fall Festival logo. Circular photos of community members include Rich Iannone, Steven Sylvester, Jonny Saunders, Tracy Teal, Carol Willing, Felipe Moreno, Tetsuo Koyama, Isabel Zimmerman, and Jeremiah Paige, displayed against a purple background with connecting nodes as a design element. The pyOpenSci URL (pyopensci.org) is displayed in the lower left." />
+  <source srcset="{{ '/images/events/fall-festival-thank-you.webp' | relative_url }}" type="image/webp">
+  <img src="{{ '/images/events/fall-festival-thank-you.png' | relative_url }}" alt="Graphic showing a ‘Thank You’ message to pyOpenSci Fall Festival community supporters. The text reads ‘Thank You, pyOpenSci Community Supporters!’ with the Fall Festival logo. Circular photos of community members include Rich Iannone, Steven Sylvester, Jonny Saunders, Tracy Teal, Carol Willing, Felipe Moreno, Tetsuo Koyama, Isabel Zimmerman, and Jeremiah Paige, displayed against a purple background with connecting nodes as a design element. The pyOpenSci URL (pyopensci.org) is displayed in the lower left." />
 </picture>
 </figure>
 
@@ -121,8 +121,8 @@ Wow!
 
 <figure>
 <picture>
-  <source srcset="/images/pyopensci-general/pyopensci-github-prs-issues.webp" type="image/webp">
-  <img src="/images/pyopensci-general/pyopensci-github-prs-issues.png" alt="Bar chart titled ‘Staff vs. Volunteer Contributor by Quarter,’ showing the count of contributions by quarter from Q4 2018 to Q1 2025. The chart uses stacked bars with green representing volunteer contributors and purple representing staff contributions. The chart shows significant growth in contributions starting around 2023, with volunteer contributions surpassing staff contributions in recent quarters." />
+  <source srcset="{{ '/images/pyopensci-general/pyopensci-github-prs-issues.webp' | relative_url }}" type="image/webp">
+  <img src="{{ '/images/pyopensci-general/pyopensci-github-prs-issues.png' | relative_url }}" alt="Bar chart titled ‘Staff vs. Volunteer Contributor by Quarter,’ showing the count of contributions by quarter from Q4 2018 to Q1 2025. The chart uses stacked bars, with green representing volunteer contributions and purple representing staff contributions. The chart shows a significant growth in contributions starting around 2023, with volunteer contributions surpassing staff contributions in recent quarters." />
 </picture>
   <figcaption>Plot that shows an increase in contributions to pyOpenSci open education content.</figcaption>
 
@@ -146,10 +146,10 @@ We also tried out a new editor in chief rotation system to avoid too much time b
 
 <figure>
 <picture>
-  <source srcset="/images/peer-review/pyos-eic-rotation-2024.webp" type="image/webp">
-  <img src="/images/peer-review/pyos-eic-rotation-2024.png" alt="Graphic titled ‘Editor in Chief 2024 Software Peer Review,’ highlighting the four Editors-in-Chief for 2024 with photos and descriptions.
+  <source srcset="{{ '/images/peer-review/pyos-eic-rotation-2024.webp' | relative_url }}" type="image/webp">
+  <img src="{{ '/images/peer-review/pyos-eic-rotation-2024.png' | relative_url }}" alt="Graphic titled ‘Editor in Chief 2024 Software Peer Review,’ highlighting the four Editors-in-Chief for 2024 with photos and descriptions.
 	•	Szymon Molinski (Fall 2024): Image of Szymon holding a dog by the ocean. Passion: Open source development, breakdancing, and hiking with his pug.
-	•	Chiara Marmo (Summer 2024): Illustrated portrait of Chiara. Fun fact: She enjoys reading theater pieces playing all roles herself and takes pride in accomplishing unexpected things.
+	•	Chiara Marmo (Summer 2024): Illustrated portrait of Chiara. Fun fact: She enjoys reading theater pieces, playing all roles herself, and takes pride in accomplishing unexpected things.
 	•	Alex Batisse (Spring 2024): Black-and-white photo of Alex. Passion: Understanding and visualizing information, from stats to dataviz, and making it intelligible for others.
 	•	Isabel Zimmerman (Winter 2024): Photo of Isabel smiling outdoors in a wide-brimmed hat. Passion: Machine learning operations and improving the processes that support creating, sharing, and maintaining models." />
 </picture>
@@ -169,8 +169,8 @@ In 2024, we received over **28 new submissions**.
 
 <figure>
 <picture>
-  <source srcset="/images/peer-review/pyos-partnerships-peer-review.webp" type="image/webp">
-  <img src="/images/peer-review/pyos-partnerships-peer-review.png" alt="Graphic illustrating the pyOpenSci partnerships and review flow:
+  <source srcset="{{ '/images/peer-review/pyos-partnerships-peer-review.webp' | relative_url }}" type="image/webp">
+  <img src="{{ '/images/peer-review/pyos-partnerships-peer-review.png' | relative_url }}" alt="Graphic illustrating the pyOpenSci partnerships and review flow:
 	1.	pyOpenSci Accepted: The process starts with a package being accepted by pyOpenSci, represented by the pyOpenSci logo and a checkmark.
 	2.	JOSS Published: Accepted packages can be published in the Journal of Open Source Software (JOSS), indicated by the JOSS logo and a checkmark.
 	3.	Community Affiliated: Packages can also become affiliated with community-specific organizations, represented by a box labeled ‘Community Affiliated’ with a checkmark.
