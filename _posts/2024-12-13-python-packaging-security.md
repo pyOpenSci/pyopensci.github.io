@@ -282,7 +282,7 @@ In the example GitHub Action `.yaml` file below, you see a `release` trigger def
 ```yaml
 name: Publish to PyPI
 on:
-  # By using release - only people with admin access to make releases to our repo can trigger the push to PyPI
+  # By using release as a trigger, only GitHub users and actions with write access to make releases to our repo can trigger the push to PyPI
   release:
     types: [published]
 ```
