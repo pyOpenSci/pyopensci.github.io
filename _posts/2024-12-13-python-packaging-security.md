@@ -203,15 +203,15 @@ error[template-injection]: code injection via template expansion
    --> path/here/pyosMeta/.github/workflows/publish-pypi.yml:97:7
 github.ref_name may expand into attacker-controllable code
 
-You can also set up `zizmor` as a pre-commit hook. pyOpenSci plans to do this in the near future, but here is an example of it [setup for core Python](https://github.com/python/cpython/pull/127749/files#diff-63a9c44a44acf85fea213a857769990937107cf072831e1a26808cfde9d096b9R64).
+You can also set up `zizmor` as a pre-commit hook. pyOpenSci plans to do this in the near future, but here is an example of it [set up for core Python](https://github.com/python/cpython/pull/127749/files#diff-63a9c44a44acf85fea213a857769990937107cf072831e1a26808cfde9d096b9R64).
 
-Pre-commit hooks run checks every time you commit a file to git history. [Learn more about using them here.](https://www.pyopensci.org/python-package-guide/package-structure-code/code-style-linting-format.html#use-pre-commit-hooks-to-run-code-formatters-and-linters-on-commits)
+Pre-commit hooks run checks every time you commit a file to Git history. [Learn more about using them here.](https://www.pyopensci.org/python-package-guide/package-structure-code/code-style-linting-format.html#use-pre-commit-hooks-to-run-code-formatters-and-linters-on-commits)
 
 
 
 ## Other security measures you can consider
 
-There are other things that we can learn too from the recent breach. Many of htese will be identified if you setup zizmor. These are discussed below.
+There are other things that we can learn too from the recent breach. Many of these will be identified if you set up zizmor. These are discussed below.
 
 
 ### Sanitize branch names in your workflow
@@ -242,7 +242,7 @@ To prevent this, [sanitize or clean](https://docs.github.com/en/get-started/usin
 remove unsafe characters:
 
 
-```
+```yaml
 jobs:
   example-job:
     runs-on: ubuntu-latest
@@ -267,7 +267,7 @@ Also consider:
 
 ### 🚫 Avoid `pull_request_target` and consider release-based workflows
 
-A trigger event in a GitHub action is an event that sets off an action to run. For instance, you might have a trigger that runs a linter like Black or Ruff when a new pull request is opened.
+A trigger event in a GitHub Action is an event that sets off an action to run. For instance, you might have a trigger that runs a linter like Black or Ruff when a new pull request is opened.
 
 The [`pull_request_target`](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#pull_request_target) trigger event in GitHub Actions that Ultralytics used allows workflows to run with elevated permissions on the base branch, even when triggered by changes from a fork. Thus, your workflow becomes vulnerable when used as a trigger to push a release to PyPI.
 
@@ -276,7 +276,7 @@ Instead of a pull_request_target or a pull_request, consider adopting a **releas
 - Triggers publication workflows only on new versioned releases. You can lock down which maintainers are allowed to create releases using GitHub permissions
 - Ensure workflows related to publishing are explicitly scoped to `release` events.
 
-In the example GitHub action .yaml file below, you see a `release` trigger defined. This tells the action to only trigger the workflow when you publish a release.
+In the example GitHub Action `.yaml` file below, you see a `release` trigger defined. This tells the action to only trigger the workflow when you publish a release.
 
 
 ```yaml
