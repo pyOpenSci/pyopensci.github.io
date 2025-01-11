@@ -21,7 +21,7 @@
       github_username: frank1010111
     - name:
       github_username: Romain-Peretti
-  archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10100093.svg)](https://doi.org/10.5281/zenodo.10100093)'
+  archive: https://doi.org/10.5281/zenodo.10100093
   version_accepted: 0.5.5
   date_accepted: '2024-11-22'
   created_at: 2024-08-01 11:54:53+00:00
@@ -34,10 +34,10 @@
       name: thztools
       description: Tools for terahertz time-domain spectroscopy (THz-TDS)
       created_at: '2022-11-22'
-      stargazers_count: 11
-      watchers_count: 11
+      stargazers_count: 12
+      watchers_count: 12
       open_issues_count: 2
-      forks_count: 2
+      forks_count: 3
       documentation: https://dodge-research-group.github.io/thztools/
       contrib_count: 5
       last_commit: '2024-12-03'
@@ -76,7 +76,7 @@
       github_username: taldcroft
     - name: Mason Ng
       github_username: masonng-astro
-  archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11383212.svg)](https://doi.org/10.5281/zenodo.11383212)'
+  archive: https://doi.org/10.5281/zenodo.11383212
   version_accepted: '2.1'
   date_accepted: '2024-10-01'
   created_at: 2024-06-14 12:59:47+00:00
@@ -91,10 +91,10 @@
       description: Anything can happen in the next half hour (including spectral
           timing made easy)!
       created_at: '2015-09-30'
-      stargazers_count: 176
-      watchers_count: 176
-      open_issues_count: 42
-      forks_count: 145
+      stargazers_count: 179
+      watchers_count: 179
+      open_issues_count: 44
+      forks_count: 144
       documentation: https://stingray.science/stingray
       contrib_count: 30
       last_commit: '2024-12-04'
@@ -112,8 +112,8 @@
       name: Raktim Mukhopadhyay
       github_username: rmj3197
   all_current_maintainers:
-    - name: Giovanni Saraceno
-      github_username: giovsaraceno
+    - name: Raktim Mukhopadhyay
+      github_username: rmj3197 giovsaraceno
   repository_link: https://github.com/rmj3197/QuadratiK
   version_submitted: 1.1.0
   categories:
@@ -133,7 +133,7 @@
   version_accepted: TBD
   date_accepted: missing
   created_at: 2024-05-13 21:23:44+00:00
-  updated_at: 2024-12-03 21:32:38+00:00
+  updated_at: 2024-12-23 10:31:49+00:00
   closed_at:
   issue_link: https://github.com/pyOpenSci/software-submission/issues/180
   joss:
@@ -151,7 +151,7 @@
       forks_count: 0
       documentation: https://quadratik.readthedocs.io/
       contrib_count: 1
-      last_commit: '2024-11-24'
+      last_commit: '2024-12-23'
   labels:
     - 6/pyOS-approved
   active: true
@@ -180,7 +180,7 @@
       github_username: sebastianotronto
     - name: Eliot Robson
       github_username: eliotwrobson
-  archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13824503.svg)](https://doi.org/10.5281/zenodo.13824503)'
+  archive: https://doi.org/10.5281/zenodo.13824503
   version_accepted: 0.4.1
   date_accepted: '2024-09-16'
   created_at: 2024-04-15 21:44:43+00:00
@@ -193,13 +193,13 @@
       name: pooltool
       description: A sandbox billiards game that emphasizes realistic physics
       created_at: '2020-04-09'
-      stargazers_count: 237
-      watchers_count: 237
-      open_issues_count: 7
-      forks_count: 38
+      stargazers_count: 241
+      watchers_count: 241
+      open_issues_count: 8
+      forks_count: 39
       documentation: https://pooltool.readthedocs.io
       contrib_count: 7
-      last_commit: '2024-11-25'
+      last_commit: '2024-12-31'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -281,7 +281,7 @@
       github_username: pllim
     - name: Leo Singer
       github_username: lpsinger
-  archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10999612.svg)](https://doi.org/10.5281/zenodo.10999612)'
+  archive: https://doi.org/10.5281/zenodo.10999612
   version_accepted: v.0.9.2
   date_accepted: '2024-04-21'
   created_at: 2024-02-24 12:28:07+00:00
@@ -299,7 +299,7 @@
       stargazers_count: 11
       watchers_count: 11
       open_issues_count: 3
-      forks_count: 6
+      forks_count: 8
       documentation: https://cosmoglobe.github.io/zodipy/
       contrib_count: 8
       last_commit: '2024-11-19'
@@ -344,8 +344,8 @@
       description: Standardize, clean, and wrangle Water Quality Portal data into
           more analytic-ready formats
       created_at: '2022-06-27'
-      stargazers_count: 15
-      watchers_count: 15
+      stargazers_count: 16
+      watchers_count: 16
       open_issues_count: 25
       forks_count: 6
       documentation: https://usepa.github.io/harmonize-wq/
@@ -377,7 +377,7 @@
       github_username: paigem
     - name: Callum Rollo
       github_username: callumrollo
-  archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10973846.svg)](https://doi.org/10.5281/zenodo.10973846)'
+  archive: https://doi.org/10.5281/zenodo.10973846
   version_accepted: 0.4.3
   date_accepted: '2024-04-02'
   created_at: 2024-01-06 12:33:45+00:00
@@ -393,7 +393,7 @@
       created_at: '2020-01-24'
       stargazers_count: 21
       watchers_count: 21
-      open_issues_count: 1
+      open_issues_count: 2
       forks_count: 11
       documentation: https://xnemogcm.readthedocs.io/
       contrib_count: 6
@@ -430,7 +430,7 @@
       github_username: irisdyoung
     - name: Nima Sarajpoor
       github_username: NimaSarajpoor
-  archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10864492.svg)](https://doi.org/10.5281/zenodo.10864492)'
+  archive: https://doi.org/10.5281/zenodo.10864492
   version_accepted: 8.4.0 ([repo](https://github.com/caleb531/automata/releases/tag/v8.4.0),
       [pypi](https://pypi.org/project/automata-lib/8.4.0/), [archive](https://zenodo.org/records/12594180))
   date_accepted: '2024-06-29'
@@ -445,8 +445,8 @@
       description: A Python library for simulating finite automata, pushdown automata,
           and Turing machines
       created_at: '2016-02-16'
-      stargazers_count: 360
-      watchers_count: 360
+      stargazers_count: 365
+      watchers_count: 365
       open_issues_count: 11
       forks_count: 64
       documentation: https://caleb531.github.io/automata/
@@ -477,7 +477,7 @@
       github_username: magsol
     - name: Jakub Tomasz Gnyp
       github_username: gnypit
-  archive: '[10.5281/zenodo.7268074](https://doi.org/10.5281/zenodo.7268074)'
+  archive: https://doi.org/10.5281/zenodo.7268074
   version_accepted: 1.4.7
   date_accepted: '2024-05-21'
   created_at: 2023-11-16 01:32:15+00:00
@@ -549,7 +549,7 @@
       github_username: Septaris
     - name: Sean Kelly
       github_username: nutjob4life
-  archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8384174.svg)](https://doi.org/10.5281/zenodo.8384174)'
+  archive: https://doi.org/10.5281/zenodo.8384174
   version_accepted: 5.1.1
   date_accepted: '2024-01-18'
   created_at: 2023-10-30 18:45:06+00:00
@@ -558,17 +558,18 @@
   issue_link: https://github.com/pyOpenSci/software-submission/issues/147
   joss:
   partners:
+    - sunpy
   gh_meta:
       name: sunpy
       description: SunPy - Python for Solar Physics
       created_at: '2011-08-06'
-      stargazers_count: 924
-      watchers_count: 924
-      open_issues_count: 298
-      forks_count: 597
+      stargazers_count: 932
+      watchers_count: 932
+      open_issues_count: 306
+      forks_count: 602
       documentation: https://www.sunpy.org
       contrib_count: 30
-      last_commit: '2024-12-14'
+      last_commit: '2024-12-30'
   labels:
     - 6/pyOS-approved
   active: true
@@ -595,7 +596,7 @@
       github_username: cmarmo
     - name: Michael Tso
       github_username: cmtso
-  archive: '[10.5281/zenodo.10625407](https://zenodo.org/doi/10.5281/zenodo.10625407)'
+  archive: https://zenodo.org/doi/10.5281/zenodo.10625407
   version_accepted: 1.7.2
   date_accepted: '2024-02-06'
   created_at: 2023-10-25 13:12:48+00:00
@@ -608,13 +609,13 @@
       name: ncompare
       description: Compare the structure of two netCDF files at the command line
       created_at: '2023-08-17'
-      stargazers_count: 28
-      watchers_count: 28
-      open_issues_count: 12
+      stargazers_count: 26
+      watchers_count: 26
+      open_issues_count: 5
       forks_count: 9
       documentation: https://ncompare.readthedocs.io
       contrib_count: 6
-      last_commit: '2024-11-14'
+      last_commit: '2024-12-20'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -640,7 +641,7 @@
       github_username: rich-iannone
     - name: Hassan Kibirige
       github_username: has2k1
-  archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10776842.svg)](https://doi.org/10.5281/zenodo.10776842)'
+  archive: https://doi.org/10.5281/zenodo.10776842
   version_accepted: '[0.11.0](https://github.com/vnmabus/rdata/releases/tag/0.11.0)'
   date_accepted: 2024-2-29
   created_at: 2023-10-20 08:26:10+00:00
@@ -653,8 +654,8 @@
       name: rdata
       description: Reader of R datasets in .rda format, in Python
       created_at: '2018-07-02'
-      stargazers_count: 48
-      watchers_count: 48
+      stargazers_count: 50
+      watchers_count: 50
       open_issues_count: 7
       forks_count: 3
       documentation: https://rdata.readthedocs.io
@@ -685,7 +686,7 @@
       github_username: yeelauren
     - name: Joseph H Kennedy
       github_username: jhkennedy
-  archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10822829.svg)](https://doi.org/10.5281/zenodo.10822829)'
+  archive: https://doi.org/10.5281/zenodo.10822829
   version_accepted: 8.0.2
   date_accepted: '2024-03-14'
   created_at: 2023-09-26 12:14:47+00:00
@@ -698,8 +699,8 @@
       name: EOmaps
       description: A library to create interactive maps of geographical datasets
       created_at: '2021-09-27'
-      stargazers_count: 340
-      watchers_count: 340
+      stargazers_count: 341
+      watchers_count: 341
       open_issues_count: 18
       forks_count: 25
       documentation: https://eomaps.readthedocs.io/
@@ -735,7 +736,7 @@
       github_username: LilyAnderssonLee
     - name: Elais Player
       github_username: elais
-  archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10951577.svg)](https://doi.org/10.5281/zenodo.10951577)'
+  archive: https://doi.org/10.5281/zenodo.10951577
   version_accepted: '[v4.8.8](https://github.com/sourmash-bio/sourmash/releases/tag/v4.8.8)'
   date_accepted: 2024-4-4
   created_at: 2023-08-14 21:02:57+00:00
@@ -749,13 +750,13 @@
       description: Quickly search, compare, and analyze genomic and metagenomic
           data sets.
       created_at: '2016-04-09'
-      stargazers_count: 479
-      watchers_count: 479
-      open_issues_count: 739
-      forks_count: 79
+      stargazers_count: 482
+      watchers_count: 482
+      open_issues_count: 750
+      forks_count: 80
       documentation: https://sourmash.readthedocs.io/en/latest/
       contrib_count: 30
-      last_commit: '2024-12-10'
+      last_commit: '2024-12-24'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -782,7 +783,7 @@
       github_username: isabelizimm
     - name: Michael Chow
       github_username: machow
-  archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10645273.svg)](https://doi.org/10.5281/zenodo.10645273)'
+  archive: https://doi.org/10.5281/zenodo.10645273
   version_accepted: 0.34.1
   date_accepted: '2024-02-07'
   created_at: 2023-07-21 04:41:08+00:00
@@ -828,7 +829,7 @@
       github_username: BerylKanali
     - name: Du Phan
       github_username: du-phan
-  archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8431894.svg)](https://doi.org/10.5281/zenodo.8431894)'
+  archive: https://doi.org/10.5281/zenodo.8431894
   version_accepted: v[1.1.3](https://github.com/JacksonBurns/astartes/releases/tag/v1.1.3)
   date_accepted: '2023-10-15'
   created_at: 2023-07-10 22:12:51+00:00
@@ -844,7 +845,7 @@
       stargazers_count: 68
       watchers_count: 68
       open_issues_count: 6
-      forks_count: 3
+      forks_count: 4
       documentation: https://jacksonburns.github.io/astartes/
       contrib_count: 3
       last_commit: '2024-09-25'
@@ -889,7 +890,7 @@
       github_username: JonnyTran
     - name: Marta Leszczyńska
       github_username: Reckony
-  archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8365068.svg)](https://doi.org/10.5281/zenodo.8365068)'
+  archive: https://doi.org/10.5281/zenodo.8365068
   version_accepted: 0.7.4
   date_accepted: '2023-09-23'
   created_at: 2023-06-08 16:15:32+00:00
@@ -903,13 +904,13 @@
       description: CompleX Group Interactions (XGI) is a Python package for higher-order
           networks.
       created_at: '2021-09-08'
-      stargazers_count: 189
-      watchers_count: 189
+      stargazers_count: 190
+      watchers_count: 190
       open_issues_count: 50
       forks_count: 33
       documentation: https://xgi.readthedocs.io
       contrib_count: 16
-      last_commit: '2024-12-13'
+      last_commit: '2024-12-20'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -943,7 +944,7 @@
       github_username: Midnighter
     - name:
       github_username: Sinna
-  archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10158204.svg)](https://doi.org/10.5281/zenodo.10158204)'
+  archive: https://doi.org/10.5281/zenodo.10158204
   version_accepted: v0.5.33
   date_accepted: '2023-11-14'
   created_at: 2023-05-04 18:08:32+00:00
@@ -956,8 +957,8 @@
       name: biocypher
       description: A unifying framework for biomedical research knowledge graphs
       created_at: '2021-09-10'
-      stargazers_count: 226
-      watchers_count: 226
+      stargazers_count: 228
+      watchers_count: 228
       open_issues_count: 172
       forks_count: 31
       documentation: https://biocypher.org
@@ -989,7 +990,7 @@
       github_username: Robaina
     - name:
       github_username: khynder
-  archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8214655.svg)](https://doi.org/10.5281/zenodo.8214655)'
+  archive: https://doi.org/10.5281/zenodo.8214655
   version_accepted: v [0.2.36](https://github.com/katoss/cardsort/releases/tag/v0.2.36)
   date_accepted: '2023-08-16'
   created_at: 2023-04-20 11:29:27+00:00
@@ -1040,7 +1041,7 @@
       github_username: 7yl4r
     - name: Ayush Anand
       github_username: ayushanand18
-  archive: '[![DOI](https://zenodo.org/badge/603308264.svg)](https://zenodo.org/badge/latestdoi/603308264)'
+  archive: https://zenodo.org/badge/latestdoi/603308264
   version_accepted: 0.0.7
   date_accepted: '2023-05-30'
   created_at: 2023-03-25 00:27:27+00:00
@@ -1135,7 +1136,7 @@
       github_username: OriolAbril
     - name: Alexey Izmailov
       github_username: alizma
-  archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8124312.svg)](https://doi.org/10.5281/zenodo.8124312)'
+  archive: https://doi.org/10.5281/zenodo.8124312
   version_accepted: 0.1.10
   date_accepted: '2023-07-05'
   created_at: 2023-03-01 14:16:51+00:00
@@ -1185,7 +1186,7 @@
       github_username: sneakers-the-rat
     - name: Szabolcs Horvát
       github_username: szhorvat
-  archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8125660.svg)](https://doi.org/10.5281/zenodo.8125660)'
+  archive: https://doi.org/10.5281/zenodo.8125660
   version_accepted: 2023.7.0
   date_accepted: '2023-07-14'
   created_at: 2023-02-04 23:07:20+00:00
@@ -1199,8 +1200,8 @@
       description: 'Python library for GraphBLAS: high-performance sparse linear
           algebra for scalable graph analytics'
       created_at: '2019-11-11'
-      stargazers_count: 126
-      watchers_count: 126
+      stargazers_count: 129
+      watchers_count: 129
       open_issues_count: 61
       forks_count: 15
       documentation: https://python-graphblas.readthedocs.io/en/stable/
@@ -1236,7 +1237,7 @@
       github_username: jmunroe
     - name: Agustina
       github_username: aguspesce
-  archive: '[![DOI](https://zenodo.org/badge/142608764.svg)](https://zenodo.org/badge/latestdoi/142608764)'
+  archive: https://zenodo.org/badge/latestdoi/142608764
   version_accepted: v0.42.0
   date_accepted: '2023-04-11'
   created_at: 2023-01-16 16:59:20+00:00
@@ -1250,13 +1251,13 @@
       description: 'Library of derived climate variables, ie climate indicators,
           based on xarray. '
       created_at: '2018-07-27'
-      stargazers_count: 334
-      watchers_count: 334
-      open_issues_count: 61
+      stargazers_count: 335
+      watchers_count: 335
+      open_issues_count: 68
       forks_count: 59
       documentation: https://xclim.readthedocs.io/en/stable/
       contrib_count: 30
-      last_commit: '2024-12-13'
+      last_commit: '2024-12-16'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1286,7 +1287,7 @@
       github_username: rhine3
     - name: Sylvain HAUPERT
       github_username: shaupert
-  archive: '[![DOI](https://zenodo.org/badge/159904494.svg)](https://zenodo.org/badge/latestdoi/159904494)'
+  archive: https://zenodo.org/badge/latestdoi/159904494
   version_accepted: v [5.0](https://github.com/vocalpy/crowsetta/releases/tag/5.0.0)
   date_accepted: '2023-03-28'
   created_at: 2023-01-03 19:39:16+00:00
@@ -1334,7 +1335,7 @@
       github_username: Batalex
     - name: Corinna Thoben
       github_username: c-thoben
-  archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7696204.svg)](https://doi.org/10.5281/zenodo.7696204)'
+  archive: https://doi.org/10.5281/zenodo.7696204
   version_accepted: 1.0.0
   date_accepted: '2023-03-10'
   created_at: 2022-12-16 22:02:53+00:00
@@ -1383,7 +1384,7 @@
       github_username: AlexS12
     - name: K. Arthur Endsley
       github_username: arthur-e
-  archive: '[![DOI](https://zenodo.org/badge/303936309.svg)](https://zenodo.org/badge/latestdoi/303936309)'
+  archive: https://zenodo.org/badge/latestdoi/303936309
   version_accepted: 1.0.3
   date_accepted: '2021-12-29'
   created_at: 2021-08-31 12:58:45+00:00
@@ -1440,11 +1441,11 @@
       github_username: jbusecke
     - name: Szymon Moliński
       github_username: simonmolinsky
-  archive: '[Zenodo Archive](https://zenodo.org/record/6702566)'
+  archive: https://zenodo.org/record/6702566
   version_accepted: V 0.7.0
   date_accepted: 2022-9-1
   created_at: 2021-07-23 00:37:07+00:00
-  updated_at: 2023-09-14 17:47:44+00:00
+  updated_at: 2024-12-15 05:27:30+00:00
   closed_at: 2023-06-12 22:47:16+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/43
   joss:
@@ -1453,13 +1454,13 @@
       name: pygmt
       description: A Python interface for the Generic Mapping Tools.
       created_at: '2017-03-17'
-      stargazers_count: 776
-      watchers_count: 776
-      open_issues_count: 199
+      stargazers_count: 775
+      watchers_count: 775
+      open_issues_count: 202
       forks_count: 224
       documentation: https://www.pygmt.org
       contrib_count: 30
-      last_commit: '2024-12-12'
+      last_commit: '2024-12-31'
   labels:
     - 6/pyOS-approved
   active: true
@@ -1485,7 +1486,7 @@
       github_username: willingc
     - name: Robert Guggenberger
       github_username: agricolab
-  archive: '[![DOI](https://zenodo.org/badge/279395106.svg)](https://zenodo.org/badge/latestdoi/279395106)'
+  archive: https://zenodo.org/badge/latestdoi/279395106
   version_accepted: v1.1.1
   date_accepted: '2021-08-19'
   created_at: 2021-04-03 19:25:41+00:00
@@ -1535,7 +1536,7 @@
       github_username: gawbul
     - name: Katharina Sielemann
       github_username: ksielemann
-  archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4731011.svg)](https://doi.org/10.5281/zenodo.4731011)'
+  archive: https://doi.org/10.5281/zenodo.4731011
   version_accepted: v [0.8.8](https://github.com/JonnyTran/OpenOmics/releases/tag/v0.8.8)
   date_accepted: '2021-04-17'
   created_at: 2021-01-01 19:54:20+00:00
@@ -1584,7 +1585,7 @@
       github_username: bpucker
     - name: Leonardo de Oliveira Martins
       github_username: leomrtns
-  archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5512990.svg)](https://doi.org/10.5281/zenodo.5512990)'
+  archive: https://doi.org/10.5281/zenodo.5512990
   version_accepted: v [1.0](https://github.com/McTavishLab/physcraper/releases/tag/v1.0.0)
   date_accepted: '2021-09-14'
   created_at: 2020-07-15 22:31:52+00:00
@@ -1629,7 +1630,7 @@
       github_username: edgarriba
     - name: Soumith Chintala
       github_username: soumith
-  archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4073515.svg)](https://doi.org/10.5281/zenodo.4073515)'
+  archive: https://doi.org/10.5281/zenodo.4073515
   version_accepted: v [0.6.0](https://github.com/pystiche/pystiche/releases/tag/v0.6.0)
   date_accepted: '2020-10-08'
   created_at: 2020-07-02 12:57:08+00:00
@@ -1642,8 +1643,8 @@
       name: pystiche
       description: Framework for Neural Style Transfer (NST) built upon PyTorch
       created_at: '2019-09-16'
-      stargazers_count: 270
-      watchers_count: 270
+      stargazers_count: 271
+      watchers_count: 271
       open_issues_count: 15
       forks_count: 28
       documentation:
@@ -1675,7 +1676,7 @@
       github_username: agporto
     - name: Seth Donoughe
       github_username: sdonoughe
-  archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4761417.svg)](https://doi.org/10.5281/zenodo.4761417)'
+  archive: https://doi.org/10.5281/zenodo.4761417
   version_accepted: 2.0.1
   date_accepted: '2021-05-13'
   created_at: 2020-05-04 16:51:36+00:00
@@ -1723,7 +1724,7 @@
       github_username: rbeucher
     - name: Charles Le Losq
       github_username: charlesll
-  archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3877690.svg)](https://doi.org/10.5281/zenodo.3877690)'
+  archive: https://doi.org/10.5281/zenodo.3877690
   version_accepted: v [0.2.7](https://github.com/morganjwilliams/pyrolite/releases/tag/0.2.7)
   date_accepted: '2020-06-04'
   created_at: 2020-02-19 04:54:35+00:00
@@ -1736,10 +1737,10 @@
       name: pyrolite
       description: A set of tools for getting the most from your geochemical data.
       created_at: '2018-06-13'
-      stargazers_count: 136
-      watchers_count: 136
+      stargazers_count: 139
+      watchers_count: 139
       open_issues_count: 10
-      forks_count: 37
+      forks_count: 38
       documentation: https://pyrolite.readthedocs.io
       contrib_count: 14
       last_commit: '2024-10-29'
@@ -1769,7 +1770,7 @@
       github_username: xmnlab
     - name: Martin Fleischmann
       github_username: martinfleis
-  archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3710951.svg)](https://doi.org/10.5281/zenodo.3710951)'
+  archive: https://doi.org/10.5281/zenodo.3710951
   version_accepted: v [0.3.rc1](https://github.com/movingpandas/movingpandas/releases/tag/v0.3.rc1)
   date_accepted: '2020-03-19'
   created_at: 2020-01-06 17:13:27+00:00
@@ -1782,13 +1783,13 @@
       name: movingpandas
       description: Movement trajectory classes and functions built on top of GeoPandas
       created_at: '2018-12-16'
-      stargazers_count: 1250
-      watchers_count: 1250
-      open_issues_count: 30
+      stargazers_count: 1255
+      watchers_count: 1255
+      open_issues_count: 27
       forks_count: 196
       documentation: https://movingpandas.org
       contrib_count: 30
-      last_commit: '2024-12-14'
+      last_commit: '2024-12-30'
   labels:
     - 6/pyOS-approved
   active: true
@@ -1829,13 +1830,13 @@
       description: A light-weight, flexible, and expressive statistical data testing
           library
       created_at: '2018-11-01'
-      stargazers_count: 3467
-      watchers_count: 3467
-      open_issues_count: 398
-      forks_count: 314
+      stargazers_count: 3499
+      watchers_count: 3499
+      open_issues_count: 399
+      forks_count: 316
       documentation: https://www.union.ai/pandera
       contrib_count: 30
-      last_commit: '2024-12-10'
+      last_commit: '2024-12-29'
   labels:
     - 6/pyOS-approved
   active: true
@@ -1866,7 +1867,7 @@
   version_accepted: TBD
   date_accepted: '2019-06-17'
   created_at: 2019-05-30 18:27:38+00:00
-  updated_at: 2024-12-15 04:03:54+00:00
+  updated_at: 2024-12-17 18:02:52+00:00
   closed_at: 2019-08-06 15:45:11+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/7
   joss:
@@ -1876,8 +1877,8 @@
       description: Construct, deconstruct, convert, execute, and prepare slides
           from Jupyter notebooks
       created_at: '2018-09-05'
-      stargazers_count: 35
-      watchers_count: 35
+      stargazers_count: 34
+      watchers_count: 34
       open_issues_count: 20
       forks_count: 6
       documentation: https://py4ds.github.io/nbless/
@@ -1917,7 +1918,7 @@
       github_username: HaoZeke
     - name: Sean Gillies
       github_username: sgillies
-  archive: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3520899.svg)](https://doi.org/10.5281/zenodo.3520899)'
+  archive: https://doi.org/10.5281/zenodo.3520899
   version_accepted: v [0.7.5](https://github.com/earthlab/earthpy/releases/tag/v0.7.5)
   date_accepted: '2019-11-06'
   created_at: 2019-05-08 15:02:14+00:00
