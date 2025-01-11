@@ -45,12 +45,8 @@
             {% if apackage.joss %}
                 <li><a href="{{ apackage.archive }}" rel="permalink"><i class="fas fa-bookmark fa-fw"></i> JOSS Approved</a></li>
             {% endif %}
-            {% if apackage.astropy %}
-                <li><a href="communities/astropy.html"><i class="fa-solid fa-check-double"></i> <img src="http://img.shields.io/badge/Affiliated-Astropy-orange.svg?style=flat" alt="Astropy" /></a></li>
-            {% endif %}
-            {% if apackage.sunpy %}
-                <!-- TODO: Create and use sunpy.html here -->
-                <li><a href="communities/astropy.html"><i class="fa-solid fa-check-double"></i> <img src="http://img.shields.io/badge/Affiliated-SunPy-yellow.svg?style=flat" alt="SunPy" /></a></li>
+            {% if apackage.partners contains "astropy" %}
+                <li><a href="communities/astropy.html"><i class="fa-solid fa-check-double"></i> <img src="https://img.shields.io/badge/Affiliated-Astropy-orange.svg?style=flat" alt="Astropy" /></a></li>
             {% endif %}
             {% if apackage.active == false %}
                 <li><i class="fa-solid fa-box-archive"></i> Archived</li>

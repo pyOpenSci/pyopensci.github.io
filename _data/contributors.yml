@@ -6065,6 +6065,7 @@
   board: false
   contributor_type:
     - community
+    - package-guide
   packages_eic:
   packages_editor:
   packages_submitted:
@@ -7980,7 +7981,7 @@
   organization: Penn State University
   date_added: '2024-12-13'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -8009,7 +8010,7 @@
   organization:
   date_added: '2024-12-13'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -8038,7 +8039,7 @@
   organization:
   date_added: '2024-12-13'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -8068,7 +8069,7 @@
   organization:
   date_added: '2024-12-13'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -8097,7 +8098,7 @@
   organization:
   date_added: '2024-12-13'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -8126,7 +8127,7 @@
   organization:
   date_added: '2024-12-13'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -8155,7 +8156,7 @@
   organization:
   date_added: '2024-12-13'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -8184,7 +8185,7 @@
   organization: Intuit
   date_added: '2024-12-13'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -8213,7 +8214,7 @@
   organization: SUNY at Buffalo
   date_added: '2024-12-13'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -8244,7 +8245,7 @@
   organization: University of Padova
   date_added: '2024-12-13'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -8264,3 +8265,58 @@
   packages_reviewed:
   location:
   email:
+- name: Santiago Soler
+  github_username: santisoler
+  github_image_id: 11541317
+  title:
+  sort:
+  bio: PhD in Geophysics and Physicist. Postdoc researcher at UBC. Develop @fatiando
+      and @simpeg.
+  organization: '@fatiando @simpeg @ubcgif @compgeolab @GeoLatinas'
+  date_added: '2025-01-01'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://www.santisoler.com
+  board: false
+  contributor_type:
+    - package-guide
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: British Columbia, Canada
+  email: santisoler@fastmail.com
+- name: Seth Michael Larson
+  github_username: sethmlarson
+  github_image_id: 18519037
+  title:
+  sort:
+  bio: PSF Security Developer-in-Residence 🐍 PSF Fellow ✨ Minnesoootan, he/him
+  organization: '@psf'
+  date_added: '2025-01-01'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://sethmlarson.dev
+  board: false
+  contributor_type:
+    - web-contrib
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: Minneapolis, MN
+  email: sethmichaellarson@gmail.com

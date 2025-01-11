@@ -413,6 +413,34 @@
         "code",
         "review"
       ]
+    },
+    {
+      "login": "sethmlarson",
+      "name": "Seth Michael Larson",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18519037?v=4",
+      "profile": "https://sethmlarson.dev",
+      "contributions": [
+        "review"
+      ]
+    },
+    {
+      "login": "erik-whiting",
+      "name": "Erik Whiting",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47164199?v=4",
+      "profile": "https://erikwhiting.com",
+      "contributions": [
+        "review"
+      ]
+    },
+    {
+      "login": "hugovk",
+      "name": "Hugo van Kemenade",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1324225?v=4",
+      "profile": "https://github.com/hugovk",
+      "contributions": [
+        "code",
+        "review"
+      ]
     }
   ],
   "commitConvention": "angular",
