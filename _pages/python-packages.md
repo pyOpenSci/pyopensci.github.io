@@ -60,7 +60,7 @@ Below you can search and filter all of our packages.
 
 #### Archived Packages
 
-Below you can find archived packages.
+Archived packages are packages that have successfully completed [pyOpenSci's software peer review process](https://www.pyopensci.org/about-peer-review/index.html) but are no longer maintained. [Check out our software maintenance policy for how we determine when a package becomes archived.](https://www.pyopensci.org/software-peer-review/our-process/policies.html#package-maintenance-and-maintainer-responsiveness)
 
 <!-- Archived Packages -->
 <div class="grid-isotope">
