@@ -45,14 +45,29 @@ Below you can search and filter all of our packages.
   <button class="button" data-filter=".data-retrieval">data retrieval</button>
   <button class="button" data-filter=".data-visualization">data-visualization</button>
   <button class="button" data-filter=".education">education</button>
-
-<button class="button" data-filter=".geospatial">geospatial</button>
-<button class="button" data-filter=".reproducibility">reproducibility</button>
+  <button class="button" data-filter=".geospatial">geospatial</button>
+  <button class="button" data-filter=".reproducibility">reproducibility</button>
 </div>
 
+<!-- Active Packages -->
 <div class="grid-isotope">
 {% for apackage in packages_sorted %}
-  {% include package-grid.html %}
+  {% if apackage.active == true %}
+    {% include package-grid.html %}
+  {% endif %}
+{% endfor %}
+</div>
+
+#### Archived Packages
+
+Archived packages are packages that have successfully completed [pyOpenSci's software peer review process](https://www.pyopensci.org/about-peer-review/index.html) but are no longer maintained. [Check out our software maintenance policy for how we determine when a package becomes archived.](https://www.pyopensci.org/software-peer-review/our-process/policies.html#package-maintenance-and-maintainer-responsiveness)
+
+<!-- Archived Packages -->
+<div class="grid-isotope">
+{% for apackage in packages_sorted %}
+  {% if apackage.active == false %}
+    {% include package-grid.html %}
+  {% endif %}
 {% endfor %}
 </div>
 

@@ -48,6 +48,9 @@
             {% if apackage.partners contains "astropy" %}
                 <li><a href="communities/astropy.html"><i class="fa-solid fa-check-double"></i> <img src="https://img.shields.io/badge/Affiliated-Astropy-orange.svg?style=flat" alt="Astropy" /></a></li>
             {% endif %}
+            {% if apackage.active == false %}
+                <li><i class="fa-solid fa-box-archive"></i> Archived</li>
+            {% endif %}
         </ul>
         <hr>
         {% if include.community %}
