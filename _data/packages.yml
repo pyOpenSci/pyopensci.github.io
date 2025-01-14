@@ -44,6 +44,7 @@
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
+  active: true
 - package_name: Stingray
   package_description: A spectral-timing software package for astrophysical X-ray
       (and other) data
@@ -101,6 +102,7 @@
     - 6/pyOS-approved
     - 9/joss-approved
     - astropy
+  active: true
 - package_name: QuadratiK
   package_description: QuadratiK includes test for multivariate normality, test
       for uniformity on the sphere, non-parametric two- and k-sample tests, random
@@ -152,6 +154,7 @@
       last_commit: '2024-12-23'
   labels:
     - 6/pyOS-approved
+  active: true
 - package_name: pooltool
   package_description: Pooltool is a general purpose billiards simulator crafted
       specifically for science and engineering.
@@ -200,6 +203,7 @@
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
+  active: true
 - package_name: martini
   package_description: MARTINI is a modular package for the creation of synthetic
       resolved HI line observations (data cubes) of smoothed-particle hydrodynamics
@@ -250,6 +254,7 @@
     - 6/pyOS-approved
     - 9/joss-approved
     - astropy
+  active: true
 - package_name: ZodiPy
   package_description: Zodiacal emission simulations in timestreams or HEALPix for
       solar system observers.
@@ -302,6 +307,7 @@
     - 6/pyOS-approved
     - 9/joss-approved
     - astropy
+  active: true
 - package_name: harmonize-wq
   package_description: Standardize, clean, and wrangle Water Quality Portal data
       into more analytic-ready formats
@@ -348,6 +354,7 @@
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
+  active: true
 - package_name: xnemogcm
   package_description: Interface to open NEMO global circulation model output dataset
       with xarray and create a xgcm grid.
@@ -393,6 +400,7 @@
       last_commit: '2024-09-11'
   labels:
     - 6/pyOS-approved
+  active: true
 - package_name: automata
   package_description: A Python library for simulating finite automata, pushdown
       automata, and Turing machines.
@@ -446,6 +454,7 @@
       last_commit: '2024-06-29'
   labels:
     - 6/pyOS-approved
+  active: true
 - package_name: SLEPLET
   package_description: Slepian Scale-Discretised Wavelets in Python
   submitting_author:
@@ -491,6 +500,7 @@
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
+  active: true
 - package_name: sunpy
   package_description: Python for Solar Physics
   submitting_author:
@@ -562,6 +572,7 @@
       last_commit: '2024-12-30'
   labels:
     - 6/pyOS-approved
+  active: true
 - package_name: ncompare
   package_description: '`ncompare` compares two netCDF files at the command line,
       by generating a report of the matching and non-matching groups, variables,
@@ -608,6 +619,7 @@
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
+  active: true
 - package_name: rdata
   package_description: Read R datasets from Python.
   submitting_author:
@@ -651,6 +663,7 @@
       last_commit: '2024-10-11'
   labels:
     - 6/pyOS-approved
+  active: true
 - package_name: EOmaps
   package_description: EOmaps is a python package to visualize, analyze and compare
       geographical datasets.
@@ -695,6 +708,7 @@
       last_commit: '2024-09-01'
   labels:
     - 6/pyOS-approved
+  active: true
 - package_name: sourmash
   package_description: '`sourmash` is a command line tool and Python library for
       sketching collections of DNA, RNA, and amino acid k-mers for biological sequence
@@ -746,6 +760,7 @@
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
+  active: true
 - package_name: Sciform
   package_description: A package for converting python numbers (floats, Decimals)
       into scientific-formatted strings more suitable for reading and presentation.
@@ -790,6 +805,7 @@
       last_commit: '2024-11-15'
   labels:
     - 6/pyOS-approved
+  active: true
 - package_name: astartes
   package_description: Better Data Splits for Machine Learning
   submitting_author:
@@ -836,6 +852,7 @@
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
+  active: true
 - package_name: XGI
   package_description: XGI is a Python package for higher-order networks.
   submitting_author:
@@ -897,6 +914,7 @@
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
+  active: true
 - package_name: biocypher
   package_description: framework for creating biomedical knowledge graphs
   submitting_author:
@@ -948,6 +966,7 @@
       last_commit: '2024-10-31'
   labels:
     - 6/pyOS-approved
+  active: true
 - package_name: cardsort
   package_description: A python package to analyse data from open card sorting tasks
   submitting_author:
@@ -994,6 +1013,7 @@
       last_commit: '2024-02-14'
   labels:
     - 6/pyOS-approved
+  active: true
 - package_name: afscgap
   package_description: Community contributed Python-based tools for working with
       public bottom trawl surveys data from the NOAA Alaska Fisheries Science Center
@@ -1044,6 +1064,7 @@
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
+  active: true
 - package_name: taxpasta
   package_description: TAXonomic Profile Aggregation and STAndardisation
   submitting_author:
@@ -1092,6 +1113,7 @@
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
+  active: true
 - package_name: bibat
   package_description: An interactive template for Bayesian statistical analysis
       projects
@@ -1136,6 +1158,7 @@
       last_commit: '2024-04-10'
   labels:
     - 6/pyOS-approved
+  active: true
 - package_name: Python-graphblas
   package_description: 'Python library for GraphBLAS: high-performance sparse linear
       algebra for scalable graph analytics'
@@ -1186,6 +1209,7 @@
       last_commit: '2024-10-23'
   labels:
     - 6/pyOS-approved
+  active: true
 - package_name: xclim
   package_description: Climate indices computation package based on Xarray
   submitting_author:
@@ -1238,6 +1262,7 @@
     - 6/pyOS-approved
     - 9/joss-approved
     - Pangeo
+  active: true
 - package_name: crowsetta
   package_description: A Python tool to work with any format for annotating animal
       vocalizations and bioacoustics data.
@@ -1285,6 +1310,7 @@
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
+  active: true
 - package_name: Pynteny
   package_description: Query sequence database by HMMs arranged in predefined synteny
       structure
@@ -1333,6 +1359,7 @@
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
+  active: true
 - package_name: Jointly
   package_description: Jointly is a python package for synchronizing sensors with
       accelerometer data
@@ -1380,6 +1407,7 @@
       last_commit: '2022-01-11'
   labels:
     - 6/pyOS-approved
+  active: true
 - package_name: PyGMT
   package_description: A Python interface for the Generic Mapping Tools
   submitting_author:
@@ -1435,6 +1463,7 @@
       last_commit: '2024-12-31'
   labels:
     - 6/pyOS-approved
+  active: true
 - package_name: Devicely
   package_description: A Python package for reading, timeshifting and writing sensor
       data
@@ -1481,6 +1510,7 @@
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
+  active: true
 - package_name: openomics
   package_description: Library for integration of multi-omics, annotation, and interaction
       data
@@ -1530,6 +1560,7 @@
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
+  active: true
 - package_name: Physcraper
   package_description: Automated phylogenetic updating
   submitting_author:
@@ -1577,6 +1608,7 @@
       last_commit: '2022-05-13'
   labels:
     - 6/pyOS-approved
+  active: true
 - package_name: pystiche
   package_description: Framework for Neural Style Transfer (NST) built upon PyTorch
   submitting_author:
@@ -1621,6 +1653,7 @@
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
+  active: true
 - package_name: phenopype
   package_description: a phenotyping pipeline for Python
   submitting_author:
@@ -1665,6 +1698,7 @@
       last_commit: '2024-09-10'
   labels:
     - 6/pyOS-approved
+  active: true
 - package_name: pyrolite
   package_description: A set of tools for getting the most from your geochemical
       data.
@@ -1713,6 +1747,7 @@
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
+  active: true
 - package_name: MovingPandas
   package_description: Trajectory classes and functions built on top of GeoPandas
   submitting_author:
@@ -1757,6 +1792,7 @@
       last_commit: '2024-12-30'
   labels:
     - 6/pyOS-approved
+  active: true
 - package_name: pandera
   package_description: validate the types, properties, and statistics of pandas
       data structures
@@ -1803,6 +1839,7 @@
       last_commit: '2024-12-29'
   labels:
     - 6/pyOS-approved
+  active: true
 - package_name: Nbless
   package_description: Construct, deconstruct, convert, execute, & prepare slides
       from Jupyter notebooks
@@ -1850,6 +1887,7 @@
   labels:
     - 6/pyOS-approved
     - archived
+  active: false
 - package_name: earthpy
   package_description: A package built to support working with spatial data using
       open source python
@@ -1904,3 +1942,4 @@
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
+  active: true
