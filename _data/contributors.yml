@@ -605,6 +605,7 @@
   contributor_type:
     - contributor
     - editor
+    - eic
     - maintainer
     - package-guide
     - peer-review
@@ -612,6 +613,8 @@
     - submitting-author
     - web-contrib
   packages_eic:
+    - ncompare
+    - sleplet
   packages_editor:
     - openomics
     - physcraper
@@ -802,10 +805,12 @@
     - reviewer
     - web-contrib
   packages_eic:
+    - great tables
     - pooltool
     - quadratik
   packages_editor:
     - cardsort
+    - great tables
     - harmonize-wq
     - sciform
     - xclim
@@ -2267,6 +2272,7 @@
   contributor_type:
     - guidebook-contrib
     - package-guide
+    - web-contrib
   packages_eic:
   packages_editor:
   packages_submitted:
@@ -4281,6 +4287,10 @@
     - reviewer
   packages_eic:
     - automata
+    - harmonize-wq
+    - martini
+    - sunpy
+    - zodipy
   packages_editor:
     - quadratik
     - rdata
@@ -5830,11 +5840,13 @@
   website: https://mchow.com
   board: false
   contributor_type:
+    - maintainer
     - peer-review
     - reviewer
   packages_eic:
   packages_editor:
   packages_submitted:
+    - great tables
   packages_reviewed:
     - sciform
   location:
@@ -5944,11 +5956,14 @@
   website:
   board: false
   contributor_type:
+    - maintainer
     - peer-review
     - reviewer
+    - submitting-author
   packages_eic:
   packages_editor:
   packages_submitted:
+    - great tables
   packages_reviewed:
     - rdata
   location: Toronto, Canada
@@ -8275,7 +8290,7 @@
   organization: '@fatiando @simpeg @ubcgif @compgeolab @GeoLatinas'
   date_added: '2025-01-01'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -8302,7 +8317,7 @@
   organization: '@psf'
   date_added: '2025-01-01'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -8320,3 +8335,89 @@
   packages_reviewed:
   location: Minneapolis, MN
   email: sethmichaellarson@gmail.com
+- name: Erik Whiting
+  github_username: erik-whiting
+  github_image_id: 47164199
+  title:
+  sort:
+  bio: Sr. software engineer @callrail. CS PhD student, deep learning and computational
+      biophysics @YesselmanLab and @yao-laboratory
+  organization:
+  date_added: '2025-01-14'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter: ErikWhiting4
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - web-contrib
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: Omaha, NE
+  email: erik@erikwhiting.com
+- name:
+  github_username: cjbassin
+  github_image_id: 9651609
+  title:
+  sort:
+  bio: '@CorinneBassin-NOAA@CorinneBassin-SOI'
+  organization:
+  date_added: '2025-01-14'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - great tables
+  location:
+  email:
+- name: Guillaume Lemaitre
+  github_username: glemaitre
+  github_image_id: 7454015
+  title:
+  sort:
+  bio:
+  organization: Open-source engineer @probabl-ai
+  date_added: '2025-01-14'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter: glemaitre58
+  mastodon:
+  orcidid:
+  partners:
+  website: https://glemaitre.github.io/
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - great tables
+  location: Paris-Saclay / France
+  email: guillaume@probabl.ai
