@@ -16,6 +16,7 @@ categories:
   - k-sample test
   - PKBD
   - user interface
+  - pyos-accepted
 classes: wide
 toc: true
 comments: true
