@@ -387,5 +387,3 @@ Thank you! Happy coding to you — may your bugs be few, and your data ever insi
 - Strelnikoff, S., Jammalamadaka, A., & Warmsley, D. (2020, December). Causal maps for multi-document summarization. In 2020 IEEE International Conference on Big Data (Big Data) (pp. 4437-4445). IEEE.
 
 - Strelnikoff, S., Jammalamadaka, A., & Warmsley, D. M. (2024). U.S. Patent No. 11,907,307. Washington, DC: U.S. Patent and Trademark Office.
-
-
