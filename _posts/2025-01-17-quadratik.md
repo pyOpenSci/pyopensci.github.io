@@ -34,9 +34,9 @@ last_modified: 2025-01-17
 
 ## Goodness-of-Fit (GoF) Tests
 
-Goodness-of-Fit (GoF) tests are classical tools for assessing the compatibility of data with a given probability model. GoF tests typically compute a distance-like metric between the null distribution and observations, rejecting the null hypothesis if the distance exceeds a critical value. 
+Goodness-of-Fit (GoF) tests are classical tools for assessing the compatibility of data with a given probability model. GoF tests typically compute a distance-like metric between the null distribution and observations, rejecting the null hypothesis if the distance exceeds a critical value.
 
-The methods for normality, two-sample, and k-sample test use a bandwidth parameter `h`. We have also provided an algorithm for determining the optimal value of `h` based on the mid-power analysis (please see Markatou and Saraceno (2024)). You can find more details on algorithm in our [manual](https://quadratik.readthedocs.io/en/latest/user_guide/hselect.html). 
+The methods for normality, two-sample, and k-sample test use a bandwidth parameter `h`. We have also provided an algorithm for determining the optimal value of `h` based on the mid-power analysis (please see Markatou and Saraceno (2024)). You can find more details on algorithm in our [manual](https://quadratik.readthedocs.io/en/latest/user_guide/hselect.html).
 
 In this section, the various GoF tests are shown with corresponding examples.
 
@@ -64,7 +64,7 @@ normality_test = KernelTest(
 print(normality_test.summary(print_fmt="grid"))
 ```
 
-The results of this test is shown below. 
+The results of this test is shown below.
 <figure style="float: center;">
 <picture>
   <source srcset="/images/quadratik/normality-test-results.webp" type="image/webp">
@@ -72,12 +72,12 @@ The results of this test is shown below.
 </picture>
 </figure>
 
-The test rightly fails to reject the null hypothesis, as the samples have been generated from a standard normal distribution. 
+The test rightly fails to reject the null hypothesis, as the samples have been generated from a standard normal distribution.
 
 ### Two-Sample Test
 The two-sample GoF test is used to  determine whether two separate samples are likely drawn from the same population distribution.
 
-To illustrate the two sample test, we generate n = 200 random samples from a multivariate standard normal distribution and a skewed normal distribution with value of skewness parameter lambda = 0.1.  
+To illustrate the two sample test, we generate n = 200 random samples from a multivariate standard normal distribution and a skewed normal distribution with value of skewness parameter lambda = 0.1.
 
 ```python
 import numpy as np
@@ -103,7 +103,7 @@ two_sample_test = KernelTest(h=2, num_iter=150, random_state=42).test(X_2, Y_2)
 print(two_sample_test.summary(print_fmt = "grid"))
 ```
 
-The results of the test is shown below. 
+The results of the test is shown below.
 <figure style="float: center;">
 <picture>
   <source srcset="/images/quadratik/two-sample-test-results.webp" type="image/webp">
@@ -111,13 +111,13 @@ The results of the test is shown below.
 </picture>
 </figure>
 
-The test rejects the null hypothesis, as the samples have been generated from two different distributions. 
+The test rejects the null hypothesis, as the samples have been generated from two different distributions.
 
 ### K-Sample Test
 
 Similar to the two-sample test, the k-sample test examines whether k groups of samples are obtained from the same distribution.
 
-For illustrating the k-sample test, we use the glass identification dataset from the [UCI ML repository](https://archive.ics.uci.edu/dataset/42/glass+identification). We use the first three classes of glass types to illustrate the working of the k-sample test.  
+For illustrating the k-sample test, we use the glass identification dataset from the [UCI ML repository](https://archive.ics.uci.edu/dataset/42/glass+identification). We use the first three classes of glass types to illustrate the working of the k-sample test.
 
 ```python
 # Importing required libraries
@@ -142,7 +142,7 @@ k_sample_test = KernelTest(h=2, num_iter=150, random_state=42).test(X, y)
 # Printing the test summary
 print(k_sample_test.summary(print_fmt="grid"))
 ```
-The results of the test is shown below. 
+The results of the test is shown below.
 <figure style="float: center;">
 <picture>
   <source srcset="/images/quadratik/k-sample-test-results.webp" type="image/webp">
@@ -154,9 +154,9 @@ The null hypothesis is rejected for the k-sample test indicates that there is **
 
 ### Uniformity Test on the Sphere
 
-In this we test the null hypothesis of uniformity on the sphere. We illustrate this test using an example. 
+In this we test the null hypothesis of uniformity on the sphere. We illustrate this test using an example.
 
-The data for this example is generated from a multivariate standard normal distribution, and is further divided by the L2 norm of generated vectors. This processed data is uniformly distributed on the surface of the unit sphere. 
+The data for this example is generated from a multivariate standard normal distribution, and is further divided by the L2 norm of generated vectors. This processed data is uniformly distributed on the surface of the unit sphere.
 
 ```python
 import numpy as np
@@ -174,7 +174,7 @@ unif_test = PoissonKernelTest(rho=0.5, random_state=42).test(data_unif)
 # printing the summary for uniformity test
 print(unif_test.summary(print_fmt = "grid"))
 ```
-The results of the test is shown below. 
+The results of the test is shown below.
 <figure style="float: center;">
 <picture>
   <source srcset="/images/quadratik/uniformity-test-results.webp" type="image/webp">
@@ -222,7 +222,7 @@ segmented_images = []
 plt.figure(figsize=(16, 8))
 
 num_k_values = len(k_values)
-num_cols = 6  
+num_cols = 6
 num_rows = (num_k_values + num_cols - 1) // num_cols
 
 for i, k in enumerate(k_values, start=1):
@@ -249,7 +249,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-The image is segmented into k clusters with k ranging from 2 to 8. Below, we display the regions identified for each value of k. 
+The image is segmented into k clusters with k ranging from 2 to 8. Below, we display the regions identified for each value of k.
 
 <figure style="float: center;">
 <picture>
@@ -258,7 +258,7 @@ The image is segmented into k clusters with k ranging from 2 to 8. Below, we dis
 </picture>
 </figure>
 
-Starting from k = 5, the segmented images reveal only minor changes in the identified segments upon closer examination. Let us see if we can validate our observation using the elbow plots. 
+Starting from k = 5, the segmented images reveal only minor changes in the identified segments upon closer examination. Let us see if we can validate our observation using the elbow plots.
 
 ```python
 validation_metrics, elbow_plots = pkbc.validation()
@@ -271,7 +271,7 @@ elbow_plots
 </picture>
 </figure>
 
-The elbow plots show a clear elbow at k = 5, which aligns with our observation that all regions of the image are effectively identified at this value of k. 
+The elbow plots show a clear elbow at k = 5, which aligns with our observation that all regions of the image are effectively identified at this value of k.
 
 The clustering algorithm proposed in Golzy and Markatou has been used in other works such as Golzy et al. (2023), Strelnikoff at al. (2020), and Strelnikoff et al. (2024).
 
@@ -293,7 +293,7 @@ samples_rejacg = pkbd.rpkb(
     n=500, mu=[1, 1, 1], rho=0.9, method="rejacg", random_state=42)
 ```
 
-The generated samples can also be visualized on the unit sphere. 
+The generated samples can also be visualized on the unit sphere.
 
 ```python
 import matplotlib.pyplot as plt
@@ -344,7 +344,7 @@ plt.tight_layout()
 
 <br>
 
-More details on Poisson Kernel-Based Distributions can be found in the package documentation [here](https://quadratik.readthedocs.io/en/latest/user_guide/pkbd.html). 
+More details on Poisson Kernel-Based Distributions can be found in the package documentation [here](https://quadratik.readthedocs.io/en/latest/user_guide/pkbd.html).
 
 ## Dashboard
 
@@ -366,7 +366,7 @@ UI().run()
 
 `QuadratiK` provides methods to researchers and practitioners to delve deeper into their data, draw robust inference, and conduct potentially impactful analyses and inference across a wide array of disciplines. The `QuadratiK` package is also available in `R` and is hosted on [CRAN](https://cran.r-project.org/web/packages/QuadratiK/index.html). You can learn more about `QuadratiK` in our [arXiv preprint](https://arxiv.org/abs/2402.02290). Additional theoretical papers of interest are listed in the reference section.
 
-Please feel free to reach me at raktimmu at buffalo.edu. 
+Please feel free to reach me at raktimmu at buffalo.edu.
 
 Thank you! Happy coding to you — may your bugs be few, and your data ever insightful! 🚀😊
 
@@ -383,7 +383,7 @@ Thank you! Happy coding to you — may your bugs be few, and your data ever insi
 - Markatou, M., & Saraceno, G. (2024). A unified framework for multivariate two-sample and k-sample kernel-based quadratic distance goodness-of-fit tests. DOI: 10.48550/arXiv.2407.16374v1
 
 - Golzy, M., Rosen, G. H., Kruse, R. L., Hooshmand, K., Mehr, D. R., & Murray, K. S. (2023). Holistic assessment of quality of life predicts survival in older patients with bladder cancer. Urology, 174, 141-149.
- 
+
 - Strelnikoff, S., Jammalamadaka, A., & Warmsley, D. (2020, December). Causal maps for multi-document summarization. In 2020 IEEE International Conference on Big Data (Big Data) (pp. 4437-4445). IEEE.
 
 - Strelnikoff, S., Jammalamadaka, A., & Warmsley, D. M. (2024). U.S. Patent No. 11,907,307. Washington, DC: U.S. Patent and Trademark Office.
