@@ -48,7 +48,7 @@
 - package_name: Great Tables
   package_description: Make awesome display tables using Python.
   submitting_author:
-      name: Name
+      name: Rich Iannone
       github_username: rich-iannone
   all_current_maintainers:
     - name: Richard Iannone
@@ -868,7 +868,7 @@
 - package_name: astartes
   package_description: Better Data Splits for Machine Learning
   submitting_author:
-      name: Name
+      name: Jaskson Burns
       github_username: JacksonBurns
   all_current_maintainers:
     - name: Kevin Spiekermann
@@ -915,7 +915,7 @@
 - package_name: XGI
   package_description: XGI is a Python package for higher-order networks.
   submitting_author:
-      name: Name
+      name: Nicholas Landry
       github_username: nwlandry
   all_current_maintainers:
     - name: Nicholas Landry
