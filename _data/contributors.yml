@@ -3095,6 +3095,7 @@
     - peer-review-guide
   packages_eic:
   packages_editor:
+    - plot_phylo
     - taxpasta
   packages_submitted:
     - sourmash
@@ -4289,6 +4290,7 @@
     - automata
     - harmonize-wq
     - martini
+    - plot_phylo
     - sunpy
     - zodipy
   packages_editor:
@@ -5346,6 +5348,7 @@
   contributor_type:
     - editor
     - peer-review
+    - peer-review-guide
   packages_eic:
   packages_editor:
     - eomaps
@@ -8421,3 +8424,91 @@
     - great tables
   location: Paris-Saclay / France
   email: guillaume@probabl.ai
+- name: Ammar Aziz
+  github_username: ammaraziz
+  github_image_id: 7768245
+  title:
+  sort:
+  bio:
+  organization: Victorian Infectious Disease Reference Laboratory (VIDRL)
+  date_added: '2025-02-01'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - plot_phylo
+  location:
+  email:
+- name: Jayaram Kancherla
+  github_username: jkanche
+  github_image_id: 399324
+  title:
+  sort:
+  bio: Python, Genomics, JavaScript & everything in between.
+  organization: '@Genentech'
+  date_added: '2025-02-01'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter: jayaram
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - plot_phylo
+  location: San Francisco
+  email: jayaram.kancherla@gmail.com
+- name: Katy Brown
+  github_username: KatyBrown
+  github_image_id: 8896865
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2025-02-01'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter: thekatybrown1
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+    - submitting-author
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - plot_phylo
+  packages_reviewed:
+  location: University of Cambridge
+  email: kab84@cam.ac.uk
