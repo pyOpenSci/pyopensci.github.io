@@ -110,3 +110,14 @@ Eliot W. Robson:
     - label: LinkedIn
       icon: fab fa-fw fa-linkedin
       url: https://www.linkedin.com/in/eliot-robson/
+Raktim Mukhopadhyay:
+  name        : "Raktim Mukhopadhyay"
+  bio         : "Ph.D. Candidate, University at Buffalo"
+  avatar      : "/images/people/raktim-mukhopadhyay.jpg"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/rmj3197"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/raktimm/"
