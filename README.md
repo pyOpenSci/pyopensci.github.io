@@ -26,12 +26,12 @@ about contributing to our website, our **Python Packaging Guide** and our
 Have you decided to contribute? We use the [Jekyll framework](https://jekyllrb.org)
 for creating this site. To set up a **development environment** and **run the site locally**, follow these steps:
 
-1. Install ruby and bundler on your machine. See [the Jekyll docs](https://jekyllrb.com/docs/installation/) for instructions, if needed.
+1. Install ruby and bundler on your machine. See [the Jekyll docs](https://jekyllrb.com/docs/installation/) for instructions.
 2. Fork and clone this repository.
 3. Run `bundle install` in the root of the cloned repository directory. This will
    install the gems needed to run the site locally.
 4. Run `bundle exec jekyll serve` to start the jekyll web server.
-NOTE: if you want the page to automagically reload use: `bundle exec jekyll serve --livereload`. this requires Jekyll 3.7 or higher.
+NOTE: if you want the page to automatically reload, use: `bundle exec jekyll serve --live reload.` This requires Jekyll 3.7 or higher.
 5. Open your browser and navigate to `http://127.0.0.1:4000/`.
 
 Please test your changes locally prior to submitting a pull request (PR).
@@ -42,6 +42,36 @@ Please test your changes locally prior to submitting a pull request (PR).
 If you are publishing a blog post with a date that is in the future, you can build the site locally using the `--future` option to view it as follows:
 
 `bundle exec jekyll serve --future`.
+
+### Images and webp
+
+We try to keep the image size of our graphics as small/compressed as possible. To enable webp on your system, you first need to install it:
+
+For MAC:
+`brew install webp`
+
+Linux:
+`sudo apt-get install imagemagick`
+
+You can convert a directory of PNG images associated with a
+blog post that you write using:
+
+`for file in *.png; do cwebp "$file" -o "${file%.*}.webp"; done`
+
+or a single image
+
+`cwebp input-image.png -o output-image.webp`
+
+Below is an example of adding a figure to a post that has both webp and .png formats to support older and newer browsers.
+
+```html
+<figure>
+<picture>
+  <source srcset="/images/image-name.webp" type="image/webp">
+  <img src="/images/image-name.png" alt="Alt text here" />
+</picture>
+</figure>
+```
 
 ## Contributors ✨
 
