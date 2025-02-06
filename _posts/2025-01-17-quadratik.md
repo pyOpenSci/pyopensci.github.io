@@ -358,7 +358,7 @@ UI().run()
 <figure style="float: center;">
   <picture>
     <source srcset= {{ '/images/quadratik/dash-landing.webp'  | relative_url }}  type="image/webp">
-    <img src="/images/quadratik/dask-landing.png" alt="Dashboard."/>
+    <img src="/images/quadratik/dash-landing.png" alt="Dashboard."/>
   </picture>
 </figure>
 
