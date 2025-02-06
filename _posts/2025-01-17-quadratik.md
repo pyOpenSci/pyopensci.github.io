@@ -337,7 +337,7 @@ plt.tight_layout()
 
 <figure style="float: center;">
   <picture>
-    <source srcset= "{{ '/images/quadratik/unit-sphere.webp" type="image/webp'  | relative_url }}" type="image/webp">
+    <source srcset= "{{ '/images/quadratik/unit-sphere.webp" | relative_url }}" type="image/webp">
     <img src= "{{ '/images/quadratik/unit-sphere.png' | relative_url }}" alt="PKBD Samples on Unit Sphere."/>
   </picture>
 </figure>
