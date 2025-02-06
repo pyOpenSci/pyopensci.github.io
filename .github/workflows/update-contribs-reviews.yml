@@ -3,8 +3,9 @@ name: Update Contribs & reviewers
 on:
   workflow_dispatch:
   schedule:
-    # Runs on the 1 and 15 of each month at 00:00 UTC (see https://crontab.guru)
-    - cron: "0 0 1,15 * *"
+    # Runs daily at 03:21 UTC (see https://crontab.guru)
+    # (Choosing an "odd" time so CI doesn't get overloaded at mightnight exactly.)
+    - cron: "3 21 * * *"
 jobs:
   run-meta:
     if: github.repository_owner == 'pyopensci'
