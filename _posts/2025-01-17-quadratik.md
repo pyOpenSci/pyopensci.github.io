@@ -68,7 +68,7 @@ The results of this test is shown below.
 <figure style="float: center;">
 <picture>
   <source srcset={{ '/images/quadratik/normality-test-results.webp'  | relative_url }} type="image/webp">
-  <img src="/images/quadratik/normality-test-results.jpg" alt="Results for the Normality Test." />
+  <img src={{ '/images/quadratik/normality-test-results.jpg' | relative_url }} alt="Results for the Normality Test." />
 </picture>
 </figure>
 
@@ -107,7 +107,7 @@ The results of the test is shown below.
 <figure style="float: center;">
 <picture>
   <source srcset= {{ '/images/quadratik/two-sample-test-results.webp"  | relative_url }} type="image/webp">
-  <img src="/images/quadratik/two-sample-test-results.png" alt="Results for the Two Sample Test." />
+  <img src= {{ '/images/quadratik/two-sample-test-results.png' | relative_url }} alt="Results for the Two Sample Test." />
 </picture>
 </figure>
 
@@ -146,7 +146,7 @@ The results of the test is shown below.
 <figure style="float: center;">
 <picture>
   <source srcset= {{ '/images/quadratik/k-sample-test-results.webp'  | relative_url }} type="image/webp">
-  <img src="/images/quadratik/k-sample-test-results.png" alt="Results for the K-Sample Test." />
+  <img src= {{ '/images/quadratik/k-sample-test-results.png' | relative_url }} alt="Results for the K-Sample Test." />
 </picture>
 </figure>
 
@@ -178,7 +178,7 @@ The results of the test is shown below.
 <figure style="float: center;">
 <picture>
   <source srcset= {{ '/images/quadratik/uniformity-test-results.webp'  | relative_url }} type="image/webp">
-  <img src="/images/quadratik/uniformity-test-results.png" alt="Results for the Uniformity Test." />
+  <img src= {{ '/images/quadratik/uniformity-test-results.png' | relative_url }} alt="Results for the Uniformity Test." />
 </picture>
 </figure>
 
@@ -191,7 +191,7 @@ The image we will be using is shown below, and the task is to identify the vario
 <figure style="float: center;">
 <picture>
   <source srcset={{ '/images/quadratik/dog-cat.webp'  | relative_url }} type="image/webp">
-  <img src="/images/quadratik/dog-cat.png" alt="Dog Cat Image." />
+  <img src= {{ '/images/quadratik/dog-cat.png' | relative_url }} alt="Dog Cat Image." />
 </picture>
 </figure>
 
@@ -254,7 +254,7 @@ The image is segmented into k clusters with k ranging from 2 to 8. Below, we dis
 <figure style="float: center;">
 <picture>
   <source srcset= {{ '/images/quadratik/dog-cat-segmented.webp'  | relative_url }}  type="image/webp">
-  <img src="/images/quadratik/dog-cat-segmented.png" alt="Dog Cat Image Segmented" />
+  <img src= {{ '/images/quadratik/dog-cat-segmented.png' | relative_url }} alt="Dog Cat Image Segmented" />
 </picture>
 </figure>
 
@@ -338,7 +338,7 @@ plt.tight_layout()
 <figure style="float: center;">
   <picture>
     <source srcset= {{ '/images/quadratik/unit-sphere.webp" type="image/webp'  | relative_url }} >
-    <img src="/images/quadratik/unit-sphere.png" alt="PKBD Samples on Unit Sphere."/>
+    <img src= {{ '/images/quadratik/unit-sphere.png' | relative_url }} alt="PKBD Samples on Unit Sphere."/>
   </picture>
 </figure>
 
