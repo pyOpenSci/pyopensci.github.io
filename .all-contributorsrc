@@ -441,6 +441,16 @@
         "code",
         "review"
       ]
+    },
+    {
+      "login": "rmj3197",
+      "name": "Raktim Mukhopadhyay",
+      "avatar_url": "https://avatars.githubusercontent.com/u/54344732?v=4",
+      "profile": "https://github.com/rmj3197",
+      "contributions": [
+        "code",
+        "review"
+      ]
     }
   ],
   "commitConvention": "angular",
