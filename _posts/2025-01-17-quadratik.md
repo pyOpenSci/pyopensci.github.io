@@ -68,7 +68,7 @@ The results of this test is shown below.
 <figure style="float: center;">
 <picture>
   <source srcset="{{ '/images/quadratik/normality-test-results.webp'  | relative_url }}" type="image/webp">
-  <img src="{{ '/images/quadratik/normality-test-results.jpg' | relative_url }}" alt="Results for the Normality Test." />
+  <img src="{{ '/images/quadratik/normality-test-results.png' | relative_url }}" alt="Results for the Normality Test." />
 </picture>
 </figure>
 
@@ -337,7 +337,7 @@ plt.tight_layout()
 
 <figure style="float: center;">
   <picture>
-    <source srcset= "{{ '/images/quadratik/unit-sphere.webp" | relative_url }}" type="image/webp">
+    <source srcset= "{{ '/images/quadratik/unit-sphere.webp' | relative_url }}" type="image/webp">
     <img src= "{{ '/images/quadratik/unit-sphere.png' | relative_url }}" alt="PKBD Samples on Unit Sphere."/>
   </picture>
 </figure>
