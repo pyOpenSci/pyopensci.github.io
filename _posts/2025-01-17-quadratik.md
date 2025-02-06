@@ -266,8 +266,8 @@ elbow_plots
 ```
 <figure style="float: center;">
 <picture>
-  <source srcset= { '/images/quadratik/validation-dog-cat.webp'  | relative_url }}  type="image/webp">
-  <img src="/images/quadratik/validation-dog-cat.png" alt="Dog Cat Image Validation Plots" />
+  <source srcset= {{ '/images/quadratik/validation-dog-cat.webp'  | relative_url }}  type="image/webp">
+  <img src= {{ '/images/quadratik/validation-dog-cat.png' | relative_url }}  alt="Dog Cat Image Validation Plots" />
 </picture>
 </figure>
 
