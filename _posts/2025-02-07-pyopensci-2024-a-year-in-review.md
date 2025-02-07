@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "2024: A Transformative Year for pyOpenSci"
-excerpt: "2024 was a transformative year for pyOpenSci—we broke down barriers to open source participation with training events, collaborative tutorials, and peer review. Thanks to our incredible community and supporters, we’ve doubled our contributors, expanded our ecosystem, and created free educational resources for scientists worldwide. Learn more about our 2024 adventures and what's next for 2025."
+excerpt: "2024 was a transformative year for pyOpenSci—but our mission has never been more important. In a time when access, equity, and sustainability in open science face challenges, we doubled down on our commitment to breaking down barriers. Through training, mentorship, and peer review, we expanded our community, created free educational resources, and empowered scientists worldwide. Here’s what we built together—and why it matters now more than ever."
 author: "Leah Wasser"
 permalink: /blog/2024-pyopensci-retrospective.html
 header:
@@ -18,7 +18,7 @@ last_modified: 2025-01-06
 
 ## Introduction
 
-In 2024, pyOpenSci’s vibrant community led efforts to break down barriers to participation in open source scientific software. We empowered the broader community to create, contribute to, and discover better software through beginner-friendly [training events](https://www.pyopensci.org/events/index.html), [collaborative tutorials](https://www.pyopensci.org/learn.html#start-learning-beginner-friendly-python-packaging-tutorials), and [software peer review](https://www.pyopensci.org/about-peer-review/index.html).
+In 2024, pyOpenSci’s vibrant community led efforts to make open source science more accessible, inclusive, and equitable for all. We empowered the broader community to create, contribute to, and discover better software through beginner-friendly [training events](https://www.pyopensci.org/events/index.html), [collaborative tutorials](https://www.pyopensci.org/learn.html#start-learning-beginner-friendly-python-packaging-tutorials), and [software peer review](https://www.pyopensci.org/about-peer-review/index.html).
 
 <figure>
 <picture>
@@ -80,7 +80,9 @@ Give it a test-drive and let us know what you think!
 
 ##  <i class="fa-solid fa-graduation-cap" style="color: #81c0aa;"></i> pyOpenSci's training new training initiative: empowering our global community
 
-In 2024, we launched the pyOpenSci [training initiative](https://www.pyopensci.org/blog/pyos-education-announcement.html) to lower barriers to open science for Pythonistas worldwide. Supported by the community, our events reached **180 participants** from over **18 countries**, both online and in person.
+In 2024, we launched the pyOpenSci [training initiative](https://www.pyopensci.org/blog/pyos-education-announcement.html) to lower barriers and make scientific software education more accessible to all.
+
+To further our commitment to equity, we awarded 25+ scholarships to support participation from a diverse group of students, researchers, and contributors.
 
 ### Event Highlights: Fall Festival
 
@@ -178,9 +180,9 @@ In 2024, we began to address the emerging challenge of reviewing packages that r
 
 More work is needed, and we are committed to handling these complexities as we always do--collaboratively and with great care.
 
-## <i class="fa-solid fa-rocket" style="color: #81c0aa;"></i> A thriving contributor community: how contributions to pyOpenSci have skyrocketed
+## <i class="fa-solid fa-rocket" style="color: #81c0aa;"></i> A thriving, diverse contributor community: how contributions to pyOpenSci have skyrocketed
 
-In 2024, the pyOpenSci contributor community doubled to **278 people** from around the world! Through beginner-friendly sprints and mentorship, we supported new contributors and celebrated their successes making their first contributions to open source.
+In 2024, pyOpenSci welcomed 278 contributors from diverse backgrounds, many making their first-ever open source contributions. By prioritizing mentorship, accessibility, and community-led learning, we helped first-time contributors gain the confidence and skills to shape the future of open source science.
 
 This was also the first year where volunteer contributions outnumbered staff contributions—a testament to the power of community.
 
@@ -220,9 +222,13 @@ As we look to the future, our current focus includes:
 - **A focus on empowering the community to contribute to open source**
 - **Educational Videos that support our online content**
 
+## Strong together: Why inclusion in open science matters now more than ever
+
+At a time when access, equity, and sustainability in open science face challenges, we believe in building a space where everyone—regardless of background—can contribute, learn, and thrive. Diversity strengthens open source, and we are committed to ensuring that our community remains welcoming, supportive, and accessible.
+
 ## Sustaining our impact
 
-As we head into 2025, sustainability remains a top priority. We’re committed to growing pyOpenSci in ways that support our contributors, empower learners, and strengthen open source science. We’re actively seeking new partnerships and funding opportunities to ensure our work continues to thrive.
+As we head into 2025, sustainability and our commitment to diversity, equity, inclusion and accessibility remains a top priority. We’re committed to growing pyOpenSci in ways that support our contributors, empower learners, and strengthen open source science. We’re actively seeking new partnerships, welcoming new contributors and funding opportunities to ensure our work continues to thrive.
 
 To our funders, contributors, and community members—thank you. Your support makes our work possible and helps us build a future where scientific software is open, accessible, and collaborative.
 
