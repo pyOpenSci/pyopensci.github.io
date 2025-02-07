@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "2024: A Transformative Year for pyOpenSci"
-excerpt: "2024 was a transformative year for pyOpenSci—we broke down barriers to open source participation with training events, collaborative tutorials, and peer review. Thanks to our incredible community, we’ve doubled our contributors, expanded our ecosystem, and created free educational resources for scientists worldwide. Learn more about our 2024 adventures and what's next for 2025."
+excerpt: "2024 was a transformative year for pyOpenSci—we broke down barriers to open source participation with training events, collaborative tutorials, and peer review. Thanks to our incredible community and supporters, we’ve doubled our contributors, expanded our ecosystem, and created free educational resources for scientists worldwide. Learn more about our 2024 adventures and what's next for 2025."
 author: "Leah Wasser"
 permalink: /blog/2024-pyopensci-retrospective.html
 header:
@@ -18,7 +18,7 @@ last_modified: 2025-01-06
 
 ## Introduction
 
-In 2024, pyOpenSci’s vibrant community led efforts to break down barriers to participation in open source scientific software. We empowered scientists to create, contribute to, and discover better software through beginner-friendly training events, collaborative tutorials, and peer review.
+In 2024, pyOpenSci’s vibrant community led efforts to break down barriers to participation in open source scientific software. We empowered the broader community to create, contribute to, and discover better software through beginner-friendly [training events](https://www.pyopensci.org/events/index.html), [collaborative tutorials](https://www.pyopensci.org/learn.html#start-learning-beginner-friendly-python-packaging-tutorials), and [software peer review](https://www.pyopensci.org/about-peer-review/index.html).
 
 <figure>
 <picture>
@@ -29,43 +29,64 @@ In 2024, pyOpenSci’s vibrant community led efforts to break down barriers to p
 
 Looking back, I’m inspired and humbled by what we’ve achieved together:
 
-- We launched a new **Training Initiative** to empower open source newcomers and [explore what sustainability means](https://www.pyopensci.org/blog/pyopensci-funding-sustainability.html) for pyOpenSci.
-- We expanded our [**Software Peer Review Program**](https://www.pyopensci.org/about-peer-review/index.html), increasing its global impact.
-- We co-created a [packaging template](https://github.com/pyOpenSci/pyos-package-template) aligned with our [beginner-friendly Python packaging tutorials](https://www.pyopensci.org/python-package-guide/tutorials/intro.html) that we co-developed.
+- <i class="fa-solid fa-users"></i> We co-created a [Python package template](https://github.com/pyOpenSci/pyos-package-template) aligned with our [beginner-friendly Python packaging tutorials](https://www.pyopensci.org/python-package-guide/tutorials/intro.html) that we co-developed.
+- <i class="fa-solid fa-graduation-cap"></i> We launched a new **Training Initiative** to empower open source newcomers and [explore what sustainability means](https://www.pyopensci.org/blog/pyopensci-funding-sustainability.html) for pyOpenSci.
+- <i class="fa-solid fa-magnifying-glass"></i> We expanded our [**Software Peer Review Program**](https://www.pyopensci.org/about-peer-review/index.html), increasing its global impact.
+- <i class="fa-solid fa-rocket"></i> And our contributor community grew
+
 
 As I reflect on an incredible year, I want to take a moment to celebrate these milestones and set the stage for an ambitious 2025. Here’s a look back at what we accomplished together in 2024 and where we're heading next.
 
 <!--
 https://github.com/pyOpenSci/software-submission/issues?q=is%3Aissue+is%3Aopen+created%3A%3E%3D2024-01-01+
-55 new software submissions for our peer review process supported by a strong editorial team and reviewrs
+55 new software submissions for our peer review process supported by a strong editorial team and reviewers
 
 674 community issues and prs
 762 staff
 -->
 
-## Beginner-friendly content development: harnessing diverse expertise
+## <i class="fa-solid fa-users" style="color: #81c0aa;"></i> Co-creation of beginner-friendly content: Python packaging made easy(ier)
 
-A defining strength of the pyOpenSci community is its commitment to creating accessible technical lessons for Pythonistas at all skill levels. In 2024, this commitment shone through in creating our tutorial, [**"How to Create a Python Package"**](https://www.pyopensci.org/python-package-guide/tutorials/intro.html). This tutorial provides an opinionated single way to create a Python package—a key step in making Python packaging more approachable and empowering for all.
+A defining strength of the pyOpenSci community is its commitment to co-creating accessible technical lessons for Pythonistas at all skill levels. These lessons, in turn, support our beginner-friendly tutorials and training events (more below). In 2024, this commitment shone through in creating our tutorial, [**"How to Create a Python Package"**](https://www.pyopensci.org/python-package-guide/tutorials/intro.html). This tutorial provides an opinionated way to create a Python package--a key step in making Python packaging more approachable and accessible for all.
 
 Our packaging tutorial is the product of a vibrant collaboration between developers, scientists, and beginners. Packaging tool maintainers and packaging experts worked alongside those newer to packaging to co-develop, review, and refine content that is accurate, thorough, and welcoming to newcomers.
 
-### **Collaborative learning in action: building together, learning together**
+
+<figure>
+<picture>
+  <source srcset="{{ '/images/python-packaging/packaging-101-outline.webp' | relative_url }}" type="image/webp">
+  <img src= "{{ '/images/python-packaging/packaging-101-outline.png' | relative_url }}" alt="Diagram showing the lessons in our packaging tutorial. There are 6 total - what is a Python package, make code pip installable, publish your package to PyPI, add a README and LICENSE file, add metadata for PyPI and finally publish to conda forge." style="width: 70%; max-width: 100%;"/>
+</picture>
+</figure>
+
+### Collaborative learning in action: building together, learning together
 
 Our co-development process brought contributors of all experience levels together to create a resource that:
 
-- **Blends expertise:** Developers and scientists shared insights while beginners shaped the content with fresh perspectives.
+- **Blend expertise:** Developers and scientists shared insights, while beginners shaped the content with fresh perspectives.
 - **Demystifies packaging:** Clear, precise explanations, reviewed by experts and tested by newcomers, break down complex steps for new users.
 - **Describes core concepts visually:** Custom graphics and step-by-step guides make technical concepts easier for visual learners to grasp.
 
 We're building both knowledge and community by publishing these lessons as free, open-access resources. This collaborative effort exemplifies the unique power of pyOpenSci to bridge expertise, foster learning, and strengthen the open source ecosystem.
 
-## Training events: empowering our global community
+### Simplifying Python packaging: Our easy-to-use Python package template
+
+To further simplify the process of creating a new Python package, the community also came together to develop an easy-to-use [Python packaging template](https://github.com/pyOpenSci/pyos-package-template). The template allows you to create a skeleton Python package that follows our beginner-friendly Python package tutorial with just a few commands.
+
+Many learners used this template successfully during our Fall Festival (more below!) and we look forward to refining it further in the upcoming months.
+
+Give it a test-drive and let us know what you think!
+
+
+##  <i class="fa-solid fa-graduation-cap" style="color: #81c0aa;"></i> pyOpenSci's training new training initiative: empowering our global community
 
 In 2024, we launched the pyOpenSci [training initiative](https://www.pyopensci.org/blog/pyos-education-announcement.html) to lower barriers to open science for Pythonistas worldwide. Supported by the community, our events reached **180 participants** from over **18 countries**, both online and in person.
 
 ### Event Highlights: Fall Festival
 
 Our first-ever [Fall Festival](#) featured inspiring keynote speakers like Rowan Cockett, who introduced participants to [MyST Markdown](https://mystmd.org/), Melissa Mendoça who discussed her personal pathway into open source from academia, and Eric Ma, who overviewed the importance of [reproducibility in science](/human-dimension-clean-documented-data-science-code.html).
+
+On the event's last day, George Stagg, developer of Quarto Live, and James Balamuta kicked off the day with an overview of how Quarto Live makes interactive publishing of dynamic scientific outputs easier, connecting scientific workflows with shared outputs.
 
 <figure>
 <picture>
@@ -78,7 +99,7 @@ The dynamic spatial chat platform fostered real-time collaboration and made lear
 
 {% include pyos-blockquote.html quote="I love the engagement…how people were attended to individually despite being in a group setting. I enjoyed that learning could happen in a personal and group setting." author="Workshop Participant" event="Fall Festival 2024" class="highlight purple" %}
 
-#### Volunteers who made it possible
+#### Volunteer contributors who made it possible
 
 The Fall Festival wouldn’t have been possible without the dedication of our incredible volunteers, who handled everything from workshop support to tech troubleshooting. Their efforts ensured a welcoming, smooth experience for participants.
 
@@ -102,43 +123,15 @@ These lessons reinforce key technical skills and showcase the power of community
 
 ### Event highlight: Intro to Python packaging workshops
 
-We also ran two beginner-friendly packaging workshops where dozens of participants successfully created their first Python packages by following our [beginner-friendly packaging tutorials](https://www.pyopensci.org/python-package-guide/tutorials/intro.html).
+As a part of our training initiative, we also ran two beginner-friendly packaging workshops where dozens of participants successfully created their first Python packages by following our [beginner-friendly packaging tutorials](https://www.pyopensci.org/python-package-guide/tutorials/intro.html).
 
-What did you enjoy most about the workshop:
+What did you enjoy most about the workshop?
 
 {% include pyos-blockquote.html quote="The content and the crew! The team was so kind, patient, and approachable. I appreciate the amount of support and reassurance given during this tutorial. The content of the tutorial was also spot on. Everything we covered felt relevant and useful, and gave me the confidence to feel capable of creating my own packages." author="Workshop Participant" event="SciPy 2024 Create your first Python package training" class="highlight purple" %}
 
 The success of our training materials underscores the demand for inclusive, high-quality open science resources; they also demonstrate the power of community collaboration.
 
-
-## A thriving contributor community: how contributions to pyOpenSci have skyrocketed <i class="fa-solid fa-rocket" style="color: #290a3e;"></i>
-
-In 2024, the pyOpenSci contributor community doubled to **278 people** from around the world! Through beginner-friendly sprints and mentorship, we supported new contributors and celebrated their successes making their first contributions to open source.
-
-This was also the first year where volunteer contributions outnumbered staff contributions—a testament to the power of community.
-
-Wow!
-
-<figure>
-<picture>
-  <source srcset="{{ '/images/pyopensci-general/pyopensci-github-prs-issues.webp' | relative_url }}" type="image/webp">
-  <img src="{{ '/images/pyopensci-general/pyopensci-github-prs-issues.png' | relative_url }}" alt="Bar chart titled ‘Staff vs. Volunteer Contributor by Quarter,’ showing the count of contributions by quarter from Q4 2018 to Q1 2025. The chart uses stacked bars, with green representing volunteer contributions and purple representing staff contributions. The chart shows a significant growth in contributions starting around 2023, with volunteer contributions surpassing staff contributions in recent quarters." />
-</picture>
-  <figcaption>Plot that shows an increase in contributions to pyOpenSci open education content.</figcaption>
-
-</figure>
-
-### Empowering first-time contributors
-
-A key driver of contributor and community growth was our [**beginner-friendly sprints**](https://www.pyopensci.org/blog/pyopensci-pyconus-2024-sprints.html). Sprint events exemplified the power of community support combined with mentorship & just a bit of training (mostly around git and GitHub). These sprints welcomed over **50 participants** and resulted in **86 issues and pull requests**—many from first-time contributors.
-
-- **PyCon US, SciPy, and PyCascades Sprints:** Hosted across three major conferences, these events focused on hands-on mentorship, guiding participants through impactful contributions.
-
-{% include pyos-blockquote.html quote="Amazing! Leah was so helpful as it was my first time doing anything like that. I had used GitHub for personal projects but never with other people so she was so good at teaching." author="Workshop Participant" event="pyOpenSci sprint 2024" class="highlight purple" %}
-
-Our sprints strengthened our contributor community and sparked new initiatives, like translating our packaging guide into Spanish and Japanese.
-
-## Python software review highlights
+## <i class="fa-solid fa-magnifying-glass-chart" style="color: #81c0aa;"></i>  Expanding our software peer review program in 2024
 
 The pyOpenSci software peer review program empowers scientists to build and improve the tools they rely on to process and analyze data. In 2024, we expanded our ecosystem of reviewed scientific Python packages to **39**, thanks to the dedication of our editorial and review teams.
 
@@ -184,6 +177,33 @@ The flowchart shows arrows connecting these stages, visually demonstrating the p
 In 2024, we began to address the emerging challenge of reviewing packages that rely on proprietary generative AI models. We discussed important ethical questions about transparency vs. innovation in scientific software. Should we review packages that depend upon proprietary (closed box) models that are rapidly evolving?
 
 More work is needed, and we are committed to handling these complexities as we always do--collaboratively and with great care.
+
+## <i class="fa-solid fa-rocket" style="color: #81c0aa;"></i> A thriving contributor community: how contributions to pyOpenSci have skyrocketed
+
+In 2024, the pyOpenSci contributor community doubled to **278 people** from around the world! Through beginner-friendly sprints and mentorship, we supported new contributors and celebrated their successes making their first contributions to open source.
+
+This was also the first year where volunteer contributions outnumbered staff contributions—a testament to the power of community.
+
+Wow!
+
+<figure>
+<picture>
+  <source srcset="{{ '/images/pyopensci-general/pyopensci-github-prs-issues.webp' | relative_url }}" type="image/webp">
+  <img src="{{ '/images/pyopensci-general/pyopensci-github-prs-issues.png' | relative_url }}" alt="Bar chart titled ‘Staff vs. Volunteer Contributor by Quarter,’ showing the count of contributions by quarter from Q4 2018 to Q1 2025. The chart uses stacked bars, with green representing volunteer contributions and purple representing staff contributions. The chart shows a significant growth in contributions starting around 2023, with volunteer contributions surpassing staff contributions in recent quarters." />
+</picture>
+  <figcaption>Plot that shows an increase in contributions to pyOpenSci open education content.</figcaption>
+
+</figure>
+
+### Empowering first-time contributors
+
+A key driver of contributor and community growth was our [**beginner-friendly sprints**](https://www.pyopensci.org/blog/pyopensci-pyconus-2024-sprints.html). Sprint events exemplified the power of community support combined with mentorship & just a bit of training (mostly around git and GitHub). These sprints welcomed over **50 participants** and resulted in **86 issues and pull requests**—many from first-time contributors.
+
+- **PyCon US, SciPy, and PyCascades Sprints:** Hosted across three major conferences, these events focused on hands-on mentorship, guiding participants through impactful contributions.
+
+{% include pyos-blockquote.html quote="Amazing! Leah was so helpful as it was my first time doing anything like that. I had used GitHub for personal projects but never with other people so she was so good at teaching." author="Workshop Participant" event="pyOpenSci sprint 2024" class="highlight purple" %}
+
+Our sprints strengthened our contributor community and sparked new initiatives, like translating our packaging guide into Spanish and Japanese.
 
 ## Funding and sustainability
 
