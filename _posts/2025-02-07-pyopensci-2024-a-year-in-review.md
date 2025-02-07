@@ -228,7 +228,7 @@ At a time when access, equity, and sustainability in open science face challenge
 
 ## Sustaining our impact
 
-As we head into 2025, sustainability remains a top priority. We’re committed to growing pyOpenSci in ways that support our contributors, empower learners, and strengthen open source science. We’re actively seeking new partnerships and funding opportunities to ensure our work continues to thrive.
+As we head into 2025, sustainability and our commitment to diversity, equity, inclusion and accessibility remains a top priority. We’re committed to growing pyOpenSci in ways that support our contributors, empower learners, and strengthen open source science. We’re actively seeking new partnerships, welcoming new contributors and funding opportunities to ensure our work continues to thrive.
 
 To our funders, contributors, and community members—thank you. Your support makes our work possible and helps us build a future where scientific software is open, accessible, and collaborative.
 
