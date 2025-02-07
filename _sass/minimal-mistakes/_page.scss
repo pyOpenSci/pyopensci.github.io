@@ -585,6 +585,10 @@ body {
     }
   }
 
+ .page__content figure {
+      max-width: 40rem;
+  }
+
   .page__related {
     @include breakpoint($large) {
       padding-right: 0;
