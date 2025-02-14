@@ -99,35 +99,6 @@
   packages_reviewed:
   location: Ottawa, ON
   email: karen.cranston@gmail.com
-- name: Jesse Mostipak
-  github_username: kierisi
-  github_image_id: 23085445
-  title:
-  sort: 3
-  bio:
-  organization: pyOpenSci
-  date_added: '2023-11-21'
-  deia_advisory: false
-  editorial_board: false
-  emeritus_editor: false
-  advisory: false
-  emeritus_advisory: false
-  twitter:
-  mastodon:
-  orcidid:
-  partners:
-  website:
-  board: false
-  contributor_type:
-    - package-guide
-    - peer-review-guide
-    - web-contrib
-  packages_eic:
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
-  location:
-  email:
 - name: Carol Willing
   github_username: willingc
   github_image_id: 2680980
@@ -886,6 +857,35 @@
     - sourmash
   packages_reviewed:
   location: Davis, CA
+  email:
+- name: Jesse Mostipak
+  github_username: kierisi
+  github_image_id: 23085445
+  title:
+  sort: 3
+  bio:
+  organization: pyOpenSci
+  date_added: '2023-11-21'
+  deia_advisory: false
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - package-guide
+    - peer-review-guide
+    - web-contrib
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location:
   email:
 - name: Paige Bailey
   github_username: dynamicwebpaige
