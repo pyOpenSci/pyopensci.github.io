@@ -634,6 +634,7 @@
     - astartes
     - crowsetta
     - pooltool
+    - pypartmc
     - sunpy
   packages_submitted:
   packages_reviewed:
@@ -778,6 +779,7 @@
   packages_eic:
     - great tables
     - pooltool
+    - pypartmc
     - quadratik
   packages_editor:
     - cardsort
@@ -3844,8 +3846,10 @@
     - guidebook-contrib
     - peer-review
     - peer-review-guide
+    - web-contrib
   packages_eic:
   packages_editor:
+    - astrodata
     - martini
     - stingray
   packages_submitted:
@@ -8246,6 +8250,7 @@
     - maintainer
     - peer-review
     - submitting-author
+    - web-contrib
   packages_eic:
   packages_editor:
   packages_submitted:
@@ -8433,7 +8438,7 @@
   organization: Victorian Infectious Disease Reference Laboratory (VIDRL)
   date_added: '2025-02-01'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -8462,7 +8467,7 @@
   organization: '@Genentech'
   date_added: '2025-02-01'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -8491,7 +8496,7 @@
   organization:
   date_added: '2025-02-01'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -8512,3 +8517,355 @@
   packages_reviewed:
   location: University of Cambridge
   email: kab84@cam.ac.uk
+- name: Aarya Patil
+  github_username: aaryapatil
+  github_image_id: 15609154
+  title:
+  sort:
+  bio: LSST Discovery Alliance Postdoctoral Fellow. Finance committee and voting
+      member @astropy.
+  organization: Max Planck Institute for Astronomy
+  date_added: '2025-02-19'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter: aarya_patil
+  mastodon:
+  orcidid:
+  partners:
+  website: https://astro.utoronto.ca/~patil
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - astrodata
+  location: Heidelberg, Germany
+  email:
+- name: Matt Craig
+  github_username: mwcraig
+  github_image_id: 1147167
+  title:
+  sort:
+  bio:
+  organization: Minnesota State University Moorhead
+  date_added: '2025-02-19'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter: astronomatty
+  mastodon:
+  orcidid:
+  partners:
+  website: https://mwcraig.github.io
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - astrodata
+  location: Moorhead, MN
+  email: mattwcraig@gmail.com
+- name: Teal
+  github_username: teald
+  github_image_id: 6620029
+  title:
+  sort:
+  bio: Astronomy, Software, & Other Things
+  organization: NOIRLab
+  date_added: '2025-02-19'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://teald.github.io
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+    - submitting-author
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - astrodata
+  packages_reviewed:
+  location: Riverside, CA
+  email: teal.dillon@gmail.com
+- name: Chris Simpson
+  github_username: chris-simpson
+  github_image_id: 22304216
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2025-02-19'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - astrodata
+  packages_reviewed:
+  location:
+  email: chris.simpson@noirlab.edu
+- name:
+  github_username: jehturner
+  github_image_id: 322026
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2025-02-19'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - astrodata
+  packages_reviewed:
+  location: La Serena, Chile
+  email:
+- name: Simon O'Meara
+  github_username: simonom
+  github_image_id: 26569960
+  title:
+  sort:
+  bio: Researcher at the National Centre for Atmospheric Science (UK)
+  organization: National Centre for Atmospheric Science, University of Manchester
+  date_added: '2025-02-19'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - pypartmc
+  location: M13 9PL
+  email: simon.omeara@manchester.ac.uk
+- name: Dan Baston
+  github_username: dbaston
+  github_image_id: 6318931
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2025-02-19'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - pypartmc
+  location: Vermont, USA
+  email: dbaston@gmail.com
+- name: Sylwester Arabas
+  github_username: slayoo
+  github_image_id: 89685
+  title:
+  sort:
+  bio: researching clouds in the cloud
+  organization: agh.edu.pl
+  date_added: '2025-02-19'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://slayoo.github.io/
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+    - submitting-author
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - pypartmc
+  packages_reviewed:
+  location: Kraków, Poland
+  email: sylwester.arabas@agh.edu.pl
+- name: Zach D'Aquino
+  github_username: zdaq12
+  github_image_id: 107204919
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2025-02-19'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - pypartmc
+  packages_reviewed:
+  location:
+  email:
+- name: Jeffrey Curtis
+  github_username: jcurtis2
+  github_image_id: 8780125
+  title:
+  sort:
+  bio: Research Scientist in the Department of Climate, Meteorology & Atmospheric
+      Sciences at the University of Illinois Urbana-Champaign.
+  organization: University of Illinois Urbana-Champaign
+  date_added: '2025-02-19'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://publish.illinois.edu/jcurtis2/
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - pypartmc
+  packages_reviewed:
+  location: Urbana, Illinois
+  email:
+- name: Nicole Riemer
+  github_username: nriemer
+  github_image_id: 8496047
+  title:
+  sort:
+  bio:
+  organization: University of Illinois at Urbana-Champaign
+  date_added: '2025-02-19'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://www.atmos.illinois.edu/~nriemer
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - pypartmc
+  packages_reviewed:
+  location: Urbana, IL
+  email: nriemer@illinois.edu
+- name: Matthew West
+  github_username: mwest1066
+  github_image_id: 875833
+  title:
+  sort:
+  bio: Professor of Mechanical Science and Engineering
+  organization: University of Illinois at Urbana-Champaign
+  date_added: '2025-02-19'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://lagrange.mechse.illinois.edu/mwest
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - pypartmc
+  packages_reviewed:
+  location: Urbana, Illinois, USA
+  email: mwest@illinois.edu
