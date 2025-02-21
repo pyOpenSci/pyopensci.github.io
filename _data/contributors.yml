@@ -8527,7 +8527,7 @@
   organization: Max Planck Institute for Astronomy
   date_added: '2025-02-19'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -8556,7 +8556,7 @@
   organization: Minnesota State University Moorhead
   date_added: '2025-02-19'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -8585,7 +8585,7 @@
   organization: NOIRLab
   date_added: '2025-02-19'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -8615,7 +8615,7 @@
   organization:
   date_added: '2025-02-19'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -8644,7 +8644,7 @@
   organization:
   date_added: '2025-02-19'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -8673,7 +8673,7 @@
   organization: National Centre for Atmospheric Science, University of Manchester
   date_added: '2025-02-19'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -8702,7 +8702,7 @@
   organization:
   date_added: '2025-02-19'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -8731,7 +8731,7 @@
   organization: agh.edu.pl
   date_added: '2025-02-19'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -8761,7 +8761,7 @@
   organization:
   date_added: '2025-02-19'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -8791,7 +8791,7 @@
   organization: University of Illinois Urbana-Champaign
   date_added: '2025-02-19'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -8820,7 +8820,7 @@
   organization: University of Illinois at Urbana-Champaign
   date_added: '2025-02-19'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -8849,7 +8849,7 @@
   organization: University of Illinois at Urbana-Champaign
   date_added: '2025-02-19'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
