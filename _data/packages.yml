@@ -75,7 +75,7 @@
   version_accepted: v0.14.0
   date_accepted: '2025-01-03'
   created_at: 2024-06-14 19:55:59+00:00
-  updated_at: 2025-02-19 17:30:34+00:00
+  updated_at: 2025-02-21 14:40:26+00:00
   closed_at:
   issue_link: https://github.com/pyOpenSci/software-submission/issues/202
   joss:
@@ -84,13 +84,13 @@
       name: great-tables
       description: Make awesome display tables using Python
       created_at: '2022-05-06'
-      stargazers_count: 2089
-      watchers_count: 2089
-      open_issues_count: 111
+      stargazers_count: 2096
+      watchers_count: 2096
+      open_issues_count: 112
       forks_count: 82
       documentation: https://posit-dev.github.io/great-tables/
-      contrib_count: 18
-      last_commit: '2025-02-18'
+      contrib_count: 19
+      last_commit: '2025-02-21'
   labels:
     - 6/pyOS-approved
     - joss-submission-pending
@@ -143,11 +143,11 @@
       created_at: '2015-09-30'
       stargazers_count: 183
       watchers_count: 183
-      open_issues_count: 49
+      open_issues_count: 43
       forks_count: 150
       documentation: https://stingray.science/stingray
       contrib_count: 30
-      last_commit: '2025-02-05'
+      last_commit: '2025-02-20'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -350,8 +350,8 @@
       name: pooltool
       description: A sandbox billiards game that emphasizes realistic physics
       created_at: '2020-04-09'
-      stargazers_count: 250
-      watchers_count: 250
+      stargazers_count: 252
+      watchers_count: 252
       open_issues_count: 6
       forks_count: 42
       documentation: https://pooltool.readthedocs.io
@@ -496,9 +496,9 @@
       github_username: jkanche
   archive:
   version_accepted: TBD
-  date_accepted: missing
+  date_accepted: '2025-01-21'
   created_at: 2024-02-22 11:55:59+00:00
-  updated_at: 2025-02-04 08:40:19+00:00
+  updated_at: 2025-02-21 20:28:07+00:00
   closed_at:
   issue_link: https://github.com/pyOpenSci/software-submission/issues/160
   joss:
@@ -780,11 +780,11 @@
       created_at: '2011-08-06'
       stargazers_count: 942
       watchers_count: 942
-      open_issues_count: 295
+      open_issues_count: 293
       forks_count: 610
       documentation: https://www.sunpy.org
       contrib_count: 30
-      last_commit: '2025-02-18'
+      last_commit: '2025-02-20'
   labels:
     - 6/pyOS-approved
   active: true
@@ -862,10 +862,10 @@
   version_accepted: '[0.11.0](https://github.com/vnmabus/rdata/releases/tag/0.11.0)'
   date_accepted: 2024-2-29
   created_at: 2023-10-20 08:26:10+00:00
-  updated_at: 2025-02-06 18:53:49+00:00
-  closed_at:
+  updated_at: 2025-02-21 20:21:01+00:00
+  closed_at: 2025-02-21 20:20:59+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/144
-  joss:
+  joss: https://doi.org/10.21105/joss.07540
   partners:
   gh_meta:
       name: rdata
@@ -880,6 +880,7 @@
       last_commit: '2025-01-25'
   labels:
     - 6/pyOS-approved
+    - 9/joss-approved
   active: true
 - package_name: EOmaps
   package_description: EOmaps is a python package to visualize, analyze and compare
@@ -969,7 +970,7 @@
       created_at: '2016-04-09'
       stargazers_count: 486
       watchers_count: 486
-      open_issues_count: 767
+      open_issues_count: 769
       forks_count: 80
       documentation: https://sourmash.readthedocs.io/en/latest/
       contrib_count: 30
@@ -1174,9 +1175,9 @@
       name: biocypher
       description: A unifying framework for biomedical research knowledge graphs
       created_at: '2021-09-10'
-      stargazers_count: 241
-      watchers_count: 241
-      open_issues_count: 176
+      stargazers_count: 242
+      watchers_count: 242
+      open_issues_count: 177
       forks_count: 32
       documentation: https://biocypher.org
       contrib_count: 17
@@ -1470,11 +1471,11 @@
       created_at: '2018-07-27'
       stargazers_count: 349
       watchers_count: 349
-      open_issues_count: 58
+      open_issues_count: 55
       forks_count: 61
       documentation: https://xclim.readthedocs.io/en/stable/
       contrib_count: 30
-      last_commit: '2025-02-18'
+      last_commit: '2025-02-21'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1677,7 +1678,7 @@
       forks_count: 225
       documentation: https://www.pygmt.org
       contrib_count: 30
-      last_commit: '2025-02-19'
+      last_commit: '2025-02-20'
   labels:
     - 6/pyOS-approved
   active: true
@@ -2003,7 +2004,7 @@
       stargazers_count: 1274
       watchers_count: 1274
       open_issues_count: 27
-      forks_count: 198
+      forks_count: 197
       documentation: https://movingpandas.org
       contrib_count: 30
       last_commit: '2025-02-03'
@@ -2047,9 +2048,9 @@
       description: A light-weight, flexible, and expressive statistical data testing
           library
       created_at: '2018-11-01'
-      stargazers_count: 3628
-      watchers_count: 3628
-      open_issues_count: 402
+      stargazers_count: 3632
+      watchers_count: 3632
+      open_issues_count: 404
       forks_count: 321
       documentation: https://www.union.ai/pandera
       contrib_count: 30
