@@ -84,8 +84,8 @@
       name: great-tables
       description: Make awesome display tables using Python
       created_at: '2022-05-06'
-      stargazers_count: 2101
-      watchers_count: 2101
+      stargazers_count: 2102
+      watchers_count: 2102
       open_issues_count: 109
       forks_count: 83
       documentation: https://posit-dev.github.io/great-tables/
@@ -141,9 +141,9 @@
       description: Anything can happen in the next half hour (including spectral
           timing made easy)!
       created_at: '2015-09-30'
-      stargazers_count: 183
-      watchers_count: 183
-      open_issues_count: 43
+      stargazers_count: 184
+      watchers_count: 184
+      open_issues_count: 46
       forks_count: 150
       documentation: https://stingray.science/stingray
       contrib_count: 30
@@ -302,8 +302,8 @@
       description: Python (and C++) interface to PartMC with Jupyter/Python, Julia
           and Matlab examples
       created_at: '2021-10-26'
-      stargazers_count: 25
-      watchers_count: 25
+      stargazers_count: 26
+      watchers_count: 26
       open_issues_count: 61
       forks_count: 12
       documentation: https://open-atmos.github.io/PyPartMC/
@@ -352,7 +352,7 @@
       created_at: '2020-04-09'
       stargazers_count: 252
       watchers_count: 252
-      open_issues_count: 6
+      open_issues_count: 8
       forks_count: 42
       documentation: https://pooltool.readthedocs.io
       contrib_count: 8
@@ -778,13 +778,13 @@
       name: sunpy
       description: SunPy - Python for Solar Physics
       created_at: '2011-08-06'
-      stargazers_count: 942
-      watchers_count: 942
-      open_issues_count: 292
+      stargazers_count: 943
+      watchers_count: 943
+      open_issues_count: 291
       forks_count: 610
       documentation: https://www.sunpy.org
       contrib_count: 30
-      last_commit: '2025-02-22'
+      last_commit: '2025-02-24'
   labels:
     - 6/pyOS-approved
   active: true
@@ -970,11 +970,11 @@
       created_at: '2016-04-09'
       stargazers_count: 487
       watchers_count: 487
-      open_issues_count: 772
+      open_issues_count: 774
       forks_count: 80
       documentation: https://sourmash.readthedocs.io/en/latest/
       contrib_count: 30
-      last_commit: '2025-02-18'
+      last_commit: '2025-02-24'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1177,7 +1177,7 @@
       created_at: '2021-09-10'
       stargazers_count: 242
       watchers_count: 242
-      open_issues_count: 177
+      open_issues_count: 176
       forks_count: 32
       documentation: https://biocypher.org
       contrib_count: 17
@@ -1475,7 +1475,7 @@
       forks_count: 61
       documentation: https://xclim.readthedocs.io/en/stable/
       contrib_count: 30
-      last_commit: '2025-02-21'
+      last_commit: '2025-02-24'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1674,11 +1674,11 @@
       created_at: '2017-03-17'
       stargazers_count: 785
       watchers_count: 785
-      open_issues_count: 189
+      open_issues_count: 188
       forks_count: 225
       documentation: https://www.pygmt.org
       contrib_count: 30
-      last_commit: '2025-02-22'
+      last_commit: '2025-02-24'
   labels:
     - 6/pyOS-approved
   active: true
@@ -2007,7 +2007,7 @@
       forks_count: 197
       documentation: https://movingpandas.org
       contrib_count: 30
-      last_commit: '2025-02-03'
+      last_commit: '2025-02-24'
   labels:
     - 6/pyOS-approved
   active: true
@@ -2048,8 +2048,8 @@
       description: A light-weight, flexible, and expressive statistical data testing
           library
       created_at: '2018-11-01'
-      stargazers_count: 3634
-      watchers_count: 3634
+      stargazers_count: 3637
+      watchers_count: 3637
       open_issues_count: 405
       forks_count: 321
       documentation: https://www.union.ai/pandera
