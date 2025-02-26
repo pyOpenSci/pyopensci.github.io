@@ -84,10 +84,10 @@
       name: great-tables
       description: Make awesome display tables using Python
       created_at: '2022-05-06'
-      stargazers_count: 2104
-      watchers_count: 2104
-      open_issues_count: 110
-      forks_count: 83
+      stargazers_count: 2106
+      watchers_count: 2106
+      open_issues_count: 111
+      forks_count: 84
       documentation: https://posit-dev.github.io/great-tables/
       contrib_count: 19
       last_commit: '2025-02-21'
@@ -141,9 +141,9 @@
       description: Anything can happen in the next half hour (including spectral
           timing made easy)!
       created_at: '2015-09-30'
-      stargazers_count: 184
-      watchers_count: 184
-      open_issues_count: 46
+      stargazers_count: 185
+      watchers_count: 185
+      open_issues_count: 47
       forks_count: 150
       documentation: https://stingray.science/stingray
       contrib_count: 30
@@ -195,7 +195,7 @@
       created_at: '2023-10-17'
       stargazers_count: 1
       watchers_count: 1
-      open_issues_count: 15
+      open_issues_count: 14
       forks_count: 2
       documentation: https://geminidrsoftware.github.io/astrodata/
       contrib_count: 4
@@ -657,9 +657,9 @@
       description: A Python library for simulating finite automata, pushdown automata,
           and Turing machines
       created_at: '2016-02-16'
-      stargazers_count: 370
-      watchers_count: 370
-      open_issues_count: 9
+      stargazers_count: 371
+      watchers_count: 371
+      open_issues_count: 10
       forks_count: 66
       documentation: https://caleb531.github.io/automata/
       contrib_count: 17
@@ -781,7 +781,7 @@
       stargazers_count: 943
       watchers_count: 943
       open_issues_count: 291
-      forks_count: 610
+      forks_count: 611
       documentation: https://www.sunpy.org
       contrib_count: 30
       last_commit: '2025-02-25'
@@ -970,11 +970,11 @@
       created_at: '2016-04-09'
       stargazers_count: 488
       watchers_count: 488
-      open_issues_count: 781
+      open_issues_count: 777
       forks_count: 80
       documentation: https://sourmash.readthedocs.io/en/latest/
       contrib_count: 30
-      last_commit: '2025-02-24'
+      last_commit: '2025-02-26'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1424,7 +1424,7 @@
       forks_count: 15
       documentation: https://python-graphblas.readthedocs.io/en/stable/
       contrib_count: 11
-      last_commit: '2025-02-17'
+      last_commit: '2025-02-26'
   labels:
     - 6/pyOS-approved
   active: true
@@ -1475,7 +1475,7 @@
       forks_count: 61
       documentation: https://xclim.readthedocs.io/en/stable/
       contrib_count: 30
-      last_commit: '2025-02-24'
+      last_commit: '2025-02-26'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -2048,10 +2048,10 @@
       description: A light-weight, flexible, and expressive statistical data testing
           library
       created_at: '2018-11-01'
-      stargazers_count: 3639
-      watchers_count: 3639
+      stargazers_count: 3641
+      watchers_count: 3641
       open_issues_count: 405
-      forks_count: 321
+      forks_count: 323
       documentation: https://www.union.ai/pandera
       contrib_count: 30
       last_commit: '2025-02-18'
