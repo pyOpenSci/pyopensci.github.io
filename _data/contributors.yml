@@ -4294,6 +4294,7 @@
     - automata
     - harmonize-wq
     - martini
+    - petrofit
     - plot_phylo
     - sunpy
     - zodipy
@@ -6060,6 +6061,7 @@
     - peer-review
   packages_eic:
   packages_editor:
+    - petrofit
     - zodipy
   packages_submitted:
   packages_reviewed:
@@ -7194,12 +7196,14 @@
   contributor_type:
     - maintainer
     - peer-review
+    - reviewer
     - submitting-author
   packages_eic:
   packages_editor:
   packages_submitted:
     - martini
   packages_reviewed:
+    - petrofit
   location:
   email: kyle.a.oman@durham.ac.uk
 - name: Phil Dong
@@ -8870,3 +8874,118 @@
   packages_reviewed:
   location: Urbana, Illinois, USA
   email: mwest@illinois.edu
+- name: Agriya Khetarpal
+  github_username: agriyakhetarpal
+  github_image_id: 74401230
+  title:
+  sort:
+  bio: sentient stochastic parrot. @pyodide • @jupyterlite • @pybamm-team • @scientific-python
+  organization: Quansight
+  date_added: '2025-02-28'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter: agriyakhetarpal
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - community
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location:
+  email:
+- name: Nadia Dencheva
+  github_username: nden
+  github_image_id: 1110361
+  title:
+  sort:
+  bio:
+  organization: Space Telescope Science Institute
+  date_added: '2025-02-28'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - petrofit
+  location:
+  email:
+- name: Robel Geda
+  github_username: robelgeda
+  github_image_id: 10345916
+  title:
+  sort:
+  bio: Simulations and Visualizations.P.C Sameer A. Khan.
+  organization: Princeton University
+  date_added: '2025-02-28'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://robelgeda.com
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+    - submitting-author
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - petrofit
+  packages_reviewed:
+  location:
+  email: robel@robel.io
+- name: Steve Crawford
+  github_username: crawfordsm
+  github_image_id: 1107188
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2025-02-28'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://crawfordsm.github.io/
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - petrofit
+  packages_reviewed:
+  location: Baltimore, MD
+  email: crawfordsm@gmail.com

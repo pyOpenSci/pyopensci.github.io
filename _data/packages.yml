@@ -84,8 +84,8 @@
       name: great-tables
       description: Make awesome display tables using Python
       created_at: '2022-05-06'
-      stargazers_count: 2106
-      watchers_count: 2106
+      stargazers_count: 2110
+      watchers_count: 2110
       open_issues_count: 111
       forks_count: 84
       documentation: https://posit-dev.github.io/great-tables/
@@ -141,8 +141,8 @@
       description: Anything can happen in the next half hour (including spectral
           timing made easy)!
       created_at: '2015-09-30'
-      stargazers_count: 185
-      watchers_count: 185
+      stargazers_count: 188
+      watchers_count: 188
       open_issues_count: 47
       forks_count: 150
       documentation: https://stingray.science/stingray
@@ -232,12 +232,12 @@
       github_username: acolum
     - name: Avik Basu
       github_username: ab93
-  archive:
-  version_accepted: TBD
-  date_accepted: missing
+  archive: https://zenodo.org/records/14546750
+  version_accepted: 1.1.2
+  date_accepted: 24-12-03
   created_at: 2024-05-13 21:23:44+00:00
-  updated_at: 2025-01-30 18:14:44+00:00
-  closed_at:
+  updated_at: 2025-02-27 20:45:43+00:00
+  closed_at: 2025-02-27 20:45:41+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/180
   joss:
   partners:
@@ -304,7 +304,7 @@
       created_at: '2021-10-26'
       stargazers_count: 26
       watchers_count: 26
-      open_issues_count: 61
+      open_issues_count: 63
       forks_count: 12
       documentation: https://open-atmos.github.io/PyPartMC/
       contrib_count: 7
@@ -352,11 +352,11 @@
       created_at: '2020-04-09'
       stargazers_count: 253
       watchers_count: 253
-      open_issues_count: 6
+      open_issues_count: 7
       forks_count: 42
       documentation: https://pooltool.readthedocs.io
       contrib_count: 8
-      last_commit: '2025-02-25'
+      last_commit: '2025-02-28'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -518,6 +518,58 @@
   labels:
     - 6/pyOS-approved
   active: true
+- package_name: PetroFit
+  package_description: The PetroFit Project is an open-source effort to develop
+      end-to-end tools for making accurate photometric measurements, estimating
+      morphological properties, and fitting 2D models to galaxy images.
+  submitting_author:
+      name: Robel Geda
+      github_username: robelgeda
+  all_current_maintainers:
+    - name: Robel Geda
+      github_username: robelgeda
+    - name: Steve Crawford
+      github_username: crawfordsm
+  repository_link: https://github.com/PetroFit/petrofit
+  version_submitted: v0.5.0 (will be updated to v1.0.0 after review)
+  categories:
+    - data-processing-munging
+  editor:
+      name: Derek Homeier
+      github_username: dhomeier
+  eic:
+      name: Isabel Zimmerman
+      github_username: isabelizimm
+  reviewers:
+    - name: Nadia Dencheva
+      github_username: nden
+    - name: Kyle Oman
+      github_username: kyleaoman
+  archive:
+  version_accepted: TBD
+  date_accepted: 2025)-(28-02
+  created_at: 2024-02-16 22:46:47+00:00
+  updated_at: 2025-02-28 16:18:54+00:00
+  closed_at:
+  issue_link: https://github.com/pyOpenSci/software-submission/issues/159
+  joss:
+  partners:
+  gh_meta:
+      name: petrofit
+      description: Python package for calculating Petrosian properties and fitting
+          galaxy light profiles
+      created_at: '2021-03-16'
+      stargazers_count: 28
+      watchers_count: 28
+      open_issues_count: 30
+      forks_count: 7
+      documentation: https://petrofit.readthedocs.io
+      contrib_count: 3
+      last_commit: '2025-02-07'
+  labels:
+    - 6/pyOS-approved
+    - astropy
+  active: true
 - package_name: harmonize-wq
   package_description: Standardize, clean, and wrangle Water Quality Portal data
       into more analytic-ready formats
@@ -659,11 +711,11 @@
       created_at: '2016-02-16'
       stargazers_count: 371
       watchers_count: 371
-      open_issues_count: 10
+      open_issues_count: 9
       forks_count: 66
       documentation: https://caleb531.github.io/automata/
       contrib_count: 17
-      last_commit: '2025-01-24'
+      last_commit: '2025-02-27'
   labels:
     - 6/pyOS-approved
   active: true
@@ -778,10 +830,10 @@
       name: sunpy
       description: SunPy - Python for Solar Physics
       created_at: '2011-08-06'
-      stargazers_count: 943
-      watchers_count: 943
-      open_issues_count: 291
-      forks_count: 611
+      stargazers_count: 944
+      watchers_count: 944
+      open_issues_count: 292
+      forks_count: 610
       documentation: https://www.sunpy.org
       contrib_count: 30
       last_commit: '2025-02-25'
@@ -871,8 +923,8 @@
       name: rdata
       description: Reader of R datasets in .rda format, in Python
       created_at: '2018-07-02'
-      stargazers_count: 51
-      watchers_count: 51
+      stargazers_count: 52
+      watchers_count: 52
       open_issues_count: 6
       forks_count: 3
       documentation: https://rdata.readthedocs.io
@@ -970,11 +1022,11 @@
       created_at: '2016-04-09'
       stargazers_count: 488
       watchers_count: 488
-      open_issues_count: 777
+      open_issues_count: 776
       forks_count: 80
       documentation: https://sourmash.readthedocs.io/en/latest/
       contrib_count: 30
-      last_commit: '2025-02-26'
+      last_commit: '2025-02-28'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1060,8 +1112,8 @@
       name: astartes
       description: Better Data Splits for Machine Learning
       created_at: '2022-04-22'
-      stargazers_count: 74
-      watchers_count: 74
+      stargazers_count: 75
+      watchers_count: 75
       open_issues_count: 6
       forks_count: 4
       documentation: https://jacksonburns.github.io/astartes/
@@ -1471,11 +1523,11 @@
       created_at: '2018-07-27'
       stargazers_count: 350
       watchers_count: 350
-      open_issues_count: 54
+      open_issues_count: 55
       forks_count: 61
       documentation: https://xclim.readthedocs.io/en/stable/
       contrib_count: 30
-      last_commit: '2025-02-26'
+      last_commit: '2025-02-27'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1674,11 +1726,11 @@
       created_at: '2017-03-17'
       stargazers_count: 785
       watchers_count: 785
-      open_issues_count: 189
+      open_issues_count: 192
       forks_count: 225
       documentation: https://www.pygmt.org
       contrib_count: 30
-      last_commit: '2025-02-25'
+      last_commit: '2025-02-27'
   labels:
     - 6/pyOS-approved
   active: true
@@ -2007,7 +2059,7 @@
       forks_count: 197
       documentation: https://movingpandas.org
       contrib_count: 30
-      last_commit: '2025-02-24'
+      last_commit: '2025-02-27'
   labels:
     - 6/pyOS-approved
   active: true
@@ -2048,13 +2100,13 @@
       description: A light-weight, flexible, and expressive statistical data testing
           library
       created_at: '2018-11-01'
-      stargazers_count: 3641
-      watchers_count: 3641
+      stargazers_count: 3645
+      watchers_count: 3645
       open_issues_count: 405
-      forks_count: 323
+      forks_count: 324
       documentation: https://www.union.ai/pandera
       contrib_count: 30
-      last_commit: '2025-02-18'
+      last_commit: '2025-02-28'
   labels:
     - 6/pyOS-approved
   active: true
