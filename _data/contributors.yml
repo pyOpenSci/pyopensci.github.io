@@ -7622,6 +7622,7 @@
   contributor_type:
     - community
     - package-guide
+    - web-contrib
   packages_eic:
   packages_editor:
   packages_submitted:
