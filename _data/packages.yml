@@ -84,13 +84,13 @@
       name: great-tables
       description: Make awesome display tables using Python
       created_at: '2022-05-06'
-      stargazers_count: 2111
-      watchers_count: 2111
-      open_issues_count: 114
+      stargazers_count: 2114
+      watchers_count: 2114
+      open_issues_count: 113
       forks_count: 84
       documentation: https://posit-dev.github.io/great-tables/
       contrib_count: 19
-      last_commit: '2025-02-21'
+      last_commit: '2025-03-03'
   labels:
     - 6/pyOS-approved
     - joss-submission-pending
@@ -143,8 +143,8 @@
       created_at: '2015-09-30'
       stargazers_count: 188
       watchers_count: 188
-      open_issues_count: 49
-      forks_count: 151
+      open_issues_count: 50
+      forks_count: 153
       documentation: https://stingray.science/stingray
       contrib_count: 30
       last_commit: '2025-02-20'
@@ -234,9 +234,9 @@
       github_username: ab93
   archive: https://zenodo.org/records/14546750
   version_accepted: 1.1.2
-  date_accepted: 24-12-03
+  date_accepted: '2024-12-03'
   created_at: 2024-05-13 21:23:44+00:00
-  updated_at: 2025-02-27 20:45:43+00:00
+  updated_at: 2025-03-03 20:32:36+00:00
   closed_at: 2025-02-27 20:45:41+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/180
   joss:
@@ -350,8 +350,8 @@
       name: pooltool
       description: A sandbox billiards game that emphasizes realistic physics
       created_at: '2020-04-09'
-      stargazers_count: 253
-      watchers_count: 253
+      stargazers_count: 254
+      watchers_count: 254
       open_issues_count: 7
       forks_count: 42
       documentation: https://pooltool.readthedocs.io
@@ -408,7 +408,7 @@
       forks_count: 5
       documentation: https://martini.readthedocs.io/
       contrib_count: 1
-      last_commit: '2024-12-08'
+      last_commit: '2025-03-03'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -545,11 +545,11 @@
       github_username: nden
     - name: Kyle Oman
       github_username: kyleaoman
-  archive:
-  version_accepted: TBD
-  date_accepted: 2025)-(28-02
+  archive: https://doi.org/10.5281/zenodo.14962700
+  version_accepted: '[v0.6.0](https://github.com/PetroFit/petrofit/releases/tag/v0.6.0)'
+  date_accepted: '2025-02-28'
   created_at: 2024-02-16 22:46:47+00:00
-  updated_at: 2025-02-28 16:18:54+00:00
+  updated_at: 2025-03-03 20:32:15+00:00
   closed_at:
   issue_link: https://github.com/pyOpenSci/software-submission/issues/159
   joss:
@@ -565,7 +565,7 @@
       forks_count: 7
       documentation: https://petrofit.readthedocs.io
       contrib_count: 3
-      last_commit: '2025-02-07'
+      last_commit: '2025-03-03'
   labels:
     - 6/pyOS-approved
     - astropy
@@ -758,7 +758,7 @@
       created_at: '2020-10-21'
       stargazers_count: 7
       watchers_count: 7
-      open_issues_count: 6
+      open_issues_count: 11
       forks_count: 1
       documentation: https://pypi.org/project/sleplet
       contrib_count: 5
@@ -833,10 +833,10 @@
       stargazers_count: 944
       watchers_count: 944
       open_issues_count: 293
-      forks_count: 610
+      forks_count: 609
       documentation: https://www.sunpy.org
       contrib_count: 30
-      last_commit: '2025-02-25'
+      last_commit: '2025-03-03'
   labels:
     - 6/pyOS-approved
   active: true
@@ -880,7 +880,7 @@
       created_at: '2023-08-17'
       stargazers_count: 26
       watchers_count: 26
-      open_issues_count: 5
+      open_issues_count: 6
       forks_count: 9
       documentation: https://ncompare.readthedocs.io
       contrib_count: 7
@@ -1022,11 +1022,11 @@
       created_at: '2016-04-09'
       stargazers_count: 488
       watchers_count: 488
-      open_issues_count: 777
+      open_issues_count: 782
       forks_count: 80
       documentation: https://sourmash.readthedocs.io/en/latest/
       contrib_count: 30
-      last_commit: '2025-02-28'
+      last_commit: '2025-03-03'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1227,8 +1227,8 @@
       name: biocypher
       description: A unifying framework for biomedical research knowledge graphs
       created_at: '2021-09-10'
-      stargazers_count: 242
-      watchers_count: 242
+      stargazers_count: 241
+      watchers_count: 241
       open_issues_count: 176
       forks_count: 32
       documentation: https://biocypher.org
@@ -1373,8 +1373,8 @@
       name: taxpasta
       description: TAXnomic Profile Aggregation and STAndardisation
       created_at: '2022-06-03'
-      stargazers_count: 35
-      watchers_count: 35
+      stargazers_count: 36
+      watchers_count: 36
       open_issues_count: 13
       forks_count: 7
       documentation: https://taxpasta.readthedocs.io/
@@ -1523,11 +1523,11 @@
       created_at: '2018-07-27'
       stargazers_count: 350
       watchers_count: 350
-      open_issues_count: 55
+      open_issues_count: 56
       forks_count: 61
       documentation: https://xclim.readthedocs.io/en/stable/
       contrib_count: 30
-      last_commit: '2025-02-27'
+      last_commit: '2025-03-03'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1726,7 +1726,7 @@
       created_at: '2017-03-17'
       stargazers_count: 786
       watchers_count: 786
-      open_issues_count: 192
+      open_issues_count: 191
       forks_count: 225
       documentation: https://www.pygmt.org
       contrib_count: 30
@@ -2102,8 +2102,8 @@
       created_at: '2018-11-01'
       stargazers_count: 3646
       watchers_count: 3646
-      open_issues_count: 407
-      forks_count: 326
+      open_issues_count: 412
+      forks_count: 327
       documentation: https://www.union.ai/pandera
       contrib_count: 30
       last_commit: '2025-03-01'
