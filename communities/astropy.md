@@ -14,9 +14,10 @@ classes: wide
 community: astropy
 ---
 
+
 {%
     assign pkgs = site.data.packages
-    | where_exp: "item", "item.partners contains page.community" | sort_natural: 'date_accepted' | reverse
+    | where_exp: "item", "item.labels contains page.community" | sort_natural: 'date_accepted' | reverse
 %}
 
 {% assign total_packages = pkgs | size %}
