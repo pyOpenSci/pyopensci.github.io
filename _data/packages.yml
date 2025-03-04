@@ -84,8 +84,8 @@
       name: great-tables
       description: Make awesome display tables using Python
       created_at: '2022-05-06'
-      stargazers_count: 2114
-      watchers_count: 2114
+      stargazers_count: 2120
+      watchers_count: 2120
       open_issues_count: 113
       forks_count: 84
       documentation: https://posit-dev.github.io/great-tables/
@@ -143,7 +143,7 @@
       created_at: '2015-09-30'
       stargazers_count: 188
       watchers_count: 188
-      open_issues_count: 50
+      open_issues_count: 51
       forks_count: 153
       documentation: https://stingray.science/stingray
       contrib_count: 30
@@ -353,7 +353,7 @@
       stargazers_count: 254
       watchers_count: 254
       open_issues_count: 7
-      forks_count: 42
+      forks_count: 43
       documentation: https://pooltool.readthedocs.io
       contrib_count: 8
       last_commit: '2025-02-28'
@@ -759,11 +759,11 @@
       created_at: '2020-10-21'
       stargazers_count: 7
       watchers_count: 7
-      open_issues_count: 11
+      open_issues_count: 7
       forks_count: 1
       documentation: https://pypi.org/project/sleplet
       contrib_count: 5
-      last_commit: '2025-01-05'
+      last_commit: '2025-03-04'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -834,7 +834,7 @@
       stargazers_count: 944
       watchers_count: 944
       open_issues_count: 293
-      forks_count: 609
+      forks_count: 608
       documentation: https://www.sunpy.org
       contrib_count: 30
       last_commit: '2025-03-03'
@@ -1021,13 +1021,13 @@
       description: Quickly search, compare, and analyze genomic and metagenomic
           data sets.
       created_at: '2016-04-09'
-      stargazers_count: 488
-      watchers_count: 488
+      stargazers_count: 489
+      watchers_count: 489
       open_issues_count: 780
       forks_count: 80
       documentation: https://sourmash.readthedocs.io/en/latest/
       contrib_count: 30
-      last_commit: '2025-03-03'
+      last_commit: '2025-03-04'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1230,7 +1230,7 @@
       created_at: '2021-09-10'
       stargazers_count: 241
       watchers_count: 241
-      open_issues_count: 176
+      open_issues_count: 179
       forks_count: 32
       documentation: https://biocypher.org
       contrib_count: 17
@@ -1374,8 +1374,8 @@
       name: taxpasta
       description: TAXnomic Profile Aggregation and STAndardisation
       created_at: '2022-06-03'
-      stargazers_count: 36
-      watchers_count: 36
+      stargazers_count: 37
+      watchers_count: 37
       open_issues_count: 13
       forks_count: 7
       documentation: https://taxpasta.readthedocs.io/
@@ -1524,7 +1524,7 @@
       created_at: '2018-07-27'
       stargazers_count: 350
       watchers_count: 350
-      open_issues_count: 55
+      open_issues_count: 46
       forks_count: 61
       documentation: https://xclim.readthedocs.io/en/stable/
       contrib_count: 30
@@ -1727,7 +1727,7 @@
       created_at: '2017-03-17'
       stargazers_count: 786
       watchers_count: 786
-      open_issues_count: 191
+      open_issues_count: 196
       forks_count: 225
       documentation: https://www.pygmt.org
       contrib_count: 30
@@ -2060,7 +2060,7 @@
       forks_count: 197
       documentation: https://movingpandas.org
       contrib_count: 30
-      last_commit: '2025-02-27'
+      last_commit: '2025-03-04'
   labels:
     - 6/pyOS-approved
   active: true
@@ -2101,10 +2101,10 @@
       description: A light-weight, flexible, and expressive statistical data testing
           library
       created_at: '2018-11-01'
-      stargazers_count: 3646
-      watchers_count: 3646
-      open_issues_count: 412
-      forks_count: 327
+      stargazers_count: 3651
+      watchers_count: 3651
+      open_issues_count: 415
+      forks_count: 328
       documentation: https://www.union.ai/pandera
       contrib_count: 30
       last_commit: '2025-03-01'
