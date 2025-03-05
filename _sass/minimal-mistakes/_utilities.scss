@@ -174,8 +174,8 @@ body:hover .visually-hidden button {
 
 .align-center {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  //margin-left: auto; //align-center is implemented on the img tag below
+  //margin-right: auto;
   text-align: center; // Ensures the caption is centered
   width: 100%; // Ensures the figure takes up the full width of its container
 

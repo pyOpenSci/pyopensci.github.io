@@ -188,6 +188,34 @@ The image below should extend outside of the parent container on right.
 {: .highlight-quote }
 
 
+### Fancy blockquote magenta & purple variants
+
+```markdown
+> This entire effort underscores the power of community when guided in
+> the right direction, showcasing how collective effort can drive
+> meaningful progress.
+{: .highlight-quote .magenta }
+```
+
+> This entire effort underscores the power of community when guided in
+> the right direction, showcasing how collective effort can drive
+> meaningful progress.
+{: .highlight-quote .magenta }
+
+
+```markdown
+> This entire effort underscores the power of community when guided in
+> the right direction, showcasing how collective effort can drive
+> meaningful progress.
+{: .highlight-quote .purple }
+```
+
+> This entire effort underscores the power of community when guided in
+> the right direction, showcasing how collective effort can drive
+> meaningful progress.
+{: .highlight-quote .purple }
+
+
 ### Quotes using include files
 
 You can also create blockquotes using include files.
@@ -329,3 +357,16 @@ Using the Kramdown Markdown renderer with Jekyll allows you to add [block](http:
 
 **Jekyll 3:** Kramdown is the default for `jekyll new` sites and those hosted on GitHub Pages. Not using Kramdown? That's OK. The following classes are still available when used with standard HTML.
 {: .notice--warning}
+
+
+## YouTube
+
+You can use embeds to add a youtube video to a page. You can copy the id from the video url and add it to the include line below. The jekyll will do the rest for you!
+
+```
+{% raw %}
+{% include video id="n9IZGT4DxDs" provider="youtube" %}
+{% endraw %}
+```
+
+{% include video id="n9IZGT4DxDs" provider="youtube" %}

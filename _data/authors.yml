@@ -29,9 +29,6 @@ Niels Bantilan:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://cosmicbboy.github.io/"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/cosmicbboy"
 Anita Graser:
   name        : "Anita Graser"
   bio         : "Data Scientist, Spatial Data Analyst, AIT Vienna"
@@ -43,9 +40,6 @@ Anita Graser:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://anitagraser.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/underdarkGIS"
 Eric J. Ma:
   name        : "Eric J. Ma"
   bio         : "Senior Principal Data Scientist, Moderna"
@@ -83,29 +77,29 @@ Carlos Ramos Carreño:
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/carlos-ramos-carre%C3%B1o-3745932ab/"
 Patrick J. Roddy:
-  name        : Patrick J. Roddy
-  bio         : Research Software Engineer, University College London
-  avatar      : /images/people/patrick-j-roddy.jpg
+  name        : "Patrick J. Roddy"
+  bio         : "Research Software Engineer, University College London"
+  avatar      : "/images/people/patrick-j-roddy.jpg"
   links:
-    - label: GitHub
-      icon: fab fa-fw fa-github
-      url: https://github.com/paddyroddy
-    - label: LinkedIn
-      icon: fab fa-fw fa-linkedin
-      url: https://www.linkedin.com/in/patrickjamesroddy
-    - label: Website
-      icon: fas fa-fw fa-link
-      url: https://paddyroddy.github.io
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/paddyroddy"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/patrickjamesroddy"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://paddyroddy.github.io"
 Eliot W. Robson:
-  name        : Eliot W. Robson
+  name        : "Eliot W. Robson"
   bio         : "PhD Student, University of Illinois Urbana-Champaign"
-  avatar      : /images/people/eliot-w-robson.jpg
+  avatar      : "/images/people/eliot-w-robson.jpg"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:eliot.robson24@gmail.com"
-    - label: GitHub
-      icon: fab fa-fw fa-github
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
       url: https://github.com/eliotwrobson
     - label: LinkedIn
       icon: fab fa-fw fa-linkedin
