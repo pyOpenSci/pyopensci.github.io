@@ -13,7 +13,7 @@ categories:
 classes: wide
 toc: true
 comments: true
-last_modified: 2024-08-29
+last_modified: 2024-09-08
 ---
 
 ## It's been two years since I started working full-time on pyOpenSci

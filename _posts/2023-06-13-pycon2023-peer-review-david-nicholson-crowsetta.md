@@ -15,7 +15,7 @@ categories:
 toc: false
 classes: wide
 comments: true
-last_modified: 2023-06-15
+last_modified: 2024-08-29
 ---
 
 # pyCon 2023 US -David Nicholson Lightning Talk on pyOpenSci Peer Review
