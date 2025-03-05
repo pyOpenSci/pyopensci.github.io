@@ -14,7 +14,7 @@ categories:
   - signal-processing
   - wavelets
 comments: true
-last_modified: 2024-06-10
+last_modified: 2024-08-29
 ---
 
 [SLEPLET](https://github.com/astro-informatics/sleplet) is a Python package for

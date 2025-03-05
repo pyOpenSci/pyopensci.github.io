@@ -72,6 +72,11 @@ Below is an example of adding a figure to a post that has both webp and .png for
 </picture>
 </figure>
 ```
+## How to update blog post last_updated field
+
+We have a script that will automatically update the last_updated field for all of our blog posts. To run it use:
+
+`./scripts/date-updated.sh`
 
 ## Contributors ✨
 

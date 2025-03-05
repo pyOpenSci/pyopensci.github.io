@@ -14,7 +14,7 @@ toc: true
 comments: true
 redirect_from:
   - /blog/pyOpenSci-hiring-community-manager-spring-2023.html
-last_modified: 2024-04-04
+last_modified: 2024-08-29
 ---
 
 <div class="notice" markdown="1">
