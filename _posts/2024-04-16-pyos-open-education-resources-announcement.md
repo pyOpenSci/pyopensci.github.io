@@ -14,7 +14,7 @@ categories:
 classes: wide
 toc: true
 comments: true
-last_modified: 2024-04-16
+last_modified: 2024-08-29
 ---
 
 ## The three petals of pyOpenSci

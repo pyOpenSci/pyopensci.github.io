@@ -13,7 +13,7 @@ categories:
 classes: wide
 toc: true
 comments: true
-last_modified: 2024-06-10
+last_modified: 2024-08-29
 ---
 ## <i class="fa-regular fa-heart"></i> The pyOpenSci mission
 Founded in 2018 by our Executive Director, [Leah Wasser](https://github.com/lwasser), pyOpenSci builds diverse community that supports free and open Python tools for processing scientific data. We also build technical skills needed to contribute to open source and that support open science. While a diverse, inclusive community is at our core, radiating out from it are the three petals–how we accomplish our community goals–of pyOpenSci. These are:

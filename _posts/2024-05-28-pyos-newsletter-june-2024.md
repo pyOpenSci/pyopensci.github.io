@@ -13,7 +13,7 @@ categories:
 classes: wide
 toc: true
 comments: true
-last_modified: 2024-07-04
+last_modified: 2024-08-29
 ---
 ## <i class="fa-regular fa-comments"></i> PyCon was incredible!
 We feel so incredibly fortunate to have connected with so many of you at PyCon US! While we're still recovering from a week of summits, talks, and sprints, we wanted to share this sentiment from our Executive Director and Founder, [Leah Wasser](https://github.com/lwasser), which she shared on [her Fosstodon account](https://fosstodon.org/@leahawasser):

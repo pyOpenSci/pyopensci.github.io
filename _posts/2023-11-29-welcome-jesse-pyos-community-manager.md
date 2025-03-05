@@ -12,7 +12,7 @@ categories:
   - community
 toc: true
 comments: true
-last_modified: 2023-11-29
+last_modified: 2024-08-29
 ---
 
 ## Chicago, cats, and community

@@ -13,7 +13,7 @@ categories:
 classes: wide
 toc: true
 comments: true
-last_modified: 2024-10-10
+last_modified: 2024-12-05
 ---
 
 # pyOpenSci Celebrates Inessa

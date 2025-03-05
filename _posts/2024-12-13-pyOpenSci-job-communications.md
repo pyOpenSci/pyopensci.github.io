@@ -13,7 +13,7 @@ categories:
 classes: wide
 toc: true
 comments: true
-last_modified: 2024-12-13
+last_modified: 2024-12-19
 ---
 
 ## Job: writer & social media specialist

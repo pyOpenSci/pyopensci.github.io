@@ -13,7 +13,7 @@ categories:
 classes: wide
 toc: true
 comments: true
-last_modified: 2024-11-22
+last_modified: 2025-01-07
 ---
 
 This post was originally posted on [Eric's blog](https://ericmjl.github.io/blog/2024/10/25/the-human-dimension-to-clean-distributable-and-documented-data-science-code/) in support of the [2024 pyOpenSci Open Science Fall Festival](https://www.pyopensci.org/events/pyopensci-2024-fall-festival.html).
