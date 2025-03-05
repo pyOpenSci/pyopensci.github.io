@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Building Momentum for the Future: Reflections on Our First Open Science Festival Week"
-excerpt: "More Here"
+excerpt: "pyOpenSci ran 6 workshops in 2024, 4 of which happened during our Fall Festival! Learn more about how the workshops went and watch the keynote talks that introduced Quarto Live, MystMarkdown and stories about reproducibility, open science and open source in this blog."
 author: "Leah Wasser"
 permalink: /blog/pyopensci-reflections-fall-festival-2024.html
 header:
@@ -80,11 +80,15 @@ We kicked the event off on Monday, October 28, with a morning of KeyNote talks h
 
 ### Eric Ma: The human side of clean code
 
+{% include video id="JfpetG7nVgc" provider="youtube" %}
+
 [Eric's talk](human-dimension-clean-documented-data-science-code.html) highlighted how simple practices like clear documentation, readable code, and user-friendly installation can amplify the impact of data science projects.
 
 A standout moment? The "Roast Your Repo" exercise! Eric invited attendees to critique a repository from his thesis, showcasing the power of small improvements—like adding a fleshed-out README or modularizing code—to make research reusable and collaborative. It was a fun, hands-on way to explore how the human touch transforms code quality. And let's be honest, we all likely have one of those code bases or repos from our early degrees! I sure do (and it's not even on GitHub!).
 
 ### Melissa Mendonça: From academia to open source
+
+{% include video id="n9IZGT4DxDs" provider="youtube" %}
 
 Melissa shared her journey from academia to open source software development, reflecting on the courage it takes to step into the unknown. She celebrated the scientific Python ecosystem, emphasizing how libraries like NumPy and SciPy enable countless domain-specific projects.
 
@@ -92,9 +96,31 @@ Melissa also highlighted the challenges of volunteer-driven communities, stressi
 
 ### Rowan Cockett: Rethinking scientific publishing
 
+{% include video id="zrwt0PX5mdM" provider="youtube" %}
+
+
 Rowan invited us to imagine a future where scientific publications are as dynamic as the research they describe. He introduced [Myst Markdown](https://mystmd.org/) tools that blend code, data, and narrative and discussed his company, [CurveNote](https://curvenote.com/), which aims to revolutionize scientific publishing.
 
 His vision of collaborative, interactive, and automated publishing draws from open source principles and challenges the static nature of traditional papers. By rethinking how we share research, Rowan reminded us that we already have the tools to make science more immediately accessible and impactful.
+
+### Workshops and Quarto Live
+
+We also invited George Stagg (Posit), developer of Quarto Live and James Balamuta to talk about how Quarto Live is empowering education. Quarto Live makes it easy for you to create interactive data science environments for learning in the browser.
+
+* Yes, it runs on GitHub pages - no servers needed.
+* Yes, students can write Python on their phones.
+
+Both talks are below.
+
+#### George Stagg
+
+{% include video id="W_a80br7t2A" provider="youtube" %}
+
+#### James Balamuta
+
+{% include video id="7q1Z84ssxg0" provider="youtube" %}
+
+
 
 ## Let the (open science & open source) learning begin!
 
