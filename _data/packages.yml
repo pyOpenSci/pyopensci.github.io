@@ -84,13 +84,13 @@
       name: great-tables
       description: Make awesome display tables using Python
       created_at: '2022-05-06'
-      stargazers_count: 2122
-      watchers_count: 2122
-      open_issues_count: 114
-      forks_count: 84
+      stargazers_count: 2131
+      watchers_count: 2131
+      open_issues_count: 107
+      forks_count: 83
       documentation: https://posit-dev.github.io/great-tables/
-      contrib_count: 19
-      last_commit: '2025-03-03'
+      contrib_count: 20
+      last_commit: '2025-03-07'
   labels:
     - 6/pyOS-approved
     - joss-submission-pending
@@ -143,8 +143,8 @@
       created_at: '2015-09-30'
       stargazers_count: 188
       watchers_count: 188
-      open_issues_count: 52
-      forks_count: 153
+      open_issues_count: 55
+      forks_count: 154
       documentation: https://stingray.science/stingray
       contrib_count: 30
       last_commit: '2025-02-20'
@@ -195,7 +195,7 @@
       created_at: '2023-10-17'
       stargazers_count: 1
       watchers_count: 1
-      open_issues_count: 14
+      open_issues_count: 13
       forks_count: 2
       documentation: https://geminidrsoftware.github.io/astrodata/
       contrib_count: 4
@@ -254,7 +254,7 @@
       forks_count: 0
       documentation: https://quadratik.readthedocs.io/
       contrib_count: 1
-      last_commit: '2025-03-05'
+      last_commit: '2025-03-07'
   labels:
     - 6/pyOS-approved
   active: true
@@ -305,7 +305,7 @@
       stargazers_count: 26
       watchers_count: 26
       open_issues_count: 63
-      forks_count: 12
+      forks_count: 13
       documentation: https://open-atmos.github.io/PyPartMC/
       contrib_count: 7
       last_commit: '2025-02-12'
@@ -353,7 +353,7 @@
       stargazers_count: 255
       watchers_count: 255
       open_issues_count: 7
-      forks_count: 43
+      forks_count: 44
       documentation: https://pooltool.readthedocs.io
       contrib_count: 8
       last_commit: '2025-03-05'
@@ -498,7 +498,7 @@
   version_accepted: TBD
   date_accepted: '2025-01-21'
   created_at: 2024-02-22 11:55:59+00:00
-  updated_at: 2025-02-21 20:28:07+00:00
+  updated_at: 2025-03-07 16:02:26+00:00
   closed_at:
   issue_link: https://github.com/pyOpenSci/software-submission/issues/160
   joss:
@@ -514,7 +514,7 @@
       forks_count: 1
       documentation: https://plot-phylo.readthedocs.io
       contrib_count: 1
-      last_commit: '2025-01-07'
+      last_commit: '2025-03-07'
   labels:
     - 6/pyOS-approved
   active: true
@@ -712,8 +712,8 @@
       created_at: '2016-02-16'
       stargazers_count: 371
       watchers_count: 371
-      open_issues_count: 9
-      forks_count: 66
+      open_issues_count: 11
+      forks_count: 68
       documentation: https://caleb531.github.io/automata/
       contrib_count: 17
       last_commit: '2025-02-27'
@@ -837,7 +837,7 @@
       forks_count: 608
       documentation: https://www.sunpy.org
       contrib_count: 30
-      last_commit: '2025-03-03'
+      last_commit: '2025-03-07'
   labels:
     - 6/pyOS-approved
   active: true
@@ -881,8 +881,8 @@
       created_at: '2023-08-17'
       stargazers_count: 26
       watchers_count: 26
-      open_issues_count: 6
-      forks_count: 9
+      open_issues_count: 4
+      forks_count: 10
       documentation: https://ncompare.readthedocs.io
       contrib_count: 7
       last_commit: '2025-01-08'
@@ -1228,13 +1228,13 @@
       name: biocypher
       description: A unifying framework for biomedical research knowledge graphs
       created_at: '2021-09-10'
-      stargazers_count: 241
-      watchers_count: 241
-      open_issues_count: 175
+      stargazers_count: 242
+      watchers_count: 242
+      open_issues_count: 177
       forks_count: 32
       documentation: https://biocypher.org
       contrib_count: 17
-      last_commit: '2025-03-05'
+      last_commit: '2025-03-07'
   labels:
     - 6/pyOS-approved
   active: true
@@ -1374,8 +1374,8 @@
       name: taxpasta
       description: TAXnomic Profile Aggregation and STAndardisation
       created_at: '2022-06-03'
-      stargazers_count: 37
-      watchers_count: 37
+      stargazers_count: 38
+      watchers_count: 38
       open_issues_count: 13
       forks_count: 7
       documentation: https://taxpasta.readthedocs.io/
@@ -1528,7 +1528,7 @@
       forks_count: 61
       documentation: https://xclim.readthedocs.io/en/stable/
       contrib_count: 30
-      last_commit: '2025-03-05'
+      last_commit: '2025-03-07'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1725,13 +1725,13 @@
       name: pygmt
       description: A Python interface for the Generic Mapping Tools.
       created_at: '2017-03-17'
-      stargazers_count: 787
-      watchers_count: 787
-      open_issues_count: 191
-      forks_count: 225
+      stargazers_count: 788
+      watchers_count: 788
+      open_issues_count: 189
+      forks_count: 226
       documentation: https://www.pygmt.org
       contrib_count: 30
-      last_commit: '2025-03-05'
+      last_commit: '2025-03-07'
   labels:
     - 6/pyOS-approved
   active: true
@@ -2054,8 +2054,8 @@
       name: movingpandas
       description: Movement trajectory classes and functions built on top of GeoPandas
       created_at: '2018-12-16'
-      stargazers_count: 1278
-      watchers_count: 1278
+      stargazers_count: 1282
+      watchers_count: 1282
       open_issues_count: 28
       forks_count: 197
       documentation: https://movingpandas.org
@@ -2101,13 +2101,13 @@
       description: A light-weight, flexible, and expressive statistical data testing
           library
       created_at: '2018-11-01'
-      stargazers_count: 3653
-      watchers_count: 3653
-      open_issues_count: 412
+      stargazers_count: 3658
+      watchers_count: 3658
+      open_issues_count: 408
       forks_count: 328
       documentation: https://www.union.ai/pandera
       contrib_count: 30
-      last_commit: '2025-03-05'
+      last_commit: '2025-03-07'
   labels:
     - 6/pyOS-approved
   active: true
