@@ -84,8 +84,8 @@
       name: great-tables
       description: Make awesome display tables using Python
       created_at: '2022-05-06'
-      stargazers_count: 2131
-      watchers_count: 2131
+      stargazers_count: 2132
+      watchers_count: 2132
       open_issues_count: 107
       forks_count: 84
       documentation: https://posit-dev.github.io/great-tables/
@@ -254,7 +254,7 @@
       forks_count: 0
       documentation: https://quadratik.readthedocs.io/
       contrib_count: 1
-      last_commit: '2025-03-07'
+      last_commit: '2025-03-09'
   labels:
     - 6/pyOS-approved
   active: true
@@ -353,7 +353,7 @@
       stargazers_count: 256
       watchers_count: 256
       open_issues_count: 6
-      forks_count: 44
+      forks_count: 45
       documentation: https://pooltool.readthedocs.io
       contrib_count: 8
       last_commit: '2025-03-05'
@@ -710,8 +710,8 @@
       description: A Python library for simulating finite automata, pushdown automata,
           and Turing machines
       created_at: '2016-02-16'
-      stargazers_count: 372
-      watchers_count: 372
+      stargazers_count: 373
+      watchers_count: 373
       open_issues_count: 11
       forks_count: 68
       documentation: https://caleb531.github.io/automata/
@@ -926,11 +926,11 @@
       created_at: '2018-07-02'
       stargazers_count: 52
       watchers_count: 52
-      open_issues_count: 6
+      open_issues_count: 5
       forks_count: 3
       documentation: https://rdata.readthedocs.io
       contrib_count: 2
-      last_commit: '2025-01-25'
+      last_commit: '2025-03-09'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -2103,7 +2103,7 @@
       created_at: '2018-11-01'
       stargazers_count: 3660
       watchers_count: 3660
-      open_issues_count: 408
+      open_issues_count: 407
       forks_count: 328
       documentation: https://www.union.ai/pandera
       contrib_count: 30
