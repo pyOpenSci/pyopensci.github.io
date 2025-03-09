@@ -87,7 +87,7 @@
       stargazers_count: 2131
       watchers_count: 2131
       open_issues_count: 107
-      forks_count: 83
+      forks_count: 84
       documentation: https://posit-dev.github.io/great-tables/
       contrib_count: 20
       last_commit: '2025-03-07'
@@ -304,8 +304,8 @@
       created_at: '2021-10-26'
       stargazers_count: 26
       watchers_count: 26
-      open_issues_count: 63
-      forks_count: 13
+      open_issues_count: 64
+      forks_count: 14
       documentation: https://open-atmos.github.io/PyPartMC/
       contrib_count: 7
       last_commit: '2025-02-12'
@@ -350,9 +350,9 @@
       name: pooltool
       description: A sandbox billiards game that emphasizes realistic physics
       created_at: '2020-04-09'
-      stargazers_count: 255
-      watchers_count: 255
-      open_issues_count: 7
+      stargazers_count: 256
+      watchers_count: 256
+      open_issues_count: 6
       forks_count: 44
       documentation: https://pooltool.readthedocs.io
       contrib_count: 8
@@ -710,8 +710,8 @@
       description: A Python library for simulating finite automata, pushdown automata,
           and Turing machines
       created_at: '2016-02-16'
-      stargazers_count: 371
-      watchers_count: 371
+      stargazers_count: 372
+      watchers_count: 372
       open_issues_count: 11
       forks_count: 68
       documentation: https://caleb531.github.io/automata/
@@ -834,7 +834,7 @@
       stargazers_count: 944
       watchers_count: 944
       open_issues_count: 293
-      forks_count: 608
+      forks_count: 607
       documentation: https://www.sunpy.org
       contrib_count: 30
       last_commit: '2025-03-07'
@@ -1023,7 +1023,7 @@
       created_at: '2016-04-09'
       stargazers_count: 489
       watchers_count: 489
-      open_issues_count: 779
+      open_issues_count: 781
       forks_count: 80
       documentation: https://sourmash.readthedocs.io/en/latest/
       contrib_count: 30
@@ -1228,9 +1228,9 @@
       name: biocypher
       description: A unifying framework for biomedical research knowledge graphs
       created_at: '2021-09-10'
-      stargazers_count: 242
-      watchers_count: 242
-      open_issues_count: 177
+      stargazers_count: 243
+      watchers_count: 243
+      open_issues_count: 176
       forks_count: 32
       documentation: https://biocypher.org
       contrib_count: 17
@@ -2101,8 +2101,8 @@
       description: A light-weight, flexible, and expressive statistical data testing
           library
       created_at: '2018-11-01'
-      stargazers_count: 3658
-      watchers_count: 3658
+      stargazers_count: 3660
+      watchers_count: 3660
       open_issues_count: 408
       forks_count: 328
       documentation: https://www.union.ai/pandera
