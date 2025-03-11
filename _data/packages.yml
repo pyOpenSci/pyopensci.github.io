@@ -84,13 +84,13 @@
       name: great-tables
       description: Make awesome display tables using Python
       created_at: '2022-05-06'
-      stargazers_count: 2131
-      watchers_count: 2131
+      stargazers_count: 2136
+      watchers_count: 2136
       open_issues_count: 107
-      forks_count: 84
+      forks_count: 85
       documentation: https://posit-dev.github.io/great-tables/
       contrib_count: 20
-      last_commit: '2025-03-07'
+      last_commit: '2025-03-11'
   labels:
     - 6/pyOS-approved
     - joss-submission-pending
@@ -143,8 +143,8 @@
       created_at: '2015-09-30'
       stargazers_count: 188
       watchers_count: 188
-      open_issues_count: 55
-      forks_count: 154
+      open_issues_count: 56
+      forks_count: 155
       documentation: https://stingray.science/stingray
       contrib_count: 30
       last_commit: '2025-02-20'
@@ -195,7 +195,7 @@
       created_at: '2023-10-17'
       stargazers_count: 1
       watchers_count: 1
-      open_issues_count: 13
+      open_issues_count: 14
       forks_count: 2
       documentation: https://geminidrsoftware.github.io/astrodata/
       contrib_count: 4
@@ -254,7 +254,7 @@
       forks_count: 0
       documentation: https://quadratik.readthedocs.io/
       contrib_count: 1
-      last_commit: '2025-03-07'
+      last_commit: '2025-03-09'
   labels:
     - 6/pyOS-approved
   active: true
@@ -352,8 +352,8 @@
       created_at: '2020-04-09'
       stargazers_count: 256
       watchers_count: 256
-      open_issues_count: 6
-      forks_count: 44
+      open_issues_count: 7
+      forks_count: 45
       documentation: https://pooltool.readthedocs.io
       contrib_count: 8
       last_commit: '2025-03-05'
@@ -710,8 +710,8 @@
       description: A Python library for simulating finite automata, pushdown automata,
           and Turing machines
       created_at: '2016-02-16'
-      stargazers_count: 372
-      watchers_count: 372
+      stargazers_count: 375
+      watchers_count: 375
       open_issues_count: 11
       forks_count: 68
       documentation: https://caleb531.github.io/automata/
@@ -926,11 +926,11 @@
       created_at: '2018-07-02'
       stargazers_count: 52
       watchers_count: 52
-      open_issues_count: 6
+      open_issues_count: 5
       forks_count: 3
       documentation: https://rdata.readthedocs.io
       contrib_count: 2
-      last_commit: '2025-01-25'
+      last_commit: '2025-03-09'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1023,11 +1023,11 @@
       created_at: '2016-04-09'
       stargazers_count: 489
       watchers_count: 489
-      open_issues_count: 781
+      open_issues_count: 782
       forks_count: 80
       documentation: https://sourmash.readthedocs.io/en/latest/
       contrib_count: 30
-      last_commit: '2025-03-04'
+      last_commit: '2025-03-11'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1230,7 +1230,7 @@
       created_at: '2021-09-10'
       stargazers_count: 243
       watchers_count: 243
-      open_issues_count: 176
+      open_issues_count: 177
       forks_count: 32
       documentation: https://biocypher.org
       contrib_count: 17
@@ -1524,11 +1524,11 @@
       created_at: '2018-07-27'
       stargazers_count: 350
       watchers_count: 350
-      open_issues_count: 47
-      forks_count: 61
+      open_issues_count: 51
+      forks_count: 63
       documentation: https://xclim.readthedocs.io/en/stable/
       contrib_count: 30
-      last_commit: '2025-03-07'
+      last_commit: '2025-03-11'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1725,13 +1725,13 @@
       name: pygmt
       description: A Python interface for the Generic Mapping Tools.
       created_at: '2017-03-17'
-      stargazers_count: 788
-      watchers_count: 788
-      open_issues_count: 189
-      forks_count: 226
+      stargazers_count: 787
+      watchers_count: 787
+      open_issues_count: 192
+      forks_count: 227
       documentation: https://www.pygmt.org
       contrib_count: 30
-      last_commit: '2025-03-07'
+      last_commit: '2025-03-11'
   labels:
     - 6/pyOS-approved
   active: true
@@ -2101,9 +2101,9 @@
       description: A light-weight, flexible, and expressive statistical data testing
           library
       created_at: '2018-11-01'
-      stargazers_count: 3660
-      watchers_count: 3660
-      open_issues_count: 408
+      stargazers_count: 3666
+      watchers_count: 3666
+      open_issues_count: 409
       forks_count: 328
       documentation: https://www.union.ai/pandera
       contrib_count: 30
