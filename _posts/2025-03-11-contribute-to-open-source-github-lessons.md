@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Contributing to Open Source Software: It's  More Than just Code"
+title: "Contribute to Open Source Software: It's  More Than just Code"
 excerpt: "Contributing to open source isn’t just about code—it’s also about navigating social norms. Discover pyOpenSci’s new Contribute to Open Source lessons, which cover both the technical and social aspects, and are free for anyone to use."
 author: "Leah Wasser"
 permalink: /blog/contribute-to-open-source-lessons.html
@@ -10,6 +10,7 @@ header:
 categories:
   - blog-post
   - community
+  - contribute-to-open-source
 classes: wide
 toc: true
 comments: true
@@ -17,18 +18,28 @@ last_modified: 2025-03-11
 ---
 
 
-## Contributing to open source: The missing link
+## Beyond code: the social side of open source
 
 When you think about contributing to open source, you might assume the biggest hurdle for newcomers is technical--learning Git, using GitHub, and/or writing code. Most contribute to open source guides focus on technical skills. But for many new contributors, the challenge isn’t only technical—it’s social too.
 
-Receiving open feedback on your contributions, whether code or documentation, [creates anxiety for  many](https://osf.io/preprints/psyarxiv/8k5a4_v1). Joining an unfamiliar community, understanding unspoken norms, and building confidence while tackling technical and social barriers can be overwhelming, especially for us introverted people (which many software developers and scientists tend to be).
+Receiving open feedback on your contributions in the form of code review, whether code or documentation, [creates anxiety for  many](https://osf.io/preprints/psyarxiv/8k5a4_v1).
+
+- <i class="fas fa-user-plus" style="color:#81c0aa;"></i> **Joining an unfamiliar community:** Understanding who to reach out to and how the project operates can feel intimidating.
+- <i class="fas fa-comments" style="color:#81c0aa;"></i> **Understanding unspoken norms:**  Every project has its own culture, from how discussions happen to how decisions are made. And these norms are not always well-documented.
+- <i class="fas fa-handshake" style="color:#81c0aa;"></i> **Building confidence in a new space:** Many contributors worry about making mistakes, be it while using GitHub or submitting a Pull Request or even in the content updates themselves.
+- <i class="fas fa-exclamation-circle" style="color:#81c0aa;"></i> **Navigating constructive feedback** – Open source is built on open peer review; however, receiving public feedback on a contribution can be intimidating.
+
 
 In my 10+ years of building and maintaining software, contributing to projects, and running beginner-friendly sprints, I’ve seen firsthand that communication, collaboration, and project culture are just as—if not more—important than technical skills. I've also experienced the imposter syndrome first-hand. I was nervous about my first contributions and wasn't sure how to start contributing in a meaningful way.
 
-**Technical and social skills go hand in hand.** Open source communities thrive when contributors and maintainers recognize this balance between technical and social skills.
+**Technical and social skills go hand in hand.** Open source communities are most productive when contributors and maintainers recognize this balance between the technical and social skills associated with contributing. In most cases, all of the people involved in the project are volunteers with varying priorities, skillsets, and motivations to participate.
 {: .notice .notice--info}
 
-This past year, with support from the [Better Software for Science (BSSw) Fellowship](https://bssw.io/fellows/leah-wasser), I developed lessons shaped by insights gained from the [pyOpenSci community](https://www.pyopensci.org/our-community/index.html). These lessons are now freely available as open educational resources designed to help contributors and maintainers foster a more welcoming and collaborative open source community.
+### Developing our contribute to open source lessons
+
+This past year, with support from the [Better Software for Science (BSSw) Fellowship](https://bssw.io/fellows/leah-wasser), I developed lessons shaped by insights gained from the [pyOpenSci contributor community](https://www.pyopensci.org/our-community/index.html). Our lessons are now freely available as open educational resources designed to help contributors and maintainers foster a more welcoming, collaborative and productive open source community.
+
+<a href="https://www.pyopensci.org/lessons/contribute-open-source/index.html" class="btn btn--success">Check out our lessons now.</a>
 
 > BSSw is a unique partnership between the National Science Foundation (NSF) and the Department of Energy (DOE) that provides small grants to advocates in the scientific open source space.
 {: .notice }
