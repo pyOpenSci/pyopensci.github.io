@@ -49,3 +49,11 @@ jobs:
           # Custom token needed to trigger PR checks, as GITHUB_TOKEN won't
           # https://github.com/peter-evans/create-pull-request/blob/main/docs/concepts-guidelines.md#triggering-further-workflow-runs
           GITHUB_TOKEN: ${{ secrets.PYOS_PR_TOKEN }}
+      - name: Slack Notification
+        uses: rtCamp/action-slack-notify@v2
+        if: failure()
+        env:
+          SLACK_CHANNEL: pyos-infrastructure
+          SLACK_COLOR: '#db540b'
+          SLACK_MESSAGE: "The Update Contribs & Reviewers workflow failed for pyopensci.org. Please check the logs."
+          SLACK_TOKEN: ${{ secrets.SLACK_NOTIFICATIONS_BOT_TOKEN }}
