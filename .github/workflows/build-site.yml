@@ -48,3 +48,12 @@ jobs:
           arguments: |
             --ignore-files "/.+\/_posts\/README.md"
             --checks "Images,Scripts"
+
+      # TODO: remove before merge, for testing
+      - name: Slack Notification
+        uses: rtCamp/action-slack-notify@v2
+        env:
+          SLACK_CHANNEL: pyos-infrastructure
+          SLACK_COLOR: '#00FF00'
+          SLACK_MESSAGE: "This is a test of the GitHub Actions Slack Notification."
+          SLACK_TOKEN: ${{ secrets.SLACK_NOTIFICATIONS_BOT_TOKEN }}
