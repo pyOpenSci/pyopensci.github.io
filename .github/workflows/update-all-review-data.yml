@@ -51,5 +51,8 @@ jobs:
         env:
           SLACK_CHANNEL: pyos-infrastructure
           SLACK_COLOR: '#db540b'
+          SLACK_LINK_NAMES: true
+          SLACKIFY_MARKDOWN: true
+          SLACK_TITLE: "ALL Contribs & Reviewers Update Workflow Failed"
           SLACK_MESSAGE: "The **ALL Contribs & Reviewers Update** workflow failed for pyopensci.org. Please check the logs."
           SLACK_TOKEN: ${{ secrets.SLACK_NOTIFICATIONS_BOT_TOKEN }}
