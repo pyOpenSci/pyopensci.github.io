@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "How to Secure Your Python Packages on PyPI: Stop the Mining Madness"
+title: "How to Secure Your Python Packages When Publishing to PyPI"
 excerpt: "Learn how to secure your Python package PyPI publishing workflows and protect your package from attacks. This post covers actionable steps, using PyPI Trusted Publisher, and sanitizing workflows, to ensure your projects stay safe."
 author: "Leah Wasser"
 permalink: /blog/python-packaging-security-publish-pypi.html
@@ -8,12 +8,13 @@ header:
   overlay_image: images/headers/pyopensci-inessa.png
   overlay_filter: rgba(20, 13, 36, 0.3)
 categories:
+  - python-packaging
   - blog-post
   - community
 classes: wide
 toc: true
 comments: true
-last_modified: 2024-12-19
+last_modified: 2025-03-13
 ---
 
 ## Is your PyPI publication workflow secure?
@@ -31,12 +32,12 @@ While unsettling, there’s a silver lining: the PyPI security team had already 
 This means that the important thing for us, as maintainers, is that we all should know how to lock down our publishing workflows.
 Here, I'll cover the lessons learned that you can apply TODAY to your Python packaging workflows!
 
-*Special thanks to [Sviatoslav Sydorenko](https://github.com/webknjaz) for reviewing and providing significant input on this blog post!!*
+*Special thanks to [Seth Larson](https://github.com/sethmlarson), [Hugo van Kemenade](https://github.com/hugovk), [Sviatoslav Sydorenko](https://github.com/webknjaz), [William Woodruff](https://github.com/woodruffw) and [Carol Willing](https://github.com/willingc) for reviewing and significantly improving blog post!!*
 
 <div class="notice" markdown="1">
 ## TL;DR Takeaways
 
-The Ultralytics breach is a wake-up call for all maintainers: secure your workflows to protect your users and the Python ecosystem. The most important steps that you can take are actually the simplest:
+The fall 2024 Ultralytics breach was a wake-up call for all maintainers: secure your workflows to protect your users and the Python ecosystem. The most important steps that you can take are actually the simplest:
 
 Below are **3 things that you can do right now** to secure your PyPI Python packaging workflow:
 
@@ -202,12 +203,11 @@ $ zizmor .github/workflows/publish-pypi.yml
 error[template-injection]: code injection via template expansion
    --> path/here/pyosMeta/.github/workflows/publish-pypi.yml:97:7
 github.ref_name may expand into attacker-controllable code
+```
 
-You can also set up `zizmor` as a pre-commit hook. pyOpenSci plans to do this in the near future, but here is an example of it [set up for core Python](https://github.com/python/cpython/pull/127749/files#diff-63a9c44a44acf85fea213a857769990937107cf072831e1a26808cfde9d096b9R64).
+You can also set up `zizmor` as a pre-commit hook. pyOpenSci plans to do this in the  future, but here is an example of it [set up for core Python](https://github.com/python/cpython/pull/127749/files#diff-63a9c44a44acf85fea213a857769990937107cf072831e1a26808cfde9d096b9R64).
 
 Pre-commit hooks run checks every time you commit a file to Git history. [Learn more about using them here.](https://www.pyopensci.org/python-package-guide/package-structure-code/code-style-linting-format.html#use-pre-commit-hooks-to-run-code-formatters-and-linters-on-commits)
-
-
 
 ## Other security measures you can consider
 
@@ -307,6 +307,7 @@ pyOpenSci follows best practices for PyPI publishing using our custom GitHub Act
 <div class="notice" markdown="1">
 ## Get involved with pyOpenSci
 
+* Check out our [volunteer page](https://www.pyopensci.org/volunteer.html) if you are interested in getting involved.
 * Keep an eye on our [events page](/events.html) for upcoming training events.
 
 Follow us on social platforms:
