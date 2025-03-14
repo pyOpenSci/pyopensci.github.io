@@ -11,107 +11,202 @@ permalink: /how-to-submit-a-package-to-pyopensci.html
 classes: wide
 toc: true
 ---
-## <i class="fa-solid fa-screwdriver-wrench"></i> Congratulations, you’ve created a package!
-
-Creating a Python package is an incredible contribution to the open source ecosystem---don't forget to take a moment to celebrate! But the adventure doesn't have to stop there. If you intend to maintain your package over time and want additional community support and visibility for your work, you can also submit your package to pyOpenSci's open peer review process.
-
-> Learn how to create a Python packaging using the [pyOpenSci Python packaging tutorials](https://www.pyopensci.org/python-package-guide/tutorials/intro.html), which will walk you through the process, start to finish.
-
-## <i class="fa-solid fa-circle-chevron-down"></i> Why you should submit to pyOpenSci's open peer review process
-
-pyOpenSci's peer review process is run by a team of dedicated volunteers. It provides the opportunity for package maintainers to have their code, documentation, and infrastructure vetted by both domain and Python experts. Because pyOpenSci invests in recruiting a diverse team of editors and reviewers for different scientific domains and packaging expertise backgrounds, our review process provides an enhanced feedback experience.
-
-In addition, pyOpenSci's partnership with the [Journal of Open Source Software](https://www.pyopensci.org/software-peer-review/partners/joss.html) means that if your package is accepted by pyOpenSci and in scope for JOSS, it will be fast-tracked through JOSS’ review process. This means through a single review, your package can become both a part of the growing pyOpenSci ecosystem of Python packages and also published and citable via JOSS.
-
-pyos-joss-peer-review.png
 
 
-Read more about the benefits of utilizing pyOpenSci's open peer review process in our [Peer Review Guide](https://www.pyopensci.org/software-peer-review/about/benefits.html).
 
-## <i class="fa-solid fa-magnifying-glass"></i> What pyOS looks for in a package
+## <i class="fa-solid fa-rocket" style="color:#a193c6"></i> Submit Your Python Package for pyOpenSci Review
 
-When submitting to pyOpenSci, there are several criteria we use to evaluate if the package is in-scope for our review process:
-1. Package maintenance: we understand that life happens, but we ask that you commit to maintaining your package for at least 1-2 years after the pyOpenSci review process is complete.
-2. Your package should meet all of the initial Editor checks, which include:
-- **Installation:** the package can be installed from a community repository such as PyPI (preferred), and/or a community channel on conda (e.g. conda-forge, bioconda).
-- **Fit:** the package meets criteria for [fit](https://www.pyopensci.org/software-peer-review/about/package-scope.html#what-types-of-packages-does-pyopensci-review) and [overlap](https://www.pyopensci.org/software-peer-review/about/package-scope.html#package-overlap).
-- **Documentation:** the package has sufficient online documentation to allow us to evaluate package function and scope *without installing the package*.
-- **GitHub:** core GitHub repository files are present.
-- **Issue submission documentation:** all of the information is filled out in the `YAML` header of the issue (located at the top of the issue template).
-- **Automated tests:** the package has a testing suite and is tested via a Continuous Integration service.
-- **Repository:** the repository link resolves correctly.
-- **Package overlap:** The package doesn't entirely overlap with the functionality of other packages that have already been submitted to pyOpenSci.
-- **Archive** (JOSS only, may be post-review): The repository DOI resolves correctly.
-- **Version** (JOSS only, may be post-review): Does the release version given match the GitHub release (v1.0.0)?
-- **Survey:** the initial onboarding survey was filled out.
+You’ve created a Python package—now what? How do you ensure it follows best practices, is well-documented, and reaches the right audience?
 
-You can get more details about each of these criteria in our [Authors Guide](https://www.pyopensci.org/software-peer-review/how-to/author-guide.html).
+**pyOpenSci’s peer review process** connects you with experts who will help refine your package’s structure, documentation, and usability. Accepted packages become part of our vetted ecosystem, increasing their visibility and credibility. You may also have the opportunity to publish in the [Journal of Open Source Software (JOSS)](https://www.pyopensci.org/software-peer-review/partners/joss.html).
 
-## <i class="fa-brands fa-github-alt"></i> Choosing the correct issue for submission via GitHub
+
+### <i class="fa-solid fa-circle-chevron-down" style="color:#a193c6"></i> Why submit a Python package for software peer review?
+- <i class="fa-solid fa-eye" style="color:#81c0aa;"></i> **Visibility & support:** Gain expert feedback on your code, documentation, and packaging.
+- <i class="fa-solid fa-check-circle" style="color:#81c0aa;"></i> **Quality & best practices:** Ensure your package follows open-source and scientific standards.
+- <i class="fa-solid fa-book-open" style="color:#81c0aa;"></i> **JOSS publication:** Get the option to publish in the Journal of Open Source Software (JOSS) after acceptance.
+
+<i class="fa-solid fa-book" style="color:#81c0aa;"></i> **[Learn more about the benefits of our peer review process](https://www.pyopensci.org/software-peer-review/about/benefits.html)**
+
+
 <figure>
-    <a href="/images/website-pages/how-to-submit-package/issue-selection-screen.png">
-    <img src="/images/website-pages/how-to-submit-package/issue-selection-screen.png" style="max-width:100%" alt="Screenshot of the pyOpenSci issue selection screen on GitHub, with three options: Help Request, Presubmission Inquiry, and Submit Software for Review.">
-    </a>
+  <source srcset="/images/peer-review/pyos-joss-peer-review.webp" type="image/webp">
+    <img src="/images/peer-review/pyos-joss-peer-review.png" alt="A flowchart showing how a package submitted to pyOpenSci can also be fast-tracked for JOSS publication.">
+  <figcaption>
+       Packages accepted into pyOpenSci can also be published in JOSS through a streamlined process.
+
+  </figcaption>
+</figure>
+
+Read more about the benefits of pyOpenSci's open peer review process in our [Peer Review Guide](https://www.pyopensci.org/software-peer-review/about/benefits.html).
+
+<div class="notice" markdown="1">
+  <i class="fa-solid fa-graduation-cap" style="color:#81c0aa;"></i> **New to Python packaging?**
+
+  If you're still working on your package and want guidance, check out our
+  [**Python packaging tutorials**](https://www.pyopensci.org/python-package-guide/tutorials/intro.html). Our tutorials provide step-by-step guidance that walks you through the process of creating your first package from start to finish.
+</div>
+
+
+## <i class="fa-solid fa-list-check" style="color:#81c0aa;"></i> Step-by-step guide to submitting your package for review
+
+Our **open peer review process** happens through GitHub issues in the
+[**pyOpenSci software submission repository**](https://github.com/pyopensci/software-submission). Using open GitHub issues ensures a **transparent and constructive** review process focused on improving:
+
+- **Package structure & quality:** Ensure best practices in documentation, testing, and maintenance.
+- **Usability & reproducibility:** Improve user experience and scientific reliability.
+- **Visibility:** Join a vetted ecosystem of high-quality, community-endorsed Python tools.
+
+Follow the steps below to submit your package for review.
+
+### <i class="fa-solid fa-magnifying-glass" style="color:#a193c6"></i> 1. Check if your package is in pyOpenSci's scope
+
+Before submitting, ensure your package fits within [**pyOpenSci’s peer review scope**](https://www.pyopensci.org/software-peer-review/about/package-scope.html).
+
+Your package is a good fit if:
+
+- **Supports a scientific application:** Examples include data retrieval, processing, and visualization.
+- **Meets packaging & maintenance expectations:** Installable, documented, tested, and actively maintained.
+- **Does not significantly overlap:** Your package should provide new functionality rather than duplicate an existing package in the ecosystem.
+
+
+#### <i class="fa-solid fa-circle-question" style="color:#81c0aa;"></i> Unsure if your package is in scope?
+
+If you're unsure, **submit a pre-submission inquiry** to get feedback from our editorial team before starting the full review process.
+
+🔗 **[Check how to submit a pre-submission inquiry](#3-submit-your-package-for-review-or-submit-a-presubmission-inquiry)**
+*(Jump to the next section for full details on submitting a pre-submission inquiry.)*
+
+## TODO: move this somewhere better.
+📖 Read the Author Guide – A detailed walkthrough of the review process
+
+### <i class="fa-solid fa-tools" style="color:#a193c6"></i> 2. Check if your package meets our pre-review requirements
+
+Once you have determined your package is in scope, check that it meets [**pyOpenSci’s pre-review requirements**](https://www.pyopensci.org/software-peer-review/how-to/pre-review-checks.html). Our Editor in Chief will review your package against these criteria before the review formally begins.
+
+#### <i class="fa-solid fa-list" style="color:#81c0aa;"></i> Summary of python package pre-review requirements
+
+Our requirements represent the basic elements every Python package should have to be usable and maintainable.
+
+- <i class="fa-solid fa-box" style="color:#81c0aa;"></i> **Be installable:** Available on [PyPI](https://pypi.org/) (preferred) or a Conda channel (e.g., conda-forge, bioconda).
+- <i class="fa-solid fa-book" style="color:#81c0aa;"></i> **Have clear documentation:** Includes user guides, tutorials, and API documentation.
+- <i class="fa-solid fa-vial" style="color:#81c0aa;"></i> **Include automated testing & CI:** A test suite with continuous integration setup.
+- <i class="fa-brands fa-github" style="color:#81c0aa;"></i> **Contain key repository files:** Includes `README.md`, `LICENSE`, `CONTRIBUTING.md`, and a code of conduct.
+
+
+<div class="notice notice--success" markdown="1">
+
+### <i class="fa-solid fa-graduation-cap" style="color:#81c0aa;"></i> Need help preparing your package?
+Check out our [**<i class="fa-solid fa-link"></i> Python packaging guide**](https://www.pyopensci.org/python-package-guide/) for best practices on packaging, testing, and infrastructure setup.
+
+</div>
+
+
+### <i class="fa-brands fa-github-alt" style="color:#a193c6"></i> 3. Submit your package for review or submit a presubmission inquiry
+
+Once your have determined that you package it in scope and meets our core packaging requirements, it's time to submit your package for peer review. To submit a package for review, you need to **open an issue** in pyOpenSci’s software submission repository. Follow these steps:
+
+1. **Go to our submission repository**: [pyOpenSci/software-submission](https://github.com/pyOpenSci/software-submission/issues/new/choose)
+2. **Click on the Issues tab**
+3. **Select the appropriate issue template**
+4. **Complete the issue form** and submit it
+
+<figure>
+    <img src="/images/peer-review/peer-review-submit-issue.gif" style="max-width:100%" alt="Animated gif showing how to find the GitHub issue submission process for peer review.">
     <figcaption>
-      There are three options when you reach the pyOpenSci issue selection screen.
+      More....
+    </figcaption>
+</figure>
+Once submitted, our editors will review your issue and guide you through the next steps.
+
+
+### <i class="fa-solid fa-list-check" style="color:#81c0aa;"></i> Choose the correct submission type
+
+There are **three submission types** that you can select from:
+
+- **<i class="fa-solid fa-hand-holding-heart" style="color:#81c0aa;"></i> Help request:** If you need guidance on testing, documentation, or packaging best practices, submit a help request. Our editorial team will make sure that you get the help that you need with your Python package!
+- [**<i class="fa-solid fa-magnifying-glass" style="color:#81c0aa;"></i> Pre-submission inquiry:**](https://github.com/pyOpenSci/software-submission/issues/new?template=presubmission-inquiry.md) If you are unsure if your package [fits our scope](https://www.pyopensci.org/software-peer-review/about/package-scope.html), you can submit a pre-submission inquiry to get input from our editorial team before submitting.
+- **<i class="fa-solid fa-check" style="color:#81c0aa;"></i> Full submission:** If you are ready to submit a review, then use this option to submit a full submission for review which will kick-off the editorial peer review process.
+
+**<i class="fa-solid fa-link"></i> [Click here to to our GitHub issue submission page](https://github.com/pyOpenSci/software-submission/issues/new/choose)**
+
+<figure>
+    <source srcset="/images/peer-review/pyopensci-software-review-issue-selection.webp" type="image/webp">
+    <img src="/images/peer-review/pyopensci-software-review-issue-selection.png" style="max-width:100%" alt="Screenshot of the pyOpenSci issue selection screen on GitHub, with three options: Help Request, Presubmission Inquiry, and Submit Software for Review.">
+    <figcaption>
+      Above are the three issue templates that you can select from when submitting a package for review to pyOpenSci. Select the issue that best fits your current situation.
     </figcaption>
 </figure>
 
-### Help request
+> All **data visualization packages** must go through the pre-submission inquiry process before being considered for review.
 
-If you need some help getting your package ready for review, you can submit a help request here and someone will be assigned to help you out. This is a great way to get guidance on topics like [continuous integration](https://www.pyopensci.org/python-package-guide/tests/tests-ci.html#run-tests-with-continuous-integration), [testing](https://www.pyopensci.org/python-package-guide/#tests), and [full documentation](https://www.pyopensci.org/python-package-guide/#documentation), all of which are required for a package to be accepted into [the pyOpenSci ecosystem](https://www.pyopensci.org/python-packages.html). You can also learn more about each of these processes in [the pyOpenSci Package Guide](https://www.pyopensci.org/python-package-guide/).
 
-### Pre-submission inquiry
+<div class="notice notice--info" markdown="1">
 
-If you're not sure if your package falls within the [scope of packages pyOpenSci accepts](https://www.pyopensci.org/software-peer-review/about/package-scope.html), you can submit a pre-submission inquiry. A pre-submission inquiry opens up a dialogue between you and the pyOpenSci editorial team to determine whether or not your package would be a good fit for a full peer review.
+### Need help with your Python package?
 
-> A note on data visualization packages: all data visualization packages need to go through the pre-submission inquiry process.
+If you need help getting your package ready for review, you can submit a help request here, and someone will be assigned to help you. This is a great way to get guidance on topics like [continuous integration](https://www.pyopensci.org/python-package-guide/tests/tests-ci.html#run-tests-with-continuous-integration), [testing](https://www.pyopensci.org/python-package-guide/#tests), and [full documentation](https://www.pyopensci.org/python-package-guide/#documentation), all of which are required for a package to be accepted into [the pyOpenSci ecosystem](https://www.pyopensci.org/python-packages.html). You can also learn more about each of these processes in [the pyOpenSci Package Guide](https://www.pyopensci.org/python-package-guide/).
 
-### Submit Software for Review
+</div>
 
-When you file an issue using our [Submit Software for Review](https://github.com/pyOpenSci/software-submission/issues/new?assignees=&labels=0%2Fpre-review-checks%2C+New+Submission%21&projects=&template=submit-software-for-review.md&title=) template, you officially kick-off the pyOpenSci open peer review process. Read on for a detailed, step-by-step guide for completing the process!
+### <i class="fa-brands fa-github-alt" style="color:#81c0aa;"></i> Understanding our GitHub issue submission process
 
-## <i class="fa-solid fa-heart"></i> Breaking down the pyOpenSci Submit Software for review issue template
-<figure>
-    <a href="/images/website-pages/how-to-submit-package/submit-software-ui.png">
-    <img src="/images/website-pages/how-to-submit-package/submit-software-ui.png" style="max-width:100%" alt="Screenshot of the pyOpenSci Submit Software for Review issue on GitHub.">
-    </a>
-</figure>
+When you submit your package for review, you will **fill out a GitHub issue template**. This structured template helps our editorial board evaluate your package efficiently.
 
-### Overview of the GitHub issue UI
+To keep the process smooth and ensure your package is reviewed efficiently:
 
-GitHub issue templates are an efficient way to standardize a recurring process, and makes it easier for our editorial board to both evaluate a package as well as identify areas where they need more information. When using an issue template, it's important to keep the formatting the way that it's presented. This means:
-* Don't delete sections, even if they don't apply to your package.
-* Don't add additional formatting to your submission (bolding, italicizing, etc.).
-* Don't rearrange sections
+✔ **Complete all sections:** Even if something doesn’t apply, leave it as is.
+✔ **Do not change the template format:** Keep section headers, bullet points, and structure intact.
+✔ **Submit once your issue is fully complete:** Avoid continuous edits to the issue after your submit whenever possible.
 
-We use a script to scrape and parse issues, which allows us to work more quickly and efficiently. When extra formatting is added and/or section are removed it adds time to the review process, as we have to go in and adjust things manually.
+<div class="notice notice--info" markdown="1">
+<i class="fa-solid fa-circle-exclamation" style="color:#81c0aa;"></i> **Why does this matter?**
+Our peer review workflow relies on scripts to process submission data. If the template structure is modified, it will break our automated processes!
+</div>
 
-We also ask that you only submit your issue once it's complete, rather than continuously editing an issue. This guide will go through all of the information you'll need to submit your package for review, and it can be helpful to set aside enough time to complete the issue in its entirety when you go to submit.
+### <i class="fa-solid fa-tags" style="color:#81c0aa;"></i> GitHub labels
 
-#### Labels
+When you submit an issue, GitHub automatically applies labels to categorize your submission.
+For a **new submission**, the following labels will appear:
 
-Labels are used to categorize issues on GitHub, and when you open a [Submit Software for Review issue](https://github.com/pyOpenSci/software-submission/issues/new?assignees=&labels=0%2Fpre-review-checks%2C+New+Submission%21&projects=&template=submit-software-for-review.md&title=), the appropriate labels are already applied for you! We currently use `0/pre-review-checks` and `New Submission!` to categorize software submissions.
+- **`0/pre-review-checks`** – Indicates the package is in the initial review phase.
+- **`New Submission!`** – Marks it as a new review request.
 
-#### Write and Preview
+No action is needed on your part—labels are applied automatically.
 
-When completing the issue template, you can add your text in the `Write` tab, and then click on the `Preview` tab to see how your issue is rendered. It can be helpful to read through the issue template in `Preview` mode, as it automatically formats and organizes the information.
 
-One of the quirky things about the pyOpenSci submission template is that the check boxes have two different methods for completion:
+#### <i class="fa-solid fa-pen-to-square" style="color:#81c0aa;"></i> Writing and previewing your issue
+
+- Fill out your issue in the **Write** tab.
+- Click the **Preview** tab to see how your submission will appear once posted.
+
+Check that all required fields are filled out before submitting.
+
+One of the quirky things about the pyOpenSci submission template is that the checkboxes have two different methods for completion:
 * You can manually add an "X" in the box to mark it as checked,
 * or you can check it off after you submit the issue by clicking on the corresponding boxes.
 
-#### Markdown basics
+### <i class="fa-solid fa-code" style="color:#81c0aa;"></i> Markdown basics
 
-Our issue template is written using Markdown. Because we ask that you not add any additional formatting to the issue template, you don't actually need to know how to use Markdown to complete the issue template! However, knowing the basics of Markdown can be helpful in understanding how the information in the issue template is organized. At a very high level, the Markdown used in the pyOpenSci issue template includes:
+The issue template is written in Markdown, a simple text formatting language.
+Here are the basics you need to know:
 
-* Headers, indicated by `#`. `#` corresponds to an `H1` header, `##` and `H2` header, and so on.
-* Bullet-points, which can be created using `*` or `-`.
-* Checkboxes, which appear as `[ ]`. You can mark a checkbox as completed by adding an "X", like this: `[X]`. The "X" can be uppercase or lowercase.
-* Bolding text, using two asterisks on each side of the text to be bolded, like this: **this text is bold**.
-* Italicizing text, using a single asterisk on each side of the text to be italicized: *this text is italicized*.
+- **Headers:** Use `#` for section titles (`##` for subheaders).
+- **Bullet points:** Use `-` or `*` to create lists.
+- **Checkboxes:** Use `[ ]` for an empty box, `[X]` to check it off.
+- **Bold text:** Use `**bold**` to emphasize words.
+- **Italic text:** Use `*italics*` for softer emphasis.
 
-> New to Markdown? Here's a great [Markdown Guide](https://www.markdownguide.org/basic-syntax/) that covers all of the basic syntax.
+Need more Markdown help? Check out this [Markdown Guide](https://www.markdownguide.org/basic-syntax/).
+
+### <i class="fa-solid fa-circle-check" style="color:#81c0aa;"></i> Final checklist before submitting
+
+✅ The issue is **fully completed**
+✅ The template **formatting has not been changed**
+✅ The **Write tab preview looks correct**
+
+Once you're ready, **submit your issue**, and our editors will take it from there! 🚀
+
 
 ### <i class="fa-solid fa-map"></i> Step-by-step guide to completing the pyOpenSci software review issue template
 
@@ -207,10 +302,14 @@ This isn't a section that you need to worry about! In fact, this is a great time
 
 ### <i class="fa-solid fa-hourglass"></i> What’s next: what happens after you submit your package for review
 
-Now that you've submit your package to pyOpenSci's peer review process, you can relax for a bit. Our Editor-in-Chief will review your submission for both its scope and infrastructure, and determine whether or not it's a good fit for pyOpenSci. This process generally takes about two weeks, but may be shorter or longer depending on how many packages pyOpenSci currently has in review. The Editor-in-Chief will also use this time to ask for any necessary changes that may need to be made to your package, as well as give you time to implement them.
+Now that you've submitted your package to pyOpenSci's peer review process, you can relax for a bit. Our Editor-in-Chief will review your submission for both its scope and infrastructure and determine whether or not it's a good fit for pyOpenSci. This process generally takes about two weeks, but may be shorter or longer depending on how many packages pyOpenSci currently has in review. The Editor-in-Chief will also use this time to ask for any necessary changes that may need to be made to your package, as well as give you time to implement them.
 
 Once the Editor-in-Chief has decided to move ahead with your package, we begin the review process with both editors and reviewers. On average, this takes approximately three months, but this timeframe can vary considerably depending on the package. You can read the detailed steps of what happens during the peer review process in the [pyOpenSci Peer Review Guide for Python Open Source Authors](https://www.pyopensci.org/software-peer-review/how-to/author-guide.html).
 
-## <i class="fa-regular fa-comments"></i> Talk to us!
+## <i class="fa-regular fa-comments"></i> Connect with us!
 
-If you found this how-to guide useful, or if you have suggestions for how to improve it, we'd love to hear from you! You can always reach out to us on [Fosstodon](https://fosstodon.org/@pyOpenSci), [LinkedIn](https://www.linkedin.com/company/pyopensci), or our [Discourse forum](https://pyopensci.discourse.group/)!
+If you found this how-to guide useful, or if you have suggestions for how to improve it, we'd love to hear from you! Reach out to us on:
+
+* [BlueSky]()
+* [Fosstodon](https://fosstodon.org/@pyOpenSci),
+* [LinkedIn](https://www.linkedin.com/company/pyopensci),
