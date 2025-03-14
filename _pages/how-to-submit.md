@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "How to submit a package to pyOpenSci"
+title: "How to submit a Python package to pyOpenSci for review"
 header:
   overlay_image: images/header.png
   overlay_filter: 0.8
@@ -13,15 +13,18 @@ toc: true
 ---
 ## <i class="fa-solid fa-screwdriver-wrench"></i> Congratulations, you’ve created a package!
 
-Creating a Python package, whether it's your first or five-hundredth, is an incredible contribution to the open source ecosystem---don't forget to take a moment to celebrate! But the adventure doesn't have to stop there. You can also submit your package to pyOpenSci's open peer review process.
+Creating a Python package is an incredible contribution to the open source ecosystem---don't forget to take a moment to celebrate! But the adventure doesn't have to stop there. If you intend to maintain your package over time and want additional community support and visibility for your work, you can also submit your package to pyOpenSci's open peer review process.
 
-> Looking for help creating a Python package? Check out [the pyOpenSci Package Guide](https://www.pyopensci.org/python-package-guide/), which will walk you through the process, start to finish.
+> Learn how to create a Python packaging using the [pyOpenSci Python packaging tutorials](https://www.pyopensci.org/python-package-guide/tutorials/intro.html), which will walk you through the process, start to finish.
 
 ## <i class="fa-solid fa-circle-chevron-down"></i> Why you should submit to pyOpenSci's open peer review process
 
-pyOpenSci's peer review process is run by a team of dedicated volunteers, and provides the opportunity for package maintainers to have their code, documentation, and infrastructure vetted by both domain experts as well as Python experts. Because pyOpenSci invests in recruiting a diverse team of editors and reviewers, our review process provides and enhanced feedback experience.
+pyOpenSci's peer review process is run by a team of dedicated volunteers. It provides the opportunity for package maintainers to have their code, documentation, and infrastructure vetted by both domain and Python experts. Because pyOpenSci invests in recruiting a diverse team of editors and reviewers for different scientific domains and packaging expertise backgrounds, our review process provides an enhanced feedback experience.
 
-In addition, pyOpenSci's partnership with the [Journal of Open Source Software](https://www.pyopensci.org/software-peer-review/partners/joss.html) means that if your package is accepted by pyOpenSci and in scope for JOSS, it will be fast-tracked through JOSS’ review process.
+In addition, pyOpenSci's partnership with the [Journal of Open Source Software](https://www.pyopensci.org/software-peer-review/partners/joss.html) means that if your package is accepted by pyOpenSci and in scope for JOSS, it will be fast-tracked through JOSS’ review process. This means through a single review, your package can become both a part of the growing pyOpenSci ecosystem of Python packages and also published and citable via JOSS.
+
+pyos-joss-peer-review.png
+
 
 Read more about the benefits of utilizing pyOpenSci's open peer review process in our [Peer Review Guide](https://www.pyopensci.org/software-peer-review/about/benefits.html).
 
