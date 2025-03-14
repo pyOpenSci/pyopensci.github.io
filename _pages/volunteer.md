@@ -10,7 +10,7 @@ header:
   overlay_image: images/headers/pyopensci-learn-header.png
   overlay_filter: 0.3
 volunteer-mission:
-  - excerpt: "The vibrant and diverse pyOpenSci community is driven by volunteer Pythonistas that care deeply about the scientific Python open source software that drives open science."
+  - excerpt: "pyOpenSci is a volunteer community that broadens participation in scientific open source. We make finding, sharing and contributing to reusable code easier for everyone, everywhere."
 build-skills:
   - title: "pyOpenSci volunteers build skills and community"
     excerpt: "When you volunteer with pyOpenSci, you’re both giving back and developing professional skills. As a volunteer you will:
@@ -34,16 +34,16 @@ help-us:
     btn_label: "> Check out our GitHub Help Wanted Board"
     btn_class: btn--inverse
   - image_path:
-    title: "Sign up to be a scientific Python package reviewer"
+    title: "Sign up to review a Python package"
     alt:
-    excerpt: "Finding reviewers is one of the more challenging parts of running a peer review process. We are always looking for new reviewers from a broad range of scientific domains. Some reviewers have extensive packaging expertise and others have domain expertise. We think that mix is great, so sign up today! If you are new to reviewing we are happy to support you through our peer review mentorship program."
+    excerpt: "We are always looking for new reviewers from a broad range of scientific domains. Some reviewers have extensive packaging expertise and others have domain expertise or focus on package usability. If you are new to reviewing we are happy to support you through our peer review mentorship program. [Learn more about the reviewer role](https://www.pyopensci.org/software-peer-review/how-to/reviewer-guide.html) and sign up using the link below."
     url: https://forms.gle/GHfxvmS47nQFDcBM6
     btn_label: "> Sign up now."
     btn_class: btn--inverse
   - image_path:
     title: "Get involved as software peer review Editor"
     alt:
-    excerpt: "We also often recruit new editors to support our peer review process. Keep an eye out on our [Discourse forum](https://pyopensci.discourse.group/) for calls for new editors. In the meantime if you are interested in learning more about the editor role, check out our [peer review guidebook](https://www.pyopensci.org/software-peer-review/). "
+    excerpt: "We also often recruit new editors to support our peer review process. "
     url: https://www.pyopensci.org/software-peer-review/how-to/editors-guide.html
     btn_label: "> Click here to learn more about the editor role."
     btn_class: btn--inverse
@@ -51,26 +51,6 @@ help-us:
 
 {% include feature_row id="volunteer-mission" type="center" %}
 
-<div class="pyos-section purple">
-<div class="content" markdown="1">
-
-{% include feature_row id="diverse-backgrounds" type="left" %}
-
-</div>
-</div>
-
-{% include div_purple_bottom.html  %}
-
-
-<div class="pyos-section" markdown="1">
-<div class="content" markdown="1">
-
-{% include feature_row id="build-skills" type="right" %}
-
-</div>
-</div>
-
-{% include div_purple_top.html  %}
 
 <div class="pyos-section purple" markdown="1">
 <div class="content padding" markdown="1">
@@ -101,6 +81,26 @@ And last but not least, we’d also love for you to be a guest blogger on the [p
 </div>
 
 
+<div class="pyos-section purple">
+<div class="content" markdown="1">
+
+{% include feature_row id="diverse-backgrounds" type="left" %}
+
+</div>
+</div>
+
+{% include div_purple_bottom.html  %}
+
+
+<div class="pyos-section" markdown="1">
+<div class="content" markdown="1">
+
+{% include feature_row id="build-skills" type="right" %}
+
+</div>
+</div>
+
+{% include div_purple_top.html  %}
 
 {% include div_purple_top.html  %}
 
