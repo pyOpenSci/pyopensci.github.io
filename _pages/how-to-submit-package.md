@@ -137,8 +137,8 @@ There are **three submission types** that you can select from:
 **<i class="fa-solid fa-link"></i> [Click here to to our GitHub issue submission page](https://github.com/pyOpenSci/software-submission/issues/new/choose)**
 
 <figure>
-    <source srcset="{{ page.url | relative_url }}/images/peer-review/pyopensci-software-review-issue-selection.webp" type="image/webp">
-    <img src="{{ page.url | relative_url }}/images/peer-review/pyopensci-software-review-issue-selection.png" style="max-width:100%" alt="Screenshot of the pyOpenSci issue selection screen on GitHub, with three options: Help Request, Presubmission Inquiry, and Submit Software for Review.">
+    <source srcset="{{ '/images/peer-review/pyopensci-software-review-issue-selection.webp' | relative_url }}" type="image/webp">
+    <img src="{{ '/images/peer-review/pyopensci-software-review-issue-selection.png' | relative_url }}" style="max-width:100%" alt="Screenshot of the pyOpenSci issue selection screen on GitHub, with three options: Help Request, Presubmission Inquiry, and Submit Software for Review.">
     <figcaption>
       Above are the three issue templates that you can select from when submitting a package for review to pyOpenSci. Select the issue that best fits your current situation.
     </figcaption>
