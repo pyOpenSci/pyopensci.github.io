@@ -27,8 +27,8 @@ You’ve created a Python package—now what? How do you ensure it follows best 
 
 
 <figure>
-  <source srcset="{{ post.url | relative_url }}/images/peer-review/pyos-joss-peer-review.webp" type="image/webp">
-    <img src="{{ post.url | relative_url }}/images/peer-review/pyos-joss-peer-review.png" alt="A flowchart showing how a package submitted to pyOpenSci can also be fast-tracked for JOSS publication.">
+  <source srcset="{{ page.url | relative_url }}/images/peer-review/pyos-joss-peer-review.webp" type="image/webp">
+    <img src="{{ page.url | relative_url }}/images/peer-review/pyos-joss-peer-review.png" alt="A flowchart showing how a package submitted to pyOpenSci can also be fast-tracked for JOSS publication.">
   <figcaption>
        Packages accepted into pyOpenSci can also be published in JOSS through a streamlined process.
 
@@ -106,7 +106,7 @@ Once your have determined that you package it in scope and meets our core packag
 4. **Complete the issue form** and submit it
 
 <figure>
-    <img src="{{ post.url | relative_url }}/images/peer-review/peer-review-submit-issue.gif" style="max-width:100%" alt="Animated gif showing how to find the GitHub issue submission process for peer review.">
+    <img src="{{ page.url | relative_url }}/images/peer-review/peer-review-submit-issue.gif" style="max-width:100%" alt="Animated gif showing how to find the GitHub issue submission process for peer review.">
     <figcaption>
       More....
     </figcaption>
@@ -137,8 +137,8 @@ There are **three submission types** that you can select from:
 **<i class="fa-solid fa-link"></i> [Click here to to our GitHub issue submission page](https://github.com/pyOpenSci/software-submission/issues/new/choose)**
 
 <figure>
-    <source srcset="{{ post.url | relative_url }}/images/peer-review/pyopensci-software-review-issue-selection.webp" type="image/webp">
-    <img src="{{ post.url | relative_url }}/images/peer-review/pyopensci-software-review-issue-selection.png" style="max-width:100%" alt="Screenshot of the pyOpenSci issue selection screen on GitHub, with three options: Help Request, Presubmission Inquiry, and Submit Software for Review.">
+    <source srcset="{{ page.url | relative_url }}/images/peer-review/pyopensci-software-review-issue-selection.webp" type="image/webp">
+    <img src="{{ page.url | relative_url }}/images/peer-review/pyopensci-software-review-issue-selection.png" style="max-width:100%" alt="Screenshot of the pyOpenSci issue selection screen on GitHub, with three options: Help Request, Presubmission Inquiry, and Submit Software for Review.">
     <figcaption>
       Above are the three issue templates that you can select from when submitting a package for review to pyOpenSci. Select the issue that best fits your current situation.
     </figcaption>
@@ -209,8 +209,8 @@ If your package is associated with an existing community please check below:
 ```
 
 <figure>
-  <source srcset="{{ post.url | relative_url }}/images/peer-review/pyos-partnerships-peer-review.webp" type="image/webp">
-    <img src="{{ post.url | relative_url }}/images/peer-review/pyos-partnerships-peer-review.png" alt="A flowchart showing how a package submitted to pyOpenSci can also be fast-tracked for JOSS publication." style="width: 70%;  display: block; margin: 0 auto;">
+  <source srcset="{{ page.url | relative_url }}/images/peer-review/pyos-partnerships-peer-review.webp" type="image/webp">
+    <img src="{{ page.url | relative_url }}/images/peer-review/pyos-partnerships-peer-review.png" alt="A flowchart showing how a package submitted to pyOpenSci can also be fast-tracked for JOSS publication." style="width: 70%;  display: block; margin: 0 auto;">
   <figcaption>
        Packages accepted into pyOpenSci can also be published in JOSS through a streamlined process.
 
