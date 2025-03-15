@@ -38,10 +38,11 @@ You’ve created a Python package—now what? How do you ensure it follows best 
 Read more about the benefits of pyOpenSci's open peer review process in our [Peer Review Guide](https://www.pyopensci.org/software-peer-review/about/benefits.html).
 
 <div class="notice" markdown="1">
-  <i class="fa-solid fa-graduation-cap" style="color:#81c0aa;"></i> **New to Python packaging?**
 
-  If you're still working on your package and want guidance, check out our
-  [**Python packaging tutorials**](https://www.pyopensci.org/python-package-guide/tutorials/intro.html). Our tutorials provide step-by-step guidance that walks you through the process of creating your first package from start to finish.
+#### <i class="fa-solid fa-graduation-cap"></i> New to Python packaging?
+
+If you're still working on your package and want guidance, check out our
+[**Python packaging tutorials**](https://www.pyopensci.org/python-package-guide/tutorials/intro.html). Our tutorials provide step-by-step guidance that walks you through the process of creating your first package from start to finish.
 </div>
 
 
@@ -146,12 +147,14 @@ There are **three submission types** that you can select from:
 
 > All **data visualization packages** must go through the pre-submission inquiry process before being considered for review.
 
-
+## TODO: This is in here twice!
 <div class="notice notice--info" markdown="1">
 
-**Need help with your Python package?**
+#### Need help with your Python package?
 
-If you need help getting your package ready for review, you can submit a help request here, and someone will be assigned to help you. This is a great way to get guidance on topics like [continuous integration](https://www.pyopensci.org/python-package-guide/tests/tests-ci.html#run-tests-with-continuous-integration), [testing](https://www.pyopensci.org/python-package-guide/#tests), and [full documentation](https://www.pyopensci.org/python-package-guide/#documentation), all of which are required for a package to be accepted into [the pyOpenSci ecosystem](https://www.pyopensci.org/python-packages.html). You can also learn more about each of these processes in [the pyOpenSci Package Guide](https://www.pyopensci.org/python-package-guide/).
+If you need help getting your package ready for review, you can submit a help request in our software-submission repository.
+
+This is a great way to get guidance on topics like [continuous integration](https://www.pyopensci.org/python-package-guide/tests/tests-ci.html#run-tests-with-continuous-integration), [testing](https://www.pyopensci.org/python-package-guide/#tests), and [full documentation](https://www.pyopensci.org/python-package-guide/#documentation), all of which are required for a package to be accepted into [the pyOpenSci ecosystem](https://www.pyopensci.org/python-packages.html). You can also learn more about each of these processes in [the pyOpenSci Package Guide](https://www.pyopensci.org/python-package-guide/).
 
 </div>
 
