@@ -23,7 +23,7 @@
     }
   }
 
-  strong {font-weight:$semibold-weight}
+  strong {font-weight:$bold-weight}
   ul li {margin-bottom: 0}
 
   h1,
@@ -35,23 +35,37 @@
     margin: 3.5rem 0 1rem 0;
     line-height: 1.2;
     color: #542668;
+    text-wrap: pretty;
+  }
+  // All fonts h2 and lower are poppins
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: $header-font-family;
   }
 
   h1 {
     margin-top: 0;
     font-size: $h-size-1;
     font-weight: 200 !important;
-    font-family: $header-font-family;
+    font-family: $header-font;
   }
 
   h2 {
     font-size: $h-size-2;
-    //font-family: $header-font-family;
+    padding-bottom: 0.2em;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+    font-weight: $semibold-weight; //600
+    line-height: 1.1;
+    letter-spacing: -0.03em;
   }
 
   h3 {
     font-size: $h-size-3;
-    font-weight: $weight-4;
+    font-weight: $semibold-weight;
     line-height: 1.1em;
     margin-top: 2.7em;
   }
@@ -77,6 +91,7 @@
 
   p {
     margin-bottom: 1.3em;
+    text-wrap: pretty;
   }
 
   u,
@@ -408,22 +423,8 @@
     overflow: hidden;
   }
 
-  /*
-     Navigation lists
-     ========================================================================== */
+  /*  Navigation lists */
 
-  /**
-   * Removes margins, padding, and bullet points from navigation lists
-   *
-   * Example usage:
-   * <nav>
-   *    <ul>
-   *      <li><a href="#link-1">Link 1</a></li>
-   *      <li><a href="#link-2">Link 2</a></li>
-   *      <li><a href="#link-3">Link 3</a></li>
-   *    </ul>
-   *  </nav>
-   */
 
   nav {
     ul {
