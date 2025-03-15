@@ -27,8 +27,8 @@ You’ve created a Python package—now what? How do you ensure it follows best 
 
 
 <figure>
-  <source srcset="{{ page.url | relative_url }}/images/peer-review/pyos-joss-peer-review.webp" type="image/webp">
-    <img src="{{ page.url | relative_url }}/images/peer-review/pyos-joss-peer-review.png" alt="A flowchart showing how a package submitted to pyOpenSci can also be fast-tracked for JOSS publication.">
+  <source srcset="{{ '/images/peer-review/pyos-joss-peer-review.webp' | relative_url }}" type="image/webp">
+    <img src="{{ '/images/peer-review/pyos-joss-peer-review.png' | relative_url }}" alt="A flowchart showing how a package submitted to pyOpenSci can also be fast-tracked for JOSS publication.">
   <figcaption>
        Packages accepted into pyOpenSci can also be published in JOSS through a streamlined process.
 
@@ -106,7 +106,7 @@ Once your have determined that you package it in scope and meets our core packag
 4. **Complete the issue form** and submit it
 
 <figure>
-    <img src="{{ page.url | relative_url }}/images/peer-review/peer-review-submit-issue.gif" style="max-width:100%" alt="Animated gif showing how to find the GitHub issue submission process for peer review.">
+    <img src="{{ '/images/peer-review/peer-review-submit-issue.gif' | relative_url }}" style="max-width:100%" alt="Animated gif showing how to find the GitHub issue submission process for peer review.">
     <figcaption>
       More....
     </figcaption>
@@ -149,7 +149,7 @@ There are **three submission types** that you can select from:
 
 <div class="notice notice--info" markdown="1">
 
-### Need help with your Python package?
+**Need help with your Python package?**
 
 If you need help getting your package ready for review, you can submit a help request here, and someone will be assigned to help you. This is a great way to get guidance on topics like [continuous integration](https://www.pyopensci.org/python-package-guide/tests/tests-ci.html#run-tests-with-continuous-integration), [testing](https://www.pyopensci.org/python-package-guide/#tests), and [full documentation](https://www.pyopensci.org/python-package-guide/#documentation), all of which are required for a package to be accepted into [the pyOpenSci ecosystem](https://www.pyopensci.org/python-packages.html). You can also learn more about each of these processes in [the pyOpenSci Package Guide](https://www.pyopensci.org/python-package-guide/).
 
@@ -209,8 +209,8 @@ If your package is associated with an existing community please check below:
 ```
 
 <figure>
-  <source srcset="{{ page.url | relative_url }}/images/peer-review/pyos-partnerships-peer-review.webp" type="image/webp">
-    <img src="{{ page.url | relative_url }}/images/peer-review/pyos-partnerships-peer-review.png" alt="A flowchart showing how a package submitted to pyOpenSci can also be fast-tracked for JOSS publication." style="width: 70%;  display: block; margin: 0 auto;">
+  <source srcset="{{ '/images/peer-review/pyos-partnerships-peer-review.webp' | relative_url }}" type="image/webp">
+    <img src="{{ '/images/peer-review/pyos-partnerships-peer-review.png' | relative_url }}" alt="A flowchart showing how a package submitted to pyOpenSci can also be fast-tracked for JOSS publication." style="width: 70%;  display: block; margin: 0 auto;">
   <figcaption>
        Packages accepted into pyOpenSci can also be published in JOSS through a streamlined process.
 

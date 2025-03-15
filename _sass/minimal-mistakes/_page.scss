@@ -82,18 +82,11 @@
     }
   }
 
-  // in our flowing layout the title should be max width
-  .page__content .pyos-section h2 {
-    max-width: 100%;
-
-  }
   .page__lead {
-    font-family: $header-font; //poppins
+    font-family: $global-font-family;
     font-size: $type-size-5;
     font-weight: $weight-3;
   }
-
-
 
   .page__content {
     figure {
@@ -105,11 +98,6 @@
     pre {
       max-width: $medium;
       font-weight: $weight-4;
-    }
-
-    h2 {
-      margin-bottom: 2.0rem;
-      margin-top: 4.1rem;
     }
 
     h1,
@@ -139,7 +127,7 @@
     p,
     dl {
       font-size: $type-size-5;
-      line-height: 1.6rem;
+      line-height: 1.5em;
     }
 
     /* paragraph indents */
@@ -607,11 +595,6 @@
     }
   }
 
-  .layout--splash .page__content h2 {
-    width: 100%;
-    max-width: 100%;
-  }
-
   /* Media queries */
 
   @media screen and (max-width: 768px) {
@@ -650,7 +633,10 @@
     .feature__item {
       width: 95%!important;
     }
-
+    .cards {
+      margin-right: auto!important;
+      margin-left: auto!important;
+    }
 
     .wide__p_text {
       max-width: 90%!important;
@@ -664,10 +650,7 @@
 
   /* max 480 px */
   @media screen and (max-width: 480px) {
-    body {
+    body{
       font-size: 1.4em;
-    }
-    #main {
-      padding: 0 .6rem;
     }
   }
