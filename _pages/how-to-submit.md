@@ -18,10 +18,9 @@ toc: true
 
 You’ve created a Python package—now what? How do you ensure it follows best practices, is well-documented, and reaches the right audience?
 
-**pyOpenSci’s peer review process** connects you with experts who will help refine your package’s structure, documentation, and usability. Accepted packages become part of our vetted ecosystem, increasing their visibility and credibility. You may also have the opportunity to publish in the [Journal of Open Source Software (JOSS)](https://www.pyopensci.org/software-peer-review/partners/joss.html).
+**pyOpenSci’s peer review process** connects you with experts who will help refine your package’s structure, documentation, and usability. Accepted packages become part of our vetted ecosystem, increasing their visibility and credibility. And finally, if your package is in scope, you can also publish it in the [Journal of Open Source Software (JOSS)](https://www.pyopensci.org/software-peer-review/partners/joss.html) through our single end-to-end review process.
 
-
-### <i class="fa-solid fa-circle-chevron-down"></i> Why submit a Python package for software peer review?
+### <i class="fa-solid fa-circle-chevron-down"></i> Why submit a Python package for review?
 - <i class="fa-solid fa-eye" style="color:#8B868E"></i> **Visibility & support:** Gain expert feedback on your code, documentation, and packaging.
 - <i class="fa-solid fa-check-circle" style="color:#8B868E"></i> **Quality & best practices:** Ensure your package follows open-source and scientific standards.
 - <i class="fa-solid fa-book-open" style="color:#8B868E"></i> **JOSS publication:** Get the option to publish in the Journal of Open Source Software (JOSS) after acceptance.
@@ -50,8 +49,7 @@ Read more about the benefits of pyOpenSci's open peer review process in our [Pee
 
 ## <i class="fa-solid fa-list-check" style="color:#81c0aa;"></i> Step-by-step guide to submitting your package for review
 
-Our **open peer review process** happens through GitHub issues in the
-[**pyOpenSci software submission repository**](https://github.com/pyopensci/software-submission). Using open GitHub issues ensures a **transparent and constructive** review process focused on improving:
+Our **open peer review process** happens through GitHub issues in the [**pyOpenSci software submission repository**](https://github.com/pyopensci/software-submission). Using open GitHub issues ensures a **transparent and constructive** review process focused on improving:
 
 - **Package structure & quality:** Ensure best practices in documentation, testing, and maintenance.
 - **Usability & reproducibility:** Improve user experience and scientific reliability.
@@ -59,26 +57,24 @@ Our **open peer review process** happens through GitHub issues in the
 
 Follow the steps below to submit your package for review.
 
+ **[<i class="fa-solid fa-book"></i> Read our Author Guide for an overview of the process](https://www.pyopensci.org/software-peer-review/how-to/author-guide.html)**{: .btn .btn--primary}
+
+
 ### <i class="fa-solid fa-magnifying-glass" style="color:#a193c6"></i> 1. Check if your package is in pyOpenSci's scope
 
 Before submitting, ensure your package fits within [**pyOpenSci’s peer review scope**](https://www.pyopensci.org/software-peer-review/about/package-scope.html).
 
-Your package is a good fit if:
+Your package is a good fit if it:
 
 - **Supports a scientific application:** Examples include data retrieval, processing, and visualization.
 - **Meets packaging & maintenance expectations:** Installable, documented, tested, and actively maintained.
 - **Does not significantly overlap:** Your package should provide new functionality rather than duplicate an existing package in the ecosystem.
 
-
 #### <i class="fa-solid fa-circle-question" style="color:#81c0aa;"></i> Unsure if your package is in scope?
 
-If you're unsure, **submit a pre-submission inquiry** to get feedback from our editorial team before starting the full review process.
+If you're unsure, [**🔗 submit a pre-submission inquiry**](#submission-type) to get feedback from our editorial team before starting the full review process.
 
-🔗 **[Check how to submit a pre-submission inquiry](#3-submit-your-package-for-review-or-submit-a-presubmission-inquiry)**
-*(Jump to the next section for full details on submitting a pre-submission inquiry.)*
 
-## TODO: move this somewhere better.
-📖 Read the Author Guide – A detailed walkthrough of the review process
 
 ### <i class="fa-solid fa-tools" style="color:#a193c6"></i> 2. Check if your package meets our pre-review requirements
 
@@ -132,7 +128,7 @@ Once submitted, our editors will review your issue and guide you through the nex
 Our peer review workflow relies on scripts to process submission data. If the template structure is modified, it will break our automated processes!
 </div>
 
-### <i class="fa-solid fa-list-check" style="color:#81c0aa;"></i> Choose the correct submission type
+### <a id="submission-type"></a> <i class="fa-solid fa-list-check" style="color:#81c0aa;"></i> Choose the correct submission type
 
 There are **three submission types** that you can select from:
 
