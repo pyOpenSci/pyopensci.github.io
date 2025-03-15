@@ -3,26 +3,26 @@
    ========================================================================== */
 
    html {
-    /* sticky footer fix */
+    /* Sticky footer fix */
     position: relative;
     min-height: 100%;
   }
-  
+
   body {
     margin: 0;
     padding: 0;
     color: $text-color;
     font-family: $global-font-family;
     line-height: 1.6;
-    weight: $weight-3;
+    font-weight: $weight-3;
     font-size: 1em;
-  
+
     &.overflow--hidden {
-      /* when primary navigation is visible, the content in the background won't scroll */
+      /* When primary navigation is visible, the content in the background won't scroll */
       overflow: hidden;
     }
   }
-  
+
   h1,
   h2,
   h3,
@@ -32,65 +32,80 @@
     margin: 3.5rem 0 1rem 0;
     line-height: 1.2;
     color: #542668;
+    text-wrap: pretty;
   }
-  
+
+  /* All fonts h2 and lower are Poppins */
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: $header-font-family;
+    letter-spacing: -0.03em;
+  }
+
   h1 {
     margin-top: 0;
     font-size: $h-size-1;
     font-weight: 200 !important;
     font-family: $header-font-family;
   }
-  
+
   h2 {
     font-size: $h-size-2;
-    font-family: $header-font-family;
+    padding-bottom: 0.2em;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+    font-weight: $semibold-weight; // 600
+    line-height: 1.1;
   }
-  
+
   h3 {
     font-size: $h-size-3;
-    //font-family: $sans-serif;
-    font-weight: $weight-4;
+    font-weight: $semibold-weight;
     line-height: 1.1em;
+    margin-top: 2.7em;
   }
-  
+
   h4 {
     font-size: $h-size-4;
     font-weight: $semibold-weight;
   }
-  
+
   h5 {
     font-size: $h-size-5;
     font-weight: $semibold-weight;
   }
-  
+
   h6 {
     font-size: $h-size-6;
   }
-  
+
   small,
   .small {
     font-size: $type-size-6;
   }
-  
+
   p {
     margin-bottom: 1.3em;
   }
-  
+
   u,
   ins {
     text-decoration: none;
     border-bottom: 1px solid $text-color;
+
     a {
       color: inherit;
     }
   }
-  
+
   del a {
     color: inherit;
   }
-  
-  /* reduce orphans and widows when printing */
-  
+
+  /* Reduce orphans and widows when printing */
   p,
   pre,
   blockquote,
@@ -103,44 +118,41 @@
     orphans: 3;
     widows: 3;
   }
-  
-  /* abbreviations */
-  
+
+  /* Abbreviations */
   abbr[title],
   abbr[data-original-title] {
     text-decoration: none;
     cursor: help;
     border-bottom: 1px dotted $text-color;
   }
-  
-  /* blockquotes */
-  
+
+  /* Blockquotes */
   blockquote {
     margin: 2em 1em 2em 0;
     padding-left: 1em;
     padding-right: 1em;
     font-style: italic;
     border-left: 0.25em solid $primary-color;
-  
+
     cite {
       font-style: italic;
-  
+
       &:before {
         content: "\2014";
         padding-right: 5px;
       }
     }
   }
-  
+
+  /* Blockquote styling */
   %quote-style {
     font-weight: bold;
     font-size: 100px;
     color: $pyos-teal;
     line-height: 0;
   }
-  
-  <<<<<<< Updated upstream
-  /* Block quote with bigger quotes*/
+
   blockquote.highlight-quote {
     border: none;
     font-family: Georgia, "Times New Roman", Times, serif;
@@ -148,94 +160,38 @@
     margin-bottom: 4rem;
     padding: 0 2rem;
     max-width: $medium;
-  
+
     footer {
       font-style: italic;
       font-weight: 500;
       text-align: right;
-  =======
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-      margin: 3.5rem 0 1rem 0;
-      line-height: 1.2;
-      color: #542668;
-      text-wrap: pretty;
     }
-    // All fonts h2 and lower are poppins
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-      font-family: $header-font-family;
-      letter-spacing: -.03em;
-  >>>>>>> Stashed changes
-    }
-  
-    &:after{
+
+    &:after {
       @extend %quote-style;
       position: absolute;
       content: close-quote;
       right: 10rem; // To ensure the right quote is within the margin
-      margin-top:2rem;
+      margin-top: 2rem;
     }
+
     & > div.end {
       position: relative;
     }
-  
-  <<<<<<< Updated upstream
+
     & > div.end:after {
       @extend %quote-style;
       content: close-quote;
       position: absolute;
       right: 0;
-      margin-top:2.8rem;
-  =======
-    h2 {
-      font-size: $h-size-2;
-      padding-bottom: 0.2em;
-      margin-bottom: 1rem;
-      margin-top: 3rem;
-      font-weight: $semibold-weight; //600
-      line-height: 1.1;
+      margin-top: 2.8rem;
     }
-  
-    h3 {
-      font-size: $h-size-3;
-      font-weight: $semibold-weight;
-      line-height: 1.1em;
-      margin-top: 2.7em;
-    }
-  
-    h4 {
-      font-size: $h-size-4;
-      font-weight: $semibold-weight;
-    }
-  
-    h5 {
-      font-size: $h-size-5;
-      font-weight: $semibold-weight;
-    }
-  
-    h6 {
-      font-size: $h-size-6;
-    }
-  
-    small,
-    .small {
-      font-size: $type-size-6;
-  >>>>>>> Stashed changes
-    }
-  
+
     p {
       font-size: 1.3rem;
       position: relative;
       margin-bottom: 0.63rem;
-  
+
       &:before {
         @extend %quote-style;
         position: absolute;
@@ -244,72 +200,54 @@
         top: -20px;
       }
     }
-  
-    &.magenta {
-      div.end:after,
-      p:before,
-      p:after {
-        @extend %quote-style;
-        color: $pyos-magenta;
-      }
-    }
-  
-    &.purple {
-      div.end:after,
-      p:before,
-      p:after {
-        color: $pyos-mediumpurple;
-      }
-    }
-  
-  
-    @include breakpoint('max-width: #$mobile') {
-      padding: 0;
-      //font-size: 2rem;
-    }
   }
-  
-  // for some reason i have to manually override here
-  blockquote.highlight-quote.magenta:after{
-      color: $pyos-magenta;
-      }
-  blockquote.highlight-quote.purple:after{
-      color: $pyos-mediumpurple;
-      }
-  
-  /* links */
-  
+
+  /* Blockquote color variants */
+  blockquote.highlight-quote.magenta:after,
+  blockquote.highlight-quote.magenta p:before,
+  blockquote.highlight-quote.magenta p:after {
+    color: $pyos-magenta;
+  }
+
+  blockquote.highlight-quote.purple:after,
+  blockquote.highlight-quote.purple p:before,
+  blockquote.highlight-quote.purple p:after {
+    color: $pyos-mediumpurple;
+  }
+
+  /* Breakpoint adjustment for smaller screens */
+  @include breakpoint('max-width: #$mobile') {
+    padding: 0;
+  }
+
+  /* Links */
   a {
-    text-underline-offset: .1em;
+    text-underline-offset: 0.1em;
     text-decoration-color: rgba($text-color, 0.7);
     text-decoration: underline;
-  
-  
+
     &:focus {
       @extend %tab-focus;
     }
-  
+
     &:visited {
       color: $link-color-visited;
     }
-  
+
     &:hover {
       color: $link-color-hover;
       outline: 0;
       text-decoration: none !important;
-      text-decoration-line: none !important;
       transition: color 0.3s ease, text-decoration-color 0.3s ease;
     }
   }
-  
-  /* buttons */
-  
+
+  /* Buttons */
   button:focus {
     @extend %tab-focus;
   }
-  
-  /* code */
-  
+
+  /* Code */
   tt,
   code,
   kbd,
@@ -319,211 +257,91 @@
     font-weight: $weight-5;
     font-size: 1em;
   }
-  
-  
-  
-  
+
   kbd {
-      background-color: $kbd-color-background;
-      color: $kbd-color-text;
-      border-radius: 0.25rem;
-      box-shadow: 0 2px 0 1px $kbd-color-border;
-      line-height: 1;
-      font-size: .75em;
-      padding: .15em .25em;
-  
-      &:hover {
-           box-shadow: 0 1px 0 0.5px $kbd-color-border;
-           top: 1px;
+    background-color: $kbd-color-background;
+    color: $kbd-color-text;
+    border-radius: 0.25rem;
+    box-shadow: 0 2px 0 1px $kbd-color-border;
+    line-height: 1;
+    font-size: 0.75em;
+    padding: 0.15em 0.25em;
+
+    &:hover {
+      box-shadow: 0 1px 0 0.5px $kbd-color-border;
+      top: 1px;
     }
   }
-  
+
   pre {
-    overflow-x: auto; /* add scrollbars to wide code blocks*/
+    overflow-x: auto; /* Add scrollbars to wide code blocks */
   }
-  
-  /* horizontal rule */
-  
+
+  /* Horizontal rule */
   hr {
     display: block;
     margin: 1em 0;
     border: 0;
     border-top: 1px solid $border-color;
   }
-  
-  /* lists */
-  
+
+  /* Lists */
   ul,
   ol {
     margin-bottom: 1.9em;
     font-weight: $weight-3;
   }
+
   ul li,
   ol li {
     margin-bottom: 0.5em;
     font-size: $type-size-5;
     list-style: 1.4em;
   }
-  
+
+  ul li::marker {
+    color: #9C939F; /* Change bullet color */
+  }
+
   li ul,
   li ol {
     margin-top: 0.5em;
   }
-  
-  /*
-     Media and embeds
-     ========================================================================== */
-  
+
   /* Figures and images */
-  
   figure {
-    display: -webkit-box;
     display: flex;
-    -webkit-box-pack: justify;
     justify-content: space-between;
-    -webkit-box-align: start;
     align-items: flex-start;
     flex-wrap: wrap;
     margin: 2em 0;
-  
+
     img,
     iframe,
     .fluid-width-video-wrapper {
       margin-bottom: 1em;
     }
-  
+
     img {
       width: 100%;
       border-radius: $border-radius;
-      -webkit-transition: $global-transition;
       transition: $global-transition;
     }
-  
+
     > a {
       display: block;
     }
-  
-    &.half {
-      > a,
-      > img {
-        @include breakpoint($small) {
-          width: calc(50% - 0.5em);
-        }
-      }
-  
-      figcaption {
-        width: 100%;
-      }
-    }
-  
-    &.third {
-      > a,
-      > img {
-        @include breakpoint($small) {
-          width: calc(33.3333% - 0.5em);
-        }
-      }
-  
-      figcaption {
-        width: 100%;
-      }
-    }
   }
-  
+
   /* Figure captions */
-  
   figcaption {
     margin-bottom: 0.5em;
     color: $muted-text-color;
     font-family: $caption-font-family;
     font-size: $type-size-6;
-  
-    a {
-      -webkit-transition: $global-transition;
-      transition: $global-transition;
-  
-      &:hover {
-        color: $link-color-hover;
-      }
-    }
   }
-  
+
   /* Fix IE9 SVG bug */
-  
   svg:not(:root) {
     overflow: hidden;
   }
-  
-  /*
-     Navigation lists
-     ========================================================================== */
-  
-  /**
-   * Removes margins, padding, and bullet points from navigation lists
-   *
-   * Example usage:
-   * <nav>
-   *    <ul>
-   *      <li><a href="#link-1">Link 1</a></li>
-   *      <li><a href="#link-2">Link 2</a></li>
-   *      <li><a href="#link-3">Link 3</a></li>
-   *    </ul>
-   *  </nav>
-   */
-  
-  nav {
-    ul {
-      margin: 0;
-      padding: 0;
-    }
-  
-    li {
-      list-style: none;
-    }
-  
-    a {
-      text-decoration: none;
-    }
-  
-    /* override white-space for nested lists */
-    ul li,
-    ol li {
-      margin-bottom: 0;
-    }
-  
-    li ul,
-    li ol {
-      margin-top: 0;
-    }
-  }
-  
-  /*
-     Global animation transition
-     ========================================================================== */
-  
-  b,
-  i,
-  strong,
-  em,
-  blockquote,
-  p,
-  q,
-  span,
-  figure,
-  img,
-  h1,
-  h2,
-  header,
-  input,
-  a,
-  tr,
-  td,
-  form button,
-  input[type="submit"],
-  .btn,
-  .highlight,
-  .archive__item-teaser {
-    -webkit-transition: $global-transition;
-    transition: $global-transition;
-  }
-  
