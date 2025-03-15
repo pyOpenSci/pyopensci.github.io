@@ -96,7 +96,7 @@ To lock down a GitHub environment:
 *Optionally, you can click <kbd>prevent self-review</kbd>, preventing someone from triggering a release or a build and then running it!*
 
 <figure>
-    <img src="{{ post.url | relative_url l}}/images/python-packaging/create-github-environment.gif" alt="Animated gif file that shows the GitHub interface where you can click on settings and go to the environment setting to create or edit a GitHub environment">
+    <img src="{{ post.url | relative_url }}/images/python-packaging/create-github-environment.gif" alt="Animated gif file that shows the GitHub interface where you can click on settings and go to the environment setting to create or edit a GitHub environment">
   <figcaption>
     To create a new environment to use in a GitHub Action, 1) go to your repo's settings; 2) click <kbd>environment</kbd>; 3) add a new environment. In this screenshot, we already have a <kbd>pypi</kbd> environment created. Note that you can name your environment whatever you want, however, PyPI suggests that you use the name <kbd>pypi</kbd> for a Trusted Publisher workflow.
   </figcaption>
@@ -104,8 +104,8 @@ To lock down a GitHub environment:
 
 
 <figure>
-  <source srcset="{{ post.url | relative_url l}}/images/python-packaging/github-action-environment-pypi.webp" type="image/webp">
-    <img src="{{ post.url | relative_url l}}/images/python-packaging/github-action-environment-pypi.png" alt="Screenshot of the GitHub settings interface showing the ‘Environments’ section with configuration options for ‘pypi.’ The ‘Deployment protection rules’ section is visible, with ‘Required reviewers’ enabled and two reviewers listed: ‘lwasser’ and ‘willingc.’ Other options such as ‘Prevent self-review’ and ‘Wait timer’ are present but not enabled.">
+  <source srcset="{{ post.url | relative_url }}/images/python-packaging/github-action-environment-pypi.webp" type="image/webp">
+    <img src="{{ post.url | relative_url }}/images/python-packaging/github-action-environment-pypi.png" alt="Screenshot of the GitHub settings interface showing the ‘Environments’ section with configuration options for ‘pypi.’ The ‘Deployment protection rules’ section is visible, with ‘Required reviewers’ enabled and two reviewers listed: ‘lwasser’ and ‘willingc.’ Other options such as ‘Prevent self-review’ and ‘Wait timer’ are present but not enabled.">
   <figcaption>
     GitHub environment settings for “pypi,” displaying deployment protection rules with required reviewers configured for workflow approvals.
   </figcaption>
@@ -123,8 +123,8 @@ A Trusted Publisher setup creates a secure link between PyPI and your repository
 Using a Trusted Publisher combined with a locked-down environment eliminates the need to store sensitive tokens as GitHub secrets. It also removes the need to refresh and update tokens periodically to avoid token leaks or theft issues.
 
 <figure>
-    <source srcset="{{ post.url | relative_url l}}/images/python-packaging/trusted-publisher-pypi-github.webp" type="image/webp">
-    <img src="{{ post.url | relative_url l}}/images/python-packaging/trusted-publisher-pypi-github.png" alt="A workflow diagram showing GitHub Actions building distribution files (sdist and wheel), publishing them securely to PyPI, represented as a warehouse. The diagram includes a lock icon emphasizing security, with the pyOpenSci logo in the top-left corner.">
+    <source srcset="{{ post.url | relative_url }}/images/python-packaging/trusted-publisher-pypi-github.webp" type="image/webp">
+    <img src="{{ post.url | relative_url }}/images/python-packaging/trusted-publisher-pypi-github.png" alt="A workflow diagram showing GitHub Actions building distribution files (sdist and wheel), publishing them securely to PyPI, represented as a warehouse. The diagram includes a lock icon emphasizing security, with the pyOpenSci logo in the top-left corner.">
   <figcaption>
     Example of the PyPI Trusted Publisher form, used to securely link a GitHub repository with PyPI for publishing Python packages. Trusted Publisher reduces the risk of token theft and improves overall security.
   </figcaption>
@@ -149,8 +149,8 @@ The steps for setting up Trusted Publisher are:
 
 <figure>
   <picture>
-    <source srcset="{{ post.url | relative_url l}}/images/python-packaging/trusted-publisher-form.webp" type="image/webp">
-    <img src="{{ post.url | relative_url l}}/images/python-packaging/trusted-publisher-form.png" alt="PyPI Trusted Publisher form example showing settings for linking a GitHub repository with PyPI for secure publishing." loading="lazy">
+    <source srcset="{{ post.url | relative_url }}/images/python-packaging/trusted-publisher-form.webp" type="image/webp">
+    <img src="{{ post.url | relative_url }}/images/python-packaging/trusted-publisher-form.png" alt="PyPI Trusted Publisher form example showing settings for linking a GitHub repository with PyPI for secure publishing." loading="lazy">
   </picture>
   <figcaption>
     Example of the PyPI Trusted Publisher form, used to securely link a GitHub repository with PyPI for publishing Python packages. Trusted Publisher reduces the risk of token theft and improves overall security.
@@ -162,8 +162,8 @@ For an example of a GitHub workflow that uses Trusted Publishing, check out our 
 
 <figure>
   <picture>
-    <source srcset="{{ post.url | relative_url l}}/images/python-packaging/trusted-publisher-manage.webp" type="image/webp">
-    <img src="{{ post.url | relative_url l}}/images/python-packaging/trusted-publisher-manage.png" alt="PyPI Trusted Publisher manage settings showing what the Trusted Publisher setup looks like after you've created it in PyPI. It shows all of the items that you filled out in the form and has a remove button if you want to remove it from PyPI. " loading="lazy">
+    <source srcset="{{ post.url | relative_url }}/images/python-packaging/trusted-publisher-manage.webp" type="image/webp">
+    <img src="{{ post.url | relative_url }}/images/python-packaging/trusted-publisher-manage.png" alt="PyPI Trusted Publisher manage settings showing what the Trusted Publisher setup looks like after you've created it in PyPI. It shows all of the items that you filled out in the form and has a remove button if you want to remove it from PyPI. " loading="lazy">
   </picture>
   <figcaption>
     Example of the PyPI Trusted Publisher setup in PyPI once you've created the Trusted PuUblisher link by filling the form out above.
