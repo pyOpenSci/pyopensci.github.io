@@ -14,7 +14,7 @@ scientists:
     excerpt: "Our catalog of vetted open source tools makes it easier for scientists to find the trusted tools that they need to develop their open science workflows."
     title: "Help scientists find the open science tools that they need"
     url: https://www.pyopensci.org/python-packages.html
-    btn_label: View our growing list of accepted scientific Python packages
+    btn_label: Explore our accepted Python packages
     btn_class: btn--primary
 mission:
   - excerpt: "Domain-specific communities can partner with PyOpenSci to leverage both our peer review process and development of Python packaging packaging guidelines."
@@ -45,18 +45,6 @@ community:
      title: "Harness the power of community"
      url: https://www.pyopensci.org/our-community/index.html
      btn_label: Explore our community contributors
-     btn_class: btn--primary
-leverage:
-   - title: "Leverage our peer review process"
-     excerpt: "Your community can take advantage of our existing, developed and well-documented peer review process which includes:
-
-     * **A diverse and growing team of editors.** We ask partner communities to have at least 2 members of their community on our editorial team. We want our partner community to make the final decision on whether a package should receive the label of being affiliated. Typically an editor will run 2-4 reviews a year. [Learn more about the editor role.](https://www.pyopensci.org/software-peer-review/how-to/editors-guide.html)
-
-     * **A suite of community reviewers whose expertise spans numerous scientific domains.** We ask that partner communities help us find reviews in their specific domain areas as packages come in for review. [Learn more about the requirements for reviewers.](https://www.pyopensci.org/software-peer-review/how-to/reviewer-guide.html)
-
-     * **Community driven packaging resources and guidelines:** Our packaging guidelines drive the peer review process. Instead of communities creating their own individual guidelines, pyOpenSci partners collaborate with us to expand packaging resources."
-     url: https://www.pyopensci.org/python-packages.html
-     btn_label: View our growing list of accepted scientific Python packages
      btn_class: btn--primary
 partnerships:
   - image_path: /images/peer-review/peer-review-partners-process.png
@@ -126,7 +114,20 @@ We will:
 <div class="pyos-section" markdown="1">
 <div class="content" markdown="1">
 
-{% include feature_row id="leverage" type="right" %}
+<!-- {% include feature_row id="leverage" type="right" %} -->
+
+## Leverage our peer review process
+
+Your science domain-specific community can take advantage of our existing, developed and well-documented peer review process which includes:
+
+* **A growing team of editors from a diverse set of scientific and technical backgrounds.** We ask partner communities to have at least 2 members of their community on our editorial team. We want our partner community to make the final decision on whether a package should receive the label of being affiliated. Typically an editor will run 2-4 reviews a year. [Learn more about the editor role.](https://www.pyopensci.org/software-peer-review/how-to/editors-guide.html)
+
+* **Community reviewers whose expertise spans numerous scientific domains.** We ask that partner communities help us find reviews in their specific domain areas as packages come in for review. [Learn more about the requirements for reviewers.](https://www.pyopensci.org/software-peer-review/how-to/reviewer-guide.html)
+
+* **Community driven packaging resources and guidelines:** Our packaging guidelines drive the peer review process. Instead of communities creating their own individual guidelines, pyOpenSci partners collaborate with us to expand packaging resources."
+
+[Learn more about our partnerships](https://www.pyopensci.org/software-peer-review/partners/scientific-communities.html){: .btn  .btn--primary }
+
 
 </div>
 </div>
@@ -151,7 +152,8 @@ We will:
 
 <div class="pyos-section" markdown="1">
 <div class="content" markdown="1">
-## Raising the bar for Scientific Python software
+
+## Raising the bar for scientists developing Python software
 
 More packages going through our review process means
 we're all working together to raise the bar in terms of
@@ -164,7 +166,7 @@ By reviewing packages from the entire ecosystem, pyOpenSci can identify redundan
 
 <div class="pyos-section purple" markdown="1">
 <div class="content" markdown="1">
-## Why do so many scientific Python communities exist?
+## Why do so many domain specific Python communities exist?
 
 Within the Python ecosystem, various science-domain-specific communities are creating peer review processes to evaluate community-affiliated tools.
 
@@ -180,5 +182,3 @@ pyOpenSci was created to target these exact issues in support of open science.
 
 </div>
 </div>
-
-<!-- Bubbles sections... https://codepen.io/rinaw/pen/pGxorQ-->

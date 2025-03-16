@@ -82,11 +82,18 @@
     }
   }
 
+  // in our flowing layout the title should be max width
+  .page__content .pyos-section h2 {
+    max-width: 100%;
+
+  }
   .page__lead {
     font-family: $global-font-family;
     font-size: $type-size-5;
     font-weight: $weight-3;
   }
+
+
 
   .page__content {
     figure {
@@ -101,9 +108,8 @@
     }
 
     h2 {
-      padding-bottom: 0.2em;
-      margin-bottom: 0.2em;
-      margin-top: 2.5em;
+      margin-bottom: 2.0rem;
+      margin-top: 4.1rem;
     }
 
     h1,
@@ -133,7 +139,7 @@
     p,
     dl {
       font-size: $type-size-5;
-      line-height: 1.5em;
+      line-height: 1.6rem;
     }
 
     /* paragraph indents */

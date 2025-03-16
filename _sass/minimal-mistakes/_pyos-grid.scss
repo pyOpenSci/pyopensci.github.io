@@ -174,10 +174,14 @@ $colors: (
   }
 
   p {
-    font-size: .9em;
+    font-size: 1em;
+    line-height: 1.8;
   }
 
   h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem!important;
+
     a {
       text-decoration: none;
       font-size: 1.2em;
@@ -190,13 +194,13 @@ $colors: (
 
   h3.card__title.no_toc,
   .card__title.no_toc {
-    margin-top: .3em;
-    font-size: 1.5em;
-    color: #320a44;
+    margin-top: 1.2em;
+    font-size: 1.9em;
+    color: $pyos-darkpurple;
   }
 
   .page__meta.contributors {
-    font-size: .7em;
+    font-size: .9em;
   }
 
   .contributors a {
@@ -212,6 +216,7 @@ $colors: (
 
   ul a {
     text-decoration: none;
+    font-size: 1.2em
   }
 }
 

@@ -15,7 +15,7 @@
     font-family: $global-font-family;
     line-height: 1.6;
     font-weight: $weight-3;
-    font-size: 1em;
+    font-size: 1rem;
 
     &.overflow--hidden {
       /* when primary navigation is visible, the content in the background won't scroll */
@@ -40,9 +40,9 @@
   // Use poppins for subheaders
   h2, h3, h4, h5, h6 {
     font-family: $header-font-family;
-    font-weight: $semibold-weight;
+    font-weight: $bold-weight;
     letter-spacing: -.03em;
-    line-height: .95em;
+    max-width: $medium;
   }
 
   h1 {
@@ -419,19 +419,6 @@
   /*
      Navigation lists
      ========================================================================== */
-
-  /**
-   * Removes margins, padding, and bullet points from navigation lists
-   *
-   * Example usage:
-   * <nav>
-   *    <ul>
-   *      <li><a href="#link-1">Link 1</a></li>
-   *      <li><a href="#link-2">Link 2</a></li>
-   *      <li><a href="#link-3">Link 3</a></li>
-   *    </ul>
-   *  </nav>
-   */
 
   nav {
     ul {

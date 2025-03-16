@@ -88,6 +88,11 @@
   }
 }
 
+// make the titles in archive blocks full width
+h2.archive__item-title {
+  max-width: 100%;
+}
+
 .archive__item-teaser {
   position: relative;
   border-radius: $border-radius;
@@ -245,6 +250,10 @@
   @include clearfix();
   margin-bottom: .02em; //used to be 2em
   // border-bottom: 1px solid $border-color;
+
+  h2 {
+    max-width: 100%;
+  }
 
   .archive__item-title {
     margin-bottom: 0;
