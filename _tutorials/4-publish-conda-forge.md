@@ -1,5 +1,5 @@
 ---
-title: "4. Publish your Python package to conda forge using grayskull"
+title: "4. Publish to conda forge using grayskull"
 excerpt: "
   Learn how to publish your Python package to the conda-forge channel of conda using the grayskull Python package."
 learning_objectives:
