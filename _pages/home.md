@@ -1,7 +1,7 @@
 ---
 layout: splash
 title: "Welcome to pyOpenSci"
-excerpt: "We support the scientific Python tools that drive open science through peer review, training and community building."
+excerpt: "We make it easier for scientists to create, find, maintain and contribute to reusable code and software."
 author_profile: false
 published: true
 site-map: true
@@ -15,11 +15,11 @@ header:
     - label: "Read our Peer Review Guide"
       url: "https://www.pyopensci.org/software-peer-review/"
 mission:
-  - excerpt: "We build diverse community that supports free and open Python tools for processing scientific data. We also build technical skills needed to contribute to open source and that support open science. Join our global community."
+  - excerpt: "pyOpenSci broadens participation in scientific open source by breaking down social and technical barriers. Join our global community."
 peer-review:
   - image_path: images/software-peer-review.png
     alt: "Light purple image that says software Peer Review. On the image is a woman at a laptop with a pyOpenSci logo on it and a cup of coffee next to her. There is a very light flower in the bottom right hand corner. "
-    title: "Python Package Peer Review"
+    title: "Python Software Peer Review"
     excerpt: "We offer peer review of Python software to increase the quality, usability and long term maintenance of the open source tools that drive open science. [JOSS accepts our review as theirs](https://www.pyopensci.org/software-peer-review/partners/joss.html) so you can get the benefits of pyOpenSci and JOSS through one review."
     url: https://www.pyopensci.org/software-peer-review/about/benefits.html
     btn_label: "> Learn more about the benefits of peer review."
@@ -31,13 +31,22 @@ peer-review:
     url: https://www.pyopensci.org/partners.html
     btn_label: "> Learn About Community Partners"
     btn_class: btn--inverse
-  - image_path: images/python-packaging-guide.png
-    title: "Simplifying Packaging"
+  - image_path: images/homepage-graphics/simple-python-packaging-header.png
+    title: "We Break Down Python Packaging Painpoints"
     alt: Light purple image that says python packaging guide and below it says simplifying python packaging. The background is a grey laptop with a hand looking down at the laptop the above.
-    excerpt: "We are creating a beginner-friendly, **community-driven Python packaging guide**. Our guide is reviewed by members of the Python Packaging Authority, maintainers of core packaging tools and members of the scientific Python community. It recommends best practices for you to follow when creating a Python package."
-    url: https://www.pyopensci.org/python-package-guide/
-    btn_label: "> Read our packaging guide"
-    btn_class: btn--inverse
+    excerpt: "
+
+      Check out our beginner-friendly:
+
+      [Python Package Tutorials](https://www.pyopensci.org/python-package-guide/tutorials/intro.html)<br>
+
+      [Python packaging ecosystem overview](https://www.pyopensci.org/python-package-guide) <br><br>
+
+      All of our resources are co-developed with the broader Python community and reviewed by beginner to expert Pythonistas to ensure the material is accessible for all.
+      "
+    # url: https://www.pyopensci.org/python-package-guide/
+    # btn_label: "> Read our packaging guide"
+    # btn_class: btn--inverse
 ---
 
 {% include feature_row id="mission" type="center" %}
@@ -87,23 +96,29 @@ peer-review:
 {% assign blog_posts = site.posts |  where_exp: "item", "item.categories contains 'blog-post'" %}
 
 <div class="notice notice-highlight" markdown="1">
+
 ## Recent blog posts & updates
 
-<div class="grid">
+{% assign packages_sorted = site.data.packages | sort_natural: 'date_accepted' | reverse %}
+
+{% assign color_counter = 0 %}
+{% assign color_max = 4 %} <!-- Max number of colors -->
+
+
+<div class="blog__grid">
   {% for post in blog_posts limit:3 %}
-
-  <div class="cards">
-  <h3 class="card-title"><a href="{{ site.baseurl }}{{ post.url}}" rel="permalink">{{ post.title }}</a></h3>
-
-    <div>
-        <p>{{ post.excerpt | markdownify }}</p>
-    </div>
-
-</div>
-{% endfor %}
+    {% unless post.header.overlay_image %}
+        {% assign color_counter = color_counter | plus: 1 %}
+        {% if color_counter == color_max %}
+          {% assign color_counter = 0 %}
+        {% endif %}
+      {% endunless %}
+    {% include archive-cards.html color_counter=color_counter %}
+  {% endfor %}
 
 </div>
-<p><a href="/blog/" class="btn btn--info btn--large">View All Posts <i class="fa fa-4 fa-arrow-circle-right" aria-hidden="true"></i></a></p>
+<a href="/blog/" class="btn btn--info btn--large">View more <i class="fa fa-4 fa-arrow-circle-right" aria-hidden="true"></i></a>
+
 </div>
 
 

@@ -229,21 +229,21 @@ $colors: (
   border-bottom: none;
 }
 
-.feature-grid {
+.feature__grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
-  //padding: 20px;
   width: 100%;
   box-sizing: border-box;
 
   .grid-item {
     display: flex;
     flex-direction: column;
-    background: #f9f9f9;
+    background: $pyos-mediumpurple;
     border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
+    padding: 0;
   }
 
 
@@ -324,8 +324,13 @@ $colors: (
 }
 /* Blog & event grid styles*/
 
+// Because notice text is smaller, rescale card for that specific case.
+.notice .blog__grid {
+  font-size: 1.1rem;
+}
+
 .blog__grid .cards {
-    padding: 0 !important;
+    padding: 0 0 1.5rem 0 !important;
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -361,10 +366,10 @@ $colors: (
         }
 
     .card__title-container {
-      min-height: 60px; /* Set a minimum height to standardize the title area */
+      min-height: 6rem;
       display: flex;
       align-items: center; /* Vertically center the title */
-      padding: 0 15px; /* Padding around the title */
+      padding: 0 15px;
     }
 
     .card-excerpt{
