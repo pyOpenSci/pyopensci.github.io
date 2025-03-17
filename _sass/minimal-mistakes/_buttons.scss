@@ -103,7 +103,7 @@
     a.btn.btn--large {
       line-height: 1.1;
       padding: .5rem;
-      width: 90%;
+      width: 100%; // this was set to 90% but made tutorial buttons short.
       font-size: 1.5rem!important;
     }
   }

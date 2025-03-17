@@ -17,7 +17,7 @@ header:
 mission:
   - excerpt: "pyOpenSci broadens participation in scientific open source by breaking down social and technical barriers. Join our global community."
 peer-review:
-  - image_path: images/homepage-graphics/software-peer-review.png
+  - image_path: images/landing-pages/software-peer-review.png
     alt: "Light purple image that says software Peer Review. On the image is a woman at a laptop with a pyOpenSci logo on it and a cup of coffee next to her. There is a very light flower in the bottom right hand corner. "
     title: "We Run Software Peer Review"
     excerpt: "We review Python packages and software with the goal of helping scientists build better, discoverable and usable software. <br><br>
@@ -27,7 +27,7 @@ peer-review:
     <i class='fa-solid fa-check-double'></i> Submit a package today for review today. <br>
     <i class='fa-solid fa-check-double'></i> Apply to become a reviewer. <br>
     "
-  - image_path: images/homepage-graphics/community-partnerships.png
+  - image_path: images/landing-pages/community-partnerships.png
     alt: "Light purple image with a bunch from different backgrounds of stick figure people in a slightly darker color. The text on the image at the top says Community Partnerships"
     title: "We Build Community Partnerships"
     excerpt: "
@@ -38,7 +38,7 @@ peer-review:
       <i class='fa-solid fa-handshake'></i> [JOSS](https://www.pyopensci.org/software-peer-review/partners/joss.html) <br>
       <i class='fa-solid fa-handshake'></i> [Astropy](https://www.pyopensci.org/software-peer-review/partners/astropy.html) <br>
       "
-  - image_path: images/homepage-graphics/simple-python-packaging-header.png
+  - image_path: images/landing-pages/simple-python-packaging-header.png
     title: "We Break Down Python Packaging Painpoints"
     alt: Light purple image that says python packaging guide and below it says simplifying python packaging. The background is a grey laptop with a hand looking down at the laptop the above.
     excerpt: "

@@ -73,8 +73,10 @@ Using the interactive platform SpatialChat rather than a traditional online plat
 We kicked the event off on Monday, October 28, with a morning of KeyNote talks headlined by **Eric Ma, Melissa Mendonça, and Rowan Cockett**. The Monday talks aligned perfectly with the training events held Tuesday through Friday. The talks set the stage for a truly engaging week of learning together.
 
 <figure class="align-center">
+    <picture>
     <source srcset="/images/events/fall-festival-blog-keynote-speakers.webp" type="image/webp">
     <img src="/images/events/fall-festival-blog-keynote-speakers.png" alt="">
+    </picture>
 </figure>
 
 
