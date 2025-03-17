@@ -187,7 +187,11 @@
 /* max 480 px */
 @media screen and (max-width: 480px) {
   .notice {
-    padding: .5em;
+    padding: .2em;
+
+    h2 {
+      padding: .1em .2em
+    }
   }
 
   blockquote.highlight-quote>div.end:after {

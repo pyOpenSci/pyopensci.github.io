@@ -37,10 +37,10 @@
   @media (max-width: $medium-wide) {
     gap: 0.5em;
   }
+}
 
-  /* Upon click the menu should turn into a vertical stacked menu with a soft
-  drop shadow */
-  &.vertical {
+/* NAVIGATION MOBILE vertical stacked menu with a soft drop shadow */
+  .nav__links.vertical {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -81,6 +81,7 @@
         text-align: left;
         display: block;
         padding: 1em 0;
+
       }
 
       .dropdown-content {
@@ -91,7 +92,6 @@
       }
     }
   }
-}
 
 /* down arrow works better with ascii vs font awesome */
 .downBtn {
@@ -115,7 +115,7 @@
     color: $nav-font-color;
     height: 100%;
     background-color: inherit;
-    font-family: inherit;
+    font-family: $header-font; //poppins ;
     margin: 0;
     line-height: 1em;
   }
