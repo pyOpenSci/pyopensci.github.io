@@ -2772,7 +2772,7 @@
   mastodon:
   orcidid:
   partners:
-  website: https://weiji14.github.io
+  website:
   board: false
   contributor_type:
     - maintainer
