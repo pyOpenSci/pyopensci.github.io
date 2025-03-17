@@ -17,36 +17,40 @@ header:
 mission:
   - excerpt: "pyOpenSci broadens participation in scientific open source by breaking down social and technical barriers. Join our global community."
 peer-review:
-  - image_path: images/software-peer-review.png
+  - image_path: images/homepage-graphics/software-peer-review.png
     alt: "Light purple image that says software Peer Review. On the image is a woman at a laptop with a pyOpenSci logo on it and a cup of coffee next to her. There is a very light flower in the bottom right hand corner. "
-    title: "Python Software Peer Review"
-    excerpt: "We offer peer review of Python software to increase the quality, usability and long term maintenance of the open source tools that drive open science. [JOSS accepts our review as theirs](https://www.pyopensci.org/software-peer-review/partners/joss.html) so you can get the benefits of pyOpenSci and JOSS through one review."
-    url: https://www.pyopensci.org/software-peer-review/about/benefits.html
-    btn_label: "> Learn more about the benefits of peer review."
-    btn_class: btn--inverse
-  - image_path: images/community-partnerships.png
+    title: "We Run Software Peer Review"
+    excerpt: "We review Python packages and software with the goal of helping scientists build better, discoverable and usable software. <br><br>
+
+    Your package can also be published in JOSS through our review process. <br>
+
+    <i class='fa-solid fa-check-double'></i> Submit a package today for review today. <br>
+    <i class='fa-solid fa-check-double'></i> Apply to become a reviewer. <br>
+    "
+  - image_path: images/homepage-graphics/community-partnerships.png
     alt: "Light purple image with a bunch from different backgrounds of stick figure people in a slightly darker color. The text on the image at the top says Community Partnerships"
-    title: "Community Partnerships"
-    excerpt: "We partner with domain-specific scientific Python communities such as [Pangeo](https://www.pyopensci.org/software-peer-review/partners/pangeo.html) who want to review affiliated packages. Through this collaboration, we develop community-specific standards that are used in our reviews to evaluate whether a package meets affiliation requirements. This removes the need for communities to develop their own peer review process."
-    url: https://www.pyopensci.org/partners.html
-    btn_label: "> Learn About Community Partners"
-    btn_class: btn--inverse
+    title: "We Build Community Partnerships"
+    excerpt: "
+      We [partner with open source communities](https://www.pyopensci.org/partners.html) to share resources and processes such as Peer review. <br><br>
+
+      Learn more about our partnerships with: <br>
+
+      <i class='fa-solid fa-handshake'></i> [JOSS](https://www.pyopensci.org/software-peer-review/partners/joss.html) <br>
+      <i class='fa-solid fa-handshake'></i> [Astropy](https://www.pyopensci.org/software-peer-review/partners/astropy.html) <br>
+      "
   - image_path: images/homepage-graphics/simple-python-packaging-header.png
     title: "We Break Down Python Packaging Painpoints"
     alt: Light purple image that says python packaging guide and below it says simplifying python packaging. The background is a grey laptop with a hand looking down at the laptop the above.
     excerpt: "
 
-      Check out our beginner-friendly:
+      Check out our beginner-friendly: <br>
 
-      [Python Package Tutorials](https://www.pyopensci.org/python-package-guide/tutorials/intro.html)<br>
+      <i class='fa-solid fa-book-open'></i> [Python Package Tutorials](https://www.pyopensci.org/python-package-guide/tutorials/intro.html) <br>
 
-      [Python packaging ecosystem overview](https://www.pyopensci.org/python-package-guide) <br><br>
+      <i class='fa-solid fa-book-open'></i> [Python package guide](https://www.pyopensci.org/python-package-guide) <br><br>
 
       All of our resources are co-developed with the broader Python community and reviewed by beginner to expert Pythonistas to ensure the material is accessible for all.
       "
-    # url: https://www.pyopensci.org/python-package-guide/
-    # btn_label: "> Read our packaging guide"
-    # btn_class: btn--inverse
 ---
 
 {% include feature_row id="mission" type="center" %}
@@ -55,7 +59,7 @@ peer-review:
 
 {% include feature_row_pyos id="peer-review"%}
 
-## Building Diverse Community Around Python Scientific Software
+## Broadening participation in scientific open source
 
 <div class="feature__wrapper" markdown="1">
    <div class="feature__item--left">
@@ -64,10 +68,14 @@ peer-review:
             <img src="/images/people/pyopensci-sprint-pycon-2023.png" alt="Image showing 3 people working at 2 computers during a spring at pyCon USA 2023.">
          </div>
          <div class="archive__item-body">
-            <h2 class="archive__item-title">Peer review mentorship program</h2>
+            <h3 class="archive__item-title">You don't need to be an expert to get involved </h3>
             <div class="archive__item-excerpt">
                <p>
-               We are building diverse community around the scientific packages that drive open science. We recruit and support editors and reviewers from different backgrounds and gender-identities in each review that we perform.
+               Are you new to software peer review but you want to get involved? We've got you!
+
+               We offer support and mentorship to new reviewers completing their first review.
+
+               All reviewers don't need to be python package experts. We welcome reviewers that focus on software accessibility and usability.
                </p>
                <p>
               Are you new to peer review?

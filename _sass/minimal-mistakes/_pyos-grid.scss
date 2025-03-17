@@ -139,20 +139,17 @@ $colors: (
 // Cards are also used to style the isotope layout
 // do not adjust the display or structure of the cards element.
 /* Package cards splash */
+
 .cards {
   top: 0px;
   position: relative;
   background-color: #fcfbf5;
-  border-radius: 4px;
   text-decoration: none;
   z-index: 0;
   overflow: hidden;
-  border: 1px solid #ccc;
   font-size: .8em;
-
-  @include breakpoint-max-width(480px) {
-    padding: 2em;
-  }
+  margin-right: auto!important;
+  margin-left: auto!important;
 
   &__image {
     max-height: calc($small / 3);
@@ -369,7 +366,7 @@ $colors: (
       min-height: 6rem;
       display: flex;
       align-items: center; /* Vertically center the title */
-      padding: 0 15px;
+      padding: 0 1rem;
     }
 
     .card-excerpt{
@@ -424,3 +421,62 @@ $colors: (
       grid-auto-flow: unset;
     }
   }
+
+
+
+
+  /* max 480 px */
+  @media screen and (max-width: 480px) {
+    // large buttons are disproportionately large
+    // Elements outside of notice blocks such as the blog page
+    .blog__grid {
+      h3.card__title-container {
+        padding: 0;
+      }
+      .card-excerpt p {
+        line-height: 1.8rem;
+      }
+      .card__bkg .card__title-container {
+        padding: 0;
+      }
+
+      h3.card-title {
+        font-size: 1rem;
+      }
+      .card-bkg {
+        padding:0;
+        margin:0;
+      }
+    }
+
+    // the home page has this grid in a notice block
+    .notice {
+      .card-body p, .card-body h2 {
+        line-height: 1.1;
+        padding: 0rem 1rem;
+        font-size: .9rem;
+      }
+
+      .blog__grid {
+        font-size: 1.3em;
+        grid-template-columns: repeat(auto-fill, minmax(95%, 1fr))!important;
+        grid-auto-rows: 0fr!important;
+        grid-column-gap: 7px;
+        grid-row-gap: 1rem!important;
+        margin-bottom: 5rem;
+        padding: 0;
+
+        .card-body {
+          font-size: .95rem;
+        }
+        .cards {
+          margin: 0 0! important;
+        }
+
+        & a {
+          font-size: 1.3em;
+        }
+      }
+
+    }
+}

@@ -88,7 +88,7 @@
 
   }
   .page__lead {
-    font-family: $global-font-family;
+    font-family: $header-font; //poppins
     font-size: $type-size-5;
     font-weight: $weight-3;
   }
@@ -607,6 +607,11 @@
     }
   }
 
+  .layout--splash .page__content h2 {
+    width: 100%;
+    max-width: 100%;
+  }
+
   /* Media queries */
 
   @media screen and (max-width: 768px) {
@@ -645,10 +650,7 @@
     .feature__item {
       width: 95%!important;
     }
-    .cards {
-      margin-right: auto!important;
-      margin-left: auto!important;
-    }
+
 
     .wide__p_text {
       max-width: 90%!important;
@@ -662,7 +664,10 @@
 
   /* max 480 px */
   @media screen and (max-width: 480px) {
-    body{
+    body {
       font-size: 1.4em;
+    }
+    #main {
+      padding: 0 .6rem;
     }
   }
