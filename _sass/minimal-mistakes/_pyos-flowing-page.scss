@@ -45,7 +45,6 @@ svg.bottom {
 // Add padding to non feature wrapper sections
 .feature__wrapper.padded {
     padding: 0 30px;
-
 }
 
 .page__content .feature__wrapper.padded {
@@ -55,4 +54,13 @@ svg.bottom {
     & h2 {
         font-size: 2rem;
     }
+}
+
+
+// Adjust padding for mobile
+@media (max-width: 480px) {
+    .feature__wrapper.padded {
+        padding: 0;
+    }
+
 }

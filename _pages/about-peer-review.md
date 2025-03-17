@@ -24,7 +24,7 @@ benefits_maintainers:
     btn_label: Learn more about the benefits of peer review
     btn_class: btn--primary
 peer_review:
-  - image_path: images/pyopensci-people-at-computer.jpg
+  - image_path: /images/landing-pages/peer-review-people.png
     alt: "A pencil sketch of a round table with people sitting around it from different backgrounds working on laptops and also writing together."
     excerpt: "Software peer review, similar to the review of scientific papers, is a process where scientists vet software code, documentation and infrastructure. pyOpenSci leads an [open peer review process](https://www.pyopensci.org/software-peer-review/our-process/how-review-works.html) run by a community of dedicated volunteers. Reviews are supportive and fully transparent with the shared goal of improving the quality, usability and maintainability of the software that is driving open science.
 
@@ -33,7 +33,7 @@ peer_review:
     url: https://www.pyopensci.org/software-peer-review/our-process/review-timeline.html
     btn_label: Learn more about the peer review timeline and roles
     btn_class: btn--primary
-  - image_path: images/pyopensci-joss-partnership.png
+  - image_path: images/landing-pages/pyopensci-joss-partners.png
     alt: "A pencil sketch of a round table with people sitting around it from different backgrounds working on laptops and also writing together."
     excerpt: "Our partnership with JOSS means that you don't have to choose between pyOpenSci and JOSS. Simply submit your package to pyOS for review. If your package is accepted and in scope for JOSS, it will be fast-tracked through JOSS' review process. "
     title: "Get a fast-track JOSS publication"

@@ -56,8 +56,7 @@
             color: $pyos-deeppurple!important;
             font-size: 1.4rem;
             margin: 0;
-            font-family: $sans-serif;
-            font-weight: 600;
+            font-weight: 600; //card titles should be lower weight
         }
         .title-block {
             background-color: #ecbee3;

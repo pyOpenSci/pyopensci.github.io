@@ -7,7 +7,7 @@ header:
   overlay_image: images/headers/pyopensci-learn-header.png
   overlay_filter: 0.3
 scientists:
-  - image_path: images/pyopensci-people-at-computer.jpg
+  - image_path: images/landing-pages/peer-review-people.png
     alt: "A pencil sketch of a round table with people sitting around it from different backgrounds working on laptops and also writing together."
     excerpt: "Our catalog of vetted open source tools makes it easier for scientists to find the trusted tools that they need to develop their open science workflows."
     title: "Help scientists find the open science tools that they need"
@@ -17,9 +17,9 @@ scientists:
 overview:
   - excerpt: "pyOpenSci creates resources to help you navigate the Python packaging ecosystem with ease. Our materials are community developed and go through extensive technical and pedagogical review."
 development:
-   - image_path: images/pyopensci-learn-community-created.png
+   - image_path: images/learn-graphics/community-created.png
      alt: "An image showing a bunch of hands holding up a sign that says Community Developed. the background is dark purple with a few green decorative items."
-     title: "Our development process: Community-developed Python tutorials for scientists"
+     title: "Our process: Community-developed Python tutorials"
      excerpt: "Our tutorials are created through a multi-stage community review process.
 
      * Tutorials are developed by the pyOpenSci team or community members.
@@ -28,7 +28,7 @@ development:
 
      * Before publication, tutorials then go through several rounds of community review for accuracy, usability and accessibility."
 whats_next:
-  - image_path: images/pyopensci-learn-github-collaboration.png
+  - image_path: images/learn-graphics/github-collaboration.png
     alt: "A graphic with a light yellow background that says essential collaboration skills for scientists - using GitHub. On the right there is a man and a woman sitting at a tall table with laptops working."
     excerpt: "Through the [Better Software for Science Fellowship](https://bssw.io/pages/bssw-fellowship-program) we will be developing lessons focused on teaching core GitHub collaboration skills needed for both contributing to open source software and for working in an open science team environment.
 
