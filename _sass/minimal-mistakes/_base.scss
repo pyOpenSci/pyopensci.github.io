@@ -3,7 +3,7 @@
    ========================================================================== */
 
    html {
-    /* sticky footer fix */
+    /* Sticky footer fix */
     position: relative;
     min-height: 100%;
   }
@@ -14,8 +14,8 @@
     color: $text-color;
     font-family: $global-font-family;
     line-height: 1.6;
-    weight: $weight-3;
-    font-size: 1em;
+    font-weight: $weight-3;
+    font-size: 1rem;
 
     &.overflow--hidden {
       /* when primary navigation is visible, the content in the background won't scroll */
@@ -23,7 +23,7 @@
     }
   }
 
-  strong {font-weight:$bold-weight}
+  strong {font-weight:$semibold-weight}
   ul li {margin-bottom: 0}
 
   h1,
@@ -35,49 +35,43 @@
     margin: 3.5rem 0 1rem 0;
     line-height: 1.2;
     color: #542668;
-    text-wrap: pretty;
   }
-  // All fonts h2 and lower are poppins
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
+
+  // Use poppins for subheaders
+  h2, h3, h4, h5, h6 {
     font-family: $header-font-family;
+    font-weight: $bold-weight;
+    letter-spacing: -.03em;
+    max-width: $medium;
   }
 
   h1 {
     margin-top: 0;
     font-size: $h-size-1;
-    font-weight: 200 !important;
-    font-family: $header-font;
+    font-weight: 400 !important;
+    font-family: $title-font-family;
   }
 
   h2 {
     font-size: $h-size-2;
-    padding-bottom: 0.2em;
-    margin-bottom: 1rem;
-    margin-top: 3rem;
-    font-weight: $semibold-weight; //600
-    line-height: 1.1;
-    letter-spacing: -0.03em;
+
+    &:first-of-type {
+      //margin-top: 1rem!important;
+    }
   }
 
   h3 {
     font-size: $h-size-3;
-    font-weight: $semibold-weight;
     line-height: 1.1em;
     margin-top: 2.7em;
   }
 
   h4 {
     font-size: $h-size-4;
-    font-weight: $semibold-weight;
   }
 
   h5 {
     font-size: $h-size-5;
-    font-weight: $semibold-weight;
   }
 
   h6 {
@@ -91,7 +85,6 @@
 
   p {
     margin-bottom: 1.3em;
-    text-wrap: pretty;
   }
 
   u,
@@ -423,8 +416,9 @@
     overflow: hidden;
   }
 
-  /*  Navigation lists */
-
+  /*
+     Navigation lists
+     ========================================================================== */
 
   nav {
     ul {
