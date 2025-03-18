@@ -139,20 +139,17 @@ $colors: (
 // Cards are also used to style the isotope layout
 // do not adjust the display or structure of the cards element.
 /* Package cards splash */
+
 .cards {
   top: 0px;
   position: relative;
   background-color: #fcfbf5;
-  border-radius: 4px;
   text-decoration: none;
   z-index: 0;
   overflow: hidden;
-  border: 1px solid #ccc;
   font-size: .8em;
-
-  @include breakpoint-max-width(480px) {
-    padding: 2em;
-  }
+  margin-right: auto!important;
+  margin-left: auto!important;
 
   &__image {
     max-height: calc($small / 3);
@@ -174,10 +171,14 @@ $colors: (
   }
 
   p {
-    font-size: .9em;
+    font-size: 1em;
+    line-height: 1.8;
   }
 
   h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem!important;
+
     a {
       text-decoration: none;
       font-size: 1.2em;
@@ -190,13 +191,13 @@ $colors: (
 
   h3.card__title.no_toc,
   .card__title.no_toc {
-    margin-top: .3em;
-    font-size: 1.5em;
-    color: #320a44;
+    margin-top: 1.2em;
+    font-size: 1.9em;
+    color: $pyos-darkpurple;
   }
 
   .page__meta.contributors {
-    font-size: .7em;
+    font-size: .9em;
   }
 
   .contributors a {
@@ -212,6 +213,7 @@ $colors: (
 
   ul a {
     text-decoration: none;
+    font-size: 1.2em
   }
 }
 
@@ -224,21 +226,21 @@ $colors: (
   border-bottom: none;
 }
 
-.feature-grid {
+.feature__grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
-  //padding: 20px;
   width: 100%;
   box-sizing: border-box;
 
   .grid-item {
     display: flex;
     flex-direction: column;
-    background: #f9f9f9;
+    background: $pyos-mediumpurple;
     border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
+    padding: 0;
   }
 
 
@@ -319,8 +321,13 @@ $colors: (
 }
 /* Blog & event grid styles*/
 
+// Because notice text is smaller, rescale card for that specific case.
+.notice .blog__grid {
+  font-size: 1.1rem;
+}
+
 .blog__grid .cards {
-    padding: 0 !important;
+    padding: 0 0 1.5rem 0 !important;
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -356,10 +363,10 @@ $colors: (
         }
 
     .card__title-container {
-      min-height: 60px; /* Set a minimum height to standardize the title area */
+      min-height: 6rem;
       display: flex;
       align-items: center; /* Vertically center the title */
-      padding: 0 15px; /* Padding around the title */
+      padding: 0 1rem;
     }
 
     .card-excerpt{
@@ -414,3 +421,62 @@ $colors: (
       grid-auto-flow: unset;
     }
   }
+
+
+
+
+  /* max 480 px */
+  @media screen and (max-width: 480px) {
+    // large buttons are disproportionately large
+    // Elements outside of notice blocks such as the blog page
+    .blog__grid {
+      h3.card__title-container {
+        padding: 0;
+      }
+      .card-excerpt p {
+        line-height: 1.8rem;
+      }
+      .card__bkg .card__title-container {
+        padding: 0;
+      }
+
+      h3.card-title {
+        font-size: 1rem;
+      }
+      .card-bkg {
+        padding:0;
+        margin:0;
+      }
+    }
+
+    // the home page has this grid in a notice block
+    .notice {
+      .card-body p, .card-body h2 {
+        line-height: 1.1;
+        padding: 0rem 1rem;
+        font-size: .9rem;
+      }
+
+      .blog__grid {
+        font-size: 1.3em;
+        grid-template-columns: repeat(auto-fill, minmax(95%, 1fr))!important;
+        grid-auto-rows: 0fr!important;
+        grid-column-gap: 7px;
+        grid-row-gap: 1rem!important;
+        margin-bottom: 5rem;
+        padding: 0;
+
+        .card-body {
+          font-size: .95rem;
+        }
+        .cards {
+          margin: 0 0! important;
+        }
+
+        & a {
+          font-size: 1.3em;
+        }
+      }
+
+    }
+}

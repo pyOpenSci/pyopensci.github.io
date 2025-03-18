@@ -3,7 +3,7 @@
    ========================================================================== */
 
    html {
-    /* sticky footer fix */
+    /* Sticky footer fix */
     position: relative;
     min-height: 100%;
   }
@@ -14,8 +14,8 @@
     color: $text-color;
     font-family: $global-font-family;
     line-height: 1.6;
-    weight: $weight-3;
-    font-size: 1em;
+    font-weight: $weight-3;
+    font-size: 1rem;
 
     &.overflow--hidden {
       /* when primary navigation is visible, the content in the background won't scroll */
@@ -37,33 +37,41 @@
     color: #542668;
   }
 
+  // Use poppins for subheaders
+  h2, h3, h4, h5, h6 {
+    font-family: $header-font-family;
+    font-weight: $bold-weight;
+    letter-spacing: -.03em;
+    max-width: $medium;
+  }
+
   h1 {
     margin-top: 0;
     font-size: $h-size-1;
-    font-weight: 200 !important;
-    font-family: $header-font-family;
+    font-weight: 400 !important;
+    font-family: $title-font-family;
   }
 
   h2 {
     font-size: $h-size-2;
-    //font-family: $header-font-family;
+
+    &:first-of-type {
+      //margin-top: 1rem!important;
+    }
   }
 
   h3 {
     font-size: $h-size-3;
-    font-weight: $weight-4;
     line-height: 1.1em;
     margin-top: 2.7em;
   }
 
   h4 {
     font-size: $h-size-4;
-    font-weight: $semibold-weight;
   }
 
   h5 {
     font-size: $h-size-5;
-    font-weight: $semibold-weight;
   }
 
   h6 {
@@ -411,19 +419,6 @@
   /*
      Navigation lists
      ========================================================================== */
-
-  /**
-   * Removes margins, padding, and bullet points from navigation lists
-   *
-   * Example usage:
-   * <nav>
-   *    <ul>
-   *      <li><a href="#link-1">Link 1</a></li>
-   *      <li><a href="#link-2">Link 2</a></li>
-   *      <li><a href="#link-3">Link 3</a></li>
-   *    </ul>
-   *  </nav>
-   */
 
   nav {
     ul {
