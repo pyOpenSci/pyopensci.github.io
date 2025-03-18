@@ -14,14 +14,9 @@ toc: true
 
 ## <i class="fa-solid fa-rocket" style="color:#a193c6"></i> Submit your Python package for review
 
-You’ve created a Python package—now what? How do you ensure it follows best practices, is well-documented, and reaches the right audience?
+You’ve created a Python package! Yay! Now, how do you ensure it follows best practices and gets seen by the broader Python community?
 
-**pyOpenSci’s peer review process** connects you with experts who will help refine your package’s structure, documentation, and usability. Accepted packages become part of our vetted ecosystem, increasing their visibility and credibility. And finally, if your package is in scope, you can also publish it in the [Journal of Open Source Software (JOSS)](https://www.pyopensci.org/software-peer-review/partners/joss.html) through our single end-to-end review process.
-
-### <i class="fa-solid fa-circle-chevron-down"></i> Why submit a Python package for review?
-- <i class="fa-solid fa-eye" style="color:#8B868E"></i> **Visibility & support:** Gain expert feedback on your code, documentation, and packaging.
-- <i class="fa-solid fa-check-circle" style="color:#8B868E"></i> **Quality & best practices:** Ensure your package follows open-source and scientific standards.
-- <i class="fa-solid fa-book-open" style="color:#8B868E"></i> **JOSS publication:** Get the option to publish in the Journal of Open Source Software (JOSS) after acceptance.
+**pyOpenSci’s peer review process** connects you with community members who will review your package, help refine its structure, documentation, and usability. Accepted packages become part of our vetted ecosystem, increasing their visibility. And finally, if your package is in scope, you can also publish it in the [Journal of Open Source Software (JOSS)](https://www.pyopensci.org/software-peer-review/partners/joss.html) through our single end-to-end review process.
 
 <i class="fa-solid fa-book" style="color:#81c0aa;"></i> **[Learn more about the benefits of our peer review process](https://www.pyopensci.org/software-peer-review/about/benefits.html)**
 
@@ -34,8 +29,6 @@ You’ve created a Python package—now what? How do you ensure it follows best 
 
   </figcaption>
 </figure>
-
-Read more about the benefits of pyOpenSci's open peer review process in our [Peer Review Guide](https://www.pyopensci.org/software-peer-review/about/benefits.html).
 
 <div class="notice" markdown="1">
 
@@ -51,8 +44,8 @@ If you're still working on your package and want guidance, check out our
 Our **open peer review process** happens through GitHub issues in the [**pyOpenSci software submission repository**](https://github.com/pyopensci/software-submission). Using open GitHub issues ensures a **transparent and constructive** review process focused on improving:
 
 - **Package structure & quality:** Ensure best practices in documentation, testing, and maintenance.
-- **Usability & reproducibility:** Improve user experience and scientific reliability.
-- **Visibility:** Join a vetted ecosystem of high-quality, community-endorsed Python tools.
+- **Usability:** Improve a users experience by adding clear documentation and quick start tutorials.
+- **Visibility:** Join a vetted ecosystem of high-quality, community-endorsed Python tools that scientists can discover and trust.
 
 Follow the steps below to submit your package for review.
 
