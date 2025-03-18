@@ -89,7 +89,7 @@ This same community-driven approach shaped our [packaging guide](https://www.pyo
 <figure>
     <picture>
     <source srcset="/images/peer-review/co-development-open-education.webp" type="image/webp">
-    <img src="/images/peer-review/co-development-open-education.png" alt="...">
+    <img src="/images/peer-review/co-development-open-education.png" alt="A diagram illustrating the co-development of open lessons by pyOpenSci. The diagram consists of a circular section divided into five segments labeled ‘Maintainers,’ ‘Beginners,’ ‘Experts,’ ‘Researchers,’ and ‘Contributors,’ surrounding a central section labeled ‘Moderation.’ An arrow extends from the circle to the right, labeled with key moderation activities such as ‘Listen,’ ‘Moderate,’ ‘Facilitate,’ ‘Structured review,’ and ‘Code of Conduct,’ leading to ‘Accessible Lessons.’ The background features a subtle floral pattern.">
     </picture>
 </figure>
 
@@ -101,7 +101,7 @@ With [PyCon US](https://us.pycon.org/2025/) and SciPy on the horizon, we’re ex
 
 <div class="notice" markdown="1">
 
-## Support open science: Get involved with pyOpenSci
+## <i class="fa-solid fa-users-line"></i> Connect with us!
 
 There are lots of ways to get involved if you are interested!
 
