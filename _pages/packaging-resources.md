@@ -18,9 +18,9 @@ peer-review:
     btn_label: Learn more and get involved with peer review today.
     btn_class: btn--primary
 packaging-easier:
-   - image_path: images/pyopensci-working-together.png
+   - image_path: images/landing-pages/pyopensci-working-together.png
      alt: "A black and grey sketch of a group of people sitting at a desk in front of a monitor smiling."
-     title: "Get Involved: Help us improve our  Python packaging resources"
+     title: "Get involved: Help us improve our Python packaging resources"
      excerpt: "
      We need your help! Our packaging content is community-created and reviewed through an open review process on GitHub. The more feedback that we get, the more useful our resources are to the community. Get involved by:
 

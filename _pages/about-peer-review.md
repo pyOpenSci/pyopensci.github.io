@@ -8,7 +8,7 @@ header:
 intro:
   - excerpt: "Our open peer review process makes scientific software better and easier to discover. [Check out our accepted packages.](https://www.pyopensci.org/python-packages.html)"
 benefits_scientists:
-  - image_path: images/trusted-scientific-python-tools.png
+  - image_path: images/landing-pages/trusted-python-software.png
     alt: "A pencil sketch of a round table with people sitting around it from different backgrounds working on laptops and also writing together."
     excerpt: "Through our partnerships with domain specific communities our catalog of trusted tools for scientists across domains continues to grow."
     title: "Scientists need trusted and vetted software"
