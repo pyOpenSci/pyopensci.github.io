@@ -17,9 +17,18 @@
 {% endif %}
 
 {% assign image_description = image_description | markdownify | strip_html | strip_newlines | escape_once %}
-
+<!-- Add support for webp and remove overlay filter -->
 <div class="page__hero{% if page.header.overlay_color or page.header.overlay_image %}--overlay{% endif %}"
-  style="{% if page.header.overlay_color %}background-color: {{ page.header.overlay_color | default: 'transparent' }};{% endif %} {% if overlay_img_path %}background-image: {% if overlay_filter %}{{ overlay_filter }}, {% endif %}url('{{ overlay_img_path }}');{% endif %}"
+  style="
+    {% if page.header.overlay_color %}
+      background-color: {{ page.header.overlay_color | default: '#33205c' }};
+    {% endif %}
+    {% if overlay_img_path %}
+      background-image: image-set(
+        url('{{ overlay_img_path | replace: '.png', '.webp' }}') 1x,
+        url('{{ overlay_img_path }}') type('image/png') 2x
+      );
+    {% endif %}
 >
   {% if page.header.overlay_color or page.header.overlay_image %}
     <div class="wrapper">
