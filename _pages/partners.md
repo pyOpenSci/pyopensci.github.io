@@ -9,10 +9,10 @@ header:
 intro:
   - excerpt: "More here on community partners."
 scientists:
-  - image_path: images/pyopensci-people-at-computer.jpg
+  - image_path: images/landing-pages/peer-review-people.png
     alt: "A pencil sketch of a round table with people sitting around it from different backgrounds working on laptops and also writing together."
     excerpt: "Our catalog of vetted open source tools makes it easier for scientists to find the trusted tools that they need to develop their open science workflows."
-    title: "Help scientists find the open science tools that they need"
+    title: "Help scientists find the Python software tools that they need"
     url: https://www.pyopensci.org/python-packages.html
     btn_label: Explore our accepted Python packages
     btn_class: btn--primary
