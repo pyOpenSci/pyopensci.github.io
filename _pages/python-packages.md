@@ -7,8 +7,8 @@ header:
     overlay_image: images/header.png
     overlay_filter: 0.6
 intro:
-    - excerpt: "The scientific Python packages below have
-    been accepted into the pyOpenSci ecosystem through our [open peer review process](/about-peer-review/)."
+    - excerpt: "The Python packages below have
+    been accepted into the pyOpenSci ecosystem through our [open software peer review process](/about-peer-review/)."
 toc: false
 classes: wide
 redirect_from:
@@ -20,11 +20,11 @@ redirect_from:
 {% assign packages_sorted = site.data.packages | sort_natural: 'date_accepted' | reverse %}
 {% assign total_packages = packages_sorted | size %}
 
+## Explore our accepted open source Python packages
 
-## Explore our accepted scientific Python open source packages
+To date, {{ total_packages }} packages have been accepted by pyOpenSci through our [open peer review process](https://www.pyopensci.org/about-peer-review/index.html). You can [check out the packages that are currently under review in our GitHub submission repository.](https://github.com/pyOpenSci/software-submission/issues)
 
-To date, {{ total_packages }} packages have been accepted into the pyOpenSci
-ecosystem. [Click here to check out packages that are currently under review.](https://github.com/pyOpenSci/software-submission/issues)
+[Click here to learn more about the process for submitting a package to pyOpenSci.](https://www.pyopensci.org/software-peer-review/how-to/author-guide.html){: .btn  .btn--success }
 
 ### Community Partners
 
@@ -32,9 +32,7 @@ To view packages affiliated with our partner communities that are a part of ourp
 
 <a href="/communities/astropy.html"><button class="button community">Astropy</button></a>
 
-### All Packages - Search and filters
-
-Below you can search and filter all of our packages.
+### Accepted pyOpenSci packages
 
 <p><input type="text" id="quicksearch" placeholder="Search" /></p>
 

@@ -30,7 +30,7 @@
   @at-root .page__content #{&} h4 {
     /* using at-root to override .page-content h4 font size*/
     margin-bottom: 0;
-    font-size: 1em;
+    font-size: 1.6em;
   }
 
   p {
@@ -187,7 +187,11 @@
 /* max 480 px */
 @media screen and (max-width: 480px) {
   .notice {
-    padding: .5em;
+    padding: .2em;
+
+    h2 {
+      padding: .1em .2em
+    }
   }
 
   blockquote.highlight-quote>div.end:after {

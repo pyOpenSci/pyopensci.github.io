@@ -1,3 +1,8 @@
+.cards-image figure {
+  margin: 0;
+}
+
+
 .tutorial {
     font-size: 1em;
 
@@ -41,21 +46,20 @@
         background-color: #fff;
         border: 1px solid #ddd;
         border-radius: 8px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
 
         .excerpt {
             font-size: 1em;
             padding: 1em;
         }
         h4.title {
-            color: $pyos-darkpurple!important;
-            font-size: 1.3em;
+            color: $pyos-deeppurple!important;
+            font-size: 1.4rem;
             margin: 0;
-            font-family: $sans-serif;
-            font-weight: 500;
+            font-weight: 600; //card titles should be lower weight
         }
         .title-block {
-            background-color: $pyos-lightpurple;
+            background-color: #ecbee3;
             display: flex;
             height: 7em;
             padding: 1.2em;
