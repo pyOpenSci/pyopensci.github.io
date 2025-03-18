@@ -37,7 +37,7 @@ packaging-easier:
      btn_label: <i class="fa-solid fa-arrow-up-right-from-square"></i> See what we're working on now
      btn_class: btn--success
 community-created:
-   - image_path: images/pyopensci-people-working-together.png
+   - image_path: images/landing-pages/people-working-together.png
      image_size: 500px
      alt: "A group of people working on a tetris like set of building blocks, trying to stack the blocks together. "
      title: "Community-created Python Packaging Guide"

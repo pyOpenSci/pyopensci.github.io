@@ -35,7 +35,7 @@ packaging-easier:
      btn_class: btn--primary
 
 community:
-   - image_path: images/pyopensci-women-collaborating.png
+   - image_path: images/landing-pages/women-collaborating.png
      alt: "A black and white pencil sketch of a group of 5 women sitting and standing around a laptop working together."
      excerpt: "pyOpenSci is driven by a **vibrant community** of technical packaging experts, open science enthusiasts, and Pythonistas. When you partner with pyOpenSci, you:
 

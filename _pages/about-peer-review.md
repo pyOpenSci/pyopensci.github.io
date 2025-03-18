@@ -16,7 +16,7 @@ benefits_scientists:
     btn_label: Learn more about scientific Python community partnerships
     btn_class: btn--primary
 benefits_maintainers:
-  - image_path: images/pyopensci-supports-maintainers.png
+  - image_path: images/landing-pages/pyopensci-supports-maintainers.png
     alt: "A pencil sketch of a round table with people sitting around it from different backgrounds working on laptops and also writing together."
     excerpt: "The pyOpenSci peer review process multiplies shared knowledge, making it easier for Pythonistas of all levels to accomplish challenging tasks, such as navigating the Python packaging ecosystem, with relative ease. And our diverse community supports scientific package maintainers in their efforts to develop and build robust software."
     title: "Peer review benefits open source maintainers"
