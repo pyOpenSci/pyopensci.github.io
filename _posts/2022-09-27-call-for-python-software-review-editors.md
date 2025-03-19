@@ -5,8 +5,7 @@ excerpt: "pyOpenSci is developing its open peer review process for Python scient
 author: "Leah Wasser"
 permalink: /blog/python-software-review-process-editor-in-chief
 header:
-    overlay_color: "#666"
-    overlay_filter: 0.6
+    overlay_color: "#33205c"
 categories:
   - updates
   - blog-post

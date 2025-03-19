@@ -71,6 +71,7 @@
   .page__title {
     margin-top: 0;
     line-height: 1;
+    max-width: 85%;
 
     a {
       color: $text-color;
@@ -669,5 +670,8 @@
     }
     #main {
       padding: 0 .6rem;
+    }
+    .page__title {
+      max-width: 100%;
     }
   }

@@ -6,7 +6,6 @@ author:
 permalink: /events/create-first-python-package-scipy-2024.html
 header:
   overlay_image: images/headers/scipy-2024-workshop.png
-  overlay_filter: rgba(20, 13, 36, 0.8)
 categories:
   - events
 event:

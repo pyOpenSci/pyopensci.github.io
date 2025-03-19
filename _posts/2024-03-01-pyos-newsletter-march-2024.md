@@ -5,8 +5,7 @@ excerpt: "New partnerships, packages, and conference announcements!"
 author: "Jesse Mostipak"
 permalink: /blog/pyos-newsletter-march-2024.html
 header:
-  overlay_color: "#666"
-  overlay_filter: 0.6
+    overlay_color: "#33205c"
 categories:
   - blog-post
   - community

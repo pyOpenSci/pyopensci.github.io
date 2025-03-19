@@ -5,8 +5,7 @@ excerpt: "We've got another incredible conference on the horizon, and wanted to 
 author: "Jesse Mostipak"
 permalink: /blog/pyos-guide-to-scipy-2024.html
 header:
-  overlay_image: images/blog/2024/may/23-05-2024-get-involved.png
-  overlay_filter: rgba(20, 13, 36, 0.8)
+  overlay_color: "#33205c"
 categories:
   - blog-post
   - community

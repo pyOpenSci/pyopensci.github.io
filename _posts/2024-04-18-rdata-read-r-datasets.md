@@ -5,8 +5,7 @@ excerpt: "rdata is a library for reading R datasets and converting them to Pytho
 author: "Carlos Ramos Carreño"
 permalink: /blog/read-r-datasets-from-python.html
 header:
-    overlay_image: images/pandas.jpg
-    overlay_filter: 0.6
+    overlay_image: images/blog/headers/pandas.png
     caption: "Photo credit: [**Ann Batdorf, Smithsonian's National Zoo**](https://www.flickr.com/photos/nationalzoo/5371290900/in/photostream/)"
 categories:
   - blog-post

@@ -5,8 +5,7 @@ excerpt: "Learn more about our new pyOpenSci Community Manager, Jesse Mostipak, 
 author: "Jesse Mostipak"
 permalink: /blog/pyOpenSci-new-community-manager.html
 header:
-  overlay_color: "#666"
-  overlay_filter: 0.6
+    overlay_color: "#33205c"
 categories:
   - blog-post
   - community

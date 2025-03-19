@@ -2,8 +2,7 @@
 layout: single
 title: "How to submit a Python package to pyOpenSci for review"
 header:
-  overlay_image: images/header.png
-  overlay_filter: 0.8
+  overlay_image: images/headers/pyos-peer-review-header.png
 author_profile: false
 published: true
 site-map: true

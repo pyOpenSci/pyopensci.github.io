@@ -5,8 +5,7 @@ excerpt: "Learn about  pyOpenSci's experience at PyCon US 2024, how pyOpenSci is
 author: "Leah Wasser"
 permalink: /blog/recap-pyos-pyconus-2024.html
 header:
-  overlay_image: images/blog/2024/may/pycon-us-2024.png
-  overlay_filter: rgba(20, 13, 36, 0.8)
+  overlay_image: images/blog/headers/pycon-us-2024-header.png
 categories:
   - blog-post
   - community

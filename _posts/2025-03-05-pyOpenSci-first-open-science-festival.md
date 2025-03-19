@@ -5,8 +5,7 @@ excerpt: "pyOpenSci ran 6 workshops in 2024, 4 of which happened during our Fall
 author: "Leah Wasser"
 permalink: /blog/pyopensci-reflections-fall-festival-2024.html
 header:
-  overlay_image: images/headers/pyopensci-inessa.png
-  overlay_filter: rgba(20, 13, 36, 0.3)
+  overlay_image: images/headers/pyopensci-floral.png
 categories:
   - blog-post
   - community

@@ -5,8 +5,7 @@ excerpt: "QuadratiK provides a set of goodness-of-fit tests, a clustering techni
 author: "Raktim Mukhopadhyay"
 permalink: /blog/quadratik.html
 header:
-  overlay_image: images/quadratik/quadratik-organization.png
-  overlay_filter: rgba(20, 13, 36, 0.7)
+  overlay_image: images/headers/pyopensci-quadratik.png
 categories:
   - blog-post
   - quadratic distances

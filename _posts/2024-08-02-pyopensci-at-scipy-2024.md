@@ -5,8 +5,7 @@ excerpt: "pyOpenSci had an incredibly impactful SciPy conference this year in Ta
 author: "Leah Wasser"
 permalink: /blog/pyos-scipy-2024-recap.html
 header:
-  overlay_image: images/headers/scipy-2024-workshop.png
-  overlay_filter: rgba(20, 13, 36, 0.8)
+  overlay_color: "#33205c"
 categories:
   - blog-post
   - community

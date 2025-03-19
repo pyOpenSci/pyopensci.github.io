@@ -5,8 +5,7 @@ excerpt: "CZI has received funding from the Chan Zuckerberg Foundation. Learn mo
 author: "Leah Wasser"
 permalink: /blog/czi-funds-pyOpenSci-2024.html
 header:
-  overlay_color: "#666"
-  overlay_filter: 0.6
+    overlay_color: "#33205c"
 categories:
   - blog-post
   - community

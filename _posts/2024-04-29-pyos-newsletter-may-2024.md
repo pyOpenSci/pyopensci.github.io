@@ -5,8 +5,7 @@ excerpt: "May has brought two new packages, the first (of many!) pyOpenSci works
 author: "Jesse Mostipak"
 permalink: /blog/pyos-newsletter-may-2024.html
 header:
-  overlay_color: "#666"
-  overlay_filter: 0.6
+    overlay_color: "#33205c"
 categories:
   - blog-post
   - community

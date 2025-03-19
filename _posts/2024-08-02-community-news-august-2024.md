@@ -5,8 +5,7 @@ excerpt: "Welcome to the first edition of pyOpenSci's Community News newsletter,
 author: "Jesse Mostipak"
 permalink: /blog/pyos-community-news-aug-2024.html
 header:
-  overlay_image: /images/headers/white-header.png
-  overlay_filter: rgba(20, 13, 36, 0.8)
+  overlay_image: images/blog/headers/pycon-us-2024-header.png
 categories:
   - blog-post
   - community
@@ -15,7 +14,6 @@ toc: true
 comments: true
 last_modified: 2024-08-29
 ---
-
 
 ## <i class="fa-regular fa-heart"></i> pyOpenSci community news
 

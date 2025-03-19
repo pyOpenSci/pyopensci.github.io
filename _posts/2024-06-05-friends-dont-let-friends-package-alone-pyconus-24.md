@@ -5,8 +5,7 @@ excerpt: "A blog post from the Executive Director of pyOpenSci on Python packagi
 author: "Leah Wasser"
 permalink: /blog/python-packaging-friends-dont-let-friends-package-alone.html
 header:
-  overlay_image: images/blog/2024/may/pycon-us-2024.png
-  overlay_filter: rgba(20, 13, 36, 0.8)
+  overlay_color: "#33205c"
 categories:
   - blog-post
   - community

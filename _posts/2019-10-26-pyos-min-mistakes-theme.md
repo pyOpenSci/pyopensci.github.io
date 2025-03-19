@@ -5,8 +5,7 @@ excerpt: "pyOpenSci minimal mistakes theme documentation."
 author: "Leah Wasser"
 permalink: docs/pyos-website/
 header:
-    overlay_filter: 0.6
-    overlay_color: "#333"
+    overlay_color: "#33205c"
 last_modified: 2025-03-05
 toc: true
 categories:

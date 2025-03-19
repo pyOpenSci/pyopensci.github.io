@@ -5,8 +5,7 @@ excerpt: "Inessa’s leadership and dedication have profoundly shaped the open s
 author: "Leah Wasser"
 permalink: /blog/pyopensci-celebrates-inessa-pawson.html
 header:
-  overlay_image: images/headers/pyopensci-inessa.png
-  overlay_filter: rgba(20, 13, 36, 0.3)
+  overlay_image: images/headers/pyopensci-floral.png
 categories:
   - blog-post
   - community
