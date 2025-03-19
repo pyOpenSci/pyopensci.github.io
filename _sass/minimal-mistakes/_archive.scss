@@ -46,7 +46,6 @@
 .archive__item-title, h2.archive__item-title {
   margin-bottom: 0.25em;
   margin-top: 0!important;
-  line-height: initial;
   overflow: hidden;
 
   a[rel="permalink"]::before {
@@ -87,6 +86,11 @@
   a {
     position: relative;
   }
+}
+
+// make the titles in archive blocks full width
+h2.archive__item-title {
+  max-width: 100%;
 }
 
 .archive__item-teaser {
@@ -246,6 +250,10 @@
   @include clearfix();
   margin-bottom: .02em; //used to be 2em
   // border-bottom: 1px solid $border-color;
+
+  h2 {
+    max-width: 100%;
+  }
 
   .archive__item-title {
     margin-bottom: 0;

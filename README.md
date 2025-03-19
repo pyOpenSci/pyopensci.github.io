@@ -53,16 +53,16 @@ For MAC:
 Linux:
 `sudo apt-get install imagemagick`
 
-You can convert a directory of PNG images associated with a
-blog post that you write using:
+You can convert a directory of `.png` images associated with a
+blog post that you write using the following bash command:
 
 `for file in *.png; do cwebp "$file" -o "${file%.*}.webp"; done`
 
-or a single image
+or you can convert a single image:
 
 `cwebp input-image.png -o output-image.webp`
 
-Below is an example of adding a figure to a post that has both webp and .png formats to support older and newer browsers.
+Below is an example of how to add figure to a post that supports both `.webp` and `.png` formats. Providing both allows the website to be backwards-compatible with older browsers.
 
 ```html
 <figure>
@@ -74,7 +74,7 @@ Below is an example of adding a figure to a post that has both webp and .png for
 ```
 ## How to update blog post last_updated field
 
-We have a script that will automatically update the last_updated field for all of our blog posts. To run it use:
+We have a bash script that will automatically update the `last_updated` field in the YAML for all of our blog posts. To run it use:
 
 `./scripts/date-updated.sh`
 

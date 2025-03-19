@@ -1,42 +1,42 @@
 ---
 layout: splash
 permalink: /about-peer-review/
-title: "pyOpenSci Reviews Scientific Python Software"
+title: "pyOpenSci Makes Python Software Better and Easier to Find Through Peer Review"
 header:
   overlay_image: images/header.png
   overlay_filter: 0.8
 intro:
-  - excerpt: "Our open peer review process facilitates scientists getting credit and recognition for the work they've invested in developing scientific Python tools. The peer review process also supports scientists in finding vetted and maintained software, which drives their open science workflows."
+  - excerpt: "Our open peer review process makes scientific software better and easier to discover. [Check out our accepted packages.](https://www.pyopensci.org/python-packages.html)"
 benefits_scientists:
-  - image_path: images/trusted-scientific-python-tools.png
+  - image_path: images/landing-pages/trusted-python-software.png
     alt: "A pencil sketch of a round table with people sitting around it from different backgrounds working on laptops and also writing together."
     excerpt: "Through our partnerships with domain specific communities our catalog of trusted tools for scientists across domains continues to grow."
-    title: "Scientists need trusted and vetted tools to support their open science workflows."
+    title: "Scientists need trusted and vetted software"
     url: /partners.html
     btn_label: Learn more about scientific Python community partnerships
     btn_class: btn--primary
 benefits_maintainers:
-  - image_path: images/pyopensci-supports-maintainers.png
+  - image_path: images/landing-pages/pyopensci-supports-maintainers.png
     alt: "A pencil sketch of a round table with people sitting around it from different backgrounds working on laptops and also writing together."
     excerpt: "The pyOpenSci peer review process multiplies shared knowledge, making it easier for Pythonistas of all levels to accomplish challenging tasks, such as navigating the Python packaging ecosystem, with relative ease. And our diverse community supports scientific package maintainers in their efforts to develop and build robust software."
-    title: "pyOS software peer review benefits open source maintainers"
+    title: "Peer review benefits open source maintainers"
     url: https://www.pyopensci.org/software-peer-review/about/benefits.html
     btn_label: Learn more about the benefits of peer review
     btn_class: btn--primary
 peer_review:
-  - image_path: images/pyopensci-people-at-computer.jpg
+  - image_path: /images/landing-pages/peer-review-people.png
     alt: "A pencil sketch of a round table with people sitting around it from different backgrounds working on laptops and also writing together."
     excerpt: "Software peer review, similar to the review of scientific papers, is a process where scientists vet software code, documentation and infrastructure. pyOpenSci leads an [open peer review process](https://www.pyopensci.org/software-peer-review/our-process/how-review-works.html) run by a community of dedicated volunteers. Reviews are supportive and fully transparent with the shared goal of improving the quality, usability and maintainability of the software that is driving open science.
 
     * Diverse teams lead each review, enhancing the overall feedback quality."
-    title: "About peer review of scientific Python software"
+    title: "How Python software peer review works"
     url: https://www.pyopensci.org/software-peer-review/our-process/review-timeline.html
     btn_label: Learn more about the peer review timeline and roles
     btn_class: btn--primary
-  - image_path: images/pyopensci-joss-partnership.png
+  - image_path: images/landing-pages/pyopensci-joss-partners.png
     alt: "A pencil sketch of a round table with people sitting around it from different backgrounds working on laptops and also writing together."
     excerpt: "Our partnership with JOSS means that you don't have to choose between pyOpenSci and JOSS. Simply submit your package to pyOS for review. If your package is accepted and in scope for JOSS, it will be fast-tracked through JOSS' review process. "
-    title: "Get published with JOSS through a pyOpenSci review"
+    title: "Get a fast-track JOSS publication"
     url: https://www.pyopensci.org/software-peer-review/partners/joss.html
     btn_label: Learn more about our JOSS partnership
     btn_class: btn--primary
@@ -96,7 +96,7 @@ classes: flowing
 <div class="pyos-section purple">
 <div class="content" markdown="1">
 
-## Get involved with peer review
+## Get involved with software peer review
 
 {% include feature_row_pyos id="get-involved" %}
 
@@ -153,7 +153,7 @@ We are deeply grateful for those served on our editorial board previously!
 
 <div class="content">
 <div class="feature__wrapper">
-<h2> Recently Accepted scientific Python Packages</h2>
+<h2> Recently accepted Python packages</h2>
 
 {% assign packages_sorted = site.data.packages | sort_natural: 'date_accepted' | reverse %}
 

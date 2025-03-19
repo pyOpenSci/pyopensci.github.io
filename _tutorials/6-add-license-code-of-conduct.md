@@ -1,5 +1,5 @@
 ---
-title: "6 . Add a LICENSE and CODE_OF_CONDUCT file to your Python package"
+title: "6 . Add a LICENSE and CODE_OF_CONDUCT"
 excerpt: "
   License and code of conduct files are important to add to your Python package as they provide instructions for both how users can use your package and also how the community of users should interact with you as a maintainer."
 learning_objectives:
