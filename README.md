@@ -78,7 +78,22 @@ We have a bash script that will automatically update the `last_updated` field in
 
 `./scripts/date-updated.sh`
 
-Note: it would be nice to add this into our CI build but right now we do not have that setup. So we just need to run this script periodically to update the `last_updated` field when we update a blog post.
+## Monitoring Automated Tasks
+
+There are a few automated CI tasks in this repository to keep the website data up to date. In order for us to have visibility into when these jobs fail, we have automated a Slack bot to send a message to the `#pyos-infrastructure` channel on Slack using the [rtCamp/action-slack-notify](https://github.com/rtCamp/action-slack-notify) GitHub Action step. This action can be used within any repository in the PyOpenSci GitHub organization (as `SLACK_NOTIFICATIONS_BOT_TOKEN` is an org-wide secret) via:
+
+```yml
+      - name: Slack Notification
+        uses: rtCamp/action-slack-notify@v2
+        if: failure()
+        env:
+          SLACK_CHANNEL: pyos-infrastructure
+          SLACK_COLOR: '#db540b'
+          SLACK_LINK_NAMES: true
+          SLACKIFY_MARKDOWN: true
+          SLACK_MESSAGE: "Notification from GitHub Actions"
+          SLACK_TOKEN: ${{ secrets.SLACK_NOTIFICATIONS_BOT_TOKEN }}
+```
 
 ## Contributors ✨
 
