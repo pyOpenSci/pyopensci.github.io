@@ -47,26 +47,31 @@ pyOpenSci creates resources to help you navigate the Python packaging ecosystem 
 
 ## pyOpenSci believes in open education resources (OER)
 <figure>
-    <a href="/images/pyopensci-learn-community-created.png">
-    <img src="/images/pyopensci-learn-community-created.png" style="max-width:100%" alt="Multiple hands of various skin tones reaching up to a speech bubble that reads 'Community Developed'.">
-    </a>
+  <figure>
+    <picture>
+      <source srcset="/images/learn-graphics/community-created.webp" type="image/webp">
+      <img src="/images/learn-graphics/community-created.png" style="max-width:100%" alt="Multiple hands of various skin tones reaching up to a speech bubble that reads 'Community Developed'.">
+    </picture>
     <figcaption>
       pyOpenSci's open education resources are community-developed
     </figcaption>
-</figure>
+  </figure>
 When pyOpenSci publishes community-developed Python tutorials for scientists, it goes through a rigorous process of review and evaluation. ​​All of our tutorials are created through a multi-stage community review process–where tutorials are first developed by the pyOpenSci team or community members–before being  reviewed by tool maintainers to ensure ideas and concepts are accurate. Tutorials then go through several rounds of community review for accuracy, usability and accessibility before being published as part of pyOpenSci’s open education resources..
 
 All of our written content is available on the [Learn section of our website](https://www.pyopensci.org/learn.html), where you’ll find resources such as our [Python Packaging Tutorial](https://www.pyopensci.org/python-package-guide/tutorials/intro.html#), as well as in-depth guides on [Python packaging](https://www.pyopensci.org/python-package-guide/package-structure-code/intro.html), [documentation](https://www.pyopensci.org/python-package-guide/documentation/index.html), and [testing](https://www.pyopensci.org/python-package-guide/tests/index.html).
 
 ### Free, online, asynchronous training
+
 <figure>
-    <a href="/images/pyopensci-learn-github-collaboration.png">
-    <img src="/images/pyopensci-learn-github-collaboration.png" style="max-width:100%" alt="A woman and a man sitting across from each other at a high table. They are smiling and working on their laptops. The text reads 'Essential Collaboration Skills for Scientists'.">
-    </a>
-    <figcaption>
-      Essential Collaboration Skills for Scientists is just one of the many free, online trainings we're excited to develop and deliver!
-    </figcaption>
+  <picture>
+    <source srcset="/images/learn-graphics/github-collaboration.webp" type="image/webp">
+    <img src="/images/learn-graphics/github-collaboration.png" style="max-width:100%" alt="A woman and a man sitting across from each other at a high table. They are smiling and working on their laptops. The text reads 'Essential Collaboration Skills for Scientists'.">
+  </picture>
+  <figcaption>
+    Essential Collaboration Skills for Scientists is just one of the many free, online trainings we're excited to develop and deliver!
+  </figcaption>
 </figure>
+
 Our vision for our free, online trainings is for the curriculum to be added to our library of open education resources, making them free, accessible, and published for anyone to use. And we intend to experiment with delivering this curriculum in an asynchronous, cohort-based manner that allows learners from all over the world to come together for a period of time to work through the curriculum together. If you were part of one of the original cohorts of the <a href="https://dslc.io/">R for Data Science Online Learning Community</a> created by our Community Manager, [Jesse Mostipak](https://github.com/kierisi), then you know that these asynchronous trainings will be thoughtfully crafted, a fantastic learning experience, and a ton of fun!
 
 pyOpenSci is the recipient of the [Better Software for Science Fellowship](https://bssw.io/fellows/leah-wasser), which will help fund the creation of these open educational resources. You can stay up to date with more information on these types of lessons through [our Discourse forum](https://pyopensci.discourse.group/) as well as [our mailing list](https://eepurl.com/iM7SOM).

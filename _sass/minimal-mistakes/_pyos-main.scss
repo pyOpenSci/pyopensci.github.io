@@ -110,25 +110,9 @@ h2.clearall {
   .back-to-top {
     font-size: 1.2em!important;
   }
-  .blog__grid {
-    font-size: 1.3em;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 0fr))!important;
-    grid-auto-rows: 0fr!important;
-    grid-column-gap: 7px;
-    grid-row-gap: 0px!important;
-    margin-bottom: 20px;
-
-    & a {
-      font-size: 1.3em;
-
-    }
-  }
 
   .card-body {
     padding: 0!important;
-  }
-  .card-title {
-    margin-top: 1em!important;
   }
 
   .grid {
@@ -169,7 +153,7 @@ h2.clearall {
 
     & .archive__item-excerpt {
       padding:0;
-      font-size: .8em;
+      font-size: .7rem;
 
     }
   }

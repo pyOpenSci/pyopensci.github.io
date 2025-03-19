@@ -104,8 +104,10 @@ To lock down a GitHub environment:
 
 
 <figure>
+  <picture>
   <source srcset="{{ post.url | relative_url }}/images/python-packaging/github-action-environment-pypi.webp" type="image/webp">
     <img src="{{ post.url | relative_url }}/images/python-packaging/github-action-environment-pypi.png" alt="Screenshot of the GitHub settings interface showing the ‘Environments’ section with configuration options for ‘pypi.’ The ‘Deployment protection rules’ section is visible, with ‘Required reviewers’ enabled and two reviewers listed: ‘lwasser’ and ‘willingc.’ Other options such as ‘Prevent self-review’ and ‘Wait timer’ are present but not enabled.">
+  </picture>
   <figcaption>
     GitHub environment settings for “pypi,” displaying deployment protection rules with required reviewers configured for workflow approvals.
   </figcaption>
@@ -123,8 +125,10 @@ A Trusted Publisher setup creates a secure link between PyPI and your repository
 Using a Trusted Publisher combined with a locked-down environment eliminates the need to store sensitive tokens as GitHub secrets. It also removes the need to refresh and update tokens periodically to avoid token leaks or theft issues.
 
 <figure>
+  <picture>
     <source srcset="{{ post.url | relative_url }}/images/python-packaging/trusted-publisher-pypi-github.webp" type="image/webp">
     <img src="{{ post.url | relative_url }}/images/python-packaging/trusted-publisher-pypi-github.png" alt="A workflow diagram showing GitHub Actions building distribution files (sdist and wheel), publishing them securely to PyPI, represented as a warehouse. The diagram includes a lock icon emphasizing security, with the pyOpenSci logo in the top-left corner.">
+  </picture>
   <figcaption>
     Example of the PyPI Trusted Publisher form, used to securely link a GitHub repository with PyPI for publishing Python packages. Trusted Publisher reduces the risk of token theft and improves overall security.
   </figcaption>
