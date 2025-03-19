@@ -81,6 +81,12 @@
   @include notice($light-gray);
 }
 
+.notice .header {
+  font-size: 1.5rem!important;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
 /* Primary notice */
 
 .notice--primary {
@@ -149,10 +155,14 @@
 .notice {
   border-radius: 15px !important;
   box-shadow: 0 1px 1px rgba(189, 193, 196, 0.25) !important;
-  padding: 3em;
+  padding: 3rem;
+
+  font-size: 1.7rem !important;
+    font-weight: 700;
+    margin-bottom: 1rem;
 
   p, li {
-    font-size: 1.1em!important;
+    font-size: 1.1rem!important;
   }
 
   h2, h3 {
@@ -184,6 +194,8 @@
     }
   }
 }
+
+
 /* max 480 px */
 @media screen and (max-width: 480px) {
   .notice {
