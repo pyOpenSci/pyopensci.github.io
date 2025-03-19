@@ -6,7 +6,6 @@ author: "Raktim Mukhopadhyay"
 permalink: /blog/quadratik.html
 header:
   overlay_image: images/headers/pyopensci-quadratik.png
-  overlay_filter: rgba(20, 13, 36, 0.7)
 categories:
   - blog-post
   - quadratic distances
