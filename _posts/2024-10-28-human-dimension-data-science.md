@@ -5,8 +5,7 @@ excerpt: "Discover how to create clean, accessible, and impactful data science c
 author: "Eric J. Ma"
 permalink: /blog/human-dimension-clean-documented-data-science-code.html
 header:
-  overlay_image: /images/blog/2024/eric-ma-blog-post-header.webp
-  overlay_filter: rgba(20, 13, 36, 0.7)
+  overlay_image: /images/blog/headers/eric-ma-header.png
 categories:
   - blog-post
   - community

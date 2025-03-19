@@ -5,7 +5,7 @@ classes: wide
 title: "pyOpenSci Events"
 excerpt: "pyOpenSci holds events that support scientists developing open science skills."
 header:
-  overlay_image: images/headers/scipy-2024-workshop.png
+  overlay_image: images/headers/pyopensci-learn-header.png
   overlay_filter: rgba(20, 13, 36, 0.8)
 author_profile: false
 ---

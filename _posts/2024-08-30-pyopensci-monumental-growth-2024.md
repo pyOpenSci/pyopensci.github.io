@@ -5,8 +5,7 @@ excerpt: "Learn about what pyOpenSci has accomplished in the last two years, inc
 author: "Leah Wasser"
 permalink: /blog/what-pyopensci-accomplished-with-two-years-of-funding.html
 header:
-  overlay_image: images/headers/pyos-two-years.png
-  overlay_filter: rgba(20, 13, 36, 0.3)
+  overlay_image: images/blog/headers/pyos-two-years.png
 categories:
   - blog-post
   - community

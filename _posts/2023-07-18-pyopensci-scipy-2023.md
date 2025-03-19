@@ -5,8 +5,7 @@ excerpt: "The SciPy 2023 meeting did not disappoint this year. We have a whole n
 author: "Leah Wasser"
 permalink: /blog/scipy-2023-community.html
 header:
-  overlay_color: "#542668"
-  overlay_filter: 0.6
+    overlay_color: "#33205c"
 categories:
   - blog-post
   - highlight

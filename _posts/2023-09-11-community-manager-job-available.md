@@ -5,8 +5,7 @@ excerpt: "This position has been filled. pyOpenSci is hiring a community manager
 author: "Leah Wasser"
 permalink: /blog/pyOpenSci-hiring-community-manager-fall-2023.html
 header:
-  overlay_color: "#666"
-  overlay_filter: 0.6
+    overlay_color: "#33205c"
 categories:
   - blog-post
   - jobs

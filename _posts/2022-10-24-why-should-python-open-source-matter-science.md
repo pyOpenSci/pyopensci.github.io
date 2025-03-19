@@ -5,8 +5,7 @@ excerpt: "Free and open source software tools are the foundation for thousands i
 author: "Leah Wasser"
 permalink: /blog/why-python-open-source-software-matters-for-scientists.html
 header:
-    overlay_color: "#666"
-    overlay_filter: 0.6
+    overlay_color: "#33205c"
 categories:
   - blog-post
   - highlight

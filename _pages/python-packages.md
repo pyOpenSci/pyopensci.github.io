@@ -4,8 +4,7 @@ permalink: /python-packages.html
 title: "pyOpenSci Open Peer Review & Accepted Packages"
 classes:
 header:
-    overlay_image: images/header.png
-    overlay_filter: 0.6
+    overlay_image: images/headers/pyopensci-software.png
 intro:
     - excerpt: "The Python packages below have
     been accepted into the pyOpenSci ecosystem through our [open software peer review process](/about-peer-review/)."

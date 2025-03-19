@@ -5,8 +5,7 @@ excerpt: "pyOpenSci held a community birds of a feather session at the 2023 RSE 
 author: "Leah Wasser"
 permalink: /blog/pyOpenSci-research-software-2023.html
 header:
-  overlay_color: "#666"
-  overlay_filter: 0.6
+    overlay_color: "#33205c"
 categories:
   - blog-post
   - community

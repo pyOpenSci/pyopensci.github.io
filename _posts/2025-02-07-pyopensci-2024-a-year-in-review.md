@@ -5,8 +5,7 @@ excerpt: "2024 was a transformative year for pyOpenSci. Through training, mentor
 author: "Leah Wasser"
 permalink: /blog/2024-pyopensci-retrospective.html
 header:
-  overlay_color: "#666"
-  overlay_filter: 0.6
+  overlay_image: images/headers/pyopensci-floral.png
 categories:
   - blog-post
   - community

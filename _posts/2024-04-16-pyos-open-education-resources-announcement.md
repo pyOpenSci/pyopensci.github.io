@@ -5,8 +5,7 @@ excerpt: "We're excited to share information about the pyOpenSci approach to edu
 author: "Jesse Mostipak"
 permalink: /blog/pyos-education-announcement.html
 header:
-  overlay_color: "#666"
-  overlay_filter: 0.6
+    overlay_color: "#33205c"
 categories:
   - blog-post
   - community

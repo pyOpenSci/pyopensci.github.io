@@ -5,8 +5,7 @@ excerpt: "Several pyOpenSci and Open Source Software events will occur at AGU 20
 author: "Leah Wasser"
 permalink: /blog/pyopensci-at-agu-2019-python
 header:
-    overlay_color: "#333"
-    caption:
+    overlay_color: "#33205c"
 categories:
   - updates
   - blog-post

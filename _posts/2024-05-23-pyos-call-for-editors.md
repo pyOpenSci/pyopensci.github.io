@@ -5,8 +5,7 @@ excerpt: "pyOpenSci is looking for volunteers from a wide array of scientific ba
 author: "Jesse Mostipak"
 permalink: /blog/pyos-call-for-editors-may-2024.html
 header:
-  overlay_image: images/blog/headers/23-05-2024-call-for-editors.png
-  overlay_filter: rgba(20, 13, 36, 0.8)
+  overlay_image: images/blog/headers/call-for-editors.png
 categories:
   - blog-post
   - community

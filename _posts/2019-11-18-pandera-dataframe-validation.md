@@ -5,8 +5,7 @@ excerpt: "Pandera is a a flexible and expressive toolkit for performing statisti
 author: "Niels Bantilan"
 permalink: /blog/pandera-python-pandas-dataframe-validation
 header:
-    overlay_image: images/pandas.jpg
-    overlay_filter: 0.6
+    overlay_image: images/blog/headers/pandas.png
     caption: "Photo credit: [**Ann Batdorf, Smithsonian's National Zoo**](https://www.flickr.com/photos/nationalzoo/5371290900/in/photostream/)"
 categories:
   - blog-post

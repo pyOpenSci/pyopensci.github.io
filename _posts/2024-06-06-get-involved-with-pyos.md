@@ -5,8 +5,7 @@ excerpt: "Fun fact: there are a multitude of ways for you to get involved with p
 author: "Jesse Mostipak"
 permalink: /blog/get-involved-with-pyos.html
 header:
-  overlay_image: images/blog/2024/may/23-05-2024-get-involved.png
-  overlay_filter: rgba(20, 13, 36, 0.8)
+  overlay_color: "#33205c"
 categories:
   - blog-post
   - community

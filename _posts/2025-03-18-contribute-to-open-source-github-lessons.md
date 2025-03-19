@@ -5,8 +5,7 @@ excerpt: "Contributing to open source isn’t just about code—it’s also abou
 author: "Leah Wasser"
 permalink: /blog/contribute-to-open-source-lessons.html
 header:
-  overlay_image: images/headers/pyopensci-inessa.png
-  overlay_filter: rgba(20, 13, 36, 0.3)
+  overlay_image: images/headers/pyopensci-floral.png
 categories:
   - blog-post
   - community
