@@ -5,8 +5,7 @@ excerpt: "pyOpenSci is a community organization devoted to the development of ro
 author: "Leah Wasser"
 permalink: blog/welcome-to-pyopensci/
 header:
-    overlay_filter: 0.6
-    overlay_color: "#333"
+  overlay_color: "#33205c"
 categories:
   - updates
   - blog-post

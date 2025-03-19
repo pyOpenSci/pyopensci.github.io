@@ -5,8 +5,7 @@ excerpt: "pyOpenSci has published the packaging structure and tool section of it
 author: "Leah Wasser"
 permalink: /blog/demystifying-python-packaging.html
 header:
-  overlay_color: "#666"
-  overlay_filter: 0.6
+    overlay_color: "#33205c"
 categories:
   - blog-post
   - highlight

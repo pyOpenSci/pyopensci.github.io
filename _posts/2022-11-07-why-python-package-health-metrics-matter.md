@@ -5,8 +5,7 @@ excerpt: "Collecting baseline data that aligns with the goals and outcomes of yo
 author: "Leah Wasser"
 permalink: /blog/why-python-package-health-metrics-matter.html
 header:
-    overlay_color: "#666"
-    overlay_filter: 0.6
+    overlay_color: "#33205c"
 categories:
   - blog-post
   - highlight
