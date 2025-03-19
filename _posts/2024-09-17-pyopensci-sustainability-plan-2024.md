@@ -5,8 +5,7 @@ excerpt: "pyOpenSci is exploring various sustainability methods to supplement ou
 author: "Leah Wasser"
 permalink: /blog/pyopensci-funding-sustainability.html
 header:
-  overlay_image: images/headers/pyopensci-sustainability.png
-  overlay_filter: rgba(20, 13, 36, 0.3)
+  overlay_image: images/blog/headers/pyopensci-sustainability.png
 categories:
  - blog-post
  - community

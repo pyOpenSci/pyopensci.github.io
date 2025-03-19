@@ -1,13 +1,13 @@
 ---
 layout: splash
 title: "Welcome to pyOpenSci"
-excerpt: "We make it easier for scientists to create, find, maintain and contribute to reusable code and software."
+excerpt: "We make it easier for scientists to create, find, maintain, and contribute to reusable code and software."
 author_profile: false
 published: true
 site-map: true
 permalink: /
 header:
-  overlay_image: /images/people/header-mentored-sprints-smaller.png
+  overlay_image: /images/headers/pyopensci-sprints.png
   overlay_filter: 0.7
   actions:
     - label: "Submit a Package"
