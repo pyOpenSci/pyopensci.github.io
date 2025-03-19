@@ -9,8 +9,7 @@ event:
   location: Online using [Gather](https://www.gather.town/)
 permalink: /events/pyopensci-2024-fall-festival.html
 header:
-  overlay_image: images/headers/white-header.png
-  overlay_filter: rgba(20, 13, 36, 0.8)
+  overlay_image: images/headers/pyopensci-sustainability.png
 categories:
   - events
 classes: wide

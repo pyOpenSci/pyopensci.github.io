@@ -8,8 +8,7 @@ event:
   location: Online
 permalink: /events/april-2024-create-python-package-pyopensci-online-workshop.html
 header:
-  overlay_image: images/headers/scipy-2024-workshop.png
-  overlay_filter: rgba(20, 13, 36, 0.8)
+  overlay_image: images/headers/pyopensci-sustainability.png
 categories:
   - events
 start_date: 2024-04-29

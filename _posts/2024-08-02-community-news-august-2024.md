@@ -4,9 +4,7 @@ title: "pyOpenSci Community News: August 2024"
 excerpt: "Welcome to the first edition of pyOpenSci's Community News newsletter, where we summarize and share conversations, contributions, and news related to our diverse and vibrant community! Read on for insights into running pyOpenSci sprints, Python packaging guide Spanish translation efforts, and using Hatch to create and maintain Python."
 author: "Jesse Mostipak"
 permalink: /blog/pyos-community-news-aug-2024.html
-header:
-  overlay_image: /images/headers/white-header.png
-  overlay_filter: rgba(20, 13, 36, 0.8)
+images/blog/2024/may/pycon-us-2024.png
 categories:
   - blog-post
   - community

@@ -5,8 +5,7 @@ excerpt: "How should pyOpenSci measure Python open source package health and lev
 author: "Leah Wasser"
 permalink: /blog/what-makes-open-source-python-package-healthy.html
 header:
-  overlay_color: "#666"
-  overlay_filter: 0.6
+    overlay_color: "#33205c"
 categories:
   - blog-post
   - highlight

@@ -5,8 +5,7 @@ excerpt: "This year I attended by first PyCon US meeting representing pyOpenSci.
 author: "Leah Wasser"
 permalink: /blog/pycon-2023-packaging-presentation-sprints-leah-wasser.html
 header:
-  overlay_color: "#666"
-  overlay_filter: 0.6
+    overlay_color: "#33205c"
 categories:
   - blog-post
   - highlight

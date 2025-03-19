@@ -5,8 +5,7 @@ excerpt: "pyOpenSci has recently transitioned to a fiscal sponsor and has a new 
 author: "Leah Wasser"
 permalink: /blog/new-executive-director-leah-wasser
 header:
-    overlay_color: "#666"
-    overlay_filter: 0.6
+    overlay_color: "#33205c"
 categories:
   - updates
   - blog-post

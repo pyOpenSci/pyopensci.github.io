@@ -4,9 +4,7 @@ title: "pyOpenSci beginner-friendly sprints at PyCon US 2024"
 excerpt: "pyOpenSci holds beginner-friendly sprints with the goal of making new contributors feel welcome. Learn about our latest sprint at PyCon US 2024, and tips we use to make sprints accessible to more people."
 author: "Leah Wasser"
 permalink: /blog/pyopensci-pyconus-2024-sprints.html
-header:
-  overlay_image: images/blog/2024/may/23-05-2024-get-involved.png
-  overlay_filter: rgba(20, 13, 36, 0.8)
+images/blog/2024/may/pycon-us-2024.png
 categories:
   - blog-post
   - community

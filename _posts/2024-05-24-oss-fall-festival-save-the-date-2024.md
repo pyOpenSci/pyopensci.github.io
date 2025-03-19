@@ -5,8 +5,7 @@ excerpt: "Shake off those post-PyCon blues by adding our Open Science Fall Festi
 author: "Jesse Mostipak"
 permalink: /blog/save-the-date-oss-fall-festival-2024.html
 header:
-  overlay_image: images/blog/2024/may/fall-festival-save-the-date-2024.png
-  overlay_filter: rgba(20, 13, 36, 0.8)
+  overlay_color: "#33205c"
 categories:
   - blog-post
   - community

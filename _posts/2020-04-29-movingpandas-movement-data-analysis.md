@@ -5,8 +5,7 @@ excerpt: "MovingPandas is an easy to use toolkit for exploring movement data tha
 author: "Anita Graser"
 permalink: /blog/movingpandas-movement-data-analysis
 header:
-    overlay_image: images/pandas.jpg
-    overlay_filter: 0.6
+    overlay_image: images/blog/headers/pandas.png
     caption: "Photo credit: [**Ann Batdorf, Smithsonian's National Zoo**](https://www.flickr.com/photos/nationalzoo/5371290900/in/photostream/)"
 categories:
   - blog-post
