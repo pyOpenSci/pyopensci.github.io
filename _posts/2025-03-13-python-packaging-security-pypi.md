@@ -5,8 +5,7 @@ excerpt: "Learn how to secure your Python package PyPI publishing workflows and 
 author: "Leah Wasser"
 permalink: /blog/python-packaging-security-publish-pypi.html
 header:
-  overlay_image: images/headers/pyopensci-inessa.png
-  overlay_filter: rgba(20, 13, 36, 0.3)
+  overlay_image: images/headers/pyopensci-floral.png
 categories:
   - python-packaging
   - blog-post

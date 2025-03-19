@@ -4,8 +4,7 @@ permalink: /partners.html
 title: "pyOpenSci Community Partners: affiliated package review"
 classes: flowing
 header:
-  overlay_image: images/header.png
-  overlay_filter: 0.6
+  overlay_image: images/headers/pyos-peer-review-header.png
 intro:
   - excerpt: "More here on community partners."
 scientists:

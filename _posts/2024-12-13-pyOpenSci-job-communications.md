@@ -5,8 +5,7 @@ excerpt: "pyOpenSci is hiring a part-time Writer and Social Media Specialist to 
 author: "Leah Wasser"
 permalink: /blog/pyopensci-job-communications.html
 header:
-  overlay_image: images/headers/pyopensci-inessa.png
-  overlay_filter: rgba(20, 13, 36, 0.3)
+  overlay_image: images/headers/pyopensci-floral.png
 categories:
   - blog-post
   - community
