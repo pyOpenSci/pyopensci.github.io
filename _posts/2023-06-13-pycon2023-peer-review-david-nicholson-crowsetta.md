@@ -5,8 +5,8 @@ excerpt: "David Nicholson gave a lightning talk about his experience going throu
 author: Leah Wasser
 permalink: /blog/pycon2023-crowsetta-peer-review.html
 header:
-    overlay_color: "#33205c"
-  overlay_image: /images/talks/david-nicholson-crowsetta-lightning-pycon2023.png
+  overlay_color: "#33205c"
+  overlay_image: /images/blog/headers/david-nicholson-2023-header.png
 categories:
   - blog-post
   - highlight

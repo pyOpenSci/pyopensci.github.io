@@ -4,7 +4,8 @@ title: "pyOpenSci's Guide to SciPy"
 excerpt: "We've got another incredible conference on the horizon, and wanted to share the talks, workshops, and sprints where you can find members of the pyOpenSci community!"
 author: "Jesse Mostipak"
 permalink: /blog/pyos-guide-to-scipy-2024.html
-images/blog/2024/may/pycon-us-2024.png
+header:
+  overlay_color: "#33205c"
 categories:
   - blog-post
   - community
