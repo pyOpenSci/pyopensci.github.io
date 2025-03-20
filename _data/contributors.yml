@@ -628,6 +628,7 @@
     - peer-review-guide
     - reviewer
   packages_eic:
+    - montepy
     - stingray
     - thztools
   packages_editor:
@@ -7790,8 +7791,11 @@
   website:
   board: false
   contributor_type:
+    - editor
+    - peer-review
   packages_eic:
   packages_editor:
+    - montepy
   packages_submitted:
   packages_reviewed:
   location:
@@ -8991,3 +8995,123 @@
   packages_reviewed:
   location: Baltimore, MD
   email: crawfordsm@gmail.com
+- name: Madicken Munk
+  github_username: munkm
+  github_image_id: 6745434
+  title:
+  sort:
+  bio: Group Leader @arfc, member of @data-exp-lab, @scientific-python, and @yt-project
+  organization: '@NCSA'
+  date_added: '2025-03-20'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://munkm.github.io
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - montepy
+  location: University of Illinois at Urbana-Champaign
+  email:
+- name: Joanna Piper Morgan
+  github_username: jpmorgan98
+  github_image_id: 67020956
+  title:
+  sort:
+  bio: PhD Candidate at Oregon State University focused on radiation transport on
+      GPUs
+  organization: Oregon State University
+  date_added: '2025-03-20'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://jpmorgan98.github.io/
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - montepy
+  location: Corvallis, OR
+  email:
+- name: Micah Gale
+  github_username: MicahGale
+  github_image_id: 12405772
+  title:
+  sort:
+  bio: Nuclear Engineer, PhD Student, aspiring Rustacean; interested in Computational
+      Reactor Physics, and other less useful things. Member of @cnerg.
+  organization: '@idaholab'
+  date_added: '2025-03-20'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+    - submitting-author
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - montepy
+  packages_reviewed:
+  location: Madison, Wisconsin
+  email: mdgale@wisc.edu
+- name: Travis L.
+  github_username: tjlaboss
+  github_image_id: 19986691
+  title:
+  sort:
+  bio: Neutronics analysis and reactor physics automation.Engineer at @idaholab
+      andPh.D student with @anovak-lab
+  organization: Idaho National Laboratory
+  date_added: '2025-03-20'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - montepy
+  packages_reviewed:
+  location:
+  email:
