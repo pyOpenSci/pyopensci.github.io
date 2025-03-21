@@ -32,62 +32,67 @@ $(document).ready(function() {
 
 
 
-  // Isotope filtering
-  // This blog has a good example of smart resizing ... https://jewelfarazi.me/create-jquery-isotope-responsive-masonry-layout/
-  var qsRegex;
-  var buttonFilter;
+// Isotope filtering
+// This blog has a good example of smart resizing ... https://jewelfarazi.me/create-jquery-isotope-responsive-masonry-layout/
+var qsRegex;
+var buttonFilter;
 
-  // Init Isotope
-  var $grid = $('.grid-isotope').imagesLoaded(function() {
-      $grid.isotope({
-          itemSelector: '.element-item',
-          layoutMode: 'masonry',
-          masonry: {
-              columnWidth: 100,
-              horizontalOrder: true,
-          },
-          filter: function() {
-              var $this = $(this);
-              var searchResult = qsRegex ? $this.text().match(qsRegex) : true;
-              var buttonResult = buttonFilter ? $this.is(buttonFilter) : true;
-              return searchResult && buttonResult;
-          }
-      });
-  });
+var containerWidth = $('.grid-isotope').width();
+var columns = 3; // Number of columns you want
+var columnWidth = containerWidth / columns;
 
-  // Filter on button click
-  $('#filters').on('click', 'button', function() {
-      buttonFilter = $(this).attr('data-filter');
-      $grid.isotope();
-  });
 
-  // Use value of search field to filter
-  var $quicksearch = $('#quicksearch').keyup(debounce(function() {
-      qsRegex = new RegExp($quicksearch.val(), 'gi');
-      $grid.isotope();
-  }));
+// Init Isotope
+var $grid = $('.grid-isotope').imagesLoaded(function() {
+    $grid.isotope({
+        itemSelector: '.element-item',
+        layoutMode: 'masonry',
+        masonry: {
+            columnWidth: columnWidth,
+            horizontalOrder: true,
+        },
+        filter: function() {
+            var $this = $(this);
+            var searchResult = qsRegex ? $this.text().match(qsRegex) : true;
+            var buttonResult = buttonFilter ? $this.is(buttonFilter) : true;
+            return searchResult && buttonResult;
+        }
+    });
+});
 
-  // Change is-checked class on buttons
-  $('.button-group').each(function(i, buttonGroup) {
-      var $buttonGroup = $(buttonGroup);
-      $buttonGroup.on('click', 'button', function() {
-          $buttonGroup.find('.is-checked').removeClass('is-checked');
-          $(this).addClass('is-checked');
-      });
-  });
+// Filter on button click
+$('#filters').on('click', 'button', function() {
+    buttonFilter = $(this).attr('data-filter');
+    $grid.isotope();
+});
 
-  // Debounce so filtering doesn't happen every millisecond
-  function debounce(fn, threshold) {
-      var timeout;
-      threshold = threshold || 100;
-      return function debounced() {
-          clearTimeout(timeout);
-          var args = arguments;
-          var _this = this;
+// Use value of search field to filter
+var $quicksearch = $('#quicksearch').keyup(debounce(function() {
+    qsRegex = new RegExp($quicksearch.val(), 'gi');
+    $grid.isotope();
+}));
 
-          function delayed() {
-              fn.apply(_this, args);
-          }
-          timeout = setTimeout(delayed, threshold);
-      };
-  }
+// Change is-checked class on buttons
+$('.button-group').each(function(i, buttonGroup) {
+    var $buttonGroup = $(buttonGroup);
+    $buttonGroup.on('click', 'button', function() {
+        $buttonGroup.find('.is-checked').removeClass('is-checked');
+        $(this).addClass('is-checked');
+    });
+});
+
+// Debounce so filtering doesn't happen every millisecond
+function debounce(fn, threshold) {
+    var timeout;
+    threshold = threshold || 100;
+    return function debounced() {
+        clearTimeout(timeout);
+        var args = arguments;
+        var _this = this;
+
+        function delayed() {
+            fn.apply(_this, args);
+        }
+        timeout = setTimeout(delayed, threshold);
+    };
+}

@@ -150,9 +150,10 @@
 
   %quote-style {
     font-weight: bold;
-    font-size: 100px;
+    //font-size: $type-size-2;
     color: $pyos-teal;
     line-height: 0;
+    font-size: 5rem;
   }
 
   /* Block quote with bigger quotes*/
@@ -190,7 +191,8 @@
     }
 
     p {
-      font-size: 1.3rem;
+      font-size: $type-size-3;
+      line-height: 2.8rem;
       position: relative;
       margin-bottom: 0.63rem;
 
