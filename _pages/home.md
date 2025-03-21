@@ -103,7 +103,7 @@ peer-review:
 <!-- pull blog posts not events -->
 {% assign blog_posts = site.posts |  where_exp: "item", "item.categories contains 'blog-post'" %}
 
-<div class="notice notice-highlight" markdown="1">
+<div class="notice" markdown="1">
 
 ## Recent blog posts & updates
 
@@ -135,7 +135,7 @@ peer-review:
 {% assign packages_sorted = site.data.packages | sort_natural: 'date_accepted' | reverse %}
 
 <div class="grid">
-  {% for apackage in packages_sorted limit:4 %}
+  {% for apackage in packages_sorted limit:3 %}
     {% include package-grid.html %}
   {% endfor %}
 </div>
