@@ -1,3 +1,23 @@
+Executive Council:
+  name        : "pyOpenSci Executive Council"
+  bio         : "We broaden participation in scientific open source."
+  avatar      : "/images/people/leah-wasser-pyopensci-leadership.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:admin@pyopensci.org"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.pyopensci.org"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/pyopensci"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/company/pyopensci/"
+    - label: "Mastodon"
+      icon: "fab fa-fw fa-mastodon"
+      url: "https://fosstodon.org/@pyopensci"
 Leah Wasser:
   name        : "Leah Wasser"
   bio         : "Executive Director & Founder, pyOpenSci"
