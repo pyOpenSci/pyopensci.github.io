@@ -46,6 +46,22 @@ layout: default
             </nav>
           </aside>
         {% endif %}
+        <div class="author-header">
+          {% if page.h2 %}
+            <h2>{{ page.h2 }}</h2>
+            {% if page.authors %}
+              <p>
+                {% for author in page.authors %}
+                  <b>{{ author }}</b>{% if forloop.last == false %}, {% endif %}
+                {% endfor %}
+                {% if page.date %}<span class="date">{{ page.date | date: "%-d %B %Y" }}</span>{% endif %}
+              </p>
+              <!-- if there are no authors -->
+              {% else %}
+                {% if page.date %}<p><span class="date">{{ page.date | date: "%-d %B %Y" }}</span></p>{% endif %}
+              {% endif %}
+          {% endif %}
+        </div>
         {{ content }}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
