@@ -54,22 +54,22 @@ $header-font: "Poppins", san-serif !default;
 $body-font: "Nunito Sans", sans-serif !default;
 
 /* type scale */
-$type-size-1: 2.441em !default; // ~39.056px
-$type-size-2: 1.953em !default; // ~31.248px
-$type-size-3: 1.563em !default; // ~25.008px
-$type-size-4: 1.25em !default; // ~20px
-$type-size-5: 0.95em !default; // ~13.6px
-$type-size-6: 0.75em !default; // ~12px main body font
-$type-size-7: 0.64em !default; // ~10.24px
-$type-size-8: 0.635em !default; // ~10.16px
+$type-size-1: 2.441rem !default; // ~39.056px
+$type-size-2: 1.953rem !default; // ~31.248px
+$type-size-3: 1.563rem !default; // ~25.008px
+$type-size-4: 1.25rem !default; // ~20px
+$type-size-5: 1.1rem !default; // ~13.6px
+$type-size-6: 0.75rem !default; // ~12px main body font
+$type-size-7: 0.64rem !default; // ~10.24px
+$type-size-8: 0.635rem !default; // ~10.16px
 
 /* headline scale */
-$h-size-1: 1.563em !default; // ~25.008px
-$h-size-2: 2.6em !default; // ~20px H2 increased 2.0
-$h-size-3: 2.0em !default; // ~18px
-$h-size-4: 1.5em !default; // ~17px
-$h-size-5: 1.03125em !default; // ~16.5px
-$h-size-6: 1em !default; // ~16px
+$h-size-1: 1.563rem !default; // ~25.008px
+$h-size-2: 2.6rem !default; // ~20px H2 increased 2.0
+$h-size-3: 2.0rem !default; // ~18px
+$h-size-4: 1.5rem !default; // ~17px
+$h-size-5: 1.43125rem !default; // ~16.5px
+$h-size-6: 1.2rem !default; // ~16px
 
 /* kbd colors */
 $kbd-color-background: #bbbdc3;
@@ -204,7 +204,7 @@ $right-sidebar-width-wide: 400px !default;
    Other
    ========================================================================== */
 
-$border-radius: 4px !default;
+$border-radius: 15px !default;
 $box-shadow: 0 1px 1px rgba(0, 0, 0, 0.125) !default;
 $nav-height: 2em !default;
 $nav-toggle-height: 2rem !default;
