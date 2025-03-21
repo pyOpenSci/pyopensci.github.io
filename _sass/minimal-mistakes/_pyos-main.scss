@@ -33,14 +33,6 @@ img {
   text-align: center;
 }
 
-h4.person_name {
-    margin-top: 0.6em;
-    margin-bottom: 0;
-    font-size: 1.3em;
-  a {
-    text-decoration: none;
-  }
-}
 
 .person_img {
   -webkit-filter: drop-shadow(3px 3px 3px #999);
@@ -55,10 +47,7 @@ div > div {
   padding: 10px;
 }
 
-.contrib_org {font-weight:normal;
-  font-size:70%!important;
-  margin-bottom: 0!important;
-}
+
 
 
 /* Fix people page - allow for tall images */
@@ -123,9 +112,9 @@ h2.clearall {
     }
   }
 
-  .grid-isotope {
-    font-size: 1.3em;
-  }
+  // .grid-isotope {
+  //   font-size: 1.3em;
+  // }
 
   .contrib_org, .ppl_social {
     font-size: .9em !important;

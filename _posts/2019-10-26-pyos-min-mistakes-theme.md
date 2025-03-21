@@ -11,6 +11,7 @@ toc: true
 categories:
   - docs
   - blog-post
+classes: wide
 ---
 
 
@@ -300,22 +301,22 @@ Call attention to a block of text.
 | Success     | `.notice--success` |
 | Danger      | `.notice--danger`  |
 
-**Watch out!** This paragraph of text has been [emphasized](#) with the `{: .notice}` class. The purpose of this test paragraph is to check how different styles are applied across various sections of text. You can [highlight](#) certain words or phrases, adjust the [font size](#), or change the [text color](#) to see how the styling adapts. Additionally, experimenting with [different classes](#) and observing the effects on alignment, spacing, and other typographic elements will help ensure that your CSS is applied consistently and effectively across your site.
+**Technical and social skills go hand in hand.** Open source communities are most productive when contributors and maintainers recognize this balance between the technical and social skills associated with contributing. In most cases, all of the people involved in the project are volunteers with varying priorities, skillsets, and motivations to participate.
 {: .notice}
 
-**Watch out!** This paragraph of text has been [emphasized](#) with the `{: .notice--primary}` class.
+**Watch out!** This paragraph of text has been emphasized with the `{: .notice--primary}` class.
 {: .notice--primary}
 
-**Watch out!** This paragraph of text has been [emphasized](#) with the `{: .notice--info}` class.
+**Watch out!** This paragraph of text has been emphasized with  the `{: .notice--info}` class.
 {: .notice--info}
 
-**Watch out!** This paragraph of text has been [emphasized](#) with the `{: .notice--warning}` class.
+**Watch out!** This paragraph of text has been emphasized with the `{: .notice--warning}` class.
 {: .notice--warning}
 
-**Watch out!** This paragraph of text has been [emphasized](#) with the `{: .notice--success}` class.
+**Watch out!** This paragraph of text has been emphasized with the `{: .notice--success}` class.
 {: .notice--success}
 
-**Watch out!** This paragraph of text has been [emphasized](#) with the `{: .notice--danger}` class.
+**Watch out!** This paragraph of text has been emphasized with the `{: .notice--danger}` class.
 {: .notice--danger}
 
 <div class="notice" markdown="1">
@@ -349,6 +350,25 @@ Which will render like this
   You can add more text here too
 </div>
 
+
+<div class="notice--info" markdown="1">
+#### Notice Headline
+{: .no_toc }
+
+here is some html text.
+
+Testing a div with a h4 header
+
+````html
+<div class="notice--info" markdown="1">
+#### Notice Headline
+{: .no_toc }
+
+This is how you generate a div using markdown
+
+</div>
+````
+</div>
 
 
 

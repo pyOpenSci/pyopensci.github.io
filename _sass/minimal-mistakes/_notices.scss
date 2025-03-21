@@ -10,19 +10,67 @@
  *  </div>
  */
 
+
+
+/* Notice elements with figures */
+.notice {
+
+
+
+  h2, h3 {
+    margin-top: 0 !important;
+  }
+
+  figcaption {
+    font-family: $body-font;
+    font-size: 1.2em; // This will override the previous 1.3em
+  }
+
+  &--info {
+    .btn.btn--info {
+      color: #fff;
+    }
+
+    .archive__item-excerpt {
+      font-size: 0.95em;
+    }
+
+    h2 {
+      font-size: 1.5em;
+    }
+
+    h3 a,
+    h2 a:visited {
+      font-size: 1.5em;
+      text-decoration: none;
+    }
+  }
+}
+
+
 @mixin notice($notice-color) {
-  margin: 2em 0 !important;  /* override*/
-  padding: 1em;
+  margin: 2rem 0 !important;  /* override*/
+  padding: 3rem;
   color: $text-color;
   font-family: $global-font-family;
-  font-size: $type-size-6 !important;
+  font-size: $type-size-4 !important;
+  font-weight: 300!important;
   text-indent: initial; /* override*/
   background-color: mix($background-color, $notice-color, $notice-background-mix);
   border-radius: $border-radius;
-  box-shadow: 0 1px 1px rgba($notice-color, 0.25);
+  box-shadow: 0 1px 1px rgba(darken($notice-color, 20%), 0.25);
+  line-height: 1.7rem!important;
+
+  // We might want a header like element in a notice but not an actual h4 etc
+  // this style mimicks a header within a notice block.
+  .header {
+    font-size: 1.5rem!important;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
 
   h4 {
-    margin-top: 0 !important; /* override*/
+    margin-top: 0 !important;
     margin-bottom: 0.75em;
     line-height: inherit;
   }
@@ -33,7 +81,14 @@
     font-size: 1.6em;
   }
 
+  p, li {
+    font-size: $type-size-6!important;
+    font-weight: 300;
+  }
+
   p {
+    line-height: 1.6rem;
+
     &:last-child {
       margin-bottom: 0 !important; /* override*/
     }
@@ -81,11 +136,6 @@
   @include notice($light-gray);
 }
 
-.notice .header {
-  font-size: 1.5rem!important;
-  font-weight: 700;
-  margin-bottom: 1rem;
-}
 
 /* Primary notice */
 
@@ -117,15 +167,6 @@
   @include notice($danger-color);
 }
 
-.notice-highlight {
-  background-color: $background-block;
-  padding: 1em;
-
-  h2 {
-    margin-top: 1em;
-  }
-}
-
 /* Quotes in notice blocks */
 
 .notice blockquote {
@@ -134,12 +175,13 @@
   max-width: 100%;
 
   &.highlight-quote {
-    margin: 7em .5em;
+    margin: 3rem .5em;
     padding: 0;
     max-width: $medium;
 
     p {
       margin-bottom: 1rem;
+      font-size: 1.5rem!important;
     }
     &::after {
       margin: 2rem;
@@ -147,50 +189,6 @@
 
     footer {
       text-align: right;
-    }
-  }
-}
-
-/* Notice elements with figures */
-.notice {
-  border-radius: 15px !important;
-  box-shadow: 0 1px 1px rgba(189, 193, 196, 0.25) !important;
-  padding: 3rem;
-
-  font-size: 1.7rem !important;
-    font-weight: 700;
-    margin-bottom: 1rem;
-
-  p, li {
-    font-size: 1.1rem!important;
-  }
-
-  h2, h3 {
-    margin-top: 0 !important;
-  }
-
-  figcaption {
-    font-family: $body-font;
-    font-size: 1.2em; // This will override the previous 1.3em
-  }
-
-  &--info {
-    .btn.btn--info {
-      color: #fff;
-    }
-
-    .archive__item-excerpt {
-      font-size: 0.95em;
-    }
-
-    h2 {
-      font-size: 1.5em;
-    }
-
-    h3 a,
-    h2 a:visited {
-      font-size: 1.5em;
-      text-decoration: none;
     }
   }
 }
