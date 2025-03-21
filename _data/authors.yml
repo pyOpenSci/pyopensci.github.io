@@ -1,7 +1,7 @@
 Executive Council:
   name        : "pyOpenSci Executive Council"
-  bio         : "We broaden participation in scientific open source."
-  avatar      : "/images/people/leah-wasser-pyopensci-leadership.jpg"
+  bio         : "We broaden in scientific open source by breaking down social and technical barriers"
+  avatar      : "/images/people/pyopensc-executive-council.png"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
