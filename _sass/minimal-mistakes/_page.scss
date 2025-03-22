@@ -35,6 +35,11 @@
     flex: 1 0 auto;
   }
 
+//add spacing for dates used in blog posts
+span.date {
+    padding-left: 2rem;
+}
+
   .page {
     @include breakpoint($large) {
       float: right;
