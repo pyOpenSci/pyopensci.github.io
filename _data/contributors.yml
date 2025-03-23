@@ -9004,7 +9004,7 @@
   organization: '@NCSA'
   date_added: '2025-03-20'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -9034,7 +9034,7 @@
   organization: Oregon State University
   date_added: '2025-03-20'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -9064,7 +9064,7 @@
   organization: '@idaholab'
   date_added: '2025-03-20'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -9095,7 +9095,7 @@
   organization: Idaho National Laboratory
   date_added: '2025-03-20'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
