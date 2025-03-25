@@ -1,51 +1,3 @@
-- package_name: THzTools
-  package_description: Data analysis software tools for terahertz time-domain spectroscopy
-      (THz-TDS)
-  submitting_author:
-      name: J. Steven Dodge
-      github_username: jsdodge
-  all_current_maintainers:
-    - name: J. Steven Dodge
-      github_username: jsdodge
-  repository_link: https://github.com/dodge-research-group/thztools
-  version_submitted: 0.5.4
-  categories:
-    - data-processing-munging
-  editor:
-      name: Bane Sullivan
-      github_username: banesullivan
-  eic:
-      name: Chiara Marmo
-      github_username: cmarmo
-  reviewers:
-    - name: Frank Male
-      github_username: frank1010111
-    - name:
-      github_username: Romain-Peretti
-  archive: https://doi.org/10.5281/zenodo.10100093
-  version_accepted: 0.5.5
-  date_accepted: '2024-11-22'
-  created_at: 2024-08-01 11:54:53+00:00
-  updated_at: 2025-02-06 19:23:14+00:00
-  closed_at: 2024-12-03 02:41:20+00:00
-  issue_link: https://github.com/pyOpenSci/software-submission/issues/209
-  joss: https://doi.org/10.21105/joss.07542
-  partners:
-  gh_meta:
-      name: thztools
-      description: Tools for terahertz time-domain spectroscopy (THz-TDS)
-      created_at: '2022-11-22'
-      stargazers_count: 16
-      watchers_count: 16
-      open_issues_count: 2
-      forks_count: 4
-      documentation: https://dodge-research-group.github.io/thztools/
-      contrib_count: 5
-      last_commit: '2024-12-03'
-  labels:
-    - 6/pyOS-approved
-    - 9/joss-approved
-  active: true
 - package_name: MontePy
   package_description: MontePy is a python library for reading, editing, and writing
       MCNP input files.
@@ -89,7 +41,7 @@
       created_at: '2024-01-09'
       stargazers_count: 40
       watchers_count: 40
-      open_issues_count: 143
+      open_issues_count: 144
       forks_count: 12
       documentation: https://www.montepy.org/
       contrib_count: 4
@@ -138,7 +90,7 @@
       created_at: '2022-05-06'
       stargazers_count: 2158
       watchers_count: 2158
-      open_issues_count: 104
+      open_issues_count: 105
       forks_count: 86
       documentation: https://posit-dev.github.io/great-tables/
       contrib_count: 20
@@ -195,7 +147,7 @@
       created_at: '2015-09-30'
       stargazers_count: 193
       watchers_count: 193
-      open_issues_count: 59
+      open_issues_count: 60
       forks_count: 158
       documentation: https://stingray.science/stingray
       contrib_count: 30
@@ -402,13 +354,13 @@
       name: pooltool
       description: A sandbox billiards game that emphasizes realistic physics
       created_at: '2020-04-09'
-      stargazers_count: 259
-      watchers_count: 259
+      stargazers_count: 260
+      watchers_count: 260
       open_issues_count: 2
       forks_count: 46
       documentation: https://pooltool.readthedocs.io
       contrib_count: 8
-      last_commit: '2025-03-21'
+      last_commit: '2025-03-25'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -569,59 +521,6 @@
       last_commit: '2025-03-07'
   labels:
     - 6/pyOS-approved
-  active: true
-- package_name: PetroFit
-  package_description: The PetroFit Project is an open-source effort to develop
-      end-to-end tools for making accurate photometric measurements, estimating
-      morphological properties, and fitting 2D models to galaxy images.
-  submitting_author:
-      name: Robel Geda
-      github_username: robelgeda
-  all_current_maintainers:
-    - name: Robel Geda
-      github_username: robelgeda
-    - name: Steve Crawford
-      github_username: crawfordsm
-  repository_link: https://github.com/PetroFit/petrofit
-  version_submitted: v0.5.0 (will be updated to v1.0.0 after review)
-  categories:
-    - data-processing-munging
-  editor:
-      name: Derek Homeier
-      github_username: dhomeier
-  eic:
-      name: Isabel Zimmerman
-      github_username: isabelizimm
-  reviewers:
-    - name: Nadia Dencheva
-      github_username: nden
-    - name: Kyle Oman
-      github_username: kyleaoman
-  archive: https://doi.org/10.5281/zenodo.14962700
-  version_accepted: '[v0.6.0](https://github.com/PetroFit/petrofit/releases/tag/v0.6.0)'
-  date_accepted: '2025-02-28'
-  created_at: 2024-02-16 22:46:47+00:00
-  updated_at: 2025-03-03 23:41:20+00:00
-  closed_at:
-  issue_link: https://github.com/pyOpenSci/software-submission/issues/159
-  joss:
-  partners:
-    - astropy
-  gh_meta:
-      name: petrofit
-      description: Python package for calculating Petrosian properties and fitting
-          galaxy light profiles
-      created_at: '2021-03-16'
-      stargazers_count: 28
-      watchers_count: 28
-      open_issues_count: 30
-      forks_count: 7
-      documentation: https://petrofit.readthedocs.io
-      contrib_count: 3
-      last_commit: '2025-03-03'
-  labels:
-    - 6/pyOS-approved
-    - astropy
   active: true
 - package_name: harmonize-wq
   package_description: Standardize, clean, and wrangle Water Quality Portal data
@@ -933,7 +832,7 @@
       created_at: '2023-08-17'
       stargazers_count: 26
       watchers_count: 26
-      open_issues_count: 4
+      open_issues_count: 3
       forks_count: 10
       documentation: https://ncompare.readthedocs.io
       contrib_count: 7
@@ -1073,13 +972,13 @@
       description: Quickly search, compare, and analyze genomic and metagenomic
           data sets.
       created_at: '2016-04-09'
-      stargazers_count: 491
-      watchers_count: 491
+      stargazers_count: 493
+      watchers_count: 493
       open_issues_count: 783
       forks_count: 80
       documentation: https://sourmash.readthedocs.io/en/latest/
       contrib_count: 30
-      last_commit: '2025-03-19'
+      last_commit: '2025-03-25'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1576,11 +1475,11 @@
       created_at: '2018-07-27'
       stargazers_count: 353
       watchers_count: 353
-      open_issues_count: 57
+      open_issues_count: 55
       forks_count: 64
       documentation: https://xclim.readthedocs.io/en/stable/
       contrib_count: 30
-      last_commit: '2025-03-17'
+      last_commit: '2025-03-25'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1779,11 +1678,11 @@
       created_at: '2017-03-17'
       stargazers_count: 790
       watchers_count: 790
-      open_issues_count: 194
+      open_issues_count: 193
       forks_count: 228
       documentation: https://www.pygmt.org
       contrib_count: 30
-      last_commit: '2025-03-24'
+      last_commit: '2025-03-25'
   labels:
     - 6/pyOS-approved
   active: true
@@ -2106,8 +2005,8 @@
       name: movingpandas
       description: Movement trajectory classes and functions built on top of GeoPandas
       created_at: '2018-12-16'
-      stargazers_count: 1283
-      watchers_count: 1283
+      stargazers_count: 1284
+      watchers_count: 1284
       open_issues_count: 28
       forks_count: 197
       documentation: https://movingpandas.org
@@ -2153,13 +2052,13 @@
       description: A light-weight, flexible, and expressive statistical data testing
           library
       created_at: '2018-11-01'
-      stargazers_count: 3700
-      watchers_count: 3700
-      open_issues_count: 417
+      stargazers_count: 3703
+      watchers_count: 3703
+      open_issues_count: 416
       forks_count: 329
       documentation: https://www.union.ai/pandera
       contrib_count: 30
-      last_commit: '2025-03-20'
+      last_commit: '2025-03-25'
   labels:
     - 6/pyOS-approved
   active: true
