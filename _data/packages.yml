@@ -89,11 +89,11 @@
       created_at: '2024-01-09'
       stargazers_count: 40
       watchers_count: 40
-      open_issues_count: 142
+      open_issues_count: 143
       forks_count: 12
       documentation: https://www.montepy.org/
       contrib_count: 4
-      last_commit: '2025-03-19'
+      last_commit: '2025-03-24'
   labels:
     - 6/pyOS-approved
     - 7/under-joss-review
@@ -136,13 +136,13 @@
       name: great-tables
       description: Make awesome display tables using Python
       created_at: '2022-05-06'
-      stargazers_count: 2153
-      watchers_count: 2153
-      open_issues_count: 108
+      stargazers_count: 2158
+      watchers_count: 2158
+      open_issues_count: 104
       forks_count: 86
       documentation: https://posit-dev.github.io/great-tables/
       contrib_count: 20
-      last_commit: '2025-03-21'
+      last_commit: '2025-03-24'
   labels:
     - 6/pyOS-approved
     - joss-submission-pending
@@ -193,8 +193,8 @@
       description: Anything can happen in the next half hour (including spectral
           timing made easy)!
       created_at: '2015-09-30'
-      stargazers_count: 192
-      watchers_count: 192
+      stargazers_count: 193
+      watchers_count: 193
       open_issues_count: 59
       forks_count: 158
       documentation: https://stingray.science/stingray
@@ -402,8 +402,8 @@
       name: pooltool
       description: A sandbox billiards game that emphasizes realistic physics
       created_at: '2020-04-09'
-      stargazers_count: 258
-      watchers_count: 258
+      stargazers_count: 259
+      watchers_count: 259
       open_issues_count: 2
       forks_count: 46
       documentation: https://pooltool.readthedocs.io
@@ -1165,8 +1165,8 @@
       name: astartes
       description: Better Data Splits for Machine Learning
       created_at: '2022-04-22'
-      stargazers_count: 77
-      watchers_count: 77
+      stargazers_count: 78
+      watchers_count: 78
       open_issues_count: 6
       forks_count: 4
       documentation: https://jacksonburns.github.io/astartes/
@@ -1286,7 +1286,7 @@
       forks_count: 32
       documentation: https://biocypher.org
       contrib_count: 17
-      last_commit: '2025-03-13'
+      last_commit: '2025-03-24'
   labels:
     - 6/pyOS-approved
   active: true
@@ -1576,7 +1576,7 @@
       created_at: '2018-07-27'
       stargazers_count: 353
       watchers_count: 353
-      open_issues_count: 54
+      open_issues_count: 57
       forks_count: 64
       documentation: https://xclim.readthedocs.io/en/stable/
       contrib_count: 30
@@ -1777,13 +1777,13 @@
       name: pygmt
       description: A Python interface for the Generic Mapping Tools.
       created_at: '2017-03-17'
-      stargazers_count: 789
-      watchers_count: 789
+      stargazers_count: 790
+      watchers_count: 790
       open_issues_count: 194
       forks_count: 228
       documentation: https://www.pygmt.org
       contrib_count: 30
-      last_commit: '2025-03-21'
+      last_commit: '2025-03-24'
   labels:
     - 6/pyOS-approved
   active: true
@@ -2063,7 +2063,7 @@
       stargazers_count: 140
       watchers_count: 140
       open_issues_count: 10
-      forks_count: 38
+      forks_count: 39
       documentation: https://pyrolite.readthedocs.io
       contrib_count: 14
       last_commit: '2024-10-29'
@@ -2106,8 +2106,8 @@
       name: movingpandas
       description: Movement trajectory classes and functions built on top of GeoPandas
       created_at: '2018-12-16'
-      stargazers_count: 1282
-      watchers_count: 1282
+      stargazers_count: 1283
+      watchers_count: 1283
       open_issues_count: 28
       forks_count: 197
       documentation: https://movingpandas.org
@@ -2155,8 +2155,8 @@
       created_at: '2018-11-01'
       stargazers_count: 3700
       watchers_count: 3700
-      open_issues_count: 416
-      forks_count: 328
+      open_issues_count: 417
+      forks_count: 329
       documentation: https://www.union.ai/pandera
       contrib_count: 30
       last_commit: '2025-03-20'
