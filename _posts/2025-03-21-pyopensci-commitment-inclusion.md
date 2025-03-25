@@ -46,7 +46,7 @@ Through mentorship, beginner-friendly events, and accessible resources, we activ
 
 Through mentorship and support, we carve out space for new reviewers, which includes those from historically underrepresented backgrounds in open source to contribute to peer review. Similarly, our beginner-friendly lessons and training events are co-developed with beginner-to-expert contributors to ensure the technical concepts are accessible to more people.
 
-**Inclusion invites everyone to the table**; it creates space for new contributors and supports existing community members. Inclusion creates opportunities for everyone to work together. Experienced contributors–and everyone in between–play crucial roles in sharing knowledge, shaping best practices, and ensuring our work remains relevant to the broader community.
+**Inclusion invites everyone to the table**; it creates space for new contributors and supports existing community members. Inclusion creates opportunities for everyone to work together. Together, we share knowledge, shape best practices, and ensure our work serves the broader community.
 
 <figure>
     <picture>
