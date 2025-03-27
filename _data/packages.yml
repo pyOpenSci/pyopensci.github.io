@@ -89,7 +89,7 @@
       created_at: '2024-01-09'
       stargazers_count: 40
       watchers_count: 40
-      open_issues_count: 145
+      open_issues_count: 144
       forks_count: 12
       documentation: https://www.montepy.org/
       contrib_count: 4
@@ -136,9 +136,9 @@
       name: great-tables
       description: Make awesome display tables using Python
       created_at: '2022-05-06'
-      stargazers_count: 2159
-      watchers_count: 2159
-      open_issues_count: 106
+      stargazers_count: 2158
+      watchers_count: 2158
+      open_issues_count: 107
       forks_count: 86
       documentation: https://posit-dev.github.io/great-tables/
       contrib_count: 20
@@ -356,7 +356,7 @@
       created_at: '2021-10-26'
       stargazers_count: 26
       watchers_count: 26
-      open_issues_count: 60
+      open_issues_count: 61
       forks_count: 14
       documentation: https://open-atmos.github.io/PyPartMC/
       contrib_count: 9
@@ -883,8 +883,8 @@
       name: sunpy
       description: SunPy - Python for Solar Physics
       created_at: '2011-08-06'
-      stargazers_count: 945
-      watchers_count: 945
+      stargazers_count: 946
+      watchers_count: 946
       open_issues_count: 297
       forks_count: 606
       documentation: https://www.sunpy.org
@@ -1073,9 +1073,9 @@
       description: Quickly search, compare, and analyze genomic and metagenomic
           data sets.
       created_at: '2016-04-09'
-      stargazers_count: 493
-      watchers_count: 493
-      open_issues_count: 784
+      stargazers_count: 494
+      watchers_count: 494
+      open_issues_count: 791
       forks_count: 80
       documentation: https://sourmash.readthedocs.io/en/latest/
       contrib_count: 30
@@ -1227,13 +1227,13 @@
       description: CompleX Group Interactions (XGI) is a Python package for higher-order
           networks.
       created_at: '2021-09-08'
-      stargazers_count: 201
-      watchers_count: 201
-      open_issues_count: 53
+      stargazers_count: 203
+      watchers_count: 203
+      open_issues_count: 52
       forks_count: 34
       documentation: https://xgi.readthedocs.io
       contrib_count: 18
-      last_commit: '2025-03-14'
+      last_commit: '2025-03-27'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1576,11 +1576,11 @@
       created_at: '2018-07-27'
       stargazers_count: 353
       watchers_count: 353
-      open_issues_count: 54
+      open_issues_count: 50
       forks_count: 64
       documentation: https://xclim.readthedocs.io/en/stable/
       contrib_count: 30
-      last_commit: '2025-03-26'
+      last_commit: '2025-03-27'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1779,11 +1779,11 @@
       created_at: '2017-03-17'
       stargazers_count: 790
       watchers_count: 790
-      open_issues_count: 191
+      open_issues_count: 192
       forks_count: 228
       documentation: https://www.pygmt.org
       contrib_count: 30
-      last_commit: '2025-03-25'
+      last_commit: '2025-03-27'
   labels:
     - 6/pyOS-approved
   active: true
@@ -2153,13 +2153,13 @@
       description: A light-weight, flexible, and expressive statistical data testing
           library
       created_at: '2018-11-01'
-      stargazers_count: 3705
-      watchers_count: 3705
-      open_issues_count: 416
-      forks_count: 329
+      stargazers_count: 3708
+      watchers_count: 3708
+      open_issues_count: 414
+      forks_count: 328
       documentation: https://www.union.ai/pandera
       contrib_count: 30
-      last_commit: '2025-03-25'
+      last_commit: '2025-03-27'
   labels:
     - 6/pyOS-approved
   active: true
