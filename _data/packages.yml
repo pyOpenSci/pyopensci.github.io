@@ -38,7 +38,7 @@
       stargazers_count: 16
       watchers_count: 16
       open_issues_count: 2
-      forks_count: 5
+      forks_count: 6
       documentation: https://dodge-research-group.github.io/thztools/
       contrib_count: 5
       last_commit: '2024-12-03'
@@ -89,11 +89,11 @@
       created_at: '2024-01-09'
       stargazers_count: 40
       watchers_count: 40
-      open_issues_count: 144
+      open_issues_count: 108
       forks_count: 12
       documentation: https://www.montepy.org/
-      contrib_count: 4
-      last_commit: '2025-03-24'
+      contrib_count: 5
+      last_commit: '2025-03-28'
   labels:
     - 6/pyOS-approved
     - 7/under-joss-review
@@ -136,9 +136,9 @@
       name: great-tables
       description: Make awesome display tables using Python
       created_at: '2022-05-06'
-      stargazers_count: 2158
-      watchers_count: 2158
-      open_issues_count: 107
+      stargazers_count: 2159
+      watchers_count: 2159
+      open_issues_count: 110
       forks_count: 86
       documentation: https://posit-dev.github.io/great-tables/
       contrib_count: 20
@@ -889,7 +889,7 @@
       forks_count: 606
       documentation: https://www.sunpy.org
       contrib_count: 30
-      last_commit: '2025-03-26'
+      last_commit: '2025-03-28'
   labels:
     - 6/pyOS-approved
   active: true
@@ -1233,7 +1233,7 @@
       forks_count: 34
       documentation: https://xgi.readthedocs.io
       contrib_count: 18
-      last_commit: '2025-03-27'
+      last_commit: '2025-03-28'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1777,8 +1777,8 @@
       name: pygmt
       description: A Python interface for the Generic Mapping Tools.
       created_at: '2017-03-17'
-      stargazers_count: 790
-      watchers_count: 790
+      stargazers_count: 789
+      watchers_count: 789
       open_issues_count: 192
       forks_count: 228
       documentation: https://www.pygmt.org
@@ -2153,8 +2153,8 @@
       description: A light-weight, flexible, and expressive statistical data testing
           library
       created_at: '2018-11-01'
-      stargazers_count: 3708
-      watchers_count: 3708
+      stargazers_count: 3710
+      watchers_count: 3710
       open_issues_count: 414
       forks_count: 328
       documentation: https://www.union.ai/pandera
