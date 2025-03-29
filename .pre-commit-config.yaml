@@ -12,7 +12,7 @@
 # - Register git hooks: pre-commit install --install-hooks
 
 ci:
-  autofix_prs: false
+  autofix_prs: true
   #skip: [flake8, end-of-file-fixer]
   autofix_commit_msg: |
     '[pre-commit.ci 🤖] Apply code format tools to PR'
