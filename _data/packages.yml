@@ -37,7 +37,7 @@
       created_at: '2022-11-22'
       stargazers_count: 16
       watchers_count: 16
-      open_issues_count: 4
+      open_issues_count: 3
       forks_count: 9
       documentation: https://dodge-research-group.github.io/thztools/
       contrib_count: 5
@@ -93,7 +93,7 @@
       forks_count: 13
       documentation: https://www.montepy.org/
       contrib_count: 5
-      last_commit: '2025-04-07'
+      last_commit: '2025-04-09'
   labels:
     - 6/pyOS-approved
     - 7/under-joss-review
@@ -136,9 +136,9 @@
       name: great-tables
       description: Make awesome display tables using Python
       created_at: '2022-05-06'
-      stargazers_count: 2176
-      watchers_count: 2176
-      open_issues_count: 115
+      stargazers_count: 2177
+      watchers_count: 2177
+      open_issues_count: 116
       forks_count: 86
       documentation: https://posit-dev.github.io/great-tables/
       contrib_count: 20
@@ -405,7 +405,7 @@
       stargazers_count: 261
       watchers_count: 261
       open_issues_count: 2
-      forks_count: 47
+      forks_count: 46
       documentation: https://pooltool.readthedocs.io
       contrib_count: 8
       last_commit: '2025-03-31'
@@ -506,8 +506,8 @@
     - astropy
   gh_meta:
       name: zodipy
-      description: 'Astropy-affiliated package for zodiacal light simulations. Maintainer:
-          @metinsa'
+      description: 'Astropy-affiliated package for zodiacal light simulations. Maintainers:
+          @metinsa, @hermda02, @dncnwtts'
       created_at: '2021-08-11'
       stargazers_count: 11
       watchers_count: 11
@@ -515,7 +515,7 @@
       forks_count: 10
       documentation: https://cosmoglobe.github.io/zodipy/
       contrib_count: 8
-      last_commit: '2025-04-09'
+      last_commit: '2025-04-10'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -883,8 +883,8 @@
       name: sunpy
       description: SunPy - Python for Solar Physics
       created_at: '2011-08-06'
-      stargazers_count: 950
-      watchers_count: 950
+      stargazers_count: 949
+      watchers_count: 949
       open_issues_count: 298
       forks_count: 605
       documentation: https://www.sunpy.org
@@ -978,7 +978,7 @@
       created_at: '2018-07-02'
       stargazers_count: 53
       watchers_count: 53
-      open_issues_count: 6
+      open_issues_count: 7
       forks_count: 3
       documentation: https://rdata.readthedocs.io
       contrib_count: 2
@@ -1024,7 +1024,7 @@
       created_at: '2021-09-27'
       stargazers_count: 349
       watchers_count: 349
-      open_issues_count: 18
+      open_issues_count: 19
       forks_count: 27
       documentation: https://eomaps.readthedocs.io/
       contrib_count: 9
@@ -1075,7 +1075,7 @@
       created_at: '2016-04-09'
       stargazers_count: 498
       watchers_count: 498
-      open_issues_count: 793
+      open_issues_count: 794
       forks_count: 82
       documentation: https://sourmash.readthedocs.io/en/latest/
       contrib_count: 30
@@ -1576,7 +1576,7 @@
       created_at: '2018-07-27'
       stargazers_count: 353
       watchers_count: 353
-      open_issues_count: 53
+      open_issues_count: 54
       forks_count: 64
       documentation: https://xclim.readthedocs.io/en/stable/
       contrib_count: 30
@@ -1779,11 +1779,11 @@
       created_at: '2017-03-17'
       stargazers_count: 792
       watchers_count: 792
-      open_issues_count: 191
+      open_issues_count: 192
       forks_count: 228
       documentation: https://www.pygmt.org
       contrib_count: 30
-      last_commit: '2025-04-08'
+      last_commit: '2025-04-10'
   labels:
     - 6/pyOS-approved
   active: true
@@ -1876,7 +1876,7 @@
       stargazers_count: 32
       watchers_count: 32
       open_issues_count: 23
-      forks_count: 12
+      forks_count: 11
       documentation: https://openomics.readthedocs.io/en/latest/
       contrib_count: 8
       last_commit: '2024-05-15'
@@ -2106,8 +2106,8 @@
       name: movingpandas
       description: Movement trajectory classes and functions built on top of GeoPandas
       created_at: '2018-12-16'
-      stargazers_count: 1288
-      watchers_count: 1288
+      stargazers_count: 1291
+      watchers_count: 1291
       open_issues_count: 27
       forks_count: 197
       documentation: https://movingpandas.org
@@ -2153,9 +2153,9 @@
       description: A light-weight, flexible, and expressive statistical data testing
           library
       created_at: '2018-11-01'
-      stargazers_count: 3739
-      watchers_count: 3739
-      open_issues_count: 414
+      stargazers_count: 3741
+      watchers_count: 3741
+      open_issues_count: 415
       forks_count: 329
       documentation: https://www.union.ai/pandera
       contrib_count: 30
