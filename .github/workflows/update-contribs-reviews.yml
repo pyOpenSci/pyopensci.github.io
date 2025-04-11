@@ -42,6 +42,8 @@ jobs:
           commit-message: "Update: Contributor & review file update"
           delete-branch: true
           title: Update contributor and review data
+          labels: |
+            pre-commit.ci autofix
         env:
           # Custom token needed to trigger PR checks, as GITHUB_TOKEN won't
           # https://github.com/peter-evans/create-pull-request/blob/main/docs/concepts-guidelines.md#triggering-further-workflow-runs
