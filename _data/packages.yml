@@ -87,8 +87,8 @@
       description: MontePy is the most user friendly Python library (API) to read,
           edit, and write MCNP input files.
       created_at: '2024-01-09'
-      stargazers_count: 40
-      watchers_count: 40
+      stargazers_count: 41
+      watchers_count: 41
       open_issues_count: 114
       forks_count: 13
       documentation: https://www.montepy.org/
@@ -136,10 +136,10 @@
       name: great-tables
       description: Make awesome display tables using Python
       created_at: '2022-05-06'
-      stargazers_count: 2177
-      watchers_count: 2177
+      stargazers_count: 2183
+      watchers_count: 2183
       open_issues_count: 117
-      forks_count: 87
+      forks_count: 88
       documentation: https://posit-dev.github.io/great-tables/
       contrib_count: 20
       last_commit: '2025-03-24'
@@ -196,7 +196,7 @@
       stargazers_count: 194
       watchers_count: 194
       open_issues_count: 68
-      forks_count: 162
+      forks_count: 163
       documentation: https://stingray.science/stingray
       contrib_count: 30
       last_commit: '2025-04-08'
@@ -354,8 +354,8 @@
       description: Python (and C++) interface to PartMC with Jupyter/Python, Julia
           and Matlab examples
       created_at: '2021-10-26'
-      stargazers_count: 26
-      watchers_count: 26
+      stargazers_count: 27
+      watchers_count: 27
       open_issues_count: 62
       forks_count: 14
       documentation: https://open-atmos.github.io/PyPartMC/
@@ -883,8 +883,8 @@
       name: sunpy
       description: SunPy - Python for Solar Physics
       created_at: '2011-08-06'
-      stargazers_count: 949
-      watchers_count: 949
+      stargazers_count: 951
+      watchers_count: 951
       open_issues_count: 298
       forks_count: 605
       documentation: https://www.sunpy.org
@@ -978,11 +978,11 @@
       created_at: '2018-07-02'
       stargazers_count: 53
       watchers_count: 53
-      open_issues_count: 7
+      open_issues_count: 6
       forks_count: 3
       documentation: https://rdata.readthedocs.io
       contrib_count: 2
-      last_commit: '2025-03-12'
+      last_commit: '2025-04-12'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1022,8 +1022,8 @@
       name: EOmaps
       description: A library to create interactive maps of geographical datasets
       created_at: '2021-09-27'
-      stargazers_count: 349
-      watchers_count: 349
+      stargazers_count: 350
+      watchers_count: 350
       open_issues_count: 19
       forks_count: 27
       documentation: https://eomaps.readthedocs.io/
@@ -1073,9 +1073,9 @@
       description: Quickly search, compare, and analyze genomic and metagenomic
           data sets.
       created_at: '2016-04-09'
-      stargazers_count: 500
-      watchers_count: 500
-      open_issues_count: 791
+      stargazers_count: 501
+      watchers_count: 501
+      open_issues_count: 793
       forks_count: 82
       documentation: https://sourmash.readthedocs.io/en/latest/
       contrib_count: 30
@@ -1227,8 +1227,8 @@
       description: CompleX Group Interactions (XGI) is a Python package for higher-order
           networks.
       created_at: '2021-09-08'
-      stargazers_count: 206
-      watchers_count: 206
+      stargazers_count: 207
+      watchers_count: 207
       open_issues_count: 52
       forks_count: 34
       documentation: https://xgi.readthedocs.io
@@ -2060,8 +2060,8 @@
       name: pyrolite
       description: A set of tools for getting the most from your geochemical data.
       created_at: '2018-06-13'
-      stargazers_count: 141
-      watchers_count: 141
+      stargazers_count: 142
+      watchers_count: 142
       open_issues_count: 10
       forks_count: 39
       documentation: https://pyrolite.readthedocs.io
@@ -2108,8 +2108,8 @@
       created_at: '2018-12-16'
       stargazers_count: 1292
       watchers_count: 1292
-      open_issues_count: 27
-      forks_count: 198
+      open_issues_count: 28
+      forks_count: 199
       documentation: https://movingpandas.org
       contrib_count: 30
       last_commit: '2025-04-05'
@@ -2153,9 +2153,9 @@
       description: A light-weight, flexible, and expressive statistical data testing
           library
       created_at: '2018-11-01'
-      stargazers_count: 3746
-      watchers_count: 3746
-      open_issues_count: 417
+      stargazers_count: 3747
+      watchers_count: 3747
+      open_issues_count: 418
       forks_count: 329
       documentation: https://www.union.ai/pandera
       contrib_count: 30
@@ -2255,8 +2255,8 @@
       description: A package built to support working with spatial data using open
           source python
       created_at: '2018-02-20'
-      stargazers_count: 514
-      watchers_count: 514
+      stargazers_count: 515
+      watchers_count: 515
       open_issues_count: 42
       forks_count: 162
       documentation: https://earthpy.readthedocs.io
