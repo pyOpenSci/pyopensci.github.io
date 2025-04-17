@@ -11,7 +11,7 @@ header:
   overlay_filter: 0.7
   actions:
     - label: "Submit a Package For Review"
-      url: "https://github.com/pyOpenSci/software-review/issues"
+      url: "https://www.pyopensci.org/how-to-submit-a-package-to-pyopensci.html"
     - label: "Learn How to Create a Package"
       url: "https://www.pyopensci.org/python-package-guide/tutorials/installable-code.html"
 mission:
