@@ -10,10 +10,10 @@ header:
   overlay_image: /images/headers/pyopensci-sprints.png
   overlay_filter: 0.7
   actions:
-    - label: "Submit a Package"
+    - label: "Submit a Package For Review"
       url: "https://github.com/pyOpenSci/software-review/issues"
-    - label: "Read our Peer Review Guide"
-      url: "https://www.pyopensci.org/software-peer-review/"
+    - label: "Learn How to Create a Package"
+      url: "https://www.pyopensci.org/python-package-guide/tutorials/installable-code.html"
 mission:
   - excerpt: "pyOpenSci broadens participation in scientific open source by breaking down social and technical barriers. Join our global community."
 peer-review:
