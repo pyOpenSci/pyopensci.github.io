@@ -21,10 +21,10 @@ comments: true
 Open Source Voices: *A community call for learning, sharing, and growing together*
 
 * **When:** Monday, 5 May 2025 @ 10 am Mountain Time [(click this link to find the time and date in your timezone)](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Open+Source+Voices%3A+pyOpenSci+Contribute+Week&iso=20250505T10&p1=75&ah=1)
-* **Where:** Online via Google Meet
+* **Where:** Online via Google Meet (Register for link)
 * **Speaker:** Pavithra Eswaramoorthy, Developer Advocate, Quansight
 
-[<i class="fa-regular fa-circle-right"></i> Register here](){: .btn .btn--success .text-center }
+[<i class="fa-regular fa-circle-right"></i> Register here](https://bit.ly/pyos-contribute){: .btn .btn--success .text-center }
 
 <figure class="align-center">
     <picture>
@@ -36,9 +36,9 @@ Open Source Voices: *A community call for learning, sharing, and growing togethe
 We’re kicking off the week with a special Open Source Voices session! Pavithra will share her open source journey and what helped her grow in the open source world.
 
 ### Right Time, Right Community: My OSS Journey
-Pavithra Eswaramoorthy, Developer Advocate, Quansight
 
 Pavithra Eswaramoorthy is a Developer Advocate at Quansight, where she works to improve the developer experience and community engagement for several open source projects in the PyData community. She has been involved in the open source community for over five years. Currently, she is part of the core team for the Bokeh visualization library and Nebari (JupyterHub-based data science platform).  In her spare time, she enjoys a good book and hot coffee.
 
 ## All are welcome
-We welcome anyone and everyone to join and learn more about contributing to open source. This is a space for learning, questions, and community. Come and listen, get inspired, and meet others who are learning about open source. Then stick around for an introduction to our contribute to open source online learning week.
+
+We welcome anyone and everyone to join and learn more about contributing to open source. This is a space for learning, questions, and community. Come and listen, get inspired, and meet others learning about open source.
