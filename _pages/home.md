@@ -12,7 +12,7 @@ header:
   actions:
     - label: "Submit a Package For Review"
       url: "https://www.pyopensci.org/how-to-submit-a-package-to-pyopensci.html"
-    - label: "Learn How to Create a Package"
+    - label: "Learn to Create a Python Package"
       url: "https://www.pyopensci.org/python-package-guide/tutorials/installable-code.html"
 mission:
   - excerpt: "pyOpenSci broadens participation in scientific open source by breaking down social and technical barriers. Join our global community."
