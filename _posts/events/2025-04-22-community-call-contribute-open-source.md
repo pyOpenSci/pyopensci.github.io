@@ -20,7 +20,7 @@ comments: true
 ## <i class="fa-regular fa-heart"></i> Join us for a talk on contributing to open source!
 Open Source Voices: *A community call for learning, sharing, and growing together*
 
-* **When:** Monday, 5 May 2025 @ 10 am Mountain Time [(click this link to find the time and date in your timezone)](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Open+Source+Voices%3A+pyOpenSci+Contribute+Week&iso=20250505T10&p1=75&ah=1)
+* **When:** Monday, 5 May 2025 @ 10:00-10:50 AM Mountain Time [(click this link to find the time and date in your timezone)](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Open+Source+Voices%3A+pyOpenSci+Contribute+Week&iso=20250505T10&p1=75&ah=1)
 * **Where:** Online via Google Meet (Register for link)
 * **Speaker:** Pavithra Eswaramoorthy, Developer Advocate, Quansight
 
