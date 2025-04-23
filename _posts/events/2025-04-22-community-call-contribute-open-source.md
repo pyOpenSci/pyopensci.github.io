@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "pyOpenSci Community Call 5 May 2025 @ 10 am Mountain Time: Right Time, Right Community: My OSS Journey"
-excerpt: "Join pyOpenSci for a special Open Source Voices session! Learn about Pavritha's open source journey and what helped her grow into a contributor and maintainer in the open source world."
+excerpt: "Join pyOpenSci for a special Open Source Voices session! Learn about Pavithra's open source journey and what helped her grow into a contributor and maintainer in the open source world."
 author: "pyopensci"
 event:
   start_date: "2025-05-05"
@@ -28,8 +28,8 @@ Open Source Voices: *A community call for learning, sharing, and growing togethe
 
 <figure class="align-center">
     <picture>
-    <source srcset="/images/events/community-call-pavritha-may-2025.webp" type="image/webp">
-    <img src="/images/events/community-call-pavritha-may-2025.png" alt="An image of Pavritha wearing a dark shirt and looking to the side. She has dark curly hair and is smiling.">
+    <source srcset="/images/events/community-call-pavithra-may-2025.webp" type="image/webp">
+    <img src="/images/events/community-call-pavithra-may-2025.png" alt="An image of Pavithra wearing a dark shirt and looking to the side. She has dark curly hair and is smiling.">
     </picture>
 </figure>
 
