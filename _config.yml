@@ -113,8 +113,8 @@ analytics:
 # Site Author
 author:
   name: "pyOpenSci"
-  avatar: "/images/logo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "pyOpenSci promotes open and reproducible research through peer-review of well-documented and tested scientific Python packages."
+  avatar: "/images/people/pyopensc-executive-council.png" # circle pyos logo
+  bio: "We make it easier for scientists to create, find, maintain, and contribute to reusable code and software."
   location: "Global"
   email:
   links:
@@ -123,7 +123,8 @@ author:
       # url: mailto:your.name@email.com
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/pyopensci"
+      # /images/people/pyopensc-executive-council.png"
     - label: "Bluesky"
       icon: "fa-solid fa-cloud"
       # url: "https://bluesky.com/"
@@ -133,6 +134,9 @@ author:
     - label: "LinkedIn"
       icon: "fa-brands fa-linkedin"
       # url: "https://linkedin.com/"
+    - label: "Discord"
+      icon: "fa-brands fa-discord"
+      url: "https://discord.gg/yYyDFP2BcP"
 
 
 
@@ -147,12 +151,15 @@ footer:
     - label: "Bluesky"
       icon: "fa-solid fa-cloud"
       url: https://bsky.app/profile/pyopensci.bsky.social
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: https://github.com/pyOpenSci
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: https://www.linkedin.com/company/pyopensci
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: https://github.com/pyOpenSci
+    - label: "Discord"
+      icon: "fa-brands fa-discord"
+      url: "https://discord.gg/yYyDFP2BcP"
     - label: "Discourse"
       icon: "fa-brands fa-discourse"
       url: "https://pyopensci.discourse.group/"

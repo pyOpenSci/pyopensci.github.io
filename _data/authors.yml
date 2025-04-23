@@ -1,6 +1,31 @@
+pyopensci:
+  name        : "pyOpenSci"
+  bio         : "We make it easier for scientists to create, find, maintain, and contribute to reusable code and software."
+  avatar      : "/images/people/pyopensc-executive-council.png"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:admin@pyopensci.org"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.pyopensci.org"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/pyopensci"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/company/pyopensci/"
+    - label: "Mastodon"
+      icon: "fab fa-fw fa-mastodon"
+      url: "https://fosstodon.org/@pyopensci"
+    - label: "Discord"
+      icon: "fab fa-fw fa-discord"
+      url: "https://discord.gg/yYyDFP2BcP"
+
+
 Executive Council:
   name        : "pyOpenSci Executive Council"
-  bio         : "We broaden in scientific open source by breaking down social and technical barriers"
+  bio         : "We make it easier for scientists to create, find, maintain, and contribute to reusable code and software."
   avatar      : "/images/people/pyopensc-executive-council.png"
   links:
     - label: "Email"
