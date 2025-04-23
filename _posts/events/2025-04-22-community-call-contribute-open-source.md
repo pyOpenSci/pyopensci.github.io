@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "pyOpenSci Community Call 5 May 2025 @ 10 am Mountain Time: Right Time, Right Community: My OSS Journey"
-excerpt: "We’re kicking off a special contribute to open source with a special Open Source Voices session! Pavritha will share her open source journey and what helped her grow in the open source world."
+excerpt: "Join pyOpenSci for a special Open Source Voices session! Learn about Pavritha's open source journey and what helped her grow into a contributor and maintainer in the open source world."
 author: "pyopensci"
 event:
   start_date: "2025-05-05"
