@@ -136,13 +136,13 @@
       name: great-tables
       description: Make awesome display tables using Python
       created_at: '2022-05-06'
-      stargazers_count: 2211
-      watchers_count: 2211
-      open_issues_count: 120
+      stargazers_count: 2219
+      watchers_count: 2219
+      open_issues_count: 122
       forks_count: 91
       documentation: https://posit-dev.github.io/great-tables/
-      contrib_count: 20
-      last_commit: '2025-04-16'
+      contrib_count: 21
+      last_commit: '2025-04-28'
   labels:
     - 6/pyOS-approved
     - joss-submission-pending
@@ -195,8 +195,8 @@
       created_at: '2015-09-30'
       stargazers_count: 195
       watchers_count: 195
-      open_issues_count: 73
-      forks_count: 164
+      open_issues_count: 74
+      forks_count: 165
       documentation: https://stingray.science/stingray
       contrib_count: 30
       last_commit: '2025-04-08'
@@ -356,11 +356,11 @@
       created_at: '2021-10-26'
       stargazers_count: 27
       watchers_count: 27
-      open_issues_count: 60
+      open_issues_count: 59
       forks_count: 14
       documentation: https://open-atmos.github.io/PyPartMC/
       contrib_count: 9
-      last_commit: '2025-04-24'
+      last_commit: '2025-04-27'
   labels:
     - 6/pyOS-approved
   active: true
@@ -402,13 +402,13 @@
       name: pooltool
       description: A sandbox billiards game that emphasizes realistic physics
       created_at: '2020-04-09'
-      stargazers_count: 264
-      watchers_count: 264
-      open_issues_count: 2
+      stargazers_count: 263
+      watchers_count: 263
+      open_issues_count: 1
       forks_count: 46
       documentation: https://pooltool.readthedocs.io
       contrib_count: 8
-      last_commit: '2025-03-31'
+      last_commit: '2025-04-26'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -511,7 +511,7 @@
       created_at: '2021-08-11'
       stargazers_count: 11
       watchers_count: 11
-      open_issues_count: 2
+      open_issues_count: 1
       forks_count: 10
       documentation: https://cosmoglobe.github.io/zodipy/
       contrib_count: 8
@@ -883,10 +883,10 @@
       name: sunpy
       description: SunPy - Python for Solar Physics
       created_at: '2011-08-06'
-      stargazers_count: 949
-      watchers_count: 949
-      open_issues_count: 297
-      forks_count: 605
+      stargazers_count: 951
+      watchers_count: 951
+      open_issues_count: 298
+      forks_count: 606
       documentation: https://www.sunpy.org
       contrib_count: 30
       last_commit: '2025-04-17'
@@ -1022,8 +1022,8 @@
       name: EOmaps
       description: A library to create interactive maps of geographical datasets
       created_at: '2021-09-27'
-      stargazers_count: 350
-      watchers_count: 350
+      stargazers_count: 351
+      watchers_count: 351
       open_issues_count: 19
       forks_count: 27
       documentation: https://eomaps.readthedocs.io/
@@ -1073,13 +1073,13 @@
       description: Quickly search, compare, and analyze genomic and metagenomic
           data sets.
       created_at: '2016-04-09'
-      stargazers_count: 502
-      watchers_count: 502
+      stargazers_count: 503
+      watchers_count: 503
       open_issues_count: 796
       forks_count: 83
       documentation: https://sourmash.readthedocs.io/en/latest/
       contrib_count: 30
-      last_commit: '2025-04-21'
+      last_commit: '2025-04-29'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1280,8 +1280,8 @@
       name: biocypher
       description: A unifying framework for biomedical research knowledge graphs
       created_at: '2021-09-10'
-      stargazers_count: 247
-      watchers_count: 247
+      stargazers_count: 249
+      watchers_count: 249
       open_issues_count: 182
       forks_count: 35
       documentation: https://biocypher.org
@@ -1576,11 +1576,11 @@
       created_at: '2018-07-27'
       stargazers_count: 354
       watchers_count: 354
-      open_issues_count: 57
+      open_issues_count: 55
       forks_count: 65
       documentation: https://xclim.readthedocs.io/en/stable/
       contrib_count: 30
-      last_commit: '2025-04-22'
+      last_commit: '2025-04-29'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1777,13 +1777,13 @@
       name: pygmt
       description: A Python interface for the Generic Mapping Tools.
       created_at: '2017-03-17'
-      stargazers_count: 796
-      watchers_count: 796
-      open_issues_count: 189
-      forks_count: 228
+      stargazers_count: 797
+      watchers_count: 797
+      open_issues_count: 188
+      forks_count: 229
       documentation: https://www.pygmt.org
       contrib_count: 30
-      last_commit: '2025-04-25'
+      last_commit: '2025-04-29'
   labels:
     - 6/pyOS-approved
   active: true
@@ -2060,8 +2060,8 @@
       name: pyrolite
       description: A set of tools for getting the most from your geochemical data.
       created_at: '2018-06-13'
-      stargazers_count: 144
-      watchers_count: 144
+      stargazers_count: 143
+      watchers_count: 143
       open_issues_count: 10
       forks_count: 39
       documentation: https://pyrolite.readthedocs.io
@@ -2106,13 +2106,13 @@
       name: movingpandas
       description: Movement trajectory classes and functions built on top of GeoPandas
       created_at: '2018-12-16'
-      stargazers_count: 1295
-      watchers_count: 1295
-      open_issues_count: 30
+      stargazers_count: 1297
+      watchers_count: 1297
+      open_issues_count: 28
       forks_count: 200
       documentation: https://movingpandas.org
       contrib_count: 30
-      last_commit: '2025-04-21'
+      last_commit: '2025-04-27'
   labels:
     - 6/pyOS-approved
   active: true
@@ -2153,13 +2153,13 @@
       description: A light-weight, flexible, and expressive statistical data testing
           library
       created_at: '2018-11-01'
-      stargazers_count: 3767
-      watchers_count: 3767
-      open_issues_count: 416
-      forks_count: 331
+      stargazers_count: 3771
+      watchers_count: 3771
+      open_issues_count: 419
+      forks_count: 332
       documentation: https://www.union.ai/pandera
       contrib_count: 30
-      last_commit: '2025-04-25'
+      last_commit: '2025-04-29'
   labels:
     - 6/pyOS-approved
   active: true
@@ -2255,8 +2255,8 @@
       description: A package built to support working with spatial data using open
           source python
       created_at: '2018-02-20'
-      stargazers_count: 515
-      watchers_count: 515
+      stargazers_count: 517
+      watchers_count: 517
       open_issues_count: 42
       forks_count: 162
       documentation: https://earthpy.readthedocs.io
