@@ -74,29 +74,29 @@
     - name: Joanna Piper Morgan
       github_username: jpmorgan98
   archive: https://doi.org/10.11578/dc.20240115.1
-  version_accepted: TBD
-  date_accepted: missing
+  version_accepted: 0.5.5
+  date_accepted: '2025-03-19'
   created_at: 2024-07-01 21:04:05+00:00
-  updated_at: 2025-03-20 20:20:06+00:00
-  closed_at:
+  updated_at: 2025-05-01 20:03:34+00:00
+  closed_at: 2025-04-30 19:12:35+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/205
-  joss:
+  joss: https://joss.theoj.org/papers/10.21105/joss.07951
   partners:
   gh_meta:
       name: MontePy
       description: MontePy is the most user friendly Python library (API) to read,
           edit, and write MCNP input files.
       created_at: '2024-01-09'
-      stargazers_count: 41
-      watchers_count: 41
-      open_issues_count: 117
+      stargazers_count: 42
+      watchers_count: 42
+      open_issues_count: 118
       forks_count: 13
       documentation: https://www.montepy.org/
       contrib_count: 5
       last_commit: '2025-04-15'
   labels:
     - 6/pyOS-approved
-    - 7/under-joss-review
+    - 9/joss-approved
   active: true
 - package_name: Great Tables
   package_description: Make awesome display tables using Python.
@@ -123,11 +123,11 @@
       github_username: cjbassin
     - name: Guillaume Lemaitre
       github_username: glemaitre
-  archive: https://github.com/posit-dev/great-tables/releases/tag/v0.14.0
+  archive: https://doi.org/10.5281/zenodo.15312934
   version_accepted: v0.14.0
   date_accepted: '2025-01-03'
   created_at: 2024-06-14 19:55:59+00:00
-  updated_at: 2025-02-21 14:40:26+00:00
+  updated_at: 2025-04-30 21:09:27+00:00
   closed_at:
   issue_link: https://github.com/pyOpenSci/software-submission/issues/202
   joss:
@@ -138,7 +138,7 @@
       created_at: '2022-05-06'
       stargazers_count: 2219
       watchers_count: 2219
-      open_issues_count: 122
+      open_issues_count: 123
       forks_count: 91
       documentation: https://posit-dev.github.io/great-tables/
       contrib_count: 21
@@ -402,10 +402,10 @@
       name: pooltool
       description: A sandbox billiards game that emphasizes realistic physics
       created_at: '2020-04-09'
-      stargazers_count: 263
-      watchers_count: 263
+      stargazers_count: 264
+      watchers_count: 264
       open_issues_count: 1
-      forks_count: 46
+      forks_count: 45
       documentation: https://pooltool.readthedocs.io
       contrib_count: 8
       last_commit: '2025-04-26'
@@ -762,8 +762,8 @@
       description: A Python library for simulating finite automata, pushdown automata,
           and Turing machines
       created_at: '2016-02-16'
-      stargazers_count: 379
-      watchers_count: 379
+      stargazers_count: 380
+      watchers_count: 380
       open_issues_count: 17
       forks_count: 68
       documentation: https://caleb531.github.io/automata/
@@ -815,7 +815,7 @@
       forks_count: 1
       documentation: https://pypi.org/project/sleplet
       contrib_count: 5
-      last_commit: '2025-04-03'
+      last_commit: '2025-05-01'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -885,11 +885,11 @@
       created_at: '2011-08-06'
       stargazers_count: 951
       watchers_count: 951
-      open_issues_count: 298
-      forks_count: 606
+      open_issues_count: 296
+      forks_count: 607
       documentation: https://www.sunpy.org
       contrib_count: 30
-      last_commit: '2025-04-17'
+      last_commit: '2025-05-01'
   labels:
     - 6/pyOS-approved
   active: true
@@ -1073,9 +1073,9 @@
       description: Quickly search, compare, and analyze genomic and metagenomic
           data sets.
       created_at: '2016-04-09'
-      stargazers_count: 503
-      watchers_count: 503
-      open_issues_count: 796
+      stargazers_count: 504
+      watchers_count: 504
+      open_issues_count: 798
       forks_count: 83
       documentation: https://sourmash.readthedocs.io/en/latest/
       contrib_count: 30
@@ -1229,7 +1229,7 @@
       created_at: '2021-09-08'
       stargazers_count: 209
       watchers_count: 209
-      open_issues_count: 51
+      open_issues_count: 52
       forks_count: 36
       documentation: https://xgi.readthedocs.io
       contrib_count: 18
@@ -1282,8 +1282,8 @@
       created_at: '2021-09-10'
       stargazers_count: 249
       watchers_count: 249
-      open_issues_count: 182
-      forks_count: 35
+      open_issues_count: 183
+      forks_count: 36
       documentation: https://biocypher.org
       contrib_count: 18
       last_commit: '2025-04-01'
@@ -1523,8 +1523,8 @@
       description: 'Python library for GraphBLAS: high-performance sparse linear
           algebra for scalable graph analytics'
       created_at: '2019-11-11'
-      stargazers_count: 132
-      watchers_count: 132
+      stargazers_count: 133
+      watchers_count: 133
       open_issues_count: 60
       forks_count: 15
       documentation: https://python-graphblas.readthedocs.io/en/stable/
@@ -1779,11 +1779,11 @@
       created_at: '2017-03-17'
       stargazers_count: 797
       watchers_count: 797
-      open_issues_count: 188
+      open_issues_count: 187
       forks_count: 229
       documentation: https://www.pygmt.org
       contrib_count: 30
-      last_commit: '2025-04-29'
+      last_commit: '2025-04-30'
   labels:
     - 6/pyOS-approved
   active: true
@@ -2153,13 +2153,13 @@
       description: A light-weight, flexible, and expressive statistical data testing
           library
       created_at: '2018-11-01'
-      stargazers_count: 3771
-      watchers_count: 3771
-      open_issues_count: 419
-      forks_count: 332
+      stargazers_count: 3775
+      watchers_count: 3775
+      open_issues_count: 420
+      forks_count: 333
       documentation: https://www.union.ai/pandera
       contrib_count: 30
-      last_commit: '2025-04-29'
+      last_commit: '2025-04-30'
   labels:
     - 6/pyOS-approved
   active: true
@@ -2255,8 +2255,8 @@
       description: A package built to support working with spatial data using open
           source python
       created_at: '2018-02-20'
-      stargazers_count: 517
-      watchers_count: 517
+      stargazers_count: 518
+      watchers_count: 518
       open_issues_count: 42
       forks_count: 162
       documentation: https://earthpy.readthedocs.io
