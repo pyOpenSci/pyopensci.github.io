@@ -73,11 +73,11 @@
       github_username: munkm
     - name: Joanna Piper Morgan
       github_username: jpmorgan98
-  archive: https://doi.org/10.11578/dc.20240115.1
+  archive: https://doi.org/10.5281/zenodo.15185600
   version_accepted: 0.5.5
   date_accepted: '2025-03-19'
   created_at: 2024-07-01 21:04:05+00:00
-  updated_at: 2025-05-01 20:03:34+00:00
+  updated_at: 2025-05-02 15:54:58+00:00
   closed_at: 2025-04-30 19:12:35+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/205
   joss: https://joss.theoj.org/papers/10.21105/joss.07951
@@ -136,8 +136,8 @@
       name: great-tables
       description: Make awesome display tables using Python
       created_at: '2022-05-06'
-      stargazers_count: 2219
-      watchers_count: 2219
+      stargazers_count: 2221
+      watchers_count: 2221
       open_issues_count: 123
       forks_count: 91
       documentation: https://posit-dev.github.io/great-tables/
@@ -601,8 +601,8 @@
   version_accepted: '[v0.6.0](https://github.com/PetroFit/petrofit/releases/tag/v0.6.0)'
   date_accepted: '2025-02-28'
   created_at: 2024-02-16 22:46:47+00:00
-  updated_at: 2025-03-03 23:41:20+00:00
-  closed_at:
+  updated_at: 2025-05-02 11:04:54+00:00
+  closed_at: 2025-05-02 11:04:53+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/159
   joss:
   partners:
@@ -933,7 +933,7 @@
       created_at: '2023-08-17'
       stargazers_count: 26
       watchers_count: 26
-      open_issues_count: 3
+      open_issues_count: 4
       forks_count: 10
       documentation: https://ncompare.readthedocs.io
       contrib_count: 7
@@ -1075,11 +1075,11 @@
       created_at: '2016-04-09'
       stargazers_count: 504
       watchers_count: 504
-      open_issues_count: 798
+      open_issues_count: 797
       forks_count: 83
       documentation: https://sourmash.readthedocs.io/en/latest/
       contrib_count: 30
-      last_commit: '2025-04-29'
+      last_commit: '2025-05-01'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1229,7 +1229,7 @@
       created_at: '2021-09-08'
       stargazers_count: 209
       watchers_count: 209
-      open_issues_count: 52
+      open_issues_count: 53
       forks_count: 36
       documentation: https://xgi.readthedocs.io
       contrib_count: 18
@@ -1282,11 +1282,11 @@
       created_at: '2021-09-10'
       stargazers_count: 249
       watchers_count: 249
-      open_issues_count: 183
+      open_issues_count: 182
       forks_count: 36
       documentation: https://biocypher.org
       contrib_count: 18
-      last_commit: '2025-04-01'
+      last_commit: '2025-05-02'
   labels:
     - 6/pyOS-approved
   active: true
@@ -1779,11 +1779,11 @@
       created_at: '2017-03-17'
       stargazers_count: 797
       watchers_count: 797
-      open_issues_count: 187
+      open_issues_count: 186
       forks_count: 229
       documentation: https://www.pygmt.org
       contrib_count: 30
-      last_commit: '2025-04-30'
+      last_commit: '2025-05-02'
   labels:
     - 6/pyOS-approved
   active: true
@@ -2106,8 +2106,8 @@
       name: movingpandas
       description: Movement trajectory classes and functions built on top of GeoPandas
       created_at: '2018-12-16'
-      stargazers_count: 1297
-      watchers_count: 1297
+      stargazers_count: 1298
+      watchers_count: 1298
       open_issues_count: 28
       forks_count: 200
       documentation: https://movingpandas.org
@@ -2153,8 +2153,8 @@
       description: A light-weight, flexible, and expressive statistical data testing
           library
       created_at: '2018-11-01'
-      stargazers_count: 3775
-      watchers_count: 3775
+      stargazers_count: 3776
+      watchers_count: 3776
       open_issues_count: 420
       forks_count: 333
       documentation: https://www.union.ai/pandera
