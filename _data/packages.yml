@@ -1233,7 +1233,7 @@
       forks_count: 36
       documentation: https://xgi.readthedocs.io
       contrib_count: 18
-      last_commit: '2025-04-25'
+      last_commit: '2025-05-04'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
