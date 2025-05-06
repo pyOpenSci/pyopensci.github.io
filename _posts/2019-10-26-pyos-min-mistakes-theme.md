@@ -351,11 +351,16 @@ Which will render like this
 </div>
 
 
-<div class="notice--info" markdown="1">
+<div class=".notice notice--info" markdown="1">
 #### Notice Headline
 {: .no_toc }
 
-here is some html text.
+Here is some html text.
+
+Here is a list
+* item 1
+* item 2
+* item 3
 
 Testing a div with a h4 header
 
