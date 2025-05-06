@@ -15,7 +15,9 @@
 /* Notice elements with figures */
 .notice {
 
-
+ ul li {
+    font-size: 1rem !important;
+  }
 
   h2, h3 {
     margin-top: 0 !important;
@@ -82,7 +84,7 @@
   }
 
   p, li {
-    font-size: $type-size-6!important;
+    font-size: 1rem!important;
     font-weight: 300;
   }
 
