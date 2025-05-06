@@ -136,9 +136,9 @@
       name: great-tables
       description: Make awesome display tables using Python
       created_at: '2022-05-06'
-      stargazers_count: 2221
-      watchers_count: 2221
-      open_issues_count: 123
+      stargazers_count: 2222
+      watchers_count: 2222
+      open_issues_count: 124
       forks_count: 91
       documentation: https://posit-dev.github.io/great-tables/
       contrib_count: 21
@@ -408,7 +408,7 @@
       forks_count: 45
       documentation: https://pooltool.readthedocs.io
       contrib_count: 8
-      last_commit: '2025-04-26'
+      last_commit: '2025-05-04'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -885,11 +885,11 @@
       created_at: '2011-08-06'
       stargazers_count: 951
       watchers_count: 951
-      open_issues_count: 297
+      open_issues_count: 298
       forks_count: 606
       documentation: https://www.sunpy.org
       contrib_count: 30
-      last_commit: '2025-05-01'
+      last_commit: '2025-05-05'
   labels:
     - 6/pyOS-approved
   active: true
@@ -1076,10 +1076,10 @@
       stargazers_count: 504
       watchers_count: 504
       open_issues_count: 797
-      forks_count: 83
+      forks_count: 84
       documentation: https://sourmash.readthedocs.io/en/latest/
       contrib_count: 30
-      last_commit: '2025-05-03'
+      last_commit: '2025-05-05'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1165,8 +1165,8 @@
       name: astartes
       description: Better Data Splits for Machine Learning
       created_at: '2022-04-22'
-      stargazers_count: 78
-      watchers_count: 78
+      stargazers_count: 80
+      watchers_count: 80
       open_issues_count: 7
       forks_count: 4
       documentation: https://jacksonburns.github.io/astartes/
@@ -1282,7 +1282,7 @@
       created_at: '2021-09-10'
       stargazers_count: 249
       watchers_count: 249
-      open_issues_count: 182
+      open_issues_count: 181
       forks_count: 36
       documentation: https://biocypher.org
       contrib_count: 18
@@ -1523,8 +1523,8 @@
       description: 'Python library for GraphBLAS: high-performance sparse linear
           algebra for scalable graph analytics'
       created_at: '2019-11-11'
-      stargazers_count: 133
-      watchers_count: 133
+      stargazers_count: 134
+      watchers_count: 134
       open_issues_count: 60
       forks_count: 15
       documentation: https://python-graphblas.readthedocs.io/en/stable/
@@ -1580,7 +1580,7 @@
       forks_count: 65
       documentation: https://xclim.readthedocs.io/en/stable/
       contrib_count: 30
-      last_commit: '2025-04-29'
+      last_commit: '2025-05-05'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1777,13 +1777,13 @@
       name: pygmt
       description: A Python interface for the Generic Mapping Tools.
       created_at: '2017-03-17'
-      stargazers_count: 797
-      watchers_count: 797
-      open_issues_count: 186
+      stargazers_count: 798
+      watchers_count: 798
+      open_issues_count: 185
       forks_count: 229
       documentation: https://www.pygmt.org
       contrib_count: 30
-      last_commit: '2025-05-02'
+      last_commit: '2025-05-05'
   labels:
     - 6/pyOS-approved
   active: true
@@ -2153,8 +2153,8 @@
       description: A light-weight, flexible, and expressive statistical data testing
           library
       created_at: '2018-11-01'
-      stargazers_count: 3777
-      watchers_count: 3777
+      stargazers_count: 3782
+      watchers_count: 3782
       open_issues_count: 421
       forks_count: 333
       documentation: https://www.union.ai/pandera
