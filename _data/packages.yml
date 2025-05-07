@@ -89,7 +89,7 @@
       created_at: '2024-01-09'
       stargazers_count: 42
       watchers_count: 42
-      open_issues_count: 119
+      open_issues_count: 123
       forks_count: 13
       documentation: https://www.montepy.org/
       contrib_count: 5
@@ -664,7 +664,7 @@
       stargazers_count: 16
       watchers_count: 16
       open_issues_count: 27
-      forks_count: 6
+      forks_count: 7
       documentation: https://usepa.github.io/harmonize-wq/
       contrib_count: 5
       last_commit: '2025-02-06'
@@ -764,7 +764,7 @@
       created_at: '2016-02-16'
       stargazers_count: 380
       watchers_count: 380
-      open_issues_count: 17
+      open_issues_count: 16
       forks_count: 68
       documentation: https://caleb531.github.io/automata/
       contrib_count: 17
@@ -885,11 +885,11 @@
       created_at: '2011-08-06'
       stargazers_count: 951
       watchers_count: 951
-      open_issues_count: 298
+      open_issues_count: 300
       forks_count: 606
       documentation: https://www.sunpy.org
       contrib_count: 30
-      last_commit: '2025-05-05'
+      last_commit: '2025-05-07'
   labels:
     - 6/pyOS-approved
   active: true
@@ -931,8 +931,8 @@
       name: ncompare
       description: Compare the structure of two netCDF (or HDF5) files
       created_at: '2023-08-17'
-      stargazers_count: 26
-      watchers_count: 26
+      stargazers_count: 27
+      watchers_count: 27
       open_issues_count: 3
       forks_count: 10
       documentation: https://ncompare.readthedocs.io
@@ -1075,11 +1075,11 @@
       created_at: '2016-04-09'
       stargazers_count: 504
       watchers_count: 504
-      open_issues_count: 797
+      open_issues_count: 795
       forks_count: 84
       documentation: https://sourmash.readthedocs.io/en/latest/
       contrib_count: 30
-      last_commit: '2025-05-05'
+      last_commit: '2025-05-07'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1280,8 +1280,8 @@
       name: biocypher
       description: A unifying framework for biomedical research knowledge graphs
       created_at: '2021-09-10'
-      stargazers_count: 249
-      watchers_count: 249
+      stargazers_count: 250
+      watchers_count: 250
       open_issues_count: 181
       forks_count: 36
       documentation: https://biocypher.org
@@ -1576,11 +1576,11 @@
       created_at: '2018-07-27'
       stargazers_count: 354
       watchers_count: 354
-      open_issues_count: 53
+      open_issues_count: 50
       forks_count: 65
       documentation: https://xclim.readthedocs.io/en/stable/
       contrib_count: 30
-      last_commit: '2025-05-06'
+      last_commit: '2025-05-07'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1779,11 +1779,11 @@
       created_at: '2017-03-17'
       stargazers_count: 798
       watchers_count: 798
-      open_issues_count: 187
+      open_issues_count: 186
       forks_count: 229
       documentation: https://www.pygmt.org
       contrib_count: 30
-      last_commit: '2025-05-05'
+      last_commit: '2025-05-06'
   labels:
     - 6/pyOS-approved
   active: true
@@ -2106,13 +2106,13 @@
       name: movingpandas
       description: Movement trajectory classes and functions built on top of GeoPandas
       created_at: '2018-12-16'
-      stargazers_count: 1300
-      watchers_count: 1300
+      stargazers_count: 1301
+      watchers_count: 1301
       open_issues_count: 28
       forks_count: 200
       documentation: https://movingpandas.org
       contrib_count: 30
-      last_commit: '2025-04-27'
+      last_commit: '2025-05-07'
   labels:
     - 6/pyOS-approved
   active: true
@@ -2255,8 +2255,8 @@
       description: A package built to support working with spatial data using open
           source python
       created_at: '2018-02-20'
-      stargazers_count: 518
-      watchers_count: 518
+      stargazers_count: 519
+      watchers_count: 519
       open_issues_count: 42
       forks_count: 162
       documentation: https://earthpy.readthedocs.io
