@@ -4040,7 +4040,7 @@
   mastodon:
   orcidid:
   partners:
-  website: https://alizma.github.io/
+  website:
   board: false
   contributor_type:
     - peer-review
