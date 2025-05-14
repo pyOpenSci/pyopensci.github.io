@@ -15,7 +15,7 @@ comments: true
 last_modified: 2025-05-14
 ---
 
-** We are no longer accepting applications for this position. Thank you for your interest **
+**We are no longer accepting applications for this position. Thank you for your interest.**
 
 ## CLOSED Job: writer & social media specialist
 
