@@ -3843,6 +3843,7 @@
   website:
   board: false
   contributor_type:
+    - community
     - editor
     - guidebook-contrib
     - peer-review
@@ -5265,6 +5266,7 @@
   website:
   board: false
   contributor_type:
+    - community
     - maintainer
     - peer-review
     - submitting-author
@@ -8081,6 +8083,7 @@
   website: https://www.sfu.ca/lux/author/j.-steven-dodge/
   board: false
   contributor_type:
+    - community
     - maintainer
     - package-guide
     - peer-review
@@ -9112,6 +9115,61 @@
   packages_editor:
   packages_submitted:
     - montepy
+  packages_reviewed:
+  location:
+  email:
+- name: Marie Roald
+  github_username: MarieRoald
+  github_image_id: 3594989
+  title:
+  sort:
+  bio: Python enthusiast and data nerd working at the National Library of Norway.
+      Excited about open source, science outreach and visualization.
+  organization: '@NationalLibraryOfNorway @Sprakbanken'
+  date_added: '2025-05-19'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://marieroald.github.io
+  board: false
+  contributor_type:
+    - package-guide
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: Oslo
+  email:
+- name:
+  github_username: mrgah
+  github_image_id: 11444003
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2025-05-19'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - package-guide
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
   location:
   email:
