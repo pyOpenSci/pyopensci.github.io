@@ -87,8 +87,8 @@
       description: MontePy is the most user friendly Python library (API) to read,
           edit, and write MCNP input files.
       created_at: '2024-01-09'
-      stargazers_count: 43
-      watchers_count: 43
+      stargazers_count: 46
+      watchers_count: 46
       open_issues_count: 124
       forks_count: 13
       documentation: https://www.montepy.org/
@@ -815,7 +815,7 @@
       forks_count: 1
       documentation: https://pypi.org/project/sleplet
       contrib_count: 5
-      last_commit: '2025-05-01'
+      last_commit: '2025-05-19'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -889,7 +889,7 @@
       forks_count: 607
       documentation: https://www.sunpy.org
       contrib_count: 30
-      last_commit: '2025-05-16'
+      last_commit: '2025-05-19'
   labels:
     - 6/pyOS-approved
   active: true
@@ -1073,13 +1073,13 @@
       description: Quickly search, compare, and analyze genomic and metagenomic
           data sets.
       created_at: '2016-04-09'
-      stargazers_count: 504
-      watchers_count: 504
-      open_issues_count: 807
+      stargazers_count: 505
+      watchers_count: 505
+      open_issues_count: 808
       forks_count: 84
       documentation: https://sourmash.readthedocs.io/en/latest/
       contrib_count: 30
-      last_commit: '2025-05-14'
+      last_commit: '2025-05-19'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1227,8 +1227,8 @@
       description: CompleX Group Interactions (XGI) is a Python package for higher-order
           networks.
       created_at: '2021-09-08'
-      stargazers_count: 211
-      watchers_count: 211
+      stargazers_count: 212
+      watchers_count: 212
       open_issues_count: 54
       forks_count: 36
       documentation: https://xgi.readthedocs.io
@@ -1282,7 +1282,7 @@
       created_at: '2021-09-10'
       stargazers_count: 253
       watchers_count: 253
-      open_issues_count: 183
+      open_issues_count: 182
       forks_count: 37
       documentation: https://biocypher.org
       contrib_count: 18
@@ -1576,7 +1576,7 @@
       created_at: '2018-07-27'
       stargazers_count: 358
       watchers_count: 358
-      open_issues_count: 49
+      open_issues_count: 50
       forks_count: 65
       documentation: https://xclim.readthedocs.io/en/stable/
       contrib_count: 30
@@ -1779,7 +1779,7 @@
       created_at: '2017-03-17'
       stargazers_count: 799
       watchers_count: 799
-      open_issues_count: 189
+      open_issues_count: 188
       forks_count: 229
       documentation: https://www.pygmt.org
       contrib_count: 30
@@ -2155,8 +2155,8 @@
       created_at: '2018-11-01'
       stargazers_count: 3813
       watchers_count: 3813
-      open_issues_count: 415
-      forks_count: 335
+      open_issues_count: 416
+      forks_count: 336
       documentation: https://www.union.ai/pandera
       contrib_count: 30
       last_commit: '2025-05-15'
@@ -2255,13 +2255,13 @@
       description: A package built to support working with spatial data using open
           source python
       created_at: '2018-02-20'
-      stargazers_count: 520
-      watchers_count: 520
-      open_issues_count: 42
+      stargazers_count: 521
+      watchers_count: 521
+      open_issues_count: 41
       forks_count: 162
       documentation: https://earthpy.readthedocs.io
       contrib_count: 29
-      last_commit: '2023-08-23'
+      last_commit: '2025-05-19'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
