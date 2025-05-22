@@ -136,7 +136,7 @@
       name: great-tables
       description: Make awesome display tables using Python
       created_at: '2022-05-06'
-      stargazers_count: 2237
+      stargazers_count: 2239
       watchers_count: 13
       open_issues_count: 107
       forks_count: 89
@@ -402,10 +402,10 @@
       name: pooltool
       description: A sandbox billiards game that emphasizes realistic physics
       created_at: '2020-04-09'
-      stargazers_count: 269
+      stargazers_count: 271
       watchers_count: 12
       open_issues_count: 1
-      forks_count: 46
+      forks_count: 47
       documentation: https://pooltool.readthedocs.io
       contrib_count: 8
       last_commit: '2025-05-16'
@@ -809,7 +809,7 @@
       name: sleplet
       description: Slepian Scale-Discretised Wavelets in Python
       created_at: '2020-10-21'
-      stargazers_count: 7
+      stargazers_count: 8
       watchers_count: 3
       open_issues_count: 3
       forks_count: 1
@@ -886,10 +886,10 @@
       stargazers_count: 953
       watchers_count: 49
       open_issues_count: 257
-      forks_count: 598
+      forks_count: 599
       documentation: https://www.sunpy.org
       contrib_count: 240
-      last_commit: '2025-05-20'
+      last_commit: '2025-05-21'
   labels:
     - 6/pyOS-approved
   active: true
@@ -931,7 +931,7 @@
       name: ncompare
       description: Compare the structure of two netCDF (or HDF5) files
       created_at: '2023-08-17'
-      stargazers_count: 27
+      stargazers_count: 28
       watchers_count: 4
       open_issues_count: 3
       forks_count: 10
@@ -1073,9 +1073,9 @@
       description: Quickly search, compare, and analyze genomic and metagenomic
           data sets.
       created_at: '2016-04-09'
-      stargazers_count: 505
+      stargazers_count: 506
       watchers_count: 16
-      open_issues_count: 744
+      open_issues_count: 745
       forks_count: 84
       documentation: https://sourmash.readthedocs.io/en/latest/
       contrib_count: 45
@@ -1167,11 +1167,11 @@
       created_at: '2022-04-22'
       stargazers_count: 81
       watchers_count: 2
-      open_issues_count: 7
+      open_issues_count: 6
       forks_count: 5
       documentation: https://jacksonburns.github.io/astartes/
       contrib_count: 3
-      last_commit: '2025-02-18'
+      last_commit: '2025-05-22'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1227,7 +1227,7 @@
       description: CompleX Group Interactions (XGI) is a Python package for higher-order
           networks.
       created_at: '2021-09-08'
-      stargazers_count: 212
+      stargazers_count: 213
       watchers_count: 9
       open_issues_count: 49
       forks_count: 35
@@ -1576,11 +1576,11 @@
       created_at: '2018-07-27'
       stargazers_count: 358
       watchers_count: 15
-      open_issues_count: 43
+      open_issues_count: 42
       forks_count: 63
       documentation: https://xclim.readthedocs.io/en/stable/
       contrib_count: 41
-      last_commit: '2025-05-20'
+      last_commit: '2025-05-22'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1777,13 +1777,13 @@
       name: pygmt
       description: A Python interface for the Generic Mapping Tools.
       created_at: '2017-03-17'
-      stargazers_count: 800
+      stargazers_count: 799
       watchers_count: 26
       open_issues_count: 137
       forks_count: 221
       documentation: https://www.pygmt.org
       contrib_count: 49
-      last_commit: '2025-05-16'
+      last_commit: '2025-05-22'
   labels:
     - 6/pyOS-approved
   active: true
@@ -2106,13 +2106,13 @@
       name: movingpandas
       description: Movement trajectory classes and functions built on top of GeoPandas
       created_at: '2018-12-16'
-      stargazers_count: 1304
+      stargazers_count: 1305
       watchers_count: 39
       open_issues_count: 28
       forks_count: 198
       documentation: https://movingpandas.org
       contrib_count: 38
-      last_commit: '2025-05-20'
+      last_commit: '2025-05-21'
   labels:
     - 6/pyOS-approved
   active: true
@@ -2153,13 +2153,13 @@
       description: A light-weight, flexible, and expressive statistical data testing
           library
       created_at: '2018-11-01'
-      stargazers_count: 3815
+      stargazers_count: 3819
       watchers_count: 20
       open_issues_count: 390
       forks_count: 334
       documentation: https://www.union.ai/pandera
       contrib_count: 156
-      last_commit: '2025-05-20'
+      last_commit: '2025-05-21'
   labels:
     - 6/pyOS-approved
   active: true
@@ -2261,7 +2261,7 @@
       forks_count: 156
       documentation: https://earthpy.readthedocs.io
       contrib_count: 29
-      last_commit: '2025-05-19'
+      last_commit: '2025-05-21'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
