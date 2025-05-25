@@ -762,7 +762,7 @@
       description: A Python library for simulating finite automata, pushdown automata,
           and Turing machines
       created_at: '2016-02-16'
-      stargazers_count: 381
+      stargazers_count: 382
       watchers_count: 8
       open_issues_count: 13
       forks_count: 68
@@ -1022,7 +1022,7 @@
       name: EOmaps
       description: A library to create interactive maps of geographical datasets
       created_at: '2021-09-27'
-      stargazers_count: 350
+      stargazers_count: 351
       watchers_count: 4
       open_issues_count: 12
       forks_count: 27
@@ -1623,7 +1623,7 @@
       name: crowsetta
       description: A tool to work with any format for annotating animal sounds
       created_at: '2018-12-01'
-      stargazers_count: 53
+      stargazers_count: 54
       watchers_count: 1
       open_issues_count: 40
       forks_count: 4
@@ -1783,7 +1783,7 @@
       forks_count: 221
       documentation: https://www.pygmt.org
       contrib_count: 49
-      last_commit: '2025-05-22'
+      last_commit: '2025-05-24'
   labels:
     - 6/pyOS-approved
   active: true
@@ -2063,7 +2063,7 @@
       stargazers_count: 143
       watchers_count: 5
       open_issues_count: 9
-      forks_count: 40
+      forks_count: 41
       documentation: https://pyrolite.readthedocs.io
       contrib_count: 14
       last_commit: '2024-10-29'
