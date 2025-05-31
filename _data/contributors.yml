@@ -476,6 +476,7 @@
   website:
   board: false
   contributor_type:
+    - community
     - guidebook-contrib
     - leadership
     - peer-review-guide
@@ -629,6 +630,7 @@
     - reviewer
   packages_eic:
     - montepy
+    - neonutilities
     - stingray
     - thztools
   packages_editor:
@@ -9170,6 +9172,183 @@
   packages_eic:
   packages_editor:
   packages_submitted:
+  packages_reviewed:
+  location:
+  email:
+- name: Ethan White
+  github_username: ethanwhite
+  github_image_id: 744427
+  title:
+  sort:
+  bio: Environmental Data Scientist/Professor. Ecology + open data + open science
+      + open source.
+  organization: '@weecology, Univ of Florida'
+  date_added: '2025-05-30'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://www.weecology.org/
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - neonutilities
+  location: Gainesville, FL
+  email: ethan@weecology.org
+- name:
+  github_username: benjamindonnachie
+  github_image_id: 83379521
+  title:
+  sort:
+  bio: Cybersecurity professional researching machine learning to accelerate post-breach
+      triage with the Open University.
+  organization:
+  date_added: '2025-05-30'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - neonutilities
+  location:
+  email:
+- name: Julieta Millan
+  github_username: JuliMillan
+  github_image_id: 66881995
+  title:
+  sort:
+  bio: Biology, data science and open science
+  organization:
+  date_added: '2025-05-30'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://julimillan.github.io/
+  board: false
+  contributor_type:
+    - editor
+    - peer-review
+  packages_eic:
+  packages_editor:
+    - neonutilities
+  packages_submitted:
+  packages_reviewed:
+  location: La Plata, Argentina
+  email:
+- name: Claire Lunch
+  github_username: cklunch
+  github_image_id: 7001492
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2025-05-30'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+    - submitting-author
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - neonutilities
+  packages_reviewed:
+  location:
+  email:
+- name: Bridget Hass
+  github_username: bhass-neon
+  github_image_id: 101811216
+  title:
+  sort:
+  bio: Remote Sensing Data Scientist - NEON AOP and Data Skills
+  organization: National Ecological Observatory Network
+  date_added: '2025-05-30'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://www.neonscience.org/data-collection/airborne-remote-sensing
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - neonutilities
+  packages_reviewed:
+  location: Boulder, CO
+  email:
+- name:
+  github_username: znickerson8
+  github_image_id: 56763388
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2025-05-30'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - neonutilities
   packages_reviewed:
   location:
   email:
