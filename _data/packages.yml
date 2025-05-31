@@ -189,10 +189,10 @@
       name: great-tables
       description: Make awesome display tables using Python
       created_at: '2022-05-06'
-      stargazers_count: 2244
+      stargazers_count: 2245
       watchers_count: 13
-      open_issues_count: 109
-      forks_count: 89
+      open_issues_count: 110
+      forks_count: 90
       documentation: https://posit-dev.github.io/great-tables/
       contrib_count: 21
       last_commit: '2025-05-06'
@@ -457,7 +457,7 @@
       created_at: '2020-04-09'
       stargazers_count: 272
       watchers_count: 12
-      open_issues_count: 1
+      open_issues_count: 2
       forks_count: 47
       documentation: https://pooltool.readthedocs.io
       contrib_count: 8
@@ -936,13 +936,13 @@
       name: sunpy
       description: SunPy - Python for Solar Physics
       created_at: '2011-08-06'
-      stargazers_count: 953
+      stargazers_count: 954
       watchers_count: 49
-      open_issues_count: 257
+      open_issues_count: 255
       forks_count: 599
       documentation: https://www.sunpy.org
       contrib_count: 240
-      last_commit: '2025-05-29'
+      last_commit: '2025-05-31'
   labels:
     - 6/pyOS-approved
   active: true
@@ -1077,7 +1077,7 @@
       created_at: '2021-09-27'
       stargazers_count: 352
       watchers_count: 4
-      open_issues_count: 12
+      open_issues_count: 11
       forks_count: 27
       documentation: https://eomaps.readthedocs.io/
       contrib_count: 9
@@ -1128,7 +1128,7 @@
       created_at: '2016-04-09'
       stargazers_count: 507
       watchers_count: 16
-      open_issues_count: 747
+      open_issues_count: 748
       forks_count: 84
       documentation: https://sourmash.readthedocs.io/en/latest/
       contrib_count: 45
@@ -2206,9 +2206,9 @@
       description: A light-weight, flexible, and expressive statistical data testing
           library
       created_at: '2018-11-01'
-      stargazers_count: 3830
+      stargazers_count: 3831
       watchers_count: 20
-      open_issues_count: 393
+      open_issues_count: 394
       forks_count: 336
       documentation: https://www.union.ai/pandera
       contrib_count: 157
