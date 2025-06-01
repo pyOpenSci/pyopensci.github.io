@@ -4134,7 +4134,7 @@
   mastodon:
   orcidid:
   partners:
-  website: https://tylar.info
+  website:
   board: false
   contributor_type:
     - peer-review
@@ -9185,7 +9185,7 @@
   organization: '@weecology, Univ of Florida'
   date_added: '2025-05-30'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -9215,7 +9215,7 @@
   organization:
   date_added: '2025-05-30'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -9244,7 +9244,7 @@
   organization:
   date_added: '2025-05-30'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -9273,7 +9273,7 @@
   organization:
   date_added: '2025-05-30'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -9303,7 +9303,7 @@
   organization: National Ecological Observatory Network
   date_added: '2025-05-30'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -9332,7 +9332,7 @@
   organization:
   date_added: '2025-05-30'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -9352,3 +9352,31 @@
   packages_reviewed:
   location:
   email:
+- name: Yngve Mardal Moe
+  github_username: yngvem
+  github_image_id: 3531982
+  title:
+  sort:
+  bio: Data scientist with a passion for scientific computing, applied mathematics
+      and computational biology.
+  organization: Bouvet
+  date_added: '2025-06-01'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - package-guide
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: Oslo
+  email: yngve.m.moe@gmail.com
