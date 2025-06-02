@@ -9362,7 +9362,7 @@
   organization: Bouvet
   date_added: '2025-06-01'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -9380,3 +9380,58 @@
   packages_reviewed:
   location: Oslo
   email: yngve.m.moe@gmail.com
+- name: Akhil Krishna R
+  github_username: akhilkrishnar0
+  github_image_id: 164136572
+  title:
+  sort:
+  bio:
+  organization: Christ University
+  date_added: '2025-06-02'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://sites.google.com/res.christuniversity.in/akhilkrishnar/about?pli=1
+  board: false
+  contributor_type:
+    - package-guide
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: Bangalore. India
+  email:
+- name: Zac Warham
+  github_username: ZacWarham
+  github_image_id: 48937711
+  title:
+  sort:
+  bio: 'I could never decide between cute animals and a computer screen so here
+      are some of my attempts at doing both! Contact me to learn more: zacwarham@outlook.com'
+  organization:
+  date_added: '2025-06-02'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - package-guide
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: Vancouver
+  email:

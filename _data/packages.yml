@@ -43,11 +43,11 @@
       created_at: '2023-08-25'
       stargazers_count: 4
       watchers_count: 4
-      open_issues_count: 2
+      open_issues_count: 1
       forks_count: 4
       documentation: https://neon-utilities-python.readthedocs.io/en/latest/
       contrib_count: 5
-      last_commit: '2025-05-27'
+      last_commit: '2025-06-02'
   labels:
     - 6/pyOS-approved
   active: true
@@ -189,7 +189,7 @@
       name: great-tables
       description: Make awesome display tables using Python
       created_at: '2022-05-06'
-      stargazers_count: 2245
+      stargazers_count: 2246
       watchers_count: 13
       open_issues_count: 110
       forks_count: 90
@@ -461,7 +461,7 @@
       forks_count: 47
       documentation: https://pooltool.readthedocs.io
       contrib_count: 8
-      last_commit: '2025-05-16'
+      last_commit: '2025-06-02'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -817,7 +817,7 @@
       created_at: '2016-02-16'
       stargazers_count: 381
       watchers_count: 8
-      open_issues_count: 13
+      open_issues_count: 14
       forks_count: 68
       documentation: https://caleb531.github.io/automata/
       contrib_count: 17
@@ -942,7 +942,7 @@
       forks_count: 599
       documentation: https://www.sunpy.org
       contrib_count: 240
-      last_commit: '2025-05-31'
+      last_commit: '2025-06-02'
   labels:
     - 6/pyOS-approved
   active: true
@@ -1132,7 +1132,7 @@
       forks_count: 84
       documentation: https://sourmash.readthedocs.io/en/latest/
       contrib_count: 45
-      last_commit: '2025-06-01'
+      last_commit: '2025-06-02'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1479,7 +1479,7 @@
       name: taxpasta
       description: TAXnomic Profile Aggregation and STAndardisation
       created_at: '2022-06-03'
-      stargazers_count: 39
+      stargazers_count: 40
       watchers_count: 4
       open_issues_count: 13
       forks_count: 8
@@ -1633,7 +1633,7 @@
       forks_count: 63
       documentation: https://xclim.readthedocs.io/en/stable/
       contrib_count: 41
-      last_commit: '2025-05-22'
+      last_commit: '2025-06-02'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1832,11 +1832,11 @@
       created_at: '2017-03-17'
       stargazers_count: 799
       watchers_count: 26
-      open_issues_count: 137
+      open_issues_count: 136
       forks_count: 220
       documentation: https://www.pygmt.org
       contrib_count: 49
-      last_commit: '2025-05-27'
+      last_commit: '2025-06-02'
   labels:
     - 6/pyOS-approved
   active: true
@@ -2113,7 +2113,7 @@
       name: pyrolite
       description: A set of tools for getting the most from your geochemical data.
       created_at: '2018-06-13'
-      stargazers_count: 143
+      stargazers_count: 144
       watchers_count: 5
       open_issues_count: 9
       forks_count: 41
@@ -2206,9 +2206,9 @@
       description: A light-weight, flexible, and expressive statistical data testing
           library
       created_at: '2018-11-01'
-      stargazers_count: 3833
+      stargazers_count: 3834
       watchers_count: 20
-      open_issues_count: 394
+      open_issues_count: 393
       forks_count: 336
       documentation: https://www.union.ai/pandera
       contrib_count: 157
