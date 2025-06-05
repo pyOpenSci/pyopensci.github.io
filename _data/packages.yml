@@ -142,7 +142,7 @@
       created_at: '2024-01-09'
       stargazers_count: 46
       watchers_count: 5
-      open_issues_count: 118
+      open_issues_count: 117
       forks_count: 13
       documentation: https://www.montepy.org/
       contrib_count: 5
@@ -189,7 +189,7 @@
       name: great-tables
       description: Make awesome display tables using Python
       created_at: '2022-05-06'
-      stargazers_count: 2250
+      stargazers_count: 2252
       watchers_count: 13
       open_issues_count: 113
       forks_count: 90
@@ -249,7 +249,7 @@
       stargazers_count: 198
       watchers_count: 19
       open_issues_count: 42
-      forks_count: 164
+      forks_count: 165
       documentation: https://stingray.science/stingray
       contrib_count: 54
       last_commit: '2025-04-08'
@@ -458,7 +458,7 @@
       stargazers_count: 273
       watchers_count: 12
       open_issues_count: 2
-      forks_count: 47
+      forks_count: 48
       documentation: https://pooltool.readthedocs.io
       contrib_count: 8
       last_commit: '2025-06-02'
@@ -761,7 +761,7 @@
       description: Interface to open NEMO global circulation model output dataset
           with xarray and create a xgcm grid.
       created_at: '2020-01-24'
-      stargazers_count: 21
+      stargazers_count: 22
       watchers_count: 1
       open_issues_count: 1
       forks_count: 11
@@ -815,7 +815,7 @@
       description: A Python library for simulating finite automata, pushdown automata,
           and Turing machines
       created_at: '2016-02-16'
-      stargazers_count: 381
+      stargazers_count: 380
       watchers_count: 8
       open_issues_count: 14
       forks_count: 68
@@ -936,7 +936,7 @@
       name: sunpy
       description: SunPy - Python for Solar Physics
       created_at: '2011-08-06'
-      stargazers_count: 954
+      stargazers_count: 956
       watchers_count: 49
       open_issues_count: 256
       forks_count: 600
@@ -1128,7 +1128,7 @@
       created_at: '2016-04-09'
       stargazers_count: 507
       watchers_count: 16
-      open_issues_count: 748
+      open_issues_count: 749
       forks_count: 84
       documentation: https://sourmash.readthedocs.io/en/latest/
       contrib_count: 45
@@ -1633,7 +1633,7 @@
       forks_count: 63
       documentation: https://xclim.readthedocs.io/en/stable/
       contrib_count: 41
-      last_commit: '2025-06-03'
+      last_commit: '2025-06-05'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -2161,7 +2161,7 @@
       created_at: '2018-12-16'
       stargazers_count: 1308
       watchers_count: 39
-      open_issues_count: 30
+      open_issues_count: 31
       forks_count: 199
       documentation: https://movingpandas.org
       contrib_count: 38
@@ -2206,7 +2206,7 @@
       description: A light-weight, flexible, and expressive statistical data testing
           library
       created_at: '2018-11-01'
-      stargazers_count: 3839
+      stargazers_count: 3840
       watchers_count: 20
       open_issues_count: 396
       forks_count: 337
@@ -2314,7 +2314,7 @@
       forks_count: 156
       documentation: https://earthpy.readthedocs.io
       contrib_count: 29
-      last_commit: '2025-05-30'
+      last_commit: '2025-06-05'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
