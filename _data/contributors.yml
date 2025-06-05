@@ -9435,3 +9435,30 @@
   packages_reviewed:
   location: Vancouver
   email:
+- name: Sanket Kumar Kar
+  github_username: SanketKumarKar
+  github_image_id: 197726103
+  title:
+  sort:
+  bio:
+  organization: Vellore Institute of Technology, Chennai
+  date_added: '2025-06-05'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - package-guide
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: Chennai
+  email: sanketkumarkar@gmail.com
