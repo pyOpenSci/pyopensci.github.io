@@ -5,7 +5,8 @@
     - Executive Director & Founder
     - Emeritus editor
   sort: 1
-  bio: Open education, Open source and Open Science.Executive Director @pyOpenSci
+  bio: Open education, Open source and Open Science.Executive Director
+      @pyOpenSci
   organization: pyOpenSci
   date_added: '2019-10-10'
   deia_advisory: false
@@ -104,8 +105,8 @@
   github_image_id: 2680980
   title: Advisory Council
   sort:
-  bio: Project Jupyter, nteract, and CPython core developer@python | @jupyter |
-      @jupyterhub | @ipython | @nteract | @pysplash
+  bio: Project Jupyter, nteract, and CPython core developer@python | @jupyter
+      | @jupyterhub | @ipython | @nteract | @pysplash
   organization: Willing Consulting
   date_added: '2023-03-01'
   deia_advisory: false
@@ -141,8 +142,9 @@
   github_image_id: 1507151
   title:
   sort:
-  bio: Director of the Software Sustainability Institute (@softwaresaved). Editor-in-Chief
-      of the Journal of Open Research Software. Interested in software metrics.
+  bio: Director of the Software Sustainability Institute (@softwaresaved).
+      Editor-in-Chief of the Journal of Open Research Software. Interested in
+      software metrics.
   organization: '@softwaresaved'
   date_added: '2023-02-24'
   deia_advisory: false
@@ -197,8 +199,8 @@
   github_image_id: 1839645
   title: Advisory Council
   sort:
-  bio: I work with Project Jupyter and other open communities to build tools and
-      solve problems for scientific research and education.
+  bio: I work with Project Jupyter and other open communities to build tools
+      and solve problems for scientific research and education.
   organization: UC Berkeley
   date_added: '2019-10-10'
   deia_advisory: false
@@ -230,8 +232,8 @@
   github_image_id: 43481325
   title: Advisory Council
   sort:
-  bio: NumPy Contributor Experience LeadOpen Source Program Manager at OpenTeams
-      Incubator
+  bio: NumPy Contributor Experience LeadOpen Source Program Manager at
+      OpenTeams Incubator
   organization: '@numpy'
   date_added: '2023-03-21'
   deia_advisory: false
@@ -337,8 +339,8 @@
     - Advisory Council
     - Editor
   sort: 2
-  bio: Filipe Fernandes is a Physical oceanographer by training, turned research
-      software engineer, and a software packager hobbyist.
+  bio: Filipe Fernandes is a Physical oceanographer by training, turned
+      research software engineer, and a software packager hobbyist.
   organization:
   date_added: '2019-10-17'
   deia_advisory: false
@@ -374,8 +376,8 @@
   github_image_id: 290082
   title: Emeritus Advisory Council
   sort:
-  bio: Geophysicist investigating Earth's gravity & magnetic fields from global
-      to microscopic scale 🛰️🔬🌎
+  bio: Geophysicist investigating Earth's gravity & magnetic fields from
+      global to microscopic scale 🛰️🔬🌎
   organization: University of Liverpool
   date_added: '2023-01-18'
   deia_advisory: false
@@ -402,8 +404,8 @@
   github_image_id: 6361812
   title: Emeritus Advisory Council
   sort:
-  bio: Asst. Prof at UBC EOAS. Researcher working on geophysical simulations and
-      inversions (in @simpeg!) and data science.
+  bio: Asst. Prof at UBC EOAS. Researcher working on geophysical simulations
+      and inversions (in @simpeg!) and data science.
   organization: '@simpeg, @geoscixyz, @ubcgif, @2i2c_org'
   date_added: '2019-12-10'
   deia_advisory: false
@@ -430,8 +432,8 @@
   github_image_id: 36797143
   title: Advisory Council
   sort:
-  bio: Researcher in geographic data science. Member of @geopandas and @pysal development
-      teams.
+  bio: Researcher in geographic data science. Member of @geopandas and @pysal
+      development teams.
   organization:
   date_added: '2020-04-09'
   deia_advisory: false
@@ -559,8 +561,9 @@
     - Emeritus Editor in Chief
     - Editor
   sort: 2
-  bio: ML, AI; behavior + cog + neuro. Open + inclusive science. Pythonista. He/him/they/them.
-      Habla espanglish y baila salsa y bachata a medio tiempo.
+  bio: ML, AI; behavior + cog + neuro. Open + inclusive science. Pythonista.
+      He/him/they/them. Habla espanglish y baila salsa y bachata a medio
+      tiempo.
   organization:
   date_added: '2019-12-10'
   deia_advisory: false
@@ -897,8 +900,9 @@
   github_image_id: 3712347
   title:
   sort:
-  bio: ✨ Keep it simple, make it scale. AI should be about empowering users and
-      building understanding. 👩‍💻Product Lead (Generative Models) @DeepMind | ex-@GitHub
+  bio: ✨ Keep it simple, make it scale. AI should be about empowering users
+      and building understanding. 👩‍💻Product Lead (Generative Models)
+      @DeepMind | ex-@GitHub
   organization: '@GitHub'
   date_added: '2023-02-24'
   deia_advisory: false
@@ -1011,7 +1015,8 @@
   github_image_id: 12806339
   title:
   sort:
-  bio: 🧮Biostatistics Branch🏛NCI Division of🦀Cancer Epidemiology and🧬Genetics (DCEG)💻Bioinformatics📊DataScience💺Co-chair🎓FAES🐍Python®Rstats⚕Health🤖ML🧠AI
+  bio: 🧮Biostatistics Branch🏛NCI Division of🦀Cancer Epidemiology and🧬Genetics
+      (DCEG)💻Bioinformatics📊DataScience💺Co-chair🎓FAES🐍Python®Rstats⚕Health🤖ML🧠AI
   organization:
   date_added: '2023-02-24'
   deia_advisory: false
@@ -1367,7 +1372,8 @@
   github_image_id: 4750391
   title:
   sort:
-  bio: Graph neural networks, bioinformatics, non-coding RNA, NLP, and ML engineering.
+  bio: Graph neural networks, bioinformatics, non-coding RNA, NLP, and ML
+      engineering.
   organization: Actively looking
   date_added: '2021-04-30'
   deia_advisory: false
@@ -1430,8 +1436,8 @@
   github_image_id: 15648068
   title:
   sort:
-  bio: Postdoc in ecology and evolution; interested in computer vision and ecological
-      informatics
+  bio: Postdoc in ecology and evolution; interested in computer vision and
+      ecological informatics
   organization: Lund University
   date_added: '2021-05-13'
   deia_advisory: false
@@ -1499,7 +1505,8 @@
   github_image_id: 26721915
   title:
   sort:
-  bio: Nature. Computers. Life. Doing open science with @phylotastic and @OpenTreeOfLife
+  bio: Nature. Computers. Life. Doing open science with @phylotastic and
+      @OpenTreeOfLife
   organization: University of California, Merced
   date_added: '2021-09-16'
   deia_advisory: false
@@ -1559,8 +1566,8 @@
   github_image_id: 6061587
   title:
   sort:
-  bio: Aerospace engineer passionate about Flight Mechanics.Python, Fortran, Matlab
-      and lately Julia. (These are my personal projects)
+  bio: Aerospace engineer passionate about Flight Mechanics.Python, Fortran,
+      Matlab and lately Julia. (These are my personal projects)
   organization: AIRBUS D&S
   date_added: '2022-01-12'
   deia_advisory: false
@@ -1677,8 +1684,8 @@
   github_image_id: 23188539
   title:
   sort:
-  bio: Artificial Intelligence, Backend, Data, Stats, Engineer probably doing some
-      Python 🐍
+  bio: Artificial Intelligence, Backend, Data, Stats, Engineer probably doing
+      some Python 🐍
   organization: '@Quansight'
   date_added: '2023-03-01'
   deia_advisory: false
@@ -1798,8 +1805,8 @@
   github_image_id: 4616906
   title:
   sort:
-  bio: Particle physicist and software architect working with @iris-hep. @scikit-hep,
-      @pybind, and @scikit-build admin. @pypa member.
+  bio: Particle physicist and software architect working with @iris-hep.
+      @scikit-hep, @pybind, and @scikit-build admin. @pypa member.
   organization: Princeton University
   date_added: '2023-03-01'
   deia_advisory: false
@@ -1827,8 +1834,8 @@
   github_image_id: 45071
   title:
   sort:
-  bio: Everything Scientific Python. Works on NumPy, SciPy, scikit-image, NetworkX,
-      etc. Author of Elegant SciPy. Researcher at UC Berkeley.
+  bio: Everything Scientific Python. Works on NumPy, SciPy, scikit-image,
+      NetworkX, etc. Author of Elegant SciPy. Researcher at UC Berkeley.
   organization: University of California, Berkeley
   date_added: '2023-03-01'
   deia_advisory: false
@@ -1885,8 +1892,8 @@
   github_image_id: 98330
   title:
   sort:
-  bio: NumPy, SciPy, data-apis.org, PyWavelets maintainer. Building open source
-      communities at Quansight Labs.
+  bio: NumPy, SciPy, data-apis.org, PyWavelets maintainer. Building open
+      source communities at Quansight Labs.
   organization: Quansight
   date_added: '2023-03-01'
   deia_advisory: false
@@ -1972,8 +1979,9 @@
   github_image_id: 1197350
   title:
   sort:
-  bio: Open source maintainer. CEO and co-founder of @earth-mover. @pangeo-data
-      creator. Professor of Earth and Environmental Sciences at Columbia University.
+  bio: Open source maintainer. CEO and co-founder of @earth-mover.
+      @pangeo-data creator. Professor of Earth and Environmental Sciences at
+      Columbia University.
   organization: Earthmover PBC
   date_added: '2023-03-01'
   deia_advisory: false
@@ -2001,8 +2009,8 @@
   github_image_id: 321291
   title:
   sort:
-  bio: Dad, husband, and PhD 👨‍🎓 Scientist 👨‍🔬 Technologist 📱 Engineer 👨‍💻 Bibliophile
-      📚 Philomath 🧐
+  bio: Dad, husband, and PhD 👨‍🎓 Scientist 👨‍🔬 Technologist 📱 Engineer 👨‍💻
+      Bibliophile 📚 Philomath 🧐
   organization: Dr Stephen P. Moss
   date_added: '2023-03-01'
   deia_advisory: false
@@ -2117,8 +2125,8 @@
   github_image_id: 3837114
   title:
   sort:
-  bio: Climate change mitigation efforts need nuclear alongside other low carbon
-      sources.https://twitter.com/e_Sundell/status/1258480862359937024
+  bio: Climate change mitigation efforts need nuclear alongside other low
+      carbon sources.https://twitter.com/e_Sundell/status/1258480862359937024
   organization: Sundell Open Source Consulting AB
   date_added: '2023-03-01'
   deia_advisory: false
@@ -2174,8 +2182,8 @@
   github_image_id: 947614
   title:
   sort:
-  bio: solar physics, space weather, and aerospace engineering. principal investigator
-      of nasa's suncet mission.
+  bio: solar physics, space weather, and aerospace engineering. principal
+      investigator of nasa's suncet mission.
   organization: Johns Hopkins Applied Physics Lab
   date_added: '2023-03-01'
   deia_advisory: false
@@ -2259,8 +2267,8 @@
   github_image_id: 1324225
   title:
   sort:
-  bio: Python core developer, PSF Fellow, open-source maintainer, PEP editor, NaNoGenMo
-      organiser
+  bio: Python core developer, PSF Fellow, open-source maintainer, PEP editor,
+      NaNoGenMo organiser
   organization: Nord Software
   date_added: '2023-04-13'
   deia_advisory: false
@@ -2317,8 +2325,9 @@
   github_image_id: 1610
   title:
   sort:
-  bio: Principal SWE at @anaconda working on @conda. @conda-forge core member. @python
-      director and fellow.@jazzband and @pypa founder. @mozilla and @django alum
+  bio: Principal SWE at @anaconda working on @conda. @conda-forge core member.
+      @python director and fellow.@jazzband and @pypa founder. @mozilla and
+      @django alum
   organization: '@anaconda'
   date_added: '2023-04-13'
   deia_advisory: false
@@ -2432,8 +2441,8 @@
   github_image_id: 20629530
   title:
   sort:
-  bio: Physical oceanography graduate turned climate science specialist and scientific
-      developer.
+  bio: Physical oceanography graduate turned climate science specialist and
+      scientific developer.
   organization: Ouranos
   date_added: '2023-04-14'
   deia_advisory: false
@@ -2463,8 +2472,8 @@
   github_image_id: 7622426
   title:
   sort:
-  bio: IT-Systems Engineering Student at Hasso Plattner Institute, more active at
-      gitlab.com/enra64
+  bio: IT-Systems Engineering Student at Hasso Plattner Institute, more active
+      at gitlab.com/enra64
   organization:
   date_added: '2023-04-13'
   deia_advisory: false
@@ -2494,8 +2503,8 @@
   github_image_id: 20556511
   title:
   sort:
-  bio: Dr.rer.soc. Dr.rer.nat. Rock climbing, Research Software, Neurofeedback and
-      Brain Stimulation.
+  bio: Dr.rer.soc. Dr.rer.nat. Rock climbing, Research Software, Neurofeedback
+      and Brain Stimulation.
   organization: neuroConn
   date_added: '2023-04-13'
   deia_advisory: false
@@ -2524,10 +2533,11 @@
   github_image_id: 36674497
   title:
   sort:
-  bio: Professor at TU Braunschweig with research interests in plant genomics and
-      specialized metabolism. Details:https://www.tu-braunschweig.de/en/ifp/pbb
-  organization: Plant Biotechnology and Bioinformatics, Institute of Plant Biology,
-      TU Braunschweig
+  bio: Professor at TU Braunschweig with research interests in plant genomics
+      and specialized metabolism.
+      Details:https://www.tu-braunschweig.de/en/ifp/pbb
+  organization: Plant Biotechnology and Bioinformatics, Institute of Plant
+      Biology, TU Braunschweig
   date_added: '2023-04-13'
   deia_advisory: false
   editorial_board: false
@@ -2555,8 +2565,8 @@
   github_image_id: 7119518
   title:
   sort:
-  bio: Bioinformatician @quadram-institute-bioscience (Norwich, UK). Phylogenomics
-      and Data Sciences.
+  bio: Bioinformatician @quadram-institute-bioscience (Norwich, UK).
+      Phylogenomics and Data Sciences.
   organization: '@quadram-institute-bioscience'
   date_added: '2023-04-13'
   deia_advisory: false
@@ -2585,7 +2595,8 @@
   github_image_id: 1310570
   title:
   sort:
-  bio: /\︿╱\ _________________________________\0_ 0    /╱\╱____________________________  \▁︹_/
+  bio: /\︿╱\ _________________________________\0_ 0
+      /╱\╱____________________________  \▁︹_/
   organization: Facebook AI Research
   date_added: '2023-04-13'
   deia_advisory: false
@@ -2702,8 +2713,8 @@
   github_image_id: 3680918
   title:
   sort:
-  bio: Model Evaluation and Diagnostics Team Lead for the Australian Earth-System
-      Simulator National Research Infrastructure (ACCESS-NRI)
+  bio: Model Evaluation and Diagnostics Team Lead for the Australian
+      Earth-System Simulator National Research Infrastructure (ACCESS-NRI)
   organization: ACCESS-NRI
   date_added: '2023-04-13'
   deia_advisory: false
@@ -2732,8 +2743,8 @@
   github_image_id: 6821569
   title:
   sort:
-  bio: Geoscientist, Assistant Professor, willing to improve data reduction protocols
-      through programming and data science
+  bio: Geoscientist, Assistant Professor, willing to improve data reduction
+      protocols through programming and data science
   organization: Institut de physique du globe de Paris
   date_added: '2023-04-13'
   deia_advisory: false
@@ -2762,8 +2773,8 @@
   github_image_id: 23487320
   title:
   sort:
-  bio: Geospatial Data Scientist/ML Practitioner @developmentseed. Towards cloud-native
-      geospatial machine learning!
+  bio: Geospatial Data Scientist/ML Practitioner @developmentseed. Towards
+      cloud-native geospatial machine learning!
   organization: '@developmentseed'
   date_added: '2023-04-13'
   deia_advisory: false
@@ -2883,8 +2894,8 @@
   title:
   sort:
   bio:
-  organization: Max Planck Institute for Psycholinguistics & Vrije Universiteit
-      Brussel
+  organization: Max Planck Institute for Psycholinguistics & Vrije
+      Universiteit Brussel
   date_added: '2023-04-13'
   deia_advisory: false
   editorial_board: false
@@ -2917,7 +2928,8 @@
   github_image_id: 21340147
   title:
   sort:
-  bio: Computational Biology | Data Science | Python Dev. | Ph.D. Systems Biology
+  bio: Computational Biology | Data Science | Python Dev. | Ph.D. Systems
+      Biology
   organization: ULL
   date_added: '2023-04-13'
   deia_advisory: false
@@ -2951,8 +2963,8 @@
   github_image_id: 10819524
   title:
   sort:
-  bio: Python, Linux, and FOSS-GIS enthusiast. Climate Scenarios and Services Specialist
-      at Ouranos (@Ouranosinc) in Montreal.
+  bio: Python, Linux, and FOSS-GIS enthusiast. Climate Scenarios and Services
+      Specialist at Ouranos (@Ouranosinc) in Montreal.
   organization: Ouranos
   date_added: '2023-04-13'
   deia_advisory: false
@@ -3076,7 +3088,8 @@
   github_image_id: 51016
   title: Editor
   sort: 2
-  bio: Prof at UC Davis. Blogs at http://ivory.idyll.org/blog/ and tweets at https://twitter.com/ctitusbrown.
+  bio: Prof at UC Davis. Blogs at http://ivory.idyll.org/blog/ and tweets at
+      https://twitter.com/ctitusbrown.
   organization: University of California, Davis
   date_added: '2023-04-18'
   deia_advisory: false
@@ -3432,8 +3445,8 @@
   github_image_id: 18587879
   title:
   sort:
-  bio: Computer Science PhD student at University of California, Santa Cruz Community
-      Manager at @scientific-python
+  bio: Computer Science PhD student at University of California, Santa Cruz
+      Community Manager at @scientific-python
   organization: UC, Santa Cruz
   date_added: '2023-05-26'
   deia_advisory: false
@@ -3463,8 +3476,8 @@
   github_image_id: 6486256
   title:
   sort:
-  bio: Sr. Cloud Developer Advocate for Python @Microsoft | Python Foundation Fellow  |
-      Maker and breaker of many things
+  bio: Sr. Cloud Developer Advocate for Python @Microsoft | Python Foundation
+      Fellow  | Maker and breaker of many things
   organization: Microsoft
   date_added: '2023-05-26'
   deia_advisory: false
@@ -3494,8 +3507,8 @@
   github_image_id: 110391
   title:
   sort:
-  bio: Data scientist with a software engineering, data visualization, and machine
-      learning background. Occasionally contributes to Processing.
+  bio: Data scientist with a software engineering, data visualization, and
+      machine learning background. Occasionally contributes to Processing.
   organization: UC Berkeley
   date_added: '2023-06-01'
   deia_advisory: false
@@ -3582,8 +3595,9 @@
   github_image_id: 17051931
   title:
   sort:
-  bio: NASA-funded deep learning, IoT and satellite researcher. UAH grad student.
-      Python and Spyder core dev. Python Docs Team and PEP Editor. Star✦Fleet Commander.
+  bio: NASA-funded deep learning, IoT and satellite researcher. UAH grad
+      student. Python and Spyder core dev. Python Docs Team and PEP Editor.
+      Star✦Fleet Commander.
   organization: '@hamma-dev @python @spyder-ide @star-fleet-tours'
   date_added: '2023-06-14'
   deia_advisory: false
@@ -3642,8 +3656,9 @@
   github_image_id: 17950287
   title:
   sort:
-  bio: Bioinformatician with specialism in ancient DNA and metagenomics. nf-core
-      core-team member and SPAAM community founder.@jfy133@genomic.social
+  bio: Bioinformatician with specialism in ancient DNA and metagenomics.
+      nf-core core-team member and SPAAM community
+      founder.@jfy133@genomic.social
   organization: HKI Jena, MPI-EVA Leipzig
   date_added: '2023-07-12'
   deia_advisory: false
@@ -4121,8 +4136,8 @@
   github_image_id: 1051390
   title:
   sort:
-  bio: USF IMaRS Software Engineer - code whisperer, data viz enthusiast, scientific
-      generalist, compulsive overengineerer, & UX PhD
+  bio: USF IMaRS Software Engineer - code whisperer, data viz enthusiast,
+      scientific generalist, compulsive overengineerer, & UX PhD
   organization: USF IMaRS
   date_added: '2023-07-27'
   deia_advisory: false
@@ -4151,8 +4166,8 @@
   github_image_id: 36472216
   title:
   sort:
-  bio: Open Source Adv, GSoC 2022 - IOOS | PyTorch, Azure, ReactJS | CS Undergrad
-      @ NIT Durgapur
+  bio: Open Source Adv, GSoC 2022 - IOOS | PyTorch, Azure, ReactJS | CS
+      Undergrad @ NIT Durgapur
   organization:
   date_added: '2023-07-27'
   deia_advisory: false
@@ -4404,8 +4419,8 @@
   github_image_id: 23122159
   title:
   sort:
-  bio: PhD Student in Human Computer Interaction and Participatory Health Research
-      | Data for good volunteer | M.Sc. Cognitive Science
+  bio: PhD Student in Human Computer Interaction and Participatory Health
+      Research | Data for good volunteer | M.Sc. Cognitive Science
   organization: CRI
   date_added: '2023-09-11'
   deia_advisory: false
@@ -4435,8 +4450,8 @@
   github_image_id: 3974108
   title:
   sort:
-  bio: Associate Professor in Geophysics at China University of Geosciences. Core
-      developer of @GenericMappingTools.
+  bio: Associate Professor in Geophysics at China University of Geosciences.
+      Core developer of @GenericMappingTools.
   organization: China University of Geosciences
   date_added: '2023-09-11'
   deia_advisory: false
@@ -4465,8 +4480,8 @@
   github_image_id: 14077947
   title:
   sort:
-  bio: Data scientist | Background in oceanography and volcanology | Maintaining
-      @GenericMappingTools and building xarray extensions
+  bio: Data scientist | Background in oceanography and volcanology |
+      Maintaining @GenericMappingTools and building xarray extensions
   organization: '@carbonplan'
   date_added: '2023-09-11'
   deia_advisory: false
@@ -4495,8 +4510,8 @@
   github_image_id: 23025878
   title:
   sort:
-  bio: Data Scientist | Background in geophysics and seismology | Maintainer of
-      PyGMT
+  bio: Data Scientist | Background in geophysics and seismology | Maintainer
+      of PyGMT
   organization: SNP Innovation Lab
   date_added: '2023-09-11'
   deia_advisory: false
@@ -4554,8 +4569,8 @@
   github_image_id: 38253680
   title:
   sort:
-  bio: Geography Masters student at CU Boulder studying remote sensing and data
-      analysis with EarthLab!
+  bio: Geography Masters student at CU Boulder studying remote sensing and
+      data analysis with EarthLab!
   organization:
   date_added: '2020-09-11'
   deia_advisory: false
@@ -5078,8 +5093,8 @@
   github_image_id: 7882693
   title:
   sort:
-  bio: I'm a Research Software Engineer, Computational Glaciologist, Climate Scientist,
-      and Adventurer living/playing in Alaska
+  bio: I'm a Research Software Engineer, Computational Glaciologist, Climate
+      Scientist, and Adventurer living/playing in Alaska
   organization: Alaska Satellite Facility
   date_added: '2023-12-14'
   deia_advisory: false
@@ -5109,8 +5124,8 @@
   github_image_id: 6338509
   title:
   sort:
-  bio: Associate data scientist at Flatiron Institute, working to make computational
-      neuroscience more open, cumulative, and reproducible.
+  bio: Associate data scientist at Flatiron Institute, working to make
+      computational neuroscience more open, cumulative, and reproducible.
   organization: Flatiron Institute
   date_added: '2023-12-14'
   deia_advisory: false
@@ -5137,8 +5152,8 @@
   github_image_id: 7051479
   title:
   sort:
-  bio: Clinical Bioinformatics @Boehringer-Ingelheim.@scverse core dev. Formerly
-      PhD student @icbi-lab.My private account.
+  bio: Clinical Bioinformatics @Boehringer-Ingelheim.@scverse core dev.
+      Formerly PhD student @icbi-lab.My private account.
   organization: Boehringer Ingelheim
   date_added: '2023-12-14'
   deia_advisory: false
@@ -5165,8 +5180,8 @@
   github_image_id: 814813
   title:
   sort:
-  bio: An agoraphobic gourmand, Python hacker, Plone committer, Apache Software
-      Foundation member, NASA scientist, gastrophysicist, etc.
+  bio: An agoraphobic gourmand, Python hacker, Plone committer, Apache
+      Software Foundation member, NASA scientist, gastrophysicist, etc.
   organization: Sean Kelly Consulting
   date_added: '2023-12-14'
   deia_advisory: false
@@ -5223,8 +5238,8 @@
   github_image_id: 21954664
   title:
   sort:
-  bio: PhD student at @theislab and @schillerlab. Co-founder @scverse. Research
-      software engineer @laminlabs
+  bio: PhD student at @theislab and @schillerlab. Co-founder @scverse.
+      Research software engineer @laminlabs
   organization: '@theislab @schillerlab @scverse @laminlabs'
   date_added: '2023-12-14'
   deia_advisory: false
@@ -5487,8 +5502,8 @@
   github_image_id: 963242
   title:
   sort:
-  bio: Astrophysicist lent towards the day side of it.Happy to be the happiness
-      of the the garden
+  bio: Astrophysicist lent towards the day side of it.Happy to be the
+      happiness of the the garden
   organization: '@UCL-ARC'
   date_added: '2024-01-30'
   deia_advisory: false
@@ -5575,8 +5590,8 @@
   github_image_id: 1391051
   title:
   sort:
-  bio: I write open source software for solar and astro physics. I am the lead-developer
-      of SunPy, contribute to Astropy, and work on DKIST.
+  bio: I write open source software for solar and astro physics. I am the
+      lead-developer of SunPy, contribute to Astropy, and work on DKIST.
   organization: Aperio Software
   date_added: '2024-01-30'
   deia_advisory: false
@@ -5953,8 +5968,8 @@
   github_image_id: 5612024
   title:
   sort:
-  bio: I enjoy creating useful things for data analysis, transformation, and visualization.
-      It's super fun too! ₍⸍⸌̣ʷ̣̫⸍̣⸌₎
+  bio: I enjoy creating useful things for data analysis, transformation, and
+      visualization. It's super fun too! ₍⸍⸌̣ʷ̣̫⸍̣⸌₎
   organization: '@rstudio'
   date_added: '2024-03-09'
   deia_advisory: false
@@ -6163,8 +6178,8 @@
   github_image_id: 108839050
   title:
   sort:
-  bio: Software Developer with a background in Mechanical and Aerospace engineering
-      🚀 ✈️ -Rustacean 🦀 and Pythonista 🐍
+  bio: Software Developer with a background in Mechanical and Aerospace
+      engineering 🚀 ✈️ -Rustacean 🦀 and Pythonista 🐍
   organization:
   date_added: '2024-05-07'
   deia_advisory: false
@@ -6218,8 +6233,8 @@
   github_image_id: 89505514
   title:
   sort:
-  bio: Public health epidemiologist interested in injury and violence prevention
-      and data science tool development.
+  bio: Public health epidemiologist interested in injury and violence
+      prevention and data science tool development.
   organization: Washington Start Department of Health
   date_added: '2024-05-07'
   deia_advisory: false
@@ -6417,7 +6432,8 @@
   github_image_id: 26591824
   title:
   sort:
-  bio: Open Science Expert, Climate Data Scientist, Science Capacity Sharing Enthusiast
+  bio: Open Science Expert, Climate Data Scientist, Science Capacity Sharing
+      Enthusiast
   organization: NASA Transform to Open Science
   date_added: '2024-05-07'
   deia_advisory: false
@@ -6446,7 +6462,8 @@
   github_image_id: 28703282
   title:
   sort:
-  bio: Oceanographer, Pythonista and data science-ish. Breaks things on Fridays
+  bio: Oceanographer, Pythonista and data science-ish. Breaks things on
+      Fridays
   organization: Voice of the Ocean Foundation
   date_added: '2024-05-07'
   deia_advisory: false
@@ -6475,8 +6492,9 @@
   github_image_id: 18579092
   title:
   sort:
-  bio: Doctor in Physical Oceanography. Studying sea ice, ocean stratif, buoyancy
-      fluxes, nonlinear EOS, with numerical modelling (NextSIM, NEMO) and observations.
+  bio: Doctor in Physical Oceanography. Studying sea ice, ocean stratif,
+      buoyancy fluxes, nonlinear EOS, with numerical modelling (NextSIM, NEMO)
+      and observations.
   organization: Institut des Géosciences de l'Environnement
   date_added: '2024-05-07'
   deia_advisory: false
@@ -6840,8 +6858,8 @@
   github_image_id: 11718923
   title:
   sort:
-  bio: electro-metrology, semiconductor manufacturing, and nuclear physics enthusiast
-      • python core dev, archlinux packager
+  bio: electro-metrology, semiconductor manufacturing, and nuclear physics
+      enthusiast • python core dev, archlinux packager
   organization:
   date_added: '2024-06-01'
   deia_advisory: false
@@ -6985,9 +7003,9 @@
   github_image_id: 325899
   title:
   sort:
-  bio: I AM NOT LOOKING FOR A JOB. DO NOT CONTACT ME WITH  JOB OFFERS. I do security
-      research and misc systems coding. Please see my personal website for more
-      detail.
+  bio: I AM NOT LOOKING FOR A JOB. DO NOT CONTACT ME WITH  JOB OFFERS. I do
+      security research and misc systems coding. Please see my personal
+      website for more detail.
   organization:
   date_added: '2024-07-04'
   deia_advisory: false
@@ -7043,7 +7061,8 @@
   github_image_id: 24376333
   title:
   sort:
-  bio: Software Engineer | Speaker | Author of "Hands-On Data Analysis with Pandas"
+  bio: Software Engineer | Speaker | Author of "Hands-On Data Analysis with
+      Pandas"
   organization: '@Bloomberg'
   date_added: '2024-07-04'
   deia_advisory: false
@@ -7183,8 +7202,8 @@
   github_image_id: 32932511
   title:
   sort:
-  bio: Assistant Professor and Royal Society Dorothy Hodgkin Fellow at the Institute
-      for Computational Cosmology, Durham University.
+  bio: Assistant Professor and Royal Society Dorothy Hodgkin Fellow at the
+      Institute for Computational Cosmology, Durham University.
   organization:
   date_added: '2024-07-04'
   deia_advisory: false
@@ -7303,8 +7322,9 @@
   github_image_id: 872474
   title:
   sort:
-  bio: Hi, I'm Caleb, a web developer who lives for Christ by building enjoyable
-      apps and useful tools. I hope you are blessed by what I've made!
+  bio: Hi, I'm Caleb, a web developer who lives for Christ by building
+      enjoyable apps and useful tools. I hope you are blessed by what I've
+      made!
   organization:
   date_added: '2024-07-04'
   deia_advisory: false
@@ -7418,7 +7438,8 @@
   github_image_id: 37798125
   title:
   sort:
-  bio: Aerospace engineer, passionate about simulations, CFD and astrodynamics.
+  bio: Aerospace engineer, passionate about simulations, CFD and
+      astrodynamics.
   organization: '@ansys'
   date_added: '2024-08-01'
   deia_advisory: false
@@ -7445,8 +7466,8 @@
   github_image_id: 45364492
   title:
   sort:
-  bio: PhD student @ ARFC.Working on literature review for PhD Thesis, but am always
-      open for PR reviews!
+  bio: PhD student @ ARFC.Working on literature review for PhD Thesis, but am
+      always open for PR reviews!
   organization:
   date_added: '2024-08-01'
   deia_advisory: false
@@ -7639,8 +7660,8 @@
   github_image_id: 12192
   title:
   sort:
-  bio: PyData Osaka organizer,Bioconductor Community Advisory Board,Software Carpentry
-      Japanese Team
+  bio: PyData Osaka organizer,Bioconductor Community Advisory Board,Software
+      Carpentry Japanese Team
   organization:
   date_added: '2024-08-15'
   deia_advisory: false
@@ -7726,8 +7747,9 @@
   github_image_id: 3949932
   title:
   sort:
-  bio: Senior DevEx Engineer at Quansight, former math professor (UFSC). Mathematical
-      optimization, numerical linear algebra, LaTeX, Python, Fortran, OSS.
+  bio: Senior DevEx Engineer at Quansight, former math professor (UFSC).
+      Mathematical optimization, numerical linear algebra, LaTeX, Python,
+      Fortran, OSS.
   organization: '@Quansight'
   date_added: '2024-09-01'
   deia_advisory: false
@@ -7864,8 +7886,8 @@
   github_image_id: 8688665
   title:
   sort:
-  bio: Software Engineer / Biologist / Billiards addict. I did my PhD in Biophysical
-      Sciences at the University of Chicago.
+  bio: Software Engineer / Biologist / Billiards addict. I did my PhD in
+      Biophysical Sciences at the University of Chicago.
   organization:
   date_added: '2024-09-17'
   deia_advisory: false
@@ -7922,8 +7944,8 @@
   github_image_id: 7190189
   title:
   sort:
-  bio: Astrophysicist at INAF, time series cruncher@StingraySoftware @NuSTAR @astropy
-      @discos
+  bio: Astrophysicist at INAF, time series cruncher@StingraySoftware @NuSTAR
+      @astropy @discos
   organization: INAF/Osservatorio Astronomico di Cagliari
   date_added: '2024-10-15'
   deia_advisory: false
@@ -8279,8 +8301,9 @@
   github_image_id: 92368611
   title:
   sort:
-  bio: My principal area of research are robust statistics, directional statistics,
-      kernel-based methods, neural networks, neuroscience applications.
+  bio: My principal area of research are robust statistics, directional
+      statistics, kernel-based methods, neural networks, neuroscience
+      applications.
   organization: University of Padova
   date_added: '2024-12-13'
   deia_advisory: false
@@ -8309,8 +8332,8 @@
   github_image_id: 11541317
   title:
   sort:
-  bio: PhD in Geophysics and Physicist. Postdoc researcher at UBC. Develop @fatiando
-      and @simpeg.
+  bio: PhD in Geophysics and Physicist. Postdoc researcher at UBC. Develop
+      @fatiando and @simpeg.
   organization: '@fatiando @simpeg @ubcgif @compgeolab @GeoLatinas'
   date_added: '2025-01-01'
   deia_advisory: false
@@ -8364,8 +8387,8 @@
   github_image_id: 47164199
   title:
   sort:
-  bio: Sr. software engineer @callrail. CS PhD student, deep learning and computational
-      biophysics @YesselmanLab and @yao-laboratory
+  bio: Sr. software engineer @callrail. CS PhD student, deep learning and
+      computational biophysics @YesselmanLab and @yao-laboratory
   organization:
   date_added: '2025-01-14'
   deia_advisory: false
@@ -8538,8 +8561,8 @@
   github_image_id: 15609154
   title:
   sort:
-  bio: LSST Discovery Alliance Postdoctoral Fellow. Finance committee and voting
-      member @astropy.
+  bio: LSST Discovery Alliance Postdoctoral Fellow. Finance committee and
+      voting member @astropy.
   organization: Max Planck Institute for Astronomy
   date_added: '2025-02-19'
   deia_advisory: false
@@ -8686,7 +8709,8 @@
   title:
   sort:
   bio: Researcher at the National Centre for Atmospheric Science (UK)
-  organization: National Centre for Atmospheric Science, University of Manchester
+  organization: National Centre for Atmospheric Science, University of
+      Manchester
   date_added: '2025-02-19'
   deia_advisory: false
   editorial_board: false
@@ -8802,8 +8826,8 @@
   github_image_id: 8780125
   title:
   sort:
-  bio: Research Scientist in the Department of Climate, Meteorology & Atmospheric
-      Sciences at the University of Illinois Urbana-Champaign.
+  bio: Research Scientist in the Department of Climate, Meteorology &
+      Atmospheric Sciences at the University of Illinois Urbana-Champaign.
   organization: University of Illinois Urbana-Champaign
   date_added: '2025-02-19'
   deia_advisory: false
@@ -8890,7 +8914,8 @@
   github_image_id: 74401230
   title:
   sort:
-  bio: sentient stochastic parrot. @pyodide • @jupyterlite • @pybamm-team • @scientific-python
+  bio: sentient stochastic parrot. @pyodide • @jupyterlite • @pybamm-team •
+      @scientific-python
   organization: Quansight
   date_added: '2025-02-28'
   deia_advisory: false
@@ -9005,7 +9030,8 @@
   github_image_id: 6745434
   title:
   sort:
-  bio: Group Leader @arfc, member of @data-exp-lab, @scientific-python, and @yt-project
+  bio: Group Leader @arfc, member of @data-exp-lab, @scientific-python, and
+      @yt-project
   organization: '@NCSA'
   date_added: '2025-03-20'
   deia_advisory: false
@@ -9034,8 +9060,8 @@
   github_image_id: 67020956
   title:
   sort:
-  bio: PhD Candidate at Oregon State University focused on radiation transport on
-      GPUs
+  bio: PhD Candidate at Oregon State University focused on radiation transport
+      on GPUs
   organization: Oregon State University
   date_added: '2025-03-20'
   deia_advisory: false
@@ -9064,8 +9090,9 @@
   github_image_id: 12405772
   title:
   sort:
-  bio: Nuclear Engineer, PhD Student, aspiring Rustacean; interested in Computational
-      Reactor Physics, and other less useful things. Member of @cnerg.
+  bio: Nuclear Engineer, PhD Student, aspiring Rustacean; interested in
+      Computational Reactor Physics, and other less useful things. Member of
+      @cnerg.
   organization: '@idaholab'
   date_added: '2025-03-20'
   deia_advisory: false
@@ -9095,8 +9122,8 @@
   github_image_id: 19986691
   title:
   sort:
-  bio: Neutronics analysis and reactor physics automation.Engineer at @idaholab
-      andPh.D student with @anovak-lab
+  bio: Neutronics analysis and reactor physics automation.Engineer at
+      @idaholab andPh.D student with @anovak-lab
   organization: Idaho National Laboratory
   date_added: '2025-03-20'
   deia_advisory: false
@@ -9125,8 +9152,8 @@
   github_image_id: 3594989
   title:
   sort:
-  bio: Python enthusiast and data nerd working at the National Library of Norway.
-      Excited about open source, science outreach and visualization.
+  bio: Python enthusiast and data nerd working at the National Library of
+      Norway. Excited about open source, science outreach and visualization.
   organization: '@NationalLibraryOfNorway @Sprakbanken'
   date_added: '2025-05-19'
   deia_advisory: false
@@ -9180,8 +9207,8 @@
   github_image_id: 744427
   title:
   sort:
-  bio: Environmental Data Scientist/Professor. Ecology + open data + open science
-      + open source.
+  bio: Environmental Data Scientist/Professor. Ecology + open data + open
+      science + open source.
   organization: '@weecology, Univ of Florida'
   date_added: '2025-05-30'
   deia_advisory: false
@@ -9210,8 +9237,8 @@
   github_image_id: 83379521
   title:
   sort:
-  bio: Cybersecurity professional researching machine learning to accelerate post-breach
-      triage with the Open University.
+  bio: Cybersecurity professional researching machine learning to accelerate
+      post-breach triage with the Open University.
   organization:
   date_added: '2025-05-30'
   deia_advisory: false
@@ -9357,8 +9384,8 @@
   github_image_id: 3531982
   title:
   sort:
-  bio: Data scientist with a passion for scientific computing, applied mathematics
-      and computational biology.
+  bio: Data scientist with a passion for scientific computing, applied
+      mathematics and computational biology.
   organization: Bouvet
   date_added: '2025-06-01'
   deia_advisory: false
@@ -9397,7 +9424,8 @@
   mastodon:
   orcidid:
   partners:
-  website: https://sites.google.com/res.christuniversity.in/akhilkrishnar/about?pli=1
+  website:
+      https://sites.google.com/res.christuniversity.in/akhilkrishnar/about?pli=1
   board: false
   contributor_type:
     - package-guide
@@ -9444,7 +9472,7 @@
   organization: Vellore Institute of Technology, Chennai
   date_added: '2025-06-05'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
