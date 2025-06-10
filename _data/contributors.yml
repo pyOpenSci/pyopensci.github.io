@@ -9490,3 +9490,30 @@
   packages_reviewed:
   location: Chennai
   email: sanketkumarkar@gmail.com
+- name: Daniel Chen
+  github_username: chendaniely
+  github_image_id: 5782147
+  title:
+  sort:
+  bio: bow ties are cool
+  organization: '@rstudio @UBC-DSCI @UBC-MDS'
+  date_added: '2025-06-10'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter: chendaniely
+  mastodon:
+  orcidid:
+  partners:
+  website: https://chendaniely.github.io
+  board: false
+  contributor_type:
+    - package-guide
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: JFK -> DCA -> ROA -> JFK -> YVR
+  email:
