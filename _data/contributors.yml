@@ -634,6 +634,7 @@
   packages_eic:
     - montepy
     - neonutilities
+    - solar data tools
     - stingray
     - thztools
   packages_editor:
@@ -7846,8 +7847,11 @@
   website:
   board: false
   contributor_type:
+    - editor
+    - peer-review
   packages_eic:
   packages_editor:
+    - solar data tools
   packages_submitted:
   packages_reviewed:
   location:
@@ -9499,7 +9503,7 @@
   organization: '@rstudio @UBC-DSCI @UBC-MDS'
   date_added: '2025-06-10'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -9516,4 +9520,178 @@
   packages_submitted:
   packages_reviewed:
   location: JFK -> DCA -> ROA -> JFK -> YVR
+  email:
+- name: Carter Lee Rhea
+  github_username: crhea93
+  github_image_id: 34322936
+  title:
+  sort:
+  bio: Graduate student at Université de Montréal studying astrophysics.
+  organization:
+  date_added: '2025-06-16'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - peer-review-guide
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: Montreal, QC, CANADA
+  email:
+- name: Jinning Wang
+  github_username: jinningwang
+  github_image_id: 79226045
+  title:
+  sort:
+  bio: No audacity, no young.
+  organization: University of Tennessee, Knoxville
+  date_added: '2025-06-16'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://ning.guru
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - solar data tools
+  location: Knoxville, Tennessee, USA
+  email: jinninggm@gmail.com
+- name: Echedey Luis
+  github_username: echedey-ls
+  github_image_id: 80125792
+  title:
+  sort:
+  bio: FOSS, PV, Electronics, and Sustainability enthusiast. Also an
+      Electronics Engineer.
+  organization: UPM
+  date_added: '2025-06-16'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - solar data tools
+  location: Spain
+  email:
+- name: Chris Deline
+  github_username: cdeline
+  github_image_id: 23244088
+  title:
+  sort:
+  bio:
+  organization: '@NREL'
+  date_added: '2025-06-16'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - solar data tools
+  location: Golden, CO
+  email: chris.deline@nrel.gov
+- name: Sara A. Miskovich
+  github_username: pluflou
+  github_image_id: 44688920
+  title:
+  sort:
+  bio: Staff Engineer @slaclab |Physics PhD
+  organization: SLAC National Accelerator Laboratory
+  date_added: '2025-06-16'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter: saramiskovich
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+    - submitting-author
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - solar data tools
+  packages_reviewed:
+  location: Menlo Park, CA
+  email: saramiskovich@gmail.com
+- name: Bennet Meyers
+  github_username: bmeyers
+  github_image_id: 1463184
+  title:
+  sort:
+  bio: PV Performance Specialist, Scientific Coding Enthusiast
+  organization: Stanford & SLAC National Lab
+  date_added: '2025-06-16'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - solar data tools
+  packages_reviewed:
+  location: California
   email:
