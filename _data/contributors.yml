@@ -9530,7 +9530,7 @@
   organization:
   date_added: '2025-06-16'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -9557,7 +9557,7 @@
   organization: University of Tennessee, Knoxville
   date_added: '2025-06-16'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -9587,7 +9587,7 @@
   organization: UPM
   date_added: '2025-06-16'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -9616,7 +9616,7 @@
   organization: '@NREL'
   date_added: '2025-06-16'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -9645,7 +9645,7 @@
   organization: SLAC National Accelerator Laboratory
   date_added: '2025-06-16'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -9675,7 +9675,7 @@
   organization: Stanford & SLAC National Lab
   date_added: '2025-06-16'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
