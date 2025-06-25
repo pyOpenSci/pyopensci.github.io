@@ -39,7 +39,7 @@ We encourage you to use GitHub Codespaces! If you prefer to install things local
 [Need help? Ask us on Discord.](https://discord.gg/m7RFFxnc)
 
 
-### 1. Create your free accounts
+### 1. Make sure you have a GitHub and Test PyPI account
 
 Before the workshop, please create and log into the following accounts:
 
