@@ -50,7 +50,7 @@ Before the workshop, please create and log into the following accounts:
 > <i class="fa-solid fa-lock"></i> **Important:** To follow along when we publish to Test PyPI, you must enable **two-factor authentication (2FA)** on your Test PyPI account. We strongly recommend doing this **before** the workshop!
 {: .notice .notice-important}
 
-### 2a. Setup for working locally on your laptop
+## 2a. Setup for working locally on your laptop
 
 We recommend using GitHub Codespaces (see next section) to avoid issues with environment setup. However, if you prefer to work locally, please ensure your environment is set up and ready before the workshop.
 
@@ -75,94 +75,135 @@ We strongly suggest that you use our curated [GitHub Codespace](https://codespac
 
 ### Before the workshop do the following
 
-1. [Fork our workshop repository](https://github.com/pyOpenSci/pyopensci-scipy25-create-python-package) and
-2. Launch the codespace from your fork, BEFORE the workshop begins. This ensures that it’s ready for you to use during the workshop.
+* Go to GitHub.com and [Fork the workshop repository](https://github.com/pyOpenSci/pyopensci-scipy25-create-python-package)
+
+<figure>
+    <picture>
+    <img src="{{ site.baseurl }}/images/github/codespaces/scipy-fork-repo.gif" alt=".">
+    </picture>
+</figure>
+
+* **Create a branch** in your fork to work on during the workshop.
+* **Launch the repository codespace from your fork, BEFORE the workshop begins**. The initial spin-up for a codespace can take up to 15 minutes or longer. Once it's been created, it will be quicker to relaunch.
+
+<figure>
+    <picture>
+    <img src="{{ site.baseurl }}/images/github/codespaces/scipy-open-codespace.gif" alt=".">
+    </picture>
+</figure>
 
 
-## How to open a codespace
+## <i class="fa-solid fa-cloud"></i> About GitHub Codespaces: Working in the cloud
 
 
-### What is a codespace
+## What is a codespace
 
-GitHub Codespaces are a cloud-based development environment integrated into GitHub. Codespaces provide fully configured, container-based environments that you can use to modify files in a GitHub repository. Codespaces are customizable, allowing users to define their environment using `.devcontainer` configuration files. The codespaces set up for this workshop run Visual Studio Code by default; you can set them up however to use the IDE (Integrated Development Environment) of your choice. Codespaces allow you to work on activities during a workshop in the cloud without needing to setup a local environment.
+GitHub Codespaces are cloud-based development environments that let you
+code directly in your browser—no local setup needed. They provide fully
+configured, container-based environments connected to your GitHub
+repository.
 
-You can learn more about GitHub Codespaces [here](https://docs.github.com/en/codespaces/overview).
+You can customize Codespaces with `.devcontainer` files to match your
+development setup. The Codespace for this workshop opens in Visual Studio
+Code by default, but you can configure it to use any IDE you prefer.
 
-Important: GitHub Codespaces are free to run on a Free GitHub account for up to 60 hours a month. Given you have limited hours,  be sure to shut down your CodeSpace after the workshop ends to ensure that you don’t run out of credits.
+Learn more in the [GitHub Codespaces docs](https://docs.github.com/en/codespaces/overview).
 
-
-### View & manage open codespaces
-
-You can view open Codespaces associated with your account here:
-
-
-* [https://github.com/codespaces](https://github.com/codespaces)
-
-When you delete a running codespace, you are deleting an active session. However, the codespace configuration is always available for you to use and reopen a new codespace.
+Codespaces are free for up to 60 hours/month on GitHub’s free plan. Be sure
+to shut yours down after the workshop to conserve your allocated time.
+{: .notice}
 
 
 ### How to open a codespace
 
-Codespaces are associated with each GitHub user’s account (they are not associated with pyOpenSci / our GitHub organization. If you see the screenshot below, you haven’t launched a codespace from this repository before. In this case, click on `Create Codespace on main`. This will create a codespace for you using the configuration file provided in the main branch of our organization.
+To open a Codespace,
+
+* Go to your forked SciPy 2025 workshop repository on GitHub,
+* Switch to a branch that you want to work on during the workshop,
+* Click the code drop-down button (where you'd find a link to clone a repo)
+* Click on the Codespaces tab in the drop-down.
+
+Within the Codespaces tab you will see a button: <kbd style="background-color: #2da44e; color: white; padding: 2px 6px; border-radius: 4px;">
+Create codespace on main
+</kbd>. This button launches a Codespace from the currently active branch. It will default to the
+`main` branch if you haven't changed your branch yet.
+
+<figure style="width: 55%; margin: 0 auto;">
+  <picture>
+    <source srcset="{{ site.baseurl }}/images/github/codespaces/create-github-codespace-main.webp"
+            type="image/webp">
+    <img src="{{ site.baseurl }}/images/github/codespaces/create-github-codespace-main.png"
+         alt="Create codespace on main button">
+  </picture>
+</figure>
+
+> <i class="fa-solid fa-circle-info"></i> To follow GitHub best practices, always create a new branch before making
+> changes. Avoid working directly on the `main` branch.
+
+If you switch branches in GitHub, Codespaces will launch from the
+selected, active branch.
+
+<figure>
+  <picture>
+    <img src="{{ site.baseurl }}/images/github/codespaces/scipy-open-codespace.gif"
+         alt="GIF showing Codespace launch process">
+  </picture>
+</figure>
 
 
-
-* You can use the CodeSpaces that pyOpenSci has already setup for you in our workshop repository..
-    * [ff-2024-create-python-package Codespace](https://codespaces.new/pyOpenSci/ff-2024-create-python-package?quickstart=1) **UPDATE THIS**
-    * **https://github.com/pyOpenSci/scipy-2025-create-python-package**
-* If you have never used a codespace before, you might see the image below that says “No Codespaces”. That just means that you need to open a new CodeSpace. To do that, click on the green button that says: **Create codespace on main**.
-    * This will create a codespace running on the main branch of your repository. If you are in an actual development workflow, you would likely want to create a codespace working on a different branch so you can submit a pull request using best practices (not from main branch).
+> Codespaces are associated with your **personal GitHub account**, even if
+you open one from the pyOpenSci repository. The usage counts toward your
+own GitHub credits.
+{: .notice }
 
 
+### View & manage open codespaces
+
+Once you've opened a Codespace, you can return to it later without needing
+to start from scratch. GitHub will reuse the environment, making it launch
+significantly faster the second time.
+
+If possible, resume the **same Codespace** you started in, rather than
+creating a new one in your fork.
+
+<figure>
+  <picture>
+    <img src="{{ site.baseurl }}/images/github/codespaces/scipy-open-codespace.gif"
+         alt="Animated gif of GitHub Codespace launch names">
+  </picture>
+</figure>
+
+<i class="fa-solid fa-link"></i>
+[View all active Codespaces associated with your account](https://github.com/codespaces)
+
+{: .notice}
+> <i class="fa-solid fa-circle-info"></i> When you delete a Codespace, you're
+> ending the session, but the configuration remains available so you can
+> launch a new one anytime.
+> [Learn more in the GitHub docs](https://docs.github.com/en/codespaces/developing-in-a-codespace/stopping-and-starting-a-codespace)
+
+
+As you can see in the animated gif below, GitHub codespaces always have fun names.
+
+
+### How to relaunch a codespace
+
+To relaunch a Codespace:
+
+1. Go to your fork of the workshop repository.
+2. Click the **Code** dropdown (same as when you first created the Codespace).
+3. Select the **Codespaces** tab to view existing environments.
+4. If GitHub finds a matching Codespace, it will prompt you to:
+
+<i class="fa-solid fa-play"></i> **Resume this Codespace**
 
 
 <figure>
-    <picture>
-    <source srcset="{{ site.baseurl }}/images/github/codespaces/create-github-codespace-main.webp" type="image/webp">
-    <img src="{{ site.baseurl }}/images/github/codespaces/create-github-codespace-main.png" alt=".">
-    </picture>
+  <picture>
+    <img src="{{ site.baseurl }}/images/github/codespaces/reopen-codespace.gif"
+         alt="GIF showing how to reopen a GitHub Codespace">
+  </picture>
 </figure>
-
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image1.png "image_tooltip")
-
-* If you have already opened and used a Codespace in your repository, GitHub will find it and ask if you want to resume using the existing Codespace in your account.
-    * Select Resume This Codespace. You don’t need to create a new codespace!!
-
-
-
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image2.png "image_tooltip")
-
-* How to relaunch a codespace
-* How to commit changes to your fork after making them in a codespace.
-
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image3.png "image_tooltip")
-
-
-<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image4.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image4.png "image_tooltip")
-
-<p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image5.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image5.png "image_tooltip")
-
-
-<p id="gdcalert6" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image6.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert7">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image6.png "image_tooltip")
-
 
 <div class="notice" markdown="1">
 
