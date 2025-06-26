@@ -61,7 +61,9 @@ If you're comfortable with Python environments, arrive with an environment that 
     - You can install both via `pipx`, `uv`, pixi, or any preferred package manager.
 - [VS Code](https://code.visualstudio.com/download) (or any IDE you prefer for packaging)
 
-> <i class="fa-solid fa-triangle-exclamation"></i> **Note:** JupyterLab or Jupyter Notebook is **not ideal** for the packaging work we’ll be doing.
+> <i class="fa-solid fa-triangle-exclamation"></i> **Note:**
+> * We strongly suggest that you go to GitHub.com and [Fork our SciPy 2025 workshop repository](https://github.com/pyOpenSci/pyopensci-scipy25-create-python-package) just in case something with your local installation isn't working. This will ensure that you can follow along with us regardless of your environment setup!
+> * JupyterLab or Jupyter Notebook is **not ideal** for the packaging work we’ll be doing.
 {: .notice }
 
 If you run into issues, please [join our Discord and ask for help](https://discord.gg/m7RFFxnc) before the workshop.
@@ -69,13 +71,13 @@ If you run into issues, please [join our Discord and ask for help](https://disco
 
 ## 2b. If you plan to use GitHub Codespaces (SUGGESTED)
 
-We strongly suggest that you use our curated [GitHub Codespace](https://codespaces.new/pyOpenSci/ff-2024-create-python-package?quickstart=1), which you can find in your forked workshop repository. This workspace is already set up with
+We strongly recommend using our curated [GitHub Codespace](https://codespaces.new/pyOpenSci/ff-2024-create-python-package?quickstart=1), which can be found in your forked workshop repository. This workspace is already set up with:
 
-* VSCode, copier, Hatch, and everything you need to successfully create your first Python package. Codespaces also allows you to easily commit your work during the workshop to your own forked GitHub repository.
+* VSCode, copier, Hatch, and everything you need to create your first Python package successfully. Codespaces also allows you to easily commit your work during the workshop to your own forked GitHub repository.
 
-### Before the workshop do the following
+**Before the workshop do the following**
 
-* Go to GitHub.com and [Fork the workshop repository](https://github.com/pyOpenSci/pyopensci-scipy25-create-python-package)
+* Go to GitHub.com and [Fork our SciPy 2025 workshop repository](https://github.com/pyOpenSci/pyopensci-scipy25-create-python-package)
 
 <figure>
     <picture>
@@ -83,18 +85,38 @@ We strongly suggest that you use our curated [GitHub Codespace](https://codespac
     </picture>
 </figure>
 
-* **Create a branch** in your fork to work on during the workshop.
-* **Launch the repository codespace from your fork, BEFORE the workshop begins**. The initial spin-up for a codespace can take up to 15 minutes or longer. Once it's been created, it will be quicker to relaunch.
+*  Launch the codespace before the workshop:
 
-<figure>
-    <picture>
-    <img src="{{ site.baseurl }}/images/github/codespaces/scipy-open-codespace.gif" alt=".">
-    </picture>
+<i class="fa-solid fa-circle-info"></i> The initial spin-up for a codespace can take up to 15 minutes or longer. Once GitHub creates the cloud environment, it will be quicker to relaunch. Please do this before attending the workshop session.
+{: .notice }
+
+To open your Codespace,
+
+* Go to your forked SciPy 2025 workshop repository on GitHub,
+* Switch to a branch that you want to work on during the workshop,
+* Click the code drop-down button (where you'd find a link to clone a repo)
+* Click on the Codespaces tab in the drop-down.
+
+Within the Codespaces tab you will see a button: <kbd style="background-color: #2da44e; color: white; padding: 2px 6px; border-radius: 4px;">
+Create codespace on main
+</kbd>. This button launches a Codespace from the currently active branch. It will default to the
+`main` branch if you haven't changed your branch in the repository.
+
+The animated gif below walks you through how this works.
+
+<figure style="width: 55%; margin: 0 auto;">
+  <picture>
+    <source srcset="{{ site.baseurl }}/images/github/codespaces/create-github-codespace-main.webp"
+            type="image/webp">
+    <img src="{{ site.baseurl }}/images/github/codespaces/create-github-codespace-main.png"
+         alt="Create codespace on main button">
+  </picture>
 </figure>
 
+> <i class="fa-solid fa-circle-info"></i> To follow GitHub best practices, always create a new branch before making
+> changes to a repository, even if you own the repository. Avoid working directly on the `main` branch.
 
 ## <i class="fa-solid fa-cloud"></i> About GitHub Codespaces: Working in the cloud
-
 
 ## What is a codespace
 
@@ -113,44 +135,6 @@ Codespaces are free for up to 60 hours/month on GitHub’s free plan. Be sure
 to shut yours down after the workshop to conserve your allocated time.
 {: .notice}
 
-
-### How to open a codespace
-
-To open a Codespace,
-
-* Go to your forked SciPy 2025 workshop repository on GitHub,
-* Switch to a branch that you want to work on during the workshop,
-* Click the code drop-down button (where you'd find a link to clone a repo)
-* Click on the Codespaces tab in the drop-down.
-
-Within the Codespaces tab you will see a button: <kbd style="background-color: #2da44e; color: white; padding: 2px 6px; border-radius: 4px;">
-Create codespace on main
-</kbd>. This button launches a Codespace from the currently active branch. It will default to the
-`main` branch if you haven't changed your branch yet.
-
-<figure style="width: 55%; margin: 0 auto;">
-  <picture>
-    <source srcset="{{ site.baseurl }}/images/github/codespaces/create-github-codespace-main.webp"
-            type="image/webp">
-    <img src="{{ site.baseurl }}/images/github/codespaces/create-github-codespace-main.png"
-         alt="Create codespace on main button">
-  </picture>
-</figure>
-
-> <i class="fa-solid fa-circle-info"></i> To follow GitHub best practices, always create a new branch before making
-> changes. Avoid working directly on the `main` branch.
-
-If you switch branches in GitHub, Codespaces will launch from the
-selected, active branch.
-
-<figure>
-  <picture>
-    <img src="{{ site.baseurl }}/images/github/codespaces/scipy-open-codespace.gif"
-         alt="GIF showing Codespace launch process">
-  </picture>
-</figure>
-
-
 > Codespaces are associated with your **personal GitHub account**, even if
 you open one from the pyOpenSci repository. The usage counts toward your
 own GitHub credits.
@@ -164,14 +148,7 @@ to start from scratch. GitHub will reuse the environment, making it launch
 significantly faster the second time.
 
 If possible, resume the **same Codespace** you started in, rather than
-creating a new one in your fork.
-
-<figure>
-  <picture>
-    <img src="{{ site.baseurl }}/images/github/codespaces/scipy-open-codespace.gif"
-         alt="Animated gif of GitHub Codespace launch names">
-  </picture>
-</figure>
+creating a new one in your fork. Read on to learn how to find and reopen a codespace.
 
 <i class="fa-solid fa-link"></i>
 [View all active Codespaces associated with your account](https://github.com/codespaces)
@@ -183,7 +160,6 @@ creating a new one in your fork.
 > [Learn more in the GitHub docs](https://docs.github.com/en/codespaces/developing-in-a-codespace/stopping-and-starting-a-codespace)
 
 
-As you can see in the animated gif below, GitHub codespaces always have fun names.
 
 
 ### How to relaunch a codespace
@@ -193,10 +169,9 @@ To relaunch a Codespace:
 1. Go to your fork of the workshop repository.
 2. Click the **Code** dropdown (same as when you first created the Codespace).
 3. Select the **Codespaces** tab to view existing environments.
-4. If GitHub finds a matching Codespace, it will prompt you to:
+4. Select the codespace that you want to resume from the list (see image below).
 
-<i class="fa-solid fa-play"></i> **Resume this Codespace**
-
+As you can see in the animated gif below, GitHub codespaces always have fun names.
 
 <figure>
   <picture>
@@ -210,7 +185,7 @@ To relaunch a Codespace:
 <i class="fa-solid fa-users-line"></i> Connect with us!
 {: .header }
 
-There are lots of ways to get involved if you are interested!
+There are many ways to get involved if you're interested!
 
 * If you read through our lessons and want to suggest changes, open an issue in our [lessons repository here](https://github.com/pyOpenSci/lessons)
 * [Volunteer to be a reviewer for pyOpenSci's software review process](https://forms.gle/GHfxvmS47nQFDcBM6)
