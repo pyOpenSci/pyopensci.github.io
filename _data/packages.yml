@@ -83,14 +83,14 @@
       github_username: echedey-ls
     - name: Chris Deline
       github_username: cdeline
-  archive:
-  version_accepted: TBD
+  archive: https://doi.org/10.5281/zenodo.15243716
+  version_accepted: 1.7.1
   date_accepted: '2025-06-13'
   created_at: 2024-08-17 06:30:02+00:00
-  updated_at: 2025-06-14 13:14:48+00:00
-  closed_at:
+  updated_at: 2025-06-27 21:22:44+00:00
+  closed_at: 2025-06-27 21:22:44+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/210
-  joss:
+  joss: https://doi.org/10.21105/joss.08478
   partners:
   gh_meta:
       name: solar-data-tools
@@ -103,9 +103,10 @@
       forks_count: 25
       documentation: https://solar-data-tools.readthedocs.io
       contrib_count: 18
-      last_commit: '2025-06-25'
+      last_commit: '2025-06-27'
   labels:
     - 6/pyOS-approved
+    - 9/joss-approved
   active: true
 - package_name: THzTools
   package_description: Data analysis software tools for terahertz time-domain
@@ -245,10 +246,10 @@
       name: great-tables
       description: Make awesome display tables using Python
       created_at: '2022-05-06'
-      stargazers_count: 2336
+      stargazers_count: 2339
       watchers_count: 14
       open_issues_count: 118
-      forks_count: 93
+      forks_count: 95
       documentation: https://posit-dev.github.io/great-tables/
       contrib_count: 22
       last_commit: '2025-06-24'
@@ -308,7 +309,7 @@
       forks_count: 166
       documentation: https://stingray.science/stingray
       contrib_count: 54
-      last_commit: '2025-06-25'
+      last_commit: '2025-06-27'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -511,7 +512,7 @@
       name: pooltool
       description: A sandbox billiards game that emphasizes realistic physics
       created_at: '2020-04-09'
-      stargazers_count: 280
+      stargazers_count: 281
       watchers_count: 13
       open_issues_count: 3
       forks_count: 48
@@ -995,10 +996,10 @@
       name: sunpy
       description: SunPy - Python for Solar Physics
       created_at: '2011-08-06'
-      stargazers_count: 954
+      stargazers_count: 955
       watchers_count: 49
       open_issues_count: 260
-      forks_count: 602
+      forks_count: 603
       documentation: https://www.sunpy.org
       contrib_count: 240
       last_commit: '2025-06-20'
@@ -1135,7 +1136,7 @@
       description: A library to create interactive maps of geographical
           datasets
       created_at: '2021-09-27'
-      stargazers_count: 355
+      stargazers_count: 356
       watchers_count: 4
       open_issues_count: 11
       forks_count: 27
@@ -1188,11 +1189,11 @@
       created_at: '2016-04-09'
       stargazers_count: 510
       watchers_count: 16
-      open_issues_count: 738
+      open_issues_count: 739
       forks_count: 84
       documentation: https://sourmash.readthedocs.io/en/latest/
       contrib_count: 45
-      last_commit: '2025-06-24'
+      last_commit: '2025-06-28'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1551,7 +1552,7 @@
       stargazers_count: 41
       watchers_count: 4
       open_issues_count: 14
-      forks_count: 9
+      forks_count: 8
       documentation: https://taxpasta.readthedocs.io/
       contrib_count: 5
       last_commit: '2024-10-23'
@@ -1697,7 +1698,7 @@
       description: 'Library of derived climate variables, ie climate indicators,
           based on xarray. '
       created_at: '2018-07-27'
-      stargazers_count: 360
+      stargazers_count: 361
       watchers_count: 15
       open_issues_count: 43
       forks_count: 65
@@ -1901,7 +1902,7 @@
       name: pygmt
       description: A Python interface for the Generic Mapping Tools.
       created_at: '2017-03-17'
-      stargazers_count: 803
+      stargazers_count: 804
       watchers_count: 27
       open_issues_count: 136
       forks_count: 221
@@ -2240,10 +2241,10 @@
       description: Movement trajectory classes and functions built on top of
           GeoPandas
       created_at: '2018-12-16'
-      stargazers_count: 1313
+      stargazers_count: 1315
       watchers_count: 39
       open_issues_count: 31
-      forks_count: 198
+      forks_count: 199
       documentation: https://movingpandas.org
       contrib_count: 39
       last_commit: '2025-06-17'
@@ -2287,13 +2288,13 @@
       description: A light-weight, flexible, and expressive statistical data
           testing library
       created_at: '2018-11-01'
-      stargazers_count: 3873
+      stargazers_count: 3874
       watchers_count: 20
-      open_issues_count: 404
+      open_issues_count: 405
       forks_count: 344
       documentation: https://www.union.ai/pandera
       contrib_count: 157
-      last_commit: '2025-06-25'
+      last_commit: '2025-06-26'
   labels:
     - 6/pyOS-approved
   active: true
