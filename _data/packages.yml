@@ -246,10 +246,10 @@
       name: great-tables
       description: Make awesome display tables using Python
       created_at: '2022-05-06'
-      stargazers_count: 2339
+      stargazers_count: 2340
       watchers_count: 14
       open_issues_count: 118
-      forks_count: 95
+      forks_count: 96
       documentation: https://posit-dev.github.io/great-tables/
       contrib_count: 22
       last_commit: '2025-06-24'
@@ -416,7 +416,7 @@
       forks_count: 0
       documentation: https://quadratik.readthedocs.io/
       contrib_count: 1
-      last_commit: '2025-03-09'
+      last_commit: '2025-06-29'
   labels:
     - 6/pyOS-approved
   active: true
@@ -512,9 +512,9 @@
       name: pooltool
       description: A sandbox billiards game that emphasizes realistic physics
       created_at: '2020-04-09'
-      stargazers_count: 281
+      stargazers_count: 282
       watchers_count: 13
-      open_issues_count: 3
+      open_issues_count: 4
       forks_count: 48
       documentation: https://pooltool.readthedocs.io
       contrib_count: 8
@@ -999,7 +999,7 @@
       stargazers_count: 955
       watchers_count: 49
       open_issues_count: 260
-      forks_count: 603
+      forks_count: 602
       documentation: https://www.sunpy.org
       contrib_count: 240
       last_commit: '2025-06-20'
@@ -1189,7 +1189,7 @@
       created_at: '2016-04-09'
       stargazers_count: 510
       watchers_count: 16
-      open_issues_count: 739
+      open_issues_count: 740
       forks_count: 84
       documentation: https://sourmash.readthedocs.io/en/latest/
       contrib_count: 45
@@ -2391,7 +2391,7 @@
       description: A package built to support working with spatial data using
           open source python
       created_at: '2018-02-20'
-      stargazers_count: 521
+      stargazers_count: 522
       watchers_count: 17
       open_issues_count: 28
       forks_count: 156
