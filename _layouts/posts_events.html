@@ -11,6 +11,7 @@ layout: archive
 {% assign all_events = site.posts
   | where_exp: "item", "item.hidden != true"
   | where_exp: "item", "item.categories contains 'events'"
+  | sort: "event.start_date"
 %}
 
 {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}

@@ -112,7 +112,7 @@ There are lots of ways to get involved if you are interested!
 
 You can also:
 
-* Keep an eye on our [events page]({{ site.baseurl }}/events/index.html) for upcoming training events.
+* Keep an eye on our [events page]({{ site.baseurl }}/events.html) for upcoming training events.
 
 Follow us on social platforms:
 
