@@ -34,7 +34,7 @@ facing in creating open, reproducible workflows using Python. My experience
 inspired me to establish a vibrant, inclusive pyOpenSci community of practice
 fueled by making open science best practices more accessible to scientists.
 
-pyOpenSci makes open science more accessible by [developing educational resources](/learn.html), [running training events](/events/index.html), running an [open software peer review process](/about-peer-review/index.html) and [partnering with other communities](/partners.html). From humble beginnings characterized by small community meetings, pyOpenSci has blossomed into a thriving community marked by:
+pyOpenSci makes open science more accessible by [developing educational resources](/learn.html), [running training events](/events.html), running an [open software peer review process](/about-peer-review/index.html) and [partnering with other communities](/partners.html). From humble beginnings characterized by small community meetings, pyOpenSci has blossomed into a thriving community marked by:
 
 * a robust editorial team,
 * hundreds of contributors, and

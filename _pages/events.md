@@ -1,6 +1,6 @@
 ---
 layout: posts_events
-permalink: /events/
+permalink: /events.html
 classes: wide
 title: "pyOpenSci Events"
 excerpt: "pyOpenSci holds events that support scientists developing open science skills."
