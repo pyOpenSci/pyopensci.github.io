@@ -56,10 +56,10 @@ to improve research software—and get recognized for doing it.
   open-source research ecosystem
 
 
-### Why our Stanford partnership matters
+### Building bridges: The power of our Stanford partnership
 
 Through our partnership with Stanford, we're building a bridge between
-the institution and the global open-source community that powers scientific
+the University Open Source Program Offices and the global open-source community that powers scientific
 Python. Researchers and students gain access to high-quality, community-based
 training in research software practices—without Stanford needing to create
 that infrastructure from scratch.
