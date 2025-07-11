@@ -100,7 +100,7 @@
       stargazers_count: 68
       watchers_count: 9
       open_issues_count: 2
-      forks_count: 25
+      forks_count: 26
       documentation: https://solar-data-tools.readthedocs.io
       contrib_count: 19
       last_commit: '2025-07-02'
@@ -199,11 +199,11 @@
       created_at: '2024-01-09'
       stargazers_count: 47
       watchers_count: 5
-      open_issues_count: 116
+      open_issues_count: 111
       forks_count: 13
       documentation: https://www.montepy.org/
-      contrib_count: 5
-      last_commit: '2025-06-06'
+      contrib_count: 6
+      last_commit: '2025-07-07'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -246,13 +246,13 @@
       name: great-tables
       description: Make awesome display tables using Python
       created_at: '2022-05-06'
-      stargazers_count: 2346
+      stargazers_count: 2352
       watchers_count: 14
-      open_issues_count: 119
+      open_issues_count: 113
       forks_count: 96
       documentation: https://posit-dev.github.io/great-tables/
-      contrib_count: 22
-      last_commit: '2025-07-02'
+      contrib_count: 24
+      last_commit: '2025-07-03'
   labels:
     - 6/pyOS-approved
     - joss-submission-pending
@@ -308,8 +308,8 @@
       open_issues_count: 44
       forks_count: 166
       documentation: https://stingray.science/stingray
-      contrib_count: 54
-      last_commit: '2025-06-27'
+      contrib_count: 55
+      last_commit: '2025-07-10'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -723,7 +723,7 @@
       description: Python package for calculating Petrosian properties and
           fitting galaxy light profiles
       created_at: '2021-03-16'
-      stargazers_count: 28
+      stargazers_count: 29
       watchers_count: 2
       open_issues_count: 30
       forks_count: 7
@@ -875,13 +875,13 @@
       description: A Python library for simulating finite automata, pushdown
           automata, and Turing machines
       created_at: '2016-02-16'
-      stargazers_count: 381
+      stargazers_count: 383
       watchers_count: 8
-      open_issues_count: 11
+      open_issues_count: 10
       forks_count: 68
       documentation: https://caleb531.github.io/automata/
-      contrib_count: 17
-      last_commit: '2025-02-27'
+      contrib_count: 18
+      last_commit: '2025-07-07'
   labels:
     - 6/pyOS-approved
   active: true
@@ -924,11 +924,11 @@
       created_at: '2020-10-21'
       stargazers_count: 9
       watchers_count: 3
-      open_issues_count: 3
+      open_issues_count: 2
       forks_count: 1
       documentation: https://pypi.org/project/sleplet
       contrib_count: 5
-      last_commit: '2025-07-01'
+      last_commit: '2025-07-07'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -996,13 +996,13 @@
       name: sunpy
       description: SunPy - Python for Solar Physics
       created_at: '2011-08-06'
-      stargazers_count: 956
+      stargazers_count: 958
       watchers_count: 49
       open_issues_count: 260
-      forks_count: 602
+      forks_count: 604
       documentation: https://www.sunpy.org
       contrib_count: 240
-      last_commit: '2025-06-20'
+      last_commit: '2025-07-09'
   labels:
     - 6/pyOS-approved
   active: true
@@ -1044,7 +1044,7 @@
       name: ncompare
       description: Compare the structure of two netCDF (or HDF5) files
       created_at: '2023-08-17'
-      stargazers_count: 28
+      stargazers_count: 29
       watchers_count: 4
       open_issues_count: 3
       forks_count: 10
@@ -1189,11 +1189,11 @@
       created_at: '2016-04-09'
       stargazers_count: 510
       watchers_count: 16
-      open_issues_count: 739
+      open_issues_count: 741
       forks_count: 84
       documentation: https://sourmash.readthedocs.io/en/latest/
       contrib_count: 45
-      last_commit: '2025-07-01'
+      last_commit: '2025-07-08'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1285,7 +1285,7 @@
       created_at: '2022-04-22'
       stargazers_count: 83
       watchers_count: 2
-      open_issues_count: 6
+      open_issues_count: 7
       forks_count: 5
       documentation: https://jacksonburns.github.io/astartes/
       contrib_count: 3
@@ -1399,13 +1399,13 @@
       description: A unifying framework for biomedical research knowledge
           graphs
       created_at: '2021-09-10'
-      stargazers_count: 256
+      stargazers_count: 258
       watchers_count: 8
-      open_issues_count: 181
-      forks_count: 38
+      open_issues_count: 180
+      forks_count: 39
       documentation: https://biocypher.org
       contrib_count: 19
-      last_commit: '2025-06-06'
+      last_commit: '2025-07-09'
   labels:
     - 6/pyOS-approved
   active: true
@@ -1451,7 +1451,7 @@
       stargazers_count: 8
       watchers_count: 2
       open_issues_count: 0
-      forks_count: 1
+      forks_count: 2
       documentation: https://cardsort.readthedocs.io
       contrib_count: 4
       last_commit: '2025-04-15'
@@ -1649,7 +1649,7 @@
       created_at: '2019-11-11'
       stargazers_count: 135
       watchers_count: 9
-      open_issues_count: 53
+      open_issues_count: 54
       forks_count: 15
       documentation: https://python-graphblas.readthedocs.io/en/stable/
       contrib_count: 11
@@ -1700,11 +1700,11 @@
       created_at: '2018-07-27'
       stargazers_count: 363
       watchers_count: 15
-      open_issues_count: 42
+      open_issues_count: 44
       forks_count: 65
       documentation: https://xclim.readthedocs.io/en/stable/
       contrib_count: 41
-      last_commit: '2025-06-23'
+      last_commit: '2025-07-10'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1748,13 +1748,13 @@
       name: crowsetta
       description: A tool to work with any format for annotating animal sounds
       created_at: '2018-12-01'
-      stargazers_count: 54
+      stargazers_count: 57
       watchers_count: 1
       open_issues_count: 40
       forks_count: 4
       documentation: https://crowsetta.readthedocs.io/en/latest/
       contrib_count: 2
-      last_commit: '2024-10-12'
+      last_commit: '2025-07-10'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1902,13 +1902,13 @@
       name: pygmt
       description: A Python interface for the Generic Mapping Tools.
       created_at: '2017-03-17'
-      stargazers_count: 804
+      stargazers_count: 805
       watchers_count: 27
       open_issues_count: 136
       forks_count: 221
       documentation: https://www.pygmt.org
       contrib_count: 50
-      last_commit: '2025-07-02'
+      last_commit: '2025-07-10'
   labels:
     - 6/pyOS-approved
   active: true
@@ -2194,8 +2194,8 @@
       created_at: '2018-06-13'
       stargazers_count: 148
       watchers_count: 5
-      open_issues_count: 10
-      forks_count: 42
+      open_issues_count: 11
+      forks_count: 43
       documentation: https://pyrolite.readthedocs.io
       contrib_count: 14
       last_commit: '2024-10-29'
@@ -2244,7 +2244,7 @@
       stargazers_count: 1317
       watchers_count: 39
       open_issues_count: 31
-      forks_count: 198
+      forks_count: 197
       documentation: https://movingpandas.org
       contrib_count: 39
       last_commit: '2025-06-17'
@@ -2288,13 +2288,13 @@
       description: A light-weight, flexible, and expressive statistical data
           testing library
       created_at: '2018-11-01'
-      stargazers_count: 3888
+      stargazers_count: 3904
       watchers_count: 20
-      open_issues_count: 406
-      forks_count: 345
+      open_issues_count: 407
+      forks_count: 348
       documentation: https://www.union.ai/pandera
-      contrib_count: 158
-      last_commit: '2025-07-02'
+      contrib_count: 160
+      last_commit: '2025-07-08'
   labels:
     - 6/pyOS-approved
   active: true
@@ -2391,7 +2391,7 @@
       description: A package built to support working with spatial data using
           open source python
       created_at: '2018-02-20'
-      stargazers_count: 522
+      stargazers_count: 523
       watchers_count: 17
       open_issues_count: 28
       forks_count: 156
