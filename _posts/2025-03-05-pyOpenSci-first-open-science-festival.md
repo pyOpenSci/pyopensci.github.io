@@ -161,7 +161,7 @@ On Day 2, participants learned how to turn their code into reusable, installable
 
 The packaging day covered:
 - [An overview of Python packaging for beginners](https://www.pyopensci.org/python-package-guide/tutorials/intro.html#what-is-a-python-package),
-- Making code [installable in Python environments](https://www.pyopensci.org/python-package-guide/tutorials/installable-code.html) with tools like [Hatch](https://www.pyopensci.org/python-package-guide/tutorials/get-to-know-hatch.html),
+- Making code [installable in Python environments](https://www.pyopensci.org/python-package-guide/tutorials/create-python-package.html) with tools like [Hatch](https://www.pyopensci.org/python-package-guide/tutorials/get-to-know-hatch.html),
 - Adding package metadata using a [pyproject.toml file](https://www.pyopensci.org/python-package-guide/tutorials/pyproject-toml.html),
 - Including a [license](https://www.pyopensci.org/python-package-guide/tutorials/add-license-coc.html) to define how others can use and share your Python package.
 
