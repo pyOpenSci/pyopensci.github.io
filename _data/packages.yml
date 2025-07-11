@@ -97,7 +97,7 @@
       description: 'Some data analysis tools for working with historical PV solar
           time-series data sets. '
       created_at: '2019-02-17'
-      stargazers_count: 68
+      stargazers_count: 69
       watchers_count: 9
       open_issues_count: 2
       forks_count: 26
@@ -246,7 +246,7 @@
       name: great-tables
       description: Make awesome display tables using Python
       created_at: '2022-05-06'
-      stargazers_count: 2352
+      stargazers_count: 2355
       watchers_count: 14
       open_issues_count: 113
       forks_count: 96
@@ -676,7 +676,7 @@
       forks_count: 1
       documentation: https://plot-phylo.readthedocs.io
       contrib_count: 1
-      last_commit: '2025-03-07'
+      last_commit: '2025-07-11'
   labels:
     - 6/pyOS-approved
   active: true
@@ -1189,7 +1189,7 @@
       created_at: '2016-04-09'
       stargazers_count: 510
       watchers_count: 16
-      open_issues_count: 741
+      open_issues_count: 743
       forks_count: 84
       documentation: https://sourmash.readthedocs.io/en/latest/
       contrib_count: 45
@@ -1345,7 +1345,7 @@
       description: CompleX Group Interactions (XGI) is a Python package for
           higher-order networks.
       created_at: '2021-09-08'
-      stargazers_count: 217
+      stargazers_count: 218
       watchers_count: 9
       open_issues_count: 49
       forks_count: 37
@@ -1405,7 +1405,7 @@
       forks_count: 39
       documentation: https://biocypher.org
       contrib_count: 19
-      last_commit: '2025-07-09'
+      last_commit: '2025-07-11'
   labels:
     - 6/pyOS-approved
   active: true
@@ -1647,7 +1647,7 @@
       description: 'Python library for GraphBLAS: high-performance sparse linear
           algebra for scalable graph analytics'
       created_at: '2019-11-11'
-      stargazers_count: 135
+      stargazers_count: 136
       watchers_count: 9
       open_issues_count: 54
       forks_count: 15
@@ -1698,7 +1698,7 @@
       description: 'Library of derived climate variables, ie climate indicators,
           based on xarray. '
       created_at: '2018-07-27'
-      stargazers_count: 363
+      stargazers_count: 364
       watchers_count: 15
       open_issues_count: 44
       forks_count: 65
@@ -2099,7 +2099,7 @@
       stargazers_count: 273
       watchers_count: 9
       open_issues_count: 11
-      forks_count: 26
+      forks_count: 25
       documentation:
       contrib_count: 10
       last_commit: '2022-03-18'
@@ -2288,9 +2288,9 @@
       description: A light-weight, flexible, and expressive statistical data
           testing library
       created_at: '2018-11-01'
-      stargazers_count: 3904
+      stargazers_count: 3909
       watchers_count: 20
-      open_issues_count: 407
+      open_issues_count: 408
       forks_count: 348
       documentation: https://www.union.ai/pandera
       contrib_count: 160
