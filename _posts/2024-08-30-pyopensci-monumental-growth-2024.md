@@ -178,7 +178,7 @@ hope that this will make packaging less confusing and more accessible to more pe
 
 In addition to the ecosystem overview provided in the guide, I knew that we needed to have opinionated, complete Python packaging tutorials that guided users through the entire packaging process including:
 
-* [creating a package](https://www.pyopensci.org/python-package-guide/tutorials/installable-code.html),
+* [creating a package](https://www.pyopensci.org/python-package-guide/tutorials/create-python-package.html),
 * publishing it on [PyPI](https://www.pyopensci.org/python-package-guide/tutorials/publish-pypi.html), and
 * [conda-forge](https://www.pyopensci.org/python-package-guide/tutorials/publish-conda-forge.html).
 
