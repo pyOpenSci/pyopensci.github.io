@@ -9695,3 +9695,169 @@
   packages_reviewed:
   location: California
   email:
+- name: Mihai Maruseac
+  github_username: mihaimaruseac
+  github_image_id: 323199
+  title:
+  sort:
+  bio: Supply chain security @ Google OSS Security Team. Previously TensorFlow
+      Security & OSS (@ Google); Haskell+differential privacy+ML @ LeapYear.
+  organization: Google
+  date_added: '2025-07-18'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter: mihaimaruseac
+  mastodon:
+  orcidid:
+  partners:
+  website: https://mihai.page
+  board: false
+  contributor_type:
+    - package-guide
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: San Francisco
+  email: mihaimaruseac@google.com
+- name: Lauren Moore
+  github_username: tomato-gits
+  github_image_id: 59707547
+  title:
+  sort:
+  bio: Beginner python dev interested in supporting open-source projects,
+      especially scientific and citizen science programs, non-profit orgs, and
+      local governments.
+  organization:
+  date_added: '2025-07-18'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - package-guide
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location:
+  email:
+- name: Ana
+  github_username: aplozadab
+  github_image_id: 109044427
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2025-07-18'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - package-guide
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: Seattle
+  email:
+- name: Kyohei Sahara
+  github_username: schwalbe10
+  github_image_id: 16644529
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2025-07-18'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter: schwalbe10
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - package-guide
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location:
+  email:
+- name: Henry Cuzco
+  github_username: hfactor13
+  github_image_id: 40706933
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2025-07-18'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - package-guide
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location:
+  email:
+- name: James Lamb
+  github_username: jameslamb
+  github_image_id: 7608904
+  title:
+  sort:
+  bio: (he/him) RAPIDS packaging at NVIDIA. LightGBM maintainer. Economist at
+      heart.
+  organization: NVIDIA
+  date_added: '2025-07-18'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - package-guide
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: Chicago, IL
+  email: jaylamb20@gmail.com
