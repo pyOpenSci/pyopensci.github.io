@@ -41,8 +41,8 @@ community-created:
      image_size: 500px
      alt: "A group of people working on a tetris like set of building blocks, trying to stack the blocks together. "
      title: "Community-created Python Packaging Guide"
-     url: https://www.pyopensci.org/about-peer-review/index.html
-     btn_label: Learn more and get involved with peer review today.
+     url: https://www.pyopensci.org/python-package-guide/
+     btn_label: Explore out our Python packaging guide.
      btn_class: btn--primary
      excerpt: "
      Our packaging guide is a living document that will help you navigate the Python packaging ecosystem and learn about modern Python packaging best practices.
