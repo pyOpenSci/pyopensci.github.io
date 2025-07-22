@@ -470,6 +470,16 @@
       "contributions": [
         "review"
       ]
+    },
+    {
+      "login": "brepowell",
+      "name": "Breanna Powell",
+      "avatar_url": "https://avatars.githubusercontent.com/u/85724630?v=4",
+      "profile": "https://www.linkedin.com/in/breanna-powell-wa/",
+      "contributions": [
+        "code",
+        "review"
+      ]
     }
   ],
   "commitConvention": "angular",
