@@ -9705,7 +9705,7 @@
   organization: Google
   date_added: '2025-07-18'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -9734,7 +9734,7 @@
   organization:
   date_added: '2025-07-18'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -9761,7 +9761,7 @@
   organization:
   date_added: '2025-07-18'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -9788,7 +9788,7 @@
   organization:
   date_added: '2025-07-18'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -9815,7 +9815,7 @@
   organization:
   date_added: '2025-07-18'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -9843,7 +9843,7 @@
   organization: NVIDIA
   date_added: '2025-07-18'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
