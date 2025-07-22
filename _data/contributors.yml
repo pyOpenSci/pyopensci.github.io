@@ -9861,3 +9861,30 @@
   packages_reviewed:
   location: Chicago, IL
   email: jaylamb20@gmail.com
+- name: Breanna Powell
+  github_username: brepowell
+  github_image_id: 85724630
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2025-07-22'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - web-contrib
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: Seattle, Washington
+  email:
