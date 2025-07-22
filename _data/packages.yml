@@ -97,13 +97,13 @@
       description: 'Some data analysis tools for working with historical PV solar
           time-series data sets. '
       created_at: '2019-02-17'
-      stargazers_count: 72
+      stargazers_count: 79
       watchers_count: 9
       open_issues_count: 2
-      forks_count: 27
+      forks_count: 28
       documentation: https://solar-data-tools.readthedocs.io
       contrib_count: 19
-      last_commit: '2025-07-16'
+      last_commit: '2025-07-21'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -246,10 +246,10 @@
       name: great-tables
       description: Make awesome display tables using Python
       created_at: '2022-05-06'
-      stargazers_count: 2369
+      stargazers_count: 2375
       watchers_count: 15
       open_issues_count: 114
-      forks_count: 97
+      forks_count: 98
       documentation: https://posit-dev.github.io/great-tables/
       contrib_count: 24
       last_commit: '2025-07-18'
@@ -305,7 +305,7 @@
       created_at: '2015-09-30'
       stargazers_count: 198
       watchers_count: 19
-      open_issues_count: 45
+      open_issues_count: 46
       forks_count: 166
       documentation: https://stingray.science/stingray
       contrib_count: 55
@@ -518,7 +518,7 @@
       forks_count: 49
       documentation: https://pooltool.readthedocs.io
       contrib_count: 8
-      last_commit: '2025-06-30'
+      last_commit: '2025-07-20'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -670,13 +670,13 @@
       description: Python package to plot a phylogenetic tree on an existing
           matplotlib axis.
       created_at: '2023-12-22'
-      stargazers_count: 22
+      stargazers_count: 23
       watchers_count: 1
       open_issues_count: 3
       forks_count: 1
       documentation: https://plot-phylo.readthedocs.io
       contrib_count: 1
-      last_commit: '2025-07-17'
+      last_commit: '2025-07-21'
   labels:
     - 6/pyOS-approved
   active: true
@@ -875,7 +875,7 @@
       description: A Python library for simulating finite automata, pushdown
           automata, and Turing machines
       created_at: '2016-02-16'
-      stargazers_count: 383
+      stargazers_count: 384
       watchers_count: 8
       open_issues_count: 10
       forks_count: 68
@@ -1138,7 +1138,7 @@
       created_at: '2021-09-27'
       stargazers_count: 356
       watchers_count: 4
-      open_issues_count: 13
+      open_issues_count: 11
       forks_count: 27
       documentation: https://eomaps.readthedocs.io/
       contrib_count: 9
@@ -1189,7 +1189,7 @@
       created_at: '2016-04-09'
       stargazers_count: 513
       watchers_count: 16
-      open_issues_count: 744
+      open_issues_count: 746
       forks_count: 84
       documentation: https://sourmash.readthedocs.io/en/latest/
       contrib_count: 45
@@ -1283,7 +1283,7 @@
       name: astartes
       description: Better Data Splits for Machine Learning
       created_at: '2022-04-22'
-      stargazers_count: 83
+      stargazers_count: 84
       watchers_count: 2
       open_issues_count: 7
       forks_count: 5
@@ -1399,7 +1399,7 @@
       description: A unifying framework for biomedical research knowledge
           graphs
       created_at: '2021-09-10'
-      stargazers_count: 260
+      stargazers_count: 261
       watchers_count: 8
       open_issues_count: 180
       forks_count: 39
@@ -1704,7 +1704,7 @@
       forks_count: 65
       documentation: https://xclim.readthedocs.io/en/stable/
       contrib_count: 41
-      last_commit: '2025-07-18'
+      last_commit: '2025-07-21'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1908,7 +1908,7 @@
       forks_count: 221
       documentation: https://www.pygmt.org
       contrib_count: 50
-      last_commit: '2025-07-18'
+      last_commit: '2025-07-21'
   labels:
     - 6/pyOS-approved
   active: true
@@ -2288,9 +2288,9 @@
       description: A light-weight, flexible, and expressive statistical data
           testing library
       created_at: '2018-11-01'
-      stargazers_count: 3917
+      stargazers_count: 3918
       watchers_count: 20
-      open_issues_count: 409
+      open_issues_count: 408
       forks_count: 348
       documentation: https://www.union.ai/pandera
       contrib_count: 160
