@@ -9870,7 +9870,7 @@
   organization:
   date_added: '2025-07-22'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -9887,4 +9887,31 @@
   packages_submitted:
   packages_reviewed:
   location: Seattle, Washington
+  email:
+- name: Malvika Sharan
+  github_username: malvikasharan
+  github_image_id: 5370471
+  title:
+  sort:
+  bio: 'Keywords: Open Source, Open Science, Community Engagement, Technology, Accessibility'
+  organization: The Turing Way - The Alan Turing Institute
+  date_added: '2025-07-24'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter: malvikasharan
+  mastodon:
+  orcidid:
+  partners:
+  website: https://malvikasharan.github.io/
+  board: false
+  contributor_type:
+    - package-guide
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location:
   email:
