@@ -480,6 +480,17 @@
         "code",
         "review"
       ]
+    },
+    {
+      "login": "therubyrep",
+      "name": "Mandy Moore",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2262962?v=4",
+      "profile": "http://mandymoore.tech",
+      "contributions": [
+        "code",
+        "review",
+        "doc"
+      ]
     }
   ],
   "commitConvention": "angular",
