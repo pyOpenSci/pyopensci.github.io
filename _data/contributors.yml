@@ -21,11 +21,13 @@
   website: https://www.leahwasser.com
   board: true
   contributor_type:
+    - code-contrib
     - community
     - editor
     - guidebook-contrib
     - leadership
     - maintainer
+    - open-education
     - package-guide
     - package-maintainer
     - peer-review
@@ -125,6 +127,7 @@
     - community
     - guidebook-contrib
     - leadership
+    - open-education
     - package-guide
     - peer-review
     - peer-review-guide
@@ -481,6 +484,7 @@
     - community
     - guidebook-contrib
     - leadership
+    - package-guide
     - peer-review-guide
   packages_eic:
   packages_editor:
@@ -775,6 +779,7 @@
   website: https://batalex.github.io
   board: false
   contributor_type:
+    - code-contrib
     - community
     - editor
     - eic
@@ -1732,6 +1737,7 @@
     - community
     - editor
     - guidebook-contrib
+    - open-education
     - package-guide
     - peer-review
     - reviewer
@@ -2401,6 +2407,7 @@
   contributor_type:
     - community
     - peer-review
+    - peer-review-guide
   packages_eic:
   packages_editor:
   packages_submitted:
@@ -2430,6 +2437,7 @@
     - community
     - maintainer
     - peer-review
+    - peer-review-guide
   packages_eic:
   packages_editor:
   packages_submitted:
@@ -2461,6 +2469,7 @@
     - community
     - maintainer
     - peer-review
+    - peer-review-guide
   packages_eic:
   packages_editor:
   packages_submitted:
@@ -2852,6 +2861,7 @@
   contributor_type:
     - community
     - peer-review
+    - peer-review-guide
     - reviewer
   packages_eic:
   packages_editor:
@@ -2948,6 +2958,7 @@
     - community
     - maintainer
     - peer-review
+    - peer-review-guide
     - reviewer
     - submitting-author
     - web-contrib
@@ -2984,6 +2995,7 @@
     - maintainer
     - package-guide
     - peer-review
+    - peer-review-guide
     - submitting-author
   packages_eic:
   packages_editor:
@@ -3014,6 +3026,7 @@
   contributor_type:
     - community
     - peer-review
+    - peer-review-guide
     - reviewer
   packages_eic:
   packages_editor:
@@ -3173,6 +3186,7 @@
   board: false
   contributor_type:
     - community
+    - peer-review-guide
   packages_eic:
   packages_editor:
   packages_submitted:
@@ -3347,6 +3361,7 @@
   contributor_type:
     - community
     - guidebook-contrib
+    - open-education
     - package-guide
   packages_eic:
   packages_editor:
@@ -3677,6 +3692,7 @@
     - community
     - maintainer
     - peer-review
+    - peer-review-guide
   packages_eic:
   packages_editor:
   packages_submitted:
@@ -3708,6 +3724,7 @@
     - maintainer
     - package-guide
     - peer-review
+    - peer-review-guide
     - reviewer
     - submitting-author
   packages_eic:
@@ -3864,6 +3881,7 @@
     - community
     - editor
     - guidebook-contrib
+    - open-education
     - peer-review
     - peer-review-guide
     - web-contrib
@@ -4380,6 +4398,7 @@
   board: false
   contributor_type:
     - community
+    - peer-review-guide
   packages_eic:
   packages_editor:
   packages_submitted:
@@ -5286,6 +5305,7 @@
   contributor_type:
     - community
     - maintainer
+    - open-education
     - peer-review
     - submitting-author
   packages_eic:
@@ -5372,6 +5392,7 @@
   website:
   board: false
   contributor_type:
+    - code-contrib
     - editor
     - peer-review
     - peer-review-guide
@@ -6080,6 +6101,7 @@
   contributor_type:
     - editor
     - peer-review
+    - peer-review-guide
   packages_eic:
   packages_editor:
     - petrofit
@@ -6875,6 +6897,7 @@
   website: https://ffy00.github.io/
   board: false
   contributor_type:
+    - peer-review-guide
     - web-contrib
   packages_eic:
   packages_editor:
@@ -6903,6 +6926,7 @@
   board: false
   contributor_type:
     - community
+    - package-guide
     - web-contrib
   packages_eic:
   packages_editor:
@@ -7619,6 +7643,7 @@
   website:
   board: false
   contributor_type:
+    - code-contrib
     - community
   packages_eic:
   packages_editor:
@@ -8113,6 +8138,7 @@
   contributor_type:
     - community
     - maintainer
+    - open-education
     - package-guide
     - peer-review
     - submitting-author
@@ -8352,6 +8378,7 @@
   website: https://www.santisoler.com
   board: false
   contributor_type:
+    - code-contrib
     - package-guide
   packages_eic:
   packages_editor:
@@ -8788,6 +8815,7 @@
   contributor_type:
     - maintainer
     - peer-review
+    - peer-review-guide
     - submitting-author
   packages_eic:
   packages_editor:
@@ -8935,6 +8963,7 @@
   board: false
   contributor_type:
     - community
+    - package-guide
   packages_eic:
   packages_editor:
   packages_submitted:
@@ -9897,7 +9926,7 @@
   organization: The Turing Way - The Alan Turing Institute
   date_added: '2025-07-24'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -9909,6 +9938,360 @@
   board: false
   contributor_type:
     - package-guide
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location:
+  email:
+- name: Galen Seilis
+  github_username: galenseilis
+  github_image_id: 11385121
+  title:
+  sort:
+  bio: Data Scientist
+  organization:
+  date_added: '2025-07-25'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter: GSeilis
+  mastodon:
+  orcidid:
+  partners:
+  website: https://galenseilis.github.io/blog/
+  board: false
+  contributor_type:
+    - peer-review-guide
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: Canada, British Columbia
+  email:
+- name: Mandy Moore
+  github_username: therubyrep
+  github_image_id: 2262962
+  title:
+  sort:
+  bio: Independent social media marketer and audio and video production expert
+  organization:
+  date_added: '2025-07-25'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://mandymoore.tech
+  board: false
+  contributor_type:
+    - web-contrib
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: Red Lion, PA
+  email: mandy@mandymoore.tech
+- name:
+  github_username: kaiyamag
+  github_image_id: 98053751
+  title:
+  sort:
+  bio: Hello! I am a creative computer science student with a passion for
+      exploring! Some of my research projects are showcased here.
+  organization:
+  date_added: '2025-07-25'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - code-contrib
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location:
+  email:
+- name: Franklin Koch
+  github_username: fwkoch
+  github_image_id: 9453731
+  title:
+  sort:
+  bio:
+  organization: '@curvenote'
+  date_added: '2025-07-25'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - code-contrib
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: Calgary, AB
+  email: franklinwkoch@gmail.com
+- name: Angus Hollands
+  github_username: agoose77
+  github_image_id: 1248413
+  title:
+  sort:
+  bio: 👐 Open Source ⚙️ Applications Engineer @ 🌎 2i2c & owner @ OIE LTD,
+      developing 👐 open-source 📈 scientific 💻✨ software since 2009 ❤️
+  organization: 2i2c
+  date_added: '2025-07-25'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://oieltd.com
+  board: false
+  contributor_type:
+    - code-contrib
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: United Kingdom
+  email: angus@oieltd.com
+- name: Camille Latapie
+  github_username: clatapie
+  github_image_id: 78221213
+  title:
+  sort:
+  bio: Applied Mathematics engineer interested in modeling.
+  organization:
+  date_added: '2025-07-25'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - code-contrib
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: France
+  email:
+- name:
+  github_username: rogerb121
+  github_image_id: 109387723
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2025-07-25'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - code-contrib
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location:
+  email:
+- name: steven
+  github_username: stevenrayhinojosa-gmail-com
+  github_image_id: 17886818
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2025-07-25'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - code-contrib
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: Austin
+  email:
+- name: s choi
+  github_username: infinite0x20
+  github_image_id: 66569284
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2025-07-25'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - open-education
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location:
+  email:
+- name:
+  github_username: ecourt93
+  github_image_id: 197415376
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2025-07-25'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - open-education
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location:
+  email:
+- name: Evelyn Montes Sobal
+  github_username: EvelynMS1
+  github_image_id: 102782127
+  title:
+  sort:
+  bio: Full Stack Web Developer
+      montessobalevelyn@gmail.com
+  organization:
+  date_added: '2025-07-25'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - open-education
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location:
+  email:
+- name: Karina Souza
+  github_username: KarinaS0uza
+  github_image_id: 97332018
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2025-07-25'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - open-education
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: Seattle
+  email:
+- name:
+  github_username: veronicasoelundkirsebom
+  github_image_id: 68337448
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2025-07-25'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - open-education
   packages_eic:
   packages_editor:
   packages_submitted:
