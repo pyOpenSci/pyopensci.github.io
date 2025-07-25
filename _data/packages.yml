@@ -1700,11 +1700,11 @@
       created_at: '2018-07-27'
       stargazers_count: 364
       watchers_count: 15
-      open_issues_count: 46
+      open_issues_count: 45
       forks_count: 65
       documentation: https://xclim.readthedocs.io/en/stable/
       contrib_count: 41
-      last_commit: '2025-07-21'
+      last_commit: '2025-07-24'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
