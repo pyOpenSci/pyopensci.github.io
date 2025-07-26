@@ -9953,7 +9953,7 @@
   organization:
   date_added: '2025-07-25'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -9980,7 +9980,7 @@
   organization:
   date_added: '2025-07-25'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -10008,7 +10008,7 @@
   organization:
   date_added: '2025-07-25'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -10035,7 +10035,7 @@
   organization: '@curvenote'
   date_added: '2025-07-25'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -10063,7 +10063,7 @@
   organization: 2i2c
   date_added: '2025-07-25'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -10090,7 +10090,7 @@
   organization:
   date_added: '2025-07-25'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -10117,7 +10117,7 @@
   organization:
   date_added: '2025-07-25'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -10144,7 +10144,7 @@
   organization:
   date_added: '2025-07-25'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -10171,7 +10171,7 @@
   organization:
   date_added: '2025-07-25'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -10198,7 +10198,7 @@
   organization:
   date_added: '2025-07-25'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -10221,12 +10221,11 @@
   github_image_id: 102782127
   title:
   sort:
-  bio: Full Stack Web Developer
-      montessobalevelyn@gmail.com
+  bio: Full Stack Web Developer montessobalevelyn@gmail.com
   organization:
   date_added: '2025-07-25'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -10253,7 +10252,7 @@
   organization:
   date_added: '2025-07-25'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -10280,7 +10279,7 @@
   organization:
   date_added: '2025-07-25'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
