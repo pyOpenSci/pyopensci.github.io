@@ -147,7 +147,7 @@
       created_at: '2022-11-22'
       stargazers_count: 20
       watchers_count: 2
-      open_issues_count: 3
+      open_issues_count: 4
       forks_count: 10
       documentation: https://dodge-research-group.github.io/thztools/
       contrib_count: 5
@@ -246,10 +246,10 @@
       name: great-tables
       description: Make awesome display tables using Python
       created_at: '2022-05-06'
-      stargazers_count: 2386
+      stargazers_count: 2388
       watchers_count: 14
       open_issues_count: 116
-      forks_count: 99
+      forks_count: 100
       documentation: https://posit-dev.github.io/great-tables/
       contrib_count: 24
       last_commit: '2025-07-18'
@@ -303,7 +303,7 @@
       description: Anything can happen in the next half hour (including
           spectral timing made easy)!
       created_at: '2015-09-30'
-      stargazers_count: 198
+      stargazers_count: 199
       watchers_count: 19
       open_issues_count: 48
       forks_count: 166
@@ -999,7 +999,7 @@
       stargazers_count: 959
       watchers_count: 48
       open_issues_count: 263
-      forks_count: 605
+      forks_count: 606
       documentation: https://www.sunpy.org
       contrib_count: 239
       last_commit: '2025-07-14'
@@ -1189,7 +1189,7 @@
       created_at: '2016-04-09'
       stargazers_count: 513
       watchers_count: 16
-      open_issues_count: 746
+      open_issues_count: 747
       forks_count: 84
       documentation: https://sourmash.readthedocs.io/en/latest/
       contrib_count: 45
@@ -1904,7 +1904,7 @@
       created_at: '2017-03-17'
       stargazers_count: 809
       watchers_count: 27
-      open_issues_count: 138
+      open_issues_count: 140
       forks_count: 221
       documentation: https://www.pygmt.org
       contrib_count: 50
@@ -2288,10 +2288,10 @@
       description: A light-weight, flexible, and expressive statistical data
           testing library
       created_at: '2018-11-01'
-      stargazers_count: 3924
+      stargazers_count: 3926
       watchers_count: 20
       open_issues_count: 409
-      forks_count: 348
+      forks_count: 349
       documentation: https://www.union.ai/pandera
       contrib_count: 161
       last_commit: '2025-07-25'
