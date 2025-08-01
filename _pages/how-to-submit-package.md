@@ -85,7 +85,7 @@ Our package scope focuses on the scientific domains and areas in which we review
 
 If you are unsure if your package is in scope, [**🔗 submit a pre-submission inquiry**](#submission-type) to get feedback from our editorial team and ask questions.
 
-### <i class="fa-brands fa-github-alt" style="color:#a193c6"></i> 2. Check that your package meets are  pre-review requirements
+### <i class="fa-brands fa-github-alt" style="color:#a193c6"></i> 2. Check that your package meets our pre-review requirements
 
 It's also a good idea to check that your package meets [**pyOpenSci’s minimum Python package requirements**](https://www.pyopensci.org/software-peer-review/how-to/editor-in-chief-guide.html#editor-checklist-template). So check that your package meets those criteria before you submit.
 The Editor in Chief will check your package against these criteria before the review begins.
