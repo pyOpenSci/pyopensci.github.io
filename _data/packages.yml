@@ -197,13 +197,13 @@
       description: MontePy is the most user friendly Python library (API) to
           read, edit, and write MCNP input files.
       created_at: '2024-01-09'
-      stargazers_count: 47
+      stargazers_count: 48
       watchers_count: 5
-      open_issues_count: 114
+      open_issues_count: 112
       forks_count: 13
       documentation: https://www.montepy.org/
       contrib_count: 6
-      last_commit: '2025-07-28'
+      last_commit: '2025-08-02'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -237,8 +237,8 @@
   version_accepted: v0.14.0
   date_accepted: '2025-01-03'
   created_at: 2024-06-14 19:55:59+00:00
-  updated_at: 2025-04-30 21:09:27+00:00
-  closed_at:
+  updated_at: 2025-07-29 22:16:52+00:00
+  closed_at: 2025-07-29 22:16:20+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/202
   joss:
   partners:
@@ -246,16 +246,15 @@
       name: great-tables
       description: Make awesome display tables using Python
       created_at: '2022-05-06'
-      stargazers_count: 2391
+      stargazers_count: 2400
       watchers_count: 14
-      open_issues_count: 115
+      open_issues_count: 119
       forks_count: 100
       documentation: https://posit-dev.github.io/great-tables/
       contrib_count: 25
       last_commit: '2025-07-29'
   labels:
     - 6/pyOS-approved
-    - joss-submission-pending
   active: true
 - package_name: Stingray
   package_description: A spectral-timing software package for astrophysical
@@ -309,7 +308,7 @@
       forks_count: 166
       documentation: https://stingray.science/stingray
       contrib_count: 55
-      last_commit: '2025-07-10'
+      last_commit: '2025-07-30'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -466,11 +465,11 @@
       created_at: '2021-10-26'
       stargazers_count: 29
       watchers_count: 5
-      open_issues_count: 54
+      open_issues_count: 53
       forks_count: 14
       documentation: https://open-atmos.github.io/PyPartMC/
       contrib_count: 9
-      last_commit: '2025-06-04'
+      last_commit: '2025-07-31'
   labels:
     - 6/pyOS-approved
   active: true
@@ -564,7 +563,7 @@
       description: Mock spatially resolved spectral line observations of
           simulated galaxies.
       created_at: '2017-10-19'
-      stargazers_count: 18
+      stargazers_count: 20
       watchers_count: 2
       open_issues_count: 16
       forks_count: 6
@@ -928,7 +927,7 @@
       forks_count: 1
       documentation: https://pypi.org/project/sleplet
       contrib_count: 5
-      last_commit: '2025-07-24'
+      last_commit: '2025-08-01'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -996,7 +995,7 @@
       name: sunpy
       description: SunPy - Python for Solar Physics
       created_at: '2011-08-06'
-      stargazers_count: 959
+      stargazers_count: 957
       watchers_count: 48
       open_issues_count: 263
       forks_count: 606
@@ -1187,13 +1186,13 @@
       description: Quickly search, compare, and analyze genomic and
           metagenomic data sets.
       created_at: '2016-04-09'
-      stargazers_count: 513
+      stargazers_count: 514
       watchers_count: 16
-      open_issues_count: 747
+      open_issues_count: 748
       forks_count: 84
       documentation: https://sourmash.readthedocs.io/en/latest/
       contrib_count: 45
-      last_commit: '2025-07-29'
+      last_commit: '2025-07-31'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1351,7 +1350,7 @@
       forks_count: 37
       documentation: https://xgi.readthedocs.io
       contrib_count: 18
-      last_commit: '2025-06-20'
+      last_commit: '2025-07-31'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1399,9 +1398,9 @@
       description: A unifying framework for biomedical research knowledge
           graphs
       created_at: '2021-09-10'
-      stargazers_count: 261
+      stargazers_count: 260
       watchers_count: 8
-      open_issues_count: 181
+      open_issues_count: 180
       forks_count: 39
       documentation: https://biocypher.org
       contrib_count: 19
@@ -1552,7 +1551,7 @@
       stargazers_count: 40
       watchers_count: 4
       open_issues_count: 14
-      forks_count: 8
+      forks_count: 7
       documentation: https://taxpasta.readthedocs.io/
       contrib_count: 5
       last_commit: '2024-10-23'
@@ -1701,7 +1700,7 @@
       stargazers_count: 364
       watchers_count: 14
       open_issues_count: 44
-      forks_count: 65
+      forks_count: 66
       documentation: https://xclim.readthedocs.io/en/stable/
       contrib_count: 41
       last_commit: '2025-07-29'
@@ -1748,7 +1747,7 @@
       name: crowsetta
       description: A tool to work with any format for annotating animal sounds
       created_at: '2018-12-01'
-      stargazers_count: 57
+      stargazers_count: 56
       watchers_count: 1
       open_issues_count: 40
       forks_count: 4
@@ -1902,13 +1901,13 @@
       name: pygmt
       description: A Python interface for the Generic Mapping Tools.
       created_at: '2017-03-17'
-      stargazers_count: 810
+      stargazers_count: 811
       watchers_count: 27
       open_issues_count: 141
       forks_count: 221
       documentation: https://www.pygmt.org
       contrib_count: 50
-      last_commit: '2025-07-29'
+      last_commit: '2025-08-02'
   labels:
     - 6/pyOS-approved
   active: true
@@ -2244,10 +2243,10 @@
       stargazers_count: 1323
       watchers_count: 39
       open_issues_count: 32
-      forks_count: 198
+      forks_count: 200
       documentation: https://movingpandas.org
       contrib_count: 40
-      last_commit: '2025-07-16'
+      last_commit: '2025-08-01'
   labels:
     - 6/pyOS-approved
   active: true
@@ -2288,13 +2287,13 @@
       description: A light-weight, flexible, and expressive statistical data
           testing library
       created_at: '2018-11-01'
-      stargazers_count: 3930
+      stargazers_count: 3940
       watchers_count: 20
-      open_issues_count: 411
+      open_issues_count: 410
       forks_count: 353
       documentation: https://www.union.ai/pandera
-      contrib_count: 161
-      last_commit: '2025-07-28'
+      contrib_count: 162
+      last_commit: '2025-07-31'
   labels:
     - 6/pyOS-approved
   active: true
@@ -2397,7 +2396,7 @@
       forks_count: 156
       documentation: https://earthpy.readthedocs.io
       contrib_count: 29
-      last_commit: '2025-07-24'
+      last_commit: '2025-07-31'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
