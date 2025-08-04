@@ -2,7 +2,7 @@
 layout: single
 title: "pyOS Website Theme Docs"
 excerpt: "pyOpenSci minimal mistakes theme documentation."
-author: "Leah Wasser"
+author: "pyopensci"
 permalink: docs/pyos-website/
 header:
     overlay_color: "#33205c"
@@ -75,25 +75,33 @@ Position images with the following classes.
 ### Figure -- align center
 
 <figure class="align-center">
+  <picture>
+  <source srcset="/images/pyopensci-general/pyopensci-timeline2019-2024.webp" type="image/webp">
   <img src="/images/pyopensci-general/pyopensci-timeline2019-2024.png" alt="A timeline showing the growth of pyOpenSci from 2019 to 2024." style="width: 50%;">
   <figcaption>Growth of pyOpenSci from 2019 to 2024. Growth of pyOpenSci from 2019 to 2024. Growth of pyOpenSci from 2019 to 2024. Growth of pyOpenSci from 2019 to 2024. </figcaption>
+  </picture>
 </figure>
 
 The image above happens to be **centered**.
 
 ```html
 <figure class="align-center">
+  <picture>
+  <source srcset="/images/pyopensci-general/pyopensci-timeline2019-2024.webp" type="image/webp">
   <img src="/images/pyopensci-general/pyopensci-timeline2019-2024.png" alt="A timeline showing the growth of pyOpenSci from 2019 to 2024.">
   <figcaption>Growth of pyOpenSci from 2019 to 2024</figcaption>
+  </picture>
 </figure>
 ```
-
 
 ### Figure -- align left
 
 <figure class="align-left">
+  <picture>
+  <source srcset="/images/pyopensci-general/pyopensci-timeline2019-2024.webp" type="image/webp">
   <img src="/images/pyopensci-general/pyopensci-timeline2019-2024.png" alt="A timeline showing the growth of pyOpenSci from 2019 to 2024." style="width: 50%;">
   <figcaption>Growth of pyOpenSci from 2019 to 2024 Growth of pyOpenSci from 2019 to 2024 Growth of pyOpenSci from 2019 to 2024 Growth of pyOpenSci from 2019 to 2024</figcaption>
+  </picture>
 </figure>
 
 
@@ -101,8 +109,11 @@ The rest of this paragraph is filler for the sake of seeing the text wrap around
 
 ```html
 <figure class="align-left">
+  <picture>
+  <source srcset="/images/pyopensci-general/pyopensci-timeline2019-2024.webp" type="image/webp">
   <img src="/images/pyopensci-general/pyopensci-timeline2019-2024.png" alt="A timeline showing the growth of pyOpenSci from 2019 to 2024.">
   <figcaption>Growth of pyOpenSci from 2019 to 2024</figcaption>
+  </picture>
 </figure>
 ```
 
@@ -110,8 +121,11 @@ You can also adjust the width inline:
 
 ```html
 <figure class="align-left">
+  <picture>
+  <source srcset="/images/pyopensci-general/pyopensci-timeline2019-2024.webp" type="image/webp">
   <img src="/images/pyopensci-general/pyopensci-timeline2019-2024.png" alt="A timeline showing the growth of pyOpenSci from 2019 to 2024." style="width: 50%;">
   <figcaption>Growth of pyOpenSci from 2019 to 2024</figcaption>
+  </picture>
 </figure>
 ```
 
@@ -120,10 +134,12 @@ You can also adjust the width inline:
 Below is a right aligned image
 
 <figure class="align-right">
+  <picture>
+  <source srcset="/images/pyopensci-general/pyopensci-timeline2019-2024.webp" type="image/webp">
   <img src="/images/pyopensci-general/pyopensci-timeline2019-2024.png" alt="A timeline showing the growth of pyOpenSci from 2019 to 2024." style="width: 50%;">
   <figcaption>Growth of pyOpenSci from 2019 to 2024 Growth of pyOpenSci from 2019 to 2024 Growth of pyOpenSci from 2019 to 2024 Growth of pyOpenSci from 2019 to 2024</figcaption>
+  </picture>
 </figure>
-
 
 And now we're going to shift things to the **right align**. Again, there should be plenty of room above, below, and to the left of the image. Just look at him there --- Hey guy! Way to rock that right side. I don't care what the left aligned image says, you look great. Don't let anyone else tell you differently.
 
@@ -132,8 +148,11 @@ The html looks like this:
 
 ```html
 <figure class="align-right">
+  <picture>
+  <source srcset="/images/pyopensci-general/pyopensci-timeline2019-2024.webp" type="image/webp">
   <img src="/images/pyopensci-general/pyopensci-timeline2019-2024.png" alt="A timeline showing the growth of pyOpenSci from 2019 to 2024.">
   <figcaption>Growth of pyOpenSci from 2019 to 2024 Growth of pyOpenSci from 2019 to 2024 Growth of pyOpenSci from 2019 to 2024 Growth of pyOpenSci from 2019 to 2024</figcaption>
+  </picture>
 </figure>
 ```
 
@@ -143,17 +162,21 @@ The image below should extend outside of the parent container on right.
 
 
 <figure class="full">
+  <picture>
+  <source srcset="/images/pyopensci-general/pyopensci-timeline2019-2024.webp" type="image/webp">
   <img src="/images/pyopensci-general/pyopensci-timeline2019-2024.png" alt="A timeline showing the growth of pyOpenSci from 2019 to 2024.">
   <figcaption>Growth of pyOpenSci from 2019 to 2024 Growth of pyOpenSci from 2019 to 2024 Growth of pyOpenSci from 2019 to 2024 Growth of pyOpenSci from 2019 to 2024</figcaption>
+  </picture>
 </figure>
-
-
 
 
 ```html
 <figure class="full">
+  <picture>
+  <source srcset="/images/pyopensci-general/pyopensci-timeline2019-2024.webp" type="image/webp">
   <img src="/images/pyopensci-general/pyopensci-timeline2019-2024.png" alt="A timeline showing the growth of pyOpenSci from 2019 to 2024.">
   <figcaption>Growth of pyOpenSci from 2019 to 2024 Growth of pyOpenSci from 2019 to 2024 Growth of pyOpenSci from 2019 to 2024 Growth of pyOpenSci from 2019 to 2024</figcaption>
+  </picture>
 </figure>
 ```
 
