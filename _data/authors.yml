@@ -170,7 +170,7 @@ Mandy Moore:
       url: "mailto:mandy@pyopensci.org"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://www.pyopensci.org"
+      url: "https://mandymoore.tech"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/pyopensci"
