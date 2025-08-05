@@ -72,8 +72,7 @@ Even seasoned developers shared that they still wrestle with [build systems](htt
 <figure>
   <picture>
   <source srcset="/images/blog/2025/scipy-bof/results-open-code-painpoints.webp" type="image/webp">
-  <img src="/images/blog/2025/scipy-bof/results-open-code-painpoints.png" alt="Mentimeter board filled with participant feedback on how institutions could better support sustainable research software, including ideas like checklists and incentives.
-">
+  <img src="/images/blog/2025/scipy-bof/results-open-code-painpoints.png" alt="Mentimeter board filled with participant feedback on how institutions could better support sustainable research software, including ideas like checklists and incentives.">
   </picture>
 </figure>
 
@@ -115,8 +114,7 @@ Several folks mentioned imposter syndrome, burnout, or the sense of shouting int
 <figure>
   <picture>
   <source srcset="/images/blog/2025/scipy-bof/plot-use-of-llms.webp" type="image/webp">
-  <img src="/images/blog/2025/scipy-bof/plot-use-of-llms.png" alt="Mentimeter slide displaying audience reactions to generative AI in research software, with mixed responses including excitement, skepticism, and caution.
-">
+  <img src="/images/blog/2025/scipy-bof/plot-use-of-llms.png" alt="Mentimeter slide displaying audience reactions to generative AI in research software, with mixed responses including excitement, skepticism, and caution.">
   </picture>
 </figure>
 
