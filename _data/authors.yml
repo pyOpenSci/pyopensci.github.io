@@ -162,7 +162,7 @@ Raktim Mukhopadhyay:
       url: "https://www.linkedin.com/in/raktimm/"
 Mandy Moore:
   name        : "Mandy Moore"
-  bio         : "Single sentence here"
+  bio         : "Mandy Moore is the Communications and Community Lead at pyOpenSci, where she supports open science through inclusive storytelling, strategic content, and community engagement around scientific Python software."
   avatar      : "/images/people/pyopensc-executive-council.png"
   links:
     - label: "Email"
