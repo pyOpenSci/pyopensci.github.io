@@ -246,9 +246,9 @@
       name: great-tables
       description: Make awesome display tables using Python
       created_at: '2022-05-06'
-      stargazers_count: 2400
+      stargazers_count: 2401
       watchers_count: 14
-      open_issues_count: 119
+      open_issues_count: 120
       forks_count: 100
       documentation: https://posit-dev.github.io/great-tables/
       contrib_count: 25
@@ -307,7 +307,7 @@
       open_issues_count: 48
       forks_count: 166
       documentation: https://stingray.science/stingray
-      contrib_count: 55
+      contrib_count: 54
       last_commit: '2025-07-30'
   labels:
     - 6/pyOS-approved
@@ -511,7 +511,7 @@
       name: pooltool
       description: A sandbox billiards game that emphasizes realistic physics
       created_at: '2020-04-09'
-      stargazers_count: 285
+      stargazers_count: 286
       watchers_count: 13
       open_issues_count: 3
       forks_count: 49
@@ -1186,10 +1186,10 @@
       description: Quickly search, compare, and analyze genomic and
           metagenomic data sets.
       created_at: '2016-04-09'
-      stargazers_count: 514
+      stargazers_count: 515
       watchers_count: 16
       open_issues_count: 748
-      forks_count: 84
+      forks_count: 85
       documentation: https://sourmash.readthedocs.io/en/latest/
       contrib_count: 45
       last_commit: '2025-07-31'
@@ -2287,9 +2287,9 @@
       description: A light-weight, flexible, and expressive statistical data
           testing library
       created_at: '2018-11-01'
-      stargazers_count: 3940
+      stargazers_count: 3941
       watchers_count: 20
-      open_issues_count: 410
+      open_issues_count: 411
       forks_count: 353
       documentation: https://www.union.ai/pandera
       contrib_count: 162
