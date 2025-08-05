@@ -491,6 +491,16 @@
         "review",
         "doc"
       ]
+    },
+    {
+      "login": "TimothyEDawson",
+      "name": "Tim Dawson",
+      "avatar_url": "https://avatars.githubusercontent.com/u/142453358?v=4",
+      "profile": "https://github.com/TimothyEDawson",
+      "contributions": [
+        "code",
+        "review"
+      ]
     }
   ],
   "commitConvention": "angular",
