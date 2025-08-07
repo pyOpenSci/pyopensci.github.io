@@ -10508,13 +10508,10 @@
   packages_eic:
   packages_editor:
   packages_submitted:
-  packages_reviewed:
   location: Seattle
     - maintainer
     - peer-review
     - submitting-author
-  packages_eic:
-  packages_editor:
   packages_submitted:
     - greopy
   packages_reviewed:
