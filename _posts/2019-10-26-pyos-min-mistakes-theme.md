@@ -49,28 +49,41 @@ Right aligned text.
 
 ---
 
-**Justified text.** `.text-justify` Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel eleifend odio, eu elementum purus. In hac habitasse platea dictumst. Fusce sed sapien eleifend, sollicitudin neque non, faucibus est. Proin tempus nisi eu arcu facilisis, eget venenatis eros consequat.
+**Justified text.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel eleifend odio, eu elementum purus. In hac habitasse platea dictumst. Fusce sed sapien eleifend, sollicitudin neque non, faucibus est. Proin tempus nisi eu arcu facilisis, eget venenatis eros consequat.
 {: .text-justify}
 
 ```markdown
-Justified text.
+**Justified text.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel eleifend odio, eu elementum purus. In hac habitasse platea dictumst. Fusce sed sapien eleifend, sollicitudin neque non, faucibus est. Proin tempus nisi eu arcu facilisis, eget venenatis eros consequat.
 {: .text-justify}
 ```
 
 ---
 
-No wrap text. `.text-nowrap`
-{: .text-nowrap}
-
-```markdown
-No wrap text.
-{: .text-nowrap}
-```
-
-## Image alignment
+## Figures and figure alignment
 
 Position images with the following classes.
 
+### A regular figure with no alignment specified
+
+<figure>
+  <picture>
+  <source srcset="/images/pyopensci-general/pyopensci-timeline2019-2024.webp" type="image/webp">
+  <img src="/images/pyopensci-general/pyopensci-timeline2019-2024.png" alt="A timeline showing the growth of pyOpenSci from 2019 to 2024." style="width: 80%;">
+  <figcaption>Growth of pyOpenSci from 2019 to 2024. Growth of pyOpenSci from 2019 to 2024. Growth of pyOpenSci from 2019 to 2024. Growth of pyOpenSci from 2019 to 2024. </figcaption>
+  </picture>
+</figure>
+
+The code for the figure above is below:
+
+```html
+<figure>
+  <picture>
+  <source srcset="/images/pyopensci-general/pyopensci-timeline2019-2024.webp" type="image/webp">
+  <img src="/images/pyopensci-general/pyopensci-timeline2019-2024.png" alt="A timeline showing the growth of pyOpenSci from 2019 to 2024.">
+  <figcaption>Growth of pyOpenSci from 2019 to 2024</figcaption>
+  </picture>
+</figure>
+```
 
 ### Figure -- align center
 
@@ -82,7 +95,7 @@ Position images with the following classes.
   </picture>
 </figure>
 
-The image above happens to be **centered**.
+The image above is **centered** using `align-center`.
 
 ```html
 <figure class="align-center">
@@ -311,9 +324,21 @@ Make any link standout more when applying the `.btn .btn--primary` classes.
 | Default     | [Default Button](#){: .btn .btn--primary} | `.btn .btn--primary` | `[Text](#link){: .btn .btn--primary }` |
 | Small       | [Small Button](#){: .btn .btn--primary .btn--small} | `.btn .btn--primary .btn--small` | `[Text](#link){: .btn .btn--primary .btn--small}` |
 
-## Notices
+## Call out boxes (notices)
 
-Call attention to a block of text.
+You can create a basic notice or call out box for a pargraph by adding `{: .notice}` to the line immediately below the paragraph.
+
+
+```markdown
+**Technical and social skills go hand in hand.** Open source communities are most productive when contributors and maintainers recognize this balance between the technical and social skills associated with contributing.
+{: .notice}
+```
+Which looks like this rendered:
+
+**Technical and social skills go hand in hand.** Open source communities are most productive when contributors and maintainers recognize this balance between the technical and social skills associated with contributing.
+{: .notice}
+
+There are multiple classes that you can use to modify the background color of the call out block.
 
 | Notice Type | Class              |
 | ----------- | -----              |
@@ -324,8 +349,7 @@ Call attention to a block of text.
 | Success     | `.notice--success` |
 | Danger      | `.notice--danger`  |
 
-**Technical and social skills go hand in hand.** Open source communities are most productive when contributors and maintainers recognize this balance between the technical and social skills associated with contributing. In most cases, all of the people involved in the project are volunteers with varying priorities, skillsets, and motivations to participate.
-{: .notice}
+
 
 **Watch out!** This paragraph of text has been emphasized with the `{: .notice--primary}` class.
 {: .notice--primary}
@@ -343,10 +367,10 @@ Call attention to a block of text.
 {: .notice--danger}
 
 <div class="notice" markdown="1">
-You can also add the `.notice` class to a `<div>` element like this:
+You can also add the `.notice` class to a `<div>` element. Notice below that `markdown="1"` allows you to use markdwon within the html div.
 
 ```html
-<div class="notice">
+<div class="notice" markdown="1">
 You can also add the .notice class to a <div> element.
 
 * Bullet point 1
