@@ -10505,13 +10505,13 @@
   website:
   board: false
   contributor_type:
+    - maintainer
+    - peer-review
+    - submitting-author
   packages_eic:
   packages_editor:
   packages_submitted:
   location: Seattle
-    - maintainer
-    - peer-review
-    - submitting-author
   packages_submitted:
     - greopy
   packages_reviewed:
