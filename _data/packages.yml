@@ -1,3 +1,91 @@
+- package_name: PIVA
+  package_description: Visualization and analysis toolkit for experimental
+      data from Angle-Resolved Photoemission Spectroscopy (ARPES)
+  submitting_author:
+      name: Wojciech Radoslaw Pudelko
+      github_username: pudeIko
+  all_current_maintainers:
+    - name: Wojciech Radoslaw Pudelko
+      github_username: pudeIko
+  repository_link: https://github.com/pudeIko/piva
+  version_submitted: v2.3.2
+  categories:
+    - data-extraction
+    - data-visualization
+  editor:
+      name: Carter Lee Rhea
+      github_username: crhea93
+  eic:
+      name: James J Balamuta
+      github_username: coatless
+  reviewers:
+    - name: J. Steven Dodge
+      github_username: jsdodge
+    - name: Arthur Eigenbrot
+      github_username: eigenbrot
+  archive: https://zenodo.org/doi/10.5281/zenodo.16755506
+  version_accepted: v3.0.0
+  date_accepted: '2025-08-04'
+  created_at: 2025-01-04 14:36:12+00:00
+  updated_at: 2025-08-06 20:04:29+00:00
+  closed_at:
+  issue_link: https://github.com/pyOpenSci/software-submission/issues/231
+  joss:
+  partners:
+  gh_meta:
+      name: piva
+      description: Interactive tools for the visualization and analysis of
+          multidimensional photoemission data
+      created_at: '2022-04-12'
+      stargazers_count: 7
+      watchers_count: 1
+      open_issues_count: 7
+      forks_count: 3
+      documentation: https://piva.readthedocs.io/en/latest/intro.html
+      contrib_count: 3
+      last_commit: '2025-08-06'
+  labels:
+    - 6/pyOS-approved
+    - 7/under-joss-review
+  active: true
+- package_name: GREOPy
+  package_description: Calculate relativistic light rays sent by an emitter to
+      a receiver in the presence of a gravitational field.
+  submitting_author:
+      name: Jan P. Hackstein
+      github_username: irideselby
+  all_current_maintainers:
+    - name:
+      github_username: irideselby
+  repository_link: https://codeberg.org/JPHackstein/GREOPy
+  version_submitted: v0.2.1
+  categories:
+    - data-processing-munging
+  editor:
+      name: Jonas Eschle
+      github_username: jonas-eschle
+  eic:
+      name: James J Balamuta
+      github_username: coatless
+  reviewers:
+    - name: Leo Singer
+      github_username: lpsinger
+    - name: Sanjana Kandi
+      github_username: KandiSanjana
+  archive: https://zenodo.org/records/14537866
+  version_accepted: TBD
+  date_accepted: missing
+  created_at: 2024-12-21 12:34:09+00:00
+  updated_at: 2025-08-06 08:53:29+00:00
+  closed_at:
+  issue_link: https://github.com/pyOpenSci/software-submission/issues/227
+  joss:
+  partners:
+  gh_meta:
+  labels:
+    - 6/pyOS-approved
+    - 7/under-joss-review
+  active: true
 - package_name: neonutilities
   package_description: neonutilities is a package for accessing and wrangling
       data generated and published by the National Ecological Observatory
@@ -97,7 +185,7 @@
       description: 'Some data analysis tools for working with historical PV solar
           time-series data sets. '
       created_at: '2019-02-17'
-      stargazers_count: 79
+      stargazers_count: 80
       watchers_count: 9
       open_issues_count: 2
       forks_count: 28
@@ -148,7 +236,7 @@
       stargazers_count: 20
       watchers_count: 2
       open_issues_count: 3
-      forks_count: 10
+      forks_count: 11
       documentation: https://dodge-research-group.github.io/thztools/
       contrib_count: 5
       last_commit: '2024-12-03'
@@ -199,11 +287,11 @@
       created_at: '2024-01-09'
       stargazers_count: 48
       watchers_count: 5
-      open_issues_count: 112
+      open_issues_count: 113
       forks_count: 13
       documentation: https://www.montepy.org/
       contrib_count: 6
-      last_commit: '2025-08-02'
+      last_commit: '2025-08-04'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -246,13 +334,13 @@
       name: great-tables
       description: Make awesome display tables using Python
       created_at: '2022-05-06'
-      stargazers_count: 2401
-      watchers_count: 14
-      open_issues_count: 120
+      stargazers_count: 2406
+      watchers_count: 15
+      open_issues_count: 121
       forks_count: 100
       documentation: https://posit-dev.github.io/great-tables/
       contrib_count: 25
-      last_commit: '2025-07-29'
+      last_commit: '2025-08-06'
   labels:
     - 6/pyOS-approved
   active: true
@@ -302,7 +390,7 @@
       description: Anything can happen in the next half hour (including
           spectral timing made easy)!
       created_at: '2015-09-30'
-      stargazers_count: 198
+      stargazers_count: 199
       watchers_count: 19
       open_issues_count: 48
       forks_count: 166
@@ -511,7 +599,7 @@
       name: pooltool
       description: A sandbox billiards game that emphasizes realistic physics
       created_at: '2020-04-09'
-      stargazers_count: 286
+      stargazers_count: 287
       watchers_count: 13
       open_issues_count: 3
       forks_count: 49
@@ -618,7 +706,7 @@
       description: 'Astropy-affiliated package for zodiacal light simulations. Maintainers:
           @metinsa, @hermda02, @dncnwtts'
       created_at: '2021-08-11'
-      stargazers_count: 11
+      stargazers_count: 12
       watchers_count: 2
       open_issues_count: 2
       forks_count: 10
@@ -995,13 +1083,13 @@
       name: sunpy
       description: SunPy - Python for Solar Physics
       created_at: '2011-08-06'
-      stargazers_count: 957
+      stargazers_count: 958
       watchers_count: 48
       open_issues_count: 263
       forks_count: 606
       documentation: https://www.sunpy.org
       contrib_count: 239
-      last_commit: '2025-07-14'
+      last_commit: '2025-08-04'
   labels:
     - 6/pyOS-approved
   active: true
@@ -1186,13 +1274,13 @@
       description: Quickly search, compare, and analyze genomic and
           metagenomic data sets.
       created_at: '2016-04-09'
-      stargazers_count: 515
+      stargazers_count: 516
       watchers_count: 16
-      open_issues_count: 748
+      open_issues_count: 755
       forks_count: 85
       documentation: https://sourmash.readthedocs.io/en/latest/
       contrib_count: 45
-      last_commit: '2025-07-31'
+      last_commit: '2025-08-07'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1550,7 +1638,7 @@
       created_at: '2022-06-03'
       stargazers_count: 40
       watchers_count: 4
-      open_issues_count: 14
+      open_issues_count: 11
       forks_count: 7
       documentation: https://taxpasta.readthedocs.io/
       contrib_count: 5
@@ -1697,13 +1785,13 @@
       description: 'Library of derived climate variables, ie climate indicators,
           based on xarray. '
       created_at: '2018-07-27'
-      stargazers_count: 364
+      stargazers_count: 365
       watchers_count: 14
-      open_issues_count: 44
+      open_issues_count: 45
       forks_count: 66
       documentation: https://xclim.readthedocs.io/en/stable/
       contrib_count: 41
-      last_commit: '2025-07-29'
+      last_commit: '2025-08-04'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1903,7 +1991,7 @@
       created_at: '2017-03-17'
       stargazers_count: 811
       watchers_count: 27
-      open_issues_count: 141
+      open_issues_count: 142
       forks_count: 221
       documentation: https://www.pygmt.org
       contrib_count: 50
@@ -2240,10 +2328,10 @@
       description: Movement trajectory classes and functions built on top of
           GeoPandas
       created_at: '2018-12-16'
-      stargazers_count: 1323
+      stargazers_count: 1326
       watchers_count: 39
       open_issues_count: 32
-      forks_count: 200
+      forks_count: 201
       documentation: https://movingpandas.org
       contrib_count: 40
       last_commit: '2025-08-01'
@@ -2287,13 +2375,13 @@
       description: A light-weight, flexible, and expressive statistical data
           testing library
       created_at: '2018-11-01'
-      stargazers_count: 3941
+      stargazers_count: 3947
       watchers_count: 20
-      open_issues_count: 411
-      forks_count: 353
+      open_issues_count: 413
+      forks_count: 354
       documentation: https://www.union.ai/pandera
       contrib_count: 162
-      last_commit: '2025-07-31'
+      last_commit: '2025-08-04'
   labels:
     - 6/pyOS-approved
   active: true
