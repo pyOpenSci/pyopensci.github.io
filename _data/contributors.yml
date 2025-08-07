@@ -608,7 +608,7 @@
   github_username: cmarmo
   github_image_id: 1662261
   title:
-    - Editor in Chief
+    - Emeritus Editor in Chief
     - Editor
     - Peer review triage
   sort: 1
@@ -1142,6 +1142,7 @@
   github_username: HaoZeke
   github_image_id: 4336207
   title:
+    - Editor
   sort:
   bio:
   organization: '@Quansight-Labs, @TheochemUI'
@@ -4305,7 +4306,6 @@
   title:
     - Emeritus Editor in Chief
     - Editor
-    - Peer review triage
   sort: 2
   bio:
   organization: '@rstudio'
@@ -4348,12 +4348,14 @@
   github_username: eliotwrobson
   github_image_id: 1345068
   title:
+    - Editor
+    - Editor in Chief
   sort:
   bio: I'm just this guy, you know?
   organization: UIUC
   date_added: '2023-09-11'
   deia_advisory: false
-  editorial_board: false
+  editorial_board: true
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -5292,7 +5294,7 @@
   organization:
   date_added: '2023-12-14'
   deia_advisory: false
-  editorial_board: false
+  editorial_board: true
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -7317,6 +7319,7 @@
   github_username: NimaSarajpoor
   github_image_id: 38519522
   title:
+    - Editor
   sort: 2
   bio: Data Scientist  | OSS Contributor  | Philomath
   organization:
@@ -7661,7 +7664,7 @@
   organization: '@ark-info-sys'
   date_added: '2024-08-15'
   deia_advisory: false
-  editorial_board: false
+  editorial_board: true
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -8269,12 +8272,13 @@
   github_username: ab93
   github_image_id: 3485425
   title:
+    - Editor
   sort:
   bio: Data Scientist | Machine Learning Engineer
   organization: Intuit
   date_added: '2024-12-13'
   deia_advisory: false
-  editorial_board: false
+  editorial_board: true
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -9299,12 +9303,13 @@
   github_username: JuliMillan
   github_image_id: 66881995
   title:
+    - Editor
   sort:
   bio: Biology, data science and open science
   organization:
   date_added: '2025-05-30'
   deia_advisory: false
-  editorial_board: false
+  editorial_board: true
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -9554,12 +9559,13 @@
   github_username: crhea93
   github_image_id: 34322936
   title:
+    - Editor
   sort:
   bio: Graduate student at Université de Montréal studying astrophysics.
   organization:
   date_added: '2025-06-16'
   deia_advisory: false
-  editorial_board: false
+  editorial_board: true
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -10296,4 +10302,59 @@
   packages_submitted:
   packages_reviewed:
   location:
+  email:
+- name: James Balamuta
+  github_username: coatless
+  github_image_id: 
+  title:
+    - Editor
+    - Emeritus Editor in Chief
+  sort:
+  bio:
+  organization:
+  date_added: '2025-08-07'
+  deia_advisory: false
+  editorial_board: true
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: Seattle
+  email:  
+- name: Jonas Eschle
+  github_username: jonas-eschle
+  github_image_id: 
+  title:
+    - Editor
+  sort:
+  bio:
+  organization:
+  date_added: '2025-08-07'
+  deia_advisory: false
+  editorial_board: true
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: Seattle
   email:
