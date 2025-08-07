@@ -4350,7 +4350,7 @@
   title:
     - Editor
     - Editor in Chief
-  sort:
+  sort: 1
   bio: I'm just this guy, you know?
   organization: UIUC
   date_added: '2023-09-11'
