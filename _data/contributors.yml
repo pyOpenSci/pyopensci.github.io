@@ -6359,6 +6359,7 @@
   packages_editor:
   packages_submitted:
   packages_reviewed:
+    - greopy
     - zodipy
   location: Greenbelt, MD
   email: leo.singer@ligo.org
@@ -8141,12 +8142,14 @@
     - open-education
     - package-guide
     - peer-review
+    - reviewer
     - submitting-author
   packages_eic:
   packages_editor:
   packages_submitted:
     - thztools
   packages_reviewed:
+    - piva
   location:
   email:
 - name: Guglielmo Mastroserio
@@ -9570,9 +9573,12 @@
   website:
   board: false
   contributor_type:
+    - editor
+    - peer-review
     - peer-review-guide
   packages_eic:
   packages_editor:
+    - piva
   packages_submitted:
   packages_reviewed:
   location: Montreal, QC, CANADA
@@ -10294,6 +10300,212 @@
   packages_eic:
   packages_editor:
   packages_submitted:
+  packages_reviewed:
+  location:
+  email:
+- name: Tim Dawson
+  github_username: TimothyEDawson
+  github_image_id: 142453358
+  title:
+  sort:
+  bio: Combustion Group Leader at CFD Research Corporation.
+  organization: CFD Research Corporation
+  date_added: '2025-08-07'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - web-contrib
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location:
+  email: tim.dawson@cfd-research.com
+- name: James J Balamuta
+  github_username: coatless
+  github_image_id: 833642
+  title:
+  sort:
+  bio: 'omnipresent explorer of the unknown, fashionably caffeinated informatics
+      phd, amorous cavalier. design, build, analyze. #rstats #python @tmsalab'
+  organization:
+  date_added: '2025-08-07'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter: axiomsofxyz
+  mastodon:
+  orcidid:
+  partners:
+  website: https://thecoatlessprofessor.com
+  board: false
+  contributor_type:
+    - eic
+    - peer-review
+  packages_eic:
+    - greopy
+    - piva
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: United States
+  email:
+- name: Arthur Eigenbrot
+  github_username: eigenbrot
+  github_image_id: 2183757
+  title:
+  sort:
+  bio:
+  organization: National Solar Observatory
+  date_added: '2025-08-07'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - piva
+  location:
+  email:
+- name: Wojtek Pudelko
+  github_username: pudeIko
+  github_image_id: 37271202
+  title:
+  sort:
+  bio:
+  organization: University of Zürich
+  date_added: '2025-08-07'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+    - submitting-author
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - piva
+  packages_reviewed:
+  location: Zürich, Switzerland
+  email:
+- name: Sanjana Kandi
+  github_username: KandiSanjana
+  github_image_id: 62292708
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2025-08-07'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - greopy
+  location:
+  email:
+- name: Jonas Eschle
+  github_username: jonas-eschle
+  github_image_id: 17454848
+  title:
+  sort:
+  bio: Large scale statistics, machine learning and software engineering in
+      High Energy Physics
+  organization: CERN
+  date_added: '2025-08-07'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - editor
+    - peer-review
+  packages_eic:
+  packages_editor:
+    - greopy
+  packages_submitted:
+  packages_reviewed:
+  location: Geneva, Switzerland
+  email: jonas.eschle@cern.ch
+- name:
+  github_username: irideselby
+  github_image_id: 172918893
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2025-08-07'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+    - submitting-author
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - greopy
   packages_reviewed:
   location:
   email:
