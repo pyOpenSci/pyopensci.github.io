@@ -10511,7 +10511,7 @@
   packages_eic:
   packages_editor:
   packages_submitted:
-  location: Seattle
+  location:
   packages_submitted:
     - greopy
   packages_reviewed:
