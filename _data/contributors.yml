@@ -10453,7 +10453,7 @@
   packages_submitted:
   packages_reviewed:
   location: Seattle
-  email:  
+  email:
 - name: Jonas Eschle
   github_username: jonas-eschle
   github_image_id: 17454848
@@ -10505,16 +10505,13 @@
   website:
   board: false
   contributor_type:
-  packages_eic:
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
-  location: Seattle
     - maintainer
     - peer-review
     - submitting-author
   packages_eic:
   packages_editor:
+  packages_submitted:
+  location:
   packages_submitted:
     - greopy
   packages_reviewed:
