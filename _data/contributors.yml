@@ -10510,10 +10510,8 @@
     - submitting-author
   packages_eic:
   packages_editor:
-  packages_submitted:
   location:
   packages_submitted:
     - greopy
   packages_reviewed:
-  location:
   email:
