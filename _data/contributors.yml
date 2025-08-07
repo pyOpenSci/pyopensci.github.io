@@ -10318,7 +10318,7 @@
   organization: CFD Research Corporation
   date_added: '2025-08-07'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -10346,7 +10346,7 @@
   organization:
   date_added: '2025-08-07'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -10376,7 +10376,7 @@
   organization: National Solar Observatory
   date_added: '2025-08-07'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -10405,7 +10405,7 @@
   organization: University of Zürich
   date_added: '2025-08-07'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -10435,7 +10435,7 @@
   organization:
   date_added: '2025-08-07'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -10452,6 +10452,7 @@
   packages_editor:
   packages_submitted:
   packages_reviewed:
+    - greopy
   location: Seattle
   email:
 - name: Jonas Eschle
@@ -10494,7 +10495,7 @@
   organization:
   date_added: '2025-08-07'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -10510,8 +10511,8 @@
     - submitting-author
   packages_eic:
   packages_editor:
-  location:
   packages_submitted:
     - greopy
   packages_reviewed:
+  location:
   email:
