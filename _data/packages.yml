@@ -334,9 +334,9 @@
       name: great-tables
       description: Make awesome display tables using Python
       created_at: '2022-05-06'
-      stargazers_count: 2407
+      stargazers_count: 2409
       watchers_count: 15
-      open_issues_count: 121
+      open_issues_count: 122
       forks_count: 100
       documentation: https://posit-dev.github.io/great-tables/
       contrib_count: 25
@@ -1085,8 +1085,8 @@
       created_at: '2011-08-06'
       stargazers_count: 958
       watchers_count: 48
-      open_issues_count: 263
-      forks_count: 606
+      open_issues_count: 265
+      forks_count: 607
       documentation: https://www.sunpy.org
       contrib_count: 239
       last_commit: '2025-08-04'
@@ -1274,9 +1274,9 @@
       description: Quickly search, compare, and analyze genomic and
           metagenomic data sets.
       created_at: '2016-04-09'
-      stargazers_count: 516
+      stargazers_count: 517
       watchers_count: 16
-      open_issues_count: 755
+      open_issues_count: 748
       forks_count: 85
       documentation: https://sourmash.readthedocs.io/en/latest/
       contrib_count: 45
@@ -1322,7 +1322,7 @@
       description: A package for formatting numbers into scientific formatted
           strings.
       created_at: '2023-05-26'
-      stargazers_count: 17
+      stargazers_count: 18
       watchers_count: 1
       open_issues_count: 7
       forks_count: 2
@@ -1835,7 +1835,7 @@
       name: crowsetta
       description: A tool to work with any format for annotating animal sounds
       created_at: '2018-12-01'
-      stargazers_count: 56
+      stargazers_count: 57
       watchers_count: 1
       open_issues_count: 40
       forks_count: 4
@@ -1995,7 +1995,7 @@
       forks_count: 221
       documentation: https://www.pygmt.org
       contrib_count: 50
-      last_commit: '2025-08-02'
+      last_commit: '2025-08-08'
   labels:
     - 6/pyOS-approved
   active: true
@@ -2328,10 +2328,10 @@
       description: Movement trajectory classes and functions built on top of
           GeoPandas
       created_at: '2018-12-16'
-      stargazers_count: 1325
+      stargazers_count: 1326
       watchers_count: 39
       open_issues_count: 32
-      forks_count: 201
+      forks_count: 200
       documentation: https://movingpandas.org
       contrib_count: 40
       last_commit: '2025-08-01'
@@ -2375,7 +2375,7 @@
       description: A light-weight, flexible, and expressive statistical data
           testing library
       created_at: '2018-11-01'
-      stargazers_count: 3947
+      stargazers_count: 3950
       watchers_count: 20
       open_issues_count: 413
       forks_count: 354
