@@ -76,7 +76,7 @@
   version_accepted: TBD
   date_accepted: missing
   created_at: 2024-12-21 12:34:09+00:00
-  updated_at: 2025-08-07 22:06:03+00:00
+  updated_at: 2025-08-11 11:29:03+00:00
   closed_at:
   issue_link: https://github.com/pyOpenSci/software-submission/issues/227
   joss:
@@ -136,7 +136,7 @@
       forks_count: 4
       documentation: https://neon-utilities-python.readthedocs.io/en/latest/
       contrib_count: 5
-      last_commit: '2025-08-07'
+      last_commit: '2025-08-11'
   labels:
     - 6/pyOS-approved
   active: true
@@ -291,7 +291,7 @@
       forks_count: 13
       documentation: https://www.montepy.org/
       contrib_count: 6
-      last_commit: '2025-08-04'
+      last_commit: '2025-08-11'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -334,9 +334,9 @@
       name: great-tables
       description: Make awesome display tables using Python
       created_at: '2022-05-06'
-      stargazers_count: 2409
+      stargazers_count: 2414
       watchers_count: 15
-      open_issues_count: 122
+      open_issues_count: 123
       forks_count: 100
       documentation: https://posit-dev.github.io/great-tables/
       contrib_count: 25
@@ -390,7 +390,7 @@
       description: Anything can happen in the next half hour (including
           spectral timing made easy)!
       created_at: '2015-09-30'
-      stargazers_count: 199
+      stargazers_count: 200
       watchers_count: 19
       open_issues_count: 48
       forks_count: 166
@@ -1085,11 +1085,11 @@
       created_at: '2011-08-06'
       stargazers_count: 958
       watchers_count: 48
-      open_issues_count: 265
+      open_issues_count: 266
       forks_count: 607
       documentation: https://www.sunpy.org
-      contrib_count: 239
-      last_commit: '2025-08-04'
+      contrib_count: 240
+      last_commit: '2025-08-12'
   labels:
     - 6/pyOS-approved
   active: true
@@ -1280,7 +1280,7 @@
       forks_count: 85
       documentation: https://sourmash.readthedocs.io/en/latest/
       contrib_count: 45
-      last_commit: '2025-08-07'
+      last_commit: '2025-08-12'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1488,7 +1488,7 @@
       created_at: '2021-09-10'
       stargazers_count: 260
       watchers_count: 8
-      open_issues_count: 180
+      open_issues_count: 181
       forks_count: 39
       documentation: https://biocypher.org
       contrib_count: 19
@@ -1785,13 +1785,13 @@
       description: 'Library of derived climate variables, ie climate indicators,
           based on xarray. '
       created_at: '2018-07-27'
-      stargazers_count: 365
+      stargazers_count: 366
       watchers_count: 14
       open_issues_count: 45
       forks_count: 66
       documentation: https://xclim.readthedocs.io/en/stable/
       contrib_count: 41
-      last_commit: '2025-08-04'
+      last_commit: '2025-08-11'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1989,13 +1989,13 @@
       name: pygmt
       description: A Python interface for the Generic Mapping Tools.
       created_at: '2017-03-17'
-      stargazers_count: 811
+      stargazers_count: 813
       watchers_count: 27
-      open_issues_count: 142
+      open_issues_count: 141
       forks_count: 221
       documentation: https://www.pygmt.org
       contrib_count: 50
-      last_commit: '2025-08-08'
+      last_commit: '2025-08-11'
   labels:
     - 6/pyOS-approved
   active: true
@@ -2328,7 +2328,7 @@
       description: Movement trajectory classes and functions built on top of
           GeoPandas
       created_at: '2018-12-16'
-      stargazers_count: 1326
+      stargazers_count: 1327
       watchers_count: 39
       open_issues_count: 32
       forks_count: 200
@@ -2375,13 +2375,13 @@
       description: A light-weight, flexible, and expressive statistical data
           testing library
       created_at: '2018-11-01'
-      stargazers_count: 3950
+      stargazers_count: 3954
       watchers_count: 20
       open_issues_count: 413
-      forks_count: 354
+      forks_count: 355
       documentation: https://www.union.ai/pandera
       contrib_count: 162
-      last_commit: '2025-08-04'
+      last_commit: '2025-08-12'
   labels:
     - 6/pyOS-approved
   active: true
