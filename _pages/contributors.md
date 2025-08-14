@@ -30,7 +30,8 @@ by an expert team of volunteer advisory members who help steer the direction of 
 
 {: .clearall }
 
-## PyOpenSci advisory council
+
+## pyOpenSci advisory council
 
 {: .clearall }
 
@@ -50,19 +51,36 @@ the organization.
 </div>
 
 {: .clearall }
-{: .clearall }
 
-## Emeritus advisory council
+## Emeritus advisory and executive  council
 
 {: .clearall }
 
 We are grateful for the time that these community members spent on our
-advisory council.
+leadership councils.
 
 {% assign emeritus_advisory = site.data.contributors | where:"emeritus_advisory", true %}
 
-<div class="grid" style="width:50%">
+<div class="grid">
 {% for aperson in emeritus_advisory %}
+  {{ aperson.person_name }}
+    {% include people-grid.html  %}
+{% endfor %}
+</div>
+
+{: .clearall }
+
+
+
+## pyOpenSci editorial board
+
+{: .clearall }
+{: .clearall }
+
+{% assign editorial = site.data.contributors | where:"editorial_board", true %}
+
+<div class="grid">
+{% for aperson in editorial %}
   {{ aperson.person_name }}
     {% include people-grid.html  %}
 {% endfor %}
@@ -71,7 +89,7 @@ advisory council.
 {: .clearall }
 {: .clearall }
 
-## PyOpenSci community contributors
+## pyOpenSci community contributors
 
 {: .clearall }
 {: .clearall }
