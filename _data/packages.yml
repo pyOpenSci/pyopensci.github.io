@@ -136,7 +136,7 @@
       forks_count: 4
       documentation: https://neon-utilities-python.readthedocs.io/en/latest/
       contrib_count: 5
-      last_commit: '2025-08-11'
+      last_commit: '2025-08-12'
   labels:
     - 6/pyOS-approved
   active: true
@@ -334,7 +334,7 @@
       name: great-tables
       description: Make awesome display tables using Python
       created_at: '2022-05-06'
-      stargazers_count: 2414
+      stargazers_count: 2415
       watchers_count: 15
       open_issues_count: 123
       forks_count: 100
@@ -557,7 +557,7 @@
       forks_count: 14
       documentation: https://open-atmos.github.io/PyPartMC/
       contrib_count: 9
-      last_commit: '2025-07-31'
+      last_commit: '2025-08-13'
   labels:
     - 6/pyOS-approved
   active: true
@@ -1276,7 +1276,7 @@
       created_at: '2016-04-09'
       stargazers_count: 517
       watchers_count: 16
-      open_issues_count: 748
+      open_issues_count: 749
       forks_count: 85
       documentation: https://sourmash.readthedocs.io/en/latest/
       contrib_count: 45
@@ -1432,7 +1432,7 @@
       description: CompleX Group Interactions (XGI) is a Python package for
           higher-order networks.
       created_at: '2021-09-08'
-      stargazers_count: 218
+      stargazers_count: 219
       watchers_count: 9
       open_issues_count: 49
       forks_count: 37
@@ -2375,12 +2375,12 @@
       description: A light-weight, flexible, and expressive statistical data
           testing library
       created_at: '2018-11-01'
-      stargazers_count: 3954
+      stargazers_count: 3956
       watchers_count: 20
-      open_issues_count: 413
+      open_issues_count: 411
       forks_count: 355
       documentation: https://www.union.ai/pandera
-      contrib_count: 162
+      contrib_count: 163
       last_commit: '2025-08-12'
   labels:
     - 6/pyOS-approved
