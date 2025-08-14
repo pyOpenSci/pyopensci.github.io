@@ -44,36 +44,6 @@
   packages_reviewed:
   location: United States
   email: leah@pyopensci.org
-- name: Tracy Teal
-  github_username: tracykteal
-  github_image_id: 889238
-  title:
-    - Board chair
-    - Executive Council
-  sort: 2
-  bio:
-  organization:
-  date_added: '2022-11-09'
-  deia_advisory: false
-  editorial_board: false
-  emeritus_editor: false
-  advisory: false
-  emeritus_advisory: false
-  twitter:
-  mastodon:
-  orcidid:
-  partners:
-  website:
-  board: true
-  contributor_type:
-    - leadership
-    - web-contrib
-  packages_eic:
-  packages_editor:
-  packages_submitted:
-  packages_reviewed:
-  location:
-  email: tkteal@gmail.com
 - name: Karen Cranston
   github_username: kcranston
   github_image_id: 312034
@@ -102,6 +72,63 @@
   packages_reviewed:
   location: Ottawa, ON
   email: karen.cranston@gmail.com
+- name: April Johnson
+  github_username: aprilmj
+  github_image_id: 147750733
+  title: Executive Council
+  sort: 3
+  bio:
+  organization:
+  date_added: '2022-11-09'
+  deia_advisory: false
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://www.apriljohnson.io/
+  board: true
+  contributor_type:
+    - leadership
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location:
+  email:
+- name: Tracy Teal
+  github_username: tracykteal
+  github_image_id: 889238
+  title:
+    - Emeritus Board chair
+    - Emeritus Executive Council
+  sort:
+  bio:
+  organization:
+  date_added: '2022-11-09'
+  deia_advisory: false
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: true
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - leadership
+    - web-contrib
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location:
+  email: tkteal@gmail.com
 - name: Carol Willing
   github_username: willingc
   github_image_id: 2680980
@@ -9986,10 +10013,10 @@
 - name: Mandy Moore
   github_username: therubyrep
   github_image_id: 2262962
-  title:
-  sort:
+  title: Communications Lead
+  sort: 4
   bio: Independent social media marketer and audio and video production expert
-  organization:
+  organization: pyOpenSci
   date_added: '2025-07-25'
   deia_advisory: false
   editorial_board: false
