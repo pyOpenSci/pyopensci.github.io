@@ -5,7 +5,7 @@ excerpt: "Meet Mandy Moore, our new Communications and Community Lead! Mandy is 
 author: "Mandy Moore"
 permalink: /blog/mandy-moore-communications-lead.html
 header:
-  overlay_image:
+  overlay_image: images/headers/pyopensci-floral.png
 categories:
   - blog-post
   - community
