@@ -6839,7 +6839,7 @@
   mastodon:
   orcidid:
   partners:
-  website: https://flpm.dev
+  website:
   board: false
   contributor_type:
     - community
