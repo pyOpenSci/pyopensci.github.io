@@ -19,8 +19,8 @@ When an organization successfully navigates its first leadership transition, it'
 
 <figure>
   <picture>
-  <source srcset="/images/blog/2025/executive-council-rotation-tracy.webp" type="image/webp">
-  <img src="/images/blog/2025/executive-council-rotation-tracy.png" alt="A graphic that says --Tracy Teal has completed a 3 year term as Executive Council Chair. We are grateful for the expertise, time and effort Tracy has put into the strategic vision for pyOpenSci.We also are grateful to Karen Cranston for stepping into the Executive Council chair position. And we welcome April Johnson as our newest Executive Council member!A timeline showing the growth of pyOpenSci from 2019 to 2024. It also has images of 3 women, Tracy, Karen and April on it on the right." style="width: 80%;">
+  <source srcset="{{ site.baseurl }}/images/blog/2025/executive-council-rotation-tracy.webp" type="image/webp">
+  <img src="{{ site.baseurl }}/images/blog/2025/executive-council-rotation-tracy.png" alt="A graphic that says --Tracy Teal has completed a 3 year term as Executive Council Chair. We are grateful for the expertise, time and effort Tracy has put into the strategic vision for pyOpenSci.We also are grateful to Karen Cranston for stepping into the Executive Council chair position. And we welcome April Johnson as our newest Executive Council member!A timeline showing the growth of pyOpenSci from 2019 to 2024. It also has images of 3 women, Tracy, Karen and April on it on the right." style="width: 80%;">
   </picture>
 </figure>
 
