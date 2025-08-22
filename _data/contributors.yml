@@ -34,6 +34,7 @@
     - submitting-author
   packages_eic:
   packages_editor:
+    - cynetdiff
     - errdapy
     - nbless
     - pandera
@@ -816,6 +817,7 @@
     - reviewer
     - web-contrib
   packages_eic:
+    - cynetdiff
     - great tables
     - pooltool
     - pypartmc
@@ -1773,6 +1775,7 @@
   packages_eic:
   packages_editor:
     - automata
+    - cynetdiff
   packages_submitted:
   packages_reviewed:
     - python-graphblas
@@ -4402,6 +4405,7 @@
   packages_editor:
   packages_submitted:
     - automata
+    - cynetdiff
   packages_reviewed:
     - pooltool
   location: Urbana, IL
@@ -10543,3 +10547,91 @@
   packages_reviewed:
   location:
   email:
+- name: Kai Striega
+  github_username: Kai-Striega
+  github_image_id: 30074037
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2025-08-22'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://kaistriega.com/about/
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - cynetdiff
+  location:
+  email:
+- name: SQ
+  github_username: jeremyzhangsq
+  github_image_id: 32925891
+  title:
+  sort:
+  bio: Research Fellow in SoC@NUS
+  organization: SoC@NUS
+  date_added: '2025-08-22'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://www.comp.nus.edu.sg/~s-zhang/
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - cynetdiff
+  location: Singapore
+  email:
+- name: Abhishek Umrawal
+  github_username: abhishekumrawal
+  github_image_id: 7496935
+  title:
+  sort:
+  bio: Tch. Asst. Prof. of ECE at Illinois | Ph.D. from Purdue | AI & ML
+      Researcher
+  organization: University of Illinois Urbana-Champaign
+  date_added: '2025-08-22'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - cynetdiff
+  packages_reviewed:
+  location: Urbana, IL
+  email: abhishekumrawal@gmail.com
