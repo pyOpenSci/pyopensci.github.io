@@ -334,7 +334,7 @@
       name: great-tables
       description: Make awesome display tables using Python
       created_at: '2022-05-06'
-      stargazers_count: 2418
+      stargazers_count: 2420
       watchers_count: 15
       open_issues_count: 120
       forks_count: 100
@@ -553,7 +553,7 @@
       created_at: '2021-10-26'
       stargazers_count: 29
       watchers_count: 5
-      open_issues_count: 53
+      open_issues_count: 52
       forks_count: 14
       documentation: https://open-atmos.github.io/PyPartMC/
       contrib_count: 9
@@ -593,7 +593,7 @@
   version_accepted: TBD
   date_accepted: '2025-08-22'
   created_at: 2024-04-22 03:28:38+00:00
-  updated_at: 2025-08-22 15:52:19+00:00
+  updated_at: 2025-08-23 05:13:16+00:00
   closed_at:
   issue_link: https://github.com/pyOpenSci/software-submission/issues/175
   joss:
@@ -609,7 +609,7 @@
       forks_count: 1
       documentation: https://eliotwrobson.github.io/CyNetDiff/
       contrib_count: 1
-      last_commit: '2025-08-17'
+      last_commit: '2025-08-23'
   labels:
     - 6/pyOS-approved
   active: true
@@ -1017,7 +1017,7 @@
       stargazers_count: 385
       watchers_count: 8
       open_issues_count: 10
-      forks_count: 68
+      forks_count: 69
       documentation: https://caleb531.github.io/automata/
       contrib_count: 18
       last_commit: '2025-07-07'
@@ -1837,7 +1837,7 @@
       description: 'Library of derived climate variables, ie climate indicators,
           based on xarray. '
       created_at: '2018-07-27'
-      stargazers_count: 367
+      stargazers_count: 368
       watchers_count: 14
       open_issues_count: 44
       forks_count: 66
@@ -2041,13 +2041,13 @@
       name: pygmt
       description: A Python interface for the Generic Mapping Tools.
       created_at: '2017-03-17'
-      stargazers_count: 813
+      stargazers_count: 814
       watchers_count: 27
       open_issues_count: 141
       forks_count: 222
       documentation: https://www.pygmt.org
       contrib_count: 50
-      last_commit: '2025-08-22'
+      last_commit: '2025-08-23'
   labels:
     - 6/pyOS-approved
   active: true
@@ -2427,7 +2427,7 @@
       description: A light-weight, flexible, and expressive statistical data
           testing library
       created_at: '2018-11-01'
-      stargazers_count: 3970
+      stargazers_count: 3971
       watchers_count: 20
       open_issues_count: 414
       forks_count: 355
