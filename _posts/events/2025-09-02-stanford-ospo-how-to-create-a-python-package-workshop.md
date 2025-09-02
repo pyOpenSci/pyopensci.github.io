@@ -87,7 +87,7 @@ We strongly recommend using our curated [GitHub Codespace](https://codespaces.ne
 
 To open your Codespace,
 
-* Go to your forked SciPy 2025 workshop repository on GitHub,
+* Go to your forked workshop repository on GitHub,
 * Switch to a branch that you want to work on during the workshop,
 * Click the code drop-down button (where you'd find a link to clone a repo)
 * Click on the Codespaces tab in the drop-down.
