@@ -57,7 +57,7 @@ If you're comfortable with Python environments, arrive with an environment that 
 - [VS Code](https://code.visualstudio.com/download) (or any IDE you prefer for packaging)
 
 > <i class="fa-solid fa-triangle-exclamation"></i> **Note:**
-* We strongly suggest that you visit GitHub.com and [Fork our SciPy 2025 workshop repository](https://github.com/pyOpenSci/pyopensci-scipy25-create-python-package) in case any issues arise with your local installation. This will ensure that you can follow along with us regardless of your environment setup.
+* We strongly suggest that you visit GitHub.com and [Fork our packaging workshop repository](https://github.com/pyOpenSci/pyopensci-workshop-create-python-package) in case any issues arise with your local installation. This will ensure that you can follow along with us regardless of your environment setup.
 > * JupyterLab or Jupyter Notebook is **not ideal** for the packaging work we’ll be doing.
 {: .notice }
 
