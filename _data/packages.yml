@@ -185,7 +185,7 @@
       description: 'Some data analysis tools for working with historical PV solar
           time-series data sets. '
       created_at: '2019-02-17'
-      stargazers_count: 83
+      stargazers_count: 82
       watchers_count: 9
       open_issues_count: 2
       forks_count: 29
@@ -334,7 +334,7 @@
       name: great-tables
       description: Make awesome display tables using Python
       created_at: '2022-05-06'
-      stargazers_count: 2432
+      stargazers_count: 2433
       watchers_count: 15
       open_issues_count: 120
       forks_count: 101
@@ -390,7 +390,7 @@
       description: Anything can happen in the next half hour (including
           spectral timing made easy)!
       created_at: '2015-09-30'
-      stargazers_count: 202
+      stargazers_count: 203
       watchers_count: 19
       open_issues_count: 46
       forks_count: 165
@@ -557,7 +557,7 @@
       forks_count: 14
       documentation: https://open-atmos.github.io/PyPartMC/
       contrib_count: 9
-      last_commit: '2025-08-28'
+      last_commit: '2025-09-05'
   labels:
     - 6/pyOS-approved
   active: true
@@ -1837,9 +1837,9 @@
       description: 'Library of derived climate variables, ie climate indicators,
           based on xarray. '
       created_at: '2018-07-27'
-      stargazers_count: 367
+      stargazers_count: 368
       watchers_count: 14
-      open_issues_count: 40
+      open_issues_count: 41
       forks_count: 66
       documentation: https://xclim.readthedocs.io/en/stable/
       contrib_count: 41
@@ -2047,7 +2047,7 @@
       forks_count: 222
       documentation: https://www.pygmt.org
       contrib_count: 50
-      last_commit: '2025-09-03'
+      last_commit: '2025-09-05'
   labels:
     - 6/pyOS-approved
   active: true
@@ -2427,9 +2427,9 @@
       description: A light-weight, flexible, and expressive statistical data
           testing library
       created_at: '2018-11-01'
-      stargazers_count: 3996
+      stargazers_count: 3997
       watchers_count: 20
-      open_issues_count: 420
+      open_issues_count: 421
       forks_count: 356
       documentation: https://www.union.ai/pandera
       contrib_count: 167
@@ -2530,7 +2530,7 @@
       description: A package built to support working with spatial data using
           open source python
       created_at: '2018-02-20'
-      stargazers_count: 525
+      stargazers_count: 526
       watchers_count: 17
       open_issues_count: 28
       forks_count: 156
