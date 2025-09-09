@@ -17,6 +17,16 @@ last_modified: 2025-09-09
 
 *Authors: Kari L. Jordan, Erin Becker, Daniela Saderi, Vanessa Fairhurst, Patricia Herterich, Noam Ross, Yanina Bellini Saibene, Leah Wasser, Yo Yehudi*
 
+<figure>
+  <picture>
+  <source srcset="{{ site.baseurl }}/images/blog/2025/waterfall-flikr.webp" type="image/webp">
+  <img src="{{ site.baseurl }}/images/blog/2025/waterfall-flikr.png" alt="A photograph of a waterfall cascading down rocks in a rich green forest setting" style="width: 80%;">
+  </picture>
+    <figcaption>"Black Forest: waterfall" by *rboed* is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/?ref=openverse.</figcaption>
+</figure>
+
+
+
 Open science has transformed how research is conducted, shared, and reused. Yet the organisations at the heart of this transformation are often left vulnerable, underfunded, and disconnected from one another. To move from simply surviving to truly thriving, five leading open science organisations \-- [The Carpentries](https://carpentries.org/), [OLS](https://we-are-ols.org/), [rOpenSci](https://ropensci.org/), [pyOpenSci](https://www.pyopensci.org/), and [PREreview](https://prereview.org/)) \-- are convening to chart a collective path forward. We are so grateful to The Navigation Fund for supporting this work, and invite our communities to review the [full proposal](https://commons.datacite.org/doi.org/10.71707/qttn-3j47) online.
 
 ## Why This Convening Matters
