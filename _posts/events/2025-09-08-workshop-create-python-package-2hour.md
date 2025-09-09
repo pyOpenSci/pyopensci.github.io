@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "From Code to Community: A 2-Hour Python Packaging Workshop"
+title: "From Zero to Python Package: A 2-Hour Python Packaging Workshop"
 excerpt: "Turn your Python code into a professional package that others can easily install, use, and contribute to. Learn the complete packaging workflow with hands-on demos and proven templates."
 author: "pyopensci"
 event:
@@ -17,16 +17,16 @@ last_modified: 2025-09-08
 comments: true
 ---
 
-## From Code to Community: A 2-Hour Python Packaging Workshop
+## Everything that you need to know
 
-* **When:** Thursday, 29 January 2026
+* **When:** Thursday, 6 November 2025 10:00 AM Mountain Time - 12:15 PM Mountain Time
 * **Where:** Interactive webinar with live demos
 
 ### Cost
 
-Prices are in US Dollars. This workshop not only provides you with expert training, it also supports the work that pyOpenSci does to support scientific open source.
+Prices are in US Dollars. This workshop not only provides you with expert training, but it also supports the work that pyOpenSci does to support scientific open source.
 
-| Ticket Type |Early Bird (Before 5 January 2026 ) | Regular |
+| Ticket Type |Early Bird (Before 5 October 2025 ) | Regular |
 | Regular | $149  | $199 |
 | Student | $45  | $85 |
 
@@ -46,55 +46,57 @@ This workshop is part of pyOpenSci's commitment to building better research soft
 
 ### Workshop Structure
 
-#### Part 1: Modern Python Packaging Foundation (30 minutes)
+#### Part 1: Modern Python packaging foundations (30 minutes)
 
-- <i class="fas fa-folder-tree"></i> **Package Structure:** Set up your project the right way from day one
-- <i class="fas fa-file-alt"></i> **Essential Files Walkthrough:** pyproject.toml, README, and what actually matters
-- <i class="fas fa-tools"></i> **Tool Decision Framework:** Navigate the packaging ecosystem with confidence
+- <i class="fas fa-folder-tree" style="color: #999;" ></i> **Package Structure:** Set up your project the right way from day one
+- <i class="fas fa-file-alt" style="color: #999;"></i> **Essential Files Walkthrough:** pyproject.toml, README, and what actually matters
+- <i class="fas fa-tools" style="color: #999;"></i> **Tool Decision Framework:** Navigate the packaging ecosystem with confidence
 
-#### Part 2: Build and Test Your Package (30 minutes)
+#### Part 2: Build your Python package (30 minutes)
 
-- <i class="fas fa-hammer"></i> **Live Build Demo:** See packaging in action with real code
-- <i class="fas fa-vial"></i> **Setup Tests:** Make sure your package works everywhere and as new pull requests come in
-- <i class="fas fa-check-circle"></i> **Quality Checklist:** Professional packaging standards made simple
+- <i class="fas fa-hammer" style="color: #999;"></i> **Live Build Demo:** See packaging in action with real code
+- <i class="fas fa-vial" style="color: #999;"></i> **Setup Tests:** Make sure your package works everywhere and as new pull requests come in
+- <i class="fas fa-check-circle" style="color: #999;"></i> **Quality Checklist:** Professional packaging standards made simple
 
-**Break (10 minutes)**
+#### <i class="fa-solid fa-mug-hot" style="color: #81c0aa;"></i> Break (10 minutes)
 
-#### Part 3: Publish and Share (30 minutes)
+#### Part 3: Publish and share your Python package (30 minutes)
 
-- <i class="fas fa-upload"></i> **PyPI Publishing:** Get your package on the Python Package Index
-- <i class="fas fa-shield-alt"></i> **Security Best Practices:** Protect your package and users when you are publishing using Trusted Publishing.
-- <i class="fas fa-sync-alt"></i> **Automation Setup:** Never manually release your package again; instead use GitHub actions with trusted publishing.
+- <i class="fas fa-upload" style="color: #999;"></i> **PyPI Publishing:** Get your package on the Python Package Index
+- <i class="fas fa-shield-alt" style="color: #999;"></i> **Security Best Practices:** Protect your package and users when you are publishing using Trusted Publishing.
+- <i class="fas fa-sync-alt" style="color: #999;"></i> **Automation Setup:** Never manually release your package again; instead use GitHub actions with trusted publishing.
 
-#### Part 4: Maintenance and Community (20 minutes)
+#### Part 4: Documentation for a healthy project (20 minutes)
 
-- <i class="fas fa-users"></i> **Contributor Onboarding:** A brief overview of documentation to make it easier to onboard both contributors and new maintainers to your project.
-- <i class="fas fa-question-circle"></i> **Q&A:** Get your questions answered
+- <i class="fas fa-users" style="color: #999;"></i> **What docs matter most?:** A brief overview of documentation to make it easier to onboard both contributors and new maintainers to your project.
+
+
+#### Wrap up: Questions (20 Minutes)
+
+- <i class="fas fa-question-circle" style="color: #999;"></i> **Q&A:** Get your questions answered
 
 ### Why attend
 
-- <i class="fa-solid fa-rocket"></i> Learn modern packaging practices used by successful Python projects
-- <i class="fa-solid fa-tools"></i> Get production-ready templates and automation you can use immediately
-- <i class="fa-solid fa-shield-alt"></i> Understand security and best practices from day one
-- <i class="fa-solid fa-eye"></i> See live demos of the complete packaging workflow
-- <i class="fa-solid fa-graduation-cap"></i> Learn from pyOpenSci's experience reviewing hundreds of packages
+- <i class="fa-solid fa-rocket" style="color: #999;"></i> Learn modern packaging practices used by successful Python projects
+- <i class="fa-solid fa-tools" style="color: #999;"></i> Get production-ready templates and automation you can use immediately
+- <i class="fa-solid fa-shield-alt" style="color: #999;"></i> Understand publishing security best practices from day one
+- <i class="fa-solid fa-eye" style="color: #999;"></i> See live demos of the complete packaging workflow
+- <i class="fa-solid fa-graduation-cap" style="color: #999;"></i> Learn from pyOpenSci's experience reviewing dozens of packages
 
 ### Perfect for you if...
 
-- <i class="fas fa-check"></i> You have Python code that others could benefit from using
-- <i class="fas fa-check"></i> You're tired of sharing code via email or messy file transfers
-- <i class="fas fa-check"></i> You want people to be able to install and use your tools
-- <i class="fas fa-check"></i> You've heard of PyPI but don't know how to get your package there
+- <i class="fas fa-check" style="color: #81c0aa;"></i> You have Python code that others could benefit from using
+- <i class="fas fa-check" style="color: #81c0aa;"></i> You're tired of sharing code via email or messy file transfers
+- <i class="fas fa-check" style="color: #81c0aa;"></i> You want people to be able to install and use your tools
+- <i class="fas fa-check" style="color: #81c0aa;"></i> You've heard of PyPI but don't know how to get your package there
 
 ### What you'll walk away with
 
-- <i class="fas fa-gift"></i> **Complete Package Template:** Ready-to-use project structure
-- <i class="fas fa-gift"></i> **Automation Workflows:** GitHub Actions for testing and publishing
-- <i class="fas fa-gift"></i> **Quality Checklists:** Never miss important packaging steps
-- <i class="fas fa-gift"></i> **Publishing Guide:** Step-by-step PyPI deployment
-- <i class="fas fa-gift"></i> **Workshop Recording:** An better understanding of the Python packaging ecosystem
+- **Complete Package Template:** Ready-to-use project structure
+- **Automation Workflows:** GitHub Actions for testing and publishing
+- **Quality Checklists:** Never miss important packaging steps
+- **Publishing Guide:** Step-by-step instructions for secure PyPI deployment using GitHub actions
 
-
-### Your instructors
+### Your instructors & helpers
 
 [Leah Wasser](https://www.github.com/lwasser), the Executive Director and Founder of pyOpenSci, brings over 20 years of experience teaching technical data science topics in the scientific space. pyOpenSci has worked with hundreds of scientific Python package maintainers and has helped over 50 packages improve their structure and distribution through our peer review process.

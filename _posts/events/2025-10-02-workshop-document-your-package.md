@@ -6,7 +6,7 @@ author: "pyopensci"
 event:
   start_date: "2026-01-29"
   location: Online
-permalink: /events/documentation-workshop.html
+permalink: /events/documentation-workshop-jan-2026.html
 header:
   overlay_image: images/headers/pyopensci-sustainability.png
 categories:
