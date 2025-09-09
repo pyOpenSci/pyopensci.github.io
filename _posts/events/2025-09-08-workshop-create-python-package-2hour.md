@@ -31,7 +31,7 @@ Prices are in US Dollars. This workshop not only provides you with expert traini
 | Student | $45  | $85 |
 
 
-<i class="fa-regular fa-circle-right"></i> Register Now (Registration will open on 12 September 2025)
+<i class="fa-regular fa-circle-right"></i> [Register Now on Eventbrite](https://www.eventbrite.com/e/pyopensci-zero-to-pure-python-package-in-minutes-tickets-1677115350159)
 {: .btn .btn--success }
 
 <div class="notice" markdown="1">
