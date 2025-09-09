@@ -4,9 +4,9 @@ title: "Build Documentation That Gets Used: A 2-Hour Interactive Workshop for Py
 excerpt: "Stop writing documentation that nobody reads. Learn the strategic framework behind great documentation and walk away with templates, checklists, and a clear plan to transform your package's documentation."
 author: "pyopensci"
 event:
-  start_date: "2025-11-06"
+  start_date: "2026-01-29"
   location: Online
-permalink: /events/documentation-workshop.html
+permalink: /events/documentation-workshop-jan-2026.html
 header:
   overlay_image: images/headers/pyopensci-sustainability.png
 categories:
@@ -19,10 +19,12 @@ comments: true
 
 ## Build Documentation That Gets Used: A 2-Hour Interactive Workshop for Python Package Maintainers
 
-* **When:** Thursday, 6 November 2025
+* **When:** Thursday, 29 January 2026
 * **Where:** Interactive webinar with live demos
 * **Cost:** $149 (Early Bird) | $199 (Regular)
-  * Student:
+* **Student:** $45 (Early Bird) | $85 (Regular)
+
+* Scholarships are available to those who have been impacted by grant and funding cuts.
 
 Your Python package deserves documentation that works as hard as your code. In this hands-on workshop, you'll learn the strategic framework behind great documentation and walk away with templates, checklists, and a clear plan to transform your package's documentation.
 
