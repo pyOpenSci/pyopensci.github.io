@@ -88,7 +88,8 @@ This workshop is part of pyOpenSci's commitment to building better research soft
 - <i class="fas fa-check" style="color: #81c0aa;"></i> You have Python code that others could benefit from using
 - <i class="fas fa-check" style="color: #81c0aa;"></i> You're tired of sharing code via email or messy file transfers
 - <i class="fas fa-check" style="color: #81c0aa;"></i> You want people to be able to install and use your tools
-- <i class="fas fa-check" style="color: #81c0aa;"></i> You've heard of PyPI but don't know how to get your package there
+- <i class="fas fa-check" style="color: #81c0aa;"></i> You've heard of PyPI but don't know how to get your package there and how to do it securely.
+- <i class="fas fa-check" style="color: #81c0aa;"></i> You want to better understand the complex Python packaging ecosystem
 
 ### What you'll walk away with
 
@@ -96,6 +97,15 @@ This workshop is part of pyOpenSci's commitment to building better research soft
 - **Automation Workflows:** GitHub Actions for testing and publishing
 - **Quality Checklists:** Never miss important packaging steps
 - **Publishing Guide:** Step-by-step instructions for secure PyPI deployment using GitHub actions
+
+### Pre-requisites
+
+To successfully follow along in this workshop, you should:
+
+* Know how to write Python code
+* Understand how to write and use functions
+* Have a Free account to create a GitHub account (you can work using GitHub codespaces during this workshop, and setting this account up is free if you don't already have one.
+* You should have internet access
 
 ### Your instructors & helpers
 
