@@ -6,7 +6,7 @@ author: "pyopensci"
 event:
   start_date: "2025-11-06"
   location: Online
-permalink: /events/python-packaging-workshop-jan-2026.html
+permalink: /events/python-packaging-workshop-november-2025.html
 header:
   overlay_image: images/headers/pyopensci-sustainability.png
 categories:
