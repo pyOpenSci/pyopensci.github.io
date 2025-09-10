@@ -1,4 +1,3 @@
-
 ---
 title: "4. Setup Trusted Publishing for secure and automated publishing via GitHub Actions"
 excerpt: "

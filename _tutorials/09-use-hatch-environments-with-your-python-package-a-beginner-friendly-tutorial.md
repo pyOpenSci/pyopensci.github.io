@@ -1,4 +1,3 @@
-
 ---
 title: "9. Use Hatch environments with your Python package: a beginner-friendly tutorial"
 excerpt: "

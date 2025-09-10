@@ -1,4 +1,3 @@
-
 ---
 title: "10. Get to Know Hatch"
 excerpt: "

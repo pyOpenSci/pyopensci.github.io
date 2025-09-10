@@ -1,4 +1,3 @@
-
 ---
 title: "2. Make your Python package PyPI ready - pyproject.toml"
 excerpt: "

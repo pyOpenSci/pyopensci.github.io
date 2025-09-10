@@ -1,4 +1,3 @@
-
 ---
 title: "8. Create a Python package from scratch, a beginner-friendly tutorial"
 excerpt: "

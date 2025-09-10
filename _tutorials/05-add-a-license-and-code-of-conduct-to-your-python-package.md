@@ -1,4 +1,3 @@
-
 ---
 title: "5. Add a License and Code of Conduct to your python package"
 excerpt: "
