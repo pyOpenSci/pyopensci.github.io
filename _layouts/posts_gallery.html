@@ -8,6 +8,7 @@ layout: archive
   {% assign postsInYear = site.posts
     | where_exp: "item", "item.hidden != true"
     | where_exp: "item", "item.categories contains 'blog-post'"
+    | where_exp: "item", "item.type != 'event'"
     | group_by_exp: 'post', 'post.date
     | date: "%Y"' %}
   {% for year in postsInYear %}
