@@ -291,7 +291,7 @@
       forks_count: 16
       documentation: https://www.montepy.org/
       contrib_count: 6
-      last_commit: '2025-09-02'
+      last_commit: '2025-09-08'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -334,7 +334,7 @@
       name: great-tables
       description: Make awesome display tables using Python
       created_at: '2022-05-06'
-      stargazers_count: 2432
+      stargazers_count: 2434
       watchers_count: 15
       open_issues_count: 120
       forks_count: 101
@@ -396,7 +396,7 @@
       forks_count: 165
       documentation: https://stingray.science/stingray
       contrib_count: 54
-      last_commit: '2025-08-25'
+      last_commit: '2025-09-09'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -557,7 +557,7 @@
       forks_count: 14
       documentation: https://open-atmos.github.io/PyPartMC/
       contrib_count: 9
-      last_commit: '2025-09-06'
+      last_commit: '2025-09-10'
   labels:
     - 6/pyOS-approved
   active: true
@@ -610,6 +610,58 @@
       documentation: https://eliotwrobson.github.io/CyNetDiff/
       contrib_count: 1
       last_commit: '2025-08-23'
+  labels:
+    - 6/pyOS-approved
+  active: true
+- package_name: AMS
+  package_description: Power system dispatch modeling and dispatch-dynamic
+      co-simulation.
+  submitting_author:
+      name: Jinning Wang
+      github_username: jinningwang
+  all_current_maintainers:
+    - name: Jinning Wang
+      github_username: jinningwang
+  repository_link: https://github.com/CURENT/ams
+  version_submitted: v0.9.6
+  categories:
+    - data-processing-munging
+  editor:
+    - name: Nima Sarajpoor
+      github_username: NimaSarajpoor
+    - name: Avik Basu
+      github_username: ab93
+  eic:
+      name: Alex Batisse
+      github_username: Batalex
+  reviewers:
+    - name: Alireza Gholamzadeh Khoee
+      github_username: Alizak-Mech
+    - name: Alireza Alamgir Tehrani
+      github_username: AlirezaAlamgir
+    - name: Kavian Mashayekhi
+      github_username: Kawians
+  archive:
+  version_accepted: v1.0.14
+  date_accepted: '2025-09-07'
+  created_at: 2024-04-22 01:37:56+00:00
+  updated_at: 2025-09-09 02:46:48+00:00
+  closed_at:
+  issue_link: https://github.com/pyOpenSci/software-submission/issues/174
+  joss:
+  partners:
+  gh_meta:
+      name: ams
+      description: Power system generation scheduling and co-simulation with
+          dynamics.
+      created_at: '2022-10-05'
+      stargazers_count: 18
+      watchers_count: 2
+      open_issues_count: 15
+      forks_count: 8
+      documentation: https://ltb.curent.org
+      contrib_count: 2
+      last_commit: '2025-09-01'
   labels:
     - 6/pyOS-approved
   active: true
@@ -1135,13 +1187,13 @@
       name: sunpy
       description: SunPy - Python for Solar Physics
       created_at: '2011-08-06'
-      stargazers_count: 961
+      stargazers_count: 963
       watchers_count: 47
       open_issues_count: 265
-      forks_count: 611
+      forks_count: 610
       documentation: https://www.sunpy.org
       contrib_count: 240
-      last_commit: '2025-09-03'
+      last_commit: '2025-09-08'
   labels:
     - 6/pyOS-approved
   active: true
@@ -1326,13 +1378,13 @@
       description: Quickly search, compare, and analyze genomic and
           metagenomic data sets.
       created_at: '2016-04-09'
-      stargazers_count: 521
+      stargazers_count: 522
       watchers_count: 16
-      open_issues_count: 752
+      open_issues_count: 753
       forks_count: 87
       documentation: https://sourmash.readthedocs.io/en/latest/
       contrib_count: 45
-      last_commit: '2025-09-02'
+      last_commit: '2025-09-09'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1538,7 +1590,7 @@
       description: A unifying framework for biomedical research knowledge
           graphs
       created_at: '2021-09-10'
-      stargazers_count: 262
+      stargazers_count: 263
       watchers_count: 8
       open_issues_count: 181
       forks_count: 40
@@ -1688,7 +1740,7 @@
       name: taxpasta
       description: TAXnomic Profile Aggregation and STAndardisation
       created_at: '2022-06-03'
-      stargazers_count: 42
+      stargazers_count: 41
       watchers_count: 4
       open_issues_count: 12
       forks_count: 7
@@ -1839,7 +1891,7 @@
       created_at: '2018-07-27'
       stargazers_count: 368
       watchers_count: 14
-      open_issues_count: 41
+      open_issues_count: 40
       forks_count: 66
       documentation: https://xclim.readthedocs.io/en/stable/
       contrib_count: 41
@@ -2043,11 +2095,11 @@
       created_at: '2017-03-17'
       stargazers_count: 814
       watchers_count: 27
-      open_issues_count: 141
-      forks_count: 222
+      open_issues_count: 140
+      forks_count: 221
       documentation: https://www.pygmt.org
       contrib_count: 50
-      last_commit: '2025-09-05'
+      last_commit: '2025-09-10'
   labels:
     - 6/pyOS-approved
   active: true
@@ -2333,7 +2385,7 @@
       created_at: '2018-06-13'
       stargazers_count: 148
       watchers_count: 5
-      open_issues_count: 11
+      open_issues_count: 12
       forks_count: 44
       documentation: https://pyrolite.readthedocs.io
       contrib_count: 14
@@ -2380,7 +2432,7 @@
       description: Movement trajectory classes and functions built on top of
           GeoPandas
       created_at: '2018-12-16'
-      stargazers_count: 1333
+      stargazers_count: 1334
       watchers_count: 39
       open_issues_count: 31
       forks_count: 201
@@ -2427,9 +2479,9 @@
       description: A light-weight, flexible, and expressive statistical data
           testing library
       created_at: '2018-11-01'
-      stargazers_count: 4000
+      stargazers_count: 4007
       watchers_count: 20
-      open_issues_count: 421
+      open_issues_count: 422
       forks_count: 356
       documentation: https://www.union.ai/pandera
       contrib_count: 167
