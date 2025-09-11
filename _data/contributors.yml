@@ -817,6 +817,7 @@
     - reviewer
     - web-contrib
   packages_eic:
+    - ams
     - cynetdiff
     - great tables
     - pooltool
@@ -7368,10 +7369,12 @@
   website: https://nimasarajpoor.github.io/blog/
   board: false
   contributor_type:
+    - editor
     - peer-review
     - reviewer
   packages_eic:
   packages_editor:
+    - ams
   packages_submitted:
   packages_reviewed:
     - automata
@@ -8323,11 +8326,13 @@
   website:
   board: false
   contributor_type:
+    - editor
     - peer-review
     - peer-review-guide
     - reviewer
   packages_eic:
   packages_editor:
+    - ams
   packages_submitted:
   packages_reviewed:
     - quadratik
@@ -9640,11 +9645,14 @@
   website: https://ning.guru
   board: false
   contributor_type:
+    - maintainer
     - peer-review
     - reviewer
+    - submitting-author
   packages_eic:
   packages_editor:
   packages_submitted:
+    - ams
   packages_reviewed:
     - solar data tools
   location: Knoxville, Tennessee, USA
@@ -10635,3 +10643,92 @@
   packages_reviewed:
   location: Urbana, IL
   email: abhishekumrawal@gmail.com
+- name: Alireza
+  github_username: Alizak-Mech
+  github_image_id: 174788670
+  title:
+  sort:
+  bio: A Mechanical Engineer with a Bachelor's degree in Mechanical
+      Engineering and a Master's degree in Energy Engineering, specializing in
+      Energy Technologies.
+  organization:
+  date_added: '2025-09-10'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - ams
+  location:
+  email: alirezakhoee@yahoo.com
+- name: Alireza Alamgir
+  github_username: AlirezaAlamgir
+  github_image_id: 174625766
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2025-09-10'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - ams
+  location:
+  email:
+- name: Kavian Mashayekhi
+  github_username: Kawians
+  github_image_id: 115752969
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2025-09-10'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - ams
+  location:
+  email:
