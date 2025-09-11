@@ -1,4 +1,4 @@
-e---
+---
 layout: single
 title: "Build Documentation That Gets Used: A 2-Hour Interactive Workshop for Python Package Maintainers"
 excerpt: "Stop writing documentation that nobody reads. Learn the strategic framework behind great documentation and walk away with templates, checklists, and a clear plan to transform your package's documentation."
