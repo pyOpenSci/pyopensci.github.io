@@ -639,7 +639,7 @@
     - Emeritus Editor in Chief
     - Editor
     - Peer review triage
-  sort: 1
+  sort: 2
   bio:
   organization:
   date_added: '2023-01-24'
@@ -1748,14 +1748,14 @@
 - name: Jonny Saunders
   github_username: sneakers-the-rat
   github_image_id: 12961499
-  title: Editor
+  title: Emeritus Editor
   sort: 2
   bio: Bad at programming in beautiful Oregon
   organization:
   date_added: '2023-03-01'
   deia_advisory: false
-  editorial_board: true
-  emeritus_editor: false
+  editorial_board: false
+  emeritus_editor: true
   advisory: false
   emeritus_advisory: false
   twitter: json_dirs
@@ -3169,14 +3169,14 @@
 - name: Meenal Jhajharia
   github_username: mjhajharia
   github_image_id: 55153708
-  title: Editor
+  title: Emeritus Editor
   sort: 2
   bio:
   organization: \varnothing
   date_added: '2023-04-18'
   deia_advisory: false
-  editorial_board: true
-  emeritus_editor: false
+  editorial_board: false
+  emeritus_editor: true
   advisory: false
   emeritus_advisory: false
   twitter:
@@ -4336,14 +4336,14 @@
   github_image_id: 54685329
   title:
     - Emeritus Editor in Chief
-    - Editor
+    - Emeritus Editor
   sort: 2
   bio:
   organization: '@rstudio'
   date_added: '2023-08-14'
   deia_advisory: false
-  editorial_board: true
-  emeritus_editor: false
+  editorial_board: false
+  emeritus_editor: true
   advisory: false
   emeritus_advisory: false
   twitter:
@@ -4381,7 +4381,7 @@
   title:
     - Editor
     - Editor in Chief
-  sort: 1
+  sort: 0
   bio: I'm just this guy, you know?
   organization: UIUC
   date_added: '2023-09-11'
@@ -5321,7 +5321,7 @@
   github_username: slobentanzer
   github_image_id: 13223629
   title:
-  sort:
+  sort: 2
   bio:
   organization:
   date_added: '2023-12-14'
@@ -7352,14 +7352,14 @@
   github_username: NimaSarajpoor
   github_image_id: 38519522
   title:
-    - Editor
+    - Emeritus Editor
   sort: 2
   bio: Data Scientist  | OSS Contributor  | Philomath
   organization:
   date_added: '2024-07-04'
   deia_advisory: false
-  editorial_board: true
-  emeritus_editor: false
+  editorial_board: false
+  emeritus_editor: true
   advisory: false
   emeritus_advisory: false
   twitter:
@@ -7693,7 +7693,7 @@
   github_username: tkoyama010
   github_image_id: 7513610
   title:
-  sort:
+  sort: 2
   bio: '3D visualization library @pyvista maintainer & translator,@scipy-conference
       chairperson,Photo by: @peacock0803sz CC-BY 2.0'
   organization: '@ark-info-sys'
@@ -7844,8 +7844,8 @@
   organization:
   date_added:
   deia_advisory: false
-  editorial_board: true
-  emeritus_editor: false
+  editorial_board: false
+  emeritus_editor: true
   advisory: false
   emeritus_advisory: false
   twitter:
@@ -7865,7 +7865,7 @@
   github_username: kellyrowland
   github_image_id: 5440574
   title:
-  sort:
+  sort: 2
   bio:
   organization:
   date_added:
@@ -7894,7 +7894,7 @@
   github_username: shirubana
   github_image_id: 22824806
   title:
-  sort:
+  sort: 2
   bio:
   organization:
   date_added:
@@ -7923,7 +7923,7 @@
   github_username: sebastianotronto
   github_image_id: 14557809
   title:
-  sort:
+  sort: 2
   bio:
   organization:
   date_added: '2024-09-17'
@@ -8310,7 +8310,7 @@
   github_image_id: 3485425
   title:
     - Editor
-  sort:
+  sort: 2
   bio: Data Scientist | Machine Learning Engineer
   organization: Intuit
   date_added: '2024-12-13'
@@ -9343,7 +9343,7 @@
   github_image_id: 66881995
   title:
     - Editor
-  sort:
+  sort: 2
   bio: Biology, data science and open science
   organization:
   date_added: '2025-05-30'
@@ -9599,7 +9599,7 @@
   github_image_id: 34322936
   title:
     - Editor
-  sort:
+  sort: 2
   bio: Graduate student at Université de Montréal studying astrophysics.
   organization:
   date_added: '2025-06-16'
@@ -10499,7 +10499,7 @@
   github_image_id: 17454848
   title:
     - Editor
-  sort:
+  sort: 2
   bio: Large scale statistics, machine learning and software engineering in
       High Energy Physics
   organization: CERN
