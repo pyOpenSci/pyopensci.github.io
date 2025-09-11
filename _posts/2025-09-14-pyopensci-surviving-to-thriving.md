@@ -20,7 +20,7 @@ last_modified: 2025-09-09
 <figure>
   <picture>
   <source srcset="{{ site.baseurl }}/images/blog/2025/waterfall-flikr.webp" type="image/webp">
-  <img src="{{ site.baseurl }}/images/blog/2025/waterfall-flikr.png" alt="A photograph of a waterfall cascading down rocks in a rich green forest setting" style="width: 80%;">
+  <img src="{{ site.baseurl }}/images/blog/2025/waterfall-flikr.jpg" alt="A photograph of a waterfall cascading down rocks in a rich green forest setting" style="width: 80%;">
   </picture>
     <figcaption>"Black Forest: waterfall" by *rboed* is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/?ref=openverse.</figcaption>
 </figure>
