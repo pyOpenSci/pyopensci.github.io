@@ -7215,7 +7215,7 @@
   mastodon:
   orcidid:
   partners:
-  website: https://cxc.harvard.edu/cdo/cxcstaff/staff_details.php?si=50
+  website:
   board: false
   contributor_type:
     - peer-review
@@ -10654,7 +10654,7 @@
   organization:
   date_added: '2025-09-10'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -10683,7 +10683,7 @@
   organization:
   date_added: '2025-09-10'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -10712,7 +10712,7 @@
   organization:
   date_added: '2025-09-10'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
