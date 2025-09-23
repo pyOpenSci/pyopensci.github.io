@@ -1,6 +1,6 @@
 # pyopensci.github.io
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-48-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-49-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 [![pages-build-deployment](https://github.com/pyOpenSci/pyopensci.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/pyOpenSci/pyopensci.github.io/actions/workflows/pages/pages-build-deployment)
 [![DOI](https://zenodo.org/badge/174412809.svg)](https://zenodo.org/doi/10.5281/zenodo.10594115)
@@ -165,6 +165,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/TimothyEDawson"><img src="https://avatars.githubusercontent.com/u/142453358?v=4?s=100" width="100px;" alt="Tim Dawson"/><br /><sub><b>Tim Dawson</b></sub></a><br /><a href="https://github.com/pyOpenSci/pyopensci.github.io/commits?author=TimothyEDawson" title="Code">💻</a> <a href="https://github.com/pyOpenSci/pyopensci.github.io/pulls?q=is%3Apr+reviewed-by%3ATimothyEDawson" title="Reviewed Pull Requests">👀</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/elliesch"><img src="https://avatars.githubusercontent.com/u/12628861?v=4?s=100" width="100px;" alt="Ellie Abrahams"/><br /><sub><b>Ellie Abrahams</b></sub></a><br /><a href="https://github.com/pyOpenSci/pyopensci.github.io/pulls?q=is%3Apr+reviewed-by%3Aelliesch" title="Reviewed Pull Requests">👀</a> <a href="#blog-elliesch" title="Blogposts">📝</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://jedbrown.org"><img src="https://avatars.githubusercontent.com/u/3303?v=4?s=100" width="100px;" alt="Jed Brown"/><br /><sub><b>Jed Brown</b></sub></a><br /><a href="https://github.com/pyOpenSci/pyopensci.github.io/pulls?q=is%3Apr+reviewed-by%3Ajedbrown" title="Reviewed Pull Requests">👀</a> <a href="#blog-jedbrown" title="Blogposts">📝</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/crhea93"><img src="https://avatars.githubusercontent.com/u/34322936?v=4?s=100" width="100px;" alt="Carter Lee Rhea"/><br /><sub><b>Carter Lee Rhea</b></sub></a><br /><a href="https://github.com/pyOpenSci/pyopensci.github.io/pulls?q=is%3Apr+reviewed-by%3Acrhea93" title="Reviewed Pull Requests">👀</a> <a href="#blog-crhea93" title="Blogposts">📝</a></td>
     </tr>
   </tbody>
 </table>
