@@ -94,7 +94,7 @@ LLMs are already perceived as helping developers:
 * In some cases, simplifying language barriers for participants in open source around the world  
 * Speeding up everyday workflows
 
-For some contributors, these tools make open source more accessible.
+Some contributors perceive these products as making open source more accessible.
 
 ## Challenges we must address
 
