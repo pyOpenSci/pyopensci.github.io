@@ -522,6 +522,16 @@
         "review",
         "blog"
       ]
+    },
+    {
+      "login": "crhea93",
+      "name": "Carter Lee Rhea",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34322936?v=4",
+      "profile": "https://github.com/crhea93",
+      "contributions": [
+        "review",
+        "blog"
+      ]
     }
   ],
   "commitConvention": "angular",
