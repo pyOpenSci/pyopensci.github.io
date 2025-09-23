@@ -35,7 +35,7 @@ This is not about banning AI tools. We recognize their value to some. Instead, o
 
 We know that people will continue to use LLMs. We also know they can meaningfully increase productivity and lower barriers to contribution for some. We also know that there are significant ethical, societal and other challenges that come with the development and use of LLM’s. 
 
-Our community’s expectation is simple: **be open about it**.
+Our community’s expectation is simple: **be open about and disclose any generative AI use in your package**.
 
 * Disclose LLM use in your README and at the top of relevant modules.  
 * Describe how the tools were used   
