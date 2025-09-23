@@ -87,7 +87,7 @@ These safeguards protect human capacity so high-quality packages can move throug
 
 ## Benefits and opportunities
 
-LLMs are already helping developers:
+LLMs are already perceived as helping developers:
 
 * Explaining complex codebases  
 * Generating unit tests and docstrings  
