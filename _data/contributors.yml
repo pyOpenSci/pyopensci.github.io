@@ -5,7 +5,7 @@
     - Executive Director & Founder
     - Emeritus editor
   sort: 1
-  bio: Open education, Open source and Open Science.Executive Director 
+  bio: Open education, Open source and Open Science.Executive Director
       @pyOpenSci
   organization: pyOpenSci
   date_added: '2019-10-10'
@@ -32,7 +32,7 @@
     - package-maintainer
     - peer-review
     - submitting-author
-  packages_eic: 
+  packages_eic:
   packages_editor:
     - cynetdiff
     - errdapy
@@ -42,7 +42,7 @@
     - pyrolite
   packages_submitted:
     - earthpy
-  packages_reviewed: 
+  packages_reviewed:
   location: United States
   email: leah@pyopensci.org
 - name: Karen Cranston
@@ -67,10 +67,10 @@
   contributor_type:
     - leadership
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Ottawa, ON
   email: karen.cranston@gmail.com
 - name: April Johnson
@@ -94,10 +94,10 @@
   board: true
   contributor_type:
     - leadership
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email:
 - name: Tracy Teal
@@ -124,10 +124,10 @@
   contributor_type:
     - leadership
     - web-contrib
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email: tkteal@gmail.com
 - name: Carol Willing
@@ -135,7 +135,7 @@
   github_image_id: 2680980
   title: Advisory Council
   sort:
-  bio: Project Jupyter, nteract, and CPython core developer@python | @jupyter 
+  bio: Project Jupyter, nteract, and CPython core developer@python | @jupyter
       | @jupyterhub | @ipython | @nteract | @pysplash
   organization: Willing Consulting
   date_added: '2023-03-01'
@@ -161,9 +161,9 @@
     - peer-review-guide
     - reviewer
     - web-contrib
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - devicely
   location: San Diego
@@ -173,8 +173,8 @@
   github_image_id: 1507151
   title:
   sort:
-  bio: Director of the Software Sustainability Institute (@softwaresaved). 
-      Editor-in-Chief of the Journal of Open Research Software. Interested in 
+  bio: Director of the Software Sustainability Institute (@softwaresaved).
+      Editor-in-Chief of the Journal of Open Research Software. Interested in
       software metrics.
   organization: '@softwaresaved'
   date_added: '2023-02-24'
@@ -192,10 +192,10 @@
   contributor_type:
     - contributor
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Edinburgh, United Kingdom
   email:
 - name: Erin Robinson
@@ -219,10 +219,10 @@
   board: false
   contributor_type:
     - leadership
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email: erinmr@gmail.com
 - name: Chris Holdgraf
@@ -230,7 +230,7 @@
   github_image_id: 1839645
   title: Advisory Council
   sort:
-  bio: I work with Project Jupyter and other open communities to build tools 
+  bio: I work with Project Jupyter and other open communities to build tools
       and solve problems for scientific research and education.
   organization: UC Berkeley
   date_added: '2019-10-10'
@@ -251,9 +251,9 @@
     - package-guide
     - peer-review-guide
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - erdapy
   location: California
@@ -263,7 +263,7 @@
   github_image_id: 43481325
   title: Advisory Council
   sort:
-  bio: NumPy Contributor Experience LeadOpen Source Program Manager at 
+  bio: NumPy Contributor Experience LeadOpen Source Program Manager at
       OpenTeams Incubator
   organization: '@numpy'
   date_added: '2023-03-21'
@@ -282,10 +282,10 @@
     - leadership
     - package-guide
     - web-contrib
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email: inessapawson@gmail.com
 - name: Pradyun Gedam
@@ -312,10 +312,10 @@
     - guidebook-contrib
     - leadership
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: London, UK
   email:
 - name: Ivan Ogasawara
@@ -352,12 +352,12 @@
     - peer-review-guide
     - reviewer
     - web-contrib
-  packages_eic: 
+  packages_eic:
   packages_editor:
     - devicely
     - jointly
     - sevivi
-  packages_submitted: 
+  packages_submitted:
   packages_reviewed:
     - movingpandas
     - pandera
@@ -370,7 +370,7 @@
     - Advisory Council
     - Editor
   sort: 2
-  bio: Filipe Fernandes is a Physical oceanographer by training, turned 
+  bio: Filipe Fernandes is a Physical oceanographer by training, turned
       research software engineer, and a software packager hobbyist.
   organization:
   date_added: '2019-10-17'
@@ -392,7 +392,7 @@
     - package-guide
     - peer-review
     - reviewer
-  packages_eic: 
+  packages_eic:
   packages_editor:
     - afscgap
     - xnemogcm
@@ -407,7 +407,7 @@
   github_image_id: 290082
   title: Emeritus Advisory Council
   sort:
-  bio: Geophysicist investigating Earth's gravity & magnetic fields from 
+  bio: Geophysicist investigating Earth's gravity & magnetic fields from
       global to microscopic scale 🛰️🔬🌎
   organization: University of Liverpool
   date_added: '2023-01-18'
@@ -424,10 +424,10 @@
   board: false
   contributor_type:
     - leadership
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Liverpool, UK
   email: email@leouieda.com
 - name: Lindsey Heagy
@@ -435,7 +435,7 @@
   github_image_id: 6361812
   title: Emeritus Advisory Council
   sort:
-  bio: Asst. Prof at UBC EOAS. Researcher working on geophysical simulations 
+  bio: Asst. Prof at UBC EOAS. Researcher working on geophysical simulations
       and inversions (in @simpeg!) and data science.
   organization: '@simpeg, @geoscixyz, @ubcgif, @2i2c_org'
   date_added: '2019-12-10'
@@ -452,10 +452,10 @@
   board: false
   contributor_type:
     - leadership
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email: lheagy@eos.ubc.ca
 - name: Martin Fleischmann
@@ -463,7 +463,7 @@
   github_image_id: 36797143
   title: Advisory Council
   sort:
-  bio: Researcher in geographic data science. Member of @geopandas and @pysal 
+  bio: Researcher in geographic data science. Member of @geopandas and @pysal
       development teams.
   organization:
   date_added: '2020-04-09'
@@ -482,9 +482,9 @@
     - leadership
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - movingpandas
   location: Prague
@@ -514,10 +514,10 @@
     - leadership
     - package-guide
     - peer-review-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email:
 - name: Chase Million
@@ -541,10 +541,10 @@
   board: false
   contributor_type:
     - leadership
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email:
 - name: Ariane Sasso
@@ -576,14 +576,14 @@
     - peer-review
     - peer-review-guide
     - submitting-author
-  packages_eic: 
+  packages_eic:
   packages_editor:
     - biocypher
     - pynteny
   packages_submitted:
     - devicely
     - jointly
-  packages_reviewed: 
+  packages_reviewed:
   location: Berlin, Germany
   email: ariane.sasso@gmail.com
 - name: David Nicholson
@@ -593,8 +593,8 @@
     - Emeritus Editor in Chief
     - Editor
   sort: 2
-  bio: ML, AI; behavior + cog + neuro. Open + inclusive science. Pythonista. 
-      He/him/they/them. Habla espanglish y baila salsa y bachata a medio 
+  bio: ML, AI; behavior + cog + neuro. Open + inclusive science. Pythonista.
+      He/him/they/them. Habla espanglish y baila salsa y bachata a medio
       tiempo.
   organization:
   date_added: '2019-12-10'
@@ -676,7 +676,7 @@
     - pooltool
     - pypartmc
     - sunpy
-  packages_submitted: 
+  packages_submitted:
   packages_reviewed:
     - ncompare
   location:
@@ -707,7 +707,7 @@
     - peer-review
     - reviewer
     - web-contrib
-  packages_eic: 
+  packages_eic:
   packages_editor:
     - movingpandas
   packages_submitted:
@@ -743,11 +743,11 @@
     - package-guide
     - peer-review
     - reviewer
-  packages_eic: 
+  packages_eic:
   packages_editor:
     - sleplet
     - xgi
-  packages_submitted: 
+  packages_submitted:
   packages_reviewed:
     - pygmt
   location:
@@ -779,11 +779,11 @@
     - peer-review
     - submitting-author
     - web-contrib
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - movingpandas
-  packages_reviewed: 
+  packages_reviewed:
   location:
   email:
 - name: Alex Batisse
@@ -830,7 +830,7 @@
     - harmonize-wq
     - sciform
     - xclim
-  packages_submitted: 
+  packages_submitted:
   packages_reviewed:
     - pynteny
   location:
@@ -860,8 +860,8 @@
     - peer-review
     - peer-review-guide
     - reviewer
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - earthpy
   packages_reviewed:
@@ -895,12 +895,12 @@
     - maintainer
     - metrics-contrib
     - peer-review
-  packages_eic: 
+  packages_eic:
   packages_editor:
     - earthpy
   packages_submitted:
     - sourmash
-  packages_reviewed: 
+  packages_reviewed:
   location: Davis, CA
   email:
 - name: Jesse Mostipak
@@ -926,10 +926,10 @@
     - package-guide
     - peer-review-guide
     - web-contrib
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email:
 - name: Paige Bailey
@@ -937,8 +937,8 @@
   github_image_id: 3712347
   title:
   sort:
-  bio: ✨ Keep it simple, make it scale. AI should be about empowering users 
-      and building understanding. 👩‍💻Product Lead (Generative Models) 
+  bio: ✨ Keep it simple, make it scale. AI should be about empowering users
+      and building understanding. 👩‍💻Product Lead (Generative Models)
       @DeepMind | ex-@GitHub
   organization: '@GitHub'
   date_added: '2023-02-24'
@@ -955,10 +955,10 @@
   board: false
   contributor_type:
     - contributor
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Seattle, WA
   email: paige.bailey@alumni.rice.edu
 - name: Carson Farmer
@@ -982,10 +982,10 @@
   board: false
   contributor_type:
     - contributor
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Victoria, B.C., Canada
   email: carson.farmer@gmail.com
 - name: Joe Hamman
@@ -1009,10 +1009,10 @@
   board: false
   contributor_type:
     - contributor
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Seattle, WA
   email: joe@earthmover.io
 - name: Kylen Solvik
@@ -1040,9 +1040,9 @@
     - peer-review
     - peer-review-guide
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - nbless
   location:
@@ -1052,7 +1052,7 @@
   github_image_id: 12806339
   title:
   sort:
-  bio: 🧮Biostatistics Branch🏛NCI Division of🦀Cancer Epidemiology and🧬Genetics 
+  bio: 🧮Biostatistics Branch🏛NCI Division of🦀Cancer Epidemiology and🧬Genetics
       (DCEG)💻Bioinformatics📊DataScience💺Co-chair🎓FAES🐍Python®Rstats⚕Health🤖ML🧠AI
   organization:
   date_added: '2023-02-24'
@@ -1072,11 +1072,11 @@
     - maintainer
     - peer-review
     - submitting-author
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - nbless
-  packages_reviewed: 
+  packages_reviewed:
   location: Rockville/Bethesda, Maryland
   email:
 - name: Mike Trizna
@@ -1100,10 +1100,10 @@
   board: false
   contributor_type:
     - contributor
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Washington, DC
   email: triznam@si.edu
 - name: Niels Bantilan
@@ -1133,11 +1133,11 @@
     - peer-review-guide
     - submitting-author
     - web-contrib
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - pandera
-  packages_reviewed: 
+  packages_reviewed:
   location: Atlanta, GA, US
   email: niels.bantilan@gmail.com
 - name: Sean Gillies
@@ -1162,9 +1162,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - earthpy
   location: Fort Collins, Colorado
@@ -1192,9 +1192,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - earthpy
   location: University of Iceland
@@ -1223,11 +1223,11 @@
     - package-maintainer
     - peer-review
     - submitting-author
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - pyrolite
-  packages_reviewed: 
+  packages_reviewed:
   location: Perth, WA, Australia
   email:
 - name: Philip Meier
@@ -1255,8 +1255,8 @@
     - peer-review
     - reviewer
     - submitting-author
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - pystiche
   packages_reviewed:
@@ -1285,9 +1285,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - pystiche
     - sevivi
@@ -1314,11 +1314,11 @@
   board: false
   contributor_type:
     - package-maintainer
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - pydov
-  packages_reviewed: 
+  packages_reviewed:
   location:
   email:
 - name: Roel Huybrechts
@@ -1342,11 +1342,11 @@
   board: false
   contributor_type:
     - package-maintainer
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - pydov
-  packages_reviewed: 
+  packages_reviewed:
   location:
   email: roel@huybrechts.re
 - name: Stijn Van Hoey
@@ -1370,11 +1370,11 @@
   board: false
   contributor_type:
     - package-maintainer
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - pydov
-  packages_reviewed: 
+  packages_reviewed:
   location:
   email:
 - name: Pieter Jan Haest
@@ -1398,11 +1398,11 @@
   board: false
   contributor_type:
     - package-maintainer
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - pydov
-  packages_reviewed: 
+  packages_reviewed:
   location: Belgium
   email:
 - name: Nhat (Jonny) Tran
@@ -1410,7 +1410,7 @@
   github_image_id: 4750391
   title:
   sort:
-  bio: Graph neural networks, bioinformatics, non-coding RNA, NLP, and ML 
+  bio: Graph neural networks, bioinformatics, non-coding RNA, NLP, and ML
       engineering.
   organization: Actively looking
   date_added: '2021-04-30'
@@ -1432,8 +1432,8 @@
     - reviewer
     - submitting-author
     - web-contrib
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - openomics
   packages_reviewed:
@@ -1462,9 +1462,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - openomics
   location:
@@ -1474,7 +1474,7 @@
   github_image_id: 15648068
   title:
   sort:
-  bio: Postdoc in ecology and evolution; interested in computer vision and 
+  bio: Postdoc in ecology and evolution; interested in computer vision and
       ecological informatics
   organization: Lund University
   date_added: '2021-05-13'
@@ -1495,11 +1495,11 @@
     - package-maintainer
     - peer-review
     - submitting-author
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - phenopype
-  packages_reviewed: 
+  packages_reviewed:
   location: Sweden
   email: moritz.luerig@gmail.com
 - name: Emily Jane McTavish
@@ -1529,7 +1529,7 @@
     - peer-review
     - reviewer
     - submitting-author
-  packages_eic: 
+  packages_eic:
   packages_editor:
     - sourmash
   packages_submitted:
@@ -1543,7 +1543,7 @@
   github_image_id: 26721915
   title:
   sort:
-  bio: Nature. Computers. Life. Doing open science with @phylotastic and 
+  bio: Nature. Computers. Life. Doing open science with @phylotastic and
       @OpenTreeOfLife
   organization: University of California, Merced
   date_added: '2021-09-16'
@@ -1563,11 +1563,11 @@
     - maintainer
     - package-maintainer
     - peer-review
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - physcraper
-  packages_reviewed: 
+  packages_reviewed:
   location: Merced, CA, USA
   email: sanchez.reyes.luna@gmail.com
 - name: K. Arthur Endsley
@@ -1592,9 +1592,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - jointly
   location: Missoula, MT
@@ -1604,7 +1604,7 @@
   github_image_id: 6061587
   title:
   sort:
-  bio: Aerospace engineer passionate about Flight Mechanics.Python, Fortran, 
+  bio: Aerospace engineer passionate about Flight Mechanics.Python, Fortran,
       Matlab and lately Julia. (These are my personal projects)
   organization: AIRBUS D&S
   date_added: '2022-01-12'
@@ -1622,9 +1622,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - jointly
   location: Madrid (Spain)
@@ -1651,9 +1651,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - pygmt
   location: Brooklyn, New York
@@ -1677,11 +1677,11 @@
   partners:
   website: https://about.me/npalopoli
   board: false
-  contributor_type: 
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  contributor_type:
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Buenos Aires, Argentina
   email: nicopalo@gmail.com
 - name: Erik Welch
@@ -1710,11 +1710,11 @@
     - peer-review
     - peer-review-guide
     - submitting-author
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - python-graphblas
-  packages_reviewed: 
+  packages_reviewed:
   location: Austin, TX
   email:
 - name: Pamphile Roy
@@ -1722,7 +1722,7 @@
   github_image_id: 23188539
   title:
   sort:
-  bio: Artificial Intelligence, Backend, Data, Stats, Engineer probably doing 
+  bio: Artificial Intelligence, Backend, Data, Stats, Engineer probably doing
       some Python 🐍
   organization: '@Quansight'
   date_added: '2023-03-01'
@@ -1740,10 +1740,10 @@
   contributor_type:
     - guidebook-contrib
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Graz, Austria
   email: roy.pamphile@gmail.com
 - name: Jonny Saunders
@@ -1774,11 +1774,11 @@
     - peer-review
     - reviewer
     - web-contrib
-  packages_eic: 
+  packages_eic:
   packages_editor:
     - automata
     - cynetdiff
-  packages_submitted: 
+  packages_submitted:
   packages_reviewed:
     - python-graphblas
   location:
@@ -1805,10 +1805,10 @@
   contributor_type:
     - guidebook-contrib
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email:
 - name: Juan Luis Cano Rodríguez
@@ -1834,10 +1834,10 @@
     - guidebook-contrib
     - package-guide
     - peer-review-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Spain
   email: hello@juanlu.space
 - name: Henry Schreiner
@@ -1845,7 +1845,7 @@
   github_image_id: 4616906
   title:
   sort:
-  bio: Particle physicist and software architect working with @iris-hep. 
+  bio: Particle physicist and software architect working with @iris-hep.
       @scikit-hep, @pybind, and @scikit-build admin. @pypa member.
   organization: Princeton University
   date_added: '2023-03-01'
@@ -1863,10 +1863,10 @@
   contributor_type:
     - guidebook-contrib
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Princeton, NJ
   email: HenrySchreinerIII@gmail.com
 - name: Stefan van der Walt
@@ -1874,7 +1874,7 @@
   github_image_id: 45071
   title:
   sort:
-  bio: Everything Scientific Python. Works on NumPy, SciPy, scikit-image, 
+  bio: Everything Scientific Python. Works on NumPy, SciPy, scikit-image,
       NetworkX, etc. Author of Elegant SciPy. Researcher at UC Berkeley.
   organization: University of California, Berkeley
   date_added: '2023-03-01'
@@ -1893,10 +1893,10 @@
     - guidebook-contrib
     - package-guide
     - peer-review-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Berkeley, CA
   email:
 - name: Eli Schwartz
@@ -1921,10 +1921,10 @@
   contributor_type:
     - guidebook-contrib
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email: eschwartz93@gmail.com
 - name: Ralf Gommers
@@ -1932,7 +1932,7 @@
   github_image_id: 98330
   title:
   sort:
-  bio: NumPy, SciPy, data-apis.org, PyWavelets maintainer. Building open 
+  bio: NumPy, SciPy, data-apis.org, PyWavelets maintainer. Building open
       source communities at Quansight Labs.
   organization: Quansight
   date_added: '2023-03-01'
@@ -1950,10 +1950,10 @@
   contributor_type:
     - guidebook-contrib
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Netherlands
   email: ralf.gommers@gmail.com
 - name: Ofek Lev
@@ -1980,10 +1980,10 @@
     - community
     - guidebook-contrib
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Knowhere
   email: oss@ofek.dev
 - name: Tom Augspurger
@@ -2008,10 +2008,10 @@
   contributor_type:
     - guidebook-contrib
     - peer-review-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email: tom.w.augspurger@gmail.com
 - name: Ryan Abernathey
@@ -2019,8 +2019,8 @@
   github_image_id: 1197350
   title:
   sort:
-  bio: Open source maintainer. CEO and co-founder of @earth-mover. 
-      @pangeo-data creator. Professor of Earth and Environmental Sciences at 
+  bio: Open source maintainer. CEO and co-founder of @earth-mover.
+      @pangeo-data creator. Professor of Earth and Environmental Sciences at
       Columbia University.
   organization: Earthmover PBC
   date_added: '2023-03-01'
@@ -2038,10 +2038,10 @@
   contributor_type:
     - guidebook-contrib
     - peer-review-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: New York City
   email:
 - name: Steve Moss
@@ -2049,7 +2049,7 @@
   github_image_id: 321291
   title:
   sort:
-  bio: Dad, husband, and PhD 👨‍🎓 Scientist 👨‍🔬 Technologist 📱 Engineer 👨‍💻 
+  bio: Dad, husband, and PhD 👨‍🎓 Scientist 👨‍🔬 Technologist 📱 Engineer 👨‍💻
       Bibliophile 📚 Philomath 🧐
   organization: Dr Stephen P. Moss
   date_added: '2023-03-01'
@@ -2069,9 +2069,9 @@
     - peer-review
     - peer-review-guide
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - openomics
   location: Earth
@@ -2098,10 +2098,10 @@
   contributor_type:
     - guidebook-contrib
     - peer-review-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: London, UK
   email:
 - name: Zehua Chen
@@ -2126,10 +2126,10 @@
   contributor_type:
     - guidebook-contrib
     - peer-review-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Atlanta, GA
   email:
 - name: Sumit Kashyap
@@ -2154,10 +2154,10 @@
   contributor_type:
     - guidebook-contrib
     - peer-review-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: India
   email: mr.sumitkrr@gmail.com
 - name: Erik Sundell
@@ -2165,7 +2165,7 @@
   github_image_id: 3837114
   title:
   sort:
-  bio: Climate change mitigation efforts need nuclear alongside other low 
+  bio: Climate change mitigation efforts need nuclear alongside other low
       carbon sources.https://twitter.com/e_Sundell/status/1258480862359937024
   organization: Sundell Open Source Consulting AB
   date_added: '2023-03-01'
@@ -2183,10 +2183,10 @@
   contributor_type:
     - guidebook-contrib
     - peer-review-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Sweden
   email: erik.i.sundell@gmail.com
 - name: Ariel Rokem
@@ -2211,10 +2211,10 @@
   contributor_type:
     - guidebook-contrib
     - peer-review-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Seattle, WA
   email: arokem@gmail.com
 - name: James Mason
@@ -2222,7 +2222,7 @@
   github_image_id: 947614
   title:
   sort:
-  bio: solar physics, space weather, and aerospace engineering. principal 
+  bio: solar physics, space weather, and aerospace engineering. principal
       investigator of nasa's suncet mission.
   organization: Johns Hopkins Applied Physics Lab
   date_added: '2023-03-01'
@@ -2240,10 +2240,10 @@
   contributor_type:
     - guidebook-contrib
     - peer-review-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Washington DC
   email:
 - name: James Tocknell
@@ -2268,10 +2268,10 @@
   contributor_type:
     - guidebook-contrib
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email:
 - name: Frost Ming
@@ -2296,10 +2296,10 @@
   contributor_type:
     - guidebook-contrib
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Shenzhen, China
   email: me@frostming.com
 - name: Hugo van Kemenade
@@ -2307,7 +2307,7 @@
   github_image_id: 1324225
   title:
   sort:
-  bio: Python core developer, PSF Fellow, open-source maintainer, PEP editor, 
+  bio: Python core developer, PSF Fellow, open-source maintainer, PEP editor,
       NaNoGenMo organiser
   organization: Nord Software
   date_added: '2023-04-13'
@@ -2326,10 +2326,10 @@
     - guidebook-contrib
     - package-guide
     - web-contrib
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Helsinki, Finland
   email:
 - name: Matt Hall
@@ -2354,10 +2354,10 @@
   contributor_type:
     - guidebook-contrib
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Bergen, Norway
   email: kwinkunks@gmail.com
 - name: Jannis Leidel
@@ -2366,7 +2366,7 @@
   title:
   sort:
   bio: Principal SWE at @anaconda working on @conda. @conda-forge core member.
-      @python director and fellow.@jazzband and @pypa founder. @mozilla and 
+      @python director and fellow.@jazzband and @pypa founder. @mozilla and
       @django alum
   organization: '@anaconda'
   date_added: '2023-04-13'
@@ -2384,10 +2384,10 @@
   contributor_type:
     - guidebook-contrib
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Germany
   email:
 - name: Dave Hirschfeld
@@ -2412,10 +2412,10 @@
   contributor_type:
     - guidebook-contrib
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Brisbane, Australia
   email: dave.hirschfeld@gmail.com
 - name: Benjamin Rodenberg
@@ -2441,10 +2441,10 @@
     - community
     - peer-review
     - peer-review-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email: benjamin.rodenberg@in.tum.de
 - name: Travis Logan
@@ -2471,11 +2471,11 @@
     - maintainer
     - peer-review
     - peer-review-guide
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - xclim
-  packages_reviewed: 
+  packages_reviewed:
   location: Montreal
   email:
 - name: Pascal Bourgault
@@ -2483,7 +2483,7 @@
   github_image_id: 20629530
   title:
   sort:
-  bio: Physical oceanography graduate turned climate science specialist and 
+  bio: Physical oceanography graduate turned climate science specialist and
       scientific developer.
   organization: Ouranos
   date_added: '2023-04-14'
@@ -2503,11 +2503,11 @@
     - maintainer
     - peer-review
     - peer-review-guide
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - xclim
-  packages_reviewed: 
+  packages_reviewed:
   location: Montréal
   email: bourgault.pascal@ouranos.ca
 - name: Arne
@@ -2534,11 +2534,11 @@
     - maintainer
     - peer-review
     - submitting-author
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - jointly
-  packages_reviewed: 
+  packages_reviewed:
   location:
   email:
 - name: Robert Guggenberger
@@ -2564,9 +2564,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - devicely
   location: Tuebingen, Germany
@@ -2576,10 +2576,10 @@
   github_image_id: 36674497
   title:
   sort:
-  bio: Professor at TU Braunschweig with research interests in plant genomics 
-      and specialized metabolism. 
+  bio: Professor at TU Braunschweig with research interests in plant genomics
+      and specialized metabolism.
       Details:https://www.tu-braunschweig.de/en/ifp/pbb
-  organization: Plant Biotechnology and Bioinformatics, Institute of Plant 
+  organization: Plant Biotechnology and Bioinformatics, Institute of Plant
       Biology, TU Braunschweig
   date_added: '2023-04-13'
   deia_advisory: false
@@ -2596,9 +2596,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - physcraper
   location: Germany
@@ -2608,7 +2608,7 @@
   github_image_id: 7119518
   title:
   sort:
-  bio: Bioinformatician @quadram-institute-bioscience (Norwich, UK). 
+  bio: Bioinformatician @quadram-institute-bioscience (Norwich, UK).
       Phylogenomics and Data Sciences.
   organization: '@quadram-institute-bioscience'
   date_added: '2023-04-13'
@@ -2626,9 +2626,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - physcraper
   location: Norwich, UK
@@ -2638,7 +2638,7 @@
   github_image_id: 1310570
   title:
   sort:
-  bio: /\︿╱\ _________________________________\0_ 0 
+  bio: /\︿╱\ _________________________________\0_ 0
       /╱\╱____________________________  \▁︹_/
   organization: Facebook AI Research
   date_added: '2023-04-13'
@@ -2656,9 +2656,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - pystiche
   location: New York, USA
@@ -2685,9 +2685,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - phenopype
   location: Baton Rouge, LA
@@ -2714,9 +2714,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - phenopype
   location:
@@ -2744,11 +2744,11 @@
   contributor_type:
     - editor
     - peer-review
-  packages_eic: 
+  packages_eic:
   packages_editor:
     - phenopype
-  packages_submitted: 
-  packages_reviewed: 
+  packages_submitted:
+  packages_reviewed:
   location: Omaha, NE
   email: ben@sparrow.dev
 - name: Romain Beucher
@@ -2756,7 +2756,7 @@
   github_image_id: 3680918
   title:
   sort:
-  bio: Model Evaluation and Diagnostics Team Lead for the Australian 
+  bio: Model Evaluation and Diagnostics Team Lead for the Australian
       Earth-System Simulator National Research Infrastructure (ACCESS-NRI)
   organization: ACCESS-NRI
   date_added: '2023-04-13'
@@ -2774,9 +2774,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - pyrolite
   location: Canberra, Australia
@@ -2786,7 +2786,7 @@
   github_image_id: 6821569
   title:
   sort:
-  bio: Geoscientist, Assistant Professor, willing to improve data reduction 
+  bio: Geoscientist, Assistant Professor, willing to improve data reduction
       protocols through programming and data science
   organization: Institut de physique du globe de Paris
   date_added: '2023-04-13'
@@ -2804,9 +2804,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - pyrolite
   location: France
@@ -2816,7 +2816,7 @@
   github_image_id: 23487320
   title:
   sort:
-  bio: Geospatial Data Scientist/ML Practitioner @developmentseed. Towards 
+  bio: Geospatial Data Scientist/ML Practitioner @developmentseed. Towards
       cloud-native geospatial machine learning!
   organization: '@developmentseed'
   date_added: '2023-04-13'
@@ -2835,11 +2835,11 @@
     - maintainer
     - peer-review
     - submitting-author
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - pygmt
-  packages_reviewed: 
+  packages_reviewed:
   location: Wellington
   email:
 - name: Tessa Rhinehart
@@ -2865,9 +2865,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - crowsetta
   location: Pittsburgh, PA, USA
@@ -2896,9 +2896,9 @@
     - peer-review
     - peer-review-guide
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - xclim
   location: British Columbia, Canada
@@ -2925,9 +2925,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - crowsetta
   location: PARIS
@@ -2938,7 +2938,7 @@
   title:
   sort:
   bio:
-  organization: Max Planck Institute for Psycholinguistics & Vrije 
+  organization: Max Planck Institute for Psycholinguistics & Vrije
       Universiteit Brussel
   date_added: '2023-04-13'
   deia_advisory: false
@@ -2952,10 +2952,10 @@
   partners:
   website:
   board: false
-  contributor_type: 
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  contributor_type:
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - a
     - c
@@ -2972,7 +2972,7 @@
   github_image_id: 21340147
   title:
   sort:
-  bio: Computational Biology | Data Science | Python Dev. | Ph.D. Systems 
+  bio: Computational Biology | Data Science | Python Dev. | Ph.D. Systems
       Biology
   organization: ULL
   date_added: '2023-04-13'
@@ -2995,8 +2995,8 @@
     - reviewer
     - submitting-author
     - web-contrib
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - pynteny
   packages_reviewed:
@@ -3008,7 +3008,7 @@
   github_image_id: 10819524
   title:
   sort:
-  bio: Python, Linux, and FOSS-GIS enthusiast. Climate Scenarios and Services 
+  bio: Python, Linux, and FOSS-GIS enthusiast. Climate Scenarios and Services
       Specialist at Ouranos (@Ouranosinc) in Montreal.
   organization: Ouranos
   date_added: '2023-04-13'
@@ -3030,11 +3030,11 @@
     - peer-review
     - peer-review-guide
     - submitting-author
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - xclim
-  packages_reviewed: 
+  packages_reviewed:
   location: Montreal, Canada
   email:
 - name: James Munroe
@@ -3061,9 +3061,9 @@
     - peer-review
     - peer-review-guide
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - xclim
   location:
@@ -3090,9 +3090,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - pynteny
   location:
@@ -3122,12 +3122,12 @@
     - guest editor
     - package-guide
     - peer-review
-  packages_eic: 
+  packages_eic:
   packages_editor:
     - ncompare
     - python-graphblas
-  packages_submitted: 
-  packages_reviewed: 
+  packages_submitted:
+  packages_reviewed:
   location: Oxford / London
   email:
 - name: C. Titus Brown
@@ -3135,7 +3135,7 @@
   github_image_id: 51016
   title: Editor
   sort: 2
-  bio: Prof at UC Davis. Blogs at http://ivory.idyll.org/blog/ and tweets at 
+  bio: Prof at UC Davis. Blogs at http://ivory.idyll.org/blog/ and tweets at
       https://twitter.com/ctitusbrown.
   organization: University of California, Davis
   date_added: '2023-04-18'
@@ -3158,13 +3158,13 @@
     - package-guide
     - peer-review
     - peer-review-guide
-  packages_eic: 
+  packages_eic:
   packages_editor:
     - plot_phylo
     - taxpasta
   packages_submitted:
     - sourmash
-  packages_reviewed: 
+  packages_reviewed:
   location: Davis, CA
   email: titus@idyll.org
 - name: Meenal Jhajharia
@@ -3191,11 +3191,11 @@
     - editor
     - guest editor
     - peer-review
-  packages_eic: 
+  packages_eic:
   packages_editor:
     - bibat
-  packages_submitted: 
-  packages_reviewed: 
+  packages_submitted:
+  packages_reviewed:
   location:
   email:
 - name: John McCray
@@ -3220,10 +3220,10 @@
   contributor_type:
     - community
     - peer-review-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Washington, DC
   email:
 - name: Meer (Miriam) Williamson
@@ -3249,10 +3249,10 @@
     - code-contrib
     - community
     - metrics-contrib
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Seattle, WA
   email:
 - name: Tiffany Xiao
@@ -3278,10 +3278,10 @@
     - code-contrib
     - community
     - metrics-contrib
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: New York, New York
   email: cdtiffanyxiao@gmail.com
 - name: Austin
@@ -3307,10 +3307,10 @@
     - code-contrib
     - community
     - metrics-contrib
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email:
 - name: JAKE
@@ -3336,10 +3336,10 @@
     - code-contrib
     - community
     - metrics-contrib
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Ghana
   email: paajake@gmail.com
 - name: Barnabas Bulpett (He/Him)
@@ -3366,10 +3366,10 @@
     - community
     - metrics-contrib
     - web-contrib
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Gotham
   email:
 - name: Jeremy Paige
@@ -3396,10 +3396,10 @@
     - guidebook-contrib
     - open-education
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email: ucodery@gmail.com
 - name: Mahe Iram Khan
@@ -3424,10 +3424,10 @@
   contributor_type:
     - guidebook-contrib
     - peer-review-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Berlin, Germany
   email:
 - name: Qin
@@ -3452,10 +3452,10 @@
   contributor_type:
     - guidebook-contrib
     - peer-review-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: London, UK
   email:
 - name: David Stansby
@@ -3482,11 +3482,11 @@
     - maintainer
     - peer-review
     - peer-review-guide
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - sunpy
-  packages_reviewed: 
+  packages_reviewed:
   location: London, UK
   email: d.stansby@ucl.ac.uk
 - name: Juanita Gomez
@@ -3494,7 +3494,7 @@
   github_image_id: 18587879
   title:
   sort:
-  bio: Computer Science PhD student at University of California, Santa Cruz 
+  bio: Computer Science PhD student at University of California, Santa Cruz
       Community Manager at @scientific-python
   organization: UC, Santa Cruz
   date_added: '2023-05-26'
@@ -3514,10 +3514,10 @@
     - community
     - metrics-contrib
     - web-contrib
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Santa Cruz, California
   email: juanitagomezr2112@gmail.com
 - name: Sarah Kaiser
@@ -3525,7 +3525,7 @@
   github_image_id: 6486256
   title:
   sort:
-  bio: Sr. Cloud Developer Advocate for Python @Microsoft | Python Foundation 
+  bio: Sr. Cloud Developer Advocate for Python @Microsoft | Python Foundation
       Fellow  | Maker and breaker of many things
   organization: Microsoft
   date_added: '2023-05-26'
@@ -3545,10 +3545,10 @@
     - community
     - metrics-contrib
     - web-contrib
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Seattle, WA
   email: sckaiser@sckaiser.com
 - name: A Samuel Pottinger
@@ -3556,7 +3556,7 @@
   github_image_id: 110391
   title:
   sort:
-  bio: Data scientist with a software engineering, data visualization, and 
+  bio: Data scientist with a software engineering, data visualization, and
       machine learning background. Occasionally contributes to Processing.
   organization: UC Berkeley
   date_added: '2023-06-01'
@@ -3576,11 +3576,11 @@
     - package-maintainer
     - peer-review
     - submitting-author
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - afscgap
-  packages_reviewed: 
+  packages_reviewed:
   location:
   email:
 - name: Anderson Bravalheri
@@ -3605,10 +3605,10 @@
   contributor_type:
     - guidebook-contrib
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Bristol, UK
   email:
 - name: Daniel Possenriede
@@ -3633,10 +3633,10 @@
   contributor_type:
     - guidebook-contrib
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Hamburg, Germany
   email:
 - name: C.A.M. Gerlach
@@ -3644,8 +3644,8 @@
   github_image_id: 17051931
   title:
   sort:
-  bio: NASA-funded deep learning, IoT and satellite researcher. UAH grad 
-      student. Python and Spyder core dev. Python Docs Team and PEP Editor. 
+  bio: NASA-funded deep learning, IoT and satellite researcher. UAH grad
+      student. Python and Spyder core dev. Python Docs Team and PEP Editor.
       Star✦Fleet Commander.
   organization: '@hamma-dev @python @spyder-ide @star-fleet-tours'
   date_added: '2023-06-14'
@@ -3662,10 +3662,10 @@
   board: false
   contributor_type:
     - web-contrib
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Huntsville, AL, United States
   email: CAM.Gerlach@Gerlach.CAM
 - name: Teddy Groves
@@ -3693,11 +3693,11 @@
     - peer-review
     - submitting-author
     - web-contrib
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - bibat
-  packages_reviewed: 
+  packages_reviewed:
   location:
   email: groves.teddy@gmail.com
 - name: James A. Fellows Yates
@@ -3705,8 +3705,8 @@
   github_image_id: 17950287
   title:
   sort:
-  bio: Bioinformatician with specialism in ancient DNA and metagenomics. 
-      nf-core core-team member and SPAAM community 
+  bio: Bioinformatician with specialism in ancient DNA and metagenomics.
+      nf-core core-team member and SPAAM community
       founder.@jfy133@genomic.social
   organization: HKI Jena, MPI-EVA Leipzig
   date_added: '2023-07-12'
@@ -3726,11 +3726,11 @@
     - maintainer
     - peer-review
     - peer-review-guide
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - taxpasta
-  packages_reviewed: 
+  packages_reviewed:
   location: Leipzig, Germany
   email: jfy133@gmail.com
 - name: Moritz E. Beber
@@ -3760,8 +3760,8 @@
     - peer-review-guide
     - reviewer
     - submitting-author
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - taxpasta
   packages_reviewed:
@@ -3791,9 +3791,9 @@
     - peer-review
     - reviewer
     - web-contrib
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - python-graphblas
   location:
@@ -3821,10 +3821,10 @@
     - guidebook-contrib
     - package-guide
     - peer-review-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email:
 - name: P. L. Lim
@@ -3853,9 +3853,9 @@
     - peer-review-guide
     - reviewer
     - web-contrib
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - zodipy
   location: Baltimore, MD, USA
@@ -3883,10 +3883,10 @@
     - guidebook-contrib
     - package-guide
     - peer-review-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Cambridge, Massachusetts, USA
   email: namurphy@cfa.harvard.edu
 - name: Hans Moritz Günther
@@ -3918,13 +3918,13 @@
     - peer-review
     - peer-review-guide
     - web-contrib
-  packages_eic: 
+  packages_eic:
   packages_editor:
     - astrodata
     - martini
     - stingray
-  packages_submitted: 
-  packages_reviewed: 
+  packages_submitted:
+  packages_reviewed:
   location: Cambridge, MA, USA
   email:
 - name: g-patlewicz
@@ -3949,10 +3949,10 @@
   contributor_type:
     - guidebook-contrib
     - peer-review-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email:
 - name: Mike Sarahan
@@ -3976,10 +3976,10 @@
   board: false
   contributor_type:
     - web-contrib
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Austin, TX
   email: msarahan@gmail.com
 - name: Thomas J. Fan
@@ -4003,10 +4003,10 @@
   board: false
   contributor_type:
     - web-contrib
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: New York City
   email: thomasjpfan@gmail.com
 - name: Kerry McAdams
@@ -4030,10 +4030,10 @@
   board: false
   contributor_type:
     - web-contrib
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email:
 - name: Ricky Nilsson
@@ -4057,10 +4057,10 @@
   board: false
   contributor_type:
     - web-contrib
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Los Angeles, CA
   email: ricky.nilsson@gmail.com
 - name: Oriol Abril-Pla
@@ -4086,9 +4086,9 @@
     - package-guide
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - bibat
   location: Barcelona
@@ -4115,9 +4115,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - bibat
   location:
@@ -4146,8 +4146,8 @@
     - peer-review
     - reviewer
     - submitting-author
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - sourmash
   packages_reviewed:
@@ -4176,11 +4176,11 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - taxpasta
-  packages_reviewed: 
+  packages_reviewed:
   location: Stockholm, Sweden
   email:
 - name: Tylar
@@ -4188,7 +4188,7 @@
   github_image_id: 1051390
   title:
   sort:
-  bio: USF IMaRS Software Engineer - code whisperer, data viz enthusiast, 
+  bio: USF IMaRS Software Engineer - code whisperer, data viz enthusiast,
       scientific generalist, compulsive overengineerer, & UX PhD
   organization: USF IMaRS
   date_added: '2023-07-27'
@@ -4206,9 +4206,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - afscgap
   location: St. Petersburg, FL
@@ -4218,7 +4218,7 @@
   github_image_id: 36472216
   title:
   sort:
-  bio: Open Source Adv, GSoC 2022 - IOOS | PyTorch, Azure, ReactJS | CS 
+  bio: Open Source Adv, GSoC 2022 - IOOS | PyTorch, Azure, ReactJS | CS
       Undergrad @ NIT Durgapur
   organization:
   date_added: '2023-07-27'
@@ -4236,9 +4236,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - afscgap
   location: New Delhi, India
@@ -4265,11 +4265,11 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - afscgap
-  packages_reviewed: 
+  packages_reviewed:
   location:
   email:
 - name: Jim Kitchen
@@ -4294,11 +4294,11 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - python-graphblas
-  packages_reviewed: 
+  packages_reviewed:
   location: Austin, TX
   email:
 - name: Sultan Orazbayev
@@ -4325,11 +4325,11 @@
     - community
     - maintainer
     - peer-review
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - python-graphblas
-  packages_reviewed: 
+  packages_reviewed:
   location: Kazakhstan
   email: contact@econpoint.com
 - name: Isabel Zimmerman
@@ -4371,7 +4371,7 @@
   packages_editor:
     - quadratik
     - rdata
-  packages_submitted: 
+  packages_submitted:
   packages_reviewed:
     - sciform
   location: FLorida, USA
@@ -4403,8 +4403,8 @@
     - reviewer
     - submitting-author
     - web-contrib
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - automata
     - cynetdiff
@@ -4434,10 +4434,10 @@
   contributor_type:
     - community
     - peer-review-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: St Louis, MO
   email: ty.schlich@gmail.com
 - name:
@@ -4462,9 +4462,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - cardsort
   location:
@@ -4474,7 +4474,7 @@
   github_image_id: 23122159
   title:
   sort:
-  bio: PhD Student in Human Computer Interaction and Participatory Health 
+  bio: PhD Student in Human Computer Interaction and Participatory Health
       Research | Data for good volunteer | M.Sc. Cognitive Science
   organization: CRI
   date_added: '2023-09-11'
@@ -4493,11 +4493,11 @@
     - maintainer
     - peer-review
     - submitting-author
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - cardsort
-  packages_reviewed: 
+  packages_reviewed:
   location: Paris, France
   email:
 - name: Dongdong Tian
@@ -4505,7 +4505,7 @@
   github_image_id: 3974108
   title:
   sort:
-  bio: Associate Professor in Geophysics at China University of Geosciences. 
+  bio: Associate Professor in Geophysics at China University of Geosciences.
       Core developer of @GenericMappingTools.
   organization: China University of Geosciences
   date_added: '2023-09-11'
@@ -4523,11 +4523,11 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - pygmt
-  packages_reviewed: 
+  packages_reviewed:
   location: Wuhan, China
   email: seisman.info@gmail.com
 - name: Max Jones
@@ -4535,7 +4535,7 @@
   github_image_id: 14077947
   title:
   sort:
-  bio: Data scientist | Background in oceanography and volcanology | 
+  bio: Data scientist | Background in oceanography and volcanology |
       Maintaining @GenericMappingTools and building xarray extensions
   organization: '@carbonplan'
   date_added: '2023-09-11'
@@ -4553,11 +4553,11 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - pygmt
-  packages_reviewed: 
+  packages_reviewed:
   location:
   email:
 - name: Michael Grund
@@ -4565,7 +4565,7 @@
   github_image_id: 23025878
   title:
   sort:
-  bio: Data Scientist | Background in geophysics and seismology | Maintainer 
+  bio: Data Scientist | Background in geophysics and seismology | Maintainer
       of PyGMT
   organization: SNP Innovation Lab
   date_added: '2023-09-11'
@@ -4583,11 +4583,11 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - pygmt
-  packages_reviewed: 
+  packages_reviewed:
   location: Germany
   email:
 - name: Will Schlitzer
@@ -4612,11 +4612,11 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - pygmt
-  packages_reviewed: 
+  packages_reviewed:
   location: New Jersey
   email:
 - name: Nathan Korinek
@@ -4624,7 +4624,7 @@
   github_image_id: 38253680
   title:
   sort:
-  bio: Geography Masters student at CU Boulder studying remote sensing and 
+  bio: Geography Masters student at CU Boulder studying remote sensing and
       data analysis with EarthLab!
   organization:
   date_added: '2020-09-11'
@@ -4642,11 +4642,11 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - earthpy
-  packages_reviewed: 
+  packages_reviewed:
   location: Boulder, CO
   email: Nathan.Korinek@colorado.edu
 - name: Joe McGlinchy
@@ -4671,11 +4671,11 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - earthpy
-  packages_reviewed: 
+  packages_reviewed:
   location: Arvada, Colorado, USA
   email: jmcglinchy@hydrosat.com
 - name: Yvonne Fröhlich
@@ -4700,11 +4700,11 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - pygmt
-  packages_reviewed: 
+  packages_reviewed:
   location: Karlsruhe (Germany)
   email:
 - name: Éric
@@ -4728,10 +4728,10 @@
   board: false
   contributor_type:
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email:
 - name: Beryl Kanali
@@ -4756,9 +4756,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - astartes
   location:
@@ -4785,9 +4785,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - astartes
   location: Paris, France
@@ -4816,11 +4816,11 @@
     - package-guide
     - peer-review
     - submitting-author
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - astartes
-  packages_reviewed: 
+  packages_reviewed:
   location: MIT
   email:
 - name: Kevin Spiekermann
@@ -4845,11 +4845,11 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - astartes
-  packages_reviewed: 
+  packages_reviewed:
   location:
   email:
 - name: Himaghna Bhattacharjee
@@ -4874,11 +4874,11 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - astartes
-  packages_reviewed: 
+  packages_reviewed:
   location: San Francisco, USA
   email:
 - name: Marta Leszczyńska
@@ -4903,9 +4903,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - xgi
   location:
@@ -4933,11 +4933,11 @@
     - maintainer
     - peer-review
     - submitting-author
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - xgi
-  packages_reviewed: 
+  packages_reviewed:
   location: Burlington, VT
   email:
 - name: Leo Torres
@@ -4962,11 +4962,11 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - xgi
-  packages_reviewed: 
+  packages_reviewed:
   location: Leipzig, Lima, Boston
   email: leo@leotrs.com
 - name: Maxime Lucas
@@ -4991,11 +4991,11 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - xgi
-  packages_reviewed: 
+  packages_reviewed:
   location: Turin, Italy
   email:
 - name: Iacopo Iacopini
@@ -5020,11 +5020,11 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - xgi
-  packages_reviewed: 
+  packages_reviewed:
   location: London
   email: iacopiniiacopo@gmail.com
 - name: Giovanni Petri
@@ -5049,11 +5049,11 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - xgi
-  packages_reviewed: 
+  packages_reviewed:
   location: London/Turin
   email: giovanni.petri@nulondon.ac.uk
 - name: Alice Schwarze
@@ -5078,11 +5078,11 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - xgi
-  packages_reviewed: 
+  packages_reviewed:
   location: Hanover, NH
   email:
 - name: Thomas Robiglio
@@ -5107,11 +5107,11 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - xgi
-  packages_reviewed: 
+  packages_reviewed:
   location: Torino, Italy
   email:
 - name: Alice Patania
@@ -5136,11 +5136,11 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - xgi
-  packages_reviewed: 
+  packages_reviewed:
   location:
   email: apatania@uvm.edu
 - name: Joseph H Kennedy
@@ -5148,7 +5148,7 @@
   github_image_id: 7882693
   title:
   sort:
-  bio: I'm a Research Software Engineer, Computational Glaciologist, Climate 
+  bio: I'm a Research Software Engineer, Computational Glaciologist, Climate
       Scientist, and Adventurer living/playing in Alaska
   organization: Alaska Satellite Facility
   date_added: '2023-12-14'
@@ -5167,9 +5167,9 @@
     - package-guide
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - eomaps
   location: Fairbanks, AK
@@ -5179,7 +5179,7 @@
   github_image_id: 6338509
   title:
   sort:
-  bio: Associate data scientist at Flatiron Institute, working to make 
+  bio: Associate data scientist at Flatiron Institute, working to make
       computational neuroscience more open, cumulative, and reproducible.
   organization: Flatiron Institute
   date_added: '2023-12-14'
@@ -5196,10 +5196,10 @@
   board: false
   contributor_type:
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: New York, NY
   email: billbrod@gmail.com
 - name: Gregor Sturm
@@ -5207,7 +5207,7 @@
   github_image_id: 7051479
   title:
   sort:
-  bio: Clinical Bioinformatics @Boehringer-Ingelheim.@scverse core dev. 
+  bio: Clinical Bioinformatics @Boehringer-Ingelheim.@scverse core dev.
       Formerly PhD student @icbi-lab.My private account.
   organization: Boehringer Ingelheim
   date_added: '2023-12-14'
@@ -5224,10 +5224,10 @@
   board: false
   contributor_type:
     - peer-review-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Biberach, DE
   email: mail@gregor-sturm.de
 - name: Sean Kelly
@@ -5235,7 +5235,7 @@
   github_image_id: 814813
   title:
   sort:
-  bio: An agoraphobic gourmand, Python hacker, Plone committer, Apache 
+  bio: An agoraphobic gourmand, Python hacker, Plone committer, Apache
       Software Foundation member, NASA scientist, gastrophysicist, etc.
   organization: Sean Kelly Consulting
   date_added: '2023-12-14'
@@ -5254,9 +5254,9 @@
     - peer-review
     - peer-review-guide
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - sunpy
   location:
@@ -5282,10 +5282,10 @@
   board: false
   contributor_type:
     - web-contrib
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: UK
   email:
 - name: Lukas Heumos
@@ -5293,7 +5293,7 @@
   github_image_id: 21954664
   title:
   sort:
-  bio: PhD student at @theislab and @schillerlab. Co-founder @scverse. 
+  bio: PhD student at @theislab and @schillerlab. Co-founder @scverse.
       Research software engineer @laminlabs
   organization: '@theislab @schillerlab @scverse @laminlabs'
   date_added: '2023-12-14'
@@ -5311,9 +5311,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - biocypher
   location: Germany
@@ -5343,11 +5343,11 @@
     - open-education
     - peer-review
     - submitting-author
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - biocypher
-  packages_reviewed: 
+  packages_reviewed:
   location:
   email:
 - name: Maria Knorps
@@ -5371,10 +5371,10 @@
   board: false
   contributor_type:
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Toruń/Gdynia, Poland
   email: maria.knorps@gmail.com
 - name: Lauren Yee
@@ -5400,9 +5400,9 @@
     - editor
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - eomaps
   location:
@@ -5431,12 +5431,12 @@
     - editor
     - peer-review
     - peer-review-guide
-  packages_eic: 
+  packages_eic:
   packages_editor:
     - eomaps
     - thztools
-  packages_submitted: 
-  packages_reviewed: 
+  packages_submitted:
+  packages_reviewed:
   location:
   email:
 - name: Philipp A.
@@ -5460,10 +5460,10 @@
   board: false
   contributor_type:
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: München
   email: flying-sheep@web.de
 - name: Septaris/Babouh
@@ -5488,9 +5488,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - sunpy
   location: Meudon
@@ -5518,11 +5518,11 @@
     - maintainer
     - peer-review
     - submitting-author
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - sunpy
-  packages_reviewed: 
+  packages_reviewed:
   location: Palo Alto, CA, USA
   email: nabil.freij@gmail.com
 - name: Steven Christe
@@ -5547,11 +5547,11 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - sunpy
-  packages_reviewed: 
+  packages_reviewed:
   location: Washington, DC
   email:
 - name: David Pérez-Suárez
@@ -5559,7 +5559,7 @@
   github_image_id: 963242
   title:
   sort:
-  bio: Astrophysicist lent towards the day side of it.Happy to be the 
+  bio: Astrophysicist lent towards the day side of it.Happy to be the
       happiness of the the garden
   organization: '@UCL-ARC'
   date_added: '2024-01-30'
@@ -5577,11 +5577,11 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - sunpy
-  packages_reviewed: 
+  packages_reviewed:
   location: London
   email:
 - name: Jack Ireland
@@ -5606,11 +5606,11 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - sunpy
-  packages_reviewed: 
+  packages_reviewed:
   location:
   email:
 - name: Albert Y. Shih
@@ -5635,11 +5635,11 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - sunpy
-  packages_reviewed: 
+  packages_reviewed:
   location:
   email:
 - name: Stuart Mumford
@@ -5647,7 +5647,7 @@
   github_image_id: 1391051
   title:
   sort:
-  bio: I write open source software for solar and astro physics. I am the 
+  bio: I write open source software for solar and astro physics. I am the
       lead-developer of SunPy, contribute to Astropy, and work on DKIST.
   organization: Aperio Software
   date_added: '2024-01-30'
@@ -5665,11 +5665,11 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - sunpy
-  packages_reviewed: 
+  packages_reviewed:
   location: Holmfirth
   email: stuart@cadair.com
 - name: DanRyanIrish
@@ -5694,11 +5694,11 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - sunpy
-  packages_reviewed: 
+  packages_reviewed:
   location:
   email: ryand5@tcd.ie
 - name: Will Barnes
@@ -5723,11 +5723,11 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - sunpy
-  packages_reviewed: 
+  packages_reviewed:
   location: Washington, D.C.
   email: will.t.barnes@gmail.com
 - name: Conor MacBride
@@ -5752,11 +5752,11 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - sunpy
-  packages_reviewed: 
+  packages_reviewed:
   location: Derry, Northern Ireland
   email: conor@macbride.me
 - name: Alasdair Wilson
@@ -5781,11 +5781,11 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - sunpy
-  packages_reviewed: 
+  packages_reviewed:
   location:
   email:
 - name: Laura Hayes
@@ -5810,11 +5810,11 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - sunpy
-  packages_reviewed: 
+  packages_reviewed:
   location: Leiden, Netherlands
   email: hayesla@tcd.ie
 - name: Vishnunarayan K I
@@ -5839,11 +5839,11 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - sunpy
-  packages_reviewed: 
+  packages_reviewed:
   location: Kerala, India
   email:
 - name: Michael Tso
@@ -5868,9 +5868,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - ncompare
   location:
@@ -5898,11 +5898,11 @@
     - maintainer
     - peer-review
     - submitting-author
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - ncompare
-  packages_reviewed: 
+  packages_reviewed:
   location:
   email:
 - name: Michael Chow
@@ -5928,8 +5928,8 @@
     - maintainer
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - great tables
   packages_reviewed:
@@ -5959,11 +5959,11 @@
     - maintainer
     - peer-review
     - submitting-author
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - sciform
-  packages_reviewed: 
+  packages_reviewed:
   location:
   email: justin.gerber48@gmail.com
 - name:
@@ -5987,10 +5987,10 @@
   board: false
   contributor_type:
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email:
 - name:
@@ -6014,10 +6014,10 @@
   board: false
   contributor_type:
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email: h.vetinari@gmx.com
 - name: Richard Iannone
@@ -6025,7 +6025,7 @@
   github_image_id: 5612024
   title:
   sort:
-  bio: I enjoy creating useful things for data analysis, transformation, and 
+  bio: I enjoy creating useful things for data analysis, transformation, and
       visualization. It's super fun too! ₍⸍⸌̣ʷ̣̫⸍̣⸌₎
   organization: '@rstudio'
   date_added: '2024-03-09'
@@ -6045,8 +6045,8 @@
     - peer-review
     - reviewer
     - submitting-author
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - great tables
   packages_reviewed:
@@ -6075,9 +6075,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - rdata
   location: Kampala, Uganda
@@ -6105,11 +6105,11 @@
     - maintainer
     - peer-review
     - submitting-author
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - rdata
-  packages_reviewed: 
+  packages_reviewed:
   location: Frankfurt, Germany
   email: carlosramosca@hotmail.com
 - name: Derek Homeier
@@ -6137,12 +6137,12 @@
     - editor
     - peer-review
     - peer-review-guide
-  packages_eic: 
+  packages_eic:
   packages_editor:
     - petrofit
     - zodipy
-  packages_submitted: 
-  packages_reviewed: 
+  packages_submitted:
+  packages_reviewed:
   location:
   email:
 - name: Sviatoslav Sydorenko (Святослав Сидоренко)
@@ -6168,10 +6168,10 @@
   contributor_type:
     - community
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Mikulov, CZ ↜ Brno, CZ ↜ Brovary/Kyiv, UA
   email: webknjaz+github/profile@redhat.com
 - name: Raphael Quast
@@ -6197,11 +6197,11 @@
     - maintainer
     - peer-review
     - submitting-author
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - eomaps
-  packages_reviewed: 
+  packages_reviewed:
   location:
   email:
 - name: Cale Kochenour
@@ -6225,10 +6225,10 @@
   board: false
   contributor_type:
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Colorado, United States
   email: calekochenour@gmail.com
 - name: Miguel Alizo
@@ -6236,7 +6236,7 @@
   github_image_id: 108839050
   title:
   sort:
-  bio: Software Developer with a background in Mechanical and Aerospace 
+  bio: Software Developer with a background in Mechanical and Aerospace
       engineering 🚀 ✈️ -Rustacean 🦀 and Pythonista 🐍
   organization:
   date_added: '2024-05-07'
@@ -6253,10 +6253,10 @@
   board: false
   contributor_type:
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Seattle, WA
   email:
 - name:
@@ -6280,10 +6280,10 @@
   board: false
   contributor_type:
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email:
 - name: Tyler Bonnell
@@ -6291,7 +6291,7 @@
   github_image_id: 89505514
   title:
   sort:
-  bio: Public health epidemiologist interested in injury and violence 
+  bio: Public health epidemiologist interested in injury and violence
       prevention and data science tool development.
   organization: Washington Start Department of Health
   date_added: '2024-05-07'
@@ -6308,10 +6308,10 @@
   board: false
   contributor_type:
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Seattle, WA
   email:
 - name: Pat Tressel
@@ -6335,10 +6335,10 @@
   board: false
   contributor_type:
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Seattle, WA, USA
   email: ptressel@myuw.net
 - name: Tobias Megies
@@ -6362,10 +6362,10 @@
   board: false
   contributor_type:
     - peer-review-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email:
 - name: Leo Singer
@@ -6390,9 +6390,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - greopy
     - zodipy
@@ -6421,11 +6421,11 @@
     - maintainer
     - peer-review
     - submitting-author
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - zodipy
-  packages_reviewed: 
+  packages_reviewed:
   location: Oslo, Norway
   email: metin.san@astro.uio.no
 - name: Duncan Watts
@@ -6450,11 +6450,11 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - zodipy
-  packages_reviewed: 
+  packages_reviewed:
   location: Oslo
   email: duncanjosephwatts@gmail.com
 - name: Daniel Herman
@@ -6479,11 +6479,11 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - zodipy
-  packages_reviewed: 
+  packages_reviewed:
   location: Oslo, Norway
   email:
 - name: Paige Martin
@@ -6491,7 +6491,7 @@
   github_image_id: 26591824
   title:
   sort:
-  bio: Open Science Expert, Climate Data Scientist, Science Capacity Sharing 
+  bio: Open Science Expert, Climate Data Scientist, Science Capacity Sharing
       Enthusiast
   organization: NASA Transform to Open Science
   date_added: '2024-05-07'
@@ -6509,9 +6509,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - xnemogcm
   location: Canberra, Australia
@@ -6521,7 +6521,7 @@
   github_image_id: 28703282
   title:
   sort:
-  bio: Oceanographer, Pythonista and data science-ish. Breaks things on 
+  bio: Oceanographer, Pythonista and data science-ish. Breaks things on
       Fridays
   organization: Voice of the Ocean Foundation
   date_added: '2024-05-07'
@@ -6539,9 +6539,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - xnemogcm
   location: Gothenburg, Sweden
@@ -6551,7 +6551,7 @@
   github_image_id: 18579092
   title:
   sort:
-  bio: Doctor in Physical Oceanography. Studying sea ice, ocean stratif, 
+  bio: Doctor in Physical Oceanography. Studying sea ice, ocean stratif,
       buoyancy fluxes, nonlinear EOS, with numerical modelling (NextSIM, NEMO)
       and observations.
   organization: Institut des Géosciences de l'Environnement
@@ -6572,8 +6572,8 @@
     - peer-review
     - reviewer
     - submitting-author
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - xnemogcm
   packages_reviewed:
@@ -6602,9 +6602,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - sourmash
   location: Sweden
@@ -6631,9 +6631,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - sourmash
   location: Oakland, California
@@ -6659,10 +6659,10 @@
   board: false
   contributor_type:
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email:
 - name: Ryan
@@ -6686,10 +6686,10 @@
   board: false
   contributor_type:
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: USA
   email:
 - name: Patrick Byers
@@ -6713,10 +6713,10 @@
   board: false
   contributor_type:
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Pittsburgh PA
   email:
 - name: Megan Sosey
@@ -6741,10 +6741,10 @@
   contributor_type:
     - package-guide
     - web-contrib
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Baltimore, MD
   email: sosey@stsci.edu
 - name: Brianne Wilhelmi
@@ -6768,10 +6768,10 @@
   board: false
   contributor_type:
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email:
 - name: Cheng H. Lee
@@ -6795,10 +6795,10 @@
   board: false
   contributor_type:
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Austin, TX
   email:
 - name:
@@ -6822,10 +6822,10 @@
   board: false
   contributor_type:
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email:
 - name: Felipe Moreno
@@ -6851,10 +6851,10 @@
     - community
     - package-guide
     - web-contrib
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: New York, NY
   email:
 - name: Sneha Yadav
@@ -6879,10 +6879,10 @@
   contributor_type:
     - package-guide
     - web-contrib
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email:
 - name: Emily Zhang
@@ -6906,10 +6906,10 @@
   board: false
   contributor_type:
     - web-contrib
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: New York
   email: bradonzhang@gmail.com
 - name: Filipe Laíns
@@ -6917,7 +6917,7 @@
   github_image_id: 11718923
   title:
   sort:
-  bio: electro-metrology, semiconductor manufacturing, and nuclear physics 
+  bio: electro-metrology, semiconductor manufacturing, and nuclear physics
       enthusiast • python core dev, archlinux packager
   organization:
   date_added: '2024-06-01'
@@ -6935,10 +6935,10 @@
   contributor_type:
     - peer-review-guide
     - web-contrib
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Portugal
   email: lains@riseup.net
 - name: Steven Silvester
@@ -6964,10 +6964,10 @@
     - community
     - package-guide
     - web-contrib
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email:
 - name: Shannon
@@ -6992,9 +6992,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - sleplet
   location: Athens, GA
@@ -7021,9 +7021,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - sleplet
   location: Gdańsk
@@ -7052,11 +7052,11 @@
     - peer-review
     - submitting-author
     - web-contrib
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - sleplet
-  packages_reviewed: 
+  packages_reviewed:
   location: London
   email: patrickjamesroddy@gmail.com
 - name: Zack Weinberg
@@ -7064,8 +7064,8 @@
   github_image_id: 325899
   title:
   sort:
-  bio: I AM NOT LOOKING FOR A JOB. DO NOT CONTACT ME WITH  JOB OFFERS. I do 
-      security research and misc systems coding. Please see my personal 
+  bio: I AM NOT LOOKING FOR A JOB. DO NOT CONTACT ME WITH  JOB OFFERS. I do
+      security research and misc systems coding. Please see my personal
       website for more detail.
   organization:
   date_added: '2024-07-04'
@@ -7082,10 +7082,10 @@
   board: false
   contributor_type:
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Pittsburgh, PA
   email:
 - name: Stefano Rivera
@@ -7111,10 +7111,10 @@
   board: false
   contributor_type:
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: The Internet
   email: stefanor@debian.org
 - name: Stefanie Molin
@@ -7122,7 +7122,7 @@
   github_image_id: 24376333
   title:
   sort:
-  bio: Software Engineer | Speaker | Author of "Hands-On Data Analysis with 
+  bio: Software Engineer | Speaker | Author of "Hands-On Data Analysis with
       Pandas"
   organization: '@Bloomberg'
   date_added: '2024-07-04'
@@ -7139,10 +7139,10 @@
   board: false
   contributor_type:
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email:
 - name: Ananthu C V
@@ -7166,10 +7166,10 @@
   board: false
   contributor_type:
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email: ananthucv5@gmail.com
 - name: Gabriel Stefanini Vicente
@@ -7193,10 +7193,10 @@
   board: false
   contributor_type:
     - web-contrib
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email: gvicente@worldbank.org
 - name: Tom Aldcroft
@@ -7221,9 +7221,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - martini
     - stingray
@@ -7251,9 +7251,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - martini
   location:
@@ -7263,7 +7263,7 @@
   github_image_id: 32932511
   title:
   sort:
-  bio: Assistant Professor and Royal Society Dorothy Hodgkin Fellow at the 
+  bio: Assistant Professor and Royal Society Dorothy Hodgkin Fellow at the
       Institute for Computational Cosmology, Durham University.
   organization:
   date_added: '2024-07-04'
@@ -7283,8 +7283,8 @@
     - peer-review
     - reviewer
     - submitting-author
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - martini
   packages_reviewed:
@@ -7313,9 +7313,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - automata
   location:
@@ -7342,9 +7342,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - automata
   location: San Francisco, CA
@@ -7373,10 +7373,10 @@
     - editor
     - peer-review
     - reviewer
-  packages_eic: 
+  packages_eic:
   packages_editor:
     - ams
-  packages_submitted: 
+  packages_submitted:
   packages_reviewed:
     - automata
   location:
@@ -7386,8 +7386,8 @@
   github_image_id: 872474
   title:
   sort:
-  bio: Hi, I'm Caleb, a web developer who lives for Christ by building 
-      enjoyable apps and useful tools. I hope you are blessed by what I've 
+  bio: Hi, I'm Caleb, a web developer who lives for Christ by building
+      enjoyable apps and useful tools. I hope you are blessed by what I've
       made!
   organization:
   date_added: '2024-07-04'
@@ -7405,11 +7405,11 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - automata
-  packages_reviewed: 
+  packages_reviewed:
   location: Carlsbad, CA
   email: caleb@calebevans.me
 - name:
@@ -7434,9 +7434,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - biocypher
   location:
@@ -7462,10 +7462,10 @@
   board: false
   contributor_type:
     - web-contrib
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Canada
   email:
 - name: Han
@@ -7491,10 +7491,10 @@
     - community
     - package-guide
     - web-contrib
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email:
 - name: Roberto Pastor Muela
@@ -7502,7 +7502,7 @@
   github_image_id: 37798125
   title:
   sort:
-  bio: Aerospace engineer, passionate about simulations, CFD and 
+  bio: Aerospace engineer, passionate about simulations, CFD and
       astrodynamics.
   organization: '@ansys'
   date_added: '2024-08-01'
@@ -7519,10 +7519,10 @@
   board: false
   contributor_type:
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Leganés, Madrid
   email:
 - name: Olek
@@ -7530,7 +7530,7 @@
   github_image_id: 45364492
   title:
   sort:
-  bio: PhD student @ ARFC.Working on literature review for PhD Thesis, but am 
+  bio: PhD student @ ARFC.Working on literature review for PhD Thesis, but am
       always open for PR reviews!
   organization:
   date_added: '2024-08-01'
@@ -7547,10 +7547,10 @@
   board: false
   contributor_type:
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email:
 - name:
@@ -7574,10 +7574,10 @@
   board: false
   contributor_type:
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email:
 - name: Naty Clementi
@@ -7601,10 +7601,10 @@
   board: false
   contributor_type:
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Arlington, VA
   email:
 - name: John Drake
@@ -7628,10 +7628,10 @@
   board: false
   contributor_type:
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Phoenix, AZ
   email:
 - name: Revathy Venugopal
@@ -7656,10 +7656,10 @@
   contributor_type:
     - community
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Lyon, France
   email:
 - name: Elise Hinman
@@ -7684,10 +7684,10 @@
   contributor_type:
     - code-contrib
     - community
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Madison, WI
   email:
 - name: Tetsuo Koyama
@@ -7716,11 +7716,11 @@
     - package-guide
     - peer-review
     - web-contrib
-  packages_eic: 
+  packages_eic:
   packages_editor:
     - felupe
-  packages_submitted: 
-  packages_reviewed: 
+  packages_submitted:
+  packages_reviewed:
   location: Japan
   email: tkoyama010@gmail.com
 - name: Kozo Nishida
@@ -7728,7 +7728,7 @@
   github_image_id: 12192
   title:
   sort:
-  bio: PyData Osaka organizer,Bioconductor Community Advisory Board,Software 
+  bio: PyData Osaka organizer,Bioconductor Community Advisory Board,Software
       Carpentry Japanese Team
   organization:
   date_added: '2024-08-15'
@@ -7745,10 +7745,10 @@
   board: false
   contributor_type:
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Tokyo, Japan
   email:
 - name: Jacqui Levy
@@ -7773,9 +7773,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - harmonize-wq
   location:
@@ -7803,11 +7803,11 @@
     - maintainer
     - peer-review
     - submitting-author
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - harmonize-wq
-  packages_reviewed: 
+  packages_reviewed:
   location: Gulf Breeze, FL
   email: bousquin.justin@epa.gov
 - name: Melissa Weber Mendonça
@@ -7815,8 +7815,8 @@
   github_image_id: 3949932
   title:
   sort:
-  bio: Senior DevEx Engineer at Quansight, former math professor (UFSC). 
-      Mathematical optimization, numerical linear algebra, LaTeX, Python, 
+  bio: Senior DevEx Engineer at Quansight, former math professor (UFSC).
+      Mathematical optimization, numerical linear algebra, LaTeX, Python,
       Fortran, OSS.
   organization: '@Quansight'
   date_added: '2024-09-01'
@@ -7833,10 +7833,10 @@
   board: false
   contributor_type:
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Florianópolis, Brazil
   email: melissawm@gmail.com
 - name: Russ Biggs
@@ -7858,11 +7858,11 @@
   partners:
   website:
   board: false
-  contributor_type: 
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  contributor_type:
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email:
 - name: Kelly L. Rowland
@@ -7887,11 +7887,11 @@
   contributor_type:
     - editor
     - peer-review
-  packages_eic: 
+  packages_eic:
   packages_editor:
     - montepy
-  packages_submitted: 
-  packages_reviewed: 
+  packages_submitted:
+  packages_reviewed:
   location:
   email:
 - name: Silvana Ovaitt
@@ -7916,11 +7916,11 @@
   contributor_type:
     - editor
     - peer-review
-  packages_eic: 
+  packages_eic:
   packages_editor:
     - solar data tools
-  packages_submitted: 
-  packages_reviewed: 
+  packages_submitted:
+  packages_reviewed:
   location:
   email:
 - name: Sebastiano Tronto
@@ -7945,9 +7945,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - pooltool
   location:
@@ -7957,7 +7957,7 @@
   github_image_id: 8688665
   title:
   sort:
-  bio: Software Engineer / Biologist / Billiards addict. I did my PhD in 
+  bio: Software Engineer / Biologist / Billiards addict. I did my PhD in
       Biophysical Sciences at the University of Chicago.
   organization:
   date_added: '2024-09-17'
@@ -7976,11 +7976,11 @@
     - maintainer
     - peer-review
     - submitting-author
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - pooltool
-  packages_reviewed: 
+  packages_reviewed:
   location:
   email:
 - name: Jon Kiparsky
@@ -8004,10 +8004,10 @@
   board: false
   contributor_type:
     - web-contrib
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email: jon.kiparsky@gmail.com
 - name: Matteo Bachetti
@@ -8015,7 +8015,7 @@
   github_image_id: 7190189
   title:
   sort:
-  bio: Astrophysicist at INAF, time series cruncher@StingraySoftware @NuSTAR 
+  bio: Astrophysicist at INAF, time series cruncher@StingraySoftware @NuSTAR
       @astropy @discos
   organization: INAF/Osservatorio Astronomico di Cagliari
   date_added: '2024-10-15'
@@ -8034,11 +8034,11 @@
     - maintainer
     - peer-review
     - submitting-author
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - stingray
-  packages_reviewed: 
+  packages_reviewed:
   location: Selargius (CA), Italy
   email:
 - name: Daniela Huppenkothen
@@ -8063,11 +8063,11 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - stingray
-  packages_reviewed: 
+  packages_reviewed:
   location: Utrecht, Netherlands
   email:
 - name: Mason Ng
@@ -8093,9 +8093,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - stingray
   location: Cambridge, MA
@@ -8122,9 +8122,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - thztools
   location: State College, PA
@@ -8151,9 +8151,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - thztools
   location:
@@ -8185,8 +8185,8 @@
     - peer-review
     - reviewer
     - submitting-author
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - thztools
   packages_reviewed:
@@ -8215,11 +8215,11 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - stingray
-  packages_reviewed: 
+  packages_reviewed:
   location:
   email:
 - name: John Swinbank
@@ -8244,11 +8244,11 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - stingray
-  packages_reviewed: 
+  packages_reviewed:
   location: Utrecht, NL
   email: john@swinbank.org
 - name:
@@ -8273,11 +8273,11 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - stingray
-  packages_reviewed: 
+  packages_reviewed:
   location:
   email:
 - name: Alyssa Columbus
@@ -8302,9 +8302,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - quadratik
   location:
@@ -8334,10 +8334,10 @@
     - peer-review
     - peer-review-guide
     - reviewer
-  packages_eic: 
+  packages_eic:
   packages_editor:
     - ams
-  packages_submitted: 
+  packages_submitted:
   packages_reviewed:
     - quadratik
   location: Sunnyvale
@@ -8366,11 +8366,11 @@
     - peer-review
     - submitting-author
     - web-contrib
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - quadratik
-  packages_reviewed: 
+  packages_reviewed:
   location: Buffalo, New York, USA
   email:
 - name: Giovanni Saraceno
@@ -8378,8 +8378,8 @@
   github_image_id: 92368611
   title:
   sort:
-  bio: My principal area of research are robust statistics, directional 
-      statistics, kernel-based methods, neural networks, neuroscience 
+  bio: My principal area of research are robust statistics, directional
+      statistics, kernel-based methods, neural networks, neuroscience
       applications.
   organization: University of Padova
   date_added: '2024-12-13'
@@ -8397,11 +8397,11 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - quadratik
-  packages_reviewed: 
+  packages_reviewed:
   location:
   email:
 - name: Santiago Soler
@@ -8409,7 +8409,7 @@
   github_image_id: 11541317
   title:
   sort:
-  bio: PhD in Geophysics and Physicist. Postdoc researcher at UBC. Develop 
+  bio: PhD in Geophysics and Physicist. Postdoc researcher at UBC. Develop
       @fatiando and @simpeg.
   organization: '@fatiando @simpeg @ubcgif @compgeolab @GeoLatinas'
   date_added: '2025-01-01'
@@ -8427,10 +8427,10 @@
   contributor_type:
     - code-contrib
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: British Columbia, Canada
   email: santisoler@fastmail.com
 - name: Seth Michael Larson
@@ -8454,10 +8454,10 @@
   board: false
   contributor_type:
     - web-contrib
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Minneapolis, MN
   email: sethmichaellarson@gmail.com
 - name: Erik Whiting
@@ -8465,7 +8465,7 @@
   github_image_id: 47164199
   title:
   sort:
-  bio: Sr. software engineer @callrail. CS PhD student, deep learning and 
+  bio: Sr. software engineer @callrail. CS PhD student, deep learning and
       computational biophysics @YesselmanLab and @yao-laboratory
   organization:
   date_added: '2025-01-14'
@@ -8482,10 +8482,10 @@
   board: false
   contributor_type:
     - web-contrib
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Omaha, NE
   email: erik@erikwhiting.com
 - name:
@@ -8510,9 +8510,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - great tables
   location:
@@ -8539,9 +8539,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - great tables
   location: Paris-Saclay / France
@@ -8568,9 +8568,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - plot_phylo
   location:
@@ -8597,9 +8597,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - plot_phylo
   location: San Francisco
@@ -8627,11 +8627,11 @@
     - maintainer
     - peer-review
     - submitting-author
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - plot_phylo
-  packages_reviewed: 
+  packages_reviewed:
   location: University of Cambridge
   email: kab84@cam.ac.uk
 - name: Aarya Patil
@@ -8639,7 +8639,7 @@
   github_image_id: 15609154
   title:
   sort:
-  bio: LSST Discovery Alliance Postdoctoral Fellow. Finance committee and 
+  bio: LSST Discovery Alliance Postdoctoral Fellow. Finance committee and
       voting member @astropy.
   organization: Max Planck Institute for Astronomy
   date_added: '2025-02-19'
@@ -8657,9 +8657,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - astrodata
   location: Heidelberg, Germany
@@ -8686,9 +8686,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - astrodata
   location: Moorhead, MN
@@ -8716,11 +8716,11 @@
     - maintainer
     - peer-review
     - submitting-author
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - astrodata
-  packages_reviewed: 
+  packages_reviewed:
   location: Riverside, CA
   email: teal.dillon@gmail.com
 - name: Chris Simpson
@@ -8745,11 +8745,11 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - astrodata
-  packages_reviewed: 
+  packages_reviewed:
   location:
   email: chris.simpson@noirlab.edu
 - name:
@@ -8774,11 +8774,11 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - astrodata
-  packages_reviewed: 
+  packages_reviewed:
   location: La Serena, Chile
   email:
 - name: Simon O'Meara
@@ -8787,7 +8787,7 @@
   title:
   sort:
   bio: Researcher at the National Centre for Atmospheric Science (UK)
-  organization: National Centre for Atmospheric Science, University of 
+  organization: National Centre for Atmospheric Science, University of
       Manchester
   date_added: '2025-02-19'
   deia_advisory: false
@@ -8804,9 +8804,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - pypartmc
   location: M13 9PL
@@ -8833,9 +8833,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - pypartmc
   location: Vermont, USA
@@ -8864,11 +8864,11 @@
     - peer-review
     - peer-review-guide
     - submitting-author
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - pypartmc
-  packages_reviewed: 
+  packages_reviewed:
   location: Kraków, Poland
   email: sylwester.arabas@agh.edu.pl
 - name: Zach D'Aquino
@@ -8893,11 +8893,11 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - pypartmc
-  packages_reviewed: 
+  packages_reviewed:
   location:
   email:
 - name: Jeffrey Curtis
@@ -8905,7 +8905,7 @@
   github_image_id: 8780125
   title:
   sort:
-  bio: Research Scientist in the Department of Climate, Meteorology & 
+  bio: Research Scientist in the Department of Climate, Meteorology &
       Atmospheric Sciences at the University of Illinois Urbana-Champaign.
   organization: University of Illinois Urbana-Champaign
   date_added: '2025-02-19'
@@ -8923,11 +8923,11 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - pypartmc
-  packages_reviewed: 
+  packages_reviewed:
   location: Urbana, Illinois
   email:
 - name: Nicole Riemer
@@ -8952,11 +8952,11 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - pypartmc
-  packages_reviewed: 
+  packages_reviewed:
   location: Urbana, IL
   email: nriemer@illinois.edu
 - name: Matthew West
@@ -8981,11 +8981,11 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - pypartmc
-  packages_reviewed: 
+  packages_reviewed:
   location: Urbana, Illinois, USA
   email: mwest@illinois.edu
 - name: Agriya Khetarpal
@@ -8993,7 +8993,7 @@
   github_image_id: 74401230
   title:
   sort:
-  bio: sentient stochastic parrot. @pyodide • @jupyterlite • @pybamm-team • 
+  bio: sentient stochastic parrot. @pyodide • @jupyterlite • @pybamm-team •
       @scientific-python
   organization: Quansight
   date_added: '2025-02-28'
@@ -9011,10 +9011,10 @@
   contributor_type:
     - community
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email:
 - name: Nadia Dencheva
@@ -9039,9 +9039,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - petrofit
   location:
@@ -9069,11 +9069,11 @@
     - maintainer
     - peer-review
     - submitting-author
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - petrofit
-  packages_reviewed: 
+  packages_reviewed:
   location:
   email: robel@robel.io
 - name: Steve Crawford
@@ -9098,11 +9098,11 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - petrofit
-  packages_reviewed: 
+  packages_reviewed:
   location: Baltimore, MD
   email: crawfordsm@gmail.com
 - name: Madicken Munk
@@ -9110,7 +9110,7 @@
   github_image_id: 6745434
   title:
   sort:
-  bio: Group Leader @arfc, member of @data-exp-lab, @scientific-python, and 
+  bio: Group Leader @arfc, member of @data-exp-lab, @scientific-python, and
       @yt-project
   organization: '@NCSA'
   date_added: '2025-03-20'
@@ -9128,9 +9128,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - montepy
   location: University of Illinois at Urbana-Champaign
@@ -9158,9 +9158,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - montepy
   location: Corvallis, OR
@@ -9170,8 +9170,8 @@
   github_image_id: 12405772
   title:
   sort:
-  bio: Nuclear Engineer, PhD Student, aspiring Rustacean; interested in 
-      Computational Reactor Physics, and other less useful things. Member of 
+  bio: Nuclear Engineer, PhD Student, aspiring Rustacean; interested in
+      Computational Reactor Physics, and other less useful things. Member of
       @cnerg.
   organization: '@idaholab'
   date_added: '2025-03-20'
@@ -9190,11 +9190,11 @@
     - maintainer
     - peer-review
     - submitting-author
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - montepy
-  packages_reviewed: 
+  packages_reviewed:
   location: Madison, Wisconsin
   email: mdgale@wisc.edu
 - name: Travis L.
@@ -9202,7 +9202,7 @@
   github_image_id: 19986691
   title:
   sort:
-  bio: Neutronics analysis and reactor physics automation.Engineer at 
+  bio: Neutronics analysis and reactor physics automation.Engineer at
       @idaholab andPh.D student with @anovak-lab
   organization: Idaho National Laboratory
   date_added: '2025-03-20'
@@ -9220,11 +9220,11 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - montepy
-  packages_reviewed: 
+  packages_reviewed:
   location:
   email:
 - name: Marie Roald
@@ -9232,7 +9232,7 @@
   github_image_id: 3594989
   title:
   sort:
-  bio: Python enthusiast and data nerd working at the National Library of 
+  bio: Python enthusiast and data nerd working at the National Library of
       Norway. Excited about open source, science outreach and visualization.
   organization: '@NationalLibraryOfNorway @Sprakbanken'
   date_added: '2025-05-19'
@@ -9249,10 +9249,10 @@
   board: false
   contributor_type:
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Oslo
   email:
 - name:
@@ -9276,10 +9276,10 @@
   board: false
   contributor_type:
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email:
 - name: Ethan White
@@ -9287,7 +9287,7 @@
   github_image_id: 744427
   title:
   sort:
-  bio: Environmental Data Scientist/Professor. Ecology + open data + open 
+  bio: Environmental Data Scientist/Professor. Ecology + open data + open
       science + open source.
   organization: '@weecology, Univ of Florida'
   date_added: '2025-05-30'
@@ -9305,9 +9305,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - neonutilities
   location: Gainesville, FL
@@ -9317,7 +9317,7 @@
   github_image_id: 83379521
   title:
   sort:
-  bio: Cybersecurity professional researching machine learning to accelerate 
+  bio: Cybersecurity professional researching machine learning to accelerate
       post-breach triage with the Open University.
   organization:
   date_added: '2025-05-30'
@@ -9335,9 +9335,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - neonutilities
   location:
@@ -9365,11 +9365,11 @@
   contributor_type:
     - editor
     - peer-review
-  packages_eic: 
+  packages_eic:
   packages_editor:
     - neonutilities
-  packages_submitted: 
-  packages_reviewed: 
+  packages_submitted:
+  packages_reviewed:
   location: La Plata, Argentina
   email:
 - name: Claire Lunch
@@ -9395,11 +9395,11 @@
     - maintainer
     - peer-review
     - submitting-author
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - neonutilities
-  packages_reviewed: 
+  packages_reviewed:
   location:
   email:
 - name: Bridget Hass
@@ -9424,11 +9424,11 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - neonutilities
-  packages_reviewed: 
+  packages_reviewed:
   location: Boulder, CO
   email:
 - name:
@@ -9453,11 +9453,11 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - neonutilities
-  packages_reviewed: 
+  packages_reviewed:
   location:
   email:
 - name: Yngve Mardal Moe
@@ -9465,7 +9465,7 @@
   github_image_id: 3531982
   title:
   sort:
-  bio: Data scientist with a passion for scientific computing, applied 
+  bio: Data scientist with a passion for scientific computing, applied
       mathematics and computational biology.
   organization: Bouvet
   date_added: '2025-06-01'
@@ -9482,10 +9482,10 @@
   board: false
   contributor_type:
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Oslo
   email: yngve.m.moe@gmail.com
 - name: Akhil Krishna R
@@ -9505,15 +9505,15 @@
   mastodon:
   orcidid:
   partners:
-  website: 
+  website:
       https://sites.google.com/res.christuniversity.in/akhilkrishnar/about?pli=1
   board: false
   contributor_type:
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Bangalore. India
   email:
 - name: Zac Warham
@@ -9538,10 +9538,10 @@
   board: false
   contributor_type:
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Vancouver
   email:
 - name: Sanket Kumar Kar
@@ -9565,10 +9565,10 @@
   board: false
   contributor_type:
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Chennai
   email: sanketkumarkar@gmail.com
 - name: Daniel Chen
@@ -9592,10 +9592,10 @@
   board: false
   contributor_type:
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: JFK -> DCA -> ROA -> JFK -> YVR
   email:
 - name: Carter Lee Rhea
@@ -9624,10 +9624,10 @@
     - peer-review-guide
     - reviewer
     - web-contrib
-  packages_eic: 
+  packages_eic:
   packages_editor:
     - piva
-  packages_submitted: 
+  packages_submitted:
   packages_reviewed:
     - felupe
   location: Montreal, QC, CANADA
@@ -9656,8 +9656,8 @@
     - peer-review
     - reviewer
     - submitting-author
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - ams
   packages_reviewed:
@@ -9669,7 +9669,7 @@
   github_image_id: 80125792
   title:
   sort:
-  bio: FOSS, PV, Electronics, and Sustainability enthusiast. Also an 
+  bio: FOSS, PV, Electronics, and Sustainability enthusiast. Also an
       Electronics Engineer.
   organization: UPM
   date_added: '2025-06-16'
@@ -9687,9 +9687,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - solar data tools
   location: Spain
@@ -9716,9 +9716,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - solar data tools
   location: Golden, CO
@@ -9746,11 +9746,11 @@
     - maintainer
     - peer-review
     - submitting-author
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - solar data tools
-  packages_reviewed: 
+  packages_reviewed:
   location: Menlo Park, CA
   email: saramiskovich@gmail.com
 - name: Bennet Meyers
@@ -9775,11 +9775,11 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - solar data tools
-  packages_reviewed: 
+  packages_reviewed:
   location: California
   email:
 - name: Mihai Maruseac
@@ -9804,10 +9804,10 @@
   board: false
   contributor_type:
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: San Francisco
   email: mihaimaruseac@google.com
 - name: Lauren Moore
@@ -9815,7 +9815,7 @@
   github_image_id: 59707547
   title:
   sort:
-  bio: Beginner python dev interested in supporting open-source projects, 
+  bio: Beginner python dev interested in supporting open-source projects,
       especially scientific and citizen science programs, non-profit orgs, and
       local governments.
   organization:
@@ -9833,10 +9833,10 @@
   board: false
   contributor_type:
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email:
 - name: Ana
@@ -9860,10 +9860,10 @@
   board: false
   contributor_type:
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Seattle
   email:
 - name: Kyohei Sahara
@@ -9887,10 +9887,10 @@
   board: false
   contributor_type:
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email:
 - name: Henry Cuzco
@@ -9914,10 +9914,10 @@
   board: false
   contributor_type:
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email:
 - name: James Lamb
@@ -9925,7 +9925,7 @@
   github_image_id: 7608904
   title:
   sort:
-  bio: (he/him) RAPIDS packaging at NVIDIA. LightGBM maintainer. Economist at 
+  bio: (he/him) RAPIDS packaging at NVIDIA. LightGBM maintainer. Economist at
       heart.
   organization: NVIDIA
   date_added: '2025-07-18'
@@ -9942,10 +9942,10 @@
   board: false
   contributor_type:
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Chicago, IL
   email: jaylamb20@gmail.com
 - name: Breanna Powell
@@ -9969,10 +9969,10 @@
   board: false
   contributor_type:
     - web-contrib
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Seattle, Washington
   email:
 - name: Malvika Sharan
@@ -9996,10 +9996,10 @@
   board: false
   contributor_type:
     - package-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email:
 - name: Galen Seilis
@@ -10023,10 +10023,10 @@
   board: false
   contributor_type:
     - peer-review-guide
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Canada, British Columbia
   email:
 - name: Mandy Moore
@@ -10050,10 +10050,10 @@
   board: false
   contributor_type:
     - web-contrib
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Red Lion, PA
   email: mandy@mandymoore.tech
 - name:
@@ -10061,7 +10061,7 @@
   github_image_id: 98053751
   title:
   sort:
-  bio: Hello! I am a creative computer science student with a passion for 
+  bio: Hello! I am a creative computer science student with a passion for
       exploring! Some of my research projects are showcased here.
   organization:
   date_added: '2025-07-25'
@@ -10078,10 +10078,10 @@
   board: false
   contributor_type:
     - code-contrib
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email:
 - name: Franklin Koch
@@ -10105,10 +10105,10 @@
   board: false
   contributor_type:
     - code-contrib
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Calgary, AB
   email: franklinwkoch@gmail.com
 - name: Angus Hollands
@@ -10116,7 +10116,7 @@
   github_image_id: 1248413
   title:
   sort:
-  bio: 👐 Open Source ⚙️ Applications Engineer @ 🌎 2i2c & owner @ OIE LTD, 
+  bio: 👐 Open Source ⚙️ Applications Engineer @ 🌎 2i2c & owner @ OIE LTD,
       developing 👐 open-source 📈 scientific 💻✨ software since 2009 ❤️
   organization: 2i2c
   date_added: '2025-07-25'
@@ -10133,10 +10133,10 @@
   board: false
   contributor_type:
     - code-contrib
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: United Kingdom
   email: angus@oieltd.com
 - name: Camille Latapie
@@ -10160,10 +10160,10 @@
   board: false
   contributor_type:
     - code-contrib
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: France
   email:
 - name:
@@ -10187,10 +10187,10 @@
   board: false
   contributor_type:
     - code-contrib
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email:
 - name: steven
@@ -10214,10 +10214,10 @@
   board: false
   contributor_type:
     - code-contrib
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Austin
   email:
 - name: s choi
@@ -10241,10 +10241,10 @@
   board: false
   contributor_type:
     - open-education
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email:
 - name:
@@ -10268,10 +10268,10 @@
   board: false
   contributor_type:
     - open-education
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email:
 - name: Evelyn Montes Sobal
@@ -10295,10 +10295,10 @@
   board: false
   contributor_type:
     - open-education
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email:
 - name: Karina Souza
@@ -10322,10 +10322,10 @@
   board: false
   contributor_type:
     - open-education
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Seattle
   email:
 - name:
@@ -10349,10 +10349,10 @@
   board: false
   contributor_type:
     - open-education
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email:
 - name: Tim Dawson
@@ -10376,10 +10376,10 @@
   board: false
   contributor_type:
     - web-contrib
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email: tim.dawson@cfd-research.com
 - name: James J Balamuta
@@ -10408,9 +10408,9 @@
   packages_eic:
     - greopy
     - piva
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: United States
   email:
 - name: Arthur Eigenbrot
@@ -10435,9 +10435,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - piva
   location:
@@ -10465,11 +10465,11 @@
     - maintainer
     - peer-review
     - submitting-author
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - piva
-  packages_reviewed: 
+  packages_reviewed:
   location: Zürich, Switzerland
   email:
 - name: Sanjana Kandi
@@ -10494,9 +10494,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - greopy
   location: Seattle
@@ -10507,7 +10507,7 @@
   title:
     - Editor
   sort: 2
-  bio: Large scale statistics, machine learning and software engineering in 
+  bio: Large scale statistics, machine learning and software engineering in
       High Energy Physics
   organization: CERN
   date_added: '2025-08-07'
@@ -10525,11 +10525,11 @@
   contributor_type:
     - editor
     - peer-review
-  packages_eic: 
+  packages_eic:
   packages_editor:
     - greopy
-  packages_submitted: 
-  packages_reviewed: 
+  packages_submitted:
+  packages_reviewed:
   location: Geneva, Switzerland
   email: jonas.eschle@cern.ch
 - name:
@@ -10555,11 +10555,11 @@
     - maintainer
     - peer-review
     - submitting-author
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - greopy
-  packages_reviewed: 
+  packages_reviewed:
   location:
   email:
 - name: Kai Striega
@@ -10584,9 +10584,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - cynetdiff
   location:
@@ -10613,9 +10613,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - cynetdiff
   location: Singapore
@@ -10625,7 +10625,7 @@
   github_image_id: 7496935
   title:
   sort:
-  bio: Tch. Asst. Prof. of ECE at Illinois | Ph.D. from Purdue | AI & ML 
+  bio: Tch. Asst. Prof. of ECE at Illinois | Ph.D. from Purdue | AI & ML
       Researcher
   organization: University of Illinois Urbana-Champaign
   date_added: '2025-08-22'
@@ -10643,11 +10643,11 @@
   contributor_type:
     - maintainer
     - peer-review
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - cynetdiff
-  packages_reviewed: 
+  packages_reviewed:
   location: Urbana, IL
   email: abhishekumrawal@gmail.com
 - name: Alireza
@@ -10655,7 +10655,7 @@
   github_image_id: 174788670
   title:
   sort:
-  bio: A Mechanical Engineer with a Bachelor's degree in Mechanical 
+  bio: A Mechanical Engineer with a Bachelor's degree in Mechanical
       Engineering and a Master's degree in Energy Engineering, specializing in
       Energy Technologies.
   organization:
@@ -10674,9 +10674,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - ams
   location:
@@ -10703,9 +10703,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - ams
   location:
@@ -10732,9 +10732,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - ams
   location:
@@ -10756,14 +10756,14 @@
   mastodon:
   orcidid:
   partners:
-  website: 
+  website:
   board: false
   contributor_type:
     - web-contrib
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location: Stanford, CA
   email:
 - name: Jed Brown
@@ -10771,7 +10771,7 @@
   github_image_id: 3303
   title:
   sort:
-  bio: Physical Prediction, Inference, & Design (PhyPID). Fast algorithms & 
+  bio: Physical Prediction, Inference, & Design (PhyPID). Fast algorithms &
       community software. Prof at CU Boulder. Alpinist, skier, runner.
   organization: CU Boulder
   date_added: '2025-09-27'
@@ -10788,10 +10788,10 @@
   board: false
   contributor_type:
     - web-contrib
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
-  packages_reviewed: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
   location:
   email: jed@jedbrown.org
 - name: Nicolás Guarín-Zapata
@@ -10816,9 +10816,9 @@
   contributor_type:
     - peer-review
     - reviewer
-  packages_eic: 
-  packages_editor: 
-  packages_submitted: 
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
     - felupe
   location: Medellín
@@ -10828,7 +10828,7 @@
   github_image_id: 5793153
   title:
   sort:
-  bio: PhD Candidate in Mechanical Engineering@ TU Graz. Development Engineer 
+  bio: PhD Candidate in Mechanical Engineering@ TU Graz. Development Engineer
       in the Railway Industry. Opinions related to this account are my own.
   organization: Graz University of Technology
   date_added: '2025-09-27'
@@ -10841,16 +10841,16 @@
   mastodon:
   orcidid:
   partners:
-  website: 
+  website:
   board: false
   contributor_type:
     - maintainer
     - peer-review
     - submitting-author
-  packages_eic: 
-  packages_editor: 
+  packages_eic:
+  packages_editor:
   packages_submitted:
     - felupe
-  packages_reviewed: 
+  packages_reviewed:
   location: Graz, Austria
   email:
