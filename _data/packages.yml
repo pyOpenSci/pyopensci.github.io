@@ -140,6 +140,57 @@
   labels:
     - 6/pyOS-approved
   active: true
+- package_name: FElupe
+  package_description: Finite element analysis for continuum mechanics of
+      solid bodies.
+  submitting_author:
+      name: Andreas Dutzler
+      github_username: adtzlr
+  all_current_maintainers:
+    - name: Andreas Dutzler
+      github_username: adtzlr
+  repository_link: https://github.com/adtzlr/felupe
+  version_submitted: ~v9.0.0~ v9.1.0 (updated on 2024-11-23)
+  categories:
+    - data-retrieval
+    - data-extraction
+    - data-processing-munging
+    - data-visualization
+  editor:
+      name: Tetsuo Koyama
+      github_username: tkoyama010
+  eic:
+      name: Chiara Marmo
+      github_username: cmarmo
+  reviewers:
+    - name: Nicolás Guarín-Zapata
+      github_username: nicoguaro
+    - name: Carter Lee Rhea
+      github_username: crhea93
+  archive: https://doi.org/10.5281/zenodo.17202699
+  version_accepted: 9.4.0
+  date_accepted: 2025-9-18
+  created_at: 2024-09-14 22:37:44+00:00
+  updated_at: 2025-09-27 13:18:29+00:00
+  closed_at:
+  issue_link: https://github.com/pyOpenSci/software-submission/issues/212
+  joss:
+  partners:
+  gh_meta:
+      name: felupe
+      description: finite element analysis for continuum mechanics of solid
+          bodies
+      created_at: '2021-04-22'
+      stargazers_count: 138
+      watchers_count: 5
+      open_issues_count: 7
+      forks_count: 16
+      documentation: https://felupe.readthedocs.io/en/stable
+      contrib_count: 3
+      last_commit: '2025-09-27'
+  labels:
+    - 6/pyOS-approved
+  active: true
 - package_name: Solar Data Tools
   package_description: Library of tools for analyzing photovoltaic power
       time-series data.
@@ -185,13 +236,13 @@
       description: 'Some data analysis tools for working with historical PV solar
           time-series data sets. '
       created_at: '2019-02-17'
-      stargazers_count: 83
+      stargazers_count: 84
       watchers_count: 9
       open_issues_count: 2
       forks_count: 29
       documentation: https://solar-data-tools.readthedocs.io
       contrib_count: 19
-      last_commit: '2025-08-26'
+      last_commit: '2025-09-25'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -288,7 +339,7 @@
       stargazers_count: 48
       watchers_count: 5
       open_issues_count: 117
-      forks_count: 16
+      forks_count: 17
       documentation: https://www.montepy.org/
       contrib_count: 6
       last_commit: '2025-09-08'
@@ -334,10 +385,10 @@
       name: great-tables
       description: Make awesome display tables using Python
       created_at: '2022-05-06'
-      stargazers_count: 2458
+      stargazers_count: 2474
       watchers_count: 15
       open_issues_count: 121
-      forks_count: 103
+      forks_count: 104
       documentation: https://posit-dev.github.io/great-tables/
       contrib_count: 25
       last_commit: '2025-08-25'
@@ -393,7 +444,7 @@
       stargazers_count: 203
       watchers_count: 19
       open_issues_count: 48
-      forks_count: 165
+      forks_count: 166
       documentation: https://stingray.science/stingray
       contrib_count: 55
       last_commit: '2025-09-09'
@@ -757,11 +808,11 @@
       created_at: '2017-10-19'
       stargazers_count: 21
       watchers_count: 2
-      open_issues_count: 17
+      open_issues_count: 16
       forks_count: 7
       documentation: https://martini.readthedocs.io/
       contrib_count: 1
-      last_commit: '2025-05-27'
+      last_commit: '2025-09-25'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1066,7 +1117,7 @@
       description: A Python library for simulating finite automata, pushdown
           automata, and Turing machines
       created_at: '2016-02-16'
-      stargazers_count: 387
+      stargazers_count: 388
       watchers_count: 8
       open_issues_count: 10
       forks_count: 69
@@ -1187,7 +1238,7 @@
       name: sunpy
       description: SunPy - Python for Solar Physics
       created_at: '2011-08-06'
-      stargazers_count: 966
+      stargazers_count: 967
       watchers_count: 47
       open_issues_count: 268
       forks_count: 614
@@ -1378,13 +1429,13 @@
       description: Quickly search, compare, and analyze genomic and
           metagenomic data sets.
       created_at: '2016-04-09'
-      stargazers_count: 523
+      stargazers_count: 522
       watchers_count: 16
-      open_issues_count: 755
+      open_issues_count: 751
       forks_count: 87
       documentation: https://sourmash.readthedocs.io/en/latest/
       contrib_count: 45
-      last_commit: '2025-09-16'
+      last_commit: '2025-09-27'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1476,7 +1527,7 @@
       created_at: '2022-04-22'
       stargazers_count: 86
       watchers_count: 2
-      open_issues_count: 6
+      open_issues_count: 7
       forks_count: 5
       documentation: https://jacksonburns.github.io/astartes/
       contrib_count: 3
@@ -1536,7 +1587,7 @@
       description: CompleX Group Interactions (XGI) is a Python package for
           higher-order networks.
       created_at: '2021-09-08'
-      stargazers_count: 219
+      stargazers_count: 220
       watchers_count: 9
       open_issues_count: 49
       forks_count: 38
@@ -1590,7 +1641,7 @@
       description: A unifying framework for biomedical research knowledge
           graphs
       created_at: '2021-09-10'
-      stargazers_count: 265
+      stargazers_count: 266
       watchers_count: 8
       open_issues_count: 181
       forks_count: 40
@@ -1840,7 +1891,7 @@
       created_at: '2019-11-11'
       stargazers_count: 139
       watchers_count: 9
-      open_issues_count: 54
+      open_issues_count: 55
       forks_count: 15
       documentation: https://python-graphblas.readthedocs.io/en/stable/
       contrib_count: 11
@@ -2093,13 +2144,13 @@
       name: pygmt
       description: A Python interface for the Generic Mapping Tools.
       created_at: '2017-03-17'
-      stargazers_count: 814
+      stargazers_count: 815
       watchers_count: 27
-      open_issues_count: 143
+      open_issues_count: 142
       forks_count: 221
       documentation: https://www.pygmt.org
       contrib_count: 50
-      last_commit: '2025-09-22'
+      last_commit: '2025-09-26'
   labels:
     - 6/pyOS-approved
   active: true
@@ -2432,7 +2483,7 @@
       description: Movement trajectory classes and functions built on top of
           GeoPandas
       created_at: '2018-12-16'
-      stargazers_count: 1336
+      stargazers_count: 1339
       watchers_count: 39
       open_issues_count: 33
       forks_count: 202
@@ -2479,10 +2530,10 @@
       description: A light-weight, flexible, and expressive statistical data
           testing library
       created_at: '2018-11-01'
-      stargazers_count: 4025
+      stargazers_count: 4028
       watchers_count: 20
-      open_issues_count: 424
-      forks_count: 356
+      open_issues_count: 426
+      forks_count: 357
       documentation: https://www.union.ai/pandera
       contrib_count: 167
       last_commit: '2025-09-20'

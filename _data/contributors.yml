@@ -664,6 +664,7 @@
     - peer-review-guide
     - reviewer
   packages_eic:
+    - felupe
     - montepy
     - neonutilities
     - solar data tools
@@ -7711,10 +7712,13 @@
   board: false
   contributor_type:
     - community
+    - editor
     - package-guide
+    - peer-review
     - web-contrib
   packages_eic:
   packages_editor:
+    - felupe
   packages_submitted:
   packages_reviewed:
   location: Japan
@@ -9618,11 +9622,14 @@
     - editor
     - peer-review
     - peer-review-guide
+    - reviewer
+    - web-contrib
   packages_eic:
   packages_editor:
     - piva
   packages_submitted:
   packages_reviewed:
+    - felupe
   location: Montreal, QC, CANADA
   email:
 - name: Jinning Wang
@@ -10731,4 +10738,119 @@
   packages_reviewed:
     - ams
   location:
+  email:
+- name: Ellie Abrahams
+  github_username: elliesch
+  github_image_id: 12628861
+  title:
+  sort:
+  bio: cryosphere + image processing + data science
+  organization: Stanford, University
+  date_added: '2025-09-27'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - web-contrib
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: Stanford, CA
+  email:
+- name: Jed Brown
+  github_username: jedbrown
+  github_image_id: 3303
+  title:
+  sort:
+  bio: Physical Prediction, Inference, & Design (PhyPID). Fast algorithms &
+      community software. Prof at CU Boulder. Alpinist, skier, runner.
+  organization: CU Boulder
+  date_added: '2025-09-27'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://jedbrown.org
+  board: false
+  contributor_type:
+    - web-contrib
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location:
+  email: jed@jedbrown.org
+- name: Nicolás Guarín-Zapata
+  github_username: nicoguaro
+  github_image_id: 1097787
+  title:
+  sort:
+  bio:
+  organization: Universidad EAFIT
+  date_added: '2025-09-27'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter: nicoguaro
+  mastodon:
+  orcidid:
+  partners:
+  website: https://nicoguaro.github.io
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - felupe
+  location: Medellín
+  email:
+- name: Andreas Dutzler
+  github_username: adtzlr
+  github_image_id: 5793153
+  title:
+  sort:
+  bio: PhD Candidate in Mechanical Engineering@ TU Graz. Development Engineer
+      in the Railway Industry. Opinions related to this account are my own.
+  organization: Graz University of Technology
+  date_added: '2025-09-27'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+    - submitting-author
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - felupe
+  packages_reviewed:
+  location: Graz, Austria
   email:
