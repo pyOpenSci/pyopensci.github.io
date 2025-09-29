@@ -47,6 +47,9 @@ community-created:
      excerpt: "
      Our packaging guide is a living document that will help you navigate the Python packaging ecosystem and learn about modern Python packaging best practices.
 
+     Explore our Python packaging guide: [Python Packaging Guide](/python-package-guide/).
+
+
     * Created & curated by the community
 
     * Reviewed by beginner to expert level Pythonistas
