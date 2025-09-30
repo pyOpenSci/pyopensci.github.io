@@ -1,3 +1,38 @@
+- name: Zhiang He
+  github_username: HzaCode
+  github_image_id: 0
+  title:
+    - Package Maintainer
+    - Submitting Author
+  sort: 0
+  bio: Developer of ChemInformant, a robust data acquisition engine for the
+      PubChem database. A clinician passionate about scientific
+      software development.
+  organization: Independent
+  date_added: '2025-09-30'
+  deia_advisory: false
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://hezhiang.com
+  board: false
+  contributor_type:
+    - code-contrib
+    - maintainer
+    - package-maintainer
+    - submitting-author
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - cheminformant
+  packages_reviewed:
+  location: China
+  email: ang@hezhiang.com
 - name: Leah Wasser
   github_username: lwasser
   github_image_id: 7649194
