@@ -198,3 +198,17 @@ Mandy Moore:
     - label: "Discord"
       icon: "fab fa-fw fa-discord"
       url: "https://discord.gg/yYyDFP2BcP"
+Jeremiah Paige:
+  name      : "Jeremiah Paige"
+  bio       : "Python Speaker, Teacher, and Contributor of Open Source"
+  avatar    : "/images/people/jeremiah-paige.jpg"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/ucodery"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://blog.ucodery.com"
+    - label: "Mastodon"
+      icon: "fab fa-fw fa-mastodon"
+      url: "https://fosstodon.org/@ucodery"
