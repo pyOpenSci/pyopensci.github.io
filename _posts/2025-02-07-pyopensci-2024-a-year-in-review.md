@@ -237,23 +237,4 @@ Our leadership teams—including the [Executive Council](https://www.pyopensci.o
 
 We look forward to building the future of open science, one contribution at a time—and we invite you to join us on this journey.
 
-<div class="notice" markdown="1">
-## Get involved with pyOpenSci
-
-If you'd like to get involved with pyOpenSci, check out our [volunteer page](/volunteer.html).
-
-You can also:
-
-* Keep an eye on our [events page](/events.html) for upcoming training events.
-
-Follow us on social platforms:
-
-* [<i class="fa-brands fa-discourse"></i> Discourse](https://pyopensci.discourse.group/)
-* [<i class="fa-brands fa-mastodon"></i> Mastodon](https://fosstodon.org/@pyopensci)
-* [<i class="fa-solid fa-cloud"></i> Bluesky](https://bsky.app/profile/pyopensci.bsky.social)
-* [<i class="fa-brands fa-linkedin"></i> LinkedIn](https://www.linkedin.com/company/pyopensci)
-* [<i class="fa-brands fa-github"></i> GitHub](https://github.com/pyOpenSci)
-
-If you are on LinkedIn, check out and [subscribe to our newsletter, too](https://www.linkedin.com/newsletters/7179551305344933888/?displayConfirmation=true).
-
-</div>
+{% include connect-with-pyos.html %}
