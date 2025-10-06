@@ -218,27 +218,4 @@ Looking ahead, we’re excited to run more events like this to support pyOpenSci
 Check our blog and events page for upcoming events and opportunities to engage with the vibrant pyOpenSci community. <i class="fa-solid fa-hand-sparkles"></i>
 
 
-<div class="notice" markdown="1">
-
-## Support open science: Get involved with pyOpenSci
-
-* Volunteer to be an editor in our peer review process
-* Submit a scientific Python package to pyOpenSci for peer review
-* Donate to pyOpenSci to support scholarships for future training events and the development of new learning content.
-* check out our [volunteer page](/volunteer.html) for other ways to get involved.
-
-You can also:
-
-* Keep an eye on our [events page](/events.html) for upcoming training events.
-
-Follow us on social platforms:
-
-* [<i class="fa-brands fa-discourse"></i> Discourse](https://pyopensci.discourse.group/)
-* [<i class="fa-brands fa-mastodon"></i> Mastodon](https://fosstodon.org/@pyopensci)
-* [<i class="fa-solid fa-cloud"></i> Bluesky](https://bsky.app/profile/pyopensci.bsky.social)
-* [<i class="fa-brands fa-linkedin"></i> LinkedIn](https://www.linkedin.com/company/pyopensci)
-* [<i class="fa-brands fa-github"></i> GitHub](https://github.com/pyOpenSci)
-
-If you are on LinkedIn, check out and [subscribe to our newsletter, too](https://www.linkedin.com/newsletters/7179551305344933888/?displayConfirmation=true).
-
-</div>
+{% include connect-with-pyos.html %}

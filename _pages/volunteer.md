@@ -133,22 +133,4 @@ pyOpenSci has a diverse and vibrant community of pythonistas! To date,
 </div>
 
 
-<div class="pyos-section" markdown="1">
-<div class="content padding" markdown="1">
-
-
-## Learn more about volunteering with pyOpenSci
-
-If you still have questions about volunteer roles at pyOpenSci, email our Community team at [media@pyopensci.org](mailto:media@pyopensci.org), and we’d be more than happy to help! You can also ask questions and network with the broader pyOpenSci community on our [Discourse forum](https://pyopensci.discourse.group/).
-
-## Let's connect!
-
-** [<i class="fa-brands fa-mastodon"></i> Mastodon](https://fosstodon.org/@pyopensci)
-** [<i class="fa-solid fa-cloud"></i> Bluesky](https://bsky.app/profile/pyopensci.bsky.social)
-** [<i class="fa-brands fa-linkedin"></i> LinkedIn](https://www.linkedin.com/company/pyopensci)
-** [<i class="fa-brands fa-github"></i> GitHub](https://github.com/pyOpenSci)
-** [<i class="fa-brands fa-discord"></i> Discord](https://discord.gg/yYyDFP2BcP)
-
-
-</div>
-</div>
+{% include connect-with-pyos.html %}

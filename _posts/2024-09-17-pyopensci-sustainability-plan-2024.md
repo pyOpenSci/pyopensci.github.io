@@ -172,43 +172,4 @@ We look forward to seeing you there!
 ~ Leah with support from the [pyOpenSci Executive Council - Tracy Teal & Karen Cranston](/our-community/index.html#executive-council-leadership--staff)
 
 
-
-<div class="notice" markdown="1">
-## Get involved with pyOpenSci
-
-* support a scholarship (or two) to our [pyOpenSci Fall Festival](events/pyopensci-2024-fall-festival.html)
-helpers at our workshops
-* if you'd like to get involved with pyOpenSci, check out our [volunteer page](/volunteer.html).
-
-You can also:
-
-* Keep an eye on our [events page](/events.html) for upcoming training events.
-
-Follow us on social platforms:
-
-* [<i class="fa-brands fa-discourse"></i> Discourse](https://pyopensci.discourse.group/)
-* [<i class="fa-brands fa-mastodon"></i> Mastodon](https://fosstodon.org/@pyopensci)
-* [<i class="fa-solid fa-cloud"></i> Bluesky](https://bsky.app/profile/pyopensci.bsky.social)
-* [<i class="fa-brands fa-linkedin"></i> LinkedIn](https://www.linkedin.com/company/pyopensci)
-* [<i class="fa-brands fa-github"></i> GitHub](https://github.com/pyOpenSci)
-
-If you are on LinkedIn, checkout and [subscribe to our newsletter, too](https://www.linkedin.com/newsletters/7179551305344933888/?displayConfirmation=true).
-
-</div>
-
-
-
-
-
-
-<!--
-Our next training event is the inaugural [pyOpenSci Fall Festival](events/pyopensci-2024-fall-festival.html)--a week-long event that teaches skills needed to:
-
-* write cleaner, more modular code,
-* package and share code,
-* publish and cite code, and
-* create reproducible reports that connect code, data, and outputs into a dynamically produced interactive publication.
-
-During these workshops we will explore the use (and dangers) of using LLM's in the learning and workflow development process. The first day is a set of free, online keynote talks. Be sure to get your ticket before they sell out!
-
-I look forward to seeing you there! -->
+{% include connect-with-pyos.html %}

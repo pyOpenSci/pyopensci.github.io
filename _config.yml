@@ -102,7 +102,7 @@ social:
   type: # Person or Organization (defaults to Person)
   name: # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-
+  bluesky: https://bsky.app/profile/pyopensci.org
 # Analytics
 analytics:
   provider:  false # false (default), "google", "google-universal", "custom"
@@ -120,49 +120,46 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:your.name@email.com
+      url: mailto:media@pyopensci.org
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/pyopensci"
-      # /images/people/pyopensc-executive-council.png"
     - label: "Bluesky"
       icon: "fa-solid fa-cloud"
-      # url: "https://bluesky.com/"
+      url: "https://bsky.app/profile/pyopensci.org"
     - label: "Mastodon"
       icon: "fa-brands fa-mastodon"
       url:
     - label: "LinkedIn"
       icon: "fa-brands fa-linkedin"
-      # url: "https://linkedin.com/"
+      url: "https://www.linkedin.com/company/pyopensci/"
     - label: "Discord"
       icon: "fa-brands fa-discord"
       url: "https://discord.gg/yYyDFP2BcP"
 
 
-
 # Site Footer
 footer:
   scripts:
-
   links:
     - label: "Mastodon"
       icon: "fab fa-fw fa-mastodon"
       url: https://fosstodon.org/@pyOpenSci
     - label: "Bluesky"
       icon: "fa-solid fa-cloud"
-      url: https://bsky.app/profile/pyopensci.bsky.social
+      url: https://bsky.app/profile/pyopensci.org
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: https://www.linkedin.com/company/pyopensci
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: https://github.com/pyOpenSci
+    - label: "YouTube"
+      icon: "fa-brands fa-youtube"
+      url: "https://www.youtube.com/@pyopensci"
     - label: "Discord"
       icon: "fa-brands fa-discord"
       url: "https://discord.gg/yYyDFP2BcP"
-    - label: "Discourse"
-      icon: "fa-brands fa-discourse"
-      url: "https://pyopensci.discourse.group/"
 
 # Reading Files
 include:

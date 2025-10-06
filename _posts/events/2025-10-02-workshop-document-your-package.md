@@ -100,33 +100,5 @@ This workshop is part of pyOpenSci's commitment to building better research soft
 
 Full refund available up to 24 hours before the workshop. We want you to be completely satisfied with your learning experience.
 
-<div class="notice" markdown="1">
 
-<i class="fa-solid fa-users-line"></i> Connect with us!
-{: .header }
-
-Ready to transform your package's documentation?
-
-* **Register:** [REGISTER BUTTON LINK]
-* **Questions:** [contact email]
-* **Community:** Join our [Discourse forum](https://pyopensci.discourse.group/) for package-related discussions
-
-This workshop is part of pyOpenSci's mission to build a more diverse and inclusive scientific Python community. We support the Python tools that scientists need to create open science workflows.
-
-You can also:
-
-* Check out our [Python Package Guide](https://www.pyopensci.org/python-package-guide/index.html) for comprehensive packaging guidance
-* [Submit a Python package to pyOpenSci for peer review](https://www.pyopensci.org/software-peer-review/how-to/author-guide.html#submit-your-package-for-peer-review)
-* Keep an eye on our [events page](/events.html) for upcoming training events
-
-Follow us on social platforms:
-
-* [<i class="fa-brands fa-discourse" style="color:#81c0aa;"></i> Discourse](https://pyopensci.discourse.group/)
-* [<i class="fa-brands fa-mastodon" style="color:#81c0aa;"></i> Mastodon](https://fosstodon.org/@pyopensci)
-* [<i class="fa-solid fa-cloud" style="color:#81c0aa;"></i> Bluesky](https://bsky.app/profile/pyopensci.bsky.social)
-* [<i class="fa-brands fa-linkedin" style="color:#81c0aa;"></i> LinkedIn](https://www.linkedin.com/company/pyopensci)
-* [<i class="fa-brands fa-github" style="color:#81c0aa;"></i> GitHub](https://github.com/pyOpenSci)
-
-If you are on LinkedIn, check out and [subscribe to our newsletter, too](https://www.linkedin.com/newsletters/7179551305344933888/?displayConfirmation=true).
-
-</div
+{% include connect-with-pyos.html %}
