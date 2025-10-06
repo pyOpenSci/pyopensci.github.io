@@ -235,7 +235,7 @@ Follow us on social platforms:
 
 * [<i class="fa-brands fa-discourse"></i> Discourse](https://pyopensci.discourse.group/)
 * [<i class="fa-brands fa-mastodon"></i> Mastodon](https://fosstodon.org/@pyopensci)
-* [<i class="fa-solid fa-cloud"></i> Bluesky](https://bsky.app/profile/pyopensci.bsky.social)
+* [<i class="fa-solid fa-cloud"></i> Bluesky](https://bsky.app/profile/pyopensci.org)
 * [<i class="fa-brands fa-linkedin"></i> LinkedIn](https://www.linkedin.com/company/pyopensci)
 * [<i class="fa-brands fa-github"></i> GitHub](https://github.com/pyOpenSci)
 

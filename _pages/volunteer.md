@@ -144,7 +144,7 @@ If you still have questions about volunteer roles at pyOpenSci, email our Commun
 ## Let's connect!
 
 ** [<i class="fa-brands fa-mastodon"></i> Mastodon](https://fosstodon.org/@pyopensci)
-** [<i class="fa-solid fa-cloud"></i> Bluesky](https://bsky.app/profile/pyopensci.bsky.social)
+** [<i class="fa-solid fa-cloud"></i> Bluesky](https://bsky.app/profile/pyopensci.org)
 ** [<i class="fa-brands fa-linkedin"></i> LinkedIn](https://www.linkedin.com/company/pyopensci)
 ** [<i class="fa-brands fa-github"></i> GitHub](https://github.com/pyOpenSci)
 ** [<i class="fa-brands fa-discord"></i> Discord](https://discord.gg/yYyDFP2BcP)
