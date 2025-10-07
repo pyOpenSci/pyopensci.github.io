@@ -532,6 +532,16 @@
         "review",
         "blog"
       ]
+    },
+    {
+      "login": "VeckoTheGecko",
+      "name": "Nick Hodgskin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/36369090?v=4",
+      "profile": "http://vecko.me",
+      "contributions": [
+        "code",
+        "bug"
+      ]
     }
   ],
   "commitConvention": "angular",
