@@ -26,7 +26,7 @@ comments: true
 
 Prices are in US Dollars. This workshop not only provides you with expert training, but it also supports the work that pyOpenSci does to support scientific open source.
 
-| Ticket Type |Early Bird (Before 5 October 2025 ) | Regular |
+| Ticket Type |Early Bird (Before 24 October 2025 ) | Regular |
 | Regular | $149  | $199 |
 | Student | $45  | $85 |
 
