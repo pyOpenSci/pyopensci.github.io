@@ -1,3 +1,63 @@
+- package_name: ChemInformant
+  package_description: A robust, high-throughput Python client for retrieving
+      chemical information from the PubChem API; it returns analysis-ready
+      Pandas/SQL outputs, handles caching, rate-limiting and retries, and
+      includes convenient CLI tools.
+  submitting_author:
+      name: Zhiang He
+      github_username: HzaCode
+  all_current_maintainers:
+    - name: Zhiang He
+      github_username: HzaCode
+  repository_link: https://github.com/HzaCode/ChemInformant
+  version_submitted: 2.4.3
+  categories:
+    - data-retrieval
+    - data-extraction
+    - data-processing-munging
+    - data-deposition
+    - data-validation-testing
+    - data-visualization
+    - workflow-automation
+    - citation-management-bibliometrics
+    - scientific-software-wrapper
+    - database-interoperability
+  editor:
+      name: Eliot Robson
+      github_username: eliotwrobson
+  eic:
+      name: Eliot Robson
+      github_username: eliotwrobson
+  reviewers:
+    - name: Eliot Robson
+      github_username: eliotwrobson
+    - name: Eliot Robson
+      github_username: eliotwrobson
+  archive: https://zenodo.org/doi/10.5281/zenodo.17233178
+  version_accepted: 2.4.3
+  date_accepted: '2025-09-30'
+  created_at: 2025-07-31 00:00:00+00:00
+  updated_at: 2025-09-30 00:00:00+00:00
+  closed_at: 2025-09-30 00:00:00+00:00
+  issue_link: https://github.com/pyOpenSci/software-submission/issues/254
+  joss: https://doi.org/10.21105/joss.08341
+  partners:
+  gh_meta:
+      name: ChemInformant
+      description: A robust, high-throughput Python client for retrieving
+          chemical information from the PubChem API
+      created_at: '2025-06-01'
+      stargazers_count: 4
+      watchers_count: 2
+      open_issues_count: 0
+      forks_count: 1
+      documentation: https://hezhiang.com/cheminformant_real.html
+      contrib_count: 2
+      last_commit: '2025-09-30'
+  labels:
+    - 6/pyOS-approved
+    - 9/joss-approved
+  active: true
 - package_name: PIVA
   package_description: Visualization and analysis toolkit for experimental
       data from Angle-Resolved Photoemission Spectroscopy (ARPES)
