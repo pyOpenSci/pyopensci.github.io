@@ -171,7 +171,7 @@
   version_accepted: 9.4.0
   date_accepted: 2025-9-18
   created_at: 2024-09-14 22:37:44+00:00
-  updated_at: 2025-09-27 13:18:29+00:00
+  updated_at: 2025-09-29 07:45:06+00:00
   closed_at:
   issue_link: https://github.com/pyOpenSci/software-submission/issues/212
   joss:
@@ -187,7 +187,7 @@
       forks_count: 16
       documentation: https://felupe.readthedocs.io/en/stable
       contrib_count: 3
-      last_commit: '2025-09-27'
+      last_commit: '2025-09-28'
   labels:
     - 6/pyOS-approved
   active: true
@@ -342,7 +342,7 @@
       forks_count: 17
       documentation: https://www.montepy.org/
       contrib_count: 6
-      last_commit: '2025-09-08'
+      last_commit: '2025-09-29'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -385,10 +385,10 @@
       name: great-tables
       description: Make awesome display tables using Python
       created_at: '2022-05-06'
-      stargazers_count: 2474
+      stargazers_count: 2477
       watchers_count: 15
       open_issues_count: 121
-      forks_count: 104
+      forks_count: 103
       documentation: https://posit-dev.github.io/great-tables/
       contrib_count: 25
       last_commit: '2025-08-25'
@@ -602,7 +602,7 @@
       description: Python (and C++) interface to PartMC with Jupyter/Python,
           Julia and Matlab examples
       created_at: '2021-10-26'
-      stargazers_count: 31
+      stargazers_count: 32
       watchers_count: 5
       open_issues_count: 50
       forks_count: 14
@@ -712,7 +712,7 @@
       forks_count: 8
       documentation: https://ltb.curent.org
       contrib_count: 2
-      last_commit: '2025-09-01'
+      last_commit: '2025-09-29'
   labels:
     - 6/pyOS-approved
   active: true
@@ -1431,11 +1431,11 @@
       created_at: '2016-04-09'
       stargazers_count: 522
       watchers_count: 16
-      open_issues_count: 751
+      open_issues_count: 750
       forks_count: 87
       documentation: https://sourmash.readthedocs.io/en/latest/
       contrib_count: 45
-      last_commit: '2025-09-27'
+      last_commit: '2025-09-29'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1747,8 +1747,8 @@
       open_issues_count: 3
       forks_count: 4
       documentation: https://pyafscgap.org
-      contrib_count: 2
-      last_commit: '2025-01-08'
+      contrib_count: 3
+      last_commit: '2025-09-29'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1946,7 +1946,7 @@
       forks_count: 66
       documentation: https://xclim.readthedocs.io/en/stable/
       contrib_count: 41
-      last_commit: '2025-09-19'
+      last_commit: '2025-09-29'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -2146,11 +2146,11 @@
       created_at: '2017-03-17'
       stargazers_count: 815
       watchers_count: 27
-      open_issues_count: 142
-      forks_count: 221
+      open_issues_count: 141
+      forks_count: 223
       documentation: https://www.pygmt.org
       contrib_count: 50
-      last_commit: '2025-09-26'
+      last_commit: '2025-09-29'
   labels:
     - 6/pyOS-approved
   active: true
@@ -2483,7 +2483,7 @@
       description: Movement trajectory classes and functions built on top of
           GeoPandas
       created_at: '2018-12-16'
-      stargazers_count: 1339
+      stargazers_count: 1341
       watchers_count: 39
       open_issues_count: 33
       forks_count: 202
@@ -2530,7 +2530,7 @@
       description: A light-weight, flexible, and expressive statistical data
           testing library
       created_at: '2018-11-01'
-      stargazers_count: 4028
+      stargazers_count: 4032
       watchers_count: 20
       open_issues_count: 426
       forks_count: 357

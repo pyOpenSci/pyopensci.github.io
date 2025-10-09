@@ -10748,7 +10748,7 @@
   organization: Stanford, University
   date_added: '2025-09-27'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -10776,7 +10776,7 @@
   organization: CU Boulder
   date_added: '2025-09-27'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -10803,7 +10803,7 @@
   organization: Universidad EAFIT
   date_added: '2025-09-27'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -10833,7 +10833,7 @@
   organization: Graz University of Technology
   date_added: '2025-09-27'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
