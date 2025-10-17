@@ -19,7 +19,7 @@ The members of pyOpenSci spend a great deal of time selecting these tools, debat
 
 Our rubric comes from five categories, approximately ordered as follows:
 
-## Tools That Are Free and Open
+## Tools that are free and open
 
 We love open software! It's kind of in our name. We are always looking to nurture and support open source software, even beyond packaging projects. It should come as no surprise then, that we only choose tools in our packaging guide that are themselves open source.
 
@@ -27,7 +27,7 @@ We don’t just appreciate open source though, we also look for projects that ar
 
 Our commitment to open software goes beyond just projects that choose to host their code and bugs in a public manner. We also value Free Software; both as in Beer and as in Freedom. Permissive open source software empowers its users to take control of their tools and fix, extend, secure, and adapt code for the purposes that will best fit their own needs. Choosing projects that do not require a financial exchange in order to be used ensures that we can recommend our choices to anyone no matter their situation or location.
 
-## Tools That Are Inclusive
+## Tools that are inclusive
 
 Inclusivity is very important to us; it is a critical component of tooling projects we select. Programming, including packaging of that software, is a skill that should be available to everyone.
 
@@ -37,7 +37,7 @@ There are some signals that we look for to tell if the project is inclusive. We 
 
 Projects that manage to attract and maintain a large collection of contributors will be viewed much more positively (not only code, but documentation if it is separate, engagement with the bug tracker, external write ups and tutorials, and so forth).
 
-## Tools That Implement Open Standards
+## Tools that implement open standards
 
 It is very important to us that the tools and processes we stand behind support the full set of community standards.
 
@@ -47,13 +47,13 @@ Supporting community standards demonstrates that the project respects the commun
 
 It can be a lot of work for tool maintainers to keep up-to-date with changes in standardization, especially in a large and eclectic community such as Python. While we understand that it can take time to implement new features imposed from outside of a project, we also know that a selectively-implemented standard is often worse than no standard.
 
-## Tools That Are Well Supported
+## Tools that are well supported
 
 We would like to only recommend projects that we can confidently say are healthy, correct, and here to stay. A well-maintained project is a somewhat subjective metric that is hard to pin down, but whenever possible we would apply our [same standard](https://www.pyopensci.org/software-peer-review/how-to/author-guide.html#does-your-package-meet-packaging-requirements) for Peer Reviews of Scientific Software.
 
 Authors and maintainers should respond to open issues and continue to make fixes to the project. We do not have any expectation or metric of response time, open bug count, time to close commit requests, security artifacts, or any other level of effort requirement; only that the project is alive and healthy to the degree that is appropriate for its function. We also strongly prefer projects that have a team of core maintainers as opposed to an individual maintainer.
 
-## Tools That Reduce User Choices
+## Tools that reduce user choices
 
 Python packaging suffers, perhaps infamously, from [Too Many Options](https://www.pyopensci.org/blog/python-packaging-friends-dont-let-friends-package-alone.html#just-say-no-to-tmo). We would like to make as many choices as we can on behalf of the learner. Better yet is to make choices that will eliminate further choices to be made later on in the process; this can help stop runaway analysis paralysis.
 
