@@ -4386,8 +4386,8 @@
   github_image_id: 1345068
   title:
     - Editor
-    - Editor in Chief
-  sort: 0
+    - Emeritus Editor in Chief
+  sort: 1
   bio: I'm just this guy, you know?
   organization: UIUC
   date_added: '2023-09-11'
@@ -5390,8 +5390,10 @@
 - name: Lauren Yee
   github_username: yeelauren
   github_image_id: 12127746
-  title: Editor
-  sort: 2
+  title: 
+    - Editor
+    - Editor in Chief
+  sort: 0
   bio:
   organization:
   date_added: '2023-12-21'
