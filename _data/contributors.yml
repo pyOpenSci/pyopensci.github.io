@@ -5390,7 +5390,7 @@
 - name: Lauren Yee
   github_username: yeelauren
   github_image_id: 12127746
-  title: 
+  title:
     - Editor
     - Editor in Chief
   sort: 0
@@ -8494,6 +8494,7 @@
   website:
   board: false
   contributor_type:
+    - package-guide
     - web-contrib
   packages_eic:
   packages_editor:
@@ -10882,7 +10883,7 @@
   organization:
   date_added: '2025-10-17'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -10909,7 +10910,7 @@
   organization: Utrecht University
   date_added: '2025-10-17'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -10938,7 +10939,7 @@
   organization:
   date_added: '2025-10-17'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -10969,7 +10970,7 @@
   organization:
   date_added: '2025-10-17'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -10999,7 +11000,7 @@
   organization: Research scientist
   date_added: '2025-10-17'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -11028,7 +11029,7 @@
   organization: Space and Astrophysics Research Lab
   date_added: '2025-10-17'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -11058,7 +11059,7 @@
   organization:
   date_added: '2025-10-17'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -11088,7 +11089,7 @@
   organization:
   date_added: '2025-10-17'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -11108,4 +11109,31 @@
     - blockingpy
   packages_reviewed:
   location:
+  email:
+- name: Michael Pilosov, PhD
+  github_username: mathematicalmichael
+  github_image_id: 40366263
+  title:
+  sort:
+  bio: artist trapped in a mathematician's mind
+  organization: '@mindthemath'
+  date_added: '2025-10-18'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter: compmathematics
+  mastodon:
+  orcidid:
+  partners:
+  website: https://mpilosov.com
+  board: false
+  contributor_type:
+    - package-guide
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: Denver, CO
   email:
