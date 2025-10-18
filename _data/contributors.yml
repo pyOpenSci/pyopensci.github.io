@@ -541,10 +541,13 @@
   board: false
   contributor_type:
     - leadership
+    - peer-review
+    - reviewer
   packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
+    - swiftgalaxy
   location:
   email:
 - name: Ariane Sasso
@@ -828,6 +831,7 @@
     - cardsort
     - great tables
     - harmonize-wq
+    - pymultifit
     - sciform
     - xclim
   packages_submitted:
@@ -4369,6 +4373,7 @@
     - sunpy
     - zodipy
   packages_editor:
+    - blockingpy
     - quadratik
     - rdata
   packages_submitted:
@@ -4398,17 +4403,22 @@
   website: https://eliotwrobson.github.io/
   board: false
   contributor_type:
+    - editor
+    - eic
     - maintainer
     - peer-review
     - reviewer
     - submitting-author
     - web-contrib
   packages_eic:
+    - cheminformant
   packages_editor:
+    - cheminformant
   packages_submitted:
     - automata
     - cynetdiff
   packages_reviewed:
+    - blockingpy
     - pooltool
   location: Urbana, IL
   email: erobson2@illinois.edu
@@ -7287,6 +7297,7 @@
   packages_editor:
   packages_submitted:
     - martini
+    - swiftgalaxy
   packages_reviewed:
     - petrofit
   location:
@@ -9626,7 +9637,9 @@
     - web-contrib
   packages_eic:
   packages_editor:
+    - blockingpy
     - piva
+    - swiftgalaxy
   packages_submitted:
   packages_reviewed:
     - felupe
@@ -10406,8 +10419,11 @@
     - eic
     - peer-review
   packages_eic:
+    - blockingpy
     - greopy
     - piva
+    - pymultifit
+    - swiftgalaxy
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -10499,6 +10515,7 @@
   packages_submitted:
   packages_reviewed:
     - greopy
+    - pymultifit
   location: Seattle
   email:
 - name: Jonas Eschle
@@ -10748,7 +10765,7 @@
   organization: Stanford, University
   date_added: '2025-09-27'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -10776,7 +10793,7 @@
   organization: CU Boulder
   date_added: '2025-09-27'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -10803,7 +10820,7 @@
   organization: Universidad EAFIT
   date_added: '2025-09-27'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -10833,7 +10850,7 @@
   organization: Graz University of Technology
   date_added: '2025-09-27'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -10853,4 +10870,240 @@
     - felupe
   packages_reviewed:
   location: Graz, Austria
+  email:
+- name:
+  github_username: Michael-Howes
+  github_image_id: 50608711
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2025-10-17'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - package-guide
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location:
+  email:
+- name: Nick Hodgskin
+  github_username: VeckoTheGecko
+  github_image_id: 36369090
+  title:
+  sort:
+  bio: Research Software Engineer at @UtrechtUniversity
+  organization: Utrecht University
+  date_added: '2025-10-17'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - web-contrib
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: Utrecht, Netherlands
+  email:
+- name: Ang
+  github_username: HzaCode
+  github_image_id: 92981090
+  title:
+  sort:
+  bio: Medical Doctor · Open-Source Developer · Marathoner/Tri · CSCS
+      (Finalist) | 🌊 Starting a new research journey soon. | Run as fast as my
+      coding:)
+  organization:
+  date_added: '2025-10-17'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+    - submitting-author
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - cheminformant
+  packages_reviewed:
+  location:
+  email: ang@hezhiang.com
+- name: Blake A. Wilson
+  github_username: blakeaw
+  github_image_id: 20207940
+  title:
+  sort:
+  bio: Computational research science in physical chemistry, systems biology,
+      and nano-bioengineering.
+  organization:
+  date_added: '2025-10-17'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://blakeaw.github.io/
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - swiftgalaxy
+  location: Texas, USA
+  email:
+- name: Kristina Gagalova
+  github_username: KristinaGagalova
+  github_image_id: 25466163
+  title:
+  sort:
+  bio: Life curious and traveller - 🙋🏻‍♀️ Nextflow Ambassador; Works on:🧬
+      Genome Science and Algorithms | 💻 Software Development | 👽 AI dev
+  organization: Research scientist
+  date_added: '2025-10-17'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://kristinagagalova.github.io/
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - pymultifit
+  location:
+  email: kristina.gagalova@curtin.edu.au
+- name: Syed Ali Mohsin Bukhari
+  github_username: syedalimohsinbukhari
+  github_image_id: 68902636
+  title:
+  sort:
+  bio:
+  organization: Space and Astrophysics Research Lab
+  date_added: '2025-10-17'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+    - submitting-author
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - pymultifit
+  packages_reviewed:
+  location: Islamabad, Pakistan
+  email: syedali.b@outlook.com
+- name: Akrita
+  github_username: akritaag
+  github_image_id: 2558622
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2025-10-17'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - blockingpy
+  location: Seattle, WA
+  email: akrita.ag@gmail.com
+- name: Tymoteusz Strojny
+  github_username: T-Strojny
+  github_image_id: 117780025
+  title:
+  sort:
+  bio: Master’s student in Data Processing and Analytics at Adam Mickiewicz
+      University in Poznań
+  organization:
+  date_added: '2025-10-17'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+    - submitting-author
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - blockingpy
+  packages_reviewed:
+  location:
   email:
