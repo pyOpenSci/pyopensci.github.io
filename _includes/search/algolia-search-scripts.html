@@ -78,19 +78,19 @@
       if (!url) return 'Page';
       // Normalize once (strip base domain if present)
       const lower = url.toLowerCase();
-      if (lower.includes('/lessons/')) return 'Lesson';
+      if (lower.includes('python-package-guide/tutorials/')) return 'Tutorial';
+      if (lower.includes('/lessons/')) return 'Tutorial';
       if (lower.includes('/python-package-guide/') || lower.includes('/packaging-guide/')) return 'Packaging Guide';
-      if (lower.includes('/peer-review-guide/')) return 'Peer Review';
+      if (lower.includes('/software-peer-review/')) return 'Peer Review Guide';
       if (lower.includes('/handbook/')) return 'Handbook';
       if (lower.includes('/metrics/')) return 'Metrics';
-      if (lower.includes('/tutorial')) return 'Tutorial';
       if (lower.includes('/events/') || lower.includes('/event/')) return 'Event';
       if (lower.includes('/blog/') || lower.includes('/posts/')) return 'Blog';
       if (lower.includes('/docs/') || lower.includes('/guide/')) return 'Docs';
-      return 'Page';
+      return 'Website';
     }
 
-    // Simplified single-row template (avoids theme grid classes)
+    // Return results in a single easy to read column 
     const hitTemplate = function(hit) {
       const title = resolveTitle(hit);
       const snippet = resolveSnippet(hit);
