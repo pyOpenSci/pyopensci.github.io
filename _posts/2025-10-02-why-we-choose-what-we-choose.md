@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Why We Choose What We Choose"
-excerpt: "In selecting one way to package Python, pyOpenSci chooses between a lot of code tools. These choices often come after months of exploration and debate. Find out what motivates us to make the decisions that we do."
+excerpt: "In selecting one workflow to package a Python project, pyOpenSci chooses between a lot of code tools. These choices often come after months of exploration and debate. Find out what motivates us to make the decisions that we do."
 author: "Jeremiah Paige"
 permalink: /blog/pyopensci-why-we-choose.html
 categories:
@@ -21,9 +21,9 @@ Our rubric comes from five categories, approximately ordered as follows:
 
 ## Tools that are free and open
 
-We love open software! It's kind of in our name. We are always looking to nurture and support open source software, even beyond packaging projects. It should come as no surprise then, that we only choose tools in our packaging guide that are themselves open source.
+We love open software! It's even in our name. We are always looking to nurture and support open source software, even beyond packaging projects. It should come as no surprise, then, that we only choose tools in our packaging guide that are themselves open source.
 
-We don’t just appreciate open source though, we also look for projects that are open contribution – that do most of their maintenance, stewardship, and designing in public. This means that there is a public bug tracker, that new issues to that bug tracker are accepted from anyone, and also fixes for those bugs are accepted from non-maintainers. It may also mean that new feature ideas are accepted from the community, or even given a period of public comment. Contributions from everyone, members and non-members, should be respected as the exchange of free ideas, and project authors should not seek to take exclusive ownership of the collaborative efforts of the community it is a part of. This means that contributors of any level and to any purpose of the project should be recognized publically. It also means that the project is not asking for the exclusive rights of those contributors' ideas (through Contributor License Agreements).
+We don’t just appreciate open source, though, we also look for projects that are open contribution – that do most of their maintenance, stewardship, and designing in public. This means there is a public bug tracker where new issues are accepted from anyone, and fixes for those bugs are also accepted from non-maintainers. It may also mean that new feature ideas are accepted from the community, or even given a period of public comment. Contributions from everyone, including members and non-members, should be respected as the exchange of free ideas. Project authors should not seek to take exclusive ownership of the collaborative efforts of the community they are a part of. This means that contributors of any level and for any purpose of the project should be recognized publicly. It also means that the project is not asking for the exclusive rights to those contributors' ideas (through overly restrictive Contributor License Agreements).
 
 Our commitment to open software goes beyond just projects that choose to host their code and bugs in a public manner. We also value Free Software; both as in Beer and as in Freedom. Permissive open source software empowers its users to take control of their tools and fix, extend, secure, and adapt code for the purposes that will best fit their own needs. Choosing projects that do not require a financial exchange in order to be used ensures that we can recommend our choices to anyone no matter their situation or location.
 
@@ -35,7 +35,7 @@ The tools we advocate for should not seek to limit their use through actions suc
 
 There are some signals that we look for to tell if the project is inclusive. We want all of our recommended tools to have a code of conduct for their project. The project should also have a contributors guide that is easy to find. Labeling issues or running sprints aimed at fostering commits from new contributors is also a great indicator.
 
-Projects that manage to attract and maintain a large collection of contributors will be viewed much more positively (not only code, but documentation if it is separate, engagement with the bug tracker, external write ups and tutorials, and so forth).
+Projects that manage to attract and maintain a broad base of contributors will be viewed more positively. We value projects that strive to do this not only in code, but also in documentation, engagement with the bug tracker, external write-ups and tutorials, and so forth.
 
 ## Tools that implement open standards
 
@@ -55,8 +55,8 @@ Authors and maintainers should respond to open issues and continue to make fixes
 
 ## Tools that reduce user choices
 
-Python packaging suffers, perhaps infamously, from [Too Many Options](https://www.pyopensci.org/blog/python-packaging-friends-dont-let-friends-package-alone.html#just-say-no-to-tmo). We would like to make as many choices as we can on behalf of the learner. Better yet is to make choices that will eliminate further choices to be made later on in the process; this can help stop runaway analysis paralysis.
+Python packaging suffers, perhaps infamously, from [Too Many Options](https://www.pyopensci.org/blog/python-packaging-friends-dont-let-friends-package-alone.html#just-say-no-to-tmo). We would like to make as many pragmatic choices as we can on behalf of the learner. Better yet is to make choices that will eliminate further choices and complexity later on in the process; this can help learners from getting stuck in runaway analysis paralysis.
 
-This means that these tools should implement sane defaults for any configurable value. Like with Python, they should make the simple easy and the difficult possible.
+This means that these tools should implement sensible defaults for any configurable value. Like with Python, they should make the simple easy and the difficult possible.
 
 It also means that we will generally select one tool when two or more could do the same job. So long as the one tool fits our other criteria it doesn't have to "win" at every single task it is capable of doing when compared against a plethora of other tools.
