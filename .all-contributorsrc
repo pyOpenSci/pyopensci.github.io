@@ -560,6 +560,15 @@
       "contributions": [
         "review"
       ]
+    },
+    {
+      "login": "slobentanzer",
+      "name": "Sebastian Lobentanzer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13223629?v=4",
+      "profile": "https://github.com/slobentanzer",
+      "contributions": [
+        "review"
+      ]
     }
   ],
   "commitConvention": "angular",
