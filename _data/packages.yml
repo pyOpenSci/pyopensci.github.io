@@ -95,7 +95,7 @@
       stargazers_count: 7
       watchers_count: 4
       open_issues_count: 3
-      forks_count: 2
+      forks_count: 4
       documentation: https://swiftgalaxy.readthedocs.io/en/latest/index.html
       contrib_count: 3
       last_commit: '2025-10-17'
@@ -139,13 +139,13 @@
       name: pyMultiFit
       description: A library to fit the data with multiple fitters.
       created_at: '2024-07-17'
-      stargazers_count: 3
+      stargazers_count: 4
       watchers_count: 1
       open_issues_count: 8
       forks_count: 0
       documentation: https://pymultifit.readthedocs.io/latest/
       contrib_count: 2
-      last_commit: '2025-10-16'
+      last_commit: '2025-10-19'
   labels:
     - 6/pyOS-approved
   active: true
@@ -384,11 +384,11 @@
       created_at: '2021-04-22'
       stargazers_count: 143
       watchers_count: 4
-      open_issues_count: 8
+      open_issues_count: 7
       forks_count: 16
       documentation: https://felupe.readthedocs.io/en/stable
       contrib_count: 4
-      last_commit: '2025-10-15'
+      last_commit: '2025-10-21'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -587,9 +587,9 @@
       name: great-tables
       description: Make awesome display tables using Python
       created_at: '2022-05-06'
-      stargazers_count: 2496
+      stargazers_count: 2504
       watchers_count: 14
-      open_issues_count: 122
+      open_issues_count: 125
       forks_count: 103
       documentation: https://posit-dev.github.io/great-tables/
       contrib_count: 25
@@ -806,7 +806,7 @@
       created_at: '2021-10-26'
       stargazers_count: 31
       watchers_count: 5
-      open_issues_count: 50
+      open_issues_count: 49
       forks_count: 14
       documentation: https://open-atmos.github.io/PyPartMC/
       contrib_count: 9
@@ -956,13 +956,13 @@
       name: pooltool
       description: A sandbox billiards game that emphasizes realistic physics
       created_at: '2020-04-09'
-      stargazers_count: 298
+      stargazers_count: 297
       watchers_count: 13
       open_issues_count: 4
-      forks_count: 53
+      forks_count: 54
       documentation: https://pooltool.readthedocs.io
       contrib_count: 8
-      last_commit: '2025-09-20'
+      last_commit: '2025-10-19'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1114,7 +1114,7 @@
       description: Python package to plot a phylogenetic tree on an existing
           matplotlib axis.
       created_at: '2023-12-22'
-      stargazers_count: 25
+      stargazers_count: 26
       watchers_count: 1
       open_issues_count: 7
       forks_count: 1
@@ -1442,11 +1442,11 @@
       created_at: '2011-08-06'
       stargazers_count: 971
       watchers_count: 46
-      open_issues_count: 268
+      open_issues_count: 266
       forks_count: 617
       documentation: https://www.sunpy.org
       contrib_count: 239
-      last_commit: '2025-10-09'
+      last_commit: '2025-10-22'
   labels:
     - 6/pyOS-approved
   active: true
@@ -1631,13 +1631,13 @@
       description: Quickly search, compare, and analyze genomic and
           metagenomic data sets.
       created_at: '2016-04-09'
-      stargazers_count: 523
+      stargazers_count: 524
       watchers_count: 16
-      open_issues_count: 751
+      open_issues_count: 752
       forks_count: 88
       documentation: https://sourmash.readthedocs.io/en/latest/
       contrib_count: 45
-      last_commit: '2025-10-15'
+      last_commit: '2025-10-20'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1843,7 +1843,7 @@
       description: A unifying framework for biomedical research knowledge
           graphs
       created_at: '2021-09-10'
-      stargazers_count: 272
+      stargazers_count: 273
       watchers_count: 8
       open_issues_count: 180
       forks_count: 40
@@ -2142,7 +2142,7 @@
       description: 'Library of derived climate variables, ie climate indicators,
           based on xarray. '
       created_at: '2018-07-27'
-      stargazers_count: 371
+      stargazers_count: 372
       watchers_count: 14
       open_issues_count: 39
       forks_count: 67
@@ -2348,11 +2348,11 @@
       created_at: '2017-03-17'
       stargazers_count: 815
       watchers_count: 26
-      open_issues_count: 138
-      forks_count: 224
+      open_issues_count: 137
+      forks_count: 226
       documentation: https://www.pygmt.org
       contrib_count: 50
-      last_commit: '2025-10-18'
+      last_commit: '2025-10-21'
   labels:
     - 6/pyOS-approved
   active: true
@@ -2732,8 +2732,8 @@
       description: A light-weight, flexible, and expressive statistical data
           testing library
       created_at: '2018-11-01'
-      stargazers_count: 4057
-      watchers_count: 20
+      stargazers_count: 4062
+      watchers_count: 21
       open_issues_count: 427
       forks_count: 360
       documentation: https://www.union.ai/pandera
