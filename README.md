@@ -1,6 +1,6 @@
 # pyopensci.github.io
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-50-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-51-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 [![pages-build-deployment](https://github.com/pyOpenSci/pyopensci.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/pyOpenSci/pyopensci.github.io/actions/workflows/pages/pages-build-deployment)
 [![DOI](https://zenodo.org/badge/174412809.svg)](https://zenodo.org/doi/10.5281/zenodo.10594115)
@@ -169,6 +169,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     </tr>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="http://vecko.me"><img src="https://avatars.githubusercontent.com/u/36369090?v=4?s=100" width="100px;" alt="Nick Hodgskin"/><br /><sub><b>Nick Hodgskin</b></sub></a><br /><a href="https://github.com/pyOpenSci/pyopensci.github.io/commits?author=VeckoTheGecko" title="Code">💻</a> <a href="https://github.com/pyOpenSci/pyopensci.github.io/issues?q=author%3AVeckoTheGecko" title="Bug reports">🐛</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/yuvipanda"><img src="https://avatars.githubusercontent.com/u/30430?v=4?s=100" width="100px;" alt="Yuvi"/><br /><sub><b>Yuvi</b></sub></a><br /><a href="https://github.com/pyOpenSci/pyopensci.github.io/pulls?q=is%3Apr+reviewed-by%3Ayuvipanda" title="Reviewed Pull Requests">👀</a></td>
     </tr>
   </tbody>
 </table>
