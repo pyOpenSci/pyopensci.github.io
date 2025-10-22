@@ -542,6 +542,15 @@
         "code",
         "bug"
       ]
+    },
+    {
+      "login": "yuvipanda",
+      "name": "Yuvi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/30430?v=4",
+      "profile": "https://github.com/yuvipanda",
+      "contributions": [
+        "review"
+      ]
     }
   ],
   "commitConvention": "angular",
