@@ -392,6 +392,7 @@
     - package-guide
     - peer-review
     - reviewer
+    - web-contrib
   packages_eic:
   packages_editor:
     - afscgap
@@ -514,6 +515,7 @@
     - leadership
     - package-guide
     - peer-review-guide
+    - web-contrib
   packages_eic:
   packages_editor:
   packages_submitted:
@@ -5353,6 +5355,7 @@
     - open-education
     - peer-review
     - submitting-author
+    - web-contrib
   packages_eic:
   packages_editor:
   packages_submitted:
