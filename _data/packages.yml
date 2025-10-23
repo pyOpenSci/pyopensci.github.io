@@ -337,7 +337,7 @@
       forks_count: 4
       documentation: https://neon-utilities-python.readthedocs.io/en/latest/
       contrib_count: 5
-      last_commit: '2025-08-14'
+      last_commit: '2025-10-22'
   labels:
     - 6/pyOS-approved
   active: true
@@ -2148,7 +2148,7 @@
       forks_count: 67
       documentation: https://xclim.readthedocs.io/en/stable/
       contrib_count: 41
-      last_commit: '2025-10-17'
+      last_commit: '2025-10-22'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
