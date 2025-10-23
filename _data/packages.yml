@@ -40,7 +40,7 @@
       description: ⚗️ An all-in-one solution for chemical property retrieval
           from PubChem.
       created_at: '2024-01-21'
-      stargazers_count: 5
+      stargazers_count: 6
       watchers_count: 2
       open_issues_count: 0
       forks_count: 1
@@ -77,14 +77,14 @@
       github_username: blakeaw
     - name: Chase Million
       github_username: cmillion
-  archive:
-  version_accepted: TBD
+  archive: https://zenodo.org/doi/10.5281/zenodo.17382007
+  version_accepted: v2.2.1
   date_accepted: missing
   created_at: 2025-05-24 11:05:16+00:00
-  updated_at: 2025-10-17 17:10:52+00:00
+  updated_at: 2025-10-23 13:06:48+00:00
   closed_at:
   issue_link: https://github.com/pyOpenSci/software-submission/issues/244
-  joss:
+  joss: https://joss.theoj.org/papers/10.21105/joss.09278
   partners:
   gh_meta:
       name: swiftgalaxy
@@ -101,6 +101,7 @@
       last_commit: '2025-10-17'
   labels:
     - 6/pyOS-approved
+    - 9/joss-approved
   active: true
 - package_name: pymultifit
   package_description: A python library for fitting data with multiple models.
@@ -142,7 +143,7 @@
       stargazers_count: 4
       watchers_count: 1
       open_issues_count: 8
-      forks_count: 0
+      forks_count: 1
       documentation: https://pymultifit.readthedocs.io/latest/
       contrib_count: 2
       last_commit: '2025-10-19'
@@ -337,7 +338,7 @@
       forks_count: 4
       documentation: https://neon-utilities-python.readthedocs.io/en/latest/
       contrib_count: 5
-      last_commit: '2025-10-22'
+      last_commit: '2025-10-23'
   labels:
     - 6/pyOS-approved
   active: true
@@ -388,7 +389,7 @@
       forks_count: 16
       documentation: https://felupe.readthedocs.io/en/stable
       contrib_count: 4
-      last_commit: '2025-10-21'
+      last_commit: '2025-10-23'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -540,11 +541,11 @@
       created_at: '2024-01-09'
       stargazers_count: 48
       watchers_count: 4
-      open_issues_count: 106
+      open_issues_count: 105
       forks_count: 18
       documentation: https://www.montepy.org/
       contrib_count: 7
-      last_commit: '2025-10-17'
+      last_commit: '2025-10-23'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -587,7 +588,7 @@
       name: great-tables
       description: Make awesome display tables using Python
       created_at: '2022-05-06'
-      stargazers_count: 2504
+      stargazers_count: 2505
       watchers_count: 14
       open_issues_count: 125
       forks_count: 103
@@ -644,7 +645,7 @@
           spectral timing made easy)!
       created_at: '2015-09-30'
       stargazers_count: 204
-      watchers_count: 18
+      watchers_count: 16
       open_issues_count: 50
       forks_count: 167
       documentation: https://stingray.science/stingray
@@ -1441,7 +1442,7 @@
       description: SunPy - Python for Solar Physics
       created_at: '2011-08-06'
       stargazers_count: 971
-      watchers_count: 46
+      watchers_count: 45
       open_issues_count: 266
       forks_count: 617
       documentation: https://www.sunpy.org
@@ -1844,7 +1845,7 @@
           graphs
       created_at: '2021-09-10'
       stargazers_count: 273
-      watchers_count: 8
+      watchers_count: 7
       open_issues_count: 180
       forks_count: 40
       documentation: https://biocypher.org
@@ -1950,7 +1951,7 @@
       forks_count: 4
       documentation: https://pyafscgap.org
       contrib_count: 3
-      last_commit: '2025-09-29'
+      last_commit: '2025-10-23'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -2142,10 +2143,10 @@
       description: 'Library of derived climate variables, ie climate indicators,
           based on xarray. '
       created_at: '2018-07-27'
-      stargazers_count: 372
+      stargazers_count: 373
       watchers_count: 14
       open_issues_count: 39
-      forks_count: 67
+      forks_count: 68
       documentation: https://xclim.readthedocs.io/en/stable/
       contrib_count: 41
       last_commit: '2025-10-22'
@@ -2348,7 +2349,7 @@
       created_at: '2017-03-17'
       stargazers_count: 815
       watchers_count: 26
-      open_issues_count: 137
+      open_issues_count: 138
       forks_count: 226
       documentation: https://www.pygmt.org
       contrib_count: 50
@@ -2732,7 +2733,7 @@
       description: A light-weight, flexible, and expressive statistical data
           testing library
       created_at: '2018-11-01'
-      stargazers_count: 4062
+      stargazers_count: 4063
       watchers_count: 21
       open_issues_count: 427
       forks_count: 360
