@@ -131,7 +131,7 @@
   version_accepted: TBD
   date_accepted: missing
   created_at: 2025-01-21 07:30:12+00:00
-  updated_at: 2025-10-24 11:59:02+00:00
+  updated_at: 2025-10-26 11:14:20+00:00
   closed_at:
   issue_link: https://github.com/pyOpenSci/software-submission/issues/233
   joss:
@@ -149,6 +149,7 @@
       last_commit: '2025-10-24'
   labels:
     - 6/pyOS-approved
+    - 9/joss-approved
   active: true
 - package_name: BlockingPy
   package_description: Blocking records for record linkage and deduplication
@@ -588,7 +589,7 @@
       name: great-tables
       description: Make awesome display tables using Python
       created_at: '2022-05-06'
-      stargazers_count: 2508
+      stargazers_count: 2509
       watchers_count: 14
       open_issues_count: 125
       forks_count: 103
@@ -1638,7 +1639,7 @@
       forks_count: 88
       documentation: https://sourmash.readthedocs.io/en/latest/
       contrib_count: 45
-      last_commit: '2025-10-20'
+      last_commit: '2025-10-26'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1844,7 +1845,7 @@
       description: A unifying framework for biomedical research knowledge
           graphs
       created_at: '2021-09-10'
-      stargazers_count: 273
+      stargazers_count: 274
       watchers_count: 7
       open_issues_count: 180
       forks_count: 40
@@ -1997,7 +1998,7 @@
       stargazers_count: 41
       watchers_count: 4
       open_issues_count: 12
-      forks_count: 7
+      forks_count: 8
       documentation: https://taxpasta.readthedocs.io/
       contrib_count: 5
       last_commit: '2025-08-19'
@@ -2347,7 +2348,7 @@
       name: pygmt
       description: A Python interface for the Generic Mapping Tools.
       created_at: '2017-03-17'
-      stargazers_count: 815
+      stargazers_count: 814
       watchers_count: 26
       open_issues_count: 138
       forks_count: 226
@@ -2735,7 +2736,7 @@
       created_at: '2018-11-01'
       stargazers_count: 4068
       watchers_count: 21
-      open_issues_count: 427
+      open_issues_count: 428
       forks_count: 359
       documentation: https://www.union.ai/pandera
       contrib_count: 167
