@@ -40,7 +40,7 @@
       description: ⚗️ An all-in-one solution for chemical property retrieval
           from PubChem.
       created_at: '2024-01-21'
-      stargazers_count: 7
+      stargazers_count: 9
       watchers_count: 2
       open_issues_count: 0
       forks_count: 1
@@ -92,7 +92,7 @@
           coordinates, easy spherical/cylindrical coordinates, access
           integrated properties, and more.
       created_at: '2022-05-03'
-      stargazers_count: 7
+      stargazers_count: 8
       watchers_count: 4
       open_issues_count: 4
       forks_count: 4
@@ -339,7 +339,7 @@
       forks_count: 4
       documentation: https://neon-utilities-python.readthedocs.io/en/latest/
       contrib_count: 5
-      last_commit: '2025-10-23'
+      last_commit: '2025-10-27'
   labels:
     - 6/pyOS-approved
   active: true
@@ -546,7 +546,7 @@
       forks_count: 18
       documentation: https://www.montepy.org/
       contrib_count: 7
-      last_commit: '2025-10-23'
+      last_commit: '2025-10-27'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -589,7 +589,7 @@
       name: great-tables
       description: Make awesome display tables using Python
       created_at: '2022-05-06'
-      stargazers_count: 2509
+      stargazers_count: 2512
       watchers_count: 14
       open_issues_count: 125
       forks_count: 103
@@ -958,10 +958,10 @@
       name: pooltool
       description: A sandbox billiards game that emphasizes realistic physics
       created_at: '2020-04-09'
-      stargazers_count: 297
+      stargazers_count: 298
       watchers_count: 13
       open_issues_count: 4
-      forks_count: 54
+      forks_count: 55
       documentation: https://pooltool.readthedocs.io
       contrib_count: 8
       last_commit: '2025-10-19'
@@ -1071,7 +1071,7 @@
       forks_count: 10
       documentation: https://cosmoglobe.github.io/zodipy/
       contrib_count: 8
-      last_commit: '2025-10-01'
+      last_commit: '2025-10-27'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1442,7 +1442,7 @@
       name: sunpy
       description: SunPy - Python for Solar Physics
       created_at: '2011-08-06'
-      stargazers_count: 971
+      stargazers_count: 972
       watchers_count: 45
       open_issues_count: 266
       forks_count: 617
@@ -1639,7 +1639,7 @@
       forks_count: 88
       documentation: https://sourmash.readthedocs.io/en/latest/
       contrib_count: 45
-      last_commit: '2025-10-26'
+      last_commit: '2025-10-28'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1851,7 +1851,7 @@
       forks_count: 40
       documentation: https://biocypher.org
       contrib_count: 19
-      last_commit: '2025-09-17'
+      last_commit: '2025-10-28'
   labels:
     - 6/pyOS-approved
   active: true
@@ -2146,11 +2146,11 @@
       created_at: '2018-07-27'
       stargazers_count: 373
       watchers_count: 14
-      open_issues_count: 39
+      open_issues_count: 37
       forks_count: 68
       documentation: https://xclim.readthedocs.io/en/stable/
       contrib_count: 41
-      last_commit: '2025-10-22'
+      last_commit: '2025-10-28'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -2350,11 +2350,11 @@
       created_at: '2017-03-17'
       stargazers_count: 814
       watchers_count: 26
-      open_issues_count: 138
+      open_issues_count: 139
       forks_count: 226
       documentation: https://www.pygmt.org
       contrib_count: 50
-      last_commit: '2025-10-21'
+      last_commit: '2025-10-28'
   labels:
     - 6/pyOS-approved
   active: true
@@ -2734,10 +2734,10 @@
       description: A light-weight, flexible, and expressive statistical data
           testing library
       created_at: '2018-11-01'
-      stargazers_count: 4068
+      stargazers_count: 4071
       watchers_count: 21
       open_issues_count: 428
-      forks_count: 359
+      forks_count: 360
       documentation: https://www.union.ai/pandera
       contrib_count: 167
       last_commit: '2025-10-13'
@@ -2837,7 +2837,7 @@
       description: A package built to support working with spatial data using
           open source python
       created_at: '2018-02-20'
-      stargazers_count: 529
+      stargazers_count: 531
       watchers_count: 16
       open_issues_count: 28
       forks_count: 156
