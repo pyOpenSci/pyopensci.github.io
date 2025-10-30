@@ -26,9 +26,11 @@ comments: true
 
 Prices are in US Dollars. This workshop not only provides you with expert training, but it also supports the work that pyOpenSci does to support scientific open source.
 
-| Ticket Type |Early Bird (Before 24 October 2025 ) | Regular |
+| Ticket Type |Early Bird (Before 5 November 2025 ) | Regular |
 | Regular | $149  | $199 |
 | Student | $45  | $85 |
+| Partner Community (Astropy, PyHC, OpenAstronomy, Pangeo) | $85  | $85 |
+| Partner Community Student (Astropy, PyHC, OpenAstronomy, Pangeo) | $40  | $40 |
 
 
 <i class="fa-regular fa-circle-right"></i> [Register Now on Eventbrite](https://www.eventbrite.com/e/pyopensci-zero-to-pure-python-package-in-minutes-tickets-1677115350159)
@@ -109,4 +111,6 @@ To successfully follow along in this workshop, you should:
 
 ### Your instructors & helpers
 
-[Leah Wasser](https://www.github.com/lwasser), the Executive Director and Founder of pyOpenSci, brings over 20 years of experience teaching technical data science topics in the scientific space. pyOpenSci has worked with hundreds of scientific Python package maintainers and has helped over 50 packages improve their structure and distribution through our peer review process.
+* [**Leah Wasser**](https://www.github.com/lwasser), the Executive Director and Founder of pyOpenSci, brings over 20 years of experience teaching technical data science topics in the scientific space. pyOpenSci has worked with hundreds of scientific Python package maintainers and has helped over 50 packages improve their structure and distribution through our peer review process.
+* [**Jeremiah Paige:**](https://www.github.com/ucodery) is an open source author, contributor, and speaker, specifically working with Python for over 12 years. He is also a software engineer in the secure supply chain industry during work hours.
+* [**Avik Basu:**](https://github.com/ab93) is an open source contributor, speaker, and mentor. He is a seasoned machine learning engineer with extensive experience in both major tech companies and fast-moving startups.
