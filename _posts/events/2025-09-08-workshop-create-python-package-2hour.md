@@ -37,7 +37,7 @@ Prices are in US Dollars. This workshop not only provides you with expert traini
 {: .btn .btn--success }
 
 <div class="notice" markdown="1">
-Scholarships are available to individuals who have been affected by job loss and funding cuts and who don't have the resources to attend our training. We will ensure that scholarship recipients represent a diverse range of voices, backgrounds, and experiences. Scholarships will reduce the cost of the workshop to 20$ (Students) or 45$ (academics and others)
+Scholarships are available to individuals who have been affected by job loss and funding cuts and who don't have the resources to attend our training. We will ensure that scholarship recipients represent a diverse range of voices, backgrounds, and experiences. Scholarships are also available to Undergraduate and Graduate level students. Scholarships will reduce the cost of the workshop to 20$ (Students) or 45$ (continuing education, academics and others). We offer a limited number of scholarships. Please be sure to explain why this workshop will benefit your work in Science and the greater open science community when you apply. 
 
 [To apply for a scholarship, please fill out this Google form.](https://forms.gle/tnV3tj13cChQXLEH7)
 </div>
