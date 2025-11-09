@@ -744,11 +744,13 @@
     - code-contrib
     - community
     - editor
+    - eic
     - guidebook-contrib
     - package-guide
     - peer-review
     - reviewer
   packages_eic:
+    - galfitools
   packages_editor:
     - sleplet
     - xgi
@@ -3927,6 +3929,7 @@
   packages_eic:
   packages_editor:
     - astrodata
+    - galfitools
     - martini
     - stingray
   packages_submitted:
@@ -10426,6 +10429,7 @@
     - peer-review
   packages_eic:
     - blockingpy
+    - galfitools
     - greopy
     - piva
     - pymultifit
@@ -11139,4 +11143,92 @@
   packages_submitted:
   packages_reviewed:
   location: Denver, CO
+  email:
+- name: James Nightingale
+  github_username: Jammy2211
+  github_image_id: 23455639
+  title:
+  sort:
+  bio: Ernest Rutherford Fellow at Newcastle UniversityDeveloper of PyAutoLens
+  organization: Newcastle University
+  date_added: '2025-11-08'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - galfitools
+  location: Newcastle
+  email: James.Nightingale@newcastle.ac.uk
+- name: T. E. Pickering
+  github_username: tepickering
+  github_image_id: 2481822
+  title:
+  sort:
+  bio: astronomer, python hacker
+  organization: MMT Observatory
+  date_added: '2025-11-08'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://www.mmto.org
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - galfitools
+  location: Tucson, AZ, USA
+  email: te.pickering@gmail.com
+- name: Chris Añorve
+  github_username: canorve
+  github_image_id: 3579189
+  title:
+  sort:
+  bio: Computer Astro programmer
+  organization: FACITE
+  date_added: '2025-11-08'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+    - submitting-author
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - galfitools
+  packages_reviewed:
+  location: Sinaloa, Mexico
   email:
