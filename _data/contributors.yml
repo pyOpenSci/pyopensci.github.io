@@ -11153,7 +11153,7 @@
   organization: Newcastle University
   date_added: '2025-11-08'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -11182,7 +11182,7 @@
   organization: MMT Observatory
   date_added: '2025-11-08'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -11211,7 +11211,7 @@
   organization: FACITE
   date_added: '2025-11-08'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
