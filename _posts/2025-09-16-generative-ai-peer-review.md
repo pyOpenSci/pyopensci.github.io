@@ -110,7 +110,7 @@ Peer review relies on volunteers. LLMs can produce large volumes of code quickly
 
 ### Ethical and legal complexities
 
-LLMs are often trained on copyrighted or licensed material. Outputs may create conflicts when used in projects under different licenses. They can also reflect extractive practices, like data colonialism, and disproportionately harm underserved communities.
+LLMs are often trained on copyrighted material with varying (or no) licenses. Outputs may constitute copyright infringement and/or ethical violations such as plagiarism. They can also reflect extractive practices, like data colonialism, and disproportionately harm underserved communities.
 
 ### Bias and equity concerns
 
