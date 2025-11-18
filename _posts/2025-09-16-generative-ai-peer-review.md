@@ -49,7 +49,7 @@ LLM-assisted code must be **reviewed, edited, and tested by humans** before subm
 
 * Run tests and confirm correctness.  
 * Check for security and quality issues.  
-* Ensure style, readability, and clear docstrings.  
+* Ensure style, readability, and concise docstrings.  
 * Explain your review process in your software submission to pyOpenSci.
 
 Please don’t offload vetting to volunteer reviewers. Arrive with human-reviewed code that you understand, have tested, and can maintain.
