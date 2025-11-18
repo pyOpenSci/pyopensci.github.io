@@ -33,7 +33,7 @@ This is not about banning AI tools. We recognize their value to some. Instead, o
 
 ## Our Approach: Transparency and Disclosure
 
-We know that people will continue to use LLMs. We also know they can meaningfully increase productivity and lower barriers to contribution for some. We also know that there are significant ethical, societal and other challenges that come with the development and use of LLM’s. 
+We acknowledge that social and ethical norms and concern for environmental and societal externalities varies greatly across the community, and yet few members of the community will look to pyOpenSci for guidance on whether to use LLMs in their own work. Our focus thus centers on assisting with informed decision-making and consent with respect to LLM use in the submission, reviewing, and editorial process.
 
 Our community’s expectation is simple: **be open about and disclose any generative AI use in your package**.
 
