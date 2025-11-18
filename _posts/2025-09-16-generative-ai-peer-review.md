@@ -98,6 +98,10 @@ LLMs are already perceived as helping developers:
 
 Some contributors perceive these products as making open source more accessible.
 
+### Incorrectness of LLMs and misleading time benefits
+
+Although it is commonly stated that LLMs help improve the productivity of high-level developers, recent scientific explorations of this hypothesis indicate the contrary (see https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/ for an excellent discussion on this). What's more is that the responses of LLM's for complex coding tasks tend to be incorrect (e.g., https://arxiv.org/html/2407.06153v1). Therefore, it is crucial that, if an LLM is used to help produce code, that the correctness of the code is evaluated separately from the LLM.
+
 ## Challenges we must address
 
 ### Overloaded peer review
