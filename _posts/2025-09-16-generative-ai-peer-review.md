@@ -15,7 +15,7 @@ comments: true
 last_modified: 2025-09-16
 ---
 
-authors: Leah Wasser, Mandy Moore, 
+authors: Leah Wasser, Jed Brown, Carter Rhea, Ellie Abrahams
 
 ## Generative AI meets scientific open source
 
