@@ -19,7 +19,7 @@ authors: Leah Wasser, Mandy Moore,
 
 ## Generative AI meets scientific open source
 
-It has been suggested that for some developers, using AI tools for tasks can increase efficiency by as much as 55%. But in open source scientific software, speed isn't everything—transparency, quality, and community trust matter just as much. So do the ethical questions these tools raise.
+Some developers believe that using AI products increases efficiency. However, in scientific open-source, speed isn't everything—transparency, quality, and community trust are just as important. Similarly, the ethical questions that these tools raise are also a concern.
 
 **Edit this.** Whatever breakout content we want here.... needs to be all on a single line. 
 {: .notice--success}
