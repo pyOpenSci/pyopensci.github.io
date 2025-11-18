@@ -60,8 +60,8 @@ LLMs are trained on source code and documents with many licenses, most of which 
 
 If similarities with existing software is detected **and** the licenses are compatible, one can come into compliance with the license by complying with its terms, such as by adding attribution. When the source package has an [incompatible license](https://dwheeler.com/essays/floss-license-slide.html), there is no simple fix. For example, if LGPL-2.1 code is emitted by an LLM into an Apache-2.0 project, no amount of attribution or license changes can bring the project into compliance. The Apache-2.0 project cannot even relicense to LGPL-2.1 without consent from every contributor (or their copyright holder). In such cases, the project would be responsible for deleting all implicated code and derivative works, and rewriting it all using [clean-room techniques](https://en.wikipedia.org/wiki/Clean-room_design).
 
-* Acknowledge potential license ambiguity in your disclosure.  
-* Avoid pasting verbatim outputs that resemble known copyrighted code.  
+* Be aware that when you directly use content developed by an LLM, there will be inherent license conflicts.
+* Be aware that LLM products can potentially return copyrighted code verbatim in some cases. Avoid pasting verbatim outputs from an LLM into your package. Rather, if you use LLMs in your work, carefully review, edit, and modify the content, and 
 * Prefer human-edited, transformative outputs you fully understand.
 
 We can’t control upstream model training data, but we can be cautious, explicit and critical about our usage.
