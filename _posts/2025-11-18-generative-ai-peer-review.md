@@ -88,7 +88,7 @@ The problem? LLMs sometimes spit out near-exact copies of that training data, bu
 Why this matters:
 
 * Using LLM output verbatim could violate the original code's license
-* You might accidentally commit plagiarism or copyright infringement by using that output verbatim in your code
+* License conflicts can occur if your package's license (e.g., MIT) is incompatible with code patterns that the LLM learned on such as code licensed as GPL or Apache-2.0.
 * Due diligence is nearly impossible since you can't trace what the LLM "learned from" (most LLM's are black boxes)
 
 When licenses clash, it gets messy. Say your package uses an MIT license (common in scientific Python), but an LLM outputs Apache-2.0 or GPL code—those licenses aren't compatible. You can't just add attribution to fix it. Technically, you'd have to delete everything and rewrite it from scratch to comply with the licensing requirements.
