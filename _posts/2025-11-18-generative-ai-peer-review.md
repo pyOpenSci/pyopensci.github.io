@@ -87,7 +87,7 @@ The problem? LLMs sometimes spit out near-exact copies of that training data, bu
 
 Why this matters:
 
-* Using LLM output verbatim could violate the original code's license
+* LLM-generated code may be *substantially similar* to copyrighted training data; sometimes it is identical. Copyright law focuses on how similar your content is compared to the original.
 * License conflicts can occur if your package's license (e.g., MIT) is incompatible with code patterns that the LLM learned on such as code licensed as GPL or Apache-2.0.
 * * You can't trace what content the LLM learned from (the black box problem); this makes due diligence impossible on your part. You might accidentally commit plagiarism or copyright infringement by using LLM output in your code even if you modify it.
 
