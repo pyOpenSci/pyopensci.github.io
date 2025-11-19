@@ -61,7 +61,7 @@ LLM outputs can reflect and amplify bias in training data. In documentation and 
 
 We acknowledge that social and ethical norms, as well as concerns about environmental and societal impacts, vary widely across the community. We are not here to judge anyone who uses or doesn't use LLMs. Our focus centers on supporting informed decision-making and consent regarding LLM use in the pyOpenSci software submission, review, and editorial process.
 
-Our community’s expectation is simple: **be open about and disclose any Generative AI use in your package** when you submit it to our open software review process.
+Our community’s expectation is simple: **be open and disclose any Generative AI use in your package** when you submit it to our open software review process.
 
 * Disclose LLM use in your README and at the top of relevant modules.
 * Describe how the Generative AI tools were used in your package's development.
