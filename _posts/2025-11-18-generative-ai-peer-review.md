@@ -89,7 +89,7 @@ Why this matters:
 
 * Using LLM output verbatim could violate the original code's license
 * License conflicts can occur if your package's license (e.g., MIT) is incompatible with code patterns that the LLM learned on such as code licensed as GPL or Apache-2.0.
-* Due diligence is nearly impossible since you can't trace what the LLM "learned from" (most LLM's are black boxes)
+* * You can't trace what content the LLM learned from (the black box problem); this makes due diligence impossible on your part. You might accidentally commit plagiarism or copyright infringement by using LLM output in your code even if you modify it.
 
 When licenses clash, it gets messy. Say your package uses an MIT license (common in scientific Python), but an LLM outputs Apache-2.0 or GPL code—those licenses aren't compatible. You can't just add attribution to fix it. Technically, you'd have to delete everything and rewrite it from scratch to comply with the licensing requirements.
 
