@@ -36,7 +36,7 @@ LLMs are perceived as helping developers:
 * In some cases, simplifying language barriers for participants in open source around the world
 * Speeding up everyday workflows
 
-Some contributors also perceive these products as making open source more accessible. However, LLM's also present
+Some contributors also perceive these products as making open source more accessible. However, LLMs also present
 unprecedented social and environmental challenges.
 
 ### Incorrectness of LLMs and misleading time benefits
