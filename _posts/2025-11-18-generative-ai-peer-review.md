@@ -49,7 +49,7 @@ Training and running LLMs [requires massive energy consumption](https://www.unep
 
 ### Impact on learning
 
-Heavy reliance on LLMs risks producing developers who can prompt, but not debug or maintain, code—undermining long-term project sustainability and growth. This also in the long run will make it [harder for young developers to learn how to code, and troubleshoot independently](https://knowledge.wharton.upenn.edu/article/without-guardrails-generative-ai-can-harm-education/).
+Heavy reliance on LLMs risks producing developers who can prompt, but not debug, maintain, or secure production code. This risk undermines long-term project sustainability and growth. In the long run, it will make it [harder for young developers to learn how to code and troubleshoot independently](https://knowledge.wharton.upenn.edu/article/without-guardrails-generative-ai-can-harm-education/).
 
 > We’re really worried that if humans don’t learn, if they start using these tools as a crutch and rely on it, then they won’t actually build those fundamental skills to be able to use these tools effectively in the future. *Hamsa Bastani*
 
