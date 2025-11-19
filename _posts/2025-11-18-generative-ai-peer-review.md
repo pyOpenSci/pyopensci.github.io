@@ -93,7 +93,9 @@ Why this matters:
 
 When licenses clash, it gets messy. Say your package uses an MIT license (common in scientific Python), but an LLM outputs Apache-2.0 or GPL code—those licenses aren't compatible. You can't just add attribution to fix it. Technically, you'd have to delete everything and rewrite it from scratch to comply with the licensing requirements.
 
-While this is all tricky, here's what you can do, now:
+The reality of all of this is that you can't eliminate this risk of license infringement or plagiarism with current LLM technology. But you can be more thoughtful about how you use the technology. 
+
+**What you can do now:**
 
 *Prefer human-edited, transformative outputs you fully understand*
 
