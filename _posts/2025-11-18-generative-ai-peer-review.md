@@ -25,7 +25,7 @@ Some developers believe that using AI products increases efficiency. However, in
 
 At pyOpenSci, we’ve drafted a new policy for our peer review process to set clear expectations for disclosing the use of LLMs in scientific open-source software.
 
-This is not about banning AI tools. We recognize their value to some people. Instead, our goal is transparency. We want maintainers to **disclose when and how they’ve used LLMs** so editors and reviewers can fairly and efficiently evaluate submissions. Further, we want to avoid burdening our volunteer editorial and reviewer team with being the first to review generated code.
+Our goal is transparency and fostering reproducible research. For scientific rigor, we want maintainers to **disclose when and how they’ve used LLMs** so editors and reviewers can fairly and efficiently evaluate submissions. Further, we want to avoid burdening our volunteer editorial and reviewer team with being the initial reviewers of generated code.
 
 ## A complex topic: Benefits and concerns
 
