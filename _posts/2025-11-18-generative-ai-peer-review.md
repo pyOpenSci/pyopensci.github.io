@@ -19,7 +19,7 @@ authors: Leah Wasser, Jed Brown, Carter Rhea, Ellie Abrahams
 
 ## Generative AI meets scientific open source
 
-Some developers believe that using AI products increases efficiency. However, in scientific open source, speed isn't everything—transparency, quality, and community trust are just as important as understanding the environmental impacts of using large language models in our everyday work. Similarly, the ethical questions that these tools raise are also a concern as some communities may benefit from the same tools that hurt others.
+Some developers believe that using AI products increases efficiency. However, in scientific open source, speed isn't everything—transparency, quality, and community trust are just as important as understanding the environmental impacts of using large language models in our everyday work. Similarly, ethical questions arise when tools may benefit some communities while harming others.
 
 ## Why we need guidelines
 
