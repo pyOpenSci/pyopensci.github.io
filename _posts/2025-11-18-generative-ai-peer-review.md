@@ -45,7 +45,7 @@ Although it is commonly stated that LLMs help improve the productivity of high-l
 
 ### Environmental impacts
 
-Training and running LLMs [requires massive energy consumption](https://www.unep.org/news-and-stories/story/ai-has-environmental-problem-heres-what-world-can-do-about), raising sustainability concerns that sit uncomfortably alongside much of the global scale scientific research that our community supports.
+Training and running LLMs [requires massive energy consumption](https://www.unep.org/news-and-stories/story/ai-has-environmental-problem-heres-what-world-can-do-about), raising sustainability concerns that sit uncomfortably alongside much of the global-scale scientific research that our community supports.
 
 ### Impact on learning
 
