@@ -36,7 +36,7 @@ LLMs are perceived as helping developers:
 * In some cases, simplifying language barriers for participants in open source around the world
 * Speeding up everyday workflows
 
-Some contributors also perceive these products as making open source more accessible. However, LLMs also present
+Some contributors also believe these products open source more accessible. And for some, maybe they do. However, LLMs also present
 unprecedented social and environmental challenges.
 
 ### Incorrectness of LLMs and misleading time benefits
@@ -88,20 +88,20 @@ The problem? LLMs sometimes spit out near-exact copies of that training data, bu
 Why this matters:
 
 * LLM-generated code may be *substantially similar* to copyrighted training data; sometimes it is identical. Copyright law focuses on how similar your content is compared to the original.
-* License conflicts can occur if your package's license (e.g., MIT) is incompatible with code patterns that the LLM learned on such as code licensed as GPL or Apache-2.0.
-* * You can't trace what content the LLM learned from (the black box problem); this makes due diligence impossible on your part. You might accidentally commit plagiarism or copyright infringement by using LLM output in your code even if you modify it.
+* You can't trace what content the LLM learned from (the black box problem); this makes due diligence impossible on your part. You might accidentally commit plagiarism or copyright infringement by using LLM output in your code even if you modify it.
+* License conflicts can occur because of both items above. Read on...
 
 When licenses clash, it gets messy. Say your package uses an MIT license (common in scientific Python), but an LLM outputs Apache-2.0 or GPL code—those licenses aren't compatible. You can't just add attribution to fix it. Technically, you'd have to delete everything and rewrite it from scratch to comply with the licensing requirements.
 
-The reality of all of this is that you can't eliminate this risk of license infringement or plagiarism with current LLM technology. But you can be more thoughtful about how you use the technology. 
+The reality of all of this is that you can't eliminate this risk of license infringement or plagiarism with current LLM technology. But you can be more thoughtful about how you use the technology.
 
 **What you can do now:**
 
-*Prefer human-edited, transformative outputs you fully understand*
-
 * Be aware that when you directly use content developed by an LLM, there will be inherent license conflicts.
-* Be aware that LLM products can potentially return copyrighted code verbatim. **Don't paste LLM outputs directly into your code**. Instead, review, edit, and transform anything an LLM gives you. Consider using [clean-room techniques](https://en.wikipedia.org/wiki/Clean-room_design) to achieve this.
-* **Make sure you fully understand the code before using it:** This is actually in your best interest because you can learn a lot about programming by asking an LLM questions and reviewing the output critically.
+* Understand and transform code that is returned from a LLM: Don't paste LLM outputs directly. Review, edit, and ensure you fully understand what you're using. You can ask the LLM questions to better understand it's outputs. This approach also helps you learn which addresses the education concerns that we raised earlier.
+* **Use LLMs as learning tools**: Ask questions, review outputs critically, then write your own implementation based on understanding. Often the outputs of LLMs are messy or inefficient. Use them to learn, not to copy.
+* Consider [clean-room techniques](https://en.wikipedia.org/wiki/Clean-room_design): Have one person review LLM suggestions for approach; have another person implement from that high-level description
+* **Document your process**: If you plan to submit a Python package for pyOpenSci review, we will ask you about your use of LLM's in your work. Document the use of LLMs in your project's README file and in any modules with LLM outputs have been applied. Confirm that it has been reviewed by a human prior to submitting it to us,  or any other volunteer lead peer review process.
 
 You can't control what's in training data, but you can be thoughtful about how you use these tools.
 
