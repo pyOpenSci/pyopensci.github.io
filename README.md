@@ -23,7 +23,7 @@ about contributing to our website, our **Python Packaging Guide** and our
 
 ## Installation and Development
 
-Have you decided to contribute? We use the [Jekyll framework](https://jekyllrb.org)
+Have you decided to contribute? We use the [Jekyll framework](https://jekyllrb.com)
 for creating this site. To set up a **development environment** and **run the site locally**, follow these steps:
 
 1. Install ruby and bundler on your machine. See [the Jekyll docs](https://jekyllrb.com/docs/installation/) for instructions.
