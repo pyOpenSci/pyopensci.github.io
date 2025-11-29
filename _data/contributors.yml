@@ -750,6 +750,7 @@
     - peer-review
     - reviewer
   packages_eic:
+    - galassify
     - galfitools
   packages_editor:
     - sleplet
@@ -8356,6 +8357,7 @@
   packages_eic:
   packages_editor:
     - ams
+    - galassify
   packages_submitted:
   packages_reviewed:
     - quadratik
@@ -8501,11 +8503,14 @@
   board: false
   contributor_type:
     - package-guide
+    - peer-review
+    - reviewer
     - web-contrib
   packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
+    - galassify
   location: Omaha, NE
   email: erik@erikwhiting.com
 - name:
@@ -8672,7 +8677,7 @@
   mastodon:
   orcidid:
   partners:
-  website: https://astro.utoronto.ca/~patil
+  website:
   board: false
   contributor_type:
     - peer-review
@@ -8967,7 +8972,7 @@
   mastodon:
   orcidid:
   partners:
-  website: https://www.atmos.illinois.edu/~nriemer
+  website:
   board: false
   contributor_type:
     - maintainer
@@ -9530,10 +9535,13 @@
   board: false
   contributor_type:
     - package-guide
+    - peer-review
+    - reviewer
   packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
+    - galassify
   location: Bangalore. India
   email:
 - name: Zac Warham
@@ -10068,7 +10076,7 @@
   mastodon:
   orcidid:
   partners:
-  website: https://mandymoore.tech
+  website:
   board: false
   contributor_type:
     - web-contrib
@@ -11231,4 +11239,63 @@
     - galfitools
   packages_reviewed:
   location: Sinaloa, Mexico
+  email:
+- name:
+  github_username: Manalclay
+  github_image_id: 166520075
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2025-11-29'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+    - submitting-author
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - galassify
+  packages_reviewed:
+  location:
+  email:
+- name: Andoni
+  github_username: andonij
+  github_image_id: 91870745
+  title:
+  sort:
+  bio:
+  organization: UGR
+  date_added: '2025-11-29'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - galassify
+  packages_reviewed:
+  location: Spain
   email:
