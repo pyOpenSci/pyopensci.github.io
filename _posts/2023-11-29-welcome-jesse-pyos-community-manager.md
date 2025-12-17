@@ -38,8 +38,5 @@ I first got started in scientific programming during my time as a graduate stude
 
 pyOpenSci meets all of those criteria, and the more I learned about its philosophy around community building, as well as all of the ways for people of all levels of technical knowledge to get involved, the more I knew I wanted to be a part of things. I’m still within my first month at the organization, but I can already tell that it’s a special place to be. Keep an eye out, because I’ve already started planning content and activities to help grow our community!
 
-## Let's connect!
 
-I’ll also be managing the social media accounts for pyOpenSci, and there are so many fantastic places for us to connect and have a conversation. pyOpenSci is currently active on [LinkedIn](https://www.linkedin.com/company/pyopensci), [BlueSky](https://bsky.app/profile/pyopensci.bsky.social), and [Mastodon](https://fosstodon.org/@pyopensci), where we’ll be sharing all kinds of news, updates, and community spotlights. Be sure to follow us so you don’t miss out on anything! And join our growing [Discourse community](https://pyopensci.discourse.group/), which is a great place to connect with other pyOpenSci community members, learn more about pyOpenSci, and get answers to all of your burning Python packaging and code questions.
-
-I can’t wait to connect and help build the pyOpenSci community with you!
+{% include connect-with-pyos.html %}

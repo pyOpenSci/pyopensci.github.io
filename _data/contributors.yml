@@ -392,6 +392,7 @@
     - package-guide
     - peer-review
     - reviewer
+    - web-contrib
   packages_eic:
   packages_editor:
     - afscgap
@@ -487,6 +488,7 @@
   packages_submitted:
   packages_reviewed:
     - movingpandas
+    - pyinterpolate
   location: Prague
   email: martin@martinfleischmann.net
 - name: Yuvi Panda
@@ -514,6 +516,7 @@
     - leadership
     - package-guide
     - peer-review-guide
+    - web-contrib
   packages_eic:
   packages_editor:
   packages_submitted:
@@ -541,10 +544,13 @@
   board: false
   contributor_type:
     - leadership
+    - peer-review
+    - reviewer
   packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
+    - swiftgalaxy
   location:
   email:
 - name: Ariane Sasso
@@ -664,6 +670,7 @@
     - peer-review-guide
     - reviewer
   packages_eic:
+    - felupe
     - montepy
     - neonutilities
     - solar data tools
@@ -738,15 +745,21 @@
     - code-contrib
     - community
     - editor
+    - eic
     - guidebook-contrib
+    - maintainer
     - package-guide
     - peer-review
     - reviewer
+    - submitting-author
   packages_eic:
+    - galassify
+    - galfitools
   packages_editor:
     - sleplet
     - xgi
   packages_submitted:
+    - pyinterpolate
   packages_reviewed:
     - pygmt
   location:
@@ -827,6 +840,7 @@
     - cardsort
     - great tables
     - harmonize-wq
+    - pymultifit
     - sciform
     - xclim
   packages_submitted:
@@ -3920,6 +3934,7 @@
   packages_eic:
   packages_editor:
     - astrodata
+    - galfitools
     - martini
     - stingray
   packages_submitted:
@@ -4368,6 +4383,7 @@
     - sunpy
     - zodipy
   packages_editor:
+    - blockingpy
     - quadratik
     - rdata
   packages_submitted:
@@ -4380,8 +4396,8 @@
   github_image_id: 1345068
   title:
     - Editor
-    - Editor in Chief
-  sort: 0
+    - Emeritus Editor in Chief
+  sort: 1
   bio: I'm just this guy, you know?
   organization: UIUC
   date_added: '2023-09-11'
@@ -4397,17 +4413,23 @@
   website: https://eliotwrobson.github.io/
   board: false
   contributor_type:
+    - editor
+    - eic
     - maintainer
     - peer-review
     - reviewer
     - submitting-author
     - web-contrib
   packages_eic:
+    - cheminformant
+    - pyinterpolate
   packages_editor:
+    - cheminformant
   packages_submitted:
     - automata
     - cynetdiff
   packages_reviewed:
+    - blockingpy
     - pooltool
   location: Urbana, IL
   email: erobson2@illinois.edu
@@ -5342,6 +5364,7 @@
     - open-education
     - peer-review
     - submitting-author
+    - web-contrib
   packages_eic:
   packages_editor:
   packages_submitted:
@@ -5379,8 +5402,10 @@
 - name: Lauren Yee
   github_username: yeelauren
   github_image_id: 12127746
-  title: Editor
-  sort: 2
+  title:
+    - Editor
+    - Editor in Chief
+  sort: 0
   bio:
   organization:
   date_added: '2023-12-21'
@@ -5433,6 +5458,7 @@
   packages_eic:
   packages_editor:
     - eomaps
+    - pyinterpolate
     - thztools
   packages_submitted:
   packages_reviewed:
@@ -7286,6 +7312,7 @@
   packages_editor:
   packages_submitted:
     - martini
+    - swiftgalaxy
   packages_reviewed:
     - petrofit
   location:
@@ -7711,10 +7738,13 @@
   board: false
   contributor_type:
     - community
+    - editor
     - package-guide
+    - peer-review
     - web-contrib
   packages_eic:
   packages_editor:
+    - felupe
   packages_submitted:
   packages_reviewed:
   location: Japan
@@ -8333,6 +8363,7 @@
   packages_eic:
   packages_editor:
     - ams
+    - galassify
   packages_submitted:
   packages_reviewed:
     - quadratik
@@ -8477,11 +8508,15 @@
   website:
   board: false
   contributor_type:
+    - package-guide
+    - peer-review
+    - reviewer
     - web-contrib
   packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
+    - galassify
   location: Omaha, NE
   email: erik@erikwhiting.com
 - name:
@@ -8648,7 +8683,7 @@
   mastodon:
   orcidid:
   partners:
-  website: https://astro.utoronto.ca/~patil
+  website:
   board: false
   contributor_type:
     - peer-review
@@ -8943,7 +8978,7 @@
   mastodon:
   orcidid:
   partners:
-  website: https://www.atmos.illinois.edu/~nriemer
+  website:
   board: false
   contributor_type:
     - maintainer
@@ -9506,10 +9541,13 @@
   board: false
   contributor_type:
     - package-guide
+    - peer-review
+    - reviewer
   packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
+    - galassify
   location: Bangalore. India
   email:
 - name: Zac Warham
@@ -9618,11 +9656,17 @@
     - editor
     - peer-review
     - peer-review-guide
+    - reviewer
+    - web-contrib
   packages_eic:
   packages_editor:
+    - blockingpy
     - piva
+    - swiftgalaxy
   packages_submitted:
   packages_reviewed:
+    - felupe
+    - pyinterpolate
   location: Montreal, QC, CANADA
   email:
 - name: Jinning Wang
@@ -10039,7 +10083,7 @@
   mastodon:
   orcidid:
   partners:
-  website: https://mandymoore.tech
+  website:
   board: false
   contributor_type:
     - web-contrib
@@ -10399,8 +10443,12 @@
     - eic
     - peer-review
   packages_eic:
+    - blockingpy
+    - galfitools
     - greopy
     - piva
+    - pymultifit
+    - swiftgalaxy
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -10492,6 +10540,7 @@
   packages_submitted:
   packages_reviewed:
     - greopy
+    - pymultifit
   location: Seattle
   email:
 - name: Jonas Eschle
@@ -10731,4 +10780,529 @@
   packages_reviewed:
     - ams
   location:
+  email:
+- name: Ellie Abrahams
+  github_username: elliesch
+  github_image_id: 12628861
+  title:
+  sort:
+  bio: cryosphere + image processing + data science
+  organization: Stanford, University
+  date_added: '2025-09-27'
+  deia_advisory: false
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - web-contrib
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: Stanford, CA
+  email:
+- name: Jed Brown
+  github_username: jedbrown
+  github_image_id: 3303
+  title:
+  sort:
+  bio: Physical Prediction, Inference, & Design (PhyPID). Fast algorithms &
+      community software. Prof at CU Boulder. Alpinist, skier, runner.
+  organization: CU Boulder
+  date_added: '2025-09-27'
+  deia_advisory: false
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://jedbrown.org
+  board: false
+  contributor_type:
+    - web-contrib
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location:
+  email: jed@jedbrown.org
+- name: Nicolás Guarín-Zapata
+  github_username: nicoguaro
+  github_image_id: 1097787
+  title:
+  sort:
+  bio:
+  organization: Universidad EAFIT
+  date_added: '2025-09-27'
+  deia_advisory: false
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter: nicoguaro
+  mastodon:
+  orcidid:
+  partners:
+  website: https://nicoguaro.github.io
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - felupe
+  location: Medellín
+  email:
+- name: Andreas Dutzler
+  github_username: adtzlr
+  github_image_id: 5793153
+  title:
+  sort:
+  bio: PhD Candidate in Mechanical Engineering@ TU Graz. Development Engineer
+      in the Railway Industry. Opinions related to this account are my own.
+  organization: Graz University of Technology
+  date_added: '2025-09-27'
+  deia_advisory: false
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+    - submitting-author
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - felupe
+  packages_reviewed:
+  location: Graz, Austria
+  email:
+- name:
+  github_username: Michael-Howes
+  github_image_id: 50608711
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2025-10-17'
+  deia_advisory: false
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - package-guide
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location:
+  email:
+- name: Nick Hodgskin
+  github_username: VeckoTheGecko
+  github_image_id: 36369090
+  title:
+  sort:
+  bio: Research Software Engineer at @UtrechtUniversity
+  organization: Utrecht University
+  date_added: '2025-10-17'
+  deia_advisory: false
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - web-contrib
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: Utrecht, Netherlands
+  email:
+- name: Ang
+  github_username: HzaCode
+  github_image_id: 92981090
+  title:
+  sort:
+  bio: Medical Doctor · Open-Source Developer · Marathoner/Tri · CSCS
+      (Finalist) | 🌊 Starting a new research journey soon. | Run as fast as my
+      coding:)
+  organization:
+  date_added: '2025-10-17'
+  deia_advisory: false
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+    - submitting-author
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - cheminformant
+  packages_reviewed:
+  location:
+  email: ang@hezhiang.com
+- name: Blake A. Wilson
+  github_username: blakeaw
+  github_image_id: 20207940
+  title:
+  sort:
+  bio: Computational research science in physical chemistry, systems biology,
+      and nano-bioengineering.
+  organization:
+  date_added: '2025-10-17'
+  deia_advisory: false
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://blakeaw.github.io/
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - swiftgalaxy
+  location: Texas, USA
+  email:
+- name: Kristina Gagalova
+  github_username: KristinaGagalova
+  github_image_id: 25466163
+  title:
+  sort:
+  bio: Life curious and traveller - 🙋🏻‍♀️ Nextflow Ambassador; Works on:🧬
+      Genome Science and Algorithms | 💻 Software Development | 👽 AI dev
+  organization: Research scientist
+  date_added: '2025-10-17'
+  deia_advisory: false
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://kristinagagalova.github.io/
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - pymultifit
+  location:
+  email: kristina.gagalova@curtin.edu.au
+- name: Syed Ali Mohsin Bukhari
+  github_username: syedalimohsinbukhari
+  github_image_id: 68902636
+  title:
+  sort:
+  bio:
+  organization: Space and Astrophysics Research Lab
+  date_added: '2025-10-17'
+  deia_advisory: false
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+    - submitting-author
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - pymultifit
+  packages_reviewed:
+  location: Islamabad, Pakistan
+  email: syedali.b@outlook.com
+- name: Akrita
+  github_username: akritaag
+  github_image_id: 2558622
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2025-10-17'
+  deia_advisory: false
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - blockingpy
+  location: Seattle, WA
+  email: akrita.ag@gmail.com
+- name: Tymoteusz Strojny
+  github_username: T-Strojny
+  github_image_id: 117780025
+  title:
+  sort:
+  bio: Master’s student in Data Processing and Analytics at Adam Mickiewicz
+      University in Poznań
+  organization:
+  date_added: '2025-10-17'
+  deia_advisory: false
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+    - submitting-author
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - blockingpy
+  packages_reviewed:
+  location:
+  email:
+- name: Michael Pilosov, PhD
+  github_username: mathematicalmichael
+  github_image_id: 40366263
+  title:
+  sort:
+  bio: artist trapped in a mathematician's mind
+  organization: '@mindthemath'
+  date_added: '2025-10-18'
+  deia_advisory: false
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter: compmathematics
+  mastodon:
+  orcidid:
+  partners:
+  website: https://mpilosov.com
+  board: false
+  contributor_type:
+    - package-guide
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: Denver, CO
+  email:
+- name: James Nightingale
+  github_username: Jammy2211
+  github_image_id: 23455639
+  title:
+  sort:
+  bio: Ernest Rutherford Fellow at Newcastle UniversityDeveloper of PyAutoLens
+  organization: Newcastle University
+  date_added: '2025-11-08'
+  deia_advisory: false
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - galfitools
+  location: Newcastle
+  email: James.Nightingale@newcastle.ac.uk
+- name: T. E. Pickering
+  github_username: tepickering
+  github_image_id: 2481822
+  title:
+  sort:
+  bio: astronomer, python hacker
+  organization: MMT Observatory
+  date_added: '2025-11-08'
+  deia_advisory: false
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://www.mmto.org
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - galfitools
+  location: Tucson, AZ, USA
+  email: te.pickering@gmail.com
+- name: Chris Añorve
+  github_username: canorve
+  github_image_id: 3579189
+  title:
+  sort:
+  bio: Computer Astro programmer
+  organization: FACITE
+  date_added: '2025-11-08'
+  deia_advisory: false
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+    - submitting-author
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - galfitools
+  packages_reviewed:
+  location: Sinaloa, Mexico
+  email:
+- name:
+  github_username: Manalclay
+  github_image_id: 166520075
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2025-12-09'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+    - submitting-author
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - galassify
+  packages_reviewed:
+  location:
+  email:
+- name: Andoni
+  github_username: andonij
+  github_image_id: 91870745
+  title:
+  sort:
+  bio:
+  organization: UGR
+  date_added: '2025-12-09'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - galassify
+  packages_reviewed:
+  location: Spain
   email:

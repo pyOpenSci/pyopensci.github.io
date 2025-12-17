@@ -213,7 +213,8 @@
       "profile": "https://jon-e.net",
       "contributions": [
         "code",
-        "review"
+        "review",
+        "blog"
       ]
     },
     {
@@ -499,6 +500,73 @@
       "profile": "https://github.com/TimothyEDawson",
       "contributions": [
         "code",
+        "review"
+      ]
+    },
+    {
+      "login": "elliesch",
+      "name": "Ellie Abrahams",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12628861?v=4",
+      "profile": "https://github.com/elliesch",
+      "contributions": [
+        "review",
+        "blog"
+      ]
+    },
+    {
+      "login": "jedbrown",
+      "name": "Jed Brown",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3303?v=4",
+      "profile": "https://jedbrown.org",
+      "contributions": [
+        "review",
+        "blog"
+      ]
+    },
+    {
+      "login": "crhea93",
+      "name": "Carter Lee Rhea",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34322936?v=4",
+      "profile": "https://github.com/crhea93",
+      "contributions": [
+        "review",
+        "blog"
+      ]
+    },
+    {
+      "login": "VeckoTheGecko",
+      "name": "Nick Hodgskin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/36369090?v=4",
+      "profile": "http://vecko.me",
+      "contributions": [
+        "code",
+        "bug"
+      ]
+    },
+    {
+      "login": "yuvipanda",
+      "name": "Yuvi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/30430?v=4",
+      "profile": "https://github.com/yuvipanda",
+      "contributions": [
+        "review"
+      ]
+    },
+    {
+      "login": "ocefpaf",
+      "name": "Filipe",
+      "avatar_url": "https://avatars.githubusercontent.com/u/950575?v=4",
+      "profile": "http://ocefpaf.github.io/python4oceanographers",
+      "contributions": [
+        "review"
+      ]
+    },
+    {
+      "login": "slobentanzer",
+      "name": "Sebastian Lobentanzer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13223629?v=4",
+      "profile": "https://github.com/slobentanzer",
+      "contributions": [
         "review"
       ]
     }

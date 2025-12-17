@@ -63,8 +63,15 @@ layout: default
           {% endif %}
         </div>
         {{ content }}
+
+        {% if page.path contains '_posts/' %}
+          {% capture connect_with_pyos %}{% include connect-with-pyos.html %}{% endcapture %}
+          {{ connect_with_pyos | markdownify }}
+        {% endif %}
+
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
-      </section>
+
+    </section>
 
       <footer class="page__meta">
         {% if site.data.ui-text[site.locale].meta_label %}
