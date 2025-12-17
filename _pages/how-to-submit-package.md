@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "How to submit a Python package to pyOpenSci for review"
+excerpt: "Our open review process happens on GitHub and is open and community lead. Learn how to submit a Python package to pyOpenSci for peer review."
 header:
   overlay_image: images/headers/pyos-peer-review-header.png
 author_profile: false

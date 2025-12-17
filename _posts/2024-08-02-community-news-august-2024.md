@@ -66,6 +66,4 @@ Jesse Bobish, [Patrick Byers](https://github.com/pb-413), [Sarah Kaiser](http://
 ### Shout out to all of our SciPy contributors, including:
 [Naty Clementi](https://github.com/ncclementi), [Geoff Cureton](https://github.com/gpcureton), [John Drake](https://github.com/John-Drake), [Han](https://github.com/ayhanxian), [Elise Hinman](https://github.com/ehinman), [hpodzorski-USGS](https://github.com/hpodzorski-USGS), [Sarah Kaiser](https://github.com/crazy4pi314), [kaiyamag](https://github.com/kaiyamag), [Felipe Moreno](https://github.com/flpm), [Roberto Pastor Muela](https://github.com/RobPasMue), [Olek](https://github.com/yardasol), [Santiago Soler](https://github.com/santisoler), and [Revathy Venugopal](https://github.com/Revathyvenugopal162).
 
-## <i class="fa-regular fa-envelope"></i> Stay connected with pyOpenSci
-
-There are so many ways to stay up-to-date with all things pyOpenSci, including following us on [LinkedIn](https://www.linkedin.com/company/pyopensci), [Fosstodon](https://fosstodon.org/@pyOpenSci), and [Bluesky](https://bsky.app/profile/pyopensci.bsky.social). You can also connect with the broader pyOpenSci community on our [Discourse forum](https://pyopensci.discourse.group/). And if you’re interested in our weekly newsletter where we share news, blog posts, and monthly updates, [subscribe on LinkedIn](https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7179551305344933888).
+{% include connect-with-pyos.html %}

@@ -180,31 +180,5 @@ As you can see in the animated gif below, GitHub codespaces always have fun name
   </picture>
 </figure>
 
-<div class="notice" markdown="1">
 
-<i class="fa-solid fa-users-line"></i> Connect with us!
-{: .header }
-
-There are many ways to get involved if you're interested!
-
-* If you read through our lessons and want to suggest changes, open an issue in our [lessons repository here](https://github.com/pyOpenSci/lessons)
-* [Volunteer to be a reviewer for pyOpenSci's software review process](https://forms.gle/GHfxvmS47nQFDcBM6)
-* [Submit a Python package to pyOpenSci for peer review](https://www.pyopensci.org/software-peer-review/how-to/author-guide.html#submit-your-package-for-peer-review)
-* [Donate to pyOpenSci](https://give.communityin.org/pyopensci_2024) to support scholarships for future training events and the development of new learning content.
-* Check out our [volunteer page](/volunteer.html) for other ways to get involved.
-
-You can also:
-
-* Keep an eye on our [events page](/events.html) for upcoming training events.
-
-Follow us on social platforms:
-
-* [<i class="fa-brands fa-discourse" style="color:#81c0aa;"></i> Discourse](https://pyopensci.discourse.group/)
-* [<i class="fa-brands fa-mastodon" style="color:#81c0aa;"></i> Mastodon](https://fosstodon.org/@pyopensci)
-* [<i class="fa-solid fa-cloud" style="color:#81c0aa;"></i> Bluesky](https://bsky.app/profile/pyopensci.bsky.social)
-* [<i class="fa-brands fa-linkedin" style="color:#81c0aa;"></i> LinkedIn](https://www.linkedin.com/company/pyopensci)
-* [<i class="fa-brands fa-github" style="color:#81c0aa;"></i> GitHub](https://github.com/pyOpenSci)
-
-If you are on LinkedIn, check out and [subscribe to our newsletter, too](https://www.linkedin.com/newsletters/7179551305344933888/?displayConfirmation=true).
-
-</div>
+{% include connect-with-pyos.html %}
