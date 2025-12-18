@@ -70,11 +70,11 @@ One of the important conversations our community had this year centered on Gener
 * How do we ensure developers still learn foundational skills even when AI can generate code quickly?
 * What about licensing concerns and the influx of AI-generated pull requests that maintainers are struggling to review?
 
-Maintainers in our ecosystem are dealing with this new GenAI fueled reality every day. We shared concerns, social posts, papers and youtube videos. [We even wrote a blog post on the topic](generative-ai-peer-review-policy.html) and began adding policy to our peer review process as a safeguard for our volunteer reviewers. In real time, we recognized that this is something we need to navigate together as a community. And, together, we've made progress.
+Maintainers in our ecosystem are dealing with this new GenAI fueled reality every day. We shared concerns, social posts, papers and youtube videos. [We even wrote a blog post on the topic]({{ site.url }}/blog/generative-ai-peer-review-policy.html) and began adding policy to our peer review process as a safeguard for our volunteer reviewers. In real time, we recognized that this is something we need to navigate together as a community. And, together, we've made progress.
 
 ## Building sustainability beyond grants
 
-I was saddened to watch major organizations have to turn down seven‑figure NSF grants that would have sustained their work. But it reminded me that a grant-focused funding model is not going to carry our community into 2027 and beyond.
+I was saddened to watch major organizations have to turn down seven‑figure NSF grants that would have sustained their work. But it reminded me that a grant-focused funding model is not going to carry our community into 2027 and beyond. [We've been actively exploring sustainability models]({{ site.url }}/blog/pyopensci-funding-sustainability.html) and [convening with other open science communities]({{ site.url }}/blog/pyopensci-surviving-to-thriving.html)—including the Carpentries, rOpenSci, Open Life Sciences, and PREreview—to build resilience together.
 
 This year, we began actively diversifying our revenue streams through three paths:
 
@@ -138,7 +138,7 @@ When we think critically about human resources—JOSS, rOpenSci, and pyOpenSci a
 
 ## Record sprint engagement
 
-We had hugely successful sprints this year at PyCon US and SciPy. But SciPy 2025 in Tacoma, Washington was something special—it was the perfect manifestation of what I envision the pyOpenSci community to be.
+We had hugely successful sprints this year at PyCon US and SciPy. But SciPy 2025 in Tacoma, Washington was something special—it was the perfect manifestation of what I envision the pyOpenSci community to be. [You can read more about our SciPy highlights]({{ site.url }}/blog/pyopensci-at-scipy-2025.html) and [what we learned from our community BoF session]({{ site.url }}/blog/pyopensci-bof-community-scipy-2025.html).
 
 On day one, 20 participants showed up—67% more than 2024. More than I expected. Rather than becoming a challenge to navigate, something beautiful happened: the community self-organized. Experienced sprinters stepped up without being asked. They worked together, helped each other, and created their own learning groups. People sketched on whiteboards, moved tables to form small groups, and mentored each other through Git and GitHub. It was this beautiful mix of expert to beginner Pythonistas learning and growing together.
 
