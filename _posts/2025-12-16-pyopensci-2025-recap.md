@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "pyOpenSci Annual Review: Tackling Hard Things Together"
-excerpt: "2025 was hard, but the pyOpenSci community leaned in. Despite funding uncertainty and GenAI challenges that strained our community, over 300 contributors continued to show up. Together, we continued to strengthen partnerships, focused on sustainability beyond grants, and fortified our community spaces where experts and beginners learn together. And more importantly we supported each other. THIS, is the spirit of resilience."
+excerpt: "2025 was hard, but the pyOpenSci community leaned in. Despite funding uncertainty and GenAI challenges that strained our community, over 376 contributors continued to show up. Together, we continued to strengthen partnerships, focused on sustainability beyond grants, and fortified our community spaces where experts and beginners learn together. And more importantly we supported each other. THIS, is the spirit of resilience."
 author: "pyopensci"
 permalink: /blog/pyopensci-2025-year-in-review.html
 header:
@@ -19,7 +19,9 @@ last_modified: 2025-12-18
 
 I've been running pyOpenSci since 2018, and this is the first year where I genuinely wasn’t sure what the ground would look like under our feet not only six months out but even tomorrow.
 
-Watching organizations like the Carpentries and the [Python Software Foundation](https://pyfound.blogspot.com/2025/10/NSF-funding-statement.html) turn down million‑dollar‑plus NSF grants because DEIA work was no longer supported by government agencies really hit close to home. The spread of generative AI use in both the scientific and open source ecosystems also caused a lot of anxiety and strain—concerns about licensing, whether young developers and researchers are learning foundational skills in a GenAI-driven world, and the influx of issues and pull requests that maintainers are struggling to review. I worry about volunteer burnout.
+Watching organizations like the Carpentries and the [Python Software Foundation](https://pyfound.blogspot.com/2025/10/NSF-funding-statement.html) turn down million‑dollar‑plus NSF grants because DEIA work was no longer supported by government agencies really hit close to home.
+
+The spread of generative AI use in both the scientific and open source ecosystems also caused a lot of anxiety and strain—concerns about licensing, whether young developers and researchers are learning foundational skills in a GenAI-driven world, and the influx of issues and pull requests that maintainers are struggling to review. I worry about volunteer burnout.
 
 However, 2025 also brought with it a shining light—instead of pulling back, the pyOpenSci community leaned in.
 
@@ -78,7 +80,9 @@ This year, we began actively diversifying our revenue streams through three path
 
 ### Training programs: Building skills for the future
 
-We're building training not just for revenue—but because scientists need accessible, high‑quality education that bridges research workflows and Python packaging best practices. GenAI is supporting many workflows and learning, but it's not a replacement for human guidance and mentorship. There is a lot of work to do to ensure that the next generation of researchers and open source developers have the skills that they need to truly be successful. We are living in a multi-language ecosystem, and natural language (like English) will not be enough knowledge to solve the world's greatest challenges, all of which require highly technical data processing and analysis.
+We're building training not just for revenue—but because scientists need accessible, high‑quality education that bridges research workflows and Python packaging best practices. GenAI is supporting many workflows and learning, but it's not a replacement for human guidance and mentorship.
+
+There is a lot of work to do to ensure that the next generation of researchers and open source developers have the skills that they need to truly be successful. We are living in a multi-language ecosystem, and natural language (like English) will not be enough knowledge to solve the world's greatest challenges, all of which require highly technical data processing and analysis.
 
 In 2025, I designed and delivered multiple workshops, intentionally testing synchronous vs. asynchronous formats, pacing and cohort size, and fundamentals vs. workflow‑focused curricula. These pilot workshops informed the design of our Spring 2026 asynchronous cohort course. This new course will be more affordable and accessible to a wider range of people. It will connect researchers across the US and the world with each other so they can work on similar pain points and learn together. It will teach foundational open source skills and introduce researchers to the people behind the tools driving open science and open source software.
 
@@ -124,7 +128,9 @@ We're actively developing policy around Generative AI use in packages submitted 
 
 The value of a shared peer review process has continued to crystallize. Rather than each organization running their own separate process, we're building shared infrastructure together.
 
-Our partnership with **Astropy** means they no longer have to run their own peer review process. Instead, they can use the process and infrastructure that we're building together as a broader community. The Astropy editors have been incredibly engaged in developing new policy and approaches for the GenAI era, and this cross-community collaboration has been powerful. So far, 6 Astropy packages have been accepted both to pyOpenSci and as an Astropy-affiliated package through our shared process. We are also now actively reviewing the Astropy core package itself.
+Our partnership with **Astropy** means they no longer have to run their own peer review process. Instead, they can use the process and infrastructure that we're building together as a broader community. The Astropy editors have been incredibly engaged in developing new policy and approaches for the GenAI era, and this cross-community collaboration has been powerful.
+
+So far, 6 Astropy packages have been accepted both to pyOpenSci and as an Astropy-affiliated package through our shared process. We are also now actively reviewing the Astropy core package itself.
 
 Our partnership with **JOSS** works similarly—when we review a package, that's one less editor and two fewer reviewers JOSS needs to engage, allowing them to scale their process. Communities like Astropy aren't designed to run peer review, but by using our shared infrastructure and contributing back to our program, everyone benefits.
 
@@ -148,11 +154,19 @@ This is what happens when you continue to show up, run events, and create health
 
 We also supported the PyCon US 2025 Maintainers Summit, creating space for those who keep scientific Python running.
 
+<figure>
+  <picture>
+    <source srcset="{{ site.url }}/images/blog/2025/maintainers-summit-dan.webp" type="image/webp">
+    <img src="{{ site.url }}/images/blog/2025/maintainers-summit-dan.png" alt="PyCon US 2025 Maintainers Summit">
+  </picture>
+  <figcaption>PyCon US 2025 Maintainers Summit, where we created space for those who keep scientific Python running.</figcaption>
+</figure>
+
 ## The people who make it possible
 
 None of what pyOpenSci accomplished this year would have happened without the people who showed up and made it work.
 
-Our 2025 executive council—[Karen Cranston](https://github.com/kcranston) and [April Johnson](https://github.com/apriljohnson)—made sustainable leadership possible. They supported me as I navigated the challenges of the year and in developing new programs to support our sustainability, providing critical guidance and support throughout the year, helping navigate organizational challenges and strategic decisions. This led to concrete outcomes: new training pilots, diversified sustainability models, and healthier leadership practices.
+Our 2025 executive council—[Karen Cranston](https://github.com/kcranston) and [April Johnson](https://www.apriljohnson.io/about-me/)—encouraged me to embrace sustainable leadership. They supported me as I navigated the challenges of the year, and as I said no to things to ensure my focus was aligned, and in developing new programs to support our sustainability, providing critical guidance on organizational challenges and strategic decisions. This led to concrete outcomes: new training pilots, diversified sustainability models, and healthier leadership practices.
 
 Our editors-in-chief—[James Balamuta](https://github.com/coatless), [Eliot Robson](https://github.com/erobson), and [Lauren Yee](https://github.com/laurenyee)—led the peer review process throughout the year. They navigated the uptick in AI-fueled submissions, stepped up when reviews got challenging, and kept quality standards high.
 
@@ -160,11 +174,19 @@ Our [editorial team]({{ site.url }}/community/editorial-team/) makes quality pee
 
 As I was developing our sustainability model, Carol Willing, Inessa Pawson, and Chase Million from our Advisory Council stepped up and helped me brainstorm, reviewed ideas, and provided input on the directions I was considering and what outcomes I might expect. They provided exceptional support, helping both me and the organization navigate a challenging year with wisdom and care.
 
+<figure>
+  <picture>
+    <source srcset="{{ site.url }}/images/blog/2025/carol-willing-micromentor.webp" type="image/webp">
+    <img src="{{ site.url }}/images/blog/2025/carol-willing-micromentor.png" alt="Carol Willing presenting on micromentoring">
+  </picture>
+  <figcaption>Carol Willing from our Advisory Council presenting on micromentoring at SciPy 2025.</figcaption>
+</figure>
+
 And to everyone else who contributed—workshop organizers, sprint mentors, blog contributors, and the countless others who showed up—thank you. This community is built by all of you.
 
 ## pyOpenSci in the news
 
-This year, pyOpenSci was featured on the PyBites podcast and I participated in a [PyLadiesCon panel](https://www.youtube.com/live/NB2Q9dbLwVc?si=WTZdNM5b3eMMKzT8). These opportunities help spread the word about our community and the work we're doing together.
+This year, pyOpenSci was featured on the [PyBites podcast](https://www.youtube.com/watch?v=9jyYV3G2xu8) and I participated in a [PyLadiesCon panel](https://www.youtube.com/live/NB2Q9dbLwVc?si=WTZdNM5b3eMMKzT8). These opportunities help spread the word about our community and the work we're doing together.
 
 ## What's next (2026)
 
