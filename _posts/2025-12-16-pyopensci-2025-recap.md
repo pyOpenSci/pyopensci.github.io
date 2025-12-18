@@ -1,0 +1,170 @@
+---
+layout: single
+title: "pyOpenSci Annual Review: We Can Do Hard Things Together"
+excerpt: "2025 was hard, but the pyOpenSci community leaned in. Despite funding uncertainty, GenAI challenges, and volunteer burnout concerns, 376 contributors showed up. We built sustainability beyond grants, strengthened partnerships with Astropy and JOSS, and created spaces where experts and beginners learn together. This is what resilience looks like."
+author: "pyopensci"
+permalink: /blog/pyopensci-2025-annual-review.html
+header:
+  overlay_image: images/headers/pyopensci-floral.png
+categories:
+  - blog-post
+  - community
+classes: wide
+toc: true
+comments: true
+last_modified: 2025-12-16
+---
+
+**I'm not going to sugarcoat it—2025 has been hard.**
+
+I've been running pyOpenSci since 2018, and this is the first year where I genuinely wasn’t sure what the ground would look like under our feet not only six months out but even tomorrow.
+
+Watching organizations like the Carpentries and the [Python Software Foundation](https://pyfound.blogspot.com/2025/10/NSF-funding-statement.html) turn down million‑dollar‑plus NSF grants because DEIA work was no longer supported by government agencies really hit close to home. The spread of generative AI use in both the scientific and open source ecosystems also caused a lot of anxiety and strain—concerns about licensing, whether young developers and researchers are learning foundational skills in a GenAI-driven world, and the influx of issues and pull requests that maintainers are struggling to review. I worry about volunteer burnout.
+
+However, 2025 also brought with it a shining light—instead of pulling back, the pyOpenSci community leaned in.
+
+I watched everyone choose to show up and work on the open science infrastructure that we are building together. If you are one of our community members reading this: THANK YOU.
+
+People showed up because they care about science, inclusion, and open source—and, more importantly, each other. The people in our community are what fuel me every day and make the pyOpenSci community resilient and so special. We adapted. Resilience has been what this year has been about for me.
+
+Here’s what we did—together.
+
+## Community growth when it matters most
+
+If you are a numbers person, we have some of those.
+
+* 376 contributors across the pyOpenSci ecosystem
+* 268 GitHub contributors improving infrastructure, docs, and tooling
+* 116 volunteer reviewers maintaining quality standards
+* 120 package maintainers supported through peer review
+* 29 volunteer editors driving peer review forward as leaders
+
+When I look at these numbers, I see individual and inspirational faces.
+
+People who really care about science inclusion and open source. Like a colleague I met at our record-setting SciPy sprint last summer who sat down, saw the size of the sprint group, and asked—"how can I help?" He spent the day working with other sprinters, helping them make their first contributions to open source.
+
+TODO: ADD PHOTO of james and xxxx
+
+I also see the maintainer who went through our peer review process and improved their package's quality. At meetings often someone will come up to me that had a great experience; it just brings me joy. I see our editors-in-chief who led the peer review process throughout the year despite jobs being cut and sections of government operations being torn down. Together they even navigated the uptick in AI-fueled submissions. I also see the editor(s) who stepped up to complete a review when another editor needed a break. This happened multiple times this year and I was amazed at the level of support and care that our community showed for each other. It was everything.
+
+Even though it's been hard, our community has continually chosen to show up. **This is resilience in action.**
+
+### Generative AI in scientific open source
+
+One of the important conversations our community had this year centered on Generative AI. We wrestled with hard questions together: What does responsible AI use look like in scientific software? How do we ensure developers still learn foundational skills even when AI can generate code quickly? What about licensing concerns and the influx of AI-generated pull requests that maintainers are struggling to review?
+
+These weren't abstract discussions. Our maintainers are dealing with this reality every day. But instead of retreating, we leaned into these conversations. We shared concerns, social posts, papers and youtube videos. [We even wrote a blog post on the topic](generative-ai-peer-review-policy.html) and began adding policy to our peer review process as a safeguard for our volunteer reviewers. In real time, we recognized that this is something we need to navigate together as a community. And, together, we've made progress.
+
+## Building sustainability beyond grants
+
+I was saddened to watch major organizations have to turn down seven‑figure NSF grants that would have sustained their work. But it reminded me that a grant-focused funding model is not going to carry our community into 2027 and beyond.
+
+This year, we began actively diversifying our revenue streams through three paths:
+
+### Training programs: Building skills for the future
+
+We're building training not just for revenue—but because scientists need accessible, high‑quality education that bridges research workflows and Python packaging best practices. GenAI is supporting many workflows and learning, but it's not a replacement for human guidance and mentorship. There is a lot of work to do to ensure that the next generation of researchers and open source developers have the skills that they need to truly be successful. We are living in a multi-language ecosystem, and natural language (like English) will not be enough knowledge to solve the world's great technical challenges.
+
+In 2025, I designed and delivered multiple workshops, intentionally testing synchronous vs. asynchronous formats, pacing and cohort size, and fundamentals vs. workflow‑focused curricula. These pilot workshops informed the design of our Spring 2026 asynchronous cohort course. This new course will be more affordable and accessible to a wider range of people. It will connect researchers across the US and the world with each other so they can work on similar pain points and learn together. It will teach foundational open source skills and introduce researchers to the people behind the tools driving open science and open source software.
+
+If you're interested in joining our training programs or bringing workshops to your organization, [get in touch](mailto:leah@pyopensci.org).
+
+### Organizational membership: Building community partnerships
+
+We piloted a membership model and partnered with Stanford's Open Source Program Office (OSPO) as our first organizational member. Using the training programs we've built, we ran 2 workshops for Stanford researchers in 2025 and will run more in 2026. We also connected with the CURIOSS OSPO network which bridges OSPOs around the world.
+
+At pyOpenSci, these types of partnerships are not just transactional—they are a way to infuse new ideas and energy, grow our vibrant community of practice, and support each other. Through these partnerships, we will help even more researchers struggle less with code so they can focus more on their science and discovery.
+
+If your OSPO or research institution is interested in membership or partnership opportunities, [reach out](mailto:leah@pyopensci.org).
+
+### Corporate sponsorship: Supporting scientific infrastructure
+
+We also began developing corporate sponsorship opportunities for companies that want to support scientific software and science during a time when that support is needed most. We've had some great conversations with companies who are interested in supporting our community.
+
+If your company is interested in supporting scientific software infrastructure and the researchers who depend on it, [please reach out](mailto:leah@pyopensci.org).
+
+Why this matters now: in the next 12 months, our goal is to cover a significant chunk of our core operational costs through diversified revenue. We want to thrive rather than merely surviving 2026.
+
+## Improving software in the scientific Python ecosystem through peer review
+
+Through our volunteer peer review process, 59 packages are now part of the pyOpenSci ecosystem. With 96 total submissions to date, continued trust in our process matters deeply.
+
+This year brought new challenges—especially around GenAI use in scientific software development. In some cases, the same author submitted multiple packages in the same week. As our community wrestled with these questions throughout 2025, we recognized that our peer review process needed clear guidance.
+
+My biggest concern for our peer review program is people—specifically, volunteer burnout. Humans can now generate huge volumes of code quickly, but we don't have the capacity to review that volume of work. We're seeing model-generated submissions, and we're asking our volunteer reviewers to review generated code. This is a delicate situation—these tools can offer value when used properly—but we can't put that burden on our volunteer teams. I worry about volunteer burnout.
+
+We're actively developing policy around Generative AI use in packages submitted for review—addressing licensing concerns, disclosure requirements, and ensuring code quality standards. There are no clear answers yet, but we're learning together, one careful policy conversation at a time.
+
+### The power of peer review partnership: Building together
+
+The value of a shared peer review process has crystallized this year. Rather than each organization running their own separate process, we're building shared infrastructure together.
+
+Our partnership with **Astropy** means they no longer have to run their own peer review process. Instead, they can use the process and infrastructure that we're building together as a broader community. We're supporting each other. The Astropy editors have been incredibly engaged and supportive in developing new policy and approaches for the GenAI era, and this cross-community collaboration has been powerful. So far, 6 Astropy-affiliated packages have come through our shared process.
+
+We are also now actively reviewing the Astropy core package itself.
+
+Our partnership with **JOSS** works similarly—when we review a package, that's one less editor and two fewer reviewers JOSS needs to engage, allowing them to scale their process. Communities like Astropy aren't designed to run peer review, but by using our shared infrastructure and contributing back to our program, everyone benefits.
+
+When we think critically about human resources—JOSS, rOpenSci, and pyOpenSci all run review processes with different goals—sharing reviews means fewer editors and reviewers needed across the ecosystem. To date, 29 packages have been JOSS-approved through our partnership, resulting in... .????????.
+
+
+## Record sprint engagement
+
+We had hugely successful sprints this year at PyCon US and SciPy. But SciPy really pulled at my heart.
+
+We took over an entire room at SciPy 2025. We had 20 participants—67% more than 2024—and the magic that happened there was everything I dreamed pyOpenSci could be. We had a range of experience levels, from experts to complete beginners. Without me even asking, people started offering to mentor each other. It turned into a mentored sprint. People were working together to learn Git and GitHub, sketching on whiteboards, moving tables to form small groups. It was this beautiful mix of expert to beginner Pythonistas learning and growing together. That's the community I want to build. That's what pyOpenSci is at its best.
+
+We also supported the PyCon US 2025 Maintainers Summit, creating space for those who keep scientific Python running.
+
+## The people who make it possible
+
+None of what pyOpenSci accomplished this year would have happened without the people who showed up and made it work.
+
+Our 2025 board—Karen Cranston and April Johnson—made sustainable leadership possible. Their support led to concrete outcomes: new training pilots, diversified sustainability models, and healthier leadership practices.
+
+Our editors-in-chief—James Balamuta, Eliot Robson, and Lauren Lee—led the peer review process throughout the year. They navigated the uptick in AI-fueled submissions, stepped up when reviews got challenging, and kept quality standards high.
+
+Our editors and reviewers make quality peer review possible. This year, 116 volunteer reviewers and 29 volunteer editors drove peer review forward. Their commitment to getting it right, even when it's hard, is what makes our process work.
+
+## pyOpenSci in the news
+
+This year, pyOpenSci was featured on the PyBites podcast and I participated in a PyLadiesCon panel. These opportunities help spread the word about our community and the work we're doing together.
+
+
+
+## What's next (2025)
+
+Launch Spring 2025 asynchronous cohort course
+
+Expand training for individuals and organizations
+
+Grow membership and sponsorship programs
+
+Continue supporting volunteers
+
+
+We’re building for the long game.
+
+
+## Hard things, together
+
+I don't have all the answers about funding or GenAI licensing. But I know this: community endures.
+
+376 people have shown that we can do hard things—when we do them together.
+
+I'm in this for the long haul.
+
+Let's keep building. Together.
+
+
+## Get involved
+
+Become a package reviewer
+
+Submit your package
+
+Sponsor pyOpenSci
+
+Join our community
+
+Follow our work
