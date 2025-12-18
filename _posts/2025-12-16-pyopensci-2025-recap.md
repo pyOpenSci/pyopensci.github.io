@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "pyOpenSci Annual Review: Tackling Hard Things Together"
-excerpt: "2025 was hard, but the pyOpenSci community leaned in. Despite funding uncertainty and GenAI challenges that strained our community, over 300 contributors continued to show up. Together, we continued to strength partnerships, focused on sustainability beyond grants, and fortified our community spaces  spaces where experts and beginners learn together. And more importantly we supported each other. THIS, is the spirit of resilience."
+excerpt: "2025 was hard, but the pyOpenSci community leaned in. Despite funding uncertainty and GenAI challenges that strained our community, over 300 contributors continued to show up. Together, we continued to strengthen partnerships, focused on sustainability beyond grants, and fortified our community spaces where experts and beginners learn together. And more importantly we supported each other. THIS, is the spirit of resilience."
 author: "pyopensci"
 permalink: /blog/pyopensci-2025-year-in-review.html
 header:
@@ -38,7 +38,13 @@ If you are a numbers person, here are some that show how we've grown.
 * 116 volunteer reviewers have supported over 120 package maintainers through our software review program.
 * To date we've had 29 volunteer editors continue to lead the peer review program driving the entire process forward.
 
-When I look at these numbers, I see individual, inspirational faces and stories.
+<figure>
+  <picture>
+    <source srcset="{{ site.url }}/images/blog/2025/pyos-sprint-group.webp" type="image/webp">
+    <img src="{{ site.url }}/images/blog/2025/pyos-sprint-group.png" alt="pyOpenSci community members working together">
+  </picture>
+  <figcaption>When I look at these numbers, I see individual, inspirational faces and stories—people who care about inclusion in both science and open source.</figcaption>
+</figure>
 
 People who care about inclusion in both science and open source. Like a colleague I met at our record-setting SciPy sprint last summer who sat down, saw the size of the sprint group, and asked—"how can I help?" He spent the day working with other sprinters, helping them make their first contributions to open source.
 
@@ -75,6 +81,14 @@ This year, we began actively diversifying our revenue streams through three path
 We're building training not just for revenue—but because scientists need accessible, high‑quality education that bridges research workflows and Python packaging best practices. GenAI is supporting many workflows and learning, but it's not a replacement for human guidance and mentorship. There is a lot of work to do to ensure that the next generation of researchers and open source developers have the skills that they need to truly be successful. We are living in a multi-language ecosystem, and natural language (like English) will not be enough knowledge to solve the world's greatest challenges, all of which require highly technical data processing and analysis.
 
 In 2025, I designed and delivered multiple workshops, intentionally testing synchronous vs. asynchronous formats, pacing and cohort size, and fundamentals vs. workflow‑focused curricula. These pilot workshops informed the design of our Spring 2026 asynchronous cohort course. This new course will be more affordable and accessible to a wider range of people. It will connect researchers across the US and the world with each other so they can work on similar pain points and learn together. It will teach foundational open source skills and introduce researchers to the people behind the tools driving open science and open source software.
+
+<figure>
+  <picture>
+    <source srcset="{{ site.url }}/images/blog/2025/scipy-workshop-teaching.webp" type="image/webp">
+    <img src="{{ site.url }}/images/blog/2025/scipy-workshop-teaching.png" alt="Teaching a pyOpenSci workshop at SciPy 2025">
+  </picture>
+  <figcaption>Teaching a pyOpenSci workshop at SciPy 2025, where participants learn Python packaging and open source best practices together.</figcaption>
+</figure>
 
 If you're interested in joining our training programs or bringing workshops to your organization, [get in touch](mailto:leah@pyopensci.org).
 
@@ -122,6 +136,14 @@ We had hugely successful sprints this year at PyCon US and SciPy. But SciPy 2025
 
 On day one, 20 participants showed up—67% more than 2024. More than I expected. Rather than becoming a challenge to navigate, something beautiful happened: the community self-organized. Experienced sprinters stepped up without being asked. They worked together, helped each other, and created their own learning groups. People sketched on whiteboards, moved tables to form small groups, and mentored each other through Git and GitHub. It was this beautiful mix of expert to beginner Pythonistas learning and growing together.
 
+<figure>
+  <picture>
+    <source srcset="{{ site.url }}/images/blog/2025/bof-group-inessa.webp" type="image/webp">
+    <img src="{{ site.url }}/images/blog/2025/bof-group-inessa.png" alt="SciPy 2025 sprint participants working in small groups">
+  </picture>
+  <figcaption>SciPy 2025 sprint participants self-organizing into small groups, sketching on whiteboards, and mentoring each other.</figcaption>
+</figure>
+
 This is what happens when you continue to show up, run events, and create healthy, supportive spaces. Others join in. They extend the work. They become the community.
 
 We also supported the PyCon US 2025 Maintainers Summit, creating space for those who keep scientific Python running.
@@ -130,57 +152,28 @@ We also supported the PyCon US 2025 Maintainers Summit, creating space for those
 
 None of what pyOpenSci accomplished this year would have happened without the people who showed up and made it work.
 
-Our 2025 board—Karen Cranston and April Johnson—made sustainable leadership possible. They supported me as I navigated the challenges of the year and in deeloping new programs to support our ustabitliy. this lead to  concrete outcomes: new training pilots, diversified sustainability models, and healthier leadership practices.
+Our 2025 executive council—[Karen Cranston](https://github.com/kcranston) and [April Johnson](https://github.com/apriljohnson)—made sustainable leadership possible. They supported me as I navigated the challenges of the year and in developing new programs to support our sustainability, providing critical guidance and support throughout the year, helping navigate organizational challenges and strategic decisions. This led to concrete outcomes: new training pilots, diversified sustainability models, and healthier leadership practices.
 
-Our executive council—[Name 1] and [Name 2]—provided critical guidance and support throughout the year, helping navigate organizational challenges and strategic decisions.
-
-Our editors-in-chief—James Balamuta, Eliot Robson, and Lauren Lee—led the peer review process throughout the year. They navigated the uptick in AI-fueled submissions, stepped up when reviews got challenging, and kept quality standards high.
+Our editors-in-chief—[James Balamuta](https://github.com/coatless), [Eliot Robson](https://github.com/erobson), and [Lauren Yee](https://github.com/laurenyee)—led the peer review process throughout the year. They navigated the uptick in AI-fueled submissions, stepped up when reviews got challenging, and kept quality standards high.
 
 Our [editorial team]({{ site.url }}/community/editorial-team/) makes quality peer review possible. This year, 116 volunteer reviewers and 29 volunteer editors drove peer review forward. Their commitment to getting it right, even when it's hard, is what makes our process work.
 
-Several members of our advisory council stepped up in particularly meaningful ways this year. Carol Willing, Inessa Pawson, and Chase provided exceptional support, helping both me and the organization navigate a challenging year with wisdom and care.
+As I was developing our sustainability model, Carol Willing, Inessa Pawson, and Chase Million from our Advisory Council stepped up and helped me brainstorm, reviewed ideas, and provided input on the directions I was considering and what outcomes I might expect. They provided exceptional support, helping both me and the organization navigate a challenging year with wisdom and care.
 
 And to everyone else who contributed—workshop organizers, sprint mentors, blog contributors, and the countless others who showed up—thank you. This community is built by all of you.
 
 ## pyOpenSci in the news
 
-This year, pyOpenSci was featured on the PyBites podcast and I participated in a PyLadiesCon panel. These opportunities help spread the word about our community and the work we're doing together.
+This year, pyOpenSci was featured on the PyBites podcast and I participated in a [PyLadiesCon panel](https://www.youtube.com/live/NB2Q9dbLwVc?si=WTZdNM5b3eMMKzT8). These opportunities help spread the word about our community and the work we're doing together.
 
+## What's next (2026)
 
+Our focus for 2026 is sustainability. This spring we will launch a new part of our membership program—cohort-based online courses that focus on all aspects of building, packaging, publishing, sharing, and maintaining open reusable code.
 
-## What's next (2025)
-
-Launch Spring 2025 asynchronous cohort course
-
-Expand training for individuals and organizations
-
-Grow membership and sponsorship programs
-
-Continue supporting volunteers
-
-
-We’re building for the long game.
-
+We will also grow our membership and sponsorship programs, continue to build and grow our vibrant community of practice, and explore new ways to support our community in this new age of generative AI-driven software.
 
 ## Hard things, together
 
-I don't have all the answers about funding or GenAI licensing. But I know this: community endures.
-
-376 people have shown that we can do hard things—when we do them together.
-
-I'm in this for the long haul.
+I don't have all the answers about funding or GenAI licensing. But I do know that cohesive, supportive and compassionate community can truly solve our hardest problems. And when times are hard, it also builds resilience.
 
 Let's keep building. Together.
-
-
-## Get involved
-
-Become a package reviewer
-
-Submit your package
-
-Sponsor pyOpenSci
-
-Join our community
-
-Follow our work
