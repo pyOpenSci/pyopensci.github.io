@@ -32,10 +32,20 @@ img {
 
 .person_img {
   filter: drop-shadow(3px 3px 3px #999);
-}
-
-.person_img img {
+  margin: 0;
+  padding: 0;
   width: 100%;
+  display: block;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
 }
 
 div > div {

@@ -33,39 +33,7 @@ $colors: (
 /* Create & style a 3x3 grid wrapper */
 /* Adjust grid side for the flowing layout */
 .flowing .grid {
-  grid-template-columns: repeat(auto-fit, minmax(calc($small/3), 1fr));
-}
-
-/* Smaller contributor cards for volunteer page */
-.entries-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-gap: 1.5rem;
-  margin-top: 1.5rem;
-
-  .cards {
-    font-size: 0.9rem;
-    padding: 1rem;
-
-    h4.person_name {
-      font-size: 1.1rem;
-      margin-top: 0.5em;
-    }
-
-    .person_img img {
-      max-width: 120px;
-      margin: 0 auto;
-    }
-
-    .contrib_org,
-    .ppl_social {
-      font-size: 0.85rem;
-    }
-
-    .page__meta {
-      font-size: 0.8rem;
-    }
-  }
+  grid-template-columns: repeat(auto-fit, minmax(calc($small/4), 1fr));
 }
 
 .grid {
@@ -73,6 +41,32 @@ $colors: (
     // minmax can be used to modify width
     grid-template-columns: repeat(auto-fit, minmax(calc($small/2), 1fr));
     grid-gap: 10px;
+
+    // Executive council section - smaller cards
+    &.executive-council-grid {
+      grid-template-columns: repeat(auto-fit, minmax(calc($small/3.5), 1fr));
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    // Advisory council section - 5 columns
+    &.advisory-council-grid {
+      grid-template-columns: repeat(5, 1fr);
+      grid-gap: 8px;
+      @media screen and (max-width: 1199px) {
+        grid-template-columns: repeat(4, 1fr);
+      }
+      @media screen and (max-width: 768px) {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    // Emeritus council section - smaller cards
+    &.emeritus-council-grid {
+      grid-template-columns: repeat(auto-fit, minmax(calc($small/3.5), 1fr));
+      max-width: 1000px;
+      margin: 0 auto;
+    }
 
     h4.grid_title {
       font-size: 1.6em;
@@ -180,6 +174,13 @@ $colors: (
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
   margin-right: auto!important;
   margin-left: auto!important;
+
+  // Remove padding from top for person images
+  .person_img {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
 
   &__image {
     max-height: calc($small / 3);
