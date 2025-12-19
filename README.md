@@ -80,14 +80,14 @@ We have a bash script that will automatically update the `last_updated` field in
 
 ## Monitoring Automated Tasks
 
-There are a few automated CI tasks in this repository to keep the website data up to date. In order for us to have visibility into when these jobs fail, we have automated a Slack bot to send a message to the `#pyos-infrastructure` channel on Slack using the [rtCamp/action-slack-notify](https://github.com/rtCamp/action-slack-notify) GitHub Action step. This action can be used within any repository in the PyOpenSci GitHub organization (as `SLACK_NOTIFICATIONS_BOT_TOKEN` is an org-wide secret) via:
+There are a few automated CI tasks in this repository to keep the website data up to date. In order for us to have visibility into when these jobs fail, we have automated a Slack bot to send a message to the `#pyos-maintainers-infrastructure` channel on Slack using the [rtCamp/action-slack-notify](https://github.com/rtCamp/action-slack-notify) GitHub Action step. This action can be used within any repository in the PyOpenSci GitHub organization (as `SLACK_NOTIFICATIONS_BOT_TOKEN` is an org-wide secret) via:
 
 ```yml
       - name: Slack Notification
         uses: rtCamp/action-slack-notify@v2
         if: failure()
         env:
-          SLACK_CHANNEL: pyos-infrastructure
+          SLACK_CHANNEL: pyos-maintainers-infrastructure
           SLACK_COLOR: '#db540b'
           SLACK_LINK_NAMES: true
           SLACKIFY_MARKDOWN: true
