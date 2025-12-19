@@ -1,6 +1,12 @@
+{% assign use_isotope = include.isotope | default: false %}
+
+{% if use_isotope %}
 <div class="element-item package-card {% for aCategory in apackage.categories %}
 {{ aCategory }}
 {% endfor %}" data-category="data">
+{% else %}
+<div class="package-card">
+{% endif %}
   <div class="package-card__content">
     <h3 class="package-card__title" itemprop="name">
       {{ apackage.package_name }}

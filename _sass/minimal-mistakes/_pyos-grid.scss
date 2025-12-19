@@ -24,6 +24,13 @@ $colors: (
 // Include the mixin
 //@include generate-color-styles($colors);
 
+// Shared mixin for auto-responsive grid behavior
+@mixin responsive-grid($min-width, $gap: 8px) {
+  display: grid;
+  grid-gap: $gap;
+  grid-template-columns: repeat(auto-fit, minmax($min-width, 1fr));
+}
+
 .clearfix::after {
   content: "";
   display: table;
@@ -53,10 +60,10 @@ $colors: (
     &.advisory-council-grid {
       grid-template-columns: repeat(4, 1fr);
       grid-gap: 8px;
-      @media screen and (max-width: 1199px) {
+      @media screen and (max-width: $x-large) {
         grid-template-columns: repeat(3, 1fr);
       }
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: $medium) {
         grid-template-columns: repeat(2, 1fr);
       }
     }
@@ -100,22 +107,27 @@ $colors: (
     grid-template-columns: 1fr; // Mobile: 1 column
 
     > * {
-        max-width: 280px; // Adjust this value
+        max-width: 280px;
         width: 100%;
       }
 
-    @media (min-width: 640px) {
+    @media (min-width: $small) {
       grid-template-columns: repeat(2, 1fr); // Small: 2 columns
     }
 
-    @media (min-width: 768px) {
+    @media (min-width: $medium) {
       grid-template-columns: repeat(3, 1fr); // Medium: 3 columns
     }
 
-    @media (min-width: 1024px) {
+    @media (min-width: $large) {
       grid-template-columns: repeat(4, 1fr); // Large: 4 columns
     }
   }
+
+// Home page packages section - auto-responsive
+.packages-grid {
+  @include responsive-grid(350px, 10px);
+}
 
 .grid-item {
     background: #f9f9f9;
@@ -508,7 +520,7 @@ $colors: (
 
 
   /* max 480 px */
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: $mobile) {
     // large buttons are disproportionately large
     // Elements outside of notice blocks such as the blog page
     .blog__grid {

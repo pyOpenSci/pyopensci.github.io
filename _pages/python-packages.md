@@ -51,7 +51,7 @@ To view packages affiliated with our partner communities that are a part of ourp
   <div class="grid-sizer"></div>
 {% for apackage in packages_sorted %}
   {% if apackage.active == true %}
-    {% include package-grid.html %}
+    {% include package-grid.html isotope=true %}
   {% endif %}
 {% endfor %}
 </div>
@@ -65,7 +65,7 @@ Archived packages are packages that have successfully completed [pyOpenSci's sof
   <div class="grid-sizer"></div>
 {% for apackage in packages_sorted %}
   {% if apackage.active == false %}
-    {% include package-grid.html %}
+    {% include package-grid.html isotope=true %}
   {% endif %}
 {% endfor %}
 </div>
