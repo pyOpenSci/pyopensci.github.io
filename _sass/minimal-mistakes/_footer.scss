@@ -17,6 +17,7 @@
   background-color: darken($pyos-deeppurple, 8%);
   font-size: 0.85rem;
   line-height: 1.3rem;
+  font-family: "Poppins", $sans-serif;
 
   footer {
     @include clearfix;
@@ -50,11 +51,14 @@
 }
 
 .page__footer-copyright {
-  font-family: $global-font-family;
+  font-family: "Poppins", $sans-serif;
   font-size: $type-size-6;
+  padding: 1em;
+  max-width: 900px;
+  margin: 0 auto;
 
   p {
-    margin: 0
+    margin: 0 0 0.5em 0;
   }
 }
 
@@ -63,15 +67,15 @@
     margin: 0;
     padding: 0;
     list-style-type: none;
+    text-align: center;
   }
 
   li {
     display: inline-block;
     padding-top: 5px;
     padding-bottom: 5px;
-    font-family: $sans-serif-narrow;
+    font-family: "Poppins", $sans-serif;
     font-size: $type-size-5;
-    text-transform: uppercase;
   }
 
   li + li:before {
@@ -81,7 +85,7 @@
 
   a {
     padding-right: 10px;
-    font-weight: bold;
+    font-weight: normal;
   }
 }
 
