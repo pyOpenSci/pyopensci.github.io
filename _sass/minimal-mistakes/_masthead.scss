@@ -50,30 +50,32 @@ For styling of menu contents, see _pyos-dropdown.scss
 }
 
 .site-logo {
-  height: 8em;
-  width: 8.5em;
-  top: -2.5em;
-  left: -2em;
-  position:relative;
-  background-color: $background-color;
-  border: 1px solid $border-color;
-  box-shadow: 3px 3px;
-  border-radius: 50%;
+  height: auto;
+  width: auto;
+  top: 0;
+  left: 0;
+  position: relative;
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
   display: flex;
   justify-content: center;
+  align-items: center;
+  padding: 0.5em 0;
 
   &::after {
-    padding-bottom: 100%;
+    display: none;
   }
 
   img {
     object-fit: contain;
-    height: 4em;
-    width: 75%;
-    margin: 0 auto 1.25em auto;
+    height: 2.5em;
+    width: auto;
+    margin: 0;
     display: block;
     box-shadow: none;
-    align-self: end;
+    align-self: center;
   }
 }
 

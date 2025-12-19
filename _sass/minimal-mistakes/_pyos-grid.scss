@@ -33,14 +33,40 @@ $colors: (
 /* Create & style a 3x3 grid wrapper */
 /* Adjust grid side for the flowing layout */
 .flowing .grid {
-  grid-template-columns: repeat(auto-fit, minmax(calc($small/3), 1fr));
- }
+  grid-template-columns: repeat(auto-fit, minmax(calc($small/4), 1fr));
+}
 
 .grid {
     display: grid;
     // minmax can be used to modify width
     grid-template-columns: repeat(auto-fit, minmax(calc($small/2), 1fr));
     grid-gap: 10px;
+
+    // Executive council section - smaller cards
+    &.executive-council-grid {
+      grid-template-columns: repeat(auto-fit, minmax(calc($small/3.5), 1fr));
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    // Advisory council and editorial board sections - 4 columns
+    &.advisory-council-grid {
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 8px;
+      @media screen and (max-width: 1199px) {
+        grid-template-columns: repeat(3, 1fr);
+      }
+      @media screen and (max-width: 768px) {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    // Emeritus council section - smaller cards
+    &.emeritus-council-grid {
+      grid-template-columns: repeat(auto-fit, minmax(calc($small/3.5), 1fr));
+      max-width: 1000px;
+      margin: 0 auto;
+    }
 
     h4.grid_title {
       font-size: 1.6em;
@@ -137,6 +163,11 @@ $colors: (
 // do not adjust the display or structure of the cards element.
 /* Package cards splash */
 
+.element-item.cards {
+  padding: 0;
+  margin: 2em;
+}
+
 .cards {
   top: 0px;
   position: relative;
@@ -148,6 +179,13 @@ $colors: (
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
   margin-right: auto!important;
   margin-left: auto!important;
+
+  // Remove padding from top for person images
+  .person_img {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
 
   &__image {
     max-height: calc($small / 3);

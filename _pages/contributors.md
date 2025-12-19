@@ -22,7 +22,7 @@ by an expert team of volunteer advisory members who help steer the direction of 
 
 {% assign advisory_sorted = site.data.contributors | where:"board",true | sort: 'sort' %}
 
-<div class="grid">
+<div class="grid executive-council-grid">
 {% for aperson in advisory_sorted %}
   {% include people-grid.html  %}
 {% endfor %}
@@ -39,14 +39,14 @@ pyOpenSci advisory council members are volunteer experts in the scientific
 Python open source space who provide high-level guidance on the development of
 the organization.
 
-{% assign advisory_working = site.data.contributors | where:"advisory",true | sort: 'sort' %}
+{% assign advisory_unsorted = site.data.contributors | where:"advisory",true %}
+{% assign advisory_with_sort = advisory_unsorted | where_exp:"item","item.sort != nil" | sort: 'sort' %}
+{% assign advisory_without_sort = advisory_unsorted | where_exp:"item","item.sort == nil" %}
+{% assign advisory_working = advisory_with_sort | concat: advisory_without_sort %}
 
-<div class="grid">
+<div class="grid advisory-council-grid">
 {% for aperson in advisory_working %}
-  {% if aperson.advisory %}
-  {{ aperson.person_name }}
-    {% include people-grid.html  %}
- {% endif %}
+  {% include people-grid.html  %}
 {% endfor %}
 </div>
 
@@ -61,7 +61,7 @@ leadership councils.
 
 {% assign emeritus_advisory = site.data.contributors | where:"emeritus_advisory", true %}
 
-<div class="grid">
+<div class="grid emeritus-council-grid">
 {% for aperson in emeritus_advisory %}
   {{ aperson.person_name }}
     {% include people-grid.html  %}
@@ -77,12 +77,11 @@ leadership councils.
 {: .clearall }
 {: .clearall }
 
-{% assign editorial = site.data.contributors | where:"editorial_board", true %}
+{% assign editorial = site.data.contributors | where:"editorial_board", true | sort: 'sort' %}
 
-<div class="grid">
+<div class="grid advisory-council-grid">
 {% for aperson in editorial %}
-  {{ aperson.person_name }}
-    {% include people-grid.html  %}
+  {% include people-grid.html  %}
 {% endfor %}
 </div>
 
