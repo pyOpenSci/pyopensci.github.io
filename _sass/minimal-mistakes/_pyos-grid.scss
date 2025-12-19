@@ -93,6 +93,13 @@ $colors: (
     }
   }
 
+// Home page and volunteer page new contributors section - auto-responsive
+.entries-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(calc($small/4), 1fr));
+  grid-gap: 8px;
+}
+
 .grid-item {
     background: #f9f9f9;
     border: 1px solid #ddd;
