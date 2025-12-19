@@ -47,7 +47,8 @@ To view packages affiliated with our partner communities that are a part of ourp
 </div>
 
 <!-- Active Packages -->
-<div class="grid-isotope">
+<div class="grid-isotope package-grid-isotope">
+  <div class="grid-sizer"></div>
 {% for apackage in packages_sorted %}
   {% if apackage.active == true %}
     {% include package-grid.html %}
@@ -60,7 +61,8 @@ To view packages affiliated with our partner communities that are a part of ourp
 Archived packages are packages that have successfully completed [pyOpenSci's software peer review process](https://www.pyopensci.org/about-peer-review/index.html) but are no longer maintained. [Check out our software maintenance policy for how we determine when a package becomes archived.](https://www.pyopensci.org/software-peer-review/our-process/policies.html#package-maintenance-and-maintainer-responsiveness)
 
 <!-- Archived Packages -->
-<div class="grid-isotope">
+<div class="grid-isotope package-grid-isotope">
+  <div class="grid-sizer"></div>
 {% for apackage in packages_sorted %}
   {% if apackage.active == false %}
     {% include package-grid.html %}
