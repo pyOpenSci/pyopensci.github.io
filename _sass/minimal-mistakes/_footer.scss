@@ -9,12 +9,14 @@
   margin-right: 0;
   width: 100%;
   margin-top: 3em;
-  color: #ffffff;
+  color: rgba($pyos-white, 0.9);
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   -webkit-animation-delay: 0.45s;
   animation-delay: 0.45s;
-  background-color: $pyos-deeppurple;
+  background-color: darken($pyos-deeppurple, 8%);
+  font-size: 0.85rem;
+  line-height: 1.3rem;
 
   footer {
     @include clearfix;
@@ -30,11 +32,11 @@
   }
 
   a {
-    color: #ffffff;
+    color: rgba($pyos-white, 0.9);
     text-decoration: none;
 
     &:hover {
-      color: rgba(255, 255, 255, 0.8);
+      color: $pyos-white;
       text-decoration: underline;
     }
   }
@@ -43,13 +45,13 @@
   .fab,
   .far,
   .fal {
-    color: #ffffff;
+    color: rgba($pyos-white, 0.9);
   }
 }
 
 .page__footer-copyright {
   font-family: $global-font-family;
-  font-size: $type-size-7;
+  font-size: $type-size-6;
 
   p {
     margin: 0
@@ -68,7 +70,7 @@
     padding-top: 5px;
     padding-bottom: 5px;
     font-family: $sans-serif-narrow;
-    font-size: $type-size-6;
+    font-size: $type-size-5;
     text-transform: uppercase;
   }
 
@@ -85,6 +87,61 @@
   .social-icons {
     a {
       white-space: nowrap;
+    }
+
+    i {
+      font-size: 0.85em;
+      margin-right: 0.3em;
+    }
+
+    // Override all brand colors to be white with grey mixed in
+    .fas,
+    .fab,
+    .far,
+    .fal,
+    .fa-behance,
+    .fa-behance-square,
+    .fa-bitbucket,
+    .fa-dribbble,
+    .fa-dribble-square,
+    .fa-facebook,
+    .fa-facebook-square,
+    .fa-facebook-f,
+    .fa-flickr,
+    .fa-foursquare,
+    .fa-github,
+    .fa-github-alt,
+    .fa-github-square,
+    .fa-gitlab,
+    .fa-instagram,
+    .fa-keybase,
+    .fa-lastfm,
+    .fa-lastfm-square,
+    .fa-linkedin,
+    .fa-linkedin-in,
+    .fa-mastodon,
+    .fa-mastodon-square,
+    .fa-pinterest,
+    .fa-pinterest-p,
+    .fa-pinterest-square,
+    .fa-reddit,
+    .fa-rss,
+    .fa-rss-square,
+    .fa-soundcloud,
+    .fa-stack-exchange,
+    .fa-stack-overflow,
+    .fa-tumblr,
+    .fa-tumblr-square,
+    .fa-twitter,
+    .fa-twitter-square,
+    .fa-vimeo,
+    .fa-vimeo-square,
+    .fa-vimeo-v,
+    .fa-vine,
+    .fa-youtube,
+    .fa-xing,
+    .fa-xing-square {
+      color: rgba($pyos-white, 0.85) !important;
     }
   }
 }

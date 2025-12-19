@@ -65,7 +65,6 @@
 /* remove border*/
 .page__content {
   .archive__item-title {
-    //margin-top: 1em;
     border-bottom: none;
   }
 }
@@ -251,9 +250,8 @@ h2.archive__item-title {
 
 .feature__wrapper {
   @include clearfix();
-  margin-bottom: 0.5em; // Reduced from .02em for tighter spacing below
-  margin-top: 0.5em; // Reduced from default for tighter spacing
-  // border-bottom: 1px solid $border-color;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
 
   // Further reduce spacing when followed by pyos-section
   + .pyos-section {

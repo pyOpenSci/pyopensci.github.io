@@ -34,7 +34,39 @@ $colors: (
 /* Adjust grid side for the flowing layout */
 .flowing .grid {
   grid-template-columns: repeat(auto-fit, minmax(calc($small/3), 1fr));
- }
+}
+
+/* Smaller contributor cards for volunteer page */
+.entries-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 1.5rem;
+  margin-top: 1.5rem;
+
+  .cards {
+    font-size: 0.9rem;
+    padding: 1rem;
+
+    h4.person_name {
+      font-size: 1.1rem;
+      margin-top: 0.5em;
+    }
+
+    .person_img img {
+      max-width: 120px;
+      margin: 0 auto;
+    }
+
+    .contrib_org,
+    .ppl_social {
+      font-size: 0.85rem;
+    }
+
+    .page__meta {
+      font-size: 0.8rem;
+    }
+  }
+}
 
 .grid {
     display: grid;
