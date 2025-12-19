@@ -134,7 +134,7 @@ peer-review:
 
 {% assign packages_sorted = site.data.packages | sort_natural: 'date_accepted' | reverse %}
 
-<div class="grid">
+<div class="packages-grid">
   {% for apackage in packages_sorted limit:3 %}
     {% include package-grid.html %}
   {% endfor %}
