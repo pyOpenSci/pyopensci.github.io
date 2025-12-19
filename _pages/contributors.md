@@ -24,7 +24,7 @@ by an expert team of volunteer advisory members who help steer the direction of 
 
 <div class="grid executive-council-grid">
 {% for aperson in advisory_sorted %}
-  {% include people-grid.html  %}
+  {% include people-grid.html %}
 {% endfor %}
 </div>
 
@@ -46,7 +46,7 @@ the organization.
 
 <div class="grid advisory-council-grid">
 {% for aperson in advisory_working %}
-  {% include people-grid.html  %}
+  {% include people-grid.html %}
 {% endfor %}
 </div>
 
@@ -64,7 +64,7 @@ leadership councils.
 <div class="grid emeritus-council-grid">
 {% for aperson in emeritus_advisory %}
   {{ aperson.person_name }}
-    {% include people-grid.html  %}
+    {% include people-grid.html %}
 {% endfor %}
 </div>
 
@@ -81,7 +81,7 @@ leadership councils.
 
 <div class="grid advisory-council-grid">
 {% for aperson in editorial %}
-  {% include people-grid.html  %}
+  {% include people-grid.html %}
 {% endfor %}
 </div>
 
@@ -117,6 +117,6 @@ pyOpenSci has a diverse and vibrant community of pythonistas! To date,
 <div class="grid-isotope">
  <div class="grid-sizer"></div>
 {% for aperson in ppl_sorted %}
-  {% include people-grid.html %}
+  {% include people-grid.html isotope=true %}
 {% endfor %}
 </div>

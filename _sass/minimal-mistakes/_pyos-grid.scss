@@ -163,29 +163,18 @@ $colors: (
 // do not adjust the display or structure of the cards element.
 /* Package cards splash */
 
-.element-item.cards {
-  padding: 0;
-  margin: 2em;
-}
-
+// Base card styles - shared by both people and package cards
 .cards {
   top: 0px;
   position: relative;
   background-color: #fff;//#fcfbf5;
   text-decoration: none;
-  z-index: 0;
+  z-index: 1;
   overflow: hidden;
   font-size: .8em;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
   margin-right: auto!important;
   margin-left: auto!important;
-
-  // Remove padding from top for person images
-  .person_img {
-    margin-top: 0;
-    margin-left: 0;
-    margin-right: 0;
-  }
 
   &__image {
     max-height: calc($small / 3);
@@ -549,3 +538,24 @@ $colors: (
 
     }
 }
+
+// Isotope grid cards - override base .cards auto margins that break isotope layout
+.grid-isotope .element-item.cards {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+// People cards in isotope grid - specific styling
+.grid-isotope .element-item.cards.people-card {
+  padding: 0;
+  margin: 8px;
+
+  // Remove padding from top for person images
+  .person_img {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+// Package cards in isotope grid - styles are now in _pyos-isotope.scss
