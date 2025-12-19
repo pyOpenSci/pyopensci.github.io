@@ -17,7 +17,8 @@
         {% if alink.sub-nav %}
           <li class="dropdown">
             <button class="dropbtn" tabindex="0" aria-expanded="false">
-              {{ alink.title }} <i class="fas fa-caret-down"></i>
+              <span class="dropbtn-text">{{ alink.title }}</span>
+              <i class="fas fa-caret-down dropbtn-arrow"></i>
             </button>
             <ul class="dropdown-content">
               {% for subnav in alink.sub-nav %}
@@ -33,6 +34,12 @@
               </li>
               {% endfor %}
             </ul>
+          </li>
+        {% elsif alink.is_button %}
+          <li>
+            <a href="{{ alink.url }}" class="btn btn--primary donate-btn" target="_blank" rel="noopener noreferrer">
+              {{ alink.title }}
+            </a>
           </li>
         {% else %}
           <li>
