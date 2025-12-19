@@ -79,10 +79,9 @@ leadership councils.
 
 {% assign editorial = site.data.contributors | where:"editorial_board", true | sort: 'sort' %}
 
-<div class="grid">
+<div class="grid advisory-council-grid">
 {% for aperson in editorial %}
-  {{ aperson.person_name }}
-    {% include people-grid.html  %}
+  {% include people-grid.html  %}
 {% endfor %}
 </div>
 

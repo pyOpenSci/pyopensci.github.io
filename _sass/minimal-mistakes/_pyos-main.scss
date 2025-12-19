@@ -52,6 +52,12 @@ div > div {
   padding: 10px;
 }
 
+// Override div > div padding for person_img with higher specificity
+.cards .person_img,
+.archive__item .person_img {
+  padding: 0;
+}
+
 
 
 

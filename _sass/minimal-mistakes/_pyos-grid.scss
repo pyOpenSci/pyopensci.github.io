@@ -49,12 +49,12 @@ $colors: (
       margin: 0 auto;
     }
 
-    // Advisory council section - 5 columns
+    // Advisory council and editorial board sections - 4 columns
     &.advisory-council-grid {
-      grid-template-columns: repeat(5, 1fr);
+      grid-template-columns: repeat(4, 1fr);
       grid-gap: 8px;
       @media screen and (max-width: 1199px) {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
       }
       @media screen and (max-width: 768px) {
         grid-template-columns: repeat(2, 1fr);
@@ -162,6 +162,11 @@ $colors: (
 // Cards are also used to style the isotope layout
 // do not adjust the display or structure of the cards element.
 /* Package cards splash */
+
+.element-item.cards {
+  padding: 0;
+  margin: 2em;
+}
 
 .cards {
   top: 0px;

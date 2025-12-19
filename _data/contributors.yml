@@ -324,7 +324,7 @@
   title:
     - Advisory Council
     - Emeritus editor
-  sort: 2
+  sort:
   bio: Open Source Developer
   organization: xmnlab
   date_added: '2019-10-15'
@@ -369,7 +369,7 @@
   title:
     - Advisory Council
     - Editor
-  sort: 2
+  sort:
   bio: Filipe Fernandes is a Physical oceanographer by training, turned
       research software engineer, and a software packager hobbyist.
   organization:
@@ -495,7 +495,7 @@
   github_username: yuvipanda
   github_image_id: 30430
   title: Advisory Council
-  sort:
+  sort: 2
   bio:
   organization: '@2i2c-org'
   date_added: '2023-01-18'
