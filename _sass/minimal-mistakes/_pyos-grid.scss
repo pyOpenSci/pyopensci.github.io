@@ -24,12 +24,7 @@ $colors: (
 // Include the mixin
 //@include generate-color-styles($colors);
 
-// Shared mixin for auto-responsive grid behavior
-@mixin responsive-grid($min-width, $gap: 8px) {
-  display: grid;
-  grid-gap: $gap;
-  grid-template-columns: repeat(auto-fit, minmax($min-width, 1fr));
-}
+// Shared mixin removed - using fixed breakpoints throughout for consistent behavior
 
 .clearfix::after {
   content: "";
@@ -38,41 +33,98 @@ $colors: (
 }
 
 /* Create & style a 3x3 grid wrapper */
-/* Adjust grid side for the flowing layout */
+/* Adjust grid side for the flowing layout - fixed breakpoints */
 .flowing .grid {
-  grid-template-columns: repeat(auto-fit, minmax(calc($small/4), 1fr));
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr; // Mobile: 1 column
+
+  @media (min-width: $small) {
+    grid-template-columns: repeat(2, 1fr); // Small: 2 columns
+  }
+
+  @media (min-width: $medium) {
+    grid-template-columns: repeat(3, 1fr); // Medium: 3 columns
+  }
+
+  @media (min-width: $large) {
+    grid-template-columns: repeat(4, 1fr); // Large: 4 columns
+  }
 }
 
 .grid {
     display: grid;
-    // minmax can be used to modify width
-    grid-template-columns: repeat(auto-fit, minmax(calc($small/2), 1fr));
     grid-gap: 10px;
+    grid-template-columns: 1fr; // Mobile: 1 column
 
-    // Executive council section - smaller cards
-    &.executive-council-grid {
-      grid-template-columns: repeat(auto-fit, minmax(calc($small/3.5), 1fr));
-      max-width: 1000px;
-      margin: 0 auto;
+    @media (min-width: $small) {
+      grid-template-columns: repeat(2, 1fr); // Small: 2 columns
     }
 
-    // Advisory council and editorial board sections - 4 columns
-    &.advisory-council-grid {
+    @media (min-width: $medium) {
+      grid-template-columns: repeat(3, 1fr); // Medium: 3 columns
+    }
+
+    @media (min-width: $large) {
+      grid-template-columns: repeat(4, 1fr); // Large: 4 columns
+    }
+
+    // Executive council section - fixed breakpoints
+    &.executive-council-grid {
       grid-template-columns: repeat(4, 1fr);
       grid-gap: 8px;
+      max-width: 1000px;
+      margin: 0 auto;
+
       @media screen and (max-width: $x-large) {
         grid-template-columns: repeat(3, 1fr);
       }
+
       @media screen and (max-width: $medium) {
         grid-template-columns: repeat(2, 1fr);
       }
+
+      @media screen and (max-width: $mobile) {
+        grid-template-columns: 1fr;
+      }
     }
 
-    // Emeritus council section - smaller cards
+    // Advisory council and editorial board sections - fixed breakpoints
+    &.advisory-council-grid {
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 8px;
+
+      @media screen and (max-width: $x-large) {
+        grid-template-columns: repeat(3, 1fr);
+      }
+
+      @media screen and (max-width: $medium) {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      @media screen and (max-width: $mobile) {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    // Emeritus council section - fixed breakpoints
     &.emeritus-council-grid {
-      grid-template-columns: repeat(auto-fit, minmax(calc($small/3.5), 1fr));
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 8px;
       max-width: 1000px;
       margin: 0 auto;
+
+      @media screen and (max-width: $x-large) {
+        grid-template-columns: repeat(3, 1fr);
+      }
+
+      @media screen and (max-width: $medium) {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      @media screen and (max-width: $mobile) {
+        grid-template-columns: 1fr;
+      }
     }
 
     h4.grid_title {
@@ -124,9 +176,23 @@ $colors: (
     }
   }
 
-// Home page packages section - auto-responsive
+// Home page packages section - fixed breakpoints
 .packages-grid {
-  @include responsive-grid(350px, 10px);
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr; // Mobile: 1 column
+
+  @media (min-width: $small) {
+    grid-template-columns: repeat(2, 1fr); // Small: 2 columns
+  }
+
+  @media (min-width: $medium) {
+    grid-template-columns: repeat(3, 1fr); // Medium: 3 columns
+  }
+
+  @media (min-width: $large) {
+    grid-template-columns: repeat(4, 1fr); // Large: 4 columns
+  }
 }
 
 .grid-item {
@@ -199,89 +265,7 @@ $colors: (
 // do not adjust the display or structure of the cards element.
 /* Package cards splash */
 
-// Base card styles - shared by both people and package cards
-.cards {
-  top: 0px;
-  position: relative;
-  background-color: #fff;//#fcfbf5;
-  text-decoration: none;
-  z-index: 1;
-  overflow: hidden;
-  font-size: .8em;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-  margin-right: auto!important;
-  margin-left: auto!important;
-
-  &__image {
-    max-height: calc($small / 3);
-    overflow: hidden;
-    border-radius: 10px;
-  }
-
-  &:hover {
-    transition: all 0.2s ease-out;
-    transform: translateY(-3px);
-    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
-    top: -4px;
-    border: 1px solid #cccccc;
-    background-color: white;
-    cursor: pointer;
-  }
-
-  &:hover:before {
-    transform: scale(2.15);
-  }
-
-  p {
-    font-size: 1em;
-    line-height: 1.8;
-  }
-
-  h2 {
-    font-size: 1.5rem;
-    margin-bottom: 1rem!important;
-
-    a {
-      text-decoration: none;
-      font-size: 1.2em;
-    }
-
-    &.archive__item-title {
-      font-size: 1.1em !important;
-    }
-  }
-
-  h3.card__title.no_toc,
-  .card__title.no_toc {
-    margin-top: 1.2em;
-    font-size: 1.9em;
-    color: $pyos-darkpurple;
-  }
-
-  .page__meta.contributors {
-    font-size: .95rem;
-    line-height: 1.3rem;
-  }
-
-  .contributors a {
-    text-decoration: none;
-  }
-
-  ul {
-    list-style-type: none;
-    margin-left: 0;
-    padding: .2em;
-
-    li {
-      font-size: 1rem;
-      a {
-        text-decoration: none;
-        //font-size: 1.2em
-      }
-    }
-  }
-
-}
+// Base card styles moved to _pyos-cards.scss
 
 .grid h3.card-title a {
   margin-top: .3em;
@@ -449,46 +433,7 @@ $colors: (
   display: flex;
 }
 
-.cards {
-  h2 a {
-  text-decoration: none;
-  font-size: 1.2em;
-  }
-  // Card listing fonts
-  h4.person_name {
-    margin-top: 0.6em;
-    margin-bottom: 0;
-    font-size: 1.4rem;
-
-    a {
-      text-decoration: none;
-      }
-    }
-
-  .contrib_org,.ppl_social {
-    font-size: 0.875rem;
-    font-weight:normal;
-    margin-bottom: 0!important;
-  }
-
-  // Social links in people cards
-  .ppl_social {
-    a {
-      margin-right: 10px;
-      text-decoration: none !important;
-    }
-
-    // Font Awesome icons inherit font-size from parent
-    .fa-brands,
-    .fa-solid {
-      font-size: inherit;
-    }
-  }
-  .package_description {
-    font-size: .95rem;
-    line-height: 1.5rem;
-  }
-}
+// Base card styles moved to _pyos-cards.scss
 
 // Adjust cards within a notice block
 .notice .cards p {
@@ -557,11 +502,6 @@ $colors: (
       }
     }
 
-    // Responsive social links in people cards
-    .ppl_social {
-      font-size: .9em !important;
-    }
-
     // the home page has this grid in a notice block
     .notice {
       .card-body p, .card-body h2 {
@@ -594,23 +534,6 @@ $colors: (
     }
 }
 
-// Isotope grid cards - override base .cards auto margins that break isotope layout
-.grid-isotope .element-item.cards {
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-}
 
-// People cards in isotope grid - specific styling
-.grid-isotope .element-item.cards.people-card {
-  padding: 0;
-  margin: 8px;
-
-  // Remove padding from top for person images
-  .person_img {
-    margin-top: 0;
-    margin-left: 0;
-    margin-right: 0;
-  }
-}
-
+// People cards in isotope grid - styles are now in _pyos-cards.scss
 // Package cards in isotope grid - styles are now in _pyos-isotope.scss

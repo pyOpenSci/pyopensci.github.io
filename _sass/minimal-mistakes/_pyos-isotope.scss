@@ -144,11 +144,12 @@ input[type="text"] {
   opacity: 1;
 
   // People cards - override isotope defaults
+  // Base styles are in _pyos-cards.scss
   &.people-card {
     padding: 0 !important;
     margin: 20px;
-    // Account for 25px margins on each side (50px total)
-    width: calc(#{$isotope-column-width} - 50px);
+    // Account for 20px margins on each side (40px total)
+    width: calc(#{$isotope-column-width} - 40px);
   }
 }
 

@@ -1,3 +1,94 @@
+/* ==========================================================================
+   BASE CARD STYLES
+   ========================================================================== */
+
+// Base card styles - shared by both people and package cards
+.cards {
+  top: 0px;
+  position: relative;
+  background-color: #fff;//#fcfbf5;
+  text-decoration: none;
+  z-index: 1;
+  overflow: hidden;
+  font-size: .8em;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  margin: .5em;
+
+  &__image {
+    max-height: calc($small / 3);
+    overflow: hidden;
+    border-radius: 10px;
+  }
+
+  &:hover {
+    transition: all 0.2s ease-out;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+    top: -4px;
+    border: 1px solid #cccccc;
+    background-color: white;
+    cursor: pointer;
+  }
+
+  &:hover:before {
+    transform: scale(2.15);
+  }
+
+  p {
+    font-size: 1em;
+    line-height: 1.8;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem!important;
+
+    a {
+      text-decoration: none;
+      font-size: 1.2em;
+    }
+
+    &.archive__item-title {
+      font-size: 1.1em !important;
+    }
+  }
+
+  h3.card__title.no_toc,
+  .card__title.no_toc {
+    margin-top: 1.2em;
+    font-size: 1.9em;
+    color: $pyos-darkpurple;
+  }
+
+  .page__meta.contributors {
+    font-size: .95rem;
+    line-height: 1.3rem;
+  }
+
+  .contributors a {
+    text-decoration: none;
+  }
+
+  .package_description {
+    font-size: .95rem;
+    line-height: 1.5rem;
+  }
+
+  ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding: .2em;
+
+    li {
+      font-size: 1rem;
+      a {
+        text-decoration: none;
+        //font-size: 1.2em
+      }
+    }
+  }
+}
+
 .cards-image figure {
   margin: 0;
 }
@@ -17,8 +108,16 @@
 
 .tutorial__container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); // Adjust the minmax values as needed
     grid-gap: 20px;
+    grid-template-columns: 1fr; // Mobile: 1 column
+
+    @media (min-width: $small) {
+      grid-template-columns: repeat(2, 1fr); // Small: 2 columns
+    }
+
+    @media (min-width: $medium) {
+      grid-template-columns: repeat(3, 1fr); // Medium: 3 columns
+    }
 
     // Ensure all cards have the height of the tallest card
     align-items: stretch;
@@ -263,4 +362,90 @@
     &.btn {
         width: 40%;
     }
+}
+
+/* ==========================================================================
+   PEOPLE CARDS
+   ========================================================================== */
+
+// Base people card styles - semantic nesting approach
+.people-card {
+    padding: 0;
+  .people-card__content {
+    // Ensure content wrapper has no padding (overrides div > div rule)
+    padding: 0;
+    overflow: hidden; // Ensures image doesn't overflow card boundaries
+
+    // Image: full width, no padding - breaks out to card edges
+    .person_img {
+      filter: drop-shadow(3px 3px 3px #999);
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      display: block;
+      overflow: hidden;
+
+      img {
+        width: 100%;
+        aspect-ratio: 1;
+        object-fit: cover;
+        display: block;
+        margin: 0;
+        padding: 0;
+      }
+    }
+
+    // Text elements: semantic selectors with padding
+    h4.person_name {
+      padding: 0 1em;
+      margin-top: 0.6em;
+      margin-bottom: 0;
+      font-size: 1.4rem;
+
+      a {
+        text-decoration: none;
+      }
+    }
+
+    p.page__meta {
+      padding: 0 1em;
+      // Inherits other styles from _page.scss
+    }
+
+    p.contrib_org {
+      padding: 0 1em;
+      font-size: 0.875rem;
+      font-weight: normal;
+      margin-bottom: 0 !important;
+    }
+
+    .ppl_social {
+      padding: 0 1em 1em 1em; // includes bottom padding
+      font-size: 0.875rem;
+      font-weight: normal;
+      margin-bottom: 0 !important;
+
+      a {
+        margin-right: 10px;
+        text-decoration: none !important;
+      }
+
+      // Font Awesome icons inherit font-size from parent
+      .fa-brands,
+      .fa-solid {
+        font-size: inherit;
+      }
+    }
+  }
+}
+
+// Responsive adjustments for people cards
+@media screen and (max-width: $mobile) {
+  .people-card {
+    .people-card__content {
+      .ppl_social {
+        font-size: 0.9em !important;
+      }
+    }
+  }
 }

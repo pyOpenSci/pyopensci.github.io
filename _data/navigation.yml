@@ -18,7 +18,7 @@ main:
       - title: "Peer review guide"
         url: "https://www.pyopensci.org/software-peer-review/"
         icon: "fas fa-external-link-alt"
-  - title: "Python Packaging"
+  - title: "Packaging"
     icon: "fas fa-fw fa-envelope-square"
     url:
     sub-nav:
@@ -52,7 +52,7 @@ main:
       - title: "Handbook"
         icon: "fas fa-external-link-alt"
         url: "https://www.pyopensci.org/handbook/"
-  - title: "Get Involved"
+  - title: "Support Us"
     sub-nav:
       - title: "Volunteer"
         url: "/volunteer.html"
