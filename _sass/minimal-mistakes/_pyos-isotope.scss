@@ -159,13 +159,8 @@ input[type="text"] {
 
 /* ---- Package Cards - Separate concerns ---- */
 
-.element-item.package-card {
-  margin: 8px;
-  padding: 0;
-  overflow: visible;
-  // Account for 8px margins on each side (16px total)
-  width: calc(#{$package-column-width} - 16px);
-
+// Base package card styles - apply to all package cards (isotope and grid)
+.package-card {
   .package-card__content {
     background: #fff;
     border: 1px solid #e0e0e0;
@@ -274,24 +269,34 @@ input[type="text"] {
   }
 }
 
-// Responsive adjustments for package cards
-@media screen and (max-width: 1199px) {
+// Isotope-specific styles - width and margin for isotope layout
+.element-item.package-card {
+  margin: 8px;
+  padding: 0;
+  overflow: visible;
+  // Account for 8px margins on each side (16px total)
+  width: calc(#{$package-column-width} - 16px);
+}
+
+// Responsive adjustments for isotope package cards (width only)
+@media screen and (max-width: $x-large) {
   .element-item.package-card {
     width: calc(#{$package-column-width} - 16px);
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: $medium) {
   .element-item.package-card {
     width: calc(50% - 16px);
+  }
 
-    .package-card__content {
-      padding: 1.25em;
-    }
+  // Responsive padding for all package cards
+  .package-card .package-card__content {
+    padding: 1.25em;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: $mobile) {
   .element-item.package-card {
     width: 100%;
     margin-left: 0;
