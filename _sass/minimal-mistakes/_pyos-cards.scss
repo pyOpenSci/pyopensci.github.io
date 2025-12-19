@@ -264,3 +264,84 @@
         width: 40%;
     }
 }
+
+/* ==========================================================================
+   PEOPLE CARDS
+   ========================================================================== */
+
+// Base people card styles - semantic nesting approach
+.people-card {
+  .people-card__content {
+    // Image: full width, no padding
+    .person_img {
+      filter: drop-shadow(3px 3px 3px #999);
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      display: block;
+      overflow: hidden;
+
+      img {
+        width: 100%;
+        aspect-ratio: 1;
+        object-fit: cover;
+        display: block;
+        margin: 0;
+        padding: 0;
+      }
+    }
+
+    // Text elements: semantic selectors with padding
+    h4.person_name {
+      padding: 0 1em;
+      margin-top: 0.6em;
+      margin-bottom: 0;
+      font-size: 1.4rem;
+
+      a {
+        text-decoration: none;
+      }
+    }
+
+    p.page__meta {
+      padding: 0 1em;
+      // Inherits other styles from _page.scss
+    }
+
+    p.contrib_org {
+      padding: 0 1em;
+      font-size: 0.875rem;
+      font-weight: normal;
+      margin-bottom: 0 !important;
+    }
+
+    .ppl_social {
+      padding: 0 1em 1em 1em; // includes bottom padding
+      font-size: 0.875rem;
+      font-weight: normal;
+      margin-bottom: 0 !important;
+
+      a {
+        margin-right: 10px;
+        text-decoration: none !important;
+      }
+
+      // Font Awesome icons inherit font-size from parent
+      .fa-brands,
+      .fa-solid {
+        font-size: inherit;
+      }
+    }
+  }
+}
+
+// Responsive adjustments for people cards
+@media screen and (max-width: $mobile) {
+  .people-card {
+    .people-card__content {
+      .ppl_social {
+        font-size: 0.9em !important;
+      }
+    }
+  }
+}
