@@ -21,9 +21,10 @@
     display: block;
     color: $nav-font-color !important;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 12px;
     text-decoration: none;
     transition: $global-transition;
+    font-size: 0.9em;
   }
 
   a:hover {
@@ -35,7 +36,11 @@
   }
 
   @media (max-width: $medium-wide) {
-    gap: 0.5em;
+    gap: 0.4em;
+  }
+
+  @include breakpoint($large) {
+    gap: 0.6em;
   }
 }
 
@@ -101,7 +106,24 @@
 /* Force button and a href fonts to be same size and style */
 .dropdown .dropbtn,
 .nav__links a {
-  font-size: 1em !important;
+  font-size: 0.9em !important;
+}
+
+/* Dropdown button with arrow on right */
+.dropdown .dropbtn {
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
+
+  .dropbtn-text {
+    flex: 0 0 auto;
+  }
+
+  .dropbtn-arrow {
+    flex: 0 0 auto;
+    font-size: 0.85em;
+    margin-left: 0.2em;
+  }
 }
 
 /* Dropdown container for nav links */
@@ -118,6 +140,7 @@
     font-family: $header-font; //poppins ;
     margin: 0;
     line-height: 1em;
+    padding: 14px 12px;
   }
 
   /* Style the dropdown content (hidden by default) */

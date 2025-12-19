@@ -118,6 +118,11 @@ span.date {
       margin-top: 4.1rem;
     }
 
+    // Reduce top margin for h2 that follows feature wrapper
+    .feature__wrapper + h2 {
+      margin-top: 2rem;
+    }
+
     h1,
     h2,
     h3,
