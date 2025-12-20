@@ -36,6 +36,10 @@ For dropdown menu functionality, see _pyos-dropdown.scss
       margin: auto;
     }
 
+    .nav__links {
+      margin: 0;
+    }
+
     a {
       text-decoration: none;
     }
@@ -111,38 +115,71 @@ NAVIGATION LINKS STYLING
 ==========================================================================
 */
 
-/* Donate button in navigation */
+/* Donate button and search in navigation */
 .nav__links {
+  display: flex;
+  align-items: stretch;
+  height: 100%;
+
+  li {
+    display: flex;
+    align-items: center;
+  }
+
+  .search__toggle {
+    margin-left: 0 !important;
+    margin-right: 0.75em !important;
+    padding: 14px 12px;
+    background: transparent;
+    border: none;
+    color: $nav-font-color;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
+    height: 100%;
+    transition: color 0.2s ease;
+
+    &:hover {
+      color: $pyos-darkpurple;
+    }
+
+    i {
+      font-size: 1em;
+    }
+  }
+
   .donate-btn {
-    margin-left: 0.75em;
-    margin-top: 0.5em;
-    padding: 0.25em 0.5em;
+    margin-left: 0;
+    padding: 0.5em 0.75em;
     font-size: 0.8em;
+    font-weight: 500;
     white-space: nowrap;
     text-decoration: none;
     display: inline-flex;
     align-items: center;
+    justify-content: center;
     height: auto;
     line-height: 1.3;
     border: 1px solid $pyos-darkpurple;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06);
     transition: box-shadow 0.3s ease, transform 0.2s ease, color 0.3s ease;
     background-color: $pyos-darkpurple;
-    color: $pyos-white !important; // override because the rest of the nav is dark
+    color: $pyos-white !important;
 
     &:hover {
       box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15), 0 4px 6px rgba(0, 0, 0, 0.1);
       transform: translateY(-1px);
-      color: $pyos-lightpurple !important; // subtle light purple on hover
+      color: $pyos-lightpurple !important;
     }
 
     @include breakpoint($medium) {
-      margin-left: 1em;
+      margin-left: 0;
     }
 
     @media (max-width: $medium) {
       margin-left: 0;
-      margin-top: 0;
       width: 100%;
       justify-content: center;
     }
