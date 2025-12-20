@@ -314,8 +314,8 @@
   color: $pyos-white;
 }
 
-@media screen and (max-width: $medium) {
-  /* Hide horizontal drop down links at 48em / 768px */
+@media screen and (max-width: $large) {
+  /* Hide horizontal drop down links at $large / 1024px (closest to 1026px) */
   .nav__links {
     display: none;
   }
