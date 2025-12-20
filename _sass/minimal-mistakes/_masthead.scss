@@ -2,14 +2,15 @@
 ==========================================================================
 MASTHEAD
 
-Layout of the top-level items within the masthead.
-For styling of menu contents, see _pyos-dropdown.scss
+Layout and styling of the top-level items within the masthead.
+For dropdown menu functionality, see _pyos-dropdown.scss
 ==========================================================================
 */
 
 .masthead {
   position: relative;
   border-bottom: 1px solid $border-color;
+  padding-bottom: 0.15rem; // Add space below navigation to prevent overlap
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   -webkit-animation-delay: 0.15s;
@@ -22,17 +23,21 @@ For styling of menu contents, see _pyos-dropdown.scss
     margin: auto;
     padding: 0 1em;
     max-width: 100%;
-    height: 3rem;
+    height: 4rem; // Increased from 3rem to accommodate taller logo
     display: flex;
     justify-content: space-between;
     font-family: $sans-serif-narrow;
     position: relative;
     align-items: stretch;
-    min-height: 2em;
+    min-height: 3rem; // Increased from 2em to ensure adequate height
     background: #fff;
 
     & > * {
       margin: auto;
+    }
+
+    .nav__links {
+      margin: 0;
     }
 
     a {
@@ -63,6 +68,14 @@ For styling of menu contents, see _pyos-dropdown.scss
   justify-content: center;
   align-items: center;
   padding: 0.5em 0;
+  margin-bottom: 0; // Ensure no extra margin causing overlap
+  flex-shrink: 0; // Prevent logo from shrinking in flexbox
+  flex-grow: 0; // Prevent logo from growing in flexbox
+
+  // Responsive adjustments for mobile
+  @media (max-width: $medium) {
+    padding: 0.25em 0; // Reduce padding on mobile but keep logo size
+  }
 
   &::after {
     display: none;
@@ -70,12 +83,13 @@ For styling of menu contents, see _pyos-dropdown.scss
 
   img {
     object-fit: contain;
-    height: 2.5em;
+    height: 2.5rem; // Use rem instead of em for consistent size across breakpoints
     width: auto;
     margin: 0;
     display: block;
     box-shadow: none;
     align-self: center;
+    max-height: 2.5rem; // Ensure it never exceeds this size
   }
 }
 
@@ -93,4 +107,81 @@ For styling of menu contents, see _pyos-dropdown.scss
   font-weight: 400;
   font-size: .8em;
   color: $nav-font-color;
+}
+
+/*
+==========================================================================
+NAVIGATION LINKS STYLING
+==========================================================================
+*/
+
+/* Donate button and search in navigation */
+.nav__links {
+  display: flex;
+  align-items: stretch;
+  height: 100%;
+
+  li {
+    display: flex;
+    align-items: center;
+  }
+
+  .search__toggle {
+    margin-left: 0 !important;
+    margin-right: 0.75em !important;
+    padding: 14px 12px;
+    background: transparent;
+    border: none;
+    color: $nav-font-color;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
+    height: 100%;
+    transition: color 0.2s ease;
+
+    &:hover {
+      color: $pyos-darkpurple;
+    }
+
+    i {
+      font-size: 1em;
+    }
+  }
+
+  .donate-btn {
+    margin-left: 0;
+    padding: 0.5em 0.75em;
+    font-size: 0.8em;
+    font-weight: 500;
+    white-space: nowrap;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    line-height: 1.3;
+    border: 1px solid $pyos-darkpurple;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06);
+    transition: box-shadow 0.3s ease, transform 0.2s ease, color 0.3s ease;
+    background-color: $pyos-darkpurple;
+    color: $pyos-white !important;
+
+    &:hover {
+      box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15), 0 4px 6px rgba(0, 0, 0, 0.1);
+      transform: translateY(-1px);
+      color: $pyos-lightpurple !important;
+    }
+
+    @include breakpoint($medium) {
+      margin-left: 0;
+    }
+
+    @media (max-width: $medium) {
+      margin-left: 0;
+      width: 100%;
+      justify-content: center;
+    }
+  }
 }

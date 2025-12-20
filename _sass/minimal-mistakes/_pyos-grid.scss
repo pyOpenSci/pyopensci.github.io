@@ -176,7 +176,7 @@ $colors: (
     }
   }
 
-// Home page packages section - fixed breakpoints
+// Home page packages section - fixed breakpoints (max 3 columns for better spacing)
 .packages-grid {
   display: grid;
   grid-gap: 10px;
@@ -187,11 +187,45 @@ $colors: (
   }
 
   @media (min-width: $medium) {
-    grid-template-columns: repeat(3, 1fr); // Medium: 3 columns
+    grid-template-columns: repeat(3, 1fr); // Medium and above: 3 columns (max)
   }
 
-  @media (min-width: $large) {
-    grid-template-columns: repeat(4, 1fr); // Large: 4 columns
+  // Feature package cards - compact display
+  .package-card {
+    .package-card__content {
+      padding: 1.25em;
+    }
+
+    .package-card__title {
+      font-size: 1.5em;
+    }
+
+    .package-card__meta {
+      font-size: 0.75em;
+    }
+
+    .package-card__description p {
+      font-size: 1.1em;
+      line-height: 1.5em;
+    }
+  }
+}
+
+.grid .package-card {
+  .package-card__content {
+    padding: 1.25em;
+  }
+
+  .package-card__title {
+    font-size: 1.0375em;
+  }
+
+  .package-card__meta {
+    font-size: 0.75em;
+  }
+
+  .package-card__description {
+    font-size: 0.8125em;
   }
 }
 
@@ -286,16 +320,20 @@ $colors: (
   .grid-item {
     display: flex;
     flex-direction: column;
-    background: $pyos-mediumpurple;
-    border: 1px solid #ddd;
+    background: transparent;
+    border: none;
     border-radius: 8px;
-    overflow: hidden;
+    overflow: visible;
     padding: 0;
   }
 
+  .cards.highlight {
+    margin: 0 !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08) !important;
+  }
 
-  div>div {
-    padding:0;
+  div > div {
+    padding: 0;
   }
 }
 
@@ -304,6 +342,7 @@ $colors: (
   display: flex;
   flex-direction: column;
   height: 100%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
 
   .cards__image {
     max-height: 200px;
@@ -322,6 +361,7 @@ $colors: (
 
   &:hover {
     cursor: default;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08); // Maintain shadow on hover (override base .cards hover shadow)
   }
 
   .card-body {

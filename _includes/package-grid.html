@@ -1,4 +1,5 @@
 {% assign use_isotope = include.isotope | default: false %}
+{% assign is_feature = include.feature %}
 
 {% if use_isotope %}
 <div class="element-item package-card {% for aCategory in apackage.categories %}
@@ -41,6 +42,7 @@
       {{ apackage.package_description | markdownify }}
     </div>
 
+    {% unless is_feature %} HI there
     <ul class="package-card__links">
       <li><a href="{{ apackage.repository_link }}" rel="permalink"><i class="fab fa-github" aria-hidden="true"></i> View Code</a></li>
       {% if apackage.gh_meta.documentation %}
@@ -57,5 +59,6 @@
         <li class="package-card__archived"><i class="fa-solid fa-box-archive" aria-hidden="true"></i> Archived</li>
       {% endif %}
     </ul>
+    {% endunless %}
   </div>
 </div>

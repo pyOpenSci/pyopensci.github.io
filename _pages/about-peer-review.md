@@ -157,8 +157,8 @@ We are deeply grateful for those served on our editorial board previously!
 {% assign packages_sorted = site.data.packages | sort_natural: 'date_accepted' | reverse %}
 
 <div class="grid">
-  {% for apackage in packages_sorted limit:4 %}
-    {% include package-grid.html %}
+  {% for apackage in packages_sorted limit:3 %}
+    {% include package-grid.html feature=true %}
   {% endfor %}
 </div>
 
