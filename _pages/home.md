@@ -136,7 +136,7 @@ peer-review:
 
 <div class="packages-grid">
   {% for apackage in packages_sorted limit:3 %}
-    {% include package-grid.html %}
+    {% include package-grid.html feature=true %}
   {% endfor %}
 </div>
 

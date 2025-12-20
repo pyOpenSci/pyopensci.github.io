@@ -36,6 +36,14 @@
             </ul>
           </li>
         {% elsif alink.is_button %}
+          {% if site.search == true %}
+          <li>
+            <button class="search__toggle" type="button">
+              <span class="visually-hidden">{{ site.data.ui-text[site.locale].search_label | default: "Toggle search" }}</span>
+              <i class="fas fa-search"></i>
+            </button>
+          </li>
+          {% endif %}
           <li>
             <a href="{{ alink.url }}" class="btn btn--primary donate-btn" target="_blank" rel="noopener noreferrer">
               {{ alink.title }}
@@ -50,13 +58,6 @@
         {% endif %}
       {% endfor %}
     </ul>
-
-    {% if site.search == true %}
-        <button class="search__toggle" type="button">
-        <span class="visually-hidden">{{ site.data.ui-text[site.locale].search_label | default: "Toggle search" }}</span>
-        <i class="fas fa-search"></i>
-      </button>
-    {% endif %}
 
     <ul class="hidden-links hidden"></ul>
     <!-- Burger button  - span class for screen readers-->
