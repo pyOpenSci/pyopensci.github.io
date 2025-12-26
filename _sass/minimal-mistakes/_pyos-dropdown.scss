@@ -57,6 +57,9 @@
     right: 5%;
     gap: 0.25em;
     font-size: 1em;
+    height: auto;
+    max-height: calc(100vh - 6rem);
+    overflow-y: auto;
     background-color: $pyos-white;
     z-index: 1;
     border: 1px solid $border-color;
@@ -86,6 +89,8 @@
 
     .dropdown {
       width: 100%;
+      position: static;
+      overflow: visible;
 
       .dropbtn {
         width: 100%;
@@ -104,6 +109,8 @@
         background-color: transparent;
         padding-left: 1em;
         margin-top: 0.5em;
+        top: auto;
+        left: 0;
 
         &.open {
           display: block;
