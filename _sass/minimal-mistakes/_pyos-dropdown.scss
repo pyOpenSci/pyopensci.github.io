@@ -7,7 +7,7 @@
    ========================================================================== */
 
 .nav__links {
-  overflow: hidden;
+  overflow: visible;
   margin: 0 auto;
   padding: 0;
   display: flex;
@@ -50,13 +50,16 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0 1em;
-    margin-top: 3em;
-    top: 90%;
+    padding: 1em;
+    margin-top: 0.5em;
+    top: 100%;
     left: 5%;
     right: 5%;
-    gap: 0;
-    font-size: 1.2em;
+    gap: 0.25em;
+    font-size: 1em;
+    height: auto;
+    max-height: calc(100vh - 6rem);
+    overflow-y: auto;
     background-color: $pyos-white;
     z-index: 1;
     border: 1px solid $border-color;
@@ -68,32 +71,50 @@
       0 2px 4px 0 rgba(0, 0, 0, 0.16),
       0 2px 10px 0 rgba(0, 0, 0, 0.12);
 
+    > li {
+      width: 100%;
+      padding: 0.5em 0;
+      display: block;
+      align-items: initial;
+    }
+
     a {
       float: none;
       display: block;
       text-align: left;
-    }
-
-    li {
-      width: 100%;
+      padding: 0.5em 0;
+      font-size: 1em;
+      color: $nav-font-color;
     }
 
     .dropdown {
-      float: none;
+      width: 100%;
+      position: static;
+      overflow: visible;
 
       .dropbtn {
         width: 100%;
         text-align: left;
         display: block;
-        padding: 1em 0;
-
+        padding: 0.75em 0;
+        cursor: pointer;
       }
 
       .dropdown-content {
+        display: none;
+        position: relative;
         width: 100%;
         min-width: 100%;
-        position: relative;
-        box-shadow: unset;
+        box-shadow: none;
+        background-color: transparent;
+        padding-left: 1em;
+        margin-top: 0.5em;
+        top: auto;
+        left: 0;
+
+        &.open {
+          display: block;
+        }
       }
     }
   }
@@ -119,11 +140,6 @@
     font-size: 0.85em;
     margin-left: 0.2em;
   }
-}
-
-/* Force nav links fonts to be same size */
-.nav__links a {
-  font-size: 0.9em !important;
 }
 
 /* Dropdown container for nav links */
@@ -152,8 +168,9 @@
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     width: 100%;
+    top: 100%;
     transition: all 0.25s ease-in;
-    transform: translateY(-10px);
+    transform: translateY(0px);
     position: absolute;
 
     &.open {
@@ -321,11 +338,8 @@
   }
 
   /* Nav links goes vertical in responsive mode */
-  .nav__links .vertical {
-    position: absolute;
+  .nav__links.vertical {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
   }
 
   .hamburger__btn-toggle {
