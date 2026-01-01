@@ -3862,13 +3862,16 @@
   contributor_type:
     - community
     - guidebook-contrib
+    - maintainer
     - peer-review
     - peer-review-guide
     - reviewer
+    - submitting-author
     - web-contrib
   packages_eic:
   packages_editor:
   packages_submitted:
+    - astropy
   packages_reviewed:
     - zodipy
   location: Baltimore, MD, USA
@@ -5423,9 +5426,11 @@
   board: false
   contributor_type:
     - editor
+    - eic
     - peer-review
     - reviewer
   packages_eic:
+    - astropy
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -9661,6 +9666,7 @@
     - web-contrib
   packages_eic:
   packages_editor:
+    - astropy
     - blockingpy
     - piva
     - swiftgalaxy
@@ -11306,4 +11312,91 @@
     - galassify
   packages_reviewed:
   location: Spain
+  email:
+- name: Aditya P T
+  github_username: adityapt
+  github_image_id: 13266121
+  title:
+  sort:
+  bio: Principal Data Scientist
+  organization: Zillow
+  date_added: '2025-12-31'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - astropy
+  location: Bay Area
+  email:
+- name:
+  github_username: egbdfX
+  github_image_id: 107475738
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2025-12-31'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - astropy
+  location:
+  email:
+- name: i
+  github_username: i
+  github_image_id: 2905137
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2025-12-31'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - astropy
+  packages_reviewed:
+  location:
   email:
