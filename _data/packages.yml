@@ -95,13 +95,13 @@
       name: astropy
       description: Astronomy and astrophysics core library
       created_at: '2011-07-21'
-      stargazers_count: 4988
+      stargazers_count: 4990
       watchers_count: 135
       open_issues_count: 1312
-      forks_count: 1975
+      forks_count: 1977
       documentation: https://www.astropy.org
       contrib_count: 445
-      last_commit: '2026-01-08'
+      last_commit: '2026-01-09'
   labels:
     - 6/pyOS-approved
     - astropy
@@ -196,11 +196,11 @@
       created_at: '2022-05-03'
       stargazers_count: 8
       watchers_count: 4
-      open_issues_count: 4
+      open_issues_count: 3
       forks_count: 4
       documentation: https://swiftgalaxy.readthedocs.io/en/latest/index.html
       contrib_count: 3
-      last_commit: '2026-01-05'
+      last_commit: '2026-01-09'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -242,7 +242,7 @@
       name: pyMultiFit
       description: A library to fit the data with multiple fitters.
       created_at: '2024-07-17'
-      stargazers_count: 4
+      stargazers_count: 5
       watchers_count: 1
       open_issues_count: 11
       forks_count: 1
@@ -295,7 +295,7 @@
       created_at: '2024-10-11'
       stargazers_count: 17
       watchers_count: 1
-      open_issues_count: 0
+      open_issues_count: 1
       forks_count: 1
       documentation: https://blockingpy.readthedocs.io/en/latest/
       contrib_count: 1
@@ -586,7 +586,7 @@
       forks_count: 17
       documentation: https://felupe.readthedocs.io/en/stable
       contrib_count: 4
-      last_commit: '2026-01-08'
+      last_commit: '2026-01-09'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -785,9 +785,9 @@
       name: great-tables
       description: Make awesome display tables using Python
       created_at: '2022-05-06'
-      stargazers_count: 2575
+      stargazers_count: 2576
       watchers_count: 16
-      open_issues_count: 131
+      open_issues_count: 128
       forks_count: 113
       documentation: https://posit-dev.github.io/great-tables/
       contrib_count: 26
@@ -1208,7 +1208,7 @@
       created_at: '2017-10-19'
       stargazers_count: 21
       watchers_count: 2
-      open_issues_count: 16
+      open_issues_count: 17
       forks_count: 7
       documentation: https://martini.readthedocs.io/
       contrib_count: 1
@@ -1519,8 +1519,8 @@
       created_at: '2016-02-16'
       stargazers_count: 394
       watchers_count: 7
-      open_issues_count: 10
-      forks_count: 69
+      open_issues_count: 11
+      forks_count: 70
       documentation: https://caleb531.github.io/automata/
       contrib_count: 19
       last_commit: '2026-01-02'
@@ -1641,7 +1641,7 @@
       stargazers_count: 992
       watchers_count: 43
       open_issues_count: 270
-      forks_count: 636
+      forks_count: 637
       documentation: https://www.sunpy.org
       contrib_count: 243
       last_commit: '2025-12-17'
@@ -2345,8 +2345,8 @@
       open_issues_count: 40
       forks_count: 68
       documentation: https://xclim.readthedocs.io/en/stable/
-      contrib_count: 42
-      last_commit: '2026-01-08'
+      contrib_count: 43
+      last_commit: '2026-01-09'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -2544,7 +2544,7 @@
       name: pygmt
       description: A Python interface for the Generic Mapping Tools.
       created_at: '2017-03-17'
-      stargazers_count: 835
+      stargazers_count: 836
       watchers_count: 26
       open_issues_count: 137
       forks_count: 228
@@ -2883,7 +2883,7 @@
       description: Movement trajectory classes and functions built on top of
           GeoPandas
       created_at: '2018-12-16'
-      stargazers_count: 1368
+      stargazers_count: 1365
       watchers_count: 39
       open_issues_count: 33
       forks_count: 201
@@ -2930,7 +2930,7 @@
       description: A light-weight, flexible, and expressive statistical data
           testing library
       created_at: '2018-11-01'
-      stargazers_count: 4163
+      stargazers_count: 4161
       watchers_count: 21
       open_issues_count: 431
       forks_count: 368
