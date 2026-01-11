@@ -95,7 +95,7 @@
       name: astropy
       description: Astronomy and astrophysics core library
       created_at: '2011-07-21'
-      stargazers_count: 4992
+      stargazers_count: 4993
       watchers_count: 135
       open_issues_count: 1311
       forks_count: 1978
@@ -200,7 +200,7 @@
       forks_count: 4
       documentation: https://swiftgalaxy.readthedocs.io/en/latest/index.html
       contrib_count: 3
-      last_commit: '2026-01-09'
+      last_commit: '2026-01-11'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -785,7 +785,7 @@
       name: great-tables
       description: Make awesome display tables using Python
       created_at: '2022-05-06'
-      stargazers_count: 2576
+      stargazers_count: 2577
       watchers_count: 16
       open_issues_count: 128
       forks_count: 113
@@ -844,7 +844,7 @@
       stargazers_count: 208
       watchers_count: 16
       open_issues_count: 48
-      forks_count: 169
+      forks_count: 170
       documentation: https://stingray.science/stingray
       contrib_count: 56
       last_commit: '2026-01-02'
@@ -1154,7 +1154,7 @@
       name: pooltool
       description: A sandbox billiards game that emphasizes realistic physics
       created_at: '2020-04-09'
-      stargazers_count: 328
+      stargazers_count: 329
       watchers_count: 12
       open_issues_count: 4
       forks_count: 70
@@ -2546,11 +2546,11 @@
       created_at: '2017-03-17'
       stargazers_count: 836
       watchers_count: 26
-      open_issues_count: 137
+      open_issues_count: 138
       forks_count: 228
       documentation: https://www.pygmt.org
       contrib_count: 50
-      last_commit: '2026-01-10'
+      last_commit: '2026-01-11'
   labels:
     - 6/pyOS-approved
   active: true
