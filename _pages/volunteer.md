@@ -118,7 +118,7 @@ pyOpenSci has a diverse and vibrant community of pythonistas! To date,
 **{{ total_people }}** wonderful people have contributed to pyOpenSci.
 
 <div class="entries-grid">
-{% for aperson in new_ppl limit:4 %}
+{% for aperson in new_ppl limit:3 %}
     {% include people-grid.html  %}
 {% endfor %}
 </div>

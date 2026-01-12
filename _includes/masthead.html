@@ -17,7 +17,8 @@
         {% if alink.sub-nav %}
           <li class="dropdown">
             <button class="dropbtn" tabindex="0" aria-expanded="false">
-              {{ alink.title }} <i class="fas fa-caret-down"></i>
+              <span class="dropbtn-text">{{ alink.title }}</span>
+              <i class="fas fa-caret-down dropbtn-arrow"></i>
             </button>
             <ul class="dropdown-content">
               {% for subnav in alink.sub-nav %}
@@ -34,6 +35,20 @@
               {% endfor %}
             </ul>
           </li>
+        {% elsif alink.is_button %}
+          {% if site.search == true %}
+          <li>
+            <button class="search__toggle" type="button">
+              <span class="visually-hidden">{{ site.data.ui-text[site.locale].search_label | default: "Toggle search" }}</span>
+              <i class="fas fa-search"></i>
+            </button>
+          </li>
+          {% endif %}
+          <li>
+            <a href="{{ alink.url }}" class="btn btn--primary donate-btn" target="_blank" rel="noopener noreferrer">
+              {{ alink.title }}
+            </a>
+          </li>
         {% else %}
           <li>
             <a href="{{ alink.url | relative_url }}" class="hover-underline">
@@ -43,13 +58,6 @@
         {% endif %}
       {% endfor %}
     </ul>
-
-    {% if site.search == true %}
-        <button class="search__toggle" type="button">
-        <span class="visually-hidden">{{ site.data.ui-text[site.locale].search_label | default: "Toggle search" }}</span>
-        <i class="fas fa-search"></i>
-      </button>
-    {% endif %}
 
     <ul class="hidden-links hidden"></ul>
     <!-- Burger button  - span class for screen readers-->

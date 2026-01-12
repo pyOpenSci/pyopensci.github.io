@@ -7,7 +7,7 @@
    ========================================================================== */
 
 .nav__links {
-  overflow: hidden;
+  overflow: visible;
   margin: 0 auto;
   padding: 0;
   display: flex;
@@ -21,9 +21,10 @@
     display: block;
     color: $nav-font-color !important;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 12px;
     text-decoration: none;
     transition: $global-transition;
+    font-size: 0.9em;
   }
 
   a:hover {
@@ -35,7 +36,11 @@
   }
 
   @media (max-width: $medium-wide) {
-    gap: 0.5em;
+    gap: 0.4em;
+  }
+
+  @include breakpoint($large) {
+    gap: 0.6em;
   }
 }
 
@@ -45,16 +50,19 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0 1em;
-    margin-top: 3em;
-    top: 90%;
+    padding: 1em;
+    margin-top: 0.5em;
+    top: 100%;
     left: 5%;
     right: 5%;
-    gap: 0;
-    font-size: 1.2em;
-    background-color: #fff;
+    gap: 0.25em;
+    font-size: 1em;
+    height: auto;
+    max-height: calc(100vh - 6rem);
+    overflow-y: auto;
+    background-color: $pyos-white;
     z-index: 1;
-    border: 1px solid #f2f3f3;
+    border: 1px solid $border-color;
     border-radius: 4px;
     -webkit-box-shadow:
       0 2px 4px 0 rgba(0, 0, 0, 0.16),
@@ -63,32 +71,50 @@
       0 2px 4px 0 rgba(0, 0, 0, 0.16),
       0 2px 10px 0 rgba(0, 0, 0, 0.12);
 
+    > li {
+      width: 100%;
+      padding: 0.5em 0;
+      display: block;
+      align-items: initial;
+    }
+
     a {
       float: none;
       display: block;
       text-align: left;
-    }
-
-    li {
-      width: 100%;
+      padding: 0.5em 0;
+      font-size: 1em;
+      color: $nav-font-color;
     }
 
     .dropdown {
-      float: none;
+      width: 100%;
+      position: static;
+      overflow: visible;
 
       .dropbtn {
         width: 100%;
         text-align: left;
         display: block;
-        padding: 1em 0;
-
+        padding: 0.75em 0;
+        cursor: pointer;
       }
 
       .dropdown-content {
+        display: none;
+        position: relative;
         width: 100%;
         min-width: 100%;
-        position: relative;
-        box-shadow: unset;
+        box-shadow: none;
+        background-color: transparent;
+        padding-left: 1em;
+        margin-top: 0.5em;
+        top: auto;
+        left: 0;
+
+        &.open {
+          display: block;
+        }
       }
     }
   }
@@ -98,10 +124,22 @@
   font-size: 0.8em;
 }
 
-/* Force button and a href fonts to be same size and style */
-.dropdown .dropbtn,
-.nav__links a {
-  font-size: 1em !important;
+/* Dropdown button with arrow on right */
+.dropdown .dropbtn {
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
+  font-size: 0.9em !important;
+
+  .dropbtn-text {
+    flex: 0 0 auto;
+  }
+
+  .dropbtn-arrow {
+    flex: 0 0 auto;
+    font-size: 0.85em;
+    margin-left: 0.2em;
+  }
 }
 
 /* Dropdown container for nav links */
@@ -115,22 +153,24 @@
     color: $nav-font-color;
     height: 100%;
     background-color: inherit;
-    font-family: $header-font; //poppins ;
+    font-family: $header-font;
     margin: 0;
     line-height: 1em;
+    padding: 14px 12px;
   }
 
   /* Style the dropdown content (hidden by default) */
   .dropdown-content {
     display: none;
-    background-color: #fff;
+    background-color: $pyos-white;
     min-width: 160px;
     max-width: 25%;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     width: 100%;
+    top: 100%;
     transition: all 0.25s ease-in;
-    transform: translateY(-10px);
+    transform: translateY(0px);
     position: absolute;
 
     &.open {
@@ -143,7 +183,6 @@
 
     a {
       float: none;
-      // color: black;
       padding: 12px 16px;
       text-decoration: none;
       display: block;
@@ -151,7 +190,7 @@
       white-space: nowrap;
 
       &:hover {
-        background-color: #fff;
+        background-color: $pyos-white;
         color: $nav-hover-color;
       }
     }
@@ -182,7 +221,7 @@
   width: 100%;
   height: 100%;
   opacity: 0;
-  background-color: #fff;
+  background-color: $pyos-white;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   pointer-events: none;
@@ -261,58 +300,46 @@
 }
 /*  end burger */
 
-/* This style may be removed ultimately - it is the fancy underline */
-
+/* Fancy underline effect for navigation links */
 .hover-underline {
   display: inline-block;
   position: relative;
-  color: #0087ca;
-}
-
-.hover-underline {
   width: 100%;
   text-align: left !important;
-}
+  color: $link-color;
 
-.hover-underline:after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: $primary-color;
-  -webkit-transition: $global-transition;
-  transition: $global-transition;
-  -webkit-transform: scaleX(0) translate3d(0, 0, 0);
-  transform: scaleX(0) translate3d(0, 0, 0); // hide
-}
+  &:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: $primary-color;
+    transform: scaleX(0) translate3d(0, 0, 0);
+    transition: $global-transition;
+  }
 
-.hover-underline:hover:after {
-  -webkit-transform: scaleX(1);
-  -ms-transform: scaleX(1);
-  transform: scaleX(1); // reveal
+  &:hover:after {
+    transform: scaleX(1);
+  }
 }
 
 /* Add an active class to highlight the current page - might want to reinstate this */
 .active {
-  background-color: #81c0aa;
-  color: white;
+    background-color: $pyos-teal;
+  color: $pyos-white;
 }
 
-@media screen and (max-width: $medium) {
-  /* Hide horizontal drop down links at 48em / 768px */
+@media screen and (max-width: $large) {
+  /* Hide horizontal drop down links at $large / 1024px (closest to 1026px) */
   .nav__links {
     display: none;
   }
 
   /* Nav links goes vertical in responsive mode */
-  .nav__links .vertical {
-    position: absolute;
+  .nav__links.vertical {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
   }
 
   .hamburger__btn-toggle {
@@ -321,8 +348,8 @@
   }
 
   .burger__icon,
-  burger__icon::before,
-  burger__icon::after {
+  .burger__icon::before,
+  .burger__icon::after {
     display: block;
   }
 }

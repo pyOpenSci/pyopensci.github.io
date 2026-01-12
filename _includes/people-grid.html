@@ -1,63 +1,74 @@
 
-<div class="element-item cards {% for aType in aperson.contributor_type %}
-  {{ aType }}
-  {% endfor %}
-  " data-category="data">
+{% assign use_isotope = include.isotope | default: false %}
 
-    <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
-        {% if aperson.github_image_id %}
-          <div class="person_img">
-            <img src="https://avatars1.githubusercontent.com/u/{{ aperson.github_image_id }}?s=400&v=4" alt="GitHub photo of {{ aperson.name }}">
-          </div>
+{% if use_isotope == true %}
+<div class="element-item cards people-card {% for aType in aperson.contributor_type %}
+  {{ aType }}
+  {% endfor %}" data-category="data">
+{% else %}
+<div class="cards people-card">
+{% endif %}
+  <div class="people-card__content">
+    {% if aperson.github_image_id %}
+      <div class="person_img">
+        <img src="https://avatars1.githubusercontent.com/u/{{ aperson.github_image_id }}?s=400&v=4" alt="GitHub photo of {{ aperson.name }}">
+      </div>
+    {% endif %}
+
+    <h4 class="person_name">
+      <a href="https://github.com/{{ aperson.github_username }}" rel="permalink">
+        {% if aperson.name %}
+          {{ aperson.name }}
+        {% else %}
+          @{{ aperson.github_username }}
         {% endif %}
-      <h4 class="person_name" itemprop="headline">
-          <a href="https://github.com/{{ aperson.github_username }}" rel="permalink">
-            {% if aperson.name %}
-              {{ aperson.name }}
-            {% else %}
-              @{{ aperson.github_username }}
-            {% endif %}
-         </a>
-      </h4>
-      <p class="page__meta">
-        {% if aperson.partners %}
+      </a>
+    </h4>
+
+    <p class="page__meta">
+      {% if aperson.partners %}
         <span>
           {{ aperson.partners | join: ', ' }}
         </span>
-        {% endif %}
-        </p>
-      <p class="page__meta">
-      {% if aperson.title %}
-      <span>
-        {{ aperson.title | join: ', ' }}
-      </span>
       {% endif %}
-      </p>
-      <p class="contrib_org" itemprop="organization"> {{ aperson.organization }} </p>
-      <div class="ppl_social">
+    </p>
+
+    <p class="page__meta">
+      {% if aperson.title %}
+        <span>
+          {{ aperson.title | join: ', ' }}
+        </span>
+      {% endif %}
+    </p>
+
+    <p class="contrib_org">{{ aperson.organization }}</p>
+
+    <div class="ppl_social">
       {% if aperson.twitter %}
-      <a href="https://www.twitter.com/{{ aperson.twitter }}">
-        <span class="fa-brands fa-twitter" title="Click to view {{ aperson.title }}'s Twitter account"></span>
-      </a>
+        <a href="https://www.twitter.com/{{ aperson.twitter }}">
+          <span class="fa-brands fa-twitter" title="Click to view {{ aperson.title }}'s Twitter account"></span>
+        </a>
       {% endif %}
       {% if aperson.github_username %}
-      <a href="https://github.com/{{ aperson.github_username }}"><span class="fa-brands fa-github" title="Click to view {{ aperson.title }}'s GitHub account"></span>
-      </a>
+        <a href="https://github.com/{{ aperson.github_username }}">
+          <span class="fa-brands fa-github" title="Click to view {{ aperson.title }}'s GitHub account"></span>
+        </a>
       {% endif %}
       {% if aperson.website %}
-      <a href="{{ aperson.website }}" data-proofer-ignore><span class="fa-solid fa-blog" title="Click to view {{ aperson.title }}'s Website"></span>
-      </a>
+        <a href="{{ aperson.website }}" data-proofer-ignore>
+          <span class="fa-solid fa-blog" title="Click to view {{ aperson.title }}'s Website"></span>
+        </a>
       {% endif %}
       {% if aperson.orcidid %}
-      <a href="https://orcid.org/{{ aperson.orcidid }}"><span class="fa-brands fa-orcid" title="Click to view {{ aperson.title }} on fa-orcid"></span>
-      </a>
+        <a href="https://orcid.org/{{ aperson.orcidid }}">
+          <span class="fa-brands fa-orcid" title="Click to view {{ aperson.title }} on fa-orcid"></span>
+        </a>
       {% endif %}
-
       {% if aperson.mastodon %}
-      <a href="{{ aperson.mastodon }}">
-        <span class="fa-brands fa-mastodon" title="{{ aperson.name }} is on Mastadon"></span>
-      </a>
+        <a href="{{ aperson.mastodon }}">
+          <span class="fa-brands fa-mastodon" title="{{ aperson.name }} is on Mastadon"></span>
+        </a>
       {% endif %}
     </div>
-    </article>
   </div>
+</div>

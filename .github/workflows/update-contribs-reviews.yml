@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out the code
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
       - name: Setup Python
         uses: actions/setup-python@v6
         with:
@@ -31,7 +31,7 @@ jobs:
           update-review-teams
 
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v7
+        uses: peter-evans/create-pull-request@v8
         with:
           add-paths: |
             _data/contributors.yml
@@ -52,7 +52,7 @@ jobs:
         uses: rtCamp/action-slack-notify@v2
         if: failure()
         env:
-          SLACK_CHANNEL: pyos-infrastructure
+          SLACK_CHANNEL: pyos-maintainers-infrastructure
           SLACK_COLOR: '#db540b'
           SLACK_LINK_NAMES: true
           SLACKIFY_MARKDOWN: true

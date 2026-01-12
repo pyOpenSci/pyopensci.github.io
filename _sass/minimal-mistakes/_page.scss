@@ -94,7 +94,7 @@ span.date {
 
   }
   .page__lead {
-    font-family: $header-font; //poppins
+    font-family: $header-font;
     font-size: $type-size-5;
     font-weight: $weight-3;
   }
@@ -116,6 +116,11 @@ span.date {
     h2 {
       margin-bottom: 2.0rem;
       margin-top: 4.1rem;
+    }
+
+    // Reduce top margin for h2 that follows feature wrapper
+    .feature__wrapper + h2 {
+      margin-top: 2rem;
     }
 
     h1,
