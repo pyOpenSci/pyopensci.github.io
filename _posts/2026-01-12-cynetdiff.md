@@ -13,7 +13,7 @@ categories:
   - pyos-accepted
 classes: wide
 comments: true
-last_modified: 2025-09-15
+last_modified: 2026-01-12
 ---
 
 Network diffusion models study how information and epidemics spread over social networks, and have garnered increasing interest in recent years. Two of the most widely used models are the **independent cascade (IC)** and **linear threshold (LT) models**. These models simulate spread through a network by starting with a set of seed nodes that are designated as "active", and all other nodes are "inactive". Then, in each iteration, some inactive nodes become active, and the iterations continue until no other nodes can be activated.
@@ -48,5 +48,6 @@ pyOpenSci encourages transparency about AI tool use in package development. To l
 
 ## Citing
 
+This library is joint work with Dhemath Reddy and [Abhishek K. Umrawal](https://ece.illinois.edu/about/directory/faculty/aumrawal).
 This post is adapted from our [VLDB paper](https://dl.acm.org/doi/abs/10.14778/3685800.3685887), which
 should be used for citations.
