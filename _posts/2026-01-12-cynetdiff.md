@@ -3,7 +3,7 @@ layout: single
 title: "CyNetDiff: A Python Library for Accelerated Implementation of Network Diffusion Models"
 excerpt: "CyNetDiff is a Python package for accelerating network diffusion simulations, recently accepted into the pyOpenSci ecosystem."
 author: Eliot W. Robson
-permalink: /blog/cynetdiff
+permalink: /blog/cynetdiff.html
 header:
   overlay_image: images/headers/pyopensci-floral.png
 categories:
