@@ -1,65 +1,64 @@
-<div class="element-item cards bubble {% for aCategory in apackage.categories %}
+{% assign use_isotope = include.isotope | default: false %}
+{% assign is_feature = include.feature %}
+
+{% if use_isotope %}
+<div class="element-item package-card {% for aCategory in apackage.categories %}
 {{ aCategory }}
 {% endfor %}" data-category="data">
-    <article itemscope itemtype="https://schema.org/SoftwareApplication">
-        <h3 class="card__title no_toc" itemprop="name">
-            {{ apackage.package_name }}
-        </h3>
-        <p class="page__meta contributors">
-            <span><i class="fas fa-feather" aria-hidden="true"></i>
-            {% if apackage.all_current_maintainers %}
-                {% for maintainer in apackage.all_current_maintainers %}
-                    <a href="https://github.com/{{ maintainer.github_username }}" rel="maintainer" target="_blank">
-                        {% if maintainer.name %}
-                            {{ maintainer.name }}{% if forloop.last == false %},{% endif %}
-                        {% else %}
-                            {{ maintainer.github_username }}{% if forloop.last == false %},{% endif %}
-                        {% endif %}
-                    </a>
-                {% endfor %}
-            {% elsif apackage.submitting_author.name != 'Name' %}
-                <a href="https://github.com/{{ apackage.submitting_author.github_username }}" rel="maintainer" target="_blank">
-                    {{ apackage.submitting_author.name }}
-                </a>
-            {% else %}
-                <a href="https://github.com/{{ apackage.submitting_author.github_username }}" rel="maintainer" target="_blank">
-                    {{ apackage.submitting_author.github_username }}
-                </a>
-            {% endif %}
-            </span>
-        </p>
-        <span class="package_description">
-            <p itemprop="description">
-                {{ apackage.package_description | markdownify }}
-            </p>
-        </span>
-        <ul>
-            <li><a href="{{ apackage.repository_link }}" rel="permalink"><i class="fab fa-github"></i> View Code</a></li>
-            {% if apackage.gh_meta.documentation %}
-                <li><a href="{{ apackage.gh_meta.documentation }}" rel="permalink"><i class="fas fa-book-open"></i> View Docs</a></li>
-            {% endif %}
-            {% if apackage.citation-link %}
-                <li><a href="{{ apackage.archive }}" rel="permalink"><i class="fas fa-bookmark fa-fw"></i> Cite</a></li>
-            {% endif %}
-            <li><a href="{{ apackage.issue_link }}"><i class="fa-solid fa-user-pen"></i> View Review</a></li>
-            {% if apackage.joss %}
-                <li><a href="{{ apackage.archive }}" rel="permalink"><i class="fas fa-bookmark fa-fw"></i> JOSS Approved</a></li>
-            {% endif %}
-            {% if apackage.partners contains "astropy" %}
-                <li><a href="communities/astropy.html"><i class="fa-solid fa-check-double"></i> <img src="https://img.shields.io/badge/Affiliated-Astropy-orange.svg?style=flat" alt="Astropy" /></a></li>
-            {% endif %}
-            {% if apackage.active == false %}
-                <li><i class="fa-solid fa-box-archive"></i> Archived</li>
-            {% endif %}
-        </ul>
-        <hr>
-        {% if include.community %}
-            <h4>Package stats</h4>
-            <ul>
-                <li><strong>All Time Contributors:</strong> {{ apackage.gh_meta.contrib_count }}</li>
-                <li><strong>Last Commit date:</strong> {{ apackage.gh_meta.last_commit }}</li>
-                <li><strong>Date Created:</strong> {{ apackage.gh_meta.created_at }}</li>
-            </ul>
+{% else %}
+<div class="package-card">
+{% endif %}
+  <div class="package-card__content">
+    <h3 class="package-card__title" itemprop="name">
+      {{ apackage.package_name }}
+    </h3>
+
+    <div class="package-card__meta">
+      <i class="fas fa-feather" aria-hidden="true"></i>
+      <span class="package-card__maintainers">
+        {% if apackage.all_current_maintainers %}
+          {% for maintainer in apackage.all_current_maintainers %}
+            <a href="https://github.com/{{ maintainer.github_username }}" rel="maintainer" target="_blank">
+              {% if maintainer.name %}
+                {{ maintainer.name }}{% if forloop.last == false %},{% endif %}
+              {% else %}
+                {{ maintainer.github_username }}{% if forloop.last == false %},{% endif %}
+              {% endif %}
+            </a>
+          {% endfor %}
+        {% elsif apackage.submitting_author.name != 'Name' %}
+          <a href="https://github.com/{{ apackage.submitting_author.github_username }}" rel="maintainer" target="_blank">
+            {{ apackage.submitting_author.name }}
+          </a>
+        {% else %}
+          <a href="https://github.com/{{ apackage.submitting_author.github_username }}" rel="maintainer" target="_blank">
+            {{ apackage.submitting_author.github_username }}
+          </a>
         {% endif %}
-    </article>
+      </span>
+    </div>
+
+    <div class="package-card__description" itemprop="description">
+      {{ apackage.package_description | markdownify }}
+    </div>
+
+    {% unless is_feature %} HI there
+    <ul class="package-card__links">
+      <li><a href="{{ apackage.repository_link }}" rel="permalink"><i class="fab fa-github" aria-hidden="true"></i> View Code</a></li>
+      {% if apackage.gh_meta.documentation %}
+        <li><a href="{{ apackage.gh_meta.documentation }}" rel="permalink"><i class="fas fa-book-open" aria-hidden="true"></i> View Docs</a></li>
+      {% endif %}
+      <li><a href="{{ apackage.issue_link }}"><i class="fa-solid fa-user-pen" aria-hidden="true"></i> View Review</a></li>
+      {% if apackage.joss %}
+        <li><a href="{{ apackage.archive }}" rel="permalink"><i class="fas fa-bookmark fa-fw" aria-hidden="true"></i> JOSS Approved</a></li>
+      {% endif %}
+      {% if apackage.partners contains "astropy" %}
+        <li><a href="communities/astropy.html"><i class="fa-solid fa-check-double" aria-hidden="true"></i> <img src="https://img.shields.io/badge/Affiliated-Astropy-orange.svg?style=flat" alt="Astropy" /></a></li>
+      {% endif %}
+      {% if apackage.active == false %}
+        <li class="package-card__archived"><i class="fa-solid fa-box-archive" aria-hidden="true"></i> Archived</li>
+      {% endif %}
+    </ul>
+    {% endunless %}
+  </div>
 </div>

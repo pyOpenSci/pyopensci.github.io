@@ -37,18 +37,13 @@ $(document).ready(function() {
 var qsRegex;
 var buttonFilter;
 
-var containerWidth = $('.grid-isotope').width();
-var columns = 3; // Number of columns you want
-var columnWidth = containerWidth / columns;
-
-
 // Init Isotope
 var $grid = $('.grid-isotope').imagesLoaded(function() {
     $grid.isotope({
         itemSelector: '.element-item',
         layoutMode: 'masonry',
         masonry: {
-            columnWidth: columnWidth,
+            columnWidth: '.grid-sizer',
             horizontalOrder: true,
         },
         filter: function() {

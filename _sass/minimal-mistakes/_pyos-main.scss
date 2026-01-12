@@ -1,10 +1,6 @@
 img {
   border-radius: 10px;
-  -webkit-border-radius: 10px; /* Safari/Chrome */
-  -moz-border-radius: 10px; /* Firefox */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Safari/Chrome */
-  -moz-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Firefox */
 }
 
 // Grid customized styles
@@ -20,11 +16,6 @@ img {
   padding-right: 2em;
 }
 
-.ppl_social a {
-  margin-right: 10px;
-  text-decoration: none !important;
-}
-
 .grid.people {
   grid-gap: 60px;
 }
@@ -34,17 +25,15 @@ img {
 }
 
 
-.person_img {
-  -webkit-filter: drop-shadow(3px 3px 3px #999);
-  filter: drop-shadow(3px 3px 3px #999);
-}
-
-.person_img img {
-  width: 100%;
-}
-
 div > div {
   padding: 10px;
+}
+
+// Override div > div padding for person_img with higher specificity
+// Person image styles are now in _pyos-cards.scss
+.cards .person_img,
+.archive__item .person_img {
+  padding: 0;
 }
 
 
@@ -115,10 +104,6 @@ h2.clearall {
   // .grid-isotope {
   //   font-size: 1.3em;
   // }
-
-  .contrib_org, .ppl_social {
-    font-size: .9em !important;
-  }
 
   .card-body {
 

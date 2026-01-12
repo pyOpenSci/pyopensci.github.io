@@ -134,7 +134,7 @@
   github_username: willingc
   github_image_id: 2680980
   title: Advisory Council
-  sort:
+  sort: 2
   bio: Project Jupyter, nteract, and CPython core developer@python | @jupyter
       | @jupyterhub | @ipython | @nteract | @pysplash
   organization: Willing Consulting
@@ -262,7 +262,7 @@
   github_username: InessaPawson
   github_image_id: 43481325
   title: Advisory Council
-  sort:
+  sort: 1
   bio: NumPy Contributor Experience LeadOpen Source Program Manager at
       OpenTeams Incubator
   organization: '@numpy'
@@ -324,7 +324,7 @@
   title:
     - Advisory Council
     - Emeritus editor
-  sort: 2
+  sort:
   bio: Open Source Developer
   organization: xmnlab
   date_added: '2019-10-15'
@@ -369,7 +369,7 @@
   title:
     - Advisory Council
     - Editor
-  sort: 2
+  sort:
   bio: Filipe Fernandes is a Physical oceanographer by training, turned
       research software engineer, and a software packager hobbyist.
   organization:
@@ -495,7 +495,7 @@
   github_username: yuvipanda
   github_image_id: 30430
   title: Advisory Council
-  sort:
+  sort: 2
   bio:
   organization: '@2i2c-org'
   date_added: '2023-01-18'
@@ -527,7 +527,7 @@
   github_username: cmillion
   github_image_id: 1483210
   title: Advisory Council
-  sort:
+  sort: 0
   bio:
   organization:
   date_added: '2023-11-20'
@@ -643,15 +643,15 @@
   github_image_id: 1662261
   title:
     - Emeritus Editor in Chief
-    - Editor
+    - Emeritus Editor
     - Peer review triage
-  sort: 2
+  sort:
   bio:
   organization:
   date_added: '2023-01-24'
   deia_advisory: false
-  editorial_board: true
-  emeritus_editor: false
+  editorial_board: false
+  emeritus_editor: true
   advisory: false
   emeritus_advisory: false
   twitter:
@@ -803,14 +803,14 @@
   github_image_id: 11004857
   title:
     - Emeritus Editor in Chief
-    - Editor
+    - EmeritusEditor
   sort: 2
   bio:
   organization:
   date_added: '2023-02-04'
   deia_advisory: false
-  editorial_board: true
-  emeritus_editor: false
+  editorial_board: false
+  emeritus_editor: true
   advisory: false
   emeritus_advisory: false
   twitter:
@@ -3862,13 +3862,16 @@
   contributor_type:
     - community
     - guidebook-contrib
+    - maintainer
     - peer-review
     - peer-review-guide
     - reviewer
+    - submitting-author
     - web-contrib
   packages_eic:
   packages_editor:
   packages_submitted:
+    - astropy
   packages_reviewed:
     - zodipy
   location: Baltimore, MD, USA
@@ -4395,9 +4398,10 @@
   github_username: eliotwrobson
   github_image_id: 1345068
   title:
+    - Peer Review Lead
     - Editor
     - Emeritus Editor in Chief
-  sort: 1
+  sort: 0
   bio: I'm just this guy, you know?
   organization: UIUC
   date_added: '2023-09-11'
@@ -5405,7 +5409,7 @@
   title:
     - Editor
     - Editor in Chief
-  sort: 0
+  sort: 1
   bio:
   organization:
   date_added: '2023-12-21'
@@ -5422,9 +5426,11 @@
   board: false
   contributor_type:
     - editor
+    - eic
     - peer-review
     - reviewer
   packages_eic:
+    - astropy
   packages_editor:
   packages_submitted:
   packages_reviewed:
@@ -7103,7 +7109,7 @@
   mastodon:
   orcidid:
   partners:
-  website: https://www.owlfolio.org/
+  website:
   board: false
   contributor_type:
     - package-guide
@@ -9660,6 +9666,7 @@
     - web-contrib
   packages_eic:
   packages_editor:
+    - astropy
     - blockingpy
     - piva
     - swiftgalaxy
@@ -11256,7 +11263,7 @@
   organization:
   date_added: '2025-12-09'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -11286,7 +11293,7 @@
   organization: UGR
   date_added: '2025-12-09'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -11305,4 +11312,91 @@
     - galassify
   packages_reviewed:
   location: Spain
+  email:
+- name: Aditya P T
+  github_username: adityapt
+  github_image_id: 13266121
+  title:
+  sort:
+  bio: Principal Data Scientist
+  organization: Zillow
+  date_added: '2025-12-31'
+  deia_advisory: false
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - astropy
+  location: Bay Area
+  email:
+- name:
+  github_username: egbdfX
+  github_image_id: 107475738
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2025-12-31'
+  deia_advisory: false
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - astropy
+  location:
+  email:
+- name: i
+  github_username: i
+  github_image_id: 2905137
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2025-12-31'
+  deia_advisory: false
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - astropy
+  packages_reviewed:
+  location:
   email:
