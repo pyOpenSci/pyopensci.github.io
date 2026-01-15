@@ -100,6 +100,10 @@ peer-review:
 
 <br clear="both">
 
+{% include upcoming-events.html %}
+
+<br clear="both">
+
 <!-- pull blog posts not events -->
 {% assign blog_posts = site.posts |  where_exp: "item", "item.categories contains 'blog-post'" %}
 
