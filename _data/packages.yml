@@ -1,7 +1,7 @@
 - package_name: ChemInformant
-  package_description: A robust, high-throughput Python client for retrieving
-      chemical information from the PubChem API; it returns analysis-ready
-      Pandas/SQL outputs, handles caching, rate-limiting and retries, and
+  package_description: A robust, high-throughput Python client for retrieving 
+      chemical information from the PubChem API; it returns analysis-ready 
+      Pandas/SQL outputs, handles caching, rate-limiting and retries, and 
       includes convenient CLI tools.
   submitting_author:
       name: Zhiang He
@@ -10,6 +10,7 @@
     - name: Zhiang He
       github_username: HzaCode
   repository_link: https://github.com/HzaCode/ChemInformant
+  repository_host: github
   version_submitted: 2.4.0 (released 2025-07-30)
   categories:
     - data-retrieval
@@ -33,11 +34,11 @@
   updated_at: 2025-10-07 16:39:26+00:00
   closed_at: 2025-10-01 15:35:48+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/254
-  joss: https://doi.org/10.21105/joss.08341
-  partners:
+  joss: https://joss.theoj.org/papers/10.21105/joss.08341
+  partners: 
   gh_meta:
       name: ChemInformant
-      description: ⚗️ An all-in-one solution for chemical property retrieval
+      description: ⚗️ An all-in-one solution for chemical property retrieval 
           from PubChem.
       created_at: '2024-01-21'
       stargazers_count: 29
@@ -58,11 +59,12 @@
       github_username: pllim
   all_current_maintainers:
     - name: i
-      github_username: I need help with this. We have hundreds of
-          contributors. Do you just want the names from
-          https://www.astropy.org/team ? Do you have a max number limit? Or
+      github_username: I need help with this. We have hundreds of 
+          contributors. Do you just want the names from 
+          https://www.astropy.org/team ? Do you have a max number limit? Or 
           should I put a blanket team name here? What is the expected order?
   repository_link: https://github.com/astropy/astropy
+  repository_host: github
   version_submitted: 7.1.0
   categories:
     - data-retrieval
@@ -85,7 +87,7 @@
   version_accepted: 7.1.0
   date_accepted: '2025-12-17'
   created_at: 2025-07-14 21:58:24+00:00
-  updated_at: 2026-01-12 15:51:42+00:00
+  updated_at: 2026-01-21 13:03:11+00:00
   closed_at:
   issue_link: https://github.com/pyOpenSci/software-submission/issues/251
   joss:
@@ -95,13 +97,13 @@
       name: astropy
       description: Astronomy and astrophysics core library
       created_at: '2011-07-21'
-      stargazers_count: 5004
+      stargazers_count: 5010
       watchers_count: 135
-      open_issues_count: 1310
-      forks_count: 1990
+      open_issues_count: 1309
+      forks_count: 1995
       documentation: https://www.astropy.org
       contrib_count: 444
-      last_commit: '2026-01-16'
+      last_commit: '2026-01-21'
   labels:
     - 6/pyOS-approved
     - astropy
@@ -115,6 +117,7 @@
     - name: Szymon Moliński
       github_username: SimonMolinsky
   repository_link: https://github.com/DataverseLabs/pyinterpolate
+  repository_host: github
   version_submitted: 1.0.1
   categories:
     - data-processing-munging
@@ -129,23 +132,23 @@
       github_username: crhea93
     - name: Martin Fleischmann
       github_username: martinfleis
-  archive: https://doi.org/10.5281/zenodo.17691515
+  archive: https://zenodo.org/doi/10.5281/zenodo.17691515
   version_accepted: 1.2.0
   date_accepted: 2025-12-3
   created_at: 2025-07-12 14:09:45+00:00
   updated_at: 2025-12-08 09:54:28+00:00
   closed_at:
   issue_link: https://github.com/pyOpenSci/software-submission/issues/250
-  joss: https://doi.org/10.21105/joss.02869
-  partners:
+  joss: https://joss.theoj.org/papers/10.21105/joss.02869
+  partners: 
   gh_meta:
       name: pyinterpolate
       description: Kriging | Poisson Kriging | Variogram Analysis
       created_at: '2018-04-16'
-      stargazers_count: 170
+      stargazers_count: 171
       watchers_count: 2
       open_issues_count: 7
-      forks_count: 28
+      forks_count: 29
       documentation: https://pyinterpolate.readthedocs.io/en/stable/
       contrib_count: 13
       last_commit: '2025-12-26'
@@ -154,8 +157,8 @@
     - 9/joss-approved
   active: true
 - package_name: swiftgalaxy
-  package_description: Load in particles of a simulated galaxy, rotate
-      coordinates, easy spherical/cylindrical coordinates, access integrated
+  package_description: Load in particles of a simulated galaxy, rotate 
+      coordinates, easy spherical/cylindrical coordinates, access integrated 
       properties, and more.
   submitting_author:
       name: Kyle Oman
@@ -164,6 +167,7 @@
     - name: Kyle Oman
       github_username: kyleaoman
   repository_link: https://github.com/SWIFTSIM/swiftgalaxy
+  repository_host: github
   version_submitted: 2.1.1
   categories:
     - data-extraction
@@ -187,11 +191,11 @@
   closed_at: 2025-12-17 23:09:26+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/244
   joss: https://joss.theoj.org/papers/10.21105/joss.09278
-  partners:
+  partners: 
   gh_meta:
       name: swiftgalaxy
-      description: Load in particles of a simulated galaxy, rotate
-          coordinates, easy spherical/cylindrical coordinates, access
+      description: Load in particles of a simulated galaxy, rotate 
+          coordinates, easy spherical/cylindrical coordinates, access 
           integrated properties, and more.
       created_at: '2022-05-03'
       stargazers_count: 8
@@ -200,7 +204,7 @@
       forks_count: 4
       documentation: https://swiftgalaxy.readthedocs.io/en/stable/index.html
       contrib_count: 3
-      last_commit: '2026-01-18'
+      last_commit: '2026-01-20'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -214,7 +218,8 @@
     - name: Syed Ali Mohsin Bukhari
       github_username: syedalimohsinbukhari
   repository_link: https://github.com/syedalimohsinbukhari/pyMultiFit
-  version_submitted: ~v1.0.3~
+  repository_host: github
+  version_submitted: ~v1.0.3~ 
       [v1.0.6](https://github.com/syedalimohsinbukhari/pyMultiFit/releases/tag/v1.0.6)
   categories:
     - data-processing-munging
@@ -236,8 +241,8 @@
   updated_at: 2025-11-05 11:15:18+00:00
   closed_at: 2025-11-05 10:09:46+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/233
-  joss: https://doi.org/10.21105/joss.09295
-  partners:
+  joss: https://joss.theoj.org/papers/10.21105/joss.09295
+  partners: 
   gh_meta:
       name: pyMultiFit
       description: A library to fit the data with multiple fitters.
@@ -254,7 +259,7 @@
     - 9/joss-approved
   active: true
 - package_name: BlockingPy
-  package_description: Blocking records for record linkage and deduplication
+  package_description: Blocking records for record linkage and deduplication 
       with Approximate Nearest Neighbor algorithms.;
   submitting_author:
       name: Tymoteusz Strojny
@@ -263,6 +268,7 @@
     - name: Tymoteusz Strojny
       github_username: T-Strojny
   repository_link: https://github.com/ncn-foreigners/BlockingPy
+  repository_host: github
   version_submitted: v0.1.7
   categories:
     - data-processing-munging
@@ -287,10 +293,10 @@
   closed_at:
   issue_link: https://github.com/pyOpenSci/software-submission/issues/232
   joss:
-  partners:
+  partners: 
   gh_meta:
       name: BlockingPy
-      description: Blocking records for record linkage and data deduplication
+      description: Blocking records for record linkage and data deduplication 
           based on ANN algorithms in Python.
       created_at: '2024-10-11'
       stargazers_count: 17
@@ -304,7 +310,7 @@
     - 6/pyOS-approved
   active: true
 - package_name: PIVA
-  package_description: Visualization and analysis toolkit for experimental
+  package_description: Visualization and analysis toolkit for experimental 
       data from Angle-Resolved Photoemission Spectroscopy (ARPES)
   submitting_author:
       name: Wojciech Radoslaw Pudelko
@@ -313,6 +319,7 @@
     - name: Wojciech Radoslaw Pudelko
       github_username: pudeIko
   repository_link: https://github.com/pudeIko/piva
+  repository_host: github
   version_submitted: v2.3.2
   categories:
     - data-extraction
@@ -335,11 +342,11 @@
   updated_at: 2025-10-06 13:10:53+00:00
   closed_at: 2025-10-06 13:10:53+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/231
-  joss: https://doi.org/10.21105/joss.09129
-  partners:
+  joss: https://joss.theoj.org/papers/10.21105/joss.09129
+  partners: 
   gh_meta:
       name: piva
-      description: Interactive tools for the visualization and analysis of
+      description: Interactive tools for the visualization and analysis of 
           multidimensional photoemission data
       created_at: '2022-04-12'
       stargazers_count: 8
@@ -363,6 +370,7 @@
     - name:
       github_username: irideselby
   repository_link: https://codeberg.org/JPHackstein/GREOPy
+  repository_host: codeberg
   version_submitted: v0.2.1
   categories:
     - data-processing-munging
@@ -384,15 +392,15 @@
   updated_at: 2025-10-07 18:08:25+00:00
   closed_at: 2025-10-07 18:05:53+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/227
-  joss: https://doi.org/10.21105/joss.08765
-  partners:
+  joss: https://joss.theoj.org/papers/10.21105/joss.08765
+  partners: 
   gh_meta:
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
   active: true
 - package_name: GALFITools
-  package_description: A library for efficient data processing customized for
+  package_description: A library for efficient data processing customized for 
       the GALFIT package
   submitting_author:
       name: Chris Añorve
@@ -401,6 +409,7 @@
     - name: Chris Añorve
       github_username: canorve
   repository_link: https://github.com/canorve/GALFITools
+  repository_host: github
   version_submitted: v1.15.0
   categories:
     - data-extraction
@@ -437,7 +446,7 @@
       watchers_count: 1
       open_issues_count: 0
       forks_count: 3
-      documentation:
+      documentation: 
       contrib_count: 2
       last_commit: '2026-01-14'
   labels:
@@ -446,7 +455,7 @@
     - astropy
   active: true
 - package_name: GALAssify
-  package_description: A Python package for visually classifying astronomical
+  package_description: A Python package for visually classifying astronomical 
       objects
   submitting_author:
       name: Manuel Alcázar-Laynez
@@ -457,6 +466,7 @@
     - name: Andoni
       github_username: andonij
   repository_link: https://gitlab.com/astrogal/GALAssify/
+  repository_host: gitlab
   version_submitted: v1.0.1
   categories:
     - data-validation-testing
@@ -480,14 +490,14 @@
   closed_at: 2025-12-10 03:33:49+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/214
   joss:
-  partners:
+  partners: 
   gh_meta:
   labels:
     - 6/pyOS-approved
   active: true
 - package_name: neonutilities
-  package_description: neonutilities is a package for accessing and wrangling
-      data generated and published by the National Ecological Observatory
+  package_description: neonutilities is a package for accessing and wrangling 
+      data generated and published by the National Ecological Observatory 
       Network.
   submitting_author:
       name: Claire Lunch
@@ -500,6 +510,7 @@
     - name:
       github_username: znickerson8
   repository_link: https://github.com/NEONScience/NEON-utilities-python
+  repository_host: github
   version_submitted: v1.0.1
   categories:
     - data-retrieval
@@ -515,7 +526,7 @@
       github_username: ethanwhite
     - name:
       github_username: benjamindonnachie
-  archive: https://doi.org/10.5281/zenodo.15530180
+  archive: https://zenodo.org/doi/10.5281/zenodo.15530180
   version_accepted: v1.1.0
   date_accepted: 2025-05- 10
   created_at: 2024-09-25 21:27:31+00:00
@@ -523,10 +534,10 @@
   closed_at: 2025-05-30 16:31:22+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/213
   joss:
-  partners:
+  partners: 
   gh_meta:
       name: NEON-utilities-python
-      description: Repository for Python package containing data-wrangling
+      description: Repository for Python package containing data-wrangling 
           utilities for working with NEON data.
       created_at: '2023-08-25'
       stargazers_count: 5
@@ -540,7 +551,7 @@
     - 6/pyOS-approved
   active: true
 - package_name: FElupe
-  package_description: Finite element analysis for continuum mechanics of
+  package_description: Finite element analysis for continuum mechanics of 
       solid bodies.
   submitting_author:
       name: Andreas Dutzler
@@ -549,6 +560,7 @@
     - name: Andreas Dutzler
       github_username: adtzlr
   repository_link: https://github.com/adtzlr/felupe
+  repository_host: github
   version_submitted: v9.1.0
   categories:
     - data-retrieval
@@ -566,33 +578,33 @@
       github_username: nicoguaro
     - name: Carter Lee Rhea
       github_username: crhea93
-  archive: https://doi.org/10.5281/zenodo.17202699
+  archive: https://zenodo.org/doi/10.5281/zenodo.17202699
   version_accepted: 9.4.0
   date_accepted: 2025-9-18
   created_at: 2024-09-14 22:37:44+00:00
   updated_at: 2025-11-17 22:40:42+00:00
   closed_at: 2025-11-17 22:40:18+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/212
-  joss: https://doi.org/10.21105/joss.09160
-  partners:
+  joss: https://joss.theoj.org/papers/10.21105/joss.09160
+  partners: 
   gh_meta:
       name: felupe
-      description: finite element analysis for continuum mechanics of solid
+      description: finite element analysis for continuum mechanics of solid 
           bodies
       created_at: '2021-04-22'
-      stargazers_count: 158
+      stargazers_count: 161
       watchers_count: 4
       open_issues_count: 7
       forks_count: 17
       documentation: https://felupe.readthedocs.io/en/stable
       contrib_count: 4
-      last_commit: '2026-01-13'
+      last_commit: '2026-01-19'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
   active: true
 - package_name: Solar Data Tools
-  package_description: Library of tools for analyzing photovoltaic power
+  package_description: Library of tools for analyzing photovoltaic power 
       time-series data.
   submitting_author:
       name: Sara Miskovich
@@ -603,6 +615,7 @@
     - name: Bennet Meyers
       github_username: bmeyers
   repository_link: https://github.com/slacgismo/solar-data-tools
+  repository_host: github
   version_submitted: 1.6.4
   categories:
     - data-retrieval
@@ -622,15 +635,15 @@
       github_username: echedey-ls
     - name: Chris Deline
       github_username: cdeline
-  archive: https://doi.org/10.5281/zenodo.15243716
+  archive: https://zenodo.org/doi/10.5281/zenodo.15243716
   version_accepted: 1.7.1
   date_accepted: '2025-06-13'
   created_at: 2024-08-17 06:30:02+00:00
   updated_at: 2025-06-27 21:22:44+00:00
   closed_at: 2025-06-27 21:22:44+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/210
-  joss: https://doi.org/10.21105/joss.08478
-  partners:
+  joss: https://joss.theoj.org/papers/10.21105/joss.08478
+  partners: 
   gh_meta:
       name: solar-data-tools
       description: 'Some data analysis tools for working with historical PV solar
@@ -638,8 +651,8 @@
       created_at: '2019-02-17'
       stargazers_count: 91
       watchers_count: 9
-      open_issues_count: 3
-      forks_count: 30
+      open_issues_count: 4
+      forks_count: 31
       documentation: https://solar-data-tools.readthedocs.io
       contrib_count: 20
       last_commit: '2025-11-25'
@@ -648,7 +661,7 @@
     - 9/joss-approved
   active: true
 - package_name: THzTools
-  package_description: Data analysis software tools for terahertz time-domain
+  package_description: Data analysis software tools for terahertz time-domain 
       spectroscopy (THz-TDS)
   submitting_author:
       name: J. Steven Dodge
@@ -657,6 +670,7 @@
     - name: J. Steven Dodge
       github_username: jsdodge
   repository_link: https://github.com/dodge-research-group/thztools
+  repository_host: github
   version_submitted: 0.5.4
   categories:
     - data-processing-munging
@@ -671,20 +685,20 @@
       github_username: frank1010111
     - name:
       github_username: Romain-Peretti
-  archive: https://doi.org/10.5281/zenodo.10100093
+  archive: https://zenodo.org/doi/10.5281/zenodo.10100093
   version_accepted: 0.5.5
   date_accepted: '2024-11-22'
   created_at: 2024-08-01 11:54:53+00:00
   updated_at: 2025-03-26 06:49:24+00:00
   closed_at: 2024-12-03 02:41:20+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/209
-  joss: https://doi.org/10.21105/joss.07542
-  partners:
+  joss: https://joss.theoj.org/papers/10.21105/joss.07542
+  partners: 
   gh_meta:
       name: thztools
       description: Tools for terahertz time-domain spectroscopy (THz-TDS)
       created_at: '2022-11-22'
-      stargazers_count: 22
+      stargazers_count: 23
       watchers_count: 2
       open_issues_count: 4
       forks_count: 14
@@ -696,7 +710,7 @@
     - 9/joss-approved
   active: true
 - package_name: MontePy
-  package_description: MontePy is a python library for reading, editing, and
+  package_description: MontePy is a python library for reading, editing, and 
       writing MCNP input files.
   submitting_author:
       name: Micah Gale
@@ -707,6 +721,7 @@
     - name: Travis L.
       github_username: tjlaboss
   repository_link: https://github.com/idaholab/MontePy
+  repository_host: github
   version_submitted: 0.2.10
   categories:
     - workflow-automation
@@ -722,7 +737,7 @@
       github_username: munkm
     - name: Joanna Piper Morgan
       github_username: jpmorgan98
-  archive: https://doi.org/10.5281/zenodo.15185506
+  archive: https://zenodo.org/doi/10.5281/zenodo.15185506
   version_accepted: 0.5.5
   date_accepted: '2025-03-19'
   created_at: 2024-07-01 21:04:05+00:00
@@ -730,19 +745,19 @@
   closed_at: 2025-04-30 19:12:35+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/205
   joss: https://joss.theoj.org/papers/10.21105/joss.07951
-  partners:
+  partners: 
   gh_meta:
       name: MontePy
-      description: MontePy is the most user friendly Python library (API) to
+      description: MontePy is the most user friendly Python library (API) to 
           read, edit, and write MCNP input files.
       created_at: '2024-01-09'
       stargazers_count: 50
       watchers_count: 4
-      open_issues_count: 113
+      open_issues_count: 110
       forks_count: 18
       documentation: https://www.montepy.org/
       contrib_count: 8
-      last_commit: '2026-01-13'
+      last_commit: '2026-01-21'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -758,6 +773,7 @@
     - name: Michael Chow
       github_username: machow
   repository_link: https://github.com/posit-dev/great-tables
+  repository_host: github
   version_submitted: v0.13.0
   categories:
     - data-visualization
@@ -772,7 +788,7 @@
       github_username: cjbassin
     - name: Guillaume Lemaitre
       github_username: glemaitre
-  archive: https://doi.org/10.5281/zenodo.15312934
+  archive: https://zenodo.org/doi/10.5281/zenodo.15312934
   version_accepted: v0.14.0
   date_accepted: '2025-01-03'
   created_at: 2024-06-14 19:55:59+00:00
@@ -780,15 +796,15 @@
   closed_at: 2025-07-29 22:16:20+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/202
   joss:
-  partners:
+  partners: 
   gh_meta:
       name: great-tables
       description: Make awesome display tables using Python
       created_at: '2022-05-06'
-      stargazers_count: 2578
+      stargazers_count: 2579
       watchers_count: 16
       open_issues_count: 128
-      forks_count: 115
+      forks_count: 116
       documentation: https://posit-dev.github.io/great-tables/
       contrib_count: 26
       last_commit: '2026-01-16'
@@ -796,7 +812,7 @@
     - 6/pyOS-approved
   active: true
 - package_name: Stingray
-  package_description: A spectral-timing software package for astrophysical
+  package_description: A spectral-timing software package for astrophysical 
       X-ray (and other) data
   submitting_author:
       name: Matteo Bachetti
@@ -811,6 +827,7 @@
     - name:
       github_username: matteolucchini1
   repository_link: https://github.com/stingraysoftware/stingray
+  repository_host: github
   version_submitted: '2.1'
   categories:
     - data-processing-munging
@@ -826,7 +843,7 @@
       github_username: taldcroft
     - name: Mason Ng
       github_username: masonng-astro
-  archive: https://doi.org/10.5281/zenodo.11383212
+  archive: https://zenodo.org/doi/10.5281/zenodo.11383212
   version_accepted: '2.1'
   date_accepted: '2024-10-01'
   created_at: 2024-06-14 12:59:47+00:00
@@ -838,13 +855,13 @@
     - astropy
   gh_meta:
       name: stingray
-      description: Anything can happen in the next half hour (including
+      description: Anything can happen in the next half hour (including 
           spectral timing made easy)!
       created_at: '2015-09-30'
       stargazers_count: 209
       watchers_count: 17
       open_issues_count: 48
-      forks_count: 172
+      forks_count: 173
       documentation: https://stingray.science/stingray
       contrib_count: 57
       last_commit: '2026-01-12'
@@ -866,6 +883,7 @@
     - name:
       github_username: jehturner
   repository_link: https://github.com/GeminiDRSoftware/astrodata
+  repository_host: github
   version_submitted: 2.9.2
   categories:
     - data-extraction
@@ -905,8 +923,8 @@
     - astropy
   active: true
 - package_name: QuadratiK
-  package_description: QuadratiK includes test for multivariate normality,
-      test for uniformity on the sphere, non-parametric two- and k-sample
+  package_description: QuadratiK includes test for multivariate normality, 
+      test for uniformity on the sphere, non-parametric two- and k-sample 
       tests, random generation of points from the Poisson kernel-based density
       and clustering algorithm for spherical data.
   submitting_author:
@@ -918,6 +936,7 @@
     - name: Giovanni Saraceno
       github_username: giovsaraceno
   repository_link: https://github.com/rmj3197/QuadratiK
+  repository_host: github
   version_submitted: 1.1.0
   categories:
     - data-processing-munging
@@ -940,12 +959,12 @@
   closed_at: 2025-02-27 20:45:41+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/180
   joss:
-  partners:
+  partners: 
   gh_meta:
       name: QuadratiK
-      description: QuadratiK includes test for multivariate normality, test
-          for uniformity on the sphere, non-parametric two- and k-sample
-          tests, random generation of points from the Poisson kernel-based
+      description: QuadratiK includes test for multivariate normality, test 
+          for uniformity on the sphere, non-parametric two- and k-sample 
+          tests, random generation of points from the Poisson kernel-based 
           density and clustering algorithm for spherical data.
       created_at: '2024-02-04'
       stargazers_count: 3
@@ -974,6 +993,7 @@
     - name: Matthew West
       github_username: mwest1066
   repository_link: https://github.com/open-atmos/PyPartMC/
+  repository_host: github
   version_submitted: v1.2.0
   categories:
     - scientific-software-wrapper
@@ -988,7 +1008,7 @@
       github_username: simonom
     - name: Dan Baston
       github_username: dbaston
-  archive: https://doi.org/10.5281/zenodo.14801138
+  archive: https://zenodo.org/doi/10.5281/zenodo.14801138
   version_accepted: 1.4.2
   date_accepted: '2025-02-12'
   created_at: 2024-05-03 18:22:59+00:00
@@ -996,10 +1016,10 @@
   closed_at: 2025-02-17 18:52:18+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/179
   joss:
-  partners:
+  partners: 
   gh_meta:
       name: PyPartMC
-      description: Python (and C++) interface to PartMC with Jupyter/Python,
+      description: Python (and C++) interface to PartMC with Jupyter/Python, 
           Julia and Matlab examples
       created_at: '2021-10-26'
       stargazers_count: 31
@@ -1013,7 +1033,7 @@
     - 6/pyOS-approved
   active: true
 - package_name: CyNetDiff
-  package_description: A performance-focused library implementing algorithms
+  package_description: A performance-focused library implementing algorithms 
       for simulating network diffusion processes, written in Cython.
   submitting_author:
       name: Name
@@ -1024,6 +1044,7 @@
     - name: Abhishek Umrawal
       github_username: abhishekumrawal
   repository_link: https://github.com/eliotwrobson/CyNetDiff
+  repository_host: github
   version_submitted: v0.1.13
   categories:
     - data-processing-munging
@@ -1047,11 +1068,11 @@
   updated_at: 2025-09-03 00:17:41+00:00
   closed_at: 2025-09-03 00:17:41+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/175
-  joss: https://doi.org/10.5281/zenodo.10801503
-  partners:
+  joss: https://zenodo.org/doi/10.5281/zenodo.10801503
+  partners: 
   gh_meta:
       name: CyNetDiff
-      description: A performance-focused library implementing algorithms for
+      description: A performance-focused library implementing algorithms for 
           simulating network diffusion processes, written in Cython.
       created_at: '2023-12-12'
       stargazers_count: 5
@@ -1065,7 +1086,7 @@
     - 6/pyOS-approved
   active: true
 - package_name: AMS
-  package_description: Power system dispatch modeling and dispatch-dynamic
+  package_description: Power system dispatch modeling and dispatch-dynamic 
       co-simulation.
   submitting_author:
       name: Jinning Wang
@@ -1074,6 +1095,7 @@
     - name: Jinning Wang
       github_username: jinningwang
   repository_link: https://github.com/CURENT/ams
+  repository_host: github
   version_submitted: v0.9.6
   categories:
     - data-processing-munging
@@ -1100,13 +1122,13 @@
   closed_at: 2025-11-14 02:04:35+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/174
   joss:
-  partners:
+  partners: 
   gh_meta:
       name: ams
-      description: Power system generation scheduling and co-simulation with
+      description: Power system generation scheduling and co-simulation with 
           dynamics.
       created_at: '2022-10-05'
-      stargazers_count: 22
+      stargazers_count: 23
       watchers_count: 2
       open_issues_count: 13
       forks_count: 9
@@ -1117,7 +1139,7 @@
     - 6/pyOS-approved
   active: true
 - package_name: pooltool
-  package_description: Pooltool is a general purpose billiards simulator
+  package_description: Pooltool is a general purpose billiards simulator 
       crafted specifically for science and engineering.
   submitting_author:
       name: Evan Kiefl
@@ -1126,6 +1148,7 @@
     - name: Evan Kiefl
       github_username: ekiefl
   repository_link: https://github.com/ekiefl/pooltool
+  repository_host: github
   version_submitted: v0.3.3
   categories:
     - data-processing-munging
@@ -1141,22 +1164,22 @@
       github_username: sebastianotronto
     - name: Eliot Robson
       github_username: eliotwrobson
-  archive: https://doi.org/10.5281/zenodo.13824503
+  archive: https://zenodo.org/doi/10.5281/zenodo.13824503
   version_accepted: 0.4.1
   date_accepted: '2024-09-16'
   created_at: 2024-04-15 21:44:43+00:00
   updated_at: 2024-11-22 01:30:45+00:00
   closed_at: 2024-10-01 11:51:34+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/173
-  joss: https://doi.org/10.21105/joss.07301
-  partners:
+  joss: https://joss.theoj.org/papers/10.21105/joss.07301
+  partners: 
   gh_meta:
       name: pooltool
       description: A sandbox billiards game that emphasizes realistic physics
       created_at: '2020-04-09'
-      stargazers_count: 331
+      stargazers_count: 332
       watchers_count: 12
-      open_issues_count: 4
+      open_issues_count: 6
       forks_count: 70
       documentation: https://pooltool.readthedocs.io
       contrib_count: 10
@@ -1166,8 +1189,8 @@
     - 9/joss-approved
   active: true
 - package_name: martini
-  package_description: MARTINI is a modular package for the creation of
-      synthetic resolved HI line observations (data cubes) of
+  package_description: MARTINI is a modular package for the creation of 
+      synthetic resolved HI line observations (data cubes) of 
       smoothed-particle hydrodynamics simulations of galaxies.
   submitting_author:
       name: Kyle Oman
@@ -1176,6 +1199,7 @@
     - name: Kyle Oman
       github_username: kyleaoman
   repository_link: https://github.com/kyleaoman/martini
+  repository_host: github
   version_submitted: 2.0.11 (note JOSS paper is in branch joss-paper, and that
       branch is somewhat behind main & 2.0.11)
   categories:
@@ -1198,21 +1222,21 @@
   updated_at: 2025-01-14 18:42:39+00:00
   closed_at: 2024-07-01 15:58:14+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/164
-  joss: https://doi.org/10.21105/joss.06860
+  joss: https://joss.theoj.org/papers/10.21105/joss.06860
   partners:
     - astropy
   gh_meta:
       name: martini
-      description: Mock spatially resolved spectral line observations of
+      description: Mock spatially resolved spectral line observations of 
           simulated galaxies.
       created_at: '2017-10-19'
       stargazers_count: 23
-      watchers_count: 2
-      open_issues_count: 17
+      watchers_count: 1
+      open_issues_count: 16
       forks_count: 7
       documentation: https://martini.readthedocs.io/
       contrib_count: 1
-      last_commit: '2025-12-18'
+      last_commit: '2026-01-21'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1232,6 +1256,7 @@
     - name: Daniel Herman
       github_username: hermda02
   repository_link: https://github.com/Cosmoglobe/zodipy
+  repository_host: github
   version_submitted: v.0.8.5
   categories:
     - scientific-software-wrapper
@@ -1246,7 +1271,7 @@
       github_username: pllim
     - name: Leo Singer
       github_username: lpsinger
-  archive: https://doi.org/10.5281/zenodo.10999612
+  archive: https://zenodo.org/doi/10.5281/zenodo.10999612
   version_accepted: v.0.9.2
   date_accepted: '2024-04-21'
   created_at: 2024-02-24 12:28:07+00:00
@@ -1274,7 +1299,7 @@
     - astropy
   active: true
 - package_name: plot_phylo
-  package_description: A Python package to plot a phylogenetic tree on an
+  package_description: A Python package to plot a phylogenetic tree on an 
       existing Matplotlib axis.
   submitting_author:
       name: Katy Brown
@@ -1283,6 +1308,7 @@
     - name: Katy Brown
       github_username: KatyBrown
   repository_link: https://github.com/KatyBrown/plot_phylo
+  repository_host: github
   version_submitted: 1.9.0
   categories:
     - data-visualization
@@ -1298,7 +1324,7 @@
       github_username: ammaraziz
     - name: Jayaram Kancherla
       github_username: jkanche
-  archive: https://doi.org/10.5281/zenodo.13871592
+  archive: https://zenodo.org/doi/10.5281/zenodo.13871592
   version_accepted: 0.1.11
   date_accepted: '2025-01-21'
   created_at: 2024-02-22 11:55:59+00:00
@@ -1306,10 +1332,10 @@
   closed_at: 2025-03-19 21:22:05+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/160
   joss:
-  partners:
+  partners: 
   gh_meta:
       name: plot_phylo
-      description: Python package to plot a phylogenetic tree on an existing
+      description: Python package to plot a phylogenetic tree on an existing 
           matplotlib axis.
       created_at: '2023-12-22'
       stargazers_count: 27
@@ -1323,9 +1349,9 @@
     - 6/pyOS-approved
   active: true
 - package_name: PetroFit
-  package_description: The PetroFit Project is an open-source effort to
-      develop end-to-end tools for making accurate photometric measurements,
-      estimating morphological properties, and fitting 2D models to galaxy
+  package_description: The PetroFit Project is an open-source effort to 
+      develop end-to-end tools for making accurate photometric measurements, 
+      estimating morphological properties, and fitting 2D models to galaxy 
       images.
   submitting_author:
       name: Robel Geda
@@ -1336,6 +1362,7 @@
     - name: Steve Crawford
       github_username: crawfordsm
   repository_link: https://github.com/PetroFit/petrofit
+  repository_host: github
   version_submitted: v0.5.0 (will be updated to v1.0.0 after review)
   categories:
     - data-processing-munging
@@ -1350,7 +1377,7 @@
       github_username: nden
     - name: Kyle Oman
       github_username: kyleaoman
-  archive: https://doi.org/10.5281/zenodo.14962700
+  archive: https://zenodo.org/doi/10.5281/zenodo.14962700
   version_accepted: '[v0.6.0](https://github.com/PetroFit/petrofit/releases/tag/v0.6.0)'
   date_accepted: '2025-02-28'
   created_at: 2024-02-16 22:46:47+00:00
@@ -1362,7 +1389,7 @@
     - astropy
   gh_meta:
       name: petrofit
-      description: Python package for calculating Petrosian properties and
+      description: Python package for calculating Petrosian properties and 
           fitting galaxy light profiles
       created_at: '2021-03-16'
       stargazers_count: 31
@@ -1377,7 +1404,7 @@
     - astropy
   active: true
 - package_name: harmonize-wq
-  package_description: Standardize, clean, and wrangle Water Quality Portal
+  package_description: Standardize, clean, and wrangle Water Quality Portal 
       data into more analytic-ready formats
   submitting_author:
       name: Justin Bousquin
@@ -1386,6 +1413,7 @@
     - name: Justin Bousquin
       github_username: jbousquin
   repository_link: https://github.com/USEPA/harmonize-wq
+  repository_host: github
   version_submitted: 0.4.0
   categories:
     - data-processing-munging
@@ -1400,18 +1428,18 @@
       github_username: rcaneill
     - name: Jacqui Levy
       github_username: jacqui-123
-  archive: https://doi.org/10.5281/zenodo.13356847
+  archive: https://zenodo.org/doi/10.5281/zenodo.13356847
   version_accepted: 0.5.0
   date_accepted: '2024-08-10'
   created_at: 2024-02-08 19:43:03+00:00
   updated_at: 2025-02-06 17:12:04+00:00
   closed_at: 2025-02-06 17:12:02+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/157
-  joss: https://doi.org/10.21105/joss.07305
-  partners:
+  joss: https://joss.theoj.org/papers/10.21105/joss.07305
+  partners: 
   gh_meta:
       name: harmonize-wq
-      description: Standardize, clean, and wrangle Water Quality Portal data
+      description: Standardize, clean, and wrangle Water Quality Portal data 
           into more analytic-ready formats
       created_at: '2022-06-27'
       stargazers_count: 18
@@ -1426,7 +1454,7 @@
     - 9/joss-approved
   active: true
 - package_name: xnemogcm
-  package_description: Interface to open NEMO global circulation model output
+  package_description: Interface to open NEMO global circulation model output 
       dataset with xarray and create a xgcm grid.
   submitting_author:
       name: Romain Caneill
@@ -1435,6 +1463,7 @@
     - name: Romain Caneill
       github_username: rcaneill
   repository_link: https://github.com/rcaneill/xnemogcm/
+  repository_host: github
   version_submitted: 0.4.2
   categories:
     - data-processing-munging
@@ -1447,7 +1476,7 @@
       github_username: paigem
     - name: Callum Rollo
       github_username: callumrollo
-  archive: https://doi.org/10.5281/zenodo.10973846
+  archive: https://zenodo.org/doi/10.5281/zenodo.10973846
   version_accepted: 0.4.3
   date_accepted: '2024-04-02'
   created_at: 2024-01-06 12:33:45+00:00
@@ -1455,10 +1484,10 @@
   closed_at: 2024-04-18 10:12:09+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/155
   joss:
-  partners:
+  partners: 
   gh_meta:
       name: xnemogcm
-      description: Interface to open NEMO global circulation model output
+      description: Interface to open NEMO global circulation model output 
           dataset with xarray and create a xgcm grid.
       created_at: '2020-01-24'
       stargazers_count: 23
@@ -1472,7 +1501,7 @@
     - 6/pyOS-approved
   active: true
 - package_name: automata
-  package_description: A Python library for simulating finite automata,
+  package_description: A Python library for simulating finite automata, 
       pushdown automata, and Turing machines.
   submitting_author:
       name: Eliot Robson
@@ -1483,6 +1512,7 @@
     - name: Caleb Evans
       github_username: caleb531
   repository_link: https://github.com/caleb531/automata
+  repository_host: github
   version_submitted: v8.2.0
   categories:
     - data-processing-munging
@@ -1500,10 +1530,10 @@
       github_username: irisdyoung
     - name: Nima Sarajpoor
       github_username: NimaSarajpoor
-  archive: https://doi.org/10.5281/zenodo.10864492
-  version_accepted: 8.4.0
-      ([repo](https://github.com/caleb531/automata/releases/tag/v8.4.0),
-      [pypi](https://pypi.org/project/automata-lib/8.4.0/),
+  archive: https://zenodo.org/doi/10.5281/zenodo.10864492
+  version_accepted: 8.4.0 
+      ([repo](https://github.com/caleb531/automata/releases/tag/v8.4.0), 
+      [pypi](https://pypi.org/project/automata-lib/8.4.0/), 
       [archive](https://zenodo.org/records/12594180))
   date_accepted: '2024-06-29'
   created_at: 2023-12-31 02:23:34+00:00
@@ -1511,10 +1541,10 @@
   closed_at: 2024-08-01 19:14:27+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/152
   joss:
-  partners:
+  partners: 
   gh_meta:
       name: automata
-      description: A Python library for simulating finite automata, pushdown
+      description: A Python library for simulating finite automata, pushdown 
           automata, and Turing machines
       created_at: '2016-02-16'
       stargazers_count: 394
@@ -1536,6 +1566,7 @@
     - name: Patrick J. Roddy
       github_username: paddyroddy
   repository_link: https://github.com/astro-informatics/sleplet
+  repository_host: github
   version_submitted: '[v1.4.4](https://pypi.org/project/sleplet/1.4.4)'
   categories:
     - data-processing-munging
@@ -1551,7 +1582,7 @@
       github_username: magsol
     - name: Jakub Tomasz Gnyp
       github_username: gnypit
-  archive: https://doi.org/10.5281/zenodo.7268074
+  archive: https://zenodo.org/doi/10.5281/zenodo.7268074
   version_accepted: 1.4.7
   date_accepted: '2024-05-21'
   created_at: 2023-11-16 01:32:15+00:00
@@ -1559,7 +1590,7 @@
   closed_at: 2024-06-06 08:29:04+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/149
   joss: https://joss.theoj.org/papers/10.21105/joss.05221
-  partners:
+  partners: 
   gh_meta:
       name: sleplet
       description: Slepian Scale-Discretised Wavelets in Python
@@ -1608,6 +1639,7 @@
     - name: Vishnunarayan K I
       github_username: vn-ki
   repository_link: https://github.com/sunpy/sunpy
+  repository_host: github
   version_submitted: 5.0.1
   categories:
     - data-retrieval
@@ -1625,7 +1657,7 @@
       github_username: Septaris
     - name: Sean Kelly
       github_username: nutjob4life
-  archive: https://doi.org/10.5281/zenodo.8384174
+  archive: https://zenodo.org/record/8384174
   version_accepted: 5.1.1
   date_accepted: '2024-01-18'
   created_at: 2023-10-30 18:45:06+00:00
@@ -1633,15 +1665,15 @@
   closed_at: 2024-01-27 23:05:39+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/147
   joss: https://joss.theoj.org/papers/10.21105/joss.01832
-  partners:
+  partners: 
   gh_meta:
       name: sunpy
       description: SunPy - Python for Solar Physics
       created_at: '2011-08-06'
-      stargazers_count: 993
+      stargazers_count: 994
       watchers_count: 43
       open_issues_count: 272
-      forks_count: 639
+      forks_count: 640
       documentation: https://www.sunpy.org
       contrib_count: 243
       last_commit: '2025-12-17'
@@ -1659,6 +1691,7 @@
     - name: Daniel Kaufman
       github_username: danielfromearth
   repository_link: https://github.com/nasa/ncompare
+  repository_host: github
   version_submitted: 1.4.0
   categories:
     - data-validation-testing
@@ -1680,8 +1713,8 @@
   updated_at: 2025-01-14 18:47:21+00:00
   closed_at: 2024-06-12 15:48:36+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/146
-  joss: https://doi.org/10.21105/joss.06490
-  partners:
+  joss: https://joss.theoj.org/papers/10.21105/joss.06490
+  partners: 
   gh_meta:
       name: ncompare
       description: Compare the structure of two netCDF (or HDF5) files
@@ -1706,6 +1739,7 @@
     - name: Carlos Ramos Carreño
       github_username: vnmabus
   repository_link: https://github.com/vnmabus/rdata
+  repository_host: github
   version_submitted: 0.9.2.dev1
   categories:
     - data-processing-munging
@@ -1718,15 +1752,15 @@
       github_username: rich-iannone
     - name: Hassan Kibirige
       github_username: has2k1
-  archive: https://doi.org/10.5281/zenodo.10776842
+  archive: https://zenodo.org/doi/10.5281/zenodo.10776842
   version_accepted: '[0.11.0](https://github.com/vnmabus/rdata/releases/tag/0.11.0)'
   date_accepted: 2024-2-29
   created_at: 2023-10-20 08:26:10+00:00
   updated_at: 2025-02-22 00:24:49+00:00
   closed_at: 2025-02-21 20:20:59+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/144
-  joss: https://doi.org/10.21105/joss.07540
-  partners:
+  joss: https://joss.theoj.org/papers/10.21105/joss.07540
+  partners: 
   gh_meta:
       name: rdata
       description: Reader of R datasets in .rda format, in Python
@@ -1743,7 +1777,7 @@
     - 9/joss-approved
   active: true
 - package_name: EOmaps
-  package_description: EOmaps is a python package to visualize, analyze and
+  package_description: EOmaps is a python package to visualize, analyze and 
       compare geographical datasets.
   submitting_author:
       name: Raphael Quast
@@ -1752,6 +1786,7 @@
     - name: Raphael Quast
       github_username: raphaelquast
   repository_link: https://github.com/raphaelquast/EOmaps
+  repository_host: github
   version_submitted: '7.3'
   categories:
     - data-visualization
@@ -1764,7 +1799,7 @@
       github_username: yeelauren
     - name: Joseph H Kennedy
       github_username: jhkennedy
-  archive: https://doi.org/10.5281/zenodo.10822829
+  archive: https://zenodo.org/doi/10.5281/zenodo.10822829
   version_accepted: 8.0.2
   date_accepted: '2024-03-14'
   created_at: 2023-09-26 12:14:47+00:00
@@ -1772,10 +1807,10 @@
   closed_at: 2024-03-20 05:56:50+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/138
   joss:
-  partners:
+  partners: 
   gh_meta:
       name: EOmaps
-      description: A library to create interactive maps of geographical
+      description: A library to create interactive maps of geographical 
           datasets
       created_at: '2021-09-27'
       stargazers_count: 362
@@ -1803,6 +1838,7 @@
     - name: Tessa Pierce Ward
       github_username: bluegenes
   repository_link: https://github.com/sourmash-bio/sourmash
+  repository_host: github
   version_submitted: '4.8'
   categories:
     - data-processing-munging
@@ -1815,23 +1851,23 @@
       github_username: LilyAnderssonLee
     - name: Elais Player
       github_username: elais
-  archive: https://doi.org/10.5281/zenodo.10951577
+  archive: https://zenodo.org/doi/10.5281/zenodo.10951577
   version_accepted: '[v4.8.8](https://github.com/sourmash-bio/sourmash/releases/tag/v4.8.8)'
   date_accepted: 2024-4-4
   created_at: 2023-08-14 21:02:57+00:00
   updated_at: 2024-11-23 00:44:05+00:00
   closed_at: 2024-07-22 20:13:57+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/129
-  joss: https://doi.org/10.21105/joss.06830
-  partners:
+  joss: https://joss.theoj.org/papers/10.21105/joss.06830
+  partners: 
   gh_meta:
       name: sourmash
-      description: Quickly search, compare, and analyze genomic and
+      description: Quickly search, compare, and analyze genomic and 
           metagenomic data sets.
       created_at: '2016-04-09'
-      stargazers_count: 534
+      stargazers_count: 535
       watchers_count: 17
-      open_issues_count: 764
+      open_issues_count: 767
       forks_count: 88
       documentation: https://sourmash.readthedocs.io/en/latest/
       contrib_count: 45
@@ -1841,8 +1877,8 @@
     - 9/joss-approved
   active: true
 - package_name: Sciform
-  package_description: A package for converting python numbers (floats,
-      Decimals) into scientific-formatted strings more suitable for reading
+  package_description: A package for converting python numbers (floats, 
+      Decimals) into scientific-formatted strings more suitable for reading 
       and presentation.
   submitting_author:
       name: Justin Gerber
@@ -1851,6 +1887,7 @@
     - name: Justin Gerber
       github_username: jagerber48
   repository_link: https://github.com/jagerber48/sciform
+  repository_host: github
   version_submitted: 0.24.0
   categories:
     - data-visualization
@@ -1863,7 +1900,7 @@
       github_username: isabelizimm
     - name: Michael Chow
       github_username: machow
-  archive: https://doi.org/10.5281/zenodo.10645273
+  archive: https://zenodo.org/doi/10.5281/zenodo.10645273
   version_accepted: 0.34.1
   date_accepted: '2024-02-07'
   created_at: 2023-07-21 04:41:08+00:00
@@ -1871,10 +1908,10 @@
   closed_at: 2024-05-02 16:42:00+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/121
   joss:
-  partners:
+  partners: 
   gh_meta:
       name: sciform
-      description: A package for formatting numbers into scientific formatted
+      description: A package for formatting numbers into scientific formatted 
           strings.
       created_at: '2023-05-26'
       stargazers_count: 18
@@ -1898,7 +1935,8 @@
     - name: Himaghna Bhattacharjee
       github_username: himaghna
   repository_link: https://github.com/JacksonBurns/astartes
-  version_submitted:
+  repository_host: github
+  version_submitted: 
       v[1.1.2](https://github.com/JacksonBurns/astartes/releases/tag/v1.1.2)
   categories:
     - data-processing-munging
@@ -1911,21 +1949,21 @@
       github_username: BerylKanali
     - name: Du Phan
       github_username: du-phan
-  archive: https://doi.org/10.5281/zenodo.8431894
-  version_accepted:
+  archive: https://zenodo.org/record/8431894
+  version_accepted: 
       v[1.1.3](https://github.com/JacksonBurns/astartes/releases/tag/v1.1.3)
   date_accepted: '2023-10-15'
   created_at: 2023-07-10 22:12:51+00:00
   updated_at: 2025-02-01 17:50:10+00:00
   closed_at: 2023-11-12 21:12:16+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/120
-  joss: https://doi.org/10.21105/joss.05996
-  partners:
+  joss: https://joss.theoj.org/papers/10.21105/joss.05996
+  partners: 
   gh_meta:
       name: astartes
       description: Better Data Splits for Machine Learning
       created_at: '2022-04-22'
-      stargazers_count: 94
+      stargazers_count: 95
       watchers_count: 2
       open_issues_count: 7
       forks_count: 5
@@ -1959,6 +1997,7 @@
     - name: Alice Patania
       github_username: alpatania
   repository_link: https://github.com/xgi-org/xgi
+  repository_host: github
   version_submitted: '0.7'
   categories:
     - data-retrieval
@@ -1973,24 +2012,24 @@
       github_username: JonnyTran
     - name: Marta Leszczyńska
       github_username: Reckony
-  archive: https://doi.org/10.5281/zenodo.8365068
+  archive: https://zenodo.org/record/8365068
   version_accepted: 0.7.4
   date_accepted: '2023-09-23'
   created_at: 2023-06-08 16:15:32+00:00
   updated_at: 2025-02-01 17:51:41+00:00
   closed_at: 2023-10-23 07:38:27+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/115
-  joss: https://doi.org/10.21105/joss.05162
-  partners:
+  joss: https://joss.theoj.org/papers/10.21105/joss.05162
+  partners: 
   gh_meta:
       name: xgi
-      description: CompleX Group Interactions (XGI) is a Python package for
+      description: CompleX Group Interactions (XGI) is a Python package for 
           higher-order networks.
       created_at: '2021-09-08'
       stargazers_count: 232
       watchers_count: 10
       open_issues_count: 50
-      forks_count: 41
+      forks_count: 42
       documentation: https://xgi.readthedocs.io
       contrib_count: 18
       last_commit: '2025-11-04'
@@ -2007,6 +2046,7 @@
     - name: Sebastian Lobentanzer
       github_username: slobentanzer
   repository_link: https://github.com/biocypher/biocypher
+  repository_host: github
   version_submitted: 0.5.14
   categories:
     - data-retrieval
@@ -2027,7 +2067,7 @@
       github_username: Midnighter
     - name:
       github_username: Sinna
-  archive: https://doi.org/10.5281/zenodo.10158204
+  archive: https://zenodo.org/doi/10.5281/zenodo.10158204
   version_accepted: v0.5.33
   date_accepted: '2023-11-14'
   created_at: 2023-05-04 18:08:32+00:00
@@ -2035,19 +2075,19 @@
   closed_at: 2023-11-28 18:03:51+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/110
   joss:
-  partners:
+  partners: 
   gh_meta:
       name: biocypher
-      description: A unifying framework for biomedical research knowledge
+      description: A unifying framework for biomedical research knowledge 
           graphs
       created_at: '2021-09-10'
-      stargazers_count: 283
+      stargazers_count: 284
       watchers_count: 7
       open_issues_count: 182
       forks_count: 44
       documentation: https://biocypher.org
       contrib_count: 19
-      last_commit: '2026-01-16'
+      last_commit: '2026-01-21'
   labels:
     - 6/pyOS-approved
   active: true
@@ -2061,6 +2101,7 @@
     - name: Katharina Kloppenborg
       github_username: katoss
   repository_link: https://github.com/katoss/cardsort
+  repository_host: github
   version_submitted: '[0.2.2](https://github.com/katoss/cardsort/releases/tag/v0.2.2)'
   categories:
     - data-extraction
@@ -2075,8 +2116,8 @@
       github_username: Robaina
     - name:
       github_username: khynder
-  archive: https://doi.org/10.5281/zenodo.8214655
-  version_accepted: v
+  archive: https://zenodo.org/record/8214655
+  version_accepted: v 
       [0.2.36](https://github.com/katoss/cardsort/releases/tag/v0.2.36)
   date_accepted: '2023-08-16'
   created_at: 2023-04-20 11:29:27+00:00
@@ -2084,10 +2125,10 @@
   closed_at: 2023-08-23 08:21:12+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/102
   joss:
-  partners:
+  partners: 
   gh_meta:
       name: cardsort
-      description: A python package to analyse cardsorting data from
+      description: A python package to analyse cardsorting data from 
           kardsort.com outputs.
       created_at: '2023-03-16'
       stargazers_count: 8
@@ -2101,9 +2142,9 @@
     - 6/pyOS-approved
   active: true
 - package_name: afscgap
-  package_description: Community contributed Python-based tools for working
-      with public bottom trawl surveys data from the NOAA Alaska Fisheries
-      Science Center Groundfish Assessment Program ([NOAA AFSC
+  package_description: Community contributed Python-based tools for working 
+      with public bottom trawl surveys data from the NOAA Alaska Fisheries 
+      Science Center Groundfish Assessment Program ([NOAA AFSC 
       GAP](https://www.fisheries.noaa.gov/contact/groundfish-assessment-program)).
   submitting_author:
       name: Sam Pottinger
@@ -2114,6 +2155,7 @@
     - name: Giulia Zarpellon
       github_username: gizarp
   repository_link: https://github.com/SchmidtDSE/afscgap
+  repository_host: github
   version_submitted: 0.0.7
   categories:
     - data-retrieval
@@ -2135,8 +2177,8 @@
   updated_at: 2023-08-29 02:15:31+00:00
   closed_at: 2023-06-28 19:06:00+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/93
-  joss: https://doi.org/10.21105/joss.05593
-  partners:
+  joss: https://joss.theoj.org/papers/10.21105/joss.05593
+  partners: 
   gh_meta:
       name: afscgap
       description: Python-based tools for NOAA AFSC GAP marine species surveys
@@ -2166,6 +2208,7 @@
     - name: James A. Fellows Yates
       github_username: jfy133
   repository_link: https://github.com/taxprofiler/taxpasta
+  repository_host: github
   version_submitted: 0.2.1
   categories:
     - data-processing-munging
@@ -2185,8 +2228,8 @@
   updated_at: 2023-12-13 10:49:10+00:00
   closed_at: 2023-07-12 14:22:46+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/84
-  joss: https://doi.org/10.21105/joss.05627
-  partners:
+  joss: https://joss.theoj.org/papers/10.21105/joss.05627
+  partners: 
   gh_meta:
       name: taxpasta
       description: TAXnomic Profile Aggregation and STAndardisation
@@ -2203,7 +2246,7 @@
     - 9/joss-approved
   active: true
 - package_name: bibat
-  package_description: An interactive template for Bayesian statistical
+  package_description: An interactive template for Bayesian statistical 
       analysis projects
   submitting_author:
       name: Teddy Groves
@@ -2212,6 +2255,7 @@
     - name: Teddy Groves
       github_username: teddygroves
   repository_link: https://github.com/teddygroves/bibat/
+  repository_host: github
   version_submitted: 0.1.0
   categories:
     - workflow-automation
@@ -2224,7 +2268,7 @@
       github_username: OriolAbril
     - name: Alexey Izmailov
       github_username: alizma
-  archive: https://doi.org/10.5281/zenodo.8124312
+  archive: https://zenodo.org/record/8124312
   version_accepted: 0.1.10
   date_accepted: '2023-07-05'
   created_at: 2023-03-01 14:16:51+00:00
@@ -2235,7 +2279,7 @@
   partners:
   gh_meta:
       name: bibat
-      description: A batteries-included template for Bayesian data analysis
+      description: A batteries-included template for Bayesian data analysis 
           projects
       created_at: '2021-03-04'
       stargazers_count: 22
@@ -2262,6 +2306,7 @@
     - name: Sultan Orazbayev
       github_username: SultanOrazbayev
   repository_link: https://github.com/python-graphblas/python-graphblas
+  repository_host: github
   version_submitted: 2023.1.0
   categories:
     - data-munging
@@ -2275,7 +2320,7 @@
       github_username: sneakers-the-rat
     - name: Szabolcs Horvát
       github_username: szhorvat
-  archive: https://doi.org/10.5281/zenodo.8125660
+  archive: https://zenodo.org/record/8125660
   version_accepted: 2023.7.0
   date_accepted: '2023-07-14'
   created_at: 2023-02-04 23:07:20+00:00
@@ -2289,7 +2334,7 @@
       description: 'Python library for GraphBLAS: high-performance sparse linear
           algebra for scalable graph analytics'
       created_at: '2019-11-11'
-      stargazers_count: 150
+      stargazers_count: 151
       watchers_count: 9
       open_issues_count: 55
       forks_count: 16
@@ -2312,6 +2357,7 @@
     - name: Pascal Bourgault
       github_username: aulemahal
   repository_link: https://github.com/Ouranosinc/xclim
+  repository_host: github
   version_submitted: v0.40.0
   categories:
     - data-munging
@@ -2333,7 +2379,7 @@
   updated_at: 2023-09-18 22:18:20+00:00
   closed_at: 2023-05-22 04:04:53+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/73
-  joss: https://doi.org/10.21105/joss.05415
+  joss: https://joss.theoj.org/papers/10.21105/joss.05415
   partners:
   gh_meta:
       name: xclim
@@ -2353,7 +2399,7 @@
     - Pangeo
   active: true
 - package_name: crowsetta
-  package_description: A Python tool to work with any format for annotating
+  package_description: A Python tool to work with any format for annotating 
       animal vocalizations and bioacoustics data.
   submitting_author:
       name: David Nicholson
@@ -2362,6 +2408,7 @@
     - name: David Nicholson
       github_username: NickleDave
   repository_link: https://github.com/vocalpy/crowsetta
+  repository_host: github
   version_submitted: '[4.0.0.post2](https://github.com/vocalpy/crowsetta/releases/tag/4.0.0.post2)'
   categories:
     - data-extraction
@@ -2377,14 +2424,14 @@
     - name: Sylvain HAUPERT
       github_username: shaupert
   archive: https://zenodo.org/badge/latestdoi/159904494
-  version_accepted: v
+  version_accepted: v 
       [5.0](https://github.com/vocalpy/crowsetta/releases/tag/5.0.0)
   date_accepted: '2023-03-28'
   created_at: 2023-01-03 19:39:16+00:00
   updated_at: 2024-11-21 00:50:18+00:00
   closed_at: 2023-04-13 20:26:00+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/68
-  joss: https://doi.org/10.21105/joss.05338
+  joss: https://joss.theoj.org/papers/10.21105/joss.05338
   partners:
   gh_meta:
       name: crowsetta
@@ -2402,7 +2449,7 @@
     - 9/joss-approved
   active: true
 - package_name: Pynteny
-  package_description: Query sequence database by HMMs arranged in predefined
+  package_description: Query sequence database by HMMs arranged in predefined 
       synteny structure
   submitting_author:
       name: Semidán Robaina
@@ -2411,6 +2458,7 @@
     - name: Semidán Robaina
       github_username: Robaina
   repository_link: https://github.com/Robaina/Pynteny
+  repository_host: github
   version_submitted: v0.0.5
   categories:
     - data-retrieval
@@ -2425,18 +2473,18 @@
       github_username: Batalex
     - name: Corinna Thoben
       github_username: c-thoben
-  archive: https://doi.org/10.5281/zenodo.7696204
+  archive: https://zenodo.org/record/7696204
   version_accepted: 1.0.0
   date_accepted: '2023-03-10'
   created_at: 2022-12-16 22:02:53+00:00
   updated_at: 2023-08-29 01:32:03+00:00
   closed_at: 2023-04-12 20:48:15+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/67
-  joss: https://doi.org/10.21105/joss.05289
+  joss: https://joss.theoj.org/papers/10.21105/joss.05289
   partners:
   gh_meta:
       name: Pynteny
-      description: Query sequence database by HMMs arranged in predefined
+      description: Query sequence database by HMMs arranged in predefined 
           synteny structure
       created_at: '2022-06-06'
       stargazers_count: 13
@@ -2451,7 +2499,7 @@
     - 9/joss-approved
   active: true
 - package_name: Jointly
-  package_description: Jointly is a python package for synchronizing sensors
+  package_description: Jointly is a python package for synchronizing sensors 
       with accelerometer data
   submitting_author:
       name: Arne Herdick
@@ -2462,6 +2510,7 @@
     - name: Ariane Sasso
       github_username: arianesasso
   repository_link: https://github.com/hpi-dhc/jointly
+  repository_host: github
   version_submitted: 1.0.2
   categories:
     - data-munging
@@ -2517,7 +2566,8 @@
     - name: Yvonne Fröhlich
       github_username: yvonnefroehlich
   repository_link: https://github.com/GenericMappingTools/pygmt
-  version_submitted:
+  repository_host: github
+  version_submitted: 
   categories:
     - data-munging
     - data-visualization
@@ -2546,16 +2596,16 @@
       created_at: '2017-03-17'
       stargazers_count: 837
       watchers_count: 26
-      open_issues_count: 132
+      open_issues_count: 131
       forks_count: 228
       documentation: https://www.pygmt.org
       contrib_count: 50
-      last_commit: '2026-01-18'
+      last_commit: '2026-01-21'
   labels:
     - 6/pyOS-approved
   active: true
 - package_name: Devicely
-  package_description: A Python package for reading, timeshifting and writing
+  package_description: A Python package for reading, timeshifting and writing 
       sensor data
   submitting_author:
       name: Ariane Sasso
@@ -2564,6 +2614,7 @@
     - name: Ariane Sasso
       github_username: arianesasso
   repository_link: https://github.com/hpi-dhc/devicely
+  repository_host: github
   version_submitted: 0.2.5
   categories:
     - data-munging
@@ -2583,7 +2634,7 @@
   updated_at: 2023-08-29 02:06:23+00:00
   closed_at: 2022-09-07 15:40:27+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/37
-  joss: https://doi.org/10.21105/joss.03679
+  joss: https://joss.theoj.org/papers/10.21105/joss.03679
   partners:
   gh_meta:
       name: devicely
@@ -2611,6 +2662,7 @@
     - name: Nhat (Jonny) Tran
       github_username: JonnyTran
   repository_link: https://github.com/JonnyTran/OpenOmics
+  repository_host: github
   version_submitted: '[0.8.4](https://github.com/JonnyTran/OpenOmics/releases/tag/v0.8.4)'
   categories:
     - data-retrieval
@@ -2626,8 +2678,8 @@
       github_username: gawbul
     - name: Katharina Sielemann
       github_username: ksielemann
-  archive: https://doi.org/10.5281/zenodo.4731011
-  version_accepted: v
+  archive: https://zenodo.org/record/4731011
+  version_accepted: v 
       [0.8.8](https://github.com/JonnyTran/OpenOmics/releases/tag/v0.8.8)
   date_accepted: '2021-04-17'
   created_at: 2021-01-01 19:54:20+00:00
@@ -2638,7 +2690,7 @@
   partners:
   gh_meta:
       name: OpenOmics
-      description: A bioinformatics API to interface with public multi-omics
+      description: A bioinformatics API to interface with public multi-omics 
           bio databases for wicked fast data integration.
       created_at: '2018-03-16'
       stargazers_count: 36
@@ -2663,6 +2715,7 @@
     - name: Luna L. Sanchez Reyes
       github_username: LunaSare
   repository_link: https://github.com/McTavishLab/physcraper
+  repository_host: github
   version_submitted: '[0.55](https://github.com/McTavishLab/physcraper/releases/tag/0.55)'
   categories:
     - data-retrieval
@@ -2676,8 +2729,8 @@
       github_username: bpucker
     - name: Leonardo de Oliveira Martins
       github_username: leomrtns
-  archive: https://doi.org/10.5281/zenodo.5512990
-  version_accepted: v
+  archive: https://zenodo.org/record/5512990
+  version_accepted: v 
       [1.0](https://github.com/McTavishLab/physcraper/releases/tag/v1.0.0)
   date_accepted: '2021-09-14'
   created_at: 2020-07-15 22:31:52+00:00
@@ -2688,7 +2741,7 @@
   partners:
   gh_meta:
       name: physcraper
-      description: Welcome to Physcraper’s repository! Automatic gene tree
+      description: Welcome to Physcraper’s repository! Automatic gene tree 
           updating using the Open Tree of Life.
       created_at: '2015-08-24'
       stargazers_count: 13
@@ -2702,7 +2755,7 @@
     - 6/pyOS-approved
   active: true
 - package_name: pystiche
-  package_description: Framework for Neural Style Transfer (NST) built upon
+  package_description: Framework for Neural Style Transfer (NST) built upon 
       PyTorch
   submitting_author:
       name: Philip Meier
@@ -2711,6 +2764,7 @@
     - name: Philip Meier
       github_username: pmeier
   repository_link: https://github.com/pystiche/pystiche
+  repository_host: github
   version_submitted: '[0.5.0post0](https://github.com/pystiche/pystiche/releases/tag/v0.5.0.post0)'
   categories:
     - reproducibility
@@ -2723,8 +2777,8 @@
       github_username: edgarriba
     - name: Soumith Chintala
       github_username: soumith
-  archive: https://doi.org/10.5281/zenodo.4073515
-  version_accepted: v
+  archive: https://zenodo.org/record/4073515
+  version_accepted: v 
       [0.6.0](https://github.com/pystiche/pystiche/releases/tag/v0.6.0)
   date_accepted: '2020-10-08'
   created_at: 2020-07-02 12:57:08+00:00
@@ -2735,14 +2789,14 @@
   partners:
   gh_meta:
       name: pystiche
-      description: Framework for Neural Style Transfer (NST) built upon
+      description: Framework for Neural Style Transfer (NST) built upon 
           PyTorch
       created_at: '2019-09-16'
       stargazers_count: 274
       watchers_count: 9
       open_issues_count: 11
       forks_count: 25
-      documentation:
+      documentation: 
       contrib_count: 10
       last_commit: '2022-03-18'
   labels:
@@ -2758,6 +2812,7 @@
     - name: Moritz Lürig
       github_username: mluerig
   repository_link: https://github.com/phenopype/phenopype
+  repository_host: github
   version_submitted: 1.0.5
   categories:
     - data-extraction
@@ -2771,7 +2826,7 @@
       github_username: agporto
     - name: Seth Donoughe
       github_username: sdonoughe
-  archive: https://doi.org/10.5281/zenodo.4761417
+  archive: https://zenodo.org/record/4761417
   version_accepted: 2.0.1
   date_accepted: '2021-05-13'
   created_at: 2020-05-04 16:51:36+00:00
@@ -2784,7 +2839,7 @@
       name: phenopype
       description: A phenotyping pipeline for Python
       created_at: '2022-01-04'
-      stargazers_count: 12
+      stargazers_count: 13
       watchers_count: 1
       open_issues_count: 0
       forks_count: 4
@@ -2795,7 +2850,7 @@
     - 6/pyOS-approved
   active: true
 - package_name: pyrolite
-  package_description: A set of tools for getting the most from your
+  package_description: A set of tools for getting the most from your 
       geochemical data.
   submitting_author:
       name: Morgan Williams
@@ -2804,6 +2859,7 @@
     - name: Morgan Williams
       github_username: morganjwilliams
   repository_link: https://github.com/morganjwilliams/pyrolite
+  repository_host: github
   version_submitted: '[0.2.5](https://github.com/morganjwilliams/pyrolite/releases/tag/0.2.5)'
   categories:
     - data-munging
@@ -2819,8 +2875,8 @@
       github_username: rbeucher
     - name: Charles Le Losq
       github_username: charlesll
-  archive: https://doi.org/10.5281/zenodo.3877690
-  version_accepted: v
+  archive: https://zenodo.org/record/3877690
+  version_accepted: v 
       [0.2.7](https://github.com/morganjwilliams/pyrolite/releases/tag/0.2.7)
   date_accepted: '2020-06-04'
   created_at: 2020-02-19 04:54:35+00:00
@@ -2831,7 +2887,7 @@
   partners:
   gh_meta:
       name: pyrolite
-      description: A set of tools for getting the most from your geochemical
+      description: A set of tools for getting the most from your geochemical 
           data.
       created_at: '2018-06-13'
       stargazers_count: 152
@@ -2846,7 +2902,7 @@
     - 9/joss-approved
   active: true
 - package_name: MovingPandas
-  package_description: Trajectory classes and functions built on top of
+  package_description: Trajectory classes and functions built on top of 
       GeoPandas
   submitting_author:
       name: Anita Graser
@@ -2855,6 +2911,7 @@
     - name: Anita Graser
       github_username: anitagraser
   repository_link: https://github.com/movingpandas/movingpandas
+  repository_host: github
   version_submitted: '0.2'
   categories:
     - geospatial
@@ -2868,8 +2925,8 @@
       github_username: xmnlab
     - name: Martin Fleischmann
       github_username: martinfleis
-  archive: https://doi.org/10.5281/zenodo.3710951
-  version_accepted: v
+  archive: https://zenodo.org/record/3710951
+  version_accepted: v 
       [0.3.rc1](https://github.com/movingpandas/movingpandas/releases/tag/v0.3.rc1)
   date_accepted: '2020-03-19'
   created_at: 2020-01-06 17:13:27+00:00
@@ -2880,13 +2937,13 @@
   partners:
   gh_meta:
       name: movingpandas
-      description: Movement trajectory classes and functions built on top of
+      description: Movement trajectory classes and functions built on top of 
           GeoPandas
       created_at: '2018-12-16'
-      stargazers_count: 1367
+      stargazers_count: 1368
       watchers_count: 39
-      open_issues_count: 33
-      forks_count: 201
+      open_issues_count: 34
+      forks_count: 202
       documentation: https://movingpandas.org
       contrib_count: 40
       last_commit: '2025-11-11'
@@ -2894,7 +2951,7 @@
     - 6/pyOS-approved
   active: true
 - package_name: pandera
-  package_description: validate the types, properties, and statistics of
+  package_description: validate the types, properties, and statistics of 
       pandas data structures
   submitting_author:
       name: Niels Bantilan
@@ -2903,6 +2960,7 @@
     - name: Niels Bantilan
       github_username: cosmicbboy
   repository_link: https://github.com/unionai-oss/pandera
+  repository_host: github
   version_submitted: 0.1.5
   categories:
     - data-munging
@@ -2927,21 +2985,21 @@
   partners:
   gh_meta:
       name: pandera
-      description: A light-weight, flexible, and expressive statistical data
+      description: A light-weight, flexible, and expressive statistical data 
           testing library
       created_at: '2018-11-01'
-      stargazers_count: 4173
+      stargazers_count: 4176
       watchers_count: 21
       open_issues_count: 432
       forks_count: 369
       documentation: https://www.union.ai/pandera
-      contrib_count: 171
-      last_commit: '2026-01-08'
+      contrib_count: 172
+      last_commit: '2026-01-21'
   labels:
     - 6/pyOS-approved
   active: true
 - package_name: Nbless
-  package_description: Construct, deconstruct, convert, execute, & prepare
+  package_description: Construct, deconstruct, convert, execute, & prepare 
       slides from Jupyter notebooks
   submitting_author:
       name: Martin Skarzynski
@@ -2950,6 +3008,7 @@
     - name: Martin Skarzynski
       github_username: marskar
   repository_link: https://github.com/py4ds/nbless
+  repository_host: github
   version_submitted: 0.2.26
   categories:
     - reproducibility
@@ -2974,7 +3033,7 @@
   partners:
   gh_meta:
       name: nbless
-      description: Construct, deconstruct, convert, execute, and prepare
+      description: Construct, deconstruct, convert, execute, and prepare 
           slides from Jupyter notebooks
       created_at: '2018-09-05'
       stargazers_count: 35
@@ -2989,7 +3048,7 @@
     - archived
   active: false
 - package_name: earthpy
-  package_description: A package built to support working with spatial data
+  package_description: A package built to support working with spatial data 
       using open source python
   submitting_author:
       name: Leah Wasser
@@ -3006,6 +3065,7 @@
     - name: Jenny Palomino
       github_username: jlpalomino
   repository_link: https://github.com/earthlab/earthpy
+  repository_host: github
   version_submitted: '[0.7](https://github.com/earthlab/earthpy/releases/tag/v0.7.0)'
   categories:
     - geospatial
@@ -3018,8 +3078,8 @@
       github_username: HaoZeke
     - name: Sean Gillies
       github_username: sgillies
-  archive: https://doi.org/10.5281/zenodo.3520899
-  version_accepted: v
+  archive: https://zenodo.org/record/3520899
+  version_accepted: v 
       [0.7.5](https://github.com/earthlab/earthpy/releases/tag/v0.7.5)
   date_accepted: '2019-11-06'
   created_at: 2019-05-08 15:02:14+00:00
@@ -3030,7 +3090,7 @@
   partners:
   gh_meta:
       name: earthpy
-      description: A package built to support working with spatial data using
+      description: A package built to support working with spatial data using 
           open source python
       created_at: '2018-02-20'
       stargazers_count: 530
