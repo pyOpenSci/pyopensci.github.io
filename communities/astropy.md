@@ -51,9 +51,10 @@ Astropy currently has {{ total_packages }} packages that have been accepted by p
 </div>
 -->
 
-<div class="grid-isotope">
+<div class="grid-isotope package-grid-isotope">
+  <div class="grid-sizer"></div>
 {% for apackage in pkgs %}
-  {% include package-grid.html community=page.community %}
+  {% include package-grid.html isotope=true %}
 {% endfor %}
 </div>
 
