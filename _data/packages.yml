@@ -84,7 +84,7 @@
   version_accepted: 7.1.0
   date_accepted: '2025-12-17'
   created_at: 2025-07-14 21:58:24+00:00
-  updated_at: 2026-01-23 22:37:03+00:00
+  updated_at: 2026-01-23 19:30:35+00:00
   closed_at: 2026-01-22 23:06:56+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/251
   joss:
@@ -96,7 +96,7 @@
       created_at: '2011-07-21'
       stargazers_count: 5012
       watchers_count: 135
-      open_issues_count: 1308
+      open_issues_count: 1309
       forks_count: 1995
       documentation: https://www.astropy.org
       contrib_count: 444
