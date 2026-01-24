@@ -87,8 +87,8 @@
   version_accepted: 7.1.0
   date_accepted: '2025-12-17'
   created_at: 2025-07-14 21:58:24+00:00
-  updated_at: 2026-01-21 13:03:11+00:00
-  closed_at:
+  updated_at: 2026-01-23 19:30:35+00:00
+  closed_at: 2026-01-22 23:06:56+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/251
   joss:
   partners:
@@ -97,10 +97,10 @@
       name: astropy
       description: Astronomy and astrophysics core library
       created_at: '2011-07-21'
-      stargazers_count: 5011
+      stargazers_count: 5012
       watchers_count: 135
       open_issues_count: 1309
-      forks_count: 1994
+      forks_count: 1995
       documentation: https://www.astropy.org
       contrib_count: 444
       last_commit: '2026-01-22'
@@ -753,11 +753,11 @@
       created_at: '2024-01-09'
       stargazers_count: 50
       watchers_count: 4
-      open_issues_count: 112
+      open_issues_count: 111
       forks_count: 18
       documentation: https://www.montepy.org/
       contrib_count: 8
-      last_commit: '2026-01-21'
+      last_commit: '2026-01-23'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -801,7 +801,7 @@
       name: great-tables
       description: Make awesome display tables using Python
       created_at: '2022-05-06'
-      stargazers_count: 2579
+      stargazers_count: 2580
       watchers_count: 16
       open_issues_count: 129
       forks_count: 116
@@ -1177,13 +1177,13 @@
       name: pooltool
       description: A sandbox billiards game that emphasizes realistic physics
       created_at: '2020-04-09'
-      stargazers_count: 332
+      stargazers_count: 333
       watchers_count: 12
       open_issues_count: 6
       forks_count: 70
       documentation: https://pooltool.readthedocs.io
       contrib_count: 10
-      last_commit: '2025-12-26'
+      last_commit: '2026-01-23'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1670,9 +1670,9 @@
       name: sunpy
       description: SunPy - Python for Solar Physics
       created_at: '2011-08-06'
-      stargazers_count: 995
+      stargazers_count: 996
       watchers_count: 43
-      open_issues_count: 271
+      open_issues_count: 272
       forks_count: 640
       documentation: https://www.sunpy.org
       contrib_count: 243
@@ -2392,7 +2392,7 @@
       forks_count: 68
       documentation: https://xclim.readthedocs.io/en/stable/
       contrib_count: 44
-      last_commit: '2026-01-22'
+      last_commit: '2026-01-23'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -2596,11 +2596,11 @@
       created_at: '2017-03-17'
       stargazers_count: 838
       watchers_count: 26
-      open_issues_count: 131
+      open_issues_count: 130
       forks_count: 228
       documentation: https://www.pygmt.org
       contrib_count: 50
-      last_commit: '2026-01-22'
+      last_commit: '2026-01-23'
   labels:
     - 6/pyOS-approved
   active: true
@@ -2940,7 +2940,7 @@
       description: Movement trajectory classes and functions built on top of
           GeoPandas
       created_at: '2018-12-16'
-      stargazers_count: 1368
+      stargazers_count: 1369
       watchers_count: 39
       open_issues_count: 33
       forks_count: 202
@@ -2988,7 +2988,7 @@
       description: A light-weight, flexible, and expressive statistical data
           testing library
       created_at: '2018-11-01'
-      stargazers_count: 4179
+      stargazers_count: 4180
       watchers_count: 21
       open_issues_count: 432
       forks_count: 369
