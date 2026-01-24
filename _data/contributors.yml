@@ -11400,3 +11400,32 @@
   packages_reviewed:
   location:
   email:
+- name: The Astropy Project
+  github_username: astropy
+  github_image_id: 847984
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2026-01-24'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://www.astropy.org
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - astropy
+  packages_reviewed:
+  location:
+  email:

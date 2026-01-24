@@ -58,11 +58,8 @@
       name: P. L. Lim
       github_username: pllim
   all_current_maintainers:
-    - name: i
-      github_username: I need help with this. We have hundreds of
-          contributors. Do you just want the names from
-          https://www.astropy.org/team ? Do you have a max number limit? Or
-          should I put a blanket team name here? What is the expected order?
+    - name: The Astropy Project
+      github_username: astropy
   repository_link: https://github.com/astropy/astropy
   repository_host: github
   version_submitted: 7.1.0
