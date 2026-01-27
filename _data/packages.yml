@@ -58,11 +58,8 @@
       name: P. L. Lim
       github_username: pllim
   all_current_maintainers:
-    - name: i
-      github_username: I need help with this. We have hundreds of
-          contributors. Do you just want the names from
-          https://www.astropy.org/team ? Do you have a max number limit? Or
-          should I put a blanket team name here? What is the expected order?
+    - name: The Astropy Project
+      github_username: astropy
   repository_link: https://github.com/astropy/astropy
   repository_host: github
   version_submitted: 7.1.0
@@ -87,8 +84,8 @@
   version_accepted: 7.1.0
   date_accepted: '2025-12-17'
   created_at: 2025-07-14 21:58:24+00:00
-  updated_at: 2026-01-21 13:03:11+00:00
-  closed_at:
+  updated_at: 2026-01-23 22:37:03+00:00
+  closed_at: 2026-01-22 23:06:56+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/251
   joss:
   partners:
@@ -97,13 +94,13 @@
       name: astropy
       description: Astronomy and astrophysics core library
       created_at: '2011-07-21'
-      stargazers_count: 5010
+      stargazers_count: 5012
       watchers_count: 135
-      open_issues_count: 1309
+      open_issues_count: 1308
       forks_count: 1995
       documentation: https://www.astropy.org
       contrib_count: 444
-      last_commit: '2026-01-21'
+      last_commit: '2026-01-22'
   labels:
     - 6/pyOS-approved
     - astropy
@@ -136,8 +133,8 @@
   version_accepted: 1.2.0
   date_accepted: 2025-12-3
   created_at: 2025-07-12 14:09:45+00:00
-  updated_at: 2025-12-08 09:54:28+00:00
-  closed_at:
+  updated_at: 2026-01-21 20:08:01+00:00
+  closed_at: 2026-01-21 20:08:01+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/250
   joss: https://joss.theoj.org/papers/10.21105/joss.02869
   partners:
@@ -204,7 +201,7 @@
       forks_count: 4
       documentation: https://swiftgalaxy.readthedocs.io/en/stable/index.html
       contrib_count: 3
-      last_commit: '2026-01-20'
+      last_commit: '2026-01-22'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -546,7 +543,7 @@
       forks_count: 4
       documentation: https://neon-utilities-python.readthedocs.io/en/latest/
       contrib_count: 6
-      last_commit: '2025-11-06'
+      last_commit: '2026-01-22'
   labels:
     - 6/pyOS-approved
   active: true
@@ -592,7 +589,7 @@
       description: finite element analysis for continuum mechanics of solid
           bodies
       created_at: '2021-04-22'
-      stargazers_count: 161
+      stargazers_count: 162
       watchers_count: 4
       open_issues_count: 7
       forks_count: 17
@@ -700,7 +697,7 @@
       created_at: '2022-11-22'
       stargazers_count: 23
       watchers_count: 2
-      open_issues_count: 4
+      open_issues_count: 3
       forks_count: 14
       documentation: https://dodge-research-group.github.io/thztools/
       contrib_count: 5
@@ -753,11 +750,11 @@
       created_at: '2024-01-09'
       stargazers_count: 50
       watchers_count: 4
-      open_issues_count: 110
+      open_issues_count: 111
       forks_count: 18
       documentation: https://www.montepy.org/
       contrib_count: 8
-      last_commit: '2026-01-21'
+      last_commit: '2026-01-23'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -801,9 +798,9 @@
       name: great-tables
       description: Make awesome display tables using Python
       created_at: '2022-05-06'
-      stargazers_count: 2579
+      stargazers_count: 2580
       watchers_count: 16
-      open_issues_count: 128
+      open_issues_count: 129
       forks_count: 116
       documentation: https://posit-dev.github.io/great-tables/
       contrib_count: 26
@@ -973,7 +970,7 @@
       forks_count: 0
       documentation: https://quadratik.readthedocs.io/
       contrib_count: 1
-      last_commit: '2025-07-18'
+      last_commit: '2026-01-22'
   labels:
     - 6/pyOS-approved
   active: true
@@ -1177,13 +1174,13 @@
       name: pooltool
       description: A sandbox billiards game that emphasizes realistic physics
       created_at: '2020-04-09'
-      stargazers_count: 332
+      stargazers_count: 334
       watchers_count: 12
       open_issues_count: 6
       forks_count: 70
       documentation: https://pooltool.readthedocs.io
       contrib_count: 10
-      last_commit: '2025-12-26'
+      last_commit: '2026-01-23'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1232,7 +1229,7 @@
       created_at: '2017-10-19'
       stargazers_count: 23
       watchers_count: 1
-      open_issues_count: 16
+      open_issues_count: 17
       forks_count: 7
       documentation: https://martini.readthedocs.io/
       contrib_count: 1
@@ -1289,7 +1286,7 @@
       stargazers_count: 13
       watchers_count: 2
       open_issues_count: 2
-      forks_count: 10
+      forks_count: 11
       documentation: https://cosmoglobe.github.io/zodipy/
       contrib_count: 8
       last_commit: '2025-12-15'
@@ -1547,7 +1544,7 @@
       description: A Python library for simulating finite automata, pushdown
           automata, and Turing machines
       created_at: '2016-02-16'
-      stargazers_count: 394
+      stargazers_count: 395
       watchers_count: 7
       open_issues_count: 11
       forks_count: 70
@@ -1670,13 +1667,13 @@
       name: sunpy
       description: SunPy - Python for Solar Physics
       created_at: '2011-08-06'
-      stargazers_count: 994
+      stargazers_count: 996
       watchers_count: 43
       open_issues_count: 272
       forks_count: 640
       documentation: https://www.sunpy.org
       contrib_count: 243
-      last_commit: '2025-12-17'
+      last_commit: '2026-01-22'
   labels:
     - 6/pyOS-approved
   active: true
@@ -1819,7 +1816,7 @@
       forks_count: 27
       documentation: https://eomaps.readthedocs.io/
       contrib_count: 9
-      last_commit: '2025-11-18'
+      last_commit: '2026-01-21'
   labels:
     - 6/pyOS-approved
   active: true
@@ -2087,7 +2084,7 @@
       forks_count: 44
       documentation: https://biocypher.org
       contrib_count: 19
-      last_commit: '2026-01-21'
+      last_commit: '2026-01-22'
   labels:
     - 6/pyOS-approved
   active: true
@@ -2386,13 +2383,13 @@
       description: 'Library of derived climate variables, ie climate indicators,
           based on xarray. '
       created_at: '2018-07-27'
-      stargazers_count: 382
+      stargazers_count: 383
       watchers_count: 14
       open_issues_count: 35
       forks_count: 68
       documentation: https://xclim.readthedocs.io/en/stable/
-      contrib_count: 43
-      last_commit: '2026-01-15'
+      contrib_count: 44
+      last_commit: '2026-01-23'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -2437,7 +2434,7 @@
       name: crowsetta
       description: A tool to work with any format for annotating animal sounds
       created_at: '2018-12-01'
-      stargazers_count: 59
+      stargazers_count: 60
       watchers_count: 1
       open_issues_count: 41
       forks_count: 4
@@ -2594,13 +2591,13 @@
       name: pygmt
       description: A Python interface for the Generic Mapping Tools.
       created_at: '2017-03-17'
-      stargazers_count: 837
+      stargazers_count: 838
       watchers_count: 26
-      open_issues_count: 131
+      open_issues_count: 128
       forks_count: 228
       documentation: https://www.pygmt.org
       contrib_count: 50
-      last_commit: '2026-01-21'
+      last_commit: '2026-01-24'
   labels:
     - 6/pyOS-approved
   active: true
@@ -2940,9 +2937,9 @@
       description: Movement trajectory classes and functions built on top of
           GeoPandas
       created_at: '2018-12-16'
-      stargazers_count: 1368
+      stargazers_count: 1369
       watchers_count: 39
-      open_issues_count: 34
+      open_issues_count: 33
       forks_count: 202
       documentation: https://movingpandas.org
       contrib_count: 40
@@ -2988,13 +2985,13 @@
       description: A light-weight, flexible, and expressive statistical data
           testing library
       created_at: '2018-11-01'
-      stargazers_count: 4176
+      stargazers_count: 4181
       watchers_count: 21
-      open_issues_count: 432
+      open_issues_count: 431
       forks_count: 369
       documentation: https://www.union.ai/pandera
       contrib_count: 172
-      last_commit: '2026-01-21'
+      last_commit: '2026-01-24'
   labels:
     - 6/pyOS-approved
   active: true
