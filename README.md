@@ -78,6 +78,14 @@ We have a bash script that will automatically update the `last_updated` field in
 
 `./scripts/date-updated.sh`
 
+## How to update contributor names
+
+You can update a contributor's name as it appears on our [website community contributors page](https://www.pyopensci.org/our-community/index.html#pyopensci-community-contributors) by updating their name in the [`_data/contributors.yml`](_data/contributors.yml) file.
+
+**Important:** Do not try to update contributor names in the [`_data/packages.yml`](_data/packages.yml) file. Any changes made there will be overwritten by our automated workflows.
+
+This is because our workflow treats the `contributors.yml` file as the single source of truth for managing people. The names listed here are used to gather metadata based on a contributor's GitHub username from the contributor file.
+
 ## Monitoring Automated Tasks
 
 There are a few automated CI tasks in this repository to keep the website data up to date. In order for us to have visibility into when these jobs fail, we have automated a Slack bot to send a message to the `#pyos-maintainers-infrastructure` channel on Slack using the [rtCamp/action-slack-notify](https://github.com/rtCamp/action-slack-notify) GitHub Action step. This action can be used within any repository in the PyOpenSci GitHub organization (as `SLACK_NOTIFICATIONS_BOT_TOKEN` is an org-wide secret) via:
