@@ -90,7 +90,7 @@
       setConsent(consent);
       hideBanner();
 
-      if (consent === true) {
+      if (consent) {
         initializeMatomo();
       }
     }
@@ -105,7 +105,10 @@
     function init() {
       const consent = getConsent();
 
-      if (consent === null) {
+      if (consent) {
+        // User has consented, initialize Matomo
+        initializeMatomo();
+      } else if (consent === null) {
         // No consent decision yet, show banner
         showBanner();
 
@@ -124,9 +127,6 @@
             handleConsent(false);
           });
         }
-      } else if (consent === true) {
-        // User has consented, initialize Matomo
-        initializeMatomo();
       }
       // If consent === false, do nothing (no tracking)
     }
