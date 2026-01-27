@@ -1,0 +1,44 @@
+{% comment %}
+This include shows upcoming events on the home page.
+It only displays if there are upcoming events.
+{% endcomment %}
+
+{% assign all_events = site.posts
+  | where_exp: "item", "item.hidden != true"
+  | where_exp: "item", "item.categories contains 'events'"
+  | sort: "event.start_date"
+%}
+
+{% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
+{% assign has_upcoming_events = false %}
+
+{% comment %}First pass: check if there are any upcoming events{% endcomment %}
+{% for post in all_events %}
+  {% assign start_date = post.event.start_date | date: "%Y-%m-%d" %}
+  {% capture posttime %}{{ start_date | date: '%s'}}{% endcapture %}
+  {% if posttime > nowunix %}
+    {% assign has_upcoming_events = true %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+{% comment %}Only render the section if there are upcoming events{% endcomment %}
+{% if has_upcoming_events == true %}
+<section class="upcoming-events-section">
+  <h2>Upcoming Events</h2>
+  <div class="entries-grid">
+    {% for post in all_events %}
+      {% assign start_date = post.event.start_date | date: "%Y-%m-%d" %}
+      {% capture posttime %}{{ start_date | date: '%s'}}{% endcapture %}
+      {% if posttime > nowunix %}
+        <div class="upcoming">
+          {% include event-cards.html %}
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+  <p class="text-center">
+    <a href="{{ '/events.html' | relative_url }}" class="btn btn--primary">View All Events</a>
+  </p>
+</section>
+{% endif %}
