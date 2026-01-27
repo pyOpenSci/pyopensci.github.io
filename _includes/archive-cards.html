@@ -17,6 +17,9 @@
         </div>
     </div>
     <div class="card-excerpt">
+        {% if post.author %}
+        <p class="card-author"><strong>{{ post.author }}</strong></p>
+        {% endif %}
         <p>{{ post.excerpt }}</p>
     </div>
 </div>
