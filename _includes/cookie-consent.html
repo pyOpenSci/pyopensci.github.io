@@ -1,0 +1,134 @@
+<!-- Cookie Consent Banner -->
+<div id="cookie-consent-banner" style="display: none;">
+  <div class="cookie-consent-content">
+    <div class="cookie-consent-text">
+      <h3>Privacy & Analytics</h3>
+      <p>
+        We use Matomo, a privacy-friendly analytics platform, to understand how visitors use our site.
+        This helps us improve our content and services. Matomo is GDPR-compliant and your data is never shared with
+        third parties.
+      </p>
+      <p>
+        We collect basic information like page views, referral sources, and general geographic location (country level).
+        <strong>Would you like to help us improve by allowing analytics?</strong>
+      </p>
+    </div>
+    <div class="cookie-consent-buttons">
+      <button id="cookie-consent-accept" class="btn btn-primary">Yes, I'm happy to help</button>
+      <button id="cookie-consent-decline" class="btn btn-secondary">No thanks</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  (function () {
+    'use strict';
+
+    const CONSENT_KEY = 'pyopensci-analytics-consent';
+    const CONSENT_VERSION = '1'; // Increment if consent terms change
+
+    function getConsent() {
+      try {
+        const stored = localStorage.getItem(CONSENT_KEY);
+        if (stored) {
+          const data = JSON.parse(stored);
+          // Check if version matches
+          if (data.version === CONSENT_VERSION) {
+            return data.consent;
+          }
+        }
+      } catch (e) {
+        console.error('Error reading consent:', e);
+      }
+      return null;
+    }
+
+    function setConsent(consent) {
+      try {
+        localStorage.setItem(CONSENT_KEY, JSON.stringify({
+          consent: consent,
+          version: CONSENT_VERSION,
+          timestamp: new Date().toISOString()
+        }));
+      } catch (e) {
+        console.error('Error storing consent:', e);
+      }
+    }
+
+    function initializeMatomo() {
+      // Initialize Matomo tracking
+      var _paq = window._paq = window._paq || [];
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function () {
+        var u = "https://pyopensci.matomo.cloud/";
+        _paq.push(['setTrackerUrl', u + 'matomo.php']);
+        _paq.push(['setSiteId', '2']);
+        var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+        g.type = 'text/javascript';
+        g.async = true;
+        g.src = 'https://cdn.matomo.cloud/pyopensci.matomo.cloud/matomo.js';
+        s.parentNode.insertBefore(g, s);
+      })();
+    }
+
+    function showBanner() {
+      const banner = document.getElementById('cookie-consent-banner');
+      if (banner) {
+        banner.style.display = 'block';
+      }
+    }
+
+    function hideBanner() {
+      const banner = document.getElementById('cookie-consent-banner');
+      if (banner) {
+        banner.style.display = 'none';
+      }
+    }
+
+    function handleConsent(consent) {
+      setConsent(consent);
+      hideBanner();
+
+      if (consent) {
+        initializeMatomo();
+      }
+    }
+
+    // Initialize on DOM ready
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', init);
+    } else {
+      init();
+    }
+
+    function init() {
+      const consent = getConsent();
+
+      if (consent) {
+        // User has consented, initialize Matomo
+        initializeMatomo();
+      } else if (consent === null) {
+        // No consent decision yet, show banner
+        showBanner();
+
+        // Set up event listeners
+        const acceptBtn = document.getElementById('cookie-consent-accept');
+        const declineBtn = document.getElementById('cookie-consent-decline');
+
+        if (acceptBtn) {
+          acceptBtn.addEventListener('click', function () {
+            handleConsent(true);
+          });
+        }
+
+        if (declineBtn) {
+          declineBtn.addEventListener('click', function () {
+            handleConsent(false);
+          });
+        }
+      }
+      // If consent === false, do nothing (no tracking)
+    }
+  })();
+</script>
