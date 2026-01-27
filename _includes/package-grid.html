@@ -42,7 +42,7 @@
       {{ apackage.package_description | markdownify }}
     </div>
 
-    {% unless is_feature %} HI there
+    {% unless is_feature %}
     <ul class="package-card__links">
       <li><a href="{{ apackage.repository_link }}" rel="permalink"><i class="fab fa-github" aria-hidden="true"></i> View Code</a></li>
       {% if apackage.gh_meta.documentation %}
