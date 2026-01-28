@@ -1013,6 +1013,9 @@
   closed_at: 2025-02-17 18:52:18+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/179
   joss:
+  publications:
+    - name: SoftwareX Publication
+      url: https://doi.org/10.1016/j.softx.2023.101613
   partners:
   gh_meta:
       name: PyPartMC
