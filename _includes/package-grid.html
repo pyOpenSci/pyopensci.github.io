@@ -50,7 +50,7 @@
       {% endif %}
       <li><a href="{{ apackage.issue_link }}"><i class="fa-solid fa-user-pen" aria-hidden="true"></i> View Review</a></li>
       {% if apackage.joss %}
-        <li><a href="{{ apackage.joss }}" rel="permalink"><i class="fas fa-bookmark fa-fw" aria-hidden="true"></i> JOSS Publication</a></li>
+        <li><a href="{{ apackage.joss }}" rel="permalink"><i class="fas fa-file-alt fa-fw" aria-hidden="true"></i> JOSS Publication</a></li>
       {% endif %}
       {% if apackage.publications %}
         {% for pub in apackage.publications %}

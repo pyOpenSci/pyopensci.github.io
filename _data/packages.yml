@@ -1068,7 +1068,9 @@
   updated_at: 2025-09-03 00:17:41+00:00
   closed_at: 2025-09-03 00:17:41+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/175
-  joss: https://zenodo.org/doi/10.5281/zenodo.10801503
+  publications:
+    - name: VLDB Publication
+      url: https://dl.acm.org/doi/abs/10.14778/3685800.3685887
   partners:
   gh_meta:
       name: CyNetDiff
