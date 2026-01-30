@@ -216,41 +216,14 @@ body:hover .visually-hidden button {
 }
 
 /* social icons*/
-
-.social-icons {
+// General social icons - for author profiles and other non-footer contexts
+// Footer styles are handled separately in _footer.scss with higher specificity
+.author__urls.social-icons {
   .fas,
   .fab,
   .far,
   .fal {
     color: $text-color;
-  }
-
-  .fa-behance,
-  .fa-behance-square {
-    color: $behance-color;
-  }
-
-  .fa-bitbucket {
-    color: $bitbucket-color;
-  }
-
-  .fa-dribbble,
-  .fa-dribble-square {
-    color: $dribbble-color;
-  }
-
-  .fa-facebook,
-  .fa-facebook-square,
-  .fa-facebook-f {
-    color: $facebook-color;
-  }
-
-  .fa-flickr {
-    color: $flickr-color;
-  }
-
-  .fa-foursquare {
-    color: $foursquare-color;
   }
 
   .fa-github,
@@ -263,19 +236,6 @@ body:hover .visually-hidden button {
     color: $gitlab-color;
   }
 
-  .fa-instagram {
-    color: $instagram-color;
-  }
-
-  .fa-keybase {
-    color: $keybase-color;
-  }
-
-  .fa-lastfm,
-  .fa-lastfm-square {
-    color: $lastfm-color;
-  }
-
   .fa-linkedin,
   .fa-linkedin-in {
     color: $linkedin-color;
@@ -284,12 +244,6 @@ body:hover .visually-hidden button {
   .fa-mastodon,
   .fa-mastodon-square {
     color: $mastodon-color;
-  }
-
-  .fa-pinterest,
-  .fa-pinterest-p,
-  .fa-pinterest-square {
-    color: $pinterest-color;
   }
 
   .fa-reddit {
@@ -301,42 +255,13 @@ body:hover .visually-hidden button {
     color: $rss-color;
   }
 
-  .fa-soundcloud {
-    color: $soundcloud-color;
-  }
-
   .fa-stack-exchange,
   .fa-stack-overflow {
     color: $stackoverflow-color;
   }
 
-  .fa-tumblr,
-  .fa-tumblr-square {
-    color: $tumblr-color;
-  }
-
-  .fa-twitter,
-  .fa-twitter-square {
-    color: $twitter-color;
-  }
-
-  .fa-vimeo,
-  .fa-vimeo-square,
-  .fa-vimeo-v {
-    color: $vimeo-color;
-  }
-
-  .fa-vine {
-    color: $vine-color;
-  }
-
   .fa-youtube {
     color: $youtube-color;
-  }
-
-  .fa-xing,
-  .fa-xing-square {
-    color: $xing-color;
   }
 }
 

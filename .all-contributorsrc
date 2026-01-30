@@ -532,6 +532,43 @@
         "review",
         "blog"
       ]
+    },
+    {
+      "login": "VeckoTheGecko",
+      "name": "Nick Hodgskin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/36369090?v=4",
+      "profile": "http://vecko.me",
+      "contributions": [
+        "code",
+        "bug"
+      ]
+    },
+    {
+      "login": "yuvipanda",
+      "name": "Yuvi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/30430?v=4",
+      "profile": "https://github.com/yuvipanda",
+      "contributions": [
+        "review"
+      ]
+    },
+    {
+      "login": "ocefpaf",
+      "name": "Filipe",
+      "avatar_url": "https://avatars.githubusercontent.com/u/950575?v=4",
+      "profile": "http://ocefpaf.github.io/python4oceanographers",
+      "contributions": [
+        "review"
+      ]
+    },
+    {
+      "login": "slobentanzer",
+      "name": "Sebastian Lobentanzer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13223629?v=4",
+      "profile": "https://github.com/slobentanzer",
+      "contributions": [
+        "review"
+      ]
     }
   ],
   "commitConvention": "angular",

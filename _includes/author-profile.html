@@ -56,14 +56,6 @@
         </li>
       {% endif %}
 
-      {% if author.keybase %}
-        <li>
-          <a href="https://keybase.io/{{ author.keybase }}" itemprop="sameAs" rel="nofollow noopener noreferrer me">
-            <i class="fab fa-fw fa-keybase" aria-hidden="true"></i><span class="label">Keybase</span>
-          </a>
-        </li>
-      {% endif %}
-
       {% if author.twitter %}
         <li>
           <a href="https://twitter.com/{{ author.twitter }}" itemprop="sameAs" rel="nofollow noopener noreferrer me">
@@ -88,14 +80,6 @@
         </li>
       {% endif %}
 
-      {% if author.xing %}
-        <li>
-          <a href="https://www.xing.com/profile/{{ author.xing }}" itemprop="sameAs" rel="nofollow noopener noreferrer me">
-            <i class="fab fa-fw fa-xing-square" aria-hidden="true"></i><span class="label">XING</span>
-          </a>
-        </li>
-      {% endif %}
-
       {% if author.instagram %}
         <li>
           <a href="https://instagram.com/{{ author.instagram }}" itemprop="sameAs" rel="nofollow noopener noreferrer me">
@@ -108,14 +92,6 @@
         <li>
           <a href="https://{{ author.tumblr }}.tumblr.com" itemprop="sameAs" rel="nofollow noopener noreferrer me">
             <i class="fab fa-fw fa-tumblr-square" aria-hidden="true"></i><span class="label">Tumblr</span>
-          </a>
-        </li>
-      {% endif %}
-
-      {% if author.bitbucket %}
-        <li>
-          <a href="https://bitbucket.org/{{ author.bitbucket }}" itemprop="sameAs" rel="nofollow noopener noreferrer me">
-            <i class="fab fa-fw fa-bitbucket" aria-hidden="true"></i><span class="label">Bitbucket</span>
           </a>
         </li>
       {% endif %}
@@ -152,26 +128,10 @@
         </li>
       {% endif %}
 
-      {% if author.dribbble %}
-        <li>
-          <a href="https://dribbble.com/{{ author.dribbble }}" itemprop="sameAs" rel="nofollow noopener noreferrer me">
-            <i class="fab fa-fw fa-dribbble" aria-hidden="true"></i><span class="label">Dribbble</span>
-          </a>
-        </li>
-      {% endif %}
-
       {% if author.pinterest %}
         <li>
           <a href="https://www.pinterest.com/{{ author.pinterest }}" itemprop="sameAs" rel="nofollow noopener noreferrer me">
             <i class="fab fa-fw fa-pinterest" aria-hidden="true"></i><span class="label">Pinterest</span>
-          </a>
-        </li>
-      {% endif %}
-
-      {% if author.foursquare %}
-        <li>
-          <a href="https://foursquare.com/{{ author.foursquare }}" itemprop="sameAs" rel="nofollow noopener noreferrer me">
-            <i class="fab fa-fw fa-foursquare" aria-hidden="true"></i><span class="label">Foursquare</span>
           </a>
         </li>
       {% endif %}

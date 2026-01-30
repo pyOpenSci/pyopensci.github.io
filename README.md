@@ -1,6 +1,6 @@
 # pyopensci.github.io
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-49-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-53-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 [![pages-build-deployment](https://github.com/pyOpenSci/pyopensci.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/pyOpenSci/pyopensci.github.io/actions/workflows/pages/pages-build-deployment)
 [![DOI](https://zenodo.org/badge/174412809.svg)](https://zenodo.org/doi/10.5281/zenodo.10594115)
@@ -23,7 +23,7 @@ about contributing to our website, our **Python Packaging Guide** and our
 
 ## Installation and Development
 
-Have you decided to contribute? We use the [Jekyll framework](https://jekyllrb.org)
+Have you decided to contribute? We use the [Jekyll framework](https://jekyllrb.com)
 for creating this site. To set up a **development environment** and **run the site locally**, follow these steps:
 
 1. Install ruby and bundler on your machine. See [the Jekyll docs](https://jekyllrb.com/docs/installation/) for instructions.
@@ -78,16 +78,24 @@ We have a bash script that will automatically update the `last_updated` field in
 
 `./scripts/date-updated.sh`
 
+## How to update contributor names
+
+You can update a contributor's name as it appears on our [website community contributors page](https://www.pyopensci.org/our-community/index.html#pyopensci-community-contributors) by updating their name in the [`_data/contributors.yml`](_data/contributors.yml) file.
+
+**Important:** Do not try to update contributor names in the [`_data/packages.yml`](_data/packages.yml) file. Any changes made there will be overwritten by our automated workflows.
+
+This is because our workflow treats the `contributors.yml` file as the single source of truth for managing people. The names listed here are used to gather metadata based on a contributor's GitHub username from the contributor file.
+
 ## Monitoring Automated Tasks
 
-There are a few automated CI tasks in this repository to keep the website data up to date. In order for us to have visibility into when these jobs fail, we have automated a Slack bot to send a message to the `#pyos-infrastructure` channel on Slack using the [rtCamp/action-slack-notify](https://github.com/rtCamp/action-slack-notify) GitHub Action step. This action can be used within any repository in the PyOpenSci GitHub organization (as `SLACK_NOTIFICATIONS_BOT_TOKEN` is an org-wide secret) via:
+There are a few automated CI tasks in this repository to keep the website data up to date. In order for us to have visibility into when these jobs fail, we have automated a Slack bot to send a message to the `#pyos-maintainers-infrastructure` channel on Slack using the [rtCamp/action-slack-notify](https://github.com/rtCamp/action-slack-notify) GitHub Action step. This action can be used within any repository in the PyOpenSci GitHub organization (as `SLACK_NOTIFICATIONS_BOT_TOKEN` is an org-wide secret) via:
 
 ```yml
       - name: Slack Notification
         uses: rtCamp/action-slack-notify@v2
         if: failure()
         env:
-          SLACK_CHANNEL: pyos-infrastructure
+          SLACK_CHANNEL: pyos-maintainers-infrastructure
           SLACK_COLOR: '#db540b'
           SLACK_LINK_NAMES: true
           SLACKIFY_MARKDOWN: true
@@ -166,6 +174,12 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/elliesch"><img src="https://avatars.githubusercontent.com/u/12628861?v=4?s=100" width="100px;" alt="Ellie Abrahams"/><br /><sub><b>Ellie Abrahams</b></sub></a><br /><a href="https://github.com/pyOpenSci/pyopensci.github.io/pulls?q=is%3Apr+reviewed-by%3Aelliesch" title="Reviewed Pull Requests">👀</a> <a href="#blog-elliesch" title="Blogposts">📝</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://jedbrown.org"><img src="https://avatars.githubusercontent.com/u/3303?v=4?s=100" width="100px;" alt="Jed Brown"/><br /><sub><b>Jed Brown</b></sub></a><br /><a href="https://github.com/pyOpenSci/pyopensci.github.io/pulls?q=is%3Apr+reviewed-by%3Ajedbrown" title="Reviewed Pull Requests">👀</a> <a href="#blog-jedbrown" title="Blogposts">📝</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/crhea93"><img src="https://avatars.githubusercontent.com/u/34322936?v=4?s=100" width="100px;" alt="Carter Lee Rhea"/><br /><sub><b>Carter Lee Rhea</b></sub></a><br /><a href="https://github.com/pyOpenSci/pyopensci.github.io/pulls?q=is%3Apr+reviewed-by%3Acrhea93" title="Reviewed Pull Requests">👀</a> <a href="#blog-crhea93" title="Blogposts">📝</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="http://vecko.me"><img src="https://avatars.githubusercontent.com/u/36369090?v=4?s=100" width="100px;" alt="Nick Hodgskin"/><br /><sub><b>Nick Hodgskin</b></sub></a><br /><a href="https://github.com/pyOpenSci/pyopensci.github.io/commits?author=VeckoTheGecko" title="Code">💻</a> <a href="https://github.com/pyOpenSci/pyopensci.github.io/issues?q=author%3AVeckoTheGecko" title="Bug reports">🐛</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/yuvipanda"><img src="https://avatars.githubusercontent.com/u/30430?v=4?s=100" width="100px;" alt="Yuvi"/><br /><sub><b>Yuvi</b></sub></a><br /><a href="https://github.com/pyOpenSci/pyopensci.github.io/pulls?q=is%3Apr+reviewed-by%3Ayuvipanda" title="Reviewed Pull Requests">👀</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://ocefpaf.github.io/python4oceanographers"><img src="https://avatars.githubusercontent.com/u/950575?v=4?s=100" width="100px;" alt="Filipe"/><br /><sub><b>Filipe</b></sub></a><br /><a href="https://github.com/pyOpenSci/pyopensci.github.io/pulls?q=is%3Apr+reviewed-by%3Aocefpaf" title="Reviewed Pull Requests">👀</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/slobentanzer"><img src="https://avatars.githubusercontent.com/u/13223629?v=4?s=100" width="100px;" alt="Sebastian Lobentanzer"/><br /><sub><b>Sebastian Lobentanzer</b></sub></a><br /><a href="https://github.com/pyOpenSci/pyopensci.github.io/pulls?q=is%3Apr+reviewed-by%3Aslobentanzer" title="Reviewed Pull Requests">👀</a></td>
     </tr>
   </tbody>
 </table>

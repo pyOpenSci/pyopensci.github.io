@@ -1,7 +1,14 @@
 .pyos-section {
     padding: 0px;
+    margin-top: 0; // Remove default top margin
+
+    // Reduce top margin when following feature wrapper
+    .feature__wrapper + & {
+        margin-top: 0;
+    }
+
     &.purple {
-        background-color: #e2dfed; //d9d5e8; #cbc6e0;
+        background-color: $pyos-lightpurple;
         position: relative;
     }
 }

@@ -65,17 +65,19 @@
 /* remove border*/
 .page__content {
   .archive__item-title {
-    //margin-top: 1em;
     border-bottom: none;
   }
 }
 
 .archive__item-excerpt {
   margin-top: 0;
+  margin-bottom: 0;
   font-size: $type-size-5;
 
   p {
     max-width: 95%;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   & + p {
@@ -248,8 +250,19 @@ h2.archive__item-title {
 
 .feature__wrapper {
   @include clearfix();
-  margin-bottom: .02em; //used to be 2em
-  // border-bottom: 1px solid $border-color;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+
+  // Further reduce spacing when followed by pyos-section
+  + .pyos-section {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  // Reduce spacing when it's the first element after header
+  .page__content > &:first-child {
+    margin-top: 0.5em;
+  }
 
   h2 {
     max-width: 100%;
@@ -257,6 +270,17 @@ h2.archive__item-title {
 
   .archive__item-title {
     margin-bottom: 0;
+  }
+
+  // Reduce spacing for centered feature items (excerpts)
+  .feature__item--center {
+    margin-top: 0;
+    margin-bottom: 0;
+
+    .archive__item-excerpt {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
   }
 }
 
@@ -398,14 +422,25 @@ h2.archive__item-title {
     width: 100%;
     clear: both;
     font-size: 1.125em;
+    margin-top: 0;
+    margin-bottom: 0;
 
     .archive__item {
       float: left;
       width: 100%;
+      margin: 0;
+      padding: 0;
     }
 
     .archive__item-teaser {
       margin-bottom: 2em;
+    }
+
+    .archive__item-body {
+      margin-top: 0;
+      margin-bottom: 0;
+      padding-top: 0;
+      padding-bottom: 0;
     }
 
     a.btn::before {

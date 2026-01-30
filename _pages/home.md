@@ -100,6 +100,10 @@ peer-review:
 
 <br clear="both">
 
+{% include upcoming-events.html %}
+
+<br clear="both">
+
 <!-- pull blog posts not events -->
 {% assign blog_posts = site.posts |  where_exp: "item", "item.categories contains 'blog-post'" %}
 
@@ -134,9 +138,9 @@ peer-review:
 
 {% assign packages_sorted = site.data.packages | sort_natural: 'date_accepted' | reverse %}
 
-<div class="grid">
+<div class="packages-grid">
   {% for apackage in packages_sorted limit:3 %}
-    {% include package-grid.html %}
+    {% include package-grid.html feature=true %}
   {% endfor %}
 </div>
 
