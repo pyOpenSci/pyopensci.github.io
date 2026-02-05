@@ -9659,6 +9659,7 @@
   website:
   board: false
   contributor_type:
+    - code-contrib
     - editor
     - peer-review
     - peer-review-guide
