@@ -9456,7 +9456,7 @@
   mastodon:
   orcidid:
   partners:
-  website: https://www.neonscience.org/data-collection/airborne-remote-sensing
+  website:
   board: false
   contributor_type:
     - maintainer
