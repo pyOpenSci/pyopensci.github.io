@@ -94,13 +94,13 @@
       name: astropy
       description: Astronomy and astrophysics core library
       created_at: '2011-07-21'
-      stargazers_count: 5040
+      stargazers_count: 5041
       watchers_count: 135
       open_issues_count: 1309
       forks_count: 1999
       documentation: https://www.astropy.org
       contrib_count: 445
-      last_commit: '2026-02-06'
+      last_commit: '2026-02-08'
   labels:
     - 6/pyOS-approved
     - astropy
@@ -748,7 +748,7 @@
       description: MontePy is the most user friendly Python library (API) to
           read, edit, and write MCNP input files.
       created_at: '2024-01-09'
-      stargazers_count: 52
+      stargazers_count: 53
       watchers_count: 4
       open_issues_count: 109
       forks_count: 18
@@ -910,7 +910,7 @@
       created_at: '2023-10-17'
       stargazers_count: 1
       watchers_count: 2
-      open_issues_count: 14
+      open_issues_count: 15
       forks_count: 2
       documentation: https://geminidrsoftware.github.io/astrodata/
       contrib_count: 4
@@ -1174,7 +1174,7 @@
       name: pooltool
       description: A sandbox billiards game that emphasizes realistic physics
       created_at: '2020-04-09'
-      stargazers_count: 334
+      stargazers_count: 336
       watchers_count: 12
       open_issues_count: 4
       forks_count: 72
@@ -1673,7 +1673,7 @@
       forks_count: 643
       documentation: https://www.sunpy.org
       contrib_count: 243
-      last_commit: '2026-02-05'
+      last_commit: '2026-02-09'
   labels:
     - 6/pyOS-approved
   active: true
@@ -1810,7 +1810,7 @@
       description: A library to create interactive maps of geographical
           datasets
       created_at: '2021-09-27'
-      stargazers_count: 361
+      stargazers_count: 362
       watchers_count: 4
       open_issues_count: 10
       forks_count: 27
@@ -2078,7 +2078,7 @@
       description: A unifying framework for biomedical research knowledge
           graphs
       created_at: '2021-09-10'
-      stargazers_count: 285
+      stargazers_count: 287
       watchers_count: 7
       open_issues_count: 182
       forks_count: 44
@@ -2591,13 +2591,13 @@
       name: pygmt
       description: A Python interface for the Generic Mapping Tools.
       created_at: '2017-03-17'
-      stargazers_count: 837
+      stargazers_count: 839
       watchers_count: 26
-      open_issues_count: 126
+      open_issues_count: 128
       forks_count: 228
       documentation: https://www.pygmt.org
       contrib_count: 50
-      last_commit: '2026-02-07'
+      last_commit: '2026-02-09'
   labels:
     - 6/pyOS-approved
   active: true
@@ -2887,7 +2887,7 @@
       description: A set of tools for getting the most from your geochemical
           data.
       created_at: '2018-06-13'
-      stargazers_count: 154
+      stargazers_count: 155
       watchers_count: 5
       open_issues_count: 13
       forks_count: 46
@@ -2985,7 +2985,7 @@
       description: A light-weight, flexible, and expressive statistical data
           testing library
       created_at: '2018-11-01'
-      stargazers_count: 4190
+      stargazers_count: 4191
       watchers_count: 21
       open_issues_count: 434
       forks_count: 368
