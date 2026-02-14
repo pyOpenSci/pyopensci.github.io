@@ -94,7 +94,7 @@
       name: astropy
       description: Astronomy and astrophysics core library
       created_at: '2011-07-21'
-      stargazers_count: 5043
+      stargazers_count: 5042
       watchers_count: 135
       open_issues_count: 1310
       forks_count: 2006
@@ -595,7 +595,7 @@
       forks_count: 17
       documentation: https://felupe.readthedocs.io/en/stable
       contrib_count: 4
-      last_commit: '2026-02-04'
+      last_commit: '2026-02-13'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -754,7 +754,7 @@
       forks_count: 18
       documentation: https://www.montepy.org/
       contrib_count: 8
-      last_commit: '2026-02-11'
+      last_commit: '2026-02-13'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -798,13 +798,13 @@
       name: great-tables
       description: Make awesome display tables using Python
       created_at: '2022-05-06'
-      stargazers_count: 2596
+      stargazers_count: 2595
       watchers_count: 14
-      open_issues_count: 128
-      forks_count: 117
+      open_issues_count: 126
+      forks_count: 116
       documentation: https://posit-dev.github.io/great-tables/
-      contrib_count: 27
-      last_commit: '2026-02-12'
+      contrib_count: 28
+      last_commit: '2026-02-13'
   labels:
     - 6/pyOS-approved
   active: true
@@ -1670,7 +1670,7 @@
       stargazers_count: 1000
       watchers_count: 44
       open_issues_count: 277
-      forks_count: 644
+      forks_count: 646
       documentation: https://www.sunpy.org
       contrib_count: 243
       last_commit: '2026-02-09'
@@ -2023,7 +2023,7 @@
       description: CompleX Group Interactions (XGI) is a Python package for
           higher-order networks.
       created_at: '2021-09-08'
-      stargazers_count: 235
+      stargazers_count: 234
       watchers_count: 10
       open_issues_count: 50
       forks_count: 42
@@ -2594,10 +2594,10 @@
       stargazers_count: 840
       watchers_count: 26
       open_issues_count: 128
-      forks_count: 228
+      forks_count: 229
       documentation: https://www.pygmt.org
       contrib_count: 50
-      last_commit: '2026-02-11'
+      last_commit: '2026-02-13'
   labels:
     - 6/pyOS-approved
   active: true
@@ -2789,7 +2789,7 @@
       description: Framework for Neural Style Transfer (NST) built upon
           PyTorch
       created_at: '2019-09-16'
-      stargazers_count: 274
+      stargazers_count: 273
       watchers_count: 9
       open_issues_count: 11
       forks_count: 25
@@ -2985,10 +2985,10 @@
       description: A light-weight, flexible, and expressive statistical data
           testing library
       created_at: '2018-11-01'
-      stargazers_count: 4196
+      stargazers_count: 4198
       watchers_count: 21
       open_issues_count: 436
-      forks_count: 368
+      forks_count: 371
       documentation: https://www.union.ai/pandera
       contrib_count: 172
       last_commit: '2026-01-24'
