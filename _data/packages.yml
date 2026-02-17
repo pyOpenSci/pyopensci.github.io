@@ -94,13 +94,13 @@
       name: astropy
       description: Astronomy and astrophysics core library
       created_at: '2011-07-21'
-      stargazers_count: 5042
+      stargazers_count: 5045
       watchers_count: 135
       open_issues_count: 1310
-      forks_count: 2006
+      forks_count: 2007
       documentation: https://www.astropy.org
       contrib_count: 445
-      last_commit: '2026-02-10'
+      last_commit: '2026-02-16'
   labels:
     - 6/pyOS-approved
     - astropy
@@ -648,11 +648,11 @@
       created_at: '2019-02-17'
       stargazers_count: 93
       watchers_count: 9
-      open_issues_count: 5
+      open_issues_count: 4
       forks_count: 32
       documentation: https://solar-data-tools.readthedocs.io
       contrib_count: 20
-      last_commit: '2025-11-25'
+      last_commit: '2026-02-14'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -798,7 +798,7 @@
       name: great-tables
       description: Make awesome display tables using Python
       created_at: '2022-05-06'
-      stargazers_count: 2595
+      stargazers_count: 2598
       watchers_count: 14
       open_issues_count: 126
       forks_count: 116
@@ -1911,7 +1911,7 @@
       description: A package for formatting numbers into scientific formatted
           strings.
       created_at: '2023-05-26'
-      stargazers_count: 18
+      stargazers_count: 17
       watchers_count: 1
       open_issues_count: 8
       forks_count: 2
@@ -2023,7 +2023,7 @@
       description: CompleX Group Interactions (XGI) is a Python package for
           higher-order networks.
       created_at: '2021-09-08'
-      stargazers_count: 234
+      stargazers_count: 235
       watchers_count: 10
       open_issues_count: 50
       forks_count: 42
@@ -2081,7 +2081,7 @@
       stargazers_count: 288
       watchers_count: 7
       open_issues_count: 182
-      forks_count: 44
+      forks_count: 45
       documentation: https://biocypher.org
       contrib_count: 19
       last_commit: '2026-01-22'
@@ -2593,11 +2593,11 @@
       created_at: '2017-03-17'
       stargazers_count: 840
       watchers_count: 26
-      open_issues_count: 128
+      open_issues_count: 126
       forks_count: 229
       documentation: https://www.pygmt.org
-      contrib_count: 50
-      last_commit: '2026-02-13'
+      contrib_count: 51
+      last_commit: '2026-02-15'
   labels:
     - 6/pyOS-approved
   active: true
@@ -2789,7 +2789,7 @@
       description: Framework for Neural Style Transfer (NST) built upon
           PyTorch
       created_at: '2019-09-16'
-      stargazers_count: 273
+      stargazers_count: 274
       watchers_count: 9
       open_issues_count: 11
       forks_count: 25
@@ -2938,7 +2938,7 @@
           GeoPandas
       created_at: '2018-12-16'
       stargazers_count: 1370
-      watchers_count: 39
+      watchers_count: 38
       open_issues_count: 33
       forks_count: 202
       documentation: https://movingpandas.org
@@ -2985,10 +2985,10 @@
       description: A light-weight, flexible, and expressive statistical data
           testing library
       created_at: '2018-11-01'
-      stargazers_count: 4198
+      stargazers_count: 4203
       watchers_count: 21
       open_issues_count: 436
-      forks_count: 371
+      forks_count: 372
       documentation: https://www.union.ai/pandera
       contrib_count: 172
       last_commit: '2026-01-24'
@@ -3033,7 +3033,7 @@
       description: Construct, deconstruct, convert, execute, and prepare
           slides from Jupyter notebooks
       created_at: '2018-09-05'
-      stargazers_count: 35
+      stargazers_count: 34
       watchers_count: 0
       open_issues_count: 0
       forks_count: 6
