@@ -10629,7 +10629,7 @@
   mastodon:
   orcidid:
   partners:
-  website: https://kaistriega.com/about/
+  website:
   board: false
   contributor_type:
     - peer-review
