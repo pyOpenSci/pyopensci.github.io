@@ -94,13 +94,13 @@
       name: astropy
       description: Astronomy and astrophysics core library
       created_at: '2011-07-21'
-      stargazers_count: 5054
+      stargazers_count: 5053
       watchers_count: 137
-      open_issues_count: 1313
+      open_issues_count: 1314
       forks_count: 2010
       documentation: https://www.astropy.org
       contrib_count: 445
-      last_commit: '2026-02-20'
+      last_commit: '2026-02-23'
   labels:
     - 6/pyOS-approved
     - astropy
@@ -445,7 +445,7 @@
       forks_count: 3
       documentation:
       contrib_count: 2
-      last_commit: '2026-02-22'
+      last_commit: '2026-02-23'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -595,7 +595,7 @@
       forks_count: 17
       documentation: https://felupe.readthedocs.io/en/stable
       contrib_count: 4
-      last_commit: '2026-02-13'
+      last_commit: '2026-02-23'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -750,11 +750,11 @@
       created_at: '2024-01-09'
       stargazers_count: 53
       watchers_count: 4
-      open_issues_count: 111
+      open_issues_count: 112
       forks_count: 19
       documentation: https://www.montepy.org/
       contrib_count: 8
-      last_commit: '2026-02-18'
+      last_commit: '2026-02-23'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1072,7 +1072,7 @@
       description: A performance-focused library implementing algorithms for
           simulating network diffusion processes, written in Cython.
       created_at: '2023-12-12'
-      stargazers_count: 5
+      stargazers_count: 6
       watchers_count: 2
       open_issues_count: 2
       forks_count: 1
@@ -1667,13 +1667,13 @@
       name: sunpy
       description: SunPy - Python for Solar Physics
       created_at: '2011-08-06'
-      stargazers_count: 1001
+      stargazers_count: 1000
       watchers_count: 44
-      open_issues_count: 277
+      open_issues_count: 278
       forks_count: 645
       documentation: https://www.sunpy.org
       contrib_count: 244
-      last_commit: '2026-02-19'
+      last_commit: '2026-02-23'
   labels:
     - 6/pyOS-approved
   active: true
@@ -1868,7 +1868,7 @@
       forks_count: 90
       documentation: https://sourmash.readthedocs.io/en/latest/
       contrib_count: 45
-      last_commit: '2026-02-17'
+      last_commit: '2026-02-23'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -2078,7 +2078,7 @@
       description: A unifying framework for biomedical research knowledge
           graphs
       created_at: '2021-09-10'
-      stargazers_count: 289
+      stargazers_count: 290
       watchers_count: 7
       open_issues_count: 182
       forks_count: 45
@@ -2389,7 +2389,7 @@
       forks_count: 68
       documentation: https://xclim.readthedocs.io/en/stable/
       contrib_count: 45
-      last_commit: '2026-02-17'
+      last_commit: '2026-02-23'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -2985,9 +2985,9 @@
       description: A light-weight, flexible, and expressive statistical data
           testing library
       created_at: '2018-11-01'
-      stargazers_count: 4210
+      stargazers_count: 4211
       watchers_count: 21
-      open_issues_count: 438
+      open_issues_count: 439
       forks_count: 373
       documentation: https://www.union.ai/pandera
       contrib_count: 172
