@@ -94,7 +94,7 @@
       name: astropy
       description: Astronomy and astrophysics core library
       created_at: '2011-07-21'
-      stargazers_count: 5058
+      stargazers_count: 5057
       watchers_count: 137
       open_issues_count: 1313
       forks_count: 2015
@@ -537,7 +537,7 @@
       description: Repository for Python package containing data-wrangling
           utilities for working with NEON data.
       created_at: '2023-08-25'
-      stargazers_count: 5
+      stargazers_count: 7
       watchers_count: 4
       open_issues_count: 0
       forks_count: 4
@@ -695,7 +695,7 @@
       name: thztools
       description: Tools for terahertz time-domain spectroscopy (THz-TDS)
       created_at: '2022-11-22'
-      stargazers_count: 24
+      stargazers_count: 25
       watchers_count: 2
       open_issues_count: 4
       forks_count: 14
@@ -750,11 +750,11 @@
       created_at: '2024-01-09'
       stargazers_count: 54
       watchers_count: 4
-      open_issues_count: 112
+      open_issues_count: 111
       forks_count: 19
       documentation: https://www.montepy.org/
       contrib_count: 8
-      last_commit: '2026-02-24'
+      last_commit: '2026-02-28'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1670,7 +1670,7 @@
       stargazers_count: 1002
       watchers_count: 44
       open_issues_count: 278
-      forks_count: 646
+      forks_count: 647
       documentation: https://www.sunpy.org
       contrib_count: 244
       last_commit: '2026-02-24'
@@ -2383,7 +2383,7 @@
       description: 'Library of derived climate variables, ie climate indicators,
           based on xarray. '
       created_at: '2018-07-27'
-      stargazers_count: 385
+      stargazers_count: 386
       watchers_count: 14
       open_issues_count: 38
       forks_count: 68
@@ -2593,7 +2593,7 @@
       created_at: '2017-03-17'
       stargazers_count: 842
       watchers_count: 27
-      open_issues_count: 125
+      open_issues_count: 124
       forks_count: 230
       documentation: https://www.pygmt.org
       contrib_count: 51
@@ -2985,7 +2985,7 @@
       description: A light-weight, flexible, and expressive statistical data
           testing library
       created_at: '2018-11-01'
-      stargazers_count: 4212
+      stargazers_count: 4211
       watchers_count: 21
       open_issues_count: 439
       forks_count: 373
