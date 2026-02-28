@@ -29,7 +29,11 @@ jobs:
           update-contributors
           update-reviews
           update-review-teams
-
+      - name: Update content from RSS Feeds
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          fetch-rss-feed "https://www.pyopensci.org/python-package-guide/tutorials.rss" "_tutorials"
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v8
         with:
