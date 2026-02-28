@@ -1,62 +1,174 @@
-<!-- Including InstantSearch.js library and styling -->
-<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch.min.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch.min.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch-theme-algolia.min.css">
-
+<!-- InstantSearch.js v4 integration (upgraded from v2) -->
 <script>
-// Instantiating InstantSearch.js with Algolia credentials
-const search = instantsearch({
-  appId: '{{ site.algolia.application_id }}',
-  apiKey: '{{ site.algolia.search_only_api_key }}',
-  indexName: '{{ site.algolia.index_name }}',
-  searchParameters: {
-    restrictSearchableAttributes: [
-      'title',
-      'content'
-    ]
+(function() {
+  function loadCSS(href) {
+    var link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.href = href;
+    document.head.appendChild(link);
   }
-});
+  function loadScript(src) {
+    return new Promise(function(resolve, reject) {
+      var s = document.createElement('script');
+      s.src = src;
+      s.async = true;
+      s.onload = resolve;
+      s.onerror = reject;
+      document.head.appendChild(s);
+    });
+  }
 
-const hitTemplate = function(hit) {
-  const url = hit.url;
-  const highlight = hit._highlightResult;
-  const title = highlight.title && highlight.title.value  || "";
-  const content = highlight.html && highlight.html.value  || "";
+  function buildSearch() {
+    const appId = '{{ site.algolia.application_id }}';
+    const apiKey = '{{ site.algolia.search_only_api_key }}';
+    const indexName = '{{ site.algolia.index_name }}';
 
-  return `
-    <div class="list__item">
-      <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-        <h2 class="archive__item-title" itemprop="headline"><a href="{{ site.baseurl }}${url}">${title}</a></h2>
-        <div class="archive__item-excerpt" itemprop="description">${content}</div>
-      </article>
-    </div>
-  `;
-}
-
-// Adding searchbar and results widgets
-search.addWidget(
-  instantsearch.widgets.searchBox({
-    container: '.search-searchbar',
-    {% unless site.algolia.powered_by == false %}poweredBy: true,{% endunless %}
-    placeholder: '{{ site.data.ui-text[site.locale].search_placeholder_text | default: "Enter your search term..." }}'
-  })
-);
-search.addWidget(
-  instantsearch.widgets.hits({
-    container: '.search-hits',
-    templates: {
-      item: hitTemplate,
-      empty: '{{ site.data.ui-text[site.locale].search_algolia_no_results | default: "No results" }}',
+    if (!appId || !apiKey || !indexName) {
+      console.warn('[Algolia] Missing Algolia config (appId/apiKey/indexName).');
+      return;
     }
-  })
-);
 
-// Starting the search only when toggle is clicked
-$(document).ready(function () {
-  $(".search__toggle").on("click", function() {
-    if(!search.started) {
-      search.start();
+    const searchClient = algoliasearch(appId, apiKey);
+
+    const search = instantsearch({
+      indexName: indexName,
+      searchClient: searchClient
+      // Add back once attributes confirmed:
+      // searchParameters: { restrictSearchableAttributes: ['title','hierarchy.lvl0','hierarchy.lvl1','content'] }
+    });
+
+    function hl(hit, path) {
+      const parts = path.split('.');
+      let ref = hit._highlightResult || {};
+      for (const p of parts) {
+        if (!ref) return null;
+        ref = ref[p];
+      }
+      return ref && ref.value ? ref.value : null;
+    }
+
+    function resolveTitle(hit) {
+      return (
+        hl(hit, 'title') ||
+        hl(hit, 'hierarchy.lvl1') ||
+        hl(hit, 'hierarchy.lvl0') ||
+        hit.title ||
+        (hit.hierarchy && (hit.hierarchy.lvl1 || hit.hierarchy.lvl0)) ||
+        hit.url
+      );
+    }
+
+    function resolveSnippet(hit) {
+      return (
+        hl(hit, 'content') ||
+        hl(hit, 'hierarchy.lvl2') ||
+        hl(hit, 'hierarchy.lvl1') ||
+        ''
+      );
+    }
+
+    function normalizeUrl(u) {
+      if (!u) return '#';
+      if (/^https?:\/\//i.test(u)) return u; // already absolute
+      return '{{ site.baseurl }}' + u;
+    }
+
+    // Derive a tag based on URL path heuristics.
+    function deriveTag(url) {
+      if (!url) return 'Page';
+      // Normalize once (strip base domain if present)
+      const lower = url.toLowerCase();
+      if (lower.includes('python-package-guide/tutorials/')) return 'Tutorial';
+      if (lower.includes('/lessons/')) return 'Tutorial';
+      if (lower.includes('/python-package-guide/') || lower.includes('/packaging-guide/')) return 'Packaging Guide';
+      if (lower.includes('/software-peer-review/')) return 'Peer Review Guide';
+      if (lower.includes('/handbook/')) return 'Handbook';
+      if (lower.includes('/metrics/')) return 'Metrics';
+      if (lower.includes('/events/') || lower.includes('/event/')) return 'Event';
+      if (lower.includes('/blog/') || lower.includes('/posts/')) return 'Blog';
+      if (lower.includes('/docs/') || lower.includes('/guide/')) return 'Docs';
+      return 'Website';
+    }
+
+    // Return results in a single easy to read column
+    const hitTemplate = function(hit) {
+      const title = resolveTitle(hit);
+      const snippet = resolveSnippet(hit);
+      const url = normalizeUrl(hit.url);
+      const tag = deriveTag(hit.url || '');
+      return `
+        <div class="search-result-row" role="listitem">
+          <div class="search-result-meta"><span class="search-result-tag">${tag}</span></div>
+          <a class="search-result-title" href="${url}">${title}</a>
+          ${snippet ? `<div class="search-result-snippet">${snippet}</div>` : ''}
+        </div>
+      `;
+    };
+
+    search.addWidgets([
+      instantsearch.widgets.searchBox({
+        container: '.search-searchbar',
+        placeholder: '{{ site.data.ui-text[site.locale].search_placeholder_text | default: "Search the site..." }}',
+        showReset: true,
+        showSubmit: true,
+        showLoadingIndicator: false,
+        poweredBy: true,
+      }),
+      instantsearch.widgets.hits({
+        container: '.search-hits',
+        templates: {
+          item: hitTemplate,
+          empty: '{{ site.data.ui-text[site.locale].search_algolia_no_results | default: "No results" }}'
+        }
+      })
+    ]);
+
+    if (!search.started) search.start();
+  }
+
+  let initialized = false;
+  function initOnDemand() {
+    if (initialized) return;
+    initialized = true;
+    Promise.resolve()
+      .then(() => loadCSS('https://cdn.jsdelivr.net/npm/instantsearch.css@8/themes/algolia-min.css'))
+      .then(() => loadScript('https://cdn.jsdelivr.net/npm/algoliasearch@4/dist/algoliasearch-lite.umd.js'))
+      .then(() => loadScript('https://cdn.jsdelivr.net/npm/instantsearch.js@4/dist/instantsearch.production.min.js'))
+      .then(buildSearch)
+      .catch(err => console.error('[Algolia] Failed to load search assets', err));
+  }
+
+  // Attach to existing toggle; fallback: auto-init if no toggle found soon.
+  document.addEventListener('DOMContentLoaded', function() {
+    const toggle = document.querySelector('.search__toggle');
+    if (toggle) {
+      toggle.addEventListener('click', initOnDemand, { once: true });
+    } else {
+      // Auto initialize after short delay if no toggle present
+      setTimeout(initOnDemand, 1500);
     }
   });
-});
+})();
 </script>
+
+<style>
+/* Force single-column stacked search results */
+.search-hits .ais-Hits-list { list-style:none; margin:0; padding:0; display:block; }
+.search-hits .ais-Hits-item { width:100% !important; margin:0; padding:0; }
+.search-result-row { padding:0.85rem 0; border-bottom:1px solid #e1e4e8; }
+.search-result-row:last-child { border-bottom:none; }
+.search-result-meta { margin-bottom:0.15rem; }
+.search-result-tag { display:inline-block; font-size:0.65rem; font-weight:600; letter-spacing:0.05em; text-transform:uppercase; background:#4a5568; color:#fff; padding:2px 6px; border-radius:3px; }
+.search-result-title { display:block; font-weight:600; font-size:1rem; line-height:1.35; color:var(--link-color, #0366d6); text-decoration:none; }
+.search-result-title:hover, .search-result-title:focus { text-decoration:underline; }
+.search-result-snippet { margin-top:0.3rem; font-size:0.85rem; line-height:1.4; color:#444; }
+.search-result-snippet em { background:#fff8c4; font-style:normal; padding:0 2px; border-radius:2px; }
+/* Responsive container constraint (centers and limits width but stays fluid) */
+.search-hits { max-width: 60rem; margin: 0 auto; }
+@media (max-width: 640px) {
+  .search-result-row { padding:0.75rem 0; }
+  .search-result-title { font-size:0.95rem; }
+  .search-result-snippet { font-size:0.8rem; }
+  .search-result-tag { font-size:0.55rem; }
+}
+</style>
