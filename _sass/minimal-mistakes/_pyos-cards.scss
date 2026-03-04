@@ -397,7 +397,7 @@
 
     // Text elements: semantic selectors with padding
     h4.person_name {
-      padding: 0 1em;
+      padding: 0;
       margin-top: 0.6em;
       margin-bottom: 0;
       font-size: 1.4rem;
@@ -446,6 +446,113 @@
       .ppl_social {
         font-size: 0.9em !important;
       }
+    }
+  }
+}
+
+/* ==========================================================================
+   EVENT INSTRUCTORS (front matter + include)
+   ========================================================================== */
+
+.event-instructors {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.event-instructors__grid {
+  grid-template-columns: 1fr !important;
+}
+
+.event-instructor {
+  .people-card__content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.25rem;
+    text-align: left;
+
+    .event-instructor__avatar {
+      flex-shrink: 0;
+      width: 160px;
+      min-width: 160px;
+      padding: 0 20px;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      img {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+    }
+
+    .event-instructor__text {
+      flex: 1;
+      min-width: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .person_name {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      gap: 0.35em;
+      text-align: left;
+      margin-left: 0;
+      margin-right: 0;
+
+      .event-instructor__github-link {
+        opacity: 0.7;
+        font-size: 0.9em;
+
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+
+    .event-instructor__bio {
+      padding: 0;
+      margin-top: 0.5em;
+      margin-bottom: 0;
+      font-size: 0.9rem;
+      line-height: 1.5;
+      text-align: left;
+    }
+  }
+}
+
+@media screen and (max-width: $small) {
+  .event-instructor .people-card__content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    .event-instructor__avatar {
+      width: auto;
+      min-width: 0;
+      padding: 0;
+    }
+
+    .event-instructor__text {
+      align-items: center;
+      text-align: center;
+    }
+
+    .person_name {
+      justify-content: center;
+      text-align: center;
+    }
+
+    .event-instructor__bio {
+      text-align: center;
     }
   }
 }

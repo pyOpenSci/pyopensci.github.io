@@ -39,15 +39,10 @@ main:
         url: "/blog/index.html"
       - title: Events
         url: "/events.html"
-      - title: Ask a question
-        url: "https://pyopensci.discourse.group/"
-        icon: "fa-brands fa-discourse"
   - title: "Community"
     sub-nav:
       - title: "Our Community"
         url: "/our-community/index.html"
-      - title: "Connect with us"
-        url: "https://pyopensci.discourse.group/"
         icon: "fa-brands fa-discourse"
       - title: "Handbook"
         icon: "fas fa-external-link-alt"
@@ -57,5 +52,5 @@ main:
       - title: "Volunteer"
         url: "/volunteer.html"
   - title: "Donate"
-    url: "https://fnd.us/pyopensci_2024"
+    url: "https://give.communityin.org/pyopensci_2024"
     is_button: true

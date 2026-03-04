@@ -89,13 +89,13 @@ at the SciPy meetings.
 
 ### Why pyOpenSci tackled Python packaging
 
-pyOpenSci's design is also based on our experiences developing software peer review guidelines for Python packages. We [interact daily with scientific software maintainers](https://pyopensci.discourse.group/t/api-reference-building-locally-but-not-on-rth-missing-path/368/7). According to our surveys, 80% of our maintainers and reviewers identify strongly as scientists.
+pyOpenSci's design is also based on our experiences developing software peer review guidelines for Python packages. According to our surveys, 80% of our maintainers and reviewers identify strongly as scientists.
 
 As we developed our [peer review guide]((https://www.pyopensci.org/software-peer-review/)), it became clear that a beginner-friendly packaging guide was essential to support scientists in sharing their code because:
 
 1. [Our pre-review software checks](https://www.pyopensci.org/software-peer-review/how-to/editor-in-chief-guide.html#editor-checklist-template) require basic package infrastructure. Scientists must be clear about the core elements of a Python package.
-1. We want to help scientists make their packages more maintainable over time by adding tests and [continuous integration (CI)](https://www.pyopensci.org/python-package-guide/tests/tests-ci.html#run-tests-with-continuous-integration) checks that run when someone submits a suggested change (or a pull request). We want to set scientists up for success.
-1. We realize that Python packaging is a thorny ecosystem to navigate. I knew that pyOpenSci could help file down those thorns.
+2. We want to help scientists make their packages more maintainable over time by adding tests and [continuous integration (CI)](https://www.pyopensci.org/python-package-guide/tests/tests-ci.html#run-tests-with-continuous-integration) checks that run when someone submits a suggested change (or a pull request). We want to set scientists up for success.
+3. We realize that Python packaging is a thorny ecosystem to navigate. I knew that pyOpenSci could help file down those thorns.
 
 <div class="notice" markdown ="1">
 ### *"How could pyOpenSci help you with your science, code, and software?"*
