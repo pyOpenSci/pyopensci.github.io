@@ -73,7 +73,7 @@ All of our written content is available on the [Learn section of our website](ht
 
 Our vision for our free, online trainings is for the curriculum to be added to our library of open education resources, making them free, accessible, and published for anyone to use. And we intend to experiment with delivering this curriculum in an asynchronous, cohort-based manner that allows learners from all over the world to come together for a period of time to work through the curriculum together. If you were part of one of the original cohorts of the <a href="https://dslc.io/">R for Data Science Online Learning Community</a> created by our Community Manager, [Jesse Mostipak](https://github.com/kierisi), then you know that these asynchronous trainings will be thoughtfully crafted, a fantastic learning experience, and a ton of fun!
 
-pyOpenSci is the recipient of the [Better Software for Science Fellowship](https://bssw.io/fellows/leah-wasser), which will help fund the creation of these open educational resources. You can stay up to date with more information on these types of lessons through [our Discourse forum](https://pyopensci.discourse.group/) as well as [our mailing list](https://eepurl.com/iM7SOM).
+pyOpenSci is the recipient of the [Better Software for Science Fellowship](https://bssw.io/fellows/leah-wasser), which will help fund the creation of these open educational resources.
 
 These asynchronous trainings will be free, online, and center around community building and collaborative learning with larger cohort sizes. Part of the intention of these trainings is to foster a vibrant learning community where participants are empowered to learn from one another.
 
@@ -101,4 +101,4 @@ She will also briefly discuss how LLM’s can be used to support tasks such as d
 The course will take place on Thursday, April 25th, from 10AM–1PM Mountain time, and use the Spatial Chat platform. Tickets are $10, and can be purchased on [the workshop’s Eventbrite page](https://www.eventbrite.com/e/from-python-code-to-module-tickets-879586546037?aff=oddtdtcreator). The class size is capped at 35, and tickets are selling fast–we hope to see you there!
 
 ## Connect with us!
-You can stay up-to-date with all things pyOpenSci by following us on [LinkedIn](https://www.linkedin.com/company/pyopensci) and [Fosstodon](https://fosstodon.org/@pyOpenSci), and you can connect with the broader pyOpenSci community on [our Discourse forum](https://pyopensci.discourse.group/). And if you’re interested in our weekly newsletter where we share news, blog posts, and monthly updates, [subscribe on LinkedIn](https://www.linkedin.com/newsletters/pyopensci-newsletter-7179551305344933888!)
+You can stay up-to-date with all things pyOpenSci by following us on [LinkedIn](https://www.linkedin.com/company/pyopensci) and [Fosstodon](https://fosstodon.org/@pyOpenSci).

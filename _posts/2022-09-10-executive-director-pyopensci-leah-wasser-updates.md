@@ -90,9 +90,7 @@ value support from some of you along the way!
 
 ## Stay in touch!
 Once I have a road map for activities developed, I will communicate this here on our
-[website](https://www.pyopensci.org/), [on Twitter](https://www.twitter.com/pyopensci)
-and [on discourse](https://pyopensci.discourse.group/). So be sure to
-follow us on Twitter and sign up for Discourse!
+[website](https://www.pyopensci.org/).
 
 ## What can you do now?
 There are a few ways to get involved with us now.

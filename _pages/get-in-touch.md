@@ -11,16 +11,9 @@ redirect_from:
   - /get-involved-contact/
 get-involved:
   - image_path:
-    title: "Got a Packaging Question?"
+    title: "Submit a Python Package for Peer Review"
     alt:
-    excerpt: "If you are a scientist and have a question about packaging, our discourse forum is the place for you. We have volunteers from the pip and conda / conda-forge packaging ecosystem that can help you find the answers that you need. You can also ask questions about peer review there."
-    url: https://pyopensci.discourse.group/
-    btn_label: "> Ask a packaging question now"
-    btn_class: btn--inverse
-  - image_path:
-    title: "Submit a Scientific Python Package for Review"
-    alt:
-    excerpt: "Are you developing or maintaining a scientific Python package that is in scope for our peer review process? If so, consider submitting it for peer review. We partner with JOSS so you can submit to us and JOSS will accept our review as theirs. They then just review your paper. It's a win/win! Check out our [author guide](https://www.pyopensci.org/software-peer-review/how-to/author-guide.html) to learn more about the process. Pro-tip: If you still aren't sure if your package is in scope for us, you can submit a pre-submission inquiry."
+    excerpt: "Are you developing or maintaining research software or a scientific Python package that is in scope for our peer review process? If so, consider submitting it for peer review. We partner with JOSS so you can submit to us and JOSS will accept our review as theirs. They then just review your paper. It's a win/win! Check out our [author guide](https://www.pyopensci.org/software-peer-review/how-to/author-guide.html) to learn more about the process. Pro-tip: If you still aren't sure if your package is in scope for us, you can submit a pre-submission inquiry."
     url: https://github.com/pyOpenSci/software-submission
     btn_label: "> Submit a package now."
     btn_class: btn--inverse

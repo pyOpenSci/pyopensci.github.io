@@ -32,8 +32,7 @@ whats_next:
     alt: "A graphic with a light yellow background that says essential collaboration skills for scientists - using GitHub. On the right there is a man and a woman sitting at a tall table with laptops working."
     excerpt: "Through the [Better Software for Science Fellowship](https://bssw.io/pages/bssw-fellowship-program) we will be developing lessons focused on teaching core GitHub collaboration skills needed for both contributing to open source software and for working in an open science team environment.
 
-
-    **Stay up to date with course development and announcements in [our Discourse community](https://pyopensci.discourse.group/), as well as on [Fosstodon](https://fosstodon.org/@pyOpenSci) and [LinkedIn](https://www.linkedin.com/company/pyopensci/)**"
+    **Stay up to date with course development and announcements on [Fosstodon](https://fosstodon.org/@pyOpenSci) and [LinkedIn](https://www.linkedin.com/company/pyopensci/)**"
     title: "What's next: Collaborative GitHub for Scientists"
 toc: false
 ---
