@@ -174,7 +174,53 @@ $colors: (
     @media (min-width: $large) {
       grid-template-columns: repeat(4, 1fr); // Large: 4 columns
     }
+
+    // Home page new contributors: single row of 5, smaller cards, more gap
+    &.entries-grid--contributors {
+      grid-template-columns: repeat(5, 1fr);
+      grid-gap: 1rem;
+      justify-items: center;
+      > * {
+        max-width: 200px;
+        min-width: 0;
+        width: 100%;
+      }
+      .people-card {
+        h4.person_name {
+          font-size: 0.95rem;
+          padding-left: 0.5em;
+          padding-right: 0.5em;
+        }
+        p.page__meta,
+        p.contrib_org {
+          padding-left: 0.5em;
+          padding-right: 0.5em;
+        }
+        p.page__meta,
+        p.contrib_org,
+        .ppl_social {
+          font-size: 0.75rem;
+        }
+        .ppl_social {
+          padding-left: 0.5em;
+          padding-right: 0.5em;
+          padding-bottom: 0.4em;
+        }
+      }
+    }
   }
+
+// Home page upcoming events: single column, full-width horizontal cards
+.upcoming-events-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  > * {
+    max-width: none;
+    width: 100%;
+  }
+}
 
 // Home page packages section - fixed breakpoints (max 3 columns for better spacing)
 .packages-grid {

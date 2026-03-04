@@ -88,19 +88,19 @@ peer-review:
    </div>
 </div>
 
+{% include upcoming-events.html %}
+
+<br clear="both">
+
 {% assign new_ppl = site.data.contributors | reverse %}
 
 ## New pyOpenSci contributors
 
-<div class="entries-grid">
-{% for aperson in new_ppl limit:4 %}
+<div class="entries-grid entries-grid--contributors">
+{% for aperson in new_ppl limit:5 %}
     {% include people-grid.html  %}
 {% endfor %}
 </div>
-
-<br clear="both">
-
-{% include upcoming-events.html %}
 
 <br clear="both">
 

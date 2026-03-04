@@ -26,7 +26,7 @@ It only displays if there are upcoming events.
 {% if has_upcoming_events == true %}
 <section class="upcoming-events-section">
   <h2>Upcoming Events</h2>
-  <div class="entries-grid">
+  <div class="upcoming-events-list">
     {% for post in all_events %}
       {% assign start_date = post.event.start_date | date: "%Y-%m-%d" %}
       {% capture posttime %}{{ start_date | date: '%s'}}{% endcapture %}
