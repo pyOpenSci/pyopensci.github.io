@@ -316,6 +316,45 @@
 
 }
 
+// Landing page upcoming events list: smaller card, less padding
+.upcoming-events-list .event-card {
+  max-width: 800px;
+  margin-bottom: 0;
+
+  .event-card__date {
+    width: 140px;
+    min-width: 140px;
+    padding: 0.5rem;
+  }
+
+  .event-card__date-text {
+    font-size: 1rem;
+
+    span:last-of-type {
+      font-size: 0.7rem;
+    }
+  }
+
+  .event-card__details {
+    padding: 0.5rem 0.75rem;
+
+    h3 {
+      margin-bottom: 0.35rem;
+      font-size: 1.1rem;
+    }
+
+    p {
+      margin-bottom: 0.5rem;
+      font-size: 0.9rem;
+    }
+
+    .event-card__button {
+      padding: 0.35rem 0.75rem;
+      font-size: 0.9rem;
+    }
+  }
+}
+
 
   // Responsive design adjustments
   @media (max-width: 600px) {
