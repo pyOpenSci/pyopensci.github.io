@@ -1,0 +1,36 @@
+{% if page.instructors %}
+<div class="event-instructors">
+  <div class="grid event-instructors__grid">
+    {% for person in page.instructors %}
+    <div class="cards people-card event-instructor">
+      <div class="people-card__content">
+        <div class="person_img event-instructor__avatar">
+          <img
+            src="https://github.com/{{ person.github }}.png"
+            alt="GitHub profile photo of {{ person.name }}"
+            width="400"
+            height="400"
+            loading="lazy"
+          >
+        </div>
+        <div class="event-instructor__text">
+          <h4 class="person_name">
+            <a href="https://github.com/{{ person.github }}" rel="noopener noreferrer">
+              {{ person.name }}
+            </a>
+            <a
+              href="https://github.com/{{ person.github }}"
+              class="event-instructor__github-link"
+              rel="noopener noreferrer"
+              aria-label="{{ person.name }} on GitHub"
+            >
+            </a>
+          </h4>
+          <p class="event-instructor__bio">{{ person.bio | strip_newlines | strip }}</p>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+{% endif %}

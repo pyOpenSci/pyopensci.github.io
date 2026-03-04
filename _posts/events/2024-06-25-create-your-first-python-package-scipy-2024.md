@@ -281,4 +281,4 @@ Create environment
 
 ## <i class="fa-solid fa-link"></i> Connect with pyOpenSci
 
-Stay up-to-date with all things pyOpenSci by following us on [LinkedIn](https://linkedin.com/company/pyopensci) and [Fosstodon](https://fosstodon.org/@pyOpenSci), and connect with the broader pyOpenSci community on our [Discourse forum](https://pyopensci.discourse.group/). If you’re interested in our weekly newsletter where we share news, blog posts, and monthly updates, [subscribe on LinkedIn](https://www.bit.ly/pyOSNewsletter).
+Stay up-to-date with all things pyOpenSci by following us on [LinkedIn](https://linkedin.com/company/pyopensci) and [Fosstodon](https://fosstodon.org/@pyOpenSci). If you’re interested in our weekly newsletter where we share news, blog posts, and monthly updates, [subscribe on LinkedIn](https://www.bit.ly/pyOSNewsletter).

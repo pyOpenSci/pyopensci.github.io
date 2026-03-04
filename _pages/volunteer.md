@@ -17,8 +17,6 @@ build-skills:
 
 - **Learn new skills:** you don’t have to be a Python expert to get involved with pyOpenSci. We can help you level up your packaging game and learn how to constructively review both code and copy through contributions to our online learning resources.
 
-- **Meet and connect with new peers.** Our [public Discourse forum](https://pyopensci.discourse.group/) is a great place to ask and answer questions, as well as discuss packaging and open science with other Pythonistas.
-
 - **Get recognized** on the [pyOpenSci website](https://www.pyopensci.org/our-community/index.html) and in our [GitHub repositories](https://github.com/pyOpenSci): your contribution matters, and we want to ensure your work is recognized and celebrated in a public forum. If you serve as an editor you can also connect with pyOpenSci professionally as a volunteer for our organization on LinkedIn"
     image_path: /images/people-building-blocks.jpg
 diverse-backgrounds:

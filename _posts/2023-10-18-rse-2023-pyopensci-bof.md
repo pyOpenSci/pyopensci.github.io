@@ -217,7 +217,6 @@ My key takeaways from the US-RSE meeting is:
 
 - you can [review a pull request](https://github.com/pyOpenSci/python-package-guide/pulls) on our packaging guide. Or open and issue if you have a problem with the guide.
 - You can [sign up to be a reviewer for pyOpenSci here](https://docs.google.com/forms/d/e/1FAIpQLSeVf-L_1-jYeO84OvEE8UemEoCmIiD5ddP_aO8S90vb7srADQ/viewform)
-- You can post a packaging question in our [pyOpenSci Discourse forum here.](https://pyopensci.discourse.group/)
 
 As for me, I hope to attend the 2024 RSE meeting and to continue this important
 conversation around Python packaging and peer review of software.

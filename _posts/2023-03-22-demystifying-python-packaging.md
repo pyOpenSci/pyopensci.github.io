@@ -186,11 +186,3 @@ In the next few blog posts i'm going to present each Python build workflow tool 
 - Poetry.
 
 I'll break down the pros and cons of using each tool. I will also provide examples of what using the tool looks like. In the meantime, [check out our shiny new packaging chapter here to see the overview of packaging tools and approaches for scientists creating pure Python packages](https://www.pyopensci.org/python-package-guide/package-structure-code/intro.html).
-
-## Tutorials are also on the way
-
-In the very near future i'll also create some packaging tutorials that will help you get started with creating a new package. Stay tuned for more on that as well!
-
-## Got questions on Python packaging?
-
-If you are just getting started with Python packaging OR if you have questions about it, please use our [discourse forum](https://pyopensci.discourse.group/) to ask questions. We are happy to help!

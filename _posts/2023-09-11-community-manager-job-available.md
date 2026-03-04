@@ -153,7 +153,7 @@ All work that you do should exemplify our community [Code of Conduct](https://ww
 - Growing our social media following and support community meetings and events
 - Working with the community to develop new blog posts on packages in our ecosystem
 - Developing and contributing to a mentorship program to support new contributors to open source
-- Curating and contributing content to our online community on [social media](https://fosstodon.org/@pyOpenSci), Slack, [Discourse](https://pyopensci.discourse.group/) and other platforms as needed.
+- Curating and contributing content to our online community on [social media](https://fosstodon.org/@pyOpenSci), Slack and other platforms as needed.
 
 ### Within 6 months, you will be…
 
