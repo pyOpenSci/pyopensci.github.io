@@ -680,6 +680,8 @@ span.date {
     }
     #main {
       padding: 0 .6rem;
+      max-width: 100%;
+      overflow-x: hidden;
     }
     .page__title {
       max-width: 100%;

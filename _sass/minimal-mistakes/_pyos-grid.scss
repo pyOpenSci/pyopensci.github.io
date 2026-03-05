@@ -177,13 +177,24 @@ $colors: (
 
     // Home page new contributors: single row of 5, smaller cards, more gap
     &.entries-grid--contributors {
-      grid-template-columns: repeat(5, 1fr);
+      grid-template-columns: 1fr; // Mobile: 1 column
       grid-gap: 1rem;
       justify-items: center;
       > * {
         max-width: 200px;
         min-width: 0;
         width: 100%;
+      }
+      @media (min-width: $small) {
+        grid-template-columns: repeat(2, 1fr); // Small: 2 columns
+      }
+
+      @media (min-width: $medium) {
+        grid-template-columns: repeat(3, 1fr); // Medium: 3 columns
+      }
+
+      @media (min-width: $large) {
+        grid-template-columns: repeat(5, 1fr); // Large: 5 columns
       }
       .people-card {
         h4.person_name {
@@ -226,14 +237,14 @@ $colors: (
 .packages-grid {
   display: grid;
   grid-gap: 10px;
-  grid-template-columns: 1fr; // Mobile: 1 column
+  grid-template-columns: minmax(0, 1fr); // Mobile: 1 column, allow shrink
 
   @media (min-width: $small) {
-    grid-template-columns: repeat(2, 1fr); // Small: 2 columns
+    grid-template-columns: repeat(2, minmax(0, 1fr)); // Small: 2 columns
   }
 
   @media (min-width: $medium) {
-    grid-template-columns: repeat(3, 1fr); // Medium and above: 3 columns (max)
+    grid-template-columns: repeat(3, minmax(0, 1fr)); // Medium and above: 3 columns (max)
   }
 
   // Feature package cards - compact display
@@ -564,16 +575,26 @@ $colors: (
 
 
 
-  /* max 480 px */
+  /* max 480 px - unified home page card scale */
   @media screen and (max-width: $mobile) {
-    // large buttons are disproportionately large
-    // Elements outside of notice blocks such as the blog page
+    // Shared scale: card padding 0.75em, title 1rem, body 0.875rem
+    .cards.highlight .card-body {
+      padding: 0.75em;
+      p {
+        font-size: 0.875rem;
+      }
+      h2.card-title {
+        font-size: 1rem;
+      }
+    }
+
     .blog__grid {
       h3.card__title-container {
         padding: 0;
       }
       .card-excerpt p {
-        line-height: 1.8rem;
+        line-height: 1.5;
+        font-size: 0.875rem;
       }
       .card__bkg .card__title-container {
         padding: 0;
@@ -590,15 +611,10 @@ $colors: (
 
     // the home page has this grid in a notice block
     .notice {
-      .card-body p, .card-body h2 {
-        line-height: 1.1;
-        padding: 0rem 1rem;
-        font-size: .9rem;
-      }
 
       .blog__grid {
-        font-size: 1.3em;
-        grid-template-columns: repeat(auto-fill, minmax(95%, 1fr))!important;
+        font-size: 1rem;
+        grid-template-columns: repeat(auto-fill, minmax(95%, 1fr)) !important;
         grid-auto-rows: 0fr!important;
         grid-column-gap: 7px;
         grid-row-gap: 1rem!important;
@@ -606,14 +622,24 @@ $colors: (
         padding: 0;
 
         .card-body {
-          font-size: .95rem;
+          padding: 0.75em;
+          font-size: 0.875rem;
+        }
+        .card-body p,
+        .card-body h2 {
+          line-height: 1.4;
+          padding: 0;
+          font-size: 0.875rem;
+        }
+        h3.card-title {
+          font-size: 1rem;
         }
         .cards {
-          margin: 0 0! important;
+          margin: 0 0 !important;
         }
 
-        & a {
-          font-size: 1.3em;
+        a {
+          font-size: 1em;
         }
       }
 

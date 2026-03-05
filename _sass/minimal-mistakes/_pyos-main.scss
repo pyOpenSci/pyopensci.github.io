@@ -25,7 +25,7 @@ img {
 }
 
 
-div > div {
+div > div:not(.package-card__content) {
   padding: 10px;
 }
 
@@ -54,9 +54,10 @@ h2.clearall {
   font-size: .9em;
 }
 
-
-.wide .archive {
-  width: calc(100% - 100px);
+@include breakpoint($large) {
+  .wide .archive {
+    width: calc(100% - 100px);
+  }
 }
 
 .wide__p_text {
@@ -135,7 +136,10 @@ h2.clearall {
     width: 100%!important;
   }
 
-  h1, h2, h3, .archive__item-title {
+  h1,
+  h2,
+  h3:not(.package-card__title),
+  .archive__item-title {
     font-size: 1.6em!important;
   }
   .btn--large {

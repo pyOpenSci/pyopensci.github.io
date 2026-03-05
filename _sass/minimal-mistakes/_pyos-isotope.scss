@@ -303,4 +303,19 @@ input[type="text"] {
     margin-left: 0;
     margin-right: 0;
   }
+
+  // Align with blog cards: padding 0.75em, title 0.9rem, body 0.875rem
+  .package-card .package-card__content {
+    padding: 0.75em !important;
+  }
+
+  .package-card .package-card__title {
+    font-size: 0.9rem;
+    word-break: break-word;
+  }
+
+  .package-card .package-card__meta,
+  .package-card .package-card__description {
+    font-size: 0.875rem;
+  }
 }
