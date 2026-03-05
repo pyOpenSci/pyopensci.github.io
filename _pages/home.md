@@ -1,13 +1,13 @@
 ---
 layout: splash
-title: "Welcome to pyOpenSci"
-excerpt: "We make it easier for scientists to create, find, maintain, and contribute to reusable code and software."
+title: "pyOpenSci: Strengthening Scientific Open Source. Together"
+excerpt: "Supporting the contributors and developers who fuel scientific discovery through open source."
 author_profile: false
 published: true
 site-map: true
 permalink: /
 header:
-  overlay_image: /images/headers/pyopensci-sprints.png
+  overlay_image: images/headers/pyopensci-sprints-2025.png
   overlay_filter: 0.7
   actions:
     - label: "Submit a Package For Review"
@@ -17,7 +17,7 @@ header:
 mission:
   - excerpt: "pyOpenSci broadens participation in scientific open source by breaking down social and technical barriers. Join our global community."
 peer-review:
-  - image_path: images/landing-pages/software-peer-review.png
+  - image_path: /images/landing-pages/scipy-sprint-working.png
     alt: "Light purple image that says software Peer Review. On the image is a woman at a laptop with a pyOpenSci logo on it and a cup of coffee next to her. There is a very light flower in the bottom right hand corner. "
     title: "We Run Software Peer Review"
     excerpt: "We review Python packages and software with the goal of helping scientists build better, discoverable and usable software. <br><br>
@@ -27,18 +27,18 @@ peer-review:
     <i class='fa-solid fa-check-double'></i> Submit a package today for review today. <br>
     <i class='fa-solid fa-check-double'></i> Apply to become a reviewer. <br>
     "
-  - image_path: images/landing-pages/community-partnerships.png
+  - image_path: images/landing-pages/scipy-bof-working.png
     alt: "Light purple image with a bunch from different backgrounds of stick figure people in a slightly darker color. The text on the image at the top says Community Partnerships"
-    title: "We Build Community Partnerships"
+    title: "We Connect Researcher, Contributors and Developers"
     excerpt: "
-      We [partner with open source communities](https://www.pyopensci.org/partners.html) to share resources and processes such as Peer review. <br><br>
+      pyOpenSci brings together researchers, core Python and conda
+      developers, and data scientists from organizations like NVIDIA
+      and Microsoft — alongside university partners like Stanford —
+      to collectively strengthen scientific open source.
 
-      Learn more about our partnerships with: <br>
-
-      <i class='fa-solid fa-handshake'></i> [JOSS](https://www.pyopensci.org/software-peer-review/partners/joss.html) <br>
-      <i class='fa-solid fa-handshake'></i> [Astropy](https://www.pyopensci.org/software-peer-review/partners/astropy.html) <br>
+      We partner with open source communities to share resources, knowledge and processes like peer review.
       "
-  - image_path: images/landing-pages/simple-python-packaging-header.png
+  - image_path: images/landing-pages/scipy-sprint-2026.png
     title: "We Break Down Python Packaging Painpoints"
     alt: Light purple image that says python packaging guide and below it says simplifying python packaging. The background is a grey laptop with a hand looking down at the laptop the above.
     excerpt: "
@@ -53,9 +53,7 @@ peer-review:
       "
 ---
 
-{% include feature_row id="mission" type="center" %}
-
-## Peer review of Python software to support open science
+## Our programs are community powered
 
 {% include feature_row_pyos id="peer-review"%}
 
