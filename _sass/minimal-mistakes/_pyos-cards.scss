@@ -478,12 +478,41 @@
   }
 }
 
-// Responsive adjustments for people cards
+// Responsive adjustments (align with home page card scale: padding 0.75em, title 1rem, body 0.875rem)
 @media screen and (max-width: $mobile) {
+  .people-card .people-card__content {
+    padding: 0.75em;
+  }
+
   .people-card {
-    .people-card__content {
-      .ppl_social {
-        font-size: 0.9em !important;
+    h4.person_name {
+      font-size: 1rem;
+    }
+
+    p.page__meta,
+    p.contrib_org,
+    .ppl_social {
+      font-size: 0.875rem;
+    }
+  }
+
+  .upcoming-events-list .event-card {
+    .event-card__date {
+      padding: 0.75em;
+    }
+    .event-card__date-text {
+      font-size: 1rem;
+      span:last-of-type {
+        font-size: 0.75rem;
+      }
+    }
+    .event-card__details {
+      padding: 0.75em;
+      h3 {
+        font-size: 1rem;
+      }
+      p {
+        font-size: 0.875rem;
       }
     }
   }
