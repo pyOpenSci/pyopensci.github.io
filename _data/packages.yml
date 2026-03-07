@@ -94,13 +94,13 @@
       name: astropy
       description: Astronomy and astrophysics core library
       created_at: '2011-07-21'
-      stargazers_count: 5056
+      stargazers_count: 5059
       watchers_count: 137
-      open_issues_count: 1306
-      forks_count: 2018
+      open_issues_count: 1305
+      forks_count: 2020
       documentation: https://www.astropy.org
       contrib_count: 445
-      last_commit: '2026-03-04'
+      last_commit: '2026-03-06'
   labels:
     - 6/pyOS-approved
     - astropy
@@ -299,7 +299,7 @@
       stargazers_count: 19
       watchers_count: 1
       open_issues_count: 1
-      forks_count: 1
+      forks_count: 2
       documentation: https://blockingpy.readthedocs.io/en/latest/
       contrib_count: 1
       last_commit: '2025-11-28'
@@ -445,7 +445,7 @@
       forks_count: 3
       documentation:
       contrib_count: 2
-      last_commit: '2026-03-03'
+      last_commit: '2026-03-06'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -589,13 +589,13 @@
       description: finite element analysis for continuum mechanics of solid
           bodies
       created_at: '2021-04-22'
-      stargazers_count: 164
+      stargazers_count: 165
       watchers_count: 4
       open_issues_count: 7
       forks_count: 17
       documentation: https://felupe.readthedocs.io/en/stable
       contrib_count: 4
-      last_commit: '2026-02-26'
+      last_commit: '2026-03-05'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -798,9 +798,9 @@
       name: great-tables
       description: Make awesome display tables using Python
       created_at: '2022-05-06'
-      stargazers_count: 2615
+      stargazers_count: 2614
       watchers_count: 14
-      open_issues_count: 127
+      open_issues_count: 128
       forks_count: 117
       documentation: https://posit-dev.github.io/great-tables/
       contrib_count: 29
@@ -1177,7 +1177,7 @@
       stargazers_count: 342
       watchers_count: 12
       open_issues_count: 5
-      forks_count: 75
+      forks_count: 74
       documentation: https://pooltool.readthedocs.io
       contrib_count: 10
       last_commit: '2026-01-27'
@@ -1445,7 +1445,7 @@
       forks_count: 10
       documentation: https://usepa.github.io/harmonize-wq/
       contrib_count: 6
-      last_commit: '2026-02-27'
+      last_commit: '2026-03-05'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1667,13 +1667,13 @@
       name: sunpy
       description: SunPy - Python for Solar Physics
       created_at: '2011-08-06'
-      stargazers_count: 1003
+      stargazers_count: 1004
       watchers_count: 44
       open_issues_count: 280
       forks_count: 647
       documentation: https://www.sunpy.org
       contrib_count: 244
-      last_commit: '2026-02-24'
+      last_commit: '2026-03-06'
   labels:
     - 6/pyOS-approved
   active: true
@@ -2025,7 +2025,7 @@
       created_at: '2021-09-08'
       stargazers_count: 240
       watchers_count: 9
-      open_issues_count: 49
+      open_issues_count: 51
       forks_count: 43
       documentation: https://xgi.readthedocs.io
       contrib_count: 19
@@ -2078,7 +2078,7 @@
       description: A unifying framework for biomedical research knowledge
           graphs
       created_at: '2021-09-10'
-      stargazers_count: 291
+      stargazers_count: 292
       watchers_count: 7
       open_issues_count: 182
       forks_count: 45
@@ -2591,13 +2591,13 @@
       name: pygmt
       description: A Python interface for the Generic Mapping Tools.
       created_at: '2017-03-17'
-      stargazers_count: 843
+      stargazers_count: 844
       watchers_count: 27
       open_issues_count: 125
       forks_count: 231
       documentation: https://www.pygmt.org
       contrib_count: 51
-      last_commit: '2026-03-04'
+      last_commit: '2026-03-05'
   labels:
     - 6/pyOS-approved
   active: true
@@ -2939,11 +2939,11 @@
       created_at: '2018-12-16'
       stargazers_count: 1374
       watchers_count: 38
-      open_issues_count: 33
+      open_issues_count: 32
       forks_count: 202
       documentation: https://movingpandas.org
       contrib_count: 40
-      last_commit: '2026-03-04'
+      last_commit: '2026-03-05'
   labels:
     - 6/pyOS-approved
   active: true
@@ -2985,7 +2985,7 @@
       description: A light-weight, flexible, and expressive statistical data
           testing library
       created_at: '2018-11-01'
-      stargazers_count: 4215
+      stargazers_count: 4218
       watchers_count: 21
       open_issues_count: 439
       forks_count: 373
