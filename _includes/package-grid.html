@@ -50,10 +50,18 @@
       {% endif %}
       <li><a href="{{ apackage.issue_link }}"><i class="fa-solid fa-user-pen" aria-hidden="true"></i> View Review</a></li>
       {% if apackage.joss %}
-        <li><a href="{{ apackage.archive }}" rel="permalink"><i class="fas fa-bookmark fa-fw" aria-hidden="true"></i> JOSS Approved</a></li>
+        <li><a href="{{ apackage.joss }}" rel="permalink"><i class="fas fa-file-alt fa-fw" aria-hidden="true"></i> JOSS Publication</a></li>
+      {% endif %}
+      {% if apackage.publications %}
+        {% for pub in apackage.publications %}
+          <li><a href="{{ pub.url }}" rel="permalink"><i class="fas fa-file-alt fa-fw" aria-hidden="true"></i> {{ pub.name }}</a></li>
+        {% endfor %}
       {% endif %}
       {% if apackage.partners contains "astropy" %}
         <li><a href="communities/astropy.html"><i class="fa-solid fa-check-double" aria-hidden="true"></i> <img src="https://img.shields.io/badge/Affiliated-Astropy-orange.svg?style=flat" alt="Astropy" /></a></li>
+      {% endif %}
+      {% if apackage.date_accepted and apackage.date_accepted != "missing" %}
+        <li class="package-card__date-accepted"><i class="fas fa-calendar-check" aria-hidden="true"></i> Accepted: {{ apackage.date_accepted }}</li>
       {% endif %}
       {% if apackage.active == false %}
         <li class="package-card__archived"><i class="fa-solid fa-box-archive" aria-hidden="true"></i> Archived</li>
