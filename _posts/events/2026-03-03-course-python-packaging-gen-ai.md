@@ -1,7 +1,7 @@
 ---
 layout: splash
 classes: flowing
-title: "Ship It: Python Packaging in the GenAI Era"
+title: "Ship It: Research Software Development in the GenAI Era"
 excerpt: >
   A trusted 10-day hands-on asynchronous cohort-based course developed by
   pyOpenSci for Stanford University and the CURIOSS network.
