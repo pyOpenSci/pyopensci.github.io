@@ -3,20 +3,19 @@ name: Update Contribs & reviewers
 on:
   workflow_dispatch:
   schedule:
-    # Runs daily at 03:21 UTC (see https://crontab.guru)
-    # (Choosing an "odd" time so CI doesn't get overloaded at mightnight exactly.)
-    - cron: "3 21 * * *"
+    # Runs weekly on Monday at 03:21 UTC (see https://crontab.guru)
+    - cron: "21 3 * * 1"
 jobs:
   run-meta:
     if: github.repository_owner == 'pyopensci'
     runs-on: ubuntu-latest
     steps:
       - name: Check out the code
-        uses: actions/checkout@v6
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v4
       - name: Setup Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405 # v5
         with:
-          python-version: "3.10"
+          python-version: "3.11"
       - name: Upgrade pip
         run: |
           # install pip=>20.1 to use "pip cache dir"
@@ -31,7 +30,7 @@ jobs:
           update-review-teams
 
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v8
+        uses: peter-evans/create-pull-request@c0f553fe549906ede9cf27b5156039d195d2ece0  # v8.1.0
         with:
           add-paths: |
             _data/contributors.yml
