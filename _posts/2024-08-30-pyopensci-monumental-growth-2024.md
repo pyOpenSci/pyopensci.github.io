@@ -331,7 +331,7 @@ I'll dedicate another blog post to examining this data more thoroughly. Still, y
 
 ## A thoughtful, kind, and supportive community is what makes pyOpenSci special
 
-Every morning, I wake up and am excited to begin my work. It doesn't matter if I'm working on budgets and other Executive Director-type tasks or developing educational content and teaching (my two favorite things); I can't wait to see what messages pop up in my inbox, be it Slack, email, Discord, or GitHub. I love my job because the pyOpenSci community is extraordinary.
+Every morning, I wake up and am excited to begin my work. It doesn't matter if I'm working on budgets and other Executive Director-type tasks or developing educational content and teaching (my two favorite things); I can't wait to see what messages pop up in my inbox, be it Slack, email, or GitHub. I love my job because the pyOpenSci community is extraordinary.
 
 <i class="fa-solid fa-circle-check" style="color: #63E6BE;"></i> People care about our organization's mission to help scientists make their science more open and collaborative. So they can solve the world's greatest challenges.
 

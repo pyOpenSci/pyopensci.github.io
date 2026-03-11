@@ -84,7 +84,7 @@ You can also:
 
 Follow us on social platforms:
 
-* [Discord](https://discord.com/invite/yYyDFP2BcP)
+
 * [Mastodon](https://fosstodon.org/@pyopensci)
 * [Bluesky](https://bsky.app/profile/pyopensci.org)
 * [LinkedIn](https://www.linkedin.com/company/pyopensci/)
