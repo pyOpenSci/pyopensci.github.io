@@ -274,7 +274,7 @@ ecosystem. These include:
 2. Encouraging scientists to write better code, share their code, and build better software.
 3. Ensuring scientists get credit for their open-source work.
 4. Addressing the ongoing challenges of packaging in the Python ecosystem-—a topic
-   I discussed in my [PyCon talk in April](blog/python-packaging-friends-dont-let-friends-package-alone.html),
+   I discussed in my [PyCon talk in April](/blog/python-packaging-friends-dont-let-friends-package-alone.html),
    which is also available on [YouTube](https://www.youtube.com/watch?v=mJPoj9Ex9fk&list=PL2Uw4_HvXqvYhjub9bw4uDAmNtprgAvlJ). I'd love for you to check it out!
 
 ### pyOpenSci's Python packaging guidebook is having a positive impact on the scientific Python ecosystem

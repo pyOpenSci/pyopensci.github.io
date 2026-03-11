@@ -91,7 +91,7 @@ at the SciPy meetings.
 
 pyOpenSci's design is also based on our experiences developing software peer review guidelines for Python packages. According to our surveys, 80% of our maintainers and reviewers identify strongly as scientists.
 
-As we developed our [peer review guide]((https://www.pyopensci.org/software-peer-review/)), it became clear that a beginner-friendly packaging guide was essential to support scientists in sharing their code because:
+As we developed our [peer review guide](https://www.pyopensci.org/software-peer-review/), it became clear that a beginner-friendly packaging guide was essential to support scientists in sharing their code because:
 
 1. [Our pre-review software checks](https://www.pyopensci.org/software-peer-review/how-to/editor-in-chief-guide.html#editor-checklist-template) require basic package infrastructure. Scientists must be clear about the core elements of a Python package.
 2. We want to help scientists make their packages more maintainable over time by adding tests and [continuous integration (CI)](https://www.pyopensci.org/python-package-guide/tests/tests-ci.html#run-tests-with-continuous-integration) checks that run when someone submits a suggested change (or a pull request). We want to set scientists up for success.
@@ -198,7 +198,7 @@ Our Python packaging tutorials went through the same community development and r
 
 ### Teaching online lessons is the best way to ensure they stay current
 
-I have created hundreds of [open online lessons](https://www.leahwasser.com/my-path-to-open-education-earth-environmental-data-science) both for ecologists [NEON](https://www.neonscience.org/resources/learning-hub/teaching-modules/quantifying-drivers-and-impacts-natural-disturbance-events) and earth and environmental scientists (formally earthdatascience.org). One of the biggest challenges is that it's easy for data science lessons to [become dated quickly](https://www.leahwasser.com/open-education-data-science-posting-online-is-not-enough)--especially in the rapidly evolving data science space. By teaching the lessons, we can update them regularly as the ecosystem evolves. We also often have users review the lessons at our [annual sprint events](blog/pyopensci-pyconus-2024-sprints.html) to test them out; more on pyOpenSci beginner-friendly sprints below.
+I have created hundreds of [open online lessons](https://www.leahwasser.com/my-path-to-open-education-earth-environmental-data-science) both for ecologists [NEON](https://www.neonscience.org/resources/learning-hub/teaching-modules/quantifying-drivers-and-impacts-natural-disturbance-events) and earth and environmental scientists (formally earthdatascience.org). One of the biggest challenges is that it's easy for data science lessons to [become dated quickly](https://www.leahwasser.com/open-education-data-science-posting-online-is-not-enough)--especially in the rapidly evolving data science space. By teaching the lessons, we can update them regularly as the ecosystem evolves. We also often have users review the lessons at our [annual sprint events](/blog/pyopensci-pyconus-2024-sprints.html) to test them out; more on pyOpenSci beginner-friendly sprints below.
 
 <i class="fa-solid fa-heart-pulse" style="color: #B197FC;"></i><i class="fa-solid fa-heart-pulse" style="color: #B197FC;"></i><i class="fa-solid fa-heart-pulse" style="color: #B197FC;"></i><i class="fa-solid fa-heart-pulse" style="color: #B197FC;"></i><i class="fa-solid fa-heart-pulse" style="color: #B197FC;"></i><i class="fa-solid fa-heart-pulse" style="color: #B197FC;"></i>
 
