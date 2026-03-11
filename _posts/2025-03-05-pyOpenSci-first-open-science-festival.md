@@ -83,7 +83,7 @@ We kicked the event off on Monday, October 28, with a morning of KeyNote talks h
 
 {% include video id="JfpetG7nVgc" provider="youtube" %}
 
-[Eric's talk](human-dimension-clean-documented-data-science-code.html) highlighted how simple practices like clear documentation, readable code, and user-friendly installation can amplify the impact of data science projects.
+[Eric's talk](/blog/human-dimension-clean-documented-data-science-code.html) highlighted how simple practices like clear documentation, readable code, and user-friendly installation can amplify the impact of data science projects.
 
 A standout moment? The "Roast Your Repo" exercise! Eric invited attendees to critique a repository from his thesis, showcasing the power of small improvements—like adding a fleshed-out README or modularizing code—to make research reusable and collaborative. It was a fun, hands-on way to explore how the human touch transforms code quality. And let's be honest, we all likely have one of those code bases or repos from our early degrees! I sure do (and it's not even on GitHub!).
 
@@ -144,12 +144,12 @@ Each day introduced new tools and practices to help participants transform their
 
 ### Day 1: Write Better, Cleaner Scientific Code
 
-We started by diving into [writing better, cleaner code](https://www.pyopensci.org/lessons/clean-modular-code/intro-clean-code.html#intro-clean-code). Participants explored how to make their code:
-- [DRY (Don’t Repeat Yourself)](https://www.pyopensci.org/lessons/clean-modular-code/python-dry-modular-code.html) and modular,
-- [Expressive](https://www.pyopensci.org/lessons/clean-modular-code/python-write-expressive-code.html) and easy to understand,
-- [Consistent with Python style guidelines](https://www.pyopensci.org/lessons/clean-modular-code/python-pep-8.html) like PEP 8.
+We started by diving into [writing better, cleaner code](https://www.pyopensci.org/lessons/write-better-code/clean-modular-code/). Participants explored how to make their code:
+- [DRY (Don’t Repeat Yourself)](https://www.pyopensci.org/lessons/write-better-code/clean-modular-code/python-dry-modular-code.html) and modular,
+- [Expressive](https://www.pyopensci.org/lessons/write-better-code/clean-modular-code/python-write-expressive-code.html) and easy to understand,
+- [Consistent with Python style guidelines](https://www.pyopensci.org/lessons/write-better-code/clean-modular-code/python-pep-8.html) like PEP 8.
 
-We introduced strategies to improve robustness, such as creating [functions](https://www.pyopensci.org/lessons/code-workflow-logic/intro.html) and using [tests and checks](https://www.pyopensci.org/lessons/code-workflow-logic/python-function-checks.html) to validate outputs.
+We introduced strategies to improve robustness, such as creating [functions](https://www.pyopensci.org/lessons/write-better-code/optimize-code/) and using [tests and checks](https://www.pyopensci.org/lessons/write-better-code/optimize-code/python-function-checks.html) to validate outputs.
 
 ### Day 2: Create Your First Python Package
 
@@ -174,10 +174,10 @@ On Day 4, we empowered participants to share their work more broadly. Many learn
 {: .highlight-quote .magenta }
 
  Key share your code topics included:
-- [Why sharing code matters](https://www.pyopensci.org/lessons/publish-share-code/share-code.html),
-- [Adding a DOI to code using Zenodo](https://www.pyopensci.org/lessons/publish-share-code/cite-code.html),
+- [Why sharing code matters](https://www.pyopensci.org/lessons/package-share-code/publish-share-code/share-code.html),
+- [Adding a DOI to code using Zenodo](https://www.pyopensci.org/lessons/package-share-code/publish-share-code/cite-code.html),
 - Publishing through [JOSS](https://joss.theoj.org/) or the [pyOpenSci peer review process](https://www.pyopensci.org/about-peer-review/index.html),
-- Publishing code on [PyPI](https://www.pyopensci.org/lessons/publish-share-code/publish-code.html#pypi) using Hatch.
+- Publishing code on [PyPI](https://www.pyopensci.org/lessons/package-share-code/publish-share-code/publish-code.html#pypi) using Hatch.
 - NOTE: we also have a [publish to conda-forge lesson](https://www.pyopensci.org/python-package-guide/package-structure-code/publish-python-package-pypi-conda.html).
 
 <figure class="align-center">
@@ -190,7 +190,7 @@ On Day 4, we empowered participants to share their work more broadly. Many learn
 
 We wrapped up with an introduction to [Quarto](https://quarto.org/), a powerful tool for creating dynamic, interactive scientific narratives. Participants explored how to integrate code, data, and findings into a cohesive story—transforming static publications into living, engaging documents.
 
-We also showcased [Quarto Live](https://quarto.org/docs/live/), which lets users dynamically interact with code in the browser. For educators, this opens exciting opportunities to create lessons where students can learn directly in a live coding environment. How cool is that?
+We also showcased [Quarto Live](https://quarto.org/docs/guide/), which lets users dynamically interact with code in the browser. For educators, this opens exciting opportunities to create lessons where students can learn directly in a live coding environment. How cool is that?
 
 Fun fact: GreatTables has been [accepted by pyOpenSci](https://github.com/pyOpenSci/software-submission/issues/202) with the plan to be fast-tracked through the Journal of Open Source Software (JOSS) after the pyOpenSci review through [our JOSS partnership](https://www.pyopensci.org/software-peer-review/partners/joss.html).
 

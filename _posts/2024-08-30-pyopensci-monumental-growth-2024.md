@@ -306,7 +306,7 @@ In four months, we published a shiny new peer review guide. In January 2023, we 
 
 <!-- TODO: rename  repo to "guide" (rename it to be metrics and then link to it) -->
 
-You can see more of our [peer review metrics on our MyST Markdown metrics dashboard here](https://www.pyopensci.org/peer-review-metrics/pyopensci-peer-review-stats)
+You can see more of our [peer review metrics on our MyST Markdown metrics dashboard here](https://www.pyopensci.org/peer-review/peer-review-status-dashboard.html)
 {: .button }
 
 
@@ -331,7 +331,7 @@ I'll dedicate another blog post to examining this data more thoroughly. Still, y
 
 ## A thoughtful, kind, and supportive community is what makes pyOpenSci special
 
-Every morning, I wake up and am excited to begin my work. It doesn't matter if I'm working on budgets and other Executive Director-type tasks or developing educational content and teaching (my two favorite things); I can't wait to see what messages pop up in my inbox, be it Slack, email, or GitHub. I love my job because the pyOpenSci community is extraordinary.
+Every morning, I wake up and am excited to begin my work. It doesn't matter if I'm working on budgets and other Executive Director-type tasks or developing educational content and teaching (my two favorite things); I can't wait to see what messages pop up in my inbox, be it email or GitHub. I love my job because the pyOpenSci community is extraordinary.
 
 <i class="fa-solid fa-circle-check" style="color: #63E6BE;"></i> People care about our organization's mission to help scientists make their science more open and collaborative. So they can solve the world's greatest challenges.
 

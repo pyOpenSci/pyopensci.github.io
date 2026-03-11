@@ -387,7 +387,7 @@ about all things Python, open source, and open science.
 
 * I worked with Sarah Kaiser on our new GitHub container to support workshops.
 * I had an _ad hoc_ sprint with [Angus](https://github.com/agoose77) and [Rowan](https://github.com/rowanc1) from the [MyST Markdown](https://mystmd.org/) community
-  to develop our [pyOpenSci peer review metrics dashboard](https://www.pyopensci.org/peer-review-metrics).
+  to develop our [pyOpenSci peer review metrics dashboard](https://www.pyopensci.org/metrics/).
 
 Additionally, I caught up with colleagues, chatting about packaging and scientific Python.
 
@@ -435,7 +435,7 @@ We had a great group this year who worked on a variety of tasks, including:
 * Someone enthusiastic about Sphinx worked on our [pyos-sphinx-theme](https://github.com/pyOpenSci/pyos-sphinx-theme).
   pyOpenSci has several online "books" that would benefit from using the same
   theme and colors that follow the pyOpenSci brand.
-* A handful of people contributed to our MyST Markdown [peer review metrics dashboard](https://www.pyopensci.org/peer-review-metrics).
+* A handful of people contributed to our MyST Markdown [peer review metrics dashboard](https://www.pyopensci.org/metrics/).
 
 <figure class="half">
     <a href="{{ site.baseurl }}/images/blog/2024/july/pyopensci-sprints-day-1.png">

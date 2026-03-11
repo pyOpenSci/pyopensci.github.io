@@ -15,7 +15,7 @@ comments: true
 last_modified: 2025-09-11
 ---
 
-The summer was full of connection, collaboration, and momentum in the pyOpenSci community. Whether you joined us at [SciPy](https://scipy.org/), submitted a package for review, or just lurked in Slack, we’re so grateful you’re here!
+The summer was full of connection, collaboration, and momentum in the pyOpenSci community. Whether you joined us at [SciPy](https://scipy.org/), submitted a package for review, or just lurked, we’re so grateful you’re here!
 
 Here’s what’s been happening 👇
 
@@ -111,7 +111,6 @@ Here, we’ll walk you through building your first Python package using Hatch, U
 ## **🛠️ How You Can Get Involved**
 
 * Volunteer with pyOpenSci – from peer review to outreach, we welcome contributors of all kinds.
-* Join our Slack – connect with the scientific Python and open science community.
 * Follow us – [LinkedIn](https://www.linkedin.com/company/pyopensci/), [Mastodon](https://fosstodon.org/@pyOpenSci), [Bluesky](https://bsky.app/profile/pyopensci.org).
 
 ---
