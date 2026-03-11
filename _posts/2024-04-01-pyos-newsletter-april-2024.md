@@ -59,7 +59,7 @@ Online tickets are still available for [PyConDE & PyData Berlin](https://2024.py
 [Registration is still open](https://us.pycon.org/2024/) for [PyCon US 2024](https://us.pycon.org/2024/), happening May 15th–23rd in Pittsburgh, PA. There’s also an online component for folks who can’t be there in person. It’s shaping up to be a stacked event, and you can view the schedule [here](https://us.pycon.org/2024/schedule/).
 
 ### GeoPython
-Registration is live for [GeoPython](https://2024.geopython.net/), THE event for Python- and Geo-Enthusiasts. There are online and in-person options, and the event is scheduled for May 27th–29th in Basel, Switzerland.
+Registration is live for [GeoPython](https://geo-python-site.readthedocs.io/en/2024.0/), THE event for Python- and Geo-Enthusiasts. There are online and in-person options, and the event is scheduled for May 27th–29th in Basel, Switzerland.
 
 ### SciPy–early bird ends soon!
 Happening July 8th–14th in Tacoma, WA, [SciPy registration is live](https://www.scipy2024.scipy.org/), and you can grab your early bird tickets until April 30th.

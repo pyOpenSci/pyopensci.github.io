@@ -146,7 +146,7 @@ There are lots of ways to get involved if you are interested!
 
 You can also:
 
-* Keep an eye on our [events page](https://www.pyopensci.org/events/index.html) for upcoming training events.
+* Keep an eye on our [events page](https://www.pyopensci.org/events.html) for upcoming training events.
 
 Follow us on social platforms:
 
