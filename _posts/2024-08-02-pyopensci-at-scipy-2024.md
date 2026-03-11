@@ -275,7 +275,7 @@ ecosystem. These include:
 3. Ensuring scientists get credit for their open-source work.
 4. Addressing the ongoing challenges of packaging in the Python ecosystem-—a topic
    I discussed in my [PyCon talk in April](/blog/python-packaging-friends-dont-let-friends-package-alone.html),
-   which is also available on [YouTube](https://www.youtube.com/watch?v=mJPoj9Ex9fk&list=PL2Uw4_HvXqvYhjub9bw4uDAmNtprgAvlJ). I'd love for you to check it out!
+   which was also available on YouTube (video/playlist may have been moved). I'd love for you to check out the [SciPy 2024 conference site](https://www.scipy2024.scipy.org/) for current talks and tutorials.
 
 ### pyOpenSci's Python packaging guidebook is having a positive impact on the scientific Python ecosystem
 
