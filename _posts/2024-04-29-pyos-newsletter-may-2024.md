@@ -87,7 +87,7 @@ If you weren’t able to attend PyConDE & PyData Berlin 2024 to hear [Inessa Paw
 
 ## <i class="fa-brands fa-python"></i> Upcoming Python events for scientists
 ### PyCon US
-[Registration is still open](https://us.pycon.org/2024/accounts/login/?next=/2024/registration/register) for [PyCon US 2024](https://us.pycon.org/2024/), happening May 15th–23rd in Pittsburgh, PA. There’s also an online component for folks who can’t be there in person. It’s shaping up to be a stacked event, and you can [view the schedule here](https://us.pycon.org/2024/schedule/).
+[Registration is still open](https://us.pycon.org/2024/) for [PyCon US 2024](https://us.pycon.org/2024/), happening May 15th–23rd in Pittsburgh, PA. There’s also an online component for folks who can’t be there in person. It’s shaping up to be a stacked event, and you can [view the schedule here](https://us.pycon.org/2024/schedule/).
 
 ### PyCon Italia
 Fancy a trip to Florence? Then grab your tickets for PyCon Italia! The conference runs Wednesday, May 22nd through Saturday, May 25th, and has a stacked list of [keynote speakers](https://2024.pycon.it/en/schedule/2024-05-22?view=grid).

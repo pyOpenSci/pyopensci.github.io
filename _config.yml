@@ -193,6 +193,7 @@ exclude:
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
   - styles/* # text spelling check
+  - lychee-report.md
 keep_files:
   - .git
   - .svn

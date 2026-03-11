@@ -32,8 +32,6 @@ You can choose to work on your own machine during the workshop or use the GitHub
 
 We encourage you to use GitHub Codespaces! If you prefer to install things locally, please do so **before** the workshop.
 
-[Need help? Ask us on Discord.](https://discord.gg/m7RFFxnc)
-
 ### 1. Make sure you have a GitHub and Test PyPI account
 
 Before the workshop, please create and log into the following accounts:
@@ -61,7 +59,6 @@ If you're comfortable with Python environments, arrive with an environment that 
 > * JupyterLab or Jupyter Notebook is **not ideal** for the packaging work we’ll be doing.
 {: .notice }
 
-If you run into issues, please [join our Discord and ask for help](https://discord.gg/m7RFFxnc) before the workshop.
 
 
 ## 2b. If you plan to use GitHub Codespaces (SUGGESTED)

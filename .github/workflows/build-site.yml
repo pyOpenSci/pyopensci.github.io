@@ -37,12 +37,12 @@ jobs:
         uses: lycheeverse/lychee-action@8646ba30535128ac92d33dfc9133794bfdd9b411 #v2.8.0
         with:
           fail: true
-          args: --verbose --no-progress _site/*.html
+          args: --verbose --no-progress --root-dir _site --exclude 'zenodo\.org' _site
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
       - name: Check HTML using htmlproofer
-        uses: chabad360/htmlproofer@v2
+        uses: chabad360/htmlproofer@c2750eb7eb937599ac859517e7dd23a29f1b3ed7 #v2
         with:
           directory: "_site"
           arguments: |

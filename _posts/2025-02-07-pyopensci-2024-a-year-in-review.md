@@ -85,7 +85,7 @@ To further our commitment to equity, we awarded 25+ scholarships to support part
 
 ### Event Highlights: Fall Festival
 
-Our first-ever [Fall Festival](#) featured inspiring keynote speakers like Rowan Cockett, who introduced participants to [MyST Markdown](https://mystmd.org/), Melissa Mendoça who discussed her personal pathway into open source from academia, and Eric Ma, who overviewed the importance of [reproducibility in science](/human-dimension-clean-documented-data-science-code.html).
+Our first-ever [Fall Festival](#) featured inspiring keynote speakers like Rowan Cockett, who introduced participants to [MyST Markdown](https://mystmd.org/), Melissa Mendoça who discussed her personal pathway into open source from academia, and Eric Ma, who overviewed the importance of [reproducibility in science](/blog/human-dimension-clean-documented-data-science-code.html).
 
 On the event's last day, George Stagg, developer of Quarto Live, and James Balamuta kicked off the day with an overview of how Quarto Live makes interactive publishing of dynamic scientific outputs easier, connecting scientific workflows with shared outputs.
 
@@ -115,10 +115,10 @@ The Fall Festival wouldn’t have been possible without the dedication of our in
 #### Open education lessons from the Fall Festival
 Participants didn’t just learn—they contributed! Thanks to the collaborative energy, the event produced several lessons that are now freely available to the community:
 
-- [Writing Clean Code](https://www.pyopensci.org/lessons/clean-modular-code/intro-clean-code.html#intro-clean-code)
-- [Optimizing Code for Better Workflows](https://www.pyopensci.org/lessons/code-workflow-logic/intro.html)
-- [Running Code Efficiently](https://www.pyopensci.org/lessons/running-code/intro.html)
-- [Publishing and Sharing Code](https://www.pyopensci.org/lessons/publish-share-code/intro.html)
+- [Writing Clean Code](https://www.pyopensci.org/lessons/write-better-code/clean-modular-code/)
+- [Optimizing Code for Better Workflows](https://www.pyopensci.org/lessons/write-better-code/optimize-code/)
+- [Running Code Efficiently](https://www.pyopensci.org/lessons/package-share-code/run-code/)
+- [Publishing and Sharing Code](https://www.pyopensci.org/lessons/package-share-code/publish-share-code/)
 
 These lessons reinforce key technical skills and showcase the power of community-driven learning and co-creation.
 

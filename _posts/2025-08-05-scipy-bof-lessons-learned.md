@@ -221,11 +221,10 @@ Whether you’re new to open science or have been building tools for decades, th
 
 You can also:
 
-* Keep an eye on our [events page](https://www.pyopensci.org/events/index.html) for upcoming training events.
+* Keep an eye on our [events page](https://www.pyopensci.org/events.html) for upcoming training events.
 
 Follow us on social platforms:
 
-* [Discord](https://discord.com/invite/yYyDFP2BcP)
 * [Mastodon](https://fosstodon.org/@pyopensci)
 * [Bluesky](https://bsky.app/profile/pyopensci.org)
 * [LinkedIn](https://www.linkedin.com/company/pyopensci/)
