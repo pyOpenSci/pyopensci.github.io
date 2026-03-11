@@ -266,6 +266,15 @@ input[type="text"] {
         align-items: center;
         gap: 0.4em;
       }
+
+      // Date accepted styling
+      &.package-card__date-accepted {
+        color: #666;
+        font-size: 0.875em;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4em;
+      }
     }
   }
 }
