@@ -25,7 +25,7 @@ Here’s what’s been happening 👇
 
 **Welcome, Philip Narteh!**
 
-We’re thrilled to welcome [**Philip Narteh**](https://github.com/Phinart98) as pyOpenSci’s very first **Open Source Infrastructure Intern**, supported by [Quansight Labs](https://labs.quansight.org/), [Melissa Mendonça](https://github.com/melissawm), and [Tania Allard](https://github.com/trallard). Philip will be helping us migrate our website to [Django](https://www.djangoproject.com/), bringing valuable experience in accessibility within the Django ecosystem. We’re so excited to have you here, Philip!
+We’re thrilled to welcome [**Philip Narteh**](https://github.com/Phinart98) as pyOpenSci’s very first **Open Source Infrastructure Intern**, supported by [Quansight](https://quansight.com/), [Melissa Mendonça](https://github.com/melissawm), and [Tania Allard](https://github.com/trallard). Philip will be helping us migrate our website to [Django](https://www.djangoproject.com/), bringing valuable experience in accessibility within the Django ecosystem. We’re so excited to have you here, Philip!
 
 **Contributor milestones**
 

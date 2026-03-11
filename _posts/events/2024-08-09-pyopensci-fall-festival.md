@@ -6,7 +6,7 @@ author:
 event:
   start_date: "2024-10-28"
   end_date: "2024-11-01"
-  location: Online using [Gather](https://www.gather.town/)
+  location: Online using Spatial Chat
 permalink: /events/pyopensci-2024-fall-festival.html
 header:
   overlay_image: images/headers/pyopensci-sustainability.png
@@ -34,7 +34,7 @@ Interested? Read on to learn more!
 ## <i class="fa-regular fa-file-lines"></i> pyOpenSci's 2024 Fall Festival logistics:
 
 * **What:** An online community training and networking event
-* **Where:** Online using [SpatialChat]([https://www.gather.town/](https://www.spatial.chat/)) (learn more about SpatialChats's system requirements [here](https://guide.spatialinc.com/hc/en-us/articles/1500004491422-Minimum-System-Requirements)
+* **Where:** Online using SpatialChat (learn more about SpatialChats's system requirements [here](https://guide.spatialinc.com/hc/en-us/articles/1500004491422-Minimum-System-Requirements)
 * **When:** Monday, October 28--Friday, November 01, 2024
 * **Who:** If you are a scientist, a researcher, a student, or anyone interested in writing better, cleaner code that can be installed into different environments and shared, then this event is for you!
 * **Cost - Day 1 Keynote talks:** free.
@@ -114,16 +114,16 @@ Our speakers for the Fall Festival are:
 * [Melissa Mendoça](https://github.com/melissawm)
 * [Rowan Cockett](https://curvenote.com/mission)
 
-We'll also hold "Day 0" office hours for all registered workshop attendees. Drop into our Day 0 office hours to say hello, get used to using our online platform, [Gather](https://www.gather.town/), and get help with any computer setup issues you might have before the workshops begin.
+We'll also hold "Day 0" office hours for all registered workshop attendees. Drop into our Day 0 office hours to say hello, get used to using our online platform, Spatial Chat, and get help with any computer setup issues you might have before the workshops begin.
 
 We want to set you up for learning success!
 
 #### Keynote speaker bios
 
 **[Eric Ma](https://ericmjl.github.io/)**
-As Senior Principal Data Scientist at [Moderna](https://www.modernatx.com/en-US) Eric leads the Data Science and Artificial Intelligence (Research) team to accelerate science to the speed of thought. Prior to Moderna, he was at the [Novartis Institutes for Biomedical Research](https://www.novartis.com/research-and-development) conducting biomedical data science research with a focus on using Bayesian statistical methods in the service of discovering medicines for patients. Prior to Novartis, he was an [Insight Health Data Fellow](https://insightfellows.com/health-data) in the summer of 2017 and defended his doctoral [thesis](https://ericmjl.github.io/thesis/) in the [Department of Biological Engineering](https://be.mit.edu/) at [MIT](https://web.mit.edu/) in the spring of 2017.
+As Senior Principal Data Scientist at [Moderna](https://www.modernatx.com/en-US) Eric leads the Data Science and Artificial Intelligence (Research) team to accelerate science to the speed of thought. Prior to Moderna, he was at the [Novartis Institutes for Biomedical Research](https://www.novartis.com/research-and-development) conducting biomedical data science research with a focus on using Bayesian statistical methods in the service of discovering medicines for patients. Prior to Novartis, he was an Insight Health Data Fellow in the summer of 2017 and defended his doctoral [thesis](https://ericmjl.github.io/thesis/) in the [Department of Biological Engineering](https://be.mit.edu/) at [MIT](https://web.mit.edu/) in the spring of 2017.
 
-Eric is also an open-source software developer and has led the development of [pyjanitor](https://github.com/pyjanitor-devs/pyjanitor), a clean API for cleaning data in Python, and [nxviz](https://github.com/ericmjl/nxviz), a visualization package for NetworkX. He is also on the core developer team of NetworkX and PyMC. In addition, he gives back to the community through [code contributions](https://deploy-preview-108--ericmjl-github-io.netlify.app/open-source/), [blogging](https://deploy-preview-108--ericmjl-github-io.netlify.app/blog/), [teaching](https://deploy-preview-108--ericmjl-github-io.netlify.app/teaching/), and [writing](https://deploy-preview-108--ericmjl-github-io.netlify.app/books/).
+Eric is also an open-source software developer and has led the development of [pyjanitor](https://github.com/pyjanitor-devs/pyjanitor), a clean API for cleaning data in Python, and [nxviz](https://github.com/ericmjl/nxviz), a visualization package for NetworkX. He is also on the core developer team of NetworkX and PyMC. In addition, he gives back to the community through [code contributions](https://ericmjl.github.io/open-source/), [blogging](https://ericmjl.github.io//blog/), [teaching](https://ericmjl.github.io/teaching/), and [writing](https://ericmjl.github.io/books/).
 
 His personal life motto is found in the Gospel of Luke 12:48.
 

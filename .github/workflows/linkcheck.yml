@@ -35,7 +35,7 @@ jobs:
           args: >
             --verbose
             --no-progress
-            --root-dir _site
+            --root-dir ${{ github.workspace }}/_site
             --exclude 'zenodo\.org'
             _site
         env:
