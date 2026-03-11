@@ -38,7 +38,7 @@ You can read more about sunPy and pyOpenSci in [this lovely blog post](https://s
 Have a package you’ve developed, but aren’t sure it’s in scope for pyOpenSci? Complete a [pre-submission inquiry](https://github.com/pyOpenSci/software-submission/issues/new?assignees=&labels=presubmission&projects=&template=presubmission-inquiry.md&title=) and one of our editors will be in touch!
 
 ## <i class="fa-solid fa-plane-departure"></i> We're going to [PyCon US](https://us.pycon.org/2024/)
-Will we see you there? Our Executive Director and Founder, [Leah Wasser](https://github.com/lwasser), had her talk. [Friends don't let friends package alone](https://us.pycon.org/2024/schedule/presentation/34/), all about Python packaging for scientists, accepted for this May's conference. We've seen a sneak peek of her talk, and guarantee that you won't want to miss it! Be sure to [register today](https://us.pycon.org/2024/accounts/login/?next=/2024/registration/register)!
+Will we see you there? Our Executive Director and Founder, [Leah Wasser](https://github.com/lwasser), had her talk. [Friends don't let friends package alone](https://us.pycon.org/2024/schedule/presentation/34/), all about Python packaging for scientists, accepted for this May's conference. We've seen a sneak peek of her talk, and guarantee that you won't want to miss it! Be sure to [register today](https://us.pycon.org/2024/)!
 
 ## <i class="fa-regular fa-heart"></i> Congratulations, Leah!
 

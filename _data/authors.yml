@@ -18,9 +18,6 @@ pyopensci:
     - label: "Mastodon"
       icon: "fab fa-fw fa-mastodon"
       url: "https://fosstodon.org/@pyopensci"
-    - label: "Discord"
-      icon: "fab fa-fw fa-discord"
-      url: "https://discord.gg/yYyDFP2BcP"
 
 
 Executive Council:
@@ -119,9 +116,6 @@ Jesse Mostipak:
     - label: "Mastodon"
       icon: "fab fa-fw fa-mastodon"
       url: "https://fosstodon.org/@pyopensci"
-    - label: "Discord"
-      icon: "fab fa-fw fa-discord"
-      url: "https://discord.gg/yYyDFP2BcP"
 Carlos Ramos Carreño:
   name        : "Carlos Ramos Carreño"
   bio         : "Software Developer"
@@ -195,9 +189,6 @@ Mandy Moore:
     - label: "Mastodon"
       icon: "fab fa-fw fa-mastodon"
       url: "https://fosstodon.org/@pyopensci"
-    - label: "Discord"
-      icon: "fab fa-fw fa-discord"
-      url: "https://discord.gg/yYyDFP2BcP"
 Jeremiah Paige:
   name      : "Jeremiah Paige"
   bio       : "Python Speaker, Teacher, and Contributor of Open Source"

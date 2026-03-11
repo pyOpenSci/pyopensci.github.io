@@ -36,7 +36,7 @@ You can see this profound impact in the plot below.
 
 
 <figure>
-    <a href="{{ site.baseurl }}/images/peer-review/pyopensci-python-software-peer-review-growth.png"><img src=" {{ site.baseurl }}/images/peer-review/pyopensci-python-software-peer-review-growth.png" alt=" A cumulative sum plot with months on the x-axis and number of review issues submitted on the y-axis. The curve starts with a small slope in 2019. Around January 2023, the slope becomes significantly steeper, indicating a dramatic increase in submissions when we reopened the peer review. At that point in the plot, there is a label that says 'Full-time funding'." ></a>
+    <a href="{{ site.baseurl }}/images/peer-review/pyopensci-python-software-peer-review-growth.png"><img src="{{ site.baseurl }}/images/peer-review/pyopensci-python-software-peer-review-growth.png" alt="A cumulative sum plot with months on the x-axis and number of review issues submitted on the y-axis. The curve starts with a small slope in 2019. Around January 2023, the slope becomes significantly steeper, indicating a dramatic increase in submissions when we reopened the peer review. At that point in the plot, there is a label that says 'Full-time funding'." ></a>
     <figcaption>It is clear the impact that 1) working on our peer review guide and governance plus 2) funding, which allowed me to devote all of my professional time to pyOpenSci, had on our peer review program. It has been incredibly successful in the past year! And true success lies in the hands of the community that leads the review process. Today, on average, pyOpenSci has 10-14 packages in our software review queue.
 </figcaption>
 </figure>
@@ -55,7 +55,7 @@ Funding has also allowed us to run events. In the past year, over 51 people have
 Contributions to pyOpenSci have also skyrocketed in the past two years.
 
 <figure>
-    <a href="{{ site.baseurl }}/images/open-source/pyopensci-contributions-by-quarter.png"><img src=" {{ site.baseurl }}/images/open-source/pyopensci-contributions-by-quarter.png" alt=" Bar chart titled 'Staff vs. Volunteer Contributor by Quarter.' The chart shows counts of contributions made by staff and volunteers from 2018 Q4 through 2024 Q3. Contributions are stacked, with purple representing staff and green representing volunteers. The chart reveals a significant growth in contributions over time, particularly from 2022 onward, with a notable increase in both staff and volunteer contributions in 2023 and 2024. The pyOpenSci logo is in the bottom-right corner." ></a>
+    <a href="{{ site.baseurl }}/images/open-source/pyopensci-contributions-by-quarter.png"><img src="{{ site.baseurl }}/images/open-source/pyopensci-contributions-by-quarter.png" alt="Bar chart titled 'Staff vs. Volunteer Contributor by Quarter.' The chart shows counts of contributions made by staff and volunteers from 2018 Q4 through 2024 Q3. Contributions are stacked, with purple representing staff and green representing volunteers. The chart reveals a significant growth in contributions over time, particularly from 2022 onward, with a notable increase in both staff and volunteer contributions in 2023 and 2024. The pyOpenSci logo is in the bottom-right corner." ></a>
     <figcaption>A bar plot showing staff vs volunteer contributions on GitHub over time. Funding has allowed us to support more volunteer activity over the past 2 years.
 </figcaption>
 </figure>

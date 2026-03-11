@@ -15,7 +15,7 @@ comments: true
 last_modified: 2025-09-11
 ---
 
-The summer was full of connection, collaboration, and momentum in the pyOpenSci community. Whether you joined us at [SciPy](https://scipy.org/), submitted a package for review, or just lurked in Slack, we’re so grateful you’re here!
+The summer was full of connection, collaboration, and momentum in the pyOpenSci community. Whether you joined us at [SciPy](https://scipy.org/), submitted a package for review, or just lurked, we’re so grateful you’re here!
 
 Here’s what’s been happening 👇
 
@@ -25,7 +25,7 @@ Here’s what’s been happening 👇
 
 **Welcome, Philip Narteh!**
 
-We’re thrilled to welcome [**Philip Narteh**](https://github.com/Phinart98) as pyOpenSci’s very first **Open Source Infrastructure Intern**, supported by [Quansight Labs](https://labs.quansight.org/), [Melissa Mendonça](https://github.com/melissawm), and [Tania Allard](https://github.com/trallard). Philip will be helping us migrate our website to [Django](https://www.djangoproject.com/), bringing valuable experience in accessibility within the Django ecosystem. We’re so excited to have you here, Philip!
+We’re thrilled to welcome [**Philip Narteh**](https://github.com/Phinart98) as pyOpenSci’s very first **Open Source Infrastructure Intern**, supported by [Quansight](https://quansight.com/), [Melissa Mendonça](https://github.com/melissawm), and [Tania Allard](https://github.com/trallard). Philip will be helping us migrate our website to [Django](https://www.djangoproject.com/), bringing valuable experience in accessibility within the Django ecosystem. We’re so excited to have you here, Philip!
 
 **Contributor milestones**
 
@@ -111,7 +111,6 @@ Here, we’ll walk you through building your first Python package using Hatch, U
 ## **🛠️ How You Can Get Involved**
 
 * Volunteer with pyOpenSci – from peer review to outreach, we welcome contributors of all kinds.
-* Join our Slack – connect with the scientific Python and open science community.
 * Follow us – [LinkedIn](https://www.linkedin.com/company/pyopensci/), [Mastodon](https://fosstodon.org/@pyOpenSci), [Bluesky](https://bsky.app/profile/pyopensci.org).
 
 ---
@@ -146,11 +145,11 @@ There are lots of ways to get involved if you are interested!
 
 You can also:
 
-* Keep an eye on our [events page](https://www.pyopensci.org/events/index.html) for upcoming training events.
+* Keep an eye on our [events page](https://www.pyopensci.org/events.html) for upcoming training events.
 
 Follow us on social platforms:
 
-* [Discord](https://discord.com/invite/yYyDFP2BcP)
+
 * [Mastodon](https://fosstodon.org/@pyopensci)
 * [Bluesky](https://bsky.app/profile/pyopensci.org)
 * [LinkedIn](https://www.linkedin.com/company/pyopensci/)

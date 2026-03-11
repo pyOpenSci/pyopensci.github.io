@@ -43,7 +43,7 @@ Projects that manage to attract and maintain a broad base of contributors will b
 
 It is very important to us that the tools and processes we stand behind support the full set of community standards.
 
-For Python, this typically means conforming to [Python Enhancement Proposals](pep.python.org), but may also involve other standard bodies such as [Scientific Python Ecosystem Coordination](https://scientific-python.org/specs/).
+For Python, this typically means conforming to [Python Enhancement Proposals](https://peps.python.org), but may also involve other standard bodies such as [Scientific Python Ecosystem Coordination](https://scientific-python.org/specs/).
 
 Supporting community standards demonstrates that the project respects the community it is working within and is serious about interoperability with other tools and processes. When done right, these tools empower their users to move this workflow, or any of its inputs or outputs, to another standards-compliant tool or process with little to no friction. It also makes it easier to teach since many of the concepts, as well as in some cases entire parts of project data, are tool-agnostic and can feel "familiar" even to those that have never used the tool before. There is also likely to be more documentation developed through forums, blogs, workshops, and other online platforms, because they apply to more than one tool.
 

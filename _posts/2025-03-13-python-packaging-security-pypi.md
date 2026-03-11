@@ -65,7 +65,7 @@ The Ultralytics breach highlights the need for us all to follow and understand s
 First, make sure that your PyPI publish GitHub Action uses an isolated GitHub environment. Isolated environments ensure your publishing process remains secure even if other parts of your CI pipeline are compromised. This is because you can lock an environment down by ensuring that only specific users can authorize this environment to run.
 
 
-A GitHub Action is a CI/CD (Continuous Integration/Continuous Deployment) tool that allows you to automate tests. [Click here to read more about what CI/CI is.](https://www.pyopensci.org/python-package-guide/continuous-integration/ci.html)
+A GitHub Action is a CI/CD (Continuous Integration/Continuous Deployment) tool that allows you to automate tests. [Click here to read more about what CI/CI is.](https://www.pyopensci.org/python-package-guide/maintain-automate/ci.html)
 {: .notice .notice--success }
 
 If you look at the workflow example below, notice that we have an [environment called `pypi`](https://github.com/pyOpenSci/pyosMeta/blob/2a09fba/.github/workflows/publish-pypi.yml#L57) that is used for trusted publishing. The `pypi` environment creates a direct link between this action and PyPI Trusted Published (discussed below).
@@ -179,7 +179,7 @@ For an example of a GitHub workflow that uses Trusted Publishing, check out our 
 
 ## <i class="fa-solid fa-check-double"></i> 3. Add `zizmor` to your CI workflows
 
-Finally, consider adding [Zizmor](https://woodruffw.github.io/zizmor/) to your [Continuous Integration (CI)](https://www.pyopensci.org/python-package-guide/continuous-integration/ci.html#what-is-continuous-integration) and [pre-commit checks](https://www.pyopensci.org/python-package-guide/package-structure-code/code-style-linting-format.html#use-pre-commit-hooks-to-run-code-formatters-and-linters-on-commits).
+Finally, consider adding [Zizmor](https://woodruffw.github.io/zizmor/) to your [Continuous Integration (CI)](https://www.pyopensci.org/python-package-guide/maintain-automate/ci.html#what-is-continuous-integration) and [pre-commit checks](https://www.pyopensci.org/python-package-guide/package-structure-code/code-style-linting-format.html#use-pre-commit-hooks-to-run-code-formatters-and-linters-on-commits).
 
 Zizmor is a static analysis tool designed to help identify GitHub Action security issues. Zizmor scans your workflows and highlights common vulnerabilities, ensuring your continuous integration / continuous deployment pipelines remain secure and efficient.
 

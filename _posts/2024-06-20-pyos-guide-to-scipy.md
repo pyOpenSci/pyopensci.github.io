@@ -21,10 +21,10 @@ last_modified: 2024-08-29
 ## <i class="fa-solid fa-chalkboard-user"></i> Tutorials
 
 ### [Interactive data visualizations with Bokeh (in 2024)](https://cfp.scipy.org/2024/talk/JRLMLD/)
-Along with [Timo Metzger](https://cfp.scipy.org/2024/speaker/HMRG3H/) and [Bryan Van de Ven](https://cfp.scipy.org/2024/speaker/BBLFMK/), pyOpenSci community member [Pavithra Eswaramoorthy](https://www.linkedin.com/in/pavithraes/) will be covering everything you need to know to create beautiful and powerful interactive plots from scratch using Bokeh’s latest features. Starting with a quick introduction of Bokeh’s core concepts, the team will cover creating and customizing simple static plots like line and bar charts before introducing layers of interactivity, creating specialized plotting features like geographic maps, contour plots, Mathematical Text, and discussing new additions to Bokeh like ImageStacks. By the end, you will be able to create a complete interactive dashboard using Bokeh.
+Along with Timo Metzger and Bryan Van de Ven, pyOpenSci community member [Pavithra Eswaramoorthy](https://www.linkedin.com/in/pavithraes/) will be covering everything you need to know to create beautiful and powerful interactive plots from scratch using Bokeh’s latest features. Starting with a quick introduction of Bokeh’s core concepts, the team will cover creating and customizing simple static plots like line and bar charts before introducing layers of interactivity, creating specialized plotting features like geographic maps, contour plots, Mathematical Text, and discussing new additions to Bokeh like ImageStacks. By the end, you will be able to create a complete interactive dashboard using Bokeh.
 
 ### [3D Visualization with PyVista](https://cfp.scipy.org/2024/talk/GKGRWE/)
-Led by [Tetsuo Koyama](https://cfp.scipy.org/2024/speaker/WY7NA9/), [Alexander Kaszynski](https://cfp.scipy.org/2024/speaker/3RXHG8/), [Bill Little](https://cfp.scipy.org/2024/speaker/FDVWDN/), and pyOpenSci peer review spatial editor [Bane Sullivan](https://www.linkedin.com/in/bane-sullivan/), this tutorial demonstrates [PyVista’s](https://github.com/pyvista/pyvista) latest capabilities and bring a wide range of users to the forefront of 3D visualization in Python, including:
+Led by Tetsuo Koyama, Alexander Kaszynski, Bill Little, and pyOpenSci peer review spatial editor [Bane Sullivan](https://www.linkedin.com/in/bane-sullivan/), this tutorial demonstrates [PyVista’s](https://github.com/pyvista/pyvista) latest capabilities and bring a wide range of users to the forefront of 3D visualization in Python, including:
 * Use PyVista to create 3D visualizations from a variety of datasets in common formats.
 * Overview the classes and data structures of PyVista with real-world examples.
 * Be familiar of the various filters and features of PyVista.
@@ -32,7 +32,7 @@ Led by [Tetsuo Koyama](https://cfp.scipy.org/2024/speaker/WY7NA9/), [Alexander K
 * We see this tutorial catering to anyone who wants to visualize data in any domain, and this ranges from basic Python users to advanced power users.
 
 ### [From RAGS to riches: Build an AI document inquiry web-app](https://cfp.scipy.org/2024/talk/W3ZJWG/)
-[Pavithra Eswaramoorthy](https://cfp.scipy.org/2024/speaker/QGMGFB/), a Developer Advocate at [Quansight](https://quansight.com/), is teaming up with [Dharhas Pothina](https://cfp.scipy.org/2024/speaker/EKHUEY/) and [Andrew Huang](https://cfp.scipy.org/2024/speaker/QSLXKW/) to cover how to use RAG to build document-inquiry chat systems using different commercial and locally running LLMs. The topics we’ll cover include:
+Pavithra Eswaramoorthy, a Developer Advocate at [Quansight](https://quansight.com/), is teaming up with Dharhas Pothina and Andrew Huang to cover how to use RAG to build document-inquiry chat systems using different commercial and locally running LLMs. The topics we’ll cover include:
 * **Introduction to RAG**, how it works and interacts with LLMs, and Ragna - a framework for RAG orchestration
 * **Creating and optimizing a basic chat function** that uses popular LLMs (like GPT) answers questions about your documents, using a Python API in Jupyter Notebooks
 * **Running a local LLM on GPUs** on the provided platform, and comparing its performance to commercial LLMs
@@ -44,7 +44,7 @@ By the end of this tutorial, you will have an understanding of the fundamental c
 By the end of this tutorial, you will have an understanding of the fundamental components that form a RAG model, and practical knowledge of open source tools that can help you or your organization explore and build on your own applications. This tutorial is designed to enable enthusiasts in our community to explore an interesting topic using some beginner-friendly Python libraries.
 
 ### [Create Your First Python Package: Make Your Python Code Easier to Share and Use](https://cfp.scipy.org/2024/talk/QT9GBY/)
-Led by pyOpenSci’s Executive Director and Founder, [Leah Wasser](https://github.com/lwasser), along with pyOpenSci editor [Isabel Zimmerman](https://cfp.scipy.org/2024/speaker/AVSVUJ/) and [Jeremiah Page](https://cfp.scipy.org/2024/speaker/LJ7ZSP/), who leads work on the [pyOpenSci packaging guide](https://www.pyopensci.org/python-package-guide/index.html), this tutorial session will teach you how to:
+Led by pyOpenSci’s Executive Director and Founder, [Leah Wasser](https://github.com/lwasser), along with pyOpenSci editor Isabel Zimmerman and Jeremiah Page, who leads work on the [pyOpenSci packaging guide](https://www.pyopensci.org/python-package-guide/index.html), this tutorial session will teach you how to:
 * Create code that can be installed into different environments
 * Use [Hatch](https://hatch.pypa.io/latest/) as a workflow tool, making setup and installation of your code easier
 * Use Hatch to publish your package to (test) PyPI
@@ -55,7 +55,7 @@ Creating code that can be shared and reused is the gold-standard of open science
 
 ### [Data of an Unusual Size (2024 edition): A practical guide to analysis and interactive visualization of massive datasets](https://cfp.scipy.org/2024/talk/UKLNLQ/)
 
-[Pavithra Eswaramoorthy](https://cfp.scipy.org/2024/speaker/QGMGFB/) and [Dharhas Pothina](https://cfp.scipy.org/2024/speaker/EKHUEY/), both from [Quansight](https://quansight.com/), will help you learn the fundamentals of analyzing massive datasets with real-world examples on actual powerful machines on a public cloud provided by the presenters – starting from how the data is stored and read, to how it is processed and visualized.
+Pavithra Eswaramoorthy and Dharhas Pothina, both from [Quansight](https://quansight.com/), will help you learn the fundamentals of analyzing massive datasets with real-world examples on actual powerful machines on a public cloud provided by the presenters – starting from how the data is stored and read, to how it is processed and visualized.
 
 ## <i class="fa-regular fa-comments"></i> Talks
 

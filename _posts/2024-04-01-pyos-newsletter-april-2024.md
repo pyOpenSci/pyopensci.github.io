@@ -26,7 +26,7 @@ pyOpenSci editors are volunteers who fulfill a critical role within pyOpenSci. E
 
 ## <i class="fa-solid fa-computer"></i> PyCon US 2024 Maintainers Summit
 
-We’ve been talking (a lot) about the [PyCon Maintainers Summit](https://us.pycon.org/2024/events/maintainers-summit/) (which is now full, but [you can sign up for the waitlist](https://us.pycon.org/2024/events/maintainers-summit/)), happening this May in Pittsburgh. The Maintainers Summit, included in your [PyCon registration](https://us.pycon.org/2024/accounts/login/?next=/2024/registration/register), is where we come together to discuss and foster best practices on how to develop sustainable projects and nurture thriving communities. And thanks to [Mariatta Wijaya](https://mariatta.ca/), we’ve got an inside look into everything you can expect in [this incredible video](https://www.youtube.com/watch?v=L-Ok_89QJOM) featuring Kara Sowles, Inessa Pawson, and our Executive Director, Leah Wasser!
+We’ve been talking (a lot) about the [PyCon Maintainers Summit](https://us.pycon.org/2024/events/maintainers-summit/) (which is now full, but [you can sign up for the waitlist](https://us.pycon.org/2024/events/maintainers-summit/)), happening this May in Pittsburgh. The Maintainers Summit, included in your [PyCon registration](https://us.pycon.org/2024/), is where we come together to discuss and foster best practices on how to develop sustainable projects and nurture thriving communities. And thanks to [Mariatta Wijaya](https://mariatta.ca/), we’ve got an inside look into everything you can expect in [this incredible video](https://www.youtube.com/watch?v=L-Ok_89QJOM) featuring Kara Sowles, Inessa Pawson, and our Executive Director, Leah Wasser!
 
 <a href="https://www.youtube.com/watch?v=L-Ok_89QJOM" target="_blank">
  <img src="/images/newsletter/04-2024-newsletter/ms-pycon-2024.png" alt="Watch the video" width="720" height="540" border="10" />
@@ -59,7 +59,7 @@ Online tickets are still available for [PyConDE & PyData Berlin](https://2024.py
 [Registration is still open](https://us.pycon.org/2024/) for [PyCon US 2024](https://us.pycon.org/2024/), happening May 15th–23rd in Pittsburgh, PA. There’s also an online component for folks who can’t be there in person. It’s shaping up to be a stacked event, and you can view the schedule [here](https://us.pycon.org/2024/schedule/).
 
 ### GeoPython
-Registration is live for [GeoPython](https://2024.geopython.net/), THE event for Python- and Geo-Enthusiasts. There are online and in-person options, and the event is scheduled for May 27th–29th in Basel, Switzerland.
+Registration is live for [GeoPython](https://geo-python-site.readthedocs.io/en/2024.0/), THE event for Python- and Geo-Enthusiasts. There are online and in-person options, and the event is scheduled for May 27th–29th in Basel, Switzerland.
 
 ### SciPy–early bird ends soon!
 Happening July 8th–14th in Tacoma, WA, [SciPy registration is live](https://www.scipy2024.scipy.org/), and you can grab your early bird tickets until April 30th.

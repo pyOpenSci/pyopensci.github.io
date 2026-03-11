@@ -40,4 +40,4 @@ Her role supports one of the most essential parts of pyOpenSci’s mission: **ma
 
 Mandy lives in **York, Pennsylvania,** with her partner **Keith**, their three kids, and two very good dogs: **Gallagher**, a gentle golden retriever, and **Luna**, a tiny but mighty miniature Yorkshire Terrier. Outside of work, she’s a lifelong writer, recovering perfectionist, and astrology nerd who still gets excited about the magic of a well-written sentence. She’s currently in the middle of planning her November wedding, which means her calendar is full of both GitHub issues *and* flower mockups.
 
-Please join us in giving Mandy a warm welcome\! You can find her in the [pyOpenSci Slack](https://www.pyopensci.org/slack), or connect on [LinkedIn](https://www.linkedin.com/in/missmandymoore/) to say hi. You can also find her writing at <a href="https://www.exhotmess.net" target="_blank">exhotmess.net</a> and learn more about her tech work at [mandymoore.tech](https://www.mandymoore.tech).
+Please join us in giving Mandy a warm welcome! You can connect on LinkedIn to say hi. You can also find her writing at exhotmess.net and learn more about her tech work at mandymoore.tech.

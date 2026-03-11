@@ -36,8 +36,6 @@ You can choose to work on your own machine during the workshop or use the GitHub
 
 We encourage you to use GitHub Codespaces! If you prefer to install things locally, please do so **before** the workshop.
 
-[Need help? Ask us on Discord.](https://discord.gg/m7RFFxnc)
-
 
 ### 1. Make sure you have a GitHub and Test PyPI account
 
@@ -65,8 +63,6 @@ If you're comfortable with Python environments, arrive with an environment that 
 > * We strongly suggest that you go to GitHub.com and [Fork our SciPy 2025 workshop repository](https://github.com/pyOpenSci/pyopensci-scipy25-create-python-package) just in case something with your local installation isn't working. This will ensure that you can follow along with us regardless of your environment setup!
 > * JupyterLab or Jupyter Notebook is **not ideal** for the packaging work we’ll be doing.
 {: .notice }
-
-If you run into issues, please [join our Discord and ask for help](https://discord.gg/m7RFFxnc) before the workshop.
 
 
 ## 2b. If you plan to use GitHub Codespaces (SUGGESTED)
