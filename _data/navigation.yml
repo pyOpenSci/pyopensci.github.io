@@ -35,6 +35,8 @@ main:
     sub-nav:
       - title: Tutorials & Resources
         url: "learn.html"
+      - title: For universities & labs
+        url: "/learn-universities-labs.html"
       - title: Blog
         url: "/blog/index.html"
       - title: Events
