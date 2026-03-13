@@ -36,6 +36,7 @@ jobs:
             --no-progress
             --root-dir ${{ github.workspace }}/_site
             --exclude 'zenodo\.org'
+            --accept 403
             _site
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
