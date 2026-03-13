@@ -27,7 +27,7 @@ The irony of these three  different perspectives is that the challenges that use
 
 You can also watch the talk here:
 
-{% include video id="mJPoj9Ex9fk" provider="youtube" %}
+{% include video id="oA6-f7PtTQ4" provider="youtube" %}
 
 ### My early experiences with Python packaging
 

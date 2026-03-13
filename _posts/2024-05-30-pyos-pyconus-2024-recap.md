@@ -74,7 +74,7 @@ tech support, and even an “escort” from the speaker room to the main stage. 
 
 You can check it out on youtube below:
 
-{% include video id="mJPoj9Ex9fk" provider="youtube" %}
+{% include video id="oA6-f7PtTQ4" provider="youtube" %}
 
 Speaking of friends, it was my friends who got me through this talk. I saw them sitting in
 the front rows, smiling and supporting me. They both empowered me and gave me calm.
