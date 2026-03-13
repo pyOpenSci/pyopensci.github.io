@@ -218,7 +218,7 @@ Every person has different learning preferences. For many years, educators
 taught people the same way: in a classroom, using the same books and approaches.
 However, alternatives to this model allow learners to adapt their environment to
 their personal and learning goal needs.
-[Student-directed learning](https://scholar.google.com/scholar?q=student-directed+learning&hl=en&as_sdt=0&as_vis=1&oi=scholart)
+Student-directed learning
 is based on the idea that people learn differently and have different needs. By
 creating a hybrid learning environment where students are allowed to pick their
 learning path and approach, you empower them to own their experience.

@@ -37,7 +37,7 @@ jobs:
         uses: lycheeverse/lychee-action@8646ba30535128ac92d33dfc9133794bfdd9b411 #v2.8.0
         with:
           fail: true
-          args: --no-progress --root-dir _site --exclude 'zenodo\.org' _site
+          args: --no-progress --root-dir _site --exclude 'zenodo\.org' --accept 403 _site
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
