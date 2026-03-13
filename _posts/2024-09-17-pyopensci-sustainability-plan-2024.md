@@ -93,7 +93,7 @@ We offer scholarships to ensure that our events are inclusive. Scholarships work
 
 ### Open education will always be a priority for pyOpenSci
 
-We will also continue to offer free, community-vetted, open education resources. If you know me, you also know that I am deeply committed to creating high-quality open education resources. Open education has been a part of every program that I've built (e.g., [https://www.earthdatascience.org](https://www.earthdatascience.org) and NEON Data Skills.
+We will also continue to offer free, community-vetted, open education resources. If you know me, you also know that I am deeply committed to creating high-quality open education resources. Open education has been a part of every program that I've built (for example, www.earthdatascience.org) and NEON Data Skills.
 
 Our [Python packaging guide](https://www.pyopensci.org/python-package-guide/), which has ~80 contributors as I write this, is one successful example of community-vetted open education resources that the pyOpenSci community has co-created. It now has thousands of users.
 

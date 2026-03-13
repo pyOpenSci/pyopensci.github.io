@@ -92,7 +92,7 @@ was unforgettable.
 My talk focused on how pyOpenSci helps beginners by breaking down
 complex packaging concepts into simple, digestible pieces. I leaned into decades of
 experience and study of teaching data science to various audiences, from big-ten university students
-to students at under-resourced and under-served <a href="https://www.leahwasser.com/lessons-learned-working-with-tribal-hispanic-serving-schools-earth-data-science-corps" target="_blank">tribal colleges</a>. The essence of my talk was about the importance of
+to students at under-resourced and under-served tribal colleges. The essence of my talk was about the importance of
 community and collaboration in the thorny Python packaging ecosystem, and also why documentation should focus on fundamental concepts that users need to understand, rather than tools.
 
 Our pyOpenSci community has created a comprehensive, [beginner-friendly Python
