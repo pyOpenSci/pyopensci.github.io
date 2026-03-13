@@ -89,11 +89,11 @@ pyOpenSci is building a paid training event program that supports sustainability
 
 While we will charge for some training, access is integral to our training program. We will continue to develop ways to support broad participation and engagement in our programs, which is core to the pyOpenSci mission.
 
-We offer scholarships to ensure that our events are inclusive. Scholarships worked well for our [first successful online packaging training event](/events/april-2024-create-python-package-pyopensci-online-workshop.html) and allowed five people to attend our training at no cost. For our upcoming [Fall Festival](https://www.pyopensci.org/events/pyopensci-2024-fall-festival.html) (more on that below), we are also developing a sponsorship program that will allow companies, organizations, and individuals to support scholarships directly.
+We offer scholarships to ensure that our events are inclusive. Scholarships worked well for our [first successful online packaging training event](/events/april-2024-create-python-package-pyopensci-online-workshop.html) and allowed five people to attend our training at no cost. For our upcoming [Fall Festival](/events/pyopensci-2024-fall-festival.html) (more on that below), we are also developing a sponsorship program that will allow companies, organizations, and individuals to support scholarships directly.
 
 ### Open education will always be a priority for pyOpenSci
 
-We will also continue to offer free, community-vetted, open education resources. If you know me, you also know that I am deeply committed to creating high-quality open education resources. Open education has been a part of every program that I've built (e.g., [https://www.earthdatascience.org](https://www.earthdatascience.org) and NEON Data Skills.
+We will also continue to offer free, community-vetted, open education resources. If you know me, you also know that I am deeply committed to creating high-quality open education resources. Open education has been a part of every program that I've built (for example, www.earthdatascience.org) and NEON Data Skills.
 
 Our [Python packaging guide](https://www.pyopensci.org/python-package-guide/), which has ~80 contributors as I write this, is one successful example of community-vetted open education resources that the pyOpenSci community has co-created. It now has thousands of users.
 
@@ -152,7 +152,7 @@ As always, we'll collect your feedback as a part of each event. Your feedback an
 
 ### Our next event - Fall Festival
 
-The next pilot event in our training series is our [virtual Open Science Fall Festival](events/pyopensci-2024-fall-festival.html), October 28 - November 1 2024. This event is a combination of free talks, paid workshops, community engagement, and different sponsorship and scholarships models to ensure broad participation.
+The next pilot event in our training series is our [virtual Open Science Fall Festival](/events/pyopensci-2024-fall-festival.html), October 28 - November 1 2024. This event is a combination of free talks, paid workshops, community engagement, and different sponsorship and scholarships models to ensure broad participation.
 
 We've wrapped a lot together into one event!
 
@@ -165,7 +165,7 @@ Our goals for the Fall Festival are to:
 
 We're excited for this event! I'm excited to continue to test out these different approaches. And i'm excited about building and learning together with you and the broader scientific Python open science community.
 
-You can learn more about the [Open Science Fall Festival, here](https://www.pyopensci.org/events/pyopensci-2024-fall-festival.html). Please reach out if you have any questions.
+You can learn more about the [Open Science Fall Festival, here](/events/pyopensci-2024-fall-festival.html). Please reach out if you have any questions.
 
 We look forward to seeing you there!
 

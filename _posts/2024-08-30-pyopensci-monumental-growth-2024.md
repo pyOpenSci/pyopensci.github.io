@@ -19,7 +19,7 @@ last_modified: 2024-09-08
 
 I have been working full-time building pyOpenSci for two years now, thanks to funding from the [Sloan Foundation](https://sloan.org/) and [CZI (Chan Zuckerberg Initiative)](https://chanzuckerberg.com/). pyOpenSci has come SO FAR in two years.
 
-It's time to take a breath and celebrate everything the pyOpenSci community has accomplished. Before we move on to the next big thing—[our pyOpenSci Fall Festival](https://www.pyopensci.org/events/pyopensci-2024-fall-festival.html) (more on that below)—I want to take a moment to reflect on:
+It's time to take a breath and celebrate everything the pyOpenSci community has accomplished. Before we move on to the next big thing—[our pyOpenSci Fall Festival](/events/pyopensci-2024-fall-festival.html) (more on that below)—I want to take a moment to reflect on:
 
 * where we've been,
 * what we've accomplished, and
@@ -198,7 +198,7 @@ Our Python packaging tutorials went through the same community development and r
 
 ### Teaching online lessons is the best way to ensure they stay current
 
-I have created hundreds of [open online lessons](https://www.leahwasser.com/my-path-to-open-education-earth-environmental-data-science) both for ecologists [NEON](https://www.neonscience.org/resources/learning-hub/teaching-modules/quantifying-drivers-and-impacts-natural-disturbance-events) and earth and environmental scientists (formally earthdatascience.org). One of the biggest challenges is that it's easy for data science lessons to [become dated quickly](https://www.leahwasser.com/open-education-data-science-posting-online-is-not-enough)--especially in the rapidly evolving data science space. By teaching the lessons, we can update them regularly as the ecosystem evolves. We also often have users review the lessons at our [annual sprint events](/blog/pyopensci-pyconus-2024-sprints.html) to test them out; more on pyOpenSci beginner-friendly sprints below.
+I have created hundreds of open online lessons both for ecologists [NEON](https://www.neonscience.org/resources/learning-hub/teaching-modules/quantifying-drivers-and-impacts-natural-disturbance-events) and earth and environmental scientists (formally earthdatascience.org). One of the biggest challenges is that it's easy for data science lessons to become dated quickly --especially in the rapidly evolving data science space. By teaching the lessons, we can update them regularly as the ecosystem evolves. We also often have users review the lessons at our [annual sprint events](/blog/pyopensci-pyconus-2024-sprints.html) to test them out; more on pyOpenSci beginner-friendly sprints below.
 
 <i class="fa-solid fa-heart-pulse" style="color: #B197FC;"></i><i class="fa-solid fa-heart-pulse" style="color: #B197FC;"></i><i class="fa-solid fa-heart-pulse" style="color: #B197FC;"></i><i class="fa-solid fa-heart-pulse" style="color: #B197FC;"></i><i class="fa-solid fa-heart-pulse" style="color: #B197FC;"></i><i class="fa-solid fa-heart-pulse" style="color: #B197FC;"></i>
 
@@ -306,7 +306,7 @@ In four months, we published a shiny new peer review guide. In January 2023, we 
 
 <!-- TODO: rename  repo to "guide" (rename it to be metrics and then link to it) -->
 
-You can see more of our [peer review metrics on our MyST Markdown metrics dashboard here](https://www.pyopensci.org/peer-review/peer-review-status-dashboard.html)
+You can see more of our [peer review metrics on our MyST Markdown metrics dashboard here](https://www.pyopensci.org/metrics/peer-review/peer-review-status-dashboard.html)
 {: .button }
 
 

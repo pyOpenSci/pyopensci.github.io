@@ -34,7 +34,7 @@ Interested? Read on to learn more!
 ## <i class="fa-regular fa-file-lines"></i> pyOpenSci's 2024 Fall Festival logistics:
 
 * **What:** An online community training and networking event
-* **Where:** Online using SpatialChat (learn more about SpatialChats's system requirements [here](https://guide.spatialinc.com/hc/en-us/articles/1500004491422-Minimum-System-Requirements)
+* **Where:** Online using SpatialChat
 * **When:** Monday, October 28--Friday, November 01, 2024
 * **Who:** If you are a scientist, a researcher, a student, or anyone interested in writing better, cleaner code that can be installed into different environments and shared, then this event is for you!
 * **Cost - Day 1 Keynote talks:** free.

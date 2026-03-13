@@ -3,7 +3,7 @@ layout: single
 title: "Pandera: A Statistical Data Validation Toolkit for Pandas"
 excerpt: "Pandera is a a flexible and expressive toolkit for performing statistical validation checks on pandas data structures that was recently accepted into the pyOpenSci ecosystem. Learn more about Pandera."
 author: "Niels Bantilan"
-permalink: /blog/pandera-python-pandas-dataframe-validation
+permalink: /blog/pandera-python-pandas-dataframe-validation.html
 header:
     overlay_image: images/blog/headers/pandas.png
     caption: "Photo credit: [**Ann Batdorf, Smithsonian's National Zoo**](https://www.flickr.com/photos/nationalzoo/5371290900/in/photostream/)"

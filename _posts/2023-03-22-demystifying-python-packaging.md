@@ -43,7 +43,7 @@ The [packaging chapter of our guide](https://www.pyopensci.org/python-package-gu
 
 ## My jump into packaging
 
-In the Fall of 2022, in support of my [new role as Executive Director of pyOpenSci](https://www.pyopensci.org/blog/new-executive-director-leah-wasser), I began to explore Python packaging tools in an effort to update our guidebook in support of our [package peer review program](https://www.pyopensci.org/software-peer-review/about/our-goals.html).
+In the Fall of 2022, in support of my [new role as Executive Director of pyOpenSci](/blog/new-executive-director-leah-wasser.html), I began to explore Python packaging tools in an effort to update our guidebook in support of our [package peer review program](https://www.pyopensci.org/software-peer-review/about/our-goals.html).
 
 I saw significant community confusion around how to create a Python package. But, in my mind, it wouldn't be that big of a challenge to create a guidebook.
 

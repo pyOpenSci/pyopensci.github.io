@@ -3,7 +3,7 @@ layout: single
 title: "PyOpenSci at AGU 2019: Join Us"
 excerpt: "Several pyOpenSci and Open Source Software events will occur at AGU 2019. Come learn more about open source Python tools for science."
 author: "Leah Wasser"
-permalink: /blog/pyopensci-at-agu-2019-python
+permalink: /blog/pyopensci-at-agu-2019-python.html
 header:
     overlay_color: "#33205c"
 categories:
