@@ -89,7 +89,7 @@ pyOpenSci is building a paid training event program that supports sustainability
 
 While we will charge for some training, access is integral to our training program. We will continue to develop ways to support broad participation and engagement in our programs, which is core to the pyOpenSci mission.
 
-We offer scholarships to ensure that our events are inclusive. Scholarships worked well for our [first successful online packaging training event](/events/april-2024-create-python-package-pyopensci-online-workshop.html) and allowed five people to attend our training at no cost. For our upcoming [Fall Festival](/pyopensci-2024-fall-festival.html) (more on that below), we are also developing a sponsorship program that will allow companies, organizations, and individuals to support scholarships directly.
+We offer scholarships to ensure that our events are inclusive. Scholarships worked well for our [first successful online packaging training event](/events/april-2024-create-python-package-pyopensci-online-workshop.html) and allowed five people to attend our training at no cost. For our upcoming [Fall Festival](/events/pyopensci-2024-fall-festival.html) (more on that below), we are also developing a sponsorship program that will allow companies, organizations, and individuals to support scholarships directly.
 
 ### Open education will always be a priority for pyOpenSci
 
