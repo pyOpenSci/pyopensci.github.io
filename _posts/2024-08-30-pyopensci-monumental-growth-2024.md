@@ -306,7 +306,7 @@ In four months, we published a shiny new peer review guide. In January 2023, we 
 
 <!-- TODO: rename  repo to "guide" (rename it to be metrics and then link to it) -->
 
-You can see more of our [peer review metrics on our MyST Markdown metrics dashboard here](https://www.pyopensci.org/peer-review/peer-review-status-dashboard.html)
+You can see more of our [peer review metrics on our MyST Markdown metrics dashboard here](https://www.pyopensci.org/metrics/peer-review/peer-review-status-dashboard.html)
 {: .button }
 
 
