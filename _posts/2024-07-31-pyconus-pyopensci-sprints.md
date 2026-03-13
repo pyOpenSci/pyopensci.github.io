@@ -185,7 +185,7 @@ More on that next...
 founded on the idea that meaningful, applied projects are the best way to teach
 a topic. This works especially well in the data science space and has been found
 to be particularly effective with underrepresented groups. In fact, I implemented
-and collected data on this in a [previous project](https://www.leahwasser.com/training-diverse-communities-earth-data-science-corps)
+and collected data on this in a previous project
 that I designed and ran when I was in academia.
 
 The idea behind project-based learning is that students select a topic they are
