@@ -19,7 +19,7 @@ last_modified: 2024-09-08
 
 I have been working full-time building pyOpenSci for two years now, thanks to funding from the [Sloan Foundation](https://sloan.org/) and [CZI (Chan Zuckerberg Initiative)](https://chanzuckerberg.com/). pyOpenSci has come SO FAR in two years.
 
-It's time to take a breath and celebrate everything the pyOpenSci community has accomplished. Before we move on to the next big thing—[our pyOpenSci Fall Festival](https://www.pyopensci.org/events/pyopensci-2024-fall-festival.html) (more on that below)—I want to take a moment to reflect on:
+It's time to take a breath and celebrate everything the pyOpenSci community has accomplished. Before we move on to the next big thing—[our pyOpenSci Fall Festival](/events/pyopensci-2024-fall-festival.html) (more on that below)—I want to take a moment to reflect on:
 
 * where we've been,
 * what we've accomplished, and

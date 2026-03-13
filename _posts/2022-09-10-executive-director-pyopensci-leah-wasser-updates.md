@@ -3,7 +3,7 @@ layout: single
 title: "Big Changes for pyOpenSci: an update from the new Executive Director, Leah Wasser"
 excerpt: "pyOpenSci has recently transitioned to a fiscal sponsor and has a new executive director - Leah Wasser. Learn more about our goals over the next few years and how to get involved with the community."
 author: "Leah Wasser"
-permalink: /blog/new-executive-director-leah-wasser
+permalink: /blog/new-executive-director-leah-wasser.html
 header:
     overlay_color: "#33205c"
 categories:
