@@ -3,7 +3,8 @@ $colors: (
   color-0: #bb82b0,
   color-1: #6b5b95,
   color-2: #bab3d4,
-  color-3: #81c0aa
+  color-3: #81c0aa,
+  color-4: #000000
 );
 
 @mixin generate-color-styles($color-map) {
@@ -22,7 +23,7 @@ $colors: (
 }
 
 // Include the mixin
-//@include generate-color-styles($colors);
+@include generate-color-styles($colors);
 
 // Shared mixin removed - using fixed breakpoints throughout for consistent behavior
 
@@ -320,7 +321,26 @@ $colors: (
   .card__bkg {
     padding-top: 30px;
 
+    .card-title {
+      font-size: 1.6em !important;
+      letter-spacing: normal;
+    }
   }
+
+  .card__bkg.card__bkg--brand {
+    background-color: $pyos-darkpurple;
+    color: #fff;
+
+    .card__title-container,
+    h3.card-title {
+      color: #fff;
+    }
+  }
+
+  p.card-stage {
+    padding: 1em;
+  }
+
   article {
 	display: contents;
   }

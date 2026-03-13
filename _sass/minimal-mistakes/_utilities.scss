@@ -212,6 +212,20 @@ body:hover .visually-hidden button {
   }
 }
 
+/* wider padding option for landing-page content blocks */
+
+.padding-wide {
+  @include breakpoint($medium) {
+    padding-left: 2.5rem !important;
+    padding-right: 2.5rem !important;
+  }
+
+  @include breakpoint($large) {
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
+  }
+}
+
 /*
    Icons
    ========================================================================== */
