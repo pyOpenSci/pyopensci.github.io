@@ -103,16 +103,16 @@ universities and research labs where they are today.
 
 <article>
   <div class="cards">
-    <div class="card__header card__header-color-0">
+    <div class="card__header card__header-color-4">
     </div>
-    <div class="card__bkg">
+    <div class="card__bkg card__bkg--brand">
       <div class="card__title-container">
         <h3 class="card-title">Ecosystem Catalyst</h3>
       </div>
     </div>
     <p class="card-stage"><strong>Stage:</strong> Established</p>
     <div class="card-excerpt">
-      <p><strong>Perfect for.</strong> Universities with active open source
+      <p><strong>Perfect for:</strong> Universities with active open source
       programs that are ready to position their OSPO members and research
       software communities as leaders in this space.</p>
 
@@ -128,16 +128,16 @@ universities and research labs where they are today.
 
 <article>
   <div class="cards">
-    <div class="card__header card__header-color-1">
+    <div class="card__header card__header-color-4">
     </div>
-    <div class="card__bkg">
+    <div class="card__bkg card__bkg--brand">
       <div class="card__title-container">
         <h3 class="card-title">Momentum Driver</h3>
       </div>
     </div>
     <p class="card-stage"><strong>Stage:</strong> Growing</p>
     <div class="card-excerpt">
-      <p><strong>Perfect for.</strong> Universities with research software
+      <p><strong>Perfect for:</strong> Universities with research software
       communities seeking comprehensive support.</p>
 
       <p><strong>What you receive.</strong> Top tier on demand webinars,
@@ -152,16 +152,16 @@ universities and research labs where they are today.
 
 <article>
   <div class="cards">
-    <div class="card__header card__header-color-2">
+    <div class="card__header card__header-color-4">
     </div>
-    <div class="card__bkg">
+    <div class="card__bkg card__bkg--brand">
       <div class="card__title-container">
         <h3 class="card-title">Foundation Builder</h3>
       </div>
     </div>
     <p class="card-stage"><strong>Stage:</strong> Exploration</p>
     <div class="card-excerpt">
-      <p><strong>Perfect for.</strong> Universities establishing open source
+      <p><strong>Perfect for:</strong> Universities establishing open source
       communities or those with researchers beginning to develop open source
       tools.</p>
 
