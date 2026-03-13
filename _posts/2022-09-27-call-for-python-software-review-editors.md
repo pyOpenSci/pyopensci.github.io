@@ -3,7 +3,7 @@ layout: single
 title: "pyOpenSci Editorial Process - New Editor in Chief and a Call For Editors"
 excerpt: "pyOpenSci is developing its open peer review process for Python scientific software. Learn about our structure and if you are interested, apply to be on our editorial board."
 author: "Leah Wasser"
-permalink: /blog/python-software-review-process-editor-in-chief
+permalink: /blog/python-software-review-process-editor-in-chief.html
 header:
     overlay_color: "#33205c"
 categories:

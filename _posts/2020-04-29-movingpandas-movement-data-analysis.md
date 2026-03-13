@@ -3,7 +3,7 @@ layout: single
 title: "MovingPandas: Data Structures and Methods for Movement Data Analysis"
 excerpt: "MovingPandas is an easy to use toolkit for exploring movement data that has recently passed the PyOpenSci review."
 author: "Anita Graser"
-permalink: /blog/movingpandas-movement-data-analysis
+permalink: /blog/movingpandas-movement-data-analysis.html
 header:
     overlay_image: images/blog/headers/pandas.png
     caption: "Photo credit: [**Ann Batdorf, Smithsonian's National Zoo**](https://www.flickr.com/photos/nationalzoo/5371290900/in/photostream/)"
