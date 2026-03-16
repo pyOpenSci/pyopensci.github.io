@@ -2,7 +2,7 @@
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-53-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
-[![pages-build-deployment](https://github.com/pyOpenSci/pyopensci.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/pyOpenSci/pyopensci.github.io/actions/workflows/pages/pages-build-deployment)
+[![Deploy Jekyll site to Pages](https://github.com/pyOpenSci/pyopensci.github.io/actions/workflows/deploy-gh-pages.yml/badge.svg)](https://github.com/pyOpenSci/pyopensci.github.io/actions/workflows/deploy-gh-pages.yml)
 [![DOI](https://zenodo.org/badge/174412809.svg)](https://zenodo.org/doi/10.5281/zenodo.10594115)
 
 
@@ -10,7 +10,7 @@ This repo contains the source code for the [pyOpenSci.org](https://pyopensci.org
 
 ## Getting Started
 
-Please explore [the site](https://pyopensci.org) and let us know what your think. If you find a bug or have
+Please explore [the site](https://pyopensci.org) and let us know what you think. If you find a bug or have
 a suggestion for a new feature, [open an issue](https://github.com/pyOpenSci/pyopensci.github.io/issues).
 
 ## Next Steps
