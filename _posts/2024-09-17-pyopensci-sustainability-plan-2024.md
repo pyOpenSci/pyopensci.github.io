@@ -22,7 +22,7 @@ Funding is critical to the success of any nonprofit organization. In this blog p
 
 ## How funding has propelled pyOpenSci forward
 
-Funding from [Sloan Foundation](https://sloan.org/) catalyzed pyOpenSci's growth by enabling me to dedicate full-time effort to growing the organization's impact in September 2022. This full-time commitment, paired with support from a fiscal sponsor, [catalyzed pyOpenSci's recent growth and success](what-pyopensci-accomplished-with-two-years-of-funding.html).
+Funding from [Sloan Foundation](https://sloan.org/) catalyzed pyOpenSci's growth by enabling me to dedicate full-time effort to growing the organization's impact in September 2022. This full-time commitment, paired with support from a fiscal sponsor, [catalyzed pyOpenSci's recent growth and success](/blog/what-pyopensci-accomplished-with-two-years-of-funding.html).
 
 <figure>
     <a href="{{ site.baseurl }}/images/pyopensci-general/pyopensci-timeline2019-2024.png"><img src="{{ site.baseurl }}/images/pyopensci-general/pyopensci-timeline2019-2024.png" alt="An image titled pyOpenSci timeline. showing key milestones from 2018 to 2024. The timeline is marked with flower icons and a small rocket to represent significant events. Key points include: 2018: Community Meetings Begin, 2019: Software Peer Review Launch,2021-2022: Sloan Funding, Fall 2022: Packaging Guide Rewrite Begins, January 2023: Peer Review Relaunched, Fall 2023: CZI funds pyOpenSci, Spring 2024: pyOpenSci launches training and tutorials. The timeline progresses diagonally from the bottom left to the top right, with a rocket heading toward a bright light in the top right corner." ></a>

@@ -163,7 +163,7 @@ A few things that popped out to me included:
 The broad take away from this graphic is that there are a LOT of tools
 available for scientists to use. And becoming familiar with all of these is a big ask for a scientist who just wanted their code to be reusable by others.
 
-We have some work to do at pyOpenSci to [demystify this ecosystem](demystifying-python-packaging.html)!
+We have some work to do at pyOpenSci to [demystify this ecosystem](/blog/demystifying-python-packaging.html)!
 
 ## Challenges in the ecosystem
 

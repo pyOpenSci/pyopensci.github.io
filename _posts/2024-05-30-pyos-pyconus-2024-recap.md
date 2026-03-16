@@ -56,7 +56,7 @@ many people. I had never led a [mentored sprint](https://www.mentored-sprints.de
 And I wasn't sure how my packaging talk, [Friends Don't Let Friends Package Alone](https://us.pycon.org/2024/schedule/presentation/34/) would be received; you see, packaging is a notoriously thorny
 topic.
 
-[Last year turned out pretty great - read more here.](pycon-2023-packaging-presentation-sprints-leah-wasser.html)
+[Last year turned out pretty great - read more here.](/blog/pycon-2023-packaging-presentation-sprints-leah-wasser.html)
 
 However, rather than feeling like an outsider, I met a lot of new people
 who became new Python friends and colleagues. I learned about a lot of cool

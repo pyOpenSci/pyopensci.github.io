@@ -113,7 +113,7 @@ ridiculously hilarious as it sounds.
   <figcaption><i class="fa-solid fa-heart-pulse"></i> It's well-known that lightning talk organizers enjoy heckling presenters. Sometimes they do so using props, such as the lobster claw seen here <i class="fa-solid fa-heart-pulse"></i>. Photo Credit: SciPyConf Fosstodon </figcaption>
 </figure>
 
-[Did someone mention sharks? More here on my experience last year giving a SciPy lighting talk.](scipy-2023-community.html)
+[Did someone mention sharks? More here on my experience last year giving a SciPy lighting talk.](/blog/scipy-2023-community.html)
 {: .notice }
 
 Another cool thing about SciPy is that the entire meeting is community-driven. The scientific Python community really
@@ -140,7 +140,7 @@ had to say about it:
 
 This tutorial was an
 expanded version of the [Create Your First Python Package tutorial that
-pyOpenSci ran in April 2024](pyos-education-announcement.html). In our first
+pyOpenSci ran in April 2024](/blog/pyos-education-announcement.html). In our first
 workshop, we had over 20 people create their first Python package. We had
 similar success in our SciPy tutorial.
 
@@ -402,7 +402,7 @@ This year was the first time I stayed for both days of the sprints.
 If you haven't been to an open-source sprint before, a sprint is an open
 session where contributors join a project and help address specific issues and
 tasks that the project needs help with. I wrote [more about how pyOpenSci runs
-beginner-friendly sprints here](pyopensci-pyconus-2024-sprints.html).
+beginner-friendly sprints here](/blog/pyopensci-pyconus-2024-sprints.html).
 
 Sprints are a lot of fun because,
 given enough time, you can make significant progress on a project and support
