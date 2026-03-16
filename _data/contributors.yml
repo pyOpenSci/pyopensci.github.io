@@ -623,6 +623,7 @@
     - package-guide
     - peer-review
     - peer-review-guide
+    - reviewer
     - submitting-author
     - web-contrib
   packages_eic:
@@ -635,6 +636,7 @@
   packages_submitted:
     - crowsetta
   packages_reviewed:
+    - plenoptic
     - pydov
   location: Charm City
   email:
@@ -1781,6 +1783,7 @@
   contributor_type:
     - community
     - editor
+    - eic
     - guidebook-contrib
     - open-education
     - package-guide
@@ -1788,9 +1791,11 @@
     - reviewer
     - web-contrib
   packages_eic:
+    - plenoptic
   packages_editor:
     - automata
     - cynetdiff
+    - plenoptic
   packages_submitted:
   packages_reviewed:
     - python-graphblas
@@ -5220,10 +5225,14 @@
   website: https://orcid.org/0000-0002-8999-9003
   board: false
   contributor_type:
+    - maintainer
     - package-guide
+    - peer-review
+    - submitting-author
   packages_eic:
   packages_editor:
   packages_submitted:
+    - plenoptic
   packages_reviewed:
   location: New York, NY
   email: billbrod@gmail.com
@@ -11429,4 +11438,33 @@
     - astropy
   packages_reviewed:
   location:
+  email:
+- name: Daniela Pamplona
+  github_username: DanielaPamplona
+  github_image_id: 46706155
+  title:
+  sort:
+  bio:
+  organization: UPEC
+  date_added: '2026-03-16'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://danielapamplona.github.io/
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - plenoptic
+  location: France
   email:
