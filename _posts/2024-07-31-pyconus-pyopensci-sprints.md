@@ -19,9 +19,9 @@ last_modified: 2024-08-29
 
 In previous posts, I talked about:
 
-* Our [incredible experience at PyCon US 2024](recap-pyos-pyconus-2024.html).
+* Our [incredible experience at PyCon US 2024](/blog/recap-pyos-pyconus-2024.html).
 * My [personal experiences with the Python packaging ecosystem and building consensus
-  within the scientific Python community](python-packaging-friends-dont-let-friends-package-alone.html).
+  within the scientific Python community](/blog/python-packaging-friends-dont-let-friends-package-alone.html).
 
 Here, I will share with you what we have learned at pyOpenSci through holding
 beginner-friendly sprints over the past two years.
