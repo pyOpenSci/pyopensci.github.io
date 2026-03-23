@@ -1202,7 +1202,7 @@
   mastodon:
   orcidid:
   partners:
-  website: https://rgoswami.me
+  website:
   board: false
   contributor_type:
     - peer-review
@@ -11448,7 +11448,7 @@
   organization: UPEC
   date_added: '2026-03-16'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
