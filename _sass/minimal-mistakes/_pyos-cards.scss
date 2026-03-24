@@ -106,17 +106,22 @@
     font-size:5em!important;
 }
 
+// Used on /learn.html and packaging-resources.md; changes apply to both.
 .tutorial__container {
     display: grid;
     grid-gap: 20px;
-    grid-template-columns: 1fr; // Mobile: 1 column
+    grid-template-columns: 1fr; // Narrow: 1 column
 
     @media (min-width: $small) {
-      grid-template-columns: repeat(2, 1fr); // Small: 2 columns
+      grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
     @media (min-width: $medium) {
-      grid-template-columns: repeat(3, 1fr); // Medium: 3 columns
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    @media (min-width: $x-large) {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
     }
 
     // Ensure all cards have the height of the tallest card
@@ -148,20 +153,24 @@
         box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
 
         .excerpt {
-            font-size: 1em;
-            padding: 1em;
+            font-size: 0.95em;
+            padding: 0.75em 1em 1em;
+            line-height: 1.38;
         }
         h4.title {
             color: $pyos-deeppurple!important;
-            font-size: 1.4rem;
+            font-size: 1.08rem;
             margin: 0;
-            font-weight: 600; //card titles should be lower weight
+            font-weight: 600;
+            line-height: 1.3;
         }
         .title-block {
             background-color: #ecbee3;
             display: flex;
-            height: 7em;
-            padding: 1.2em;
+            align-items: center;
+            min-height: 4.25em;
+            height: auto;
+            padding: 0.85em 1em;
             border-bottom: $pyos-darkpurple 1.3px solid;
             border-top-left-radius: 10px;
             border-top-right-radius: 10px;
@@ -190,8 +199,14 @@
 }
 
 
-.btn--success{
-    color: #000!important;
+// Theme uses .btn.btn--success + yiq (light text); we want dark text on green.
+.btn.btn--success,
+.btn.btn--success:visited {
+    color: #000 !important;
+}
+
+.btn.btn--success:hover {
+    color: #000 !important;
 }
 
 

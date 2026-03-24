@@ -1,3 +1,9 @@
+// Flowing splash pages: full-bleed bands (.pyos-section) with a centered
+// content column. Markup pattern: one <div class="pyos-section" markdown="1">
+// (add .purple for tint) around each block. Optional: {% include
+// pyos-flow-feature.html %} for feature rows. Use .pyos-bleed on a child that
+// must span the viewport inside a section.
+
 .pyos-section {
     padding: 0px;
     margin-top: 0; // Remove default top margin
@@ -10,19 +16,64 @@
     &.purple {
         background-color: $pyos-lightpurple;
         position: relative;
+        margin-top: 4rem;
     }
 }
 
-.swoosh {
-    position:relative;
+// Wave dividers (div_purple_top.html / div_purple_bottom.html):
+//   --out-of-purple: immediately after a purple band
+//   --into-purple:   immediately before a purple band
+// (Legacy misnamed .swoosh.bottom + svg.bottom referred to “into purple” only.)
+
+// Wave divider between bands: remove inline-SVG gap and extra margin.
+.flowing .pyos-wave {
+    margin: 0;
+    line-height: 0;
+
+    svg {
+        display: block;
+        width: 100%;
+        height: auto;
+        vertical-align: top;
+    }
 }
-.swoosh.bottom {
-    margin-top:10em;
+
+// Space between “out of purple” wave and the next “into purple” wave (light
+// content or a gap between two purple strips when an out wave is used).
+.flowing .pyos-wave--out-of-purple + .pyos-wave--into-purple {
+    margin-top: clamp(2rem, 5vw, 5rem);
 }
-svg.bottom {
-    position: absolute;
-    bottom: 0;
-    left: 0;
+
+// Purple band followed directly by “into purple” wave (no out wave in between).
+.flowing .pyos-section.purple + .pyos-wave--into-purple {
+    margin-top: 0;
+}
+
+// Flush the wave to the purple band below (no double gap with .purple margin).
+.flowing .pyos-wave--into-purple + .pyos-section.purple {
+    margin-top: 0;
+}
+
+// Flush purple feature bands to the wave below (no white strip).
+.flowing .pyos-section.purple {
+    padding-bottom: 0;
+}
+
+// Kill feature_row margins inside purple bands; top margin otherwise collapses
+// through the section and reads as a white gap below the into-purple wave.
+.flowing .pyos-section.purple .feature__wrapper {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.flowing .pyos-section.purple .feature__item,
+.flowing .pyos-section.purple .feature__item--left,
+.flowing .pyos-section.purple .feature__item--center {
+    margin-bottom: 0;
+}
+
+.flowing .pyos-section.purple + .pyos-wave {
+    margin-top: 0;
 }
 
 
@@ -34,8 +85,138 @@ svg.bottom {
     padding-right: 0!important;
 }
 
+// Horizontal gutter on the full-bleed band; direct children share one max-width.
+.flowing .pyos-section {
+    padding-left: clamp(1rem, 4vw, 2rem);
+    padding-right: clamp(1rem, 4vw, 2rem);
+    box-sizing: border-box;
+
+    > *:not(.pyos-bleed) {
+        max-width: $max-width;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    // Prose uses the full inner column (theme defaults cap p/li much narrower).
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    li {
+        max-width: 100%;
+    }
+
+    .feature__wrapper p {
+        max-width: 100%;
+    }
+
+    // Primary buttons must not span the full content column.
+    > a.btn {
+        width: auto;
+    }
+
+    // Block IAL can put .btn on <p>, producing a full-width bar; cap it.
+    > p.btn {
+        width: fit-content;
+        max-width: $medium;
+        margin-left: auto;
+        margin-right: auto;
+        box-sizing: border-box;
+    }
+}
+
+// Events CTA block: same readable width for headings, copy, figure, and button.
+.flowing .pyos-section.learn-events {
+    > h2,
+    > p,
+    > figure {
+        max-width: $medium;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    > figure picture,
+    > figure img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    // Inline .btn on the link only (content-sized, aligned with text column).
+    p > a.btn {
+        width: auto;
+        display: inline-block;
+    }
+}
+
+// Narrow notice to readable measure ($medium). Use with .notice, e.g.
+// {: .notice .notice--measure }
+.flowing .notice.notice--measure {
+    max-width: $medium;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+// Learn page hero: heading + intro + notice share the same line length.
+.flowing .pyos-section.learn-hero {
+    > h2:first-of-type {
+        margin: 2rem auto;
+        max-width: $medium;
+        font-size: $type-size-3;
+        line-height: 1.25;
+    }
+
+    > p {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: $medium;
+        font-size: $type-size-5;
+        line-height: 1.55;
+    }
+
+    .notice.notice--measure {
+        margin-top: 1.25rem !important;
+        margin-bottom: 0 !important;
+        padding: 1rem 1.25rem !important;
+        font-size: $type-size-5 !important;
+
+        p,
+        li {
+            font-size: inherit !important;
+            line-height: 1.55;
+        }
+
+        p:last-child {
+            margin-bottom: 0 !important;
+        }
+    }
+}
+
+// Tutorial card grid: breathing room so cards don’t crowd the adjacent waves.
+.flowing .pyos-section.learn-packaging-tutorials {
+    padding-top: clamp(1.5rem, 4vw, 2.75rem);
+    padding-bottom: clamp(1.5rem, 4vw, 2.75rem);
+}
+
+// Feature rows that sit directly under .page__content (not inside .pyos-section).
+.flowing .page__content > .feature__wrapper {
+    max-width: $max-width;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: clamp(1rem, 4vw, 2rem);
+    padding-right: clamp(1rem, 4vw, 2rem);
+    box-sizing: border-box;
+}
+
 .content {
-    max-width: 1280px;
+    max-width: $max-width;
     margin-right: auto;
     margin-left: auto;
 
@@ -49,9 +230,9 @@ svg.bottom {
     margin: auto;
 }
 
-// Add padding to non feature wrapper sections
+// Add padding to non feature wrapper sections (legacy pages).
 .feature__wrapper.padded {
-    padding: 0 30px;
+    padding: 0 clamp(1rem, 4vw, 2rem);
 }
 
 .page__content .feature__wrapper.padded {
@@ -64,10 +245,11 @@ svg.bottom {
 }
 
 
-// Adjust padding for mobile
+// Tighter padding on small screens (never flush to viewport edge).
 @media (max-width: 480px) {
     .feature__wrapper.padded {
-        padding: 0;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 
 }
