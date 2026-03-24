@@ -1,0 +1,7 @@
+{% comment %}
+  One wrapper for a feature_row inside the flowing layout (purple band optional).
+  Usage: {% include pyos-flow-feature.html id="development" type="left" purple=true %}
+{% endcomment %}
+<div class="pyos-section{% if include.purple %} purple{% endif %}" markdown="1">
+{% include feature_row id=include.id type=include.type %}
+</div>

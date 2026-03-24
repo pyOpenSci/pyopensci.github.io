@@ -6,7 +6,7 @@ author: "pyopensci"
 permalink: docs/pyos-website/
 header:
     overlay_color: "#33205c"
-last_modified: 2025-03-05
+last_modified: 2025-03-24
 toc: true
 categories:
   - docs
@@ -348,8 +348,25 @@ There are multiple classes that you can use to modify the background color of th
 | Warning     | `.notice--warning` |
 | Success     | `.notice--success` |
 | Danger      | `.notice--danger`  |
+| Measure     | `.notice--measure` |
 
+### Readable width (`.notice--measure`)
 
+Use **`.notice--measure`** together with **`.notice`** (and optionally a color class such as `.notice--info`) on pages whose front matter includes **`classes: flowing`**. It caps the notice to a readable line length and centers it in the column—useful on full-bleed hubs such as [Learn](/learn.html), where a plain `.notice` would otherwise stretch edge to edge.
+
+```markdown
+Short callout text matches the hero column width.
+{: .notice .notice--measure }
+```
+
+Color variant example:
+
+```markdown
+**Heads up:** details for people skimming the page.
+{: .notice .notice--info .notice--measure }
+```
+
+The measure rules are defined under `.flowing` in the site CSS, so they do not apply on a normal single-column post unless you add `flowing` to that page’s `classes` list.
 
 **Watch out!** This paragraph of text has been emphasized with the `{: .notice--primary}` class.
 {: .notice--primary}
