@@ -33,7 +33,7 @@ main:
         icon: "fas fa-external-link-alt"
   - title: "Learn"
     sub-nav:
-      - title: Tutorials & Resources
+      - title: For Learners
         url: "learn.html"
       - title: For Universities & Labs
         url: "/learn-universities-labs.html"

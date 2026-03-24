@@ -9,8 +9,7 @@ layout: archive
     | where_exp: "item", "item.hidden != true"
     | where_exp: "item", "item.categories contains 'blog-post'"
     | where_exp: "item", "item.type != 'event'"
-    | group_by_exp: 'post', 'post.date
-    | date: "%Y"' %}
+    | group_by_exp: "item", "item.date | date: '%Y'" %}
   {% for year in postsInYear %}
     <li>
       <a href="#{{ year.name }}">
@@ -26,11 +25,9 @@ layout: archive
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 {% assign postsByYear = site.posts
-  | where_exp: "item", "item.hidden != true",
-  | where_exp: "item", "item.type != 'event'",
-  | group_by_exp: 'post', 'post.date ,
-  | date: "%Y"'
-%}
+  | where_exp: "item", "item.hidden != true"
+  | where_exp: "item", "item.type != 'event'"
+  | group_by_exp: "item", "item.date | date: '%Y'" %}
 {% for year in postsByYear %}
   <section id="{{ year.name }}" class="taxonomy__section">
     <h2 class="archive__subtitle">{{ year.name }}</h2>
