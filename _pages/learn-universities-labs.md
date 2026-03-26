@@ -116,12 +116,14 @@ universities and research labs where they are today.
       programs that are ready to position their OSPO members and research
       software communities as leaders in this space.</p>
 
-      <p><strong>What you receive.</strong> High touch training activations
-      ranging from mentored sprints to exclusive office hours, ensuring
-      participants are supported at every step of their journey. At this premier
+      <p><strong>What you receive.</strong> High touch training
+      ranging from interactive online training to exclusive office hours, ensuring
+      participants are supported at every step of their journey and discounted seats to 
+      our complete 10 day course, “Ship It:
+      Python Packaging in the GenAI Era". At this premier
       tier, your institution receives direct support from the pyOpenSci
-      leadership team and core Python developers, strategically positioning your
-      university as a recognized leader in the open source research ecosystem.</p>
+      leadership team and expert Python developers, strategically positioning your
+      university learners as leaders in the open source research ecosystem.</p>
     </div>
   </div>
 </article>
@@ -140,8 +142,11 @@ universities and research labs where they are today.
       <p><strong>Perfect for:</strong> Universities with research software
       communities seeking comprehensive support.</p>
 
-      <p><strong>What you receive.</strong> Top tier on demand webinars,
-      introductory executive support, and a connection to our global,
+      <p><strong>What you receive.</strong> Top tier webinars,
+      course-based office hours, and discounted seats to our complete 10 day course, “Ship It:
+      Python Packaging in the GenAI Era,” which guides researchers from a working
+      script to a published PyPI package using industry standard tools like
+      Hatch, pytest, and Sphinx, and a connection to our global,
       cross disciplinary network of more than 350 scientists and research
       software engineers through our vibrant digital channels. Educational
       resources equip your growing community with practical workflows for
