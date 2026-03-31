@@ -118,7 +118,7 @@ universities and research labs where they are today.
 
       <p><strong>What you receive.</strong> High touch training
       ranging from interactive online training to exclusive office hours, ensuring
-      participants are supported at every step of their journey and discounted seats to 
+      participants are supported at every step of their journey and discounted seats to
       our complete 10 day course, “Ship It:
       Python Packaging in the GenAI Era". At this premier
       tier, your institution receives direct support from the pyOpenSci
