@@ -18,6 +18,11 @@
         position: relative;
         margin-top: 4rem;
     }
+
+    // Extra bottom padding when the learner / split quote sits in this band
+    &.purple:has(.highlight-quote-split) {
+        padding-bottom: 1.5rem;
+    }
 }
 
 // Wave dividers (div_purple_top.html / div_purple_bottom.html):
@@ -252,4 +257,86 @@
         padding-right: 1rem;
     }
 
+}
+
+// Opt-in layout: wide blockquote + photo (add .highlight-quote--split on blockquote)
+.highlight-quote-split {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    // Clearance below "A learner perspective" so the opening quote mark does
+    // not overlap the heading
+    margin-top: 2.25rem;
+    margin-bottom: 0.5rem;
+
+    @include breakpoint($medium) {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 2rem;
+    }
+}
+
+.highlight-quote-split__photo {
+    margin: 0;
+    flex-shrink: 0;
+    text-align: center;
+
+    img {
+        display: block;
+        width: 180px;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+}
+
+// Class name uses BEM-style --; attribute selector avoids Sass minus ambiguity
+blockquote.highlight-quote.wide[class~="highlight-quote--split"] {
+    flex: 1;
+    min-width: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    // Anchor decorative quotes so they stay inside the purple band
+    position: relative;
+    padding-top: 1.5rem;
+    padding-bottom: 4rem;
+    padding-right: 1.5rem;
+    padding-left: 0.25rem;
+
+    // +10% leading vs .wide blockquote paragraph (base 2.2rem)
+    p.quote {
+        line-height: calc(2.2rem * 1.05);
+    }
+
+    // Less upward shift than default -20px so the open quote clears the h3
+    p.quote:before {
+        top: -0.35rem;
+    }
+
+    &:after {
+        right: 1rem;
+        bottom: 0.75rem;
+        top: auto;
+        margin-top: 0;
+    }
+
+    > div.end {
+        position: relative;
+        display: block;
+        min-height: 2.5rem;
+    }
+
+    > div.end:after {
+        right: 0.75rem !important;
+        bottom: 0 !important;
+        top: auto !important;
+        margin-top: 0 !important;
+    }
+
+    // With footer, close-quote also renders on .end — hide duplicate (must follow &:after)
+    &:has(footer):after {
+        content: none !important;
+        display: none !important;
+    }
 }
