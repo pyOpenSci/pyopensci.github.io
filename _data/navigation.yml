@@ -51,6 +51,8 @@ main:
         url: "https://www.pyopensci.org/handbook/"
   - title: "Support Us"
     sub-nav:
+      - title: "Ways to Give"
+        url: "/ways-to-give.html"
       - title: "Volunteer"
         url: "/volunteer.html"
   - title: "Donate"
