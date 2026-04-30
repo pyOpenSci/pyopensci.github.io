@@ -90,6 +90,28 @@
     font-size: $type-size-5;
   }
 
+  /* medium button (between default and small) */
+  &--medium {
+    font-size: 0.9rem;
+  }
+
+  /* homepage header button style */
+  &--header {
+    font-family: $header-font;
+    font-size: 0.85rem;
+    font-weight: $weight-5;
+  }
+
+  /* homepage header outline button */
+  &--header-outline {
+    font-family: $header-font;
+    font-size: 0.85rem;
+    font-weight: $weight-5;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+  }
+
   /* small button */
   &--small {
     font-size: $type-size-7;
