@@ -7,7 +7,7 @@ published: true
 site-map: true
 permalink: /
 header:
-  overlay_image: images/headers/pyopensci-sprints-2025.png
+  #overlay_image: images/headers/pyopensci-sprints-2025.png
   overlay_color: "#33205c"
   hero_rotate_images: true
   hero_image_path: "/images/landing-pages/scipy-sprint-working.png"
@@ -26,7 +26,7 @@ training_feature:
   title: "Ship It: Python Packaging in the Era of AI"
   excerpt: "A 10-day online course for researchers, academics, and RSEs - from working code to a published package."
   button_label: "Learn more"
-  button_url: "/events/2026-pycon-us-development-sprint.html"
+  button_url: "/events/shipit-python-package-gen-ai-april-2026.html"
   image_path: "/images/landing-pages/scipy-sprint-2026.png"
   image_alt: "Python packaging guide graphic with a laptop and hands over keyboard."
 mission:

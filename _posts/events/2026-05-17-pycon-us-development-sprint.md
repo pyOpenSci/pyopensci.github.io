@@ -22,6 +22,6 @@ comments: false
 * **What:** One-day collaborative sprint following the Maintainers Summit
 * **When:** Sunday, May 17, 2026
 * **Where:** PyCon US Sprints area, Long Beach Convention & Entertainment Center, Long Beach, CA
-* **More info:** [PyCon US event information](https://us.pycon.org/2026/events/maintainers-summit/)
+* **More info:** [PyCon US sprints information](https://us.pycon.org/2026/events/dev-sprints/)
 
 This sprint day is dedicated to hands-on collaboration. Participants can contribute to packaging resources, documentation, peer review tooling, and community onboarding materials with support from maintainers and experienced contributors.

@@ -1,16 +1,6 @@
 {% assign overlay_img_path = nil %}
 {% if page.header.overlay_image %}
-  {% assign overlay_lookup_path = page.header.overlay_image %}
-  {% assign overlay_first_char = overlay_lookup_path | slice: 0, 1 %}
-  {% unless overlay_first_char == '/' %}
-    {% assign overlay_lookup_path = '/' | append: overlay_lookup_path %}
-  {% endunless %}
-  {% assign overlay_file = site.static_files | where_exp: "f", "f.path == overlay_lookup_path" %}
-  {% if overlay_file and overlay_file.size > 0 %}
-    {% assign overlay_img_path = page.header.overlay_image | relative_url %}
-  {% else %}
-    {% assign overlay_img_path = "/images/headers/pyopensci-sprints-2025.png" | relative_url %}
-  {% endif %}
+  {% assign overlay_img_path = page.header.overlay_image | relative_url %}
 {% endif %}
 
 {% if page.header.image_description %}
@@ -49,7 +39,7 @@
       background-color: {{ page.header.overlay_color | default: '#33205c' }};
     {% endif %}
     {% if overlay_img_path %}
-      background-image: url("{{ overlay_img_path }}");
+      background-image: url('{{ overlay_img_path }}');
     {% endif %}
 ">
   {% if page.header.overlay_color or page.header.overlay_image %}
