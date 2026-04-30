@@ -43,10 +43,12 @@
   }
 }
 
-.archive__item-title, h2.archive__item-title {
+.archive__item-title, h2.archive__item-title, h3.archive__item-title {
   margin-bottom: 0.25em;
   margin-top: 0!important;
   overflow: hidden;
+  font-size: $type-size-card-title;
+  font-weight: $semibold-weight;
 
   a[rel="permalink"]::before {
     content: '';
@@ -91,7 +93,8 @@
 }
 
 // make the titles in archive blocks full width
-h2.archive__item-title {
+h2.archive__item-title,
+h3.archive__item-title {
   max-width: 100%;
 }
 
@@ -221,7 +224,7 @@ h2.archive__item-title {
 
   .archive__item-title {
     margin-top: 0.5em;
-    font-size: $type-size-5;
+    font-size: $type-size-card-title;
   }
 
   .archive__item-excerpt {

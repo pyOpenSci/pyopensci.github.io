@@ -10,7 +10,7 @@
   text-decoration: none;
   z-index: 1;
   overflow: hidden;
-  font-size: .8em;
+  font-size: $type-size-card-title;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
   margin: .5em;
 
@@ -35,34 +35,34 @@
   }
 
   p {
-    font-size: 1em;
-    line-height: 1.8;
+    font-size: $type-size-card-body;
+    line-height: $line-height-card-body;
   }
 
   h2 {
-    font-size: 1.5rem;
+    font-size: $type-size-4;
     margin-bottom: 1rem!important;
 
     a {
       text-decoration: none;
-      font-size: 1.2em;
+      font-size: $type-size-card-title-lg;
     }
 
     &.archive__item-title {
-      font-size: 1.1em !important;
+      font-size: $type-size-card-title !important;
     }
   }
 
   h3.card__title.no_toc,
   .card__title.no_toc {
     margin-top: 1.2em;
-    font-size: 1.9em;
+    font-size: $type-size-3;
     color: $pyos-darkpurple;
   }
 
   .page__meta.contributors {
-    font-size: .95rem;
-    line-height: 1.3rem;
+    font-size: $type-size-card-body;
+    line-height: $line-height-card-meta;
   }
 
   .contributors a {
@@ -70,8 +70,8 @@
   }
 
   .package_description {
-    font-size: .95rem;
-    line-height: 1.5rem;
+    font-size: $type-size-card-body;
+    line-height: $line-height-card-body;
   }
 
   ul {
@@ -80,7 +80,7 @@
     padding: .2em;
 
     li {
-      font-size: 1rem;
+      font-size: $type-size-card-title;
       a {
         text-decoration: none;
         //font-size: 1.2em
@@ -95,7 +95,7 @@
 
 
 .tutorial {
-    font-size: 1em;
+    font-size: $type-size-card-title;
 
     & p.page__meta {
         padding-top: 1.3em;
@@ -103,7 +103,7 @@
 }
 
 .card .page__meta {
-    font-size:5em!important;
+    font-size: $type-size-card-meta !important;
 }
 
 // Used on /learn.html and packaging-resources.md; changes apply to both.
@@ -135,7 +135,7 @@
         border-top-left-radius: 0;
         border-top-right-radius: 0;
         margin-bottom: 0!important;
-        font-size: 1.03em;
+        font-size: $type-size-card-title;
 
     }
 
@@ -144,7 +144,7 @@
     }
 
     .card {
-        font-size: .8em;
+        font-size: $type-size-card-title;
         display: flex;
         flex-direction: column;
         background-color: #fff;
@@ -153,15 +153,15 @@
         box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
 
         .excerpt {
-            font-size: 0.95em;
+            font-size: $type-size-card-body;
             padding: 0.75em 1em 1em;
-            line-height: 1.38;
+            line-height: $line-height-card-body;
         }
         h4.title {
             color: $pyos-deeppurple!important;
-            font-size: 1.08rem;
+            font-size: $type-size-card-title-lg;
             margin: 0;
-            font-weight: 600;
+            font-weight: $semibold-weight;
             line-height: 1.3;
         }
         .title-block {
@@ -187,7 +187,7 @@
             flex: 1;
         }
         ul li {
-            font-size: .9em;
+            font-size: $type-size-card-meta;
             margin: 0 0 .5em 0;
         }
         ul {
@@ -273,8 +273,8 @@
         position: relative;
         z-index: 1;
         text-align: center;
-        font-size: 1.2rem;
-        font-weight: bold;
+        font-size: $type-size-4;
+        font-weight: $bold-weight;
         line-height: 1.2;
 
         span {
@@ -283,7 +283,7 @@
 
         span:last-of-type {
           text-transform: uppercase;
-          font-size: 0.8rem;
+          font-size: $type-size-card-label;
           margin-top: 0.2rem;
         }
       }
@@ -343,10 +343,10 @@
   }
 
   .event-card__date-text {
-    font-size: 1rem;
+    font-size: $type-size-card-title;
 
     span:last-of-type {
-      font-size: 0.7rem;
+      font-size: $type-size-7;
     }
   }
 
@@ -355,18 +355,83 @@
 
     h3 {
       margin-bottom: 0.35rem;
-      font-size: 1.1rem;
+      font-size: $type-size-card-title-lg;
     }
 
     p {
       margin-bottom: 0.5rem;
-      font-size: 0.9rem;
+      font-size: $type-size-card-meta;
     }
 
     .event-card__button {
       padding: 0.35rem 0.75rem;
-      font-size: 0.9rem;
+      font-size: $type-size-card-meta;
     }
+  }
+}
+
+// Compact home-page upcoming events variant
+.upcoming-events-list .event-card--compact {
+  margin-bottom: 0;
+  border: 1px solid mix(#000, $pyos-brand-dark-purple, 20%);
+  border-radius: 14px;
+  background: $pyos-white;
+  max-width: none;
+  color: $pyos-brand-dark-purple;
+
+  &:hover {
+    transform: none;
+    box-shadow: 0 4px 14px rgba(#000, 0.2);
+  }
+
+  .event-card__content {
+    display: block;
+  }
+
+  .event-card__details {
+    padding: 1rem 1.25rem 1.05rem;
+  }
+
+  .event-card__date-line {
+    margin: 0 0 0.35rem;
+    font-size: $type-size-card-meta;
+    font-weight: $semibold-weight;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: $pyos-teal;
+  }
+
+  .event-card__title {
+    margin: 0 0 0.2rem;
+    font-size: $type-size-3;
+    line-height: 1.25;
+  }
+
+  .event-card__location {
+    margin: 0 0 0.55rem;
+    font-size: $type-size-card-title;
+    color: mix(#000, $pyos-brand-dark-purple, 18%);
+  }
+
+  .event-card__excerpt {
+    margin: 0 0 0.65rem;
+    font-size: $type-size-card-body;
+    line-height: $line-height-card-body;
+    color: mix(#000, $pyos-brand-dark-purple, 22%);
+  }
+
+  .event-card__button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: $pyos-brand-dark-purple;
+    font-size: $type-size-card-title;
+    font-weight: $semibold-weight;
+    text-decoration: none;
   }
 }
 
@@ -454,7 +519,7 @@
       padding: 0;
       margin-top: 0.6em;
       margin-bottom: 0;
-      font-size: 1.4rem;
+      font-size: $type-size-card-title-xl;
 
       a {
         text-decoration: none;
@@ -468,15 +533,15 @@
 
     p.contrib_org {
       padding: 0 1em;
-      font-size: 0.875rem;
-      font-weight: normal;
+      font-size: $type-size-card-meta;
+      font-weight: $weight-4;
       margin-bottom: 0 !important;
     }
 
     .ppl_social {
       padding: 0 1em 1em 1em; // includes bottom padding
-      font-size: 0.875rem;
-      font-weight: normal;
+      font-size: $type-size-card-meta;
+      font-weight: $weight-4;
       margin-bottom: 0 !important;
 
       a {
@@ -501,13 +566,13 @@
 
   .people-card {
     h4.person_name {
-      font-size: 1rem;
+      font-size: $type-size-card-title;
     }
 
     p.page__meta,
     p.contrib_org,
     .ppl_social {
-      font-size: 0.875rem;
+      font-size: $type-size-card-meta;
     }
   }
 
@@ -516,18 +581,18 @@
       padding: 0.75em;
     }
     .event-card__date-text {
-      font-size: 1rem;
+      font-size: $type-size-card-title;
       span:last-of-type {
-        font-size: 0.75rem;
+        font-size: $type-size-card-label;
       }
     }
     .event-card__details {
       padding: 0.75em;
       h3 {
-        font-size: 1rem;
+        font-size: $type-size-card-title;
       }
       p {
-        font-size: 0.875rem;
+        font-size: $type-size-card-meta;
       }
     }
   }
@@ -540,6 +605,108 @@
 .event-instructors {
   margin-top: 1em;
   margin-bottom: 1em;
+}
+
+/* Home page training feature card */
+.home-training-feature {
+  margin: 0 0 2rem;
+
+  &__eyebrow {
+    margin: 0 0 0.8rem;
+    font-size: $type-size-card-title-lg;
+    font-weight: $semibold-weight;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  &__card {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    gap: 1.25rem;
+    padding: 1.25rem 1.5rem;
+    border-radius: 14px;
+    background: $pyos-feature-card-bg;
+    border: 1px solid rgba($pyos-brand-dark-purple, 0.18);
+  }
+
+  &__content {
+    min-width: 0;
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  &__badge {
+    display: inline-block;
+    margin: 0 0 0.65rem;
+    padding: 0.2rem 0.55rem;
+    border-radius: 999px;
+    font-size: $type-size-card-meta;
+    line-height: $line-height-card-meta;
+    color: $pyos-brand-dark-purple;
+    background: rgba($pyos-white, 0.55);
+  }
+
+  &__title {
+    margin: 0 0 0.35rem;
+    font-size: $type-size-3;
+    line-height: 1.2;
+    color: $pyos-brand-dark-purple;
+  }
+
+  &__excerpt {
+    margin: 0;
+    color: rgba($pyos-brand-dark-purple, 0.9);
+    font-size: $type-size-card-body;
+    line-height: $line-height-card-body;
+    max-width: 46ch;
+  }
+
+  &__button {
+    margin-top: 0.9rem;
+    border-color: rgba($pyos-brand-dark-purple, 0.7);
+    color: $pyos-brand-dark-purple;
+
+    &:hover {
+      background-color: $pyos-brand-dark-purple;
+      color: $pyos-white;
+      text-decoration: none;
+    }
+  }
+
+  &__image-wrap {
+    flex: 0 0 36%;
+    min-height: 170px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: rgba($pyos-brand-dark-purple, 0.06);
+    border: 1px solid rgba($pyos-brand-dark-purple, 0.16);
+  }
+
+  &__image {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+  }
+
+  @media (max-width: $medium) {
+    &__card {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    &__image-wrap {
+      width: 100%;
+      min-height: 150px;
+    }
+
+    &__button {
+      width: auto;
+    }
+  }
 }
 
 .event-instructors__grid {
@@ -593,7 +760,7 @@
 
       .event-instructor__github-link {
         opacity: 0.7;
-        font-size: 0.9em;
+        font-size: $type-size-card-meta;
 
         &:hover {
           opacity: 1;
@@ -605,7 +772,7 @@
       padding: 0;
       margin-top: 0.5em;
       margin-bottom: 0;
-      font-size: 0.9rem;
+      font-size: $type-size-card-meta;
       line-height: 1.5;
       text-align: left;
     }
