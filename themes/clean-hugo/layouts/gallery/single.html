@@ -1,0 +1,37 @@
+{{/* Layout for a single gallery item page */}}
+{{ define "main" }}
+  {{ partial "hero.html" . }}
+
+  <article class="gallery-content">
+    <div class="gallery-description prose">
+      {{ .Content }}
+    </div>
+
+    <section class="gallery-images">
+      <h2>Gallery</h2>
+      <div class="gallery-masonry">
+        {{ $images := .Resources.ByType "image" }}
+        {{ range $images }}
+          {{ $filename := .Name | replaceRE "\\.[^.]+$" "" | replaceRE "-" " " | title }}
+          {{ $caption := printf "%s · %s" $.Title $filename }}
+          <figure>
+            <a href="{{ .RelPermalink }}"
+                class="glightbox"
+                data-gallery="gallery-images"
+                data-glightbox="title: {{ $caption }};">
+              <img src="{{ .RelPermalink }}" alt="{{ or .Title $.Title }}" loading="lazy" style="image-orientation: from-image;">
+            </a>
+            <p class="gallery-caption">
+                {{ $caption }}
+            </p>
+          </figure>
+        {{ end }}
+      </div>
+    </section>
+  </article>
+{{ end }}
+
+{{ define "scripts" }}
+  {{ partial "glightbox-scripts.html" . }}
+{{ end }}
+

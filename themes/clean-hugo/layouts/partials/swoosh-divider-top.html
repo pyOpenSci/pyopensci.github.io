@@ -1,0 +1,8 @@
+{{/* Curved divider at top of a swoosh section (wave down from previous section). Pass theme: "purple" or "green" so fill matches the section below. */}}
+{{ $theme := .theme | default "purple" }}
+<div class="swoosh-section__divider swoosh-section__divider--top swoosh-section__divider--{{ $theme }}" aria-hidden="true">
+  <svg class="swoosh-section__svg" viewBox="0 0 181 21" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+    <path class="swoosh-section__wave swoosh-section__wave--1" d="m14.6 18.5 160 .9 6.4-16.8s-31.8 12.8-59.4 11.3c-22.3-1.2-54.8-9.7-54.8-9.7s-16.4-4.4-28.8 1.2-11.4 14.7-11.4 14.7Z"/>
+    <path class="swoosh-section__wave swoosh-section__wave--2" d="M.1 20.9h180.9V2.9c-1.2.6-43.5 22.4-73.4 13.7C77.2 6.8 53.3.2 39.6 0 21.4-.2.1 8.5 0 11.9c0 0 .1 9 .1 9Z"/>
+  </svg>
+</div>

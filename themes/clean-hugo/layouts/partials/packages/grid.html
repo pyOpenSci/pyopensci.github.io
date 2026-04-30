@@ -1,0 +1,90 @@
+{{/*
+  Package Grid Partial
+  Grid container with AlpineJS filtering
+  Usage: {{ partial "packages/grid.html" (dict "activeOnly" true) }}
+  Note: Must be used within parent x-data="packageFilter()" context
+  
+  ⚠️ IMPORTANT: Card markup below is DUPLICATED in layouts/partners/single.html
+  If you update the card structure, links, badges, or styling:
+  1. Update THIS file (AlpineJS version with x-text, :href)
+  2. Update layouts/partners/single.html (Hugo version with {{ .field }})
+  See: /blog/2025-12-25-package-architecture/ for architecture details
+*/}}
+
+{{ $activeOnly := .activeOnly | default true }}
+{{ $propName := cond $activeOnly "activePackages" "archivedPackages" }}
+
+<div class="packages-grid">
+  <template x-for="pkg in {{ $propName }}" :key="pkg.package_name">
+    <div class="package_card">
+      <div>
+
+        {{/* Title */}}
+        <h3 x-text="pkg.package_name"></h3>
+
+        {{/* Maintainers */}}
+        <div class="package_card__meta">
+          <i class="fas fa-feather" aria-hidden="true"></i>
+          <span x-text="pkg.all_current_maintainers?.map(m => m.name || m.github_username).join(', ') || pkg.submitting_author?.name || pkg.submitting_author?.github_username"></span>
+        </div>
+
+        {{/* Description */}}
+        <p x-html="pkg.package_description"></p>
+
+        {{/* Links */}}
+        <ul>
+          <template x-if="pkg.repository_link">
+            <li>
+              <a :href="pkg.repository_link" target="_blank">
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </li>
+          </template>
+
+          {{/* Only show these links for active packages */}}
+          <template x-if="pkg.active === true && pkg.gh_meta?.documentation">
+            <li>
+              <a :href="pkg.gh_meta.documentation" target="_blank">
+                <i class="fas fa-book-open"></i> View Docs
+              </a>
+            </li>
+          </template>
+
+          <template x-if="pkg.active === true && pkg.issue_link">
+            <li>
+              <a :href="pkg.issue_link" target="_blank">
+                <i class="fa-solid fa-user-pen"></i> View Review
+              </a>
+            </li>
+          </template>
+
+          <template x-if="pkg.active === true && pkg.joss">
+            <li>
+              <a :href="pkg.archive" target="_blank">
+                <i class="fas fa-bookmark"></i> JOSS Approved
+              </a>
+            </li>
+          </template>
+
+          {{/* Astropy partner badge */}}
+          <template x-if="pkg.partners?.includes('astropy')">
+            <li>
+              <a href="#astropy" target="_blank" aria-label="Astropy affiliated package">
+                <i class="fa-solid fa-check-double"></i>
+                <img src="https://img.shields.io/badge/Affiliated-Astropy-orange.svg?style=flat" alt="Astropy Affiliated" class="partner-badge" />
+              </a>
+            </li>
+          </template>
+
+          {{/* Archived badge for archived packages */}}
+          <template x-if="pkg.active === false">
+            <li class="package_card__archived">
+              <i class="fa-solid fa-box-archive"></i> Archived
+            </li>
+          </template>
+        </ul>
+
+      </div>
+    </div>
+  </template>
+</div>

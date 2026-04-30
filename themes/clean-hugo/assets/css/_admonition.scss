@@ -1,0 +1,89 @@
+  /* Admonition Component */
+  .admonition {
+    border-left-width: 4px;
+    border-radius: 0 1rem 1rem 0;
+    padding: 2rem;
+    box-shadow: $shadow-md;
+    border: 1px solid;
+    border-left-width: 4px;
+    margin: 3rem 0;
+    display: flex;
+    gap: 0.75rem;
+
+    @media (max-width: 640px) {
+      padding: 0.875rem;
+      gap: 0.5rem;
+    }
+
+  &__icon {
+    flex-shrink: 0;
+    margin-top: 0.125rem;
+
+    svg {
+      width: 1.75rem;
+      height: 1.75rem;
+
+      @media (max-width: 640px) {
+        width: 1.15rem;
+        height: 1.15rem;
+      }
+    }
+  }
+
+  &__content {
+    flex: 1 1 0%;
+    min-width: 0;
+  }
+
+  &__title {
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+    font-size: clamp(1.3rem, 2vw, 1.4rem);
+  }
+
+  &__body {
+    font-size: clamp(0.99rem, 2vw, 1rem);
+    max-width: none;
+    line-height: 1.6;
+  }
+
+  /* Admonition Type Variants */
+  &--info,
+  &--success,
+  &--warning,
+  &--danger,
+  &--note {
+    background-color: color-mix(in srgb, var(--base-color) 8%, white);
+    border-color: color-mix(in srgb, var(--base-color) 95%, black);
+
+    .admonition__title,
+    .admonition__body {
+      color: color-mix(in srgb, var(--base-color) 25%, black);
+    }
+
+    .admonition__icon {
+      color: color-mix(in srgb, var(--base-color) 90%, black);
+    }
+  }
+
+  &--info {
+    --base-color: var(--color-admonition-info, #3B82F6);
+  }
+
+  &--success {
+    --base-color: var(--color-admonition-success, #22C55E);
+  }
+
+  &--warning {
+    --base-color: var(--color-admonition-warning, #EAB308);
+  }
+
+  &--danger {
+    --base-color: var(--color-admonition-danger, #EF4444);
+  }
+
+  &--note {
+    --base-color: var(--color-admonition-note, #6B7280);
+    }
+  }
+

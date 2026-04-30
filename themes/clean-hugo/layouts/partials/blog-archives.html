@@ -1,0 +1,44 @@
+{{/*
+  Blog Archives Partial
+
+  Parameters:
+  - "." (context): Array of archive posts
+*/}}
+{{ $archivePosts := . }}
+
+{{ if gt (len $archivePosts) 0 }}
+<section class="blog-archives">
+  <div class="container">
+    <div class="intro">
+      <h2>From the Archives</h2>
+    </div>
+
+    <div class="highlight-grid">
+      {{ range $archivePosts }}
+        <article>
+          <div class="meta">
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+            {{ with .Params.category }}
+              <span class="category">{{ . }}</span>
+            {{ end }}
+          </div>
+
+          <div class="content">
+            <h3>
+              <a href="{{ .Permalink }}">{{ .Title }}</a>
+            </h3>
+
+            <p class="excerpt">
+              {{ partial "blog-excerpt.html" (dict "." . "length" 200) }}
+            </p>
+
+            <a href="{{ .Permalink }}" class="read-more">
+              Read more <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

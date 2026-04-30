@@ -1,0 +1,62 @@
+{{/* Compatibility partial for plants - uses same styling as gallery-card but with plant-specific structure */}}
+{{ $isVariety := false }}
+{{ $page := . }}
+{{ $plant := dict }}
+
+{{ if reflect.IsMap . }}
+    {{ $isVariety = true }}
+    {{ $page = .Page }}
+    {{ $plant = .Plant }}
+{{ end }}
+
+{{ $groups := "" }}
+{{ with $page.Params.groups }}
+  {{ $groups = delimit . " " }}
+{{ else }}
+  {{ if $page.Params.group }}
+    {{ $groups = $page.Params.group }}
+  {{ end }}
+{{ end }}
+
+<article class="gallery-card plant-card" data-groups='{{ $groups }}'>
+  {{ $img := "" }}
+
+  {{ if $isVariety }}
+    <!-- Variety: use thumbnail from frontmatter -->
+    {{ with $plant.thumbnail }}
+      {{ $img = $page.Resources.GetMatch . }}
+    {{ end }}
+  {{ else }}
+    <!-- Regular page: use hero image or first image -->
+    {{ with $page.Params.hero }}
+      {{ with .image }}
+        {{ $img = $page.Resources.GetMatch . }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+
+  <!-- Fallback: grab first image -->
+  {{ if not $img }}
+    {{ $all := $page.Resources.Match "*.{png,jpg,jpeg,gif,webp}" }}
+    {{ if gt (len $all) 0 }}
+      {{ $img = index $all 0 }}
+    {{ end }}
+  {{ end }}
+
+  {{ $title := cond $isVariety $plant.name $page.Title }}
+
+  <a href="{{ $page.RelPermalink }}" class="gallery-card__link group" aria-label="{{ $title }}">
+    {{ with $img }}
+      {{ $thumb := .Fill "750x500 center" }}
+
+      <div class="gallery-card__image">
+        <img src="{{ $thumb.RelPermalink }}" alt="{{ $title }}" loading="lazy">
+      </div>
+    {{ end }}
+
+    <div class="gallery-card__content">
+      <h3 class="gallery-card__title">{{ $title }}</h3>
+    </div>
+  </a>
+</article>
+

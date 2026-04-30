@@ -1,0 +1,22 @@
+/* Intro Section Component */
+.intro-section {
+  background-color: transparent;
+  @include responsive(padding, 1.75rem 0, 2.25rem 0, 3rem 0);
+
+  .container div {
+    text-align: center;
+
+    /* Intentionally larger paragraphs for intro sections */
+    p {
+      @include responsive(font-size, 1.25rem, 1.5rem);
+      line-height: 1.625;
+      color: var(--color-gray-700);
+      font-weight: 400;
+    }
+
+    strong {
+      color: var(--color-gray-900);
+      font-weight: 600;
+    }
+  }
+}

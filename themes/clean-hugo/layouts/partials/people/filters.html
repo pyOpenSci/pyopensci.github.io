@@ -1,0 +1,45 @@
+{{/* People Filters - Category filter buttons */}}
+
+<div class="people-filters">
+  <input type="text"
+         id="quicksearch"
+         placeholder="Search people..."
+         aria-label="Search people"
+         x-model="searchQuery" />
+
+  <div>
+    <button @click="activeFilter = '*'"
+            :class="{ 'is-checked': activeFilter === '*' }">
+      show all
+    </button>
+    <button @click="activeFilter = 'leadership'"
+            :class="{ 'is-checked': activeFilter === 'leadership' }">
+      leadership
+    </button>
+    <button @click="activeFilter = 'editor'"
+            :class="{ 'is-checked': activeFilter === 'editor' }">
+      editorial team
+    </button>
+    <button @click="activeFilter = 'reviewer'"
+            :class="{ 'is-checked': activeFilter === 'reviewer' }">
+      reviewers
+    </button>
+    <button @click="activeFilter = 'maintainer'"
+            :class="{ 'is-checked': activeFilter === 'maintainer' }">
+      maintainers
+    </button>
+    <button @click="activeFilter = 'peer-review-guide'"
+            :class="{ 'is-checked': activeFilter === 'peer-review-guide' }">
+      peer review guide
+    </button>
+    <button @click="activeFilter = 'package-guide'"
+            :class="{ 'is-checked': activeFilter === 'package-guide' }">
+      packaging guide
+    </button>
+    <button @click="activeFilter = 'web-contrib'"
+            :class="{ 'is-checked': activeFilter === 'web-contrib' }">
+      website
+    </button>
+  </div>
+</div>
+

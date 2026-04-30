@@ -8,6 +8,15 @@
 
 This repo contains the source code for the [pyOpenSci.org](https://pyopensci.org) website. Contributions are welcome. Thank you [**pyOpenSci contributors**](#contributors-✨)!!
 
+## Repository layout (Jekyll + Hugo)
+
+We are **migrating** from Jekyll to [Hugo](https://gohugo.io/) using the **clean-hugo** theme. The repo holds **both** stacks:
+
+* **`jekyll/`** — The **production** site today: full Jekyll + Minimal Mistakes source (`_config.yml`, `_posts`, `_pages`, `_data`, `images/`, and so on). GitHub Pages still builds and deploys **from this directory** on `main`.
+* **Repository root** — The **new Hugo site** in progress: `hugo.toml`, `content/`, `themes/clean-hugo/`, and `static/`. The home page is started in `content/_index.md`; nav links may still point at paths served by Jekyll until those pages are migrated.
+
+Internal notes: [`_law_tests/hugo-home-bootstrap.md`](_law_tests/hugo-home-bootstrap.md).
+
 ## Getting Started
 
 Please explore [the site](https://pyopensci.org) and let us know what you think. If you find a bug or have
@@ -21,27 +30,60 @@ This repo's [CONTRIBUTING.md](./CONTRIBUTING.md) file provides more information
 about contributing to our website, our **Python Packaging Guide** and our
 **Peer Review Guide**.
 
-## Installation and Development
+## Installation and development
 
-Have you decided to contribute? We use the [Jekyll framework](https://jekyllrb.com)
-for creating this site. To set up a **development environment** and **run the site locally**, follow these steps:
+### Run the new Hugo site (preview)
 
-1. Install ruby and bundler on your machine. See [the Jekyll docs](https://jekyllrb.com/docs/installation/) for instructions.
+The Hugo site uses the theme’s **PostCSS** pipeline, so you need **Node.js** (for `npm`) and **Hugo Extended** (same major version as in CI when we add it; locally, match [Hugo’s install docs](https://gohugo.io/installation/)).
+
+From the **repository root** (not inside `jekyll/`):
+
+```bash
+npm install
+hugo server --disableFastRender
+```
+
+Then open the URL Hugo prints (by default **http://localhost:1313/**). Use `Ctrl+C` to stop the server.
+
+To produce a static build only:
+
+```bash
+hugo --gc --minify
+```
+
+Output is written to **`public/`** (ignored by git).
+
+### Run the legacy Jekyll site (production parity)
+
+We still use the [Jekyll](https://jekyllrb.com/) site under **`jekyll/`** for the live site until cutover. To work on that code:
+
+1. Install **Ruby** and **Bundler**. See the [Jekyll installation docs](https://jekyllrb.com/docs/installation/).
 2. Fork and clone this repository.
-3. Run `bundle install` in the root of the cloned repository directory. This will
-   install the gems needed to run the site locally.
-4. Run `bundle exec jekyll serve` to start the jekyll web server.
-NOTE: if you want the page to automatically reload, use: `bundle exec jekyll serve --live reload.` This requires Jekyll 3.7 or higher.
-5. Open your browser and navigate to `http://127.0.0.1:4000/`.
+3. From the **`jekyll/`** directory, install gems and serve:
 
-Please test your changes locally prior to submitting a pull request (PR).
+```bash
+cd jekyll
+bundle install
+bundle exec jekyll serve
+```
 
+4. Open **http://127.0.0.1:4000/** (Jekyll’s default).
 
-### Want to build with new blog posts to be published in the future?
+Optional live reload (Jekyll 3.7+):
 
-If you are publishing a blog post with a date that is in the future, you can build the site locally using the `--future` option to view it as follows:
+```bash
+bundle exec jekyll serve --livereload
+```
 
-`bundle exec jekyll serve --future`.
+Please test your changes locally before opening a pull request.
+
+### Build Jekyll with future-dated posts
+
+If you are publishing a blog post dated in the future, run from **`jekyll/`**:
+
+```bash
+bundle exec jekyll serve --future
+```
 
 ### Images and webp
 
@@ -80,9 +122,9 @@ We have a bash script that will automatically update the `last_updated` field in
 
 ## How to update contributor names
 
-You can update a contributor's name as it appears on our [website community contributors page](https://www.pyopensci.org/our-community/index.html#pyopensci-community-contributors) by updating their name in the [`_data/contributors.yml`](_data/contributors.yml) file.
+You can update a contributor's name as it appears on our [website community contributors page](https://www.pyopensci.org/our-community/index.html#pyopensci-community-contributors) by updating their name in [`jekyll/_data/contributors.yml`](jekyll/_data/contributors.yml).
 
-**Important:** Do not try to update contributor names in the [`_data/packages.yml`](_data/packages.yml) file. Any changes made there will be overwritten by our automated workflows.
+**Important:** Do not try to update contributor names in [`jekyll/_data/packages.yml`](jekyll/_data/packages.yml). Any changes made there will be overwritten by our automated workflows.
 
 This is because our workflow treats the `contributors.yml` file as the single source of truth for managing people. The names listed here are used to gather metadata based on a contributor's GitHub username from the contributor file.
 

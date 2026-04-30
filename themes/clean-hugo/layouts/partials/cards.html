@@ -1,0 +1,51 @@
+<!-- This partial renders a card component with an optional Font Awesome icon displayed to the left of the title. -->
+<!-- Reusable card partial.
+     - Use text_only: true in front matter to render a plain white, non-interactive text card.
+     - Otherwise renders the interactive highlight card (supports Font Awesome class strings or raw HTML icons).
+-->
+
+{{ $icon := .icon }}
+{{ $textOnly := false }}
+{{ if reflect.IsMap . }}
+  {{ if .text_only }}
+    {{ $textOnly = eq .text_only true }}
+  {{ end }}
+{{ end }}
+
+{{ if $textOnly }}
+<article class="card card--text">
+  <div>
+    <div>
+      <h2>
+        {{ .title }}
+      </h2>
+      {{ with .excerpt }}
+        <p>{{ . }}</p>
+      {{ end }}
+      {{ with .url }}
+        <div>
+          <a class="card__cta" href="{{ . }}">{{ $.cta | default "Learn more →" }}</a>
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</article>
+{{ else }}
+<article class="card {{ .modifier | default "card--highlight" }}">
+  <div>
+    <h3>{{ if and $icon (in (printf "%s" $icon) "fa-") }}
+      <i class="card__icon {{ $icon }}" aria-hidden="true" title="{{ $.title }}"></i>
+    {{ else if and $icon (ne (printf "%s" $icon) "") }}
+      <div class="card__icon">{{ $icon | safeHTML }}</div>
+    {{ end }} {{ .title }}</h3>
+    {{ with .excerpt }}
+      <div>{{ . | markdownify }}</div>
+    {{ end }}
+  </div>
+
+  {{ with .url }}
+    <a class="card__cta" href="{{ . }}">{{ $.cta | default "Learn more →" }}</a>
+  {{ end }}
+</article>
+{{ end }}
+

@@ -1,0 +1,58 @@
+{{/*
+  Button Shortcode
+  
+  Usage:
+    {{< button href="/packages/" variant="primary" >}}View Packages{{< /button >}}
+    {{< button href="/about/" variant="secondary" size="lg" >}}Learn More{{< /button >}}
+    {{< button href="#" variant="accent" size="sm" icon="arrow-right" >}}Get Started{{< /button >}}
+  
+  Parameters:
+    - href (required): URL the button links to
+    - variant: primary (default), secondary, accent, neutral
+    - size: sm, default, lg, full
+    - icon: Font Awesome icon name (optional)
+    - iconPosition: left (default), right
+    - class: Additional CSS classes (optional)
+    - target: _blank for external links (optional)
+    - rel: Link relationship (optional, defaults to "noopener noreferrer" for target="_blank")
+*/}}
+
+{{ $href := .Get "href" | default "#" }}
+{{ $variant := .Get "variant" | default "primary" }}
+{{ $size := .Get "size" | default "" }}
+{{ $icon := .Get "icon" | default "" }}
+{{ $iconPosition := .Get "iconPosition" | default "left" }}
+{{ $customClass := .Get "class" | default "" }}
+{{ $target := .Get "target" | default "" }}
+{{ $rel := .Get "rel" | default "" }}
+
+{{/* Auto-add noopener noreferrer for external links */}}
+{{ if and (eq $target "_blank") (eq $rel "") }}
+  {{ $rel = "noopener noreferrer" }}
+{{ end }}
+
+{{/* Build CSS classes */}}
+{{ $classes := slice "btn" }}
+{{ $classes = $classes | append (printf "btn--%s" $variant) }}
+{{ if $size }}
+  {{ $classes = $classes | append (printf "btn--%s" $size) }}
+{{ end }}
+{{ if $icon }}
+  {{ $classes = $classes | append "btn--icon" }}
+{{ end }}
+{{ if $customClass }}
+  {{ $classes = $classes | append $customClass }}
+{{ end }}
+
+<a href="{{ $href }}" 
+   class="{{ delimit $classes " " }}"
+   {{ with $target }}target="{{ . }}"{{ end }}
+   {{ with $rel }}rel="{{ . }}"{{ end }}>
+  {{ if and $icon (eq $iconPosition "left") }}
+    <i class="fa-solid fa-{{ $icon }}" aria-hidden="true"></i>
+  {{ end }}
+  {{ .Inner | markdownify }}
+  {{ if and $icon (eq $iconPosition "right") }}
+    <i class="fa-solid fa-{{ $icon }}" aria-hidden="true"></i>
+  {{ end }}
+</a>

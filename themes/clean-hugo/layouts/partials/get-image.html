@@ -1,0 +1,54 @@
+{{/*
+  Helper partial to extract image src, alt, and credit from nested image front matter
+  Handles both page bundles and static images with path-based convention
+
+  Path Convention:
+    - "filename.jpg" → looks in page bundle first
+    - "images/photo.jpg" → looks in static/images/
+    - "/images/photo.jpg" → looks in static/images/ (absolute)
+
+  Expected front matter format:
+    image:
+      src: "hoya-plant.jpg"  # page bundle
+      src: "images/unsplash-water.webp"  # static/images/
+      alt: "Description of image"
+      credit: "Photo by Jane Doe on Unsplash"  # optional
+*/}}
+
+{{ $image := .image }}
+{{ $fallbackAlt := .fallbackAlt | default "" }}
+{{ $page := .page }}
+{{ $result := dict "src" "" "alt" $fallbackAlt "credit" "" "exists" false }}
+
+
+
+{{ if $image }}
+  {{ if $image.src }}
+    {{ $imageSrc := $image.src }}
+    {{ $isStatic := or (hasPrefix $imageSrc "images/") (hasPrefix $imageSrc "/") }}
+
+    {{/* Try page bundle first if not explicitly a static path */}}
+    {{ if and $page (not $isStatic) }}
+      {{ $resource := $page.Resources.GetMatch $imageSrc }}
+      {{ if $resource }}
+        {{ $imageSrc = $resource.RelPermalink }}
+      {{ else }}
+        {{/* Not found in bundle, treat as static and apply relURL */}}
+        {{ $imageSrc = $imageSrc | relURL }}
+      {{ end }}
+    {{ else }}
+      {{/* Explicitly static path, apply relURL */}}
+      {{ $imageSrc = $imageSrc | relURL }}
+    {{ end }}
+
+    {{ $result = dict
+      "src" $imageSrc
+      "alt" ($image.alt | default $fallbackAlt)
+      "credit" ($image.credit | default "")
+      "exists" true
+    }}
+  {{ end }}
+{{ end }}
+
+{{ return $result }}
+

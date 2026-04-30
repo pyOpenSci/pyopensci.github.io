@@ -1,0 +1,346 @@
+/* Impact Cards Section - Hero/splash page cards */
+.impact-cards {
+  max-width: $container-max-width;
+  margin: 0 auto;
+  padding: $fluid-space-2xl $fluid-container-padding;
+}
+
+.impact-cards__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: $card-gap;
+
+  @media (min-width: $breakpoint-md) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Impact cards - fluid padding scales from mobile to desktop */
+.impact-cards .card {
+  padding: $fluid-card-padding-lg;
+  margin: 0;
+
+  /* Consistent typography for all card types */
+  p {
+    font-size: $card-text-size;
+    line-height: $card-line-height;
+    color: $card-text-color;
+  }
+
+  h2, h3 {
+    line-height: 1.25;
+  }
+}
+
+  .card--text  {
+    @include card-base();
+    @include responsive-padding(2.5rem, 2.5rem, 3rem, 3rem);
+    display: flex;
+    flex-direction: column;
+    @media (min-width: $breakpoint-md) {
+      min-height: 260px;
+    }
+    > div {
+      @include flex-center;
+      text-align: center;
+      flex: 1;
+      h2 {
+        @include responsive(font-size, 2.25rem, 3.75rem);
+        font-weight: 800;
+        line-height: 1.25;
+        max-width: 32rem;
+        color: var(--color-gray-900);
+        margin-top: 0;
+        margin-bottom: 0;
+        @media (min-width: $breakpoint-md) {
+          font-size: 3rem;
+        }
+      }
+      p {
+        font-size: $card-text-size;
+        line-height: $card-line-height;
+        color: $card-text-color;
+        transition: color $transition-base ease;
+        margin-bottom: 0;
+        @media (min-width: $breakpoint-md) {
+          font-size: 1.25rem;
+        }
+      }
+      > div:last-child {
+        margin-top: 1.5rem;
+      }
+    }
+  }
+
+  /* Unused - kept for potential future use */
+  .card-hover {
+    transition: transform $transition-base ease-in-out;
+    will-change: transform, box-shadow;
+
+    &:hover,
+    &:focus-visible {
+      transform: translateY(-4px);
+      box-shadow: $shadow-xl;
+    }
+
+    /* ensure hover does NOT change text color */
+    :is(.card__cta, h2, h3, p, li, a) {
+      color: inherit;
+    }
+  }
+
+  /* Unused - kept for potential future use */
+  .card-hover--compact:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(17,24,39,0.06);
+  }
+
+  .card {
+    @include card-base();
+    @include responsive-padding(1.25rem, 1.25rem, 2.5rem, 2.5rem);
+    display: flex;
+    flex-direction: column;
+    h3 {
+      font-size: $card-heading-size;
+      font-weight: 800;
+      line-height: 1.3;
+      margin-bottom: 1rem;
+      transition: color $transition-base ease;
+      margin-top: 0;
+      @media (min-width: $breakpoint-md) {
+        font-size: 1.5rem;
+      }
+    }
+    > div > h3 + div {
+      font-size: $card-text-size;
+      line-height: $card-line-height;
+      color: $card-text-color;
+      transition: color $transition-base ease;
+      @media (min-width: $breakpoint-md) {
+        font-size: 1.125rem;
+      }
+      p {
+        margin-bottom: 0.5rem;
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+
+      ul, ol {
+        padding-left: $card-list-padding;
+
+        li {
+          font-size: $card-text-size;
+          line-height: $card-line-height;
+          margin-bottom: 0.5rem;
+        }
+      }
+
+      a {
+        color: var(--color-link);
+        text-decoration: underline;
+        transition: color .2s ease;
+
+        &:hover,
+        &:focus {
+          color: var(--color-link-hover);
+        }
+      }
+
+      strong {
+        color: var(--color-gray-900);
+        font-weight: 600;
+      }
+    }
+  }
+
+  /* Highlight card - can also use bg-primary utility */
+  .card--highlight {
+    background-color: var(--color-primary-light);
+    transition: background-color $transition-base ease-in-out;
+  }
+
+  /* White card variant - plain white background */
+  .card--white {
+    background-color: var(--color-white);
+  }
+
+  .card__icon {
+    font-size: $card-icon-size;
+    margin-bottom: 1rem;
+    display: inline-block; /* Prevent icon from creating extra layout space */
+    margin-top: 0; /* Ensure no top margin */
+  }
+
+  .card__cta {
+    margin-top: 1rem;
+    @include responsive(font-size, 0.875rem, 1rem);
+    color: var(--color-link);
+    transition: color $transition-base ease;
+
+    &:hover,
+    &:focus {
+      color: var(--color-link-hover);
+    }
+  }
+
+/* ==========================================
+   BLOG CARD MODIFIER - Consolidated from _blog.scss
+   ========================================== */
+
+.card--blog {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  overflow: hidden;
+
+  a {
+    display: block;
+    height: 100%;
+    border-radius: $radius-md;
+    overflow: hidden;
+    background-color: var(--color-white);
+    box-shadow: $shadow-sm;
+    transition: box-shadow $transition-base ease-in-out, transform $transition-base ease-in-out;
+    text-decoration: none;
+
+    &:focus {
+      outline: none;
+      box-shadow: 0 0 0 2px var(--color-white), 0 0 0 4px var(--color-primary);
+    }
+
+    &:hover {
+      box-shadow: $shadow-lg;
+      transform: translateY(-2px);
+
+      .card--blog__image img,
+      .card--blog__image-placeholder {
+        transform: scale(1.03);
+      }
+    }
+  }
+
+  /* Image container */
+  .card--blog__image,
+  .card--blog__image-placeholder {
+    width: 100%;
+    overflow: hidden;
+    aspect-ratio: 16 / 9;
+    transition: transform $transition-base ease-out;
+    margin: 0;
+  }
+
+  .card--blog__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform $transition-base ease-out;
+  }
+
+  /* Content area */
+  > a > div {
+    flex: 1 1 0%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1rem;
+
+    span:first-child {
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      display: block;
+      margin-bottom: 0.5rem;
+      color: var(--color-primary);
+    }
+
+    /* Default grid card title size */
+    h2 {
+      font-size: 1.25rem;
+      font-weight: 600;
+      line-height: 1.25;
+      text-align: left;
+      color: var(--color-gray-900);
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    time {
+      font-size: 0.75rem;
+      color: var(--color-gray-600);
+    }
+
+    p:nth-of-type(1) {
+      font-size: 0.875rem;
+      color: var(--color-gray-700);
+      margin-bottom: 0;
+    }
+
+    p:nth-of-type(2) {
+      font-size: 1rem;
+      line-height: 1.625;
+      color: var(--color-gray-700);
+      margin-bottom: 0;
+    }
+  }
+}
+
+/* Featured blog card modifier */
+.card--blog--featured {
+  @media (min-width: $breakpoint-lg) {
+    grid-column: span 2 / span 2;
+  }
+
+  a > div {
+    gap: 0.75rem;
+    padding: 1.5rem;
+
+    /* Featured title - larger for featured posts */
+    h2 {
+      font-size: 2rem;
+      font-weight: 700;
+      text-align: left;
+      letter-spacing: -0.02em;
+      margin-top: 0;
+      margin-bottom: 0;
+
+      @media (min-width: $breakpoint-md) {
+        font-size: 2.25rem;
+      }
+      @media (min-width: $breakpoint-lg) {
+        font-size: 2.5rem;
+      }
+    }
+
+    span:first-child {
+      margin-bottom: 0.75rem;
+    }
+
+    time {
+      font-size: 1rem;
+    }
+
+    p:nth-of-type(1) {
+      font-size: 1.125rem;
+      margin-bottom: 0;
+    }
+
+    p:nth-of-type(2) {
+      font-size: 1.125rem;
+      line-height: 1.625;
+      margin-bottom: 0;
+
+      @media (min-width: $breakpoint-md) {
+        font-size: 1.25rem;
+      }
+    }
+  }
+}
+
+/* Sidebar blog card modifier */
+.card--blog--sidebar {
+  a > div h2 {
+    font-size: 1.5rem;
+  }
+}

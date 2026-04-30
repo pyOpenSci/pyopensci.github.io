@@ -22,8 +22,10 @@ jobs:
         uses: ruby/setup-ruby@6ca151fd1bfcfd6fe0c4eb6837eb0584d0134a0c #v1.290.0
         with:
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+          working-directory: jekyll
 
       - name: Build with Jekyll
+        working-directory: jekyll
         run: bundle exec jekyll build
         env:
           JEKYLL_ENV: production
@@ -34,10 +36,10 @@ jobs:
         with:
           args: >
             --no-progress
-            --root-dir ${{ github.workspace }}/_site
+            --root-dir ${{ github.workspace }}/jekyll/_site
             --exclude 'zenodo\.org'
             --accept '200..=403'
-            _site
+            jekyll/_site
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 

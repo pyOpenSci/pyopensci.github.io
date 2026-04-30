@@ -1,4 +1,10 @@
 _site/
+# Hugo (root site)
+public/
+resources/
+.hugo_build.lock
+node_modules/
+jekyll/_site/
 .sass-cache/
 .jekyll-metadata
 _config-dev.yml

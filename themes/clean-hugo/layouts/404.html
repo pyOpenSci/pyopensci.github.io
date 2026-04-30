@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "en" }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page not found | {{ .Site.Title }}</title>
+  <meta name="robots" content="noindex, nofollow">
+  {{/* Use theme CSS so 404 matches site look */}}
+  {{ $styles := resources.Get "css/main.scss" | toCSS | postCSS | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $styles.RelPermalink }}">
+</head>
+<body>
+  {{ partial "skip-link.html" . }}
+  <nav id="site-nav" class="site-nav" aria-label="Primary">
+    <div class="site-nav__container">
+      <a href="{{ "" | relURL }}" class="site-nav__brand">{{ .Site.Params.author | default .Site.Title }}</a>
+    </div>
+  </nav>
+  <main id="main">
+    <div class="content-container" style="padding: 2rem 1rem; max-width: 65ch;">
+      <h1>Page not found</h1>
+      <p>The page you're looking for doesn't exist or has moved.</p>
+      <p><a href="{{ "" | relURL }}" class="btn btn--primary">Go to the home page</a></p>
+    </div>
+  </main>
+  {{ partial "footer.html" . }}
+</body>
+</html>

@@ -1,0 +1,119 @@
+/**
+ * Swoosh sections: full-width blocks with optional curved SVG dividers.
+ * Section is always full viewport width; content is constrained in __content.
+ */
+
+/* Full-bleed: section escapes any parent max-width so it's always full width */
+.swoosh-section {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.swoosh-section__content {
+  max-width: 80rem; /* 1280px */
+  margin-left: auto;
+  margin-right: auto;
+  padding: $fluid-space-2xl $fluid-container-padding;
+}
+
+/* Background modifiers */
+.swoosh-section--white {
+  background-color: var(--color-white, #fff);
+}
+
+.swoosh-section--purple {
+  background-color: var(--swoosh-bg-purple, #e1dfed);
+  --swoosh-fill-1: #bdb6d6;
+  --swoosh-fill-2: #e2dfed;
+}
+
+.swoosh-section--green {
+  background-color: var(--swoosh-bg-green, #d4ebe3);
+  --swoosh-fill-1: #4e7064; /* darker green highlight (a bit lighter than black-mix) */
+  --swoosh-fill-2: #d4ebe3; /* same light green as section, blends */
+}
+
+/* Divider theme: fill vars when divider is outside section (top/bottom partial) */
+.swoosh-section__divider--purple {
+  --swoosh-fill-1: #bdb6d6;
+  --swoosh-fill-2: #e2dfed;
+}
+
+.swoosh-section__divider--green {
+  --swoosh-fill-1: #4e7064; /* darker green highlight (a bit lighter than black-mix) */
+  --swoosh-fill-2: #d4ebe3; /* same light green as section, blends */
+}
+
+.swoosh-section__divider--white {
+  --swoosh-fill-1: var(--color-white, #fff);
+  --swoosh-fill-2: var(--color-white, #fff);
+}
+
+/* Wrapper for standalone divider (above/below section): full width like section */
+.swoosh-section__divider-wrap {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+/* Contained width (layout="docs"): fill content column only, no sidebar bleed */
+.swoosh-section--docs,
+.swoosh-section__divider-wrap--docs {
+  width: 100%;
+  max-width: 100%;
+  left: auto;
+  right: auto;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* Divider: full width, contains SVG wave */
+.swoosh-section__divider {
+  position: relative;
+  width: 100%;
+  line-height: 0;
+}
+
+.swoosh-section__divider--bottom {
+  margin-top: 0;
+}
+
+.swoosh-section__divider--top {
+  margin-bottom: 0;
+}
+
+.swoosh-section__svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Wave paths: fill from CSS variables (set by section modifier) */
+.swoosh-section__wave--1 {
+  fill: var(--swoosh-fill-1);
+  opacity: 0.9;
+}
+
+.swoosh-section__wave--2 {
+  fill: var(--swoosh-fill-2);
+}
+
+/* Bottom divider: SVG sits at bottom of its wrapper */
+.swoosh-section__divider--bottom .swoosh-section__svg {
+  vertical-align: bottom;
+}
+
+.swoosh-section__divider--top .swoosh-section__svg {
+  vertical-align: top;
+}
+

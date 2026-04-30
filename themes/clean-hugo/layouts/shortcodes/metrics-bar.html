@@ -1,0 +1,9 @@
+{{/* Metrics bar shortcode - displays up to 4 stats with bold numbers and smaller text */}}
+{{ $stat1 := .Get "stat1" | default "" }}
+{{ $stat2 := .Get "stat2" | default "" }}
+{{ $stat3 := .Get "stat3" | default "" }}
+{{ $stat4 := .Get "stat4" | default "" }}
+
+{{ $stats := slice $stat1 $stat2 $stat3 $stat4 }}
+{{ partial "metrics-bar-render.html" (dict "stats" $stats) }}
+

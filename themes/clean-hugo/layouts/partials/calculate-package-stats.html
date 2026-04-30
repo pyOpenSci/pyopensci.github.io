@@ -1,0 +1,34 @@
+{{/*
+  Calculate Package Statistics
+  Returns a dict with: total, active, joss, maintainers
+  Usage: {{ $stats := partial "calculate-package-stats.html" . }}
+*/}}
+
+{{ $allMaintainers := slice }}
+{{ $activeCount := 0 }}
+{{ $jossCount := 0 }}
+{{ $totalCount := 0 }}
+
+{{ with .Site.Data.packages }}
+  {{ $totalCount = len . }}
+  {{ range . }}
+    {{ if .active }}
+      {{ $activeCount = add $activeCount 1 }}
+    {{ end }}
+    {{ if .joss }}
+      {{ $jossCount = add $jossCount 1 }}
+    {{ end }}
+    {{ range .all_current_maintainers }}
+      {{ $allMaintainers = $allMaintainers | append .github_username }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ $uniqueMaintainers := $allMaintainers | uniq }}
+
+{{ return (dict
+    "total" $totalCount
+    "active" $activeCount
+    "joss" $jossCount
+    "maintainers" (len $uniqueMaintainers)
+) }}

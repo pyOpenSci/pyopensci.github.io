@@ -1,0 +1,316 @@
+  /* Metrics Bar */
+  .metrics-bar {
+    width: 100%;
+    padding: 6rem 0;
+    margin: 3rem 0 5rem;
+    background-color: color-mix(in srgb, var(--color-primary) 8%, var(--color-gray-50));
+
+    /* Grid container */
+    > div {
+      width: 100%;
+      padding: 0 1.5rem;
+      display: grid;
+      gap: 2rem;
+      grid-template-columns: repeat(2, 1fr);
+      max-width: $container-max-width;
+      margin: 0 auto;
+
+      @media (min-width: $breakpoint-lg) {
+        grid-template-columns: repeat(4, 1fr);
+      }
+
+      /* Items */
+      > div {
+        text-align: center;
+        @include responsive(font-size, 1rem, 1.125rem);
+        line-height: 1.625;
+        color: var(--color-gray-700);
+
+        /* Numbers */
+        strong {
+          display: block;
+          @include responsive(font-size, 2.25rem, 3rem, 3.75rem);
+          @include responsive(margin-bottom, 0.5rem, 0.75rem);
+          font-weight: 900;
+          line-height: 1.25;
+          color: var(--color-gray-900);
+          letter-spacing: -0.02em;
+        }
+      }
+    }
+  }
+
+  /* Two Card Row */
+  .two-card-row {
+    padding: 1.5rem 0;
+    background-color: var(--color-gray-50);
+  }
+
+  .two-card-row__container {
+    @include responsive-grid($mobile: 1, $tablet: 2, $desktop: 2, $gap: 1.5rem);
+    align-items: start;
+    max-width: $container-max-width;
+    margin: 0 auto;
+    padding: 0 $fluid-container-padding;
+  }
+
+  /* Card Shortcode (used in two-card-row) - can use bg-card, bg-primary, or bg-secondary utilities */
+  .card-shortcode {
+    width: 100%;
+    border-radius: $card-border-radius;
+    border: $card-border;
+    box-shadow: $card-shadow;
+    @include responsive-padding(1.5rem, 1.5rem, 2.5rem, 2.5rem);
+    height: 100%;
+    background-color: var(--color-white);
+    @include card-hover($lift: -4px, $shadow: $card-shadow-hover);
+
+    @media (min-width: $breakpoint-md) {
+      width: auto;
+    }
+
+    div {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .card-shortcode__icon {
+      font-size: $card-icon-size;
+      margin-bottom: 1rem;
+
+      i {
+        color: inherit;
+      }
+    }
+
+    h3 {
+      font-size: $card-heading-size;
+      font-weight: 800;
+      line-height: 1.3;
+      margin-bottom: 1.5rem;
+      color: var(--color-gray-900);
+    }
+
+    div div:last-child {
+      font-size: $card-text-size;
+      line-height: $card-line-height;
+      color: $card-text-color;
+
+      ul, ol {
+        padding-left: $card-list-padding;
+
+        li {
+          font-size: $card-text-size;
+          line-height: $card-line-height;
+          margin-bottom: 0.5rem;
+        }
+      }
+
+      a {
+        color: var(--color-link);
+        text-decoration: underline;
+        transition: color .2s ease;
+
+        &:hover,
+        &:focus {
+          color: var(--color-link-hover);
+        }
+      }
+
+      strong {
+        color: var(--color-gray-900);
+        font-weight: 600;
+      }
+    }
+  }
+
+  /* Single Card Wide */
+  .single-card-wide {
+    padding: 2rem 0 4rem;
+    margin: 2.5rem 0 4rem;
+    background-color: var(--color-gray-50);
+
+    .container > div {
+      border-radius: $card-border-radius;
+      border: $card-border;
+      box-shadow: $card-shadow;
+      @include responsive-padding(1.5rem, 1.5rem, 2.5rem, 2.5rem);
+      background-color: color-mix(in srgb, var(--color-primary-dark) 12%, var(--color-primary-light));
+      @include card-hover($lift: -4px, $shadow: $card-shadow-hover);
+    }
+
+    .single-card-wide__icon {
+      font-size: $card-icon-size;
+      margin-bottom: 1rem;
+
+      i {
+        color: inherit;
+      }
+    }
+
+    h3 {
+      font-size: $card-heading-size;
+      font-weight: 800;
+      margin-bottom: 1.5rem;
+      color: var(--color-gray-900);
+    }
+
+    .container > div > div:last-child {
+      font-size: $card-text-size;
+      line-height: $card-line-height;
+      color: $card-text-color;
+
+      ul {
+        padding-left: $card-list-padding;
+
+        > li + li {
+          margin-top: 0.5rem;
+        }
+      }
+
+      li {
+        font-size: $card-text-size;
+        line-height: $card-line-height;
+      }
+
+      a {
+        color: var(--color-link);
+        text-decoration: underline;
+        font-weight: 500;
+        transition: color .2s ease;
+
+        &:hover,
+        &:focus {
+          color: var(--color-link-hover);
+        }
+      }
+
+      strong {
+        color: var(--color-gray-900);
+        font-weight: 600;
+      }
+    }
+  }
+
+  /* YouTube Video Embed */
+  .youtube-container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    /* Automatically breaks out to full-width in blog posts via auto-detection */
+  }
+
+  /* Constrained width variant - stays within content width */
+  .youtube-container--constrained {
+    width: auto !important;
+    position: static !important;
+    left: auto !important;
+    right: auto !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .youtube-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+  }
+
+  .youtube-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+
+  /* Section Heading Shortcode */
+  .section-heading {
+    text-align: center;
+    padding: $fluid-space-lg 0 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .section-heading__title {
+    @include responsive(font-size, 2.25rem, 3rem, 3.75rem);
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: var(--color-gray-900);
+
+    @media (min-width: $breakpoint-xl) {
+      font-size: 4.5rem;
+    }
+  }
+
+  .section-heading__subtitle {
+    text-align: center;
+    @include responsive(font-size, 1.125rem, 1.25rem);
+    opacity: 0.8;
+    color: var(--color-gray-600);
+  }
+
+  /* Theme Colors Shortcode Styling */
+  .theme-colors {
+    @include grid-auto-fit($min-width: 280px, $gap: 1.5rem);
+    margin: 2rem 0;
+
+    > div {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding: 1rem;
+      border: 1px solid var(--color-gray-200);
+      border-radius: $radius-md;
+      background: var(--color-white);
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+
+      /* Color swatch */
+      > div:first-child {
+        width: 80px;
+        height: 80px;
+        border-radius: $radius-md;
+        border: 2px solid rgba(0, 0, 0, 0.1);
+        flex-shrink: 0;
+      }
+
+      /* Info container */
+      > div:last-child {
+        display: flex;
+        flex-direction: column;
+        gap: 0.25rem;
+        min-width: 0;
+
+        strong {
+          font-size: 1rem;
+          color: var(--color-gray-900);
+          word-break: break-word;
+        }
+
+        code {
+          font-size: 0.875rem;
+          font-family: 'Courier New', monospace;
+          color: var(--color-gray-600);
+          background: var(--color-gray-200);
+          padding: 0.25rem 0.5rem;
+          border-radius: $radius-sm;
+          display: inline-block;
+        }
+      }
+    }
+
+    @media (max-width: $breakpoint-sm) {
+      grid-template-columns: 1fr;
+
+      > div {
+        align-items: flex-start;
+        text-align: left;
+        flex-wrap: wrap;
+
+        > div:first-child {
+          width: 64px;
+          height: 64px;
+        }
+      }
+    }
+  }

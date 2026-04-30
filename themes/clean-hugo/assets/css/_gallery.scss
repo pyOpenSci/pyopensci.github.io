@@ -1,0 +1,173 @@
+/* Gallery Components - Using Mixins */
+
+/* Shared container styles - max-width 80rem with responsive padding */
+.gallery-list-wrapper,
+.gallery-grid-container,
+.gallery-images {
+  @include container;
+}
+
+.gallery-images {
+  @include responsive-padding($spacing-section, 1rem);
+}
+
+/* Gallery grid elements with BEM nesting */
+.gallery-grid {
+  &__title {
+    @include responsive(font-size, 1.5rem, 1.875rem);
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+
+  &__category-title {
+    @include responsive(font-size, 1.25rem, 1.5rem);
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+  }
+
+  &__section {
+    margin-bottom: $spacing-section;
+  }
+
+  &__items {
+    @include grid-auto-fit;
+  }
+}
+
+/* Gallery content wrapper - narrower max-width */
+.gallery-content {
+  @include container($container-narrow);
+  padding: 0 $fluid-container-padding-lg;
+}
+
+/* Gallery header with nested elements */
+.gallery-header {
+  margin-bottom: 2rem;
+
+  h2 {
+    @include responsive(font-size, 1.5rem, 1.875rem, 2.25rem);
+    margin-bottom: 0.5rem;
+  }
+
+  .common-name {
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+    color: var(--color-gray-600);
+  }
+}
+
+/* Markdown body */
+.gallery-description {
+  max-width: none;
+
+  /* Hide h1 in gallery description - title should only be in hero */
+  h1 {
+    display: none;
+  }
+}
+
+/* Gallery images section heading */
+.gallery-images h2 {
+  @include responsive(font-size, 1.25rem, 1.5rem, 1.875rem);
+  margin-bottom: 1rem;
+}
+
+/* Masonry layout using CSS columns */
+.gallery-masonry {
+    columns: 1;
+    column-gap: clamp(0.5rem, 2vw, 1.5rem);
+    padding: clamp(0.5rem, 2vw, 1.5rem);
+
+  figure {
+    break-inside: avoid;
+    margin-bottom: clamp(0.25rem, 1vw, .5rem);
+    display: block;
+  }
+
+  img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  a {
+    display: block;
+    &:hover img {
+      transform: scale(1.03);
+    }
+  }
+
+  @media (min-width: $breakpoint-sm) {
+    columns: 2;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  @media (min-width: $breakpoint-lg) {
+    columns: 3;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: $radius-md;
+    transition: transform $transition-base ease-out;
+    cursor: zoom-in;
+  }
+
+  figcaption {
+    display: block;
+  }
+}
+
+.gallery-caption {
+  padding: 0.625rem;
+  font-size: 0.875rem;
+  color: var(--color-gray-700);
+}
+
+/* Gallery card component with BEM nesting */
+.gallery-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 340px;
+  border: 1px solid var(--color-gray-200);
+  border-radius: $radius-lg;
+  overflow: hidden;
+  background-color: var(--color-white);
+  box-shadow: $shadow-md;
+  transition: box-shadow $transition-base ease-out;
+
+  &__link {
+    display: block;
+
+    &:focus {
+      @include focus-ring;
+    }
+  }
+
+  &__image {
+    @include image-zoom;
+    width: 100%;
+    height: 10rem;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    padding: 1.5rem;
+  }
+
+  &__title {
+    font-family: 'Sora', sans-serif;
+    font-weight: 700;
+    font-size: 1.125rem;
+    padding: 0.5rem 0.75rem;
+    color: var(--color-gray-900);
+  }
+}

@@ -1,0 +1,16 @@
+{{ define "main" }}
+<section class="section-container">
+  <h1 class="section-title">{{ .Title | default "Topics" }}</h1>
+
+  <ul class="term-list">
+    {{ range $term, $data := .Data.Terms }}
+      <li class="term-item">
+        <a href="{{ $data.Page.Permalink }}">
+          {{ $term }} <span class="term-count">({{ $data.Count }})</span>
+        </a>
+      </li>
+    {{ end }}
+  </ul>
+</section>
+{{ end }}
+

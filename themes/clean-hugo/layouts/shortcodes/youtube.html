@@ -1,0 +1,32 @@
+{{/* YouTube shortcode - supports full-width (default) or constrained width */}}
+{{ $fullWidth := .Get "full" | default "true" }}
+{{ $videoId := .Get "id" }}
+
+{{ if eq $fullWidth "false" }}
+  {{/* Constrained width - stays within content width */}}
+  <div class="youtube-container youtube-container--constrained">
+    <div class="youtube-wrapper">
+      <iframe
+        class="youtube-iframe"
+        src="https://www.youtube.com/embed/{{ $videoId }}"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </div>
+{{ else }}
+  {{/* Full-width - breaks out of container */}}
+  <div class="youtube-container">
+    <div class="youtube-wrapper">
+      <iframe
+        class="youtube-iframe"
+        src="https://www.youtube.com/embed/{{ $videoId }}"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </div>
+{{ end }}
+

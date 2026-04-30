@@ -1,0 +1,54 @@
+name = "clean-hugo"
+license = "BSD-3-Clause"
+licenselink = "https://github.com/lwasser/clean-hugo/blob/main/LICENSE"
+description = "A clean, modern Hugo theme with configurable colors and optional gallery feature"
+tags = ["blog", "gallery", "minimal", "modern", "hugo", "scss"]
+features = ["blog", "gallery", "responsive", "customizable"]
+min_version = "0.118.2"
+
+[author]
+  name = "Leah A. Wasser"
+  homepage = "https://leahwasser.com"
+
+[original]
+  author = "Leah A. Wasser"
+  homepage = "https://leahwasser.com"
+  repo = "https://github.com/lwasser/clean-hugo"
+
+# Default theme parameters (can be overridden in site's hugo.toml)
+[params.theme.colors]
+  # Brand colors (defaults) — can be overridden in site hugo.toml
+  primary = "#2E6060"
+  primaryDark = "#142929"
+  primaryLight = "#D6E3E3"
+  secondary = "#F1E0A6"
+  accent = "#42213D"
+  accentLight = "#E4B8C6"
+  neutral = "#395E66"
+
+  # Base/Text colors
+  white = "#FFFFFF"
+
+  # Gray scale (for theme customization)
+  gray50 = "#F9FAFB"
+  gray200 = "#E5E7EB"
+  gray600 = "#4B5563"
+  gray700 = "#374151"
+  gray900 = "#111827" # Used for dark background for blog highlights
+
+  # Semantic colors
+  link = "#2E6060"
+  linkOnDark = "#2DD4BF"
+  linkHover = "#1F4345"
+  featureCard = "#EBC1D3"
+
+  # Section backgrounds (kept as references for semantic clarity)
+  "heroBg" = "#2E6060"
+
+  # Admonition colors
+  "admonition-info" = "#53354F"      # deep purple
+  "admonition-success" = "#71B3B5"   # brighter teal
+  "admonition-warning" = "#E4B8C6"   # Soft blossom
+  "admonition-danger" = "#F1E0A6"    # yellow custard
+  "admonition-note" = "#CAE4E4"      # soft teal
+

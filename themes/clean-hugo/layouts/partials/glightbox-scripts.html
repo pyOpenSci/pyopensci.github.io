@@ -1,0 +1,23 @@
+{{/*
+  GLightbox Scripts Partial
+
+  Loads GLightbox JavaScript and initializes it.
+  Only call this partial on pages that actually use galleries.
+
+  Usage in layout:
+  {{ define "scripts" }}
+    {{ partial "glightbox-scripts.html" . }}
+  {{ end }}
+*/}}
+
+{{ if .Site.Params.theme.enableGallery | default true }}
+  <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+  <script>
+    GLightbox({
+      selector: '.glightbox',
+      touchNavigation: true,
+      loop: false,
+      autoplayVideos: true
+    });
+  </script>
+{{ end }}

@@ -1,0 +1,26 @@
+<section class="feature">
+  <header class="feature__header">
+    <h2>{{ .Params.feature_title | default "What I've Built" }}</h2>
+    <p>{{ .Params.feature_subtitle | default "A showcase of my work and achievements" }}</p>
+  </header>
+
+  <div class="feature__grid">
+    {{ $content := .Content }}
+    {{ if $content }}
+      <article class="feature-card">
+        {{ $content | markdownify }}
+      </article>
+    {{ else }}
+      {{/* Fallback: render from params if no content */}}
+      {{ with .Params.features }}
+        {{ range . }}
+          <article class="feature-card">
+            {{ with .title }}<h3>{{ . }}</h3>{{ end }}
+            {{ with .content }}<div>{{ . | markdownify }}</div>{{ end }}
+          </article>
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  </div>
+</section>
+

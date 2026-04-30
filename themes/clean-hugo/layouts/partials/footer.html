@@ -1,0 +1,31 @@
+<footer id="footer" class="site-footer">
+  <div class="container">
+    <h3>{{ .Site.Params.footer.title | default "Let's Connect" }}</h3>
+    <ul>
+      {{ with .Site.Params.social.github }}
+        <li><a href="{{ . }}" aria-label="GitHub"><i class="fab fa-github"></i></a></li>
+      {{ end }}
+      {{ with .Site.Params.social.linkedin }}
+        <li><a href="{{ . }}" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
+      {{ end }}
+      {{ with .Site.Params.social.mastodon }}
+        <li><a href="{{ . }}" aria-label="Mastodon"><i class="fab fa-mastodon"></i></a></li>
+      {{ end }}
+      {{ with .Site.Params.social.bluesky }}
+        <li><a href="{{ . }}" aria-label="Bluesky"><i class="fa-solid fa-globe"></i></a></li>
+      {{ end }}
+      {{ with .Site.Params.social.orcid }}
+        <li><a href="{{ . }}" aria-label="ORCID"><i class="fab fa-orcid"></i></a></li>
+      {{ end }}
+      {{ with .Site.Params.social.rss }}
+        <li><a href="{{ . }}" aria-label="RSS"><i class="fa-solid fa-rss"></i></a></li>
+      {{ end }}
+      {{/* Allow custom social links */}}
+      {{ range .Site.Params.social.custom }}
+        <li><a href="{{ .url }}" aria-label="{{ .name }}"><i class="{{ .icon }}"></i></a></li>
+      {{ end }}
+    </ul>
+    <p>© {{ now.Format "2006" }} {{ .Site.Params.author | default .Site.Title }}{{ with .Site.Params.licenseURL }} · <a href="{{ . }}">License</a>{{ end }}</p>
+  </div>
+</footer>
+

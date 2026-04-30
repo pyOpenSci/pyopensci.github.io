@@ -1,0 +1,22 @@
+/* Figure shortcode styles */
+.figure {
+  margin: 1.5rem 0;
+
+  &__link,
+  &__picture {
+    display: block;
+  }
+
+  &__image {
+    width: 100%;
+    height: auto;
+    border-radius: $radius-md;
+  }
+
+  &__caption {
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+    text-align: center;
+    color: var(--color-gray-600);
+  }
+}

@@ -1,0 +1,48 @@
+{{/*
+  Package Filters Partial
+  Category filter buttons for package grid
+  Usage: {{ partial "packages/filters.html" . }}
+*/}}
+
+<div class="packages-filters">
+  <input type="text"
+         id="quicksearch"
+         placeholder="Search packages..."
+         aria-label="Search packages"
+         x-model="searchQuery" />
+
+  <div>
+    <button @click="activeFilter = '*'"
+            :class="{ 'is-checked': activeFilter === '*' }">
+      show all
+    </button>
+    <button @click="activeFilter = 'data-processing-munging'"
+            :class="{ 'is-checked': activeFilter === 'data-processing-munging' }">
+      data processing
+    </button>
+    <button @click="activeFilter = 'data-extraction'"
+            :class="{ 'is-checked': activeFilter === 'data-extraction' }">
+      data extraction
+    </button>
+    <button @click="activeFilter = 'data-retrieval'"
+            :class="{ 'is-checked': activeFilter === 'data-retrieval' }">
+      data retrieval
+    </button>
+    <button @click="activeFilter = 'data-visualization'"
+            :class="{ 'is-checked': activeFilter === 'data-visualization' }">
+      data visualization
+    </button>
+    <button @click="activeFilter = 'education'"
+            :class="{ 'is-checked': activeFilter === 'education' }">
+      education
+    </button>
+    <button @click="activeFilter = 'geospatial'"
+            :class="{ 'is-checked': activeFilter === 'geospatial' }">
+      geospatial
+    </button>
+    <button @click="activeFilter = 'reproducibility'"
+            :class="{ 'is-checked': activeFilter === 'reproducibility' }">
+      reproducibility
+    </button>
+  </div>
+</div>

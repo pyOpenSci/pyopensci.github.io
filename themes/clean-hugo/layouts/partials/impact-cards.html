@@ -1,0 +1,14 @@
+<!-- Display a section with impact cards arranged in a grid layout.
+ Content grabbed from yaml front matter-->
+
+<section class="impact-cards">
+  <div class="impact-cards__grid">
+    {{ $cards := .Params.cards }}
+    {{ if $cards }}
+      {{ range $i, $c := $cards }}
+        {{ partial "cards.html" $c }}
+      {{ end }}
+    {{ end }}
+  </div>
+</section>
+

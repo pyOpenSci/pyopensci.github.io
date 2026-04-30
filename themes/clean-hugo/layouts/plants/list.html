@@ -1,0 +1,39 @@
+{{/* Compatibility layer: plants section uses gallery layouts */}}
+{{ define "main" }}
+  {{ partial "hero.html" . }}
+
+  <section class="gallery-list-wrapper">
+    <!-- Build unique group list from pages -->
+    {{ $seen := dict }}
+    {{ range .Pages.ByWeight.Reverse }}
+      {{ with .Params.groups }}
+        {{ range . }}
+          {{ if not (index $seen .) }}
+            {{ $seen = merge $seen (dict . true) }}
+          {{ end }}
+        {{ end }}
+      {{ else }}
+        {{ with .Params.group }}
+          {{ if not (index $seen .) }}
+            {{ $seen = merge $seen (dict . true) }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+
+    <!-- Filter buttons -->
+    <div class="filter-row" role="tablist" aria-label="Filter plants by group">
+      <button class="filter-btn" data-filter="all" aria-pressed="true">All</button>
+      {{ range $k, $v := $seen }}
+        <button class="filter-btn" data-filter="{{ $k }}" aria-pressed="false">{{ humanize $k }}</button>
+      {{ end }}
+    </div>
+
+    <!-- Gallery - using plant-card for compatibility -->
+    {{ partial "plant-gallery.html" (dict "Pages" .Pages.ByWeight.Reverse "Title" .Title "Cols" 3) }}
+  </section>
+
+  <!-- Client-side filter -->
+  {{ partial "gallery-filter.html" (dict "cardSelector" ".gallery-card, .plant-card" "ariaLabel" "Filter plants by group") }}
+{{ end }}
+

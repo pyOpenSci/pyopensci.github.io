@@ -1,0 +1,116 @@
+  /* Container classes for both feature and feature-section */
+  .feature,
+  .feature-section {
+    padding-top: $fluid-space-2xl;
+    padding-bottom: $fluid-space-2xl;
+
+    header {
+      @include responsive(margin-bottom, 2.5rem, 3rem);
+      text-align: center;
+
+      h2 {
+        @include responsive(font-size, 2.25rem, 3.75rem);
+        font-weight: 700;
+        margin-bottom: 1rem;
+
+        @media (min-width: $breakpoint-sm) {
+          font-size: 3rem;
+        }
+      }
+
+      p {
+        @include responsive(font-size, 1.125rem, 1.5rem);
+        opacity: 0.8;
+        max-width: 48rem;
+        margin-left: auto;
+        margin-right: auto;
+
+        @media (min-width: $breakpoint-sm) {
+          font-size: 1.25rem;
+        }
+      }
+    }
+
+    div {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+  }
+
+  /* Unified feature card - uses utility classes for background colors */
+  .feature-card {
+    border-radius: $radius-lg;
+    border: 1px solid var(--color-gray-200);
+    box-shadow: $shadow-sm;
+    padding: $fluid-card-padding-md;
+    background-color: var(--color-feature-card);  /* Default background - can be overridden with bg-primary or bg-secondary utility classes */
+  }
+
+  .feature-card h3 {
+    @include responsive(font-size, 1.25rem, 1.875rem);
+    font-weight: 800;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+
+    @media (min-width: $breakpoint-sm) {
+      font-size: 1.5rem;
+    }
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  .feature-card h4 {
+    @include responsive(font-size, 1.125rem, 1.25rem);
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .feature-card .lead {
+    @include responsive(font-size, 1.125rem, 1.25rem);
+    margin-bottom: 1.5rem;
+  }
+
+  .feature-card p {
+    @include responsive(font-size, 1rem, 1.25rem);
+    margin-bottom: 1.5rem;
+
+    @media (min-width: $breakpoint-sm) {
+      font-size: 1.125rem;
+    }
+  }
+
+  .feature-card ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    padding-right: 1rem;
+    @include responsive(font-size, 1rem, 1.125rem);
+    line-height: 1.625;
+
+    > li + li {
+      margin-top: 0.5rem;
+    }
+  }
+
+  .feature-card ul.links a {
+    text-decoration: underline;
+    color: var(--color-link);
+
+    &:hover,
+    &:focus {
+      color: var(--color-link-hover);
+    }
+  }
+
+  .feature-card a {
+    text-decoration: underline;
+    color: currentColor;
+
+    &:hover,
+    &:focus {
+      color: var(--color-link);
+    }
+  }

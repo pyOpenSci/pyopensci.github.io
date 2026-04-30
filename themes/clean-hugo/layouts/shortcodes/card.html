@@ -1,0 +1,25 @@
+{{/* Card shortcode - used inside two-card-row or standalone */}}
+{{ $title := .Get "title" | default "" }}
+{{ $icon := .Get "icon" | default "" }}
+{{ $content := .Inner }}
+
+<div class="card-shortcode">
+  <div>
+    {{ if $icon }}
+    <div class="card-shortcode__icon">
+      {{ if in $icon "fa-" }}
+        <i class="{{ $icon }}" aria-hidden="true"></i>
+      {{ else }}
+        {{ $icon }}
+      {{ end }}
+    </div>
+    {{ end }}
+    {{ if $title }}
+    <h3>{{ $title }}</h3>
+    {{ end }}
+    <div>
+      {{ $content | markdownify }}
+    </div>
+  </div>
+</div>
+

@@ -1,0 +1,484 @@
+{{/*
+  SEO Partial - Open Graph, Canonical URLs, and Article Metadata
+
+  Provides rich metadata for social sharing (LinkedIn, Discord, Slack, Mastodon, Bluesky, etc.)
+  and search engines.
+*/}}
+
+{{/* Determine page title */}}
+{{ $title := .Title }}
+{{ if .IsHome }}
+  {{ $title = .Site.Title }}
+{{ else }}
+  {{ $title = printf "%s | %s" .Title .Site.Title }}
+{{ end }}
+
+{{/* Determine description */}}
+{{ $description := .Description }}
+{{ if not $description }}
+  {{ if .Summary }}
+    {{ $description = .Summary | plainify | truncate 160 }}
+  {{ else }}
+    {{ $description = .Site.Params.tagline | default .Site.Params.description }}
+  {{ end }}
+{{ end }}
+
+{{/* Determine image for social sharing */}}
+{{ $img := partial "get-image.html" (dict "image" .Params.image "fallbackAlt" .Title) }}
+{{ $image := "" }}
+{{ $imageAlt := .Title }}
+{{ if $img.exists }}
+  {{ $image = $img.src | absURL }}
+  {{ $imageAlt = $img.alt }}
+{{ else if .Site.Params.seo.default_image }}
+  {{ $image = .Site.Params.seo.default_image | absURL }}
+{{ end }}
+
+{{/* Canonical URL */}}
+<link rel="canonical" href="{{ .Permalink }}">
+
+{{/* Noindex: set noindex: true in front matter to exclude page from search engines (default: indexed) */}}
+{{ with .Params.noindex }}
+  <meta name="robots" content="noindex, nofollow">
+{{ end }}
+
+{{/* Open Graph / Social Media Meta Tags */}}
+<meta property="og:title" content="{{ $title }}">
+<meta property="og:description" content="{{ $description }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:site_name" content="{{ .Site.Title }}">
+<meta property="og:locale" content="{{ .Site.LanguageCode | default "en_US" }}">
+
+{{ if $image }}
+<meta property="og:image" content="{{ $image }}">
+<meta property="og:image:alt" content="{{ $imageAlt }}">
+{{ end }}
+
+{{/* Content type specific tags */}}
+{{ if .IsPage }}
+  {{ if eq .Section "blog" }}
+    <meta property="og:type" content="article">
+    <meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+    {{ with .Lastmod }}
+      <meta property="article:modified_time" content="{{ .Format "2006-01-02T15:04:05Z07:00" }}">
+    {{ end }}
+    {{ with .Params.author }}
+      <meta property="article:author" content="{{ . }}">
+    {{ end }}
+    {{ with .Params.category }}
+      <meta property="article:section" content="{{ . }}">
+    {{ end }}
+    {{ range .Params.tags }}
+      <meta property="article:tag" content="{{ . }}">
+    {{ end }}
+  {{ else }}
+    <meta property="og:type" content="website">
+  {{ end }}
+{{ else }}
+  <meta property="og:type" content="website">
+{{ end }}
+
+{{/* Additional SEO meta tags */}}
+{{ with .Site.Params.author }}
+  <meta name="author" content="{{ . }}">
+{{ end }}
+
+{{ if .IsPage }}
+  <meta name="date" content="{{ .Date.Format "2006-01-02" }}">
+  {{ with .Lastmod }}
+    <meta name="last-modified" content="{{ .Format "2006-01-02" }}">
+  {{ end }}
+{{ end }}
+
+{{/* Keywords if provided */}}
+{{ with .Params.tags }}
+  <meta name="keywords" content="{{ delimit . ", " }}">
+{{ end }}
+
+{{/*
+  JSON-LD structured data (Organization or Person).
+  Current practice: Schema.org types with url, logo (Organization), sameAs for social links.
+  Set params.social.type to "Organization" (default) or "Person".
+  For Person, set params.social.name; sameAs is built from params.social URL values (github, linkedin, etc.).
+*/}}
+{{ $schemaType := .Site.Params.social.type | default "Organization" }}
+{{ $sameAs := slice }}
+{{ range $key, $val := .Site.Params.social }}
+  {{ $v := printf "%v" $val }}
+  {{ if and (ne $key "type") (ne $key "name") (or (hasPrefix $v "http://") (hasPrefix $v "https://")) }}
+    {{ $sameAs = $sameAs | append $v }}
+  {{ end }}
+{{ end }}
+
+{{ $schemaName := .Site.Title }}
+{{ if eq $schemaType "Person" }}
+  {{ $schemaName = .Site.Params.social.name | default .Site.Title }}
+{{ end }}
+{{ $schema := dict "@context" "https://schema.org" "@type" $schemaType "name" $schemaName "url" ("" | absURL) }}
+{{ if $sameAs }}
+  {{ $schema = merge $schema (dict "sameAs" $sameAs) }}
+{{ end }}
+{{ if and (eq $schemaType "Organization") .Site.Params.seo.default_image }}
+  {{ $schema = merge $schema (dict "logo" (.Site.Params.seo.default_image | absURL)) }}
+{{ end }}
+
+<script type="application/ld+json">
+  {{ $schema | jsonify | safeJS }}
+</script>
+
+{{/*
+  BlogPosting JSON-LD for blog posts. Enables article rich results in Google (image, date, author in search).
+  See: https://developers.google.com/search/docs/appearance/structured-data/article
+*/}}
+{{ if and .IsPage (eq .Section "blog") }}
+  {{ $authorName := .Params.author | default .Site.Params.author | default .Site.Title }}
+  {{ $publisher := dict "@type" "Organization" "name" .Site.Title }}
+  {{ with .Site.Params.seo.default_image }}
+    {{ $publisher = merge $publisher (dict "logo" (dict "@type" "ImageObject" "url" (. | absURL))) }}
+  {{ end }}
+  {{ $article := dict "@context" "https://schema.org" "@type" "BlogPosting" "headline" .Title "url" .Permalink "datePublished" (.Date.Format "2006-01-02T15:04:05Z07:00") "author" (dict "@type" "Person" "name" $authorName) "publisher" $publisher }}
+  {{ with .Lastmod }}
+    {{ $article = merge $article (dict "dateModified" (.Format "2006-01-02T15:04:05Z07:00")) }}
+  {{ end }}
+  {{ if $image }}
+    {{ $article = merge $article (dict "image" $image) }}
+  {{ end }}
+  {{ with .Description }}
+    {{ $article = merge $article (dict "description" .) }}
+  {{ else }}
+    {{ with .Summary }}
+      {{ $article = merge $article (dict "description" (. | plainify | truncate 160)) }}
+    {{ end }}
+  {{ end }}
+<script type="application/ld+json">
+  {{ $article | jsonify | safeJS }}
+</script>
+{{ end }}
+
+{{/*
+  TechArticle JSON-LD for doc/tutorial pages. Enables article-style rich results.
+  Set tech_article: true on a page, or use [cascade] in hugo.toml to apply to whole paths (e.g. /lessons/, /peer-review/peer-review-guide/).
+  See: https://schema.org/TechArticle and https://developers.google.com/search/docs/appearance/structured-data/article
+*/}}
+{{ if and .IsPage .Params.tech_article }}
+  {{ $authorName := .Params.author | default .Site.Params.author | default .Site.Title }}
+  {{ $publisher := dict "@type" "Organization" "name" .Site.Title }}
+  {{ with .Site.Params.seo.default_image }}
+    {{ $publisher = merge $publisher (dict "logo" (dict "@type" "ImageObject" "url" (. | absURL))) }}
+  {{ end }}
+  {{ $tech := dict "@context" "https://schema.org" "@type" "TechArticle" "headline" .Title "url" .Permalink "datePublished" (.Date.Format "2006-01-02T15:04:05Z07:00") "author" (dict "@type" "Person" "name" $authorName) "publisher" $publisher }}
+  {{ with .Lastmod }}
+    {{ $tech = merge $tech (dict "dateModified" (.Format "2006-01-02T15:04:05Z07:00")) }}
+  {{ end }}
+  {{ if $image }}
+    {{ $tech = merge $tech (dict "image" $image) }}
+  {{ end }}
+  {{ with .Description }}
+    {{ $tech = merge $tech (dict "description" .) }}
+  {{ else }}
+    {{ with .Summary }}
+      {{ $tech = merge $tech (dict "description" (. | plainify | truncate 160)) }}
+    {{ end }}
+  {{ end }}
+<script type="application/ld+json">
+  {{ $tech | jsonify | safeJS }}
+</script>
+{{ end }}
+
+{{/*
+  HowTo JSON-LD for docs/tutorials with step-by-step content. Set howto: true and steps in front matter.
+  See: https://developers.google.com/search/docs/appearance/structured-data/how-to
+  Each step: name (required) and text or url (optional but recommended).
+*/}}
+{{ if and .IsPage .Params.howto .Params.steps }}
+  {{ $howToSteps := slice }}
+  {{ range $i, $s := .Params.steps }}
+    {{ $step := dict "@type" "HowToStep" "position" (add $i 1) "name" ($s.name | default (printf "Step %d" (add $i 1))) }}
+    {{ with $s.text }}
+      {{ $step = merge $step (dict "text" .) }}
+    {{ end }}
+    {{ with $s.url }}
+      {{ $step = merge $step (dict "url" (. | absURL)) }}
+    {{ end }}
+    {{ $howToSteps = $howToSteps | append $step }}
+  {{ end }}
+  {{ $howTo := dict "@context" "https://schema.org" "@type" "HowTo" "name" .Title "url" .Permalink "step" $howToSteps }}
+  {{ with .Description }}
+    {{ $howTo = merge $howTo (dict "description" .) }}
+  {{ else }}
+    {{ with .Summary }}
+      {{ $howTo = merge $howTo (dict "description" (. | plainify | truncate 160)) }}
+    {{ end }}
+  {{ end }}
+  {{ if $image }}
+    {{ $howTo = merge $howTo (dict "image" $image) }}
+  {{ end }}
+  {{ with .Params.total_time }}
+    {{ $howTo = merge $howTo (dict "totalTime" .) }}
+  {{ end }}
+<script type="application/ld+json">
+  {{ $howTo | jsonify | safeJS }}
+</script>
+{{ end }}
+
+{{/*
+  LearningResource JSON-LD for lessons/tutorials with educational metadata.
+  Set learning_resource: true and optional skill_level, duration, prerequisites (and optionally teaches, learning_resource_type, educational_use) in front matter.
+  See: https://schema.org/LearningResource
+*/}}
+{{ if and .IsPage .Params.learning_resource }}
+  {{ $lr := dict "@context" "https://schema.org" "@type" "LearningResource" "name" .Title "url" .Permalink }}
+  {{ with .Description }}
+    {{ $lr = merge $lr (dict "description" .) }}
+  {{ else }}
+    {{ with .Summary }}
+      {{ $lr = merge $lr (dict "description" (. | plainify | truncate 160)) }}
+    {{ end }}
+  {{ end }}
+  {{ with .Params.skill_level }}
+    {{ $lr = merge $lr (dict "educationalLevel" .) }}
+  {{ end }}
+  {{ with .Params.duration }}
+    {{ $lr = merge $lr (dict "timeRequired" .) }}
+  {{ end }}
+  {{ with .Params.prerequisites }}
+    {{ $lr = merge $lr (dict "competencyRequired" .) }}
+  {{ end }}
+  {{ with .Params.author }}
+    {{ $lr = merge $lr (dict "author" (dict "@type" "Person" "name" .)) }}
+  {{ else }}
+    {{ with .Site.Params.author }}
+      {{ $lr = merge $lr (dict "author" (dict "@type" "Person" "name" .)) }}
+    {{ end }}
+  {{ end }}
+  {{ $lr = merge $lr (dict "datePublished" (.Date.Format "2006-01-02T15:04:05Z07:00")) }}
+  {{ with .Lastmod }}
+    {{ $lr = merge $lr (dict "dateModified" (.Format "2006-01-02T15:04:05Z07:00")) }}
+  {{ end }}
+  {{ if $image }}
+    {{ $lr = merge $lr (dict "image" $image) }}
+  {{ end }}
+  {{ with .Params.teaches }}
+    {{ $lr = merge $lr (dict "teaches" .) }}
+  {{ end }}
+  {{ with .Params.learning_resource_type }}
+    {{ $lr = merge $lr (dict "learningResourceType" .) }}
+  {{ end }}
+  {{ with .Params.educational_use }}
+    {{ $lr = merge $lr (dict "educationalUse" .) }}
+  {{ end }}
+<script type="application/ld+json">
+  {{ $lr | jsonify | safeJS }}
+</script>
+{{ end }}
+
+{{/*
+  SoftwareApplication JSON-LD for reviewed/listed packages (e.g. pyOpenSci packages, distinct from PyPI).
+  Set software_application: true and optional package_name, application_category, operating_system, software_version, same_as (PyPI/repo URL), author.
+  See: https://schema.org/SoftwareApplication
+*/}}
+{{ if and .IsPage .Params.software_application }}
+  {{ $name := .Params.package_name | default .Title }}
+  {{ $sa := dict "@context" "https://schema.org" "@type" "SoftwareApplication" "name" $name "url" .Permalink }}
+  {{ with .Description }}
+    {{ $sa = merge $sa (dict "description" .) }}
+  {{ else }}
+    {{ with .Summary }}
+      {{ $sa = merge $sa (dict "description" (. | plainify | truncate 160)) }}
+    {{ end }}
+  {{ end }}
+  {{ with .Params.application_category }}
+    {{ $sa = merge $sa (dict "applicationCategory" .) }}
+  {{ end }}
+  {{ with .Params.application_subcategory }}
+    {{ $sa = merge $sa (dict "applicationSubCategory" .) }}
+  {{ end }}
+  {{ with .Params.operating_system }}
+    {{ $sa = merge $sa (dict "operatingSystem" .) }}
+  {{ end }}
+  {{ with .Params.software_version }}
+    {{ $sa = merge $sa (dict "softwareVersion" .) }}
+  {{ end }}
+  {{ with .Params.same_as }}
+    {{ $sa = merge $sa (dict "sameAs" .) }}
+  {{ end }}
+  {{ with .Params.author }}
+    {{ $sa = merge $sa (dict "author" (dict "@type" "Person" "name" .)) }}
+  {{ else }}
+    {{ with .Site.Params.author }}
+      {{ $sa = merge $sa (dict "author" (dict "@type" "Organization" "name" .)) }}
+    {{ end }}
+  {{ end }}
+  {{ if $image }}
+    {{ $sa = merge $sa (dict "image" $image) }}
+  {{ end }}
+  {{ if .Params.offers_free }}
+    {{ $sa = merge $sa (dict "offers" (dict "@type" "Offer" "price" "0" "priceCurrency" "USD")) }}
+  {{ end }}
+<script type="application/ld+json">
+  {{ $sa | jsonify | safeJS }}
+</script>
+{{ end }}
+
+{{/*
+  VideoObject JSON-LD for pages with embedded YouTube/tutorial videos.
+  Set video_url (YouTube watch or youtu.be URL) or video_embed_url; optional video_title, video_description, video_upload_date, video_duration, video_thumbnail.
+  See: https://schema.org/VideoObject
+*/}}
+{{ if and .IsPage (or .Params.video_url .Params.video_embed_url) }}
+  {{ $embedUrl := .Params.video_embed_url }}
+  {{ $videoId := "" }}
+  {{ if .Params.video_url }}
+    {{ $ids := findRE "[a-zA-Z0-9_-]{11}" .Params.video_url }}
+    {{ if $ids }}{{ $videoId = index $ids 0 }}{{ end }}
+    {{ if and (not $embedUrl) $videoId }}
+      {{ $embedUrl = printf "https://www.youtube.com/embed/%s" $videoId }}
+    {{ end }}
+  {{ end }}
+  {{ if and $embedUrl (not $videoId) }}
+    {{ $ids := findRE "[a-zA-Z0-9_-]{11}" $embedUrl }}
+    {{ if $ids }}{{ $videoId = index $ids 0 }}{{ end }}
+  {{ end }}
+  {{ if $embedUrl }}
+    {{ $vo := dict "@context" "https://schema.org" "@type" "VideoObject" "name" (.Params.video_title | default .Title) "embedUrl" $embedUrl "url" .Permalink }}
+    {{ with .Params.video_description }}
+      {{ $vo = merge $vo (dict "description" .) }}
+    {{ else }}
+      {{ with .Description }}
+        {{ $vo = merge $vo (dict "description" .) }}
+      {{ else }}
+        {{ with .Summary }}
+          {{ $vo = merge $vo (dict "description" (. | plainify | truncate 160)) }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+    {{ with .Params.video_upload_date }}
+      {{ $vo = merge $vo (dict "uploadDate" .) }}
+    {{ end }}
+    {{ with .Params.video_duration }}
+      {{ $vo = merge $vo (dict "duration" .) }}
+    {{ end }}
+    {{ with .Params.video_thumbnail }}
+      {{ $vo = merge $vo (dict "thumbnailUrl" .) }}
+    {{ else }}
+      {{ if $videoId }}
+        {{ $vo = merge $vo (dict "thumbnailUrl" (printf "https://img.youtube.com/vi/%s/hqdefault.jpg" $videoId)) }}
+      {{ else }}
+        {{ if $image }}
+          {{ $vo = merge $vo (dict "thumbnailUrl" $image) }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+<script type="application/ld+json">
+  {{ $vo | jsonify | safeJS }}
+</script>
+  {{ end }}
+{{ end }}
+
+{{/*
+  ItemList JSON-LD for packages section index: lists all child pages that have software_application: true.
+  Enables "list of packages" rich result; only output on the section list page when it has such children.
+  See: https://schema.org/ItemList
+*/}}
+{{ if and .IsNode .Pages (eq .Section "packages") }}
+  {{ $packagePages := where .Pages "Params.software_application" true }}
+  {{ if gt (len $packagePages) 0 }}
+    {{ $listItems := slice }}
+    {{ range $i, $p := $packagePages }}
+      {{ $listItems = $listItems | append (dict "@type" "ListItem" "position" (add $i 1) "name" $p.Title "url" $p.Permalink) }}
+    {{ end }}
+    {{ $itemList := dict "@context" "https://schema.org" "@type" "ItemList" "name" (printf "%s - Accepted Packages" .Title) "numberOfItems" (len $listItems) "itemListElement" $listItems }}
+<script type="application/ld+json">
+  {{ $itemList | jsonify | safeJS }}
+</script>
+  {{ end }}
+{{ end }}
+
+{{/*
+  Event JSON-LD for event pages (workshops, meetups, conferences).
+  Use nested front matter under event: (start_date required; optional end_date, title, location_name, location_address, offers_free, price, organizer, topic, status).
+  See: https://schema.org/Event
+*/}}
+{{ $e := .Params.event }}
+{{ if and .IsPage $e $e.start_date }}
+  {{ $ev := dict "@context" "https://schema.org" "@type" "Event" "name" ($e.title | default .Title) "url" .Permalink "startDate" $e.start_date }}
+  {{ with $e.end_date }}
+    {{ $ev = merge $ev (dict "endDate" .) }}
+  {{ end }}
+  {{ with $e.location_name }}
+    {{ $location := dict "@type" "Place" "name" . }}
+    {{ with $e.location_address }}
+      {{ $location = merge $location (dict "address" (dict "@type" "PostalAddress" "streetAddress" .)) }}
+    {{ end }}
+    {{ $ev = merge $ev (dict "location" $location) }}
+  {{ end }}
+  {{ if $e.offers_free }}
+    {{ $ev = merge $ev (dict "offers" (dict "@type" "Offer" "price" "0" "priceCurrency" "USD" "availability" "https://schema.org/InStock" "url" .Permalink)) }}
+  {{ else }}
+    {{ with $e.price }}
+      {{ $ev = merge $ev (dict "offers" (dict "@type" "Offer" "price" (printf "%v" .) "priceCurrency" ($e.price_currency | default "USD") "availability" "https://schema.org/InStock" "url" $.Permalink)) }}
+    {{ end }}
+  {{ end }}
+  {{ with $e.organizer }}
+    {{ $ev = merge $ev (dict "organizer" (dict "@type" "Organization" "name" .)) }}
+  {{ else }}
+    {{ with .Site.Params.author }}
+      {{ $ev = merge $ev (dict "organizer" (dict "@type" "Organization" "name" .)) }}
+    {{ end }}
+  {{ end }}
+  {{ with .Description }}
+    {{ $ev = merge $ev (dict "description" .) }}
+  {{ else }}
+    {{ with .Summary }}
+      {{ $ev = merge $ev (dict "description" (. | plainify | truncate 160)) }}
+    {{ end }}
+  {{ end }}
+  {{ if $image }}
+    {{ $ev = merge $ev (dict "image" $image) }}
+  {{ end }}
+  {{ with $e.status }}
+    {{ $ev = merge $ev (dict "eventStatus" .) }}
+  {{ end }}
+  {{ with $e.topic }}
+    {{ $ev = merge $ev (dict "about" (dict "@type" "Thing" "name" .)) }}
+  {{ end }}
+<script type="application/ld+json">
+  {{ $ev | jsonify | safeJS }}
+</script>
+{{ end }}
+
+{{/*
+  BreadcrumbList JSON-LD for all pages. Enables breadcrumb trail in search results.
+  See: https://developers.google.com/search/docs/appearance/structured-data/breadcrumb
+  .Ancestors is ordered from immediate parent toward root (home can appear last); we add Home first, then non-home ancestors, then current page.
+*/}}
+{{ $crumbItems := slice (dict "@type" "ListItem" "position" 1 "name" .Site.Title "item" ("" | absURL)) }}
+{{ $pos := 2 }}
+{{ range .Ancestors }}
+  {{ if not .IsHome }}
+    {{ $crumbItems = $crumbItems | append (dict "@type" "ListItem" "position" $pos "name" .Title "item" .Permalink) }}
+    {{ $pos = add $pos 1 }}
+  {{ end }}
+{{ end }}
+{{ if not .IsHome }}
+  {{ $crumbItems = $crumbItems | append (dict "@type" "ListItem" "position" $pos "name" .Title "item" .Permalink) }}
+{{ end }}
+{{ $breadcrumbSchema := dict "@context" "https://schema.org" "@type" "BreadcrumbList" "itemListElement" $crumbItems }}
+<script type="application/ld+json">
+  {{ $breadcrumbSchema | jsonify | safeJS }}
+</script>
+
+{{/*
+  Site verification (optional). Add verification codes in hugo.toml under [params.seo].
+  Google and Bing only.
+*/}}
+{{ with .Site.Params.seo.google_site_verification }}
+  <meta name="google-site-verification" content="{{ . }}">
+{{ end }}
+{{ with .Site.Params.seo.bing_site_verification }}
+  <meta name="msvalidate.01" content="{{ . }}">
+{{ end }}
+
+
+
+

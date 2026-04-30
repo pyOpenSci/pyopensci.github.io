@@ -1,0 +1,166 @@
+{{ define "main" }}
+
+{{/*
+  ⚠️ IMPORTANT: Package card markup in this file is DUPLICATED from layouts/partials/packages/grid.html
+  If you update card structure, links, badges, or styling:
+  1. Update layouts/partials/packages/grid.html (AlpineJS version with x-text, :href)
+  2. Update THIS file (Hugo version with {{ .field }})
+  See: /blog/2025-12-25-package-architecture/ for architecture details
+*/}}
+
+{{/* Get partner ID from front matter */}}
+{{ $partnerId := .Params.partner_id }}
+{{ $partnerName := .Params.partner_name | default $partnerId }}
+
+{{/* Filter packages for this partner */}}
+{{ $partnerPackages := slice }}
+{{ range .Site.Data.packages }}
+  {{ if and .partners (in .partners $partnerId) }}
+    {{ $partnerPackages = $partnerPackages | append . }}
+  {{ end }}
+{{ end }}
+
+{{/* Calculate metrics for partner packages */}}
+{{ $totalPackages := len $partnerPackages }}
+{{ $activePackages := 0 }}
+{{ $jossPackages := 0 }}
+{{ range $partnerPackages }}
+  {{ if .active }}{{ $activePackages = add $activePackages 1 }}{{ end }}
+  {{ if .joss }}{{ $jossPackages = add $jossPackages 1 }}{{ end }}
+{{ end }}
+
+{{/* Hero section */}}
+{{ partial "hero.html" . }}
+
+{{/* Metrics Bar */}}
+{{ $stats := slice
+    (printf "**%d** %s Packages" $totalPackages $partnerName)
+    (printf "**%d** Currently Active" $activePackages)
+    (printf "**%d** Published in JOSS" $jossPackages)
+}}
+{{ partial "metrics-bar-render.html" (dict "stats" $stats) }}
+
+{{/* Page content */}}
+<div class="packages-page__content">
+  <div class="container">
+    {{ .Content }}
+  </div>
+</div>
+
+{{/* Partner Packages Grid */}}
+{{ if gt $totalPackages 0 }}
+<section class="packages-page__section">
+  <div class="container">
+    <h2>{{ $partnerName }} Affiliated Packages</h2>
+
+    <div class="packages-grid">
+      {{ range $partnerPackages }}
+        {{ if .active }}
+          <div class="package_card">
+            <div>
+              <h3>{{ .package_name }}</h3>
+
+              <div class="package_card__meta">
+                <i class="fas fa-feather" aria-hidden="true"></i>
+                <span>
+                  {{ range $i, $m := .all_current_maintainers }}
+                    {{ if $i }}, {{ end }}{{ $m.name | default $m.github_username }}
+                  {{ end }}
+                </span>
+              </div>
+
+              <p>{{ .package_description }}</p>
+
+              <ul>
+                {{ with .repository_link }}
+                  <li><a href="{{ . }}" target="_blank"><i class="fab fa-github"></i> View Code</a></li>
+                {{ end }}
+
+                {{ with .gh_meta.documentation }}
+                  <li><a href="{{ . }}" target="_blank"><i class="fas fa-book-open"></i> View Docs</a></li>
+                {{ end }}
+
+                {{ with .issue_link }}
+                  <li><a href="{{ . }}" target="_blank"><i class="fa-solid fa-user-pen"></i> View Review</a></li>
+                {{ end }}
+
+                {{ with .joss }}
+                  <li><a href="{{ . }}" target="_blank"><i class="fas fa-bookmark"></i> JOSS Approved</a></li>
+                {{ end }}
+
+                {{ if in .partners "astropy" }}
+                  <li>
+                    <a href="https://www.astropy.org/affiliated/" target="_blank">
+                      <i class="fa-solid fa-check-double"></i>
+                      <img src="https://img.shields.io/badge/Affiliated-Astropy-orange.svg?style=flat" alt="Astropy Affiliated" class="partner-badge" />
+                    </a>
+                  </li>
+                {{ end }}
+              </ul>
+            </div>
+          </div>
+        {{ end }}
+      {{ end }}
+    </div>
+
+    {{/* Show archived packages if any */}}
+    {{ $archivedCount := 0 }}
+    {{ range $partnerPackages }}
+      {{ if not .active }}{{ $archivedCount = add $archivedCount 1 }}{{ end }}
+    {{ end }}
+
+    {{ if gt $archivedCount 0 }}
+      <h2 class="mt-12">Archived {{ $partnerName }} Packages</h2>
+      <p class="text-gray-600 mb-6">
+        Archived packages are no longer actively maintained but successfully completed peer review.
+      </p>
+      <div class="packages-grid">
+        {{ range $partnerPackages }}
+          {{ if not .active }}
+            <div class="package_card">
+              <div>
+                <h3>{{ .package_name }}</h3>
+
+                <div class="package_card__meta">
+                  <i class="fas fa-feather" aria-hidden="true"></i>
+                  <span>
+                    {{ range $i, $m := .all_current_maintainers }}
+                      {{ if $i }}, {{ end }}{{ $m.name | default $m.github_username }}
+                    {{ end }}
+                  </span>
+                </div>
+
+                <p>{{ .package_description }}</p>
+
+                <ul>
+                  {{ with .repository_link }}
+                    <li><a href="{{ . }}" target="_blank"><i class="fab fa-github"></i> View Code</a></li>
+                  {{ end }}
+
+                  <li class="package_card__archived">
+                    <i class="fa-solid fa-box-archive"></i> Archived
+                  </li>
+                </ul>
+              </div>
+            </div>
+          {{ end }}
+        {{ end }}
+      </div>
+    {{ end }}
+  </div>
+</section>
+{{ else }}
+<section class="packages-page__section">
+  <div class="container">
+    <p class="text-center text-gray-600">No packages found for this partner.</p>
+  </div>
+</section>
+{{ end }}
+
+<div class="container my-12 text-center">
+  <a href="/packages/" class="site-nav__button site-nav__button--primary">
+    View All Packages
+  </a>
+</div>
+
+{{ end }}

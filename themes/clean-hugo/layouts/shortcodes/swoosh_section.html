@@ -1,0 +1,32 @@
+{{/* Block shortcode: full-width section with optional curved divider above/below.
+    Use layout="docs" for contained width (content column only; no sidebar bleed).
+    Inner content: markdown, shortcodes, or raw HTML. Use angle brackets. */}}
+{{- $bg := .Get "background" | default "white" -}}
+{{- $swoosh := .Get "swoosh" | default "none" -}}
+{{- $layout := .Get "layout" | default "" -}}
+{{- $theme := $bg -}}
+{{- $docsClass := "" -}}
+{{- if eq $layout "docs" }}{{ $docsClass = " swoosh-section--docs" }}{{ end -}}
+{{- $wrapDocsClass := "" -}}
+{{- if eq $layout "docs" }}{{ $wrapDocsClass = " swoosh-section__divider-wrap--docs" }}{{ end -}}
+
+{{- $inner := trim .Inner " \n\t\r" -}}
+{{- if eq $swoosh "top" -}}
+  <div class="swoosh-section__divider-wrap{{ $wrapDocsClass }}">
+    {{ partial "swoosh-divider-top.html" (dict "theme" $theme) }}
+  </div>
+{{- end -}}
+
+{{- if $inner -}}
+<section class="swoosh-section swoosh-section--{{ $bg }}{{ $docsClass }}">
+  <div class="swoosh-section__content">
+    {{ .Inner | .Page.RenderString }}
+  </div>
+</section>
+{{- end -}}
+
+{{- if eq $swoosh "bottom" -}}
+  <div class="swoosh-section__divider-wrap{{ $wrapDocsClass }}">
+    {{ partial "swoosh-divider-bottom.html" (dict "theme" $theme) }}
+  </div>
+{{- end -}}
