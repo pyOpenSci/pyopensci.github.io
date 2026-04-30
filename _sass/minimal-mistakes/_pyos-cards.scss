@@ -222,12 +222,13 @@
 // events
 .event-card {
     display: flex;
+    min-width: 0;
     margin-bottom: 1.5rem;
     border: 1px solid #ddd;
     border-radius: 4px;
     overflow: hidden;
     transition: box-shadow 0.3s ease, transform 0.3s ease;
-    max-width: 1000px;
+    max-width: min(100%, 1000px);
 
     &:hover {
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -238,19 +239,30 @@
       text-decoration: none;
       color: inherit;
     }
+
+    /* Non-compact cards: link wraps the flex row; must shrink on narrow viewports. */
+    & > a {
+      display: flex;
+      flex: 1 1 auto;
+      min-width: 0;
+      max-width: 100%;
+    }
     &__title {
-        width: 100%
+        width: 100%;
       }
 
     &__content {
       display: flex;
+      flex: 1 1 auto;
       flex-grow: 1;
+      min-width: 0;
     }
 
     &__date {
       position: relative;
       width: 180px; // Increased width for the date box
       min-width: 180px;
+      flex-shrink: 0;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -290,11 +302,14 @@
     }
 
     &__details {
+      flex: 1 1 auto;
       flex-grow: 1;
+      min-width: 0;
       padding: 1rem;
       display: flex;
       flex-direction: column;
       justify-content: center;
+      overflow-wrap: break-word;
 
       h3 {
         margin-bottom: 0.5rem;
@@ -333,7 +348,8 @@
 
 // Landing page upcoming events list: smaller card, less padding
 .upcoming-events-list .event-card {
-  max-width: 800px;
+  max-width: min(100%, 800px);
+  min-width: 0;
   margin-bottom: 0;
 
   .event-card__date {
@@ -351,6 +367,8 @@
   }
 
   .event-card__details {
+    min-width: 0;
+    overflow-wrap: break-word;
     padding: 0.5rem 0.75rem;
 
     h3 {
@@ -376,7 +394,11 @@
   border: 1px solid mix(#000, $pyos-brand-dark-purple, 20%);
   border-radius: 14px;
   background: $pyos-white;
-  max-width: none;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  overflow-wrap: break-word;
   color: $pyos-brand-dark-purple;
 
   &:hover {
@@ -386,9 +408,14 @@
 
   .event-card__content {
     display: block;
+    min-width: 0;
+    width: 100%;
+    max-width: 100%;
   }
 
   .event-card__details {
+    min-width: 0;
+    max-width: 100%;
     padding: 1rem 1.25rem 1.05rem;
   }
 
@@ -405,12 +432,14 @@
     margin: 0 0 0.2rem;
     font-size: $type-size-3;
     line-height: 1.25;
+    overflow-wrap: break-word;
   }
 
   .event-card__location {
     margin: 0 0 0.55rem;
     font-size: $type-size-card-title;
     color: mix(#000, $pyos-brand-dark-purple, 18%);
+    overflow-wrap: break-word;
   }
 
   .event-card__excerpt {
@@ -418,6 +447,7 @@
     font-size: $type-size-card-body;
     line-height: $line-height-card-body;
     color: mix(#000, $pyos-brand-dark-purple, 22%);
+    overflow-wrap: break-word;
   }
 
   .event-card__button {
@@ -440,6 +470,11 @@
   @media (max-width: 600px) {
     .event-card {
       flex-direction: column;
+
+      & > a {
+        flex-direction: column;
+        width: 100%;
+      }
 
       &__date {
         width: 100%;
@@ -623,8 +658,9 @@
     display: flex;
     align-items: stretch;
     justify-content: space-between;
-    gap: 1.25rem;
-    padding: 1.25rem 1.5rem;
+    gap: clamp(0.65rem, 0.5rem + 2vw, 1.25rem);
+    padding: clamp(0.65rem, 0.5rem + 2.5vw, 1.25rem)
+      clamp(0.75rem, 0.45rem + 3vw, 1.5rem);
     border-radius: 14px;
     background: $pyos-feature-card-bg;
     border: 1px solid rgba($pyos-brand-dark-purple, 0.18);
@@ -705,6 +741,22 @@
 
     &__button {
       width: auto;
+    }
+  }
+
+  @media (max-width: $home-training-feature-tight-max) {
+    margin-bottom: 1.25rem;
+
+    &__eyebrow {
+      margin-bottom: 0.5rem;
+    }
+
+    &__image-wrap {
+      min-height: 130px;
+    }
+
+    &__button {
+      margin-top: 0.65rem;
     }
   }
 }
