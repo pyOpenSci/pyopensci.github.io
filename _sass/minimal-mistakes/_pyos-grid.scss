@@ -156,7 +156,7 @@ $colors: (
 // Home page and volunteer page new contributors section - auto-responsive
 .entries-grid {
     display: grid;
-    grid-gap: 8px;
+    gap: 8px;
     grid-template-columns: 1fr; // Mobile: 1 column
 
     > * {
@@ -176,16 +176,22 @@ $colors: (
       grid-template-columns: repeat(4, 1fr); // Large: 4 columns
     }
 
-    // Home page new contributors: single row of 5, smaller cards, more gap
+    // Home page only (home.md): not used on /our-community/ or volunteer entries-grid
     &.entries-grid--contributors {
       grid-template-columns: 1fr; // Mobile: 1 column
-      grid-gap: 1rem;
+      gap: $home-contributors-stripe-gap;
+      /* Below $large: cap card width + center in cell so 1–3 columns are not full-bleed slabs */
       justify-items: center;
+
       > * {
-        max-width: 200px;
         min-width: 0;
         width: 100%;
+        max-width: min($home-contributors-card-max-below-large, 100%);
+        justify-self: center;
+        margin: 0;
+        box-sizing: border-box;
       }
+
       @media (min-width: $small) {
         grid-template-columns: repeat(2, 1fr); // Small: 2 columns
       }
@@ -194,8 +200,15 @@ $colors: (
         grid-template-columns: repeat(3, 1fr); // Medium: 3 columns
       }
 
+      /* Wide desktop: five columns, cards fill each track (no oversized cells) */
       @media (min-width: $large) {
         grid-template-columns: repeat(5, 1fr); // Large: 5 columns
+        justify-items: stretch;
+
+        > * {
+          max-width: 100%;
+          justify-self: stretch;
+        }
       }
       .people-card {
         h4.person_name {
@@ -225,6 +238,8 @@ $colors: (
 // Home page upcoming events: compact cards, 2-up on wide screens
 .upcoming-events-section {
   margin-bottom: 2rem;
+  min-width: 0;
+  max-width: 100%;
 
   .upcoming-events-section__title {
     margin: 0 0 0.8rem 0;
@@ -239,6 +254,8 @@ $colors: (
   display: grid;
   grid-template-columns: 1fr;
   gap: 1rem;
+  min-width: 0;
+  max-width: 100%;
 
   @media (min-width: $medium) {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -247,6 +264,12 @@ $colors: (
   > * {
     max-width: none;
     width: 100%;
+    min-width: 0;
+  }
+
+  .upcoming {
+    min-width: 0;
+    max-width: 100%;
   }
 }
 
@@ -317,11 +340,16 @@ $colors: (
 /* Blog grid styles */
 .blog__grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  /* Uses $home-autofit-card-min so tracks never exceed the viewport on narrow screens */
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(min(100%, #{$home-autofit-card-min}), 1fr)
+  );
   grid-auto-rows: 1fr;
   grid-column-gap: 7px;
   grid-row-gap: 30px;
   margin-bottom: 20px;
+  min-width: 0;
 
   h3.card-title {
     font-size: $type-size-card-title-lg !important;
@@ -409,14 +437,20 @@ $colors: (
 
 .feature__grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(min(100%, #{$home-autofit-card-min}), 1fr)
+  );
   gap: 20px;
   width: 100%;
+  min-width: 0;
   box-sizing: border-box;
 
   .grid-item {
     display: flex;
     flex-direction: column;
+    min-width: 0;
+    max-width: 100%;
     background: transparent;
     border: none;
     border-radius: 8px;
@@ -439,13 +473,17 @@ $colors: (
   display: flex;
   flex-direction: column;
   height: 100%;
+  min-width: 0;
+  max-width: 100%;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
 
-  .cards__image {
+  .cards__image,
+  .cards-image {
     max-height: 200px;
     overflow: hidden;
 
     img {
+      max-width: 100%;
       width: 100%;
       height: auto;
       object-fit: cover;
@@ -465,16 +503,20 @@ $colors: (
     display: flex;
     flex-direction: column;
     flex-grow: 1;
+    min-width: 0;
     padding: 15px;
+    overflow-wrap: break-word;
 
     h2.card-title {
       margin:0;
       font-size: $type-size-card-title-lg;
       line-height: 1.3;
+      overflow-wrap: break-word;
     }
 
     .card-content {
       flex-grow: 1;
+      min-width: 0;
 
       p {
         font-size: $type-size-card-body;

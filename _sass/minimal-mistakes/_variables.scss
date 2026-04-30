@@ -82,10 +82,11 @@ $hero-title-min-size: 2rem !default;
 $hero-title-fluid-size: 4.2vw !default;
 $hero-title-max-size: 3rem !default;
 $hero-title-max-width: 24ch !default;
-$hero-side-image-width: 420px !default;
+$hero-side-image-width: 480px !default;
 $hero-side-image-height: 320px !default;
-$hero-side-image-width-mobile: 320px !default;
-$hero-side-image-height-mobile: 240px !default;
+/* Row layout: image width is the smallest of px cap, % of wrapper, and vw (vw pulls size down as the viewport narrows). */
+$hero-side-image-max-width-percent: 45% !default;
+$hero-side-image-max-width-vw: 40vw !default;
 
 /* kbd colors */
 $kbd-color-background: #bbbdc3;
@@ -210,6 +211,12 @@ $medium-wide: 900px !default;
 $large: 1024px !default;
 $x-large: 1280px !default;
 $max-width: $x-large !default;
+
+/* Home / landing layout (splash) — shared by _pyos-grid, _pyos-cards */
+$home-autofit-card-min: 300px !default;
+$home-contributors-stripe-gap: 0.35rem !default;
+$home-contributors-card-max-below-large: 200px !default;
+$home-training-feature-tight-max: 420px !default;
 
 /*
    Grid
