@@ -1,0 +1,88 @@
+/**
+ * Theme Variables - Mobile First
+ * Base values target mobile (320px+), use breakpoints to enhance
+ */
+
+/* Breakpoints - min-width (mobile first) */
+$breakpoint-sm: 640px;            /* Large phones / small tablets */
+$breakpoint-md: 768px;            /* Tablets */
+$breakpoint-lg: 1024px;           /* Desktop */
+$breakpoint-xl: 1280px;           /* Large desktop */
+$breakpoint-2xl: 1536px;          /* Extra large */
+
+/* Container Max Widths */
+$container-max-width: 80rem;      /* 1280px - standard container */
+$container-narrow: 56rem;         /* 896px - content/blog posts */
+$container-wide: 42rem;           /* 672px - narrow content */
+
+/* Spacing - mobile base values */
+$spacing-xs: 0.5rem;              /* 8px - minimal spacing */
+$spacing-sm: 1rem;                /* 16px - small spacing */
+$spacing-md: 1.5rem;              /* 24px - medium spacing */
+$spacing-lg: 2rem;                /* 32px - large spacing */
+$spacing-xl: 3rem;                /* 48px - extra large spacing */
+$spacing-section: 2rem;           /* Mobile section padding */
+$spacing-section-lg: 3rem;        /* Desktop section padding */
+
+/* Fluid Spacing - Using clamp() for smooth mobile-first scaling */
+$fluid-space-xs: clamp(0.5rem, 1vw, 0.75rem);          /* 8px → 12px */
+$fluid-space-sm: clamp(0.75rem, 2vw, 1.5rem);          /* 12px → 24px */
+$fluid-space-md: clamp(1rem, 3vw, 2rem);               /* 16px → 32px */
+$fluid-space-lg: clamp(1.5rem, 4vw, 3rem);             /* 24px → 48px */
+$fluid-space-xl: clamp(2rem, 6vw, 4rem);               /* 32px → 64px */
+$fluid-space-2xl: clamp(2rem, 8vw, 5rem);              /* 32px → 80px */
+$fluid-space-3xl: clamp(2.5rem, 10vw, 6rem);           /* 40px → 96px */
+
+/* Fluid Container Padding */
+$fluid-container-padding: clamp(0.75rem, 3vw, 1.5rem); /* Container horizontal */
+$fluid-container-padding-lg: clamp(1rem, 4vw, 2rem);   /* Narrow containers */
+
+/* Fluid Card/Component Padding */
+$fluid-card-padding-sm: clamp(1rem, 3vw, 1.5rem);      /* Small cards */
+$fluid-card-padding-md: clamp(1.25rem, 4vw, 2.5rem);   /* Medium cards */
+$fluid-card-padding-lg: clamp(1.5rem, 5vw, 4rem);      /* Large impact cards */
+
+/* Border Radius */
+$radius-sm: 0.25rem;              /* 4px */
+$radius-md: 0.5rem;               /* 8px */
+$radius-lg: 1rem;                 /* 16px */
+$radius-xl: 1.5rem;               /* 24px */
+$radius-full: 9999px;             /* Fully rounded */
+
+/* Transitions */
+$transition-fast: 150ms;
+$transition-base: 200ms;
+$transition-slow: 300ms;
+$transition-slower: 500ms;
+
+/* Shadows */
+$shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+$shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+$shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+$shadow-xl: 0 10px 30px rgba(17, 24, 39, 0.08);
+$shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+
+/* Z-index scale */
+$z-dropdown: 50;
+$z-sticky: 100;
+$z-fixed: 200;
+$z-overlay: 300;
+$z-modal: 400;
+
+/* Card Typography - Shared across homepage content cards */
+/* (impact cards, two-card-row, single-card-wide) */
+$card-heading-size: clamp(1.7rem, 3vw, 1.875rem);     /* H3 headings */
+$card-text-size: clamp(1.25rem, 2.5vw, 1.5rem);       /* Paragraphs & list items */
+$card-list-padding: clamp(0.25rem, 2.5vw, 1.5rem);    /* List padding-left - minimal on mobile */
+$card-text-color: var(--color-gray-700);              /* Body text color */
+$card-line-height: 1.6;                                /* Text line height */
+
+/* Card Layout & Styling - Shared styles for card components */
+$card-border-radius: $radius-lg;                       /* Card corner rounding */
+$card-border: 1px solid var(--color-gray-200);        /* Card border */
+$card-shadow: $shadow-sm;                              /* Card shadow */
+$card-shadow-hover: $shadow-xl;                        /* Card shadow on hover */
+$card-hover-transform: translateY(-4px);               /* Card lift on hover */
+$card-icon-size: clamp(2.25rem, 4vw, 3rem);           /* Icon size in cards */
+$card-gap: clamp(1.25rem, 3vw, 2.5rem);               /* Gap between cards in grid */
+

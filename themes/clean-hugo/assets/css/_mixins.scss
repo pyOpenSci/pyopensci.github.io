@@ -1,0 +1,198 @@
+/* Card base mixin - shared border, radius, shadow, background, and hover */
+@mixin card-base(
+  $radius: $radius-lg,
+  $border: 1px solid var(--color-gray-200),
+  $shadow: $shadow-sm,
+  $bg: var(--color-white),
+  $hover-lift: -4px,
+  $hover-shadow: $shadow-xl
+) {
+  border-radius: $radius;
+  border: $border;
+  box-shadow: $shadow;
+  background-color: $bg;
+  transition: transform $transition-base ease-in-out, box-shadow $transition-base ease-in-out;
+  &:hover {
+    transform: translateY($hover-lift);
+    box-shadow: $hover-shadow;
+  }
+}
+/**
+ * Reusable SCSS Mixins - Mobile First
+ * Base styles target mobile (320px+), breakpoints enhance for larger screens
+ */
+
+/* Container mixin - centered with max-width and responsive padding */
+@mixin container($max-width: $container-max-width, $padding-mobile: 0.75rem, $padding-tablet: 1.5rem) {
+  max-width: $max-width;
+  margin: 0 auto;
+  padding: 0 $padding-mobile;
+
+  @media (min-width: $breakpoint-md) {
+    padding: 0 $padding-tablet;
+  }
+}
+
+/* Focus ring mixin - consistent focus states */
+@mixin focus-ring($color: var(--color-primary)) {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--color-white), 0 0 0 4px $color;
+}
+
+/* Card hover effect - lift and shadow on hover */
+@mixin card-hover($lift: -2px, $shadow: $shadow-xl) {
+  transition: box-shadow $transition-base ease-in-out, transform $transition-base ease-in-out;
+
+  &:hover {
+    transform: translateY($lift);
+    box-shadow: $shadow;
+  }
+}
+
+/* Responsive property - mobile, tablet, desktop values */
+@mixin responsive($property, $mobile, $tablet: null, $desktop: null) {
+  #{$property}: $mobile;
+
+  @if $tablet {
+    @media (min-width: $breakpoint-md) {
+      #{$property}: $tablet;
+    }
+  }
+
+  @if $desktop {
+    @media (min-width: $breakpoint-lg) {
+      #{$property}: $desktop;
+    }
+  }
+}
+
+/* Responsive padding - mobile base with optional tablet/desktop values */
+@mixin responsive-padding($mobile-y: 1.5rem, $mobile-x: 0.75rem, $tablet-y: null, $tablet-x: 1.5rem) {
+  padding: $mobile-y $mobile-x;
+
+  @if $tablet-y and $tablet-x {
+    @media (min-width: $breakpoint-md) {
+      padding: $tablet-y $tablet-x;
+    }
+  } @else if $tablet-x {
+    @media (min-width: $breakpoint-md) {
+      padding-left: $tablet-x;
+      padding-right: $tablet-x;
+    }
+  }
+}
+
+/* Image hover zoom effect */
+@mixin image-zoom($scale: 1.1, $duration: $transition-slow) {
+  overflow: hidden;
+
+  img {
+    transition: transform $duration ease-out;
+  }
+
+  &:hover img {
+    transform: scale($scale);
+  }
+}
+
+/* Truncate text with ellipsis */
+@mixin truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Line clamp - limit text to N lines */
+@mixin line-clamp($lines: 3) {
+  display: -webkit-box;
+  -webkit-line-clamp: $lines;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Stretched link - make entire card clickable */
+@mixin stretched-link {
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 10;
+  }
+}
+
+/* Flexbox centering */
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Grid auto-fit columns */
+@mixin grid-auto-fit($min-width: 250px, $gap: 1.5rem) {
+  display: grid;
+  gap: $gap;
+  grid-template-columns: repeat(auto-fill, minmax($min-width, 1fr));
+}
+
+/* Responsive grid columns */
+@mixin responsive-grid($mobile: 1, $tablet: 2, $desktop: 3, $gap: 2rem) {
+  display: grid;
+  gap: $gap;
+  grid-template-columns: repeat($mobile, 1fr);
+
+  @media (min-width: $breakpoint-md) {
+    grid-template-columns: repeat($tablet, 1fr);
+  }
+
+  @media (min-width: $breakpoint-lg) {
+    grid-template-columns: repeat($desktop, 1fr);
+  }
+}
+
+/* Custom scrollbar styling */
+@mixin custom-scrollbar($width: 0.375rem, $track-color: var(--color-gray-200), $thumb-color: var(--color-gray-600)) {
+  &::-webkit-scrollbar {
+    width: $width;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: $track-color;
+    border-radius: $radius-sm;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: $thumb-color;
+    border-radius: $radius-sm;
+
+    &:hover {
+      background-color: var(--color-gray-700);
+    }
+  }
+}
+
+/* Mobile-first font sizing - base size with optional scaling */
+@mixin fluid-font($mobile-size, $desktop-size: null) {
+  font-size: $mobile-size;
+
+  @if $desktop-size {
+    @media (min-width: $breakpoint-lg) {
+      font-size: $desktop-size;
+    }
+  }
+}
+
+/* Stack to row - mobile stacks, desktop horizontal */
+@mixin stack-to-row($gap: 1rem, $breakpoint: $breakpoint-md) {
+  display: flex;
+  flex-direction: column;
+  gap: $gap;
+
+  @media (min-width: $breakpoint) {
+    flex-direction: row;
+  }
+}
+
+/* Mobile safe area - accounts for notches/home indicators */
+@mixin mobile-safe-padding($padding: 1rem) {
+  padding: max($padding, env(safe-area-inset-top)) max($padding, env(safe-area-inset-right)) max($padding, env(safe-area-inset-bottom)) max($padding, env(safe-area-inset-left));
+}

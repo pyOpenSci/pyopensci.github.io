@@ -3,7 +3,7 @@
 # chmod +x scripts/date-updated.sh
 # ./scripts/date-updated.sh
 
-for file in _posts/*.md; do
+for file in jekyll/_posts/*.md; do
   # Check if the file contains last_modified in the front matter
   if grep -q '^last_modified:' "$file"; then
     last_modified=$(git log -1 --format="%ad" --date=short "$file")

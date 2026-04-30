@@ -1,0 +1,74 @@
+{{/* Feature section partial - reads from page front matter (.Params.feature_section) */}}
+{{ $feature := .Params.feature_section }}
+{{ if $feature }}
+<section class="feature-section container">
+  <header>
+    <h2>{{ $feature.title | default "Featured Content" }}</h2>
+    {{ with $feature.subtitle }}
+      <p>{{ . }}</p>
+    {{ end }}
+  </header>
+
+  <div>
+    <article class="feature-card">
+      {{ range $feature.sections }}
+        <h3>{{ .title }}</h3>
+        {{ with .lead }}
+          <p class="lead">{{ . }}</p>
+        {{ end }}
+
+        {{ if .items }}
+          {{ $isLinks := false }}
+          {{ range .items }}
+            {{ if .url }}
+              {{ $isLinks = true }}
+              {{ break }}
+            {{ end }}
+          {{ end }}
+
+          <ul{{ if $isLinks }} class="links"{{ end }}>
+            {{ range .items }}
+              <li>
+                {{ if .url }}
+                  <a href="{{ .url }}">{{ .text }}</a>
+                {{ else }}
+                  {{ if .bold }}
+                    <strong>{{ .bold }}</strong>{{ if .text }}{{ .text }}{{ end }}
+                  {{ else }}
+                    {{ .text }}
+                  {{ end }}
+                {{ end }}
+              </li>
+            {{ end }}
+          </ul>
+        {{ end }}
+
+        {{ if .subsections }}
+          {{ range .subsections }}
+            <h4>{{ .title }}</h4>
+            {{ with .content }}
+              <p>{{ . }}</p>
+            {{ end }}
+            {{ if .items }}
+              <ul{{ if .links }} class="links"{{ end }}>
+                {{ range .items }}
+                  <li>
+                    {{ if .url }}
+                      <a href="{{ .url }}">{{ .text }}</a>
+                    {{ else if .bold }}
+                      <strong>{{ .bold }}</strong>{{ if .text }}{{ .text }}{{ end }}
+                    {{ else }}
+                      {{ .text }}
+                    {{ end }}
+                  </li>
+                {{ end }}
+              </ul>
+            {{ end }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    </article>
+  </div>
+</section>
+{{ end }}
+

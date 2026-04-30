@@ -1,0 +1,27 @@
+{{/* Single-card-wide shortcode - full-width card matching two-card-row width */}}
+{{ $title := .Get "title" | default "" }}
+{{ $icon := .Get "icon" | default "" }}
+{{ $content := .Inner }}
+
+<div class="single-card-wide">
+  <div class="container">
+    <div>
+      {{ if $icon }}
+      <div class="single-card-wide__icon">
+        {{ if in $icon "fa-" }}
+          <i class="{{ $icon }}" aria-hidden="true"></i>
+        {{ else }}
+          {{ $icon }}
+        {{ end }}
+      </div>
+    {{ end }}
+    {{ if $title }}
+    <h3>{{ $title }}</h3>
+    {{ end }}
+    <div>
+      {{ $content | markdownify }}
+    </div>
+    </div>
+  </div>
+</div>
+

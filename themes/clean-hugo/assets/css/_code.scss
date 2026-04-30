@@ -1,0 +1,95 @@
+/* Code block and syntax highlighting styles */
+/* These styles apply globally across all pages (blog, content, packages, etc.) */
+
+code {
+  border-radius: 0.25rem;
+  padding: 0.125rem 0.375rem;
+  font-size: 0.95rem;
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
+  background-color: rgba(0, 0, 0, 0.05);
+  color: #e83e8c;
+}
+
+/* Code blocks (pre elements) - base and syntax highlighted */
+pre {
+  border-radius: 0.5rem;
+  padding: 1rem;
+  overflow-x: auto;
+  margin-bottom: 1rem;
+  background-color: #272822;
+  color: #f8f8f2;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
+
+  code {
+    padding: 0;
+    background-color: transparent;
+    color: inherit;
+    font-size: inherit;
+    border-radius: 0;
+  }
+}
+
+/* Hugo syntax highlighting wrapper (.highlight) - used by Chroma */
+.highlight {
+  margin-bottom: 1rem;
+  position: relative;
+
+  pre {
+    margin: 0;
+    padding: 2rem;
+  }
+}
+
+/* Chroma syntax highlighter wrapper */
+.highlight .chroma {
+  background-color: #272822;
+  border-radius: 0.5rem;
+
+  pre {
+    background-color: transparent;
+  }
+}
+
+/* Inline code within paragraphs, lists, and tables */
+p code,
+li code,
+td code {
+  padding: 0.125rem 0.375rem;
+  background-color: rgba(0, 0, 0, 0.05);
+  color: #e83e8c;
+  font-size: 0.875em;
+}
+
+/* Code blocks should not have inline code styling */
+pre code,
+.highlight code,
+.chroma code {
+  background-color: transparent;
+  color: inherit;
+  padding: 0;
+}
+
+/* Ensure code blocks are scrollable on mobile */
+pre,
+.highlight pre,
+.chroma pre {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Line numbers (if enabled in Hugo config) */
+.highlight .lnt,
+.chroma .lnt {
+  display: inline-block;
+  padding-right: 1em;
+  color: #75715e;
+  user-select: none;
+}
+
+/* Ensure proper spacing for code blocks in content */
+.content-main pre,
+article pre {
+  margin-bottom: 1rem;
+}

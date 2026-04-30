@@ -1,0 +1,64 @@
+{{/* People Grid - AlpineJS filterable grid */}}
+
+<div class="people-grid">
+  <template x-for="person in filteredPeople" :key="person.github_username || person.name">
+    <div class="people_card">
+      <div>
+        <template x-if="person.github_image_id">
+          <div class="people_card__image">
+            <img :src="`https://avatars1.githubusercontent.com/u/${person.github_image_id}?s=400&v=4`"
+                 :alt="`GitHub photo of ${person.name || person.github_username}`">
+          </div>
+        </template>
+
+        <div class="people_card__content">
+          <h3>
+            <template x-if="person.github_username">
+              <a :href="`https://github.com/${person.github_username}`" rel="noopener noreferrer" x-text="person.name || `@${person.github_username}`"></a>
+            </template>
+            <template x-if="!person.github_username">
+              <span x-text="person.name"></span>
+            </template>
+          </h3>
+
+          <template x-if="person.title">
+            <div class="people_card__title" x-text="Array.isArray(person.title) ? person.title.join(', ') : person.title"></div>
+          </template>
+
+          <template x-if="person.organization">
+            <div class="people_card__org" x-text="person.organization"></div>
+          </template>
+
+          <div class="people_card__social">
+            <template x-if="person.twitter">
+              <a :href="`https://www.twitter.com/${person.twitter}`" rel="noopener noreferrer" aria-label="Twitter">
+                <i class="fab fa-twitter" aria-hidden="true"></i>
+              </a>
+            </template>
+            <template x-if="person.github_username">
+              <a :href="`https://github.com/${person.github_username}`" rel="noopener noreferrer" aria-label="GitHub">
+                <i class="fab fa-github" aria-hidden="true"></i>
+              </a>
+            </template>
+            <template x-if="person.website">
+              <a :href="person.website" rel="noopener noreferrer" aria-label="Website">
+                <i class="fas fa-blog" aria-hidden="true"></i>
+              </a>
+            </template>
+            <template x-if="person.orcidid">
+              <a :href="`https://orcid.org/${person.orcidid}`" rel="noopener noreferrer" aria-label="ORCID">
+                <i class="fab fa-orcid" aria-hidden="true"></i>
+              </a>
+            </template>
+            <template x-if="person.mastodon">
+              <a :href="person.mastodon" rel="noopener noreferrer" aria-label="Mastodon">
+                <i class="fab fa-mastodon" aria-hidden="true"></i>
+              </a>
+            </template>
+          </div>
+        </div>
+      </div>
+    </div>
+  </template>
+</div>
+

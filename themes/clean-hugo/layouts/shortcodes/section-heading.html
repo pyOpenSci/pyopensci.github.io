@@ -1,0 +1,11 @@
+{{/* Section heading shortcode - creates a prominent centered heading with subtitle */}}
+{{ $title := .Get "title" | default "Section Title" }}
+{{ $subtitle := .Get "subtitle" | default "" }}
+
+<div class="section-heading container">
+  <h2 class="section-heading__title">{{ $title }}</h2>
+  {{ if $subtitle }}
+  <div class="section-heading__subtitle">{{ $subtitle }}</div>
+  {{ end }}
+</div>
+

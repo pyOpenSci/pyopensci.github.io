@@ -1,0 +1,7 @@
+{{ range sort .Site.Data.contributors "sort" }}
+    {{ $title := .title }}
+    {{ if reflect.IsSlice .title }}
+    {{ $title = delimit .title ", " }}
+    {{ end }}
+    {{ printf "* (%d) %s (%s)" .sort .name $title | markdownify }}
+{{ end }}

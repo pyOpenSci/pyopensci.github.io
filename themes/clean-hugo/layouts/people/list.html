@@ -1,0 +1,97 @@
+{{ define "main" }}
+
+{{ partial "hero.html" . }}
+
+<div class="people-page__content">
+  <div class="container">
+    {{ .Content }}
+  </div>
+</div>
+
+{{ if .Site.Data.contributors }}
+<div x-data="peopleFilter()" x-init="initPeople({{ .Site.Data.contributors | jsonify }})">
+
+  {{ $board := where .Site.Data.contributors "board" true }}
+  {{ if $board }}
+    <section class="people-page__section">
+      <div class="container">
+        <h2>Executive Council, Leadership & Staff</h2>
+        <div class="people-grid-static">
+          {{ range sort $board "sort" }}
+            {{ partial "people/card.html" . }}
+          {{ end }}
+        </div>
+      </div>
+    </section>
+  {{ end }}
+
+  {{ $advisory := where .Site.Data.contributors "advisory" true }}
+  {{ if $advisory }}
+    <section class="people-page__section">
+      <div class="container">
+        <h2>Advisory Council</h2>
+        <p>Advisory council members are volunteer experts who provide high-level guidance on the development of the organization.</p>
+        <div class="people-grid-static">
+          {{ range sort $advisory "sort" }}
+            {{ partial "people/card.html" . }}
+          {{ end }}
+        </div>
+      </div>
+    </section>
+  {{ end }}
+
+  {{ $editorial := where .Site.Data.contributors "editorial_board" true }}
+  {{ if $editorial }}
+    <section class="people-page__section">
+      <div class="container">
+        <h2>Editorial Board</h2>
+        <div class="people-grid-static">
+          {{ range sort $editorial "sort" }}
+            {{ partial "people/card.html" . }}
+          {{ end }}
+        </div>
+      </div>
+    </section>
+  {{ end }}
+
+  {{ $totalPeople := len .Site.Data.contributors }}
+  <section class="people-page__section">
+    <div class="container">
+      <h2>Community Contributors</h2>
+      <p>Our diverse and vibrant community! To date, <strong>{{ $totalPeople }}</strong> wonderful people have contributed.</p>
+
+      <div class="people-page__controls">
+        <div class="container">
+          {{ partial "people/filters.html" . }}
+        </div>
+      </div>
+
+      <div class="container">
+        {{ partial "people/grid.html" . }}
+      </div>
+    </div>
+  </section>
+
+  {{ $emeritus := where .Site.Data.contributors "emeritus_advisory" true }}
+  {{ if $emeritus }}
+    <section class="people-page__section full-width bg-primary">
+      <div class="container py-12">
+        <h2>Emeritus Leadership</h2>
+        <p>We are deeply grateful to these community members who have served on our Executive Council, Advisory Council, and Editorial Board. Their dedication and expertise have been instrumental in shaping our organization.</p>
+        <div class="people-grid-static">
+          {{ range sort $emeritus "sort" }}
+            {{ partial "people/card.html" . }}
+          {{ end }}
+        </div>
+      </div>
+    </section>
+  {{ end }}
+</div>
+{{ else }}
+<div class="people-page__empty container">
+  <p>No contributor data found. Add contributors to <code>data/contributors.yml</code> to display them here.</p>
+</div>
+{{ end }}
+
+{{ end }}
+

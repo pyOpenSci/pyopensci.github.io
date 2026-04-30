@@ -1,0 +1,99 @@
+# pyOpenSci website (Hugo) — lives at repo root. Legacy Jekyll site is in
+# jekyll/. Production still builds Jekyll from jekyll/ until cutover.
+
+baseURL = 'https://www.pyopensci.org/'
+languageCode = 'en-us'
+title = 'pyOpenSci'
+theme = 'clean-hugo'
+
+enableRobotsTXT = true
+buildFuture = true
+
+[module]
+  [[module.mounts]]
+    source = 'jekyll/images'
+    target = 'static/images'
+
+[sitemap]
+  changefreq = 'weekly'
+  filename = 'sitemap.xml'
+  priority = 0.5
+
+[markup]
+  [markup.highlight]
+    style = 'monokai'
+    lineNos = false
+    noClasses = false
+    codeFences = true
+    guessSyntax = true
+
+[params]
+  author = 'pyOpenSci'
+  tagline = 'We support the open source contributors and developers who fuel scientific discovery.'
+  blog_title = 'Blog'
+  description = 'pyOpenSci broadens participation in scientific open source.'
+
+  [params.seo]
+    default_image = 'images/landing-pages/scipy-sprint-working.png'
+
+  [params.social]
+    type = 'Organization'
+    github = 'https://github.com/pyopensci'
+    bluesky = 'https://bsky.app/profile/pyopensci.org'
+    linkedin = 'https://www.linkedin.com/company/pyopensci/'
+
+  [params.footer]
+    title = 'Connect'
+
+[params.theme]
+  enableGallery = false
+  enableFontAwesome = true
+
+  [params.theme.fonts]
+    heading = 'Sora'
+    body = 'Inter'
+
+  [params.theme.colors]
+    primary = '#2E6060'
+    primaryDark = '#142929'
+    primaryLight = '#D6E3E3'
+    secondary = '#F1E0A6'
+    accent = '#42213D'
+    accentLight = '#E4B8C6'
+    neutral = '#395E66'
+    white = '#FFFFFF'
+    gray50 = '#F9FAFB'
+    gray200 = '#E5E7EB'
+    gray600 = '#4B5563'
+    gray700 = '#374151'
+    gray900 = '#111827'
+    link = '#2E6060'
+    linkOnDark = '#2DD4BF'
+    linkHover = '#1F4345'
+    featureCard = '#EBC1D3'
+    'heroBg' = '#33205C'
+    'admonition-info' = '#53354F'
+    'admonition-success' = '#71B3B5'
+    'admonition-warning' = '#E4B8C6'
+    'admonition-danger' = '#F1E0A6'
+    'admonition-note' = '#CAE4E4'
+
+[params.nav_button]
+  text = 'Donate'
+  url = 'https://give.communityin.org/pyopensci_2024'
+  variant = 'primary'
+
+[[menu.main]]
+  name = 'Blog'
+  url = '/blog/'
+  weight = 10
+
+[[menu.main]]
+  name = 'Packages'
+  url = '/python-packages/'
+  weight = 20
+
+[[menu.main]]
+  name = 'Peer review'
+  url = '/about-peer-review/'
+  weight = 30

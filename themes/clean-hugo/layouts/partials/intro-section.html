@@ -1,0 +1,12 @@
+{{/* Intro section partial - reads from page front matter (.Params.intro_section) */}}
+{{ $intro := .Params.intro_section | default dict }}
+{{ if $intro.text }}
+<section class="intro-section">
+  <div class="container">
+    <div>
+      {{ $intro.text | markdownify }}
+    </div>
+  </div>
+</section>
+{{ end }}
+

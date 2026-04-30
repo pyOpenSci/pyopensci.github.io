@@ -1,0 +1,56 @@
+{{/*
+  Blog Card Partial
+
+  Parameters:
+  - "." (context): The blog post page object (passed as "." in dict)
+  - "modifier" (string): Optional modifier class (e.g., "card--blog--featured", "card--blog--sidebar")
+  - "showExcerpt" (bool): Whether to show excerpt (default: false for sidebar/grid, true for featured)
+*/}}
+{{ $post := index . "." }}
+{{ $modifier := .modifier | default "" }}
+{{ $showExcerpt := .showExcerpt | default false }}
+{{ $postCategory := $post.Params.category }}
+{{ $excerptLength := $post.Site.Params.blog.excerpt_length | default 200 }}
+
+<article class="card card--blog {{ $modifier }}" data-category="{{ if $postCategory }}{{ $postCategory | urlize }}{{ end }}">
+  <a href="{{ $post.Permalink }}">
+    {{ $img := partial "get-image.html" (dict "image" $post.Params.image "fallbackAlt" $post.Title "page" $post) }}
+    {{ if $img.exists }}
+    <figure class="card--blog__image">
+      <img src="{{ $img.src }}" alt="{{ $img.alt }}" loading="lazy" />
+    </figure>
+    {{ else }}
+    {{/* Get gradient colors based on category - map categories to color pairs */}}
+    {{ $gradientColors := dict
+      "Open Education" (dict "from" "#71B3B5" "to" "#2E6060")
+      "Open Science" (dict "from" "#EDB88B" "to" "#D6A570")
+      "Community" (dict "from" "#AC87A0" "to" "#8B6A8F")
+      "Science Communication" (dict "from" "#71B3B5" "to" "#5A9A9C")
+      "Tutorial" (dict "from" "#71B3B5" "to" "#5A9A9C")
+      "Gardening" (dict "from" "#22C55E" "to" "#16A34A")
+      "Images" (dict "from" "#3B82F6" "to" "#2563EB")
+    }}
+    {{ $defaultColors := dict "from" "#71B3B5" "to" "#2E6060" }}
+    {{ $colors := $defaultColors }}
+    {{ if $postCategory }}
+      {{ $colors = index $gradientColors $postCategory | default $defaultColors }}
+    {{ end }}
+    <div class="card--blog__image-placeholder" style="background: linear-gradient(135deg, {{ $colors.from }} 0%, {{ $colors.to }} 100%);"></div>
+    {{ end }}
+    <div>
+      {{ if $postCategory }}
+        <span>{{ $postCategory | upper }}</span>
+      {{ end }}
+      <h2>{{ $post.Title }}</h2>
+      <time datetime="{{ $post.Date.Format "2006-01-02" }}">{{ $post.Date.Format "Jan 2, 2006" }}</time>
+      {{ if $post.Params.show_author }}
+        <p>{{ $post.Params.author | default $post.Site.Params.author }}</p>
+      {{ end }}
+      {{ if $showExcerpt }}
+      <p>
+        {{ partial "blog-excerpt.html" (dict "." $post "length" $excerptLength) }}
+      </p>
+      {{ end }}
+    </div>
+  </a>
+</article>

@@ -1,0 +1,19 @@
+{
+  "name": "clean-hugo",
+  "version": "1.0.0",
+  "description": "A clean, modern Hugo theme",
+  "scripts": {
+    "serve": "cd exampleSite && hugo server --disableFastRender",
+    "dev": "cd exampleSite && hugo server --disableFastRender",
+    "build": "cd exampleSite && hugo --minify"
+  },
+  "keywords": ["hugo", "theme"],
+  "author": "Leah A. Wasser",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.4.24",
+    "postcss": "^8.5.6",
+    "postcss-cli": "^11.0.1"
+  }
+}
+

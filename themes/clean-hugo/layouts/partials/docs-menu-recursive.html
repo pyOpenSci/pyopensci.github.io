@@ -1,0 +1,42 @@
+{{- /*
+  Recursive menu builder for documentation sidebar
+  Usage: {{ partial "docs-menu-recursive.html" (dict "pages" .Pages "context" .) }}
+
+  Parameters:
+  - pages: Collection of pages to render (typically .Pages.ByWeight)
+  - context: Current page context for active state detection
+  - level: Current nesting level (default: 1)
+*/ -}}
+
+{{- $pages := .pages -}}
+{{- $context := .context -}}
+{{- $currentPage := $context -}}
+{{- $level := .level | default 1 -}}
+
+{{- if $pages -}}
+<ul class="docs-menu__list docs-menu__list--level-{{ $level }}">
+  {{- range $pages -}}
+    {{- $isActive := eq $currentPage.RelPermalink .RelPermalink -}}
+    {{- $isAncestor := $currentPage.IsDescendant . -}}
+    {{- $hasChildren := gt (len .Pages) 0 -}}
+    {{- $shouldExpand := or $isActive $isAncestor -}}
+
+    <li class="docs-menu__item{{ if $isActive }} docs-menu__item--active{{ end }}{{ if $shouldExpand }} docs-menu__item--expanded{{ end }}">
+      <a href="{{ .RelPermalink }}" class="docs-menu__link{{ if $isActive }} docs-menu__link--active{{ end }}">
+        {{ .Title }}
+      </a>
+
+      {{- /* Include inline TOC only for the active page */ -}}
+      {{- if $isActive -}}
+        {{- partial "docs-toc.html" . -}}
+      {{- end -}}
+
+      {{- if $hasChildren -}}
+        {{- if $shouldExpand -}}
+          {{- partial "docs-menu-recursive.html" (dict "pages" (.Pages.ByWeight) "context" $currentPage "level" (add $level 1)) -}}
+        {{- end -}}
+      {{- end -}}
+    </li>
+  {{- end -}}
+</ul>
+{{- end -}}

@@ -1,0 +1,24 @@
+{{ $resources := .Params.learn_more }}
+{{ $defaultIcon := .Params.learn_more_icon | default "fa-book" }}
+{{ $title := .Params.learn_more_title | default "Learn More" }}
+
+{{ if $resources }}
+<div class="learn-more">
+  <div class="learn-more__header">
+    <h3 class="learn-more__title"><i class="fas fa-graduation-cap"></i> {{ $title }}</h3>
+  </div>
+
+  <ul class="learn-more__list">
+    {{ range $resources }}
+    <li class="learn-more__item">
+      <a href="{{ .url }}"
+         target="_blank"
+         rel="noopener">
+        <span class="learn-more__item-text"><i class="fas {{ .icon | default $defaultIcon }}"></i> {{ .title }}</span>
+      </a>
+    </li>
+    {{ end }}
+  </ul>
+</div>
+{{ end }}
+

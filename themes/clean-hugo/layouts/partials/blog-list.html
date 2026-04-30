@@ -1,0 +1,43 @@
+<section class="blog-highlight">
+  <div class="container">
+    <div class="intro">
+      <h2>{{ .Params.blog_title | default "Recent Thoughts" }}</h2>
+    </div>
+
+    <div class="highlight-grid">
+      {{ $limit := .Params.blog_limit | default 3 }}
+      {{ range first $limit (where .Site.RegularPages "Type" "blog") }}
+        {{ $p := . }}
+        <article>
+          <div class="meta">
+            <time datetime="{{ $p.Date.Format "2006-01-02" }}">{{ $p.Date.Format "Jan 2, 2006" }}</time>
+            {{ with $p.Params.category }}
+              <span class="category">{{ . }}</span>
+            {{ end }}
+          </div>
+
+          <div class="content">
+            <h3>
+              <a href="{{ $p.Permalink }}">{{ $p.Title }}</a>
+            </h3>
+
+            <p class="excerpt">
+              {{ if $p.Params.excerpt }}
+                {{ $p.Params.excerpt | markdownify | plainify | truncate 200 }}
+              {{ else if $p.Summary }}
+                {{ $p.Summary | plainify | truncate 200 }}
+              {{ else }}
+                {{ $p.Plain | truncate 200 }}
+              {{ end }}
+            </p>
+
+            <a href="{{ $p.Permalink }}" class="read-more">
+              Read more <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+

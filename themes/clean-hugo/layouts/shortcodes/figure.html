@@ -1,0 +1,20 @@
+{{- $src := .Get "src" -}}
+{{- $alt := .Get "alt" | default "" -}}
+{{- $caption := .Get "caption" -}}
+{{- $link := .Get "link" | default $src -}}
+
+{{- $base := replaceRE "\\.(jpg|jpeg|png|gif)$" "" $src -}}
+{{- $webp := printf "%s.webp" $base -}}
+
+<figure class="figure">
+  <a href="{{ $link | relURL }}" class="figure__link">
+    <picture class="figure__picture">
+      <source srcset="{{ $webp | relURL }}" type="image/webp">
+      <img src="{{ $src | relURL }}" alt="{{ $alt }}" class="figure__image">
+    </picture>
+  </a>
+  {{- if $caption -}}
+  <figcaption class="figure__caption">{{ $caption | markdownify }}</figcaption>
+  {{- end -}}
+</figure>
+

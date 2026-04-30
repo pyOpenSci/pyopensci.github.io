@@ -1,0 +1,107 @@
+{{ define "main" }}
+<!-- Blog header with teal background -->
+<section class="blog-hero">
+  <div class="container">
+    <h1>{{ .Site.Params.blog_title | default "Latest Articles" }}</h1>
+  </div>
+</section>
+
+<section class="blog-grid">
+  <div class="container">
+
+    {{/* Get all blog posts */}}
+    {{ $allPosts := where .Site.RegularPages "Type" "blog" }}
+
+    {{/* Separate recent posts from archive posts */}}
+    {{ $recentPosts := slice }}
+    {{ $archivePosts := slice }}
+    {{ $cutoffDate := time "2025-01-01" }}
+
+    {{ range $allPosts }}
+      {{ $isOld := le (.Date.Unix) ($cutoffDate.Unix) }}
+      {{ $hasNoImage := not .Params.image }}
+      {{ if and $isOld $hasNoImage }}
+        {{ $archivePosts = $archivePosts | append . }}
+      {{ else }}
+        {{ $recentPosts = $recentPosts | append . }}
+      {{ end }}
+    {{ end }}
+
+    {{/* Empty state - no posts */}}
+    {{ if eq (len $allPosts) 0 }}
+    <div class="blog-grid__empty">
+      <p class="blog-grid__empty-message">No blog posts yet. Check back soon!</p>
+    </div>
+    {{ else }}
+
+    {{/* Featured post is always the most recent (first post from recent posts) */}}
+    {{ $featuredPost := false }}
+    {{ $sidebarPosts := slice }}
+    {{ $remainingPosts := slice }}
+
+    {{ if gt (len $recentPosts) 0 }}
+      {{ $featuredPost = index $recentPosts 0 }}
+      {{ $sidebarCount := .Site.Params.blog.sidebar_count | default 2 }}
+      {{ $skipCount := add $sidebarCount 1 }}
+      {{ if gt (len $recentPosts) 1 }}
+        {{ $sidebarPosts = first $sidebarCount (after 1 $recentPosts) }}
+      {{ end }}
+      {{ if gt (len $recentPosts) $skipCount }}
+        {{ $remainingPosts = after $skipCount $recentPosts }}
+      {{ end }}
+    {{ end }}
+
+    {{/* Get all unique categories from recent posts only (for filtering) */}}
+    {{ $categories := slice }}
+    {{ range $recentPosts }}
+      {{ with .Params.category }}
+        {{ $categories = $categories | append (slice .) }}
+      {{ end }}
+    {{ end }}
+    {{ $uniqueCategories := $categories | uniq | sort }}
+
+    {{/* Category filter */}}
+    {{ if gt (len $uniqueCategories) 0 }}
+    <div>
+      <button class="filter-btn" data-category="all" aria-pressed="true" aria-label="View all blog posts">View All</button>
+      {{ range $uniqueCategories }}
+        <button class="filter-btn" data-category="{{ . | urlize }}" aria-pressed="false" aria-label="Filter by {{ . }} category">{{ . }}</button>
+      {{ end }}
+    </div>
+    {{ end }}
+
+    {{/* Featured section: 1 large post + sidebar posts */}}
+    {{ if or $featuredPost (gt (len $sidebarPosts) 0) }}
+    <div class="blog-grid__featured">
+      {{ if $featuredPost }}
+        {{ partial "blog-card.html" (dict "." $featuredPost "modifier" "card--blog--featured" "showExcerpt" true) }}
+      {{ end }}
+
+      <div class="blog-grid__sidebar">
+        {{ range $sidebarPosts }}
+          {{ partial "blog-card.html" (dict "." . "modifier" "card--blog--sidebar" "showExcerpt" false) }}
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+
+    {{/* Remaining posts grid */}}
+    {{ if gt (len $remainingPosts) 0 }}
+    <div class="blog-grid__posts">
+      {{ range $remainingPosts }}
+        {{ partial "blog-card.html" (dict "." . "showExcerpt" false) }}
+      {{ end }}
+    </div>
+    {{ end }}
+
+    {{ template "_internal/pagination.html" . }}
+    {{ end }}
+  </div>
+</section>
+
+{{/* Archives section for old posts without images */}}
+{{ partial "blog-archives.html" $archivePosts }}
+
+{{/* Load blog filter JavaScript */}}
+<script src="{{ "js/blog-filter.js" | relURL }}" defer></script>
+{{ end }}

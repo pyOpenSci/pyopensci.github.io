@@ -1,0 +1,84 @@
+/*
+  Accessibility utilities: skip links.
+  Link is visually hidden by default and becomes visible on :focus
+  so keyboard users can jump to main content.
+*/
+
+.skip-links {
+  position: absolute;
+  z-index: 100;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    margin: 0;
+  }
+}
+
+.skip-link__link {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  white-space: nowrap;
+
+  &:focus {
+    position: fixed;
+    top: 0.5rem;
+    left: 0.5rem;
+    z-index: 10001;
+    clip: auto;
+    clip-path: none;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0.75rem 1rem;
+    background: var(--color-white, #fff);
+    color: var(--color-link, #2563eb);
+    font-weight: 600;
+    text-decoration: none;
+    box-shadow: 0 0 0 2px currentColor;
+    border-radius: 0.25rem;
+  }
+}
+
+/*
+  Print styles: hide non-content, keep focus on main content.
+*/
+@media print {
+  .skip-links,
+  .site-nav,
+  .site-footer,
+  .docs-toggle,
+  .docs-scroll-btn,
+  .docs-sidebar,
+  button.site-nav__toggle {
+    display: none !important;
+  }
+
+  body {
+    font-size: 12pt;
+    line-height: 1.4;
+  }
+
+  a[href]::after {
+    content: none;
+  }
+
+  main {
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+}

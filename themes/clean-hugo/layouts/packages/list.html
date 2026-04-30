@@ -1,0 +1,72 @@
+{{ define "main" }}
+
+{{/* Calculate package metrics using shared partial */}}
+{{ $pkgStats := partial "calculate-package-stats.html" . }}
+
+{{/* Hero section - similar to splash layout */}}
+{{ partial "hero.html" . }}
+
+{{/* Metrics Bar - render with calculated stats TODO Move this to a separate calculation step in the actually website vs here in the template*/}}
+{{ $stats := slice
+    (printf "**%d** Packages Accepted" $pkgStats.total)
+    (printf "**%d** Published in JOSS" $pkgStats.joss)
+    (printf "**%d** Currently Active" $pkgStats.active)
+    (printf "**%d** Unique Maintainers" $pkgStats.maintainers)
+}}
+{{ partial "metrics-bar-render.html" (dict "stats" $stats) }}
+
+{{/* Page content with metrics and intro text - centered with max-width */}}
+<div class="packages-page__content">
+  <div class="container">
+    {{ .Content }}
+  </div>
+</div>
+
+{{/* Packages listing - full width with inner max-width containers */}}
+{{ if .Site.Data.packages }}
+<div x-data="packageFilter()" x-init="initPackages({{ .Site.Data.packages | jsonify }})">
+
+  {{/* Partner Button - above filters */}}
+  <div class="packages-page__partner-nav">
+    <div class="container">
+      <a href="/packages/astropy/" class="partner-button partner-button--astropy">
+        <img src="https://img.shields.io/badge/Affiliated-Astropy-orange.svg?style=flat" alt="Astropy Affiliated" />
+        <span>View Astropy Packages</span>
+      </a>
+    </div>
+  </div>
+
+  {{/* Filters and Search - contained width */}}
+  <div class="packages-page__controls">
+    <div class="container">
+      {{ partial "packages/filters.html" . }}
+    </div>
+  </div>
+
+  {{/* Active Packages */}}
+  <section class="packages-page__section">
+    <div class="container">
+      <h2>pyOpenSci Accepted Packages</h2>
+      {{ partial "packages/grid.html" (dict "activeOnly" true) }}
+    </div>
+  </section>
+
+  {{/* Archived Packages */}}
+  <section class="packages-page__section">
+    <div class="container">
+      <h2>Archived Packages</h2>
+      <p>
+        Archived packages are packages that have successfully completed peer review
+        but are no longer actively maintained.
+      </p>
+      {{ partial "packages/grid.html" (dict "activeOnly" false) }}
+    </div>
+  </section>
+</div>
+{{ else }}
+<div class="packages-page__empty container">
+  <p>No package data found. Add packages to <code>data/packages.yml</code> to display them here.</p>
+</div>
+{{ end }}
+
+{{ end }}

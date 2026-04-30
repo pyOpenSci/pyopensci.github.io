@@ -1,0 +1,16 @@
+<!-- Display a section with highlight cards arranged in a grid layout.
+ Content grabbed from yaml front matter-->
+
+<section class="highlight">
+  <div class="highlight__grid">
+    {{ $cards := .Params.cards }}
+    {{ if $cards }}
+      {{ range $i, $c := $cards }}
+        <div class="{{ $c.grid | default "" }}">
+          {{ partial "cards.html" $c }}
+        </div>
+      {{ end }}
+    {{ end }}
+  </div>
+</section>
+

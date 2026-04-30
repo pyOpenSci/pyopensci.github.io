@@ -1,0 +1,20 @@
+{{/* Last Modified Date Partial
+  Uses GitInfo.Lastmod if available (requires enableGitInfo = true),
+  otherwise falls back to .Lastmod (file system modification time)
+*/}}
+{{ $lastmod := .Lastmod }}
+{{ if .GitInfo }}
+  {{ $lastmod = .GitInfo.Lastmod }}
+{{ end }}
+
+{{ if $lastmod }}
+  <footer class="content-last-modified">
+    <p>
+      <strong>Last modified:</strong>
+      <time datetime="{{ $lastmod.Format "2006-01-02" }}">
+        {{ $lastmod.Format "January 2, 2006" }}
+      </time>
+    </p>
+  </footer>
+{{ end }}
+

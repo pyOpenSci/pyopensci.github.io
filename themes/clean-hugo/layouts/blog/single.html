@@ -1,0 +1,73 @@
+{{ define "main" }}
+  <!-- Hero Banner with Title Overlay -->
+<header class="blog-post__header"{{ if not .Params.image }}{{/* Get gradient colors based on category when no image */}}
+    {{ $gradientColors := dict
+      "Open Education" (dict "from" "#71B3B5" "to" "#2E6060")
+      "Open Science" (dict "from" "#EDB88B" "to" "#D6A570")
+      "Community" (dict "from" "#AC87A0" "to" "#8B6A8F")
+      "Science Communication" (dict "from" "#71B3B5" "to" "#5A9A9C")
+    }}
+    {{ $postCategory := .Params.category }}
+    {{ $defaultColors := dict "from" "#71B3B5" "to" "#2E6060" }}
+    {{ $colors := $defaultColors }}
+    {{ if $postCategory }}
+      {{ $colors = index $gradientColors $postCategory | default $defaultColors }}
+    {{ end }}
+    style="background: linear-gradient(135deg, {{ $colors.from }} 0%, {{ $colors.to }} 100%);"
+  {{ end }}>
+    {{ $img := partial "get-image.html" (dict "image" .Params.image "fallbackAlt" .Title "page" .) }}
+    {{ if $img.exists }}
+    <img src="{{ $img.src }}" alt="{{ $img.alt }}" />
+    {{ end }}
+
+    <!-- Dark gradient overlay -->
+    <div></div>
+
+    <!-- Title and metadata overlaid on image -->
+    <div>
+      <h1>{{ .Title }}</h1>
+      <p>{{ .Date.Format "Jan 2, 2006" }}{{ with .Params.category }} • {{ . }}{{ end }}</p>
+    </div>
+
+    <!-- Photo credit in bottom right -->
+    {{ if $img.credit }}
+    <div>
+      {{ $img.credit }}
+    </div>
+    {{ end }}
+  </header>
+<article class="content-container">
+
+
+
+  <!-- Excerpt below banner -->
+  {{ with .Params.excerpt }}
+  <div class="blog-post__excerpt">
+    <p>{{ . | markdownify }}</p>
+  </div>
+  {{ end }}
+
+  <!-- Main content -->
+  <div class="content-main">
+    {{ .Content }}
+
+    {{ partial "learn-more.html" . }}
+  </div>
+
+  <!-- Tags footer -->
+  <footer class="blog-post__tags">
+    {{ with .Params.tags }}Tags: {{ range $i, $t := . }}{{ if $i }}, {{ end }}<a href="{{ "/tags/" | relURL }}{{ urlize $t }}">{{ $t }}</a>{{ end }}{{ end }}
+  </footer>
+
+  <!-- Last modified date -->
+  {{ partial "last-modified.html" . }}
+</article>
+{{ end }}
+
+{{ define "scripts" }}
+  {{/* Load GLightbox only if masonry shortcode was used */}}
+  {{ if .Page.Scratch.Get "hasGallery" }}
+    {{ partial "glightbox-scripts.html" . }}
+  {{ end }}
+{{ end }}
+

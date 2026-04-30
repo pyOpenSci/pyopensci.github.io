@@ -1,0 +1,183 @@
+/* ============================================
+   Button Components
+   Unified button system for the Clean Hugo theme
+   ============================================ */
+
+/* Base button styles - shared by all button types */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+
+  /* Spacing */
+  padding: 0.75rem 1.5rem;
+
+  /* Typography */
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  text-align: center;
+  line-height: 1.4;
+
+  /* Visual */
+  border-radius: $radius-lg;
+  border: none;
+  cursor: pointer;
+
+  /* Transitions */
+  transition: all $transition-base ease;
+
+  /* Interaction states */
+  &:hover {
+    transform: translateY(-1px);
+    box-shadow: $shadow-md;
+  }
+
+  &:active {
+    transform: translateY(0);
+  }
+
+  &:focus {
+    @include focus-ring;
+  }
+
+  &:disabled,
+  &[aria-disabled="true"] {
+    opacity: 0.5;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+  }
+}
+
+/* ============================================
+   Button Variants - Color Schemes
+   ============================================ */
+
+/* Primary button - main CTA color */
+.btn--primary {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+
+  &:hover {
+    background-color: var(--color-primary-dark);
+    color: var(--color-white);
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 2px var(--color-white), 0 0 0 4px var(--color-primary);
+  }
+}
+
+/* Secondary button - outlined style */
+.btn--secondary {
+  background-color: transparent;
+  color: var(--color-primary);
+  border: 2px solid var(--color-primary);
+
+  &:hover {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 2px var(--color-white), 0 0 0 4px var(--color-primary);
+  }
+}
+
+/* Accent button - for special actions */
+.btn--accent {
+  background-color: var(--color-accent);
+  color: var(--color-white);
+
+  &:hover {
+    opacity: 0.9;
+    color: var(--color-white);
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 2px var(--color-white), 0 0 0 4px var(--color-accent);
+  }
+}
+
+/* Neutral/Ghost button - subtle variant */
+.btn--neutral {
+  background-color: var(--color-neutral);
+  color: var(--color-white);
+
+  &:hover {
+    opacity: 0.9;
+    color: var(--color-white);
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 2px var(--color-white), 0 0 0 4px var(--color-neutral);
+  }
+}
+
+/* ============================================
+   Button Sizes
+   ============================================ */
+
+/* Small button */
+.btn--sm {
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+}
+
+/* Large button */
+.btn--lg {
+  padding: 1rem 2rem;
+  font-size: 1.125rem;
+}
+
+/* Full width button */
+.btn--full {
+  width: 100%;
+  display: flex;
+}
+
+/* ============================================
+   Button Groups & Spacing
+   ============================================ */
+
+.btn-group {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+
+  &--center {
+    justify-content: center;
+  }
+
+  &--right {
+    justify-content: flex-end;
+  }
+
+  /* Responsive stacking */
+  @media (max-width: $breakpoint-sm) {
+    flex-direction: column;
+
+    .btn {
+      width: 100%;
+    }
+  }
+}
+
+/* ============================================
+   Icon Buttons
+   ============================================ */
+
+/* Button with icon */
+.btn--icon {
+  i, svg {
+    flex-shrink: 0;
+  }
+}
+
+/* Icon-only button (square) */
+.btn--icon-only {
+  padding: 0.75rem;
+  aspect-ratio: 1;
+}

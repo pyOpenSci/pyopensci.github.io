@@ -1,0 +1,64 @@
+{{ $hero := .Params.hero | default dict }}
+{{/* Determine hero background color: default to theme token, allow per-page override */}}
+{{ $heroColorParam := $hero.color }}
+{{ $heroColor := "var(--color-hero-bg)" }}
+{{ if $heroColorParam }}
+  {{/* Support token names (primary, primary-dark, accent, heroBg) or raw CSS colors */}}
+  {{ $colorTokens := dict
+      "primary" "var(--color-primary)"
+      "primarydark" "var(--color-primary-dark)"
+      "primary-dark" "var(--color-primary-dark)"
+      "primarylight" "var(--color-primary-light)"
+      "primary-light" "var(--color-primary-light)"
+      "secondary" "var(--color-secondary)"
+      "accent" "var(--color-accent)"
+      "accentlight" "var(--color-accent-light)"
+      "accent-light" "var(--color-accent-light)"
+      "neutral" "var(--color-neutral)"
+      "herobg" "var(--color-hero-bg)"
+      "hero" "var(--color-hero-bg)"
+    }}
+  {{ $normalized := lower (replace $heroColorParam " " "") }}
+  {{ $lookup := index $colorTokens $normalized }}
+  {{ if $lookup }}
+    {{ $heroColor = $lookup }}
+  {{ else }}
+    {{ $heroColor = $heroColorParam }}
+  {{ end }}
+{{ end }}
+{{ $isGallery := or (eq .Section "gallery") (eq .Section "plants") }}
+{{/* For plant pages, always use main front matter title; otherwise use hero.title if available */}}
+{{ $title := "" }}
+{{ if $isGallery }}
+  {{ $title = .Title }}
+{{ else }}
+  {{ $title = $hero.title | default .Title }}
+{{ end }}
+{{/* Final fallback to ensure title always exists */}}
+{{ if not $title }}{{ $title = .Title }}{{ end }}
+{{ $subtitle := $hero.subtitle }}
+{{ $excerpt := $hero.excerpt }}
+{{/* Get hero image using helper partial */}}
+{{ $heroImg := partial "get-image.html" (dict "image" $hero.image "fallbackAlt" ($title | default (printf "Image for %s" .Title))) }}
+
+<section class="hero" style="background-color: {{ $heroColor }};">
+  <div class="container">
+    <div class="hero__grid">
+      <div class="hero__content">
+        <h1 class="hero__title">{{ $title }}</h1>
+        {{ with $subtitle }}<p class="hero__subtitle">{{ . }}</p>{{ end }}
+        {{ with $excerpt }}<p class="hero__excerpt">{{ . }}</p>{{ end }}
+      </div>
+
+    <!-- Right side circle with photo - only render if image exists -->
+    {{- if $heroImg.exists -}}
+      <div class="hero__image-wrapper">
+        <div class="hero__image-container {{ if $isGallery }}hero__image-container-square{{ end }}">
+          <img src="{{ $heroImg.src | relURL }}" alt="{{ $heroImg.alt }}" class="hero__image">
+        </div>
+      </div>
+    {{- end -}}
+    </div>
+  </div>
+</section>
+

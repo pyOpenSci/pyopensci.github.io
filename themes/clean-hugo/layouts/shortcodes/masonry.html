@@ -1,0 +1,26 @@
+{{/*
+  Masonry Gallery Shortcode with Lightbox
+  Creates a responsive masonry layout for images using CSS columns
+  Includes GLightbox for click-to-zoom and image navigation
+
+  Usage:
+  {{< masonry >}}
+  ![Alt text](image1.jpg)
+  ![Alt text](image2.jpg)
+  {{< /masonry >}}
+
+  The shortcode will:
+  - Render images in a responsive masonry layout
+  - Add GLightbox classes for lightbox functionality with navigation
+  - Auto-orient images based on EXIF data
+  - Load GLightbox CSS/JS if not already loaded
+*/}}
+
+{{ .Page.Scratch.Set "hasGallery" true }}
+
+<div class="gallery-masonry">
+  {{ $content := .Inner | .Page.RenderString }}
+  {{ $content = replaceRE `<img src="([^"]+)" alt="([^"]*)"([^>]*)>` `<figure><a href="$1" class="glightbox" data-gallery="masonry-gallery" data-glightbox="title: $2"><img src="$1" alt="$2"$3 style="image-orientation: from-image;"></a></figure>` $content }}
+  {{ $content | safeHTML }}
+</div>
+

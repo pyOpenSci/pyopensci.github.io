@@ -1,0 +1,84 @@
+{{ $ctx := . }}
+{{ $pages := .Pages }}
+{{ if reflect.IsMap $ctx }}
+  {{ with $ctx.Pages }}
+    {{ $pages = . }}
+  {{ end }}
+{{ end }}
+
+<div class="gallery-grid-container">
+  {{ if and (reflect.IsMap $ctx) $ctx.Title }}
+    <h2 class="gallery-grid__title">{{ $ctx.Title }}</h2>
+  {{ end }}
+
+  {{/* Step 1: Build species/category map and count items */}}
+  {{ $categoryMap := dict }}
+  {{ $singles := slice }}
+
+  {{ range $pages }}
+    {{ $category := .Params.category | default "" }}
+    {{ if .Params.items }}
+      {{/* Page has varieties/sub-items */}}
+      {{ $itemCount := len .Params.items }}
+      {{ if ge $itemCount 2 }}
+        {{/* 2+ items = gets its own section */}}
+        {{ $existing := slice }}
+        {{ with index $categoryMap $category }}
+          {{ $existing = . }}
+        {{ end }}
+        {{ $categoryMap = merge $categoryMap (dict $category ($existing | append .)) }}
+      {{ else }}
+        {{/* Only 1 item = treat as single */}}
+        {{ $singles = $singles | append . }}
+      {{ end }}
+    {{ else }}
+      {{/* No varieties = single item */}}
+      {{ $singles = $singles | append . }}
+    {{ end }}
+  {{ end }}
+
+  {{/* Step 2: Render grouped sections alphabetically */}}
+  {{ $categoryList := slice }}
+  {{ range $key, $val := $categoryMap }}
+    {{ $categoryList = $categoryList | append $key }}
+  {{ end }}
+  {{ $sortedCategories := sort $categoryList }}
+  {{ range $category := $sortedCategories }}
+    {{ $categoryPages := index $categoryMap $category }}
+    <section class="gallery-grid__section">
+      <h3 class="gallery-grid__category-title">{{ $category }}</h3>
+      <div class="gallery-grid__items">
+        {{ range $categoryPages }}
+          {{ $parentPage := . }}
+          {{/* Sort items by name */}}
+          {{ $sortedItems := sort .Params.items "name" }}
+          {{ range $sortedItems }}
+            {{ partial "gallery-card.html" (dict "Page" $parentPage "Item" . "IsVariety" true) }}
+          {{ end }}
+        {{ end }}
+      </div>
+    </section>
+  {{ end }}
+
+  {{/* Step 3: Render singles */}}
+  {{ if gt (len $singles) 0 }}
+    <section class="gallery-grid__section">
+      <h3 class="gallery-grid__category-title">{{ $ctx.Site.Params.gallery.otherTitle | default "Other Items" }}</h3>
+      <div class="gallery-grid__items">
+        {{ range sort $singles "Title" }}
+          {{ if .Params.items }}
+            {{/* Single variety page */}}
+            {{ $parentPage := . }}
+            {{ range .Params.items }}
+              {{ partial "gallery-card.html" (dict "Page" $parentPage "Item" . "IsVariety" true) }}
+            {{ end }}
+          {{ else }}
+            {{/* Regular single item */}}
+            {{ partial "gallery-card.html" . }}
+          {{ end }}
+        {{ end }}
+      </div>
+    </section>
+  {{ end }}
+</div>
+

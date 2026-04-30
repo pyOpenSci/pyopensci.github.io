@@ -8,13 +8,15 @@ jobs:
       - checkout
       - run:
           name: Install dependencies
+          working_directory: jekyll
           command: bundle install
       - run:
           name: Jekyll build
+          working_directory: jekyll
           command: |
             bundle exec jekyll build --baseurl /output/job/$CIRCLE_WORKFLOW_JOB_ID/artifacts/0/_site
       - store_artifacts:
-          path: _site
+          path: jekyll/_site
           destination: _site
 
 workflows:

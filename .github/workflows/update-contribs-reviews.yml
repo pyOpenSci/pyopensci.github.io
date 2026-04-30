@@ -21,6 +21,7 @@ jobs:
           # install pip=>20.1 to use "pip cache dir"
           python -m pip install --upgrade pip wheel
       - name: Install pyosmeta and run update contribs
+        working-directory: jekyll
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -33,8 +34,8 @@ jobs:
         uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1  # v8.1.1
         with:
           add-paths: |
-            _data/contributors.yml
-            _data/packages.yml
+            jekyll/_data/contributors.yml
+            jekyll/_data/packages.yml
           author: Leah <leah@pyopensci.org>
           base: main
           branch: contribs

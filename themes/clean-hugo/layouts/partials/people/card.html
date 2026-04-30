@@ -1,0 +1,63 @@
+{{/* People Card - Hugo template for static sections */}}
+
+<div class="people_card">
+  <div>
+    {{ if .github_image_id }}
+      <div class="people_card__image">
+        <img src="https://avatars1.githubusercontent.com/u/{{ .github_image_id }}?s=400&v=4"
+             alt="GitHub photo of {{ .name | default .github_username }}">
+      </div>
+    {{ end }}
+
+    <div class="people_card__content">
+      <h3>
+        {{ if .github_username }}
+          <a href="https://github.com/{{ .github_username }}" rel="noopener noreferrer">
+            {{ .name | default (printf "@%s" .github_username) }}
+          </a>
+        {{ else }}
+          {{ .name }}
+        {{ end }}
+      </h3>
+
+      {{ if .title }}
+        <div class="people_card__title">
+          {{ if reflect.IsSlice .title }}{{ delimit .title ", " }}{{ else }}{{ .title }}{{ end }}
+        </div>
+      {{ end }}
+
+      {{ if .organization }}
+        <div class="people_card__org">{{ .organization }}</div>
+      {{ end }}
+
+      <div class="people_card__social">
+        {{ if .twitter }}
+          <a href="https://www.twitter.com/{{ .twitter }}" rel="noopener noreferrer" aria-label="Twitter">
+            <i class="fab fa-twitter" aria-hidden="true"></i>
+          </a>
+        {{ end }}
+        {{ if .github_username }}
+          <a href="https://github.com/{{ .github_username }}" rel="noopener noreferrer" aria-label="GitHub">
+            <i class="fab fa-github" aria-hidden="true"></i>
+          </a>
+        {{ end }}
+        {{ if .website }}
+          <a href="{{ .website }}" rel="noopener noreferrer" aria-label="Website">
+            <i class="fas fa-blog" aria-hidden="true"></i>
+          </a>
+        {{ end }}
+        {{ if .orcidid }}
+          <a href="https://orcid.org/{{ .orcidid }}" rel="noopener noreferrer" aria-label="ORCID">
+            <i class="fab fa-orcid" aria-hidden="true"></i>
+          </a>
+        {{ end }}
+        {{ if .mastodon }}
+          <a href="{{ .mastodon }}" rel="noopener noreferrer" aria-label="Mastodon">
+            <i class="fab fa-mastodon" aria-hidden="true"></i>
+          </a>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</div>
+

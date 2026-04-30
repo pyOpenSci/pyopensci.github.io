@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "en" }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Summary | plainify | truncate 160 }}{{ end }}">
+
+  {{/* SEO: Open Graph, Canonical URLs, and Social Metadata */}}
+  {{ partial "seo.html" . }}
+
+  {{/* Favicons */}}
+  <link rel="icon" type="image/x-icon" href="{{ "favicon.ico" | relURL }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ "favicon-32x32.png" | relURL }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ "favicon-16x16.png" | relURL }}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ "apple-touch-icon.png" | relURL }}">
+  <link rel="manifest" href="{{ "site.webmanifest" | relURL }}">
+
+  {{/* Self-hosted fonts via @font-face (defined in main.scss) */}}
+
+  {{/* Font Awesome (CDN) */}}
+  {{ if .Site.Params.theme.enableFontAwesome | default true }}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  {{ end }}
+
+  {{/*
+    Inject CSS variables from theme config (hugo.toml).
+    NOTE: This must be in baseof.html (not SCSS) because:
+    1. SCSS files cannot access Hugo template variables (.Site.Params)
+    2. This inline <style> block loads BEFORE the compiled SCSS, allowing
+       user-defined colors from hugo.toml to override the defaults in main.scss
+    3. This is a standard Hugo pattern for theme customization
+  */}}
+  {{ $colors := .Site.Params.theme.colors | default dict }}
+  <style>
+    :root {
+      {{ with $colors.primary }}--color-primary: {{ . }};{{ end }}
+      {{ with $colors.primaryDark }}--color-primary-dark: {{ . }};{{ end }}
+      {{ with $colors.primaryLight }}--color-primary-light: {{ . }};{{ end }}
+      {{ with $colors.secondary }}--color-secondary: {{ . }};{{ end }}
+      {{ with $colors.accent }}--color-accent: {{ . }};{{ end }}
+      {{ with $colors.accentLight }}--color-accent-light: {{ . }};{{ end }}
+      {{ with $colors.neutral }}--color-neutral: {{ . }};{{ end }}
+      {{ with $colors.heroBg }}--color-hero-bg: {{ . }};{{ end }}
+      {{ with $colors.white }}--color-white: {{ . }};{{ end }}
+      {{ with $colors.gray50 }}--color-gray-50: {{ . }};{{ end }}
+      {{ with $colors.gray200 }}--color-gray-200: {{ . }};{{ end }}
+      {{ with $colors.gray600 }}--color-gray-600: {{ . }};{{ end }}
+      {{ with $colors.gray700 }}--color-gray-700: {{ . }};{{ end }}
+      {{ with $colors.gray900 }}--color-gray-900: {{ . }};{{ end }}
+      {{ with $colors.link }}--color-link: {{ . }};{{ end }}
+      {{ with $colors.linkOnDark }}--color-link-on-dark: {{ . }};{{ end }}
+      {{ with $colors.linkHover }}--color-link-hover: {{ . }};{{ end }}
+      {{ with $colors.featureCard }}--color-feature-card: {{ . }};{{ end }}
+
+
+      {{ $admonitionInfo := index $colors "admonition-info" }}
+      {{ $admonitionSuccess := index $colors "admonition-success" }}
+      {{ $admonitionWarning := index $colors "admonition-warning" }}
+      {{ $admonitionDanger := index $colors "admonition-danger" }}
+      {{ $admonitionNote := index $colors "admonition-note" }}
+
+      {{ with $admonitionInfo }}--color-admonition-info: {{ . }};{{ end }}
+      {{ with $admonitionSuccess }}--color-admonition-success: {{ . }};{{ end }}
+      {{ with $admonitionWarning }}--color-admonition-warning: {{ . }};{{ end }}
+      {{ with $admonitionDanger }}--color-admonition-danger: {{ . }};{{ end }}
+      {{ with $admonitionNote }}--color-admonition-note: {{ . }};{{ end }}
+    }
+  </style>
+
+  {{/* Theme styles */}}
+  {{ $styles := resources.Get "css/main.scss" | toCSS | postCSS | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $styles.RelPermalink }}">
+
+  {{/* Chroma syntax highlighting CSS - generated with: hugo gen chromastyles --style=monokai */}}
+  <link rel="stylesheet" href="{{ "css/syntax.css" | relURL }}">
+
+  {{/* GLightbox CSS for gallery feature */}}
+  {{ if .Site.Params.theme.enableGallery | default true }}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+  {{ end }}
+
+  {{/* Analytics */}}
+  {{ with .Site.Params.analytics.google }}
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', '{{ . }}');
+    </script>
+  {{ end }}
+  {{ with .Site.Params.analytics.plausible }}
+    <!-- Plausible Analytics -->
+    <script defer data-domain="{{ . }}" src="https://plausible.io/js/script.js"></script>
+  {{ end }}
+
+  {{/* AlpineJS for interactive components (packages filtering, etc.) */}}
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+  {{/* Package filter component - loads immediately (no defer) to register listener before Alpine initializes */}}
+  <script src="{{ "js/package-filter.js" | relURL }}"></script>
+  {{/* People filter component - loads immediately (no defer) to register listener before Alpine initializes */}}
+  <script src="{{ "js/people-filter.js" | relURL }}"></script>
+</head>
+<body>
+  {{ partial "skip-link.html" . }}
+  <!-- Navigation -->
+  <nav id="site-nav" class="site-nav" aria-label="Primary">
+    <div class="site-nav__container">
+      <a href="{{ "" | relURL }}" class="site-nav__brand">{{ .Site.Params.author | default .Site.Title }}</a>
+      <button class="site-nav__toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="site-nav-menu">
+        <span class="site-nav__toggle-icon"></span>
+        <span class="site-nav__toggle-icon"></span>
+        <span class="site-nav__toggle-icon"></span>
+      </button>
+      <div class="site-nav__menu" id="site-nav-menu">
+        {{ range .Site.Menus.main }}
+          {{ if .HasChildren }}
+            <div class="site-nav__dropdown">
+              <button class="site-nav__link site-nav__link--dropdown" aria-haspopup="true" aria-expanded="false">
+                {{ .Name }}
+                <i class="fas fa-chevron-down" aria-hidden="true"></i>
+              </button>
+              <ul class="site-nav__dropdown-menu">
+                {{ range .Children }}
+                  <li>
+                    <a href="{{ .URL }}" class="site-nav__dropdown-link"{{ if eq .URL $.RelPermalink }} aria-current="page"{{ end }}>{{ .Name }}</a>
+                  </li>
+                {{ end }}
+              </ul>
+            </div>
+          {{ else }}
+            <a href="{{ .URL }}" class="site-nav__link"{{ if eq .URL $.RelPermalink }} aria-current="page"{{ end }}>{{ .Name }}</a>
+          {{ end }}
+        {{ end }}
+
+        {{/* Optional CTA Button */}}
+        {{ with .Site.Params.nav_button }}
+          <a href="{{ .url }}"
+             class="btn btn--{{ .variant | default "primary" }} site-nav__button{{ with .class }} {{ . }}{{ end }}">
+            {{ .text }}
+          </a>
+        {{ end }}
+      </div>
+    </div>
+  </nav>
+
+  <main id="main">
+    {{ block "main" . }}{{ end }}
+  </main>
+  {{ partial "footer.html" . }}
+
+  {{/* Navigation bar toggle JavaScript */}}
+  <script src="{{ "js/navigation.js" | relURL }}" defer></script>
+
+  {{ block "scripts" . }}{{ end }}
+</body>
+</html>
+

@@ -1,0 +1,45 @@
+{{/* 
+  Gallery/Plant Filter Script Partial
+  
+  Parameters:
+  - cardSelector: CSS selector for cards to filter (default: '.gallery-card')
+  - ariaLabel: ARIA label for the filter buttons (default: 'Filter by group')
+*/}}
+{{ $cardSelector := .cardSelector | default ".gallery-card" }}
+{{ $ariaLabel := .ariaLabel | default "Filter by group" }}
+
+<script>
+(function(){
+  const buttons = Array.from(document.querySelectorAll('.filter-btn'));
+  const cards = Array.from(document.querySelectorAll('{{ $cardSelector }}'));
+  if (!buttons.length) return;
+
+  function setActive(btn){
+    buttons.forEach(b => b.setAttribute('aria-pressed','false'));
+    btn.setAttribute('aria-pressed','true');
+  }
+  function filter(group){
+    cards.forEach(c=>{
+      const groups = (c.dataset.groups || '').split(/\s+/).filter(Boolean);
+      if(group === 'all' || groups.includes(group) || groups.length === 0) {
+        c.style.display = '';
+      } else {
+        c.style.display = 'none';
+      }
+    });
+  }
+
+  buttons.forEach(b=>{
+    b.addEventListener('click', ()=>{
+      setActive(b);
+      filter(b.getAttribute('data-filter'));
+    });
+  });
+
+  // Ensure initial state
+  const active = buttons.find(b => b.getAttribute('aria-pressed') === 'true') || buttons[0];
+  setActive(active);
+  filter(active.getAttribute('data-filter') || 'all');
+})();
+</script>
+
