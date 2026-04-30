@@ -1,19 +1,20 @@
 ---
 layout: splash
-title: "pyOpenSci: Strengthening Scientific Open Source. Together"
-excerpt: "Supporting the contributors and developers who fuel scientific discovery through open source."
+title: "Strengthening Scientific Open Source, Together"
+excerpt: "We support the open source contributors and developers who fuel scientific discovery."
 author_profile: false
 published: true
 site-map: true
 permalink: /
 header:
-  overlay_image: images/headers/pyopensci-sprints-2025.png
-  overlay_filter: 0.7
+  overlay_color: "#33205c"
   actions:
-    - label: "Submit a Package For Review"
-      url: "https://www.pyopensci.org/how-to-submit-a-package-to-pyopensci.html"
     - label: "Learn to Create a Python Package"
       url: "https://www.pyopensci.org/python-package-guide/tutorials/create-python-package.html"
+      class: "btn--header-outline"
+    - label: "Submit a Package For Review"
+      url: "https://www.pyopensci.org/how-to-submit-a-package-to-pyopensci.html"
+      class: "btn--header-outline"
 mission:
   - excerpt: "pyOpenSci broadens participation in scientific open source by breaking down social and technical barriers. Join our global community."
 peer-review:
@@ -24,12 +25,12 @@ peer-review:
 
     Your package can also be published in JOSS through our review process. <br>
 
-    <i class='fa-solid fa-check-double'></i> Submit a package today for review today. <br>
+    <i class='fa-solid fa-check-double'></i> Submit a package for review today. <br>
     <i class='fa-solid fa-check-double'></i> Apply to become a reviewer. <br>
     "
   - image_path: images/landing-pages/scipy-bof-working.png
     alt: "Light purple image with a bunch from different backgrounds of stick figure people in a slightly darker color. The text on the image at the top says Community Partnerships"
-    title: "We Connect Researcher, Contributors and Developers"
+    title: "We Connect Researchers, Contributors, and Developers"
     excerpt: "
       pyOpenSci brings together researchers, core Python and conda
       developers, and data scientists from organizations like NVIDIA
@@ -39,7 +40,7 @@ peer-review:
       We partner with open source communities to share resources, knowledge and processes like peer review.
       "
   - image_path: images/landing-pages/scipy-sprint-2026.png
-    title: "We Break Down Python Packaging Painpoints"
+    title: "We Break Down Python Packaging Pain Points"
     alt: Light purple image that says python packaging guide and below it says simplifying python packaging. The background is a grey laptop with a hand looking down at the laptop the above.
     excerpt: "
 
@@ -47,11 +48,13 @@ peer-review:
 
       <i class='fa-solid fa-book-open'></i> [Python Package Tutorials](https://www.pyopensci.org/python-package-guide/tutorials/intro.html) <br>
 
-      <i class='fa-solid fa-book-open'></i> [Python package guide](https://www.pyopensci.org/python-package-guide) <br><br>
+      <i class='fa-solid fa-book-open'></i> [Python Package Guide](https://www.pyopensci.org/python-package-guide) <br><br>
 
       All of our resources are co-developed with the broader Python community and reviewed by beginner to expert Pythonistas to ensure the material is accessible for all.
       "
 ---
+
+{% include upcoming-events.html %}
 
 ## Our programs are community powered
 
@@ -73,7 +76,7 @@ peer-review:
 
                We offer support and mentorship to new reviewers completing their first review.
 
-               All reviewers don't need to be python package experts. We welcome reviewers that focus on software accessibility and usability.
+               Reviewers do not need to be Python packaging experts. We welcome reviewers who focus on software accessibility and usability.
                </p>
                <p>
               Are you new to peer review?
@@ -85,8 +88,6 @@ peer-review:
 
    </div>
 </div>
-
-{% include upcoming-events.html %}
 
 <br clear="both">
 

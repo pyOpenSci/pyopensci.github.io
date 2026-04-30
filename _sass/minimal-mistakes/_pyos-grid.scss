@@ -222,11 +222,27 @@ $colors: (
     }
   }
 
-// Home page upcoming events: single column, full-width horizontal cards
+// Home page upcoming events: compact cards, 2-up on wide screens
+.upcoming-events-section {
+  margin-bottom: 2rem;
+
+  .upcoming-events-section__title {
+    margin: 0 0 0.8rem 0;
+    font-size: $type-size-card-title-lg;
+    font-weight: $semibold-weight;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+}
+
 .upcoming-events-list {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
   gap: 1rem;
+
+  @media (min-width: $medium) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 
   > * {
     max-width: none;
