@@ -26,7 +26,9 @@
         <div class="event-card__details">
           <h3 class="event-card__title">{{ post.title | markdownify | strip_html }}</h3>
           <p>{{ post.excerpt }}</p>
-          <a href="{{ post.url | relative_url }}" class="event-card__button">Learn More</a>
+          {% if include.show_button != false %}
+            <a href="{{ post.url | relative_url }}" class="event-card__button">Learn More</a>
+          {% endif %}
         </div>
       </div>
     </a>

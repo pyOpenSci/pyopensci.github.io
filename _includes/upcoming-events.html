@@ -25,20 +25,19 @@ It only displays if there are upcoming events.
 {% comment %}Only render the section if there are upcoming events{% endcomment %}
 {% if has_upcoming_events == true %}
 <section class="upcoming-events-section">
-  <h2>Upcoming Events</h2>
+  <h2 class="upcoming-events-section__title">Upcoming Events</h2>
   <div class="upcoming-events-list">
+    {% assign shown_events = 0 %}
     {% for post in all_events %}
       {% assign start_date = post.event.start_date | date: "%Y-%m-%d" %}
       {% capture posttime %}{{ start_date | date: '%s'}}{% endcapture %}
-      {% if posttime > nowunix %}
+      {% if posttime > nowunix and shown_events < 2 %}
         <div class="upcoming">
-          {% include event-cards.html %}
+          {% include event-cards.html show_button=false %}
         </div>
+        {% assign shown_events = shown_events | plus: 1 %}
       {% endif %}
     {% endfor %}
   </div>
-  <p class="text-center">
-    <a href="{{ '/events.html' | relative_url }}" class="btn btn--primary">View All Events</a>
-  </p>
 </section>
 {% endif %}
