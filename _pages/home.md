@@ -22,7 +22,7 @@ header:
 training_feature:
   enabled: true
   eyebrow: "Training"
-  badge: "New cohort coming fall 2025"
+  badge: "New cohort coming fall 2026"
   title: "Ship It: Python Packaging in the Era of AI"
   excerpt: "A 10-day online course for researchers, academics, and RSEs - from working code to a published package."
   button_label: "Learn more"
