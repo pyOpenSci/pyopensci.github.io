@@ -182,15 +182,16 @@ input[type="text"] {
   }
 
   .package-card__title {
-    font-size: 1.25em;
-    font-weight: 600;
+    font-size: $type-size-card-title-lg;
+    font-weight: $semibold-weight;
     margin: 0 0 0.75em 0;
     color: #333;
     line-height: 1.3;
   }
 
   .package-card__meta {
-    font-size: 0.875em;
+    font-size: $type-size-card-meta;
+    line-height: $line-height-card-meta;
     color: #666;
     margin-bottom: 1em;
     display: flex;
@@ -213,8 +214,8 @@ input[type="text"] {
   }
 
   .package-card__description {
-    font-size: 0.9375em;
-    line-height: 1.6;
+    font-size: $type-size-card-body;
+    line-height: $line-height-card-body;
     color: #555;
     margin-bottom: 1.25em;
     flex-grow: 1;

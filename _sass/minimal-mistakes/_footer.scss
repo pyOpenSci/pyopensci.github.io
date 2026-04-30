@@ -26,6 +26,10 @@
     margin-top: 2em;
     max-width: 100%;
     padding: 0 1em 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
 
     @include breakpoint($x-large) {
       max-width: $x-large;
@@ -55,7 +59,9 @@
   font-size: $type-size-6;
   padding: 1em;
   max-width: 900px;
+  width: 100%;
   margin: 0 auto;
+  text-align: left;
 
   p {
     margin: 0 0 0.5em 0;
@@ -63,14 +69,29 @@
 }
 
 .page__footer-follow {
+  width: 100%;
+  max-width: $x-large;
+  margin: 0 auto;
+  text-align: center;
+
   ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 0.2rem 0.4rem;
+  }
+
+  @include breakpoint(max-width $large) {
+    ul {
+      flex-wrap: wrap;
+    }
   }
 
   li {
-    display: inline-block;
+    display: inline-flex;
     padding-top: 5px;
     padding-bottom: 5px;
     font-family: "Poppins", $sans-serif;

@@ -76,7 +76,7 @@ span.date {
   .page__title {
     margin-top: 0;
     line-height: 1;
-    max-width: 85%;
+    font-weight: $semibold-weight!important;
 
     a {
       color: $text-color;
@@ -115,7 +115,7 @@ span.date {
 
     h2 {
       margin-bottom: 2.0rem;
-      margin-top: 4.1rem;
+      margin-top: 2.1rem;
     }
 
     // Reduce top margin for h2 that follows feature wrapper
@@ -257,14 +257,20 @@ span.date {
       }
 
       .page__lead {
-        max-width: $medium;
+        max-width: 98%;
       }
 
       .page__title {
-        font-size: $type-size-2;
+        font-size: clamp($hero-title-min-size, $hero-title-fluid-size, $hero-title-max-size);
+        font-weight: $bold-weight;
+        line-height: 1.1;
+        max-width: $hero-title-max-width;
+        white-space: normal;
 
-        @include breakpoint($small) {
-          font-size: $type-size-1;
+        @include breakpoint($x-large) {
+          max-width: min(100%, 30ch);
+          white-space: normal;
+          text-wrap: balance;
         }
       }
     }
