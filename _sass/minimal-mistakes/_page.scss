@@ -242,10 +242,35 @@ span.date {
       .wrapper {
         padding-left: 1em;
         padding-right: 1em;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1.5rem;
 
         @include breakpoint($x-large) {
           max-width: $x-large;
         }
+      }
+
+      .page__hero-content {
+        flex: 1 1 auto;
+        min-width: 0;
+      }
+
+      .page__hero-side-image-wrap {
+        flex: 0 0 $hero-side-image-width;
+        width: $hero-side-image-width;
+        height: $hero-side-image-height;
+        border-radius: 12px;
+        overflow: hidden;
+        border: 2px solid rgba(#000, 0.75);
+      }
+
+      .page__hero-side-image {
+        width: 100%;
+        height: 100%;
+        display: block;
+        object-fit: cover;
       }
 
       .page__title,
@@ -271,6 +296,18 @@ span.date {
           max-width: min(100%, 30ch);
           white-space: normal;
           text-wrap: balance;
+        }
+      }
+
+      @include breakpoint(max-width $medium) {
+        .wrapper {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+
+        .page__hero-side-image-wrap {
+          width: $hero-side-image-width-mobile;
+          height: $hero-side-image-height-mobile;
         }
       }
     }

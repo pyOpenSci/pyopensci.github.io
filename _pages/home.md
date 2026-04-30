@@ -7,7 +7,11 @@ published: true
 site-map: true
 permalink: /
 header:
+  overlay_image: images/headers/pyopensci-sprints-2025.png
   overlay_color: "#33205c"
+  hero_rotate_images: true
+  hero_image_path: "/images/landing-pages/scipy-sprint-working.png"
+  hero_image_alt: "Three people collaborating during a pyOpenSci sprint."
   actions:
     - label: "Learn to Create a Python Package"
       url: "https://www.pyopensci.org/python-package-guide/tutorials/create-python-package.html"
@@ -15,6 +19,16 @@ header:
     - label: "Submit a Package For Review"
       url: "https://www.pyopensci.org/how-to-submit-a-package-to-pyopensci.html"
       class: "btn--header-outline"
+training_feature:
+  enabled: true
+  eyebrow: "Training"
+  badge: "New cohort coming fall 2025"
+  title: "Ship It: Python Packaging in the Era of AI"
+  excerpt: "A 10-day online course for researchers, academics, and RSEs - from working code to a published package."
+  button_label: "Learn more"
+  button_url: "/events/2026-pycon-us-development-sprint.html"
+  image_path: "/images/landing-pages/scipy-sprint-2026.png"
+  image_alt: "Python packaging guide graphic with a laptop and hands over keyboard."
 mission:
   - excerpt: "pyOpenSci broadens participation in scientific open source by breaking down social and technical barriers. Join our global community."
 peer-review:
@@ -53,6 +67,8 @@ peer-review:
       All of our resources are co-developed with the broader Python community and reviewed by beginner to expert Pythonistas to ensure the material is accessible for all.
       "
 ---
+
+{% include home-training-feature.html %}
 
 {% include upcoming-events.html %}
 

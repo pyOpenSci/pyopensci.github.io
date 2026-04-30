@@ -370,6 +370,71 @@
   }
 }
 
+// Compact home-page upcoming events variant
+.upcoming-events-list .event-card--compact {
+  margin-bottom: 0;
+  border: 1px solid mix(#000, $pyos-brand-dark-purple, 20%);
+  border-radius: 14px;
+  background: $pyos-white;
+  max-width: none;
+  color: $pyos-brand-dark-purple;
+
+  &:hover {
+    transform: none;
+    box-shadow: 0 4px 14px rgba(#000, 0.2);
+  }
+
+  .event-card__content {
+    display: block;
+  }
+
+  .event-card__details {
+    padding: 1rem 1.25rem 1.05rem;
+  }
+
+  .event-card__date-line {
+    margin: 0 0 0.35rem;
+    font-size: $type-size-card-meta;
+    font-weight: $semibold-weight;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: $pyos-teal;
+  }
+
+  .event-card__title {
+    margin: 0 0 0.2rem;
+    font-size: $type-size-3;
+    line-height: 1.25;
+  }
+
+  .event-card__location {
+    margin: 0 0 0.55rem;
+    font-size: $type-size-card-title;
+    color: mix(#000, $pyos-brand-dark-purple, 18%);
+  }
+
+  .event-card__excerpt {
+    margin: 0 0 0.65rem;
+    font-size: $type-size-card-body;
+    line-height: $line-height-card-body;
+    color: mix(#000, $pyos-brand-dark-purple, 22%);
+  }
+
+  .event-card__button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: $pyos-brand-dark-purple;
+    font-size: $type-size-card-title;
+    font-weight: $semibold-weight;
+    text-decoration: none;
+  }
+}
+
 
   // Responsive design adjustments
   @media (max-width: 600px) {
@@ -540,6 +605,108 @@
 .event-instructors {
   margin-top: 1em;
   margin-bottom: 1em;
+}
+
+/* Home page training feature card */
+.home-training-feature {
+  margin: 0 0 2rem;
+
+  &__eyebrow {
+    margin: 0 0 0.8rem;
+    font-size: $type-size-card-title-lg;
+    font-weight: $semibold-weight;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  &__card {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    gap: 1.25rem;
+    padding: 1.25rem 1.5rem;
+    border-radius: 14px;
+    background: $pyos-feature-card-bg;
+    border: 1px solid rgba($pyos-brand-dark-purple, 0.18);
+  }
+
+  &__content {
+    min-width: 0;
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  &__badge {
+    display: inline-block;
+    margin: 0 0 0.65rem;
+    padding: 0.2rem 0.55rem;
+    border-radius: 999px;
+    font-size: $type-size-card-meta;
+    line-height: $line-height-card-meta;
+    color: $pyos-brand-dark-purple;
+    background: rgba($pyos-white, 0.55);
+  }
+
+  &__title {
+    margin: 0 0 0.35rem;
+    font-size: $type-size-3;
+    line-height: 1.2;
+    color: $pyos-brand-dark-purple;
+  }
+
+  &__excerpt {
+    margin: 0;
+    color: rgba($pyos-brand-dark-purple, 0.9);
+    font-size: $type-size-card-body;
+    line-height: $line-height-card-body;
+    max-width: 46ch;
+  }
+
+  &__button {
+    margin-top: 0.9rem;
+    border-color: rgba($pyos-brand-dark-purple, 0.7);
+    color: $pyos-brand-dark-purple;
+
+    &:hover {
+      background-color: $pyos-brand-dark-purple;
+      color: $pyos-white;
+      text-decoration: none;
+    }
+  }
+
+  &__image-wrap {
+    flex: 0 0 36%;
+    min-height: 170px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: rgba($pyos-brand-dark-purple, 0.06);
+    border: 1px solid rgba($pyos-brand-dark-purple, 0.16);
+  }
+
+  &__image {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+  }
+
+  @media (max-width: $medium) {
+    &__card {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    &__image-wrap {
+      width: 100%;
+      min-height: 150px;
+    }
+
+    &__button {
+      width: auto;
+    }
+  }
 }
 
 .event-instructors__grid {

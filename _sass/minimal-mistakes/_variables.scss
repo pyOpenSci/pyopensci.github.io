@@ -82,6 +82,10 @@ $hero-title-min-size: 2rem !default;
 $hero-title-fluid-size: 4.2vw !default;
 $hero-title-max-size: 3rem !default;
 $hero-title-max-width: 24ch !default;
+$hero-side-image-width: 420px !default;
+$hero-side-image-height: 320px !default;
+$hero-side-image-width-mobile: 320px !default;
+$hero-side-image-height-mobile: 240px !default;
 
 /* kbd colors */
 $kbd-color-background: #bbbdc3;
@@ -110,6 +114,10 @@ $pyos-darkteal: #4e7064;
 $pyos-magenta: #bb82b0;
 $pyos-yellow: #feffe7;
 $pyos-white: #ffffff;
+
+/* semantic brand aliases for reusable UI tokens */
+$pyos-brand-dark-purple: $pyos-deeppurple !default; // #33205c
+$pyos-feature-card-bg: $pyos-softpurple !default;   // #bab3d4
 
 $gray: #24052f !default;
 $dark-gray: #4c454e !default;

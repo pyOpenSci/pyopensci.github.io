@@ -1,4 +1,17 @@
-{% capture overlay_img_path %}{{ page.header.overlay_image | relative_url }}{% endcapture %}
+{% assign overlay_img_path = nil %}
+{% if page.header.overlay_image %}
+  {% assign overlay_lookup_path = page.header.overlay_image %}
+  {% assign overlay_first_char = overlay_lookup_path | slice: 0, 1 %}
+  {% unless overlay_first_char == '/' %}
+    {% assign overlay_lookup_path = '/' | append: overlay_lookup_path %}
+  {% endunless %}
+  {% assign overlay_file = site.static_files | where_exp: "f", "f.path == overlay_lookup_path" %}
+  {% if overlay_file and overlay_file.size > 0 %}
+    {% assign overlay_img_path = page.header.overlay_image | relative_url %}
+  {% else %}
+    {% assign overlay_img_path = "/images/headers/pyopensci-sprints-2025.png" | relative_url %}
+  {% endif %}
+{% endif %}
 
 {% if page.header.image_description %}
   {% assign image_description = page.header.image_description %}
@@ -7,6 +20,28 @@
 {% endif %}
 
 {% assign image_description = image_description | markdownify | strip_html | strip_newlines | escape_once %}
+{% assign rotating_hero_path = nil %}
+{% assign hero_images = site.static_files | where_exp: "f", "f.path contains '/images/hero-images/' and f.extname != '.webp'" | sort: "path" %}
+{% if page.header.hero_rotate_images == true and hero_images and hero_images.size > 0 %}
+  {% assign day_index = site.time | date: "%j" | plus: 0 | modulo: hero_images.size %}
+  {% for hero_file in hero_images %}
+    {% if forloop.index0 == day_index %}
+      {% assign rotating_hero_path = hero_file.path %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+{% assign selected_hero_path = rotating_hero_path | default: page.header.hero_image_path %}
+{% assign selected_hero_webp_path = selected_hero_path | replace: '.png', '.webp' | replace: '.jpg', '.webp' | replace: '.jpeg', '.webp' %}
+{% assign has_selected_hero_webp = false %}
+{% assign selected_hero_ext = selected_hero_path | default: "" | split: '.' | last | downcase %}
+{% if selected_hero_ext == 'webp' %}
+  {% assign has_selected_hero_webp = true %}
+{% else %}
+  {% assign matched_webp = site.static_files | where_exp: "f", "f.path == selected_hero_webp_path" %}
+  {% if matched_webp and matched_webp.size > 0 %}
+    {% assign has_selected_hero_webp = true %}
+  {% endif %}
+{% endif %}
 <!-- Add support for webp and remove overlay filter -->
 <div class="page__hero{% if page.header.overlay_color or page.header.overlay_image %}--overlay{% endif %}"
   style="
@@ -14,35 +49,49 @@
       background-color: {{ page.header.overlay_color | default: '#33205c' }};
     {% endif %}
     {% if overlay_img_path %}
-      background-image: image-set(
-        url('{{ overlay_img_path | replace: '.png', '.webp' }}') 1x,
-        url('{{ overlay_img_path }}') type('image/png') 2x
-      );
+      background-image: url("{{ overlay_img_path }}");
     {% endif %}
 ">
   {% if page.header.overlay_color or page.header.overlay_image %}
     <div class="wrapper">
-      <h1 id="page-title" class="page__title" itemprop="headline">
-        {% if paginator and site.paginate_show_page_num %}
-          {{ site.title }}{% unless paginator.page == 1 %} {{ site.data.ui-text[site.locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}
-        {% else %}
-          {{ page.title | default: site.title | markdownify | remove: "<p>" | remove: "</p>" }}
+      <div class="page__hero-content">
+        <h1 id="page-title" class="page__title" itemprop="headline">
+          {% if paginator and site.paginate_show_page_num %}
+            {{ site.title }}{% unless paginator.page == 1 %} {{ site.data.ui-text[site.locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}
+          {% else %}
+            {{ page.title | default: site.title | markdownify | remove: "<p>" | remove: "</p>" }}
+          {% endif %}
+        </h1>
+        {% if page.tagline %}
+          <p class="page__lead">{{ page.tagline | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+        {% elsif page.header.show_overlay_excerpt != false and page.excerpt %}
+          <p class="page__lead">{{ page.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
         {% endif %}
-      </h1>
-      {% if page.tagline %}
-        <p class="page__lead">{{ page.tagline | markdownify | remove: "<p>" | remove: "</p>" }}</p>
-      {% elsif page.header.show_overlay_excerpt != false and page.excerpt %}
-        <p class="page__lead">{{ page.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
-      {% endif %}
-      {% include page__meta.html %}
-      {% if page.header.cta_url %}
-        <p><a href="{{ page.header.cta_url | relative_url }}" class="btn {{ page.header.cta_class | default: 'btn--light-outline' }}">{{ page.header.cta_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
-      {% endif %}
-      {% if page.header.actions %}
-        <p>
-        {% for action in page.header.actions %}
-          <a href="{{ action.url | relative_url }}" class="btn  {{ action.class | default: '.btn--large btn--light-outline' }}">{{ action.label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
-        {% endfor %}
+        {% include page__meta.html %}
+        {% if page.header.cta_url %}
+          <p><a href="{{ page.header.cta_url | relative_url }}" class="btn {{ page.header.cta_class | default: 'btn--light-outline' }}">{{ page.header.cta_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
+        {% endif %}
+        {% if page.header.actions %}
+          <p>
+          {% for action in page.header.actions %}
+            <a href="{{ action.url | relative_url }}" class="btn  {{ action.class | default: '.btn--large btn--light-outline' }}">{{ action.label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
+          {% endfor %}
+          </p>
+        {% endif %}
+      </div>
+      {% if selected_hero_path %}
+        <div class="page__hero-side-image-wrap">
+          <picture>
+            {% if has_selected_hero_webp %}
+              <source srcset="{{ selected_hero_webp_path | relative_url }}" type="image/webp">
+            {% endif %}
+            <img
+              src="{{ selected_hero_path | relative_url }}"
+              alt="{{ page.header.hero_image_alt | default: page.title }}"
+              class="page__hero-side-image"
+            >
+          </picture>
+        </div>
       {% endif %}
     </div>
   {% else %}

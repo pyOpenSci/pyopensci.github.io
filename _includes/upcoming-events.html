@@ -33,7 +33,7 @@ It only displays if there are upcoming events.
       {% capture posttime %}{{ start_date | date: '%s'}}{% endcapture %}
       {% if posttime > nowunix and shown_events < 2 %}
         <div class="upcoming">
-          {% include event-cards.html show_button=false %}
+          {% include event-cards.html compact=true show_button=true %}
         </div>
         {% assign shown_events = shown_events | plus: 1 %}
       {% endif %}

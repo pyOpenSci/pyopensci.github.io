@@ -1,0 +1,39 @@
+{% if page.training_feature and page.training_feature.enabled %}
+<section class="home-training-feature">
+  {% if page.training_feature.eyebrow %}
+    <h2 class="home-training-feature__eyebrow">{{ page.training_feature.eyebrow }}</h2>
+  {% endif %}
+
+  <div class="home-training-feature__card">
+    <div class="home-training-feature__content">
+      {% if page.training_feature.badge %}
+        <p class="home-training-feature__badge">{{ page.training_feature.badge }}</p>
+      {% endif %}
+
+      {% if page.training_feature.title %}
+        <h3 class="home-training-feature__title">{{ page.training_feature.title }}</h3>
+      {% endif %}
+
+      {% if page.training_feature.excerpt %}
+        <p class="home-training-feature__excerpt">{{ page.training_feature.excerpt }}</p>
+      {% endif %}
+
+      {% if page.training_feature.button_url and page.training_feature.button_label %}
+        <a href="{{ page.training_feature.button_url | relative_url }}" class="btn btn--header-outline home-training-feature__button">
+          {{ page.training_feature.button_label }}
+        </a>
+      {% endif %}
+    </div>
+
+    {% if page.training_feature.image_path %}
+      <div class="home-training-feature__image-wrap">
+        <img
+          src="{{ page.training_feature.image_path | relative_url }}"
+          alt="{{ page.training_feature.image_alt | default: page.training_feature.title }}"
+          class="home-training-feature__image"
+        >
+      </div>
+    {% endif %}
+  </div>
+</section>
+{% endif %}
