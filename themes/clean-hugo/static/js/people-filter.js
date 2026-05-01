@@ -50,4 +50,3 @@ document.addEventListener('alpine:init', () => {
     }
   }));
 });
-

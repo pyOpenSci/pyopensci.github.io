@@ -18,4 +18,3 @@ images = []
 +++
 
 A short summary or notes about this item. Add more details below.
-

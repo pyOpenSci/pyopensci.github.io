@@ -70,4 +70,3 @@ files:
 All colors use CSS variables defined in `main.scss`, which are overridden by
 values from `hugo.toml` at build time. This makes it easy to customize colors
 without editing CSS files directly.
-

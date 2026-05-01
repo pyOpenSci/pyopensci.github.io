@@ -74,7 +74,7 @@
 .btn--secondary {
   background-color: transparent;
   color: var(--color-primary);
-  border: 2px solid var(--color-primary);
+  border: $btn-border-thin solid var(--color-primary);
 
   &:hover {
     background-color: var(--color-primary);
@@ -83,6 +83,42 @@
 
   &:focus {
     box-shadow: 0 0 0 2px var(--color-white), 0 0 0 4px var(--color-primary);
+  }
+}
+
+/* Outline on dark hero backgrounds (white border / white text) */
+.btn--outline-on-dark {
+  background-color: transparent;
+  color: var(--color-white);
+  border: $btn-border-thin solid var(--color-white);
+
+  &:hover {
+    background-color: color-mix(in srgb, var(--color-white) 12%, transparent);
+    color: var(--color-white);
+    box-shadow: none;
+    transform: translateY(-1px);
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 2px var(--color-primary-dark), 0 0 0 4px var(--color-white);
+  }
+}
+
+/* Outline on light tinted panels (dark border / dark text) */
+.btn--outline-on-light {
+  background-color: transparent;
+  color: var(--color-primary-dark);
+  border: $btn-border solid var(--color-primary-dark);
+
+  &:hover {
+    background-color: color-mix(in srgb, var(--color-primary-dark) 8%, transparent);
+    color: var(--color-primary-dark);
+    box-shadow: none;
+    transform: translateY(-1px);
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 2px var(--color-white), 0 0 0 4px var(--color-primary-dark);
   }
 }
 

@@ -8,24 +8,30 @@ hero:
   title: "Strengthening Scientific Open Source, Together"
   excerpt: "We support the open source contributors and developers who fuel scientific discovery."
   color: "#33205C"
+  square_image: true
   image:
     src: "images/landing-pages/scipy-sprint-working.png"
     alt: "Three people collaborating during a pyOpenSci sprint."
+  buttons:
+    - label: "Learn to Create a Python Package"
+      url: "https://www.pyopensci.org/python-package-guide/tutorials/create-python-package.html"
+    - label: "Submit a Package For Review"
+      url: "https://www.pyopensci.org/how-to-submit-a-package-to-pyopensci.html"
+training_feature:
+  eyebrow: "Training"
+  badge: "New cohort coming fall 2026"
+  title: "Ship It: Python Packaging in the Era of AI"
+  excerpt: |
+    A 10-day online course for researchers, academics, and RSEs — from working
+    code to a published package.
+  button_label: "Learn more"
+  button_url: "/events/shipit-python-package-gen-ai-april-2026.html"
+  image:
+    src: "images/landing-pages/scipy-sprint-2026.png"
+    alt: "Python packaging guide graphic with a laptop and hands over keyboard."
 ---
 
-[Learn to Create a Python Package](https://www.pyopensci.org/python-package-guide/tutorials/create-python-package.html)
-·
-[Submit a Package For Review](https://www.pyopensci.org/how-to-submit-a-package-to-pyopensci.html)
-
-## Training
-
-**Ship It: Python Packaging in the Era of AI** — *New cohort coming fall 2026.*
-A 10-day online course for researchers, academics, and RSEs — from working code
-to a published package.
-
-[Learn more](/events/shipit-python-package-gen-ai-april-2026.html)
-
-![Python packaging guide graphic with a laptop and hands over keyboard.](/images/landing-pages/scipy-sprint-2026.png)
+{{< training-feature >}}
 
 ## Upcoming events
 

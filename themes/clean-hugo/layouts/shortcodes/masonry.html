@@ -23,4 +23,3 @@
   {{ $content = replaceRE `<img src="([^"]+)" alt="([^"]*)"([^>]*)>` `<figure><a href="$1" class="glightbox" data-gallery="masonry-gallery" data-glightbox="title: $2"><img src="$1" alt="$2"$3 style="image-orientation: from-image;"></a></figure>` $content }}
   {{ $content | safeHTML }}
 </div>
-
