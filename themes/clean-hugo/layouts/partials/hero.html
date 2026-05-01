@@ -38,6 +38,8 @@
 {{ if not $title }}{{ $title = .Title }}{{ end }}
 {{ $subtitle := $hero.subtitle }}
 {{ $excerpt := $hero.excerpt }}
+{{ $buttons := $hero.buttons }}
+{{ $heroSquareImg := $hero.square_image }}
 {{/* Get hero image using helper partial */}}
 {{ $heroImg := partial "get-image.html" (dict "image" $hero.image "fallbackAlt" ($title | default (printf "Image for %s" .Title))) }}
 
@@ -48,12 +50,24 @@
         <h1 class="hero__title">{{ $title }}</h1>
         {{ with $subtitle }}<p class="hero__subtitle">{{ . }}</p>{{ end }}
         {{ with $excerpt }}<p class="hero__excerpt">{{ . }}</p>{{ end }}
+        {{ with $buttons }}
+          <div class="hero__actions btn-group" role="group" aria-label="Primary actions">
+            {{ range . }}
+              {{ $href := .url }}
+              {{ if not (hasPrefix $href "http") }}
+                {{ $href = relURL $href }}
+              {{ end }}
+              {{ $variant := .variant | default "outline-on-dark" }}
+              <a class="btn btn--{{ $variant }} btn--lg" href="{{ $href }}">{{ .label }}</a>
+            {{ end }}
+          </div>
+        {{ end }}
       </div>
 
     <!-- Right side circle with photo - only render if image exists -->
     {{- if $heroImg.exists -}}
       <div class="hero__image-wrapper">
-        <div class="hero__image-container {{ if $isGallery }}hero__image-container-square{{ end }}">
+        <div class="hero__image-container {{ if or $isGallery $heroSquareImg }}hero__image-container-square{{ end }}">
           <img src="{{ $heroImg.src | relURL }}" alt="{{ $heroImg.alt }}" class="hero__image">
         </div>
       </div>
@@ -61,4 +75,3 @@
     </div>
   </div>
 </section>
-

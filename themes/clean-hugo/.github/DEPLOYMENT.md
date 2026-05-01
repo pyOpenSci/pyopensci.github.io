@@ -68,4 +68,3 @@ The workflow (`.github/workflows/deploy.yml`):
 ### 404 Errors
 - Verify GitHub Pages is enabled in repository settings
 - Check that the workflow completed successfully in the Actions tab
-

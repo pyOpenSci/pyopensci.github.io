@@ -52,11 +52,11 @@ theme = 'clean-hugo'
 [params.theme]
   enableGallery = true
   enableFontAwesome = true
-  
+
   [params.theme.fonts]
     heading = "Sora"
     body = "Inter"
-  
+
   [params.theme.colors]
     primary = "#71B3B5"
     primaryDark = "#2E6060"
@@ -90,16 +90,16 @@ content more readable.
 
 Under `[params.theme.fonts]`, you can specify `heading` for all your h1-h6
 elements and `body` for paragraph text and other content. The default heading
-font is "Sora" and the default body font is "Inter". 
+font is "Sora" and the default body font is "Inter".
 
-If you don't like these fonts, you will need to change the fonts both in 
-the CSS file and the hugo.toml configuration file. The fonts are vendored 
-with the theme as woff2 variable files. Variable means that multiple versions 
+If you don't like these fonts, you will need to change the fonts both in
+the CSS file and the hugo.toml configuration file. The fonts are vendored
+with the theme as woff2 variable files. Variable means that multiple versions
 of the fonts (weights and styles) are included.
 
 ### Customize colors
 
-You can customize the entire color palette of the site in the hugo.toml 
+You can customize the entire color palette of the site in the hugo.toml
 configuration file under `[params.theme.colors]`. All colors are specified
 using standard hex codes (like `#71B3B5`), and you can find these codes using
 any color picker tool.
@@ -276,7 +276,7 @@ ORCID, RSS feeds, and email links.
 
 ### Analytics
 
-IMPORTANT: this hasn't been setup // tested yet!!! 
+IMPORTANT: this hasn't been setup // tested yet!!!
 
 If you want to track how many people visit your site, you can add analytics
 support. The theme supports both Google Analytics and Plausible Analytics (a
@@ -301,13 +301,13 @@ and follows specific patterns.
 
 ### Write blog posts
 
-Blog posts are the most common type of content. The theme includes a blog 
-archetype to help you create new posts quickly with all the necessary frontmatter 
+Blog posts are the most common type of content. The theme includes a blog
+archetype to help you create new posts quickly with all the necessary frontmatter
 fields. Frontmatter is the metadata that appears at the top of a Markdown file.
 
 #### Using the blog archetype
 
-The easiest way to create a new blog post is using Hugo's archetype system. 
+The easiest way to create a new blog post is using Hugo's archetype system.
 This automatically generates a template with all the required fields:
 
 ```bash

@@ -49,6 +49,10 @@ $radius-lg: 1rem;                 /* 16px */
 $radius-xl: 1.5rem;               /* 24px */
 $radius-full: 9999px;             /* Fully rounded */
 
+/* Outline button border widths (width only; use in `border: … solid …`) */
+$btn-border-thin: 0.8px; /* hero on dark, .btn--secondary — may paint as 1px on some DPR */
+$btn-border: 1px;       /* .btn--outline-on-light */
+
 /* Transitions */
 $transition-fast: 150ms;
 $transition-base: 200ms;
@@ -85,4 +89,3 @@ $card-shadow-hover: $shadow-xl;                        /* Card shadow on hover *
 $card-hover-transform: translateY(-4px);               /* Card lift on hover */
 $card-icon-size: clamp(2.25rem, 4vw, 3rem);           /* Icon size in cards */
 $card-gap: clamp(1.25rem, 3vw, 2.5rem);               /* Gap between cards in grid */
-

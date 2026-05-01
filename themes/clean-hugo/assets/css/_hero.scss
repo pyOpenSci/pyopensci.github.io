@@ -69,6 +69,23 @@
     }
   }
 
+  &__actions {
+    @include responsive(margin-top, 1.25rem, 1.75rem);
+
+    &.btn-group {
+      @media (max-width: ($breakpoint-sm - 0.02px)) {
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        .btn {
+          flex: 1 1 auto;
+          min-width: 0;
+          max-width: 100%;
+        }
+      }
+    }
+  }
+
   &__image-wrapper {
     order: 1;
     display: flex;
