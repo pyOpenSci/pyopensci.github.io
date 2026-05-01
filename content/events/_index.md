@@ -16,8 +16,8 @@ cards:
       src: images/headers/pyopensci-sustainability.png
       alt: Hands-on pyOpenSci workshop session
     excerpt: >-
-      We offer hands-on training sessions online on topics spanning Python packaging, software development and maintenance and contributing to open source software. We use spatial chat for highly interactive online sessions 
-      and run cohort based asyncronous courses that span multiple days to muliple weeks that support structured learning at 
+      We offer hands-on training sessions online on topics spanning Python packaging, software development and maintenance and contributing to open source software. We use spatial chat for highly interactive online sessions
+      and run cohort based asyncronous courses that span multiple days to muliple weeks that support structured learning at
       your own pace and on your own time supported by expert instructors to answer questions.
   - modifier: card--white
     title: Beginner-friendly sprints

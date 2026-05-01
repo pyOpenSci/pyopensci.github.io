@@ -168,6 +168,3 @@ As you can see in the animated gif below, GitHub codespaces always have fun name
          alt="GIF showing how to reopen a GitHub Codespace">
   </picture>
 </figure>
-
-
-
