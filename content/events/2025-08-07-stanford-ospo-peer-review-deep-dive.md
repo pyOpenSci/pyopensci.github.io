@@ -70,6 +70,3 @@ This collaboration supports Stanford’s leadership in open, reproducible
 science while giving its researchers meaningful opportunities to engage with
 the pyOpenSci community and contribute to a broader, inclusive ecosystem of
 scientific software development.
-
-
-
