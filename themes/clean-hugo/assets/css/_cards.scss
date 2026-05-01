@@ -15,6 +15,17 @@
   }
 }
 
+/* Opt-in from page front matter: cards_layout: wide */
+.impact-cards--wide {
+  max-width: $container-impact-wide;
+}
+
+.impact-cards__grid--wide {
+  @media (min-width: $breakpoint-lg) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 /* Impact cards - fluid padding scales from mobile to desktop */
 .impact-cards .card {
   padding: $fluid-card-padding-lg;
@@ -29,6 +40,50 @@
 
   h2, h3 {
     line-height: 1.25;
+  }
+}
+
+/* Optional 16:9 image strip above body (e.g. “What we offer” on /events/) */
+.impact-cards .card.card--with-top-image {
+  padding: 0;
+  overflow: hidden;
+
+  .card__top-image {
+    margin: 0;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform $transition-base ease-out;
+    }
+  }
+
+  &:hover .card__top-image img {
+    transform: scale(1.03);
+  }
+
+  > div {
+    @include responsive-padding(1.25rem, 1.25rem, 2.5rem, 2.5rem);
+    flex: 1 1 auto;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card__cta {
+    padding: 0 1.25rem 1.25rem;
+    @media (min-width: $breakpoint-md) {
+      padding: 0 2.5rem 2.5rem;
+    }
+  }
+
+  > div > .event-card__type:first-of-type {
+    align-self: flex-start;
+    margin-bottom: 0.25rem;
   }
 }
 
@@ -79,7 +134,7 @@
 
     &:hover,
     &:focus-visible {
-      transform: translateY(-4px);
+      transform: $card-hover-transform;
       box-shadow: $shadow-xl;
     }
 

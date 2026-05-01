@@ -51,7 +51,7 @@
   }
 
   /* Responsive font sizing */
-  @media (min-width: 1024px) {
+  @media (min-width: $breakpoint-lg) {
     font-size: 1.25rem;
   }
 }
@@ -128,13 +128,19 @@
 .content-main h3,
 .content-main h4,
 .content-main h5,
-.content-main h6 {
+.content-main h6,
+.splash-page__content h2,
+.splash-page__content h3,
+.splash-page__content h4,
+.splash-page__content h5,
+.splash-page__content h6 {
   text-align: left !important;
   text-transform: none;
 }
 
-@media (min-width: 1024px) {
-  .content-main {
+@media (min-width: $breakpoint-lg) {
+  .content-main,
+  .splash-page__content {
     font-size: 1.25rem;
   }
 }
@@ -145,8 +151,17 @@
 .content-main > .single-card-wide,
 .content-main > .youtube-container:not(.youtube-container--constrained),
 .content-main > .two-card-row,
+.content-main > .impact-cards,
 .content-main > .swoosh-section,
-.content-main > .swoosh-section__divider-wrap {
+.content-main > .swoosh-section__divider-wrap,
+.splash-page__content > .metrics-bar,
+.splash-page__content > .blog-highlight,
+.splash-page__content > .single-card-wide,
+.splash-page__content > .youtube-container:not(.youtube-container--constrained),
+.splash-page__content > .two-card-row,
+.splash-page__content > .impact-cards,
+.splash-page__content > .swoosh-section,
+.splash-page__content > .swoosh-section__divider-wrap {
   width: 100vw;
   position: relative;
   left: 50%;
@@ -165,20 +180,35 @@
   // These will break out of the 65ch constraint when needed
 }
 
+/* Splash home: same typography as .content-main but no 65ch cap (cards / grids set their own max-width) */
+.splash-page__content {
+  @extend .prose-content;
+  max-width: none;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 $fluid-container-padding;
+  box-sizing: border-box;
+}
+
 // List and blockquote styles for unified content
 .content-main ul,
-.content-main ol {
+.content-main ol,
+.splash-page__content ul,
+.splash-page__content ol {
   margin-bottom: 1rem;
 }
-.content-main li {
+.content-main li,
+.splash-page__content li {
   margin-bottom: 0.5rem;
 }
-.content-main p {
+.content-main p,
+.splash-page__content p {
   margin-bottom: 1rem;
   line-height: 1.625;
   color: var(--color-gray-700);
 }
-.content-main blockquote {
+.content-main blockquote,
+.splash-page__content blockquote {
   border-left: 4px solid;
   padding-left: 1rem;
   padding-top: 0.5rem;
@@ -279,3 +309,4 @@
     }
   }
 }
+

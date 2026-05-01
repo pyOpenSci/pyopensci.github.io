@@ -97,7 +97,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: $breakpoint-md) {
   .site-nav__toggle {
     display: none;
   }
@@ -136,7 +136,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: $breakpoint-md) {
   .site-nav__menu {
     display: flex;
     position: relative;
@@ -171,7 +171,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: $breakpoint-md) {
   .site-nav__link {
     display: inline-block;
   }
@@ -203,7 +203,7 @@
 }
 
 /* Desktop hover behavior */
-@media (min-width: 768px) {
+@media (min-width: $breakpoint-md) {
   .site-nav__dropdown:hover,
   .site-nav__dropdown:focus-within {
     .site-nav__link--dropdown i {
@@ -233,7 +233,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: $breakpoint-md) {
   .site-nav__dropdown-menu {
     position: absolute;
     top: calc(100% + 0.5rem);
@@ -290,8 +290,9 @@
   /* Navigation-specific positioning */
   margin-top: 1rem;
 
-  @media (min-width: 768px) {
+  @media (min-width: $breakpoint-md) {
     margin-top: 0;
     margin-left: 1rem;
   }
 }
+

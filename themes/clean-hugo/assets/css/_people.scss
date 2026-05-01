@@ -106,8 +106,8 @@
       overflow: hidden;
 
       &:hover {
-        transform: translateY(-4px);
-        box-shadow: 0 10px 30px rgba(17,24,39,0.1);
+        transform: $card-hover-transform;
+        box-shadow: $shadow-xl;
       }
     }
   }
