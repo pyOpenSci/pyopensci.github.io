@@ -1,0 +1,65 @@
+{{ define "main" }}
+{{ $e := .Params.event }}
+{{ $dateLine := "" }}
+{{ if $e }}
+  {{ $start := time $e.start_date }}
+  {{ with $e.end_date }}
+    {{ $end := time . }}
+    {{ $dateLine = printf "%s – %s" ($start.Format "Jan 2, 2006") ($end.Format "Jan 2, 2006") }}
+  {{ else }}
+    {{ $dateLine = $start.Format "Jan 2, 2006" }}
+  {{ end }}
+  {{ $loc := $e.location_name | default $e.location }}
+  {{ with $loc }}
+    {{ $dateLine = printf "%s · %s" $dateLine . }}
+  {{ end }}
+{{ end }}
+{{ $gradientFrom := "#71B3B5" }}
+{{ $gradientTo := "#2E6060" }}
+{{ if and $e (not .Params.image) }}
+  {{ $t := lower ($e.event_type | default "") }}
+  {{ if eq $t "workshop" }}
+    {{ $gradientFrom = "#71B3B5" }}{{ $gradientTo = "#2E6060" }}
+  {{ else if eq $t "community" }}
+    {{ $gradientFrom = "#AC87A0" }}{{ $gradientTo = "#8B6A8F" }}
+  {{ end }}
+{{ end }}
+<header class="blog-post__header"{{ if not .Params.image }}
+    style="background: linear-gradient(135deg, {{ $gradientFrom }} 0%, {{ $gradientTo }} 100%);"
+  {{ end }}>
+    {{ $img := partial "get-image.html" (dict "image" .Params.image "fallbackAlt" .Title "page" .) }}
+    {{ if $img.exists }}
+    <img src="{{ $img.src }}" alt="{{ $img.alt }}" />
+    {{ end }}
+    <div></div>
+    <div>
+      <h1>{{ .Title }}</h1>
+      {{ if $dateLine }}<p>{{ $dateLine }}</p>{{ end }}
+    </div>
+    {{ if $img.credit }}
+    <div>{{ $img.credit }}</div>
+    {{ end }}
+  </header>
+<article class="content-container">
+  {{ with .Params.excerpt }}
+  <div class="blog-post__excerpt">
+    <p>{{ . | markdownify }}</p>
+  </div>
+  {{ end }}
+  <div class="content-main">
+    {{ .Content }}
+    {{ partial "event-instructors.html" . }}
+    {{ partial "learn-more.html" . }}
+  </div>
+  <footer class="blog-post__tags">
+    {{ with .Params.tags }}Tags: {{ range $i, $t := . }}{{ if $i }}, {{ end }}<a href="{{ "/tags/" | relURL }}{{ urlize $t }}">{{ $t }}</a>{{ end }}{{ end }}
+  </footer>
+  {{ partial "last-modified.html" . }}
+</article>
+{{ end }}
+
+{{ define "scripts" }}
+  {{ if .Page.Scratch.Get "hasGallery" }}
+    {{ partial "glightbox-scripts.html" . }}
+  {{ end }}
+{{ end }}

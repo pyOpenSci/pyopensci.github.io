@@ -1,0 +1,53 @@
+{{ define "main" }}
+<section class="blog-hero">
+  <div class="container">
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p class="events-list__intro">{{ . }}</p>{{ end }}
+  </div>
+</section>
+
+{{ $today := now.Format "2006-01-02" }}
+{{ $live := slice }}
+{{ $upcoming := slice }}
+{{ $past := slice }}
+{{ range .Pages }}
+  {{ $e := .Params.event }}
+  {{ if and $e $e.start_date }}
+    {{ $start := $e.start_date }}
+    {{ $end := $e.end_date | default $e.start_date }}
+    {{ if lt $today $start }}
+      {{ $upcoming = $upcoming | append . }}
+    {{ else if and (le $start $today) (le $today $end) }}
+      {{ $live = $live | append . }}
+    {{ else if gt $today $end }}
+      {{ $past = $past | append . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+<section class="events-list">
+  <div class="container">
+    {{ if or (gt (len $live) 0) (gt (len $upcoming) 0) }}
+      <h2 class="events-list__kicker">Upcoming <span class="events-list__kicker-amp">&amp;</span> live</h2>
+      <div class="events-list__featured">
+        {{ range sort $live "Params.event.end_date" "asc" }}
+          {{ partial "event-card.html" (dict "Page" . "compact" false "variant" "featured") }}
+        {{ end }}
+        {{ range sort $upcoming "Params.event.start_date" "asc" }}
+          {{ partial "event-card.html" (dict "Page" . "compact" false "variant" "featured") }}
+        {{ end }}
+      </div>
+    {{ else }}
+      <p class="events-list__empty">No upcoming events right now. Browse past events below or <a href="{{ "/blog/" | relURL }}">read the blog</a> for updates.</p>
+    {{ end }}
+
+    {{ with .Content }}
+    <div class="events-list__types prose-content">
+      {{ . }}
+    </div>
+    {{ end }}
+  </div>
+</section>
+
+{{ partial "events-past-archives.html" (sort $past "Params.event.start_date" "desc") }}
+{{ end }}
