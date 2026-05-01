@@ -5,14 +5,13 @@ baseURL = 'https://www.pyopensci.org/'
 languageCode = 'en-us'
 title = 'pyOpenSci'
 theme = 'clean-hugo'
+timeZone = 'America/Denver'
 
 enableRobotsTXT = true
 buildFuture = true
 
-[module]
-  [[module.mounts]]
-    source = 'jekyll/images'
-    target = 'static/images'
+# Site images: use Hugo’s normal `static/images/` (published as /images/...).
+# The legacy Jekyll site still reads from `jekyll/images/` for its own build.
 
 [sitemap]
   changefreq = 'weekly'
@@ -83,6 +82,18 @@ buildFuture = true
     'admonition-danger' = '#F1E0A6'
     'admonition-note' = '#CAE4E4'
 
+    # Event cards on /events/ (event_type: training | sprint | community | talk)
+    eventLabelTrainingBg = '#D6E3E3'
+    eventLabelTrainingFg = '#142929'
+    eventLabelSprintBg = '#E4B8C6'
+    eventLabelSprintFg = '#111827'
+    eventLabelCommunityBg = '#F1E0A6'
+    eventLabelCommunityFg = '#111827'
+    eventLabelTalkBg = '#CAE4E4'
+    eventLabelTalkFg = '#142929'
+    eventDateBadgeBg = '#42213D'
+    eventDateBadgeFg = '#FFFFFF'
+
 [params.nav_button]
   text = 'Donate'
   url = 'https://give.communityin.org/pyopensci_2024'
@@ -92,6 +103,11 @@ buildFuture = true
   name = 'Blog'
   url = '/blog/'
   weight = 10
+
+[[menu.main]]
+  name = 'Events'
+  url = '/events/'
+  weight = 15
 
 [[menu.main]]
   name = 'Packages'
