@@ -8,7 +8,7 @@
       {{ $limit := .Params.blog_limit | default 3 }}
       {{ range first $limit (where .Site.RegularPages "Type" "blog") }}
         {{ $p := . }}
-        <article>
+        <article class="listing-card listing-card--on-dark listing-card--density-default">
           <div class="meta">
             <time datetime="{{ $p.Date.Format "2006-01-02" }}">{{ $p.Date.Format "Jan 2, 2006" }}</time>
             {{ with $p.Params.category }}

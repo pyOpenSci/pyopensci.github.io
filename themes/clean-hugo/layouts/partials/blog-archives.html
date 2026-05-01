@@ -15,7 +15,7 @@
 
     <div class="highlight-grid">
       {{ range $archivePosts }}
-        <article>
+        <article class="listing-card listing-card--on-light listing-card--density-default">
           <div class="meta">
             <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
             {{ with .Params.category }}
