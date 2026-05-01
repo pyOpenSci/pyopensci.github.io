@@ -57,6 +57,12 @@
   margin-bottom: 1rem;
 }
 
+.events-list__actions {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
 /* Past events: shared .blog-archives + .highlight-grid; denser grid (4 cols) + ~80% scale */
 .events-past-archives {
   margin-top: 0;
