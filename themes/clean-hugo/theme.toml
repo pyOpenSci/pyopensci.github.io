@@ -51,3 +51,15 @@ min_version = "0.118.2"
   "admonition-warning" = "#E4B8C6"   # Soft blossom
   "admonition-danger" = "#F1E0A6"    # yellow custard
   "admonition-note" = "#CAE4E4"      # soft teal
+
+  # Event listing pills (/events/) — background + text for each event_type
+  eventLabelTrainingBg = "#D6E3E3"
+  eventLabelTrainingFg = "#142929"
+  eventLabelSprintBg = "#E4B8C6"
+  eventLabelSprintFg = "#111827"
+  eventLabelCommunityBg = "#F1E0A6"
+  eventLabelCommunityFg = "#111827"
+  eventLabelTalkBg = "#CAE4E4"
+  eventLabelTalkFg = "#142929"
+  eventDateBadgeBg = "#42213D"
+  eventDateBadgeFg = "#FFFFFF"
