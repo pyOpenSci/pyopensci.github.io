@@ -30,6 +30,11 @@ buildFuture = true
 [params]
   author = 'pyOpenSci'
   tagline = 'We support the open source contributors and developers who fuel scientific discovery.'
+
+  # Upper-left nav: logo image (served from mounted jekyll/images via static/images).
+  [params.nav_logo]
+    src = 'images/logo.png'
+    alt = 'pyOpenSci logo: a purple flower opening over the O in Open, representing open science.'
   blog_title = 'Blog'
   description = 'pyOpenSci broadens participation in scientific open source.'
 

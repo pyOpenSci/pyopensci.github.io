@@ -109,7 +109,20 @@
   <!-- Navigation -->
   <nav id="site-nav" class="site-nav" aria-label="Primary">
     <div class="site-nav__container">
-      <a href="{{ "" | relURL }}" class="site-nav__brand">{{ .Site.Params.author | default .Site.Title }}</a>
+      <a href="{{ "" | relURL }}" class="site-nav__brand{{ with .Site.Params.nav_logo }} site-nav__brand--logo{{ end }}">
+        {{ with .Site.Params.nav_logo }}
+          <img
+            class="site-nav__logo"
+            src="{{ .src | relURL }}"
+            alt="{{ .alt | default (printf "%s logo" $.Site.Title) }}"
+            width="{{ .width | default 56 }}"
+            height="{{ .height | default 56 }}"
+            decoding="async"
+          />
+        {{ else }}
+          {{ .Site.Params.author | default .Site.Title }}
+        {{ end }}
+      </a>
       <button class="site-nav__toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="site-nav-menu">
         <span class="site-nav__toggle-icon"></span>
         <span class="site-nav__toggle-icon"></span>
