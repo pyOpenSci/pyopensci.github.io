@@ -65,6 +65,18 @@
       {{ with $admonitionWarning }}--color-admonition-warning: {{ . }};{{ end }}
       {{ with $admonitionDanger }}--color-admonition-danger: {{ . }};{{ end }}
       {{ with $admonitionNote }}--color-admonition-note: {{ . }};{{ end }}
+
+      {{/* Event listing type pills (/events/) — set in hugo.toml [params.theme.colors] */}}
+      {{ with index $colors "eventLabelTrainingBg" }}--color-event-label-training-bg: {{ . }};{{ end }}
+      {{ with index $colors "eventLabelTrainingFg" }}--color-event-label-training-fg: {{ . }};{{ end }}
+      {{ with index $colors "eventLabelSprintBg" }}--color-event-label-sprint-bg: {{ . }};{{ end }}
+      {{ with index $colors "eventLabelSprintFg" }}--color-event-label-sprint-fg: {{ . }};{{ end }}
+      {{ with index $colors "eventLabelCommunityBg" }}--color-event-label-community-bg: {{ . }};{{ end }}
+      {{ with index $colors "eventLabelCommunityFg" }}--color-event-label-community-fg: {{ . }};{{ end }}
+      {{ with index $colors "eventLabelTalkBg" }}--color-event-label-talk-bg: {{ . }};{{ end }}
+      {{ with index $colors "eventLabelTalkFg" }}--color-event-label-talk-fg: {{ . }};{{ end }}
+      {{ with index $colors "eventDateBadgeBg" }}--color-event-date-badge-bg: {{ . }};{{ end }}
+      {{ with index $colors "eventDateBadgeFg" }}--color-event-date-badge-fg: {{ . }};{{ end }}
     }
   </style>
 

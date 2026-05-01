@@ -3,7 +3,9 @@
 
 {{ partial "hero.html" . }}
 
-<!-- Page content -->
-{{ .Content }}
+<!-- Full-width body: not .content-main (65ch) so impact cards / metrics can use theme widths -->
+<div class="splash-page__content">
+  {{ .Content }}
+</div>
 
 {{ end }}
