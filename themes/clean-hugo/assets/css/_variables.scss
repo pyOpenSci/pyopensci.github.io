@@ -91,6 +91,33 @@ $card-hover-transform: translateY(-4px);               /* Card lift on hover */
 $card-icon-size: clamp(2.25rem, 4vw, 3rem);           /* Icon size in cards */
 $card-gap: clamp(1.25rem, 3vw, 2.5rem);               /* Gap between cards in grid */
 
+/* Listing card density tokens for blog/event archive cards */
+$listing-card-default: (
+  padding: 1.5rem,
+  meta-font-size: 0.9375rem,
+  meta-gap: 0.75rem,
+  category-font-size: 0.75rem,
+  category-padding: 0.25rem 0.5rem,
+  title-font-size: 1.25rem,
+  title-line-height: 1.4,
+  excerpt-font-size: 1rem,
+  excerpt-line-height: 1.6,
+  read-more-font-size: 0.9375rem
+);
+
+$listing-card-compact: (
+  padding: 0.8rem 0.9rem,
+  meta-font-size: 0.65rem,
+  meta-gap: 0.4rem,
+  category-font-size: 0.55rem,
+  category-padding: 0.16rem 0.36rem,
+  title-font-size: 0.85rem,
+  title-line-height: 1.35,
+  excerpt-font-size: 0.7rem,
+  excerpt-line-height: 1.55,
+  read-more-font-size: 0.65rem
+);
+
 /* Base HTML heading font sizes: mobile, tablet, desktop */
 $heading-font-sizes: (
   h1: 3rem 3.75rem 4.5rem,
@@ -109,4 +136,3 @@ $heading-meta: (
   h5: (weight: 600, margin-top: 1.55rem, margin-bottom: 0.5rem),
   h6: (weight: 600, margin-top: 1.3rem, margin-bottom: 0.5rem),
 );
-

@@ -1,0 +1,85 @@
+/* Gallery Blog Components - Using Mixins */
+
+/* Blog gallery listing page */
+.blog-listing {
+  @include container;
+  padding: 4rem 1.5rem;
+
+  .container {
+    width: 100%;
+  }
+
+  h2 {
+    @include responsive(font-size, 1.5rem, 1.875rem, 2.25rem);
+    margin-bottom: 2rem;
+  }
+
+  .blog-grid {
+    @include responsive-grid(1, 2, 3);
+  }
+
+  article {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: $radius-md;
+    overflow: hidden;
+    background-color: var(--color-white);
+    box-shadow: $shadow-lg;
+    @include card-hover(-0.25rem, $shadow-2xl);
+
+    .card-media {
+      @include image-zoom(1.1, $transition-slower);
+      width: 100%;
+
+      img {
+        height: 10rem;
+        object-fit: cover;
+      }
+    }
+
+    .card-body {
+      padding: 1rem;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+    }
+
+    h3 {
+      margin-top: 0;
+      font-size: 1.125rem;
+      font-weight: 600;
+      line-height: 1.25;
+
+      a {
+        text-decoration: none;
+        color: var(--color-gray-900);
+      }
+    }
+
+    time {
+      display: block;
+      margin-top: 0.5rem;
+      font-size: 0.75rem;
+      color: var(--color-gray-700);
+    }
+
+    .excerpt {
+      margin-top: 0.5rem;
+      font-size: 0.875rem;
+      line-height: 1.625;
+      color: var(--color-gray-600);
+    }
+
+    .stretched-link {
+      @include stretched-link;
+    }
+  }
+
+  .pagination {
+    margin-top: $spacing-section;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+}

@@ -207,53 +207,45 @@
 /* Blog highlight section (for shortcode - full-width dark background) */
 .blog-highlight {
   width: 100%;
-  padding: 3rem 0;
+  padding: $spacing-section-lg 0 6rem;
   background-color: var(--color-gray-900);
 
-  > .container > div:first-child {
-    margin-bottom: 2rem;
+  .container {
+    @include container($container-max-width, 1.5rem, 2rem);
+  }
+
+  .intro {
+    max-width: $container-wide;
+    margin: 0 auto;
+
+    @media (min-width: $breakpoint-lg) {
+      margin: 0;
+    }
 
     h2 {
+      @include responsive(font-size, 2.25rem, 3rem);
+      font-weight: 600;
+      letter-spacing: -0.025em;
       color: var(--color-white);
     }
   }
-}
 
-/* Dark cards for blog-highlight section */
-.blog-highlight .highlight-grid article {
-  background-color: var(--color-gray-900);
-  border-color: var(--color-gray-700);
-  transition: background-color 200ms ease-in-out;
+  .highlight-grid {
+    max-width: $container-wide;
+    margin: 2.5rem auto 0;
+    gap: 4rem 2rem;
+    border-top: 1px solid var(--color-gray-700);
+    padding-top: 2.5rem;
 
-  &:hover {
-    background-color: var(--color-gray-900);
-  }
-
-  > div:first-child {
-    color: var(--color-gray-200);
-  }
-
-  > div:last-child {
-    h3 {
-      color: var(--color-white);
-
-      a {
-        color: inherit;
-        &:hover {
-          color: var(--color-primary-light);
-        }
-      }
+    @media (min-width: $breakpoint-sm) {
+      margin-top: 4rem;
+      padding-top: 4rem;
     }
 
-    > p {
-      color: var(--color-gray-200);
-    }
-
-    > a {
-      color: var(--color-link-on-dark);
-      &:hover {
-        color: var(--color-primary-light);
-      }
+    @media (min-width: $breakpoint-lg) {
+      max-width: none;
+      margin-left: 0;
+      margin-right: 0;
     }
   }
 }
@@ -284,119 +276,5 @@
 
   @media (min-width: $breakpoint-lg) {
     grid-template-columns: repeat(3, 1fr);
-  }
-
-  article {
-    border: 1px solid var(--color-gray-200);
-    border-radius: $radius-md;
-    padding: 1.5rem;
-    background-color: var(--color-white);
-    box-shadow: $shadow-sm;
-    transition: box-shadow $transition-base ease-in-out, transform $transition-base ease-in-out;
-
-    &:hover {
-      box-shadow: $shadow-xl;
-      transform: translateY(-2px);
-    }
-
-    > div:first-child {
-      display: flex;
-      align-items: center;
-      gap: 0.75rem;
-      margin-bottom: 1rem;
-      font-size: 0.9375rem;
-      color: var(--color-gray-600);
-
-      time {
-        font-weight: 500;
-      }
-
-      span {
-        padding: 0.25rem 0.5rem;
-        border-radius: 0.25rem;
-        font-size: 0.75rem;
-        font-weight: 600;
-        text-transform: uppercase;
-        letter-spacing: 0.025em;
-        background-color: var(--color-primary-light);
-        color: var(--color-primary-dark);
-      }
-    }
-
-    > div:last-child {
-      /* Card-specific: smaller h3 for highlight grid cards */
-      h3 {
-        margin-bottom: 0.75rem;
-        font-size: 1.25rem;
-        line-height: 1.4;
-        color: var(--color-gray-900);
-
-        a {
-          transition: color 200ms;
-          color: inherit;
-          &:hover {
-            color: var(--color-primary);
-          }
-        }
-      }
-
-      /* Card-specific: smaller paragraph for highlight grid cards */
-      > p {
-        line-height: 1.625;
-        margin-bottom: 1rem;
-        font-size: 1rem;
-        line-height: 1.6;
-        color: var(--color-gray-700);
-      }
-
-      > a {
-        font-weight: 500;
-        font-size: 0.9375rem;
-        color: var(--color-link);
-        transition: color 200ms;
-
-        &:hover {
-          color: var(--color-link-hover);
-        }
-
-        i {
-          margin-left: 0.25rem;
-        }
-      }
-    }
-  }
-}
-
-/* Archive cards - closer to background color, slightly lighter */
-.blog-archives .highlight-grid article {
-  background-color: color-mix(in srgb, var(--color-primary-light) 60%, white 40%);
-  border-color: var(--color-gray-200);
-
-  &:hover {
-    background-color: color-mix(in srgb, white 60%, var(--color-primary-light) 40%);
-  }
-
-  > div:first-child {
-    font-size: 1rem;
-  }
-
-  > div:last-child {
-    /* Card-specific: larger h3 for archive cards */
-    h3 {
-      font-size: 1.5rem;
-      line-height: 1.5;
-      margin-bottom: 1rem;
-    }
-
-    /* Card-specific: larger paragraph for archive cards */
-    > p {
-      font-size: 1.125rem;
-      line-height: 1.7;
-      margin-bottom: 1.25rem;
-    }
-
-    > a {
-      font-size: 1rem;
-    }
   }
 }
