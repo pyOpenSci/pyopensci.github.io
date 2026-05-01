@@ -38,13 +38,10 @@
     }
   }
 
-  /* Unified feature card - uses utility classes for background colors */
+  /* Unified feature card — same shell as interactive cards, no hover motion */
   .feature-card {
-    border-radius: $radius-lg;
-    border: 1px solid var(--color-gray-200);
-    box-shadow: $shadow-sm;
+    @include card-surface($bg: var(--color-feature-card));
     padding: $fluid-card-padding-md;
-    background-color: var(--color-feature-card);  /* Default background - can be overridden with bg-primary or bg-secondary utility classes */
   }
 
   .feature-card h3 {

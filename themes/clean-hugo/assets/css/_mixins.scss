@@ -1,4 +1,17 @@
-/* Card base mixin - shared border, radius, shadow, background, and hover */
+/* Card shell — border, radius, shadow, background (no motion) */
+@mixin card-surface(
+  $radius: $radius-lg,
+  $border: 1px solid var(--color-gray-200),
+  $shadow: $shadow-sm,
+  $bg: var(--color-white)
+) {
+  border-radius: $radius;
+  border: $border;
+  box-shadow: $shadow;
+  background-color: $bg;
+}
+
+/* Card base — surface + lift/shadow on hover */
 @mixin card-base(
   $radius: $radius-lg,
   $border: 1px solid var(--color-gray-200),
@@ -7,14 +20,34 @@
   $hover-lift: -4px,
   $hover-shadow: $shadow-xl
 ) {
-  border-radius: $radius;
-  border: $border;
-  box-shadow: $shadow;
-  background-color: $bg;
+  @include card-surface($radius, $border, $shadow, $bg);
   transition: transform $transition-base ease-in-out, box-shadow $transition-base ease-in-out;
+
   &:hover {
     transform: translateY($hover-lift);
     box-shadow: $hover-shadow;
+  }
+}
+
+/* Base heading / prose steps (mobile → md → lg) */
+@mixin type-scale-3($mobile, $tablet, $desktop) {
+  font-size: $mobile;
+
+  @media (min-width: $breakpoint-md) {
+    font-size: $tablet;
+  }
+
+  @media (min-width: $breakpoint-lg) {
+    font-size: $desktop;
+  }
+}
+
+/* Body text: mobile + md only */
+@mixin type-scale-md($mobile, $tablet) {
+  font-size: $mobile;
+
+  @media (min-width: $breakpoint-md) {
+    font-size: $tablet;
   }
 }
 /**

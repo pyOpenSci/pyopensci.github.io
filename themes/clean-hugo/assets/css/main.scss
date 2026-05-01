@@ -76,130 +76,20 @@ xl: 1280px
   }
 
   /* Typography System - Base Heading Styles */
-  /* All headings use Sora font family */
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Sora', 'Inter', 'ui-sans-serif', 'system-ui', sans-serif;
     color: inherit;
-  }
-
-  /* Base Typography Scale - Increased by ~20% for cleaner typography */
-  h1 {
-    font-size: 3rem;
-    font-weight: 700;
     line-height: 1.25;
-    margin-top: 0;
-    margin-bottom: 0.5rem;
   }
 
-  @media (min-width: 768px) {
-    h1 {
-      font-size: 3.75rem;
-    }
-  }
+  @each $tag, $sizes in $heading-font-sizes {
+    $m: map-get($heading-meta, $tag);
 
-  @media (min-width: 1024px) {
-    h1 {
-      font-size: 4.5rem;
-    }
-  }
-
-  h2 {
-    font-size: 2.25rem;
-    font-weight: 600;
-    line-height: 1.25;
-    margin-top: 2.8rem;
-    margin-bottom: 0.5rem;
-  }
-
-  @media (min-width: 768px) {
-    h2 {
-      font-size: 2.25rem;
-    }
-  }
-
-  @media (min-width: 1024px) {
-    h2 {
-      font-size: 3rem;
-    }
-  }
-
-  h3 {
-    font-size: 1.5rem;
-    font-weight: 600;
-    line-height: 1.25;
-    margin-top: 2.3rem;
-    margin-bottom: 0.5rem;
-  }
-
-  @media (min-width: 768px) {
-    h3 {
-      font-size: 1.875rem;
-    }
-  }
-
-  @media (min-width: 1024px) {
-    h3 {
-      font-size: 2.25rem;
-    }
-  }
-
-  h4 {
-    font-size: 1.25rem;
-    font-weight: 600;
-    line-height: 1.25;
-    margin-top: 1.8rem;
-    margin-bottom: 0.5rem;
-  }
-
-  @media (min-width: 768px) {
-    h4 {
-      font-size: 1.5rem;
-    }
-  }
-
-  @media (min-width: 1024px) {
-    h4 {
-      font-size: 1.875rem;
-    }
-  }
-
-  h5 {
-    font-size: 1.125rem;
-    font-weight: 600;
-    line-height: 1.25;
-    margin-top: 1.55rem;
-    margin-bottom: 0.5rem;
-  }
-
-  @media (min-width: 768px) {
-    h5 {
-      font-size: 1.25rem;
-    }
-  }
-
-  @media (min-width: 1024px) {
-    h5 {
-      font-size: 1.5rem;
-    }
-  }
-
-  h6 {
-    font-size: 1rem;
-    font-weight: 600;
-    line-height: 1.25;
-    margin-top: 1.3rem;
-    margin-bottom: 0.5rem;
-  }
-
-  @media (min-width: 768px) {
-    h6 {
-      font-size: 1.125rem;
-    }
-  }
-
-  @media (min-width: 1024px) {
-    h6 {
-      font-size: 1.25rem;
+    #{$tag} {
+      @include type-scale-3(nth($sizes, 1), nth($sizes, 2), nth($sizes, 3));
+      font-weight: map-get($m, weight);
+      margin-top: map-get($m, margin-top);
+      margin-bottom: map-get($m, margin-bottom);
     }
   }
 
@@ -207,16 +97,10 @@ xl: 1280px
   p,
   ul, ol,
   li {
-    font-size: 1.125rem;
+    @include type-scale-md(1.125rem, 1.25rem);
     margin-bottom: 1rem;
     line-height: 1.75;
     color: var(--color-gray-700);
-  }
-
-  @media (min-width: 768px) {
-    p, ul, ol, li {
-      font-size: 1.25rem;
-    }
   }
 
   /* List-specific styling */
@@ -353,5 +237,7 @@ xl: 1280px
 @import 'code';
 @import 'figure';
 @import 'packages';
+@import 'events';
 @import 'people';
 @import 'docs';
+

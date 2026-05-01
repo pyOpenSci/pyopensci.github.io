@@ -12,6 +12,7 @@ $breakpoint-2xl: 1536px;          /* Extra large */
 
 /* Container Max Widths */
 $container-max-width: 80rem;      /* 1280px - standard container */
+$container-impact-wide: 96rem;    /* 1536px - optional wide splash / impact card grid */
 $container-narrow: 56rem;         /* 896px - content/blog posts */
 $container-wide: 42rem;           /* 672px - narrow content */
 
@@ -50,8 +51,8 @@ $radius-xl: 1.5rem;               /* 24px */
 $radius-full: 9999px;             /* Fully rounded */
 
 /* Outline button border widths (width only; use in `border: … solid …`) */
-$btn-border-thin: 0.8px; /* hero on dark, .btn--secondary — may paint as 1px on some DPR */
-$btn-border: 1px;       /* .btn--outline-on-light */
+$btn-bd-thin: 0.8px; /* hero on dark, .btn--secondary — may paint as 1px on some DPR */
+$btn-bd: 1px;       /* .btn--outline-on-light */
 
 /* Transitions */
 $transition-fast: 150ms;
@@ -89,3 +90,23 @@ $card-shadow-hover: $shadow-xl;                        /* Card shadow on hover *
 $card-hover-transform: translateY(-4px);               /* Card lift on hover */
 $card-icon-size: clamp(2.25rem, 4vw, 3rem);           /* Icon size in cards */
 $card-gap: clamp(1.25rem, 3vw, 2.5rem);               /* Gap between cards in grid */
+
+/* Base HTML heading font sizes: mobile, tablet, desktop */
+$heading-font-sizes: (
+  h1: 3rem 3.75rem 4.5rem,
+  h2: 2.25rem 2.25rem 3rem,
+  h3: 1.5rem 1.875rem 2.25rem,
+  h4: 1.25rem 1.5rem 1.875rem,
+  h5: 1.125rem 1.25rem 1.5rem,
+  h6: 1rem 1.125rem 1.25rem,
+);
+
+$heading-meta: (
+  h1: (weight: 700, margin-top: 0, margin-bottom: 0.5rem),
+  h2: (weight: 600, margin-top: 2.8rem, margin-bottom: 0.5rem),
+  h3: (weight: 600, margin-top: 2.3rem, margin-bottom: 0.5rem),
+  h4: (weight: 600, margin-top: 1.8rem, margin-bottom: 0.5rem),
+  h5: (weight: 600, margin-top: 1.55rem, margin-bottom: 0.5rem),
+  h6: (weight: 600, margin-top: 1.3rem, margin-bottom: 0.5rem),
+);
+

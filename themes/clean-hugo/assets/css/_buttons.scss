@@ -74,7 +74,7 @@
 .btn--secondary {
   background-color: transparent;
   color: var(--color-primary);
-  border: $btn-border-thin solid var(--color-primary);
+  border: $btn-bd-thin solid var(--color-primary);
 
   &:hover {
     background-color: var(--color-primary);
@@ -90,7 +90,7 @@
 .btn--outline-on-dark {
   background-color: transparent;
   color: var(--color-white);
-  border: $btn-border-thin solid var(--color-white);
+  border: $btn-bd-thin solid var(--color-white);
 
   &:hover {
     background-color: color-mix(in srgb, var(--color-white) 12%, transparent);
@@ -108,7 +108,7 @@
 .btn--outline-on-light {
   background-color: transparent;
   color: var(--color-primary-dark);
-  border: $btn-border solid var(--color-primary-dark);
+  border: $btn-bd solid var(--color-primary-dark);
 
   &:hover {
     background-color: color-mix(in srgb, var(--color-primary-dark) 8%, transparent);
