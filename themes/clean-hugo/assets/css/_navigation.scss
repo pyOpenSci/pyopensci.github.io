@@ -34,6 +34,25 @@
     outline: 2px solid var(--color-link);
     outline-offset: 2px;
   }
+
+  &--logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+}
+
+.site-nav__logo {
+  display: block;
+  width: auto;
+  height: clamp(2.75rem, 5vw, 3.25rem);
+  object-fit: contain;
+
+  @media (min-width: $breakpoint-md) {
+    height: clamp(3rem, 4.5vw, 3.75rem);
+  }
 }
 
 /* Hamburger menu toggle button */
