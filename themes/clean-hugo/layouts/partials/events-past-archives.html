@@ -17,7 +17,7 @@
         {{ $start := time $e.start_date }}
         {{ $kind := lower (urlize ($e.event_type | default "")) }}
         {{ $typeLabel := index $typeLabels $kind }}
-        <article>
+        <article class="listing-card listing-card--on-light listing-card--density-compact">
           <div class="meta">
             <time datetime="{{ $e.start_date }}">{{ $start.Format "Jan 2, 2006" }}</time>
             {{ if $typeLabel }}
