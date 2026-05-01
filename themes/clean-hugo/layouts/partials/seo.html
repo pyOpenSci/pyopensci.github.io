@@ -411,6 +411,10 @@
       {{ $location = merge $location (dict "address" (dict "@type" "PostalAddress" "streetAddress" .)) }}
     {{ end }}
     {{ $ev = merge $ev (dict "location" $location) }}
+  {{ else }}
+    {{ with $e.location }}
+      {{ $ev = merge $ev (dict "location" (dict "@type" "Place" "name" .)) }}
+    {{ end }}
   {{ end }}
   {{ if $e.offers_free }}
     {{ $ev = merge $ev (dict "offers" (dict "@type" "Offer" "price" "0" "priceCurrency" "USD" "availability" "https://schema.org/InStock" "url" .Permalink)) }}

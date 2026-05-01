@@ -1,12 +1,14 @@
 <!-- Display a section with impact cards arranged in a grid layout.
- Content grabbed from yaml front matter-->
+ Content grabbed from yaml front matter.
+ Optional: cards_layout: wide — wider max-width and 3 columns from $breakpoint-lg up. -->
 
-<section class="impact-cards">
-  <div class="impact-cards__grid">
+{{ $wide := eq (lower (default "" .Params.cards_layout)) "wide" }}
+<section class="impact-cards{{ if $wide }} impact-cards--wide{{ end }}">
+  <div class="impact-cards__grid{{ if $wide }} impact-cards__grid--wide{{ end }}">
     {{ $cards := .Params.cards }}
     {{ if $cards }}
       {{ range $i, $c := $cards }}
-        {{ partial "cards.html" $c }}
+        {{ partial "cards.html" (merge $c (dict "page" $)) }}
       {{ end }}
     {{ end }}
   </div>

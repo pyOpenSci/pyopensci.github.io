@@ -1,0 +1,48 @@
+{{/*
+  Past events section — same layout/styling as blog "From the Archives"
+  (blog-archives + highlight-grid). Pass a slice of sorted event pages (newest first).
+*/}}
+{{ $pastPages := . }}
+{{ if gt (len $pastPages) 0 }}
+{{ $typeLabels := dict "training" "Training" "sprint" "Sprint" "community" "Community event" "talk" "Talk" }}
+<section class="blog-archives events-past-archives" aria-labelledby="past-events-heading">
+  <div class="container">
+    <div class="intro">
+      <h2 id="past-events-heading">Past events</h2>
+    </div>
+
+    <div class="highlight-grid">
+      {{ range $pastPages }}
+        {{ $e := .Params.event }}
+        {{ $start := time $e.start_date }}
+        {{ $kind := lower (urlize ($e.event_type | default "")) }}
+        {{ $typeLabel := index $typeLabels $kind }}
+        <article>
+          <div class="meta">
+            <time datetime="{{ $e.start_date }}">{{ $start.Format "Jan 2, 2006" }}</time>
+            {{ if $typeLabel }}
+              <span class="category">{{ $typeLabel }}</span>
+            {{ else }}
+              <span class="category">Event</span>
+            {{ end }}
+          </div>
+
+          <div class="content">
+            <h3>
+              <a href="{{ .Permalink }}">{{ .Title }}</a>
+            </h3>
+
+            <p class="excerpt">
+              {{ partial "blog-excerpt.html" (dict "." . "length" 200) }}
+            </p>
+
+            <a href="{{ .Permalink }}" class="read-more">
+              Read more <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

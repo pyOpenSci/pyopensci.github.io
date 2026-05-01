@@ -2,6 +2,7 @@
 <!-- Reusable card partial.
      - Use text_only: true in front matter to render a plain white, non-interactive text card.
      - Otherwise renders the interactive highlight card (supports Font Awesome class strings or raw HTML icons).
+     - Optional image (map: src, alt) renders a 16:9 strip at the top; optional event_type shows the same pill as event cards.
 -->
 
 {{ $icon := .icon }}
@@ -31,8 +32,21 @@
   </div>
 </article>
 {{ else }}
-<article class="card {{ .modifier | default "card--highlight" }}">
+{{ $page := index . "page" }}
+{{ $img := partial "get-image.html" (dict "image" .image "fallbackAlt" .title "page" $page) }}
+{{ $kind := lower (urlize (.event_type | default "")) }}
+{{ $typeLabels := dict "training" "Training" "sprint" "Sprint" "community" "Community event" "talk" "Talk" }}
+{{ $typeLabel := index $typeLabels $kind }}
+<article class="card {{ .modifier | default "card--highlight" }}{{ if $img.exists }} card--with-top-image{{ end }}">
+  {{ if $img.exists }}
+  <figure class="card__top-image">
+    <img src="{{ $img.src }}" alt="{{ $img.alt }}" loading="lazy" decoding="async" />
+  </figure>
+  {{ end }}
   <div>
+    {{ if and $typeLabel (ne $kind "") }}
+      <span class="event-card__type event-card__type--{{ $kind }}">{{ $typeLabel }}</span>
+    {{ end }}
     <h3>{{ if and $icon (in (printf "%s" $icon) "fa-") }}
       <i class="card__icon {{ $icon }}" aria-hidden="true" title="{{ $.title }}"></i>
     {{ else if and $icon (ne (printf "%s" $icon) "") }}
