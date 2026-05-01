@@ -60,7 +60,7 @@ files:
 - `_intro-section.scss` - Intro section styles
 - `_footer.scss` - Footer styles
 - `_gallery.scss` - Gallery styles
-- `_gallery_blog.scss` - Blog listing gallery styles
+- `_blog-listing.scss` - Blog listing styles
 - `_shortcodes.scss` - Shortcode component styles
 - `_admonition.scss` - Admonition shortcode styles
 - `_figure.scss` - Figure/image styles

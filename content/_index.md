@@ -79,12 +79,9 @@ cards:
 
 ## Upcoming events
 
-*(Migrating from Jekyll `upcoming-events.html` — placeholder. Wire data or
-partial in a follow-up session.)*
+{{< upcoming-events limit="3" view_all="true" >}}
 
-## Our programs are community powered
-
-{{< impact-cards >}}
+{{< home-programs-full >}}
 
 ## Broadening participation in scientific open source
 

@@ -1,0 +1,5 @@
+{{ $title := .Get "title" | default "Our programs are community powered" }}
+<section class="home-programs-full">
+  <h2>{{ $title }}</h2>
+  {{ partial "impact-cards.html" .Page }}
+</section>

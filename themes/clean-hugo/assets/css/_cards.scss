@@ -43,6 +43,31 @@
   }
 }
 
+/* Home-only full-bleed programs section */
+.home-programs-full {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  padding: 0 $fluid-container-padding;
+
+  h2 {
+    margin: 0;
+    padding-top: $fluid-space-xl;
+    padding-bottom: 1rem;
+    text-align: left;
+  }
+
+  .impact-cards {
+    max-width: none;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
 /* Optional 16:9 image strip above body (e.g. “What we offer” on /events/) */
 .impact-cards .card.card--with-top-image {
   padding: 0;

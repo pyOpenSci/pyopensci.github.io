@@ -183,7 +183,7 @@
 /* Splash home: same typography as .content-main but no 65ch cap (cards / grids set their own max-width) */
 .splash-page__content {
   @extend .prose-content;
-  max-width: none;
+  max-width: 80rem;
   width: 100%;
   margin: 0 auto;
   padding: 0 $fluid-container-padding;
@@ -309,4 +309,3 @@
     }
   }
 }
-
