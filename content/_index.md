@@ -10,9 +10,6 @@ hero:
   excerpt: "We support the open source contributors and developers who fuel scientific discovery."
   color: "#33205C"
   square_image: true
-  image:
-    src: "images/landing-pages/scipy-sprint-working.png"
-    alt: "Three people collaborating during a pyOpenSci sprint."
   buttons:
     - label: "Learn to Create a Python Package"
       url: "https://www.pyopensci.org/python-package-guide/tutorials/create-python-package.html"
@@ -75,13 +72,14 @@ cards:
     cta: "Browse events →"
 ---
 
+
+{{< home-programs-full >}}
+
 {{< training-feature >}}
 
 ## Upcoming events
 
 {{< upcoming-events limit="3" view_all="true" >}}
-
-{{< home-programs-full >}}
 
 ## Broadening participation in scientific open source
 
