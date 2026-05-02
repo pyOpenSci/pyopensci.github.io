@@ -28,35 +28,75 @@ xl: 1280px
   }
 
   /*
-    Self-hosted font declarations using variable fonts
+    Self-hosted font declarations
     Font files are in themes/clean-hugo/static/fonts/
   */
 
-  /* Inter Variable font (body text) - regular/roman style */
+  /* Nunito Sans variable font (body text) - regular/roman style */
   @font-face {
-    font-family: 'Inter';
+    font-family: 'Nunito Sans';
     font-style: normal;
-    font-weight: 100 900;
+    font-weight: 200 900;
     font-display: swap;
-    src: url('../fonts/inter-variable.woff2') format('woff2');
+    src: url('../fonts/NunitoSans-VariableFont.woff2') format('woff2');
   }
 
-  /* Inter Variable font (body text) - italic style */
+  /* Nunito Sans variable font (body text) - italic style */
   @font-face {
-    font-family: 'Inter';
+    font-family: 'Nunito Sans';
     font-style: italic;
-    font-weight: 100 900;
+    font-weight: 200 900;
     font-display: swap;
-    src: url('../fonts/inter-italic-variable.woff2') format('woff2');
+    src: url('../fonts/NunitoSans-Italic-VariableFont.woff2') format('woff2');
   }
 
-  /* Sora Variable font (headings) */
+  /* Poppins (headings) */
   @font-face {
-    font-family: 'Sora';
+    font-family: 'Poppins';
     font-style: normal;
-    font-weight: 100 800;
+    font-weight: 300;
     font-display: swap;
-    src: url('../fonts/sora-variable.woff2') format('woff2');
+    src: url('../fonts/Poppins-Light.woff2') format('woff2');
+  }
+
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../fonts/Poppins-Regular.woff2') format('woff2');
+  }
+
+  @font-face {
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../fonts/Poppins-Italic.woff2') format('woff2');
+  }
+
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url('../fonts/Poppins-Medium.woff2') format('woff2');
+  }
+
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url('../fonts/Poppins-SemiBold.woff2') format('woff2');
+  }
+
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('../fonts/Poppins-Bold.woff2') format('woff2');
   }
 
   /*
@@ -66,7 +106,7 @@ xl: 1280px
   */
 
   body {
-    font-family: 'Inter', 'ui-sans-serif', 'system-ui', '-apple-system', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif;
+    font-family: 'Nunito Sans', 'ui-sans-serif', 'system-ui', '-apple-system', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif;
     color: var(--color-gray-900);
     background-color: var(--color-gray-50);
     margin: 0;
@@ -77,7 +117,7 @@ xl: 1280px
 
   /* Typography System - Base Heading Styles */
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Sora', 'Inter', 'ui-sans-serif', 'system-ui', sans-serif;
+    font-family: 'Poppins', 'Nunito Sans', 'ui-sans-serif', 'system-ui', sans-serif;
     color: inherit;
     line-height: 1.25;
   }
