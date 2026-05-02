@@ -42,7 +42,7 @@ help-us:
   - image_path:
     title: "Interested in Being an Editor?"
     alt:
-    excerpt: "We also often recruit new editors to support our peer review process. Keep an eye out on our discourse forum for calls for new editors. In the meantime if you are interested in learning more about the editor role, check out our peer review guidebook. "
+    excerpt: "We also often recruit new editors to support our peer review process. Keep an eye out on our [GitHub Discussions](https://github.com/orgs/pyOpenSci/discussions) for calls for new editors. In the meantime if you are interested in learning more about the editor role, check out our peer review guidebook. "
     url: https://www.pyopensci.org/software-peer-review/how-to/editors-guide.html
     btn_label: "> Click here to learn more about the editor role."
     btn_class: btn--inverse
