@@ -1,3 +1,64 @@
+/* Pull Quote Shortcode
+   Color variants: teal (default), magenta, purple
+   Matches brand variables from hugo.toml [params.theme.colors]
+   --color-primary      = dark teal (#2E6060)
+   --color-accent-light = dusty rose/magenta (#E4B8C6)
+   --color-accent       = deep purple (#42213D)
+*/
+.pullquote {
+  --pullquote-color: var(--color-primary);
+
+  position: relative;
+  border: none;
+  font-family: Georgia, "Times New Roman", serif;
+  margin: 3rem 0;
+  padding: 1.5rem 3rem;
+
+  &--magenta { --pullquote-color: var(--color-accent-light); }
+  &--purple  { --pullquote-color: var(--color-accent); }
+
+  &::before,
+  &::after {
+    font-size: 5rem;
+    font-weight: 900;
+    color: var(--pullquote-color);
+    line-height: 0;
+    position: absolute;
+    opacity: 0.85;
+  }
+
+  &::before {
+    content: '\201C';
+    top: 2.75rem;
+    left: 0;
+  }
+
+  &::after {
+    content: '\201D';
+    bottom: 1.25rem;
+    right: 0;
+  }
+
+  &__text {
+    font-size: 1.25rem;
+    line-height: 1.9;
+    margin: 0;
+    color: var(--color-gray-700);
+
+    @media (min-width: $breakpoint-md) {
+      font-size: 1.375rem;
+    }
+  }
+
+  &__footer {
+    text-align: right;
+    font-style: italic;
+    margin-top: 1rem;
+    color: var(--color-gray-600);
+    font-size: 1rem;
+  }
+}
+
   /* Metrics Bar */
   .metrics-bar {
     width: 100%;

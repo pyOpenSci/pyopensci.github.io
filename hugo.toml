@@ -19,6 +19,8 @@ buildFuture = true
   priority = 0.5
 
 [markup]
+  [markup.goldmark.renderer]
+    unsafe = true
   [markup.highlight]
     style = 'monokai'
     lineNos = false
@@ -100,14 +102,20 @@ buildFuture = true
   variant = 'primary'
 
 [[menu.main]]
+  name = 'Learn'
+  weight = 10
+
+[[menu.main]]
   name = 'Blog'
   url = '/blog/'
-  weight = 10
+  parent = 'Learn'
+  weight = 1
 
 [[menu.main]]
   name = 'Events'
   url = '/events/'
-  weight = 15
+  parent = 'Learn'
+  weight = 2
 
 [[menu.main]]
   name = 'Packages'
