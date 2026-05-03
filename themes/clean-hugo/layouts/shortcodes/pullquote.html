@@ -1,0 +1,12 @@
+{{- $color := .Get "color" | default "teal" -}}
+{{- $author := .Get "author" -}}
+{{- $event := .Get "event" -}}
+
+<blockquote class="pullquote pullquote--{{ $color }}">
+  <p class="pullquote__text">{{ .Inner | markdownify }}</p>
+  {{ if or $author $event }}
+  <footer class="pullquote__footer">
+    {{ with $author }}<strong>~ {{ . }}</strong>{{ end }}{{ with $event }}, <em>{{ . }}</em>{{ end }}
+  </footer>
+  {{ end }}
+</blockquote>
