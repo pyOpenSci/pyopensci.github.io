@@ -68,7 +68,7 @@ peer-review:
       "
 ---
 
-{% include home-training-feature.html %}
+
 
 {% include upcoming-events.html %}
 
@@ -106,6 +106,8 @@ peer-review:
 </div>
 
 <br clear="both">
+
+{% include home-training-feature.html %}
 
 {% assign new_ppl = site.data.contributors | reverse %}
 

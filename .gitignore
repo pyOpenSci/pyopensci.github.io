@@ -12,3 +12,7 @@ styles/*
 tmp/*
 .bundle
 **/.ipynb_checkpoints/
+node_modules/*
+.hugo_build.lock
+public/
+resources/
