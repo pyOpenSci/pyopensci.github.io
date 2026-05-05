@@ -3946,6 +3946,7 @@
     - astrodata
     - galfitools
     - martini
+    - pyautogalaxy
     - stingray
   packages_submitted:
   packages_reviewed:
@@ -8534,6 +8535,7 @@
   packages_submitted:
   packages_reviewed:
     - galassify
+    - pyautogalaxy
   location: Omaha, NE
   email: erik@erikwhiting.com
 - name:
@@ -10466,6 +10468,7 @@
     - galfitools
     - greopy
     - piva
+    - pyautogalaxy
     - pymultifit
     - swiftgalaxy
   packages_editor:
@@ -11199,11 +11202,14 @@
   website:
   board: false
   contributor_type:
+    - maintainer
     - peer-review
     - reviewer
+    - submitting-author
   packages_eic:
   packages_editor:
   packages_submitted:
+    - pyautogalaxy
   packages_reviewed:
     - galfitools
   location: Newcastle
@@ -11259,12 +11265,14 @@
   contributor_type:
     - maintainer
     - peer-review
+    - reviewer
     - submitting-author
   packages_eic:
   packages_editor:
   packages_submitted:
     - galfitools
   packages_reviewed:
+    - pyautogalaxy
   location: Sinaloa, Mexico
   email:
 - name:
@@ -11480,7 +11488,7 @@
   organization: Harvey Mudd College
   date_added: '2026-05-04'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -11509,7 +11517,7 @@
   organization:
   date_added: '2026-05-04'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -11538,7 +11546,7 @@
   organization: CNRS
   date_added: '2026-05-04'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false

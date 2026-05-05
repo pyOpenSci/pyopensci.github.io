@@ -94,13 +94,13 @@
       name: astropy
       description: Astronomy and astrophysics core library
       created_at: '2011-07-21'
-      stargazers_count: 5141
+      stargazers_count: 5145
       watchers_count: 139
-      open_issues_count: 1297
-      forks_count: 2060
+      open_issues_count: 1291
+      forks_count: 2062
       documentation: https://www.astropy.org
-      contrib_count: 445
-      last_commit: '2026-05-02'
+      contrib_count: 447
+      last_commit: '2026-05-05'
   labels:
     - 6/pyOS-approved
     - astropy
@@ -201,10 +201,62 @@
       forks_count: 5
       documentation: https://swiftgalaxy.readthedocs.io/en/stable/index.html
       contrib_count: 3
-      last_commit: '2026-04-30'
+      last_commit: '2026-05-04'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
+  active: true
+- package_name: PyAutoGalaxy
+  package_description: Astronomy software for analysing the morphologies and
+      structures of galaxies
+  submitting_author:
+      name: James Nightingale
+      github_username: Jammy2211
+  all_current_maintainers:
+    - name: James Nightingale
+      github_username: Jammy2211
+  repository_link: https://github.com/Jammy2211/PyAutoGalaxy
+  repository_host: github
+  version_submitted: '[2025.1.18.7](https://github.com/Jammy2211/PyAutoGalaxy/tree/2025.1.18.7)'
+  categories:
+    - data-processing-munging
+    - scientific-software-wrapper
+  editor:
+      name: Hans Moritz Günther
+      github_username: hamogu
+  eic:
+      name: James J Balamuta
+      github_username: coatless
+  reviewers:
+    - name: Chris Añorve
+      github_username: canorve
+    - name: Erik Whiting
+      github_username: erik-whiting
+  archive: https://zenodo.org/doi/10.5281/zenodo.19552258
+  version_accepted: v2026.4.13.6
+  date_accepted: '2026-05-04'
+  created_at: 2025-03-13 13:15:30+00:00
+  updated_at: 2026-05-04 17:41:20+00:00
+  closed_at: 2026-05-04 17:41:20+00:00
+  issue_link: https://github.com/pyOpenSci/software-submission/issues/235
+  joss:
+  partners:
+    - astropy
+  gh_meta:
+      name: PyAutoGalaxy
+      description: 'PyAutoGalaxy: Open-Source Multiwavelength Galaxy Structure &
+          Morphology'
+      created_at: '2019-10-19'
+      stargazers_count: 32
+      watchers_count: 3
+      open_issues_count: 1
+      forks_count: 13
+      documentation: https://pyautogalaxy.readthedocs.io/
+      contrib_count: 15
+      last_commit: '2026-05-04'
+  labels:
+    - 6/pyOS-approved
+    - astropy
   active: true
 - package_name: pymultifit
   package_description: A python library for fitting data with multiple models.
@@ -445,7 +497,7 @@
       forks_count: 4
       documentation:
       contrib_count: 3
-      last_commit: '2026-05-04'
+      last_commit: '2026-05-05'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -595,7 +647,7 @@
       forks_count: 17
       documentation: https://felupe.readthedocs.io/en/stable
       contrib_count: 6
-      last_commit: '2026-04-30'
+      last_commit: '2026-05-05'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -798,7 +850,7 @@
       name: great-tables
       description: Make awesome display tables using Python
       created_at: '2022-05-06'
-      stargazers_count: 2650
+      stargazers_count: 2651
       watchers_count: 15
       open_issues_count: 119
       forks_count: 124
@@ -857,7 +909,7 @@
       created_at: '2015-09-30'
       stargazers_count: 215
       watchers_count: 17
-      open_issues_count: 45
+      open_issues_count: 44
       forks_count: 178
       documentation: https://stingray.science/stingray
       contrib_count: 58
@@ -1061,11 +1113,11 @@
       created_at: '2021-10-26'
       stargazers_count: 31
       watchers_count: 5
-      open_issues_count: 51
+      open_issues_count: 53
       forks_count: 16
       documentation: https://open-atmos.github.io/PyPartMC/
       contrib_count: 9
-      last_commit: '2026-04-29'
+      last_commit: '2026-05-05'
   labels:
     - 6/pyOS-approved
   active: true
@@ -1485,7 +1537,7 @@
       forks_count: 10
       documentation: https://usepa.github.io/harmonize-wq/
       contrib_count: 6
-      last_commit: '2026-04-05'
+      last_commit: '2026-05-05'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1759,7 +1811,7 @@
       name: sunpy
       description: SunPy - Python for Solar Physics
       created_at: '2011-08-06'
-      stargazers_count: 1012
+      stargazers_count: 1015
       watchers_count: 45
       open_issues_count: 243
       forks_count: 646
@@ -1960,7 +2012,7 @@
       forks_count: 91
       documentation: https://sourmash.readthedocs.io/en/latest/
       contrib_count: 46
-      last_commit: '2026-04-28'
+      last_commit: '2026-05-05'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -2173,7 +2225,7 @@
       stargazers_count: 301
       watchers_count: 8
       open_issues_count: 183
-      forks_count: 51
+      forks_count: 50
       documentation: https://biocypher.org
       contrib_count: 20
       last_commit: '2026-03-30'
@@ -2323,7 +2375,7 @@
       name: taxpasta
       description: TAXnomic Profile Aggregation and STAndardisation
       created_at: '2022-06-03'
-      stargazers_count: 42
+      stargazers_count: 43
       watchers_count: 4
       open_issues_count: 17
       forks_count: 8
@@ -3077,13 +3129,13 @@
       description: A light-weight, flexible, and expressive statistical data
           testing library
       created_at: '2018-11-01'
-      stargazers_count: 4324
+      stargazers_count: 4326
       watchers_count: 21
       open_issues_count: 415
       forks_count: 393
       documentation: https://www.union.ai/pandera
       contrib_count: 181
-      last_commit: '2026-05-02'
+      last_commit: '2026-05-05'
   labels:
     - 6/pyOS-approved
   active: true
