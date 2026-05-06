@@ -762,6 +762,132 @@
   margin-bottom: 1em;
 }
 
+/* University partnerships: responsive tables for tier and pricing */
+.partnership-table-wrap {
+  width: 100%;
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+
+.partnership-table {
+  /* Override theme `table { display: block }` so columns lay out correctly. */
+  display: table;
+  width: 100%;
+  min-width: 52rem;
+  border-collapse: collapse;
+  border: 1px solid rgba($pyos-brand-dark-purple, 0.25);
+  background-color: $pyos-white;
+  /* Theme tables use overflow-x: auto; with display:table it skews card layout. */
+  overflow-x: visible;
+
+  th,
+  td {
+    padding: 0.7rem 0.75rem;
+    border: 1px solid rgba($pyos-brand-dark-purple, 0.2);
+    text-align: left;
+    vertical-align: top;
+    line-height: 1.35;
+    font-size: $type-size-card-meta;
+  }
+
+  th {
+    background-color: rgba($pyos-brand-dark-purple, 0.08);
+    color: $pyos-brand-dark-purple;
+    font-weight: $semibold-weight;
+  }
+
+  td:first-child {
+    font-weight: $semibold-weight;
+    color: $pyos-brand-dark-purple;
+  }
+
+  tbody tr:nth-child(even) {
+    background-color: rgba($pyos-brand-dark-purple, 0.03);
+  }
+}
+
+.partnership-table--tiers {
+  min-width: 42rem;
+}
+
+@media (max-width: $large) {
+  .partnership-table {
+    display: block;
+    width: 100%;
+    min-width: 0;
+    border: 0;
+    overflow-x: visible;
+
+    thead {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+
+    tbody,
+    tr,
+    td {
+      display: block;
+      width: 100%;
+    }
+
+    tr {
+      margin-bottom: 0.8rem;
+      border: 1px solid rgba($pyos-brand-dark-purple, 0.24);
+      border-radius: 0.5rem;
+      background-color: $pyos-white;
+      padding: 0;
+      overflow: hidden;
+      box-sizing: border-box;
+    }
+
+    td {
+      border: 0;
+      border-bottom: 1px solid rgba($pyos-brand-dark-purple, 0.14);
+      padding: 0.4rem 0.75rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 0.7rem;
+      box-sizing: border-box;
+      min-width: 0;
+
+      &::before {
+        content: attr(data-label);
+        font-weight: $semibold-weight;
+        color: $pyos-brand-dark-purple;
+        flex-shrink: 0;
+      }
+    }
+
+    td:first-child {
+      background-color: $pyos-brand-dark-purple;
+      color: $pyos-white;
+      margin: 0;
+      padding: 0.65rem 0.75rem;
+      border-bottom: 1px solid rgba($pyos-white, 0.22);
+      border-radius: 0.5rem 0.5rem 0 0;
+      font-size: $type-size-card-title;
+      font-weight: $semibold-weight;
+
+      &::before {
+        color: rgba($pyos-white, 0.92);
+      }
+    }
+
+    td:last-child {
+      border-bottom: 0;
+      padding-bottom: 0.55rem;
+    }
+  }
+}
+
 /* Home page training feature card */
 .home-training-feature {
   margin: 0 0 2rem;

@@ -96,91 +96,141 @@ recommend getting involved with pyOpenSci.." author="Zach Chandler" event="Direc
 ## Research software accelerator programs
 
 We will support you in building a thriving open source community at your
-institution. Our accelerator programs are designed as three tiers that meet
-universities and research labs where they are today.
+institution. Our accelerator programs are designed to meet universities and
+research labs where they are today.
 
-<div class="blog__grid">
+### Partnership tiers
 
-<article>
-  <div class="cards">
-    <div class="card__header card__header-color-4">
-    </div>
-    <div class="card__bkg card__bkg--brand">
-      <div class="card__title-container">
-        <h3 class="card-title">Ecosystem Catalyst</h3>
-      </div>
-    </div>
-    <p class="card-stage"><strong>Stage:</strong> Established</p>
-    <div class="card-excerpt">
-      <p><strong>Perfect for:</strong> Universities with active open source
-      programs that are ready to position their OSPO members and research
-      software communities as leaders in this space.</p>
-
-      <p><strong>What you receive.</strong> High touch training
-      ranging from interactive online training to exclusive office hours, ensuring
-      participants are supported at every step of their journey and discounted seats to
-      our complete 10 day course, “Ship It:
-      Python Packaging in the GenAI Era". At this premier
-      tier, your institution receives direct support from the pyOpenSci
-      leadership team and expert Python developers, strategically positioning your
-      university learners as leaders in the open source research ecosystem.</p>
-    </div>
-  </div>
-</article>
-
-<article>
-  <div class="cards">
-    <div class="card__header card__header-color-4">
-    </div>
-    <div class="card__bkg card__bkg--brand">
-      <div class="card__title-container">
-        <h3 class="card-title">Momentum Driver</h3>
-      </div>
-    </div>
-    <p class="card-stage"><strong>Stage:</strong> Growing</p>
-    <div class="card-excerpt">
-      <p><strong>Perfect for:</strong> Universities with research software
-      communities seeking comprehensive support.</p>
-
-      <p><strong>What you receive.</strong> Top tier webinars,
-      course-based office hours, and discounted seats to our complete 10 day course, “Ship It:
-      Python Packaging in the GenAI Era,” which guides researchers from a working
-      script to a published PyPI package using industry standard tools like
-      Hatch, pytest, and Sphinx, and a connection to our global,
-      cross disciplinary network of more than 350 scientists and research
-      software engineers through our vibrant digital channels. Educational
-      resources equip your growing community with practical workflows for
-      scientific Python development and responsible generative AI adoption.</p>
-    </div>
-  </div>
-</article>
-
-<article>
-  <div class="cards">
-    <div class="card__header card__header-color-4">
-    </div>
-    <div class="card__bkg card__bkg--brand">
-      <div class="card__title-container">
-        <h3 class="card-title">Foundation Builder</h3>
-      </div>
-    </div>
-    <p class="card-stage"><strong>Stage:</strong> Exploration</p>
-    <div class="card-excerpt">
-      <p><strong>Perfect for:</strong> Universities establishing open source
-      communities or those with researchers beginning to develop open source
-      tools.</p>
-
-      <p><strong>What you receive.</strong> Your learners gain access to some of
-      the world’s top Pythonistas through our trusted asynchronous course
-      platform. This includes our complete 10 day on demand package, “Ship It:
-      Python Packaging in the GenAI Era,” which guides researchers from a working
-      script to a published PyPI package using industry standard tools like
-      Hatch, pytest, and Sphinx.</p>
-    </div>
-  </div>
-</article>
-
+<div class="table-wrap partnership-table-wrap">
+  <table class="partnership-table partnership-table--tiers">
+    <caption class="sr-only">Partnership tiers by stage and best fit</caption>
+    <thead>
+      <tr>
+        <th scope="col">Tier</th>
+        <th scope="col">Stage</th>
+        <th scope="col">Perfect for</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td data-label="Tier">Early Stage</td>
+        <td data-label="Stage">Exploring</td>
+        <td data-label="Perfect for">Universities just beginning to build open
+        source programs</td>
+      </tr>
+      <tr>
+        <td data-label="Tier">Growing Community</td>
+        <td data-label="Stage">Building</td>
+        <td data-label="Perfect for">Research communities seeking foundational
+        training and community connection</td>
+      </tr>
+      <tr>
+        <td data-label="Tier">Impact Ready</td>
+        <td data-label="Stage">Expanding</td>
+        <td data-label="Perfect for">Programs ready to add structured webinars
+        and deeper community engagement</td>
+      </tr>
+      <tr>
+        <td data-label="Tier">Momentum Driver</td>
+        <td data-label="Stage">Scaling</td>
+        <td data-label="Perfect for">Institutions with active OSPOs ready to
+        grow their researcher cohorts</td>
+      </tr>
+      <tr>
+        <td data-label="Tier">Ecosystem Catalyst</td>
+        <td data-label="Stage">Established</td>
+        <td data-label="Perfect for">Universities positioning their researchers
+        as open source leaders</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
+
+### Partnership pricing: year 1 founding member rates
+
+<div class="table-wrap partnership-table-wrap">
+  <table class="partnership-table partnership-table--pricing">
+    <caption class="sr-only">Year 1 founding member partnership pricing</caption>
+    <thead>
+      <tr>
+        <th scope="col">Tier</th>
+        <th scope="col">Price</th>
+        <th scope="col">Seats</th>
+        <th scope="col">Add&apos;l seats</th>
+        <th scope="col">Peer Review Webinar</th>
+        <th scope="col">Additional Webinars</th>
+        <th scope="col">Community Access</th>
+        <th scope="col">Curriculum Advisory</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td data-label="Tier">Early Stage</td>
+        <td data-label="Price">$2,500</td>
+        <td data-label="Seats">5</td>
+        <td data-label="Add&apos;l seats">$400/seat</td>
+        <td data-label="Peer Review Webinar">Yes</td>
+        <td data-label="Additional Webinars">None</td>
+        <td data-label="Community Access">Yes</td>
+        <td data-label="Curriculum Advisory">None</td>
+      </tr>
+      <tr>
+        <td data-label="Tier">Growing Community</td>
+        <td data-label="Price">$5,000</td>
+        <td data-label="Seats">12</td>
+        <td data-label="Add&apos;l seats">$400/seat</td>
+        <td data-label="Peer Review Webinar">Yes</td>
+        <td data-label="Additional Webinars">None</td>
+        <td data-label="Community Access">Yes</td>
+        <td data-label="Curriculum Advisory">None</td>
+      </tr>
+      <tr>
+        <td data-label="Tier">Impact Ready</td>
+        <td data-label="Price">$8,000</td>
+        <td data-label="Seats">20</td>
+        <td data-label="Add&apos;l seats">$400/seat</td>
+        <td data-label="Peer Review Webinar">Yes</td>
+        <td data-label="Additional Webinars">1</td>
+        <td data-label="Community Access">Yes</td>
+        <td data-label="Curriculum Advisory">None</td>
+      </tr>
+      <tr>
+        <td data-label="Tier">Momentum Driver</td>
+        <td data-label="Price">$10,000</td>
+        <td data-label="Seats">26</td>
+        <td data-label="Add&apos;l seats">$400/seat</td>
+        <td data-label="Peer Review Webinar">Yes</td>
+        <td data-label="Additional Webinars">2</td>
+        <td data-label="Community Access">Yes</td>
+        <td data-label="Curriculum Advisory">None</td>
+      </tr>
+      <tr>
+        <td data-label="Tier">Ecosystem Catalyst</td>
+        <td data-label="Price">$15,000</td>
+        <td data-label="Seats">40</td>
+        <td data-label="Add&apos;l seats">$400/seat</td>
+        <td data-label="Peer Review Webinar">Yes</td>
+        <td data-label="Additional Webinars">3</td>
+        <td data-label="Community Access">Yes</td>
+        <td data-label="Curriculum Advisory">Yes</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+*Retail price: $500/seat. Partner pricing locks in your discount for future
+cohorts. Additional seats are available at $400/seat at all tiers.*
+
+### Available webinar topics
+
+All partners have access to our peer review and open source community webinar. Higher tiers include additional webinars drawn from our growing library of topics, including documentation, Gen AI and Python packaging, and package maintenance. Topics are confirmed each cohort cycle as new content is released.
+
+### How it works
+
+* Course runs one to two times per year as a two week asynchronous cohort
+* Webinars run quarterly and are available to all eligible partners
+* Community access is ongoing via the pyOpenSci forum
+* Learners earn a LinkedIn badge upon completion
 
 </div>
 </div>
