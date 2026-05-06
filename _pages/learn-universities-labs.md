@@ -156,7 +156,6 @@ research labs where they are today.
         <th scope="col">Tier</th>
         <th scope="col">Price</th>
         <th scope="col">Seats</th>
-        <th scope="col">Per seat</th>
         <th scope="col">Add&apos;l seats</th>
         <th scope="col">Peer Review Webinar</th>
         <th scope="col">Additional Webinars</th>
@@ -169,7 +168,6 @@ research labs where they are today.
         <td data-label="Tier">Early Stage</td>
         <td data-label="Price">$2,500</td>
         <td data-label="Seats">5</td>
-        <td data-label="Per seat">$500</td>
         <td data-label="Add&apos;l seats">$400/seat</td>
         <td data-label="Peer Review Webinar">Yes</td>
         <td data-label="Additional Webinars">None</td>
@@ -180,7 +178,6 @@ research labs where they are today.
         <td data-label="Tier">Growing Community</td>
         <td data-label="Price">$5,000</td>
         <td data-label="Seats">12</td>
-        <td data-label="Per seat">$417</td>
         <td data-label="Add&apos;l seats">$400/seat</td>
         <td data-label="Peer Review Webinar">Yes</td>
         <td data-label="Additional Webinars">None</td>
@@ -191,7 +188,6 @@ research labs where they are today.
         <td data-label="Tier">Impact Ready</td>
         <td data-label="Price">$8,000</td>
         <td data-label="Seats">20</td>
-        <td data-label="Per seat">$400</td>
         <td data-label="Add&apos;l seats">$400/seat</td>
         <td data-label="Peer Review Webinar">Yes</td>
         <td data-label="Additional Webinars">1</td>
@@ -202,7 +198,6 @@ research labs where they are today.
         <td data-label="Tier">Momentum Driver</td>
         <td data-label="Price">$10,000</td>
         <td data-label="Seats">26</td>
-        <td data-label="Per seat">$385</td>
         <td data-label="Add&apos;l seats">$400/seat</td>
         <td data-label="Peer Review Webinar">Yes</td>
         <td data-label="Additional Webinars">2</td>
@@ -213,7 +208,6 @@ research labs where they are today.
         <td data-label="Tier">Ecosystem Catalyst</td>
         <td data-label="Price">$15,000</td>
         <td data-label="Seats">40</td>
-        <td data-label="Per seat">$375</td>
         <td data-label="Add&apos;l seats">$400/seat</td>
         <td data-label="Peer Review Webinar">Yes</td>
         <td data-label="Additional Webinars">3</td>
@@ -229,12 +223,7 @@ cohorts. Additional seats are available at $400/seat at all tiers.*
 
 ### Available webinar topics
 
-Partners at Impact Ready and above choose from:
-
-* Peer review and getting involved in open source (included at all tiers)
-* Documentation best practices
-* Gen AI and Python packaging
-* Package maintenance
+All partners have access to our peer review and open source community webinar. Higher tiers include additional webinars drawn from our growing library of topics, including documentation, Gen AI and Python packaging, and package maintenance. Topics are confirmed each cohort cycle as new content is released.
 
 ### How it works
 
