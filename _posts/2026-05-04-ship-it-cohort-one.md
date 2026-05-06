@@ -54,7 +54,7 @@ It was incredible to see that ~30 people published a Python package, many for th
 
 Ship It was designed to be hands-on from day one — and that showed in the outcomes. One participant, a structural biologist,was able to clean up a package they had been working on and share it at her departmental retreat. She shared her story with us:
 
-{% include pyos-blockquote.html quote="This week I presented my Python package 'PDBCleanV2' at the Structural Biology Departmental Retreat. It was well received by attendees and, overall, a great experience. I wanted to thank you because pyOpenSci was a great influence in getting my package in shape." class="highlight" %}
+{% include pyos-blockquote.html quote="This week I presented my Python package 'PDBCleanV2' at the Structural Biology Departmental Retreat. It was well received by attendees and, overall, a great experience. I wanted to thank you because pyOpenSci was a great influence in getting my package in shape." author="Fatima Pardo, Structural Biologist" class="highlight" %}
 
 That's the goal. Real code, real learning, real impact.
 
@@ -114,12 +114,12 @@ For pyOpenSci, the async cohort model also supports our sustainability goals. Ru
 
 ## Bringing Ship It to your institution
 
-If you're running an OSPO, a research computing program, or any initiative that supports researchers who write code, Ship It was built with you in mind. The course gives your community direct access to modern Python packaging practices, responsible AI frameworks, and — crucially — real connections to the open source ecosystem. That's hard to build in-house and even harder to replicate.
+If you're running an OSPO, a research computing program, or any initiative that supports academics who write and share code, ShipIt was built with you in mind. The course gives your community direct access to modern Python packaging practices, responsible AI frameworks, and — crucially — real connections to the people building the tools within the open source ecosystem.
 
-We're actively exploring partnerships with universities and research institutions for future cohorts. Whether that means bringing a cohort to your community, co-sponsoring a session, or exploring a pyOpenSci membership, we'd love to talk. Reach out at [training@pyopensci.org](mailto:training@pyopensci.org).
+[Click here to learn more about our partnership program.]({{ site.baseurl }}/learn-universities-labs.html). We'd love to talk with you about how we can support your community.
 
 ## What's next
 
 The first cohort proved the model works. Researchers published packages, made connections across institutions, and left with skills and confidence they didn't have before. We're building on that for fall 2026.
 
-Keep an eye on our [events page](https://www.pyopensci.org/events.html) for cohort announcements. And if you want to support this work in the meantime, there are a few ways to get involved:
+Keep an eye on our [events page](https://www.pyopensci.org/events.html) for cohort announcements.
