@@ -146,91 +146,10 @@ research labs where they are today.
   </table>
 </div>
 
-### Partnership pricing: year 1 founding member rates
+### Beta Partnership packages
 
-<div class="table-wrap partnership-table-wrap">
-  <table class="partnership-table partnership-table--pricing">
-    <caption class="sr-only">Year 1 founding member partnership pricing</caption>
-    <thead>
-      <tr>
-        <th scope="col">Tier</th>
-        <th scope="col">Price</th>
-        <th scope="col">Seats</th>
-        <th scope="col">Add&apos;l seats</th>
-        <th scope="col">Peer Review Webinar</th>
-        <th scope="col">Additional Webinars</th>
-        <th scope="col">Community Access</th>
-        <th scope="col">Curriculum Advisory</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td data-label="Tier">Early Stage</td>
-        <td data-label="Price">$2,500</td>
-        <td data-label="Seats">5</td>
-        <td data-label="Add&apos;l seats">$400/seat</td>
-        <td data-label="Peer Review Webinar">Yes</td>
-        <td data-label="Additional Webinars">None</td>
-        <td data-label="Community Access">Yes</td>
-        <td data-label="Curriculum Advisory">None</td>
-      </tr>
-      <tr>
-        <td data-label="Tier">Growing Community</td>
-        <td data-label="Price">$5,000</td>
-        <td data-label="Seats">12</td>
-        <td data-label="Add&apos;l seats">$400/seat</td>
-        <td data-label="Peer Review Webinar">Yes</td>
-        <td data-label="Additional Webinars">None</td>
-        <td data-label="Community Access">Yes</td>
-        <td data-label="Curriculum Advisory">None</td>
-      </tr>
-      <tr>
-        <td data-label="Tier">Impact Ready</td>
-        <td data-label="Price">$8,000</td>
-        <td data-label="Seats">20</td>
-        <td data-label="Add&apos;l seats">$400/seat</td>
-        <td data-label="Peer Review Webinar">Yes</td>
-        <td data-label="Additional Webinars">1</td>
-        <td data-label="Community Access">Yes</td>
-        <td data-label="Curriculum Advisory">None</td>
-      </tr>
-      <tr>
-        <td data-label="Tier">Momentum Driver</td>
-        <td data-label="Price">$10,000</td>
-        <td data-label="Seats">26</td>
-        <td data-label="Add&apos;l seats">$400/seat</td>
-        <td data-label="Peer Review Webinar">Yes</td>
-        <td data-label="Additional Webinars">2</td>
-        <td data-label="Community Access">Yes</td>
-        <td data-label="Curriculum Advisory">None</td>
-      </tr>
-      <tr>
-        <td data-label="Tier">Ecosystem Catalyst</td>
-        <td data-label="Price">$15,000</td>
-        <td data-label="Seats">40</td>
-        <td data-label="Add&apos;l seats">$400/seat</td>
-        <td data-label="Peer Review Webinar">Yes</td>
-        <td data-label="Additional Webinars">3</td>
-        <td data-label="Community Access">Yes</td>
-        <td data-label="Curriculum Advisory">Yes</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-
-*Retail price: $500/seat. Partner pricing locks in your discount for future
-cohorts. Additional seats are available at $400/seat at all tiers.*
-
-### Available webinar topics
-
-All partners have access to our peer review and open source community webinar. Higher tiers include additional webinars drawn from our growing library of topics, including documentation, Gen AI and Python packaging, and package maintenance. Topics are confirmed each cohort cycle as new content is released.
-
-### How it works
-
-* Course runs one to two times per year as a two week asynchronous cohort
-* Webinars run quarterly and are available to all eligible partners
-* Community access is ongoing via the pyOpenSci forum
-* Learners earn a LinkedIn badge upon completion
+We are currently developing a partnership package that meets the needs of University Open Source Program Offices. This section will
+be updated soon.
 
 </div>
 </div>
