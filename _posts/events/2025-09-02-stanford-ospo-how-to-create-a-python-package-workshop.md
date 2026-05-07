@@ -7,6 +7,7 @@ event:
   start_date: "2025-10-02"
   location: Online
   cost: This workshop is paid through Stanford's membership with pyOpenSci.
+  event_type: training
 permalink: /events/pyopensci-stanford-create-python-package-workshop.html
 header:
   overlay_image: images/headers/pyopensci-sustainability.png

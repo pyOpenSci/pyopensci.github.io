@@ -6,6 +6,7 @@ author: "pyopensci"
 event:
   start_date: "2025-07-08"
   location: Online
+  event_type: training
 permalink: /events/pyopensci-scipy25-create-python-package-workshop.html
 header:
   overlay_image: images/headers/pyopensci-sustainability.png

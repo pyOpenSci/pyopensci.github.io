@@ -7,6 +7,7 @@ event:
   start_date: 2026-05-17
   end_date: 2026-05-17
   location: "Long Beach, CA"
+  event_type: sprint
 permalink: /events/2026-pycon-us-development-sprint.html
 header:
   overlay_image: images/headers/pyopensci-sprints-2025.png

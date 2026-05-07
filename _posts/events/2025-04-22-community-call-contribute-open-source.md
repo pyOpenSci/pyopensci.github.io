@@ -6,6 +6,7 @@ author: "pyopensci"
 event:
   start_date: "2025-05-05"
   location: Online
+  event_type: community
 permalink: /events/pyopensci-community-call-may-2025.html
 header:
   overlay_image: images/headers/pyopensci-sustainability.png

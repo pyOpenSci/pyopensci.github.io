@@ -7,6 +7,7 @@ event:
   start_date: "2024-10-28"
   end_date: "2024-11-01"
   location: Online using Spatial Chat
+  event_type: community
 permalink: /events/pyopensci-2024-fall-festival.html
 header:
   overlay_image: images/headers/pyopensci-sustainability.png

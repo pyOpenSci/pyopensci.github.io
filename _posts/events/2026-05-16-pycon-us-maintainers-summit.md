@@ -7,6 +7,7 @@ event:
   start_date: 2026-05-16
   end_date: 2026-05-16
   location: "Long Beach, CA"
+  event_type: community
 permalink: /events/2026-pycon-us-maintainers-summit.html
 header:
   overlay_image: images/headers/pyopensci-sprints-2025.png
