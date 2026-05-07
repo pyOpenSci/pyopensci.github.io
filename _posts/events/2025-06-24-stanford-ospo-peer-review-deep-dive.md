@@ -6,6 +6,7 @@ author: "pyopensci"
 event:
   start_date: "2025-08-07"
   location: Online
+  event_type: talk
 permalink: /events/pyopensci-stanford-ospo-peer-review.html
 header:
   overlay_image: images/headers/pyopensci-sustainability.png

@@ -6,6 +6,7 @@ event:
   start_date: 2024-04-29
   cost: 10$
   location: Online
+  event_type: training
 permalink: /events/april-2024-create-python-package-pyopensci-online-workshop.html
 header:
   overlay_image: images/headers/pyopensci-sustainability.png

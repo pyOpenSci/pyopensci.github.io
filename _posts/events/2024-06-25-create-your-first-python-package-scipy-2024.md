@@ -12,6 +12,7 @@ event:
   start_date: 2024-07-13
   cost: Registration through the scipy meeting
   location: Online
+  event_type: training
 classes: wide
 type: "event"
 comments: true
