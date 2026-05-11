@@ -824,6 +824,7 @@
     vertical-align: top;
     line-height: 1.35;
     font-size: $type-size-card-meta;
+    color: $dark-gray;
   }
 
   th {
@@ -844,6 +845,11 @@
 
 .partnership-table--tiers {
   min-width: 42rem;
+}
+
+.partnership-check {
+  color: $pyos-teal;
+  font-weight: $bold-weight;
 }
 
 @media (max-width: $large) {
@@ -903,17 +909,17 @@
     }
 
     td:first-child {
-      background-color: $pyos-brand-dark-purple;
-      color: $pyos-white;
+      background-color: rgba($pyos-brand-dark-purple, 0.08);
+      color: $pyos-brand-dark-purple;
       margin: 0;
       padding: 0.65rem 0.75rem;
-      border-bottom: 1px solid rgba($pyos-white, 0.22);
+      border-bottom: 1px solid rgba($pyos-brand-dark-purple, 0.18);
       border-radius: 0.5rem 0.5rem 0 0;
       font-size: $type-size-card-title;
       font-weight: $semibold-weight;
 
       &::before {
-        color: rgba($pyos-white, 0.92);
+        color: $pyos-brand-dark-purple;
       }
     }
 
@@ -921,6 +927,152 @@
       border-bottom: 0;
       padding-bottom: 0.55rem;
     }
+  }
+}
+
+/* University partnerships: tier cards */
+.partnership-cards {
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: 1fr;
+  margin: 0 0 1.5rem;
+
+  @media (min-width: $small) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  @media (min-width: $medium) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.partnership-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  padding: 1.1rem 1rem;
+  border: 1px solid rgba($pyos-brand-dark-purple, 0.18);
+  border-radius: $border-radius;
+  background-color: $pyos-white;
+  box-shadow: 0 0.2rem 0.65rem rgba($pyos-brand-dark-purple, 0.09);
+  transition: transform 200ms ease, box-shadow 200ms ease;
+
+  &:hover,
+  &:focus-within {
+    transform: translateY(-0.125rem);
+    box-shadow: 0 0.38rem 0.85rem rgba($pyos-brand-dark-purple, 0.12);
+  }
+
+  &__stage {
+    display: inline-flex;
+    align-self: flex-start;
+    margin: 0 0 0.65rem;
+    padding: 0.2rem 0.6rem;
+    border-radius: 9999px;
+    background-color: $pyos-lightpurple;
+    color: $pyos-brand-dark-purple;
+    font-size: $type-size-card-label;
+    font-weight: $semibold-weight;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    line-height: $line-height-card-meta;
+  }
+
+  &__title {
+    margin: 0.6rem 0 1.2rem 0;
+    color: $pyos-brand-dark-purple;
+    font-size: $type-size-card-title-xl;
+    line-height: 1.25;
+    border-left: 0;
+    padding-left: 0;
+    font-weight: $weight-5;
+    text-align: center;
+
+    &::before,
+    &::after {
+      content: none;
+    }
+  }
+
+  p.partnership-card__price {
+    margin: 0 0 0.85rem;
+    color: $pyos-brand-dark-purple;
+    font-size: $type-size-2;
+    font-weight: $bold-weight;
+    line-height: 1.2;
+  }
+
+  a.partnership-card__cta {
+    margin: 0 0 0.85rem;
+    text-decoration: none;
+  }
+
+  p.partnership-card__lede {
+    margin: 0 0 0.85rem;
+    color: rgba($pyos-brand-dark-purple, 0.9);
+    font-size: $type-size-card-body;
+    line-height: $line-height-card-body;
+    border-left: 0;
+    padding-left: 0;
+
+    &::before,
+    &::after {
+      content: none;
+    }
+  }
+
+  &__features {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      position: relative;
+      margin: 0 0 0.55rem;
+      padding-left: 1.3rem;
+      color: rgba($pyos-brand-dark-purple, 0.95);
+      font-size: $type-size-card-meta;
+      line-height: $line-height-card-body;
+
+      &::before {
+        content: "✓";
+        position: absolute;
+        left: 0;
+        top: 0.02rem;
+        color: $pyos-teal;
+        font-weight: $semibold-weight;
+      }
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  &__divider {
+    width: 100%;
+    border: 0;
+    border-top: 1px solid rgba($pyos-softpurple, 0.95);
+    margin: 1rem 0 0.7rem;
+  }
+
+  p.partnership-card__subheader {
+    margin: .6rem 0 1.2rem 0;
+    color: mix($pyos-brand-dark-purple, $pyos-softpurple, 45%);
+    font-size: $type-size-card-label;
+    font-weight: $semibold-weight;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    line-height: $line-height-card-meta;
+  }
+}
+
+.partnership-card--featured {
+  border-color: rgba($pyos-darkpurple, 0.45);
+  box-shadow: 0 0.32rem 0.8rem rgba($pyos-brand-dark-purple, 0.13);
+
+  .partnership-card__stage {
+    background-color: rgba($pyos-teal, 0.28);
   }
 }
 
