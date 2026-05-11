@@ -16,8 +16,8 @@ header:
 
 <figure class="full">
   <picture>
-  <source srcset="/images/people/scipy-sprint-2026.webp" type="image/webp">
-  <img src="/images/people/scipy-sprint-2026.png" alt="A group of contributors sitting at a table at a pyOpenSci sprint working on their laptops and talking to each other.">
+  <source srcset="{{ site.baseurl }}/images/people/scipy-sprint-2026.webp" type="image/webp">
+  <img src="{{ site.baseurl }}/images/people/scipy-sprint-2026.png" alt="A group of contributors sitting at a table at a pyOpenSci sprint working on their laptops and talking to each other.">
   </picture>
 </figure>
 
@@ -97,18 +97,15 @@ recommend getting involved with pyOpenSci.." author="Zach Chandler" event="Direc
 
 Supporting you in building a thriving Open Source community at your institution.
 
-
-### Partnership tiers
-
-Guide your researchers from a working script to a published PyPI package using industry-standard tools like Hatch, pytest, and Sphinx.
-
 <div class="partnership-cards">
   <article class="partnership-card">
-    <h4 class="partnership-card__title">Supporting Partner</h4>
-    <p class="partnership-card__price">$2,500</p>
+    <div class="partnership-card__body">
+    <div class="partnership-card__main">
+    <h4 class="partnership-card__title">AcceleratorEssentials</h4>
     <p class="partnership-card__lede">
       Get your researchers trained in open source workflows and Python packaging with expert-backed course materials and train-the-trainer materials.
     </p>
+    <p class="partnership-card__lede">Guide your researchers from a working script to a published PyPI package using industry-standard tools like Hatch, pytest, and Sphinx.</p>
     <hr class="partnership-card__divider">
     <p class="partnership-card__subheader">What's Included</p>
 
@@ -130,15 +127,20 @@ Guide your researchers from a working script to a published PyPI package using i
       <li>Course Certificate upon completion</li>
       <li>GitHub badge upon completion</li>
     </ul>
+    </div>
+    <p class="partnership-card__price">$2,500</p>
+    </div>
+    <a href="mailto:media@pyopensci.org?subject=pyOpenSci%20university%20membership%20inquiry"
+       class="partnership-card__cta btn btn--primary">Contact us</a>
   </article>
 
   <article class="partnership-card partnership-card--featured">
-    <h4 class="partnership-card__title">Community Partner</h4>
+    <div class="partnership-card__body">
+    <h4 class="partnership-card__title">Accelerator Core</h4>
     <p class="partnership-card__lede">
       Everything in Supporting Partner, plus cohort connection for your learners through our online course community, open webinars, and access to pyOpenSci's global network of scientists and open source maintainers.
     </p>
-    <a href="mailto:media@pyopensci.org?subject=pyOpenSci%20university%20membership%20inquiry"
-       class="partnership-card__cta btn btn--primary">Contact us</a>
+    <p class="partnership-card__lede">Guide your researchers from a working script to a published PyPI package using industry-standard tools like Hatch, pytest, and Sphinx.</p>
     <hr class="partnership-card__divider">
     <p class="partnership-card__subheader">What's Included</p>
 
@@ -161,18 +163,20 @@ Guide your researchers from a working script to a published PyPI package using i
       <li>Course Certificate upon completion</li>
       <li>GitHub badge upon completion</li>
     </ul>
+    </div>
+    <a href="mailto:media@pyopensci.org?subject=pyOpenSci%20university%20membership%20inquiry"
+       class="partnership-card__cta btn btn--primary">Contact us</a>
   </article>
 
   <article class="partnership-card">
-    <h4 class="partnership-card__title">Strategic Partner</h4>
+    <div class="partnership-card__body">
+    <h4 class="partnership-card__title">Accelerator Pro</h4>
     <p class="partnership-card__lede">
      Everything in Community Partner, plus a pyOpenSci curated course learning experience with hands-on expert support during the course, gamified course activities, and curriculum advisory. Course will be branded to include your institution's name.
     </p>
-    <a href="mailto:media@pyopensci.org?subject=pyOpenSci%20university%20membership%20inquiry"
-       class="partnership-card__cta btn btn--primary">Contact us</a>
+    <p class="partnership-card__lede">Guide your researchers from a working script to a published PyPI package using industry-standard tools like Hatch, pytest, and Sphinx.</p>
     <hr class="partnership-card__divider">
     <p class="partnership-card__subheader">What's Included</p>
-
 
     <ul class="partnership-card__features">
       <li>10-day On-Demand Asynchronous Course Access: Ship It: Python Packaging in the GenAI Era</li>
@@ -204,123 +208,35 @@ Guide your researchers from a working script to a published PyPI package using i
       <li>Visibility across pyOpenSci community channels</li>
       <li>Long-term partnership planning and impact tracking</li>
     </ul>
+    </div>
+    <a href="mailto:media@pyopensci.org?subject=pyOpenSci%20university%20membership%20inquiry"
+       class="partnership-card__cta btn btn--primary">Contact us</a>
   </article>
 </div>
 
-### Partnership comparison
+*Note: Topics are confirmed each cohort cycle as new content is released.*
 
-<div class="partnership-table-wrap">
-  <table class="partnership-table partnership-table--tiers">
-    <thead>
-      <tr>
-        <th scope="col">Features</th>
-        <th scope="col">Supporting Partner</th>
-        <th scope="col">Community Partner</th>
-        <th scope="col">Strategic Partner</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td data-label="Feature">Duration</td>
-        <td data-label="Supporting Partner">6 months</td>
-        <td data-label="Community Partner">1 year</td>
-        <td data-label="Strategic Partner">1 year</td>
-      </tr>
-      <tr>
-        <td data-label="Feature">Course seats</td>
-        <td data-label="Supporting Partner">~150</td>
-        <td data-label="Community Partner">~500</td>
-        <td data-label="Strategic Partner">Unlimited</td>
-      </tr>
-      <tr>
-        <td data-label="Feature">10-day on-demand course</td>
-        <td data-label="Supporting Partner"><span class="partnership-check" aria-label="Included">✓</span></td>
-        <td data-label="Community Partner"><span class="partnership-check" aria-label="Included">✓</span></td>
-        <td data-label="Strategic Partner"><span class="partnership-check" aria-label="Included">✓</span></td>
-      </tr>
-      <tr>
-        <td data-label="Feature">Trainer materials</td>
-        <td data-label="Supporting Partner"><span class="partnership-check" aria-label="Included">✓</span></td>
-        <td data-label="Community Partner"><span class="partnership-check" aria-label="Included">✓</span></td>
-        <td data-label="Strategic Partner"><span class="partnership-check" aria-label="Included">✓</span></td>
-      </tr>
-      <tr>
-        <td data-label="Feature">27 videos across 10 modules</td>
-        <td data-label="Supporting Partner"><span class="partnership-check" aria-label="Included">✓</span></td>
-        <td data-label="Community Partner"><span class="partnership-check" aria-label="Included">✓</span></td>
-        <td data-label="Strategic Partner"><span class="partnership-check" aria-label="Included">✓</span></td>
-      </tr>
-      <tr>
-        <td data-label="Feature">Python expert insights and videos</td>
-        <td data-label="Supporting Partner"><span class="partnership-check" aria-label="Included">✓</span></td>
-        <td data-label="Community Partner"><span class="partnership-check" aria-label="Included">✓</span></td>
-        <td data-label="Strategic Partner"><span class="partnership-check" aria-label="Included">✓</span></td>
-      </tr>
-      <tr>
-        <td data-label="Feature">Gamified milestones</td>
-        <td data-label="Supporting Partner">-</td>
-        <td data-label="Community Partner">-</td>
-        <td data-label="Strategic Partner"><span class="partnership-check" aria-label="Included">✓</span></td>
-      </tr>
-      <tr>
-        <td data-label="Feature">LinkedIn badge upon completion</td>
-        <td data-label="Supporting Partner"><span class="partnership-check" aria-label="Included">✓</span></td>
-        <td data-label="Community Partner"><span class="partnership-check" aria-label="Included">✓</span></td>
-        <td data-label="Strategic Partner"><span class="partnership-check" aria-label="Included">✓</span></td>
-      </tr>
-      <tr>
-        <td data-label="Feature">Listed as Supporting Partner on pyOpenSci.org</td>
-        <td data-label="Supporting Partner"><span class="partnership-check" aria-label="Included">✓</span></td>
-        <td data-label="Community Partner"><span class="partnership-check" aria-label="Included">✓</span></td>
-        <td data-label="Strategic Partner"><span class="partnership-check" aria-label="Included">✓</span></td>
-      </tr>
-      <tr>
-        <td data-label="Feature">Peer review webinar</td>
-        <td data-label="Supporting Partner">1</td>
-        <td data-label="Community Partner">Quarterly</td>
-        <td data-label="Strategic Partner">Quarterly</td>
-      </tr>
-      <tr>
-        <td data-label="Feature">Cross-OSPO cohort connection</td>
-        <td data-label="Supporting Partner">-</td>
-        <td data-label="Community Partner"><span class="partnership-check" aria-label="Included">✓</span></td>
-        <td data-label="Strategic Partner"><span class="partnership-check" aria-label="Included">✓</span></td>
-      </tr>
-      <tr>
-        <td data-label="Feature">pyOpenSci community network access</td>
-        <td data-label="Supporting Partner">-</td>
-        <td data-label="Community Partner"><span class="partnership-check" aria-label="Included">✓</span></td>
-        <td data-label="Strategic Partner"><span class="partnership-check" aria-label="Included">✓</span></td>
-      </tr>
-      <tr>
-        <td data-label="Feature">Office hours + expert support</td>
-        <td data-label="Supporting Partner">-</td>
-        <td data-label="Community Partner">-</td>
-        <td data-label="Strategic Partner"><span class="partnership-check" aria-label="Included">✓</span></td>
-      </tr>
-      <tr>
-        <td data-label="Feature">Curriculum advisory</td>
-        <td data-label="Supporting Partner">-</td>
-        <td data-label="Community Partner">-</td>
-        <td data-label="Strategic Partner"><span class="partnership-check" aria-label="Included">✓</span></td>
-      </tr>
-      <tr>
-        <td data-label="Feature">Customized course branding</td>
-        <td data-label="Supporting Partner">-</td>
-        <td data-label="Community Partner">-</td>
-        <td data-label="Strategic Partner"><span class="partnership-check" aria-label="Included">✓</span></td>
-      </tr>
-      <tr>
-        <td data-label="Feature">Pricing</td>
-        <td data-label="Supporting Partner">$2,500</td>
-        <td data-label="Community Partner">Contact us</td>
-        <td data-label="Strategic Partner">Contact us</td>
-      </tr>
-    </tbody>
-  </table>
+### Complex, technical concepts made easy
+
+Researchers shouldn't have to struggle with sharing code and software on their own. Connect your students and researchers with a thriving, inclusive, and vibrant community of beginner-to-expert Pythonistas who support scientific open source. Open doors for your researchers to engage with other Python developers, troubleshoot challenges together, and gain ongoing support as they develop their scientific open source skills.
+
+</div>
 </div>
 
-*Note: Course topics are confirmed each cohort cycle as new content is released. Our current content is the 10 day ShipIt: Python Packaging in the GenAI Era course.
+<div class="pyos-section purple pyos-university-testimonials" markdown="1">
+<div class="content padding-wide" markdown="1">
+
+## Don't take our word for it: hear from previous course learners
+
+{% include pyos-testimonials-universities-labs.html %}
+
+*Our current content is the 10-day Ship It: Python Packaging in the GenAI Era course.*
+
+</div>
+</div>
+
+<div class="pyos-section" markdown="1">
+<div class="content padding-wide" markdown="1">
 
 ### Beta Partnership packages
 
