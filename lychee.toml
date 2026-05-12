@@ -47,6 +47,11 @@ accept = ["200..=403"]
 # Enable the checking of fragments in links.
 include_fragments = true
 
+# Only test links with the given schemes (e.g. https).
+# At the moment, we support http, https, file, and mailto.
+scheme = ["https", "file"]
+
+
 ############################# Exclusions ###########################
 
 # Don't check URLs that only appear inside <code>/<pre> blocks.
