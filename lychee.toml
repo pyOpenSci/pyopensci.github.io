@@ -44,9 +44,8 @@ user_agent = "Mozilla/5.0 (compatible; lychee-link-checker)"
 # auth-walled pages we still want to consider "reachable".
 accept = ["200..=403"]
 
-# Check #fragment anchors in addition to the URL.
-# Values: "full" | "basic" | "off"
-include_fragments = "full"
+# Enable the checking of fragments in links.
+include_fragments = true
 
 ############################# Exclusions ###########################
 
