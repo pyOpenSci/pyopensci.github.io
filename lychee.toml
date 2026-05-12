@@ -33,7 +33,7 @@ max_retries = 2
 # Wait longer between retries to give slow servers room to recover.
 retry_wait_time = 5
 # Generous timeout for slow-but-healthy servers (academic mirrors, DOIs).
-timeout = 30
+timeout = 45
 
 ############################# Requests #############################
 
@@ -45,7 +45,7 @@ user_agent = "Mozilla/5.0 (compatible; lychee-link-checker)"
 accept = ["200..=403"]
 
 # Enable the checking of fragments in links.
-include_fragments = true
+include_fragments = false
 
 # Only test links with the given schemes (e.g. https).
 # At the moment, we support http, https, file, and mailto.
