@@ -19,7 +19,7 @@ jobs:
           git branch
 
       - name: Setup Ruby
-        uses: ruby/setup-ruby@6ca151fd1bfcfd6fe0c4eb6837eb0584d0134a0c #v1.290.0
+        uses: ruby/setup-ruby@6aaa311d81eba98ae12eaffbcb63296ace0efcde # v1.307.0
         with:
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
 
@@ -28,22 +28,28 @@ jobs:
         env:
           JEKYLL_ENV: production
 
+      - name: Restore lychee cache
+        uses: actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae # v5.0.5
+        with:
+          path: .lycheecache
+          key: cache-lychee-${{ hashFiles('lychee.toml', '.lycheeignore') }}-${{ github.sha }}
+          restore-keys: |
+            cache-lychee-${{ hashFiles('lychee.toml', '.lycheeignore') }}-
+            cache-lychee-
+
       - name: Link Checker
         id: lychee
         uses: lycheeverse/lychee-action@8646ba30535128ac92d33dfc9133794bfdd9b411 #v2.8.0
         with:
           args: >
-            --no-progress
             --root-dir ${{ github.workspace }}/_site
-            --exclude 'zenodo\.org'
-            --accept '200..=403'
             _site
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
       - name: Create Issue From File
         if: env.lychee_exit_code != 0
-        uses: peter-evans/create-issue-from-file@v6
+        uses: peter-evans/create-issue-from-file@fca9117c27cdc29c6c4db3b86c48e4115a786710 # v6.0.0
         with:
           title: Link Checker Report
           content-filepath: ./lychee/out.md

@@ -1,0 +1,63 @@
+# Lychee link-checker config for pyopensci.org
+# Docs: https://lychee.cli.rs/
+#
+# Domain-level skips live in .lycheeignore.
+# CI may pass additional flags via .github/workflows/linkcheck.yml
+# (e.g. --root-dir $GITHUB_WORKSPACE/_site).
+
+############################# Display ##############################
+
+# Log verbosity: error | warn | info | debug | trace
+verbose = "info"
+
+# Report format.
+format = "detailed"
+
+# Suppress the interactive progress bar (CI-friendly).
+no_progress = true
+
+############################# Cache ################################
+
+# Cache responses between runs.
+cache = true
+max_cache_age = "1d"
+
+# Never cache server errors so transient 5xx don't stick.
+cache_exclude_status = "500.."
+
+############################# Runtime ##############################
+
+max_concurrency = 14
+max_redirects = 10
+max_retries = 2
+# Wait longer between retries to give slow servers room to recover.
+retry_wait_time = 5
+# Generous timeout for slow-but-healthy servers (academic mirrors, DOIs).
+timeout = 45
+
+############################# Requests #############################
+
+# Some sites block lychee's default UA. Use a generic browser-ish UA.
+user_agent = "Mozilla/5.0 (compatible; lychee-link-checker)"
+
+# Accept 200–403 as success. 401/403 are common on bot-protected or
+# auth-walled pages we still want to consider "reachable".
+accept = ["200..=403"]
+
+# Enable the checking of fragments in links.
+include_fragments = false
+
+# Only test links with the given schemes (e.g. https).
+# At the moment, we support http, https, file, and mailto.
+scheme = ["https", "file"]
+
+
+############################# Exclusions ###########################
+
+# Don't check URLs that only appear inside <code>/<pre> blocks.
+include_verbatim = false
+
+# Regex excludes. Plain-domain skips belong in .lycheeignore.
+exclude = [
+    'zenodo\.org',
+]
