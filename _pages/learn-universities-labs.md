@@ -16,8 +16,8 @@ header:
 
 <figure class="full">
   <picture>
-  <source srcset="/images/people/scipy-sprint-2026.webp" type="image/webp">
-  <img src="/images/people/scipy-sprint-2026.png" alt="A group of contributors sitting at a table at a pyOpenSci sprint working on their laptops and talking to each other.">
+  <source srcset="{{ site.baseurl }}/images/people/scipy-sprint-2026.webp" type="image/webp">
+  <img src="{{ site.baseurl }}/images/people/scipy-sprint-2026.png" alt="A group of contributors sitting at a table at a pyOpenSci sprint working on their laptops and talking to each other.">
   </picture>
 </figure>
 
@@ -95,61 +95,150 @@ recommend getting involved with pyOpenSci.." author="Zach Chandler" event="Direc
 
 ## Research software accelerator programs
 
-We will support you in building a thriving open source community at your
-institution. Our accelerator programs are designed to meet universities and
-research labs where they are today.
+Supporting you in building a thriving Open Source community at your institution.
+Guide your researchers from a working script to a published Python package using industry-standard tools like Hatch, pytest, uv, and Sphinx.
 
-### Partnership tiers
+<div class="partnership-cards">
+  <article class="partnership-card">
+    <div class="partnership-card__body">
+    <div class="partnership-card__main">
+    <h4 class="partnership-card__title">AcceleratorESSENTIALS</h4>
+    <p class="partnership-card__lede">
+      Get your researchers trained in open source workflows and Python packaging with expert-backed course materials and train-the-trainer materials.
+    </p>
+    <hr class="partnership-card__divider">
+    <p class="partnership-card__subheader">What's Included</p>
 
-<div class="table-wrap partnership-table-wrap">
-  <table class="partnership-table partnership-table--tiers">
-    <caption class="sr-only">Partnership tiers by stage and best fit</caption>
-    <thead>
-      <tr>
-        <th scope="col">Tier</th>
-        <th scope="col">Stage</th>
-        <th scope="col">Perfect for</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td data-label="Tier">Early Stage</td>
-        <td data-label="Stage">Exploring</td>
-        <td data-label="Perfect for">Universities just beginning to build open
-        source programs</td>
-      </tr>
-      <tr>
-        <td data-label="Tier">Growing Community</td>
-        <td data-label="Stage">Building</td>
-        <td data-label="Perfect for">Research communities seeking foundational
-        training and community connection</td>
-      </tr>
-      <tr>
-        <td data-label="Tier">Impact Ready</td>
-        <td data-label="Stage">Expanding</td>
-        <td data-label="Perfect for">Programs ready to add structured webinars
-        and deeper community engagement</td>
-      </tr>
-      <tr>
-        <td data-label="Tier">Momentum Driver</td>
-        <td data-label="Stage">Scaling</td>
-        <td data-label="Perfect for">Institutions with active OSPOs ready to
-        grow their researcher cohorts</td>
-      </tr>
-      <tr>
-        <td data-label="Tier">Ecosystem Catalyst</td>
-        <td data-label="Stage">Established</td>
-        <td data-label="Perfect for">Universities positioning their researchers
-        as open source leaders</td>
-      </tr>
-    </tbody>
-  </table>
+    <ul class="partnership-card__features">
+      <li>10-day On-Demand Asynchronous Course Access: Ship It: Python Packaging in the GenAI Era</li>
+      <li>6 Months On Demand Course Access</li>
+      <li>~150 course seats</li>
+      <li>Train the trainer materials</li>
+      <li>Foundational workflows for sustainable software</li>
+      <li>1 Peer Review Webinar</li>
+      <li>Content sponsored by Open Source at Stanford University</li>
+    </ul>
+    <hr class="partnership-card__divider">
+    <p class="partnership-card__subheader">Course details</p>
+    <ul class="partnership-card__features">
+      <li>Asynchronous training access for research teams</li>
+      <li>27 videos across 10 modules</li>
+      <li>Python expert insights and videos</li>
+      <li>Course Certificate upon completion</li>
+      <li>GitHub badge upon completion</li>
+    </ul>
+    </div>
+    <p class="partnership-card__price">$2,500</p>
+    </div>
+    <a href="mailto:media@pyopensci.org?subject=pyOpenSci%20university%20membership%20inquiry"
+       class="partnership-card__cta btn btn--primary">Contact us</a>
+  </article>
+
+  <article class="partnership-card partnership-card--featured">
+    <div class="partnership-card__body">
+    <h4 class="partnership-card__title">AcceleratorCORE</h4>
+    <p class="partnership-card__lede">
+      Everything in Supporting Partner, plus cohort connection for your learners through our online course community, open webinars, and access to pyOpenSci's global network of scientists and open source maintainers.
+    </p>
+    <hr class="partnership-card__divider">
+    <p class="partnership-card__subheader">What's Included</p>
+
+    <ul class="partnership-card__features">
+      <li>10-day On-Demand Asynchronous Course Access: Ship It: Python Packaging in the GenAI Era</li>
+      <li>1 Year On Demand Course Access</li>
+      <li>~500 course seats</li>
+      <li>Train the trainer materials</li>
+      <li>Foundational workflows for sustainable software</li>
+      <li>1 Peer Review Webinar</li>
+      <li>2-3 Open Source Skills Webinar</li>
+      <li>Content sponsored by Open Source at Stanford University</li>
+    </ul>
+    <hr class="partnership-card__divider">
+    <p class="partnership-card__subheader">Course details</p>
+    <ul class="partnership-card__features">
+      <li>Asynchronous training access for research teams</li>
+      <li>27 videos across 10 modules</li>
+      <li>Python expert insights and videos</li>
+      <li>Course Certificate upon completion</li>
+      <li>GitHub badge upon completion</li>
+    </ul>
+    </div>
+    <a href="mailto:media@pyopensci.org?subject=pyOpenSci%20university%20membership%20inquiry"
+       class="partnership-card__cta btn btn--primary">Contact us</a>
+  </article>
+
+  <article class="partnership-card">
+    <div class="partnership-card__body">
+    <h4 class="partnership-card__title"><i class="fa-solid fa-star" style="color: rgb(249, 251, 187);"></i> AcceleratorPRO</h4>
+    <p class="partnership-card__lede">
+     Everything in Community Partner, plus a pyOpenSci curated course learning experience with hands-on expert support during the course, gamified course activities, and curriculum advisory. Course will be branded to include your institution's name.
+    </p>
+    <hr class="partnership-card__divider">
+    <p class="partnership-card__subheader">What's Included</p>
+
+    <ul class="partnership-card__features">
+      <li>10-day On-Demand Asynchronous Course Access: Ship It: Python Packaging in the GenAI Era</li>
+      <li>1 Year On Demand Course Access</li>
+      <li>2 expert-supported course cohorts</li>
+      <li>Gamified activities facilitated by open source experts</li>
+      <li>Unlimited course seats</li>
+      <li>Train the trainer materials</li>
+      <li>Foundational workflows for sustainable software</li>
+      <li>2 Peer Review Webinars</li>
+      <li>Expert-lead packaging and open source webinars (up to 3)</li>
+      <li>Community access</li>
+      <li>Curriculum Advisory</li>
+      <li>Customized course branding for your institution</li>
+      <li>Content sponsored by Open Source at Stanford University</li>
+    </ul>
+    <hr class="partnership-card__divider">
+    <p class="partnership-card__subheader">Course details</p>
+    <ul class="partnership-card__features">
+      <li>Asynchronous training access for research teams</li>
+      <li>27 videos across 10 modules</li>
+      <li>Python expert insights and videos</li>
+      <li>Course Certificate upon completion</li>
+      <li>GitHub badge upon completion</li>
+    </ul>
+    <ul class="partnership-card__features">
+      <li>Leadership programming for research software champions</li>
+      <li>Institution-wide strategy sessions and advisory support</li>
+      <li>Visibility across pyOpenSci community channels</li>
+      <li>Long-term partnership planning and impact tracking</li>
+    </ul>
+    </div>
+    <a href="mailto:media@pyopensci.org?subject=pyOpenSci%20university%20membership%20inquiry"
+       class="partnership-card__cta btn btn--primary">Contact us</a>
+  </article>
 </div>
+
+*Note: Topics are confirmed each cohort cycle as new content is released.*
+
+### Complex, technical concepts made easy
+
+Researchers shouldn't have to struggle with sharing code and software on their own. Connect your students and researchers with a thriving, inclusive, and vibrant community of beginner-to-expert Pythonistas who support scientific open source. Open doors for your researchers to engage with other Python developers, troubleshoot challenges together, and gain ongoing support as they develop their scientific open source skills.
+
+</div>
+</div>
+
+<div class="pyos-section purple pyos-university-testimonials" markdown="1">
+<div class="content padding-wide" markdown="1">
+
+## Don't take our word for it: hear from previous course learners
+
+{% include pyos-testimonials-universities-labs.html %}
+
+*Our current content is the 10-day Ship It: Python Packaging in the GenAI Era course.*
+
+</div>
+</div>
+
+<div class="pyos-section" markdown="1">
+<div class="content padding-wide" markdown="1">
 
 ### Beta Partnership packages
 
-We are currently developing a partnership package that meets the needs of University Open Source Program Offices. This section will
-be updated soon.
+We are currently piloting our partnership program to find the best combination of resources and events that best support our University partners.
 
 </div>
 </div>
