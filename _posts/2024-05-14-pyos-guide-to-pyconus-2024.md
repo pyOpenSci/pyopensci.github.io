@@ -41,7 +41,7 @@ Henry will be guiding attendees through how easy it is now to set up a binary ex
 ### <i class="fa-solid fa-comment"></i> 2:45--3:15 PM: Hatch: The only tool you need
 *Ballroom A*\
 **[Ofek Lev](https://github.com/ofek)**\
-It's no secret that we're big fans of Hatch---we even [taught a Python Packaging Workshop](https://www.pyopensci.org/blog/pyos-education-announcement.html#enroll-in-pyopenscis-upcoming-workshop-from-python-code-to-module) using [Hatch](https://hatch.pypa.io/latest/)! With an ever-growing set of tools used in Python packaging, Ofek will be presenting on how Hatch can be used as a unifying tool for Python packaging.
+It's no secret that we're big fans of Hatch---we even [taught a Python Packaging Workshop](https://www.pyopensci.org/blog/pyos-education-announcement.html) using [Hatch](https://hatch.pypa.io/latest/)! With an ever-growing set of tools used in Python packaging, Ofek will be presenting on how Hatch can be used as a unifying tool for Python packaging.
 
 ## <i class="fa-regular fa-calendar"></i> Saturday, May 18th
 ### <i class="fa-solid fa-people-group"></i> 9:00--9:25 AM: Diversity & Inclusion Panel
