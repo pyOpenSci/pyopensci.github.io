@@ -96,16 +96,16 @@ recommend getting involved with pyOpenSci.." author="Zach Chandler" event="Direc
 ## Research software accelerator programs
 
 Supporting you in building a thriving Open Source community at your institution.
+Guide your researchers from a working script to a published Python package using industry-standard tools like Hatch, pytest, uv, and Sphinx.
 
 <div class="partnership-cards">
   <article class="partnership-card">
     <div class="partnership-card__body">
     <div class="partnership-card__main">
-    <h4 class="partnership-card__title">AcceleratorEssentials</h4>
+    <h4 class="partnership-card__title">AcceleratorESSENTIALS</h4>
     <p class="partnership-card__lede">
       Get your researchers trained in open source workflows and Python packaging with expert-backed course materials and train-the-trainer materials.
     </p>
-    <p class="partnership-card__lede">Guide your researchers from a working script to a published PyPI package using industry-standard tools like Hatch, pytest, and Sphinx.</p>
     <hr class="partnership-card__divider">
     <p class="partnership-card__subheader">What's Included</p>
 
@@ -136,11 +136,10 @@ Supporting you in building a thriving Open Source community at your institution.
 
   <article class="partnership-card partnership-card--featured">
     <div class="partnership-card__body">
-    <h4 class="partnership-card__title">Accelerator Core</h4>
+    <h4 class="partnership-card__title">AcceleratorCORE</h4>
     <p class="partnership-card__lede">
       Everything in Supporting Partner, plus cohort connection for your learners through our online course community, open webinars, and access to pyOpenSci's global network of scientists and open source maintainers.
     </p>
-    <p class="partnership-card__lede">Guide your researchers from a working script to a published PyPI package using industry-standard tools like Hatch, pytest, and Sphinx.</p>
     <hr class="partnership-card__divider">
     <p class="partnership-card__subheader">What's Included</p>
 
@@ -170,11 +169,10 @@ Supporting you in building a thriving Open Source community at your institution.
 
   <article class="partnership-card">
     <div class="partnership-card__body">
-    <h4 class="partnership-card__title">Accelerator Pro</h4>
+    <h4 class="partnership-card__title"><i class="fa-solid fa-star" style="color: rgb(249, 251, 187);"></i> AcceleratorPRO</h4>
     <p class="partnership-card__lede">
      Everything in Community Partner, plus a pyOpenSci curated course learning experience with hands-on expert support during the course, gamified course activities, and curriculum advisory. Course will be branded to include your institution's name.
     </p>
-    <p class="partnership-card__lede">Guide your researchers from a working script to a published PyPI package using industry-standard tools like Hatch, pytest, and Sphinx.</p>
     <hr class="partnership-card__divider">
     <p class="partnership-card__subheader">What's Included</p>
 
