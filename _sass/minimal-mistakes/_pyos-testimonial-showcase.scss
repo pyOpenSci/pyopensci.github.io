@@ -1,0 +1,122 @@
+/* ==========================================================================
+   TESTIMONIAL SHOWCASE (universities / labs + similar landing sections)
+   Featured row + 2-up cards on light purple bands
+   ========================================================================== */
+
+.flowing .pyos-section.purple.pyos-university-testimonials {
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+.testimonial-showcase {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  max-width: 100%;
+}
+
+.testimonial-showcase__featured {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin: 0;
+  padding: 1.25rem 1.25rem 1.35rem;
+  border-radius: $border-radius;
+  background-color: $pyos-white;
+  box-shadow: 0 0.2rem 0.65rem rgba($pyos-brand-dark-purple, 0.1);
+  border: 1px solid rgba($pyos-brand-dark-purple, 0.12);
+  text-align: left;
+
+  @media (min-width: $small) {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1.5rem;
+    padding: 1.5rem 1.5rem 1.6rem;
+  }
+}
+
+.testimonial-showcase__avatar-wrap {
+  flex-shrink: 0;
+}
+
+.testimonial-showcase__avatar {
+  width: 7.5rem;
+  height: 7.5rem;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  border: 3px solid rgba($pyos-brand-dark-purple, 0.18);
+  box-sizing: border-box;
+}
+
+.testimonial-showcase__featured-body {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.testimonial-showcase__mark {
+  margin: 0 0 0.35rem;
+  line-height: 1;
+  color: $pyos-brand-dark-purple;
+
+  .fa-quote-left {
+    font-size: $type-size-3;
+  }
+
+  &--compact {
+    color: $pyos-teal;
+
+    .fa-quote-left {
+      font-size: $type-size-card-title-lg;
+    }
+  }
+}
+
+.testimonial-showcase__blockquote {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: $caption-font-family;
+
+  p {
+    margin: 0 0 0.75rem;
+    font-size: $type-size-card-body;
+    line-height: $line-height-card-body;
+    font-style: italic;
+    color: rgba($pyos-brand-dark-purple, 0.95);
+  }
+}
+
+.testimonial-showcase__cite {
+  margin: 0;
+  font-family: $caption-font-family;
+  font-size: $type-size-card-meta;
+  line-height: $line-height-card-meta;
+  font-style: normal;
+  font-weight: $semibold-weight;
+  color: rgba($pyos-brand-dark-purple, 0.72);
+}
+
+.testimonial-showcase__grid {
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: 1fr;
+
+  @media (min-width: $small) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.testimonial-showcase__card {
+  margin: 0;
+  padding: 1.1rem 1rem 1.15rem;
+  border-radius: $border-radius;
+  background-color: $pyos-white;
+  box-shadow: 0 0.2rem 0.65rem rgba($pyos-brand-dark-purple, 0.08);
+  border: 1px solid rgba($pyos-brand-dark-purple, 0.12);
+  border-top: 4px solid $pyos-teal;
+  text-align: left;
+}
