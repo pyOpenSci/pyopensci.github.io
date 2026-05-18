@@ -42,6 +42,13 @@
       {{ apackage.package_description | markdownify }}
     </div>
 
+    {% if apackage.date_accepted != "missing" %}
+      <div class="package-card__meta" style="margin-top: -0.25em;">
+        <i class="fas fa-calendar-check" aria-hidden="true"></i>
+        <span>Date Accepted: {{ apackage.date_accepted }}</span>
+      </div>
+    {% endif %}
+
     {% unless is_feature %}
     <ul class="package-card__links">
       <li><a href="{{ apackage.repository_link }}" rel="permalink"><i class="fab fa-github" aria-hidden="true"></i> View Code</a></li>
@@ -49,8 +56,14 @@
         <li><a href="{{ apackage.gh_meta.documentation }}" rel="permalink"><i class="fas fa-book-open" aria-hidden="true"></i> View Docs</a></li>
       {% endif %}
       <li><a href="{{ apackage.issue_link }}"><i class="fa-solid fa-user-pen" aria-hidden="true"></i> View Review</a></li>
-      {% if apackage.joss %}
-        <li><a href="{{ apackage.archive }}" rel="permalink"><i class="fas fa-bookmark fa-fw" aria-hidden="true"></i> JOSS Approved</a></li>
+      {% if apackage.joss and apackage.joss contains "joss.theoj.org" %}
+        <li><a href="{{ apackage.joss | replace: 'joss.theoj.org/papers/', 'doi.org/' }}"><i class="fa-solid fa-bookmark" aria-hidden="true"></i> <img src="{{ apackage.joss }}/status.svg" alt="JOSS DIO" /></a></li>
+      {% elsif apackage.joss and package.joss contains "zenodo.org/doi/" %} <!-- case when joss field contains a zenodo link -->
+        <li><a href="{{ apackage.joss | replace: 'zenodo.org/doi/', 'doi.org/' }}"><i class="fa-solid fa-bookmark" aria-hidden="true"></i> <img src="{{ apackage.joss | replace: '.org/', '.org/badge/' }}.svg" alt="DIO" /></a></li>
+      {% elsif apackage.archive and apackage.archive contains "zenodo.org/doi/" %}
+        <li><a href="{{ apackage.archive | replace: 'zenodo.org/doi/', 'doi.org/' }}"><i class="fa-solid fa-bookmark" aria-hidden="true"></i> <img src="{{ apackage.archive | replace: '.org/', '.org/badge/' }}.svg" alt="DIO" /></a></li>
+      {% elsif apackage.archive and apackage.archive != null %}
+        <li><a href="{{ apackage.archive }}"><i class="fa-solid fa-bookmark" aria-hidden="true"></i> View Citation</a></li>
       {% endif %}
       {% if apackage.partners contains "astropy" %}
         <li><a href="/communities/astropy.html"><i class="fa-solid fa-check-double" aria-hidden="true"></i> <img src="https://img.shields.io/badge/Affiliated-Astropy-orange.svg?style=flat" alt="Astropy" /></a></li>
