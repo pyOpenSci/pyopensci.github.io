@@ -758,6 +758,7 @@
   packages_eic:
     - galassify
     - galfitools
+    - tda-mapper
   packages_editor:
     - sleplet
     - xgi
@@ -2611,7 +2612,7 @@
   mastodon:
   orcidid:
   partners:
-  website: https://www.tu-braunschweig.de/en/ifp/pbb
+  website:
   board: false
   contributor_type:
     - peer-review
@@ -3595,12 +3596,14 @@
     - maintainer
     - package-maintainer
     - peer-review
+    - reviewer
     - submitting-author
   packages_eic:
   packages_editor:
   packages_submitted:
     - afscgap
   packages_reviewed:
+    - tda-mapper
   location:
   email:
 - name: Anderson Bravalheri
@@ -5444,6 +5447,7 @@
   packages_eic:
     - astropy
   packages_editor:
+    - tda-mapper
   packages_submitted:
   packages_reviewed:
     - eomaps
@@ -10824,11 +10828,14 @@
   website:
   board: false
   contributor_type:
+    - peer-review
+    - reviewer
     - web-contrib
   packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
+    - tda-mapper
   location: Stanford, CA
   email:
 - name: Jed Brown
@@ -11567,3 +11574,33 @@
   packages_reviewed:
   location:
   email: pierre.augier@univ-grenoble-alpes.fr
+- name: Luca Simi
+  github_username: lucasimi
+  github_image_id: 45110399
+  title:
+  sort:
+  bio: Software engineer by day, math nerd by night.
+  organization:
+  date_added: '2026-05-18'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+    - submitting-author
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - tda-mapper
+  packages_reviewed:
+  location: Rome, Italy
+  email:
