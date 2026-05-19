@@ -9030,7 +9030,7 @@
   mastodon:
   orcidid:
   partners:
-  website: https://lagrange.mechse.illinois.edu/mwest
+  website:
   board: false
   contributor_type:
     - maintainer
@@ -11583,7 +11583,7 @@
   organization:
   date_added: '2026-05-18'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
