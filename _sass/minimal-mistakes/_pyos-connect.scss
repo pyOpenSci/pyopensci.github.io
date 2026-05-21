@@ -1,0 +1,49 @@
+/* ==========================================================================
+   Connect with pyOpenSci footer block (extends .notice)
+   ========================================================================== */
+
+.notice.connect-with-pyos {
+  margin: $connect-notice-margin-y 0 !important;
+  padding: $connect-notice-padding;
+  line-height: $connect-notice-line-height !important;
+
+  .header {
+    margin-bottom: $connect-notice-header-margin;
+    font-size: $connect-notice-header-size !important;
+  }
+
+  > p {
+    margin-top: 0;
+    margin-bottom: $connect-notice-paragraph-spacing;
+  }
+
+  ul {
+    margin-top: $connect-notice-list-margin-top;
+    margin-bottom: $connect-notice-list-margin-bottom;
+
+    li {
+      margin-bottom: $connect-notice-list-item-spacing;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  ul.connect-with-pyos__social {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $connect-notice-social-gap-y $connect-notice-social-gap-x;
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: $connect-notice-list-margin-bottom;
+
+    li {
+      margin-bottom: 0;
+    }
+  }
+
+  @include breakpoint-max-width($mobile) {
+    padding: $connect-notice-padding-mobile;
+  }
+}
