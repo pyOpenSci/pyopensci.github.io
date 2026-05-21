@@ -37,6 +37,3 @@ When I’m not helping build equitable, diverse, and accessible technical commun
 I first got started in scientific programming during my time as a graduate student in Immunology and Infectious Diseases. Learning R opened up a world of possibility for me, and I eventually used that early experience to build a career in data science. And out of all the learning materials available, I found the community to be the most critical in my success. While I’m no longer spending my days coding, I wanted to continue working with supportive, welcoming, and educational online communities that were focused on helping its members solve technical challenges.
 
 pyOpenSci meets all of those criteria, and the more I learned about its philosophy around community building, as well as all of the ways for people of all levels of technical knowledge to get involved, the more I knew I wanted to be a part of things. I’m still within my first month at the organization, but I can already tell that it’s a special place to be. Keep an eye out, because I’ve already started planning content and activities to help grow our community!
-
-
-{% include connect-with-pyos.html %}

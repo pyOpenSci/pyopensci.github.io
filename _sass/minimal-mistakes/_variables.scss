@@ -183,6 +183,20 @@ $navicon-link-color-hover: mix(#fff, $primary-color, 75%) !default;
 $notice-background-mix: 80% !default;
 $code-notice-background-mix: 90% !default;
 
+/* connect-with-pyos footer (extends .notice) */
+$connect-notice-padding: 1.5rem !default;
+$connect-notice-padding-mobile: 1rem !default;
+$connect-notice-margin-y: 1rem !default;
+$connect-notice-header-size: 1.35rem !default;
+$connect-notice-header-margin: 0.5rem !default;
+$connect-notice-line-height: 1.5rem !default;
+$connect-notice-paragraph-spacing: 0.5rem !default;
+$connect-notice-list-margin-top: 0.25rem !default;
+$connect-notice-list-margin-bottom: 0.5rem !default;
+$connect-notice-list-item-spacing: 0.25rem !default;
+$connect-notice-social-gap-y: 0.25rem !default;
+$connect-notice-social-gap-x: 1.25rem !default;
+
 /* syntax highlighting (base16) */
 $base00: #263238 !default;
 $base01: #2e3c43 !default;

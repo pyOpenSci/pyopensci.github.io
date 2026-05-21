@@ -236,5 +236,3 @@ Our leadership teams—including the [Executive Council](https://www.pyopensci.o
 [Peer Review Editorial Board](https://www.pyopensci.org/about-peer-review/index.html#meet-our-editorial-board) have been instrumental in carving the path forward for pyOpenSci.
 
 We look forward to building the future of open science, one contribution at a time—and we invite you to join us on this journey.
-
-{% include connect-with-pyos.html %}

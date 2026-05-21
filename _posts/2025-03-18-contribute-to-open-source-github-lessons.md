@@ -97,6 +97,3 @@ By openly co-developing and refining these resources together, we’re making sc
 ## What's next? Broadening participation in open source
 
 With [PyCon US](https://us.pycon.org/2025/) and SciPy on the horizon, we’re excited to put these lessons into action. At our upcoming sprints, we’ll work together to **refine these resources—improving the lessons and packaging guide to make participating open source even more accessible.**  If you plan to be at either meeting, keep an eye out for pyOpenSci events!
-
-
-{% include connect-with-pyos.html %}

@@ -170,6 +170,3 @@ You can learn more about the [Open Science Fall Festival, here](/events/pyopensc
 We look forward to seeing you there!
 
 ~ Leah with support from the [pyOpenSci Executive Council - Tracy Teal & Karen Cranston](/our-community/index.html#executive-council-leadership--staff)
-
-
-{% include connect-with-pyos.html %}

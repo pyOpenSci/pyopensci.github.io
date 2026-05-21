@@ -216,6 +216,3 @@ Looking ahead, we’re excited to run more events like this to support pyOpenSci
 * Attend and run events at PyCon 2025 and SciPy 2025, holding events and connecting with you!
 
 Check our blog and events page for upcoming events and opportunities to engage with the vibrant pyOpenSci community. <i class="fa-solid fa-hand-sparkles"></i>
-
-
-{% include connect-with-pyos.html %}
