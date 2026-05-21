@@ -65,5 +65,3 @@ Jesse Bobish, [Patrick Byers](https://github.com/pb-413), [Sarah Kaiser](http://
 
 ### Shout out to all of our SciPy contributors, including:
 [Naty Clementi](https://github.com/ncclementi), [Geoff Cureton](https://github.com/gpcureton), [John Drake](https://github.com/John-Drake), [Han](https://github.com/ayhanxian), [Elise Hinman](https://github.com/ehinman), [hpodzorski-USGS](https://github.com/hpodzorski-USGS), [Sarah Kaiser](https://github.com/crazy4pi314), [kaiyamag](https://github.com/kaiyamag), [Felipe Moreno](https://github.com/flpm), [Roberto Pastor Muela](https://github.com/RobPasMue), [Olek](https://github.com/yardasol), [Santiago Soler](https://github.com/santisoler), and [Revathy Venugopal](https://github.com/Revathyvenugopal162).
-
-{% include connect-with-pyos.html %}

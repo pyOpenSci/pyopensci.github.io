@@ -69,6 +69,3 @@ When we make space for all contributors—ensuring they have what they need to g
     <img src="/images/events/sprint-scipy-2024.png" alt="...">
     </picture>
 </figure>
-
-
-{% include connect-with-pyos.html %}

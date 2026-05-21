@@ -384,10 +384,6 @@ Our next training event is the inaugural pyOpenSci Fall Festival--a week-long ev
 
 We also will develop collaborative GitHub lessons following the BSSw fellowship I received this year.
 
-
-{% include connect-with-pyos.html %}
-
-
 <div class = "notice" markdown="1">
 ## About Me
 My name is Leah, and I'm the executive director and founder of pyOpenSci. I have over 20 years of experience in both academic and nonprofit spaces and have dedicated my career to helping scientists overcome the challenges of open science. I've built and led two successful data science programs:
