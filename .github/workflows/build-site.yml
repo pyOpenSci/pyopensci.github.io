@@ -56,4 +56,5 @@ jobs:
           directory: "_site"
           arguments: |
             --ignore-files "/.+\/_posts\/README.md"
+            --ignore-urls "/^https?:\/\/(www\.)?pyopensci\.org\//"
             --checks "Images,Scripts"
