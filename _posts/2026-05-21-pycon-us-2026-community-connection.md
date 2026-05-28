@@ -5,7 +5,7 @@ excerpt: "Times are hard, but communities like pyOpenSci still show up. At PyCon
 author: "Leah Wasser"
 permalink: /blog/pycon-us-2026-community-connection.html
 header:
-  overlay_image: images/blog/headers/pycon-us-2024-header.png
+  overlay_image: images/blog/headers/pycon-us-2026-header.png
 categories:
   - blog-post
   - community
