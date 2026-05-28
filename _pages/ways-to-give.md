@@ -95,7 +95,7 @@ with different goals. Contact us to design a package that fits your team.
 
 <div class="highlight-quote-split" markdown="0">
 <figure class="highlight-quote-split__photo">
-  <img src="/images/people/leah-wasser/headshot.jpg" width="180" height="180" loading="lazy" alt="Portrait placeholder for the learner testimonial; replace with the contributor photo when available.">
+  <img src="/images/people/leah-wasser/headshot.jpg" width="180" height="180" loading="lazy" alt="Leah Wasser, Executive Director and Founder of pyOpenSci, smiling in a professional headshot outdoors with trees and water in the background.">
 </figure>
 {% include pyos-blockquote.html quote="Absolutely honored to have had the opportunity to contribute to the amazing pyOpenSci open-source project at my first-ever #PyConUS24 back in May! 🙌 As a total newbie, I was blown away by how warm and welcoming the pyOpenSci team was—they made diving into my first open-source contribution so much less intimidating (even if it was just documentation)! 😅 It's been an incredible experience to see firsthand how collaboration can drive innovation in the Python community, and I'm excited to keep learning and contributing." author="Brianne Wilhelmi" event="Software Engineer" class="highlight purple wide highlight-quote--split" %}
 </div>
