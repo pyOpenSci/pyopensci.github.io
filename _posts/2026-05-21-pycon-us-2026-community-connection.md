@@ -5,14 +5,14 @@ excerpt: "Times are hard, but communities like pyOpenSci still show up. At PyCon
 author: "Leah Wasser"
 permalink: /blog/pycon-us-2026-community-connection.html
 header:
-  overlay_image: images/blog/headers/pycon-us-2024-header.png
+  overlay_image: images/blog/headers/pycon-us-2026-header.png
 categories:
   - blog-post
   - community
 classes: wide
 toc: true
 comments: true
-last_modified: 2026-05-21
+last_modified: 2026-05-27
 ---
 
 Times are hard right now. Communities like pyOpenSci matter more than ever. We saw it at [PyCon US](https://us.pycon.org/2026/) this year — the political strain, the GenAI hype cycle and anxiety, the rapid changes reshaping open source. People are tired. People are frustrated. But here's what else we saw: people still showing up. Still connecting. Still supporting each other.
@@ -31,7 +31,7 @@ I'll never forget my very first PyCon in Salt Lake City. I was intimidated. It's
   <figcaption>Community members working together during a pyOpenSci sprint at PyCon US.</figcaption>
 </figure>
 
-Fast forward four years to Long Beach, California. We filled rooms with our open spaces. We had tables of people sprinting, working on pyOpenSci projects, learning together. People who attended multiple sprints with us — people I remembered struggling to submit their first pull request, now confident in their GitHub skills. This is what community support looks like. This is what pyOpenSci's mission is all about: helping people grow.
+Fast forward three years to Long Beach, California. We filled rooms with our open spaces. We had tables of people sprinting, working on pyOpenSci projects, learning together. People who attended multiple sprints with us — people I remembered struggling to submit their first pull request, now confident in their GitHub skills. This is what community support looks like. This is what pyOpenSci's mission is all about: helping people grow. [Read about the Maintainer Summit](/blog/pycon-us-2026-maintainers-summit.html) and the [full sprint story](/blog/pycon-us-2026-sprints.html) from PyCon US 2026.
 
 <figure>
   <picture>
@@ -53,20 +53,21 @@ PyCon US has become my favorite conference. Not because of the topics covered or
 
 Even in a hard year — especially in a hard year — I left the conference feeling fulfilled, feeling whole, and so grateful for the friendships and relationships I've deepened over time.
 
-## Coming up in this series
+## In this series
 
-**Part 1: The sprints** — From one person in Salt Lake City to a room full of contributors working together. This year's story about growth, learning, and community reminded me why this work matters.
+**Part 1: Community, connection, and what comes next** — You're reading it. An overview of PyCon US 2026 and why the people in the room are what make open source work.
 
-**Part 2: Generative AI and open source** — GenAI was everywhere at PyCon this year. Not as hype, but as a real challenge the community is wrestling with. Between our open space, the Maintainers Summit BoF, and Amanda Casari's powerful closing keynote, a theme emerged: the path forward is human.
+**Part 2: [The Maintainer Summit](/blog/pycon-us-2026-maintainers-summit.html)** — A milestone year for the summit: formal PyCon registration, 150+ maintainers, and roundtables on packaging, security, and generative AI.
 
-**Part 3: The Maintainers Summit** — A full day dedicated to the people who keep open source running. Hard conversations, shared struggles, and the kind of solidarity that only happens when maintainers get in a room together.
+**Part 3: [The sprints](/blog/pycon-us-2026-sprints.html)** — From one person in Salt Lake City to a room full of contributors working together. Growth, learning, and community in action.
+
+**Part 4: Generative AI and open source** — GenAI was everywhere at PyCon this year. Not as hype, but as a real challenge the community is wrestling with. Between our open space, the Maintainer Summit BoF, and Amanda Casari's powerful closing keynote, a theme emerged: the path forward is human.
 
 ## What it all comes down to
 
 If there's one thing that tied all of these experiences together, it's this: **the humans are what make open source work.** The tools change, the challenges evolve, but the connections, the learning, the care people bring to this work — that's the irreplaceable part.
 
-More soon.
 
 ---
 
-*This is Part 1 of a 4-part series on pyOpenSci at PyCon US 2026.*
+*This is Part 1 of a 4-part series on pyOpenSci at PyCon US 2026. [Part 2: Maintainer Summit](/blog/pycon-us-2026-maintainers-summit.html) · [Part 3: pyOpenSci sprints](/blog/pycon-us-2026-sprints.html) · Part 4: generative AI and open source (coming soon).*
