@@ -569,6 +569,15 @@
       "contributions": [
         "review"
       ]
+    },
+    {
+      "login": "bwhitt7",
+      "name": "Britney Whittington",
+      "avatar_url": "https://avatars.githubusercontent.com/u/103079612?v=4",
+      "profile": "https://github.com/bwhitt7",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "commitConvention": "angular",
