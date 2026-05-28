@@ -12,10 +12,10 @@ categories:
 classes: wide
 toc: true
 comments: true
-last_modified: 2026-05-27
+last_modified: 2026-06-02
 ---
 
-*This post is Part 2 of a 4-part series on pyOpenSci at PyCon US 2026. [Part 1](/blog/pycon-us-2026-community-connection.html) covers community, connection, and what comes next.*
+*This post is Part 3 of a 4-part series on pyOpenSci at PyCon US 2026. [Part 1](/blog/pycon-us-2026-community-connection.html) covers community and connection. [Part 2](/blog/pycon-us-2026-maintainers-summit.html) covers the Maintainer Summit.*
 
 This year marked our fourth sprint at [PyCon US](https://us.pycon.org/2026/) — and if you want to understand what pyOpenSci is really about, sprint day is the place to look.
 
@@ -85,4 +85,4 @@ If you've been thinking about sprinting with us for the first time: come. We'll 
 
 ---
 
-*This is Part 2 of a 4-part series on pyOpenSci at PyCon US 2026. [Part 1](/blog/pycon-us-2026-community-connection.html): community and connection · Part 3: generative AI and open source · Part 4: the Maintainers Summit (coming soon).*
+*This is Part 3 of a 4-part series on pyOpenSci at PyCon US 2026. [Part 1](/blog/pycon-us-2026-community-connection.html): community and connection · [Part 2: Maintainer Summit](/blog/pycon-us-2026-maintainers-summit.html) · Part 4: generative AI and open source (coming soon).*
