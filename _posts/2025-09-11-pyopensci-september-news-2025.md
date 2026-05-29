@@ -15,7 +15,7 @@ comments: true
 last_modified: 2025-09-11
 ---
 
-The summer was full of connection, collaboration, and momentum in the pyOpenSci community. Whether you joined us at [SciPy](https://scipy.org/), submitted a package for review, or just lurked, we’re so grateful you’re here!
+The summer was full of connection, collaboration, and momentum in the pyOpenSci community. Whether you joined us at SciPy, submitted a package for review, or just lurked, we’re so grateful you’re here!
 
 Here’s what’s been happening 👇
 
