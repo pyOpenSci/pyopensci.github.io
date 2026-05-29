@@ -132,4 +132,4 @@ See you in there.
 
 ---
 
-*This is Part 2 of a 4-part series on pyOpenSci at PyCon US 2026. [Part 1](/blog/pycon-us-2026-community-connection.html): community and connection · [Part 3: pyOpenSci sprints](/blog/pycon-us-2026-sprints.html) · Part 4: generative AI and open source (coming soon).*
+*This is Part 2 of a 4-part series on pyOpenSci at PyCon US 2026. [Part 1](/blog/pycon-us-2026-community-connection.html): community and connection · [Part 3: pyOpenSci sprints](/blog/pycon-us-2026-sprints.html) · [Part 4: generative AI and open source](/blog/pycon-us-2026-generative-ai-open-source.html).*

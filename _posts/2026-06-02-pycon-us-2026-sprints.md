@@ -23,6 +23,13 @@ last_modified: 2026-05-29
 
 This year marked our fourth sprint at [PyCon US](https://us.pycon.org/2026/). If you want to really understand what pyOpenSci is about, our sprints are the place to look.
 
+<figure>
+  <picture>
+    <source srcset="{{ site.baseurl }}/images/blog/2026/pycon-us-2026-sprints-keynote-slide.webp" type="image/webp">
+    <img src="{{ site.baseurl }}/images/blog/2026/pycon-us-2026-sprints-keynote-slide.png" alt="The PyCon US 2026 sprints slide projected on the main keynote screen, listing Monday and Tuesday sprint projects including Django, Mailman, ScanAPI, Memray, PyStack, Djangonaut Space, BeeWare, and more.">
+  </picture>
+  <figcaption>Sprints at PyCon US 2026 — dozens of open source projects welcoming contributors on Monday and Tuesday.</figcaption>
+</figure>
 
 When we held our very first sprint at PyCon US 2023 in Salt Lake City, it was my first time running a formal sprint. I missed the introductions to the sprints and pyOpenSci was not well known in the broader Python community--yet. One person showed up. [Read more about that first PyCon experience](/blog/pycon-2023-packaging-presentation-sprints-leah-wasser.html). This year, ~20 people showed up throughout the day. That arc — from a single contributor to a buzzing room of people at round tables — tells you everything about our community.
 
@@ -93,4 +100,4 @@ If you've been thinking about sprinting with us for the first time: come. We'll 
 
 ---
 
-*This is Part 3 of a 4-part series on pyOpenSci at PyCon US 2026. [Part 1](/blog/pycon-us-2026-community-connection.html): community and connection · [Part 2: Maintainer Summit](/blog/pycon-us-2026-maintainers-summit.html) · Part 4: generative AI and open source (coming soon).*
+*This is Part 3 of a 4-part series on pyOpenSci at PyCon US 2026. [Part 1](/blog/pycon-us-2026-community-connection.html): community and connection · [Part 2: Maintainer Summit](/blog/pycon-us-2026-maintainers-summit.html) · [Part 4: generative AI and open source](/blog/pycon-us-2026-generative-ai-open-source.html).*
