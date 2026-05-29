@@ -3,7 +3,7 @@ layout: single
 title: "Generative AI and open source: what PyCon US 2026 taught us about the path forward"
 excerpt: "Generative AI was a dominant theme at PyCon US 2026 — not as a buzzword, but as a lived reality the Python community is actively wrestling with. From our pyOpenSci open space to the Maintainers Summit BoF to Amanda Casari's powerful closing keynote, the path forward remains human."
 author: "Leah Wasser"
-permalink: /blog/pycon-us-2026-ai-tools-open-source.html
+permalink: /blog/pycon-us-2026-generative-ai-open-source.html
 header:
   overlay_image: images/blog/headers/pycon-us-2026-header.png
 categories:

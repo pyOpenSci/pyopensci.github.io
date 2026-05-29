@@ -113,7 +113,7 @@ But there's also genuine hope. The majority of people in the room are already us
 
 
 
-I have a lot more to say about AI tools and generative AI in open source in Part 4 of this series.
+I have a lot more to say about AI tools and generative AI in open source in [Part 4 of this series](/blog/pycon-us-2026-generative-ai-open-source.html).
 
 ## Wrap up
 
