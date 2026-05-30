@@ -1,11 +1,13 @@
 ---
-date: 2026-05-29 12:00:00 -0700
+date: 2026-06-01 12:00:00 -0700
 layout: single
 title: "It started with one contributor and now we fill the room: pyOpenSci sprints at PyCon US 2026"
 blog_topic: community
 excerpt: "Our fourth PyCon US sprint grew from a single contributor in Salt Lake City to ~20 people in Long Beach. Co-sprinting with Hatch, welcoming beginners, and a new Portuguese packaging guide translation show where this community is headed."
 author: "Leah Wasser"
 permalink: /blog/pycon-us-2026-sprints.html
+blog_image: images/blog/2026/pycon-us-2026-sprint-round-table.png
+blog_image_alt: "Several PyCon US 2026 attendees work together around a crowded round table during the pyOpenSci sprint. Laptops show code editors and project pages, with purple conference lanyards, charging cables, water bottles, and coffee cups spread across the table."
 header:
   overlay_image: images/blog/headers/pycon-us-2026-header.png
 categories:
@@ -14,7 +16,7 @@ categories:
 classes: wide
 toc: true
 comments: true
-last_modified: 2026-06-02
+last_modified: 2026-06-01
 ---
 
 *This post is Part 3 of a 4-part series on pyOpenSci at PyCon US 2026. [Part 1](/blog/pycon-us-2026-community-connection.html) covers community and connection. [Part 2](/blog/pycon-us-2026-maintainers-summit.html) covers the Maintainer Summit.*
