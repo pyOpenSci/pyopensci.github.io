@@ -1,4 +1,5 @@
 ---
+date: 2026-05-29 12:00:00 -0700
 layout: single
 title: "It started with one contributor and now we fill the room: pyOpenSci sprints at PyCon US 2026"
 blog_topic: community
