@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "pyOpenSci launches open, accessible, online educational trainings for scientists"
+blog_topic: education
 excerpt: "We're excited to share information about the pyOpenSci approach to education, open education resources, and announce an upcoming workshop focused on Python packaging"
 author: "Jesse Mostipak"
 permalink: /blog/pyos-education-announcement.html

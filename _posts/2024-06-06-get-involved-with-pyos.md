@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Get Involved with pyOpenSci"
+blog_topic: community
 excerpt: "Fun fact: there are a multitude of ways for you to get involved with pyOpenSci! From social media to in-person events to joining our editoral team, this guide walks you through every opportunity available."
 author: "Jesse Mostipak"
 permalink: /blog/get-involved-with-pyos.html

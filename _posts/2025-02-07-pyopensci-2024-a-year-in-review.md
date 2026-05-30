@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "2024: A Transformative Year for pyOpenSci"
+blog_topic: updates
 excerpt: "2024 was a transformative year for pyOpenSci. Through training, mentorship, and peer review, we expanded our community, created free educational resources, and empowered scientists worldwide. Here’s what we built together—and why it matters now more than ever."
 author: "Leah Wasser"
 permalink: /blog/2024-pyopensci-retrospective.html

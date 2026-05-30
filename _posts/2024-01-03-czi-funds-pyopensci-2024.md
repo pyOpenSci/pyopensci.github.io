@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "CZI Funds pyOpenSci"
+blog_topic: community
 excerpt: "CZI has received funding from the Chan Zuckerberg Foundation. Learn more about how this funding will support pyOpenSci over the next 2 years."
 author: "Leah Wasser"
 permalink: /blog/czi-funds-pyOpenSci-2024.html

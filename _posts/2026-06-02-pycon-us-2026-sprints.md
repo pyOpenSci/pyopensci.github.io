@@ -1,6 +1,8 @@
 ---
+date: 2026-05-29 12:00:00 -0700
 layout: single
 title: "It started with one contributor and now we fill the room: pyOpenSci sprints at PyCon US 2026"
+blog_topic: community
 excerpt: "Our fourth PyCon US sprint grew from a single contributor in Salt Lake City to ~20 people in Long Beach. Co-sprinting with Hatch, welcoming beginners, and a new Portuguese packaging guide translation show where this community is headed."
 author: "Leah Wasser"
 permalink: /blog/pycon-us-2026-sprints.html

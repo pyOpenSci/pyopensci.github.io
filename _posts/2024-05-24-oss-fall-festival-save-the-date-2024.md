@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Save the Date: pyOpenSci's 2024 Open Science Fall Festival"
+blog_topic: community
 excerpt: "Shake off those post-PyCon blues by adding our Open Science Fall Festival to your calendar!"
 author: "Jesse Mostipak"
 permalink: /blog/save-the-date-oss-fall-festival-2024.html

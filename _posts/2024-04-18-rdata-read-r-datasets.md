@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "rdata: Read R datasets from Python"
+blog_topic: software
 excerpt: "rdata is a library for reading R datasets and converting them to Python objects that was recently accepted into the pyOpenSci ecosystem. Learn more about rdata."
 author: "Carlos Ramos Carreño"
 permalink: /blog/read-r-datasets-from-python.html

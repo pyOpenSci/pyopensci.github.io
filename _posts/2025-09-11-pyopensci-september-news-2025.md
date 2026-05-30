@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "What’s New in pyOpenSci: September Updates + Community Shoutouts"
+blog_topic: updates
 excerpt: "This summer brought incredible momentum to pyOpenSci—from 60+ attendees at our SciPy session to 13 packages actively under review and exciting new leadership transitions. Join our November Python packaging workshop or explore how you can get involved in peer review."
 author: "pyopensci"
 permalink: /blog/pyopensci-september-2025-updates.html
