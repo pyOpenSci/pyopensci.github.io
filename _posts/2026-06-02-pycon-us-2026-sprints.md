@@ -16,7 +16,7 @@ categories:
 classes: wide
 toc: true
 comments: true
-last_modified: 2026-06-01
+last_modified: 2026-05-29
 ---
 
 *This post is Part 3 of a 4-part series on pyOpenSci at PyCon US 2026. [Part 1](/blog/pycon-us-2026-community-connection.html) covers community and connection. [Part 2](/blog/pycon-us-2026-maintainers-summit.html) covers the Maintainer Summit.*
