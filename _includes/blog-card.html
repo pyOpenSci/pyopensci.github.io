@@ -8,16 +8,22 @@
   Post front matter (optional):
     blog_image: path to listing card photo (preferred over header.overlay_image)
     blog_image_alt: alt text for blog_image
+    blog_topic: community | software | education | updates
 {% endcomment %}
 
 {% assign card_size = include.size | default: "grid" %}
-{% assign blog_topic = nil %}
-{% for cat in include.post.categories %}
-  {% unless cat == "blog-post" %}
-    {% assign blog_topic = cat %}
-    {% break %}
-  {% endunless %}
-{% endfor %}
+{% assign topic_slug = include.post.blog_topic %}
+{% if topic_slug %}
+  {% assign topic_label = site.data.blog_topics[topic_slug].label | default: topic_slug %}
+{% else %}
+  {% assign topic_label = nil %}
+  {% for cat in include.post.categories %}
+    {% unless cat == "blog-post" %}
+      {% assign topic_label = cat | replace: "-", " " %}
+      {% break %}
+    {% endunless %}
+  {% endfor %}
+{% endif %}
 
 {% assign card_title = include.post.title | markdownify | strip_html %}
 {% assign fallback_color = include.color_counter | default: 0 %}
@@ -43,14 +49,25 @@
           aria-hidden="true"
         ></div>
       {% endif %}
+
+      {% if card_size == "grid" %}
+        <div class="blog-card__media-scrim" aria-hidden="true"></div>
+        <h3 class="blog-card__title blog-card__title--overlay">{{ card_title }}</h3>
+      {% endif %}
     </div>
 
     <div class="blog-card__body">
-      {% if blog_topic %}
-        <span class="blog-card__badge">{{ blog_topic | replace: "-", " " }}</span>
+      {% if topic_label %}
+        <span class="blog-card__badge">{{ topic_label }}</span>
       {% endif %}
 
-      <h3 class="blog-card__title">{{ card_title }}</h3>
+      {% unless card_size == "grid" %}
+        <h3 class="blog-card__title">{{ card_title }}</h3>
+      {% endunless %}
+
+      {% if card_size == "grid" and include.post.excerpt %}
+        <p class="blog-card__excerpt">{{ include.post.excerpt | strip_html | truncate: 130 }}</p>
+      {% endif %}
 
       <p class="blog-card__meta">
         <time datetime="{{ include.post.date | date_to_xmlschema }}">{{ include.post.date | date: "%b %-d, %Y" }}</time>

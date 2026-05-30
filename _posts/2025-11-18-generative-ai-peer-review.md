@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Navigating LLMs in Open Source: pyOpenSci's New Peer Review Policy"
+blog_topic: software
 excerpt: "Generative AI products are reducing the effort and skill necessary to generate large amounts of code. In some cases, this strains volunteer peer review programs like ours. Learn about pyOpenSci's approach to developing a Generative AI policy for our software peer review program."
 author: "pyopensci"
 permalink: /blog/generative-ai-peer-review-policy.html

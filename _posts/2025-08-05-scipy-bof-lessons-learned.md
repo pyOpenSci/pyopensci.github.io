@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Listening, learning, and building together: what we heard at our SciPy 2025 BoF"
+blog_topic: community
 excerpt: "We held an incredibly informative community session this year at the SciPy meeting in Tacoma Washington. We asked the community what their open source Python pain points were. Learn more about what we learned in this interactive session."
 author: "Mandy Moore"
 permalink: /blog/pyopensci-bof-community-scipy-2025.html

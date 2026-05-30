@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Friends don't let friends package alone- my Python packaging talk at PyCon 2024"
+blog_topic: education
 excerpt: "A blog post from the Executive Director of pyOpenSci on Python packaging, technical things and imposter syndrome in data science."
 author: "Leah Wasser"
 permalink: /blog/python-packaging-friends-dont-let-friends-package-alone.html

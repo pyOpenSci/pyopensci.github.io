@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Contribute to Open Source Software: It's  More Than just Code"
+blog_topic: education
 excerpt: "Contributing to open source isn’t just about code—it’s also about navigating social norms. Discover pyOpenSci’s new Contribute to Open Source lessons, which cover both the technical and social aspects, and are free for anyone to use."
 author: "Leah Wasser"
 permalink: /blog/contribute-to-open-source-lessons.html

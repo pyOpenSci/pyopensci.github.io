@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "My First Time Attending PyCon - A Tale of Sprints and Python Packaging"
+blog_topic: education
 excerpt: "This year I attended by first PyCon US meeting representing pyOpenSci. In this blog I talk about my experience, highlighting the sprints we lead and talks on packaging."
 author: "Leah Wasser"
 permalink: /blog/pycon-2023-packaging-presentation-sprints-leah-wasser.html

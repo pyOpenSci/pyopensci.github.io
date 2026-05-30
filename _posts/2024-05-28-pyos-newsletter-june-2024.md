@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "pyOpenSci Newsletter: June 2024"
+blog_topic: updates
 excerpt: "We're starting June with a record number of Python package submissions, a call for editors, a PyCon US reflection, and some SciPy meeting news!"
 author: "Jesse Mostipak"
 permalink: /blog/pyos-newsletter-june-2024.html

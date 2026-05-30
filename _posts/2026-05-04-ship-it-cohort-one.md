@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Ship It Cohort One: What We Built, What We Learned, and What's Next"
+blog_topic: education
 excerpt: "pyOpenSci recently wrapped up the first cohort of Ship It: Python Packaging in the Generative AI Era — a 10-day async course that took 55 university researchers from zero to a published Python package. Here's what we built, what participants said, and what's coming next."
 author: "Leah Wasser"
 permalink: /blog/ship-it-cohort-one.html

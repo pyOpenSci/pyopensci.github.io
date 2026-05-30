@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Demystifying the Python packaging ecosystem "
+blog_topic: education
 excerpt: "pyOpenSci has published the packaging structure and tool section of it's guide. This chapter has been reviewed by dozens of core community members to ensure accuracy and is community-driven. "
 author: "Leah Wasser"
 permalink: /blog/demystifying-python-packaging.html

@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "From Surviving to Thriving: A Convening to Reclaim and Sustain Open Science Communities"
+blog_topic: community
 excerpt: "Building resilience in open science starts with collaboration. Learn how pyOpenSci is partnering with the Carpentries, Prereview, Open Life Sciences, and rOpenSci to reinvision how open communities can work together to share the future of open science in uncertain times."
 author: "pyopensci"
 permalink: /blog/pyopensci-surviving-to-thriving.html
