@@ -1,3 +1,9 @@
 <!-- start custom footer snippets -->
-
+{% if page.url == '/' %}
+<div class="page__footer-netlify">
+  <a href="https://www.netlify.com" rel="noopener noreferrer">
+    <img src="{{ '/images/netlify-badge-dark.svg' | relative_url }}" alt="Deploys by Netlify" width="80" height="36" />
+  </a>
+</div>
+{% endif %}
 <!-- end custom footer snippets -->

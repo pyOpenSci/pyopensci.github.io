@@ -4,6 +4,7 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 [![Deploy Jekyll site to Pages](https://github.com/pyOpenSci/pyopensci.github.io/actions/workflows/deploy-gh-pages.yml/badge.svg)](https://github.com/pyOpenSci/pyopensci.github.io/actions/workflows/deploy-gh-pages.yml)
 [![DOI](https://zenodo.org/badge/174412809.svg)](https://zenodo.org/doi/10.5281/zenodo.10594115)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ddb85e67-0925-455a-a616-5bece97a65b2/deploy-status)](https://app.netlify.com/projects/pyos-website/deploys)
 
 
 This repo contains the source code for the [pyOpenSci.org](https://pyopensci.org) website. Contributions are welcome. Thank you [**pyOpenSci contributors**](#contributors-✨)!!
