@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "It's Been a Long Short Road: The Monumental Past 2 Years of pyOpenSci"
+blog_topic: community
 excerpt: "Learn about what pyOpenSci has accomplished in the last two years, including the evolution of our packaging guide, the expansion of our peer review process, and the vibrant community we've built."
 author: "Leah Wasser"
 permalink: /blog/what-pyopensci-accomplished-with-two-years-of-funding.html

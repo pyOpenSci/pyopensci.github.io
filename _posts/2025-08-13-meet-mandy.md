@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Meet Mandy Moore, pyOpenSci’s new Communications and Community Lead!"
+blog_topic: community
 excerpt: "Meet Mandy Moore, our new Communications and Community Lead! Mandy is bringing 15+ years of experience in marketing, content strategy, and community engagement to help make open science more accessible and welcoming. Learn more about her work and story in this post."
 author: "Mandy Moore"
 permalink: /blog/mandy-moore-communications-lead.html

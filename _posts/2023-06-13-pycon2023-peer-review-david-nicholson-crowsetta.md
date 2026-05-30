@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Sorry This Talk Doesn't Have any ChatGPT in It: pyOpenSci peer review of Crowsetta "
+blog_topic: software
 excerpt: "David Nicholson gave a lightning talk about his experience going through the pyOpenSci peer review process with his Python package called Crowsetta. Learn more about the people involved in peer review and watch the 5 minute video here."
 author: Leah Wasser
 permalink: /blog/pycon2023-crowsetta-peer-review.html

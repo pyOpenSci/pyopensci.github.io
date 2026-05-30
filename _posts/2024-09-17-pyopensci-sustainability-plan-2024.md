@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "A Blueprint for the Future: pyOpenSci's Sustainability Model"
+blog_topic: community
 excerpt: "pyOpenSci is exploring various sustainability methods to supplement our valued grant funding. Learn more about what we are exploring."
 author: "Leah Wasser"
 permalink: /blog/pyopensci-funding-sustainability.html

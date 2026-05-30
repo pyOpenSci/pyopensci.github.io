@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "The pyOpenSci Guide to PyCon 2024"
+blog_topic: education
 excerpt: "PyCon US 2024 is finally here, and we can't wait to connect with you! This post has all of the talks, panels, summits, and keynotes where pyOpenSci community members (and friends!) will be speaking."
 author: "Jesse Mostipak"
 permalink: /blog/pyos-guide-to-pyconus-2024.html

@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "CLOSED: pyOpenSci is Hiring a Community Manager"
+blog_topic: updates
 excerpt: "This position has been filled. pyOpenSci is hiring a community manager. This position will oversee numerous aspects of pyOpenSci's community building efforts including managing social media, our slack organization and writing blog posts. It will also be heavily involved in our DEIA related activities."
 author: "Leah Wasser"
 permalink: /blog/pyOpenSci-hiring-community-manager-fall-2023.html

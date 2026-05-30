@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "The Human Dimension to Clean, Distributable, and Documented Data Science Code"
+blog_topic: education
 excerpt: "Discover how to create clean, accessible, and impactful data science code by focusing on the human side of coding practices. Here, Eric Ma shares insights from his talk at the 2024 pyOpenSci Fall Festival. Learn key open science principles, including readability, cognitive load, and the toolmaker’s mindset, and explore practical strategies to enhance your work"
 author: "Eric J. Ma"
 permalink: /blog/human-dimension-clean-documented-data-science-code.html

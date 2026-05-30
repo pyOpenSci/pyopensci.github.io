@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Building Resilience: pyOpenSci in 2026"
+blog_topic: community
 excerpt: "pyOpenSci learned a lot about resilience in 2025. As we navigate generative AIs impact on scientific open source and shifting funding landscapes, pyOpenSci is building resilience through training, sponsorship, and community-centered leadership. Learn more about our plan."
 author: "pyopensci"
 permalink: /blog/2026-building-resilience-together.html

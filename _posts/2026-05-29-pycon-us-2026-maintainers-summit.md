@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Tools Track, GenAI Bof and Roundtables: This year's PyCon US Maintainer Summit was something special"
+blog_topic: community
 excerpt: "As a co-organizer of the PyCon US Maintainer Summit, Leah Wasser reflects on a milestone year—150+ maintainers, formal PyCon registration, new community tools, and roundtables on packaging, security, and generative AI."
 author: "Leah Wasser"
 permalink: /blog/pycon-us-2026-maintainers-summit.html
+blog_image: images/blog/2026/pycon-us-2026-maintainers-summit-organizers.png
+blog_image_alt: "Maintainer Summit co-organizers Leah Wasser, Inessa Pawson, and Mariatta Wijaya smile together for a selfie on an outdoor patio at PyCon US in Long Beach, wearing conference lanyards."
 header:
   overlay_image: images/blog/headers/pycon-us-2026-header.png
 categories:

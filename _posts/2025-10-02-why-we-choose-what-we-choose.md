@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Why We Choose What We Choose"
+blog_topic: community
 excerpt: "In selecting one workflow to package a Python project, pyOpenSci chooses between a lot of code tools. These choices often come after months of exploration and debate. Find out what motivates us to make the decisions that we do."
 author: "Jeremiah Paige"
 permalink: /blog/how-we-choose-python-tools.html

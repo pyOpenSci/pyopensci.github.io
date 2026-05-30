@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "pyOpenSci's Guide to SciPy"
+blog_topic: education
 excerpt: "We've got another incredible conference on the horizon, and wanted to share the talks, workshops, and sprints where you can find members of the pyOpenSci community!"
 author: "Jesse Mostipak"
 permalink: /blog/pyos-guide-to-scipy-2024.html
