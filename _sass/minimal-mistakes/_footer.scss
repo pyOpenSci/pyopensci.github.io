@@ -151,3 +151,19 @@
     color: rgba($pyos-white, 0.85);
   }
 }
+
+.page__footer-netlify {
+  margin-top: 1em;
+  text-align: center;
+
+  a {
+    display: inline-block;
+    line-height: 0;
+  }
+
+  img {
+    display: block;
+    height: auto;
+    max-width: 5rem;
+  }
+}
