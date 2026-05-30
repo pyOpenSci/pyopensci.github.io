@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "pyOpenSci @ SciPy 2024 - Python Packaging Tutorials, Talks and Community :heart:"
+blog_topic: community
 excerpt: "pyOpenSci had an incredibly impactful SciPy conference this year in Tacoma Washingon. I gave a talk and we lead a workshop on Python packaging and we had 39 issues and pull requests submitted during our sprints. Learn more about both the SciPy meeting and my expeirence SciPy in Tacoma, Washington this year."
 author: "Leah Wasser"
 permalink: /blog/pyos-scipy-2024-recap.html

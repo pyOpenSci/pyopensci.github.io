@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Volunteers needed: pyOpenSci Editorial Board"
+blog_topic: software
 excerpt: "pyOpenSci is looking for volunteers from a wide array of scientific backgrounds to join our Editorial Board."
 author: "Jesse Mostipak"
 permalink: /blog/pyos-call-for-editors-may-2024.html

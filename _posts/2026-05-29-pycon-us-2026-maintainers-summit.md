@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Tools Track, GenAI Bof and Roundtables: This year's PyCon US Maintainer Summit was something special"
+blog_topic: community
 excerpt: "As a co-organizer of the PyCon US Maintainer Summit, Leah Wasser reflects on a milestone year—150+ maintainers, formal PyCon registration, new community tools, and roundtables on packaging, security, and generative AI."
 author: "Leah Wasser"
 permalink: /blog/pycon-us-2026-maintainers-summit.html

@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "pyOpenSci Newsletter: April 2024"
+blog_topic: updates
 excerpt: "New contributors, a new package, and a few new social campaigns, all to keep you connected with the pyOpenSci community!"
 author: "Jesse Mostipak"
 permalink: /blog/pyos-newsletter-april-2024.html

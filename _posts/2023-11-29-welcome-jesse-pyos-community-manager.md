@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "👋 Hello, world! Greetings from the new pyOS Community Manager"
+blog_topic: community
 excerpt: "Learn more about our new pyOpenSci Community Manager, Jesse Mostipak, in her first pyOpenSci blog post!"
 author: "Jesse Mostipak"
 permalink: /blog/pyOpenSci-new-community-manager.html

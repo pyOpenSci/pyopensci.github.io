@@ -3,13 +3,18 @@
   Parameters: post (required)
 {% endcomment %}
 
-{% assign blog_topic = nil %}
-{% for cat in include.post.categories %}
-  {% unless cat == "blog-post" %}
-    {% assign blog_topic = cat %}
-    {% break %}
-  {% endunless %}
-{% endfor %}
+{% assign topic_slug = include.post.blog_topic %}
+{% if topic_slug %}
+  {% assign topic_label = site.data.blog_topics[topic_slug].label | default: topic_slug %}
+{% else %}
+  {% assign topic_label = nil %}
+  {% for cat in include.post.categories %}
+    {% unless cat == "blog-post" %}
+      {% assign topic_label = cat | replace: "-", " " %}
+      {% break %}
+    {% endunless %}
+  {% endfor %}
+{% endif %}
 
 {% assign card_title = include.post.title | markdownify | strip_html %}
 {% assign post_url = include.post.url | relative_url %}
@@ -19,8 +24,8 @@
     <time class="blog-archive-card__date" datetime="{{ include.post.date | date_to_xmlschema }}">
       {{ include.post.date | date: "%b %-d, %Y" }}
     </time>
-    {% if blog_topic %}
-      <span class="blog-archive-card__badge">{{ blog_topic | replace: "-", " " }}</span>
+    {% if topic_label %}
+      <span class="blog-archive-card__badge">{{ topic_label }}</span>
     {% endif %}
   </div>
 

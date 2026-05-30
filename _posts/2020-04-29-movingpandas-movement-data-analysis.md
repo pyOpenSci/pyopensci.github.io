@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "MovingPandas: Data Structures and Methods for Movement Data Analysis"
+blog_topic: software
 excerpt: "MovingPandas is an easy to use toolkit for exploring movement data that has recently passed the PyOpenSci review."
 author: "Anita Graser"
 permalink: /blog/movingpandas-movement-data-analysis.html

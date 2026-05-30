@@ -98,7 +98,6 @@ And last but not least, we’d also love for you to be a guest blogger on the [p
 </div>
 </div>
 
-{% include div_purple_top.html  %}
 
 {% include div_purple_top.html  %}
 

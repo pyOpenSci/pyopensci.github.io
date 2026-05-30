@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Reaffirming pyOpenSci's Commitment to Inclusion"
+blog_topic: community
 excerpt: "pyOpenSci is growing a global, vibrant and inclusive open source community where everyone from all backgrounds and identities can contribute to better, more open science. Join us in breaking down barriers and building a future where all voices shape scientific discovery."
 author: "Executive Council"
 authors: "Leah Wasser, Karen Cranston, Tracy Teal"

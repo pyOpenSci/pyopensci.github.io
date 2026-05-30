@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "pyOpenSci Newsletter: March 2024"
+blog_topic: updates
 excerpt: "New partnerships, packages, and conference announcements!"
 author: "Jesse Mostipak"
 permalink: /blog/pyos-newsletter-march-2024.html

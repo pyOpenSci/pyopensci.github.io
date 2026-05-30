@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "pyOpenSci celebrates Inessa Pawson"
+blog_topic: community
 excerpt: "Inessa’s leadership and dedication have profoundly shaped the open source community, from NumPy to NumFOCUS. Learn more about her contributions and impact."
 author: "Leah Wasser"
 permalink: /blog/pyopensci-celebrates-inessa-pawson.html
