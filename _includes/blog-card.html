@@ -1,0 +1,67 @@
+{% comment %}
+  Blog card partial.
+  Parameters:
+    post (required)
+    size: featured | compact | grid (default: grid)
+    color_counter: fallback header color index (optional)
+
+  Post front matter (optional):
+    blog_image: path to listing card photo (preferred over header.overlay_image)
+    blog_image_alt: alt text for blog_image
+{% endcomment %}
+
+{% assign card_size = include.size | default: "grid" %}
+{% assign blog_topic = nil %}
+{% for cat in include.post.categories %}
+  {% unless cat == "blog-post" %}
+    {% assign blog_topic = cat %}
+    {% break %}
+  {% endunless %}
+{% endfor %}
+
+{% assign card_title = include.post.title | markdownify | strip_html %}
+{% assign fallback_color = include.color_counter | default: 0 %}
+{% assign card_image = include.post.blog_image %}
+{% if card_image == nil and include.post.header.overlay_image %}
+  {% assign card_image = include.post.header.overlay_image %}
+{% endif %}
+{% assign card_image_alt = include.post.blog_image_alt | default: include.post.feature_alt | default: card_title %}
+
+<article class="blog-card blog-card--{{ card_size }}">
+  <a class="blog-card__link" href="{{ include.post.url | relative_url }}">
+    <div class="blog-card__media">
+      {% if card_image %}
+        <img
+          class="blog-card__image"
+          src="{{ card_image | relative_url }}"
+          alt="{{ card_image_alt | escape }}"
+          loading="lazy"
+        >
+      {% else %}
+        <div
+          class="blog-card__image blog-card__image--fallback card__header-color-{{ fallback_color }}"
+          aria-hidden="true"
+        ></div>
+      {% endif %}
+    </div>
+
+    <div class="blog-card__body">
+      {% if blog_topic %}
+        <span class="blog-card__badge">{{ blog_topic | replace: "-", " " }}</span>
+      {% endif %}
+
+      <h3 class="blog-card__title">{{ card_title }}</h3>
+
+      <p class="blog-card__meta">
+        <time datetime="{{ include.post.date | date_to_xmlschema }}">{{ include.post.date | date: "%b %-d, %Y" }}</time>
+        {% if include.post.author and card_size != "grid" %}
+          <span class="blog-card__author">{{ include.post.author }}</span>
+        {% endif %}
+      </p>
+
+      {% if card_size == "featured" and include.post.excerpt %}
+        <p class="blog-card__excerpt">{{ include.post.excerpt | strip_html | truncate: 220 }}</p>
+      {% endif %}
+    </div>
+  </a>
+</article>

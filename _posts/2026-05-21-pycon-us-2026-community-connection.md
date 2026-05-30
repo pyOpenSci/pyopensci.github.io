@@ -4,6 +4,8 @@ title: "PyCon US 2026: Community, connection, and what comes next"
 excerpt: "Times are hard, but communities like pyOpenSci still show up. At PyCon US 2026 in Long Beach, we saw people connecting, sprinting, and supporting each other—and why the humans are what make open source work."
 author: "Leah Wasser"
 permalink: /blog/pycon-us-2026-community-connection.html
+blog_image: images/blog/2026/pycon-us-2026-sprint-attendees.png
+blog_image_alt: "Three pyOpenSci community members smiling together at an outdoor patio during PyCon US 2026 in Long Beach."
 header:
   overlay_image: images/blog/headers/pycon-us-2026-header.png
 categories:
