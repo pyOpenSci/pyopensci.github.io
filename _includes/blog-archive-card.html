@@ -1,0 +1,36 @@
+{% comment %}
+  Text-only card for the blog archives section.
+  Parameters: post (required)
+{% endcomment %}
+
+{% assign blog_topic = nil %}
+{% for cat in include.post.categories %}
+  {% unless cat == "blog-post" %}
+    {% assign blog_topic = cat %}
+    {% break %}
+  {% endunless %}
+{% endfor %}
+
+{% assign card_title = include.post.title | markdownify | strip_html %}
+{% assign post_url = include.post.url | relative_url %}
+
+<article class="blog-archive-card">
+  <div class="blog-archive-card__meta-row">
+    <time class="blog-archive-card__date" datetime="{{ include.post.date | date_to_xmlschema }}">
+      {{ include.post.date | date: "%b %-d, %Y" }}
+    </time>
+    {% if blog_topic %}
+      <span class="blog-archive-card__badge">{{ blog_topic | replace: "-", " " }}</span>
+    {% endif %}
+  </div>
+
+  <h3 class="blog-archive-card__title">
+    <a href="{{ post_url }}">{{ card_title }}</a>
+  </h3>
+
+  {% if include.post.excerpt %}
+    <p class="blog-archive-card__excerpt">{{ include.post.excerpt | strip_html | truncate: 160 }}</p>
+  {% endif %}
+
+  <a class="blog-archive-card__read-more" href="{{ post_url }}">Read more &rarr;</a>
+</article>

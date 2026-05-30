@@ -225,6 +225,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
+blog_archive_age_days: 548 # posts older than this appear in "From the archives" (~18 months)
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Plugins (previously gems:)

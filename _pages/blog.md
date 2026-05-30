@@ -1,5 +1,5 @@
 ---
-layout: posts_gallery
+layout: blog-index
 permalink: /blog/
 classes: wide
 title: "pyOpenSci Blog"
@@ -10,5 +10,3 @@ header:
     overlay_image: images/headers/pyopensci-learn-header.png
 author_profile: false
 ---
-
-## Recent pyOpenSci blog posts

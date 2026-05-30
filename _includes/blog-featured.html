@@ -1,0 +1,23 @@
+{% if include.posts.size > 0 %}
+<section class="blog-index__featured" aria-label="Featured posts">
+  {% assign color_counter = 0 %}
+  {% assign color_max = 4 %}
+
+  {% for post in include.posts %}
+    {% unless post.header.overlay_image %}
+      {% assign color_counter = color_counter | plus: 1 %}
+      {% if color_counter == color_max %}
+        {% assign color_counter = 0 %}
+      {% endif %}
+    {% endunless %}
+
+    {% if forloop.first %}
+      <div class="blog-index__featured-primary">
+        {% include blog-card.html post=post size="featured" color_counter=color_counter %}
+      </div>
+    {% else %}
+      {% include blog-card.html post=post size="compact" color_counter=color_counter %}
+    {% endif %}
+  {% endfor %}
+</section>
+{% endif %}
