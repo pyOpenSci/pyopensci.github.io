@@ -4,6 +4,9 @@ title: "Generative AI and open source: what PyCon US 2026 taught us about the pa
 excerpt: "Generative AI was a dominant theme at PyCon US 2026 — not as a buzzword, but as a lived reality the Python community is actively wrestling with. From our pyOpenSci open space to the Maintainers Summit BoF to Amanda Casari's powerful closing keynote, the path forward remains human."
 author: "Leah Wasser"
 permalink: /blog/pycon-us-2026-generative-ai-open-source.html
+blog_image: images/blog/2026/pycon-us-2026-amanda-casari-keynote.png
+blog_image_alt: "Amanda Casari delivers the closing keynote at PyCon US 2026 beside a slide that reads Disposable Code Is Here to Stay, but Durable Code Is What Runs the World, attributed to Charity Majors."
+blog_topic: community
 header:
   overlay_image: images/blog/headers/pycon-us-2026-header.png
 categories:
