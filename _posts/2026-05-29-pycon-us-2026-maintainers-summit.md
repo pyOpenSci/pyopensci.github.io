@@ -34,7 +34,7 @@ I first attended the [PyCon US Maintainer Summit](https://us.pycon.org/2026/even
 
 What most people don't realize is that organizing the PyCon US Maintainer Summit is a year-round effort. We start thinking about the next one almost as soon as the last one wraps — collecting participant feedback, reflecting on what worked, and thinking about what to change.
 
-This year we focused on something we've been working toward for a while: making the Maintainer Summit a more formal part of the PyCon US schedule. The Maintainer Summit has been running since 2019; this year we took a big step forward. Attendees could officially register, we could communicate directly with them through the PyCon US registration website, and we were formally listed on the PyCon US schedule. These might seem like small steps, but it takes a lot to make these types of changes in a large event like PyCon US that is organized by both PyCon US staff but also depends on a large team of volunteers.
+This year we focused on something we've been working toward for a while: making the Maintainer Summit a more formal part of the PyCon US schedule. The Maintainer Summit has been running since 2019; this year we took a big step forward. We could communicate directly with the conference attendees registered for the Summit through the PyCon US registration website, and our schedule was available through the PyCon US schedule webpage. These might seem like small steps, but it takes a lot to make these types of changes in a large event like PyCon US that is organized by both PyCon US staff but also depends on a large team of volunteers.
 
 This year's successes wouldn't have happened without the incredible support of PyCon US co-chairs [Elaine Wong](https://github.com/elainewong) and [Jon Bonafato](https://github.com/jonafato), and PSF infrastructure lead [Jacob Coffee](https://github.com/jacobcoffee).
 
@@ -50,7 +50,7 @@ We also rethought the structure of the Maintainer Summit this year. We added a T
   <figcaption><a href="https://github.com/cjames23">Cary Hawkins</a> presents on <a href="https://hatch.pypa.io/">Hatch</a> in the Maintainer Summit during the newly added Tools Track that featured both Hatch and UV.</figcaption>
 </figure>
 
-We also helped launch an unofficial Discord with an automated bot — built with help from some wonderful folks in the Python community — that provided real-time session updates and gave attendees a way to connect with each other throughout the day. A first for the summit. This was a great way to help attendees connect with each other and follow the conference schedule without having to keep checking the schedule website.
+We also set up an unofficial Discord with an automated bot — built with help from some wonderful folks in the Python community — that provided real-time session updates and gave attendees a way to connect with each other throughout the days of the conference. A first for the summit. This was a great way to help attendees connect with each other and follow the conference schedule without having to keep checking the schedule website.
 
 None of this happens without an incredible team. [Inessa Pawson](https://github.com/InessaPawson) and [Mariatta Wijaya](https://github.com/mariatta) bring deep experience organizing events like this, and I've learned so much working alongside them. From the call for proposals, to reading submissions, to managing last-minute schedule changes — there's an enormous amount of work that goes into making a day like this feel seamless.
 
