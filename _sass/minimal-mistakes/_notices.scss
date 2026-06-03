@@ -177,20 +177,12 @@
   max-width: 100%;
 
   &.highlight-quote {
-    margin: 3rem .5em;
-    padding: 0;
+    margin: 2rem 0;
+    padding: 1.25rem 1.5rem;
     max-width: $medium;
 
-    p {
-      margin-bottom: 1rem;
-      font-size: 1.5rem!important;
-    }
-    &::after {
-      margin: 2rem;
-    }
-
-    footer {
-      text-align: right;
+    p.quote {
+      font-size: $type-size-4 !important;
     }
   }
 }
@@ -206,7 +198,4 @@
     }
   }
 
-  blockquote.highlight-quote>div.end:after {
-    margin-top: 3rem;
-  }
 }

@@ -64,7 +64,7 @@ Even in a hard year — especially in a hard year — I left the conference feel
 
 **Part 3: [The sprints](/blog/pycon-us-2026-sprints.html)** — From one person in Salt Lake City to a room full of contributors working together. Growth, learning, and community in action.
 
-**Part 4: Generative AI and open source** — GenAI was everywhere at PyCon this year. Not as hype, but as a real challenge the community is wrestling with. Between our open space, the Maintainer Summit BoF, and Amanda Casari's powerful closing keynote, a theme emerged: the path forward is human.
+**Part 4: [Generative AI and open source](/blog/pycon-us-2026-generative-ai-open-source.html)** — GenAI was everywhere at PyCon this year. Not as hype, but as a real challenge the community is wrestling with. Between our open space, the Maintainer Summit BoF, and Amanda Casari's powerful closing keynote, a theme emerged: the path forward is human.
 
 ## What it all comes down to
 
@@ -73,4 +73,4 @@ If there's one thing that tied all of these experiences together, it's this: **t
 
 ---
 
-*This is Part 1 of a 4-part series on pyOpenSci at PyCon US 2026. [Part 2: Maintainer Summit](/blog/pycon-us-2026-maintainers-summit.html) · [Part 3: pyOpenSci sprints](/blog/pycon-us-2026-sprints.html) · Part 4: generative AI and open source (coming soon).*
+*This is Part 1 of a 4-part series on pyOpenSci at PyCon US 2026. [Part 2: Maintainer Summit](/blog/pycon-us-2026-maintainers-summit.html) · [Part 3: pyOpenSci sprints](/blog/pycon-us-2026-sprints.html) · [Part 4: generative AI and open source](/blog/pycon-us-2026-generative-ai-open-source.html).*

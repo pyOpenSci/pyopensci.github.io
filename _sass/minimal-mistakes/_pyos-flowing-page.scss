@@ -297,46 +297,4 @@ blockquote.highlight-quote.wide[class~="highlight-quote--split"] {
     min-width: 0;
     margin-top: 0;
     margin-bottom: 0;
-    // Anchor decorative quotes so they stay inside the purple band
-    position: relative;
-    padding-top: 1.5rem;
-    padding-bottom: 4rem;
-    padding-right: 1.5rem;
-    padding-left: 0.25rem;
-
-    // +10% leading vs .wide blockquote paragraph (base 2.2rem)
-    p.quote {
-        line-height: calc(2.2rem * 1.05);
-    }
-
-    // Less upward shift than default -20px so the open quote clears the h3
-    p.quote:before {
-        top: -0.35rem;
-    }
-
-    &:after {
-        right: 1rem;
-        bottom: 0.75rem;
-        top: auto;
-        margin-top: 0;
-    }
-
-    > div.end {
-        position: relative;
-        display: block;
-        min-height: 2.5rem;
-    }
-
-    > div.end:after {
-        right: 0.75rem !important;
-        bottom: 0 !important;
-        top: auto !important;
-        margin-top: 0 !important;
-    }
-
-    // With footer, close-quote also renders on .end — hide duplicate (must follow &:after)
-    &:has(footer):after {
-        content: none !important;
-        display: none !important;
-    }
 }
