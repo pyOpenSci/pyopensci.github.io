@@ -65,10 +65,13 @@ $type-size-8: 0.635rem !default; // ~10.16px
 $type-size-card-title: 1rem !default;
 $type-size-card-body: 1rem !default;
 $type-size-card-meta: 0.875rem !default;
-$type-size-card-label: 0.75rem !default;
+$type-size-card-label: 0.85rem !default;
 $type-size-card-title-lg: 1.1rem !default;
-$type-size-card-title-xl: 1.4rem !default;
+$type-size-card-title-xl: 1.5rem !default;
+$type-size-blog-featured-title: 1.7rem !default;
+$type-size-blog-featured-excerpt: 1.1rem !default;
 $line-height-card-body: 1.45 !default;
+$line-height-blog-featured-excerpt: 1.9 !default;
 $line-height-card-meta: 1.35 !default;
 
 /* headline scale */
@@ -182,6 +185,20 @@ $navicon-link-color-hover: mix(#fff, $primary-color, 75%) !default;
 /* notices */
 $notice-background-mix: 80% !default;
 $code-notice-background-mix: 90% !default;
+
+/* connect-with-pyos footer (extends .notice) */
+$connect-notice-padding: 1.5rem !default;
+$connect-notice-padding-mobile: 1rem !default;
+$connect-notice-margin-y: 1rem !default;
+$connect-notice-header-size: 1.35rem !default;
+$connect-notice-header-margin: 0.5rem !default;
+$connect-notice-line-height: 1.5rem !default;
+$connect-notice-paragraph-spacing: 0.5rem !default;
+$connect-notice-list-margin-top: 0.25rem !default;
+$connect-notice-list-margin-bottom: 0.5rem !default;
+$connect-notice-list-item-spacing: 0.25rem !default;
+$connect-notice-social-gap-y: 0.25rem !default;
+$connect-notice-social-gap-x: 1.25rem !default;
 
 /* syntax highlighting (base16) */
 $base00: #263238 !default;

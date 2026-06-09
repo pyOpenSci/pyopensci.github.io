@@ -162,99 +162,73 @@
     font-size: 5rem;
   }
 
-  /* Block quote with bigger quotes*/
+  /* Pull quote — pale green card with green accent bar */
   blockquote.highlight-quote {
     border: none;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    margin-top: 6rem;
-    margin-bottom: 4rem;
-    padding: 0 2rem;
+    border-left: 4px solid $pyos-teal;
+    margin: 2rem 0;
+    padding: 1.25rem 1.5rem;
     max-width: $large;
+    background-color: mix(#fff, $pyos-teal, 92%);
+    font-family: $body-font;
+    font-style: normal;
 
-    footer {
-      font-style: italic;
-      font-weight: 500;
-      text-align: right;
-    }
-
-    &:after{
-      @extend %quote-style;
-      position: absolute;
-      content: close-quote;
-      right: 10rem; // To ensure the right quote is within the margin
-      margin-top:2rem;
-    }
-    & > div.end {
-      position: relative;
-    }
-
-    & > div.end:after {
-      @extend %quote-style;
-      content: close-quote;
-      position: absolute;
-      right: 0;
-      margin-top:2.8rem;
-    }
-
-    p {
+    p,
+    p.quote {
+      margin: 0 0 0.5rem;
+      font-family: $title-font-family;
       font-size: $type-size-4;
-      line-height: 2.8rem;
-      position: relative;
-      margin-bottom: 0.63rem;
+      font-weight: $semibold-weight;
+      line-height: 1.5;
+      color: $text-color;
+    }
+
+    footer,
+    .highlight-quote__cite {
+      margin: 0;
+      text-align: left;
+    }
+
+    cite {
+      display: block;
+      font-family: $body-font;
+      font-size: $type-size-6;
+      font-style: normal;
+      font-weight: $weight-4;
+      line-height: 1.4;
+      color: $muted-text-color;
 
       &:before {
-        @extend %quote-style;
-        position: absolute;
-        content: open-quote;
-        left: 0;
-        top: -20px;
+        content: "\2014";
+        padding-right: 0.35rem;
       }
     }
 
     &.magenta {
-      div.end:after,
-      p:before,
-      p:after {
-        @extend %quote-style;
-        color: $pyos-magenta;
-      }
+      border-left-color: $pyos-magenta;
     }
 
     &.purple {
-      div.end:after,
-      p:before,
-      p:after {
-        color: $pyos-mediumpurple;
-      }
+      border-left-color: $pyos-mediumpurple;
     }
-
 
     @include breakpoint('max-width: #$mobile') {
-      padding: 0;
-      //font-size: 2rem;
+      padding: 1rem 1.25rem;
     }
 
-  /* wider variant for landing page hero quotes */
-  blockquote.highlight-quote.wide {
-    max-width: none;
-    width: 100%;
-    margin: 2em auto;
-    padding: 0;
-  }
+    /* wider variant for landing page hero quotes */
+    &.wide {
+      max-width: none;
+      width: 100%;
+      margin: 2rem auto;
+    }
 
-  blockquote.highlight-quote.wide p {
-    font-size: $type-size-4;
-    line-height: 2.2rem;
+    &.wide p,
+    &.wide p.quote {
+      font-size: $type-size-4;
+      line-height: 1.5;
+    }
   }
-  }
-
-  // for some reason i have to manually override here
-  blockquote.highlight-quote.magenta:after{
-      color: $pyos-magenta;
-      }
-  blockquote.highlight-quote.purple:after{
-      color: $pyos-mediumpurple;
-      }
 
   /* links */
 

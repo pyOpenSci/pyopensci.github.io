@@ -9,7 +9,6 @@ gem "ffi", "= 1.16.3"
 gem "jekyll", "~>4.3.3"
 
 group :jekyll_plugins do
-  gem "jekyll-paginate", "~> 1.1"
   gem "jekyll-sitemap", "~> 1.4"
   gem "jekyll-gist", "~> 1.5"
   gem "jekyll-feed", "~> 0.17.0"
