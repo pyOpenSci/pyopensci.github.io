@@ -137,28 +137,109 @@ buildFuture = true
   url = 'https://give.communityin.org/pyopensci_2024'
   variant = 'primary'
 
+# Main nav — internal pages use '#' until content lands.
+
 [[menu.main]]
-  name = 'Learn'
+  name = 'Training'
   weight = 10
+
+[[menu.main]]
+  name = 'For Learners'
+  url = '#'
+  parent = 'Training'
+  weight = 1
+
+[[menu.main]]
+  name = 'For Universities & Labs'
+  url = '#'
+  parent = 'Training'
+  weight = 2
 
 [[menu.main]]
   name = 'Blog'
   url = '/blog/'
-  parent = 'Learn'
-  weight = 1
+  parent = 'Training'
+  weight = 3
 
 [[menu.main]]
   name = 'Events'
   url = '/events/'
-  parent = 'Learn'
-  weight = 2
+  parent = 'Training'
+  weight = 4
 
 [[menu.main]]
-  name = 'Packages'
-  url = '/python-packages/'
+  name = 'Research Software'
   weight = 20
 
 [[menu.main]]
-  name = 'Peer review'
+  name = 'Peer Review'
   url = '/about-peer-review/'
+  parent = 'Research Software'
+  weight = 1
+
+[[menu.main]]
+  name = 'Submit a Package'
+  url = '/how-to-submit-a-package-to-pyopensci/'
+  parent = 'Research Software'
+  weight = 2
+
+[[menu.main]]
+  name = 'Our Packages'
+  url = '/python-packages/'
+  parent = 'Research Software'
+  weight = 3
+
+[[menu.main]]
+  name = 'Peer Review Guide'
+  url = 'https://www.pyopensci.org/software-peer-review/'
+  parent = 'Research Software'
+  weight = 4
+  [menu.main.params]
+    external = true
+    icon = 'fas fa-external-link-alt'
+
+[[menu.main]]
+  name = 'Packaging Guide'
+  url = 'https://www.pyopensci.org/python-package-guide/'
+  parent = 'Research Software'
+  weight = 5
+  [menu.main.params]
+    external = true
+    icon = 'fas fa-external-link-alt'
+
+[[menu.main]]
+  name = 'Community'
   weight = 30
+
+[[menu.main]]
+  name = 'Our Community'
+  url = '#'
+  parent = 'Community'
+  weight = 1
+  [menu.main.params]
+    icon = 'fa-brands fa-discourse'
+
+[[menu.main]]
+  name = 'Handbook'
+  url = 'https://www.pyopensci.org/handbook/'
+  parent = 'Community'
+  weight = 2
+  [menu.main.params]
+    external = true
+    icon = 'fas fa-external-link-alt'
+
+[[menu.main]]
+  name = 'Support Us'
+  weight = 40
+
+[[menu.main]]
+  name = 'Ways to Give'
+  url = '#'
+  parent = 'Support Us'
+  weight = 1
+
+[[menu.main]]
+  name = 'Volunteer'
+  url = '#'
+  parent = 'Support Us'
+  weight = 2

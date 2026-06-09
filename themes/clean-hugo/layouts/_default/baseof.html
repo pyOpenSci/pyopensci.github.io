@@ -157,8 +157,20 @@
               </button>
               <ul class="site-nav__dropdown-menu">
                 {{ range .Children }}
+                  {{ $item := . }}
                   <li>
-                    <a href="{{ .URL }}" class="site-nav__dropdown-link"{{ if eq .URL $.RelPermalink }} aria-current="page"{{ end }}>{{ .Name }}</a>
+                    <a href="{{ $item.URL }}"
+                       class="site-nav__dropdown-link"
+                       {{- if eq $item.URL $.RelPermalink }} aria-current="page"{{ end -}}
+                       {{- with $item.Params.external }}
+                         target="_blank" rel="noopener noreferrer"
+                         aria-label="{{ $item.Name }} (opens in new tab)"
+                       {{- end }}>
+                      {{ $item.Name }}
+                      {{- with $item.Params.icon }}
+                        <i class="{{ . }}" aria-hidden="true"></i>
+                      {{- end }}
+                    </a>
                   </li>
                 {{ end }}
               </ul>

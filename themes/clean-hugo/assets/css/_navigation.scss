@@ -270,6 +270,11 @@
   border-radius: 0.25rem;
   background-color: transparent;
 
+  i {
+    margin-left: 0.375rem;
+    font-size: 0.75rem;
+  }
+
   &:hover,
   &:focus {
     color: var(--color-gray-900);
