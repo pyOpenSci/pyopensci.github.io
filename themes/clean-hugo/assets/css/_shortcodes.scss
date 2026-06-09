@@ -216,6 +216,7 @@
       color: var(--color-gray-900);
     }
 
+    .single-card-wide__body,
     .container > div > div:last-child {
       font-size: $card-text-size;
       line-height: $card-line-height;
@@ -234,7 +235,7 @@
         line-height: $card-line-height;
       }
 
-      a {
+      a:not(.btn) {
         color: var(--color-link);
         text-decoration: underline;
         font-weight: 500;
@@ -244,6 +245,10 @@
         &:focus {
           color: var(--color-link-hover);
         }
+      }
+
+      .btn {
+        margin-top: 1.25rem;
       }
 
       strong {

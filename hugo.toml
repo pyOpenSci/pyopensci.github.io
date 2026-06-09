@@ -137,7 +137,8 @@ buildFuture = true
   url = 'https://give.communityin.org/pyopensci_2024'
   variant = 'primary'
 
-# Main nav — internal pages use '#' until content lands.
+# Main nav — Training + Research Software internal pages live; Community +
+# Support Us still use '#' until people + support pages land.
 
 [[menu.main]]
   name = 'Training'
@@ -145,13 +146,13 @@ buildFuture = true
 
 [[menu.main]]
   name = 'For Learners'
-  url = '#'
+  url = '/learn/'
   parent = 'Training'
   weight = 1
 
 [[menu.main]]
   name = 'For Universities & Labs'
-  url = '#'
+  url = '/learn-universities-labs/'
   parent = 'Training'
   weight = 2
 

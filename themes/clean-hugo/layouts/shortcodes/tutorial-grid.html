@@ -1,0 +1,30 @@
+{{/*
+  Tutorial grid — packaging tutorials from data/tutorials.yml
+  Usage: {{< tutorial-grid />}}
+*/}}
+{{ $tutorials := sort .Site.Data.tutorials "order" "asc" }}
+{{ if gt (len $tutorials) 0 }}
+<div class="tutorial-grid">
+  {{ range $tutorials }}
+  <article class="tutorial-grid__card">
+    <div class="tutorial-grid__body">
+      <h3 class="tutorial-grid__title">{{ .title }}</h3>
+      {{ with .excerpt }}
+      <p class="tutorial-grid__excerpt">{{ . }}</p>
+      {{ end }}
+    </div>
+    {{ with .link }}
+    <a
+      class="tutorial-grid__cta btn btn--lg"
+      href="{{ . }}"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+      View tutorial
+    </a>
+    {{ end }}
+  </article>
+  {{ end }}
+</div>
+{{ end }}
