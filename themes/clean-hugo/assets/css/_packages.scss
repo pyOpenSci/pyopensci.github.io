@@ -27,6 +27,22 @@
     /* Child div uses .container utility class */
   }
 
+  /* Archived packages — reuses .blog-archives full-bleed band from _blog.scss */
+  .packages-page__archives {
+    margin-bottom: 4rem;
+
+    .intro p {
+      margin: 0.75rem 0 0;
+      max-width: 42rem;
+      color: var(--color-gray-700);
+      line-height: 1.6;
+    }
+
+    .packages-grid {
+      margin-top: 0;
+    }
+  }
+
   .packages-page__empty {
     padding-top: 3rem;
     padding-bottom: 3rem;

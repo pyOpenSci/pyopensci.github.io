@@ -13,7 +13,14 @@ document.addEventListener('alpine:init', () => {
     activeFilter: '*',
 
     initPackages(packageData) {
-      this.packages = packageData || [];
+      if (typeof packageData === 'string') {
+        try {
+          packageData = JSON.parse(packageData);
+        } catch (e) {
+          packageData = [];
+        }
+      }
+      this.packages = Array.isArray(packageData) ? packageData : [];
     },
 
     get activePackages() {
@@ -25,17 +32,29 @@ document.addEventListener('alpine:init', () => {
       return this.packages.filter(pkg => pkg.active === false);
     },
 
+    categoryMatches(pkg, filter) {
+      const cats = pkg.categories || [];
+      if (filter === 'data-munging') {
+        return cats.some(cat =>
+          cat === 'data-munging' ||
+          cat.includes('data-processing-munging')
+        );
+      }
+      if (filter === 'data-visualization') {
+        return cats.some(cat => cat.includes('data-visualization'));
+      }
+      return cats.some(cat =>
+        cat.includes(filter) ||
+        cat === filter.replace(/-/g, '_')
+      );
+    },
+
     filterPackages(activeOnly) {
       let filtered = this.packages;
       filtered = filtered.filter(pkg => pkg.active === activeOnly);
 
       if (this.activeFilter !== '*') {
-        filtered = filtered.filter(pkg => {
-          return pkg.categories && pkg.categories.some(cat =>
-            cat.includes(this.activeFilter) ||
-            cat === this.activeFilter.replace(/-/g, '_')
-          );
-        });
+        filtered = filtered.filter(pkg => this.categoryMatches(pkg, this.activeFilter));
       }
 
       if (this.searchQuery.trim() !== '') {
