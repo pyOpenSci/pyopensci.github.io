@@ -17,6 +17,7 @@ event:
 aliases:
 - "/events/pyopensci-community-call-may-2025.html"
 ---
+
 ## <i class="fa-regular fa-heart"></i> Join us for a talk on contributing to open source!
 Open Source Voices: *A community call for learning, sharing, and growing together*
 

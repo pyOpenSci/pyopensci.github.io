@@ -16,6 +16,7 @@ event:
 aliases:
 - "/events/create-first-python-package-scipy-2024.html"
 ---
+
 ## Create your first Python package: make your Python code easier to share and use
 
 * **What:** A hands-on workshop, titled: [Create Your First Python Package: Make Your Python Code Easier to Share and Use](https://cfp.scipy.org/2024/talk/QT9GBY/)

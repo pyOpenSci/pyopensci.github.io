@@ -13,6 +13,7 @@ event:
 aliases:
 - "/events/pyopensci-scipy25-create-python-package-workshop.html"
 ---
+
 ## <i class="fa-solid fa-box-open"></i> Learn how to create your first Python package!
 
 * **When:** Tuesday, 8 July 2025 @ 8:00–12:00 PM Pacific Time

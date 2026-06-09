@@ -11,11 +11,11 @@ event:
   start_date: '2026-05-16'
   end_date: '2026-05-16'
   location: Long Beach, CA
-  conference: PyCon US 2026
-  event_type: training
+  event_type: community
 aliases:
 - "/events/2026-pycon-us-maintainers-summit.html"
 ---
+
 ## PyCon US Maintainers Summit
 
 * **What:** Maintainers Summit at PyCon US 2026
