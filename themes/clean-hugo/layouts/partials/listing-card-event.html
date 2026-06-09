@@ -1,0 +1,52 @@
+{{/*
+  Event listing card — same markup/classes as blog archive cards
+  (listing-card--blog-archive on .blog-archives light purple band).
+  Optional params.image renders a 16:9 strip above the card body.
+  Pass the event page as context (.).
+*/}}
+{{ $p := . }}
+{{ $e := $p.Params.event }}
+{{ if not $e }}
+  {{ return }}
+{{ end }}
+{{ $typeLabels := dict "training" "Training" "sprint" "Sprint" "community" "Community event" "talk" "Talk" }}
+{{ $kind := lower (urlize ($e.event_type | default "")) }}
+{{ $typeLabel := index $typeLabels $kind }}
+{{ $endStr := $e.end_date | default $e.start_date }}
+{{ $img := partial "get-image.html" (dict "image" $p.Params.image "fallbackAlt" $p.Title "page" $p) }}
+<article class="listing-card listing-card--blog-archive listing-card--density-default{{ if $img.exists }} listing-card--with-image{{ end }}">
+  {{ if $img.exists }}
+    <figure class="listing-card__image">
+      <a href="{{ $p.Permalink }}" tabindex="-1" aria-hidden="true">
+        <img src="{{ $img.src }}" alt="{{ $img.alt }}" loading="lazy" decoding="async" />
+      </a>
+    </figure>
+  {{ end }}
+
+  <div class="listing-card__body">
+    <div class="meta">
+      <time datetime="{{ $e.start_date }}/{{ $endStr }}">
+        {{ partial "event-date-display.html" (dict "event" $e) }}
+      </time>
+      {{ if $typeLabel }}
+        <span class="category">{{ $typeLabel }}</span>
+      {{ else }}
+        <span class="category">Event</span>
+      {{ end }}
+    </div>
+
+    <div class="content">
+      <h3>
+        <a href="{{ $p.Permalink }}">{{ $p.Title }}</a>
+      </h3>
+
+      <p class="excerpt">
+        {{ partial "blog-excerpt.html" (dict "." $p "length" 200) }}
+      </p>
+
+      <a href="{{ $p.Permalink }}" class="read-more">
+        Read more <i class="fas fa-arrow-right"></i>
+      </a>
+    </div>
+  </div>
+</article>
