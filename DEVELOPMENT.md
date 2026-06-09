@@ -160,3 +160,27 @@ moved under `jekyll/`):
 `netlify.toml` runs `npm ci && hugo --gc --minify`. CSS is built on Netlify the
 same way as locally. No separate CSS build step or committed compiled bundle is
 required for the main stylesheet.
+
+## GitHub Actions (CI)
+
+On pull requests and pushes to `main`, `.github/workflows/build-site.yml` runs
+the same Hugo build as Netlify, then validates the output:
+
+1. **Setup** — `npm ci` (PostCSS deps), Hugo Extended **0.139.4** (matches
+   `netlify.toml` `HUGO_VERSION`).
+2. **Build** — `hugo --gc --minify` with `HUGO_ENV=production` → output in
+   `public/`.
+3. **Link check** — [lychee](https://github.com/lycheeverse/lychee) against
+   `public/` (config in `lychee.toml`, domain skips in `.lycheeignore`).
+4. **HTML check** — [htmlproofer](https://github.com/gjtorikian/html-proofer) on
+   `public/` (images and scripts; skips live pyopensci.org URLs that lag deploy).
+
+CircleCI and the CircleCI artifact redirector were removed during the Hugo
+migration.
+
+**Still on Jekyll (migrate later):**
+
+| Workflow | Purpose |
+|----------|---------|
+| `.github/workflows/linkcheck.yml` | Weekly scheduled link check |
+| `.github/workflows/deploy-gh-pages.yml` | GitHub Pages deploy badge in README |
