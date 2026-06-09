@@ -47,9 +47,44 @@ buildFuture = true
     github = 'https://github.com/pyopensci'
     bluesky = 'https://bsky.app/profile/pyopensci.org'
     linkedin = 'https://www.linkedin.com/company/pyopensci/'
+    mastodon = 'https://fosstodon.org/@pyOpenSci'
+    youtube = 'https://www.youtube.com/@pyopensci'
+    discord = 'https://discord.gg/yYyDFP2BcP'
 
   [params.footer]
-    title = 'Connect'
+    follow_label = 'Follow'
+    mission = '''pyOpensci is dedicated to creating a welcoming, supportive and diverse community around the open source Python tools that drive open science. Our <a href="https://www.pyopensci.org/handbook/CODE_OF_CONDUCT.html" target="_blank" rel="noopener noreferrer">Code of Conduct</a> defines expected behavior and guidelines that help create such a community. pyOpenSci is a fiscally sponsored project of <a href="https://communityinitiatives.org/" target="_blank" rel="noopener noreferrer">Community Initiatives</a>, a registered 501(c)3 non-profit organization based in California, USA. pyOpenSci is grateful for support from the <a href="https://sloan.org/" target="_blank" rel="noopener noreferrer">Sloan Foundation</a> and the <a href="https://chanzuckerberg.com/" target="_blank" rel="noopener noreferrer">Chan Zuckerberg Initiative</a>.'''
+
+[[params.footer.links]]
+  label = 'Mastodon'
+  icon = 'fab fa-fw fa-mastodon'
+  url = 'https://fosstodon.org/@pyOpenSci'
+  rel_me = true
+
+[[params.footer.links]]
+  label = 'Bluesky'
+  icon = 'fa-solid fa-cloud'
+  url = 'https://bsky.app/profile/pyopensci.org'
+
+[[params.footer.links]]
+  label = 'LinkedIn'
+  icon = 'fab fa-fw fa-linkedin'
+  url = 'https://www.linkedin.com/company/pyopensci'
+
+[[params.footer.links]]
+  label = 'GitHub'
+  icon = 'fab fa-fw fa-github'
+  url = 'https://github.com/pyOpenSci'
+
+[[params.footer.links]]
+  label = 'YouTube'
+  icon = 'fa-brands fa-youtube'
+  url = 'https://www.youtube.com/@pyopensci'
+
+[[params.footer.links]]
+  label = 'Discord'
+  icon = 'fa-brands fa-discord'
+  url = 'https://discord.gg/yYyDFP2BcP'
 
 [params.theme]
   enableGallery = false
