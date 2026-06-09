@@ -21,6 +21,6 @@ tmp/*
 **/.ipynb_checkpoints/
 .lycheecache
 
-# Local agent scripts and plans — never commit
+# Local agent scripts, plans, and Cursor config — never commit
+.cursor/
 _law_tests/
-_law_scripts/
