@@ -1,32 +1,24 @@
 ---
 title: 'QuadratiK: Collection of Methods Constructed using Kernel-Based Quadratic
   Distances'
-date: 2025-01-17
+date: '2025-01-17'
 type: blog
-url: "/blog/quadratik.html"
 excerpt: QuadratiK provides a set of goodness-of-fit tests, a clustering technique
   using kernel-based quadratic distances, and algorithms for generating random samples
   from Poisson kernel-based distributions (PKBD). QuadratiK has recently been accepted
   into the pyOpenSci ecosystem.
 author: Raktim Mukhopadhyay
-tags:
-- quadratic distances
-- clustering
-- one-sample test
-- two-sample test
-- k-sample test
-- PKBD
-- user interface
-- pyos-accepted
+blog_topic: software
+toc: true
+comments: true
+url: "/blog/quadratik.html"
+lastmod: '2025-02-06'
 image:
   src: images/headers/pyopensci-quadratik.png
   alt: 'QuadratiK: Collection of Methods Constructed using Kernel-Based Quadratic
     Distances'
-toc: true
-comments: true
-lastmod: 2025-02-06
-blog_topic: software
 ---
+
 ## Introduction
 
 `QuadratiK` provides a suite of methods based on kernel-based quadratic distances, and hence the name!
@@ -71,11 +63,9 @@ print(normality_test.summary(print_fmt="grid"))
 The results of this test is shown below.
 <figure style="float: center;">
 <picture>
-  <source srcset="{{ '/images/quadratik/normality-test-results.webp'  | relative_url }}" type="image/webp">
-  <img src="{{ '/images/quadratik/normality-test-results.png' | relative_url }}" alt="Results for the Normality Test." />
+  <source srcset="images/quadratik/normality-test-results.webp" type="image/webp">
+  <img src="images/quadratik/normality-test-results.png" alt="Results for the Normality Test." />
 </picture>
-</figure>
-
 The test rightly fails to reject the null hypothesis, as the samples have been generated from a standard normal distribution.
 
 ### Two-Sample Test
@@ -110,11 +100,9 @@ print(two_sample_test.summary(print_fmt = "grid"))
 The results of the test is shown below.
 <figure style="float: center;">
 <picture>
-  <source srcset= "{{ '/images/quadratik/two-sample-test-results.webp'  | relative_url }}" type="image/webp">
-  <img src= "{{ '/images/quadratik/two-sample-test-results.png' | relative_url }}" alt="Results for the Two Sample Test." />
+  <source srcset= "images/quadratik/two-sample-test-results.webp" type="image/webp">
+  <img src= "images/quadratik/two-sample-test-results.png" alt="Results for the Two Sample Test." />
 </picture>
-</figure>
-
 The test rejects the null hypothesis, as the samples have been generated from two different distributions.
 
 ### K-Sample Test
@@ -149,11 +137,9 @@ print(k_sample_test.summary(print_fmt="grid"))
 The results of the test is shown below.
 <figure style="float: center;">
 <picture>
-  <source srcset= "{{ '/images/quadratik/k-sample-test-results.webp'  | relative_url }}" type="image/webp">
-  <img src= "{{ '/images/quadratik/k-sample-test-results.png' | relative_url }}" alt="Results for the K-Sample Test." />
+  <source srcset= "images/quadratik/k-sample-test-results.webp" type="image/webp">
+  <img src= "images/quadratik/k-sample-test-results.png" alt="Results for the K-Sample Test." />
 </picture>
-</figure>
-
 The null hypothesis is rejected for the k-sample test indicates that there is **significant evidence to conclude that at least one of the distributions among the three glass types is different**. In other words, the samples from the three classes of glass do not all come from the same underlying population distribution. This suggests that there are meaningful differences in the characteristics or features of the glass types being compared.
 
 ### Uniformity Test on the Sphere
@@ -181,11 +167,9 @@ print(unif_test.summary(print_fmt = "grid"))
 The results of the test is shown below.
 <figure style="float: center;">
 <picture>
-  <source srcset= "{{ '/images/quadratik/uniformity-test-results.webp'  | relative_url }}" type="image/webp">
-  <img src= "{{ '/images/quadratik/uniformity-test-results.png' | relative_url }}" alt="Results for the Uniformity Test." />
+  <source srcset= "images/quadratik/uniformity-test-results.webp" type="image/webp">
+  <img src= "images/quadratik/uniformity-test-results.png" alt="Results for the Uniformity Test." />
 </picture>
-</figure>
-
 ## Clustering
 
 `QuadratiK` implements the Poisson kernel-based clustering algorithm on the sphere proposed by Golzy and Markatou (2020). We will demonstrate the spherical clustering capabilities of `QuadratiK` through an image segmentation task.
@@ -194,11 +178,9 @@ The image we will be using is shown below, and the task is to identify the vario
 
 <figure style="float: center;">
 <picture>
-  <source srcset="{{ '/images/quadratik/dog-cat.webp'  | relative_url }}" type="image/webp">
-  <img src= "{{ '/images/quadratik/dog-cat.png' | relative_url }}" alt="Dog Cat Image." />
+  <source srcset="images/quadratik/dog-cat.webp" type="image/webp">
+  <img src= "images/quadratik/dog-cat.png" alt="Dog Cat Image." />
 </picture>
-</figure>
-
 Particularly, in this image a potential image segmentation task is to identify the various entities i.e. the cat and the dog in the image. Let's apply the clustering algorithm and see what does it return to us.
 
 ```python
@@ -257,11 +239,9 @@ The image is segmented into k clusters with k ranging from 2 to 8. Below, we dis
 
 <figure style="float: center;">
 <picture>
-  <source srcset= "{{ '/images/quadratik/dog-cat-segmented.webp'  | relative_url }}" type="image/webp">
-  <img src= "{{ '/images/quadratik/dog-cat-segmented.png' | relative_url }}" alt="Dog Cat Image Segmented" />
+  <source srcset= "images/quadratik/dog-cat-segmented.webp" type="image/webp">
+  <img src= "images/quadratik/dog-cat-segmented.png" alt="Dog Cat Image Segmented" />
 </picture>
-</figure>
-
 Starting from k = 5, the segmented images reveal only minor changes in the identified segments upon closer examination. Let us see if we can validate our observation using the elbow plots.
 
 ```python
@@ -270,11 +250,9 @@ elbow_plots
 ```
 <figure style="float: center;">
 <picture>
-  <source srcset= "{{ '/images/quadratik/validation-dog-cat.webp'  | relative_url }}"  type="image/webp">
-  <img src= "{{ '/images/quadratik/validation-dog-cat.png' | relative_url }}"  alt="Dog Cat Image Validation Plots" />
+  <source srcset= "images/quadratik/validation-dog-cat.webp"  type="image/webp">
+  <img src= "images/quadratik/validation-dog-cat.png"  alt="Dog Cat Image Validation Plots" />
 </picture>
-</figure>
-
 The elbow plots show a clear elbow at k = 5, which aligns with our observation that all regions of the image are effectively identified at this value of k.
 
 The clustering algorithm proposed in Golzy and Markatou has been used in other works such as Golzy et al. (2023), Strelnikoff at al. (2020), and Strelnikoff et al. (2024).
@@ -341,11 +319,9 @@ plt.tight_layout()
 
 <figure style="float: center;">
   <picture>
-    <source srcset= "{{ '/images/quadratik/unit-sphere.webp' | relative_url }}" type="image/webp">
-    <img src= "{{ '/images/quadratik/unit-sphere.png' | relative_url }}" alt="PKBD Samples on Unit Sphere."/>
+    <source srcset= "images/quadratik/unit-sphere.webp" type="image/webp">
+    <img src= "images/quadratik/unit-sphere.png" alt="PKBD Samples on Unit Sphere."/>
   </picture>
-</figure>
-
 <br>
 
 More details on Poisson Kernel-Based Distributions can be found in the package documentation [here](https://quadratik.readthedocs.io/en/latest/user_guide/pkbd.html).
@@ -361,11 +337,9 @@ UI().run()
 
 <figure style="float: center;">
   <picture>
-    <source srcset= "{{ '/images/quadratik/dash-landing.webp'  | relative_url }}"  type="image/webp">
+    <source srcset= "images/quadratik/dash-landing.webp"  type="image/webp">
     <img src="/images/quadratik/dash-landing.png" alt="Dashboard."/>
   </picture>
-</figure>
-
 ## Concluding Remarks
 
 `QuadratiK` provides methods to researchers and practitioners to delve deeper into their data, draw robust inference, and conduct potentially impactful analyses and inference across a wide array of disciplines. The `QuadratiK` package is also available in `R` and is hosted on [CRAN](https://cran.r-project.org/web/packages/QuadratiK/index.html). You can learn more about `QuadratiK` in our [arXiv preprint](https://arxiv.org/abs/2402.02290). Additional theoretical papers of interest are listed in the reference section.

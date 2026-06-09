@@ -1,17 +1,18 @@
 ---
 title: Friends don't let friends package alone- my Python packaging talk at PyCon
   2024
-date: 2024-06-05
+date: '2024-06-05'
 type: blog
-url: "/blog/python-packaging-friends-dont-let-friends-package-alone.html"
 excerpt: A blog post from the Executive Director of pyOpenSci on Python packaging,
   technical things and imposter syndrome in data science.
 author: Leah Wasser
+blog_topic: learn
 toc: true
 comments: true
-lastmod: 2024-08-29
-blog_topic: learn
+url: "/blog/python-packaging-friends-dont-let-friends-package-alone.html"
+lastmod: '2024-08-29'
 ---
+
 ## <i class="fa-solid fa-heart"></i>  Python packaging and community: my first talk at PyCon US 2024
 
 This year I gave my first talk in the [PyCon US](https://us.pycon.org/2024/) main track! For context, PyCon US is a big meeting—with over 2,700 registrations this year—a record for the event! My talk was about my experiences navigating the packaging ecosystem from a few perspectives:
@@ -23,8 +24,6 @@ This year I gave my first talk in the [PyCon US](https://us.pycon.org/2024/) mai
 The irony of these three  different perspectives is that the challenges that users face in each category are similar! Below I explore my experiences pulling together the talk.
 
 You can also watch the talk here:
-
-{% include video id="oA6-f7PtTQ4" provider="youtube" %}
 
 ### My early experiences with Python packaging
 
@@ -42,10 +41,7 @@ infrastructure that other package maintainers I trusted used—mainly GeoPandas.
 
 *I am a spatial data nerd at heart.*
 
-<figure>
-  <img src="/images/blog/2024/june/pycon-python-packaging-confusion.png" alt="Image that says  have you ever felt confused about python packaging. Below is the pyopensci flower logo. And the graphic shows a bunch of different cartoon like hands being raised." style="width: 90%;" />
-  <figcaption> Every time I ask this question, a majority of people in the room raise their hand.</figcaption>
-</figure>
+{{< figure src="images/blog/2024/june/pycon-python-packaging-confusion.png" alt="Image that says have you ever felt confused about python packaging. Below is the pyopensci flower logo. And the graphic shows a bunch of different cartoon like hands being raised.' style='width: 90%;" caption="Every time I ask this question, a majority of people in the room raise their hand." >}}
 
 But as I thought about creating pyOpenSci's open peer review process, I knew
 scientists would need a process that:
@@ -84,10 +80,7 @@ As my mentor and colleague Carol likes to say:
 
 So if you think about that "opportunity to make a wrong decision", imagine what happens if you have multiple choices that lead you down a terrifying path of uncertainty! <i class="fa-solid fa-ghost"></i>
 
-<figure>
-  <img src="/images/blog/2024/june/pycon-python-packaging-too-many-options.png" alt="Image of a flat coated retriever lying down with a purple ice bag on its head looking sad." style="width: 90%;" />
-  <figcaption> Too many choices can lead to frustration for many users that are learning a new technical thing. More biscuits—or early wins—are more empowering for a learner and set them up for success.</figcaption>
-</figure>
+{{< figure src="images/blog/2024/june/pycon-python-packaging-too-many-options.png" alt="Image of a flat coated retriever lying down with a purple ice bag on its head looking sad.' style='width: 90%;" caption="Too many choices can lead to frustration for many users that are learning a new technical thing. More biscuits—or early wins—are more empowering for a learner and set them up for success." >}}
 
 ### The evolution of the pyOpenSci Python packaging guide
 
@@ -117,10 +110,7 @@ around a single approach to pure Python packaging that would **yield user succes
 Together we created a guidebook that acknowledges a suite of fantastic tools across the ecosystem, while
 still leading users down a streamlined path.
 
-<figure>
-  <img src="/images/blog/2024/june/pyopensci-packaging-guide-overview.png" alt="Image with the pyOpenSci flower logo in the upper right hand corner. The image shows the packaging lifecycle. The graphic shows a high level overview of the elements of a Python package. the inside circle has 5 items - user documentation, code/api, test suite, contributor documentation, project metadata / license / readme. In the middle of the circle is says maintainers and has a small icon with people. on the outside circle there is an arrow and it says infrastructure." style="width: 70%;" />
-  <figcaption><i class="fa-solid fa-heart-pulse"></i> The generalized scientific Python package development process. <i class="fa-solid fa-heart-pulse"></i>.</figcaption>
-</figure>
+{{< figure src="images/blog/2024/june/pyopensci-packaging-guide-overview.png" alt="Image with the pyOpenSci flower logo in the upper right hand corner. The image shows the packaging lifecycle. The graphic shows a high level overview of the elements of a Python package. the inside circle has 5 items - user documentation, code/api, test suite, contributor documentation, project metadata / license / readme. In the middle of the circle is says maintainers and has a small icon with people. on the outside circle there is an arrow and it says infrastructure.' style='width: 70%;" caption="<i class='fa-solid fa-heart-pulse'></i> The generalized scientific Python package development process. <i class='fa-solid fa-heart-pulse'></i>." >}}
 
 ## Getting accepted to talk about packaging...  <i class="fa-solid fa-ghost"></i>
 
@@ -169,10 +159,7 @@ package and publish / release it to PyPI regularly."
 From a lens of—I am technical but I need to learn new-to-me packaging tools
 and workflows.
 
-<figure>
-  <img src="/images/blog/2024/june/pyopensci-maintainer-python-packaging-frustration.png" alt="Image of a stressed out looing stick figure typing at a computer. On the left is says Maintainers Perspective." style="width: 80%;" />
-  <figcaption><i class="fa-solid fa-heart-pulse"></i> Even as technical maintainers, the folks on the stravalib team weren't packaging experts. Why would they be? They are focused on writing good usable code (and tests). <i class="fa-solid fa-heart-pulse"></i>.</figcaption>
-</figure>
+{{< figure src="images/blog/2024/june/pyopensci-maintainer-python-packaging-frustration.png" alt="Image of a stressed out looing stick figure typing at a computer. On the left is says Maintainers Perspective.' style='width: 80%;" caption="<i class='fa-solid fa-heart-pulse'></i> Even as technical maintainers, the folks on the stravalib team weren't packaging experts. Why would they be? They are focused on writing good usable code (and tests). <i class='fa-solid fa-heart-pulse'></i>." >}}
 
 ## Fundamental first—How to make a technical ecosystem beginner accessible
 
@@ -222,10 +209,7 @@ In creating the guide, we knew we were tackling hard, complex technical problems
 
 We were able to move forward together.
 
-<figure>
-  <img src="/images/blog/2024/june/pyopensci-python-packaging-people-can-help.png" alt="Image on a dark purple background that says—people can help. below are two people stick figure like loking at each other and smiling while chatting." style="width: 70%;" />
-  <figcaption><i class="fa-solid fa-heart-pulse"></i> When tackling Python's thorniest challenges, people can help.  <i class="fa-solid fa-heart-pulse"></i>.</figcaption>
-</figure>
+{{< figure src="images/blog/2024/june/pyopensci-python-packaging-people-can-help.png" alt="Image on a dark purple background that says—people can help. below are two people stick figure like loking at each other and smiling while chatting.' style='width: 70%;" caption="<i class='fa-solid fa-heart-pulse'></i> When tackling Python's thorniest challenges, people can help. <i class='fa-solid fa-heart-pulse'></i>." >}}
 
 ### Create early wins for users
 
@@ -242,19 +226,13 @@ Early wins empower users to:
 
 High quality documentation (or tutorials) helps users achieve this by providing quickstarts and resources that ensure they can get up and running quickly and have early positive experiences.
 
-<figure>
-  <img src="/images/blog/2024/june/pyopensci-python-packaging-create-early-wins.png" alt="Image on a dark purple background that says Create Early Wins in your docs. on the left is a stressed out stick figure typing at a computer. on the right is a relaxed stick figure typing away. " style="width: 70%;" />
-  <figcaption><i class="fa-solid fa-heart-pulse"></i> By creating get-start workflows, tutorials and resources that users can easily reproduce and make progress using quickly, you are empowering beginners to stick with the task at hand. And you are building user confidence in the ecosystem.  <i class="fa-solid fa-heart-pulse"></i>.</figcaption>
-</figure>
+{{< figure src="images/blog/2024/june/pyopensci-python-packaging-create-early-wins.png" alt="Image on a dark purple background that says Create Early Wins in your docs. on the left is a stressed out stick figure typing at a computer. on the right is a relaxed stick figure typing away. ' style='width: 70%;" caption="<i class='fa-solid fa-heart-pulse'></i> By creating get-start workflows, tutorials and resources that users can easily reproduce and make progress using quickly, you are empowering beginners to stick with the task at hand. And you are building user confidence in the ecosystem. <i class='fa-solid fa-heart-pulse'></i>." >}}
 
 ### Fundamentals First
 
 When teaching beginners, break things down to their fundamental concepts. In the case of packaging, this means explaining pure Python packaging in its most basic form, without immediately discussing tools. Notice that the diagram below doesn’t discuss tools at all!
 
-<figure>
-  <img src="/images/blog/2024/june/pyopensci-python-packaging-fundamentals-first.png" alt="Dark purple image that says Fundamentals First. Below are 4 steps in the packaging process that say 1 create package structure, 2 add code, 3 add metadata to pyproject toml file and 4 pip install package. " style="width: 70%;" />
-  <figcaption><i class="fa-solid fa-heart-pulse"></i> By breaking down packaging in to it's most basic steps you are making the concepts immediately more digestable to users. Once they understand the basics you can slowly layer in additional complexity.  <i class="fa-solid fa-heart-pulse"></i>.</figcaption>
-</figure>
+{{< figure src="images/blog/2024/june/pyopensci-python-packaging-fundamentals-first.png" alt="Dark purple image that says Fundamentals First. Below are 4 steps in the packaging process that say 1 create package structure, 2 add code, 3 add metadata to pyproject toml file and 4 pip install package. ' style='width: 70%;" caption="<i class='fa-solid fa-heart-pulse'></i> By breaking down packaging in to it's most basic steps you are making the concepts immediately more digestable to users. Once they understand the basics you can slowly layer in additional complexity. <i class='fa-solid fa-heart-pulse'></i>." >}}
 
 While some may think that this approach is over simplified, it’s not. The idea here is that you begin with digestible information that empowers a learner. You help them understand that they can do this! And then, and only then, you add more complexity when they are ready to absorb it.
 
@@ -266,10 +244,7 @@ Avoid TMO—Too Many Options or Too Many Opinions at all costs when teaching beg
 
 Early on in creating our packaging guide, we found contributors, often quite expert in the packaging ecosystem, arguing about the best tools and best practices. Since we invited many people with different levels of experience to review our content, these arguments pushed some people away and created an unhealthy environment. Moderating these conversations to focus on the users and their needs, rather than debating tools, was critical. This approach helped create a truly beginner-friendly guide and fostered a review environment that was safe and inclusive, where both beginners and experts could contribute.
 
-<figure>
-  <img src="/images/blog/2024/june/pyopensci-python-packaging-tmo.png" alt="Dark purple background image that says no TMO. Below is a yellow lab retriever with a purple ice bag on it's head looking sad and directly at you." style="width: 100%;" />
-  <figcaption><i class="fa-solid fa-heart-pulse"></i> When it comes to packaging, too many options and too many opinions get in the way of a positive user experience. We need to work towards breaking things down and providing opinionated paths for those who want and need them.  <i class="fa-solid fa-heart-pulse"></i>.</figcaption>
-</figure>
+{{< figure src="images/blog/2024/june/pyopensci-python-packaging-tmo.png" alt="Dark purple background image that says no TMO. Below is a yellow lab retriever with a purple ice bag on it's head looking sad and directly at you.' style='width: 100%;" caption="<i class='fa-solid fa-heart-pulse'></i> When it comes to packaging, too many options and too many opinions get in the way of a positive user experience. We need to work towards breaking things down and providing opinionated paths for those who want and need them. <i class='fa-solid fa-heart-pulse'></i>." >}}
 
 ### Friends don’t let friends package alone
 

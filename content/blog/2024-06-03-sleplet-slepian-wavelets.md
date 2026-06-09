@@ -1,22 +1,19 @@
 ---
 title: 'SLEPLET: Slepian Scale-Discretised Wavelets in Python'
-date: 2024-06-03
+date: '2024-06-03'
 type: blog
-url: "/blog/sleplet-slepian-wavelets.html"
 excerpt: SLEPLET is a tool to create Slepian scale-discretised wavelets that has recently
   passed the PyOpenSci review.
 author: Patrick J. Roddy
-tags:
-- manifolds
-- signal-processing
-- wavelets
+blog_topic: software
+comments: true
+url: "/blog/sleplet-slepian-wavelets.html"
+lastmod: '2024-08-29'
 image:
   src: images/blog/headers/sleptlet-header.png
   alt: 'SLEPLET: Slepian Scale-Discretised Wavelets in Python'
-comments: true
-lastmod: 2024-08-29
-blog_topic: software
 ---
+
 [SLEPLET](https://github.com/astro-informatics/sleplet) is a Python package for
 the construction of Slepian wavelets in the spherical and manifold (via meshes)
 settings. In contrast to other codes, `SLEPLET` handles any spherical region as

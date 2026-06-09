@@ -1,16 +1,17 @@
 ---
 title: 'pyOpenSci Newsletter: April 2024'
-date: 2024-04-01
+date: '2024-04-01'
 type: blog
-url: "/blog/pyos-newsletter-april-2024.html"
 excerpt: New contributors, a new package, and a few new social campaigns, all to keep
   you connected with the pyOpenSci community!
 author: Jesse Mostipak
+blog_topic: updates
 toc: true
 comments: true
-lastmod: 2024-08-29
-blog_topic: updates
+url: "/blog/pyos-newsletter-april-2024.html"
+lastmod: '2024-08-29'
 ---
+
 ## <i class="fa-solid fa-heart"></i> To 200 and beyond!
 
 This past month, pyOpenSci reached a major milestone: [200 contributors](https://www.pyopensci.org/our-community/index.html)! We have a diverse and vibrant community of Pythonistas, and are thrilled that 200 (and counting) wonderful people have contributed to pyOpenSci. Will you be next? [Learn more about getting involved](https://www.pyopensci.org/volunteer.html).
@@ -29,14 +30,7 @@ We’ve been talking (a lot) about the [PyCon Maintainers Summit](https://us.pyc
 </a>
 
 ## <i class="fa-regular fa-map"></i> Welcome, EOmaps!
-<figure>
-    <a href="/images/newsletter/04-2024-newsletter/eomapslogo.png">
-    <img src="/images/newsletter/04-2024-newsletter/eomapslogo.png" style="max-width:100%" alt="The EOmaps logo, which spells out EOmaps in white letters on a black background. In place of the letter 'O' is a grey globe with white meridian lines, and a red arrow pointing to the globe.">
-    </a>
-    <figcaption>
-      Welcome to pyOpenSci, EOmaps!
-    </figcaption>
-</figure>
+{{< figure src="images/newsletter/04-2024-newsletter/eomapslogo.png" alt="The EOmaps logo, which spells out EOmaps in white letters on a black background. In place of the letter 'O' is a grey globe with white meridian lines, and a red arrow pointing to the globe." caption="Welcome to pyOpenSci, EOmaps!" >}}
 [EOmaps](https://eomaps.readthedocs.io/en/latest/) has joined the pyOpenSci ecosystem! Developed by [Raphael Quast](https://github.com/raphaelquast), EOmaps is built on top of matplotlib and cartopy and integrates well with the scientific python infrastructure (e.g., numpy, pandas, geopandas, xarray etc.), allowing you to visualize point-, raster- or vector-datasets provided in almost any format you can imagine, no matter if you're dealing with just a few unsorted data points or multi-dimensional stacks of global high-resolution datasets.
 
 Learn more about pyOpenSci’s open peer review process by reading through the [EOmaps submission](https://github.com/pyOpenSci/software-submission/issues/138) or checking out our [peer review page](https://www.pyopensci.org/about-peer-review/).

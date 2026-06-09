@@ -1,20 +1,18 @@
 ---
 title: My First Time Attending PyCon - A Tale of Sprints and Python Packaging
-date: 2023-06-14
+date: '2023-06-14'
 type: blog
-url: "/blog/pycon-2023-packaging-presentation-sprints-leah-wasser.html"
 excerpt: This year I attended by first PyCon US meeting representing pyOpenSci. In
   this blog I talk about my experience, highlighting the sprints we lead and talks
   on packaging.
 author: Leah Wasser
-tags:
-- highlight
-- talks
+blog_topic: learn
 toc: false
 comments: true
-lastmod: 2024-08-29
-blog_topic: learn
+url: "/blog/pycon-2023-packaging-presentation-sprints-leah-wasser.html"
+lastmod: '2024-08-29'
 ---
+
 ## How it all went down - PyCON US 2023, Salt Lake City, Utah
 
 This year was my first time attending pyCon US! I was intimidated to attend such
@@ -73,13 +71,7 @@ I spent a bit of time in that video talking about how we create our guides.
 - Reviews for just a few pages of the guide could have 200 or more comments.
 - Our process is normally several steps including an initial writing of content that is reviewed by experts. Followed by 2 rounds of open reviews of the content. The image below describes that process.
 
-<figure>
-    <a href="/images/python-packaging/pycon-packaging-review-process.png">
-    <img src="/images/python-packaging/pycon-packaging-review-process.png" style="max-width:100%" alt="Graphic that has a large purple thick arrow. The title says Python Packaging Guide - Our Process. The sections in the arrow include Talk with core experts (write a section of the guide), semi-closed review (core experts review), Open Review 1 (ping tool developers and maintainers and welcome broad community feedback) and Open Review 2 (welcome broad community feedback).">
-    </a>
-    <figcaption>Image from my talk that shows our packaging guide review process. Our packaging guide is community-driven. This means that every page of the guide has been reviewed by dozens of people with expertise in the packaging space. While this meant that it is taking extra time to create the guide, it also means the community supports it. We value community knowledge and input at pyOpenSci.
-    </figcaption>
-</figure>
+{{< figure src="images/python-packaging/pycon-packaging-review-process.png" alt="Graphic that has a large purple thick arrow. The title says Python Packaging Guide - Our Process. The sections in the arrow include Talk with core experts (write a section of the guide), semi-closed review (core experts review), Open Review 1 (ping tool developers and maintainers and welcome broad community feedback) and Open Review 2 (welcome broad community feedback)." caption="Image from my talk that shows our packaging guide review process. Our packaging guide is community-driven. This means that every page of the guide has been reviewed by dozens of people with expertise in the packaging space. While this meant that it is taking extra time to create the guide, it also means the community supports it. We value community knowledge and input at pyOpenSci." >}}
 
 Another part of our packaging guide review process is getting input from packaging
 experts in the community. These experts come from the core python community,
@@ -88,13 +80,7 @@ packaging tools.
 
 _Leave no stone unturned_ (my motto when doing most things).
 
-<figure>
-    <a href="/images/python-packaging/pyOS-package-guide-contributors.png">
-    <img src="/images/python-packaging/pyOS-package-guide-contributors.png" style="max-width:100%" alt=".sdf">
-    </a>
-    <figcaption>Image from my talk that shows our packaging guide review process. Our packaging guide is community-driven. This means that every page of the guide has been reviewed by dozens of people with expertise in the packaging space. While this meant that it is taking extra time to create the guide, it also means the community supports it. We value community knowledge and input at pyOpenSci.
-    </figcaption>
-</figure>
+{{< figure src="images/python-packaging/pyOS-package-guide-contributors.png" alt=".sdf" caption="Image from my talk that shows our packaging guide review process. Our packaging guide is community-driven. This means that every page of the guide has been reviewed by dozens of people with expertise in the packaging space. While this meant that it is taking extra time to create the guide, it also means the community supports it. We value community knowledge and input at pyOpenSci." >}}
 
 ### Why I LOVE peer review
 
@@ -154,13 +140,7 @@ We had a full table plus an overflow table of
 people who wanted to contribute! And each of them was able to contribute (many
 for their very first time!!). It was awesome.
 
-<figure>
-    <a href="/images/people/pycon-2023-mentored-sprints-pyopensci.png">
-    <img src="/images/people/pycon-2023-mentored-sprints-pyopensci.png" style="max-width:100%" alt="Image showing people at laptops sitting around a round table wearing masks during our PyCon 2023 mentored sprint. ">
-    </a>
-    <figcaption>Contributors working together in small groups during our mentored sprints at PyCon 2023. People worked together on issues in pairs and had help from dedicated mentors. Most of the contributors had Python experience but also most had never contributed to open source before.
-    </figcaption>
-</figure>
+{{< figure src="images/people/pycon-2023-mentored-sprints-pyopensci.png" alt="Image showing people at laptops sitting around a round table wearing masks during our PyCon 2023 mentored sprint." caption="Contributors working together in small groups during our mentored sprints at PyCon 2023. People worked together on issues in pairs and had help from dedicated mentors. Most of the contributors had Python experience but also most had never contributed to open source before." >}}
 
 
 The people at the sprint were not the people who I expected.
@@ -175,7 +155,10 @@ pyOpenSci. And also they were mostly made by those new to contributing in genera
 
 If you want to check any of them out - please click on any of the links below!
 
-{{< admonition type="note" title="Contributions from the pyOpenSci mentored and regular sprints at PyCon US 2023" >}}
+<div class="notice" markdown="1">
+
+## Contributions from the pyOpenSci mentored and regular sprints at PyCon US 2023
+
 Contributions to open source tools and communities can come in all shapes and
 sizes. Note that some of the items below are small fixes (which are a huge help).
 And others are a bit more involved.
@@ -206,7 +189,8 @@ was SO SO helpful to us!!
 
 - [Packaging guide typo fixes.](https://github.com/pyOpenSci/python-package-guide/pull/82)
 - [Second pr fixing typos.](https://github.com/pyOpenSci/python-package-guide/pull/81)
-{{< /admonition >}}
+
+</div>
 
 All of the contributors are now listed on our website. And we are grateful for
 each and every one of them!

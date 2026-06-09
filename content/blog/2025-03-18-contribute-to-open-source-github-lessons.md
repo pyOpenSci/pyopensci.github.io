@@ -1,22 +1,21 @@
 ---
 title: 'Contribute to Open Source Software: It''s  More Than just Code'
-date: 2025-03-18
+date: '2025-03-18'
 type: blog
-url: "/blog/contribute-to-open-source-lessons.html"
 excerpt: Contributing to open source isn’t just about code—it’s also about navigating
   social norms. Discover pyOpenSci’s new Contribute to Open Source lessons, which
   cover both the technical and social aspects, and are free for anyone to use.
 author: Leah Wasser
-tags:
-- contribute-to-open-source
+blog_topic: learn
+toc: true
+comments: true
+url: "/blog/contribute-to-open-source-lessons.html"
+lastmod: '2025-03-11'
 image:
   src: images/headers/pyopensci-floral.png
   alt: 'Contribute to Open Source Software: It''s  More Than just Code'
-toc: true
-comments: true
-lastmod: 2025-03-11
-blog_topic: learn
 ---
+
 ## Beyond code: the social side of open source
 
 When you think about contributing to open source, you might assume the biggest hurdle for newcomers is technical--learning Git, using GitHub, and/or writing code. Most contribute to open source guides focus on technical skills. But for many new contributors, the challenge isn’t only technical—it’s social too.
@@ -32,7 +31,7 @@ Receiving open feedback on your contributions in the form of code review, whethe
 In my 10+ years of building and maintaining software, contributing to projects, and running beginner-friendly sprints, I’ve seen firsthand that communication, collaboration, and project culture are just as—if not more—important than technical skills. I've also experienced the imposter syndrome first-hand. I was nervous about my first contributions and wasn't sure how to start contributing in a meaningful way.
 
 **Technical and social skills go hand in hand.** Open source communities are most productive when contributors and maintainers recognize this balance between the technical and social skills associated with contributing. In most cases, all of the people involved in the project are volunteers with varying priorities, skillsets, and motivations to participate.
-
+{: .notice .notice--info}
 
 ### Developing our contribute to open source lessons
 
@@ -41,7 +40,7 @@ This past year, with support from the [Better Software for Science (BSSw) Fellow
 <a href="https://www.pyopensci.org/lessons/contribute-open-source/index.html" class="btn btn--success">Check out our lessons now.</a>
 
 > BSSw is a unique partnership between the National Science Foundation (NSF) and the Department of Energy (DOE) that provides small grants to advocates in the scientific open source space.
-
+{: .notice }
 
 ### A community-driven approach to open source
 
@@ -85,18 +84,10 @@ A diverse contributor base makes our lessons stronger:
 
 This same community-driven approach shaped our [packaging guide](https://www.pyopensci.org/python-package-guide/), which covers [packaging tools](https://www.pyopensci.org/python-package-guide/package-structure-code/python-package-build-tools.html) and [tutorials](https://www.pyopensci.org/python-package-guide/tutorials/intro.html). Like our lessons, it was co-developed and openly reviewed to ensure accessibility and clarity.
 
-<figure>
-    <picture>
-    <source srcset="/images/peer-review/co-development-open-education.webp" type="image/webp">
-    <img src="/images/peer-review/co-development-open-education.png" alt="A diagram illustrating the co-development of open lessons by pyOpenSci. The diagram consists of a circular section divided into five segments labeled ‘Maintainers,’ ‘Beginners,’ ‘Experts,’ ‘Researchers,’ and ‘Contributors,’ surrounding a central section labeled ‘Moderation.’ An arrow extends from the circle to the right, labeled with key moderation activities such as ‘Listen,’ ‘Moderate,’ ‘Facilitate,’ ‘Structured review,’ and ‘Code of Conduct,’ leading to ‘Accessible Lessons.’ The background features a subtle floral pattern.">
-    </picture>
-</figure>
+{{< figure src="images/peer-review/co-development-open-education.png" alt="A diagram illustrating the co-development of open lessons by pyOpenSci. The diagram consists of a circular section divided into five segments labeled 'Maintainers,' 'Beginners,' 'Experts,' 'Researchers,' and 'Contributors,' surrounding a central section labeled 'Moderation.' An arrow extends from the circle to the right, labeled with key moderation activities such as 'Listen,' 'Moderate,' 'Facilitate,' 'Structured review,' and 'Code of Conduct,' leading to 'Accessible Lessons.' The background features a subtle floral pattern." >}}
 
 By openly co-developing and refining these resources together, we’re making scientific open source more accessible for everyone.
 
 ## What's next? Broadening participation in open source
 
 With [PyCon US](https://us.pycon.org/2025/) and SciPy on the horizon, we’re excited to put these lessons into action. At our upcoming sprints, we’ll work together to **refine these resources—improving the lessons and packaging guide to make participating open source even more accessible.**  If you plan to be at either meeting, keep an eye out for pyOpenSci events!
-
-
-{% include connect-with-pyos.html %}

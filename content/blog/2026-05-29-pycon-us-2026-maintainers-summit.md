@@ -7,6 +7,7 @@ excerpt: As a co-organizer of the PyCon US Maintainer Summit, Leah Wasser reflec
   on a milestone year—150+ maintainers, formal PyCon registration, new community tools,
   and roundtables on packaging, security, and generative AI.
 author: Leah Wasser
+blog_topic: community
 toc: true
 comments: true
 url: "/blog/pycon-us-2026-maintainers-summit.html"
@@ -16,13 +17,13 @@ image:
   alt: Maintainer Summit co-organizers Leah Wasser, Inessa Pawson, and Mariatta Wijaya
     smile together for a selfie on an outdoor patio at PyCon US in Long Beach, wearing
     conference lanyards.
-blog_topic: community
 ---
+
 *This post is Part 2 of a 4-part series on pyOpenSci at PyCon US 2026. [Part 1](/blog/pycon-us-2026-community-connection.html) covers community, connection, and what comes next.*
 
 I first attended the [PyCon US Maintainer Summit](https://us.pycon.org/2026/events/maintainers-summit/) five years ago as a speaker. I'm still here — now as a co-organizer. This year felt like a milestone for many different reasons.
 
-{{< figure src="images/blog/2026/pycon-us-2026-maintainers-summit-organizers-slide.png" alt="Maintainer Summit organizers slide with headshots of Inessa Pawson, Leah Wasser, and Mariatta Wijaya beneath the Maintainers Summit title and PyCon US Long Beach branding." caption="Maintainer Summit co-organizers <a href=\"https://github.com/InessaPawson\">Inessa Pawson</a>, Leah Wasser, and <a href=\"https://github.com/mariatta\">Mariatta Wijaya</a>." >}}
+{{< figure src="images/blog/2026/pycon-us-2026-maintainers-summit-organizers-slide.png" alt="Maintainer Summit organizers slide with headshots of Inessa Pawson, Leah Wasser, and Mariatta Wijaya beneath the Maintainers Summit title and PyCon US Long Beach branding." caption="Maintainer Summit co-organizers <a href='https://github.com/InessaPawson'>Inessa Pawson</a>, Leah Wasser, and <a href='https://github.com/mariatta'>Mariatta Wijaya</a>." >}}
 
 ## Building the summit: a year-round labor of love
 
@@ -36,7 +37,7 @@ This year's successes wouldn't have happened without the incredible support of P
 
 We also rethought the structure of the Maintainer Summit this year. We added a Tools Track, inspired by the Tools Track at SciPy. We also added a GenAI Birds of a Feather session, and roundtables focused on lively discussions around packaging, security, and AI tools in open source.
 
-{{< figure src="images/blog/2026/pycon-us-2026-maintainers-summit-cary-hatch-tools-track.png" alt="Cary Hawkins presents on Hatch in the Tools Track at the PyCon US Maintainer Summit in Long Beach, standing at a podium beside a slide titled From Sidelines to Maintainer: How one conversation sparked new development in Hatch." caption="<a href=\"https://github.com/cjames23\">Cary Hawkins</a> presents on <a href=\"https://hatch.pypa.io/\">Hatch</a> in the Maintainer Summit during the newly added Tools Track that featured both Hatch and UV." >}}
+{{< figure src="images/blog/2026/pycon-us-2026-maintainers-summit-cary-hatch-tools-track.png" alt="Cary Hawkins presents on Hatch in the Tools Track at the PyCon US Maintainer Summit in Long Beach, standing at a podium beside a slide titled From Sidelines to Maintainer: How one conversation sparked new development in Hatch." caption="<a href='https://github.com/cjames23'>Cary Hawkins</a> presents on <a href='https://hatch.pypa.io/'>Hatch</a> in the Maintainer Summit during the newly added Tools Track that featured both Hatch and UV." >}}
 
 We also helped launch an unofficial Discord with an automated bot — built with help from some wonderful folks in the Python community — that provided real-time session updates and gave attendees a way to connect with each other throughout the day. A first for the summit. This was a great way to help attendees connect with each other and follow the conference schedule without having to keep checking the schedule website.
 
@@ -52,7 +53,7 @@ This year our registrations peaked at 150+ people for a full day of conversation
 
 It was especially meaningful to have pyOpenSci community members represented. [Felipe Moreno](https://github.com/flpm) spoke about the translations infrastructure he built for our [Python packaging guide](https://www.pyopensci.org/python-package-guide/) — work that started at our [2024 sprint](/blog/pyopensci-pyconus-2024-sprints.html) and has grown into a multilingual contribution community. [Part 3 of this series](/blog/pycon-us-2026-sprints.html) tells the full 2026 sprint story, including Portuguese translation work that built on Felipe's infrastructure. [Avik Basu](https://github.com/ab93) shared work on a package he's been developing. Having pyOpenSci members on stage alongside maintainers of core Python tools like [uv](https://docs.astral.sh/uv/) ([Zanie Blue](https://github.com/zanieb)) and [Hatch](https://hatch.pypa.io/) ([Cary Hawkins](https://github.com/cjames23)), and community leaders like [Carol Willing](https://github.com/willingc) and [Mike Fiedler](https://github.com/miketheman) from the PSF covering security and AI, made for a powerful and well-rounded day.
 
-{{< figure src="images/blog/2026/pycon-us-2026-maintainers-summit-felipe-talk.png" alt="Felipe Moreno presents How Translations Work for pyOpenSci at the PyCon US Maintainer Summit in Long Beach, with a slide showing the pyOpenSci logo projected on screen." caption="<a href=\"https://github.com/flpm\">Felipe Moreno</a> presents on translation infrastructure for the pyOpenSci Python packaging guide at the Maintainer Summit." >}}
+{{< figure src="images/blog/2026/pycon-us-2026-maintainers-summit-felipe-talk.png" alt="Felipe Moreno presents How Translations Work for pyOpenSci at the PyCon US Maintainer Summit in Long Beach, with a slide showing the pyOpenSci logo projected on screen." caption="<a href='https://github.com/flpm'>Felipe Moreno</a> presents on translation infrastructure for the pyOpenSci Python packaging guide at the Maintainer Summit." >}}
 
 ## Roundtables: where the magic happens
 

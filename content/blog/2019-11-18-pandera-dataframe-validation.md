@@ -1,22 +1,19 @@
 ---
 title: 'Pandera: A Statistical Data Validation Toolkit for Pandas'
-date: 2019-11-18
+date: '2019-11-18'
 type: blog
-url: "/blog/pandera-python-pandas-dataframe-validation.html"
 excerpt: Pandera is a a flexible and expressive toolkit for performing statistical
   validation checks on pandas data structures that was recently accepted into the
   pyOpenSci ecosystem. Learn more about Pandera.
 author: Niels Bantilan
-tags:
-- pandas
-- data-validation
-- dataframes
+blog_topic: software
+comments: true
+url: "/blog/pandera-python-pandas-dataframe-validation.html"
 image:
   src: images/blog/headers/pandas.png
   alt: 'Pandera: A Statistical Data Validation Toolkit for Pandas'
-comments: true
-blog_topic: software
 ---
+
 Modern data engineering and analysis workflows will often involve using data
 manipulation libraries, which, in the Python universe, would be tools like
 [pandas](https://pandas.pydata.org/). One problem you may have encountered with

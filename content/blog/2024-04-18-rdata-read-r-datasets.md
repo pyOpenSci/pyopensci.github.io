@@ -1,22 +1,19 @@
 ---
 title: 'rdata: Read R datasets from Python'
-date: 2024-04-18
+date: '2024-04-18'
 type: blog
-url: "/blog/read-r-datasets-from-python.html"
 excerpt: rdata is a library for reading R datasets and converting them to Python objects
   that was recently accepted into the pyOpenSci ecosystem. Learn more about rdata.
 author: Carlos Ramos Carreño
-tags:
-- R
-- data-processing
-- datasets
+blog_topic: software
+comments: true
+url: "/blog/read-r-datasets-from-python.html"
+lastmod: '2024-08-29'
 image:
   src: images/blog/headers/pandas.png
   alt: 'rdata: Read R datasets from Python'
-comments: true
-lastmod: 2024-08-29
-blog_topic: software
 ---
+
 In the last years Python has solidified itself as the main language for data science and machine learning.
 However, the R programming language is also a widely used language in statistics, offering thousands of specialized software packages in this field.
 As it is common in the R community, many of these packages include accompanying data, often stored as R objects in the .rds and .rda formats.

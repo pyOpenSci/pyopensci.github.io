@@ -1,25 +1,29 @@
 ---
 title: 'pyOpenSci @ SciPy 2024 - Python Packaging Tutorials, Talks and Community :heart:'
-date: 2024-08-02
+date: '2024-08-02'
 type: blog
-url: "/blog/pyos-scipy-2024-recap.html"
 excerpt: pyOpenSci had an incredibly impactful SciPy conference this year in Tacoma
   Washingon. I gave a talk and we lead a workshop on Python packaging and we had 39
   issues and pull requests submitted during our sprints. Learn more about both the
   SciPy meeting and my expeirence SciPy in Tacoma, Washington this year.
 author: Leah Wasser
+blog_topic: community
 toc: true
 comments: true
-lastmod: 2024-08-29
-blog_topic: community
+url: "/blog/pyos-scipy-2024-recap.html"
+lastmod: '2024-08-29'
 ---
-{{< admonition type="note" title="TL;DR" >}}
+
+<div class="notice" markdown = "1">
+## TL;DR
+
 * pyOpenSci lead 3 incredibly successful events at [SciPy](https://www.scipy2024.scipy.org/) this year: A tutorial,
 a talk and a 1.5 day sprint.
 * During our SciPy 2024 meeting sprint we had over 35 GitHub issues and pull requests submitted by XX new contributors.
 * Our tutorial had over 30 attendees. Almost all of the learners had never created a Python package before, and most of them were successful creating their first Python package.
 * I thoroughly enjoyed connecting with new and old colleagues and friends.
-{{< /admonition >}}
+
+</div>
 
 ## pyOpenSci's fourth year attending SciPy - my experience
 
@@ -31,7 +35,7 @@ pyOpenSci Birds of a Feather (BoF) session.
 A Birds of a Feather session, also known as a BoF, is a community-organized
 event where people lead a discussion around a specific topic. Our 2019 SciPy BoF was about
 our peer review process, which we had just launched that year.
-
+{: .notice }
 
 One of the biggest differences this year has been how much pyOpenSci has grown, which means we saw many familiar faces, including:
 
@@ -56,10 +60,7 @@ to support and engage with! More people getting involved does mean more work for
 pyOpenSci. However, the time is worth it, as all of this effort is moving
 pyOpenSci's mission of supporting open science forward.
 
-<figure>
-  <img src="/images/blog/2024/july/scipy-24-pyopensci-package-submission-growth.png" alt="A bar plot with purple bars titled - number of submissions by quarter per year. The plot shows the number of submissions that pyOS has received since it started peer review in 2019. We started with only a few submissions per quarter but the numbers have grown to about 13 per quarter on average in the 2024. " style="width: 100%;" />
-  <figcaption><i class="fa-solid fa-heart-pulse"></i> pyOpenSci runs an open software peer review process. Above you can see how submissions have increased since we started in 2019. I started full time on pyOpenSci in late 2022. <i class="fa-solid fa-heart-pulse"></i>.</figcaption>
-</figure>
+{{< figure src="images/blog/2024/july/scipy-24-pyopensci-package-submission-growth.png" alt="A bar plot with purple bars titled - number of submissions by quarter per year. The plot shows the number of submissions that pyOS has received since it started peer review in 2019. We started with only a few submissions per quarter but the numbers have grown to about 13 per quarter on average in the 2024. ' style='width: 100%;" caption="<i class='fa-solid fa-heart-pulse'></i> pyOpenSci runs an open software peer review process. Above you can see how submissions have increased since we started in 2019. I started full time on pyOpenSci in late 2022. <i class='fa-solid fa-heart-pulse'></i>." >}}
 
 In the end, even though I wasn't quite as prepared as I wanted to be, my talk
 and the workshop went great! This was a lesson for me in understanding that
@@ -102,13 +103,10 @@ You see, at SciPy, there are often off-beat distractions from the moderators
 along the way, such as the infamous grab claw (see below). Yes, it is as
 ridiculously hilarious as it sounds.
 
-<figure>
-  <img src="/images/blog/2024/july/scipy-24-lobster-claw.jpeg" alt="Photograph showing a man with a beard holding a red lobster claw - while deviously looking at a blonde woman at a podium who is smirking at him. She is wearing a blue top and beige pants" style="width: 90%;" />
-  <figcaption><i class="fa-solid fa-heart-pulse"></i> It's well-known that lightning talk organizers enjoy heckling presenters. Sometimes they do so using props, such as the lobster claw seen here <i class="fa-solid fa-heart-pulse"></i>. Photo Credit: SciPyConf Fosstodon </figcaption>
-</figure>
+{{< figure src="images/blog/2024/july/scipy-24-lobster-claw.jpeg" alt="Photograph showing a man with a beard holding a red lobster claw - while deviously looking at a blonde woman at a podium who is smirking at him. She is wearing a blue top and beige pants' style='width: 90%;" caption="<i class='fa-solid fa-heart-pulse'></i> It's well-known that lightning talk organizers enjoy heckling presenters. Sometimes they do so using props, such as the lobster claw seen here <i class='fa-solid fa-heart-pulse'></i>. Photo Credit: SciPyConf Fosstodon" >}}
 
 [Did someone mention sharks? More here on my experience last year giving a SciPy lighting talk.](/blog/scipy-2023-community.html)
-
+{: .notice }
 
 Another cool thing about SciPy is that the entire meeting is community-driven. The scientific Python community really
 shows up to make this meeting what it is. All of the sessions are volunteer
@@ -167,10 +165,7 @@ A special shout-out to pyOpenSci community members
 helping all the learners have a successful experience. Their support and
 expertise were invaluable.
 
-<figure>
-  <img src="/images/blog/2024/july/pyos-tutorial-scipy-24.jpeg" alt="A photograph showing a large open and well-lit meeting room with two rows of horizontal tables. People are working at laptops in the room. An instructor is at the front with their laptop screen projected on the screen" style="width: 90%;" />
-  <figcaption><i class="fa-solid fa-heart-pulse"></i> This image was taken about halfway into the workshop. We had lost a few folks to other conference activities, but most were still engaged! <i class="fa-solid fa-heart-pulse"></i> Source: SciPyConf Fosstodon.</figcaption>
-</figure>
+{{< figure src="images/blog/2024/july/pyos-tutorial-scipy-24.jpeg" alt="A photograph showing a large open and well-lit meeting room with two rows of horizontal tables. People are working at laptops in the room. An instructor is at the front with their laptop screen projected on the screen' style='width: 90%;" caption="<i class='fa-solid fa-heart-pulse'></i> This image was taken about halfway into the workshop. We had lost a few folks to other conference activities, but most were still engaged! <i class='fa-solid fa-heart-pulse'></i> Source: SciPyConf Fosstodon." >}}
 
 ### pyOpenSci is helping the community navigate Python packaging challenges together
 
@@ -215,8 +210,6 @@ first Python package!
     <a href="/images/blog/2024/july/pyopensci-have-you-created-package.png"><img src="/images/blog/2024/july/pyopensci-have-you-created-package.png" alt="An image showing a question: 'Have you created a Python package before?' Below is a bar plot with 3 colored bars. 3 people answered Yes, 10 people answered No, and 4 answered 'I struggled trying.'"></a>
     <a href="/images/blog/2024/july/pyopensci-workshop-successful-package.png"> <img src="/images/blog/2024/july/pyopensci-workshop-successful-package.png" alt="An image showing a question: 'Were you able to create a package during this workshop?' 10 people answered Yes, 1 person answered No, and no one answered 'I am not sure.'"></a>
     <figcaption>We used Mentimeter during the workshop to get feedback from participants along the way. Next workshop, I think I will use this tool more to gather feedback. Feedback is crucial for iteratively improving any event, especially when teaching, as it allows you to address pain points dynamically, improving both online lessons and in-person trainings.</figcaption>
-</figure>
-
 The verbal feedback from participants was overwhelmingly positive. Comments like
 
 > "One of the best workshops I've been to"
@@ -253,10 +246,7 @@ corporate teams while also acknowledging some of the tensions.
 
 My talk closed out the session.
 
-<figure>
-  <img src="/images/blog/2024/july/pyopensci-talk-leah-wasser-scipy24.jpg" alt="Image of a room of round tables with black covers filled with people listening to my talk. At the front is a speaker wearing a red tank top. On the screen is a slide that says 'The Power of Community Review.'" style="width: 90%;" />
-  <figcaption><i class="fa-solid fa-heart-pulse"></i> Me, giving my talk about community, packaging, and peer review at SciPy 2024. The coolest part of the talk was meeting people afterwards who I hadn't met in real life before. <i class="fa-solid fa-heart-pulse"></i> Photo Credit: Inessa Pawson</figcaption>
-</figure>
+{{< figure src="images/blog/2024/july/pyopensci-talk-leah-wasser-scipy24.jpg" alt="Image of a room of round tables with black covers filled with people listening to my talk. At the front is a speaker wearing a red tank top. On the screen is a slide that says 'The Power of Community Review.'' style='width: 90%;" caption="<i class='fa-solid fa-heart-pulse'></i> Me, giving my talk about community, packaging, and peer review at SciPy 2024. The coolest part of the talk was meeting people afterwards who I hadn't met in real life before. <i class='fa-solid fa-heart-pulse'></i> Photo Credit: Inessa Pawson" >}}
 
 ### pyOpenSci is leveraging and working with the community to solve scientific Python's challenges
 
@@ -287,20 +277,14 @@ spent time wrestling with GDAL in a Python environment knows the struggle.
 Thanks to folks like Filipe and the conda-forge community, managing spatial
 environments has become much easier for everyone!
 
-<figure>
-  <img src="/images/blog/2024/july/pyopensci-leah-talk-pip-install-gdal.jpg" alt="Image of me with my eyes closed chuckling as people laugh at the meme on the screen. The meme has Boromir, played by Sean Bean in the Lord of the Rings Trilogy, making a circle with his right hand with the words 'One does not simply pip install GDAL overlaid on the image.'" style="width: 90%;" />
-  <figcaption><i class="fa-solid fa-heart-pulse"></i> Filipe's meme is always a hit. Thinking about pip installing GDAL is not for the faint of heart. In the early years of using Python for spatial data, it was incredibly challenging to create a successful environment that contained spatial libraries (which often depend on GDAL)... <i class="fa-solid fa-heart-pulse"></i> Photo Credit: Luis López</figcaption>
-</figure>
+{{< figure src="images/blog/2024/july/pyopensci-leah-talk-pip-install-gdal.jpg" alt="Image of me with my eyes closed chuckling as people laugh at the meme on the screen. The meme has Boromir, played by Sean Bean in the Lord of the Rings Trilogy, making a circle with his right hand with the words 'One does not simply pip install GDAL overlaid on the image.'' style='width: 90%;" caption="<i class='fa-solid fa-heart-pulse'></i> Filipe's meme is always a hit. Thinking about pip installing GDAL is not for the faint of heart. In the early years of using Python for spatial data, it was incredibly challenging to create a successful environment that contained spatial libraries (which often depend on GDAL)... <i class='fa-solid fa-heart-pulse'></i> Photo Credit: Luis López" >}}
 
 I discussed how pyOpenSci is working to make things easier for
 scientists by improving access to the right packages, maintaining community-vetted
 tools in one place, helping maintainers step down and transition out, and making documentation
 more beginner-friendly.
 
-<figure>
-  <img src="/images/blog/2024/july/pyopensci-what-if.png" alt="A slide on a dark purple background that says - What If... finding the right package was easier. Community vetted tools were maintained in one place? We could help maintainers step down? Docs were more beginner friendly. At the bottom, there are two stick figures at computers - one is frustrated, one is happily typing away." style="width: 100%;" />
-  <figcaption><i class="fa-solid fa-heart-pulse"></i> pyOpenSci asks and addresses the questions - what would happen if things were easier for scientists? <i class="fa-solid fa-heart-pulse"></i>.</figcaption>
-</figure>
+{{< figure src="images/blog/2024/july/pyopensci-what-if.png" alt="A slide on a dark purple background that says - What If... finding the right package was easier. Community vetted tools were maintained in one place? We could help maintainers step down? Docs were more beginner friendly. At the bottom, there are two stick figures at computers - one is frustrated, one is happily typing away.' style='width: 100%;" caption="<i class='fa-solid fa-heart-pulse'></i> pyOpenSci asks and addresses the questions - what would happen if things were easier for scientists? <i class='fa-solid fa-heart-pulse'></i>." >}}
 
 ### pyOpenSci is running community-led inclusive, open software peer review
 
@@ -313,10 +297,7 @@ several goals:
 * Providing maintainers with credit for the important work they do to support open
   science.
 
-<figure>
-  <img src="/images/blog/2024/july/pyopensci-community-lead-software-peer-review.png" alt="Slide from my talk. It says 'The Power of Constructive Community Review' at the top. Below is a graphic showing the 4 core steps from left to right: submit your package, pre-review checks, review, and then accepted. The pyOpenSci accepted badge is below the accepted box. At the end of the row is a box that says 'Maintenance checks and stats.'" style="width: 90%;" />
-  <figcaption><i class="fa-solid fa-heart-pulse"></i> pyOpenSci runs an open, community-led software peer review process. The process is overseen by a volunteer editor-in-chief, a rotating position, and includes an editor who leads the review and at least two reviewers. pyOpenSci cares about the long-term maintenance of software, so packages in our ecosystem undergo checks to ensure they are still actively maintained. The review itself is constructive and designed to support the maintainer(s) in improving the quality and usability of their package. <i class="fa-solid fa-heart-pulse"></i></figcaption>
-</figure>
+{{< figure src="images/blog/2024/july/pyopensci-community-lead-software-peer-review.png" alt="Slide from my talk. It says 'The Power of Constructive Community Review' at the top. Below is a graphic showing the 4 core steps from left to right: submit your package, pre-review checks, review, and then accepted. The pyOpenSci accepted badge is below the accepted box. At the end of the row is a box that says 'Maintenance checks and stats.'' style='width: 90%;" caption="<i class='fa-solid fa-heart-pulse'></i> pyOpenSci runs an open, community-led software peer review process. The process is overseen by a volunteer editor-in-chief, a rotating position, and includes an editor who leads the review and at least two reviewers. pyOpenSci cares about the long-term maintenance of software, so packages in our ecosystem undergo checks to ensure they are still actively maintained. The review itself is constructive and designed to support the maintainer(s) in improving the quality and usability of their package. <i class='fa-solid fa-heart-pulse'></i>" >}}
 
 I also discussed how pyOpenSci [partners with communities](https://www.pyopensci.org/partners.html) like the [Journal of Open Source Software](https://joss.theoj.org/) and [Astropy](https://www.astropy.org/) to leverage resources. In the spirit of open source, our goal is to learn as much as we can from other communities.
 
@@ -324,11 +305,7 @@ Where ever we can, pyOpenSci partners with other communities and leverages their
 work. Building on top of and leveraging each other's work IS the true spirit of
 open source and open science. By working together, we can move forward together.
 
-<figure>
-    <a href="/images/blog/2024/july/pyopensci-partnerships-joss-astropy.png">
-    <img src="/images/blog/2024/july/pyopensci-partnerships-joss-astropy.png" alt="A diagram on a light purple background showing the three peer review steps: prereview checks, review, and pyOpenSci acceptance. Below the review box, it says 'Your community standards,' indicating that a partner community can add their own affiliated package standards to our review process. To the right of this process is an arrow leading to three boxes: 'JOSS Published,' 'community affiliated,' and 'maintenance checks and stats.'" style="width: 90%;"></a>
-    <figcaption>Through our partnership with the Journal of Open Source Software (JOSS), a package submitted to us can also be published by JOSS if it's in scope. JOSS accepts our review and only reviews the paper, providing a huge benefit to the maintainer team. We also partner with communities such as Astropy. Through the Astropy partnership, an Astropy-related package can also become Astropy-affiliated. Members of the Astropy community volunteer on our editorial board and support these reviews.</figcaption>
-</figure>
+{{< figure src="images/blog/2024/july/pyopensci-partnerships-joss-astropy.png" alt="A diagram on a light purple background showing the three peer review steps: prereview checks, review, and pyOpenSci acceptance. Below the review box, it says 'Your community standards,' indicating that a partner community can add their own affiliated package standards to our review process. To the right of this process is an arrow leading to three boxes: 'JOSS Published,' 'community affiliated,' and 'maintenance checks and stats.'' style='width: 90%;" caption="Through our partnership with the Journal of Open Source Software (JOSS), a package submitted to us can also be published by JOSS if it's in scope. JOSS accepts our review and only reviews the paper, providing a huge benefit to the maintainer team. We also partner with communities such as Astropy. Through the Astropy partnership, an Astropy-related package can also become Astropy-affiliated. Members of the Astropy community volunteer on our editorial board and support these reviews." >}}
 
 ### pyOpenSci and how we created a truly community-driven Python packaging guidebook
 
@@ -348,19 +325,13 @@ Python challenges. These people include:
 All of these people have helped pyOpenSci create a [Python packaging guide](https://www.pyopensci.org/python-package-guide/index.html) that is both
 accurate and beginner-friendly.
 
-<figure>
-    <a href="/images/blog/2024/july/pyopensci-package-guide-review.png"><img src="/images/blog/2024/july/pyopensci-package-guide-review.png" alt="Image of the pyOpenSci package guide review process. There are three main boxes on the slide labeled 'expert feedback,' 'community review,' and 'sprints and bug bashes.' The top of the image is titled 'The Power of Community Review.'"></a>
-    <figcaption>pyOpenSci engages people from all parts of the Python community, with all levels of expertise, in our packaging guide review process. This engagement ensures a high-quality and beginner-friendly guidebook.</figcaption>
-</figure>
+{{< figure src="images/blog/2024/july/pyopensci-package-guide-review.png" alt="Image of the pyOpenSci package guide review process. There are three main boxes on the slide labeled 'expert feedback,' 'community review,' and 'sprints and bug bashes.' The top of the image is titled 'The Power of Community Review.'" caption="pyOpenSci engages people from all parts of the Python community, with all levels of expertise, in our packaging guide review process. This engagement ensures a high-quality and beginner-friendly guidebook." >}}
 
 One of the decisions we made as a community early on was to use Hatch as an
 end-to-end packaging tool. We believe Hatch is user-friendly and supports many
 of the use cases scientists have when sharing their code.
 
-<figure>
-    <a href="/images/blog/2024/july/pyopensci-packaging-hatch.png"><img src="/images/blog/2024/july/pyopensci-packaging-hatch.png" alt="Image titled 'Creating an Opinionated Tutorial.' Below it lists four bullet points about Hatch: 1. Responsive maintainer, 2. User friendly, 3. Adheres to standards, 4. Doesn't lock you in." style="width: 80%;"></a>
-    <figcaption>pyOpenSci is teaching with Hatch now because we have had good success with using Hatch and engaging with its forward-thinking maintainer.</figcaption>
-</figure>
+{{< figure src="images/blog/2024/july/pyopensci-packaging-hatch.png" alt="Image titled 'Creating an Opinionated Tutorial.' Below it lists four bullet points about Hatch: 1. Responsive maintainer, 2. User friendly, 3. Adheres to standards, 4. Doesn't lock you in.' style='width: 80%;" caption="pyOpenSci is teaching with Hatch now because we have had good success with using Hatch and engaging with its forward-thinking maintainer." >}}
 
 I met some great people and had good discussions about peer review and Python
 packaging. The presentation will be on YouTube at some point, and I will update
@@ -407,16 +378,7 @@ scramble to find a new location for our sprints due to some power issues
 stemming from an unexpected accident in Tacoma. Our space was much smaller
 than usual, but we made it work!
 
-<figure>
-    <a href="/images/blog/2024/july/pyopensci-scipy-24-sprints.jpeg">
-    <img src="/images/blog/2024/july/pyopensci-scipy-24-sprints.jpeg"
-    alt="Photograph showing a tan room filled with long tables and people sitting
-    in front of laptops working together on specific projects or tasks."></a>
-    <figcaption>The sprint setup isn't always perfect at meetings, but we made it
-    work! This year, the rooms were full with little space to spread out. However,
-    we made the best of it. The pyOpenSci sprint table is in the middle row,
-    closest to the camera.</figcaption>
-</figure>
+{{< figure src="images/blog/2024/july/pyopensci-scipy-24-sprints.jpeg" alt="Photograph showing a tan room filled with long tables and people sitting in front of laptops working together on specific projects or tasks." caption="The sprint setup isn't always perfect at meetings, but we made it work! This year, the rooms were full with little space to spread out. However, we made the best of it. The pyOpenSci sprint table is in the middle row, closest to the camera." >}}
 
 We had a great group this year who worked on a variety of tasks, including:
 
@@ -442,8 +404,6 @@ We had a great group this year who worked on a variety of tasks, including:
     <figcaption>People sitting at the pyOpenSci sprint table. We had a slightly
     different group each day, but the energy was equally enthusiastic both days.
     </figcaption>
-</figure>
-
 Several people made their first-ever contributions to open source during our
 pyOpenSci sprints, which was fantastic. We had a lot of great people get
 involved and support us. The positive vibes were contagious!

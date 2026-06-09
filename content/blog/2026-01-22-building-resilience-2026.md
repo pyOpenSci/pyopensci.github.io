@@ -1,21 +1,22 @@
 ---
 title: 'Building Resilience: pyOpenSci in 2026'
-date: 2026-01-22
+date: '2026-01-22'
 type: blog
-url: "/blog/2026-building-resilience-together.html"
 excerpt: pyOpenSci learned a lot about resilience in 2025. As we navigate generative
   AIs impact on scientific open source and shifting funding landscapes, pyOpenSci
   is building resilience through training, sponsorship, and community-centered leadership.
   Learn more about our plan.
 author: pyopensci
+blog_topic: community
+toc: true
+comments: true
+url: "/blog/2026-building-resilience-together.html"
+lastmod: '2026-01-22'
 image:
   src: images/headers/pyopensci-floral.png
   alt: 'Building Resilience: pyOpenSci in 2026'
-toc: true
-comments: true
-lastmod: 2026-01-22
-blog_topic: community
 ---
+
 ## The world has changed
 
 I'm not going to sugarcoat it—2025 was hard.
@@ -33,15 +34,7 @@ Instead of pulling back, **the pyOpenSci community leaned in**. People showed up
 for each other. They reviewed, mentored, taught, organized, and adapted—often
 quietly, often while navigating uncertainty of their own.
 
-<figure>
-  <picture>
-    <source srcset="/images/blog/2025/pyos-sprint-group.webp"
-    type="image/webp">
-    <img src="/images/blog/2025/pyos-sprint-group.png"
-    alt="pyOpenSci community members working together">
-  </picture>
-  <figcaption>The pyOpenSci community showing up for each other. SciPy 2025 beginner-friendly sprint.</figcaption>
-</figure>
+{{< figure src="images/blog/2025/pyos-sprint-group.png" alt="pyOpenSci community members working together" caption="The pyOpenSci community showing up for each other. SciPy 2025 beginner-friendly sprint." >}}
 
 ## The moment that changed everything
 
@@ -56,32 +49,14 @@ helping them make their first contributions to open source.
 
 This is one example of how baking structure and strong value systems into a community can yield incredible returns. The **community members show up for each other because that is just how pyOpenSci operates**. It's who we are, and it's magical.
 
-<figure>
-  <picture>
-    <source srcset="/images/blog/2025/tracey-james-scipy-2025.webp"
-    type="image/webp">
-    <img src="/images/blog/2025/tracey-james-scipy-2025.png"
-    alt="Tracey and James at the SciPy 2025 sprint">
-  </picture>
-  <figcaption>Tracey and James at the SciPy 2025 sprint, where community
-  members came together to support each other and make their first
-  contributions to open source.</figcaption>
-</figure>
+{{< figure src="images/blog/2025/tracey-james-scipy-2025.png" alt="Tracey and James at the SciPy 2025 sprint" caption="Tracey and James at the SciPy 2025 sprint, where community members came together to support each other and make their first contributions to open source." >}}
 
 
 >Community members show up for each other because that is how pyOpenSci operates. It's who we are and it's magical.
+{: .highlight-quote .magenta }
 
 
-
-<figure>
-  <picture>
-    <source srcset="/images/blog/2025/bof-group-inessa.webp"
-    type="image/webp">
-    <img src="/images/blog/2025/bof-group-inessa.png"
-    alt="SciPy 2025 sprint participants working in small groups">
-  </picture>
-  <figcaption>SciPy 2025 community session participants discussing challenges in scientific Open Source.</figcaption>
-</figure>
+{{< figure src="images/blog/2025/bof-group-inessa.png" alt="SciPy 2025 sprint participants working in small groups" caption="SciPy 2025 community session participants discussing challenges in scientific Open Source." >}}
 
 
 That day felt like the manifestation of a blueprint. It showed what happens when you create the
@@ -128,16 +103,7 @@ Our goal is to create learning spaces that reduce isolation, build
 confidence, connect learners to the humans that drive open source, and strengthen the
 communities behind scientific software.
 
-<figure>
-  <picture>
-    <source srcset="/images/blog/2025/scipy-workshop-teaching.webp"
-    type="image/webp">
-    <img src="/images/blog/2025/scipy-workshop-teaching.png"
-    alt="Teaching a pyOpenSci workshop at SciPy 2025">
-  </picture>
-  <figcaption>Teaching a pyOpenSci workshop at SciPy 2025, focused on Python
-  packaging and open source best practices.</figcaption>
-</figure>
+{{< figure src="images/blog/2025/scipy-workshop-teaching.png" alt="Teaching a pyOpenSci workshop at SciPy 2025" caption="Teaching a pyOpenSci workshop at SciPy 2025, focused on Python packaging and open source best practices." >}}
 
 ## The people who make this possible
 
@@ -158,32 +124,14 @@ AI-fueled submissions while keeping quality and care at the center.
 numerous times, supporting volunteers who were overburdened and leading one
 of our largest reviews—Astropy—which was just accepted in early 2026.
 
-<figure>
-  <picture>
-    <source srcset="/images/blog/2025/maintainers-summit-dan.webp"
-    type="image/webp">
-    <img src="/images/blog/2025/maintainers-summit-dan.png"
-    alt="PyCon US 2025 Maintainers Summit">
-  </picture>
-  <figcaption>PyCon US 2025 Maintainers Summit, where we created space for
-  those who keep scientific Python running.</figcaption>
-</figure>
+{{< figure src="images/blog/2025/maintainers-summit-dan.png" alt="PyCon US 2025 Maintainers Summit" caption="PyCon US 2025 Maintainers Summit, where we created space for those who keep scientific Python running." >}}
 
 Members of our Advisory Council—**[Carol Willing](https://github.com/willingc),
 [Inessa Pawson](https://github.com/InessaPawson), and [Chase Million](https://github.com/cmillion)**—
 helped me think through sustainability, partnerships, and long-term direction
 with wisdom and generosity.
 
-<figure>
-  <picture>
-    <source srcset="/images/blog/2025/carol-willing-micromentor.webp"
-    type="image/webp">
-    <img src="/images/blog/2025/carol-willing-micromentor.png"
-    alt="Carol Willing presenting on micromentoring">
-  </picture>
-  <figcaption>Carol Willing from our Advisory Council presenting on
-  micromentoring at the Maintainers Summit, co-organized by pyOpenSci at PYCON US 2025.</figcaption>
-</figure>
+{{< figure src="images/blog/2025/carol-willing-micromentor.png" alt="Carol Willing presenting on micromentoring" caption="Carol Willing from our Advisory Council presenting on micromentoring at the Maintainers Summit, co-organized by pyOpenSci at PYCON US 2025." >}}
 
 **And to the many community members who contributed through reviews, workshops,
 sprints, writing, mentoring, and quiet acts of support—thank you. This

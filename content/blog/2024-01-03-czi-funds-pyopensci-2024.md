@@ -1,16 +1,17 @@
 ---
 title: CZI Funds pyOpenSci
-date: 2024-01-03
+date: '2024-01-03'
 type: blog
-url: "/blog/czi-funds-pyOpenSci-2024.html"
 excerpt: CZI has received funding from the Chan Zuckerberg Foundation. Learn more
   about how this funding will support pyOpenSci over the next 2 years.
 author: Leah Wasser
+blog_topic: community
 toc: true
 comments: true
-lastmod: 2024-08-29
-blog_topic: community
+url: "/blog/czi-funds-pyOpenSci-2024.html"
+lastmod: '2024-08-29'
 ---
+
 ## A bright 2024 is ahead for pyOpenSci
 
 We are thrilled to announce that pyOpenSci has received 2 years of funding to cover core operations from the [Chan Zuckerberg Initiative (CZI)](https://chanzuckerberg.com/). These CZI funds will be used to continue critical pyOpenSci work that:
@@ -49,13 +50,7 @@ pyOpenSci is pushing for change. We envision a world where:
 
 ## pyOpenSci builds a supportive and inclusive world through three programs
 
-<figure>
-    <a href="/images/pyopensci-pillars-flower.png">
-    <img src="/images/pyopensci-pillars-flower.png" style="max-width:100%" alt="A flower petal image with 3 flower petals and a flower center. In each petal there is text. The first says software peer review, the second community partnerships and the third packaging resources and recommendations. The center circle of the flower says diverse inclusive community.">
-    </a>
-    <figcaption> pyOpenSci supports scientists developing open source software through three programs: 1) peer review of scientific software, 2) community partnerships and 3) packaging resources and recommendations. These three programs are supported by a diverse and inclusive community that cares about the open source software that is needed for open science.
-    </figcaption>
-</figure>
+{{< figure src="images/pyopensci-pillars-flower.png" alt="A flower petal image with 3 flower petals and a flower center. In each petal there is text. The first says software peer review, the second community partnerships and the third packaging resources and recommendations. The center circle of the flower says diverse inclusive community." caption="pyOpenSci supports scientists developing open source software through three programs: 1) peer review of scientific software, 2) community partnerships and 3) packaging resources and recommendations. These three programs are supported by a diverse and inclusive community that cares about the open source software that is needed for open science." >}}
 
 The three programs pyOpenSci runs are:
 

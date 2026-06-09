@@ -1,19 +1,20 @@
 ---
 title: pyOpenSci celebrates Inessa Pawson
-date: 2024-10-10
+date: '2024-10-10'
 type: blog
-url: "/blog/pyopensci-celebrates-inessa-pawson.html"
 excerpt: Inessa’s leadership and dedication have profoundly shaped the open source
   community, from NumPy to NumFOCUS. Learn more about her contributions and impact.
 author: Leah Wasser
+blog_topic: community
+toc: true
+comments: true
+url: "/blog/pyopensci-celebrates-inessa-pawson.html"
+lastmod: '2024-12-05'
 image:
   src: images/headers/pyopensci-floral.png
   alt: pyOpenSci celebrates Inessa Pawson
-toc: true
-comments: true
-lastmod: 2024-12-05
-blog_topic: community
 ---
+
 # pyOpenSci Celebrates Inessa
 
 Today, I want to take a moment to celebrate a devoted pyOpenSci community member, colleague, and friend, [Inessa](https://github.com/InessaPawson/InessaPawson),
@@ -21,17 +22,7 @@ who was just awarded the NumFOCUS Community Leadership award. In my opinion, no 
 to the open source community. Inessa's day job at [OpenTeams](https://otincubator.com/team.html) is devoted to open source, where she serves as the Open Source Program
 Manager. But her open source work extends far beyond her professional role!
 
-<figure>
-    <a href="/images/people/Inessa-NumFocus-award-fall-2024.png">
-    <img src="/images/people/Inessa-NumFocus-award-fall-2024.png" style="max-width:90%" alt=" Portrait of Inessa Pawson, recipient of the NumFOCUS Community
-    Leadership Award 2024. In the image, Inessa has light skin, blue eyes, and is wearing red lipstick. Her hair is styled up, and she is dressed in a black
-    blazer with a professional, confident expression. The background on the right side of the image is purple with the pyOpenSci logo at the top and a headline
-    that reads: pyOpenSci Celebrates Inessa. Below this, there is text that announces her award. The image of the award certificate is shown next to her name.
-    The text on the image highlights Inessa’s leadership in the scientific Python community, including her involvement with the SciPy US,PyCon US, NumPy, and NumFOCUS.">
-    </a>
-    <figcaption>Inessa receives the 2024 NumFOCUS Community Leadership award.
-    </figcaption>
-</figure>
+{{< figure src="images/people/Inessa-NumFocus-award-fall-2024.png" alt="Portrait of Inessa Pawson, recipient of the NumFOCUS Community Leadership Award 2024. In the image, Inessa has light skin, blue eyes, and is wearing red lipstick. Her hair is styled up, and she is dressed in a black blazer with a professional, confident expression. The background on the right side of the image is purple with the pyOpenSci logo at the top and a headline that reads: pyOpenSci Celebrates Inessa. Below this, there is text that announces her award. The image of the award certificate is shown next to her name. The text on the image highlights Inessa's leadership in the scientific Python community, including her involvement with the SciPy US,PyCon US, NumPy, and NumFOCUS." caption="Inessa receives the 2024 NumFOCUS Community Leadership award." >}}
 
 "Inessa Pawson receives the NumFOCUS Community Leadership Award 2024. Inessa, a pyOpenSci Advisory Council member, is celebrated for her impact in the scientific Python
 community, including co-organizing the SciPy US and PyCon US Maintainers Summits, serving on the NumPy Steering Council, and leading a number of contributor

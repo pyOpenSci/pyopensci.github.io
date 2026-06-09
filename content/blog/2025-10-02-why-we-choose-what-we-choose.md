@@ -1,20 +1,21 @@
 ---
 title: Why We Choose What We Choose
-date: 2025-10-02
+date: '2025-10-02'
 type: blog
-url: "/blog/how-we-choose-python-tools.html"
 excerpt: In selecting one workflow to package a Python project, pyOpenSci chooses
   between a lot of code tools. These choices often come after months of exploration
   and debate. Find out what motivates us to make the decisions that we do.
 author: Jeremiah Paige
+blog_topic: community
+toc: true
+comments: true
+url: "/blog/how-we-choose-python-tools.html"
+lastmod: '2025-10-02'
 image:
   src: images/headers/pyopensci-floral.png
   alt: Why We Choose What We Choose
-toc: true
-comments: true
-lastmod: 2025-10-02
-blog_topic: community
 ---
+
 A primary focus at pyOpenSci, one of our petals of support, is selecting packaging tools that work well for our users and work well together. We use our curated selection of tooling in our packaging guide, in our online tutorials, and in our trainings. We don’t require the use of any of our selected tools to submit a package to our peer review program but we will suggest them if the package authors ask for help trying to clean up or adopt new workflows.
 
 The members of pyOpenSci spend a great deal of time selecting these tools, debating tradeoffs, test-driving them in new situations, looking at new community trends, and listening to feedback from events we run. But up until now we haven't typically posted in the open either how or why we have come to the decisions we did. This post outlines, in not very strict terms, the rubric we use when selecting a project that we want to recommend. We focus on a beginner-leaning happy path for packaging workflows. In other words, what works really well for new projects that don't have a lot, if any, non-conventional requirements to share their code.

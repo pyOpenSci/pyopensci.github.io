@@ -1,22 +1,23 @@
 ---
 title: The Human Dimension to Clean, Distributable, and Documented Data Science Code
-date: 2024-10-28
+date: '2024-10-28'
 type: blog
-url: "/blog/human-dimension-clean-documented-data-science-code.html"
 excerpt: Discover how to create clean, accessible, and impactful data science code
   by focusing on the human side of coding practices. Here, Eric Ma shares insights
   from his talk at the 2024 pyOpenSci Fall Festival. Learn key open science principles,
   including readability, cognitive load, and the toolmaker’s mindset, and explore
   practical strategies to enhance your work
 author: Eric J. Ma
+blog_topic: learn
+toc: true
+comments: true
+url: "/blog/human-dimension-clean-documented-data-science-code.html"
+lastmod: '2025-01-07'
 image:
   src: images/blog/headers/eric-ma-header.png
   alt: The Human Dimension to Clean, Distributable, and Documented Data Science Code
-toc: true
-comments: true
-lastmod: 2025-01-07
-blog_topic: learn
 ---
+
 This post was originally posted on [Eric's blog](https://ericmjl.github.io/blog/2024/10/25/the-human-dimension-to-clean-distributable-and-documented-data-science-code/) in support of the [2024 pyOpenSci Open Science Fall Festival](/events/pyopensci-2024-fall-festival.html).
 
 <figure class="align-center">
@@ -24,9 +25,6 @@ This post was originally posted on [Eric's blog](https://ericmjl.github.io/blog/
   <source srcset="/images/blog/2024/eric-ma-blog-post-header.webp" type="image/webp">
   <img src="/images/blog/2024/eric-ma-blog-post-header.png" alt="An illustration of a diverse group of people collaboratively analyzing and discussing code displayed on a large transparent screen, surrounded by books, plants, and abstract symbols, set against a vibrant gradient background." />
 </picture>
-</figure>
-
-
 ## Introduction
 
 Since 2016 (8 years now!),

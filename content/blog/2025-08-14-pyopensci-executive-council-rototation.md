@@ -1,31 +1,27 @@
 ---
 title: 'Succession is Success: pyOpenSci''s Executive Council Transition Marks Organizational
   Maturity'
-date: 2025-08-14
+date: '2025-08-14'
 type: blog
-url: "/blog/pyopensci-bof-community-scipy-2025.html"
 excerpt: The Executive Council drives pyOpenSci's mission and vision. Learn more about
   how the council works, and about the current rotation that is happening as our board
   chair steps down and another member joins us marking a milestone of incredible growth
   for pyOpenSci.
 author: pyopensci
+blog_topic: community
+toc: true
+comments: true
+url: "/blog/pyopensci-executive-council-transition.html"
+lastmod: '2025-08-05'
 image:
   src: images/headers/pyopensci-floral.png
   alt: 'Succession is Success: pyOpenSci''s Executive Council Transition Marks Organizational
     Maturity'
-toc: true
-comments: true
-lastmod: 2025-08-05
-blog_topic: community
 ---
+
 When an organization successfully navigates its first leadership transition, it's a milestone worth celebrating. It demonstrates that the structures, processes, and culture you've built are strong enough to endure beyond any single individual. We've seen these transitions happening in our [Editorial Board](https://www.pyopensci.org/handbook/governance/structure.html#peer-review-editorial-board) over the past 3 years. Today, we're proud to announce pyOpenSci's first [Executive Council](https://www.pyopensci.org/handbook/governance/executive-council.html#pyopensci-executive-council) transition—a sign of our organization's growth and maturity.
 
-<figure>
-  <picture>
-  <source srcset="/images/blog/2025/executive-council-rotation-tracy.webp" type="image/webp">
-  <img src="/images/blog/2025/executive-council-rotation-tracy.png" alt="A graphic that says --Tracy Teal has completed a 3 year term as Executive Council Chair. We are grateful for the expertise, time and effort Tracy has put into the strategic vision for pyOpenSci.We also are grateful to Karen Cranston for stepping into the Executive Council chair position. And we welcome April Johnson as our newest Executive Council member!A timeline showing the growth of pyOpenSci from 2019 to 2024. It also has images of 3 women, Tracy, Karen and April on it on the right." style="width: 80%;">
-  </picture>
-</figure>
+{{< figure src="images/blog/2025/executive-council-rotation-tracy.png" alt="A graphic that says --Tracy Teal has completed a 3 year term as Executive Council Chair. We are grateful for the expertise, time and effort Tracy has put into the strategic vision for pyOpenSci.We also are grateful to Karen Cranston for stepping into the Executive Council chair position. And we welcome April Johnson as our newest Executive Council member!A timeline showing the growth of pyOpenSci from 2019 to 2024. It also has images of 3 women, Tracy, Karen and April on it on the right.' style='width: 80%;" >}}
 
 As founding Executive Council Chair **Tracy Teal** transitions from her leadership role after three transformative years, we're excited to welcome **Karen Cranston** as our new Executive Council Chair and **April Johnson** as a new Executive Council member. This transition represents not just changing leadership, but the successful maturation of pyOpenSci as an organization.
 
@@ -69,7 +65,10 @@ As we move forward under Karen and April's guidance, we're excited about our nex
 This transition positions us to take on bigger challenges, expand our impact on the scientific Python ecosystem, and continue building the future of open scientific software. We can't wait to see what comes next!
 
 
-{{< admonition type="note" title="Connect with us!" >}}
+<div class="notice" markdown="1">
+
+## Connect with us!
+
 There are lots of ways to get involved if you are interested\!
 
 * If you read through our lessons and want to suggest changes, open an issue in our [lessons repository here](https://github.com/pyOpenSci/lessons).
@@ -80,7 +79,7 @@ There are lots of ways to get involved if you are interested\!
 
 You can also:
 
-* Keep an eye on our [events page](https://www.pyopensci.org/events.html) for upcoming training events.
+* Keep an eye on our [events page](https://www.pyopensci.org/events/) for upcoming training events.
 
 Follow us on social platforms:
 
@@ -91,4 +90,5 @@ Follow us on social platforms:
 * [GitHub](https://github.com/pyOpenSci)
 
 If you are on LinkedIn, check out and [subscribe to our newsletter](https://www.linkedin.com/newsletters/7179551305344933888/?displayConfirmation=true), too.
-{{< /admonition >}}
+
+</div>

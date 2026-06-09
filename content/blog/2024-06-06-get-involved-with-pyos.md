@@ -1,17 +1,18 @@
 ---
 title: Get Involved with pyOpenSci
-date: 2024-06-06
+date: '2024-06-06'
 type: blog
-url: "/blog/get-involved-with-pyos.html"
 excerpt: 'Fun fact: there are a multitude of ways for you to get involved with pyOpenSci!
   From social media to in-person events to joining our editoral team, this guide walks
   you through every opportunity available.'
 author: Jesse Mostipak
+blog_topic: community
 toc: true
 comments: true
-lastmod: 2024-08-29
-blog_topic: community
+url: "/blog/get-involved-with-pyos.html"
+lastmod: '2024-08-29'
 ---
+
 ## <i class="fa-regular fa-heart"></i> The pyOpenSci mission
 Founded in 2018 by our Executive Director, [Leah Wasser](https://github.com/lwasser), pyOpenSci builds diverse community that supports free and open Python tools for processing scientific data. We also build technical skills needed to contribute to open source and that support open science. While a diverse, inclusive community is at our core, radiating out from it are the three petals–how we accomplish our community goals–of pyOpenSci. These are:
 

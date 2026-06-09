@@ -1,22 +1,23 @@
 ---
 title: 'pyOpenSci Community News: August 2024'
-date: 2024-08-02
+date: '2024-08-02'
 type: blog
-url: "/blog/pyos-community-news-aug-2024.html"
 excerpt: Welcome to the first edition of pyOpenSci's Community News newsletter, where
   we summarize and share conversations, contributions, and news related to our diverse
   and vibrant community! Read on for insights into running pyOpenSci sprints, Python
   packaging guide Spanish translation efforts, and using Hatch to create and maintain
   Python.
 author: Jesse Mostipak
+blog_topic: updates
+toc: true
+comments: true
+url: "/blog/pyos-community-news-aug-2024.html"
+lastmod: '2024-08-29'
 image:
   src: images/blog/headers/pycon-us-2024-header.png
   alt: 'pyOpenSci Community News: August 2024'
-toc: true
-comments: true
-lastmod: 2024-08-29
-blog_topic: community
 ---
+
 ## <i class="fa-regular fa-heart"></i> pyOpenSci community news
 
 As the pyOpenSci community has continued to grow, we wanted to dedicate at least one newsletter issue a month to sharing conversations, contributions, and news related to our diverse and vibrant community! This month we’re celebrating everyone who’s participated in a pyOpenSci sprint, sharing the exciting news around the Spanish translation of our Python Packaging Guide, and elevating a discussion from GitHub around the use of Hatch for Python package creation.
@@ -25,10 +26,7 @@ As the pyOpenSci community has continued to grow, we wanted to dedicate at least
 
 Education is one of the [three petals of pyOpenSci](https://www.pyopensci.org/blog/pyos-education-announcement.html), and to that end we strive to create resources that help learners navigate the Python packaging ecosystem with ease. This means that when we find our community members and scientists encountering consistent issues with trying to make their workflows more open and reproducible, or trying to build a Python package, we look for ways to lower (or ideally remove!) the barrier for learners. And this was exactly the scenario we were faced with in our beginner-friendly packaging tutorials. We decided that Hatch is a great user-friendly tool that scientists can use to package and share their code. However, in developing and teaching our [Get to know Hatch tutorial](https://www.pyopensci.org/python-package-guide/tutorials/get-to-know-hatch.html), we found scientists struggling to install a tool called [`pipx`](https://github.com/pypa/pipx) that can be used to install Hatch globally, rather than in a Python environment. This was causing a host of problems (in large part because `pipx` can be tricky to install on Windows machines!)
 
-<figure>
-  <img src="/images/pyopensci-pillars-flower.png" alt="a circle and three petals representing the pillars of pyOpenSci. The circle at the center represents a diverse, inclusive community, and radiating out from it are the three petals–how pyOpenSci accomplishes its community goals. Those are: open peer review, community partnerships, and training and open educational resources." style="width: 70%;" />
-  <figcaption><i class="fa-solid fa-heart-pulse"></i>The three petals of pyOpenSci<i class="fa-solid fa-heart-pulse"></i>.</figcaption>
-</figure>
+{{< figure src="images/pyopensci-pillars-flower.png" alt="a circle and three petals representing the pillars of pyOpenSci. The circle at the center represents a diverse, inclusive community, and radiating out from it are the three petals–how pyOpenSci accomplishes its community goals. Those are: open peer review, community partnerships, and training and open educational resources.' style='width: 70%;" caption="<i class='fa-solid fa-heart-pulse'></i>The three petals of pyOpenSci<i class='fa-solid fa-heart-pulse'></i>." >}}
 
 We know that it can be challenging to wrap your head around packaging, but what it boils down to is that packaging is really just a process of making your code installable so that it can be reused in different places. And while we decided to use Hatch because it makes packaging life easier, it turns out that Hatch has its own nuanced pain points that we’re still filing down! And we want to share this, because we firmly believe that even someone who is brand new to packaging can get value out of our materials.
 
@@ -67,5 +65,3 @@ Jesse Bobish, [Patrick Byers](https://github.com/pb-413), [Sarah Kaiser](http://
 
 ### Shout out to all of our SciPy contributors, including:
 [Naty Clementi](https://github.com/ncclementi), [Geoff Cureton](https://github.com/gpcureton), [John Drake](https://github.com/John-Drake), [Han](https://github.com/ayhanxian), [Elise Hinman](https://github.com/ehinman), [hpodzorski-USGS](https://github.com/hpodzorski-USGS), [Sarah Kaiser](https://github.com/crazy4pi314), [kaiyamag](https://github.com/kaiyamag), [Felipe Moreno](https://github.com/flpm), [Roberto Pastor Muela](https://github.com/RobPasMue), [Olek](https://github.com/yardasol), [Santiago Soler](https://github.com/santisoler), and [Revathy Venugopal](https://github.com/Revathyvenugopal162).
-
-{% include connect-with-pyos.html %}

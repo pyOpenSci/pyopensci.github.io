@@ -1,20 +1,21 @@
 ---
 title: 'It''s Been a Long Short Road: The Monumental Past 2 Years of pyOpenSci'
-date: 2024-08-30
+date: '2024-08-30'
 type: blog
-url: "/blog/what-pyopensci-accomplished-with-two-years-of-funding.html"
 excerpt: Learn about what pyOpenSci has accomplished in the last two years, including
   the evolution of our packaging guide, the expansion of our peer review process,
   and the vibrant community we've built.
 author: Leah Wasser
+blog_topic: community
+toc: true
+comments: true
+url: "/blog/what-pyopensci-accomplished-with-two-years-of-funding.html"
+lastmod: '2024-09-08'
 image:
   src: images/blog/headers/pyos-two-years.png
   alt: 'It''s Been a Long Short Road: The Monumental Past 2 Years of pyOpenSci'
-toc: true
-comments: true
-lastmod: 2024-09-08
-blog_topic: community
 ---
+
 ## It's been two years since I started working full-time on pyOpenSci
 
 I have been working full-time building pyOpenSci for two years now, thanks to funding from the [Sloan Foundation](https://sloan.org/) and [CZI (Chan Zuckerberg Initiative)](https://chanzuckerberg.com/). pyOpenSci has come SO FAR in two years.
@@ -34,7 +35,7 @@ facing in creating open, reproducible workflows using Python. My experience
 inspired me to establish a vibrant, inclusive pyOpenSci community of practice
 fueled by making open science best practices more accessible to scientists.
 
-pyOpenSci makes open science more accessible by [developing educational resources](/learn.html), [running training events](/events.html), running an [open software peer review process](/about-peer-review/index.html) and [partnering with other communities](/partners.html). From humble beginnings characterized by small community meetings, pyOpenSci has blossomed into a thriving community marked by:
+pyOpenSci makes open science more accessible by [developing educational resources](/learn.html), [running training events](/events/), running an [open software peer review process](/about-peer-review/index.html) and [partnering with other communities](/partners.html). From humble beginnings characterized by small community meetings, pyOpenSci has blossomed into a thriving community marked by:
 
 * a robust editorial team,
 * hundreds of contributors, and
@@ -43,15 +44,9 @@ pyOpenSci makes open science more accessible by [developing educational resource
 Our software peer review program has seen **over 50 packages**; we've [accepted 35 scientific Python packages into our growing library of trusted scientific Python packages](https://www.pyopensci.org/python-packages.html) and have **17 packages** in [active stages of review](https://github.com/orgs/pyOpenSci/projects/7) as I write this post.
 
 <!-- [<i class="fa-solid fa-wand-magic-sparkles"></i> Learn more about how pyOpenSci started <i class="fa-solid fa-wand-magic-sparkles"></i>](/blog/how-pyopensci-got-started.html)
- -->
+{: .button } -->
 
-<figure>
-    <a href="/images/pyopensci-general/pyopensci-flower-pillars.png">
-    <img src="/images/pyopensci-general/pyopensci-flower-pillars.png" style="max-width:100%" alt="A flower petal image with three flower petals and a flower center. In each petal, there is text. The first petal says software peer review; the second says community partnerships; the third says education & training. The center circle of the flower says diverse, inclusive community.">
-    </a>
-    <figcaption> pyOpenSci supports scientists developing open-source software through three programs: 1) peer review of scientific software, 2) community partnerships, and 3) education & training. A diverse and inclusive community that cares about the open-source software that drives open science supports all three of these programs.
-    </figcaption>
-</figure>
+{{< figure src="images/pyopensci-general/pyopensci-flower-pillars.png" alt="A flower petal image with three flower petals and a flower center. In each petal, there is text. The first petal says software peer review; the second says community partnerships; the third says education & training. The center circle of the flower says diverse, inclusive community." caption="pyOpenSci supports scientists developing open-source software through three programs: 1) peer review of scientific software, 2) community partnerships, and 3) education & training. A diverse and inclusive community that cares about the open-source software that drives open science supports all three of these programs." >}}
 
 ### pyOpenSci and iterative, data-driven program design
 
@@ -64,24 +59,34 @@ science is critical to accelerating science, sharing and publishing code is hard
 
 This blog post includes quotes and data I've collected over the past 5+ years; these data have shaped the vibrant community of practice that pyOpenSci is today.
 
-<figure>
-    <a href="/images/pyopensci-general/pyopensci-iterative-evaluation-program-design.png">
-    <img src="/images/pyopensci-general/pyopensci-iterative-evaluation-program-design.png" style="max-width:60%" class="align-center" alt="A round graphic that shows the cycle of iterative program development. The pyOpenSci logo is at the top left. The graphic title reads iterative program development. The first step says, 'A good idea gets better and better', the second says  'survey community needs,' the third says, 'evaluation based program design,' and the fourth says, 'evaluate results and make iterative improvements'. In the center is th">
-    </a>
-    <figcaption> Iterative data-driven program design is a fusion of evaluation and program development that utilizes community feedback to build a program using an iterative and community-responsive approach. You test approaches and collect data about the program's effectiveness. This type of development allows an organization to grow dynamically, following community needs.
-    </figcaption>
-</figure>
+{{< figure src="images/pyopensci-general/pyopensci-iterative-evaluation-program-design.png" alt="A round graphic that shows the cycle of iterative program development. The pyOpenSci logo is at the top left. The graphic title reads iterative program development. The first step says, 'A good idea gets better and better', the second says 'survey community needs,' the third says, 'evaluation based program design,' and the fourth says, 'evaluate results and make iterative improvements'. In the center is th" caption="Iterative data-driven program design is a fusion of evaluation and program development that utilizes community feedback to build a program using an iterative and community-responsive approach. You test approaches and collect data about the program's effectiveness. This type of development allows an organization to grow dynamically, following community needs." >}}
 
-{{< admonition type="note" title="Responses to the question: *How could pyOpenSci help you with your science, code, and software?*" >}}
-{% include pyos-blockquote.html quote="[*I want to know...*] What are the best practices for sharing the code?" author="Anonymous" event="AGU 2019 Townhall" class="highlight" event="2019 AGU Town Hall" %}
+<div class="notice" markdown ="1">
 
-{% include pyos-blockquote.html quote="[*I want to... *] Streamline the development of good quality, socially responsible, and easily shareable software." author="Anonymous" event="AGU 2019 Townhall" class="highlight magenta" %}
+### Responses to the question: *How could pyOpenSci help you with your science, code, and software?*
+{: .not_toc}
 
-{% include pyos-blockquote.html quote="[*I want more *] Bullet-proof, well-documented packages for Earth science." author="Anonymous" event="AGU 2019 Townhall" class="highlight" %}
+
+> [*I want to know...*] What are the best practices for sharing the code?
+>
+> — Anonymous
+
+
+
+> [*I want to... *] Streamline the development of good quality, socially responsible, and easily shareable software.
+>
+> — Anonymous
+
+
+
+> [*I want more *] Bullet-proof, well-documented packages for Earth science.
+>
+> — Anonymous
+
 
 Many earth scientists attend AGU. It's a different crowd than who you meet
 at the SciPy meetings.
-{{< /admonition >}}
+</div>
 
 ### Why pyOpenSci tackled Python packaging
 
@@ -93,25 +98,35 @@ As we developed our [peer review guide](https://www.pyopensci.org/software-peer-
 2. We want to help scientists make their packages more maintainable over time by adding tests and [continuous integration (CI)](https://www.pyopensci.org/python-package-guide/tests/tests-ci.html#run-tests-with-continuous-integration) checks that run when someone submits a suggested change (or a pull request). We want to set scientists up for success.
 3. We realize that Python packaging is a thorny ecosystem to navigate. I knew that pyOpenSci could help file down those thorns.
 
-{{< admonition type="note" title="How could pyOpenSci help you with your science, code, and software?" >}}
-{% include pyos-blockquote.html quote="Training for people who can code for themselves but want to start developing software for others. Topics include style, documentation, testing, git, etc." author="Anonymous" event="AGU 2019 Townhall" class="highlight magenta" %}
-{{< /admonition >}}
+<div class="notice" markdown ="1">
+### *"How could pyOpenSci help you with your science, code, and software?"*
+
+
+> Training for people who can code for themselves but want to start developing software for others. Topics include style, documentation, testing, git, etc.
+>
+> — Anonymous
+
+
+</div>
 
 #### Helping scientists navigate a complex and difficult-to-understand Python packaging ecosystem
 
 The packaging ecosystem has evolved rapidly. Numerous tools and approaches are available to create Python packages. Further, recent changes to ecosystem standards have led to an explosion of packaging tools like [Hatch](https://hatch.pypa.io/latest/), [Flit](https://flit.pypa.io/en/stable/), [PDM](https://pdm.fming.dev/latest/), and [Poetry](https://python-poetry.org/); other tools like Pixi and Rye are also on the horizon. Scientists often feel overwhelmed by the sheer number of options and have begged for clear guidance for years.
 
-{{< admonition type="note" >}}
+<div class="notice" markdown ="1">
+
 <h3 class="no-toc"> QUESTION: "How could pyOpenSci help you with your science, code, and software?"</h3>
 
 
-{% include pyos-blockquote.html quote="[*I want pyOpenSci to*] clarify Python packaging. There are too many different mechanisms floating around..." author="" event="2021 SciPy BoF" class="highlight magenta" %}
-{{< /admonition >}}
 
-<figure>
-    <a href="/images/python-packaging/pyopensci-python-package-tools-word-cloud-2024.png"><img src="/images/python-packaging/pyopensci-python-package-tools-word-cloud-2024.png" style="max-width:80%" alt="This is a giant word cloud with dozens of words. The biggest words are Build, Poetry, Conda, Setuptools, Sphinx, pip, Hatch, Mamba, Twine PyPI, venv, and GitHub Actions."></a>
-    <figcaption>This word cloud represents around 100 responses to the question: What Python packaging tools do you most often use? It demonstrates both 1) how many tools there are to choose from and 2) how divided the ecosystem is in terms of which tools they are using. Yes, a few tools there aren't explicitly Python packaging tools. :) </figcaption>
-</figure>
+> [*I want pyOpenSci to*] clarify Python packaging. There are too many different mechanisms floating around...
+>
+> —
+
+
+</div>
+
+{{< figure src="images/python-packaging/pyopensci-python-package-tools-word-cloud-2024.png" alt="This is a giant word cloud with dozens of words. The biggest words are Build, Poetry, Conda, Setuptools, Sphinx, pip, Hatch, Mamba, Twine PyPI, venv, and GitHub Actions." caption="This word cloud represents around 100 responses to the question: What Python packaging tools do you most often use? It demonstrates both 1) how many tools there are to choose from and 2) how divided the ecosystem is in terms of which tools they are using. Yes, a few tools there aren't explicitly Python packaging tools. :)" >}}
 
 There are some excellent, more advanced guides and tutorials available now, such as [PyPA's packaging tutorial](https://packaging.python.org/tutorials/) and the [scientific Python development guide](https://learn.scientific-python.org/development/). However, our resources serve a different audience.
 
@@ -148,24 +163,18 @@ The pyOpenSci packaging guide provides an overview of the Python packaging ecosy
 
 * [build backend](https://www.pyopensci.org/python-package-guide/package-structure-code/python-package-build-tools.html#build-back-ends),
 * [build frontend](https://www.pyopensci.org/python-package-guide/package-structure-code/python-package-build-tools.html#python-package-build-front-ends),
-* [wheel](https://www.pyopensci.org/python-package-guide/package-structure-code/python-package-distribution-files-sdist-wheel.html#wheel-whl-files), and
-* [sdist](https://www.pyopensci.org/python-package-guide/package-structure-code/python-package-distribution-files-sdist-wheel.html#source-distribution-sdist).
+* [wheel](https://www.pyopensci.org/python-package-guide/package-structure-code/python-package-distribution-files-sdist-wheel.html), and
+* [sdist](https://www.pyopensci.org/python-package-guide/package-structure-code/python-package-distribution-files-sdist-wheel.html).
 
 Our Python Packaging Guide aims to translate the technical jargon that gets in the way of new users having a successful packaging experience. Over time, we
 hope that this will make packaging less confusing and more accessible to more people.
 
-<figure>
- <a href="/images/python-packaging/"><img src="/images/python-packaging/publish-python-package-pypi-conda.png" alt="Diagram that has the pyOpenSci logo in the upper left-hand corner with the pyOS flower. The diagram has four steps for making a package: create package structure, add code, add metadata to pyproject.toml, and finally, pip install package. The four steps are within arrows that point to two building shapes representing the PyPI and conda-forge warehouses. Below each of those steps, represented as storage houses, the code instructions for installing using a package from that warehouse is written out--python -m pip install yourpackage and conda install -c conda-forge yourpackage. "></a>
- <figcaption>Our opinionated Python packaging tutorials demonstrate one way to create a Python package using modern packaging best practices. Through these tutorials, pyOpenSci has reduced the cognitive load for scientists who want to share their code. This graphic represents the steps a user needs to understand to make their code installable and create a basic Python package.</figcaption>
-</figure>
+{{< figure src="images/python-packaging/publish-python-package-pypi-conda.png" alt="Diagram that has the pyOpenSci logo in the upper left-hand corner with the pyOS flower. The diagram has four steps for making a package: create package structure, add code, add metadata to pyproject.toml, and finally, pip install package. The four steps are within arrows that point to two building shapes representing the PyPI and conda-forge warehouses. Below each of those steps, represented as storage houses, the code instructions for installing using a package from that warehouse is written out--python -m pip install yourpackage and conda install -c conda-forge yourpackage." caption="Our opinionated Python packaging tutorials demonstrate one way to create a Python package using modern packaging best practices. Through these tutorials, pyOpenSci has reduced the cognitive load for scientists who want to share their code. This graphic represents the steps a user needs to understand to make their code installable and create a basic Python package." >}}
 
 
 ### Creating opinionated Python packaging tutorials
 
-<figure>
-    <a href="/images/python-packaging/have-you-created-python-package-scipy-24.png"><img src="/images/python-packaging/have-you-created-python-package-scipy-24.png" style="max-width:80%" alt="This is a graphic that shows the results to a survey question. The question is--have you created a Python package before? The three options are Yes (18%), no (59%), and I struggled trying (24%)"></a>
-    <figcaption> This response ratio of most people either struggling to create a package or never having created a Python package before is common when I ask this questions at events. More often than not, people want help learning packaging.</figcaption>
-</figure>
+{{< figure src="images/python-packaging/have-you-created-python-package-scipy-24.png" alt="This is a graphic that shows the results to a survey question. The question is--have you created a Python package before? The three options are Yes (18%), no (59%), and I struggled trying (24%)" caption="This response ratio of most people either struggling to create a package or never having created a Python package before is common when I ask this questions at events. More often than not, people want help learning packaging." >}}
 
 In addition to the ecosystem overview provided in the guide, I knew that we needed to have opinionated, complete Python packaging tutorials that guided users through the entire packaging process including:
 
@@ -177,14 +186,11 @@ Most scientists (and packaging beginners) want to get the job done; they don't w
 
 > I just want to create a Python package. Where is the tutorial or
 > documentation that teaches me how to do that?
-
+{: .highlight-quote }
 
 Our Python packaging tutorials went through the same community development and review process as the rest of our Python Packaging Guide. We have also begun teaching the lessons; most workshop attendees have successfully created their first Python packages!
 
-<figure>
-    <a href="/images/python-packaging/successfully-created-python-package-scipy-24.png"><img src="/images/python-packaging/successfully-created-python-package-scipy-24.png" style="max-width:80%" alt="Another survey result image. The question is: were you able to create a package? 91% responded yes (10 people), 9% (1 person) said no; no one responded 'I'm not sure'"></a>
-    <figcaption>It's always hard to collect data at the end of a long workshop. Here, 11 out of 30+ people responded. Most people in our workshop were successful. We worked with the one person who responded "no" after the survey at the end of the workshop. They successfully made their first package with our support! This feedback was similar to the success rates at our <a href="https://www.pyopensci.org/events/april-2024-create-python-package-pyopensci-online-workshop.html">first online workshop</a>, held in May 2024. </figcaption>
-</figure>
+{{< figure src="images/python-packaging/successfully-created-python-package-scipy-24.png" alt="Another survey result image. The question is: were you able to create a package? 91% responded yes (10 people), 9% (1 person) said no; no one responded 'I'm not sure'" caption="It's always hard to collect data at the end of a long workshop. Here, 11 out of 30+ people responded. Most people in our workshop were successful. We worked with the one person who responded 'no' after the survey at the end of the workshop. They successfully made their first package with our support! This feedback was similar to the success rates at our <a href='https://www.pyopensci.org/events/april-2024-create-python-package-pyopensci-online-workshop.html'>first online workshop</a>, held in May 2024." >}}
 
 
 ### Teaching online lessons is the best way to ensure they stay current
@@ -194,7 +200,11 @@ I have created hundreds of open online lessons both for ecologists [NEON](https:
 <i class="fa-solid fa-heart-pulse" style="color: #B197FC;"></i><i class="fa-solid fa-heart-pulse" style="color: #B197FC;"></i><i class="fa-solid fa-heart-pulse" style="color: #B197FC;"></i><i class="fa-solid fa-heart-pulse" style="color: #B197FC;"></i><i class="fa-solid fa-heart-pulse" style="color: #B197FC;"></i><i class="fa-solid fa-heart-pulse" style="color: #B197FC;"></i>
 
 
-{% include pyos-blockquote.html quote="Hi Leah. Thanks for the course today. I really enjoyed it. I heard about it from your post here in the Python channel so I'm glad you shared it here. I'll keep my eye out for more coming up and will be referring to the tutorials and guides on your site. Hopefully you work out the spatial chat because that seemed to have a lot of potential! I also want to let you know that I got a ton of value out of your materials on the CU Open Earth data analytics site, and it's still my go-to resource to point people to when they ask me how to get started learning the open source spatial stack. So thank you!" author="Michael Harty, Software Underground Community" class="highlight" %}
+
+> Hi Leah. Thanks for the course today. I really enjoyed it. I heard about it from your post here in the Python channel so I'm glad you shared it here. I'll keep my eye out for more coming up and will be referring to the tutorials and guides on your site. Hopefully you work out the spatial chat because that seemed to have a lot of potential! I also want to let you know that I got a ton of value out of your materials on the CU Open Earth data analytics site, and it's still my go-to resource to point people to when they ask me how to get started learning the open source spatial stack. So thank you!
+>
+> — Michael Harty, Software Underground Community
+
 
 
 <i class="fa-solid fa-heart-pulse" style="color: #B197FC;"></i><i class="fa-solid fa-heart-pulse" style="color: #B197FC;"></i><i class="fa-solid fa-heart-pulse" style="color: #B197FC;"></i><i class="fa-solid fa-heart-pulse" style="color: #B197FC;"></i><i class="fa-solid fa-heart-pulse" style="color: #B197FC;"></i><i class="fa-solid fa-heart-pulse" style="color: #B197FC;"></i>
@@ -206,7 +216,11 @@ I will leave web and social media growth, which have also shown extraordinary gr
 
 The success of our packaging guide has been remarkable, thanks to the tremendous input and feedback from the community. What began as a simple guide has evolved into a collaborative project, with enthusiastic participation from contributors worldwide.
 
-{% include pyos-blockquote.html quote="@leahawasser @pyOpenSci clicking through and eventually found myself looking at 'what is a Python package' and involuntarily performed a standing ovation. bookmarked it as an example of great docs for an incredibly complex subject with many meanings in many different contexts" author="Mastodon Toot" class="highlight" %}
+
+> @leahawasser @pyOpenSci clicking through and eventually found myself looking at 'what is a Python package' and involuntarily performed a standing ovation. bookmarked it as an example of great docs for an incredibly complex subject with many meanings in many different contexts
+>
+> — Mastodon Toot
+
 
 [View toot on mastodon](https://circumstances.run/@hipsterelectron/112557545629456885)
 
@@ -254,9 +268,13 @@ While pyOpenSci operates mainly as an online community, I find there is no bette
 
 Beginner-friendly sprints represent a true win-win for both contributors and pyOpenSci. Contributors learn new skills, and pyOpenSci gets help with the vital work that we are doing.
 
-{{< admonition type="note" title="What is a community sprint?" >}}
+<div class="notice" markdown="1">
+
+### What is a community sprint?
+{: .no-toc}
+
 Community sprints are collaborative coding and documentation update sessions where new and experienced contributors work together on open-source projects. These sprints provide a supportive environment with guidance from project maintainers or experienced developers, helping participants contribute effectively. They are an excellent opportunity for learning, networking, and making meaningful contributions to the open-source community. [You can read more about that here.](https://www.pyopensci.org/blog/pyopensci-pyconus-2024-sprints.html)
-{{< /admonition >}}
+</div>
 
 
 | Year  | PRs & Issues | Contributors |
@@ -273,9 +291,6 @@ had collaborating with [other partner communities, such as Astropy](https://www.
 
 Here is my SciPy video if you want to check it out now. :)
 
-{% include video id="uCLlshkTBM0" provider="youtube" %}
-
-
 ## pyOpenSci's software peer review program is growing, too
 
 Funding has propelled pyOpenSci's peer review process forward. While pyOpenSci has run peer review since 2019, funding allowed us to document, formalize, and make the peer review program more sustainable and scalable. The [peer review guide](https://www.pyopensci.org/software-peer-review/) was one of the first things I worked on in the Fall of 2022. The goal of this guide was to
@@ -285,16 +300,12 @@ The guide also documents our [community partnership program](https://www.pyopens
 
 In four months, we published a shiny new peer review guide. In January 2023, we re-launched peer review again. Peer review submissions increased dramatically starting in January 2024 (see below).
 
-<figure>
-    <a href="/images/peer-review/pyopensci-python-software-peer-review-growth.png"><img src="/images/peer-review/pyopensci-python-software-peer-review-growth.png" alt="A cumulative sum plot with months on the x-axis and number of review issues submitted on the y-axis. The curve starts with a small slope in 2019. Then, around January 2023, the slope becomes significantly steeper, indicating a dramatic increase in submissions when we reopened the peer review. At that point in the plot, there is a label that says 'Full-time funding'."></a>
-    <figcaption>It is clear the impact that 1) working on our peer review guide and governance plus 2) funding, which allowed me to devote all of my professional time to pyOpenSci, had on our peer review program. It has been incredibly successful in the past year! And true success lies in the hands of the community that leads the review process. Today, on average, pyOpenSci has 10-14 packages in our software review queue.
-</figcaption>
-</figure>
+{{< figure src="images/peer-review/pyopensci-python-software-peer-review-growth.png" alt="A cumulative sum plot with months on the x-axis and number of review issues submitted on the y-axis. The curve starts with a small slope in 2019. Then, around January 2023, the slope becomes significantly steeper, indicating a dramatic increase in submissions when we reopened the peer review. At that point in the plot, there is a label that says 'Full-time funding'." caption="It is clear the impact that 1) working on our peer review guide and governance plus 2) funding, which allowed me to devote all of my professional time to pyOpenSci, had on our peer review program. It has been incredibly successful in the past year! And true success lies in the hands of the community that leads the review process. Today, on average, pyOpenSci has 10-14 packages in our software review queue." >}}
 
 <!-- TODO: rename  repo to "guide" (rename it to be metrics and then link to it) -->
 
 You can see more of our [peer review metrics on our MyST Markdown metrics dashboard here](https://www.pyopensci.org/metrics/peer-review/peer-review-status-dashboard.html)
-
+{: .button }
 
 
 ### Is pyOpenSci's peer review program diverse?
@@ -326,26 +337,46 @@ Every morning, I wake up and am excited to begin my work. It doesn't matter if I
 
 <i class="fa-solid fa-circle-check" style="color: #63E6BE;"></i> The community is kind; the discussions are engaging and people help each other.
 
-{% include pyos-blockquote.html quote="I love the friendliness and positive energy around the combination of science+computing (in Python, too)! It's a lovely community of practice!" author="Titus Brown, Faculty - University of California, Davis" class="highlight magenta" %}
+
+> I love the friendliness and positive energy around the combination of science+computing (in Python, too)! It's a lovely community of practice!
+>
+> — Titus Brown, Faculty - University of California, Davis
+
 
 The community also cares a lot about the scientific Python ecosystem and wants to see more robust software.
 
-{% include pyos-blockquote.html quote="As maintainers of the Scientific Python library, we see great potential in pyOpenSci. Test, code, documentation, and internationalization. These are things we have gradually accumulated know-how for in order to create a robust library on GitHub. Now, these are about to be integrated by the pyOpenSci project." author="Tetsuo Koyama - PyVista maintainer" class="highlight" %}
+
+> As maintainers of the Scientific Python library, we see great potential in pyOpenSci. Test, code, documentation, and internationalization. These are things we have gradually accumulated know-how for in order to create a robust library on GitHub. Now, these are about to be integrated by the pyOpenSci project.
+>
+> — Tetsuo Koyama - PyVista maintainer
+
 
 They care about the packaging guidelines we have worked so hard to co-create and the impact those guidelines and online resources have on scientists who are just trying to get their jobs done.
 
-{% include pyos-blockquote.html quote="I'm hopeful that the standards established by pyOpenSci will help alleviate the reproducibility crisis, increasing public trust in science, accelerating progress, and making all our jobs a little bit easier!" author="Jackson Burns, MIT" class="highlight magenta" %}
+
+> I'm hopeful that the standards established by pyOpenSci will help alleviate the reproducibility crisis, increasing public trust in science, accelerating progress, and making all our jobs a little bit easier!
+>
+> — Jackson Burns, MIT
+
 
 And, like me, the community cares deeply about education. The community wants to help
 eliminate the packaging and open science thorns. They want to make packaging (and using Python) more
 accessible to more people.
 
-{% include pyos-blockquote.html quote="I love the educational aspect of pyOpenSci and how it focuses on removing the technical friction that prevents people from contributing to open source and open science. The community makes a conscious effort to create a welcoming culture and provide a safe place to learn for beginners. It helps prepare people for even bigger future contributions to the open science and open source movements." author="Felipe Moreno  - Tech Industry Professional" class="highlight" %}
+
+> I love the educational aspect of pyOpenSci and how it focuses on removing the technical friction that prevents people from contributing to open source and open science. The community makes a conscious effort to create a welcoming culture and provide a safe place to learn for beginners. It helps prepare people for even bigger future contributions to the open science and open source movements.
+>
+> — Felipe Moreno  - Tech Industry Professional
+
 
 Carol below was more than just a participant! She also helped many students
 in their workshop learning experience.
 
-{% include pyos-blockquote.html quote="As a participant in the first packaging workshop, I found that individual attention and focus on success were outstanding. The organization and approach to teaching a scientist how to create a package helped build skills and ongoing productivity." author="Carol Willing - Open Source & Open Science Leader, Project Jupyter, Python Core Dev" class="highlight purple" %}
+
+> As a participant in the first packaging workshop, I found that individual attention and focus on success were outstanding. The organization and approach to teaching a scientist how to create a package helped build skills and ongoing productivity.
+>
+> — Carol Willing - Open Source & Open Science Leader, Project Jupyter, Python Core Dev
+
 
 ## Building a sustainability model for pyOpenSci so we can continue to thrive - what's next
 
@@ -370,10 +401,6 @@ Our next training event is the inaugural pyOpenSci Fall Festival--a week-long ev
 * create reproducible reports that connect code, data, and outputs into a dynamically produced interactive publication.
 
 We also will develop collaborative GitHub lessons following the BSSw fellowship I received this year.
-
-
-{% include connect-with-pyos.html %}
-
 
 <div class = "notice" markdown="1">
 ## About Me

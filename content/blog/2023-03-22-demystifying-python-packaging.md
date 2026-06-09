@@ -1,19 +1,18 @@
 ---
 title: 'Demystifying the Python packaging ecosystem '
-date: 2023-03-22
+date: '2023-03-22'
 type: blog
-url: "/blog/demystifying-python-packaging.html"
 excerpt: 'pyOpenSci has published the packaging structure and tool section of it''s
   guide. This chapter has been reviewed by dozens of core community members to ensure
   accuracy and is community-driven. '
 author: Leah Wasser
-tags:
-- highlight
+blog_topic: learn
 toc: false
 comments: true
-lastmod: 2024-08-29
-blog_topic: learn
+url: "/blog/demystifying-python-packaging.html"
+lastmod: '2024-08-29'
 ---
+
 ## A guide to make Python packaging easier for scientists
 
 I've spent the last few months working on creating a Python packaging guide. This guide seeks to help those creating new scientific Python packages select a packaging tool and workflow. This guide also supports the [pyOpenSci peer review process](https://www.pyopensci.org/about-peer-review/).
@@ -32,13 +31,7 @@ There are a few key takeaways from this post:
 
 The [packaging chapter of our guide](https://www.pyopensci.org/python-package-guide/package-structure-code/intro.html) is online now! Stay tuned for more content on environments, CI and testing!
 
-<figure>
-    <a href="/images/python-package-tools-decision-tree.png">
-    <img src="/images/python-package-tools-decision-tree.png" style="max-width:100%" alt="Diagram showing a decision tree with the tools flit, hatch, pdm and poetry highlighted. The diagram is called Pick a Packaging Tool.">
-    </a>
-    <figcaption>An diagram from our packaging guide that shows the core packaging tools that scientists may need to decide between. For a pure python package you can use any tool that you wish based on the features that you want in a tool. However, if you have a more complex build you may want to use PDM or the PyPA's build tool with a powerful back-end like meson-python.
-    </figcaption>
-</figure>
+{{< figure src="images/python-package-tools-decision-tree.png" alt="Diagram showing a decision tree with the tools flit, hatch, pdm and poetry highlighted. The diagram is called Pick a Packaging Tool." caption="An diagram from our packaging guide that shows the core packaging tools that scientists may need to decide between. For a pure python package you can use any tool that you wish based on the features that you want in a tool. However, if you have a more complex build you may want to use PDM or the PyPA's build tool with a powerful back-end like meson-python." >}}
 
 ## My jump into packaging
 
@@ -56,13 +49,7 @@ No problem, right?
 At the same time I noticed that many did not want to talk about
 Python packaging. And I wondered, why?
 
-<figure>
-    <a href="/images/python-packaging/lion-meme-pyopensci.jpeg">
-    <img src="/images/python-packaging/lion-meme-pyopensci.jpeg" style="max-width:100%" alt="A meme showing a mountain lion with it's little paw up like an italian mobster. the meme text says - so you want to talk about python packaging..">
-    </a>
-    <figcaption>People didn't want to talk about Python packaging. It was such a painful, sore topic.
-    </figcaption>
-</figure>
+{{< figure src="images/python-packaging/lion-meme-pyopensci.jpeg" alt="A meme showing a mountain lion with it's little paw up like an italian mobster. the meme text says - so you want to talk about python packaging.." caption="People didn't want to talk about Python packaging. It was such a painful, sore topic." >}}
 
 ### My approach to learning how to create a Python package
 
@@ -141,13 +128,7 @@ In general, users want to use the simplest approach to publish their packages on
 
 Remember - early wins go a long way.
 
-<figure>
-    <a href="/images/python-packaging/dont-talk-about-peps-pyopensci.jpeg">
-    <img src="/images/python-packaging/dont-talk-about-peps-pyopensci.jpeg" style="max-width:100%" alt="A meme from the movie flight flub showing brad pitt with his arms crossed in a black tshirt. The text says - the first rul of peps is do not talk about peps.">
-    </a>
-    <figcaption>At one point, I was trying to link to Python standards - known as PEPS (Python Enhancement Protocols) given everyone was sharing the various PEPs that tools follow. I was then told that we should avoid linking to these pages as they weren't intended for public consumption. If that is the case then how does the public get current information about standards? While I understood the goal, My mind was a bit blown. This was one of many points of confusion that I had to sort through.  :)
-    </figcaption>
-</figure>
+{{< figure src="images/python-packaging/dont-talk-about-peps-pyopensci.jpeg" alt="A meme from the movie flight flub showing brad pitt with his arms crossed in a black tshirt. The text says - the first rul of peps is do not talk about peps." caption="At one point, I was trying to link to Python standards - known as PEPS (Python Enhancement Protocols) given everyone was sharing the various PEPs that tools follow. I was then told that we should avoid linking to these pages as they weren't intended for public consumption. If that is the case then how does the public get current information about standards? While I understood the goal, My mind was a bit blown. This was one of many points of confusion that I had to sort through. :)" >}}
 
 ## Assessment of packaging tools functionality
 
