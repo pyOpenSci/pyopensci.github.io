@@ -86,4 +86,3 @@ This year's Maintainer Summit felt like a turning point — 150+ maintainers in 
 pyOpenSci is proud to be an organizing partner for the PyCon US Maintainer Summit. Maintainer work can be isolating; days like this remind us we're not doing it alone. If you couldn't join us in Long Beach, we hope to see you next year.
 
 See you in there.
-

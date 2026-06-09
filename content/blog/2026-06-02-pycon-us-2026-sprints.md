@@ -69,4 +69,3 @@ Sprint day is my favorite day of any conference — even when I'm exhausted, eve
 Our next sprint will be at [EuroPython](https://europython.eu/) in Poland in July — a joint sprint with EuroPython and EuroSciPy. I'll also be keynoting there, so I hope to see many of you in the room.
 
 If you've been thinking about sprinting with us for the first time: come. We'll be there, and so will a community that genuinely wants to see you succeed.
-
