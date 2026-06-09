@@ -213,4 +213,3 @@ get figured out.
 I'll be bringing these conversations to the UN Open Source Summit,
 EuroPython (where I'll be keynoting), EuroSciPy, and RSECon in
 September. I hope to see many of you along the way.
-

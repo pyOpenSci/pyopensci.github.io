@@ -50,5 +50,3 @@ Even in a hard year — especially in a hard year — I left the conference feel
 ## What it all comes down to
 
 If there's one thing that tied all of these experiences together, it's this: **the humans are what make open source work.** The tools change, the challenges evolve, but the connections, the learning, the care people bring to this work — that's the irreplaceable part.
-
-
