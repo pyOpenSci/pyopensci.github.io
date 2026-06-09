@@ -49,7 +49,6 @@ buildFuture = true
     linkedin = 'https://www.linkedin.com/company/pyopensci/'
     mastodon = 'https://fosstodon.org/@pyOpenSci'
     youtube = 'https://www.youtube.com/@pyopensci'
-    discord = 'https://discord.gg/yYyDFP2BcP'
 
   [params.footer]
     follow_label = 'Follow'
@@ -80,11 +79,6 @@ buildFuture = true
   label = 'YouTube'
   icon = 'fa-brands fa-youtube'
   url = 'https://www.youtube.com/@pyopensci'
-
-[[params.footer.links]]
-  label = 'Discord'
-  icon = 'fa-brands fa-discord'
-  url = 'https://discord.gg/yYyDFP2BcP'
 
 [params.theme]
   enableGallery = false
