@@ -12,7 +12,8 @@
 {{ if not $e }}
   {{ return }}
 {{ end }}
-{{ $rootClass := cond $compact "event-card event-card--compact" (cond $featured "event-card event-card--featured" "event-card") }}
+{{ $img := partial "get-image.html" (dict "image" $p.Params.image "fallbackAlt" $p.Title "page" $p) }}
+{{ $rootClass := printf "%s%s" (cond $compact "event-card event-card--compact" (cond $featured "event-card event-card--featured" "event-card")) (cond (and $featured $img.exists) " event-card--with-image" "") }}
 {{ $kind := lower (urlize ($e.event_type | default "")) }}
 {{ $typeLabels := dict "training" "Training" "sprint" "Sprint" "community" "Community event" "talk" "Talk" }}
 {{ $typeLabel := index $typeLabels $kind }}
@@ -30,6 +31,11 @@
 <article class="{{ $rootClass }}">
   <a href="{{ $p.Permalink }}">
     {{ if $featured }}
+      {{ if $img.exists }}
+        <figure class="event-card__featured-image">
+          <img src="{{ $img.src }}" alt="{{ $img.alt }}" loading="lazy" decoding="async" />
+        </figure>
+      {{ end }}
       <div class="event-card__featured-inner">
         <div class="event-card__featured-top">
           <div class="event-card__date-badge" aria-hidden="true">
@@ -63,7 +69,6 @@
     {{ else }}
       <div class="event-card__content">
         <div class="event-card__date">
-          {{ $img := partial "get-image.html" (dict "image" $p.Params.image "fallbackAlt" $p.Title "page" $p) }}
           {{ if $img.exists }}
             <div class="event-card__date-background"
                  style="background-image: url('{{ $img.src }}');"></div>
