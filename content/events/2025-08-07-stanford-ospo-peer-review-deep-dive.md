@@ -19,6 +19,7 @@ event:
 aliases:
 - "/events/pyopensci-stanford-ospo-peer-review.html"
 ---
+
 ## pyOpenSci: Improving research software and code through open and accessible peer review
 
 * **When:** Thursday, 7 August @ 11:00 AM Mountain Time

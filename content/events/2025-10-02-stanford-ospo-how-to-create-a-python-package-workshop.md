@@ -17,6 +17,7 @@ event:
 aliases:
 - "/events/pyopensci-stanford-create-python-package-workshop.html"
 ---
+
 ## Create a Python package: make your Python code easier to share and use
 
 * **When:** Thursday, 2 October @ 10:00 AM Mountain Time // 9:00AM Pacific Time

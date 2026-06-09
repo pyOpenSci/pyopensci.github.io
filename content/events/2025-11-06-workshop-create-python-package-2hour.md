@@ -15,6 +15,7 @@ event:
 aliases:
 - "/events/python-packaging-workshop-november-2025.html"
 ---
+
 ## Everything that you need to know
 
 * **When:** Thursday, 6 November 2025 10:00 AM Mountain Time - 12:15 PM Mountain Time
