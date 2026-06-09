@@ -1,19 +1,22 @@
 ---
-title: "pyOpenSci Community News: August 2024"
+title: 'pyOpenSci Community News: August 2024'
 date: 2024-08-02
 type: blog
-url: /blog/pyos-community-news-aug-2024.html
-excerpt: "Welcome to the first edition of pyOpenSci's Community News newsletter, where we summarize and share conversations, contributions, and news related to our diverse and vibrant community! Read on for insights into running pyOpenSci sprints, Python packaging guide Spanish translation efforts, and using Hatch to create and maintain Python."
-author: "Jesse Mostipak"
-category: Community
+url: "/blog/pyos-community-news-aug-2024.html"
+excerpt: Welcome to the first edition of pyOpenSci's Community News newsletter, where
+  we summarize and share conversations, contributions, and news related to our diverse
+  and vibrant community! Read on for insights into running pyOpenSci sprints, Python
+  packaging guide Spanish translation efforts, and using Hatch to create and maintain
+  Python.
+author: Jesse Mostipak
 image:
   src: images/blog/headers/pycon-us-2024-header.png
-  alt: "pyOpenSci Community News: August 2024"
+  alt: 'pyOpenSci Community News: August 2024'
 toc: true
 comments: true
 lastmod: 2024-08-29
+blog_topic: community
 ---
-
 ## <i class="fa-regular fa-heart"></i> pyOpenSci community news
 
 As the pyOpenSci community has continued to grow, we wanted to dedicate at least one newsletter issue a month to sharing conversations, contributions, and news related to our diverse and vibrant community! This month we’re celebrating everyone who’s participated in a pyOpenSci sprint, sharing the exciting news around the Spanish translation of our Python Packaging Guide, and elevating a discussion from GitHub around the use of Hatch for Python package creation.

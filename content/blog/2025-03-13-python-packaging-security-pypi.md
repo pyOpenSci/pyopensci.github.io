@@ -1,21 +1,22 @@
 ---
-title: "How to Secure Your Python Packages When Publishing to PyPI"
+title: How to Secure Your Python Packages When Publishing to PyPI
 date: 2025-03-13
 type: blog
-url: /blog/python-packaging-security-publish-pypi.html
-excerpt: "Learn how to secure your Python package PyPI publishing workflows and protect your package from attacks. This post covers actionable steps, using PyPI Trusted Publisher, and sanitizing workflows, to ensure your projects stay safe."
-author: "Leah Wasser"
-category: Open Education
+url: "/blog/python-packaging-security-publish-pypi.html"
+excerpt: Learn how to secure your Python package PyPI publishing workflows and protect
+  your package from attacks. This post covers actionable steps, using PyPI Trusted
+  Publisher, and sanitizing workflows, to ensure your projects stay safe.
+author: Leah Wasser
 tags:
-  - community
+- community
 image:
   src: images/headers/pyopensci-floral.png
-  alt: "How to Secure Your Python Packages When Publishing to PyPI"
+  alt: How to Secure Your Python Packages When Publishing to PyPI
 toc: true
 comments: true
 lastmod: 2025-03-13
+blog_topic: learn
 ---
-
 ## Is your PyPI publication workflow secure?
 
 We can learn a lot from the Python package breach [involving Ultralytics](https://blog.pypi.org/posts/2024-12-11-ultralytics-attack-analysis/). This breach highlighted the importance of making our PyPI publishing workflows for Python packages more secure.

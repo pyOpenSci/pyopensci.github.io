@@ -7,7 +7,6 @@ excerpt: Our fourth PyCon US sprint grew from a single contributor in Salt Lake 
   to ~20 people in Long Beach. Co-sprinting with Hatch, welcoming beginners, and a
   new Portuguese packaging guide translation show where this community is headed.
 author: Leah Wasser
-category: Community
 toc: true
 comments: true
 url: "/blog/pycon-us-2026-sprints.html"
@@ -18,8 +17,8 @@ image:
     during the pyOpenSci sprint. Laptops show code editors and project pages, with
     purple conference lanyards, charging cables, water bottles, and coffee cups spread
     across the table.
+blog_topic: community
 ---
-
 *This post is Part 3 of a 4-part series on pyOpenSci at PyCon US 2026. [Part 1](/blog/pycon-us-2026-community-connection.html) covers community and connection. [Part 2](/blog/pycon-us-2026-maintainers-summit.html) covers the Maintainer Summit.*
 
 This year marked our fourth sprint at [PyCon US](https://us.pycon.org/2026/). If you want to really understand what pyOpenSci is about, our sprints are the place to look.

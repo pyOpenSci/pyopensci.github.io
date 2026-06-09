@@ -1,23 +1,25 @@
 ---
-title: "Reaffirming pyOpenSci's Commitment to Inclusion"
+title: Reaffirming pyOpenSci's Commitment to Inclusion
 date: 2025-03-21
 type: blog
-url: /blog/pyopensci-commitment-inclusion.html
-excerpt: "pyOpenSci is growing a global, vibrant and inclusive open source community where everyone from all backgrounds and identities can contribute to better, more open science. Join us in breaking down barriers and building a future where all voices shape scientific discovery."
-author: "Executive Council"
-authors: "Leah Wasser, Karen Cranston, Tracy Teal"
-category: Community
+url: "/blog/pyopensci-commitment-inclusion.html"
+excerpt: pyOpenSci is growing a global, vibrant and inclusive open source community
+  where everyone from all backgrounds and identities can contribute to better, more
+  open science. Join us in breaking down barriers and building a future where all
+  voices shape scientific discovery.
+author: Executive Council
+authors: Leah Wasser, Karen Cranston, Tracy Teal
 tags:
-  - inclusion
+- inclusion
 image:
   src: images/headers/pyopensci-floral.png
-  alt: "Reaffirming pyOpenSci's Commitment to Inclusion"
+  alt: Reaffirming pyOpenSci's Commitment to Inclusion
 toc: true
 comments: true
 lastmod: 2025-03-21
-h2: "pyOpenSci’s mission has always been founded on inclusion"
+h2: pyOpenSci’s mission has always been founded on inclusion
+blog_topic: community
 ---
-
 During challenging times, it’s critical to pause and reflect on who we are, what we care about, and why our work matters. Since its inception, pyOpenSci, a global community fiscally sponsored in the U.S., has been committed to actively building an inclusive, welcoming, open source community of practice that supports better, more open science. Our Code of Conduct reinforces our [values,](https://www.pyopensci.org/handbook/CODE_OF_CONDUCT.html) as does the thought that we put into the events that we run, the accessible resources that we develop, and the work that we do to make our [peer review program inclusive](https://www.pyopensci.org/#broadening-participation-in-scientific-open-source) and [creating Python software easier](https://www.pyopensci.org/python-package-guide/tutorials/intro.html).
 
 Today, we celebrate the core values that drive pyOpensci. Today, we reaffirm our long-standing commitment to building an inclusive, open source community and highlight our mission.

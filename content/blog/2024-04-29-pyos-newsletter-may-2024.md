@@ -1,16 +1,17 @@
 ---
-title: "pyOpenSci Newsletter: May 2024"
+title: 'pyOpenSci Newsletter: May 2024'
 date: 2024-04-29
 type: blog
-url: /blog/pyos-newsletter-may-2024.html
-excerpt: "May has brought two new packages, the first (of many!) pyOpenSci workshops, all things pyOpenSci and PyCon, and several incredible speaking opportunities. Read on to learn more!"
-author: "Jesse Mostipak"
-category: Community
+url: "/blog/pyos-newsletter-may-2024.html"
+excerpt: May has brought two new packages, the first (of many!) pyOpenSci workshops,
+  all things pyOpenSci and PyCon, and several incredible speaking opportunities. Read
+  on to learn more!
+author: Jesse Mostipak
 toc: true
 comments: true
 lastmod: 2024-08-29
+blog_topic: updates
 ---
-
 ## <i class="fa-solid fa-seedling"></i> Spring is in the Air
 For those of us in the Northern Hemisphere, spring seems to have finally sprung. It’s a lovely time of year, filled with growth, opportunity, and new beginnings. And for all of us here in the pyOpenSci it’s brought new packages, new opportunities, and new projects that we can’t wait to share with you!
 

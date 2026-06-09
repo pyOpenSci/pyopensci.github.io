@@ -6,7 +6,6 @@ excerpt: Times are hard, but communities like pyOpenSci still show up. At PyCon 
   2026 in Long Beach, we saw people connecting, sprinting, and supporting each other—and
   why the humans are what make open source work.
 author: Leah Wasser
-category: Community
 toc: true
 comments: true
 url: "/blog/pycon-us-2026-community-connection.html"
@@ -15,8 +14,8 @@ image:
   src: images/blog/2026/pycon-us-2026-sprint-attendees.png
   alt: Three pyOpenSci community members smiling together at an outdoor patio during
     PyCon US 2026 in Long Beach.
+blog_topic: community
 ---
-
 Times are hard right now. Communities like pyOpenSci matter more than ever. We saw it at [PyCon US](https://us.pycon.org/2026/) this year — the political strain, the GenAI hype cycle and anxiety, the rapid changes reshaping open source. People are tired. People are frustrated. But here's what else we saw: people still showing up. Still connecting. Still supporting each other.
 
 When things get hard, when the ground shifts beneath us, we need each other more than ever. We need spaces to connect, to learn together, to solve challenging problems as a community. PyCon reminded me why I love this work so much.

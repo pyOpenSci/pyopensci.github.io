@@ -1,16 +1,16 @@
 ---
-title: "👋 Hello, world! Greetings from the new pyOS Community Manager"
+title: "\U0001F44B Hello, world! Greetings from the new pyOS Community Manager"
 date: 2023-11-29
 type: blog
-url: /blog/pyOpenSci-new-community-manager.html
-excerpt: "Learn more about our new pyOpenSci Community Manager, Jesse Mostipak, in her first pyOpenSci blog post!"
-author: "Jesse Mostipak"
-category: Community
+url: "/blog/pyOpenSci-new-community-manager.html"
+excerpt: Learn more about our new pyOpenSci Community Manager, Jesse Mostipak, in
+  her first pyOpenSci blog post!
+author: Jesse Mostipak
 toc: true
 comments: true
 lastmod: 2024-08-29
+blog_topic: community
 ---
-
 ## Chicago, cats, and community
 
 I’m thrilled to be joining pyOpenSci (pyOS) as the Community Manager, and bringing my experiences as a researcher, educator, and developer advocate to support the creation and maintenance of free and open Python tools for processing scientific data. I’ve spent most of my adult life building online communities, from video games to programming to data science, and it’s exciting to see so many familiar faces in my first weeks at pyOS.

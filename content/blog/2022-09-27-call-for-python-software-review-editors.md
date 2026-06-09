@@ -1,17 +1,18 @@
 ---
-title: "pyOpenSci Editorial Process - New Editor in Chief and a Call For Editors"
+title: pyOpenSci Editorial Process - New Editor in Chief and a Call For Editors
 date: 2022-09-27
 type: blog
-url: /blog/python-software-review-process-editor-in-chief.html
-excerpt: "pyOpenSci is developing its open peer review process for Python scientific software. Learn about our structure and if you are interested, apply to be on our editorial board."
-author: "Leah Wasser"
-category: Community
+url: "/blog/python-software-review-process-editor-in-chief.html"
+excerpt: pyOpenSci is developing its open peer review process for Python scientific
+  software. Learn about our structure and if you are interested, apply to be on our
+  editorial board.
+author: Leah Wasser
 tags:
-  - updates
-  - highlight
+- updates
+- highlight
 comments: true
+blog_topic: software
 ---
-
 ## An update on pyOpenSci's review process
 
 Hey there! I just wanted to update everyone about where pyOpenSci is with

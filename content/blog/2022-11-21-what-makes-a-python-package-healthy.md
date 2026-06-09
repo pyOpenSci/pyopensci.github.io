@@ -1,19 +1,20 @@
 ---
-title: "What Makes a Python Open Source Package Healthy? A Conversation on Twitter."
+title: What Makes a Python Open Source Package Healthy? A Conversation on Twitter.
 date: 2022-11-21
 type: blog
-url: /blog/what-makes-open-source-python-package-healthy.html
-excerpt: "How should pyOpenSci measure Python open source package health and level of maintenance and usability? Here I summarize a conversation held on twitter around this very topic. Feedback is welcome!"
-author: "Leah Wasser"
-category: Open Education
+url: "/blog/what-makes-open-source-python-package-healthy.html"
+excerpt: How should pyOpenSci measure Python open source package health and level
+  of maintenance and usability? Here I summarize a conversation held on twitter around
+  this very topic. Feedback is welcome!
+author: Leah Wasser
 tags:
-  - highlight
-  - peer-review
+- highlight
+- peer-review
 toc: false
 comments: true
 lastmod: 2024-08-29
+blog_topic: software
 ---
-
 {{< admonition type="note" title="Part 3/3: Blog series on package health" >}}
 This blog post is part 3 of a 3 part series on open source package health.
 The series was inspired by a conversation

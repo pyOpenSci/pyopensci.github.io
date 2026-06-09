@@ -1,16 +1,19 @@
 ---
-title: "pyOpenSci Python packaging discussion at the Research Software Engineering meeting 2023"
+title: pyOpenSci Python packaging discussion at the Research Software Engineering
+  meeting 2023
 date: 2023-10-18
 type: blog
-url: /blog/pyOpenSci-research-software-2023.html
-excerpt: "pyOpenSci held a community birds of a feather session at the 2023 RSE meeting in Chicago where we discussed peer review and packaging pain points. Learn about the packaging pain points that they RSE-Python community experiences and how pyOpenSci is addressing Python packaging pain points."
-author: "Leah Wasser"
-category: Community
+url: "/blog/pyOpenSci-research-software-2023.html"
+excerpt: pyOpenSci held a community birds of a feather session at the 2023 RSE meeting
+  in Chicago where we discussed peer review and packaging pain points. Learn about
+  the packaging pain points that they RSE-Python community experiences and how pyOpenSci
+  is addressing Python packaging pain points.
+author: Leah Wasser
 toc: true
 comments: true
 lastmod: 2024-08-29
+blog_topic: learn
 ---
-
 ## Intro
 
 In October 2023, the United States Research Software Engineering (US-RSE),

@@ -1,28 +1,32 @@
 ---
-title: "QuadratiK: Collection of Methods Constructed using Kernel-Based Quadratic Distances"
+title: 'QuadratiK: Collection of Methods Constructed using Kernel-Based Quadratic
+  Distances'
 date: 2025-01-17
 type: blog
-url: /blog/quadratik.html
-excerpt: "QuadratiK provides a set of goodness-of-fit tests, a clustering technique using kernel-based quadratic distances, and algorithms for generating random samples from Poisson kernel-based distributions (PKBD). QuadratiK has recently been accepted into the pyOpenSci ecosystem."
-author: "Raktim Mukhopadhyay"
-category: Community
+url: "/blog/quadratik.html"
+excerpt: QuadratiK provides a set of goodness-of-fit tests, a clustering technique
+  using kernel-based quadratic distances, and algorithms for generating random samples
+  from Poisson kernel-based distributions (PKBD). QuadratiK has recently been accepted
+  into the pyOpenSci ecosystem.
+author: Raktim Mukhopadhyay
 tags:
-  - quadratic distances
-  - clustering
-  - one-sample test
-  - two-sample test
-  - k-sample test
-  - PKBD
-  - user interface
-  - pyos-accepted
+- quadratic distances
+- clustering
+- one-sample test
+- two-sample test
+- k-sample test
+- PKBD
+- user interface
+- pyos-accepted
 image:
   src: images/headers/pyopensci-quadratik.png
-  alt: "QuadratiK: Collection of Methods Constructed using Kernel-Based Quadratic Distances"
+  alt: 'QuadratiK: Collection of Methods Constructed using Kernel-Based Quadratic
+    Distances'
 toc: true
 comments: true
 lastmod: 2025-02-06
+blog_topic: software
 ---
-
 ## Introduction
 
 `QuadratiK` provides a suite of methods based on kernel-based quadratic distances, and hence the name!

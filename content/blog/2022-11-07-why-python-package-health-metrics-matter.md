@@ -1,19 +1,22 @@
 ---
-title: "Why Python package health metrics are a priority for pyOpenSci and other open source communities"
+title: Why Python package health metrics are a priority for pyOpenSci and other open
+  source communities
 date: 2022-11-07
 type: blog
-url: /blog/why-python-package-health-metrics-matter.html
-excerpt: "Collecting baseline data that aligns with the goals and outcomes of your project, program or organization is critical to do at the beginning. Here I briefly explain why Python package health metrics are so important to the long-term success of pyOpenSci."
-author: "Leah Wasser"
-category: Open Education
+url: "/blog/why-python-package-health-metrics-matter.html"
+excerpt: Collecting baseline data that aligns with the goals and outcomes of your
+  project, program or organization is critical to do at the beginning. Here I briefly
+  explain why Python package health metrics are so important to the long-term success
+  of pyOpenSci.
+author: Leah Wasser
 tags:
-  - highlight
-  - peer-review
+- highlight
+- peer-review
 toc: false
 comments: true
 lastmod: 2024-08-29
+blog_topic: software
 ---
-
 {{< admonition type="note" title="Part 2/3: Blog series on package health" >}}
 This blog is the second in a 3 part series. [In the previous blog post,](/blog/why-python-open-source-software-matters-for-scientists.html)
 I discussed why the health of (Python) open source

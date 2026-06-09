@@ -1,16 +1,16 @@
 ---
-title: "pyOpenSci Newsletter: April 2024"
+title: 'pyOpenSci Newsletter: April 2024'
 date: 2024-04-01
 type: blog
-url: /blog/pyos-newsletter-april-2024.html
-excerpt: "New contributors, a new package, and a few new social campaigns, all to keep you connected with the pyOpenSci community!"
-author: "Jesse Mostipak"
-category: Community
+url: "/blog/pyos-newsletter-april-2024.html"
+excerpt: New contributors, a new package, and a few new social campaigns, all to keep
+  you connected with the pyOpenSci community!
+author: Jesse Mostipak
 toc: true
 comments: true
 lastmod: 2024-08-29
+blog_topic: updates
 ---
-
 ## <i class="fa-solid fa-heart"></i> To 200 and beyond!
 
 This past month, pyOpenSci reached a major milestone: [200 contributors](https://www.pyopensci.org/our-community/index.html)! We have a diverse and vibrant community of Pythonistas, and are thrilled that 200 (and counting) wonderful people have contributed to pyOpenSci. Will you be next? [Learn more about getting involved](https://www.pyopensci.org/volunteer.html).

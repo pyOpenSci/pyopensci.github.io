@@ -1,19 +1,20 @@
 ---
-title: "pyOpenSci at PyCon US 2024 - Python packaging and community"
+title: pyOpenSci at PyCon US 2024 - Python packaging and community
 date: 2024-05-30
 type: blog
-url: /blog/recap-pyos-pyconus-2024.html
-excerpt: "Learn about  pyOpenSci's experience at PyCon US 2024, how pyOpenSci is making Python packaging more accessible and beginner friendly and how the Python community is helping us get there."
-author: "Leah Wasser"
-category: Community
+url: "/blog/recap-pyos-pyconus-2024.html"
+excerpt: Learn about  pyOpenSci's experience at PyCon US 2024, how pyOpenSci is making
+  Python packaging more accessible and beginner friendly and how the Python community
+  is helping us get there.
+author: Leah Wasser
 image:
   src: images/blog/headers/pycon-us-2024-header.png
-  alt: "pyOpenSci at PyCon US 2024 - Python packaging and community"
+  alt: pyOpenSci at PyCon US 2024 - Python packaging and community
 toc: true
 comments: true
 lastmod: 2024-08-29
+blog_topic: community
 ---
-
 {{< admonition type="note" title="TL;DR" >}}
 * pyOpenSci had a strong presence at [PyCon US](https://us.pycon.org/2024/) this year. I hope this continues for years to come! We held an open space, helped run the [Maintainers Summit](https://us.pycon.org/2024/events/maintainers-summit/) (lead by [Inessa Pawson](https://github.com/InessaPawson) for 5 years and counting), gave [a talk on Python packaging](https://us.pycon.org/2024/schedule/presentation/34/) and ran a 1 day sprint where over 16 people contributed to our efforts.
 * pyOpenSci’s theme this year for PyConUS was people first: people first when trying to make technical concepts easier to understand, people first when trying to write good tutorials or documentation and people first when you are trying to solve the world’s hardest problems.

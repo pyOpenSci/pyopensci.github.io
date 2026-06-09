@@ -1,21 +1,22 @@
 ---
-title: "Contribute to Open Source Software: It's  More Than just Code"
+title: 'Contribute to Open Source Software: It''s  More Than just Code'
 date: 2025-03-18
 type: blog
-url: /blog/contribute-to-open-source-lessons.html
-excerpt: "Contributing to open source isn’t just about code—it’s also about navigating social norms. Discover pyOpenSci’s new Contribute to Open Source lessons, which cover both the technical and social aspects, and are free for anyone to use."
-author: "Leah Wasser"
-category: Community
+url: "/blog/contribute-to-open-source-lessons.html"
+excerpt: Contributing to open source isn’t just about code—it’s also about navigating
+  social norms. Discover pyOpenSci’s new Contribute to Open Source lessons, which
+  cover both the technical and social aspects, and are free for anyone to use.
+author: Leah Wasser
 tags:
-  - contribute-to-open-source
+- contribute-to-open-source
 image:
   src: images/headers/pyopensci-floral.png
-  alt: "Contribute to Open Source Software: It's  More Than just Code"
+  alt: 'Contribute to Open Source Software: It''s  More Than just Code'
 toc: true
 comments: true
 lastmod: 2025-03-11
+blog_topic: learn
 ---
-
 ## Beyond code: the social side of open source
 
 When you think about contributing to open source, you might assume the biggest hurdle for newcomers is technical--learning Git, using GitHub, and/or writing code. Most contribute to open source guides focus on technical skills. But for many new contributors, the challenge isn’t only technical—it’s social too.

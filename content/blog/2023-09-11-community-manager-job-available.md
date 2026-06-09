@@ -1,18 +1,20 @@
 ---
-title: "CLOSED: pyOpenSci is Hiring a Community Manager"
+title: 'CLOSED: pyOpenSci is Hiring a Community Manager'
 date: 2023-09-11
 type: blog
-url: /blog/pyOpenSci-hiring-community-manager-fall-2023.html
-excerpt: "This position has been filled. pyOpenSci is hiring a community manager. This position will oversee numerous aspects of pyOpenSci's community building efforts including managing social media, our slack organization and writing blog posts. It will also be heavily involved in our DEIA related activities."
-author: "Leah Wasser"
-category: Community
+url: "/blog/pyOpenSci-hiring-community-manager-fall-2023.html"
+excerpt: This position has been filled. pyOpenSci is hiring a community manager. This
+  position will oversee numerous aspects of pyOpenSci's community building efforts
+  including managing social media, our slack organization and writing blog posts.
+  It will also be heavily involved in our DEIA related activities.
+author: Leah Wasser
 tags:
-  - jobs
+- jobs
 toc: true
 comments: true
 lastmod: 2024-08-29
+blog_topic: updates
 ---
-
 {{< admonition type="note" >}}
 **IMPORTANT:** we are no longer accepting applications for this position.
 Thank you for your interest.

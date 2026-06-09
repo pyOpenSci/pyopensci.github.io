@@ -1,16 +1,17 @@
 ---
-title: "Friends don't let friends package alone- my Python packaging talk at PyCon 2024"
+title: Friends don't let friends package alone- my Python packaging talk at PyCon
+  2024
 date: 2024-06-05
 type: blog
-url: /blog/python-packaging-friends-dont-let-friends-package-alone.html
-excerpt: "A blog post from the Executive Director of pyOpenSci on Python packaging, technical things and imposter syndrome in data science."
-author: "Leah Wasser"
-category: Community
+url: "/blog/python-packaging-friends-dont-let-friends-package-alone.html"
+excerpt: A blog post from the Executive Director of pyOpenSci on Python packaging,
+  technical things and imposter syndrome in data science.
+author: Leah Wasser
 toc: true
 comments: true
 lastmod: 2024-08-29
+blog_topic: learn
 ---
-
 ## <i class="fa-solid fa-heart"></i>  Python packaging and community: my first talk at PyCon US 2024
 
 This year I gave my first talk in the [PyCon US](https://us.pycon.org/2024/) main track! For context, PyCon US is a big meeting—with over 2,700 registrations this year—a record for the event! My talk was about my experiences navigating the packaging ecosystem from a few perspectives:

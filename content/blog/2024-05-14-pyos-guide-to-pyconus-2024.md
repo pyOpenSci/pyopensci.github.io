@@ -1,19 +1,20 @@
 ---
-title: "The pyOpenSci Guide to PyCon 2024"
+title: The pyOpenSci Guide to PyCon 2024
 date: 2024-05-14
 type: blog
-url: /blog/pyos-guide-to-pyconus-2024.html
-excerpt: "PyCon US 2024 is finally here, and we can't wait to connect with you! This post has all of the talks, panels, summits, and keynotes where pyOpenSci community members (and friends!) will be speaking."
-author: "Jesse Mostipak"
-category: Community
+url: "/blog/pyos-guide-to-pyconus-2024.html"
+excerpt: PyCon US 2024 is finally here, and we can't wait to connect with you! This
+  post has all of the talks, panels, summits, and keynotes where pyOpenSci community
+  members (and friends!) will be speaking.
+author: Jesse Mostipak
 image:
   src: images/blog/2024/may/pycon-us-2024.png
-  alt: "The pyOpenSci Guide to PyCon 2024"
+  alt: The pyOpenSci Guide to PyCon 2024
 toc: true
 comments: true
 lastmod: 2024-08-29
+blog_topic: learn
 ---
-
 ## <i class="fa-solid fa-heart"></i> Connect with the pyOpenSci community at PyCon US 2024!
 We know there are a million things to do and see while at [PyCon US 2024](https://us.pycon.org/2024/) in beautiful Pittsburgh this weekend, so we wanted to compile a list of every talk, keynote, summit, and panel where you can expect to meet some of the fantastic pyOpenSci community members as well as hear from some friends of pyOpenSci!
 

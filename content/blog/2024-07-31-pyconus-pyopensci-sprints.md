@@ -1,19 +1,20 @@
 ---
-title: "pyOpenSci beginner-friendly sprints at PyCon US 2024"
+title: pyOpenSci beginner-friendly sprints at PyCon US 2024
 date: 2024-07-31
 type: blog
-url: /blog/pyopensci-pyconus-2024-sprints.html
-excerpt: "pyOpenSci holds beginner-friendly sprints with the goal of making new contributors feel welcome. Learn about our latest sprint at PyCon US 2024, and tips we use to make sprints accessible to more people."
-author: "Leah Wasser"
-category: Community
+url: "/blog/pyopensci-pyconus-2024-sprints.html"
+excerpt: pyOpenSci holds beginner-friendly sprints with the goal of making new contributors
+  feel welcome. Learn about our latest sprint at PyCon US 2024, and tips we use to
+  make sprints accessible to more people.
+author: Leah Wasser
 image:
   src: images/blog/headers/pycon-us-2024-header.png
-  alt: "pyOpenSci beginner-friendly sprints at PyCon US 2024"
+  alt: pyOpenSci beginner-friendly sprints at PyCon US 2024
 toc: true
 comments: true
 lastmod: 2024-08-29
+blog_topic: community
 ---
-
 ## pyOpenSci's approach to beginner-friendly sprints
 
 In previous posts, I talked about:
