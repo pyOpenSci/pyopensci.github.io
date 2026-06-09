@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "What Makes a Python Open Source Package Healthy? A Conversation on Twitter."
+blog_topic: software
 excerpt: "How should pyOpenSci measure Python open source package health and level of maintenance and usability? Here I summarize a conversation held on twitter around this very topic. Feedback is welcome!"
 author: "Leah Wasser"
 permalink: /blog/what-makes-open-source-python-package-healthy.html

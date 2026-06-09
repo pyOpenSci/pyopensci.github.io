@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "CLOSED pyOpenSci is hiring a Communications Lead"
+blog_topic: updates
 excerpt: "pyOpenSci is hiring a part-time Writer and Social Media Specialist to enhance communication and engagement within the scientific Python community. This flexible, remote role involves creating social media content, newsletters, and blogs and fostering community interaction on social media to support open source and open science. Join us to make a meaningful impact on the open source ecosystem!"
 author: "Leah Wasser"
 permalink: /blog/pyopensci-job-communications.html

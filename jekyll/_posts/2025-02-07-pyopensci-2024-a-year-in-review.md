@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "2024: A Transformative Year for pyOpenSci"
+blog_topic: updates
 excerpt: "2024 was a transformative year for pyOpenSci. Through training, mentorship, and peer review, we expanded our community, created free educational resources, and empowered scientists worldwide. Here’s what we built together—and why it matters now more than ever."
 author: "Leah Wasser"
 permalink: /blog/2024-pyopensci-retrospective.html
@@ -236,5 +237,3 @@ Our leadership teams—including the [Executive Council](https://www.pyopensci.o
 [Peer Review Editorial Board](https://www.pyopensci.org/about-peer-review/index.html#meet-our-editorial-board) have been instrumental in carving the path forward for pyOpenSci.
 
 We look forward to building the future of open science, one contribution at a time—and we invite you to join us on this journey.
-
-{% include connect-with-pyos.html %}

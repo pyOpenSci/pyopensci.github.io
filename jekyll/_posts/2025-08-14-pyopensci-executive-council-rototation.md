@@ -1,9 +1,10 @@
 ---
 layout: single
 title: "Succession is Success: pyOpenSci's Executive Council Transition Marks Organizational Maturity"
+blog_topic: community
 excerpt: "The Executive Council drives pyOpenSci's mission and vision. Learn more about how the council works, and about the current rotation that is happening as our board chair steps down and another member joins us marking a milestone of incredible growth for pyOpenSci."
 author: "pyopensci"
-permalink: /blog/pyopensci-bof-community-scipy-2025.html
+permalink: /blog/pyopensci-executive-council-transition.html
 header:
   overlay_image: images/headers/pyopensci-floral.png
 categories:

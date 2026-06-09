@@ -9,6 +9,7 @@ event:
   start_date: "2026-04-10"
   end_date: "2026-04-23"
   location: Online
+  event_type: training
 permalink: /events/shipit-python-package-gen-ai-april-2026.html
 header:
   overlay_image: images/headers/pyopensci-sustainability.png

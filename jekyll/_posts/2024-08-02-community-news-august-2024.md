@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "pyOpenSci Community News: August 2024"
+blog_topic: updates
 excerpt: "Welcome to the first edition of pyOpenSci's Community News newsletter, where we summarize and share conversations, contributions, and news related to our diverse and vibrant community! Read on for insights into running pyOpenSci sprints, Python packaging guide Spanish translation efforts, and using Hatch to create and maintain Python."
 author: "Jesse Mostipak"
 permalink: /blog/pyos-community-news-aug-2024.html
@@ -65,5 +66,3 @@ Jesse Bobish, [Patrick Byers](https://github.com/pb-413), [Sarah Kaiser](http://
 
 ### Shout out to all of our SciPy contributors, including:
 [Naty Clementi](https://github.com/ncclementi), [Geoff Cureton](https://github.com/gpcureton), [John Drake](https://github.com/John-Drake), [Han](https://github.com/ayhanxian), [Elise Hinman](https://github.com/ehinman), [hpodzorski-USGS](https://github.com/hpodzorski-USGS), [Sarah Kaiser](https://github.com/crazy4pi314), [kaiyamag](https://github.com/kaiyamag), [Felipe Moreno](https://github.com/flpm), [Roberto Pastor Muela](https://github.com/RobPasMue), [Olek](https://github.com/yardasol), [Santiago Soler](https://github.com/santisoler), and [Revathy Venugopal](https://github.com/Revathyvenugopal162).
-
-{% include connect-with-pyos.html %}

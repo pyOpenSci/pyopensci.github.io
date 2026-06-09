@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Building Momentum for the Future: Reflections on Our First Open Science Festival Week"
+blog_topic: community
 excerpt: "pyOpenSci ran 6 workshops in 2024, 4 of which happened during our Fall Festival! Learn more about how the workshops went and watch the keynote talks that introduced Quarto Live, MystMarkdown and stories about reproducibility, open science and open source in this blog."
 author: "Leah Wasser"
 permalink: /blog/pyopensci-reflections-fall-festival-2024.html
@@ -216,6 +217,3 @@ Looking ahead, we’re excited to run more events like this to support pyOpenSci
 * Attend and run events at PyCon 2025 and SciPy 2025, holding events and connecting with you!
 
 Check our blog and events page for upcoming events and opportunities to engage with the vibrant pyOpenSci community. <i class="fa-solid fa-hand-sparkles"></i>
-
-
-{% include connect-with-pyos.html %}

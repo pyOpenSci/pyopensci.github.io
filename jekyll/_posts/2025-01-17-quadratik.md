@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "QuadratiK: Collection of Methods Constructed using Kernel-Based Quadratic Distances"
+blog_topic: software
 excerpt: "QuadratiK provides a set of goodness-of-fit tests, a clustering technique using kernel-based quadratic distances, and algorithms for generating random samples from Poisson kernel-based distributions (PKBD). QuadratiK has recently been accepted into the pyOpenSci ecosystem."
 author: "Raktim Mukhopadhyay"
 permalink: /blog/quadratik.html

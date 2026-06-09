@@ -7,6 +7,7 @@ event:
   start_date: "2025-10-02"
   location: Online
   cost: This workshop is paid through Stanford's membership with pyOpenSci.
+  event_type: training
 permalink: /events/pyopensci-stanford-create-python-package-workshop.html
 header:
   overlay_image: images/headers/pyopensci-sustainability.png
@@ -167,6 +168,3 @@ As you can see in the animated gif below, GitHub codespaces always have fun name
          alt="GIF showing how to reopen a GitHub Codespace">
   </picture>
 </figure>
-
-
-{% include connect-with-pyos.html %}

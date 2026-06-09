@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "pyOpenSci Newsletter: May 2024"
+blog_topic: updates
 excerpt: "May has brought two new packages, the first (of many!) pyOpenSci workshops, all things pyOpenSci and PyCon, and several incredible speaking opportunities. Read on to learn more!"
 author: "Jesse Mostipak"
 permalink: /blog/pyos-newsletter-may-2024.html

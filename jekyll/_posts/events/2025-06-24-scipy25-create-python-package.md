@@ -6,6 +6,7 @@ author: "pyopensci"
 event:
   start_date: "2025-07-08"
   location: Online
+  event_type: training
 permalink: /events/pyopensci-scipy25-create-python-package-workshop.html
 header:
   overlay_image: images/headers/pyopensci-sustainability.png
@@ -175,6 +176,3 @@ As you can see in the animated gif below, GitHub codespaces always have fun name
          alt="GIF showing how to reopen a GitHub Codespace">
   </picture>
 </figure>
-
-
-{% include connect-with-pyos.html %}

@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "It's Been a Long Short Road: The Monumental Past 2 Years of pyOpenSci"
+blog_topic: community
 excerpt: "Learn about what pyOpenSci has accomplished in the last two years, including the evolution of our packaging guide, the expansion of our peer review process, and the vibrant community we've built."
 author: "Leah Wasser"
 permalink: /blog/what-pyopensci-accomplished-with-two-years-of-funding.html
@@ -157,8 +158,8 @@ The pyOpenSci packaging guide provides an overview of the Python packaging ecosy
 
 * [build backend](https://www.pyopensci.org/python-package-guide/package-structure-code/python-package-build-tools.html#build-back-ends),
 * [build frontend](https://www.pyopensci.org/python-package-guide/package-structure-code/python-package-build-tools.html#python-package-build-front-ends),
-* [wheel](https://www.pyopensci.org/python-package-guide/package-structure-code/python-package-distribution-files-sdist-wheel.html#wheel-whl-files), and
-* [sdist](https://www.pyopensci.org/python-package-guide/package-structure-code/python-package-distribution-files-sdist-wheel.html#source-distribution-sdist).
+* [wheel](https://www.pyopensci.org/python-package-guide/package-structure-code/python-package-distribution-files-sdist-wheel.html), and
+* [sdist](https://www.pyopensci.org/python-package-guide/package-structure-code/python-package-distribution-files-sdist-wheel.html).
 
 Our Python Packaging Guide aims to translate the technical jargon that gets in the way of new users having a successful packaging experience. Over time, we
 hope that this will make packaging less confusing and more accessible to more people.
@@ -383,10 +384,6 @@ Our next training event is the inaugural pyOpenSci Fall Festival--a week-long ev
 * create reproducible reports that connect code, data, and outputs into a dynamically produced interactive publication.
 
 We also will develop collaborative GitHub lessons following the BSSw fellowship I received this year.
-
-
-{% include connect-with-pyos.html %}
-
 
 <div class = "notice" markdown="1">
 ## About Me

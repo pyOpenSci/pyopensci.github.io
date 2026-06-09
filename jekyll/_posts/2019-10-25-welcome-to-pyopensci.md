@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Welcome to the pyOpenSci Blog!"
+blog_topic: updates
 excerpt: "pyOpenSci is a community organization devoted to the development of robust open source Python software to support science."
 author: "Leah Wasser"
 permalink: blog/welcome-to-pyopensci/

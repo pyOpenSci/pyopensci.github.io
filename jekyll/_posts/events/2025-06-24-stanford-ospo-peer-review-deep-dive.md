@@ -6,6 +6,7 @@ author: "pyopensci"
 event:
   start_date: "2025-08-07"
   location: Online
+  event_type: talk
 permalink: /events/pyopensci-stanford-ospo-peer-review.html
 header:
   overlay_image: images/headers/pyopensci-sustainability.png
@@ -68,6 +69,3 @@ This collaboration supports Stanford’s leadership in open, reproducible
 science while giving its researchers meaningful opportunities to engage with
 the pyOpenSci community and contribute to a broader, inclusive ecosystem of
 scientific software development.
-
-
-{% include connect-with-pyos.html %}
