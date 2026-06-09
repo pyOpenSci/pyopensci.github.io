@@ -1,22 +1,23 @@
 ---
 title: CLOSED pyOpenSci is hiring a Communications Lead
-date: 2024-12-13
+date: '2024-12-13'
 type: blog
-url: "/blog/pyopensci-job-communications.html"
 excerpt: pyOpenSci is hiring a part-time Writer and Social Media Specialist to enhance
   communication and engagement within the scientific Python community. This flexible,
   remote role involves creating social media content, newsletters, and blogs and fostering
   community interaction on social media to support open source and open science. Join
   us to make a meaningful impact on the open source ecosystem!
 author: Leah Wasser
+blog_topic: updates
+toc: true
+comments: true
+url: "/blog/pyopensci-job-communications.html"
+lastmod: '2025-05-14'
 image:
   src: images/headers/pyopensci-floral.png
   alt: CLOSED pyOpenSci is hiring a Communications Lead
-toc: true
-comments: true
-lastmod: 2025-05-14
-blog_topic: updates
 ---
+
 **We are no longer accepting applications for this position. Thank you for your interest.**
 
 ## CLOSED Job: writer & social media specialist
@@ -25,7 +26,7 @@ blog_topic: updates
 
 ### About the role
 
-pyOpenSci seeks a talented Writer and Social Media Specialist to enhance our communications and engagement with the scientific Python community. This position involves crafting engaging content highlighting our [online learning content](https://www.pyopensci.org/lessons/), [tutorials](https://www.pyopensci.org/python-package-guide/tutorials/intro.html), [events](https://www.pyopensci.org/events.html), and [package ecosystem](https://www.pyopensci.org/python-packages.html) for our social media channels, newsletters, and blog to keep our community informed and inspired. It also involved reviewing and editing educational content. This is an excellent opportunity for someone passionate about open science and skilled in clear, impactful communication. The position requires 10-15 hours per week at a rate of 25-40$/hour based on experience, with the flexibility of remote, part-time work. There is some flexibility in this position week-to-week based on pyOpenSci's deadlines. This is a non-regular, part-time, remote, non-exempt position. This position will report
+pyOpenSci seeks a talented Writer and Social Media Specialist to enhance our communications and engagement with the scientific Python community. This position involves crafting engaging content highlighting our [online learning content](https://www.pyopensci.org/lessons/), [tutorials](https://www.pyopensci.org/python-package-guide/tutorials/intro.html), [events](https://www.pyopensci.org/events/), and [package ecosystem](https://www.pyopensci.org/python-packages.html) for our social media channels, newsletters, and blog to keep our community informed and inspired. It also involved reviewing and editing educational content. This is an excellent opportunity for someone passionate about open science and skilled in clear, impactful communication. The position requires 10-15 hours per week at a rate of 25-40$/hour based on experience, with the flexibility of remote, part-time work. There is some flexibility in this position week-to-week based on pyOpenSci's deadlines. This is a non-regular, part-time, remote, non-exempt position. This position will report
 to the pyOpenSci Executive Director. Applicants must be eligible for employment in the United States.
 
 ### About pyOpenSci
@@ -50,7 +51,7 @@ pyOpenSci is a fiscally sponsored project of Community Initiatives.
 * **Content Planning:** Work with the pyOpenSci team to develop a content calendar that supports key events, initiatives, and outreach goals.
 
 pyOpenSci also has plans to launch a YouTube channel. Video editing skills are not required for this position but are a bonus.
-
+{: .notice }
 
 ### What we’re looking for
 

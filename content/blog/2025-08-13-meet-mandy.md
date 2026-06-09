@@ -1,27 +1,23 @@
 ---
 title: Meet Mandy Moore, pyOpenSci’s new Communications and Community Lead!
-date: 2025-08-13
+date: '2025-08-13'
 type: blog
-url: "/blog/mandy-moore-communications-lead.html"
 excerpt: Meet Mandy Moore, our new Communications and Community Lead! Mandy is bringing
   15+ years of experience in marketing, content strategy, and community engagement
   to help make open science more accessible and welcoming. Learn more about her work
   and story in this post.
 author: Mandy Moore
+blog_topic: community
+toc: true
+comments: true
+url: "/blog/mandy-moore-communications-lead.html"
+lastmod: '2025-08-12'
 image:
   src: images/headers/pyopensci-floral.png
   alt: Meet Mandy Moore, pyOpenSci’s new Communications and Community Lead!
-toc: true
-comments: true
-lastmod: 2025-08-12
-blog_topic: community
 ---
-<figure>
-  <picture>
-  <source srcset="{{ post.url | relative_url }}/images/blog/2025/meet-mandy-moore-comms.webp" type="image/webp">
-  <img src="{{ post.url | relative_url }}/images/blog/2025/meet-mandy-moore-comms.png" alt="Photo of Mandy Moore wearing a wide-brimmed black hat, sitting indoors with colorful lights in the background. Beside her is the pyOpenSci logo, featuring a stylized flower with circuit-like petals and a snake in the center, on a purple patterned background.">
-  </picture>
-</figure>
+
+{{< figure src="images/blog/2025/meet-mandy-moore-comms.png" alt="Photo of Mandy Moore wearing a wide-brimmed black hat, sitting indoors with colorful lights in the background. Beside her is the pyOpenSci logo, featuring a stylized flower with circuit-like petals and a snake in the center, on a purple patterned background." >}}
 
 ## Meet Mandy Moore, pyOpenSci’s new Communications and Community Lead!
 

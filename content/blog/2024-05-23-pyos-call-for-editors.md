@@ -1,25 +1,26 @@
 ---
 title: 'Volunteers needed: pyOpenSci Editorial Board'
-date: 2024-05-23
+date: '2024-05-23'
 type: blog
-url: "/blog/pyos-call-for-editors-may-2024.html"
 excerpt: pyOpenSci is looking for volunteers from a wide array of scientific backgrounds
   to join our Editorial Board.
 author: Jesse Mostipak
+blog_topic: software
+toc: true
+comments: true
+url: "/blog/pyos-call-for-editors-may-2024.html"
+lastmod: '2024-08-29'
 image:
   src: images/blog/headers/call-for-editors.png
   alt: 'Volunteers needed: pyOpenSci Editorial Board'
-toc: true
-comments: true
-lastmod: 2024-08-29
-blog_topic: software
 ---
+
 ## Join the pyOpenSci Editorial Board
 ### We're currently in need of editors with domain expertise in climatology and/or energy, and also accepting applications from all scientific domains
 Thanks to the efforts of our incredible team of volunteers, pyOpenSci is growing! As a result, we're currently seeing a large number of package submissions to [our open peer review process](https://www.pyopensci.org/about-peer-review/index.html). In order to continue supporting scientists in the development of open source scientific software, we're looking to add volunteer editors to our Editorial Board.
 
 Learn more about the Volunteer Editor role in our [Editor Guide](https://www.pyopensci.org/software-peer-review/how-to/editors-guide.html).
-
+{: .notice}
 
 The pyOpenSci Editorial Board is comprised of a diverse group of volunteers, with each editor being responsible for the following tasks:
 
@@ -37,7 +38,7 @@ It's also critical to the pyOpenSci mission that our Editorial Board have a comb
 We also appreciate when editors have experience working with or in the Python open source software community be it maintaining packages, contributing to packages, previously reviewing a pyOpenSci package, or supporting the community. This is certainly not a requirement, however, if you are interested in getting involved with pyOpenSci!
 
 If you're new to the pyOpenSci review process, we do also have Guest Editor volunteer roles, where you'll have more guidance or mentorship in order to complete the review.
-
+{: .notice}
 
 ### Apply to be a pyOpenSci editor
 We're currently looking for editors from a wide variety of scientific backgrounds, with a current focus on climatology and energy. If you feel you'd be a good fit for the pyOpenSci Editorial Board, please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLScRQHQ7NKVEAG3BKAphiUdVFvQ5nkez0IpyXBMZDzXjuBPloQ/viewform).

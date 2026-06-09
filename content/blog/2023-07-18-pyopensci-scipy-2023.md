@@ -1,20 +1,18 @@
 ---
 title: Shark Attacks and Open Science - pyOpenSci @ SciPy 2023 Meeting
-date: 2023-07-18
+date: '2023-07-18'
 type: blog
-url: "/blog/scipy-2023-community.html"
 excerpt: The SciPy 2023 meeting did not disappoint this year. We have a whole new
   group of contributors helping to build this vibrant and diverse Python open science
   community. Learn about my experience there.
 author: Leah Wasser
-tags:
-- highlight
-- talks
+blog_topic: community
 toc: false
 comments: true
-lastmod: 2024-08-29
-blog_topic: community
+url: "/blog/scipy-2023-community.html"
+lastmod: '2024-08-29'
 ---
+
 ## <i class="fa-solid fa-fish-fins"></i> Shark attack - pyOpenSci at SciPy
 
 I was so excited for SciPy this year.
@@ -83,13 +81,7 @@ that:
 1. Identifying issues that could be completed in a few hours to a day is ideal.
 1. And tagging issues as beginner friendly helps those who are newer to sprints
 
-<figure>
-    <a href="/images/github/pyopensci-github-help-board.png">
-    <img src="/images/github/pyopensci-github-help-board.png" style="max-width:100%" alt="An image with a black background showing all of the issues that we could use help with at pyOpenSci. The caption for this image contains a link to the board which will allow you to hear and read through each issue listed on the board.">
-    </a>
-    <figcaption>Our pyOpenSci help-wanted issue board has a list of things that we could use help with. Issues that could be done during a sprint are tagged "sprintable". Issues that are ideal for beginners are also tagged - beginner friendly. <a href = "https://github.com/orgs/pyOpenSci/projects/3">View the board here.</a>
-    </figcaption>
-</figure>
+{{< figure src="images/github/pyopensci-github-help-board.png" alt="An image with a black background showing all of the issues that we could use help with at pyOpenSci. The caption for this image contains a link to the board which will allow you to hear and read through each issue listed on the board." caption="Our pyOpenSci help-wanted issue board has a list of things that we could use help with. Issues that could be done during a sprint are tagged 'sprintable'. Issues that are ideal for beginners are also tagged - beginner friendly. <a href = 'https://github.com/orgs/pyOpenSci/projects/3'>View the board here.</a>" >}}
 
 I went into our SciPy 2023 sprint with a [more organized pyOpenSci help-wanted board.](https://github.com/orgs/pyOpenSci/projects/3)
 This board has been a great way to keep track of things
@@ -99,7 +91,7 @@ that we need help with.
 to a repository or our organization to specific issues. Now, I know that
 if someone comments on an issue first, I can then assign it to them
 (many thanks to [Thomas Fan](https://github.com/thomasjpfan) for the tip!!).
-
+{: .notice .info}
 
 ## So many helpful contributions to pyOpenSci!
 
@@ -110,7 +102,7 @@ We had over 20 pull requests emerge from this sprint - WOW! Two sprinters also
 submitted their first ever contributions!!
 
 **<i class="fa-solid fa-circle-info"></i> Info:** a pull request, known as a "pr", represents a set of suggested changes to a set of code or text. In the GitHub.com interface you can view the suggested changes and comment on them - in the same way that you might comment on suggested changes in a Google doc.
-
+{: .notice }
 
 Some of the contributions included:
 
@@ -120,14 +112,16 @@ Some of the contributions included:
 
 In case you are curious, most of the pull requests submitted during the sprint this year are listed below:
 
-{{< admonition type="note" title="Pull requests submitted to pyOpenSci the 2023 SciPy sprints" >}}
+<div class="notice" markdown="1">
+## Pull requests submitted to pyOpenSci the 2023 SciPy sprints
 - **Thomas:** Thomas submitted a [set of pr's that allow us to preview our website after every pull request](https://github.com/pyOpenSci/pyopensci.github.io/pulls/thomasjpfan) is submitted.
 - **Mike:** Mike tackled our automated workflow that tracks contributors across our GitHub repositories and also that tracks packages, reviewers and editors in our review process.
 - **ruoxi** Ruoxi submitted an issue surrounding a rendering issue with our packaging guide in the Safari browser. And also a [pull request updating text around our partnership](https://github.com/pyOpenSci/software-peer-review/pull/232/files) with the Journal of Open Source Software (JOSS) where they accept our review as theirs and only review your paper.
 - **Grace:** [Grace made her first, second, third ...seventh!! pull requests ever fixing typos in our peer review guide](https://github.com/pyOpenSci/software-peer-review/pulls/g-patlewicz)
 - **Ricky:** [Url redirect fixes on website](https://github.com/pyOpenSci/pyopensci.github.io/pull/235)
 - **Kerry:** [Fixed the packages order so that newest was at the top of the page not the bottom](https://github.com/pyOpenSci/pyopensci.github.io/pull/234)
-{{< /admonition >}}
+
+</div>
 
 ### People kept sprinting without me!
 
@@ -152,13 +146,7 @@ That's what truly matters.
 
 And I gave out a lot of pyOpenSci stickers too!
 
-<figure>
-    <a href="/images/pyopensci-stickers.png">
-    <img src="/images/pyopensci-stickers.png" style="max-width:100%" alt="Two pyOpenSci sticker designs. the one is a light purple flower with white stamen and the letters pr and O as the center of the sticker. The S is a snake. The econd sticker is a darker and lighter purpler that says pyOPenSci and has the top half of a flower above the O in open.">
-    </a>
-    <figcaption>Fresh off the press - pyOpenSci stickers!
-    </figcaption>
-</figure>
+{{< figure src="images/pyopensci-stickers.png" alt="Two pyOpenSci sticker designs. the one is a light purple flower with white stamen and the letters pr and O as the center of the sticker. The S is a snake. The econd sticker is a darker and lighter purpler that says pyOPenSci and has the top half of a flower above the O in open." caption="Fresh off the press - pyOpenSci stickers!" >}}
 
 ## For all of you introverts - a few tips that helped me this year
 

@@ -1,21 +1,22 @@
 ---
 title: 'Navigating LLMs in Open Source: pyOpenSci''s New Peer Review Policy'
-date: 2025-11-18
+date: '2025-11-18'
 type: blog
-url: "/blog/generative-ai-peer-review-policy.html"
 excerpt: Generative AI products are reducing the effort and skill necessary to generate
   large amounts of code. In some cases, this strains volunteer peer review programs
   like ours. Learn about pyOpenSci's approach to developing a Generative AI policy
   for our software peer review program.
 author: pyopensci
+blog_topic: software
+toc: true
+comments: true
+url: "/blog/generative-ai-peer-review-policy.html"
+lastmod: '2025-12-16'
 image:
   src: images/headers/pyopensci-floral.png
   alt: 'Navigating LLMs in Open Source: pyOpenSci''s New Peer Review Policy'
-toc: true
-comments: true
-lastmod: 2025-12-16
-blog_topic: software
 ---
+
 authors: Leah Wasser, Jed Brown, Carter Rhea, Ellie Abrahams, Carol Willing, Stefan van der Walt, Eliot Robson
 
 ## Generative AI meets scientific open source
@@ -223,14 +224,14 @@ Consider the following:
 You can't control what's in training data, but you can be thoughtful
 about how you use these tools.
 
-{{< admonition type="note" >}}
+<div class="notice" markdown="1">
 Examples of how these licensing issues are impacting and stressing our
 legal systems:
 
 * [GitHub Copilot litigation](https://githubcopilotlitigation.com/case-updates.html)
 * [Litigation around text from LLMs](https://arxiv.org/abs/2505.12546)
 * [incompatible licenses](https://dwheeler.com/essays/floss-license-slide.html)
-{{< /admonition >}}
+</div>
 
 ### Review for bias
 

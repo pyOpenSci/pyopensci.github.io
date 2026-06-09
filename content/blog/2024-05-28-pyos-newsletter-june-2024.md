@@ -1,26 +1,23 @@
 ---
 title: 'pyOpenSci Newsletter: June 2024'
-date: 2024-05-28
+date: '2024-05-28'
 type: blog
-url: "/blog/pyos-newsletter-june-2024.html"
 excerpt: We're starting June with a record number of Python package submissions, a
   call for editors, a PyCon US reflection, and some SciPy meeting news!
 author: Jesse Mostipak
+blog_topic: updates
+toc: true
+comments: true
+url: "/blog/pyos-newsletter-june-2024.html"
+lastmod: '2024-08-29'
 image:
   src: images/headers/scipy-2024-workshop.png
   alt: 'pyOpenSci Newsletter: June 2024'
-toc: true
-comments: true
-lastmod: 2024-08-29
-blog_topic: updates
 ---
+
 ## <i class="fa-regular fa-comments"></i> PyCon was incredible!
 We feel so incredibly fortunate to have connected with so many of you at PyCon US! While we're still recovering from a week of summits, talks, and sprints, we wanted to share this sentiment from our Executive Director and Founder, [Leah Wasser](https://github.com/lwasser), which she shared on [her Fosstodon account](https://fosstodon.org/@leahawasser):
-<figure>
-    <a href="/images/blog/2024/may/leah-pycon.png">
-    <img src="/images/blog/2024/may/leah-pycon.png" style="max-width:100%" alt="Screenshot of a Fosstodon post from Leah Wasser, reading: In my first few moments at pycon I ran into some of my conda friends & was quickly reminded of why this conference is so powerful.  Python is more than a programming language. It's a community of people who I can geek out with about the most obscure topics. I belong. People care. They care a lot about their work. They care about helping each other learn.  While this is a tech conference, it's really people that make python the vibrant community that it is.">
-    </a>
-</figure>
+{{< figure src="images/blog/2024/may/leah-pycon.png" alt="Screenshot of a Fosstodon post from Leah Wasser, reading: In my first few moments at pycon I ran into some of my conda friends & was quickly reminded of why this conference is so powerful. Python is more than a programming language. It's a community of people who I can geek out with about the most obscure topics. I belong. People care. They care a lot about their work. They care about helping each other learn. While this is a tech conference, it's really people that make python the vibrant community that it is." >}}
 
 ### pyOpenSci's PyCon US Open Space
 This year, pyOpenSci's first Open Space brought together 17 attendees from various organizations, including Anaconda, NVIDIA, CPython, and more. The discussions focused on interoperability, scientific data workflows, and Python packaging for science, emphasizing the need for consistent tools and data formats to reduce cognitive load for scientists. A key topic was the gap between exploratory scripts and fully packaged code, highlighting the need for "in between" options for sharing code and outputs. These insights will guide pyOpenSci's efforts, with more discussions planned for the Fall Festival, scheduled for September 28-29, 2024.
@@ -65,7 +62,7 @@ Led by pyOpenSci's Executive Director and Founder, [Leah Wasser](https://github.
 Creating code that can be shared and reused is the gold-standard of open science. But tools and skills to share your code can be tricky to learn. In this hands-on tutorial, you’ll learn how to turn your code into an installable Python module ( a file containing Python code that defines functions, classes, and variables), that can be shared with others. We will provide pre-built code and module examples for each step of the tutorial to make it more beginner-friendly. However, to get the most out of this tutorial, you should be familiar with writing Python code, writing and using functions and you should understand the concept of Python environments. You should also have Python and Hatch installed on your computer prior to attending. If you are newer to environments and don’t have a preferred tool, then we recommend that you use conda. However, any environment tool that you prefer works well.
 
 Interested in helping out with our Packaging workshop? Reach out to us at [media@pyopensci.org](mailto:media@pyopensci.org). We're looking for volunteers to assist learners throughout the workshop.
-
+{: .notice}
 
 #### [Data of an Unusual Size (2024 edition): A practical guide to analysis and interactive visualization of massive datasets](https://cfp.scipy.org/2024/talk/UKLNLQ/)
 Pavithra Eswaramoorthy, and Dharhas Pothina, both from [Quansight](https://quansight.com/), will help you learn the fundamentals of analyzing massive datasets with real-world examples on actual powerful machines on a public cloud provided by the presenters – starting from how the data is stored and read, to how it is processed and visualized.
@@ -75,7 +72,7 @@ Pavithra Eswaramoorthy, and Dharhas Pothina, both from [Quansight](https://quans
 This talk from our Executive Director and Founder, [Leah Wasser](https://github.com/lwasser), shares pyOpenSci’s knowledge in building a constructive open peer review process that supports maintainers, and also resources that make Python packaging more accessible and easier-to-navigate. Our insights are based on five years of experience working with over 200 community members, who have evaluated 58 packages developed by over 56 package maintainers.
 
 Leah's talk is about writing the [pyOpenSci Python Packaging Guide](https://www.pyopensci.org/python-package-guide/) via community!
-
+{: .notice}
 
 #### [Great Tables for Everyone](https://cfp.scipy.org/2024/talk/BRMQRW/)
 This talk from Rich Iannone, whose package [Great Tables](https://github.com/pyOpenSci/software-submission/issues/184) is currently under review with pyOpenSci, will provide a demonstration of Great Tables, showing how data can come alive in when in tabular form. We’ll use data from the fields of meteorology, chemistry, and the atmospheric sciences within our table-making examples. We’ll learn how the different components of a table (e.g., the column labels, the header, etc.) can be manipulated to best convey the data. We believe tables are worthy of being deemed data visualizations and we hope that Great Tables can become an indispensable tool in your data analysis workflow.
@@ -94,11 +91,7 @@ In this talk, he will demonstrate a number of techniques for embedding cyber def
 We'll also be holding a pyOpenSci sprint at SciPy 2024! Be sure to follow us on [LinkedIn](https://www.linkedin.com/company/pyopensci) and [Fosstodon](https://fosstodon.org/@pyOpenSci) for more details!
 
 ## <i class="fa-solid fa-envelope-open"></i> Save the Date: pyOpenSci's Open Source Fall Festival
-<figure>
-    <a href="/images/blog/2024/may/oss-fall-festival.png">
-    <img src="/images/blog/2024/may/oss-fall-festival.png" style="max-width:100%" alt="Abstract shapes on a white background with the text: Save the Date. pyOpenSci Open Source Fall Festival. September 28 & 29, 2024. Entirely online! Follow us on socials for more info. fosstodon.org/@pyOpenSci linkedin.com/company/pyopensci pyopensci.org.">
-    </a>
-</figure>
+{{< figure src="images/blog/2024/may/oss-fall-festival.png" alt="Abstract shapes on a white background with the text: Save the Date. pyOpenSci Open Source Fall Festival. September 28 & 29, 2024. Entirely online! Follow us on socials for more info. fosstodon.org/@pyOpenSci linkedin.com/company/pyopensci pyopensci.org." >}}
 We love a good get-together, and our Open Source Fall Festival is no exception! Held entirely online using Spatial Chat, our goals is to bring together members of the Python community that create open source tools with the members of the Python community who use the tools. In building this festival, our focus is on a grassroots, community-led event with some big unconference vibes. So mark your calendars, and save the date for September 28--29th, 2024!
 
 ## <i class="fa-solid fa-hand-holding-heart"></i> Python packages for everyone!
@@ -116,11 +109,7 @@ Some of the basic things that we look for in a review include:
 We like to have a mix of technical and usability focus in our reviews so it’s ok if you don’t have all of the above skills! Not sure if you're ready to review on your own? Check out the [pyOpenSci mentorship program](https://www.pyopensci.org/software-peer-review/how-to/reviewer-guide.html#a-guide-for-new-reviewers)!
 
 ## <i class="fa-solid fa-bullhorn"></i> Get involved with pyOpenSci: call for editors
-<figure>
-    <a href="/images/blog/2024/may/pyos-call-for-editors.png">
-    <img src="/images/blog/2024/may/pyos-call-for-editors.png" style="max-width:100%" alt="Off-white square on a purple floral background with text that reads: Get involved with pyOpenSci! We're growing out editorial team, and are seeking volunteers from a wide variety of scientific backgrounds. Editors: lead the review process for 3-4 packages a year and assist with editorial and peer review policies. People from diverse backgrounds are especially encouraged to apply! Questions? Email media@pyopensci.org. Apply: bit.ly/pyOSEditor">
-    </a>
-</figure>
+{{< figure src="images/blog/2024/may/pyos-call-for-editors.png" alt="Off-white square on a purple floral background with text that reads: Get involved with pyOpenSci! We're growing out editorial team, and are seeking volunteers from a wide variety of scientific backgrounds. Editors: lead the review process for 3-4 packages a year and assist with editorial and peer review policies. People from diverse backgrounds are especially encouraged to apply! Questions? Email media@pyopensci.org. Apply: bit.ly/pyOSEditor" >}}
 
 If you're looking to give back to the broader Python community, consider joining our Editorial Board! The pyOpenSci Editorial Board is comprised of a diverse group of volunteer editors, each one responsible for the following tasks:
 

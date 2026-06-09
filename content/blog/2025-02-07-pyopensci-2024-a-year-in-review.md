@@ -1,31 +1,27 @@
 ---
 title: '2024: A Transformative Year for pyOpenSci'
-date: 2025-02-07
+date: '2025-02-07'
 type: blog
-url: "/blog/2024-pyopensci-retrospective.html"
 excerpt: 2024 was a transformative year for pyOpenSci. Through training, mentorship,
   and peer review, we expanded our community, created free educational resources,
   and empowered scientists worldwide. Here’s what we built together—and why it matters
   now more than ever.
 author: Leah Wasser
+blog_topic: updates
+toc: true
+comments: true
+url: "/blog/2024-pyopensci-retrospective.html"
+lastmod: '2025-02-07'
 image:
   src: images/headers/pyopensci-floral.png
   alt: '2024: A Transformative Year for pyOpenSci'
-toc: true
-comments: true
-lastmod: 2025-02-07
-blog_topic: updates
 ---
+
 ## Introduction
 
-In 2024, pyOpenSci’s vibrant community led efforts to make open source science more accessible, inclusive, and equitable for all. We empowered the broader community to create, contribute to, and discover better software through beginner-friendly [training events](https://www.pyopensci.org/events.html), [collaborative tutorials](https://www.pyopensci.org/learn.html#start-learning-beginner-friendly-python-packaging-tutorials), and [software peer review](https://www.pyopensci.org/about-peer-review/index.html).
+In 2024, pyOpenSci’s vibrant community led efforts to make open source science more accessible, inclusive, and equitable for all. We empowered the broader community to create, contribute to, and discover better software through beginner-friendly [training events](https://www.pyopensci.org/events/), [collaborative tutorials](https://www.pyopensci.org/learn.html#start-learning-beginner-friendly-python-packaging-tutorials), and [software peer review](https://www.pyopensci.org/about-peer-review/index.html).
 
-<figure>
-<picture>
-  <source srcset="{{ '/images/pyopensci-general/pyopensci-by-the-numbers-2024.webp' | relative_url }}" type="image/webp">
-  <img src= "{{ '/images/pyopensci-general/pyopensci-by-the-numbers-2024.png' | relative_url }}" alt="Infographic summarizing pyOpenSci’s achievements in 2024 with the title ‘pyOpenSci 2024: A year of community & growth.’ The ‘Training & Sprints’ section shows 7 events and 180 attendees. The ‘Peer Review’ section highlights 39 accepted packages and approximately 100 editors and reviewers. The ‘Community’ section emphasizes 1,436 issues and pull requests submitted, 278 contributors, and 23 new co-developed lessons." />
-</picture>
-</figure>
+{{< figure src="images/pyopensci-general/pyopensci-by-the-numbers-2024.png" alt="Infographic summarizing pyOpenSci's achievements in 2024 with the title 'pyOpenSci 2024: A year of community & growth.' The 'Training & Sprints' section shows 7 events and 180 attendees. The 'Peer Review' section highlights 39 accepted packages and approximately 100 editors and reviewers. The 'Community' section emphasizes 1,436 issues and pull requests submitted, 278 contributors, and 23 new co-developed lessons." >}}
 
 Looking back, I’m inspired and humbled by what we’ve achieved together:
 
@@ -52,12 +48,7 @@ A defining strength of the pyOpenSci community is its commitment to co-creating 
 Our packaging tutorial is the product of a vibrant collaboration between developers, scientists, and beginners. Packaging tool maintainers and packaging experts worked alongside those newer to packaging to co-develop, review, and refine content that is accurate, thorough, and welcoming to newcomers.
 
 
-<figure>
-<picture>
-  <source srcset="{{ '/images/python-packaging/packaging-101-outline.webp' | relative_url }}" type="image/webp">
-  <img src= "{{ '/images/python-packaging/packaging-101-outline.png' | relative_url }}" alt="Diagram showing the lessons in our packaging tutorial. There are 6 total - what is a Python package, make code pip installable, publish your package to PyPI, add a README and LICENSE file, add metadata for PyPI and finally publish to conda forge." style="width: 70%; max-width: 100%;"/>
-</picture>
-</figure>
+{{< figure src="images/python-packaging/packaging-101-outline.png" alt="Diagram showing the lessons in our packaging tutorial. There are 6 total - what is a Python package, make code pip installable, publish your package to PyPI, add a README and LICENSE file, add metadata for PyPI and finally publish to conda forge.' style='width: 70%; max-width: 100%;" >}}
 
 ### Collaborative learning in action: building together, learning together
 
@@ -90,27 +81,21 @@ Our first-ever [Fall Festival](#) featured inspiring keynote speakers like Rowan
 
 On the event's last day, George Stagg, developer of Quarto Live, and James Balamuta kicked off the day with an overview of how Quarto Live makes interactive publishing of dynamic scientific outputs easier, connecting scientific workflows with shared outputs.
 
-<figure>
-<picture>
-  <source srcset="{{ '/images/events/fall-festival-blog-keynote-speakers.webp' | relative_url }}" type="image/webp">
-  <img src="{{ '/images/events/fall-festival-blog-keynote-speakers.png' | relative_url }}" alt="Graphic showing the keynote speakers for the pyOpenSci Fall Festival. The title reads: pyOpenSci Fall Festival Keynote Speakers. The featured speakers are Melissa Mendoça, James Balamuta, Eric Ma, George Stagg, and Rowan Cockett, each displayed in a circular frame against a purple background with connecting nodes as a design element." />
-</picture>
-</figure>
+{{< figure src="images/events/fall-festival-blog-keynote-speakers.png" alt="Graphic showing the keynote speakers for the pyOpenSci Fall Festival. The title reads: pyOpenSci Fall Festival Keynote Speakers. The featured speakers are Melissa Mendoça, James Balamuta, Eric Ma, George Stagg, and Rowan Cockett, each displayed in a circular frame against a purple background with connecting nodes as a design element." >}}
 
 The dynamic spatial chat platform fostered real-time collaboration and made learning interactive, personalized, and fun!
 
-{% include pyos-blockquote.html quote="I love the engagement…how people were attended to individually despite being in a group setting. I enjoyed that learning could happen in a personal and group setting." author="Workshop Participant" event="Fall Festival 2024" class="highlight purple" %}
+
+> I love the engagement…how people were attended to individually despite being in a group setting. I enjoyed that learning could happen in a personal and group setting.
+>
+> — Workshop Participant
+
 
 #### Volunteer contributors who made it possible
 
 The Fall Festival wouldn’t have been possible without the dedication of our incredible volunteers, who handled everything from workshop support to tech troubleshooting. Their efforts ensured a welcoming, smooth experience for participants.
 
-<figure>
-<picture>
-  <source srcset="{{ '/images/events/fall-festival-thank-you.webp' | relative_url }}" type="image/webp">
-  <img src="{{ '/images/events/fall-festival-thank-you.png' | relative_url }}" alt="Graphic showing a ‘Thank You’ message to pyOpenSci Fall Festival community supporters. The text reads ‘Thank You, pyOpenSci Community Supporters!’ with the Fall Festival logo. Circular photos of community members include Rich Iannone, Steven Sylvester, Jonny Saunders, Tracy Teal, Carol Willing, Felipe Moreno, Tetsuo Koyama, Isabel Zimmerman, and Jeremiah Paige, displayed against a purple background with connecting nodes as a design element. The pyOpenSci URL (pyopensci.org) is displayed in the lower left." />
-</picture>
-</figure>
+{{< figure src="images/events/fall-festival-thank-you.png" alt="Graphic showing a 'Thank You' message to pyOpenSci Fall Festival community supporters. The text reads 'Thank You, pyOpenSci Community Supporters!' with the Fall Festival logo. Circular photos of community members include Rich Iannone, Steven Sylvester, Jonny Saunders, Tracy Teal, Carol Willing, Felipe Moreno, Tetsuo Koyama, Isabel Zimmerman, and Jeremiah Paige, displayed against a purple background with connecting nodes as a design element. The pyOpenSci URL (pyopensci.org) is displayed in the lower left." >}}
 
 
 #### Open education lessons from the Fall Festival
@@ -129,7 +114,11 @@ As a part of our training initiative, we also ran two beginner-friendly packagin
 
 What did you enjoy most about the workshop?
 
-{% include pyos-blockquote.html quote="The content and the crew! The team was so kind, patient, and approachable. I appreciate the amount of support and reassurance given during this tutorial. The content of the tutorial was also spot on. Everything we covered felt relevant and useful, and gave me the confidence to feel capable of creating my own packages." author="Workshop Participant" event="SciPy 2024 Create your first Python package training" class="highlight purple" %}
+
+> The content and the crew! The team was so kind, patient, and approachable. I appreciate the amount of support and reassurance given during this tutorial. The content of the tutorial was also spot on. Everything we covered felt relevant and useful, and gave me the confidence to feel capable of creating my own packages.
+>
+> — Workshop Participant
+
 
 The success of our training materials underscores the demand for inclusive, high-quality open science resources; they also demonstrate the power of community collaboration.
 
@@ -139,16 +128,7 @@ The pyOpenSci software peer review program empowers scientists to build and impr
 
 We also tried out a new editor in chief rotation system to avoid too much time burden on any specific editor. Below are our fearless EiC's for 2024.
 
-<figure>
-<picture>
-  <source srcset="{{ '/images/peer-review/pyos-eic-rotation-2024.webp' | relative_url }}" type="image/webp">
-  <img src="{{ '/images/peer-review/pyos-eic-rotation-2024.png' | relative_url }}" alt="Graphic titled ‘Editor in Chief 2024 Software Peer Review,’ highlighting the four Editors-in-Chief for 2024 with photos and descriptions.
-	•	Szymon Molinski (Fall 2024): Image of Szymon holding a dog by the ocean. Passion: Open source development, breakdancing, and hiking with his pug.
-	•	Chiara Marmo (Summer 2024): Illustrated portrait of Chiara. Fun fact: She enjoys reading theater pieces, playing all roles herself, and takes pride in accomplishing unexpected things.
-	•	Alex Batisse (Spring 2024): Black-and-white photo of Alex. Passion: Understanding and visualizing information, from stats to dataviz, and making it intelligible for others.
-	•	Isabel Zimmerman (Winter 2024): Photo of Isabel smiling outdoors in a wide-brimmed hat. Passion: Machine learning operations and improving the processes that support creating, sharing, and maintaining models." />
-</picture>
-</figure>
+{{< figure src="images/peer-review/pyos-eic-rotation-2024.png" alt="Graphic titled 'Editor in Chief 2024 Software Peer Review,' highlighting the four Editors-in-Chief for 2024 with photos and descriptions. • Szymon Molinski (Fall 2024): Image of Szymon holding a dog by the ocean. Passion: Open source development, breakdancing, and hiking with his pug. • Chiara Marmo (Summer 2024): Illustrated portrait of Chiara. Fun fact: She enjoys reading theater pieces, playing all roles herself, and takes pride in accomplishing unexpected things. • Alex Batisse (Spring 2024): Black-and-white photo of Alex. Passion: Understanding and visualizing information, from stats to dataviz, and making it intelligible for others. • Isabel Zimmerman (Winter 2024): Photo of Isabel smiling outdoors in a wide-brimmed hat. Passion: Machine learning operations and improving the processes that support creating, sharing, and maintaining models." >}}
 
 Our editorial team grew to **18 members**, with a rotating Editor-in-Chief position, and was supported by **81 volunteer reviewers** who contributed their time to ensure that [every reviewed package in our ecosystem](https://www.pyopensci.org/python-packages.html) meets the highest standards for quality and usability.
 
@@ -162,17 +142,7 @@ In 2024, we received over **28 new submissions**.
 - **Strengthening ecosystems through domain-specific affiliation: Astropy:**
   Our domain-specific community partnership program accepted three packages for [Astropy affiliation](https://www.pyopensci.org/software-peer-review/partners/astropy.html). Our partnership with Astropy and JOSS demonstrates how communities with some overlapping goals can truly work together effectively.
 
-<figure>
-<picture>
-  <source srcset="{{ '/images/peer-review/pyos-partnerships-peer-review.webp' | relative_url }}" type="image/webp">
-  <img src="{{ '/images/peer-review/pyos-partnerships-peer-review.png' | relative_url }}" alt="Graphic illustrating the pyOpenSci partnerships and review flow:
-	1.	pyOpenSci Accepted: The process starts with a package being accepted by pyOpenSci, represented by the pyOpenSci logo and a checkmark.
-	2.	JOSS Published: Accepted packages can be published in the Journal of Open Source Software (JOSS), indicated by the JOSS logo and a checkmark.
-	3.	Community Affiliated: Packages can also become affiliated with community-specific organizations, represented by a box labeled ‘Community Affiliated’ with a checkmark.
-
-The flowchart shows arrows connecting these stages, visually demonstrating the possible outcomes after pyOpenSci acceptance." />
-</picture>
-</figure>
+{{< figure src="images/peer-review/pyos-partnerships-peer-review.png" alt="Graphic illustrating the pyOpenSci partnerships and review flow: 1. pyOpenSci Accepted: The process starts with a package being accepted by pyOpenSci, represented by the pyOpenSci logo and a checkmark. 2. JOSS Published: Accepted packages can be published in the Journal of Open Source Software (JOSS), indicated by the JOSS logo and a checkmark. 3. Community Affiliated: Packages can also become affiliated with community-specific organizations, represented by a box labeled 'Community Affiliated' with a checkmark. The flowchart shows arrows connecting these stages, visually demonstrating the possible outcomes after pyOpenSci acceptance." >}}
 
 ### Navigating ethical challenges in generative AI
 
@@ -188,14 +158,7 @@ This was also the first year where volunteer contributions outnumbered staff con
 
 Wow!
 
-<figure>
-<picture>
-  <source srcset="{{ '/images/pyopensci-general/pyopensci-github-prs-issues.webp' | relative_url }}" type="image/webp">
-  <img src="{{ '/images/pyopensci-general/pyopensci-github-prs-issues.png' | relative_url }}" alt="Bar chart titled ‘Staff vs. Volunteer Contributor by Quarter,’ showing the count of contributions by quarter from Q4 2018 to Q1 2025. The chart uses stacked bars, with green representing volunteer contributions and purple representing staff contributions. The chart shows a significant growth in contributions starting around 2023, with volunteer contributions surpassing staff contributions in recent quarters." />
-</picture>
-  <figcaption>Plot that shows an increase in contributions to pyOpenSci open education content.</figcaption>
-
-</figure>
+{{< figure src="images/pyopensci-general/pyopensci-github-prs-issues.png" alt="Bar chart titled 'Staff vs. Volunteer Contributor by Quarter,' showing the count of contributions by quarter from Q4 2018 to Q1 2025. The chart uses stacked bars, with green representing volunteer contributions and purple representing staff contributions. The chart shows a significant growth in contributions starting around 2023, with volunteer contributions surpassing staff contributions in recent quarters." caption="Plot that shows an increase in contributions to pyOpenSci open education content." >}}
 
 ### Empowering first-time contributors
 
@@ -203,7 +166,11 @@ A key driver of contributor and community growth was our [**beginner-friendly sp
 
 - **PyCon US, SciPy, and PyCascades Sprints:** Hosted across three major conferences, these events focused on hands-on mentorship, guiding participants through impactful contributions.
 
-{% include pyos-blockquote.html quote="Amazing! Leah was so helpful as it was my first time doing anything like that. I had used GitHub for personal projects but never with other people so she was so good at teaching." author="Workshop Participant" event="pyOpenSci sprint 2024" class="highlight purple" %}
+
+> Amazing! Leah was so helpful as it was my first time doing anything like that. I had used GitHub for personal projects but never with other people so she was so good at teaching.
+>
+> — Workshop Participant
+
 
 Our sprints strengthened our contributor community and sparked new initiatives, like translating our packaging guide into Spanish and Japanese.
 
@@ -237,5 +204,3 @@ Our leadership teams—including the [Executive Council](https://www.pyopensci.o
 [Peer Review Editorial Board](https://www.pyopensci.org/about-peer-review/index.html#meet-our-editorial-board) have been instrumental in carving the path forward for pyOpenSci.
 
 We look forward to building the future of open science, one contribution at a time—and we invite you to join us on this journey.
-
-{% include connect-with-pyos.html %}

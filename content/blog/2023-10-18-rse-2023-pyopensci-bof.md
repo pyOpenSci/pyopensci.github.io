@@ -1,19 +1,20 @@
 ---
 title: pyOpenSci Python packaging discussion at the Research Software Engineering
   meeting 2023
-date: 2023-10-18
+date: '2023-10-18'
 type: blog
-url: "/blog/pyOpenSci-research-software-2023.html"
 excerpt: pyOpenSci held a community birds of a feather session at the 2023 RSE meeting
   in Chicago where we discussed peer review and packaging pain points. Learn about
   the packaging pain points that they RSE-Python community experiences and how pyOpenSci
   is addressing Python packaging pain points.
 author: Leah Wasser
+blog_topic: learn
 toc: true
 comments: true
-lastmod: 2024-08-29
-blog_topic: learn
+url: "/blog/pyOpenSci-research-software-2023.html"
+lastmod: '2024-08-29'
 ---
+
 ## Intro
 
 In October 2023, the United States Research Software Engineering (US-RSE),
@@ -54,14 +55,7 @@ maintaining the critical software that is driving science. We also want them
 to get credit for their work which is why we partner with the Journal of
 Open Source software.
 
-<figure>
-    <a href="/images/pyopensci-open-source-foundation-open-science.png">
-    <img src="/images/pyopensci-open-source-foundation-open-science.png" style="max-width:100%" alt="AN image that shows a house with a chimney blowing smoke out that says scientific discovery. Below the house is open source as the
-    foundation for open science. At the top of the slide is says open source == foundation">
-    </a>
-    <figcaption>To be truly open, code that drives scientific inquiry needs to have an open license. Thus open science depends upon open source software. As such it makes sense that academia value open source software in the same way they value publications that are derived from using such software.
-    </figcaption>
-</figure>
+{{< figure src="images/pyopensci-open-source-foundation-open-science.png" alt="AN image that shows a house with a chimney blowing smoke out that says scientific discovery. Below the house is open source as the foundation for open science. At the top of the slide is says open source == foundation" caption="To be truly open, code that drives scientific inquiry needs to have an open license. Thus open science depends upon open source software. As such it makes sense that academia value open source software in the same way they value publications that are derived from using such software." >}}
 
 > The RSE position should be a clearly
 > defined, funded, respected and supported career path in all academic institutions
@@ -104,14 +98,7 @@ In our BoF, I introduced the three core programs that pyOpenSci currently runs w
 2. Community-driven packaging resources
 3. Mentorship and training to diversify our ecosystem
 
-<figure>
-    <a href="/images/pyopensci-programs.png">
-    <img src="/images/pyopensci-programs.png" style="max-width:100%" alt="A flower image with three petals - software peer review, community partnerships and packaging resources. at the center of the flower it says diverse, inclusive community">
-    </a>
-    <figcaption>pyOpenSci has three core programs related to Python scientific software. We spent a lot of time talking about software peer review and
-    also packaging challenges in our BoF session.
-    </figcaption>
-</figure>
+{{< figure src="images/pyopensci-programs.png" alt="A flower image with three petals - software peer review, community partnerships and packaging resources. at the center of the flower it says diverse, inclusive community" caption="pyOpenSci has three core programs related to Python scientific software. We spent a lot of time talking about software peer review and also packaging challenges in our BoF session." >}}
 
 ### Days since your last Python environment broke
 
@@ -122,13 +109,7 @@ environment challenges.
 
 So if you've been in this boat too, you are are not alone!
 
-<figure>
-    <a href="/images/pyos-days-python-environment-failed.png">
-    <img src="/images/pyos-days-python-environment-failed.png" style="max-width:100%" alt="A mentimeter slide. at the top it says days since your last failed python environment. To the right is a picture of people from the Office - a tv show. They are holding a chalk board that says 0 days since last ruined Python environment. On the left is 6 sections with purple circles representing peoples votes for 0 days, 1-7 days, 8-14 days, 15-30 days and > 30 days. No one voted for never. But 12 voted for 1-7 days, 9 for 8-14, 8 for 15-30 and 9 for > 30">
-    </a>
-    <figcaption>Above each of the purple dots represent a vote for a specific number of days. For 12 people, it had only been 1-7 days since their environment had broken. For 9 other lucky people, it had been more than 30 days. A great followup question regarding this might be whether they used containerized environments, or pinned environments that didn't need modifications.
-    </figcaption>
-</figure>
+{{< figure src="images/pyos-days-python-environment-failed.png" alt="A mentimeter slide. at the top it says days since your last failed python environment. To the right is a picture of people from the Office - a tv show. They are holding a chalk board that says 0 days since last ruined Python environment. On the left is 6 sections with purple circles representing peoples votes for 0 days, 1-7 days, 8-14 days, 15-30 days and > 30 days. No one voted for never. But 12 voted for 1-7 days, 9 for 8-14, 8 for 15-30 and 9 for > 30" caption="Above each of the purple dots represent a vote for a specific number of days. For 12 people, it had only been 1-7 days since their environment had broken. For 9 other lucky people, it had been more than 30 days. A great followup question regarding this might be whether they used containerized environments, or pinned environments that didn't need modifications." >}}
 
 Full disclosure the one person who voted for 0 days, admitted to the fact that they hadn't used Python in the past month. :)
 
@@ -143,13 +124,7 @@ Below you can see a word cloud generated from the question
 
 "What Python packaging tools have you used?"
 
-<figure>
-    <a href="/images/rse-2023-packaging-tools.png">
-    <img src="/images/rse-2023-packaging-tools.png" style="max-width:100%" alt="This is a word cloud with many different words representing tools that scientists use to create packages. Amongst the words the biggest - which represent tools that multiple people selected - were pip, conda, pytest, mamba, pypi, github actions, setuptools and poetry.">
-    </a>
-    <figcaption>From this word cloud you can begin to see that there are many different tools in the python ecosystem that scientists use to create packages. The sheer volume of options can be great for some who know a lot about the ecosystem. However, for many others it can be overwhelming to have to chose between tools and approaches. This is a pain point that pyOpenSci is addressing.
-    </figcaption>
-</figure>
+{{< figure src="images/rse-2023-packaging-tools.png" alt="This is a word cloud with many different words representing tools that scientists use to create packages. Amongst the words the biggest - which represent tools that multiple people selected - were pip, conda, pytest, mamba, pypi, github actions, setuptools and poetry." caption="From this word cloud you can begin to see that there are many different tools in the python ecosystem that scientists use to create packages. The sheer volume of options can be great for some who know a lot about the ecosystem. However, for many others it can be overwhelming to have to chose between tools and approaches. This is a pain point that pyOpenSci is addressing." >}}
 
 A few things that popped out to me included:
 

@@ -1,19 +1,20 @@
 ---
 title: 'A Blueprint for the Future: pyOpenSci''s Sustainability Model'
-date: 2024-09-17
+date: '2024-09-17'
 type: blog
-url: "/blog/pyopensci-funding-sustainability.html"
 excerpt: pyOpenSci is exploring various sustainability methods to supplement our valued
   grant funding. Learn more about what we are exploring.
 author: Leah Wasser
+blog_topic: community
+toc: true
+comments: true
+url: "/blog/pyopensci-funding-sustainability.html"
+lastmod: '2024-10-15'
 image:
   src: images/blog/headers/pyopensci-sustainability.png
   alt: 'A Blueprint for the Future: pyOpenSci''s Sustainability Model'
-toc: true
-comments: true
-lastmod: 2024-10-15
-blog_topic: community
 ---
+
 ## Introduction
 
 Funding is critical to the success of any nonprofit organization. In this blog post, I'll outline pyOpenSci's sustainability plan. We define sustainability as building a diverse funding "portfolio" that includes grants and internally generated revenue sources to support our mission, growth, and core activities.
@@ -22,27 +23,19 @@ Funding is critical to the success of any nonprofit organization. In this blog p
 
 Funding from [Sloan Foundation](https://sloan.org/) catalyzed pyOpenSci's growth by enabling me to dedicate full-time effort to growing the organization's impact in September 2022. This full-time commitment, paired with support from a fiscal sponsor, [catalyzed pyOpenSci's recent growth and success](/blog/what-pyopensci-accomplished-with-two-years-of-funding.html).
 
-<figure>
-    <a href="/images/pyopensci-general/pyopensci-timeline2019-2024.png"><img src="/images/pyopensci-general/pyopensci-timeline2019-2024.png" alt="An image titled pyOpenSci timeline. showing key milestones from 2018 to 2024. The timeline is marked with flower icons and a small rocket to represent significant events. Key points include: 2018: Community Meetings Begin, 2019: Software Peer Review Launch,2021-2022: Sloan Funding, Fall 2022: Packaging Guide Rewrite Begins, January 2023: Peer Review Relaunched, Fall 2023: CZI funds pyOpenSci, Spring 2024: pyOpenSci launches training and tutorials. The timeline progresses diagonally from the bottom left to the top right, with a rocket heading toward a bright light in the top right corner." ></a>
-    <figcaption>I founded pyOpenSci in 2018. It was mostly a side effort at the time driven forward by small community meetings and a pilot of a scientific Python peer review process.
-</figcaption>
-</figure>
+{{< figure src="images/pyopensci-general/pyopensci-timeline2019-2024.png" alt="An image titled pyOpenSci timeline. showing key milestones from 2018 to 2024. The timeline is marked with flower icons and a small rocket to represent significant events. Key points include: 2018: Community Meetings Begin, 2019: Software Peer Review Launch,2021-2022: Sloan Funding, Fall 2022: Packaging Guide Rewrite Begins, January 2023: Peer Review Relaunched, Fall 2023: CZI funds pyOpenSci, Spring 2024: pyOpenSci launches training and tutorials. The timeline progresses diagonally from the bottom left to the top right, with a rocket heading toward a bright light in the top right corner." caption="I founded pyOpenSci in 2018. It was mostly a side effort at the time driven forward by small community meetings and a pilot of a scientific Python peer review process." >}}
 
 For example, our scientific Python [software peer review program](https://www.pyopensci.org/software-peer-review/) significantly expanded after we reopened it in early 2023, following our governance and documentation improvements. Today, we average 10-14 packages in our review queue at any given time and have 18 volunteer editors and dozens of reviewers who drive peer review forward.
 
 You can see this profound impact in the plot below.
 
 
-<figure>
-    <a href="/images/peer-review/pyopensci-python-software-peer-review-growth.png"><img src="/images/peer-review/pyopensci-python-software-peer-review-growth.png" alt="A cumulative sum plot with months on the x-axis and number of review issues submitted on the y-axis. The curve starts with a small slope in 2019. Around January 2023, the slope becomes significantly steeper, indicating a dramatic increase in submissions when we reopened the peer review. At that point in the plot, there is a label that says 'Full-time funding'." ></a>
-    <figcaption>It is clear the impact that 1) working on our peer review guide and governance plus 2) funding, which allowed me to devote all of my professional time to pyOpenSci, had on our peer review program. It has been incredibly successful in the past year! And true success lies in the hands of the community that leads the review process. Today, on average, pyOpenSci has 10-14 packages in our software review queue.
-</figcaption>
-</figure>
+{{< figure src="images/peer-review/pyopensci-python-software-peer-review-growth.png" alt="A cumulative sum plot with months on the x-axis and number of review issues submitted on the y-axis. The curve starts with a small slope in 2019. Around January 2023, the slope becomes significantly steeper, indicating a dramatic increase in submissions when we reopened the peer review. At that point in the plot, there is a label that says 'Full-time funding'." caption="It is clear the impact that 1) working on our peer review guide and governance plus 2) funding, which allowed me to devote all of my professional time to pyOpenSci, had on our peer review program. It has been incredibly successful in the past year! And true success lies in the hands of the community that leads the review process. Today, on average, pyOpenSci has 10-14 packages in our software review queue." >}}
 
 
 <!-- CSS FIX quote is 2 diff colors -->
 
-{% include pyos-blockquote.html quote= "The Sloan Foundation's early support has propelled pyOpenSci's growth, creating opportunities that ultimately helped us secure additional funding from CZI." class=" highlight magenta" %}
+
 
 Today, the results of this momentum are clear. pyOpenSci has over **250 contributors** and runs a vibrant global Python software peer review process led by [**18 volunteer editors**](https://www.pyopensci.org/about-peer-review/index.html#meet-our-editorial-board), 74 reviewers, and 78 open source maintainers.
 
@@ -52,18 +45,18 @@ Funding has also allowed us to run events. In the past year, over 51 people have
 
 Contributions to pyOpenSci have also skyrocketed in the past two years.
 
-<figure>
-    <a href="/images/open-source/pyopensci-contributions-by-quarter.png"><img src="/images/open-source/pyopensci-contributions-by-quarter.png" alt="Bar chart titled 'Staff vs. Volunteer Contributor by Quarter.' The chart shows counts of contributions made by staff and volunteers from 2018 Q4 through 2024 Q3. Contributions are stacked, with purple representing staff and green representing volunteers. The chart reveals a significant growth in contributions over time, particularly from 2022 onward, with a notable increase in both staff and volunteer contributions in 2023 and 2024. The pyOpenSci logo is in the bottom-right corner." ></a>
-    <figcaption>A bar plot showing staff vs volunteer contributions on GitHub over time. Funding has allowed us to support more volunteer activity over the past 2 years.
-</figcaption>
-</figure>
+{{< figure src="images/open-source/pyopensci-contributions-by-quarter.png" alt="Bar chart titled 'Staff vs. Volunteer Contributor by Quarter.' The chart shows counts of contributions made by staff and volunteers from 2018 Q4 through 2024 Q3. Contributions are stacked, with purple representing staff and green representing volunteers. The chart reveals a significant growth in contributions over time, particularly from 2022 onward, with a notable increase in both staff and volunteer contributions in 2023 and 2024. The pyOpenSci logo is in the bottom-right corner." caption="A bar plot showing staff vs volunteer contributions on GitHub over time. Funding has allowed us to support more volunteer activity over the past 2 years." >}}
 
 
 ### Our Python packaging guide is making a splash
 
 One of our most impactful activities has been developing our community-vetted [Python packaging guide](https://www.pyopensci.org/python-package-guide/index.html), which includes beginning-to-end Python [packaging tutorials using Hatch](https://www.pyopensci.org/python-package-guide/tutorials/get-to-know-hatch.html). Developing our packaging guide has been a genuinely collaborative effort. We have built consensus around critical packaging decisions with numerous opinions on what is "best." In just under a year, our packaging guide's use has doubled, with ~20,000 unique page views in 2024.
 
-{% include pyos-blockquote.html quote=" @leahawasser @pyOpenSci clicking through and eventually found myself looking at 'what is a Python package' and involuntarily performed a standing ovation. bookmarked it as an example of great docs for an incredibly complex subject with many meanings in many different contexts" author=" Mastodon Toot" class=" highlight" %}
+
+>  @leahawasser @pyOpenSci clicking through and eventually found myself looking at 'what is a Python package' and involuntarily performed a standing ovation. bookmarked it as an example of great docs for an incredibly complex subject with many meanings in many different contexts
+>
+> —  Mastodon Toot
+
 
 Our work around Python packaging has led pyOpenSci to take a more active role in broader Python packaging discussions, contributing to conversations at events like the annual [PyCon US packaging summit ](https://us.pycon.org/2024/events/packaging-summit/) and the [PyCon US maintainers summit](https://www.pyopensci.org/blog/pycon-2023-packaging-presentation-sprints-leah-wasser.html#python-packaging-packaging-packaging).
 
@@ -168,6 +161,3 @@ You can learn more about the [Open Science Fall Festival, here](/events/pyopensc
 We look forward to seeing you there!
 
 ~ Leah with support from the [pyOpenSci Executive Council - Tracy Teal & Karen Cranston](/our-community/index.html#executive-council-leadership--staff)
-
-
-{% include connect-with-pyos.html %}

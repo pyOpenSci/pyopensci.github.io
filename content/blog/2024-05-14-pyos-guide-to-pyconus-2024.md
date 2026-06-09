@@ -1,20 +1,21 @@
 ---
 title: The pyOpenSci Guide to PyCon 2024
-date: 2024-05-14
+date: '2024-05-14'
 type: blog
-url: "/blog/pyos-guide-to-pyconus-2024.html"
 excerpt: PyCon US 2024 is finally here, and we can't wait to connect with you! This
   post has all of the talks, panels, summits, and keynotes where pyOpenSci community
   members (and friends!) will be speaking.
 author: Jesse Mostipak
+blog_topic: learn
+toc: true
+comments: true
+url: "/blog/pyos-guide-to-pyconus-2024.html"
+lastmod: '2024-08-29'
 image:
   src: images/blog/2024/may/pycon-us-2024.png
   alt: The pyOpenSci Guide to PyCon 2024
-toc: true
-comments: true
-lastmod: 2024-08-29
-blog_topic: learn
 ---
+
 ## <i class="fa-solid fa-heart"></i> Connect with the pyOpenSci community at PyCon US 2024!
 We know there are a million things to do and see while at [PyCon US 2024](https://us.pycon.org/2024/) in beautiful Pittsburgh this weekend, so we wanted to compile a list of every talk, keynote, summit, and panel where you can expect to meet some of the fantastic pyOpenSci community members as well as hear from some friends of pyOpenSci!
 
@@ -42,7 +43,7 @@ Henry will be guiding attendees through how easy it is now to set up a binary ex
 ### <i class="fa-solid fa-comment"></i> 2:45--3:15 PM: Hatch: The only tool you need
 *Ballroom A*\
 **[Ofek Lev](https://github.com/ofek)**\
-It's no secret that we're big fans of Hatch---we even [taught a Python Packaging Workshop](https://www.pyopensci.org/blog/pyos-education-announcement.html#enroll-in-pyopenscis-upcoming-workshop-from-python-code-to-module) using [Hatch](https://hatch.pypa.io/latest/)! With an ever-growing set of tools used in Python packaging, Ofek will be presenting on how Hatch can be used as a unifying tool for Python packaging.
+It's no secret that we're big fans of Hatch---we even [taught a Python Packaging Workshop](https://www.pyopensci.org/blog/pyos-education-announcement.html) using [Hatch](https://hatch.pypa.io/latest/)! With an ever-growing set of tools used in Python packaging, Ofek will be presenting on how Hatch can be used as a unifying tool for Python packaging.
 
 ## <i class="fa-regular fa-calendar"></i> Saturday, May 18th
 ### <i class="fa-solid fa-people-group"></i> 9:00--9:25 AM: Diversity & Inclusion Panel
@@ -52,11 +53,7 @@ Diversity and inclusion is core to the pyOpenSci mission, and we can't wait for 
 ### <i class="fa-solid fa-comment"></i> 10:30--11:00 AM: Friends don't let friends package alone
 *Hall C*\
 **[Leah Wasser](https://github.com/lwasser)**
-<figure>
-    <a href="/images/python-packaging/lion-meme-pyopensci.jpeg">
-    <img src="/images/python-packaging/lion-meme-pyopensci.jpeg" style="max-width:100%" alt="A puma leaning against a rock and flexing a front arm. Overlaid on the photo in meme text is the phrase 'so you want to talk about Python packaging.'">
-    </a>
-</figure>
+{{< figure src="images/python-packaging/lion-meme-pyopensci.jpeg" alt="A puma leaning against a rock and flexing a front arm. Overlaid on the photo in meme text is the phrase 'so you want to talk about Python packaging.'" >}}
 We couldn't talk about PyCon US without talking about our Executive Director and Founder, Leah Wasser, who will be talking all things Python packaging! Python packaging can be a scary and confusing endeavor. The ecosystem can be thorny and filled with many decisions around which tool or approach to use. You’re also likely to get pricked by an approach or tutorial that doesn't work as expected. However, the packaging journey doesn’t have to be prickly - particularly for pure Python packages. By building community consensus around user goals and moderating healthy discussion, pyOpenSci is paving a smooth, thorn-free path for successful packaging.
 
 ### <i class="fa-solid fa-users-between-lines"></i> 1:45--5:45 PM: Packaging Summit
@@ -89,14 +86,7 @@ And at 1:00 PM you can catch [Carol Willing](https://github.com/willingc) and [N
 
 ## <i class="fa-regular fa-paper-plane"></i> Connect with us
 ### pyOpenSci at PyCon US 2024
-<figure>
-    <a href="/images/blog/2024/may/juno-stickers.png">
-    <img src="/images/blog/2024/may/juno-stickers.png" style="max-width:100%" alt="A close-up photo of Juno, a black lab mix, chewing on sticks. In front of Juno is a collection of pyOpenSci stickers.">
-    </a>
-    <figcaption>
-      Juno enjoying some sticks while showing off the latest pyOpenSci swag!
-    </figcaption>
-</figure>
+{{< figure src="images/blog/2024/may/juno-stickers.png" alt="A close-up photo of Juno, a black lab mix, chewing on sticks. In front of Juno is a collection of pyOpenSci stickers." caption="Juno enjoying some sticks while showing off the latest pyOpenSci swag!" >}}
 While there will be a whole host of pyOpenSci community members at PyCon US this year, be sure to make time to say hello to our Executive Director and Founder, Leah Wasser. Not only would she love to chat with you about Python, open source, and open science, she's got a whole new set of stickers (including holographic stickers!) to give away. And for those lucky few, she's also got a limited edition run of postcards to hand out!
 
 And we'd love to hear about your PyCon experience! Be sure to tag us on [LinkedIn](https://www.linkedin.com/company/pyopensci) and/or [Fosstodon](https://fosstodon.org/@pyOpenSci)!

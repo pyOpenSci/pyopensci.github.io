@@ -8,6 +8,7 @@ excerpt: Generative AI was a dominant theme at PyCon US 2026 — not as a buzzwo
   pyOpenSci open space to the Maintainers Summit BoF to Amanda Casari's powerful closing
   keynote, the path forward remains human.
 author: Leah Wasser
+blog_topic: community
 toc: true
 comments: true
 url: "/blog/pycon-us-2026-generative-ai-open-source.html"
@@ -17,8 +18,8 @@ image:
   alt: Amanda Casari delivers the closing keynote at PyCon US 2026 beside a slide
     that reads Disposable Code Is Here to Stay, but Durable Code Is What Runs the
     World, attributed to Charity Majors.
-blog_topic: community
 ---
+
 *This post is Part 4 of a 4-part series on pyOpenSci at [PyCon US 2026](https://us.pycon.org/2026/). [Part 1](/blog/pycon-us-2026-community-connection.html) covers community and connection. [Part 2](/blog/pycon-us-2026-maintainers-summit.html) covers the Maintainer Summit. [Part 3](/blog/pycon-us-2026-sprints.html) covers the sprints.*
 
 
@@ -190,7 +191,7 @@ is hard, and yes, people are burnt out — and also that the path forward
 is a human one. Connection, care, and community are not features that
 any AI tool can replicate. They are the thing.
 
-{{< figure src="images/blog/2026/pycon-us-2026-amanda-casari-keynote.png" alt="Amanda Casari delivers the closing keynote at PyCon US 2026 beside a slide that reads Disposable Code Is Here to Stay, but Durable Code Is What Runs the World, attributed to Charity Majors." caption="Amanda Casari's closing keynote at PyCon US 2026, citing Charity Majors: \"Disposable code is here to stay, but durable code is what runs the world.\"" >}}
+{{< figure src="images/blog/2026/pycon-us-2026-amanda-casari-keynote.png" alt="Amanda Casari delivers the closing keynote at PyCon US 2026 beside a slide that reads Disposable Code Is Here to Stay, but Durable Code Is What Runs the World, attributed to Charity Majors." caption="Amanda Casari's closing keynote at PyCon US 2026, citing Charity Majors: 'Disposable code is here to stay, but durable code is what runs the world.'" >}}
 
 That framing landed differently after a week of conversations about
 reviewer burden and contributor pipelines and token consumption

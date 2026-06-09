@@ -7,6 +7,7 @@ excerpt: Our fourth PyCon US sprint grew from a single contributor in Salt Lake 
   to ~20 people in Long Beach. Co-sprinting with Hatch, welcoming beginners, and a
   new Portuguese packaging guide translation show where this community is headed.
 author: Leah Wasser
+blog_topic: community
 toc: true
 comments: true
 url: "/blog/pycon-us-2026-sprints.html"
@@ -17,8 +18,8 @@ image:
     during the pyOpenSci sprint. Laptops show code editors and project pages, with
     purple conference lanyards, charging cables, water bottles, and coffee cups spread
     across the table.
-blog_topic: community
 ---
+
 *This post is Part 3 of a 4-part series on pyOpenSci at PyCon US 2026. [Part 1](/blog/pycon-us-2026-community-connection.html) covers community and connection. [Part 2](/blog/pycon-us-2026-maintainers-summit.html) covers the Maintainer Summit.*
 
 This year marked our fourth sprint at [PyCon US](https://us.pycon.org/2026/). If you want to really understand what pyOpenSci is about, our sprints are the place to look.
@@ -53,7 +54,7 @@ Starting a Portuguese translation of our packaging guide means our resources wil
 
 What an incredible full circle moment!
 
-{{< figure src="images/blog/2026/pycon-us-2026-sprint-mentorship.png" alt="At the pyOpenSci translation table during PyCon US 2026 in Long Beach, Felipe Moreno leans over a laptop to help sprinters add Portuguese translations to the packaging guide while other volunteers work at the same round table." caption="The translation table at PyCon US 2026. <a href=\"https://github.com/flpm\">Felipe Moreno</a> (in the middle) set up the translation infrastructure in 2024 at a sprint. Here Felipe is helping sprinters add Portuguese translations to our packaging guide! Felipe is both a pyOpenSci maintainer and one of the many long-time pyOpenSci contributors and volunteers who help make our supportive and welcoming sprints possible. This is the heart of pyOpenSci." >}}
+{{< figure src="images/blog/2026/pycon-us-2026-sprint-mentorship.png" alt="At the pyOpenSci translation table during PyCon US 2026 in Long Beach, Felipe Moreno leans over a laptop to help sprinters add Portuguese translations to the packaging guide while other volunteers work at the same round table." caption="The translation table at PyCon US 2026. <a href='https://github.com/flpm'>Felipe Moreno</a> (in the middle) set up the translation infrastructure in 2024 at a sprint. Here Felipe is helping sprinters add Portuguese translations to our packaging guide! Felipe is both a pyOpenSci maintainer and one of the many long-time pyOpenSci contributors and volunteers who help make our supportive and welcoming sprints possible. This is the heart of pyOpenSci." >}}
 
 ## Co-sprinting with Hatch
 

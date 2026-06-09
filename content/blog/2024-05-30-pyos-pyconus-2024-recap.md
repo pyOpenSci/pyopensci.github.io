@@ -1,25 +1,29 @@
 ---
 title: pyOpenSci at PyCon US 2024 - Python packaging and community
-date: 2024-05-30
+date: '2024-05-30'
 type: blog
-url: "/blog/recap-pyos-pyconus-2024.html"
 excerpt: Learn about  pyOpenSci's experience at PyCon US 2024, how pyOpenSci is making
   Python packaging more accessible and beginner friendly and how the Python community
   is helping us get there.
 author: Leah Wasser
+blog_topic: community
+toc: true
+comments: true
+url: "/blog/recap-pyos-pyconus-2024.html"
+lastmod: '2024-08-29'
 image:
   src: images/blog/headers/pycon-us-2024-header.png
   alt: pyOpenSci at PyCon US 2024 - Python packaging and community
-toc: true
-comments: true
-lastmod: 2024-08-29
-blog_topic: community
 ---
-{{< admonition type="note" title="TL;DR" >}}
+
+<div class="notice" markdown = "1">
+## TL;DR
+
 * pyOpenSci had a strong presence at [PyCon US](https://us.pycon.org/2024/) this year. I hope this continues for years to come! We held an open space, helped run the [Maintainers Summit](https://us.pycon.org/2024/events/maintainers-summit/) (lead by [Inessa Pawson](https://github.com/InessaPawson) for 5 years and counting), gave [a talk on Python packaging](https://us.pycon.org/2024/schedule/presentation/34/) and ran a 1 day sprint where over 16 people contributed to our efforts.
 * pyOpenSci’s theme this year for PyConUS was people first: people first when trying to make technical concepts easier to understand, people first when trying to write good tutorials or documentation and people first when you are trying to solve the world’s hardest problems.
 * Giving a talk on packaging at pyConUS triggered every ounce of the imposter in me. But in the end it was a rewarding experience. Having friends in the audience made a world of difference. It was calming to focus on people who I know support both me and this vibrant organization. Friends really should never let friends…package…or use Python…or do anything technical…alone.
-{{< /admonition >}}
+
+</div>
 
 ## Another year, another incredible PyCon
 
@@ -30,7 +34,7 @@ reproducible** so they can tackle the world's greatest challenges.
 
 PyCon US, run by the [Python Software
 Foundation,](https://www.python.org/psf-landing/) is one of the biggest Python meetings in the world, with a record 2,700 registrations this year.
-
+{: .notice }
 
 I also knew that I'd get to see a bunch of the friends who I met last year. I was returning to
 this inclusive community, filled with Pythonistas like me
@@ -40,10 +44,7 @@ And...thanks to our incredible Community Manager,
 [Jesse (@kiersi on GitHub)](https://github.com/kiersi), we now have
 a [pyOpenSci](https://www.pyopensci.org) visual brand -- and stickers galore.
 
-<figure>
-  <img src="/images/blog/2024/may/juno-stickers.png" alt="Image of a flat coated retriever chewing on a stick with a bunch of pyOpenSci stickers in front of her cut face. " style="width: 70%;" />
-  <figcaption><i class="fa-solid fa-heart-pulse"></i> My rescue pup Juno prefers sticks, but also loves pyOpenSci <i class="fa-solid fa-heart-pulse"></i>.</figcaption>
-</figure>
+{{< figure src="images/blog/2024/may/juno-stickers.png" alt="Image of a flat coated retriever chewing on a stick with a bunch of pyOpenSci stickers in front of her cut face. ' style='width: 70%;" caption="<i class='fa-solid fa-heart-pulse'></i> My rescue pup Juno prefers sticks, but also loves pyOpenSci <i class='fa-solid fa-heart-pulse'></i>." >}}
 
 ### So different from last year
 
@@ -71,18 +72,13 @@ tech support, and even an “escort” from the speaker room to the main stage. 
 
 You can check it out on youtube below:
 
-{% include video id="oA6-f7PtTQ4" provider="youtube" %}
-
 Speaking of friends, it was my friends who got me through this talk. I saw them sitting in
 the front rows, smiling and supporting me. They both empowered me and gave me calm.
 
 As someone who often battles imposter syndrome, giving a talk on the "big" stage of a tech meeting
 was unforgettable.
 
-<figure>
-  <img src="/images/blog/2024/may/leah-talking-pyconus-2024.jpg" alt="Image of a woman on a big stage wearing a red tank top talking. On the side is a slide that says pyOpenSci - Save the Date. Open science fall festival september 28-29 2024" style="width: 70%;" />
-  <figcaption><i class="fa-solid fa-heart-pulse"></i> Me talking on the stage! I was so nervous before but once I got up there, everything calmed in my mind.  <i class="fa-solid fa-heart-pulse"></i>.</figcaption>
-</figure>
+{{< figure src="images/blog/2024/may/leah-talking-pyconus-2024.jpg" alt="Image of a woman on a big stage wearing a red tank top talking. On the side is a slide that says pyOpenSci - Save the Date. Open science fall festival september 28-29 2024' style='width: 70%;" caption="<i class='fa-solid fa-heart-pulse'></i> Me talking on the stage! I was so nervous before but once I got up there, everything calmed in my mind. <i class='fa-solid fa-heart-pulse'></i>." >}}
 
 ### A talk about making Python packaging more beginner friendly
 
@@ -102,10 +98,7 @@ fundamental concepts, and
 * avoid “Too Many Options and Opinions” (TMO) to keep things simple
 for beginners.
 
-<figure>
-  <img src="/images/blog/2024/may/pyopensci-too-many-python-packaging-options-pycon-talk-2024.png" alt="A cute image of a black flat coated retriever laying on the floor with a purple ice pack on it's head looking right at you." />
-  <figcaption>Whether it's too many options or too many opinions, TMO will push beginner users away. Too many options create cognitive load that prevent users from having successful experiences.</figcaption>
-</figure>
+{{< figure src="images/blog/2024/may/pyopensci-too-many-python-packaging-options-pycon-talk-2024.png" alt="A cute image of a black flat coated retriever laying on the floor with a purple ice pack on it's head looking right at you." caption="Whether it's too many options or too many opinions, TMO will push beginner users away. Too many options create cognitive load that prevent users from having successful experiences." >}}
 
 <!-- [I break this all down in more detail here if you want to read more.](#addlink) -->
 
@@ -143,8 +136,6 @@ Working alongside Inessa Pawson, Kara Sowles and Chris Rose who are all also roc
 experience. Despite some logistical challenges, like the summit filling up
 quickly and a waitlist, the event was a success. Next year (if we are invited back), will be even better as we try to open the doors to include aspiring maintainers and contributors!
 
-{% include video id="L-Ok_89QJOM" provider="youtube" %}
-
 Also if you were wondering, yes that Monstera Deliciosa (plant) in the background is real! AND YES it is ginormous! <i class="fa-solid fa-leaf"></i>
 
 ## <i class="fa-solid fa-users-gear"></i> Our second pyOpenSci sprint <i class="fa-solid fa-users-gear"></i>
@@ -155,19 +146,13 @@ This year we had a tremendous turnout of over 20 people from several countries f
   <img src="/images/blog/2024/may/pycon-us-24-pyopensci-sprints-juno.png" alt="Image of the puycon us sprint board where projects signed up for different rooms." />
   <img src="/images/blog/2024/may/pycon-24-sprints-pyopensci.png" alt="Image of the puycon us sprint board where projects signed up for different rooms." />
   <figcaption>The pyConUS sprint sign-up board had lots of projects. Because the rooms are large, projects tend to share spaces. We ended up in the packaging room which was great as it allowed us to do some more difficult work around Python packages with C extensions!</figcaption>
-</figure>
-
 If you haven’t been to a sprint before, it’s an experience that every open source enthusiast should have. Sprints are where a bunch of people come together to work on a project. If you are running sprints that support software development in a professional environment (i.e. at a company) this might mean a team of people working together on releasing a new software feature. But for the open source community, sprints can also mean volunteers coming to a space to help maintainers work on various parts of a project that they care about - like pyOpenSci!
 
 pyOpenSci supports other people's software through it's [open community-lead peer review process](https://www.pyopensci.org/about-peer-review/index.html) and it's online, free [packaging resources](https://www.pyopensci.org/python-package-guide/). But it also has it's own software too. We have tools that help us keep track of our review process and volunteer contributions so we can acknowledge everyone for their effort.
 
 Acknowledging contributions is so so so (did I mention SO?) important. And we value them so much.
 
-<figure>
-  <img src="/images/blog/2024/may/pycon-24-sprints-table-pyopensci.png" alt="Image of a round table of people talking and working at computers during our sprints." />
-
-  <figcaption>We had people working at multiple tables on pyOpenSci issues. A handful of people worked through our Create Your First Python Package tutorials and provided input and found issues! Included in this image is Jeremiah Paige who is making our packaging guide so much better by adding actual package examples (including on that has C extensions!) using Hatch! </figcaption>
-</figure>
+{{< figure src="images/blog/2024/may/pycon-24-sprints-table-pyopensci.png" alt="Image of a round table of people talking and working at computers during our sprints." caption="We had people working at multiple tables on pyOpenSci issues. A handful of people worked through our Create Your First Python Package tutorials and provided input and found issues! Included in this image is Jeremiah Paige who is making our packaging guide so much better by adding actual package examples (including on that has C extensions!) using Hatch!" >}}
 
 ### How to run a sprint
 
@@ -181,10 +166,7 @@ While I cherish times when I have bandwidth to work on technical things, it’s 
 
 ## <i class="fa-solid fa-user-group"></i> Our first pyOpenSci PyCon Open Space <i class="fa-solid fa-user-group"></i>
 
-<figure>
-  <img src="/images/blog/2024/may/pyconus-2024-pyopensci-openspace.png" alt="Image showing a room with round tables and people working at each table most of who have laptops sitting in front of them." style="width: 100%;" />
-  <figcaption>I was new to leading open spaces but learned a lot for next year. We had 3 tables of people talking about different science related pain points in the Python ecosystem.</figcaption>
-</figure>
+{{< figure src="images/blog/2024/may/pyconus-2024-pyopensci-openspace.png" alt="Image showing a room with round tables and people working at each table most of who have laptops sitting in front of them.' style='width: 100%;" caption="I was new to leading open spaces but learned a lot for next year. We had 3 tables of people talking about different science related pain points in the Python ecosystem." >}}
 
 This year, we ran our first pyOpenSci Open Space, bringing together 17 attendees
 from organizations like Anaconda, NVIDIA, CPython, PyPA, Million Concepts,
@@ -228,10 +210,7 @@ A few other highlights for me included meeting Ofek, the maintainer of [Hatch](h
 
 ## <i class="fa-brands fa-python"></i> Wrap up
 
-<figure>
-  <img src="/images/blog/2024/may/pyopensci-pyconus-2024-juno-thankyou.png" alt="Image of Juno a black dog that looks like a flat coated retriever border collie mix with the PyCon US swag thank you bag and a pyOpenSci sticker on it with the name Leah Wasser Maintainers Summit." style="width: 60%;" />
-  <figcaption>Image of Juno my pup with my PyConUS thank you gifts. PyCon provides letters and gifts for people who either give talks or lead / organize events. This year I did both and got a pint glass to remember it all - #rescuedogapproved. </figcaption>
-</figure>
+{{< figure src="images/blog/2024/may/pyopensci-pyconus-2024-juno-thankyou.png" alt="Image of Juno a black dog that looks like a flat coated retriever border collie mix with the PyCon US swag thank you bag and a pyOpenSci sticker on it with the name Leah Wasser Maintainers Summit.' style='width: 60%;" caption="Image of Juno my pup with my PyConUS thank you gifts. PyCon provides letters and gifts for people who either give talks or lead / organize events. This year I did both and got a pint glass to remember it all - #rescuedogapproved." >}}
 
 I left pyCon US 2024 overwhelmed by the support that pyOpenSci received. People at pyCon generally care a lot and are invested in making scientists' experience in the Python ecosystem better. I also needed a week to recover. I am an introvert by nature so even the best days of interacting with friends makes me tired!
 

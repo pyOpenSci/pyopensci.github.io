@@ -1,18 +1,17 @@
 ---
 title: 'Big Changes for pyOpenSci: an update from the new Executive Director, Leah
   Wasser'
-date: 2022-09-10
+date: '2022-09-10'
 type: blog
-url: "/blog/new-executive-director-leah-wasser.html"
 excerpt: pyOpenSci has recently transitioned to a fiscal sponsor and has a new executive
   director - Leah Wasser. Learn more about our goals over the next few years and how
   to get involved with the community.
 author: Leah Wasser
-tags:
-- updates
-comments: true
 blog_topic: updates
+comments: true
+url: "/blog/new-executive-director-leah-wasser.html"
 ---
+
 ## pyOpenSci is now an independent community organization
 
 I am thrilled to announce that pyOpenSci is now a fiscally sponsored project of

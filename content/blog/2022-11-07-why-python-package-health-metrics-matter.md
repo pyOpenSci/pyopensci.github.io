@@ -1,23 +1,22 @@
 ---
 title: Why Python package health metrics are a priority for pyOpenSci and other open
   source communities
-date: 2022-11-07
+date: '2022-11-07'
 type: blog
-url: "/blog/why-python-package-health-metrics-matter.html"
 excerpt: Collecting baseline data that aligns with the goals and outcomes of your
   project, program or organization is critical to do at the beginning. Here I briefly
   explain why Python package health metrics are so important to the long-term success
   of pyOpenSci.
 author: Leah Wasser
-tags:
-- highlight
-- peer-review
+blog_topic: software
 toc: false
 comments: true
-lastmod: 2024-08-29
-blog_topic: software
+url: "/blog/why-python-package-health-metrics-matter.html"
+lastmod: '2024-08-29'
 ---
-{{< admonition type="note" title="Part 2/3: Blog series on package health" >}}
+
+<div class="notice" markdown="1">
+## Part 2/3: Blog series on package health
 This blog is the second in a 3 part series. [In the previous blog post,](/blog/why-python-open-source-software-matters-for-scientists.html)
 I discussed why the health of (Python) open source
 packages should matter to you as a scientist (and as a person who values and
@@ -29,7 +28,7 @@ around the free and open source Python packages that you use.](/blog/what-makes-
 
 NOTE: all of this is in the context of a conversation on Twitter. It is not a
 comprehensive perspective on the final metrics that pyOpenSci plans to collect.
-{{< /admonition >}}
+</div>
 
 ## Metrics are critical to the development of any program
 
@@ -85,7 +84,7 @@ health over time, I went to Twitter to see what my colleagues around the world
 had to say. That conversation resulted in some really interesting insights.
 
 [In my next blog post, I will summarize the discussion that happened on twitter.](/blog/what-makes-open-source-python-package-healthy.html)
-
+{: .notice }
 
 Most importantly, it allowed me to begin to break down and group metrics in
 terms of pyOpenSci goals.
@@ -119,7 +118,7 @@ needs to consider, I organized the conversation into four broad categories:
 These four categories, at not by any means mutually exclusive. They are merely a way
 to begin to organize an engaging and diverse conversation. All of the categories are priorities of pyOpenSci.
 
-[<i class="fas fa-hand-point-right"></i> Click here to read more about how these metric categories  evolved within the conversation on Twitter!](/blog/what-makes-open-source-python-package-healthy.html)
+[<i class="fas fa-hand-point-right"></i> Click here to read more about how these metric categories  evolved within the conversation on Twitter!](/blog/what-makes-open-source-python-package-healthy.html){: .btn .btn--info .btn--large}
 
 ## Thoughts?
 

@@ -1,25 +1,24 @@
 ---
 title: Why should Python open source package health matter to scientists? (and to
   you!)
-date: 2022-10-24
+date: '2022-10-24'
 type: blog
-url: "/blog/why-python-open-source-software-matters-for-scientists.html"
 excerpt: Free and open source software tools are the foundation for thousands if not
   millions of scientific workflows. Yet, it is rare that users fully understand it's
   importance in moving science forward. Here, I discuss the value of free and open
   source software for science; why you as a scientist should care; and what pyOpenSci
   is doing to try to support Python scientific tools for science.
 author: Leah Wasser
-tags:
-- python-packaging
-- peer-review
-- highlight
+blog_topic: software
 toc: false
 comments: true
-lastmod: 2024-08-29
-blog_topic: software
+url: "/blog/why-python-open-source-software-matters-for-scientists.html"
+lastmod: '2024-08-29'
 ---
-{{< admonition type="note" title="Part 1/3: Blog series on package health" >}}
+
+<div class="notice" markdown="1">
+## Part 1/3: Blog series on package health
+
 This blog post is part 1 of a 3 part series on open source package health.
 The series was inspired by a conversation
 held on twitter. This blog post is not a comprehensive perspective on what pyOpenSci
@@ -29,7 +28,8 @@ the conversation on twitter that we can use to inform our final metrics.
 why free and open source package metrics matter and which categories of metrics we at pyOpenSci are thinking about tracking.](/blog/why-python-package-health-metrics-matter.html)
 * [In blog 3/3, I'll recap a conversation held on
 twitter around package health metrics](/blog/what-makes-open-source-python-package-healthy.html).
-{{< /admonition >}}
+
+</div>
 
 ## Why Python open source package health should matter to you as a scientist
 
@@ -79,7 +79,7 @@ Free and open source software removes the barrier a paid license to run your cod
 There is a lot more to say about the value of open source here but i'll leave
 that to another blog post.
 
-{{< figure src="/images/foss-free-open-source-software/why-scientists-should-care-open-source.png" alt="Blue computer keyboard background with the text: why scientists should care about open source software." caption="If you are a scientist using open science approaches, your workflow likely depends upon open source tools that are critical to your work yet often unsupported." link="/images/foss-free-open-source-software/why-scientists-should-care-open-source.png" >}}
+{{< figure src="images/foss-free-open-source-software/why-scientists-should-care-open-source.png" alt="Image with a blue computer keyboard background with the text: why scientists should care about open source software on top." caption="If you are a scientist using open science approaches, then your workflow likely depends upon open source tools. These tools are critical to our work and yet are often not supported or consider as integral components of open science." >}}
 
 ## Creating and maintaining open source software is hard work
 
@@ -117,9 +117,7 @@ want to consider when building pyOpenSci.
 
 Before I say anything else here:
 
-{{< pullquote color="teal" >}}
-Please — cite software in your work if you use it! And if you need to report a bug, please do so in a kind and thoughtful way.
-{{< /pullquote >}}
+> Please - cite software in your work if you use it! And also if you need to report a bug, please do so in a kind and thoughtful way!
 
 Maintainers work hard on their packages. One package may be the foundation for
 data processing and analysis across hundreds to thousands (or more) scientific
@@ -132,7 +130,7 @@ maintain it? What happens when you need to update your workflow to support a pap
 build upon it for another analysis if that tool no longer
 is maintained?
 
-{{< figure src="/images/foss-free-open-source-software/orphan-python-open-source-packages.png" alt="Illustration with text: orphan python packages are breaking my open workflows." caption="Your workflow likely depends on tools developed by volunteers. Supporting these tools is critical to open science. Source: meme by Leah Wasser." link="/images/foss-free-open-source-software/orphan-python-open-source-packages.png" >}}
+{{< figure src="images/foss-free-open-source-software/orphan-python-open-source-packages.png" alt="Image showing girl crying with text orphan python packages are breaking my open workflows." caption="Your workflow likely depends upon tools that are being developed by volunteers. Supporting these tools is critical to supporting open science. And open science is critical to accelerating scientific discovery Source: Meme created by yours truly. :)" >}}
 
 This, my friend, is why you should care about, and support, open source software!
 
@@ -141,7 +139,7 @@ This, my friend, is why you should care about, and support, open source software
 The issues discussed above around maintenance, usability and quality of software,
 are the types of issues that pyOpenSci will address.
 
-{{< figure src="/images/foss-free-open-source-software/xkcd-open-source-dependency.png" alt="XKCD comic showing a large structure representing a scientific workflow balanced on a small block maintained by one person." caption="Critical scientific workflows often depend on packages maintained by a single volunteer. Source: XKCD." link="/images/foss-free-open-source-software/xkcd-open-source-dependency.png" >}}
+{{< figure src="images/foss-free-open-source-software/xkcd-open-source-dependency.png" alt="Image showing xkcd comic with a robotic type of image representing a scientific workflow and pointing to the small open source package maintained by one person that is a major dependency of the workflow." caption="Critical scientific workflows and projects often have dependencies that are maintained by volunteers. Source: XKCD" >}}
 
 But we (pyOpenSci) need to track package use, and maintenance, collect data and
 quantify outcomes to determine if we are making the impact that we want to. To
@@ -173,9 +171,7 @@ And hopefully, through our review process and support of
 maintainers, we will help to improve the overall quality of packages being created
 to support scientific workflows.
 
-{{< pullquote color="purple" >}}
-We want to help the community.
-{{< /pullquote >}}
+> We want to help the community.
 
 
 ## How pyOpenSci hopes to improve the usability and quality of smaller open source software packages that support science
@@ -235,7 +231,7 @@ efforts that determine metrics and customize them to our needs.
 
 This blog post is part 1 of a 3-part series.
 
-{{< button href="/blog/what-makes-open-source-python-package-healthy.html" variant="primary" icon="arrow-right" iconPosition="right" >}}Read part 2/3: why package metrics matter{{< /button >}}
+[<i class="fas fa-hand-point-right"></i> Click here to proceed to the part 2/3, where I discuss why free and open source package metrics matter.](/blog/what-makes-open-source-python-package-healthy.html){: .btn .btn--info .btn--large}
 
 In the [final post of this three part blog series](/blog/what-makes-open-source-python-package-healthy.html), I'll recap a conversation held on
 twitter around package health metrics. This conversation will be used to define the

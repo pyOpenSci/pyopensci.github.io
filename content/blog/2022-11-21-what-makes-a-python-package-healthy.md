@@ -1,21 +1,21 @@
 ---
 title: What Makes a Python Open Source Package Healthy? A Conversation on Twitter.
-date: 2022-11-21
+date: '2022-11-21'
 type: blog
-url: "/blog/what-makes-open-source-python-package-healthy.html"
 excerpt: How should pyOpenSci measure Python open source package health and level
   of maintenance and usability? Here I summarize a conversation held on twitter around
   this very topic. Feedback is welcome!
 author: Leah Wasser
-tags:
-- highlight
-- peer-review
+blog_topic: software
 toc: false
 comments: true
-lastmod: 2024-08-29
-blog_topic: software
+url: "/blog/what-makes-open-source-python-package-healthy.html"
+lastmod: '2024-08-29'
 ---
-{{< admonition type="note" title="Part 3/3: Blog series on package health" >}}
+
+<div class="notice" markdown="1">
+## Part 3/3: Blog series on package health
+
 This blog post is part 3 of a 3 part series on open source package health.
 The series was inspired by a conversation
 held on twitter. This blog post is not a comprehensive perspective on what pyOpenSci
@@ -29,7 +29,8 @@ the conversation on twitter that we can use to inform our final metrics.
 In this post, I'll summarize a conversation that was held on twitter that gaged
 what the community thought about metrics to track the health of scientific
 Python open source packages.
-{{< /admonition >}}
+
+</div>
 
 ## Packages and open source software, a few terms to clarify
 
@@ -58,31 +59,23 @@ More specifically, pyOpenSci is interested in the health of packages that
 support science. So we may need to build upon existing
 efforts that have determined what metrics to use to quantify package health and customize them to our needs.
 
-{{< admonition type="note" title="A note about our pyOpenSci packages" >}}
+<div class="notice" markdown="1">
+### A note about our pyOpenSci packages
+
 pyOpenSci does not focus on foundational scientific Python packages like Xarray
 Dask, or Pandas. Those packages are stable and already have a large user base
 and maintenance team. Rather we focus on packages that are higher up in the
 ecosystem. These packages tend to have smaller user bases, and smaller maintainer
 teams (or often are maintained by one volunteer person).
 
-<figure>
-    <a href="/images/python-packaging/python-ecosystem-jake-vanderploss-pycon-2017.png"><img src="/images/python-packaging/python-ecosystem-jake-vanderploss-pycon-2017.png" alt="Image used by Jake Vanderploss in the 2017 pycon conference that shows
-    the ecosystem of scientific python packages starting with foundational packages
-    and moving out to the wealth of smaller, domain specific packages."></a>
-    <figcaption>Image used by Jake Vanderploss in the 2017 pycon conference that shows
-    the ecosystem of scientific python packages starting with foundational packages
-    and moving out to the wealth of smaller, domain specific packages. pyOpenSci
-    focuses on the packages that are higher up in the ecosystem that often could
-    benefit from more support.
-    </figcaption>
-</figure>
+{{< figure src="images/python-packaging/python-ecosystem-jake-vanderploss-pycon-2017.png" alt="Image used by Jake Vanderploss in the 2017 pycon conference that shows the ecosystem of scientific python packages starting with foundational packages and moving out to the wealth of smaller, domain specific packages." caption="Image used by Jake Vanderploss in the 2017 pycon conference that shows the ecosystem of scientific python packages starting with foundational packages and moving out to the wealth of smaller, domain specific packages. pyOpenSci focuses on the packages that are higher up in the ecosystem that often could benefit from more support." >}}
 
 Our package maintainers:
 
 - Often don't have the resources to build community
 - Often are keen to build their user base and to contribute
 to the broader scientific python ecosystem.
-{{< /admonition >}}
+</div>
 
 ## Existing efforts on health metrics: Chaoss project and the Software Sustainability Institute (neil)
 
@@ -119,19 +112,11 @@ Below are some of the metrics that you can easily access via Snyk's website.
 
 #### [Pandera python package metrics on Snyk](https://snyk.io/advisor/python/pandera)
 
-<figure>
-    <a href="/images/pyopensci-packages/snyk-pandera-python-package-metrics.png"><img src="/images/pyopensci-packages/snyk-pandera-python-package-metrics.png" alt="Image showing the metrics from the Snyk website for the `pandera` package in our ecosystem."></a>
-    <figcaption>Here you can see what a Snyk report looks like for pandera, a package accepted into our ecosystem a few years ago. Pandera gets a very healthy report because it's heavily used among other metrics.
-    </figcaption>
-</figure>
+{{< figure src="images/pyopensci-packages/snyk-pandera-python-package-metrics.png" alt="Image showing the metrics from the Snyk website for the `pandera` package in our ecosystem." caption="Here you can see what a Snyk report looks like for pandera, a package accepted into our ecosystem a few years ago. Pandera gets a very healthy report because it's heavily used among other metrics." >}}
 
 #### Now let's look at [pyGMT package statistics on Snyk](https://snyk.io/advisor/python/pygmt)
 
-<figure>
-    <a href="/images/pyopensci-packages/snyk-pygmt-python-package-metrics.png"><img src="/images/pyopensci-packages/snyk-pygmt-python-package-metrics.png" alt="Image showing the metrics from the snyk website for the pyGMT package in our ecosystem."></a>
-    <figcaption>In comparison to pandera, pyGMT gets a lower, but still good, health score. I suspect this is due to lower community adoption and use. pyGMT is a much newer package. We'd argue however that pyGMT has a very healthy level of maintenance and even healthier package structure.
-    </figcaption>
-</figure>
+{{< figure src="images/pyopensci-packages/snyk-pygmt-python-package-metrics.png" alt="Image showing the metrics from the snyk website for the pyGMT package in our ecosystem." caption="In comparison to pandera, pyGMT gets a lower, but still good, health score. I suspect this is due to lower community adoption and use. pyGMT is a much newer package. We'd argue however that pyGMT has a very healthy level of maintenance and even healthier package structure." >}}
 
 And of course the [scientific Python project has also been tracking the larger packages](https://devstats.scientific-python.org/):
 
@@ -178,7 +163,7 @@ buckets:
 These three buckets are all priorities of pyOpenSci.
 
 <i class="far fa-sticky-note"></i> DEIA is another critical concern for pyOpenSci but I won't discuss that in this blog post.
-
+{: .notice }
 
 ## Infrastructure in a Python open source GitHub repository as a measure of package health
 
@@ -189,7 +174,7 @@ repository that support its use. I know that no bucket is perfectly isolated
 from the others but i'm taking a stab at this here.
 
 <i class="fas fa-info-circle"></i> The code for many open source software packages can be found on [GitHub](https://www.github.com). GitHub is a free-to-use website that runs `git` which is a version control system. Version control allows developers to track historical changes to code and files. As a platform built on top of git, GitHub allows developers to communicate openly, review new code changes and update content in a structured way.
-
+{: .notice }
 
 ### What does GitHub (and Ivan) think about health checks for Python open source software?
 
@@ -212,8 +197,6 @@ Note that we are missing some important components:
 - Pull request templates to guide people through opening pull requests
 - Repository admins accepting content reporting
 
-{% include figure image_path="/images/python-software-health/healthy-software-repo-file-checks-github.png" alt="Image showing the community standards page in GitHub. You can see in the image we are missing several critical files including  a code of conduct file, a contributing file that helps people understand how to contribute to the guide and issue and pull request templates." caption="Here you can see the community page in GitHub for our contributing-guide repository. Note that we are missing several important items in the repo including a code of conduct file, a contributing file that helps people understand how to contribute to the guide and issue and pull request templates. HELP!" %}
-
 > Um.... we've got some real work to do, y'all on our guides and repos. We need to set a better example here don't we? We welcome help welcome if you are reading this and wanna contribute. Just sayin...
 
 ### GitHub bare minimum requirements are a great start!
@@ -229,7 +212,7 @@ Looking at these checks more closely you can begin to think about different cate
 of checks that broadly look at package usability (readme, description), community engagement (code of conduct,
 templates), etc.
 
-{{< admonition type="note" >}}
+<div class="notice" markdown="1">
 The GitHub list includes:
 
 - Description
@@ -238,7 +221,8 @@ The GitHub list includes:
 - License (OSI approved)
 - Issue templates (great for community building)
 - Pull request templates
-{{< /admonition >}}
+
+</div>
 
 #### These checks are great but don't look at content and quality
 
@@ -280,11 +264,7 @@ links and other potential errors.
 
 In fact the website that you are on [RIGHT NOW has a set of checks that run to test links](https://github.com/pyOpenSci/pyopensci.github.io/actions) throughout the site and to check for alt tags in support of accessibility (Alt tags support people using screen readers to navigate a website).
 
-<figure>
-    <a href="/images/python-software-health/html-proofer-pyopensci-website-checks.png"><img src="/images/python-software-health/html-proofer-pyopensci-website-checks.png" alt="Image showing the output of htmlproofer for a website. You can see that it tells you when and where there are broken links or missing alt tags."></a>
-    <figcaption>Notice in this output from htmlproofer on GitHub actions (continuous integration) that every page with a broken link or image with a missing alt tag will be flagged. Any flags will result in a broken build on GitHub - the dreaded red x.
-    </figcaption>
-</figure>
+{{< figure src="images/python-software-health/html-proofer-pyopensci-website-checks.png" alt="Image showing the output of htmlproofer for a website. You can see that it tells you when and where there are broken links or missing alt tags." caption="Notice in this output from htmlproofer on GitHub actions (continuous integration) that every page with a broken link or image with a missing alt tag will be flagged. Any flags will result in a broken build on GitHub - the dreaded red x." >}}
 
 ### Infrastructure: Is it easily installable?
 
@@ -368,8 +348,6 @@ items that they look for:
 1. Frequency of merged commits
 2. [Bus factor](https://www.michaelbromley.co.uk/blog/but-what-about-the-bus-factor/)
 3. Release cadence (a topic brought up a few times throughout the discussion)
-
-{% include figure image_path="/images/python-software-health/bus-factor-python-package-health.png" alt="Funny meme image showing a bus being wrecked by a train with the text - bus factor isn't about buses." caption="Bus factor refers to the degree of risk associated with a package based on the number of maintainers and organizations supporting it." %}
 
 Remember, _bus factor_ has nothing to do with buses, but there is some truth to the
 analogy of what happens when the wheels fall off.

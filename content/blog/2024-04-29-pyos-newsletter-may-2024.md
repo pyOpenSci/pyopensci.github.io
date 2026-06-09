@@ -1,29 +1,23 @@
 ---
 title: 'pyOpenSci Newsletter: May 2024'
-date: 2024-04-29
+date: '2024-04-29'
 type: blog
-url: "/blog/pyos-newsletter-may-2024.html"
 excerpt: May has brought two new packages, the first (of many!) pyOpenSci workshops,
   all things pyOpenSci and PyCon, and several incredible speaking opportunities. Read
   on to learn more!
 author: Jesse Mostipak
+blog_topic: updates
 toc: true
 comments: true
-lastmod: 2024-08-29
-blog_topic: updates
+url: "/blog/pyos-newsletter-may-2024.html"
+lastmod: '2024-08-29'
 ---
+
 ## <i class="fa-solid fa-seedling"></i> Spring is in the Air
 For those of us in the Northern Hemisphere, spring seems to have finally sprung. It’s a lovely time of year, filled with growth, opportunity, and new beginnings. And for all of us here in the pyOpenSci it’s brought new packages, new opportunities, and new projects that we can’t wait to share with you!
 
 ## <i class="fa-solid fa-chalkboard-user"></i> pyOpenSci’s first workshop was a success!
-<figure>
-    <a href="/images/blog/2024/may/april-workshop.png">
-    <img src="/images/blog/2024/may/april-workshop.png" style="max-width:100%" alt="Purple line art of a robot standing in a field of solid purple flowers. The text reads 'Build Your First Python Package! a live, online workshop with pyOpenSci. Thursday, April 25th, 2024.">
-    </a>
-    <figcaption>
-      Thank you to everyone who made our first workshop such a fun experience!
-    </figcaption>
-</figure>
+{{< figure src="images/blog/2024/may/april-workshop.png" alt="Purple line art of a robot standing in a field of solid purple flowers. The text reads 'Build Your First Python Package! a live, online workshop with pyOpenSci. Thursday, April 25th, 2024." caption="Thank you to everyone who made our first workshop such a fun experience!" >}}
 On Thursday, April 25th, pyOpenSci held its first-ever workshop, titled: [Build Your First Python Package!](https://www.eventbrite.com/e/build-your-first-python-package-tickets-879586546037). With eight countries represented, we had 28 learners create and install their first Python package using [Hatch](https://hatch.pypa.io/latest/), all in the course of three hours.
 
 This workshop was the first of many online educational events that we plan on hosting, and was a great opportunity for us to put [our educational philosophy](https://www.pyopensci.org/blog/pyos-education-announcement.html) into practice. All of the pyOpenSci educational materials are community-developed and go through extensive technical and pedagogical review. While the workshop will *not* be available as a recording, the written content is available on the [Learn section of our website](https://www.pyopensci.org/learn.html), where you’ll find resources such as our [Python Packaging Tutorial](https://www.pyopensci.org/python-package-guide/tutorials/intro.html#), as well as in-depth guides on [Python packaging](https://www.pyopensci.org/python-package-guide/package-structure-code/intro.html), [documentation](https://www.pyopensci.org/python-package-guide/documentation/index.html), and [testing](https://www.pyopensci.org/python-package-guide/tests/index.html).
@@ -42,14 +36,7 @@ If you’d like to learn more about rdata, we recommend [this guest blog post](h
 Interested in writing a guest blog post for pyOpenSci? Reach out to [media@pyopensci.org](mailto:media@pyopensci.org) to get started! We’re always looking for volunteers to write about all things open source and open science, whether that’s a package you’ve created or something new you’ve learned in Python, or anything in between!
 
 ## <i class="fa-regular fa-handshake"></i> Welcome, ZodiPy
-<figure>
-    <a href="/images/blog/2024/may/zodipy.png">
-    <img src="/images/blog/2024/may/zodipy.png" style="max-width:100%" alt="Screenshot of the ZodiPy GitHub repository, showing the ZodiPy logo and simulated data output.">
-    </a>
-    <figcaption>
-      Welcome, ZodiPy! We're so happy you're here.
-    </figcaption>
-</figure>
+{{< figure src="images/blog/2024/may/zodipy.png" alt="Screenshot of the ZodiPy GitHub repository, showing the ZodiPy logo and simulated data output." caption="Welcome, ZodiPy! We're so happy you're here." >}}
 
 [ZodiPy](https://github.com/Cosmoglobe/zodipy) is an open source, [Astropy affiliated](https://www.astropy.org/affiliated/), Python tool for simulating the zodiacal emission that a solar system observer is predicted to see given an interplanetary dust model. ZodiPy attempts to make zodiacal emission simulations more accessible by providing the community with a simple interface to existing models, and is also a new member of the pyOpenSci community!
 

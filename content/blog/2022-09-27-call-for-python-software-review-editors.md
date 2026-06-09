@@ -1,18 +1,16 @@
 ---
 title: pyOpenSci Editorial Process - New Editor in Chief and a Call For Editors
-date: 2022-09-27
+date: '2022-09-27'
 type: blog
-url: "/blog/python-software-review-process-editor-in-chief.html"
 excerpt: pyOpenSci is developing its open peer review process for Python scientific
   software. Learn about our structure and if you are interested, apply to be on our
   editorial board.
 author: Leah Wasser
-tags:
-- updates
-- highlight
-comments: true
 blog_topic: software
+comments: true
+url: "/blog/python-software-review-process-editor-in-chief.html"
 ---
+
 ## An update on pyOpenSci's review process
 
 Hey there! I just wanted to update everyone about where pyOpenSci is with
@@ -61,7 +59,7 @@ You can read more about the [roles and responsibilities of an editor here](https
 We currently have a package in the queue that is spatial / remote sensing related
 that we'd love to have an editor onboard to review. But we are in need of editors
 from other domain backgrounds too.
-
+{: .notice }
 
 ### What background do I need to be an editor for pyOpenSci?
 
@@ -84,7 +82,7 @@ having a range of junior and senior editors.
 To sign up to be considered as an editor for pyOpenSci, please fill out the
 form below:
 
-[Click here to apply to be an editor <i class="fa fa-4 fa-arrow-circle-right" aria-hidden="true"></i>](https://forms.gle/YH4kTeDFoYjDtefh7)
+[Click here to apply to be an editor <i class="fa fa-4 fa-arrow-circle-right" aria-hidden="true"></i>](https://forms.gle/YH4kTeDFoYjDtefh7){: .btn .btn--info .btn--large}
 
 ## Questions?
 If you have any questions, please reach out to me at leah at pyopensci.org or on
