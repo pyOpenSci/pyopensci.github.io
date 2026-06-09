@@ -1,7 +1,10 @@
 ---
 title: Learn, Connect, and Grow with Us
 description: >-
-  pyOpenSci runs training, sprints, and community events to help  you build better open source software, code and workflows.
+  pyOpenSci runs training, sprints, and community events to help you build
+  better open source software, code and workflows.
+header:
+  overlay_image: images/blog/headers/pycon-us-2026-header.png
 aliases:
   - /events.html
 cards:
@@ -17,7 +20,7 @@ cards:
       alt: Hands-on pyOpenSci workshop session
     excerpt: >-
       We offer hands-on training sessions online on topics spanning Python packaging, software development and maintenance and contributing to open source software. We use spatial chat for highly interactive online sessions
-      and run cohort based asyncronous courses that span multiple days to muliple weeks that support structured learning at
+      and run cohort based asynchronous courses that span multiple days to multiple weeks that support structured learning at
       your own pace and on your own time supported by expert instructors to answer questions.
   - modifier: card--white
     title: Beginner-friendly sprints

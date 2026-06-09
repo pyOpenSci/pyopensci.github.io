@@ -1,10 +1,5 @@
 {{ define "main" }}
-<section class="blog-hero">
-  <div class="container">
-    <h1>{{ .Title }}</h1>
-    {{ with .Description }}<p class="events-list__intro">{{ . }}</p>{{ end }}
-  </div>
-</section>
+{{ partial "section-hero.html" . }}
 
 {{ $today := now.Format "2006-01-02" }}
 {{ $past := slice }}

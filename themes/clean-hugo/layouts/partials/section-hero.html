@@ -1,0 +1,14 @@
+{{/*
+  Section listing hero — shared by blog and events index pages.
+  Expects .Params.header.overlay_image, .Title, .Description.
+*/}}
+{{ $headerImg := .Params.header.overlay_image | default "" }}
+<section
+  class="blog-hero{{ if $headerImg }} blog-hero--overlay{{ end }}"
+  {{ with $headerImg }}style="background-image: url('{{ . | relURL }}');"{{ end }}
+>
+  <div class="container">
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p class="blog-hero__lead">{{ . }}</p>{{ end }}
+  </div>
+</section>

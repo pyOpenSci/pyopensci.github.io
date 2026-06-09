@@ -1,14 +1,5 @@
 {{ define "main" }}
-{{ $headerImg := .Params.header.overlay_image | default "" }}
-<section
-  class="blog-hero{{ if $headerImg }} blog-hero--overlay{{ end }}"
-  {{ with $headerImg }}style="background-image: url('{{ . | relURL }}');"{{ end }}
->
-  <div class="container">
-    <h1>{{ .Title }}</h1>
-    {{ with .Description }}<p class="blog-hero__lead">{{ . }}</p>{{ end }}
-  </div>
-</section>
+{{ partial "section-hero.html" . }}
 
 <div class="blog-index" data-blog-filter-root>
 <section class="blog-grid">
