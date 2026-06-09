@@ -27,10 +27,28 @@
   }
 
   &--overlay {
+    min-height: 11rem;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-color: var(--color-primary-dark);
+
+    @media (min-width: $breakpoint-md) {
+      min-height: 13rem;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(20, 13, 36, 0.55);
+      pointer-events: none;
+    }
+
+    > .container {
+      position: relative;
+      z-index: 1;
+    }
   }
 }
 
