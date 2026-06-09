@@ -1,0 +1,13 @@
+{{/*
+  Blog topic label lookup
+
+  Parameters:
+  - "." (context): Blog post page object
+
+  Returns dict: slug, label
+*/}}
+{{ $slug := .Params.blog_topic | default "community" }}
+{{ $topics := site.Data.blog_topics | default dict }}
+{{ $entry := index $topics $slug }}
+{{ $label := $entry.label | default ($slug | humanize) }}
+{{ return (dict "slug" $slug "label" $label) }}

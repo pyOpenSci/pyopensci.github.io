@@ -1,77 +1,24 @@
 /**
- * Blog Category Filter Functionality
- * Handles filtering blog posts by category
+ * Blog category filter — scoped to [data-blog-filter-root]
  */
 (function() {
   'use strict';
 
-  function initBlogFilter() {
-    const filterButtons = document.querySelectorAll('.blog-grid__filter-btn');
-    const allPosts = document.querySelectorAll('[data-category]');
-    const featuredSection = document.querySelector('.blog-grid__featured');
-    const gridSection = document.querySelector('.blog-grid__posts');
+  const HIDDEN_ITEM = 'blog-filter-hidden';
+  const HIDDEN_SECTION = 'blog-filter-section-hidden';
 
-    // Early return if no filters or posts
-    if (filterButtons.length === 0 || allPosts.length === 0) {
-      return;
+  function sectionHasVisibleItems(section, category) {
+    if (!section) {
+      return false;
     }
 
-    filterButtons.forEach(button => {
-      button.addEventListener('click', function(e) {
-        e.preventDefault();
-        e.stopPropagation();
-        const category = this.getAttribute('data-category');
-
-        // Update active button - all buttons always stay visible
-        filterButtons.forEach(btn => {
-          btn.classList.remove('active');
-          btn.setAttribute('aria-pressed', 'false');
-        });
-        this.classList.add('active');
-        this.setAttribute('aria-pressed', 'true');
-
-        // Filter posts
-        allPosts.forEach(post => {
-          const postCategory = post.getAttribute('data-category') || '';
-
-          if (category === 'all' || postCategory === category) {
-            post.style.display = '';
-          } else {
-            post.style.display = 'none';
-          }
-        });
-
-        // Show/hide sections if they have no visible posts
-        if (featuredSection) {
-          const featuredPosts = featuredSection.querySelectorAll('[data-category]');
-          const hasVisibleFeatured = Array.from(featuredPosts).some(post => {
-            const postCategory = post.getAttribute('data-category') || '';
-            return (category === 'all' || postCategory === category) && post.style.display !== 'none';
-          });
-          featuredSection.style.display = hasVisibleFeatured ? '' : 'none';
-        }
-
-        if (gridSection) {
-          const gridPosts = gridSection.querySelectorAll('[data-category]');
-          const hasVisibleGrid = Array.from(gridPosts).some(post => {
-            const postCategory = post.getAttribute('data-category') || '';
-            return (category === 'all' || postCategory === category) && post.style.display !== 'none';
-          });
-          gridSection.style.display = hasVisibleGrid ? '' : 'none';
-        }
-
-        // Announce filter change to screen readers
-        const categoryName = category === 'all' ? 'all categories' : category;
-        announceFilterChange(categoryName);
-      });
+    return Array.from(section.querySelectorAll('.blog-filter-item')).some((item) => {
+      const itemCategory = item.getAttribute('data-category') || '';
+      return category === 'all' || itemCategory === category;
     });
   }
 
-  /**
-   * Announce filter change to screen readers
-   */
   function announceFilterChange(category) {
-    // Create or get live region
     let liveRegion = document.getElementById('blog-filter-announcement');
     if (!liveRegion) {
       liveRegion = document.createElement('div');
@@ -80,15 +27,67 @@
       liveRegion.setAttribute('aria-live', 'polite');
       liveRegion.setAttribute('aria-atomic', 'true');
       liveRegion.className = 'sr-only';
-      liveRegion.style.cssText = 'position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border-width: 0;';
       document.body.appendChild(liveRegion);
     }
 
-    const visibleCount = document.querySelectorAll('[data-category]:not([style*="display: none"])').length;
-    liveRegion.textContent = `Filtered to ${category}. Showing ${visibleCount} post${visibleCount !== 1 ? 's' : ''}.`;
+    const visibleCount = document.querySelectorAll(
+      '.blog-filter-item:not(.' + HIDDEN_ITEM + ')'
+    ).length;
+    const label = category === 'all' ? 'all categories' : category.replace(/-/g, ' ');
+    liveRegion.textContent = 'Filtered to ' + label + '. Showing ' + visibleCount +
+      ' post' + (visibleCount !== 1 ? 's' : '') + '.';
   }
 
-  // Initialize when DOM is ready
+  function applyFilter(root, category) {
+    const buttons = root.querySelectorAll('.filter-btn[data-category]');
+    const items = root.querySelectorAll('.blog-filter-item');
+    const featuredSection = root.querySelector('.blog-grid__featured');
+    const gridSection = root.querySelector('.blog-grid__posts');
+    const archivesSection = root.querySelector('.blog-archives');
+
+    items.forEach((item) => {
+      const itemCategory = item.getAttribute('data-category') || '';
+      const show = category === 'all' || itemCategory === category;
+      item.classList.toggle(HIDDEN_ITEM, !show);
+    });
+
+    [featuredSection, gridSection, archivesSection].forEach((section) => {
+      if (!section) {
+        return;
+      }
+      section.classList.toggle(HIDDEN_SECTION, !sectionHasVisibleItems(section, category));
+    });
+
+    announceFilterChange(category);
+  }
+
+  function initBlogFilter() {
+    document.querySelectorAll('[data-blog-filter-root]').forEach((root) => {
+      const buttons = root.querySelectorAll('.filter-btn[data-category]');
+      const items = root.querySelectorAll('.blog-filter-item');
+
+      if (buttons.length === 0 || items.length === 0) {
+        return;
+      }
+
+      root.addEventListener('click', (event) => {
+        const button = event.target.closest('.filter-btn[data-category]');
+        if (!button || !root.contains(button)) {
+          return;
+        }
+
+        event.preventDefault();
+        const category = button.getAttribute('data-category');
+
+        buttons.forEach((btn) => {
+          btn.setAttribute('aria-pressed', btn === button ? 'true' : 'false');
+        });
+
+        applyFilter(root, category);
+      });
+    });
+  }
+
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', initBlogFilter);
   } else {

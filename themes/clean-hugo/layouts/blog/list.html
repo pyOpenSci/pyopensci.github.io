@@ -6,11 +6,12 @@
   </div>
 </section>
 
+<div class="blog-index" data-blog-filter-root>
 <section class="blog-grid">
   <div class="container">
 
-    {{/* Get all blog posts */}}
-    {{ $allPosts := where .Site.RegularPages "Type" "blog" }}
+    {{/* Get all blog posts, newest first */}}
+    {{ $allPosts := sort (where .Site.RegularPages "Type" "blog") "Date" "desc" }}
 
     {{/* Separate recent posts from archive posts */}}
     {{ $recentPosts := slice }}
@@ -51,24 +52,18 @@
       {{ end }}
     {{ end }}
 
-    {{/* Get all unique categories from recent posts only (for filtering) */}}
-    {{ $categories := slice }}
-    {{ range $recentPosts }}
-      {{ with .Params.category }}
-        {{ $categories = $categories | append (slice .) }}
-      {{ end }}
-    {{ end }}
-    {{ $uniqueCategories := $categories | uniq | sort }}
-
-    {{/* Category filter */}}
-    {{ if gt (len $uniqueCategories) 0 }}
-    <div>
-      <button class="filter-btn" data-category="all" aria-pressed="true" aria-label="View all blog posts">View All</button>
-      {{ range $uniqueCategories }}
-        <button class="filter-btn" data-category="{{ . | urlize }}" aria-pressed="false" aria-label="Filter by {{ . }} category">{{ . }}</button>
+    {{/* Topic filters — fixed order from data/blog_topics.yml */}}
+    {{ $topicOrder := slice "community" "learn" "software" "updates" }}
+    {{ $topicsData := .Site.Data.blog_topics | default dict }}
+    <div class="filter-row blog-grid__filters" role="group" aria-label="Filter blog posts by topic">
+      <button type="button" class="filter-btn" data-category="all" aria-pressed="true" aria-label="View all blog posts">View All</button>
+      {{ range $topicOrder }}
+        {{ $entry := index $topicsData . }}
+        {{ if $entry }}
+        <button type="button" class="filter-btn" data-category="{{ . }}" aria-pressed="false" aria-label="Filter by {{ $entry.label }} posts">{{ $entry.label }}</button>
+        {{ end }}
       {{ end }}
     </div>
-    {{ end }}
 
     {{/* Featured section: 1 large post + sidebar posts */}}
     {{ if or $featuredPost (gt (len $sidebarPosts) 0) }}
@@ -88,20 +83,19 @@
     {{/* Remaining posts grid */}}
     {{ if gt (len $remainingPosts) 0 }}
     <div class="blog-grid__posts">
-      {{ range $remainingPosts }}
-        {{ partial "blog-card.html" (dict "." . "showExcerpt" false) }}
+      {{ range $index, $post := $remainingPosts }}
+        {{ partial "blog-card.html" (dict "." $post "modifier" "card--blog--grid" "showExcerpt" true "colorIndex" (mod $index 4)) }}
       {{ end }}
     </div>
     {{ end }}
 
-    {{ template "_internal/pagination.html" . }}
     {{ end }}
   </div>
 </section>
 
 {{/* Archives section for old posts without images */}}
 {{ partial "blog-archives.html" $archivePosts }}
+</div>
 
-{{/* Load blog filter JavaScript */}}
-<script src="{{ "js/blog-filter.js" | relURL }}" defer></script>
+<script src="{{ "js/blog-filter.js" | relURL }}"></script>
 {{ end }}

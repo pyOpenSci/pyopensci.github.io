@@ -26,7 +26,7 @@
     <!-- Title and metadata overlaid on image -->
     <div>
       <h1>{{ .Title }}</h1>
-      <p>{{ .Date.Format "Jan 2, 2006" }}{{ with .Params.category }} • {{ . }}{{ end }}</p>
+      <p>{{ .Date.Format "Jan 2, 2006" }}{{ with partial "blog-topic.html" . }}{{ with .label }} • {{ . }}{{ end }}{{ end }}</p>
     </div>
 
     <!-- Photo credit in bottom right -->
