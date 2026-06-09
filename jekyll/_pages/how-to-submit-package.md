@@ -91,7 +91,7 @@ If you are unsure if your package is in scope, [**🔗 submit a pre-submission i
 It's also a good idea to check that your package meets [**pyOpenSci’s minimum Python package requirements**](https://www.pyopensci.org/software-peer-review/how-to/editor-in-chief-guide.html#editor-checklist-template). So check that your package meets those criteria before you submit.
 The Editor in Chief will check your package against these criteria before the review begins.
 
-If you have any questions or need help getting your package up to pyOpenSci standards, we are here to help. Submit a help-request issue in our software-submission repo or ask a question in our Discourse.
+If you have any questions or need help getting your package up to pyOpenSci standards, we are here to help. Submit a help-request issue in our software-submission repo or ask a question in our [GitHub Discussions](https://github.com/orgs/pyOpenSci/discussions).
 
 <div class="notice" markdown="1">
 Our packaging guide covers the core criteria which include:

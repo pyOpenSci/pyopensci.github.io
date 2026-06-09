@@ -681,6 +681,7 @@
   packages_editor:
     - astartes
     - crowsetta
+    - fluidimage
     - pooltool
     - pypartmc
     - sunpy
@@ -757,6 +758,7 @@
   packages_eic:
     - galassify
     - galfitools
+    - tda-mapper
   packages_editor:
     - sleplet
     - xgi
@@ -834,6 +836,7 @@
   packages_eic:
     - ams
     - cynetdiff
+    - fluidimage
     - great tables
     - pooltool
     - pypartmc
@@ -2609,7 +2612,7 @@
   mastodon:
   orcidid:
   partners:
-  website: https://www.tu-braunschweig.de/en/ifp/pbb
+  website:
   board: false
   contributor_type:
     - peer-review
@@ -3593,12 +3596,14 @@
     - maintainer
     - package-maintainer
     - peer-review
+    - reviewer
     - submitting-author
   packages_eic:
   packages_editor:
   packages_submitted:
     - afscgap
   packages_reviewed:
+    - tda-mapper
   location:
   email:
 - name: Anderson Bravalheri
@@ -3944,6 +3949,7 @@
     - astrodata
     - galfitools
     - martini
+    - pyautogalaxy
     - stingray
   packages_submitted:
   packages_reviewed:
@@ -5441,6 +5447,7 @@
   packages_eic:
     - astropy
   packages_editor:
+    - tda-mapper
   packages_submitted:
   packages_reviewed:
     - eomaps
@@ -8532,6 +8539,7 @@
   packages_submitted:
   packages_reviewed:
     - galassify
+    - pyautogalaxy
   location: Omaha, NE
   email: erik@erikwhiting.com
 - name:
@@ -9022,7 +9030,7 @@
   mastodon:
   orcidid:
   partners:
-  website: https://lagrange.mechse.illinois.edu/mwest
+  website:
   board: false
   contributor_type:
     - maintainer
@@ -10464,6 +10472,7 @@
     - galfitools
     - greopy
     - piva
+    - pyautogalaxy
     - pymultifit
     - swiftgalaxy
   packages_editor:
@@ -10648,6 +10657,7 @@
   packages_submitted:
   packages_reviewed:
     - cynetdiff
+    - fluidimage
   location:
   email:
 - name: SQ
@@ -10818,11 +10828,14 @@
   website:
   board: false
   contributor_type:
+    - peer-review
+    - reviewer
     - web-contrib
   packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
+    - tda-mapper
   location: Stanford, CA
   email:
 - name: Jed Brown
@@ -11196,11 +11209,14 @@
   website:
   board: false
   contributor_type:
+    - maintainer
     - peer-review
     - reviewer
+    - submitting-author
   packages_eic:
   packages_editor:
   packages_submitted:
+    - pyautogalaxy
   packages_reviewed:
     - galfitools
   location: Newcastle
@@ -11256,12 +11272,14 @@
   contributor_type:
     - maintainer
     - peer-review
+    - reviewer
     - submitting-author
   packages_eic:
   packages_editor:
   packages_submitted:
     - galfitools
   packages_reviewed:
+    - pyautogalaxy
   location: Sinaloa, Mexico
   email:
 - name:
@@ -11467,4 +11485,122 @@
   packages_reviewed:
     - plenoptic
   location: France
+  email:
+- name: Leah Mendelson
+  github_username: leahmendelson
+  github_image_id: 8322733
+  title:
+  sort:
+  bio: Associate Professor of Engineering
+  organization: Harvey Mudd College
+  date_added: '2026-05-04'
+  deia_advisory: false
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - fluidimage
+  location: Claremont, CA
+  email: lmendelson@g.hmc.edu
+- name:
+  github_username: emmylia321
+  github_image_id: 168062638
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2026-05-04'
+  deia_advisory: false
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - fluidimage
+  location:
+  email:
+- name: Pierre Augier
+  github_username: paugier
+  github_image_id: 8842662
+  title:
+  sort:
+  bio:
+  organization: CNRS
+  date_added: '2026-05-04'
+  deia_advisory: false
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+    - submitting-author
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - fluidimage
+  packages_reviewed:
+  location:
+  email: pierre.augier@univ-grenoble-alpes.fr
+- name: Luca Simi
+  github_username: lucasimi
+  github_image_id: 45110399
+  title:
+  sort:
+  bio: Software engineer by day, math nerd by night.
+  organization:
+  date_added: '2026-05-18'
+  deia_advisory: false
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+    - submitting-author
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - tda-mapper
+  packages_reviewed:
+  location: Rome, Italy
   email:
