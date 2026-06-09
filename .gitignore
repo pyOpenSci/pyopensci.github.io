@@ -4,6 +4,7 @@ public/
 resources/
 .hugo_build.lock
 node_modules/
+node_modules/*
 jekyll/_site/
 .sass-cache/
 .jekyll-metadata
@@ -18,8 +19,8 @@ styles/*
 tmp/*
 .bundle
 **/.ipynb_checkpoints/
-node_modules/*
-.hugo_build.lock
-public/
-resources/
 .lycheecache
+
+# Local agent scripts and plans — never commit
+_law_tests/
+_law_scripts/
