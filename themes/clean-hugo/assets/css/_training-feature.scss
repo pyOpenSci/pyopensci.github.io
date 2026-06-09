@@ -1,0 +1,101 @@
+/* Reusable training / promo strip (Params.training_feature + shortcode). */
+
+.training-feature {
+  margin-bottom: $spacing-section-lg;
+
+  @media (min-width: $breakpoint-md) {
+    margin-bottom: 3rem;
+  }
+
+  &__card {
+    display: grid;
+    gap: $fluid-space-md;
+    align-items: center;
+    padding: $fluid-card-padding-md;
+    border-radius: $radius-xl;
+    background-color: color-mix(in srgb, var(--color-primary-light) 55%, var(--color-white));
+    border: 1px solid color-mix(in srgb, var(--color-primary-dark) 12%, transparent);
+
+    @media (min-width: $breakpoint-md) {
+      grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+      gap: $fluid-space-lg;
+      padding: $fluid-card-padding-lg;
+    }
+  }
+
+  &__content {
+    min-width: 0;
+  }
+
+  &__eyebrow {
+    margin: 0 0 0.5rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--color-primary-dark);
+  }
+
+  &__badge {
+    margin: 0 0 0.75rem;
+  }
+
+  &__badge-pill {
+    display: inline-block;
+    padding: 0.25rem 0.65rem;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    color: var(--color-gray-700);
+    background-color: var(--color-gray-200);
+    border-radius: $radius-full;
+  }
+
+  &__title {
+    margin: 0 0 0.75rem;
+    @include responsive(font-size, 1.5rem, 1.875rem, 2rem);
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--color-primary-dark);
+  }
+
+  &__excerpt {
+    margin: 0 0 1rem;
+    @include responsive(font-size, 1rem, 1.0625rem);
+    line-height: 1.55;
+    color: var(--color-gray-700);
+
+    p {
+      margin: 0 0 0.5rem;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  &__actions {
+    margin: 0;
+    padding-top: 0.25rem;
+  }
+
+  &__media {
+    min-width: 0;
+    justify-self: center;
+    width: 100%;
+    max-width: 22rem;
+
+    @media (min-width: $breakpoint-md) {
+      max-width: none;
+      justify-self: end;
+    }
+  }
+
+  &__image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: $radius-lg;
+    object-fit: cover;
+    box-shadow: $shadow-md;
+  }
+}
