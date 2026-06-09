@@ -36,7 +36,7 @@ buildFuture = true
   [params.nav_logo]
     src = 'images/logo.png'
     alt = 'pyOpenSci logo: a purple flower opening over the O in Open, representing open science.'
-  blog_title = 'Blog'
+  blog_title = 'pyOpenSci Blog'
   description = 'pyOpenSci broadens participation in scientific open source.'
 
   [params.seo]

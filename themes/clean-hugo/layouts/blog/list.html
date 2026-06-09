@@ -1,8 +1,12 @@
 {{ define "main" }}
-<!-- Blog header with teal background -->
-<section class="blog-hero">
+{{ $headerImg := .Params.header.overlay_image | default "" }}
+<section
+  class="blog-hero{{ if $headerImg }} blog-hero--overlay{{ end }}"
+  {{ with $headerImg }}style="background-image: url('{{ . | relURL }}');"{{ end }}
+>
   <div class="container">
-    <h1>{{ .Site.Params.blog_title | default "Latest Articles" }}</h1>
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p class="blog-hero__lead">{{ . }}</p>{{ end }}
   </div>
 </section>
 
