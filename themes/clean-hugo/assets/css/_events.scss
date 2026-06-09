@@ -63,36 +63,14 @@
   justify-content: flex-start;
 }
 
-/* Past events: shared .blog-archives + .highlight-grid; denser grid (4 cols) + ~80% scale */
+/* Event archive bands reuse .blog-archives + .listing-card--blog-archive from _blog.scss */
 .events-past-archives {
   margin-top: 0;
-  padding: 1.75rem 0 2.25rem;
+}
 
-  > .container > div:first-child {
-    margin-bottom: 1.125rem;
-
-    h2 {
-      font-size: clamp(1.125rem, 2.5vw, 1.35rem);
-      font-weight: 700;
-    }
-  }
-
-  .highlight-grid {
-    gap: 0.65rem;
-
-    @media (min-width: $breakpoint-md) {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-
-    @media (min-width: $breakpoint-lg) {
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-    }
-
-    @media (min-width: $breakpoint-xl) {
-      grid-template-columns: repeat(4, minmax(0, 1fr));
-    }
-  }
-
+.events-upcoming-archives .events-list__kicker-amp,
+.events-past-archives .events-list__kicker-amp {
+  letter-spacing: 0.08em;
 }
 
 /* Event type pill — colors from hugo.toml CSS variables */
@@ -140,13 +118,14 @@
     flex-direction: column;
     height: 100%;
     min-height: 12rem;
+    padding: 0;
+    overflow: hidden;
     text-decoration: none;
     color: inherit;
     border-radius: $radius-md;
     background-color: var(--color-white);
     box-shadow: $shadow-sm;
     border: 1px solid var(--color-gray-200);
-    padding: 1.25rem 1.35rem;
     transition: box-shadow $transition-base ease-in-out, transform $transition-base ease-in-out;
 
     &:hover {
@@ -160,12 +139,36 @@
   }
 }
 
+.event-card__featured-image {
+  margin: 0;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform $transition-base ease-out;
+  }
+}
+
+.event-card--featured:hover .event-card__featured-image img {
+  transform: scale(1.03);
+}
+
 .event-card__featured-inner {
   display: flex;
   flex-direction: column;
   height: 100%;
   gap: 0.65rem;
   min-height: 0;
+  padding: 1.25rem 1.35rem;
+  flex: 1 1 auto;
+}
+
+.event-card--featured:not(.event-card--with-image) > a {
+  padding: 1.25rem 1.35rem;
 }
 
 .event-card__featured-top {

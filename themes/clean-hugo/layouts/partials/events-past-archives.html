@@ -17,28 +17,41 @@
         {{ $start := time $e.start_date }}
         {{ $kind := lower (urlize ($e.event_type | default "")) }}
         {{ $typeLabel := index $typeLabels $kind }}
-        <article class="listing-card listing-card--on-light listing-card--density-compact">
-          <div class="meta">
-            <time datetime="{{ $e.start_date }}">{{ $start.Format "Jan 2, 2006" }}</time>
-            {{ if $typeLabel }}
-              <span class="category">{{ $typeLabel }}</span>
-            {{ else }}
-              <span class="category">Event</span>
-            {{ end }}
-          </div>
+        {{ $img := partial "get-image.html" (dict "image" .Params.image "fallbackAlt" .Title "page" .) }}
+        <article class="listing-card listing-card--on-light listing-card--density-compact{{ if $img.exists }} listing-card--with-image{{ end }}">
+          {{ if $img.exists }}
+            <figure class="listing-card__image">
+              <a href="{{ .Permalink }}" tabindex="-1" aria-hidden="true">
+                <img src="{{ $img.src }}" alt="{{ $img.alt }}" loading="lazy" decoding="async" />
+              </a>
+            </figure>
+          {{ end }}
 
-          <div class="content">
-            <h3>
-              <a href="{{ .Permalink }}">{{ .Title }}</a>
-            </h3>
+          <div class="listing-card__body">
+            <div class="meta">
+              <time datetime="{{ $e.start_date }}">
+                {{ partial "event-date-display.html" (dict "event" $e) }}
+              </time>
+              {{ if $typeLabel }}
+                <span class="category">{{ $typeLabel }}</span>
+              {{ else }}
+                <span class="category">Event</span>
+              {{ end }}
+            </div>
 
-            <p class="excerpt">
-              {{ partial "blog-excerpt.html" (dict "." . "length" 200) }}
-            </p>
+            <div class="content">
+              <h3>
+                <a href="{{ .Permalink }}">{{ .Title }}</a>
+              </h3>
 
-            <a href="{{ .Permalink }}" class="read-more">
-              Read more <i class="fas fa-arrow-right"></i>
-            </a>
+              <p class="excerpt">
+                {{ partial "blog-excerpt.html" (dict "." . "length" 200) }}
+              </p>
+
+              <a href="{{ .Permalink }}" class="read-more">
+                Read more <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
           </div>
         </article>
       {{ end }}
