@@ -15,11 +15,12 @@
 
     <div class="highlight-grid">
       {{ range $archivePosts }}
-        <article class="listing-card listing-card--on-light listing-card--density-default">
+        {{ $topic := partial "blog-topic.html" . }}
+        <article class="listing-card listing-card--blog-archive listing-card--density-default blog-filter-item" data-category="{{ $topic.slug }}">
           <div class="meta">
             <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
-            {{ with .Params.category }}
-              <span class="category">{{ . }}</span>
+            {{ if $topic.label }}
+              <span class="category">{{ $topic.label }}</span>
             {{ end }}
           </div>
 
