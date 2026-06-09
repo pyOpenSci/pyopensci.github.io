@@ -26,7 +26,7 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      gap: 0.2rem 0.4rem;
+      gap: $spacing-sm;
       margin: 0;
       padding: 0;
       list-style: none;
@@ -34,33 +34,59 @@
 
     li {
       display: inline-flex;
-      padding: 0.3rem 0;
-      font-size: 1rem;
     }
+  }
 
-    a {
-      padding-right: 0.625rem;
-      font-weight: 700;
-      color: rgba(255, 255, 255, 0.9);
-      text-decoration: none;
-      white-space: nowrap;
-
-      &:hover {
-        color: var(--color-white);
-        text-decoration: underline;
-      }
-
-      &:focus-visible {
-        outline: 2px solid var(--color-white);
-        outline-offset: 2px;
-        border-radius: $radius-sm;
-      }
-    }
+  &__social-link {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.75rem;
+    height: 2.75rem;
+    text-decoration: none;
+    border-radius: $radius-md;
+    transition: color $transition-base;
 
     i {
-      font-size: 0.75em;
-      margin-right: 0.3em;
-      color: rgba(255, 255, 255, 0.85);
+      font-size: 1.75rem;
+      color: color-mix(in srgb, var(--color-white) 42%, var(--color-soft-purple));
+      transition: color $transition-base;
+    }
+
+    &:hover i,
+    &:focus-visible i {
+      color: color-mix(in srgb, var(--color-white) 92%, var(--color-light-purple));
+    }
+
+    &[data-tooltip]::after {
+      content: attr(data-tooltip);
+      position: absolute;
+      bottom: calc(100% + 0.35rem);
+      left: 50%;
+      transform: translateX(-50%);
+      padding: 0.2rem 0.5rem;
+      font-family: 'Poppins', 'Nunito Sans', 'ui-sans-serif', 'system-ui', sans-serif;
+      font-size: 0.7rem;
+      font-weight: 600;
+      line-height: 1.2;
+      white-space: nowrap;
+      color: var(--color-white);
+      background-color: color-mix(in srgb, var(--color-brand-purple) 75%, black);
+      border-radius: $radius-sm;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity $transition-fast;
+    }
+
+    &:hover::after,
+    &:focus-visible::after {
+      opacity: 1;
+    }
+
+    &:focus-visible {
+      outline: 2px solid var(--color-white);
+      outline-offset: 2px;
     }
   }
 
@@ -70,24 +96,31 @@
     margin: 0 auto;
     padding: $spacing-sm;
     text-align: left;
+    line-height: 1.35;
 
     p {
       margin: 0 0 0.5em;
-      color: rgba(255, 255, 255, 0.9);
+      color: rgba(255, 255, 255, 0.82);
     }
+  }
 
-    a {
-      color: rgba(255, 255, 255, 0.9);
-      text-decoration: none;
+  &__mission {
+    font-size: 0.85rem;
+    line-height: 1.4;
+  }
 
-      &:hover {
-        color: var(--color-white);
-        text-decoration: underline;
-      }
+  &__copyright a {
+    color: rgba(255, 255, 255, 0.82);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--color-white);
+      text-decoration: underline;
     }
   }
 
   &__copy {
     margin: 0;
+    font-size: 0.68rem;
   }
 }
