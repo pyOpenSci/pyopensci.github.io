@@ -1,15 +1,36 @@
 /* Blog card styles are found in  _cards.scss */
 .blog-hero {
-  padding: 2rem 0;
-  margin-bottom: 3rem;
+  position: relative;
+  padding: $spacing-xl 0;
+  margin-bottom: $spacing-lg;
   background-color: var(--color-primary-dark);
 
   @media (min-width: $breakpoint-md) {
-    padding: 3rem 0;
+    padding: $spacing-xl 0;
   }
 
   > .container h1 {
+    margin: 0;
     color: var(--color-white);
+    font-weight: 700;
+    line-height: 1.1;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  &__lead {
+    color: rgba(255, 255, 255, 0.92);
+    font-size: 1.125rem;
+    line-height: 1.5;
+    max-width: 42rem;
+    margin: $spacing-sm 0 0;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  &--overlay {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--color-primary-dark);
   }
 }
 
