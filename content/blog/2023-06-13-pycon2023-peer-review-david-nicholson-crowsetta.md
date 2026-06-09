@@ -1,21 +1,24 @@
 ---
-title: "Sorry This Talk Doesn't Have any ChatGPT in It: pyOpenSci peer review of Crowsetta "
+title: 'Sorry This Talk Doesn''t Have any ChatGPT in It: pyOpenSci peer review of
+  Crowsetta '
 date: 2023-06-13
 type: blog
-url: /blog/pycon2023-crowsetta-peer-review.html
-excerpt: "David Nicholson gave a lightning talk about his experience going through the pyOpenSci peer review process with his Python package called Crowsetta. Learn more about the people involved in peer review and watch the 5 minute video here."
-author: "Leah Wasser"
-category: Community
+url: "/blog/pycon2023-crowsetta-peer-review.html"
+excerpt: David Nicholson gave a lightning talk about his experience going through
+  the pyOpenSci peer review process with his Python package called Crowsetta. Learn
+  more about the people involved in peer review and watch the 5 minute video here.
+author: Leah Wasser
 tags:
-  - highlight
+- highlight
 image:
   src: images/blog/headers/david-nicholson-2023-header.png
-  alt: "Sorry This Talk Doesn't Have any ChatGPT in It: pyOpenSci peer review of Crowsetta "
+  alt: 'Sorry This Talk Doesn''t Have any ChatGPT in It: pyOpenSci peer review of
+    Crowsetta '
 toc: false
 comments: true
 lastmod: 2024-08-29
+blog_topic: software
 ---
-
 # pyCon 2023 US -David Nicholson Lightning Talk on pyOpenSci Peer Review
 
 David Nicholson, our pyOpenSci Editor in Chief, gave a fantastic lightning talk this year at [pyCon US 2023](https://us.pycon.org/2023/). This year's pyCon was held in Salt Lake City, Utah in April. David braved the expansive keynote room stage - talking to a gigantic room full of Pythonistas. He spoke about his experience going through our scientific Python software peer review process.

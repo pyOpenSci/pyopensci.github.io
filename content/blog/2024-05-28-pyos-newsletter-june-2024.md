@@ -1,19 +1,19 @@
 ---
-title: "pyOpenSci Newsletter: June 2024"
+title: 'pyOpenSci Newsletter: June 2024'
 date: 2024-05-28
 type: blog
-url: /blog/pyos-newsletter-june-2024.html
-excerpt: "We're starting June with a record number of Python package submissions, a call for editors, a PyCon US reflection, and some SciPy meeting news!"
-author: "Jesse Mostipak"
-category: Community
+url: "/blog/pyos-newsletter-june-2024.html"
+excerpt: We're starting June with a record number of Python package submissions, a
+  call for editors, a PyCon US reflection, and some SciPy meeting news!
+author: Jesse Mostipak
 image:
   src: images/headers/scipy-2024-workshop.png
-  alt: "pyOpenSci Newsletter: June 2024"
+  alt: 'pyOpenSci Newsletter: June 2024'
 toc: true
 comments: true
 lastmod: 2024-08-29
+blog_topic: updates
 ---
-
 ## <i class="fa-regular fa-comments"></i> PyCon was incredible!
 We feel so incredibly fortunate to have connected with so many of you at PyCon US! While we're still recovering from a week of summits, talks, and sprints, we wanted to share this sentiment from our Executive Director and Founder, [Leah Wasser](https://github.com/lwasser), which she shared on [her Fosstodon account](https://fosstodon.org/@leahawasser):
 <figure>

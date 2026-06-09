@@ -1,19 +1,20 @@
 ---
-title: "Shark Attacks and Open Science - pyOpenSci @ SciPy 2023 Meeting"
+title: Shark Attacks and Open Science - pyOpenSci @ SciPy 2023 Meeting
 date: 2023-07-18
 type: blog
-url: /blog/scipy-2023-community.html
-excerpt: "The SciPy 2023 meeting did not disappoint this year. We have a whole new group of contributors helping to build this vibrant and diverse Python open science community. Learn about my experience there."
-author: "Leah Wasser"
-category: Community
+url: "/blog/scipy-2023-community.html"
+excerpt: The SciPy 2023 meeting did not disappoint this year. We have a whole new
+  group of contributors helping to build this vibrant and diverse Python open science
+  community. Learn about my experience there.
+author: Leah Wasser
 tags:
-  - highlight
-  - talks
+- highlight
+- talks
 toc: false
 comments: true
 lastmod: 2024-08-29
+blog_topic: community
 ---
-
 ## <i class="fa-solid fa-fish-fins"></i> Shark attack - pyOpenSci at SciPy
 
 I was so excited for SciPy this year.

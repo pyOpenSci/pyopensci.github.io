@@ -7,7 +7,6 @@ excerpt: As a co-organizer of the PyCon US Maintainer Summit, Leah Wasser reflec
   on a milestone year—150+ maintainers, formal PyCon registration, new community tools,
   and roundtables on packaging, security, and generative AI.
 author: Leah Wasser
-category: Community
 toc: true
 comments: true
 url: "/blog/pycon-us-2026-maintainers-summit.html"
@@ -17,8 +16,8 @@ image:
   alt: Maintainer Summit co-organizers Leah Wasser, Inessa Pawson, and Mariatta Wijaya
     smile together for a selfie on an outdoor patio at PyCon US in Long Beach, wearing
     conference lanyards.
+blog_topic: community
 ---
-
 *This post is Part 2 of a 4-part series on pyOpenSci at PyCon US 2026. [Part 1](/blog/pycon-us-2026-community-connection.html) covers community, connection, and what comes next.*
 
 I first attended the [PyCon US Maintainer Summit](https://us.pycon.org/2026/events/maintainers-summit/) five years ago as a speaker. I'm still here — now as a co-organizer. This year felt like a milestone for many different reasons.

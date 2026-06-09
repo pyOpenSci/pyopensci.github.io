@@ -1,20 +1,24 @@
 ---
-title: "Why should Python open source package health matter to scientists? (and to you!)"
+title: Why should Python open source package health matter to scientists? (and to
+  you!)
 date: 2022-10-24
 type: blog
-url: /blog/why-python-open-source-software-matters-for-scientists.html
-excerpt: "Free and open source software tools are the foundation for thousands if not millions of scientific workflows. Yet, it is rare that users fully understand it's importance in moving science forward. Here, I discuss the value of free and open source software for science; why you as a scientist should care; and what pyOpenSci is doing to try to support Python scientific tools for science."
-author: "Leah Wasser"
-category: Open Education
+url: "/blog/why-python-open-source-software-matters-for-scientists.html"
+excerpt: Free and open source software tools are the foundation for thousands if not
+  millions of scientific workflows. Yet, it is rare that users fully understand it's
+  importance in moving science forward. Here, I discuss the value of free and open
+  source software for science; why you as a scientist should care; and what pyOpenSci
+  is doing to try to support Python scientific tools for science.
+author: Leah Wasser
 tags:
-  - python-packaging
-  - peer-review
-  - highlight
+- python-packaging
+- peer-review
+- highlight
 toc: false
 comments: true
 lastmod: 2024-08-29
+blog_topic: software
 ---
-
 {{< admonition type="note" title="Part 1/3: Blog series on package health" >}}
 This blog post is part 1 of a 3 part series on open source package health.
 The series was inspired by a conversation

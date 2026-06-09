@@ -1,19 +1,22 @@
 ---
-title: "CLOSED pyOpenSci is hiring a Communications Lead"
+title: CLOSED pyOpenSci is hiring a Communications Lead
 date: 2024-12-13
 type: blog
-url: /blog/pyopensci-job-communications.html
-excerpt: "pyOpenSci is hiring a part-time Writer and Social Media Specialist to enhance communication and engagement within the scientific Python community. This flexible, remote role involves creating social media content, newsletters, and blogs and fostering community interaction on social media to support open source and open science. Join us to make a meaningful impact on the open source ecosystem!"
-author: "Leah Wasser"
-category: Community
+url: "/blog/pyopensci-job-communications.html"
+excerpt: pyOpenSci is hiring a part-time Writer and Social Media Specialist to enhance
+  communication and engagement within the scientific Python community. This flexible,
+  remote role involves creating social media content, newsletters, and blogs and fostering
+  community interaction on social media to support open source and open science. Join
+  us to make a meaningful impact on the open source ecosystem!
+author: Leah Wasser
 image:
   src: images/headers/pyopensci-floral.png
-  alt: "CLOSED pyOpenSci is hiring a Communications Lead"
+  alt: CLOSED pyOpenSci is hiring a Communications Lead
 toc: true
 comments: true
 lastmod: 2025-05-14
+blog_topic: updates
 ---
-
 **We are no longer accepting applications for this position. Thank you for your interest.**
 
 ## CLOSED Job: writer & social media specialist

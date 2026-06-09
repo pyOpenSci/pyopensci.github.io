@@ -1,19 +1,19 @@
 ---
-title: "Volunteers needed: pyOpenSci Editorial Board"
+title: 'Volunteers needed: pyOpenSci Editorial Board'
 date: 2024-05-23
 type: blog
-url: /blog/pyos-call-for-editors-may-2024.html
-excerpt: "pyOpenSci is looking for volunteers from a wide array of scientific backgrounds to join our Editorial Board."
-author: "Jesse Mostipak"
-category: Community
+url: "/blog/pyos-call-for-editors-may-2024.html"
+excerpt: pyOpenSci is looking for volunteers from a wide array of scientific backgrounds
+  to join our Editorial Board.
+author: Jesse Mostipak
 image:
   src: images/blog/headers/call-for-editors.png
-  alt: "Volunteers needed: pyOpenSci Editorial Board"
+  alt: 'Volunteers needed: pyOpenSci Editorial Board'
 toc: true
 comments: true
 lastmod: 2024-08-29
+blog_topic: software
 ---
-
 ## Join the pyOpenSci Editorial Board
 ### We're currently in need of editors with domain expertise in climatology and/or energy, and also accepting applications from all scientific domains
 Thanks to the efforts of our incredible team of volunteers, pyOpenSci is growing! As a result, we're currently seeing a large number of package submissions to [our open peer review process](https://www.pyopensci.org/about-peer-review/index.html). In order to continue supporting scientists in the development of open source scientific software, we're looking to add volunteer editors to our Editorial Board.

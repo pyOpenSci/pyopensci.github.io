@@ -1,16 +1,15 @@
 ---
-title: "pyOpenSci Newsletter: March 2024"
+title: 'pyOpenSci Newsletter: March 2024'
 date: 2024-03-01
 type: blog
-url: /blog/pyos-newsletter-march-2024.html
-excerpt: "New partnerships, packages, and conference announcements!"
-author: "Jesse Mostipak"
-category: Community
+url: "/blog/pyos-newsletter-march-2024.html"
+excerpt: New partnerships, packages, and conference announcements!
+author: Jesse Mostipak
 toc: true
 comments: true
 lastmod: 2024-08-29
+blog_topic: updates
 ---
-
 ## <i class="fa-solid fa-rocket"></i> Welcome, AstroPy
 pyOpenSci has officially partnered with the [AstroPy Project](https://www.astropy.org/) through our [Community Partnership program](https://www.pyopensci.org/partners.html). AstroPy is a Community Python Library for Astronomy, and the AstroPy Project is a community effort to develop a single core package for Astronomy in Python, while also fostering interoperability between Python astronomy packages. We're thrilled to be partnering with the AstroPy project, and can't wait to share more!
 {{< figure src="/images/newsletter/04-2024-newsletter/peer-review-partners-process.png" alt="Three sequential arrows labeled: submit your package, Review pyOpenSci standards, and Accepted pyOpenSci + Community Affiliated. A box below Review shows Your Community Standards with a Customized review input arrow." caption="pyOpenSci adds an extra layer of community-specific review to our established open peer review process, letting domain communities vet tools without maintaining their own review processes." link="/images/newsletter/04-2024-newsletter/peer-review-partners-process.png" >}}

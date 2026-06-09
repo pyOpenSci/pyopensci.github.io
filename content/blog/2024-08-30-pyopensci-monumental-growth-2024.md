@@ -1,19 +1,20 @@
 ---
-title: "It's Been a Long Short Road: The Monumental Past 2 Years of pyOpenSci"
+title: 'It''s Been a Long Short Road: The Monumental Past 2 Years of pyOpenSci'
 date: 2024-08-30
 type: blog
-url: /blog/what-pyopensci-accomplished-with-two-years-of-funding.html
-excerpt: "Learn about what pyOpenSci has accomplished in the last two years, including the evolution of our packaging guide, the expansion of our peer review process, and the vibrant community we've built."
-author: "Leah Wasser"
-category: Community
+url: "/blog/what-pyopensci-accomplished-with-two-years-of-funding.html"
+excerpt: Learn about what pyOpenSci has accomplished in the last two years, including
+  the evolution of our packaging guide, the expansion of our peer review process,
+  and the vibrant community we've built.
+author: Leah Wasser
 image:
   src: images/blog/headers/pyos-two-years.png
-  alt: "It's Been a Long Short Road: The Monumental Past 2 Years of pyOpenSci"
+  alt: 'It''s Been a Long Short Road: The Monumental Past 2 Years of pyOpenSci'
 toc: true
 comments: true
 lastmod: 2024-09-08
+blog_topic: community
 ---
-
 ## It's been two years since I started working full-time on pyOpenSci
 
 I have been working full-time building pyOpenSci for two years now, thanks to funding from the [Sloan Foundation](https://sloan.org/) and [CZI (Chan Zuckerberg Initiative)](https://chanzuckerberg.com/). pyOpenSci has come SO FAR in two years.

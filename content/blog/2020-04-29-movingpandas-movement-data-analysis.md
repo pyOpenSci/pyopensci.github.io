@@ -1,20 +1,20 @@
 ---
-title: "MovingPandas: Data Structures and Methods for Movement Data Analysis"
+title: 'MovingPandas: Data Structures and Methods for Movement Data Analysis'
 date: 2020-04-29
 type: blog
-url: /blog/movingpandas-movement-data-analysis.html
-excerpt: "MovingPandas is an easy to use toolkit for exploring movement data that has recently passed the PyOpenSci review."
-author: "Anita Graser"
-category: Community
+url: "/blog/movingpandas-movement-data-analysis.html"
+excerpt: MovingPandas is an easy to use toolkit for exploring movement data that has
+  recently passed the PyOpenSci review.
+author: Anita Graser
 tags:
-  - pandas
-  - spatial
+- pandas
+- spatial
 image:
   src: images/blog/headers/pandas.png
-  alt: "MovingPandas: Data Structures and Methods for Movement Data Analysis"
+  alt: 'MovingPandas: Data Structures and Methods for Movement Data Analysis'
 comments: true
+blog_topic: software
 ---
-
 Movement data is everywhere: from tracking apps that record human or vehicle movement to ecologists monitoring wildlife behavior. Movement data analysis is challenging since movement data combines time series and spatial data analyses questions. Existing spatial analysis libraries, such as GeoPandas, are great at handling spatial data but they don't support moving objects.
 
 MovingPandas aims to fill the gap of missing tools for exploring movement data. It provides data structures and methods for dealing with data of moving objects. MovingPandas has been accepted by pyOpenSci as part of its ecosystem in March 2020.

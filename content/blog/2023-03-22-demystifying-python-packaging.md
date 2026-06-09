@@ -1,18 +1,19 @@
 ---
-title: "Demystifying the Python packaging ecosystem "
+title: 'Demystifying the Python packaging ecosystem '
 date: 2023-03-22
 type: blog
-url: /blog/demystifying-python-packaging.html
-excerpt: "pyOpenSci has published the packaging structure and tool section of it's guide. This chapter has been reviewed by dozens of core community members to ensure accuracy and is community-driven. "
-author: "Leah Wasser"
-category: Open Education
+url: "/blog/demystifying-python-packaging.html"
+excerpt: 'pyOpenSci has published the packaging structure and tool section of it''s
+  guide. This chapter has been reviewed by dozens of core community members to ensure
+  accuracy and is community-driven. '
+author: Leah Wasser
 tags:
-  - highlight
+- highlight
 toc: false
 comments: true
 lastmod: 2024-08-29
+blog_topic: learn
 ---
-
 ## A guide to make Python packaging easier for scientists
 
 I've spent the last few months working on creating a Python packaging guide. This guide seeks to help those creating new scientific Python packages select a packaging tool and workflow. This guide also supports the [pyOpenSci peer review process](https://www.pyopensci.org/about-peer-review/).

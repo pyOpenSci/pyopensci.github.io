@@ -1,19 +1,19 @@
 ---
-title: "A Blueprint for the Future: pyOpenSci's Sustainability Model"
+title: 'A Blueprint for the Future: pyOpenSci''s Sustainability Model'
 date: 2024-09-17
 type: blog
-url: /blog/pyopensci-funding-sustainability.html
-excerpt: "pyOpenSci is exploring various sustainability methods to supplement our valued grant funding. Learn more about what we are exploring."
-author: "Leah Wasser"
-category: Community
+url: "/blog/pyopensci-funding-sustainability.html"
+excerpt: pyOpenSci is exploring various sustainability methods to supplement our valued
+  grant funding. Learn more about what we are exploring.
+author: Leah Wasser
 image:
   src: images/blog/headers/pyopensci-sustainability.png
-  alt: "A Blueprint for the Future: pyOpenSci's Sustainability Model"
+  alt: 'A Blueprint for the Future: pyOpenSci''s Sustainability Model'
 toc: true
 comments: true
 lastmod: 2024-10-15
+blog_topic: community
 ---
-
 ## Introduction
 
 Funding is critical to the success of any nonprofit organization. In this blog post, I'll outline pyOpenSci's sustainability plan. We define sustainability as building a diverse funding "portfolio" that includes grants and internally generated revenue sources to support our mission, growth, and core activities.

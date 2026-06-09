@@ -1,19 +1,23 @@
 ---
-title: "Building Momentum for the Future: Reflections on Our First Open Science Festival Week"
+title: 'Building Momentum for the Future: Reflections on Our First Open Science Festival
+  Week'
 date: 2025-03-05
 type: blog
-url: /blog/pyopensci-reflections-fall-festival-2024.html
-excerpt: "pyOpenSci ran 6 workshops in 2024, 4 of which happened during our Fall Festival! Learn more about how the workshops went and watch the keynote talks that introduced Quarto Live, MystMarkdown and stories about reproducibility, open science and open source in this blog."
-author: "Leah Wasser"
-category: Community
+url: "/blog/pyopensci-reflections-fall-festival-2024.html"
+excerpt: pyOpenSci ran 6 workshops in 2024, 4 of which happened during our Fall Festival!
+  Learn more about how the workshops went and watch the keynote talks that introduced
+  Quarto Live, MystMarkdown and stories about reproducibility, open science and open
+  source in this blog.
+author: Leah Wasser
 image:
   src: images/headers/pyopensci-floral.png
-  alt: "Building Momentum for the Future: Reflections on Our First Open Science Festival Week"
+  alt: 'Building Momentum for the Future: Reflections on Our First Open Science Festival
+    Week'
 toc: true
 comments: true
 lastmod: 2025-03-05
+blog_topic: community
 ---
-
 ## Our inaugural fall festival was a great success!
 
 Three years ago, I envisioned an online event where our community could come together to celebrate open source and open science, share knowledge, and learn new skills. Last month, that vision became reality with pyOpenSci’s first-ever [Fall Festival, held from October 28 to November 1](/events/pyopensci-2024-fall-festival.html). The event brought together **64 participants** from over **15 countries**—a global mix of researchers, developers, educators, and Python enthusiasts.

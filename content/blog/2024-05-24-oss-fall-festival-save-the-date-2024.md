@@ -1,16 +1,16 @@
 ---
-title: "Save the Date: pyOpenSci's 2024 Open Science Fall Festival"
+title: 'Save the Date: pyOpenSci''s 2024 Open Science Fall Festival'
 date: 2024-05-24
 type: blog
-url: /blog/save-the-date-oss-fall-festival-2024.html
-excerpt: "Shake off those post-PyCon blues by adding our Open Science Fall Festival to your calendar!"
-author: "Jesse Mostipak"
-category: Community
+url: "/blog/save-the-date-oss-fall-festival-2024.html"
+excerpt: Shake off those post-PyCon blues by adding our Open Science Fall Festival
+  to your calendar!
+author: Jesse Mostipak
 toc: true
 comments: true
 lastmod: 2024-08-29
+blog_topic: community
 ---
-
 ## You're invited: pyOpenSci's Open Science Fall Festival 2024
 Happening ~~September 28--29th, 2024,~~ October 28th through November 1st, 2024, the pyOpenSci Open Science Fall Festival will be held entirely online, and be a fantastic opportunity to bring together members of the Python community that create open source, open science tools with the members of the Python community who use these tools. In building this festival, our focus is on a grassroots, community-led event with some big unconference vibes.
 

@@ -7,7 +7,6 @@ excerpt: 'pyOpenSci recently wrapped up the first cohort of Ship It: Python Pack
   from zero to a published Python package. Here''s what we built, what participants
   said, and what''s coming next.'
 author: Leah Wasser
-category: Open Education
 toc: true
 comments: true
 url: "/blog/ship-it-cohort-one.html"
@@ -16,8 +15,8 @@ image:
   src: images/landing-pages/scipy-sprint-working.png
   alt: Three people collaborating during a pyOpenSci sprint, working together on laptops
     at a conference table.
+blog_topic: learn
 ---
-
 Python packaging can be overwhelming — standards and tools evolve quickly, and the terminology is technical. To address these challenges, pyOpenSci recently launched **Ship It: Python Packaging in the Generative AI Era**. This 10-day asynchronous course connects university researchers and learners with open source experts, guiding them through the process of transforming code into a published, tested, and documented package — while weaving in a framework for using generative AI thoughtfully. The curriculum is informed by our community-driven resources, including the [pyOpenSci Python packaging guide](https://www.pyopensci.org/python-package-guide/) and our beginner-friendly [packaging tutorials](https://www.pyopensci.org/python-package-guide/tutorials/create-python-package.html).
 
 ## What is Ship It?

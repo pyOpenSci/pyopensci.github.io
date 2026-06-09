@@ -1,15 +1,15 @@
 ---
-title: "Welcome to the pyOpenSci Blog!"
+title: Welcome to the pyOpenSci Blog!
 date: 2019-10-25
 type: blog
-url: /blog/welcome-to-pyopensci/
-excerpt: "pyOpenSci is a community organization devoted to the development of robust open source Python software to support science."
-author: "Leah Wasser"
-category: Community
+url: "/blog/welcome-to-pyopensci/"
+excerpt: pyOpenSci is a community organization devoted to the development of robust
+  open source Python software to support science.
+author: Leah Wasser
 tags:
-  - updates
+- updates
+blog_topic: updates
 ---
-
 ## Welcome To PyOpenSci!
 
 This is just a short post to let everyone know that we are starting a community blog post. Here we will write about many things including:

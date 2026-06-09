@@ -1,19 +1,23 @@
 ---
-title: "From Surviving to Thriving: A Convening to Reclaim and Sustain Open Science Communities"
+title: 'From Surviving to Thriving: A Convening to Reclaim and Sustain Open Science
+  Communities'
 date: 2025-09-14
 type: blog
-url: /blog/pyopensci-surviving-to-thriving.html
-excerpt: "Building resilience in open science starts with collaboration. Learn how pyOpenSci is partnering with the Carpentries, Prereview, Open Life Sciences, and rOpenSci to reinvision how open communities can work together to share the future of open science in uncertain times."
-author: "pyopensci"
-category: Community
+url: "/blog/pyopensci-surviving-to-thriving.html"
+excerpt: Building resilience in open science starts with collaboration. Learn how
+  pyOpenSci is partnering with the Carpentries, Prereview, Open Life Sciences, and
+  rOpenSci to reinvision how open communities can work together to share the future
+  of open science in uncertain times.
+author: pyopensci
 image:
   src: images/headers/pyopensci-floral.png
-  alt: "From Surviving to Thriving: A Convening to Reclaim and Sustain Open Science Communities"
+  alt: 'From Surviving to Thriving: A Convening to Reclaim and Sustain Open Science
+    Communities'
 toc: true
 comments: true
 lastmod: 2025-09-09
+blog_topic: community
 ---
-
 *Authors: Kari L. Jordan, Erin Becker, Daniela Saderi, Vanessa Fairhurst, Patricia Herterich, Noam Ross, Yanina Bellini Saibene, Leah Wasser, Yo Yehudi*
 
 {{< figure src="images/blog/2025/waterfall-flikr.jpg" alt="A photograph of a waterfall cascading down rocks in a rich green forest setting" caption=`"Black Forest: waterfall" by *rboed* is licensed under CC BY 2.0. https://creativecommons.org/licenses/by/2.0/` >}}

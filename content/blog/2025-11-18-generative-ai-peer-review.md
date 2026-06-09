@@ -1,19 +1,21 @@
 ---
-title: "Navigating LLMs in Open Source: pyOpenSci's New Peer Review Policy"
+title: 'Navigating LLMs in Open Source: pyOpenSci''s New Peer Review Policy'
 date: 2025-11-18
 type: blog
-url: /blog/generative-ai-peer-review-policy.html
-excerpt: "Generative AI products are reducing the effort and skill necessary to generate large amounts of code. In some cases, this strains volunteer peer review programs like ours. Learn about pyOpenSci's approach to developing a Generative AI policy for our software peer review program."
-author: "pyopensci"
-category: Community
+url: "/blog/generative-ai-peer-review-policy.html"
+excerpt: Generative AI products are reducing the effort and skill necessary to generate
+  large amounts of code. In some cases, this strains volunteer peer review programs
+  like ours. Learn about pyOpenSci's approach to developing a Generative AI policy
+  for our software peer review program.
+author: pyopensci
 image:
   src: images/headers/pyopensci-floral.png
-  alt: "Navigating LLMs in Open Source: pyOpenSci's New Peer Review Policy"
+  alt: 'Navigating LLMs in Open Source: pyOpenSci''s New Peer Review Policy'
 toc: true
 comments: true
 lastmod: 2025-12-16
+blog_topic: software
 ---
-
 authors: Leah Wasser, Jed Brown, Carter Rhea, Ellie Abrahams, Carol Willing, Stefan van der Walt, Eliot Robson
 
 ## Generative AI meets scientific open source

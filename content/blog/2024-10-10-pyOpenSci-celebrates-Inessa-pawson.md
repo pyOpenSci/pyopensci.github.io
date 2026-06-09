@@ -1,19 +1,19 @@
 ---
-title: "pyOpenSci celebrates Inessa Pawson"
+title: pyOpenSci celebrates Inessa Pawson
 date: 2024-10-10
 type: blog
-url: /blog/pyopensci-celebrates-inessa-pawson.html
-excerpt: "Inessa’s leadership and dedication have profoundly shaped the open source community, from NumPy to NumFOCUS. Learn more about her contributions and impact."
-author: "Leah Wasser"
-category: Community
+url: "/blog/pyopensci-celebrates-inessa-pawson.html"
+excerpt: Inessa’s leadership and dedication have profoundly shaped the open source
+  community, from NumPy to NumFOCUS. Learn more about her contributions and impact.
+author: Leah Wasser
 image:
   src: images/headers/pyopensci-floral.png
-  alt: "pyOpenSci celebrates Inessa Pawson"
+  alt: pyOpenSci celebrates Inessa Pawson
 toc: true
 comments: true
 lastmod: 2024-12-05
+blog_topic: community
 ---
-
 # pyOpenSci Celebrates Inessa
 
 Today, I want to take a moment to celebrate a devoted pyOpenSci community member, colleague, and friend, [Inessa](https://github.com/InessaPawson/InessaPawson),

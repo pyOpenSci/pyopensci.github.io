@@ -1,16 +1,16 @@
 ---
-title: "pyOpenSci's Guide to SciPy"
+title: pyOpenSci's Guide to SciPy
 date: 2024-06-20
 type: blog
-url: /blog/pyos-guide-to-scipy-2024.html
-excerpt: "We've got another incredible conference on the horizon, and wanted to share the talks, workshops, and sprints where you can find members of the pyOpenSci community!"
-author: "Jesse Mostipak"
-category: Community
+url: "/blog/pyos-guide-to-scipy-2024.html"
+excerpt: We've got another incredible conference on the horizon, and wanted to share
+  the talks, workshops, and sprints where you can find members of the pyOpenSci community!
+author: Jesse Mostipak
 toc: true
 comments: true
 lastmod: 2024-08-29
+blog_topic: learn
 ---
-
 ## <i class="fa-regular fa-handshake"></i> See you at SciPy!
 
 [SciPy 2024](https://www.scipy2024.scipy.org/) is just around the corner. We can’t wait to see you there! We’re pulling together our pyOpenSci Guide to SciPy, similar to the guide we did for [PyCon 2024](https://www.pyopensci.org/blog/pyos-guide-to-pyconus-2024.html), and wanted to give you a preview of some of the tutorials and talks being given by pyOpenSci Community members!

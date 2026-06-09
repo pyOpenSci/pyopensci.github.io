@@ -1,14 +1,15 @@
 ---
-title: "clean-hugo theme: blog formatting and shortcode reference"
+title: 'clean-hugo theme: blog formatting and shortcode reference'
 date: 2019-01-01
 type: blog
-url: /blog/clean-hugo-blog-theme-features.html
-excerpt: "A living reference for every shortcode and formatting option available in the clean-hugo theme — figures, admonitions, pull quotes, buttons, YouTube embeds, and more."
-author: "pyopensci"
-category: Community
+url: "/blog/clean-hugo-blog-theme-features.html"
+excerpt: A living reference for every shortcode and formatting option available in
+  the clean-hugo theme — figures, admonitions, pull quotes, buttons, YouTube embeds,
+  and more.
+author: pyopensci
 toc: true
+blog_topic: community
 ---
-
 This post is a living reference for the clean-hugo theme. Every shortcode
 and content-formatting option available in the theme is demonstrated here
 with a working example and the code that produces it. Use this post to

@@ -1,19 +1,21 @@
 ---
-title: "Building Resilience: pyOpenSci in 2026"
+title: 'Building Resilience: pyOpenSci in 2026'
 date: 2026-01-22
 type: blog
-url: /blog/2026-building-resilience-together.html
-excerpt: "pyOpenSci learned a lot about resilience in 2025. As we navigate generative AIs impact on scientific open source and shifting funding landscapes, pyOpenSci is building resilience through training, sponsorship, and community-centered leadership. Learn more about our plan."
-author: "pyopensci"
-category: Community
+url: "/blog/2026-building-resilience-together.html"
+excerpt: pyOpenSci learned a lot about resilience in 2025. As we navigate generative
+  AIs impact on scientific open source and shifting funding landscapes, pyOpenSci
+  is building resilience through training, sponsorship, and community-centered leadership.
+  Learn more about our plan.
+author: pyopensci
 image:
   src: images/headers/pyopensci-floral.png
-  alt: "Building Resilience: pyOpenSci in 2026"
+  alt: 'Building Resilience: pyOpenSci in 2026'
 toc: true
 comments: true
 lastmod: 2026-01-22
+blog_topic: community
 ---
-
 ## The world has changed
 
 I'm not going to sugarcoat it—2025 was hard.

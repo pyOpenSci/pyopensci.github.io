@@ -1,19 +1,21 @@
 ---
-title: "2024: A Transformative Year for pyOpenSci"
+title: '2024: A Transformative Year for pyOpenSci'
 date: 2025-02-07
 type: blog
-url: /blog/2024-pyopensci-retrospective.html
-excerpt: "2024 was a transformative year for pyOpenSci. Through training, mentorship, and peer review, we expanded our community, created free educational resources, and empowered scientists worldwide. Here’s what we built together—and why it matters now more than ever."
-author: "Leah Wasser"
-category: Community
+url: "/blog/2024-pyopensci-retrospective.html"
+excerpt: 2024 was a transformative year for pyOpenSci. Through training, mentorship,
+  and peer review, we expanded our community, created free educational resources,
+  and empowered scientists worldwide. Here’s what we built together—and why it matters
+  now more than ever.
+author: Leah Wasser
 image:
   src: images/headers/pyopensci-floral.png
-  alt: "2024: A Transformative Year for pyOpenSci"
+  alt: '2024: A Transformative Year for pyOpenSci'
 toc: true
 comments: true
 lastmod: 2025-02-07
+blog_topic: updates
 ---
-
 ## Introduction
 
 In 2024, pyOpenSci’s vibrant community led efforts to make open source science more accessible, inclusive, and equitable for all. We empowered the broader community to create, contribute to, and discover better software through beginner-friendly [training events](https://www.pyopensci.org/events.html), [collaborative tutorials](https://www.pyopensci.org/learn.html#start-learning-beginner-friendly-python-packaging-tutorials), and [software peer review](https://www.pyopensci.org/about-peer-review/index.html).

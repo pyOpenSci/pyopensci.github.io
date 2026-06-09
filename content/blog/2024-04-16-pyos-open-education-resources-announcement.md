@@ -1,18 +1,18 @@
 ---
-title: "pyOpenSci launches open, accessible, online educational trainings for scientists"
+title: pyOpenSci launches open, accessible, online educational trainings for scientists
 date: 2024-04-16
 type: blog
-url: /blog/pyos-education-announcement.html
-excerpt: "We're excited to share information about the pyOpenSci approach to education, open education resources, and announce an upcoming workshop focused on Python packaging"
-author: "Jesse Mostipak"
-category: Community
+url: "/blog/pyos-education-announcement.html"
+excerpt: We're excited to share information about the pyOpenSci approach to education,
+  open education resources, and announce an upcoming workshop focused on Python packaging
+author: Jesse Mostipak
 tags:
-  - highlight
+- highlight
 toc: true
 comments: true
 lastmod: 2024-08-29
+blog_topic: learn
 ---
-
 ## The three petals of pyOpenSci
 <figure>
     <a href="/images/pyopensci-pillars-flower.png">

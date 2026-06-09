@@ -1,19 +1,23 @@
 ---
-title: "Succession is Success: pyOpenSci's Executive Council Transition Marks Organizational Maturity"
+title: 'Succession is Success: pyOpenSci''s Executive Council Transition Marks Organizational
+  Maturity'
 date: 2025-08-14
 type: blog
-url: /blog/pyopensci-bof-community-scipy-2025.html
-excerpt: "The Executive Council drives pyOpenSci's mission and vision. Learn more about how the council works, and about the current rotation that is happening as our board chair steps down and another member joins us marking a milestone of incredible growth for pyOpenSci."
-author: "pyopensci"
-category: Community
+url: "/blog/pyopensci-bof-community-scipy-2025.html"
+excerpt: The Executive Council drives pyOpenSci's mission and vision. Learn more about
+  how the council works, and about the current rotation that is happening as our board
+  chair steps down and another member joins us marking a milestone of incredible growth
+  for pyOpenSci.
+author: pyopensci
 image:
   src: images/headers/pyopensci-floral.png
-  alt: "Succession is Success: pyOpenSci's Executive Council Transition Marks Organizational Maturity"
+  alt: 'Succession is Success: pyOpenSci''s Executive Council Transition Marks Organizational
+    Maturity'
 toc: true
 comments: true
 lastmod: 2025-08-05
+blog_topic: community
 ---
-
 When an organization successfully navigates its first leadership transition, it's a milestone worth celebrating. It demonstrates that the structures, processes, and culture you've built are strong enough to endure beyond any single individual. We've seen these transitions happening in our [Editorial Board](https://www.pyopensci.org/handbook/governance/structure.html#peer-review-editorial-board) over the past 3 years. Today, we're proud to announce pyOpenSci's first [Executive Council](https://www.pyopensci.org/handbook/governance/executive-council.html#pyopensci-executive-council) transition—a sign of our organization's growth and maturity.
 
 <figure>

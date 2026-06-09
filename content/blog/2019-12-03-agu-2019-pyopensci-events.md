@@ -1,15 +1,15 @@
 ---
-title: "PyOpenSci at AGU 2019: Join Us"
+title: 'PyOpenSci at AGU 2019: Join Us'
 date: 2019-12-03
 type: blog
-url: /blog/pyopensci-at-agu-2019-python.html
-excerpt: "Several pyOpenSci and Open Source Software events will occur at AGU 2019. Come learn more about open source Python tools for science."
-author: "Leah Wasser"
-category: Community
+url: "/blog/pyopensci-at-agu-2019-python.html"
+excerpt: Several pyOpenSci and Open Source Software events will occur at AGU 2019.
+  Come learn more about open source Python tools for science.
+author: Leah Wasser
 tags:
-  - updates
+- updates
+blog_topic: community
 ---
-
 Hey all! I'm a part of the pyOpenSci Leadership team and Director of the Earth Analytics Education Initiative at Earth Lab, University of
 Colorado, Boulder. There are several open source software events that you may
 want to consider if you plan to be at AGU 2019 this year in San Francisco.

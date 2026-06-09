@@ -1,19 +1,20 @@
 ---
-title: "My First Time Attending PyCon - A Tale of Sprints and Python Packaging"
+title: My First Time Attending PyCon - A Tale of Sprints and Python Packaging
 date: 2023-06-14
 type: blog
-url: /blog/pycon-2023-packaging-presentation-sprints-leah-wasser.html
-excerpt: "This year I attended by first PyCon US meeting representing pyOpenSci. In this blog I talk about my experience, highlighting the sprints we lead and talks on packaging."
-author: "Leah Wasser"
-category: Open Education
+url: "/blog/pycon-2023-packaging-presentation-sprints-leah-wasser.html"
+excerpt: This year I attended by first PyCon US meeting representing pyOpenSci. In
+  this blog I talk about my experience, highlighting the sprints we lead and talks
+  on packaging.
+author: Leah Wasser
 tags:
-  - highlight
-  - talks
+- highlight
+- talks
 toc: false
 comments: true
 lastmod: 2024-08-29
+blog_topic: learn
 ---
-
 ## How it all went down - PyCON US 2023, Salt Lake City, Utah
 
 This year was my first time attending pyCon US! I was intimidated to attend such

@@ -1,16 +1,16 @@
 ---
-title: "CZI Funds pyOpenSci"
+title: CZI Funds pyOpenSci
 date: 2024-01-03
 type: blog
-url: /blog/czi-funds-pyOpenSci-2024.html
-excerpt: "CZI has received funding from the Chan Zuckerberg Foundation. Learn more about how this funding will support pyOpenSci over the next 2 years."
-author: "Leah Wasser"
-category: Community
+url: "/blog/czi-funds-pyOpenSci-2024.html"
+excerpt: CZI has received funding from the Chan Zuckerberg Foundation. Learn more
+  about how this funding will support pyOpenSci over the next 2 years.
+author: Leah Wasser
 toc: true
 comments: true
 lastmod: 2024-08-29
+blog_topic: community
 ---
-
 ## A bright 2024 is ahead for pyOpenSci
 
 We are thrilled to announce that pyOpenSci has received 2 years of funding to cover core operations from the [Chan Zuckerberg Initiative (CZI)](https://chanzuckerberg.com/). These CZI funds will be used to continue critical pyOpenSci work that:
