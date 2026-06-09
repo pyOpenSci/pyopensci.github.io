@@ -32,10 +32,11 @@ There is no `static/scss/` folder. All authored styles live under
 
 ### `assets/css/` — main styling (SCSS)
 
-* Entry file: `themes/clean-hugo/assets/css/main.scss`
+* Entry file: `themes/clean-hugo/assets/css/site.scss` (see **Jekyll coexistence**
+  below — normally this would be `main.scss`)
 * Partials: `_footer.scss`, `_blog.scss`, `_events.scss`, etc.
 * Hugo compiles this at **build time** (local `hugo server` or Netlify).
-* Output goes to `public/css/main.min.<hash>.css` — never commit that file.
+* Output goes to `public/css/site.min.<hash>.css` — never commit that file.
 
 ### `static/css/syntax.css` — code highlighting only
 
@@ -54,7 +55,7 @@ Defined in `themes/clean-hugo/layouts/_default/baseof.html`:
 2. **Main stylesheet** — Hugo Pipes pipeline:
 
    ```go
-   {{ $styles := resources.Get "css/main.scss" | toCSS | postCSS | minify | fingerprint }}
+   {{ $styles := resources.Get "css/site.scss" | toCSS | postCSS | minify | fingerprint }}
    ```
 
    Steps: SCSS → CSS → PostCSS (autoprefixer) → minify → fingerprinted URL.
@@ -66,7 +67,7 @@ not used by Jekyll.
 
 ## SCSS file map
 
-`main.scss` imports partials in this order (simplified):
+`site.scss` imports partials in this order (simplified):
 
 | Partial | Purpose |
 |---------|---------|
@@ -74,7 +75,7 @@ not used by Jekyll.
 | `_mixins.scss` | Shared SCSS mixins |
 | `_buttons.scss` | Button tiers |
 | `_utilities.scss` | Skip links, a11y helpers |
-| *(base rules in main.scss)* | Box-sizing, body, headings |
+| *(base rules in site.scss)* | Box-sizing, body, headings |
 | `_navigation.scss` | Header, nav, mobile menu |
 | `_content.scss` | Prose / page content |
 | `_blog.scss` | Single post layout |
@@ -101,7 +102,7 @@ colors there for site-wide brand updates.
 **SCSS variables** — in `_variables.scss` (`$spacing-md`, `$breakpoint-lg`,
 etc.). Use for layout, spacing, and component structure inside the theme.
 
-**Fonts** — loaded via `@font-face` in `main.scss` from
+**Fonts** — loaded via `@font-face` in `site.scss` from
 `themes/clean-hugo/static/fonts/`. Font family names are configured in
 `hugo.toml` `[params.theme.fonts]`.
 
@@ -131,6 +132,28 @@ hugo gen chromastyles --style=monokai > themes/clean-hugo/static/css/syntax.css
 ```
 
 Then commit the updated `syntax.css`.
+
+## Jekyll coexistence (temporary — revert at cutover)
+
+While Jekyll and Hugo share this repo, **root** `assets/css/main.scss` remains
+on `main`. That file is Jekyll’s Minimal Mistakes entry point and starts with
+YAML front matter (`---`), which Hugo’s SCSS compiler cannot parse.
+
+Hugo’s `resources.Get "css/main.scss"` resolves **site `assets/` before theme
+`assets/`**, so the Jekyll file shadows the theme stylesheet and Netlify builds
+fail.
+
+**Workaround (current):**
+
+* Theme entry SCSS is named `site.scss` (not `main.scss`).
+* Layouts load `resources.Get "css/site.scss"` in `baseof.html` and `404.html`.
+
+**Revert when Jekyll is retired** (after root Jekyll assets are removed or
+moved under `jekyll/`):
+
+1. Rename `themes/clean-hugo/assets/css/site.scss` → `main.scss`.
+2. Update `baseof.html` and `404.html` to `resources.Get "css/main.scss"`.
+3. Remove this section from `DEVELOPMENT.md`.
 
 ## Netlify
 
