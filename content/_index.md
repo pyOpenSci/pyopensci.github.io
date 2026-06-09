@@ -104,16 +104,6 @@ of support.
 Port `people-grid` or the theme people partial when `data/contributors.yml` is
 mounted or copied for Hugo.)*
 
-## Recent blog posts & updates
+{{< blog-list title="Recent blog posts & updates" limit="3" >}}
 
-*(Placeholder: last three blog posts from the `blog-post` category. Migrate
-with `layouts/blog` or a home partial after posts move to `content/blog/`.)*
-
-[View more on the blog →](/blog/)
-
-## Recently accepted Python packages
-
-*(Placeholder: three packages from `packages.yml`. Phase: packages list page
-or `data/` + theme grid.)*
-
-[View all accepted packages →](/python-packages/)
+{{< recent-packages limit="3" >}}

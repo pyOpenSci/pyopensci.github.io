@@ -1,8 +1,7 @@
 {{/* Recent accepted packages grid. Usage: {{< recent-packages limit="3" >}} */}}
 {{ $limit := .Get "limit" | default 3 | int }}
 {{ $packages := where .Site.Data.packages "active" true }}
-{{/* closed_at matches Jekyll acceptance order better than date_accepted (some rows are "missing") */}}
-{{ $sorted := sort $packages "closed_at" "desc" }}
+{{ $sorted := partial "packages/sort-by-date-accepted.html" (dict "packages" $packages) }}
 {{ $recent := first $limit $sorted }}
 
 {{ if gt (len $recent) 0 }}

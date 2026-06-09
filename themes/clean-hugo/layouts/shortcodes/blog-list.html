@@ -15,11 +15,13 @@
 
     <div class="highlight-grid">
       {{ $limit := .Get "limit" | default 3 | int }}
-      {{ range first $limit (where .Site.RegularPages "Type" "blog") }}
+      {{ $posts := sort (where .Site.RegularPages "Type" "blog") "Date" "desc" }}
+      {{ range first $limit $posts }}
+        {{ $topic := partial "blog-topic.html" . }}
         <article class="listing-card listing-card--on-dark listing-card--density-default">
           <div class="meta">
             <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
-            {{ with .Params.category }}
+            {{ with $topic.label }}
               <span class="category">{{ . }}</span>
             {{ end }}
           </div>
@@ -40,5 +42,12 @@
         </article>
       {{ end }}
     </div>
+
+    <p class="blog-highlight__actions">
+      <a class="btn btn--accent" href="{{ "/blog/" | relURL }}">
+        View more on the blog
+        <i class="fas fa-arrow-right" aria-hidden="true"></i>
+      </a>
+    </p>
   </div>
 </section>

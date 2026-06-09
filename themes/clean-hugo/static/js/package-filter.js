@@ -6,6 +6,25 @@
  * immediately and registers the 'alpine:init' listener before Alpine.js initializes.
  */
 
+function normalizeAcceptanceDate(pkg) {
+  const accepted = pkg?.date_accepted;
+  if (accepted && accepted !== 'missing') {
+    const clean = String(accepted).replace(/\s/g, '');
+    const match = clean.match(/^(\d{4})-(\d{1,2})-(\d{1,2})/);
+    if (match) {
+      const [, year, month, day] = match;
+      return `${year}-${month.padStart(2, '0')}-${day.padStart(2, '0')}`;
+    }
+  }
+  return '0000-01-01';
+}
+
+function sortPackagesByAcceptanceDate(packages) {
+  return [...packages].sort((a, b) =>
+    normalizeAcceptanceDate(b).localeCompare(normalizeAcceptanceDate(a))
+  );
+}
+
 document.addEventListener('alpine:init', () => {
   Alpine.data('packageFilter', () => ({
     packages: [],
@@ -70,7 +89,7 @@ document.addEventListener('alpine:init', () => {
         });
       }
 
-      return filtered;
+      return sortPackagesByAcceptanceDate(filtered);
     }
   }));
 });

@@ -1,0 +1,29 @@
+{{/*
+  Sort packages by date_accepted (newest first).
+  Rows with missing or invalid date_accepted sort last.
+  Usage: {{ $sorted := partial "packages/sort-by-date-accepted.html" (dict "packages" $packages) }}
+*/}}
+{{ $packages := .packages }}
+{{ $enriched := slice }}
+{{ range $packages }}
+  {{ $sortDate := "0000-01-01" }}
+  {{ $accepted := .date_accepted }}
+  {{ if and $accepted (ne $accepted "missing") }}
+    {{ $clean := replace (replace $accepted " " "") "-" "-" }}
+    {{ $parts := split $clean "-" }}
+    {{ if ge (len $parts) 3 }}
+      {{ $month := index $parts 1 }}
+      {{ $day := index $parts 2 }}
+      {{ if eq (len $month) 1 }}{{ $month = printf "0%s" $month }}{{ end }}
+      {{ if eq (len $day) 1 }}{{ $day = printf "0%s" $day }}{{ end }}
+      {{ $sortDate = printf "%s-%s-%s" (index $parts 0) $month $day }}
+    {{ end }}
+  {{ end }}
+  {{ $enriched = $enriched | append (dict "pkg" . "sortDate" $sortDate) }}
+{{ end }}
+{{ $sorted := sort $enriched "sortDate" "desc" }}
+{{ $result := slice }}
+{{ range $sorted }}
+  {{ $result = $result | append .pkg }}
+{{ end }}
+{{ return $result }}

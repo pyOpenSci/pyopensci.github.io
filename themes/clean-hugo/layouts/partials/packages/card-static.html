@@ -20,8 +20,10 @@
       {{ end }}
 
       {{ if .active }}
-        {{ with .gh_meta.documentation }}
-          <li><a href="{{ . }}" target="_blank" rel="noopener noreferrer"><i class="fas fa-book-open"></i> View Docs</a></li>
+        {{ with .gh_meta }}
+          {{ with .documentation }}
+            <li><a href="{{ . }}" target="_blank" rel="noopener noreferrer"><i class="fas fa-book-open"></i> View Docs</a></li>
+          {{ end }}
         {{ end }}
         {{ with .issue_link }}
           <li><a href="{{ . }}" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-user-pen"></i> View Review</a></li>
