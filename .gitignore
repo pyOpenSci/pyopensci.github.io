@@ -5,7 +5,6 @@ resources/
 .hugo_build.lock
 node_modules/
 node_modules/*
-jekyll/_site/
 .sass-cache/
 .jekyll-metadata
 _config-dev.yml
@@ -24,3 +23,6 @@ tmp/*
 # Local agent scripts, plans, and Cursor config — never commit
 .cursor/
 _law_tests/
+
+# Local Jekyll archive synced from main for Hugo migration — never commit
+jekyll/
