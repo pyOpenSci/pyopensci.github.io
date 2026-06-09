@@ -1,0 +1,17 @@
+{{/*
+  Human-readable event date (and optional ISO range for <time datetime>).
+  Pass dict: event (required params.event map).
+*/}}
+{{ $e := .event }}
+{{ $start := time $e.start_date }}
+{{ $endStr := $e.end_date | default $e.start_date }}
+{{ $end := time $endStr }}
+{{ if eq $e.start_date $endStr }}
+  {{ $start.Format "Jan 2, 2006" }}
+{{ else if and (eq $start.Year $end.Year) (eq $start.Month $end.Month) }}
+  {{ $start.Format "Jan" }} {{ $start.Format "2" }}–{{ $end.Format "2" }}, {{ $start.Format "2006" }}
+{{ else if eq $start.Year $end.Year }}
+  {{ $start.Format "Jan 2" }} – {{ $end.Format "Jan 2" }}, {{ $start.Format "2006" }}
+{{ else }}
+  {{ $start.Format "Jan 2, 2006" }} – {{ $end.Format "Jan 2, 2006" }}
+{{ end }}

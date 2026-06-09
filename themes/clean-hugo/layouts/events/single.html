@@ -2,13 +2,7 @@
 {{ $e := .Params.event }}
 {{ $dateLine := "" }}
 {{ if $e }}
-  {{ $start := time $e.start_date }}
-  {{ with $e.end_date }}
-    {{ $end := time . }}
-    {{ $dateLine = printf "%s – %s" ($start.Format "Jan 2, 2006") ($end.Format "Jan 2, 2006") }}
-  {{ else }}
-    {{ $dateLine = $start.Format "Jan 2, 2006" }}
-  {{ end }}
+  {{ $dateLine = partial "event-date-display.html" (dict "event" $e) }}
   {{ $loc := $e.location_name | default $e.location }}
   {{ with $loc }}
     {{ $dateLine = printf "%s · %s" $dateLine . }}
