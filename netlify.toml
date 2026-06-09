@@ -1,10 +1,9 @@
 [build]
-  command = "bundle exec jekyll build"
-  publish = "_site"
+  command = "npm ci && hugo --gc --minify"
+  publish = "public"
 
 [build.environment]
-  JEKYLL_ENV = "production"
-
-# Include future-dated posts on PR deploy previews only.
-[context.deploy-preview]
-  command = "bundle exec jekyll build --future"
+  HUGO_VERSION = "0.139.4"
+  NODE_VERSION = "20"
+  HUGO_ENV = "production"
+  TZ = "America/Denver"
