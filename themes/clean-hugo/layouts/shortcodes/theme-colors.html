@@ -1,0 +1,72 @@
+{{- /*
+  Renders all theme colors defined in the hugo.toml as color swatches.
+*/ -}}
+
+{{- $colors := .Site.Params.theme.colors | default dict -}}
+
+{{- /* Generate dynamic color classes for each theme color */ -}}
+<style>
+{{- range $name, $hex := $colors }}
+.color-{{ $name | urlize }} { background-color: {{ $hex }}; }
+{{- end }}
+</style>
+
+<h2>Base theme colors</h2>
+<div class="theme-colors">
+{{- range $name, $hex := $colors }}
+{{- if and (not (hasPrefix $name "admonition-")) (not (hasPrefix $name "link")) (not (hasPrefix $name "gray")) }}
+  <div>
+    <div class="color-{{ $name | urlize }}"></div>
+    <div>
+      <strong>{{ $name }}</strong>
+      <code>{{ $hex }}</code>
+    </div>
+  </div>
+{{- end }}
+{{- end }}
+</div>
+
+<h2>Link colors</h2>
+<div class="theme-colors">
+{{- range $name, $hex := $colors }}
+{{- if hasPrefix $name "link" }}
+  <div>
+    <div class="color-{{ $name | urlize }}"></div>
+    <div>
+      <strong>{{ $name }}</strong>
+      <code>{{ $hex }}</code>
+    </div>
+  </div>
+{{- end }}
+{{- end }}
+</div>
+
+<h2>Grey palette</h2>
+<div class="theme-colors">
+{{- range $name, $hex := $colors }}
+{{- if hasPrefix $name "gray" }}
+  <div>
+    <div class="color-{{ $name | urlize }}"></div>
+    <div>
+      <strong>{{ $name }}</strong>
+      <code>{{ $hex }}</code>
+    </div>
+  </div>
+{{- end }}
+{{- end }}
+</div>
+
+<h2>Admonition theme colors</h2>
+<div class="theme-colors">
+{{- range $name, $hex := $colors }}
+{{- if hasPrefix $name "admonition-" }}
+  <div>
+    <div class="color-{{ $name | urlize }}"></div>
+    <div>
+      <strong>{{ $name }}</strong>
+      <code>{{ $hex }}</code>
+    </div>
+  </div>
+{{- end }}
+{{- end }}
+</div>

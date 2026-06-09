@@ -1,0 +1,24 @@
+{{- /*
+  Inline Table of Contents for active documentation page
+  Usage: {{ partial "docs-toc.html" .Page }}
+
+  Generates an inline TOC from H2/H3 headings that appears under the active page
+  in the sidebar navigation. This is populated via JavaScript after page load.
+
+  Parameters:
+  - page: The page context to generate TOC for
+*/ -}}
+
+{{- $page := . -}}
+
+{{- /*
+  The TOC is a placeholder list that will be populated by JavaScript
+  JavaScript will:
+  1. Find all h2/h3 headings in the page content
+  2. Create anchor links to them
+  3. Insert them into the ul.toc-items list below
+*/ -}}
+
+<ul class="toc-items" data-page="{{ $page.RelPermalink }}">
+  {{- /* Placeholder: JavaScript will populate this */ -}}
+</ul>

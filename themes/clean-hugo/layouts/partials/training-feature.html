@@ -1,0 +1,52 @@
+{{/*
+  Promotional training / cohort strip. Reads Params.training_feature from the
+  page passed as "." (typically .Page). Use shortcode {{< training-feature />}}.
+  Fields: title (required), eyebrow, badge, excerpt, button_label, button_url,
+  image (src + alt), enabled (optional, default true).
+*/}}
+{{ $t := .Params.training_feature | default dict }}
+{{ if eq $t.enabled false }}{{ return }}{{ end }}
+{{ if not $t.title }}{{ return }}{{ end }}
+{{ $img := partial "get-image.html" (dict "image" $t.image "fallbackAlt" $t.title "page" .) }}
+{{ $btnHref := "" }}
+{{ with $t.button_url }}
+  {{ $btnHref = . }}
+  {{ if not (hasPrefix $btnHref "http") }}
+    {{ $btnHref = relURL $btnHref }}
+  {{ end }}
+{{ end }}
+
+<section class="training-feature" aria-labelledby="training-feature-title">
+  <div class="container">
+    <div class="training-feature__card">
+      <div class="training-feature__content">
+        {{ with $t.eyebrow }}
+          <p class="training-feature__eyebrow">{{ . }}</p>
+        {{ end }}
+        {{ with $t.badge }}
+          <p class="training-feature__badge"><span class="training-feature__badge-pill">{{ . }}</span></p>
+        {{ end }}
+        <h2 id="training-feature-title" class="training-feature__title">{{ $t.title }}</h2>
+        {{ with $t.excerpt }}
+          <div class="training-feature__excerpt">{{ . | markdownify }}</div>
+        {{ end }}
+        {{ if and $t.button_label $t.button_url }}
+          <p class="training-feature__actions">
+            <a class="btn btn--outline-on-light btn--lg" href="{{ $btnHref }}">{{ $t.button_label }}</a>
+          </p>
+        {{ end }}
+      </div>
+      {{ if $img.exists }}
+        <div class="training-feature__media">
+          <img
+            class="training-feature__image"
+            src="{{ $img.src | relURL }}"
+            alt="{{ $img.alt }}"
+            loading="lazy"
+            decoding="async"
+          />
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</section>

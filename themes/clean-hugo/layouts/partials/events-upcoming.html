@@ -1,0 +1,84 @@
+{{/*
+  Upcoming/live events section.
+  Pass dict:
+    context (required): current page context (.)
+    pages (optional): page collection to classify; defaults to all event pages
+    limit (optional): max items; 0 or unset shows all
+    use_container (optional bool): wrap content in .container (default true)
+    show_kicker (optional bool): render "Upcoming & live" kicker
+    show_view_all (optional bool): render "View all events" button
+    show_empty (optional bool): render empty-state section if no events
+    view_all_url (optional): defaults to /events/
+    section_class (optional): extra class on <section>
+*/}}
+{{ $ctx := .context }}
+{{ $pages := .pages | default (where $ctx.Site.RegularPages "Section" "events") }}
+{{ $today := now.Format "2006-01-02" }}
+{{ $live := slice }}
+{{ $upcoming := slice }}
+{{ $limit := .limit | default 0 }}
+{{ $useContainer := .use_container | default true }}
+{{ $showKicker := .show_kicker | default true }}
+{{ $showViewAll := .show_view_all | default false }}
+{{ $showEmpty := .show_empty | default false }}
+{{ $viewAllURL := .view_all_url | default "/events/" }}
+{{ $sectionClass := .section_class | default "" }}
+
+{{ range $pages }}
+  {{ $e := .Params.event }}
+  {{ if and $e $e.start_date }}
+    {{ $start := $e.start_date }}
+    {{ $end := $e.end_date | default $e.start_date }}
+    {{ if lt $today $start }}
+      {{ $upcoming = $upcoming | append . }}
+    {{ else if and (le $start $today) (le $today $end) }}
+      {{ $live = $live | append . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ $featuredEvents := append
+  (sort $live "Params.event.end_date" "asc")
+  (sort $upcoming "Params.event.start_date" "asc")
+}}
+{{ if gt $limit 0 }}
+  {{ $featuredEvents = first $limit $featuredEvents }}
+{{ end }}
+
+{{ if gt (len $featuredEvents) 0 }}
+  <section class="events-list{{ with $sectionClass }} {{ . }}{{ end }}">
+    <div class="{{ if $useContainer }}container{{ else }}events-list__inner{{ end }}">
+      {{ if $showKicker }}
+        <h2 class="events-list__kicker">
+          Upcoming <span class="events-list__kicker-amp">&amp;</span> live
+        </h2>
+      {{ end }}
+      <div class="events-list__featured">
+        {{ range $featuredEvents }}
+          {{ partial "event-card.html" (dict
+            "Page" .
+            "compact" false
+            "variant" "featured"
+          ) }}
+        {{ end }}
+      </div>
+      {{ if $showViewAll }}
+        <div class="events-list__actions">
+          <a class="btn btn--secondary" href="{{ $viewAllURL | relURL }}">
+            View all events
+          </a>
+        </div>
+      {{ end }}
+    </div>
+  </section>
+{{ else if $showEmpty }}
+  <section class="events-list{{ with $sectionClass }} {{ . }}{{ end }}">
+    <div class="{{ if $useContainer }}container{{ else }}events-list__inner{{ end }}">
+      <p class="events-list__empty">
+        No upcoming events right now. Browse
+        <a href="{{ "/events/" | relURL }}">past events</a>
+        or <a href="{{ "/blog/" | relURL }}">read the blog</a> for updates.
+      </p>
+    </div>
+  </section>
+{{ end }}

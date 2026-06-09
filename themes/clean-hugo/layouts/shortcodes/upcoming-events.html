@@ -1,0 +1,8 @@
+{{ $limit := .Get "limit" | default 3 }}
+{{ $showViewAll := .Get "view_all" | default true }}
+{{ partial "events-upcoming.html" (dict
+  "context" .Page
+  "limit" (int $limit)
+  "show_kicker" false
+  "show_view_all" $showViewAll
+) }}
