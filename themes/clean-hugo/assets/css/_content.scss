@@ -168,9 +168,7 @@
   width: 100vw;
   position: relative;
   left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
+  margin-inline: -50vw;
 }
 
 // Unified content container with prose constraints and full-width support
@@ -213,8 +211,7 @@
 
 /* Section styles for list pages */
 .section-container {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding: 3rem 0;
 }
 
 .section-content {

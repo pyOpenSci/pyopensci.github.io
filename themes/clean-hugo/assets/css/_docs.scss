@@ -46,8 +46,7 @@
   @include container;
   display: grid;
   gap: 3rem;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-block: 2rem;
   position: relative;
   grid-template-columns: 1fr;
 

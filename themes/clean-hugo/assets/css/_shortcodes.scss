@@ -199,8 +199,7 @@
 
   /* YouTube Video Embed */
   .youtube-container {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin: 2rem 0;
     /* Automatically breaks out to full-width in blog posts via auto-detection */
   }
 
@@ -208,10 +207,8 @@
   .youtube-container--constrained {
     width: auto !important;
     position: static !important;
-    left: auto !important;
-    right: auto !important;
-    margin-left: 0 !important;
-    margin-right: 0 !important;
+    inset-inline: auto !important;
+    margin-inline: 0 !important;
   }
 
   .youtube-wrapper {

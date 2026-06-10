@@ -7,16 +7,14 @@
 
   .packages-page__partner-nav {
     width: 100%;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding: 1.5rem 0;
     background-color: var(--color-primary-light);
     /* Child div uses .container utility class */
   }
 
   .packages-page__controls {
     width: 100%;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding: 2rem 0;
     margin-bottom: 2rem;
     background-color: var(--color-gray-50);
     /* Child div uses .container utility class */
@@ -44,8 +42,7 @@
   }
 
   .packages-page__empty {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding: 3rem 0;
     text-align: center;
     /* Uses .container utility class in template */
   }

@@ -4,8 +4,7 @@
 
   .people-page__controls {
     width: 100%;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding: 2rem 0;
     margin-bottom: 2rem;
     background-color: var(--color-gray-50);
   }
@@ -15,8 +14,7 @@
   }
 
   .people-page__empty {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding: 3rem 0;
     text-align: center;
   }
 

@@ -101,8 +101,7 @@
 
   @media (min-width: $breakpoint-sm) {
     columns: 2;
-    padding-left: 0;
-    padding-right: 0;
+    padding-inline: 0;
   }
   @media (min-width: $breakpoint-lg) {
     columns: 3;

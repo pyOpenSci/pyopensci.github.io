@@ -296,8 +296,7 @@
 
     @media (min-width: $breakpoint-lg) {
       max-width: none;
-      margin-left: 0;
-      margin-right: 0;
+      margin-inline: 0;
     }
   }
 
@@ -310,9 +309,7 @@
 .blog-archives {
   width: 100vw;
   max-width: 100vw;
-  margin-top: 3rem;
-  margin-left: calc(50% - 50vw);
-  margin-right: calc(50% - 50vw);
+  margin: 3rem calc(50% - 50vw);
   padding: 2.5rem clamp(1rem, 4vw, 2rem);
   box-sizing: border-box;
   background-color: color-mix(in srgb, var(--color-soft-purple) 35%, transparent);

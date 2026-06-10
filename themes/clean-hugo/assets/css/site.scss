@@ -172,8 +172,7 @@ xl: 1280px
 
   /* Horizontal rules */
   hr {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin: 2rem 0;
     border-top: 1px solid;
     border-color: var(--color-gray-200);
   }
@@ -215,8 +214,7 @@ xl: 1280px
 
   /* Spacing utilities */
   .py-12 {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding: 3rem 0;
   }
 
   /* Container utilities - standardize container widths across the site */
@@ -247,8 +245,7 @@ xl: 1280px
   .full-width {
     width: 100%;
     max-width: 100%;
-    margin-left: calc(-1 * $fluid-container-padding);
-    margin-right: calc(-1 * $fluid-container-padding);
+    margin-inline: calc(-1 * $fluid-container-padding);
   }
 
 /* Component Imports */

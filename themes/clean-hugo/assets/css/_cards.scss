@@ -48,9 +48,7 @@
   width: 100vw;
   position: relative;
   left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
+  margin-inline: -50vw;
   padding: 0 $fluid-container-padding;
 
   h2 {
@@ -63,8 +61,7 @@
   .impact-cards {
     max-width: none;
     margin: 0;
-    padding-left: 0;
-    padding-right: 0;
+    padding-inline: 0;
   }
 }
 
