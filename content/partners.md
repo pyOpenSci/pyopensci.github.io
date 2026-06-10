@@ -127,24 +127,3 @@ software.
 By reviewing packages from the entire ecosystem, pyOpenSci can identify
 redundancy in package functionality and areas where maintainers could benefit
 from consolidation efforts.
-
-{{< swoosh_section background="purple" swoosh="bottom" >}}
-
-## Why do so many domain specific Python communities exist?
-
-Within the Python ecosystem, various science-domain-specific communities are
-creating peer review processes to evaluate community-affiliated tools.
-
-* A response to the need to vet and maintain a list of high-quality tools that their communities embrace
-* A need to track software maintenance to ensure ecosystem tools in their vetted lists are maintained
-* The need for packaging guidance given a complex packaging ecosystem filled with numerous tools and options
-
-However, creating a review process for software requires significant effort.
-pyOpenSci was created to target these exact issues in support of open science.
-
-{{< admonition type="note" >}}
-[Astropy](https://www.astropy.org/) is the most mature of the domain-specific
-communities that we work with, having built its peer review process in 2013.
-{{< /admonition >}}
-
-{{< /swoosh_section >}}

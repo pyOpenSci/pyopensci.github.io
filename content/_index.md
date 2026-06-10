@@ -83,7 +83,9 @@ cards:
 
 ## Broadening participation in scientific open source
 
-![People working at computers during a pyCon USA sprint.](/images/people/pyopensci-sprint-pycon-2023.png)
+{{< feature-row layout="left"
+    image="/images/people/pyopensci-sprint-pycon-2023.png"
+    alt="Three people working at two computers during a PyCon USA sprint in 2023." >}}
 
 ### You don't need to be an expert to get involved
 
@@ -97,6 +99,7 @@ Are you new to peer review? We offer a
 [mentorship program](https://www.pyopensci.org/software-peer-review/how-to/reviewer-guide.html#a-guide-for-new-reviewers)
 for anyone interested in participating in peer review but who might like a bit
 of support.
+{{< /feature-row >}}
 
 ## New pyOpenSci contributors
 

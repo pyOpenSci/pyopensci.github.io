@@ -8,16 +8,19 @@
     <h2>Meet our editorial board</h2>
     <p>
       The pyOpenSci software peer review process is led by a volunteer team of
-      editors from the scientific Python community. Editors find reviewers from
-      diverse backgrounds, oversee each review, support authors and reviewers,
-      and decide whether a package is accepted into the pyOpenSci ecosystem.
+      editors from the scientific Python community. Editors do the following
+      things:
     </p>
+    <ul>
+      <li>They find reviewers from diverse backgrounds who have a mixture of scientific domain and Python experience.</li>
+      <li>They oversee the entire review process for a package ensuring it runs in a timely and efficient manner.</li>
+      <li>They support the submitting authors and reviewers in answering questions related to the review.</li>
+      <li>They determine whether that package should be accepted into the pyOpenSci ecosystem once the review has wrapped up.</li>
+    </ul>
     <p>
-      <a class="btn btn--outline"
-         href="https://www.pyopensci.org/software-peer-review/how-to/editors-guide.html"
-         target="_blank" rel="noopener noreferrer">
-        Learn about the editor role
-      </a>
+      Learn more about the editor role at pyOpenSci
+      <a href="https://www.pyopensci.org/software-peer-review/how-to/editors-guide.html"
+         target="_blank" rel="noopener noreferrer">in our peer review guide</a>.
     </p>
     <div class="people-grid-static">
       {{ range sort $editorial "sort" }}
@@ -32,7 +35,7 @@
 <section class="people-page__section">
   <div class="container">
     <h2>Emeritus &amp; guest editors</h2>
-    <p>We are deeply grateful for those who served on our editorial board previously!</p>
+    <p>We are deeply grateful for those served on our editorial board previously!</p>
     <div class="people-grid-static">
       {{ range sort $emeritus "sort" }}
         {{ partial "people/card.html" . }}

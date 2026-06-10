@@ -14,16 +14,15 @@ hero:
     alt: "Illustration representing pyOpenSci accepted Python packages."
 ---
 
-Explore our accepted open source Python packages below. The metrics bar shows
-current totals. You can
+The Python packages below have been accepted into the pyOpenSci ecosystem through
+our [open software peer review process](/about-peer-review/).
+
+You can
 [check out packages currently under review](https://github.com/pyOpenSci/software-submission/issues)
 in our GitHub submission repository.
 
-Packages listed here have been accepted into the pyOpenSci ecosystem through our
-[open software peer review process](/about-peer-review/).
+[Learn more about the process for submitting a package to pyOpenSci.](/how-to-submit-a-package-to-pyopensci/)
 
-To view packages affiliated with our partner communities, use the Astropy
-partner link above the filters or visit our
-[community partners section](/partners/).
-
-[Learn how to submit a package for review](/how-to-submit-a-package-to-pyopensci/).
+To view packages affiliated with our partner communities that are a part of our
+peer review partnership program, click on a community link above. [Learn more
+about our community partnerships here.](/partners/)
