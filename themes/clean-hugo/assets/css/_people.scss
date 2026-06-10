@@ -65,34 +65,44 @@
     }
   }
 
-  .people-grid {
+  @mixin people-grid-equal-columns($wide-columns: 6) {
     display: grid;
     gap: 1rem;
-    margin-top: 3rem;
-    grid-template-columns: 1fr;
+    width: 100%;
+    /* minmax(0, 1fr) keeps every track the same width regardless of content */
+    grid-template-columns: minmax(0, 1fr);
 
     @media (min-width: $breakpoint-sm) {
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
-    @media (min-width: 1000px) {
-      grid-template-columns: repeat(3, 1fr);
+    @media (min-width: $breakpoint-md) {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
     }
 
-    @media (min-width: 1246px) {
-      grid-template-columns: repeat(4, 1fr);
+    @media (min-width: $breakpoint-lg) {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
     }
 
-    @media (min-width: $breakpoint-2xl) {
-      grid-template-columns: repeat(6, 1fr);
+    @media (min-width: $breakpoint-xl) {
+      grid-template-columns: repeat($wide-columns, minmax(0, 1fr));
     }
+  }
+
+  .people-grid {
+    @include people-grid-equal-columns(6);
+    margin-top: 3rem;
   }
 
   .people_card {
     display: flex;
     flex-direction: column;
+    min-width: 0;
+    width: 100%;
 
     > div {
+      width: 100%;
+      min-width: 0;
       border-radius: $radius-md;
       border: 1px solid var(--color-gray-200);
       box-shadow: $shadow-sm;
@@ -134,6 +144,7 @@
       font-weight: 600;
       margin-bottom: 0.375rem;
       color: var(--color-gray-900);
+      overflow-wrap: break-word;
 
       a {
         text-decoration: none;
@@ -151,6 +162,7 @@
     margin-bottom: 0.375rem;
     color: var(--color-gray-600);
     line-height: 1.4;
+    overflow-wrap: break-word;
   }
 
   .people_card__org {
@@ -158,6 +170,7 @@
     margin-bottom: 0.75rem;
     color: var(--color-gray-600);
     font-style: italic;
+    overflow-wrap: break-word;
   }
 
   .people_card__social {
@@ -186,23 +199,15 @@
   }
 
   .people-grid-static {
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: 1fr;
+    @include people-grid-equal-columns(6);
 
-    @media (min-width: $breakpoint-sm) {
-      grid-template-columns: repeat(2, 1fr);
-    }
+    /* Small leadership sections (3–4 people): don't stretch full width */
+    &--compact {
+      max-width: 62.5rem;
+      margin-inline: auto;
 
-    @media (min-width: 1000px) {
-      grid-template-columns: repeat(3, 1fr);
-    }
-
-    @media (min-width: 1246px) {
-      grid-template-columns: repeat(4, 1fr);
-    }
-
-    @media (min-width: $breakpoint-2xl) {
-      grid-template-columns: repeat(5, 1fr);
+      @media (min-width: $breakpoint-xl) {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
     }
   }

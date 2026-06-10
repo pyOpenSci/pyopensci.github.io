@@ -46,11 +46,11 @@ document.addEventListener('alpine:init', () => {
         });
       }
 
-      // Sort by sort field (default to 9 if not present)
+      // Newest contributors first (matches legacy /our-community/ order)
       filtered = filtered.sort((a, b) => {
-        const sortA = a.sort !== undefined ? Number(a.sort) : 9;
-        const sortB = b.sort !== undefined ? Number(b.sort) : 9;
-        return sortA - sortB;
+        const dateA = a.date_added ? new Date(a.date_added) : new Date(0);
+        const dateB = b.date_added ? new Date(b.date_added) : new Date(0);
+        return dateB - dateA;
       });
 
       return filtered;

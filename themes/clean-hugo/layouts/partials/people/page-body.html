@@ -15,7 +15,7 @@
     <section class="people-page__section">
       <div class="container">
         <h2>Executive Council, Leadership & Staff</h2>
-        <div class="people-grid-static">
+        <div class="people-grid-static people-grid-static--compact">
           {{ range sort $board "sort" }}
             {{ partial "people/card.html" . }}
           {{ end }}
@@ -65,9 +65,7 @@
         </div>
       </div>
 
-      <div class="container">
-        {{ partial "people/grid.html" . }}
-      </div>
+      {{ partial "people/grid.html" . }}
     </div>
   </section>
 
