@@ -1,5 +1,5 @@
 [build]
-  command = "npm ci && hugo --gc --minify"
+  command = "npm ci && hugo --gc --minify --baseURL $DEPLOY_PRIME_URL/"
   publish = "public"
 
 [build.environment]
