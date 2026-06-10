@@ -3,6 +3,19 @@
  * Base values target mobile (320px+), use breakpoints to enhance
  */
 
+/* Typography — font names (@font-face) and stacks (never hardcode fonts elsewhere) */
+$font-name-body: 'Nunito Sans';
+$font-name-heading: 'Poppins';
+$font-name-quote: 'Lora';
+
+$font-family-body: $font-name-body, 'ui-sans-serif', 'system-ui', '-apple-system',
+  'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif;
+$font-family-heading: $font-name-heading, $font-name-body, 'ui-sans-serif', 'system-ui',
+  sans-serif;
+$font-family-quote: $font-name-quote, 'Georgia', 'Times New Roman', serif;
+$font-family-mono: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro',
+  monospace;
+
 /* Breakpoints - min-width (mobile first) */
 $breakpoint-sm: 640px;            /* Large phones / small tablets */
 $breakpoint-md: 768px;            /* Tablets */

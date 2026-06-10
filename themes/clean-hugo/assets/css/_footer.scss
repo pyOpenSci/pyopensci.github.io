@@ -3,7 +3,7 @@
   margin-top: $spacing-xl;
   padding: $spacing-lg $spacing-sm $spacing-lg;
   color: rgba(255, 255, 255, 0.9);
-  font-family: 'Poppins', 'Nunito Sans', 'ui-sans-serif', 'system-ui', sans-serif;
+  font-family: $font-family-heading;
   font-size: 0.85rem;
   line-height: 1.3rem;
   background-color: color-mix(in srgb, var(--color-brand-purple) 92%, black);
@@ -66,7 +66,7 @@
       left: 50%;
       transform: translateX(-50%);
       padding: 0.2rem 0.5rem;
-      font-family: 'Poppins', 'Nunito Sans', 'ui-sans-serif', 'system-ui', sans-serif;
+      font-family: $font-family-heading;
       font-size: 0.7rem;
       font-weight: 600;
       line-height: 1.2;

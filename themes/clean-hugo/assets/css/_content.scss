@@ -190,7 +190,7 @@
   box-sizing: border-box;
 }
 
-// List and blockquote styles for unified content
+// List styles for unified content
 .content-main ul,
 .content-main ol,
 .splash-page__content ul,
@@ -206,17 +206,6 @@
   margin-bottom: 1rem;
   line-height: 1.625;
   color: var(--color-gray-700);
-}
-.content-main blockquote,
-.splash-page__content blockquote {
-  border-left: 4px solid;
-  padding-left: 1rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  border-color: var(--color-primary);
-  background-color: var(--color-gray-50);
 }
 
 /* Section styles for list pages */

@@ -34,7 +34,7 @@ xl: 1280px
 
   /* Nunito Sans variable font (body text) - regular/roman style */
   @font-face {
-    font-family: 'Nunito Sans';
+    font-family: $font-name-body;
     font-style: normal;
     font-weight: 200 900;
     font-display: swap;
@@ -43,7 +43,7 @@ xl: 1280px
 
   /* Nunito Sans variable font (body text) - italic style */
   @font-face {
-    font-family: 'Nunito Sans';
+    font-family: $font-name-body;
     font-style: italic;
     font-weight: 200 900;
     font-display: swap;
@@ -52,7 +52,7 @@ xl: 1280px
 
   /* Poppins (headings) */
   @font-face {
-    font-family: 'Poppins';
+    font-family: $font-name-heading;
     font-style: normal;
     font-weight: 300;
     font-display: swap;
@@ -60,7 +60,7 @@ xl: 1280px
   }
 
   @font-face {
-    font-family: 'Poppins';
+    font-family: $font-name-heading;
     font-style: normal;
     font-weight: 400;
     font-display: swap;
@@ -68,7 +68,7 @@ xl: 1280px
   }
 
   @font-face {
-    font-family: 'Poppins';
+    font-family: $font-name-heading;
     font-style: italic;
     font-weight: 400;
     font-display: swap;
@@ -76,7 +76,7 @@ xl: 1280px
   }
 
   @font-face {
-    font-family: 'Poppins';
+    font-family: $font-name-heading;
     font-style: normal;
     font-weight: 500;
     font-display: swap;
@@ -84,7 +84,7 @@ xl: 1280px
   }
 
   @font-face {
-    font-family: 'Poppins';
+    font-family: $font-name-heading;
     font-style: normal;
     font-weight: 600;
     font-display: swap;
@@ -92,11 +92,20 @@ xl: 1280px
   }
 
   @font-face {
-    font-family: 'Poppins';
+    font-family: $font-name-heading;
     font-style: normal;
     font-weight: 700;
     font-display: swap;
     src: url('../fonts/Poppins-Bold.woff2') format('woff2');
+  }
+
+  /* Lora italic variable font (quotations) */
+  @font-face {
+    font-family: $font-name-quote;
+    font-style: italic;
+    font-weight: 400 700;
+    font-display: swap;
+    src: url('../fonts/Lora-Italic-VariableFont_wght.woff2') format('woff2');
   }
 
   /*
@@ -106,7 +115,7 @@ xl: 1280px
   */
 
   body {
-    font-family: 'Nunito Sans', 'ui-sans-serif', 'system-ui', '-apple-system', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif;
+    font-family: $font-family-body;
     color: var(--color-gray-900);
     background-color: var(--color-gray-50);
     margin: 0;
@@ -117,7 +126,7 @@ xl: 1280px
 
   /* Typography System - Base Heading Styles */
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Poppins', 'Nunito Sans', 'ui-sans-serif', 'system-ui', sans-serif;
+    font-family: $font-family-heading;
     color: inherit;
     line-height: 1.25;
   }
@@ -159,21 +168,6 @@ xl: 1280px
 
   ol {
     list-style-type: decimal;
-  }
-
-  /* Blockquotes */
-  blockquote {
-    border-left: 4px solid;
-    padding-left: 1rem;
-    font-style: italic;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    border-color: var(--color-gray-200);
-    color: var(--color-gray-600);
-
-    p {
-      margin-bottom: 0;
-    }
   }
 
   /* Horizontal rules */
@@ -274,6 +268,7 @@ xl: 1280px
 @import 'blog-listing';
 @import 'shortcodes';
 @import 'admonition';
+@import 'quotes';
 @import 'code';
 @import 'figure';
 @import 'packages';

@@ -5,7 +5,7 @@ code {
   border-radius: 0.25rem;
   padding: 0.125rem 0.375rem;
   font-size: 0.95rem;
-  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
+  font-family: $font-family-mono;
   background-color: rgba(0, 0, 0, 0.05);
   color: #e83e8c;
 }
@@ -20,7 +20,7 @@ pre {
   color: #f8f8f2;
   font-size: 0.95rem;
   line-height: 1.5;
-  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
+  font-family: $font-family-mono;
 
   code {
     padding: 0;

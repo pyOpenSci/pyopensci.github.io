@@ -4,7 +4,9 @@ date: 2019-01-01
 type: blog
 url: "/blog/clean-hugo-blog-theme-features.html"
 excerpt: A living reference for every shortcode and formatting option available in
-  the clean-hugo theme — figures, admonitions, pull quotes, buttons, YouTube embeds,
+  the clean-hugo theme — figures, admonitions, admonition quotes, blockquotes,
+  pull quotes,
+  buttons, YouTube embeds,
   and more.
 author: pyopensci
 toc: true
@@ -100,39 +102,189 @@ Omit the `title` param and the header row is hidden entirely.
 {{< /admonition >}}
 
 
+## Admonition quotes
+
+The `admonition-quote` shortcode renders a quotation inside an
+admonition-style callout box. It uses the same `type` variants as
+`admonition`, with a single opening quote mark at the top (no closing
+quote). Optional `title`, `author`, and `event` params are supported.
+
+Same quote text in each example so you can compare styles.
+
+**Note:**
+
+```
+{{</* admonition-quote type="note" title="Note quote" author="Anonymous" event="AGU 2019 Townhall" */>}}
+Good research software is built for the people who use it.
+{{</* /admonition-quote */>}}
+```
+
+{{< admonition-quote type="note" title="Note quote" author="Anonymous" event="AGU 2019 Townhall" >}}
+Good research software is built for the people who use it.
+{{< /admonition-quote >}}
+
+**Info:**
+
+```
+{{</* admonition-quote type="info" */>}}
+Good research software is built for the people who use it.
+{{</* /admonition-quote */>}}
+```
+
+{{< admonition-quote type="info" >}}
+Good research software is built for the people who use it.
+{{< /admonition-quote >}}
+
+**Warning:**
+
+```
+{{</* admonition-quote type="warning" title="A community reminder" */>}}
+Good research software is built for the people who use it.
+{{</* /admonition-quote */>}}
+```
+
+{{< admonition-quote type="warning" title="A community reminder" >}}
+Good research software is built for the people who use it.
+{{< /admonition-quote >}}
+
+**Success:**
+
+```
+{{</* admonition-quote type="success" author="pyOpenSci community member" */>}}
+Good research software is built for the people who use it.
+{{</* /admonition-quote */>}}
+```
+
+{{< admonition-quote type="success" author="pyOpenSci community member" >}}
+Good research software is built for the people who use it.
+{{< /admonition-quote >}}
+
+**Danger:**
+
+```
+{{</* admonition-quote type="danger" */>}}
+Good research software is built for the people who use it.
+{{</* /admonition-quote */>}}
+```
+
+{{< admonition-quote type="danger" >}}
+Good research software is built for the people who use it.
+{{< /admonition-quote >}}
+
+Parameters:
+
+| Param | Default | Description |
+|---|---|---|
+| `type` | `note` | Admonition variant: `note`, `info`, `warning`, `danger`, `success` |
+| `title` | — | Optional heading above the quote |
+| `author` | — | Attribution name (optional) |
+| `event` | — | Event or source (optional) |
+
+
+## Blockquotes
+
+Plain Markdown blockquotes are for **inline citations** in the flow of a
+post — a left border, light background, and Lora italic body text. No
+shortcode is required.
+
+Use a **pull quote** when you want the same quote typography with a
+decorative opening mark and no sidebar box. Use an **admonition quote**
+when the quote should sit inside a colored callout box.
+
+**Single paragraph:**
+
+```markdown
+> Good research software is built for the people who use it.
+```
+
+> Good research software is built for the people who use it.
+
+**With attribution (written in Markdown):**
+
+```markdown
+> Good research software is built for the people who use it.
+>
+> — **pyOpenSci community member**, *Peer review guide*
+```
+
+> Good research software is built for the people who use it.
+>
+> — **pyOpenSci community member**, *Peer review guide*
+
+**Multi-line quote:**
+
+```markdown
+> Good research software is built for the people who use it.
+>
+> Quotes can span multiple paragraphs when you need more room.
+```
+
+> Good research software is built for the people who use it.
+>
+> Quotes can span multiple paragraphs when you need more room.
+
+**Nested in a list** (blockquote inside list item):
+
+```markdown
+* Before you submit, read the packaging guide.
+* Remember the goal of review:
+
+  > Good research software is built for the people who use it.
+
+* Then open your submission issue on GitHub.
+```
+
+* Before you submit, read the packaging guide.
+* Remember the goal of review:
+
+  > Good research software is built for the people who use it.
+
+* Then open your submission issue on GitHub.
+
+
 ## Pull quotes
 
-The `pullquote` shortcode renders a large decorative quotation with
-optional author and event attribution. Three color variants are available.
+The `pullquote` shortcode uses the same Lora quote text as blockquotes,
+with a decorative opening mark above and no left border or background.
+Three accent colors are available for the mark. Optional `author` and
+`event` params add attribution.
 
-**Usage:**
-
-```
-{{</* pullquote color="teal" author="Author Name" event="Event Name" */>}}
-Quote text goes here.
-{{</* /pullquote */>}}
-```
+Same quote text in each example so you can compare colors.
 
 **Teal (default):**
 
+```
+{{</* pullquote color="teal" author="Anonymous" event="AGU 2019 Townhall" */>}}
+Good research software is built for the people who use it.
+{{</* /pullquote */>}}
+```
+
 {{< pullquote color="teal" author="Anonymous" event="AGU 2019 Townhall" >}}
-I want to streamline the development of good quality, socially
-responsible, and easily shareable software.
+Good research software is built for the people who use it.
 {{< /pullquote >}}
 
 **Magenta:**
 
+```
+{{</* pullquote color="magenta" */>}}
+Good research software is built for the people who use it.
+{{</* /pullquote */>}}
+```
+
 {{< pullquote color="magenta" >}}
-This entire effort underscores the power of community when guided in
-the right direction, showcasing how collective effort can drive
-meaningful progress.
+Good research software is built for the people who use it.
 {{< /pullquote >}}
 
 **Purple:**
 
+```
+{{</* pullquote color="purple" author="pyOpenSci community member" */>}}
+Good research software is built for the people who use it.
+{{</* /pullquote */>}}
+```
+
 {{< pullquote color="purple" author="pyOpenSci community member" >}}
-Open science is not just about sharing data — it is about building
-the tools and community that make sharing possible.
+Good research software is built for the people who use it.
 {{< /pullquote >}}
 
 Parameters:
@@ -364,10 +516,15 @@ package.submit()
 hugo serve --buildDrafts --disableFastRender
 ```
 
-### Blockquote (plain)
+### Blockquotes
 
-> Open source is infrastructure. Infrastructure needs funding,
-> maintenance, and community stewardship to survive.
+See [Blockquotes](#blockquotes) above for full examples. Quick render check:
+
+```markdown
+> Good research software is built for the people who use it.
+```
+
+> Good research software is built for the people who use it.
 
 ### Tables
 

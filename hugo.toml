@@ -85,8 +85,8 @@ buildFuture = true
   enableFontAwesome = true
 
   [params.theme.fonts]
-    heading = 'Sora'
-    body = 'Inter'
+    heading = 'Poppins'
+    body = 'Nunito Sans'
 
   [params.theme.colors]
     primary = '#2E6060'
