@@ -39,9 +39,6 @@
 {{ $subtitle := $hero.subtitle }}
 {{ $excerpt := $hero.excerpt }}
 {{ $buttons := $hero.buttons }}
-{{ $heroSquareImg := $hero.square_image }}
-{{/* Get hero image using helper partial */}}
-{{ $heroImg := partial "get-image.html" (dict "image" $hero.image "fallbackAlt" ($title | default (printf "Image for %s" .Title))) }}
 
 <section class="hero" style="background-color: {{ $heroColor }};">
   <div class="container">
@@ -63,15 +60,6 @@
           </div>
         {{ end }}
       </div>
-
-    <!-- Right side circle with photo - only render if image exists -->
-    {{- if $heroImg.exists -}}
-      <div class="hero__image-wrapper">
-        <div class="hero__image-container {{ if or $isGallery $heroSquareImg }}hero__image-container-square{{ end }}">
-          <img src="{{ $heroImg.src | relURL }}" alt="{{ $heroImg.alt }}" class="hero__image">
-        </div>
-      </div>
-    {{- end -}}
     </div>
   </div>
 </section>

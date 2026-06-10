@@ -1,0 +1,49 @@
+{{/*
+  Side-by-side image + text row (Jekyll feature_row parity).
+
+  Usage:
+    {{< feature-row layout="left" title="..." image="/images/foo.png"
+        alt="..." buttonUrl="/path/" buttonLabel="Learn more" >}}
+    Markdown body copy here.
+    {{< /feature-row >}}
+
+  layout: left (default), right, or center
+*/}}
+{{ $layout := .Get "layout" | default "left" }}
+{{ $title := .Get "title" }}
+{{ $image := .Get "image" }}
+{{ $alt := .Get "alt" | default "" }}
+{{ $btnUrl := .Get "buttonUrl" }}
+{{ $btnLabel := .Get "buttonLabel" | default "Learn more" }}
+{{ $btnTarget := .Get "buttonTarget" | default "" }}
+{{ $img := partial "get-image.html" (dict "image" (dict "src" $image "alt" $alt) "fallbackAlt" $title "page" .Page) }}
+{{ $base := replaceRE "\\.(jpg|jpeg|png|gif)$" "" $image }}
+{{ $webp := printf "%s.webp" $base }}
+
+<div class="feature-row feature-row--{{ $layout }}">
+  <div class="feature-row__inner">
+    {{ if $img.exists }}
+    <figure class="feature-row__media">
+      <picture>
+        <source srcset="{{ $webp | relURL }}" type="image/webp">
+        <img src="{{ $img.src | relURL }}" alt="{{ $img.alt }}" loading="lazy" decoding="async">
+      </picture>
+    </figure>
+    {{ end }}
+    <div class="feature-row__body">
+      {{ with $title }}<h2 class="feature-row__title">{{ . }}</h2>{{ end }}
+      {{ with .Inner }}
+      <div class="feature-row__content">{{ . | markdownify }}</div>
+      {{ end }}
+      {{ with $btnUrl }}
+      <p class="feature-row__actions">
+        <a class="btn btn--dark-purple"
+           href="{{ . }}"
+           {{- with $btnTarget }} target="{{ . }}" rel="noopener noreferrer"{{ end -}}>
+          {{ $btnLabel }}
+        </a>
+      </p>
+      {{ end }}
+    </div>
+  </div>
+</div>

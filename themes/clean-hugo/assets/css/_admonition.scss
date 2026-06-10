@@ -45,6 +45,28 @@
     font-size: clamp(0.99rem, 2vw, 1rem);
     max-width: none;
     line-height: 1.6;
+
+    .btn {
+      margin-top: 0.75rem;
+    }
+
+    .btn--dark-purple {
+      &,
+      &:hover,
+      &:focus,
+      p {
+        color: var(--color-white);
+      }
+    }
+
+    .btn--green {
+      &,
+      &:hover,
+      &:focus,
+      p {
+        color: var(--color-gray-900);
+      }
+    }
   }
 
   /* Admonition Type Variants */

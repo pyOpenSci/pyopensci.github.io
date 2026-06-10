@@ -1,0 +1,34 @@
+{{/*
+  Connect-with-pyos callout — migrated from Jekyll _includes/connect-with-pyos.html
+*/}}
+{{ $social := .Site.Params.social | default dict }}
+
+<div class="admonition admonition--info connect-with-pyos">
+  <div class="admonition__icon">
+    <i class="fa-solid fa-users-line" aria-hidden="true"></i>
+  </div>
+  <div class="admonition__content">
+    <div class="admonition__title">Connect with us!</div>
+    <div class="admonition__body">
+      <p>There are many ways to get involved if you're interested!</p>
+      <ul>
+        <li>If you read through our lessons and want to suggest changes, open an issue in our <a href="https://github.com/pyOpenSci/lessons">lessons repository</a></li>
+        <li><a href="https://forms.gle/GHfxvmS47nQFDcBM6">Volunteer to be a reviewer</a> for pyOpenSci's software review process</li>
+        <li><a href="https://www.pyopensci.org/software-peer-review/how-to/author-guide.html#submit-your-package-for-peer-review">Submit a Python package</a> to pyOpenSci for peer review</li>
+        <li><a href="https://give.communityin.org/pyopensci_2024">Donate to pyOpenSci</a> to support scholarships for future training events and the development of new learning content</li>
+        <li>Check out our <a href="/volunteer/">volunteer page</a> for other ways to get involved</li>
+        <li>Explore our <a href="https://www.pyopensci.org/python-package-guide/">Python Package Guide</a> for comprehensive packaging guidance</li>
+        <li>Keep an eye on our <a href="/events/">events page</a> for upcoming training events</li>
+      </ul>
+      <p><strong>Follow us:</strong></p>
+      <ul>
+        {{ with $social.mastodon }}<li><a href="{{ . }}"><i class="fa-brands fa-mastodon" aria-hidden="true"></i> Mastodon</a></li>{{ end }}
+        {{ with $social.bluesky }}<li><a href="{{ . }}"><i class="fa-solid fa-cloud" aria-hidden="true"></i> Bluesky</a></li>{{ end }}
+        {{ with $social.linkedin }}<li><a href="{{ . }}"><i class="fa-brands fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>{{ end }}
+        {{ with $social.github }}<li><a href="{{ . }}"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a></li>{{ end }}
+        {{ with $social.youtube }}<li><a href="{{ . }}"><i class="fa-brands fa-youtube" aria-hidden="true"></i> YouTube</a></li>{{ end }}
+      </ul>
+      <p>If you are on LinkedIn, check out and <a href="https://www.linkedin.com/newsletters/7179551305344933888/?displayConfirmation=true">subscribe to our newsletter</a>.</p>
+    </div>
+  </div>
+</div>

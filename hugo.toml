@@ -137,69 +137,101 @@ buildFuture = true
   url = 'https://give.communityin.org/pyopensci_2024'
   variant = 'dark-purple'
 
-# Main nav — Training + Research Software + Our Community live; Support Us
-# still uses '#' until ways-to-give and volunteer pages land.
-
-[[menu.main]]
-  name = 'Training'
-  weight = 10
-
-[[menu.main]]
-  name = 'For Learners'
-  url = '/learn/'
-  parent = 'Training'
-  weight = 1
-
-[[menu.main]]
-  name = 'For Universities & Labs'
-  url = '/learn-universities-labs/'
-  parent = 'Training'
-  weight = 2
-
-
-[[menu.main]]
-  name = 'Research Software'
-  weight = 20
+# Main nav — aligned with live Jekyll site (_data/navigation.yml on main).
 
 [[menu.main]]
   name = 'Peer Review'
+  weight = 10
+
+[[menu.main]]
+  name = 'About peer review'
   url = '/about-peer-review/'
-  parent = 'Research Software'
+  parent = 'Peer Review'
   weight = 1
 
 [[menu.main]]
-  name = 'Submit a Package'
+  name = 'How to submit a package'
   url = '/how-to-submit-a-package-to-pyopensci/'
-  parent = 'Research Software'
+  parent = 'Peer Review'
   weight = 2
 
 [[menu.main]]
-  name = 'Our Packages'
-  url = '/python-packages/'
-  parent = 'Research Software'
+  name = 'Community partners'
+  url = '/partners/'
+  parent = 'Peer Review'
   weight = 3
 
 [[menu.main]]
-  name = 'Peer Review Guide'
-  url = 'https://www.pyopensci.org/software-peer-review/'
-  parent = 'Research Software'
+  name = 'Accepted packages'
+  url = '/python-packages/'
+  parent = 'Peer Review'
   weight = 4
-  [menu.main.params]
-    external = true
-    icon = 'fas fa-external-link-alt'
 
 [[menu.main]]
-  name = 'Packaging Guide'
-  url = 'https://www.pyopensci.org/python-package-guide/'
-  parent = 'Research Software'
+  name = 'Peer review guide'
+  url = 'https://www.pyopensci.org/software-peer-review/'
+  parent = 'Peer Review'
   weight = 5
   [menu.main.params]
     external = true
     icon = 'fas fa-external-link-alt'
 
 [[menu.main]]
-  name = 'Community'
+  name = 'Packaging'
+  weight = 20
+
+[[menu.main]]
+  name = 'Packaging resources'
+  url = '/python-packaging-science.html'
+  parent = 'Packaging'
+  weight = 1
+
+[[menu.main]]
+  name = 'Our packages'
+  url = '/python-packages/'
+  parent = 'Packaging'
+  weight = 2
+
+[[menu.main]]
+  name = 'Package Guidebook'
+  url = 'https://www.pyopensci.org/python-package-guide/'
+  parent = 'Packaging'
+  weight = 3
+  [menu.main.params]
+    external = true
+    icon = 'fas fa-external-link-alt'
+
+[[menu.main]]
+  name = 'Learn'
   weight = 30
+
+[[menu.main]]
+  name = 'For Learners'
+  url = '/learn/'
+  parent = 'Learn'
+  weight = 1
+
+[[menu.main]]
+  name = 'For Universities & Labs'
+  url = '/learn-universities-labs/'
+  parent = 'Learn'
+  weight = 2
+
+[[menu.main]]
+  name = 'Blog'
+  url = '/blog/'
+  parent = 'Learn'
+  weight = 3
+
+[[menu.main]]
+  name = 'Events'
+  url = '/events/'
+  parent = 'Learn'
+  weight = 4
+
+[[menu.main]]
+  name = 'Community'
+  weight = 40
 
 [[menu.main]]
   name = 'Our Community'
@@ -207,41 +239,29 @@ buildFuture = true
   parent = 'Community'
   weight = 1
   [menu.main.params]
-    icon = 'fa-solid fa-users'
-
-[[menu.main]]
-  name = 'Blog'
-  url = '/blog/'
-  parent = 'Community'
-  weight = 2
-
-[[menu.main]]
-  name = 'Events'
-  url = '/events/'
-  parent = 'Community'
-  weight = 3
+    icon = 'fa-brands fa-discourse'
 
 [[menu.main]]
   name = 'Handbook'
   url = 'https://www.pyopensci.org/handbook/'
   parent = 'Community'
-  weight = 4
+  weight = 2
   [menu.main.params]
     external = true
     icon = 'fas fa-external-link-alt'
 
 [[menu.main]]
   name = 'Support Us'
-  weight = 40
+  weight = 50
 
 [[menu.main]]
   name = 'Ways to Give'
-  url = '#'
+  url = '/ways-to-give/'
   parent = 'Support Us'
   weight = 1
 
 [[menu.main]]
   name = 'Volunteer'
-  url = '#'
+  url = '/volunteer/'
   parent = 'Support Us'
   weight = 2

@@ -1,0 +1,20 @@
+{{/*
+  Show the most recently added community contributors (default limit: 3).
+  Usage: {{< recent-contributors >}} or {{< recent-contributors limit="3" >}}
+*/}}
+{{ $limit := .Get "limit" | default 3 | int }}
+{{ $contributors := .Site.Data.contributors | default slice }}
+{{ $sorted := sort $contributors "date_added" "desc" }}
+{{ $recent := first $limit $sorted }}
+{{ $total := len $contributors }}
+
+<p>
+  pyOpenSci has a diverse and vibrant community of pythonistas! To date,
+  <strong>{{ $total }}</strong> wonderful people have contributed to pyOpenSci.
+</p>
+
+<div class="people-grid people-grid--recent">
+  {{ range $recent }}
+    {{ partial "people/card.html" . }}
+  {{ end }}
+</div>

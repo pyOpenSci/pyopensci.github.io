@@ -24,6 +24,6 @@ Packages listed here have been accepted into the pyOpenSci ecosystem through our
 
 To view packages affiliated with our partner communities, use the Astropy
 partner link above the filters or visit our
-[community partners section](/about-peer-review/#community-partners).
+[community partners section](/partners/).
 
 [Learn how to submit a package for review](/how-to-submit-a-package-to-pyopensci/).

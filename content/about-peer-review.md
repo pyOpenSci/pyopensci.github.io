@@ -2,8 +2,6 @@
 title: "Open peer review makes research software better and easier to trust"
 layout: splash
 url: /about-peer-review/
-aliases:
-  - /partners.html
 description: >-
   Our open peer review process makes scientific software better and easier to
   discover. Volunteer editors and reviewers support maintainers across the
@@ -13,12 +11,10 @@ hero:
   excerpt: >-
     Our open peer review process makes scientific software better and easier to
     discover.
-  image:
-    src: images/headers/pyos-peer-review-header.png
-    alt: "Illustration representing pyOpenSci software peer review."
 ---
 
-pyOpenSci runs a community-driven peer review process for scientific Python packages — improving code quality, documentation, and long-term maintainability.
+pyOpenSci runs a community-driven peer review process for scientific Python
+packages — improving code quality, documentation, and long-term maintainability.
 
 {{< button href="/python-packages/" variant="dark-purple" icon="arrow-right" iconPosition="right" >}}
 Check out accepted packages
@@ -27,23 +23,21 @@ Check out accepted packages
 ## Why peer review
 
 ### Scientists need trusted, vetted software
-Software peer review — like the review of scientific papers — vets code, documentation, and infrastructure. Our process is open, transparent, and run by dedicated volunteers with a shared goal: making scientific software more usable and maintainable. Reviews are supportive by design, with feedback from diverse scientific and technical backgrounds.
 
-
-
-
+Software peer review — like the review of scientific papers — vets code,
+documentation, and infrastructure. Our process is open, transparent, and run
+by dedicated volunteers with a shared goal: making scientific software more
+usable and maintainable. Reviews are supportive by design, with feedback from
+diverse scientific and technical backgrounds.
 
 {{< admonition type="info" title="pyOpenSci + JOSS" >}}
-Submit once. Get accepted into the pyOpenSci ecosystem and — if in scope — published in JOSS. You don't have to choose between us.
+Submit once. Get accepted into the pyOpenSci ecosystem and — if in scope —
+published in JOSS. You don't have to choose between us.
 
-Learn more about our JOSS partnership
 {{< button href="https://www.pyopensci.org/software-peer-review/partners/joss.html" variant="dark-purple" target="_blank" >}}
 Learn more about our JOSS partnership
 {{< /button >}}
-
 {{< /admonition >}}
-
-********
 
 {{< admonition type="info" title="Volunteer editors needed" >}}
 pyOpenSci is growing, and we need volunteer editors to keep supporting
@@ -55,10 +49,15 @@ you are new to the role.
 or read the [Editor Guide](https://www.pyopensci.org/software-peer-review/how-to/editors-guide.html).
 {{< /admonition >}}
 
-{{% swoosh_section background="purple" swoosh="bottom" %}}
+{{< swoosh_section background="purple" swoosh="bottom" >}}
 
-## How Python software peer review works
-
+{{< feature-row layout="left"
+    title="How Python software peer review works"
+    image="/images/landing-pages/peer-review-people.png"
+    alt="A pencil sketch of people from different backgrounds working together at a round table."
+    buttonUrl="https://www.pyopensci.org/software-peer-review/our-process/review-timeline.html"
+    buttonLabel="Learn about the peer review timeline and roles"
+    buttonTarget="_blank" >}}
 Software peer review, similar to the review of scientific papers, is a process
 where scientists vet software code, documentation, and infrastructure. pyOpenSci
 leads an [open peer review process](https://www.pyopensci.org/software-peer-review/our-process/how-review-works.html)
@@ -66,47 +65,48 @@ run by a community of dedicated volunteers. Reviews are supportive and fully
 transparent with the shared goal of improving the quality, usability, and
 maintainability of the software that is driving open science.
 
-Diverse teams lead each review, enhancing the overall feedback quality.
+* Diverse teams lead each review, enhancing the overall feedback quality.
+{{< /feature-row >}}
 
-{{< figure src="/images/landing-pages/peer-review-people.png" alt="A pencil sketch of people from different backgrounds working together at a round table." caption="Peer review is led by volunteer editors and reviewers from across the scientific Python community." >}}
+{{< feature-row layout="left"
+    title="Get a fast-track JOSS publication"
+    image="/images/landing-pages/pyopensci-joss-partners.png"
+    alt="Diagram showing pyOpenSci and JOSS partnership."
+    buttonUrl="https://www.pyopensci.org/software-peer-review/partners/joss.html"
+    buttonLabel="Learn more about our JOSS partnership"
+    buttonTarget="_blank" >}}
+Our partnership with JOSS means that you don't have to choose between pyOpenSci
+and JOSS. Simply submit your package to pyOpenSci for review. If your package
+is accepted and in scope for JOSS, it will be fast-tracked through JOSS'
+review process.
+{{< /feature-row >}}
 
-{{< button href="https://www.pyopensci.org/software-peer-review/our-process/review-timeline.html" variant="dark-purple" target="_blank" >}}
-Learn about the peer review timeline and roles
-{{< /button >}}
-
-{{< figure src="/images/landing-pages/pyopensci-joss-partners.png" alt="Diagram showing pyOpenSci and JOSS partnership." caption="Our partnership with JOSS means you do not have to choose between pyOpenSci and JOSS." >}}
-
-{{< button href="https://www.pyopensci.org/software-peer-review/partners/joss.html" variant="dark-purple" target="_blank" >}}
-Learn more about our JOSS partnership
-{{< /button >}}
-
-{{% /swoosh_section %}}
+{{< /swoosh_section >}}
 
 <div class="container">
 
-## Scientists need trusted and vetted software
-
+{{< feature-row layout="right"
+    title="Scientists need trusted and vetted software"
+    image="/images/landing-pages/trusted-python-software.png"
+    alt="Illustration of scientists collaborating around trusted Python tools."
+    buttonUrl="/partners/"
+    buttonLabel="Learn more about scientific Python community partnerships" >}}
 Through our partnerships with domain-specific communities, our catalog of
 trusted tools for scientists across domains continues to grow.
+{{< /feature-row >}}
 
-{{< figure src="/images/landing-pages/trusted-python-software.png" alt="Illustration of scientists collaborating around trusted Python tools." >}}
-
-{{< button href="#community-partners" variant="dark-purple" >}}
-Learn more about scientific Python community partnerships
-{{< /button >}}
-
-## Peer review benefits open source maintainers
-
+{{< feature-row layout="right"
+    title="Peer review benefits open source maintainers"
+    image="/images/landing-pages/peer-review-supports-maintainers.png"
+    alt="Illustration of maintainers supported through peer review."
+    buttonUrl="https://www.pyopensci.org/software-peer-review/about/benefits.html"
+    buttonLabel="Learn more about the benefits of peer review"
+    buttonTarget="_blank" >}}
 The pyOpenSci peer review process multiplies shared knowledge, making it easier
 for Pythonistas of all levels to accomplish challenging tasks, such as navigating
 the Python packaging ecosystem. Our diverse community supports scientific
 package maintainers in their efforts to develop and build robust software.
-
-{{< figure src="/images/landing-pages/peer-review-supports-maintainers.png" alt="Illustration of maintainers supported through peer review." >}}
-
-{{< button href="https://www.pyopensci.org/software-peer-review/about/benefits.html" variant="dark-purple" target="_blank" >}}
-Learn more about the benefits of peer review
-{{< /button >}}
+{{< /feature-row >}}
 
 </div>
 
@@ -152,27 +152,29 @@ How to submit a package
 
 {{< recent-packages limit="3" >}}
 
-{{% swoosh_section background="purple" swoosh="bottom" %}}
+{{< swoosh_section background="purple" swoosh="bottom" >}}
 
-## Community partners {#community-partners}
+{{< section-heading title="Community partners" id="community-partners" subtitle="Domain-specific communities can partner with pyOpenSci to leverage our peer review process and Python packaging guidelines — without building a separate review program from scratch." >}}
 
-Domain-specific communities can partner with pyOpenSci to leverage our peer
-review process and Python packaging guidelines — without building a separate
-review program from scratch.
+{{< feature-row layout="left"
+    image="/images/peer-review/peer-review-partners-process.png"
+    alt="Diagram showing submit, review, and accepted steps for community-affiliated packages."
+    buttonUrl="https://www.pyopensci.org/software-peer-review/partners/scientific-communities.html"
+    buttonLabel="Learn how community partnerships work"
+    buttonTarget="_blank" >}}
+Community partnerships add a domain-specific layer to our open peer review
+process.
+{{< /feature-row >}}
 
-{{< figure src="/images/peer-review/peer-review-partners-process.png" alt="Diagram showing submit, review, and accepted steps for community-affiliated packages." caption="Community partnerships add a domain-specific layer to our open peer review process." >}}
-
-{{< button href="https://www.pyopensci.org/software-peer-review/partners/scientific-communities.html" variant="dark-purple" target="_blank" >}}
-Learn how community partnerships work
-{{< /button >}}
-
-{{< figure src="/images/peer-review/pyos-partnerships-peer-review.png" alt="Diagram showing pyOpenSci acceptance leading to JOSS publication and community affiliation." >}}
-
+{{< feature-row layout="left"
+    image="/images/peer-review/pyos-partnerships-peer-review.png"
+    alt="Diagram showing pyOpenSci acceptance leading to JOSS publication and community affiliation." >}}
 Through a single review process, community maintainers can have their package
 accepted into the pyOpenSci ecosystem, [published in JOSS (if in scope)](https://www.pyopensci.org/software-peer-review/partners/joss.html),
 and affiliated with your community following your guidelines.
+{{< /feature-row >}}
 
-{{% /swoosh_section %}}
+{{< /swoosh_section >}}
 
 <div class="container">
 
@@ -200,11 +202,13 @@ including:
 Learn more about our partnerships
 {{< /button >}}
 
-{{< figure src="/images/landing-pages/women-collaborating.png" alt="A pencil sketch of women collaborating around a laptop." >}}
-
+{{< feature-row layout="right"
+    image="/images/landing-pages/women-collaborating.png"
+    alt="A pencil sketch of women collaborating around a laptop." >}}
 Partnering with pyOpenSci connects you to packaging experts, open science
 enthusiasts, and Pythonistas who can help with maintenance transitions when
 needed.
+{{< /feature-row >}}
 
 {{< button href="/our-community/" variant="outline" >}}
 Explore our community contributors
