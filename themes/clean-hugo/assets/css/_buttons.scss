@@ -1,34 +1,28 @@
-/* ============================================
-   Button Components
-   Unified button system for the Clean Hugo theme
-   ============================================ */
+/*
+  Buttons — pyOpenSci brand variants
+  Adjust light-fill mix ratios below (higher = more color, lower = more white).
+*/
+$btn-green-mix: 55%;
+$btn-light-purple-mix: 65%;
 
-/* Base button styles - shared by all button types */
+/* Base */
 .btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-
-  /* Spacing */
   padding: 0.75rem 1.5rem;
-
-  /* Typography */
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 1.3rem;
   text-decoration: none;
   text-align: center;
   line-height: 1.4;
-
-  /* Visual */
   border-radius: $radius-lg;
-  border: none;
+  border: $btn-bd solid transparent;
   cursor: pointer;
+  transition: transform $transition-base ease, box-shadow $transition-base ease,
+    background-color $transition-base ease, color $transition-base ease;
 
-  /* Transitions */
-  transition: all $transition-base ease;
-
-  /* Interaction states */
   &:hover {
     transform: translateY(-1px);
     box-shadow: $shadow-md;
@@ -49,44 +43,119 @@
     transform: none;
     box-shadow: none;
   }
+
+  p {
+    margin: 0;
+    color: inherit;
+  }
 }
 
-/* ============================================
-   Button Variants - Color Schemes
-   ============================================ */
-
-/* Primary button - main CTA color */
-.btn--primary {
-  background-color: var(--color-primary);
+/* Dark purple fill — main CTA */
+.btn--dark-purple {
+  background-color: var(--color-brand-purple);
   color: var(--color-white);
 
-  &:hover {
-    background-color: var(--color-primary-dark);
+  &,
+  &:hover,
+  &:focus,
+  p {
     color: var(--color-white);
   }
 
+  &:hover {
+    background-color: var(--color-brand-purple-dark);
+  }
+
   &:focus {
-    box-shadow: 0 0 0 2px var(--color-white), 0 0 0 4px var(--color-primary);
+    box-shadow: 0 0 0 2px var(--color-white), 0 0 0 4px var(--color-brand-purple);
   }
 }
 
-/* Secondary button - outlined style */
-.btn--secondary {
+/* White fill — dark purple text */
+.btn--white {
+  background-color: var(--color-white);
+  color: var(--color-brand-purple);
+
+  &:hover {
+    background-color: var(--color-gray-50);
+    color: var(--color-brand-purple);
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 2px var(--color-white), 0 0 0 4px var(--color-brand-purple);
+  }
+}
+
+/* Light green fill — black text, mixed with white for contrast */
+.btn--green {
+  background-color: color-mix(
+    in srgb,
+    var(--color-admonition-success) $btn-green-mix,
+    var(--color-white)
+  );
+  color: var(--color-gray-900);
+
+  &:hover {
+    background-color: color-mix(
+      in srgb,
+      var(--color-admonition-success) calc($btn-green-mix + 10%),
+      var(--color-white)
+    );
+    color: var(--color-gray-900);
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 2px var(--color-white),
+      0 0 0 4px var(--color-admonition-success);
+  }
+}
+
+/* Light purple fill — black text, mixed with white for contrast */
+.btn--light-purple {
+  background-color: color-mix(
+    in srgb,
+    var(--color-light-purple) $btn-light-purple-mix,
+    var(--color-white)
+  );
+  color: var(--color-gray-900);
+
+  &:hover {
+    background-color: color-mix(
+      in srgb,
+      var(--color-light-purple) calc($btn-light-purple-mix + 10%),
+      var(--color-white)
+    );
+    color: var(--color-gray-900);
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 2px var(--color-white),
+      0 0 0 4px var(--color-brand-medium-purple);
+  }
+}
+
+/* Outline — medium purple border, dark purple text */
+.btn--outline {
   background-color: transparent;
-  color: var(--color-primary);
-  border: $btn-bd-thin solid var(--color-primary);
+  color: var(--color-brand-purple);
+  border-color: var(--color-brand-medium-purple);
 
   &:hover {
-    background-color: var(--color-primary);
-    color: var(--color-white);
+    background-color: color-mix(
+      in srgb,
+      var(--color-brand-medium-purple) 12%,
+      transparent
+    );
+    color: var(--color-brand-purple);
   }
 
   &:focus {
-    box-shadow: 0 0 0 2px var(--color-white), 0 0 0 4px var(--color-primary);
+    box-shadow: 0 0 0 2px var(--color-white),
+      0 0 0 4px var(--color-brand-medium-purple);
   }
 }
 
-/* Outline on dark hero backgrounds (white border / white text) */
+/* Hero — white outline on dark purple backgrounds */
 .btn--outline-on-dark {
   background-color: transparent;
   color: var(--color-white);
@@ -95,89 +164,22 @@
   &:hover {
     background-color: color-mix(in srgb, var(--color-white) 12%, transparent);
     color: var(--color-white);
-    box-shadow: none;
-    transform: translateY(-1px);
   }
 
   &:focus {
-    box-shadow: 0 0 0 2px var(--color-primary-dark), 0 0 0 4px var(--color-white);
+    box-shadow: 0 0 0 2px var(--color-brand-purple-dark),
+      0 0 0 4px var(--color-white);
   }
 }
 
-/* Outline on light tinted panels (dark border / dark text) */
-.btn--outline-on-light {
-  background-color: transparent;
-  color: var(--color-primary-dark);
-  border: $btn-bd solid var(--color-primary-dark);
-
-  &:hover {
-    background-color: color-mix(in srgb, var(--color-primary-dark) 8%, transparent);
-    color: var(--color-primary-dark);
-    box-shadow: none;
-    transform: translateY(-1px);
-  }
-
-  &:focus {
-    box-shadow: 0 0 0 2px var(--color-white), 0 0 0 4px var(--color-primary-dark);
-  }
-}
-
-/* Accent button - for special actions */
-.btn--accent {
-  background-color: var(--color-accent);
-  color: var(--color-white);
-
-  &:hover {
-    opacity: 0.9;
-    color: var(--color-white);
-  }
-
-  &:focus {
-    box-shadow: 0 0 0 2px var(--color-white), 0 0 0 4px var(--color-accent);
-  }
-}
-
-/* Neutral/Ghost button - subtle variant */
-.btn--neutral {
-  background-color: var(--color-neutral);
-  color: var(--color-white);
-
-  &:hover {
-    opacity: 0.9;
-    color: var(--color-white);
-  }
-
-  &:focus {
-    box-shadow: 0 0 0 2px var(--color-white), 0 0 0 4px var(--color-neutral);
-  }
-}
-
-/* ============================================
-   Button Sizes
-   ============================================ */
-
-/* Small button */
-.btn--sm {
-  padding: 0.5rem 1rem;
-  font-size: 0.875rem;
-}
-
-/* Large button */
-.btn--lg {
+/* Large */
+.btn--lg,
+.btn--large {
   padding: 1rem 2rem;
   font-size: 1.125rem;
 }
 
-/* Full width button */
-.btn--full {
-  width: 100%;
-  display: flex;
-}
-
-/* ============================================
-   Button Groups & Spacing
-   ============================================ */
-
+/* Groups */
 .btn-group {
   display: flex;
   gap: 1rem;
@@ -191,7 +193,6 @@
     justify-content: flex-end;
   }
 
-  /* Responsive stacking */
   @media (max-width: $breakpoint-sm) {
     flex-direction: column;
 
@@ -201,19 +202,34 @@
   }
 }
 
-/* ============================================
-   Icon Buttons
-   ============================================ */
-
-/* Button with icon */
+/* Icons */
 .btn--icon {
   i, svg {
     flex-shrink: 0;
   }
 }
 
-/* Icon-only button (square) */
-.btn--icon-only {
-  padding: 0.75rem;
-  aspect-ratio: 1;
+/* Legacy aliases — remove when content is fully migrated */
+.btn--primary {
+  @extend .btn--dark-purple;
+}
+
+.btn--secondary {
+  @extend .btn--outline;
+}
+
+.btn--accent {
+  @extend .btn--green;
+}
+
+.btn--success {
+  @extend .btn--green;
+}
+
+.btn--info {
+  @extend .btn--dark-purple;
+}
+
+.btn--outline-on-light {
+  @extend .btn--outline;
 }

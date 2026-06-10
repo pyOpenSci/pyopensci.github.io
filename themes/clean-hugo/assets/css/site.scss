@@ -179,7 +179,7 @@ xl: 1280px
   }
 
   /* Links - base styles (can be overridden in components) */
-  a {
+  a:not(.btn) {
     transition: color 0.2s;
     color: var(--color-link);
 

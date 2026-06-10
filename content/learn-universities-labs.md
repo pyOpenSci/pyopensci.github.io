@@ -83,7 +83,7 @@ From emerging open source communities to established research software
 programs, pyOpenSci offers training and partnership opportunities at every
 stage.
 
-{{< button href="mailto:media@pyopensci.org?subject=pyOpenSci%20university%20membership%20inquiry" variant="primary" size="lg" >}}
+{{< button href="mailto:media@pyopensci.org?subject=pyOpenSci%20university%20membership%20inquiry" variant="dark-purple" size="lg" >}}
 Request program details
 {{< /button >}}
 

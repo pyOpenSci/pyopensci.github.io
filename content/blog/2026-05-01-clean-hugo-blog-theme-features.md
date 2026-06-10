@@ -298,42 +298,96 @@ Parameters:
 
 ## Buttons
 
-The `button` shortcode renders a styled CTA link. It supports four
-variants, two sizes, and optional Font Awesome icons.
+The `button` shortcode renders a styled CTA link. Variants use pyOpenSci
+brand colors. Default and large (`size="lg"`) sizes are supported.
 
-**Usage:**
+**Dark purple:**
 
 ```
-{{</* button href="/blog/" variant="primary" icon="arrow-right" iconPosition="right" */>}}
-Read the blog
+{{</* button href="/blog/" variant="dark-purple" */>}}
+Dark purple
 {{</* /button */>}}
 ```
 
-**Variants:**
+{{< button href="/blog/" variant="dark-purple" >}}Dark purple{{< /button >}}
 
-{{< button href="/blog/" variant="primary" >}}Primary{{< /button >}}
+**White:**
 
-{{< button href="/blog/" variant="secondary" >}}Secondary{{< /button >}}
+```
+{{</* button href="/blog/" variant="white" */>}}
+White
+{{</* /button */>}}
+```
 
-{{< button href="/blog/" variant="accent" >}}Accent{{< /button >}}
+{{< button href="/blog/" variant="white" >}}White{{< /button >}}
 
-{{< button href="/blog/" variant="neutral" >}}Neutral{{< /button >}}
+**Green:**
+
+```
+{{</* button href="/blog/" variant="green" */>}}
+Green
+{{</* /button */>}}
+```
+
+{{< button href="/blog/" variant="green" >}}Green{{< /button >}}
+
+**Light purple:**
+
+```
+{{</* button href="/blog/" variant="light-purple" */>}}
+Light purple
+{{</* /button */>}}
+```
+
+{{< button href="/blog/" variant="light-purple" >}}Light purple{{< /button >}}
+
+**Outline:**
+
+```
+{{</* button href="/blog/" variant="outline" */>}}
+Outline
+{{</* /button */>}}
+```
+
+{{< button href="/blog/" variant="outline" >}}Outline{{< /button >}}
+
+**Large:**
+
+```
+{{</* button href="/blog/" variant="dark-purple" size="lg" */>}}
+Large button
+{{</* /button */>}}
+```
+
+{{< button href="/blog/" variant="dark-purple" size="lg" >}}Large button{{< /button >}}
 
 **With icon (right):**
 
-{{< button href="/blog/" variant="primary" icon="arrow-right" iconPosition="right" >}}Continue reading{{< /button >}}
+```
+{{</* button href="/blog/" variant="dark-purple" icon="arrow-right" iconPosition="right" */>}}
+Continue reading
+{{</* /button */>}}
+```
+
+{{< button href="/blog/" variant="dark-purple" icon="arrow-right" iconPosition="right" >}}Continue reading{{< /button >}}
 
 **With icon (left):**
 
-{{< button href="https://github.com/pyOpenSci" variant="secondary" icon="github" target="_blank" >}}View on GitHub{{< /button >}}
+```
+{{</* button href="https://github.com/pyOpenSci" variant="outline" icon="github" target="_blank" */>}}
+View on GitHub
+{{</* /button */>}}
+```
+
+{{< button href="https://github.com/pyOpenSci" variant="outline" icon="github" target="_blank" >}}View on GitHub{{< /button >}}
 
 Parameters:
 
 | Param | Default | Description |
 |---|---|---|
 | `href` | `#` | Link URL |
-| `variant` | `primary` | `primary`, `secondary`, `accent`, `neutral` |
-| `size` | — | `sm`, `lg`, `full` |
+| `variant` | `dark-purple` | `dark-purple`, `white`, `green`, `light-purple`, `outline` |
+| `size` | — | `lg` (optional) |
 | `icon` | — | Font Awesome icon name (without `fa-`) |
 | `iconPosition` | `left` | `left` or `right` |
 | `target` | — | `_blank` for external links |

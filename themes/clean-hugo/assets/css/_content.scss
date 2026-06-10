@@ -14,14 +14,17 @@
   line-height: 1.625;
   color: var(--color-gray-700);
 
-  /* Shared link styling */
-  a {
-    color: var(--color-link);
-    &:hover,
-    &:focus {
-      color: var(--color-link-hover);
-    }
+/* Content links — exclude buttons (variant colors live in _buttons.scss) */
+.content-main a:not(.btn),
+.splash-page__content a:not(.btn),
+.prose-content a:not(.btn) {
+  color: var(--color-link);
+
+  &:hover,
+  &:focus {
+    color: var(--color-link-hover);
   }
+}
 
   /* Shared code styling */
   pre {

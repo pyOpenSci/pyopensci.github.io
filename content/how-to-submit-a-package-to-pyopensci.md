@@ -29,7 +29,7 @@ maintainability, and usability. pyOpenSci accepted packages:
 * Benefit from increased community visibility
 * Can be fast-tracked for publication in [Journal of Open Source Software (JOSS)](https://www.pyopensci.org/software-peer-review/partners/joss.html) through our end-to-end review
 
-{{< button href="https://www.pyopensci.org/software-peer-review/about/benefits.html" variant="primary" target="_blank" >}}
+{{< button href="https://www.pyopensci.org/software-peer-review/about/benefits.html" variant="dark-purple" target="_blank" >}}
 Learn more about the benefits of our peer review process
 {{< /button >}}
 
@@ -53,7 +53,7 @@ the [**pyOpenSci software submission repository**](https://github.com/pyopensci/
 Our review process is **open, constructive, and focused on improving your
 software for others to use**.
 
-{{< button href="https://www.pyopensci.org/software-peer-review/how-to/author-guide.html" variant="primary" target="_blank" >}}
+{{< button href="https://www.pyopensci.org/software-peer-review/how-to/author-guide.html" variant="dark-purple" target="_blank" >}}
 Read our Author Guide for an overview of the process
 {{< /button >}}
 
@@ -119,7 +119,7 @@ packaging requirements, it is time to submit it for review:
 3. <a id="submission-type"></a> **Select the appropriate issue template**
 4. **Complete the issue form** and submit it
 
-{{< button href="https://github.com/pyOpenSci/software-submission/issues/new/choose" variant="primary" target="_blank" >}}
+{{< button href="https://github.com/pyOpenSci/software-submission/issues/new/choose" variant="dark-purple" target="_blank" >}}
 Submit your package here
 {{< /button >}}
 

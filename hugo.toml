@@ -135,7 +135,7 @@ buildFuture = true
 [params.nav_button]
   text = 'Donate'
   url = 'https://give.communityin.org/pyopensci_2024'
-  variant = 'primary'
+  variant = 'dark-purple'
 
 # Main nav — Training + Research Software internal pages live; Community +
 # Support Us still use '#' until people + support pages land.

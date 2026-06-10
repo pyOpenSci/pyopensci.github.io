@@ -49,13 +49,13 @@ Diverse teams lead each review, enhancing the overall feedback quality.
 
 {{< figure src="/images/landing-pages/peer-review-people.png" alt="A pencil sketch of people from different backgrounds working together at a round table." caption="Peer review is led by volunteer editors and reviewers from across the scientific Python community." >}}
 
-{{< button href="https://www.pyopensci.org/software-peer-review/our-process/review-timeline.html" variant="primary" target="_blank" >}}
+{{< button href="https://www.pyopensci.org/software-peer-review/our-process/review-timeline.html" variant="dark-purple" target="_blank" >}}
 Learn about the peer review timeline and roles
 {{< /button >}}
 
 {{< figure src="/images/landing-pages/pyopensci-joss-partners.png" alt="Diagram showing pyOpenSci and JOSS partnership." caption="Our partnership with JOSS means you do not have to choose between pyOpenSci and JOSS." >}}
 
-{{< button href="https://www.pyopensci.org/software-peer-review/partners/joss.html" variant="primary" target="_blank" >}}
+{{< button href="https://www.pyopensci.org/software-peer-review/partners/joss.html" variant="dark-purple" target="_blank" >}}
 Learn more about our JOSS partnership
 {{< /button >}}
 
@@ -70,7 +70,7 @@ trusted tools for scientists across domains continues to grow.
 
 {{< figure src="/images/landing-pages/trusted-python-software.png" alt="Illustration of scientists collaborating around trusted Python tools." >}}
 
-{{< button href="#community-partners" variant="primary" >}}
+{{< button href="#community-partners" variant="dark-purple" >}}
 Learn more about scientific Python community partnerships
 {{< /button >}}
 
@@ -83,7 +83,7 @@ package maintainers in their efforts to develop and build robust software.
 
 {{< figure src="/images/landing-pages/peer-review-supports-maintainers.png" alt="Illustration of maintainers supported through peer review." >}}
 
-{{< button href="https://www.pyopensci.org/software-peer-review/about/benefits.html" variant="primary" target="_blank" >}}
+{{< button href="https://www.pyopensci.org/software-peer-review/about/benefits.html" variant="dark-purple" target="_blank" >}}
 Learn more about the benefits of peer review
 {{< /button >}}
 
@@ -99,7 +99,7 @@ We could use your help! Fill out our reviewer form. We will contact you if we
 have a package that needs reviewers. It is OK if you have never reviewed a
 package before — we will walk you through it.
 
-{{< button href="https://forms.gle/GHfxvmS47nQFDcBM6" variant="accent" target="_blank" >}}
+{{< button href="https://forms.gle/GHfxvmS47nQFDcBM6" variant="green" target="_blank" >}}
 Sign up now (Google Form)
 {{< /button >}}
 {{< /card >}}
@@ -108,7 +108,7 @@ Sign up now (Google Form)
 Our software review process is run using GitHub issues. Anyone can check in on
 any part of any review and read the full conversation.
 
-{{< button href="https://github.com/pyOpenSci/software-submission" variant="accent" target="_blank" >}}
+{{< button href="https://github.com/pyOpenSci/software-submission" variant="green" target="_blank" >}}
 See open reviews
 {{< /button >}}
 {{< /card >}}
@@ -118,7 +118,7 @@ See open reviews
 To submit a package, [open an issue in our peer review GitHub repository](https://github.com/pyOpenSci/software-submission/issues/new/choose).
 Learn about the steps in our guidebook or on our [submit a package](/how-to-submit-a-package-to-pyopensci/) page.
 
-{{< button href="/how-to-submit-a-package-to-pyopensci/" variant="primary" >}}
+{{< button href="/how-to-submit-a-package-to-pyopensci/" variant="dark-purple" >}}
 How to submit a package
 {{< /button >}}
 {{< /single-card-wide >}}
@@ -139,7 +139,7 @@ review program from scratch.
 
 {{< figure src="/images/peer-review/peer-review-partners-process.png" alt="Diagram showing submit, review, and accepted steps for community-affiliated packages." caption="Community partnerships add a domain-specific layer to our open peer review process." >}}
 
-{{< button href="https://www.pyopensci.org/software-peer-review/partners/scientific-communities.html" variant="primary" target="_blank" >}}
+{{< button href="https://www.pyopensci.org/software-peer-review/partners/scientific-communities.html" variant="dark-purple" target="_blank" >}}
 Learn how community partnerships work
 {{< /button >}}
 
@@ -173,7 +173,7 @@ including:
 * **Community reviewers** whose expertise spans numerous scientific domains.
 * **Community-driven packaging resources** that drive the peer review process.
 
-{{< button href="https://www.pyopensci.org/software-peer-review/partners/scientific-communities.html" variant="primary" target="_blank" >}}
+{{< button href="https://www.pyopensci.org/software-peer-review/partners/scientific-communities.html" variant="dark-purple" target="_blank" >}}
 Learn more about our partnerships
 {{< /button >}}
 
@@ -183,7 +183,7 @@ Partnering with pyOpenSci connects you to packaging experts, open science
 enthusiasts, and Pythonistas who can help with maintenance transitions when
 needed.
 
-{{< button href="/our-community/" variant="secondary" >}}
+{{< button href="/our-community/" variant="outline" >}}
 Explore our community contributors
 {{< /button >}}
 

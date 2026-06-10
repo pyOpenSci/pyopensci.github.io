@@ -90,7 +90,7 @@ then work through the contribute path:
 
 {{< figure src="/images/learn-graphics/github-collaboration.png" alt="Graphic with a light yellow background about essential collaboration skills for scientists using GitHub, with two people working at laptops." >}}
 
-{{< button href="https://www.pyopensci.org/lessons/contribute-open-source/index.html" variant="accent" size="lg" target="_blank" >}}
+{{< button href="https://www.pyopensci.org/lessons/contribute-open-source/index.html" variant="green" size="lg" target="_blank" >}}
 Open the collaboration lessons
 {{< /button >}}
 
@@ -113,7 +113,7 @@ skills you build here will transform your workflow.
 
 {{< figure src="/images/people/bof-scipy-2025.png" alt="People sitting in a conference room and smiling during a pyOpenSci event." >}}
 
-{{< button href="/events/" variant="accent" >}}
+{{< button href="/events/" variant="green" >}}
 Explore upcoming events
 {{< /button >}}
 
@@ -124,7 +124,7 @@ Explore upcoming events
 Our catalog of vetted open source tools makes it easier for scientists to find
 the trusted tools that they need to develop their open science workflows.
 
-{{< button href="/python-packages/" variant="accent" >}}
+{{< button href="/python-packages/" variant="green" >}}
 View our growing list of accepted scientific Python packages
 {{< /button >}}
 

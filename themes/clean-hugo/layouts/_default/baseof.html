@@ -183,7 +183,7 @@
         {{/* Optional CTA Button */}}
         {{ with .Site.Params.nav_button }}
           <a href="{{ .url }}"
-             class="btn btn--{{ .variant | default "primary" }} site-nav__button{{ with .class }} {{ . }}{{ end }}">
+             class="btn btn--{{ .variant | default "dark-purple" }} site-nav__button{{ with .class }} {{ . }}{{ end }}">
             {{ .text }}
           </a>
         {{ end }}
