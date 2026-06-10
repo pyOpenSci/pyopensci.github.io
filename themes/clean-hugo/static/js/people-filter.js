@@ -10,7 +10,14 @@ document.addEventListener('alpine:init', () => {
     activeFilter: '*',
 
     initPeople(peopleData) {
-      this.people = peopleData || [];
+      if (typeof peopleData === 'string') {
+        try {
+          peopleData = JSON.parse(peopleData);
+        } catch (e) {
+          peopleData = [];
+        }
+      }
+      this.people = Array.isArray(peopleData) ? peopleData : [];
     },
 
     get filteredPeople() {

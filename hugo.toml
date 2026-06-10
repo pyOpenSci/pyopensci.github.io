@@ -137,8 +137,8 @@ buildFuture = true
   url = 'https://give.communityin.org/pyopensci_2024'
   variant = 'dark-purple'
 
-# Main nav — Training + Research Software internal pages live; Community +
-# Support Us still use '#' until people + support pages land.
+# Main nav — Training + Research Software + Our Community live; Support Us
+# still uses '#' until ways-to-give and volunteer pages land.
 
 [[menu.main]]
   name = 'Training'
@@ -203,11 +203,11 @@ buildFuture = true
 
 [[menu.main]]
   name = 'Our Community'
-  url = '#'
+  url = '/our-community/'
   parent = 'Community'
   weight = 1
   [menu.main.params]
-    icon = 'fa-brands fa-discourse'
+    icon = 'fa-solid fa-users'
 
 [[menu.main]]
   name = 'Blog'
