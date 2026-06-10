@@ -20,7 +20,10 @@
 {{- if $inner -}}
 <section class="swoosh-section swoosh-section--{{ $bg }}{{ $docsClass }}">
   <div class="swoosh-section__content">
-    {{ .Inner | .Page.RenderString }}
+    {{/* Use .Inner only — with %}} delimiters Hugo pre-processes markdown
+        and nested shortcodes. RenderString double-processes block HTML
+        (e.g. two-card-row / card) into visible code fences. */}}
+    {{ .Inner }}
   </div>
 </section>
 {{- end -}}

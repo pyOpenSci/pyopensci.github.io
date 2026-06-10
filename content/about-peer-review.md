@@ -1,5 +1,5 @@
 ---
-title: "pyOpenSci makes Python software better and easier to find through peer review"
+title: "Open peer review makes research software better and easier to trust"
 layout: splash
 url: /about-peer-review/
 aliases:
@@ -16,13 +16,34 @@ hero:
   image:
     src: images/headers/pyos-peer-review-header.png
     alt: "Illustration representing pyOpenSci software peer review."
-intro_section:
-  text: >-
-    Our open peer review process makes scientific software better and easier to
-    discover. [Check out our accepted packages.](/python-packages/)
 ---
 
-{{< intro-section >}}
+pyOpenSci runs a community-driven peer review process for scientific Python packages — improving code quality, documentation, and long-term maintainability.
+
+{{< button href="/python-packages/" variant="dark-purple" icon="arrow-right" iconPosition="right" >}}
+Check out accepted packages
+{{< /button >}}
+
+## Why peer review
+
+### Scientists need trusted, vetted software
+Software peer review — like the review of scientific papers — vets code, documentation, and infrastructure. Our process is open, transparent, and run by dedicated volunteers with a shared goal: making scientific software more usable and maintainable. Reviews are supportive by design, with feedback from diverse scientific and technical backgrounds.
+
+
+
+
+
+{{< admonition type="info" title="pyOpenSci + JOSS" >}}
+Submit once. Get accepted into the pyOpenSci ecosystem and — if in scope — published in JOSS. You don't have to choose between us.
+
+Learn more about our JOSS partnership
+{{< button href="https://www.pyopensci.org/software-peer-review/partners/joss.html" variant="dark-purple" target="_blank" >}}
+Learn more about our JOSS partnership
+{{< /button >}}
+
+{{< /admonition >}}
+
+********
 
 {{< admonition type="info" title="Volunteer editors needed" >}}
 pyOpenSci is growing, and we need volunteer editors to keep supporting
@@ -34,7 +55,7 @@ you are new to the role.
 or read the [Editor Guide](https://www.pyopensci.org/software-peer-review/how-to/editors-guide.html).
 {{< /admonition >}}
 
-{{< swoosh_section background="purple" swoosh="bottom" >}}
+{{% swoosh_section background="purple" swoosh="bottom" %}}
 
 ## How Python software peer review works
 
@@ -59,7 +80,7 @@ Learn about the peer review timeline and roles
 Learn more about our JOSS partnership
 {{< /button >}}
 
-{{< /swoosh_section >}}
+{{% /swoosh_section %}}
 
 <div class="container">
 
@@ -91,7 +112,7 @@ Learn more about the benefits of peer review
 
 {{< swoosh_section background="purple" swoosh="top" >}}
 
-## Get involved with software peer review
+{{< section-heading title="Get involved with software peer review" >}}
 
 {{< two-card-row >}}
 {{< card title="Become a pyOpenSci reviewer" icon="fa-solid fa-user-pen" >}}
@@ -115,8 +136,10 @@ See open reviews
 {{< /two-card-row >}}
 
 {{< single-card-wide title="Ready to submit a package for review?" icon="fa-solid fa-rocket" >}}
-To submit a package, [open an issue in our peer review GitHub repository](https://github.com/pyOpenSci/software-submission/issues/new/choose).
-Learn about the steps in our guidebook or on our [submit a package](/how-to-submit-a-package-to-pyopensci/) page.
+To submit a package,
+<a href="https://github.com/pyOpenSci/software-submission/issues/new/choose">open an issue in our peer review GitHub repository</a>.
+Learn about the steps in our guidebook or on our
+<a href="/how-to-submit-a-package-to-pyopensci/">submit a package</a> page.
 
 {{< button href="/how-to-submit-a-package-to-pyopensci/" variant="dark-purple" >}}
 How to submit a package
@@ -129,7 +152,7 @@ How to submit a package
 
 {{< recent-packages limit="3" >}}
 
-{{< swoosh_section background="purple" swoosh="bottom" >}}
+{{% swoosh_section background="purple" swoosh="bottom" %}}
 
 ## Community partners {#community-partners}
 
@@ -149,7 +172,7 @@ Through a single review process, community maintainers can have their package
 accepted into the pyOpenSci ecosystem, [published in JOSS (if in scope)](https://www.pyopensci.org/software-peer-review/partners/joss.html),
 and affiliated with your community following your guidelines.
 
-{{< /swoosh_section >}}
+{{% /swoosh_section %}}
 
 <div class="container">
 

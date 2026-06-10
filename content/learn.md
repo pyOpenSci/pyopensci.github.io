@@ -31,7 +31,7 @@ Are you interested in cohort learning options? Visit our
 page to learn more.
 {{< /admonition >}}
 
-{{< swoosh_section background="purple" swoosh="bottom" >}}
+{{% swoosh_section background="purple" swoosh="bottom" %}}
 
 ## Our process: Community-developed Python tutorials
 
@@ -45,7 +45,7 @@ Our tutorials are created through a multi-stage community review process.
 
 {{< figure src="/images/learn-graphics/community-created.png" alt="Hands holding a sign that says Community Developed on a dark purple background with green decorative elements." >}}
 
-{{< /swoosh_section >}}
+{{% /swoosh_section %}}
 
 <div class="container learn-page__tutorials">
 
@@ -59,7 +59,7 @@ order, but you can always pick a specific topic if you wish to jump around.
 
 </div>
 
-{{< swoosh_section background="purple" swoosh="top" >}}
+{{% swoosh_section background="purple" swoosh="top" %}}
 
 ## Lessons: Collaborative GitHub for Scientists
 
@@ -94,7 +94,7 @@ then work through the contribute path:
 Open the collaboration lessons
 {{< /button >}}
 
-{{< /swoosh_section >}}
+{{% /swoosh_section %}}
 
 <div class="container">
 

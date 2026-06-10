@@ -6,6 +6,15 @@
     <div>
       {{ $intro.text | markdownify }}
     </div>
+    {{ with $intro.button }}
+    <p class="intro-section__cta">
+      <a href="{{ .href | relURL }}"
+         class="btn btn--{{ .variant | default "dark-purple" }} btn--icon">
+        {{ .text }}
+        <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+      </a>
+    </p>
+    {{ end }}
   </div>
 </section>
 {{ end }}

@@ -29,7 +29,7 @@ from open source leaders.
 
 {{< university-benefits-list >}}
 
-{{< swoosh_section background="purple" swoosh="bottom" >}}
+{{% swoosh_section background="purple" swoosh="bottom" %}}
 
 {{< pullquote color="purple" author="Zach Chandler" event="Director, Stanford Open Source Program Office" >}}
 pyOpenSci has proven to be a valuable partner in developing our competencies
@@ -39,7 +39,7 @@ does significant work in Python (which is all universities!) I highly
 recommend getting involved with pyOpenSci.
 {{< /pullquote >}}
 
-{{< /swoosh_section >}}
+{{% /swoosh_section %}}
 
 ## Research software accelerator programs
 
@@ -60,7 +60,7 @@ source. Open doors for your researchers to engage with other Python developers,
 troubleshoot challenges together, and gain ongoing support as they develop
 their scientific open source skills.
 
-{{< swoosh_section background="purple" swoosh="top" >}}
+{{% swoosh_section background="purple" swoosh="top" %}}
 
 ## Don't take our word for it: hear from previous course learners
 
@@ -68,14 +68,14 @@ their scientific open source skills.
 
 *Our current content is the 10-day Ship It: Python Packaging in the GenAI Era course.*
 
-{{< /swoosh_section >}}
+{{% /swoosh_section %}}
 
 ### Beta Partnership packages
 
 We are currently piloting our partnership program to find the best combination
 of resources and events that best support our University partners.
 
-{{< swoosh_section background="purple" swoosh="top" >}}
+{{% swoosh_section background="purple" swoosh="top" %}}
 
 ## Ready to explore a pyOpenSci membership?
 
@@ -93,7 +93,7 @@ pyOpenSci also offers a wide variety of free training resources for individual
 learners. Explore our workshops, webinars, and more on our
 [events page](/events/).
 
-{{< /swoosh_section >}}
+{{% /swoosh_section %}}
 
 ## Why partnering with pyOpenSci matters
 
