@@ -1,6 +1,6 @@
 # pyopensci.github.io
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-54-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-55-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 [![Deploy Jekyll site to Pages](https://github.com/pyOpenSci/pyopensci.github.io/actions/workflows/deploy-gh-pages.yml/badge.svg)](https://github.com/pyOpenSci/pyopensci.github.io/actions/workflows/deploy-gh-pages.yml)
 [![DOI](https://zenodo.org/badge/174412809.svg)](https://zenodo.org/doi/10.5281/zenodo.10594115)
@@ -182,6 +182,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="http://ocefpaf.github.io/python4oceanographers"><img src="https://avatars.githubusercontent.com/u/950575?v=4?s=100" width="100px;" alt="Filipe"/><br /><sub><b>Filipe</b></sub></a><br /><a href="https://github.com/pyOpenSci/pyopensci.github.io/pulls?q=is%3Apr+reviewed-by%3Aocefpaf" title="Reviewed Pull Requests">👀</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/slobentanzer"><img src="https://avatars.githubusercontent.com/u/13223629?v=4?s=100" width="100px;" alt="Sebastian Lobentanzer"/><br /><sub><b>Sebastian Lobentanzer</b></sub></a><br /><a href="https://github.com/pyOpenSci/pyopensci.github.io/pulls?q=is%3Apr+reviewed-by%3Aslobentanzer" title="Reviewed Pull Requests">👀</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/bwhitt7"><img src="https://avatars.githubusercontent.com/u/103079612?v=4?s=100" width="100px;" alt="Britney Whittington"/><br /><sub><b>Britney Whittington</b></sub></a><br /><a href="https://github.com/pyOpenSci/pyopensci.github.io/commits?author=bwhitt7" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://romaincaneill.fr"><img src="https://avatars.githubusercontent.com/u/18579092?v=4?s=100" width="100px;" alt="Romain Caneill"/><br /><sub><b>Romain Caneill</b></sub></a><br /><a href="https://github.com/pyOpenSci/pyopensci.github.io/commits?author=rcaneill" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>
