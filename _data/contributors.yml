@@ -6593,18 +6593,48 @@
     - xnemogcm
   location: Gothenburg, Sweden
   email: c.rollo@outlook.com
+- name: Alexander Hasson
+  github_username: ahasson
+  github_image_id: 22514526
+  title:
+    - Editor
+  sort:
+  bio:
+  organization:
+  date_added: '2026-06-11'
+  deia_advisory: false
+  editorial_board: true
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid: 0000-0003-0815-9203
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - editor
+    - peer-review
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location:
+  email: alexander.hasson@gtc.ox.ac.uk
 - name: Romain Caneill
   github_username: rcaneill
   github_image_id: 18579092
   title:
+    - Editor
   sort:
   bio: Doctor in Physical Oceanography. Studying sea ice, ocean stratif,
-      buoyancy fluxes, nonlinear EOS, with numerical modelling (NextSIM, NEMO)
+      buoyancy fluxes, nonlinear EOS, with numerical modelling (NEMO)
       and observations.
   organization: Institut des Géosciences de l'Environnement
   date_added: '2024-05-07'
   deia_advisory: false
-  editorial_board: false
+  editorial_board: true
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -6615,6 +6645,7 @@
   website: https://romaincaneill.fr
   board: false
   contributor_type:
+    - editor
     - maintainer
     - peer-review
     - reviewer
