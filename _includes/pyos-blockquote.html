@@ -3,10 +3,11 @@
 >
   <p class="quote">{{ include.quote }}</p>
   {% if include.author or include.event %}
-  <footer>
-    {% if include.author %}<strong>~{{ include.author }}{% endif %}</strong>{%
-    if include.event %}, <em>{{ include.event }}</em>{% endif %}
+  <footer class="highlight-quote__cite">
+    <cite>
+      {%- if include.author -%}{{ include.author }}{%- endif -%}
+      {%- if include.author and include.event -%}, {{ include.event }}{%- elsif include.event -%}{{ include.event }}{%- endif -%}
+    </cite>
   </footer>
-  <div class="end"></div>
   {% endif %}
 </blockquote>

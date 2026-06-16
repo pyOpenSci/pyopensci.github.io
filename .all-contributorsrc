@@ -578,6 +578,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "rcaneill",
+      "name": "Romain Caneill",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18579092?v=4",
+      "profile": "http://romaincaneill.fr",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "commitConvention": "angular",

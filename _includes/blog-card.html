@@ -84,7 +84,7 @@
       </p>
 
       {% if card_size == "featured" and include.post.excerpt %}
-        <p class="blog-card__excerpt">{{ include.post.excerpt | strip_html | truncate: 220 }}</p>
+        <p class="blog-card__excerpt">{{ include.post.excerpt | strip_html }}</p>
       {% endif %}
     </div>
   </a>
