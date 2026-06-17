@@ -36,23 +36,32 @@
     </div>
     {{ end }}
   </header>
-<article class="content-container">
 
-
-
-  <!-- Excerpt below banner -->
   {{ with .Params.excerpt }}
   <div class="blog-post__excerpt">
     <p>{{ . | markdownify }}</p>
   </div>
   {{ end }}
 
-  <!-- Main content -->
+<article class="content-container{{ if .Params.toc }} content-container--with-toc{{ end }}">
+
+  {{ if .Params.toc }}
+  <div class="blog-post__layout" data-toc-root>
+    <aside class="blog-post__toc" aria-label="On this page">
+      <p class="blog-post__toc-label">On this page</p>
+      {{- partial "docs-toc.html" . -}}
+    </aside>
+    <div class="content-main" data-toc-content>
+      {{ .Content }}
+      {{ partial "learn-more.html" . }}
+    </div>
+  </div>
+  {{ else }}
   <div class="content-main">
     {{ .Content }}
-
     {{ partial "learn-more.html" . }}
   </div>
+  {{ end }}
 
   <!-- Tags footer -->
   <footer class="blog-post__tags">
@@ -62,4 +71,8 @@
   <!-- Last modified date -->
   {{ partial "last-modified.html" . }}
 </article>
+
+{{ if .Params.toc }}
+<script src="{{ "js/content-toc.js" | relURL }}" defer></script>
+{{ end }}
 {{ end }}

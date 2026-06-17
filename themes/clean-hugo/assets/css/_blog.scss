@@ -249,6 +249,45 @@
   }
 }
 
+/* Optional in-page TOC (toc: true in front matter) */
+.content-container--with-toc {
+  max-width: $container-max-width;
+}
+
+.blog-post__layout {
+  display: grid;
+  gap: 2rem;
+  align-items: start;
+
+  @media (min-width: $breakpoint-lg) {
+    grid-template-columns: 14rem minmax(0, 1fr);
+    gap: 3rem;
+  }
+}
+
+.blog-post__toc {
+  @media (min-width: $breakpoint-lg) {
+    position: sticky;
+    top: 2rem;
+  }
+}
+
+.blog-post__toc-label {
+  font-family: $font-family-heading;
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--color-gray-700);
+  margin: 0 0 0.75rem;
+}
+
+.blog-post__toc .toc-items {
+  padding-left: 0;
+  border-left: none;
+  margin-top: 0;
+}
+
 /* Last modified date for blog posts */
 .content-main + .content-last-modified {
   max-width: 65ch;

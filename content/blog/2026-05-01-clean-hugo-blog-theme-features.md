@@ -11,6 +11,36 @@ excerpt: A living reference for every shortcode and formatting option available 
 author: pyopensci
 toc: true
 blog_topic: community
+intro_section:
+  text: >-
+    Intro sections render a short lead paragraph from page front matter — used
+    below heroes on landing pages.
+cards:
+  - text_only: true
+    title: "Large text card"
+  - modifier: "card--white"
+    icon: "fa-solid fa-mobile-screen"
+    title: "White card with icon"
+    excerpt: "Icon, title, and body text on a white background."
+  - title: "Teal highlight card"
+    icon: "fa-solid fa-code"
+    excerpt: "Default styling uses the primary-light background."
+training_feature:
+  eyebrow: "Demo"
+  badge: "Reference"
+  title: "Training feature strip"
+  excerpt: "Side-by-side image and CTA — used on the home page."
+  button_label: "Browse events"
+  button_url: "/events/"
+  image:
+    src: "images/landing-pages/scipy-sprint-2026.png"
+    alt: "Hands on keyboard at a laptop during a sprint."
+current_project:
+  eyebrow: "Demo"
+  title: "Current project band"
+  excerpt: "Full-width quote block used on the home page."
+  quote: "Good research software is built for the people who use it."
+  cite: "Demo attribution"
 ---
 This post is a living reference for the clean-hugo theme. Every shortcode
 and content-formatting option available in the theme is demonstrated here
@@ -70,6 +100,8 @@ Content with **Markdown** support.
 
 **All five types rendered:**
 
+**Rendered:**
+
 {{< admonition type="note" title="Note (default)" >}}
 Use `type="note"` for general supplementary information. This is the
 default type if you omit the `type` param.
@@ -119,6 +151,8 @@ Good research software is built for the people who use it.
 {{</* /admonition-quote */>}}
 ```
 
+**Rendered:**
+
 {{< admonition-quote type="note" title="Note quote" author="Anonymous" event="AGU 2019 Townhall" >}}
 Good research software is built for the people who use it.
 {{< /admonition-quote >}}
@@ -130,6 +164,8 @@ Good research software is built for the people who use it.
 Good research software is built for the people who use it.
 {{</* /admonition-quote */>}}
 ```
+
+**Rendered:**
 
 {{< admonition-quote type="info" >}}
 Good research software is built for the people who use it.
@@ -143,6 +179,8 @@ Good research software is built for the people who use it.
 {{</* /admonition-quote */>}}
 ```
 
+**Rendered:**
+
 {{< admonition-quote type="warning" title="A community reminder" >}}
 Good research software is built for the people who use it.
 {{< /admonition-quote >}}
@@ -155,6 +193,8 @@ Good research software is built for the people who use it.
 {{</* /admonition-quote */>}}
 ```
 
+**Rendered:**
+
 {{< admonition-quote type="success" author="pyOpenSci community member" >}}
 Good research software is built for the people who use it.
 {{< /admonition-quote >}}
@@ -166,6 +206,8 @@ Good research software is built for the people who use it.
 Good research software is built for the people who use it.
 {{</* /admonition-quote */>}}
 ```
+
+**Rendered:**
 
 {{< admonition-quote type="danger" >}}
 Good research software is built for the people who use it.
@@ -261,6 +303,8 @@ Good research software is built for the people who use it.
 {{</* /pullquote */>}}
 ```
 
+**Rendered:**
+
 {{< pullquote color="teal" author="Anonymous" event="AGU 2019 Townhall" >}}
 Good research software is built for the people who use it.
 {{< /pullquote >}}
@@ -273,6 +317,8 @@ Good research software is built for the people who use it.
 {{</* /pullquote */>}}
 ```
 
+**Rendered:**
+
 {{< pullquote color="magenta" >}}
 Good research software is built for the people who use it.
 {{< /pullquote >}}
@@ -284,6 +330,8 @@ Good research software is built for the people who use it.
 Good research software is built for the people who use it.
 {{</* /pullquote */>}}
 ```
+
+**Rendered:**
 
 {{< pullquote color="purple" author="pyOpenSci community member" >}}
 Good research software is built for the people who use it.
@@ -314,6 +362,8 @@ building a community around solving a specific problem.
 {{</* /feature-quote */>}}
 ```
 
+**Rendered:**
+
 {{< feature-quote cite="Eliot Robson" >}}
 Gen AI solutions remind us that the centerpiece of open-source software is
 building a community around solving a specific problem.
@@ -327,6 +377,8 @@ Good research software is built for the people who use it.
 {{</* /feature-quote */>}}
 ```
 
+**Rendered:**
+
 {{< feature-quote color="teal" cite="Anonymous" >}}
 Good research software is built for the people who use it.
 {{< /feature-quote >}}
@@ -338,6 +390,8 @@ Good research software is built for the people who use it.
 Good research software is built for the people who use it.
 {{</* /feature-quote */>}}
 ```
+
+**Rendered:**
 
 {{< feature-quote color="magenta" >}}
 Good research software is built for the people who use it.
@@ -365,6 +419,8 @@ Dark purple
 {{</* /button */>}}
 ```
 
+**Rendered:**
+
 {{< button href="/blog/" variant="dark-purple" >}}Dark purple{{< /button >}}
 
 **White:**
@@ -374,6 +430,8 @@ Dark purple
 White
 {{</* /button */>}}
 ```
+
+**Rendered:**
 
 {{< button href="/blog/" variant="white" >}}White{{< /button >}}
 
@@ -385,6 +443,8 @@ Green
 {{</* /button */>}}
 ```
 
+**Rendered:**
+
 {{< button href="/blog/" variant="green" >}}Green{{< /button >}}
 
 **Light purple:**
@@ -394,6 +454,8 @@ Green
 Light purple
 {{</* /button */>}}
 ```
+
+**Rendered:**
 
 {{< button href="/blog/" variant="light-purple" >}}Light purple{{< /button >}}
 
@@ -405,6 +467,8 @@ Outline
 {{</* /button */>}}
 ```
 
+**Rendered:**
+
 {{< button href="/blog/" variant="outline" >}}Outline{{< /button >}}
 
 **Large:**
@@ -414,6 +478,8 @@ Outline
 Large button
 {{</* /button */>}}
 ```
+
+**Rendered:**
 
 {{< button href="/blog/" variant="dark-purple" size="lg" >}}Large button{{< /button >}}
 
@@ -425,6 +491,8 @@ Continue reading
 {{</* /button */>}}
 ```
 
+**Rendered:**
+
 {{< button href="/blog/" variant="dark-purple" icon="arrow-right" iconPosition="right" >}}Continue reading{{< /button >}}
 
 **With icon (left):**
@@ -434,6 +502,8 @@ Continue reading
 View on GitHub
 {{</* /button */>}}
 ```
+
+**Rendered:**
 
 {{< button href="https://github.com/pyOpenSci" variant="outline" icon="github" target="_blank" >}}View on GitHub{{< /button >}}
 
@@ -476,6 +546,10 @@ them as listing cards. Use it on any page to surface recent content.
 {{</* blog-list title="Recent posts" limit=3 */>}}
 ```
 
+**Rendered:**
+
+{{< blog-list title="Recent posts" limit=3 >}}
+
 Parameters:
 
 | Param | Default | Description |
@@ -484,24 +558,256 @@ Parameters:
 | `limit` | `3` | Number of posts to display |
 
 
-## Masonry gallery
+## Impact card grid
 
-The `masonry` shortcode creates a responsive photo grid with
-click-to-enlarge lightbox (GLightbox). Write images as standard Markdown
-inside the shortcode.
+The `impact-cards` shortcode renders a responsive card grid from the page
+`cards:` front matter. Card types include image highlights, white icon
+cards, and large `text_only` headline cards. Set `cards_layout: wide` in
+front matter for a three-column desktop grid.
+
+**Usage (front matter + shortcode):**
+
+```yaml
+cards:
+  - text_only: true
+    title: "Large text card"
+  - modifier: "card--white"
+    icon: "fa-solid fa-mobile-screen"
+    title: "White card with icon"
+    excerpt: "Icon, title, and body text."
+  - title: "Teal highlight card"
+    icon: "fa-solid fa-code"
+    excerpt: "Default modifier uses primary-light background."
+```
+
+```
+{{</* impact-cards */>}}
+```
+
+**Rendered** (uses the demo `cards:` on this page):
+
+{{< impact-cards >}}
+
+
+## Feature row
+
+Side-by-side image and text with an optional button. Use on landing pages
+inside swoosh sections.
 
 **Usage:**
 
 ```
-{{</* masonry */>}}
-![Alt text for photo one](images/path/photo1.jpg)
-![Alt text for photo two](images/path/photo2.jpg)
-![Alt text for photo three](images/path/photo3.jpg)
-{{</* /masonry */>}}
+{{</* feature-row layout="left"
+    title="Feature row title"
+    image="/images/landing-pages/scipy-sprint-working.png"
+    alt="Descriptive alt text."
+    buttonUrl="/about-peer-review/"
+    buttonLabel="Learn more" */>}}
+Markdown body copy with **formatting** support.
+{{</* /feature-row */>}}
 ```
 
-Images tile responsively and open full-size in a lightbox when clicked.
-All images in a gallery share navigation arrows in the lightbox view.
+**Rendered:**
+
+{{< feature-row layout="left"
+    title="Feature row example"
+    image="/images/landing-pages/scipy-sprint-working.png"
+    alt="Person working at a laptop during a pyOpenSci sprint."
+    buttonUrl="/about-peer-review/"
+    buttonLabel="About peer review" >}}
+Markdown body copy with **formatting** support. Layout can be `left`,
+`right`, or `center`.
+{{< /feature-row >}}
+
+
+## Swoosh section
+
+Full-width band with optional curved dividers. When nesting other shortcodes
+inside, use Hugo's HTML shortcode form (angle brackets), not the markdown
+shortcode form (percent signs).
+
+**Usage:**
+
+```
+{{</* swoosh_section background="purple" swoosh="bottom" */>}}
+{{</* section-heading title="Inside a swoosh" */>}}
+{{</* /swoosh_section */>}}
+```
+
+**Rendered:**
+
+{{< swoosh_section background="purple" swoosh="bottom" >}}
+{{< section-heading title="Inside a swoosh section" subtitle="Purple background • optional top or bottom curve" >}}
+{{< /swoosh_section >}}
+
+
+## Intro section
+
+Renders `intro_section.text` from page front matter — typically placed
+below a hero on splash pages.
+
+**Usage:**
+
+```yaml
+intro_section:
+  text: "Lead paragraph shown in the intro band."
+```
+
+```
+{{</* intro-section */>}}
+```
+
+**Rendered:**
+
+{{< intro-section >}}
+
+
+## Connect with pyOpenSci
+
+Admonition-style callout with community links and social follow list.
+
+**Usage:**
+
+```
+{{</* connect-with-pyos */>}}
+```
+
+**Rendered:**
+
+{{< connect-with-pyos >}}
+
+
+## Recent contributors
+
+Grid of the most recently added people from `data/contributors.yml`.
+
+**Usage:**
+
+```
+{{</* recent-contributors limit="2" */>}}
+```
+
+**Rendered:**
+
+{{< recent-contributors limit="2" >}}
+
+
+## Recent packages
+
+Grid of recently accepted packages from `data/packages.yml`.
+
+**Usage:**
+
+```
+{{</* recent-packages limit="2" */>}}
+```
+
+**Rendered:**
+
+{{< recent-packages limit="2" >}}
+
+
+## Upcoming events
+
+Event cards from `content/events/` (upcoming dates only).
+
+**Usage:**
+
+```
+{{</* upcoming-events limit="2" */>}}
+```
+
+**Rendered:**
+
+{{< upcoming-events limit="2" >}}
+
+
+## Training feature
+
+Home-page training strip — reads `training_feature` from page front matter.
+
+**Usage:**
+
+```yaml
+training_feature:
+  eyebrow: "Training"
+  badge: "New cohort"
+  title: "Course title"
+  excerpt: "Short description."
+  button_label: "Learn more"
+  button_url: "/events/"
+  image:
+    src: "images/landing-pages/scipy-sprint-2026.png"
+    alt: "Alt text."
+```
+
+```
+{{</* training-feature */>}}
+```
+
+**Rendered:**
+
+{{< training-feature >}}
+
+
+## Current project
+
+Full-width quote band used on the home page — reads `current_project` from
+front matter.
+
+**Usage:**
+
+```yaml
+current_project:
+  eyebrow: "Current project"
+  title: "Headline"
+  excerpt: "Supporting text."
+  quote: "Quote text."
+  cite: "Attribution"
+  button_label: "Get involved"
+  button_url: "/events/"
+```
+
+```
+{{</* current-project */>}}
+```
+
+**Rendered:**
+
+{{< current-project >}}
+
+
+## Editorial board
+
+People grids for editorial board and emeritus editors from
+`data/contributors.yml`. Used on program landing pages.
+
+**Usage:**
+
+```
+{{</* editorial-board */>}}
+```
+
+**Rendered:**
+
+{{< editorial-board >}}
+
+
+## Landing-page shortcodes (reference only)
+
+These shortcodes are used on specific splash pages and require matching
+front matter or site data. They are listed here for completeness; see
+[CONTRIBUTING.md](https://github.com/pyOpenSci/pyopensci.github.io/blob/main/CONTRIBUTING.md)
+for layout details.
+
+| Shortcode | Typical page | Notes |
+|---|---|---|
+| `home-programs-full` | Home | Wraps `impact-cards` with section heading |
+| `partnership-cards` | Partners | Reads `partnership_cards` from front matter |
+| `university-testimonials` | Learn — universities | Testimonial carousel |
+| `university-benefits-list` | Learn — universities | Benefits list partial |
+| `packaging-guide-grid` | Python packaging resources | Static guide links grid |
+| `tutorial-grid` | Python packaging resources | Tutorial cards grid |
 
 
 ## Section heading
@@ -559,6 +865,8 @@ Three card shortcodes are available for structured content blocks.
 
 ### Two-card row
 
+**Usage:**
+
 ```
 {{</* two-card-row */>}}
 {{</* card title="Card one" icon="fa-solid fa-star" */>}}
@@ -569,6 +877,8 @@ Content for the second card.
 {{</* /card */>}}
 {{</* /two-card-row */>}}
 ```
+
+**Rendered:**
 
 {{< two-card-row >}}
 {{< card title="Peer review" icon="fa-solid fa-magnifying-glass" >}}
@@ -584,11 +894,15 @@ package to publishing on PyPI — with tutorials written for scientists.
 
 ### Single card wide
 
+**Usage:**
+
 ```
 {{</* single-card-wide title="Wide card" icon="fa-solid fa-users" */>}}
 Full-width card content here.
 {{</* /single-card-wide */>}}
 ```
+
+**Rendered:**
 
 {{< single-card-wide title="Join the pyOpenSci community" icon="fa-solid fa-users" >}}
 pyOpenSci is a diverse, welcoming community of scientists, developers,
