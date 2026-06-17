@@ -1,6 +1,10 @@
 {{ define "main" }}
 
-{{ partial "hero.html" . }}
+{{ if .Params.header.overlay_image }}
+  {{ partial "section-hero.html" . }}
+{{ else }}
+  {{ partial "hero.html" . }}
+{{ end }}
 
 {{ if .IsHome }}
   {{ partial "home-whats-next.html" (dict "context" .) }}

@@ -11,16 +11,18 @@ description: >-
 
 ## Open source training for university research communities
 
-{{< figure src="/images/people/scipy-sprint-2026.png" alt="A group of contributors sitting at a table at a pyOpenSci sprint working on their laptops and talking to each other." >}}
-
+{{< feature-row layout="right"
+    image="/images/people/scipy-sprint-2026.png"
+    alt="A group of contributors sitting at a table at a pyOpenSci sprint working on their laptops and talking to each other." >}}
 Introduce your research community to the world of open source scientific
 software through pyOpenSci's training and community programs.
 
 Our programs help researchers develop sustainable, reusable code and research
 software while connecting them to the global scientific Python ecosystem.
-Participants gain access to top tier asynchronous training sessions led by
-Python experts, interactive hands on training workshops, and direct support
+Participants gain access to top-tier asynchronous training sessions led by
+Python experts, interactive hands-on training workshops, and direct support
 from open source leaders.
+{{< /feature-row >}}
 
 ### Benefits for universities and research programs
 

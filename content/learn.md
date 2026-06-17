@@ -26,10 +26,12 @@ Are you interested in cohort learning options? Visit our
 page to learn more.
 {{< /admonition >}}
 
-{{% swoosh_section background="purple" swoosh="bottom" %}}
+{{< swoosh_section background="purple" swoosh="bottom" >}}
 
-## Our process: Community-developed Python tutorials
-
+{{< feature-row layout="right"
+    title="Our process: Community-developed Python tutorials"
+    image="/images/learn-graphics/community-created.png"
+    alt="Hands holding a sign that says Community Developed on a dark purple background with green decorative elements." >}}
 Our tutorials are created through a multi-stage community review process.
 
 * Tutorials are developed by the pyOpenSci team or community members.
@@ -37,10 +39,9 @@ Our tutorials are created through a multi-stage community review process.
   accurate.
 * Before publication, tutorials then go through several rounds of community
   review for accuracy, usability and accessibility.
+{{< /feature-row >}}
 
-{{< figure src="/images/learn-graphics/community-created.png" alt="Hands holding a sign that says Community Developed on a dark purple background with green decorative elements." >}}
-
-{{% /swoosh_section %}}
+{{< /swoosh_section >}}
 
 <div class="container learn-page__tutorials">
 
@@ -54,10 +55,15 @@ order, but you can always pick a specific topic if you wish to jump around.
 
 </div>
 
-{{% swoosh_section background="purple" swoosh="top" %}}
+{{< swoosh_section background="purple" swoosh="top" >}}
 
-## Lessons: Collaborative GitHub for Scientists
-
+{{< feature-row layout="right"
+    title="Lessons: Collaborative GitHub for Scientists"
+    image="/images/learn-graphics/github-collaboration.png"
+    alt="Graphic with a light yellow background about essential collaboration skills for scientists using GitHub, with two people working at laptops."
+    buttonUrl="https://www.pyopensci.org/lessons/contribute-open-source/index.html"
+    buttonLabel="Open the collaboration lessons"
+    buttonTarget="_blank" >}}
 Support for this track comes in part from the
 [Better Scientific Software Fellowship](https://bssw.io/pages/bssw-fellowship-program).
 These lessons live in the
@@ -82,19 +88,19 @@ then work through the contribute path:
 [What is Git/GitHub?](https://www.pyopensci.org/lessons/contribute-open-source/what-is-git-github.html),
 [GitHub Codespaces](https://www.pyopensci.org/lessons/contribute-open-source/github-codespaces.html),
 [Ways to contribute](https://www.pyopensci.org/lessons/contribute-open-source/ways-to-contribute.html)
+{{< /feature-row >}}
 
-{{< figure src="/images/learn-graphics/github-collaboration.png" alt="Graphic with a light yellow background about essential collaboration skills for scientists using GitHub, with two people working at laptops." >}}
-
-{{< button href="https://www.pyopensci.org/lessons/contribute-open-source/index.html" variant="green" size="lg" target="_blank" >}}
-Open the collaboration lessons
-{{< /button >}}
-
-{{% /swoosh_section %}}
+{{< /swoosh_section >}}
 
 <div class="container">
 
 ## Expert-led training & community events
 
+{{< feature-row layout="right"
+    image="/images/people/bof-scipy-2025.png"
+    alt="People sitting in a conference room and smiling during a pyOpenSci event."
+    buttonUrl="/events/"
+    buttonLabel="Explore upcoming events" >}}
 pyOpenSci runs comprehensive training events that equip scientists with the
 critical skills needed to make their research software more open, reliable, and
 collaborative.
@@ -105,12 +111,7 @@ supportive and diverse community where you can collaborate alongside
 cross-disciplinary peers facing similar challenges. From expert-led workshops
 to our highly collaborative sprint events, the connections you make and the
 skills you build here will transform your workflow.
-
-{{< figure src="/images/people/bof-scipy-2025.png" alt="People sitting in a conference room and smiling during a pyOpenSci event." >}}
-
-{{< button href="/events/" variant="green" >}}
-Explore upcoming events
-{{< /button >}}
+{{< /feature-row >}}
 
 </div>
 

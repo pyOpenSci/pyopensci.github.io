@@ -7,6 +7,8 @@ aliases:
 description: >-
   Domain-specific communities partner with pyOpenSci to leverage our peer review
   process and Python packaging guidelines without building a separate program.
+header:
+  overlay_image: images/headers/pyos-peer-review-header.png
 ---
 
 Domain-specific communities can partner with pyOpenSci to leverage both our peer
@@ -83,8 +85,8 @@ Learn more about our partnerships
 
 {{< feature-row layout="left"
     title="Let's make packaging easier for scientists, together"
-    image="/images/people-building-blocks.jpg"
-    alt="A group of people working on building blocks together."
+    image="/images/landing-pages/people-working-together.png"
+    alt="A group of people working on a set of building blocks, trying to stack them together."
     buttonUrl="https://www.pyopensci.org/python-package-guide/"
     buttonLabel="View our Python packaging guide"
     buttonTarget="_blank" >}}

@@ -51,11 +51,11 @@
     margin-bottom: 0;
   }
 
-  &--left,
-  &--right {
+  &--left {
     .feature-row__inner {
       @media (min-width: $breakpoint-md) {
-        grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+        /* Image ~33%, text ~66% */
+        grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
       }
     }
   }
@@ -63,6 +63,9 @@
   &--right {
     .feature-row__inner {
       @media (min-width: $breakpoint-md) {
+        /* Text ~66%, image ~33% (body fills col 1 via order) */
+        grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+
         .feature-row__media {
           order: 2;
         }

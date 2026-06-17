@@ -19,13 +19,15 @@
 {{ $img := partial "get-image.html" (dict "image" (dict "src" $image "alt" $alt) "fallbackAlt" $title "page" .Page) }}
 {{ $base := replaceRE "\\.(jpg|jpeg|png|gif)$" "" $image }}
 {{ $webp := printf "%s.webp" $base }}
+{{ $webpStatic := printf "static/%s" (strings.TrimPrefix "/" $webp) }}
+{{ $hasWebp := fileExists $webpStatic }}
 
 <div class="feature-row feature-row--{{ $layout }}">
   <div class="feature-row__inner">
     {{ if $img.exists }}
     <figure class="feature-row__media">
       <picture>
-        <source srcset="{{ $webp | relURL }}" type="image/webp">
+        {{ if $hasWebp }}<source srcset="{{ $webp | relURL }}" type="image/webp">{{ end }}
         <img src="{{ $img.src | relURL }}" alt="{{ $img.alt }}" loading="lazy" decoding="async">
       </picture>
     </figure>
