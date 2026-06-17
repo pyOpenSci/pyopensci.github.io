@@ -5,7 +5,7 @@ type: blog
 url: "/blog/clean-hugo-blog-theme-features.html"
 excerpt: A living reference for every shortcode and formatting option available in
   the clean-hugo theme — figures, admonitions, admonition quotes, blockquotes,
-  pull quotes,
+  pull quotes, feature quotes,
   buttons, YouTube embeds,
   and more.
 author: pyopensci
@@ -188,8 +188,10 @@ post — a left border, light background, and Lora italic body text. No
 shortcode is required.
 
 Use a **pull quote** when you want the same quote typography with a
-decorative opening mark and no sidebar box. Use an **admonition quote**
-when the quote should sit inside a colored callout box.
+decorative opening mark and no sidebar box. Use a **feature quote** for
+compact sidebar-style quotes (home page project block, two-column layouts).
+Use an **admonition quote** when the quote should sit inside a colored
+callout box.
 
 **Single paragraph:**
 
@@ -294,6 +296,60 @@ Parameters:
 | `color` | `teal` | Color variant: `teal`, `magenta`, or `purple` |
 | `author` | — | Attribution name (optional) |
 | `event` | — | Event or source (optional, requires `author`) |
+
+
+## Feature quotes
+
+The `feature-quote` shortcode renders a compact quote with a Font Awesome
+opening mark and **Nunito Sans** italic text at 1.3rem — no left border or gray
+background. This is the same style used in the home page **Current project**
+block. Three accent colors match the pull quote palette.
+
+**Purple (default):**
+
+```
+{{</* feature-quote cite="Eliot Robson" */>}}
+Gen AI solutions remind us that the centerpiece of open-source software is
+building a community around solving a specific problem.
+{{</* /feature-quote */>}}
+```
+
+{{< feature-quote cite="Eliot Robson" >}}
+Gen AI solutions remind us that the centerpiece of open-source software is
+building a community around solving a specific problem.
+{{< /feature-quote >}}
+
+**Teal:**
+
+```
+{{</* feature-quote color="teal" cite="Anonymous" */>}}
+Good research software is built for the people who use it.
+{{</* /feature-quote */>}}
+```
+
+{{< feature-quote color="teal" cite="Anonymous" >}}
+Good research software is built for the people who use it.
+{{< /feature-quote >}}
+
+**Magenta:**
+
+```
+{{</* feature-quote color="magenta" */>}}
+Good research software is built for the people who use it.
+{{</* /feature-quote */>}}
+```
+
+{{< feature-quote color="magenta" >}}
+Good research software is built for the people who use it.
+{{< /feature-quote >}}
+
+Parameters:
+
+| Param | Default | Description |
+|---|---|---|
+| `color` | `purple` | Accent for the mark and quote text: `purple`, `teal`, or `magenta` |
+| `cite` | — | Attribution name (optional) |
+| `author` | — | Alias for `cite` |
 
 
 ## Buttons

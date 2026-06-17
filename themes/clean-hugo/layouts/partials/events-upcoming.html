@@ -6,7 +6,9 @@
     limit (optional): max items; 0 or unset shows all
     use_container (optional bool): wrap content in .container (default true)
     show_kicker (optional bool): render "Upcoming & live" kicker
-    show_view_all (optional bool): render "View all events" button
+    section_title (optional): h2 section heading (e.g. "Where you can find us")
+    show_view_all (optional bool): render view-all button
+    view_all_label (optional): button text (default "View all events")
     show_empty (optional bool): render empty-state section if no events
     view_all_url (optional): defaults to /events/
     section_class (optional): extra class on <section>
@@ -19,9 +21,11 @@
 {{ $limit := .limit | default 0 }}
 {{ $useContainer := .use_container | default true }}
 {{ $showKicker := .show_kicker | default true }}
+{{ $sectionTitle := .section_title | default "" }}
 {{ $showViewAll := .show_view_all | default false }}
 {{ $showEmpty := .show_empty | default false }}
 {{ $viewAllURL := .view_all_url | default "/events/" }}
+{{ $viewAllLabel := .view_all_label | default "View all events" }}
 {{ $sectionClass := .section_class | default "" }}
 
 {{ range $pages }}
@@ -48,7 +52,9 @@
 {{ if gt (len $featuredEvents) 0 }}
   <section class="events-list{{ with $sectionClass }} {{ . }}{{ end }}">
     <div class="{{ if $useContainer }}container{{ else }}events-list__inner{{ end }}">
-      {{ if $showKicker }}
+      {{ if $sectionTitle }}
+        <h2 class="events-list__section-title">{{ $sectionTitle }}</h2>
+      {{ else if $showKicker }}
         <h2 class="events-list__kicker">
           Upcoming <span class="events-list__kicker-amp">&amp;</span> live
         </h2>
@@ -65,7 +71,7 @@
       {{ if $showViewAll }}
         <div class="events-list__actions">
           <a class="btn btn--outline" href="{{ $viewAllURL | relURL }}">
-            View all events
+            {{ $viewAllLabel }}
           </a>
         </div>
       {{ end }}

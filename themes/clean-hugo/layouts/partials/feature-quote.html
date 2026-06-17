@@ -1,0 +1,21 @@
+{{/*
+  Feature quote — Font Awesome mark + Lora italic text, no sidebar bar.
+  Pass dict: quote (required), cite or author, color (purple|teal|magenta).
+  Shortcode: {{< feature-quote cite="Name" >}}...{{</ feature-quote >}}
+*/}}
+{{ $quote := .quote | default .Inner }}
+{{ if not $quote }}{{ return }}{{ end }}
+{{ $cite := .cite | default .author }}
+{{ $color := .color | default "purple" }}
+
+<figure class="feature-quote feature-quote--{{ $color }}">
+  <blockquote class="feature-quote__quote">
+    <p class="feature-quote__mark" aria-hidden="true">
+      <i class="fa-solid fa-quote-left"></i>
+    </p>
+    <div class="feature-quote__text">{{ $quote | markdownify }}</div>
+  </blockquote>
+  {{ with $cite }}
+    <figcaption class="feature-quote__cite">&mdash; {{ . }}</figcaption>
+  {{ end }}
+</figure>

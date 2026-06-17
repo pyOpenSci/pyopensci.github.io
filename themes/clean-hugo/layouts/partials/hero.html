@@ -37,10 +37,14 @@
 {{/* Final fallback to ensure title always exists */}}
 {{ if not $title }}{{ $title = .Title }}{{ end }}
 {{ $subtitle := $hero.subtitle }}
-{{ $excerpt := $hero.excerpt }}
+{{ $excerpt := $hero.excerpt | default .Description }}
 {{ $buttons := $hero.buttons }}
+{{ $heroClass := "hero" }}
+{{ if .IsHome }}
+  {{ $heroClass = "hero hero--full-width" }}
+{{ end }}
 
-<section class="hero" style="background-color: {{ $heroColor }};">
+<section class="{{ $heroClass }}" style="background-color: {{ $heroColor }};">
   <div class="container">
     <div class="hero__grid">
       <div class="hero__content">

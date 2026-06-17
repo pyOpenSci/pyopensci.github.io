@@ -10,9 +10,11 @@ image:
 event:
   start_date: '2026-06-21'
   end_date: '2026-06-27'
-  location: TBD
-  conference: UN meeting 2026
+  location: New York City
+  conference: UN Open Source Week 2026
   event_type: community
+  home_highlight: >-
+    UN Open Source Week — pyOpenSci is leading an AI discussion
 ---
 
 ## Details coming soon

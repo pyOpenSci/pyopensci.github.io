@@ -1,12 +1,12 @@
 {{/*
   Show the most recently added community contributors (default limit: 3).
-  Usage: {{< recent-contributors >}} or {{< recent-contributors limit="3" >}}
+  Usage: {{< recent-contributors >}} or {{< recent-contributors limit="5" >}}
 */}}
 {{ $limit := .Get "limit" | default 3 | int }}
-{{ $contributors := .Site.Data.contributors | default slice }}
+{{ $contributors := where (.Site.Data.contributors | default slice) "date_added" "gt" "1970-01-01" }}
 {{ $sorted := sort $contributors "date_added" "desc" }}
 {{ $recent := first $limit $sorted }}
-{{ $total := len $contributors }}
+{{ $total := len (.Site.Data.contributors | default slice) }}
 
 <p>
   pyOpenSci has a diverse and vibrant community of pythonistas! To date,
