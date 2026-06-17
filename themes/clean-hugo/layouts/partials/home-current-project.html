@@ -42,22 +42,18 @@
         </div>
       {{ end }}
     </div>
-    {{ if or $p.cta_prompt $btnLabel }}
+    {{ if or $p.cta_prompt $btnHref }}
       <div class="home-current-project__footer">
         {{ with $p.cta_prompt }}
           <p class="home-current-project__cta-prompt">{{ . }}</p>
         {{ end }}
-        <p class="home-current-project__cta-actions">
-          {{ if $btnHref }}
+        {{ if $btnHref }}
+          <p class="home-current-project__cta-actions">
             <a class="btn btn--outline btn--lg home-current-project__cta" href="{{ $btnHref }}">
               {{ $btnLabel }} <span aria-hidden="true">&rarr;</span>
             </a>
-          {{ else }}
-            <button type="button" class="btn btn--outline btn--lg home-current-project__cta">
-              {{ $btnLabel }} <span aria-hidden="true">&rarr;</span>
-            </button>
-          {{ end }}
-        </p>
+          </p>
+        {{ end }}
       </div>
     {{ end }}
   </div>

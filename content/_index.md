@@ -70,15 +70,15 @@ cards:
     cta: "Browse events →"
 current_project:
   eyebrow: Current project
-  title: "AI tools are reshaping scientific open source. We're studying how."
+  title: "AI tools are reshaping scientific open source. We're studying how — and building what comes next."
   excerpt: |
-    pyOpenSci is investigating how AI tools affect open source maintainers and
-    scientific software quality — and building community-driven guidance to help.
+    In 2026, we're studying how AI tools are reshaping scientific open source — and building community-validated guidance for using them intentionally and responsibly. Over the next six months, we're collecting data from across the community to shape a shared path forward — so no maintainer has to figure this out alone.
   quote: |
     Gen AI reminds us that the centerpiece of open source is building community around a specific problem. AI may add functionality — but it cannot replace the context and judgment of a diverse and engaged community."
   cite: Eliot Robson, pyOpenSci Peer Review Lead
-  cta_prompt: Interested in contributing to this research?
+  #cta_prompt: Interested in contributing to this research?
   button_label: Get involved
+  # button_url: "/your-destination-path/"  # uncomment when the CTA link is ready
 upcoming_events:
   title: Where you can find us
   limit: 3
