@@ -15,8 +15,7 @@ url: "/blog/pyopensci-reflections-fall-festival-2024.html"
 lastmod: '2025-03-05'
 image:
   src: images/headers/pyopensci-floral.png
-  alt: 'Building Momentum for the Future: Reflections on Our First Open Science Festival
-    Week'
+  alt: Decorative pyOpenSci header with purple botanical artwork and a small Python label
 ---
 
 ## Our inaugural fall festival was a great success!

@@ -12,7 +12,7 @@ url: "/blog/pyopensci-funding-sustainability.html"
 lastmod: '2024-10-15'
 image:
   src: images/blog/headers/pyopensci-sustainability.png
-  alt: 'A Blueprint for the Future: pyOpenSci''s Sustainability Model'
+  alt: Illustration outlining pyOpenSci''s sustainability model and future plans
 ---
 
 ## Introduction

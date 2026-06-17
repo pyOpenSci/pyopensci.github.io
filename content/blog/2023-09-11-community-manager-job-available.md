@@ -14,10 +14,11 @@ url: "/blog/pyOpenSci-hiring-community-manager-fall-2023.html"
 lastmod: '2024-08-29'
 ---
 
-<div class="notice" markdown="1">
+{{< admonition type="info" >}}
 **IMPORTANT:** we are no longer accepting applications for this position.
 Thank you for your interest.
-</div>
+{{< /admonition >}}
+
 
 ## Job Posting: pyOpenSci Community Manager
 

@@ -15,7 +15,7 @@ url: "/blog/pyos-community-news-aug-2024.html"
 lastmod: '2024-08-29'
 image:
   src: images/blog/headers/pycon-us-2024-header.png
-  alt: 'pyOpenSci Community News: August 2024'
+  alt: Illustrated PyCon US scene for the August 2024 community news update
 ---
 
 ## <i class="fa-regular fa-heart"></i> pyOpenSci community news

@@ -13,7 +13,7 @@ url: "/blog/how-we-choose-python-tools.html"
 lastmod: '2025-10-02'
 image:
   src: images/headers/pyopensci-floral.png
-  alt: Why We Choose What We Choose
+  alt: Decorative pyOpenSci header with purple botanical artwork and a small Python label
 ---
 
 A primary focus at pyOpenSci, one of our petals of support, is selecting packaging tools that work well for our users and work well together. We use our curated selection of tooling in our packaging guide, in our online tutorials, and in our trainings. We don’t require the use of any of our selected tools to submit a package to our peer review program but we will suggest them if the package authors ask for help trying to clean up or adopt new workflows.

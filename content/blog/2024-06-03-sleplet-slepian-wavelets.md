@@ -11,7 +11,7 @@ url: "/blog/sleplet-slepian-wavelets.html"
 lastmod: '2024-08-29'
 image:
   src: images/blog/headers/sleptlet-header.png
-  alt: 'SLEPLET: Slepian Scale-Discretised Wavelets in Python'
+  alt: Slepian wavelet visualization header for the SLEPLET package
 ---
 
 [SLEPLET](https://github.com/astro-informatics/sleplet) is a Python package for

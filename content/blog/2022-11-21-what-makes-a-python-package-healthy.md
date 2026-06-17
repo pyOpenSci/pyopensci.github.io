@@ -13,8 +13,7 @@ url: "/blog/what-makes-open-source-python-package-healthy.html"
 lastmod: '2024-08-29'
 ---
 
-<div class="notice" markdown="1">
-## Part 3/3: Blog series on package health
+{{< admonition type="info" title="Part 3/3: Blog series on package health" >}}
 
 This blog post is part 3 of a 3 part series on open source package health.
 The series was inspired by a conversation
@@ -29,8 +28,8 @@ the conversation on twitter that we can use to inform our final metrics.
 In this post, I'll summarize a conversation that was held on twitter that gaged
 what the community thought about metrics to track the health of scientific
 Python open source packages.
+{{< /admonition >}}
 
-</div>
 
 ## Packages and open source software, a few terms to clarify
 
@@ -59,7 +58,7 @@ More specifically, pyOpenSci is interested in the health of packages that
 support science. So we may need to build upon existing
 efforts that have determined what metrics to use to quantify package health and customize them to our needs.
 
-<div class="notice" markdown="1">
+{{< admonition type="info" >}}
 ### A note about our pyOpenSci packages
 
 pyOpenSci does not focus on foundational scientific Python packages like Xarray
@@ -75,7 +74,8 @@ Our package maintainers:
 - Often don't have the resources to build community
 - Often are keen to build their user base and to contribute
 to the broader scientific python ecosystem.
-</div>
+{{< /admonition >}}
+
 
 ## Existing efforts on health metrics: Chaoss project and the Software Sustainability Institute (neil)
 
@@ -162,8 +162,9 @@ buckets:
 
 These three buckets are all priorities of pyOpenSci.
 
+{{< admonition type="info" >}}
 <i class="far fa-sticky-note"></i> DEIA is another critical concern for pyOpenSci but I won't discuss that in this blog post.
-{: .notice }
+{{< /admonition >}}
 
 ## Infrastructure in a Python open source GitHub repository as a measure of package health
 
@@ -173,8 +174,9 @@ When think of infrastructure I think about the files and "things" available in a
 repository that support its use. I know that no bucket is perfectly isolated
 from the others but i'm taking a stab at this here.
 
+{{< admonition type="info" >}}
 <i class="fas fa-info-circle"></i> The code for many open source software packages can be found on [GitHub](https://www.github.com). GitHub is a free-to-use website that runs `git` which is a version control system. Version control allows developers to track historical changes to code and files. As a platform built on top of git, GitHub allows developers to communicate openly, review new code changes and update content in a structured way.
-{: .notice }
+{{< /admonition >}}
 
 ### What does GitHub (and Ivan) think about health checks for Python open source software?
 
@@ -212,7 +214,7 @@ Looking at these checks more closely you can begin to think about different cate
 of checks that broadly look at package usability (readme, description), community engagement (code of conduct,
 templates), etc.
 
-<div class="notice" markdown="1">
+{{< admonition type="info" >}}
 The GitHub list includes:
 
 - Description
@@ -221,8 +223,8 @@ The GitHub list includes:
 - License (OSI approved)
 - Issue templates (great for community building)
 - Pull request templates
+{{< /admonition >}}
 
-</div>
 
 #### These checks are great but don't look at content and quality
 

@@ -56,10 +56,11 @@ instances, e.g., because of their familiarity with a specific domain.
 
 You can read more about the [roles and responsibilities of an editor here](https://www.pyopensci.org/software-peer-review/how-to/editors-guide.html).
 
+{{< admonition type="info" >}}
 We currently have a package in the queue that is spatial / remote sensing related
 that we'd love to have an editor onboard to review. But we are in need of editors
 from other domain backgrounds too.
-{: .notice }
+{{< /admonition >}}
 
 ### What background do I need to be an editor for pyOpenSci?
 

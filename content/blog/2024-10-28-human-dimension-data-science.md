@@ -15,7 +15,7 @@ url: "/blog/human-dimension-clean-documented-data-science-code.html"
 lastmod: '2025-01-07'
 image:
   src: images/blog/headers/eric-ma-header.png
-  alt: The Human Dimension to Clean, Distributable, and Documented Data Science Code
+  alt: Eric Ma featured in a header photo for a post on clean, documented data science
 ---
 
 This post was originally posted on [Eric's blog](https://ericmjl.github.io/blog/2024/10/25/the-human-dimension-to-clean-distributable-and-documented-data-science-code/) in support of the [2024 pyOpenSci Open Science Fall Festival](/events/pyopensci-2024-fall-festival.html).

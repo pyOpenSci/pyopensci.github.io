@@ -15,8 +15,7 @@ url: "/blog/pyopensci-surviving-to-thriving.html"
 lastmod: '2025-09-09'
 image:
   src: images/headers/pyopensci-floral.png
-  alt: 'From Surviving to Thriving: A Convening to Reclaim and Sustain Open Science
-    Communities'
+  alt: Decorative pyOpenSci header with purple botanical artwork and a small Python label
 ---
 
 *Authors: Kari L. Jordan, Erin Becker, Daniela Saderi, Vanessa Fairhurst, Patricia Herterich, Noam Ross, Yanina Bellini Saibene, Leah Wasser, Yo Yehudi*
@@ -64,9 +63,7 @@ Facilitated by [Wildly Open](https://wildlyopen.com/), we are excited to explore
 This convening is not an isolated event. It’s the first step in scaling a movement that reimagines how values-driven open science organisations can grow together, share resources, and strengthen the ecosystem we collectively serve. By working together, we can ensure that the future of open science is not only innovative, but also equitable, sustainable, and resilient.
 
 
-<div class="notice" markdown="1">
-
-## Connect with us!
+{{< admonition type="info" title="Connect with us!" >}}
 
 There are lots of ways to get involved if you are interested!
 
@@ -89,5 +86,4 @@ Follow us on social platforms:
 * [GitHub](https://github.com/pyOpenSci)
 
 If you are on LinkedIn, check out and [subscribe to our newsletter](https://www.linkedin.com/newsletters/7179551305344933888/?displayConfirmation=true), too.
-
-</div>
+{{< /admonition >}}

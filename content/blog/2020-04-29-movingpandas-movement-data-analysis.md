@@ -10,7 +10,7 @@ comments: true
 url: "/blog/movingpandas-movement-data-analysis.html"
 image:
   src: images/blog/headers/pandas.png
-  alt: 'MovingPandas: Data Structures and Methods for Movement Data Analysis'
+  alt: Illustration of pandas and movement paths for the MovingPandas package
 ---
 
 Movement data is everywhere: from tracking apps that record human or vehicle movement to ecologists monitoring wildlife behavior. Movement data analysis is challenging since movement data combines time series and spatial data analyses questions. Existing spatial analysis libraries, such as GeoPandas, are great at handling spatial data but they don't support moving objects.

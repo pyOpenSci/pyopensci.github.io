@@ -14,7 +14,7 @@ url: "/blog/generative-ai-peer-review-policy.html"
 lastmod: '2025-12-16'
 image:
   src: images/headers/pyopensci-floral.png
-  alt: 'Navigating LLMs in Open Source: pyOpenSci''s New Peer Review Policy'
+  alt: Decorative pyOpenSci header with purple botanical artwork and a small Python label
 ---
 
 authors: Leah Wasser, Jed Brown, Carter Rhea, Ellie Abrahams, Carol Willing, Stefan van der Walt, Eliot Robson
@@ -224,14 +224,15 @@ Consider the following:
 You can't control what's in training data, but you can be thoughtful
 about how you use these tools.
 
-<div class="notice" markdown="1">
+{{< admonition type="info" >}}
 Examples of how these licensing issues are impacting and stressing our
 legal systems:
 
 * [GitHub Copilot litigation](https://githubcopilotlitigation.com/case-updates.html)
 * [Litigation around text from LLMs](https://arxiv.org/abs/2505.12546)
 * [incompatible licenses](https://dwheeler.com/essays/floss-license-slide.html)
-</div>
+{{< /admonition >}}
+
 
 ### Review for bias
 

@@ -16,8 +16,7 @@ url: "/blog/why-python-open-source-software-matters-for-scientists.html"
 lastmod: '2024-08-29'
 ---
 
-<div class="notice" markdown="1">
-## Part 1/3: Blog series on package health
+{{< admonition type="info" title="Part 1/3: Blog series on package health" >}}
 
 This blog post is part 1 of a 3 part series on open source package health.
 The series was inspired by a conversation
@@ -28,8 +27,8 @@ the conversation on twitter that we can use to inform our final metrics.
 why free and open source package metrics matter and which categories of metrics we at pyOpenSci are thinking about tracking.](/blog/why-python-package-health-metrics-matter.html)
 * [In blog 3/3, I'll recap a conversation held on
 twitter around package health metrics](/blog/what-makes-open-source-python-package-healthy.html).
+{{< /admonition >}}
 
-</div>
 
 ## Why Python open source package health should matter to you as a scientist
 

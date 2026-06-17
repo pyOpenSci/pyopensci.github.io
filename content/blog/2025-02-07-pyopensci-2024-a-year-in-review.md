@@ -14,7 +14,7 @@ url: "/blog/2024-pyopensci-retrospective.html"
 lastmod: '2025-02-07'
 image:
   src: images/headers/pyopensci-floral.png
-  alt: '2024: A Transformative Year for pyOpenSci'
+  alt: Decorative pyOpenSci header with purple botanical artwork and a small Python label
 ---
 
 ## Introduction

@@ -13,7 +13,7 @@ url: "/blog/pyopensci-pyconus-2024-sprints.html"
 lastmod: '2024-08-29'
 image:
   src: images/blog/headers/pycon-us-2024-header.png
-  alt: pyOpenSci beginner-friendly sprints at PyCon US 2024
+  alt: Illustrated PyCon US scene for a post about beginner-friendly pyOpenSci sprints
 ---
 
 ## pyOpenSci's approach to beginner-friendly sprints
@@ -319,11 +319,12 @@ a [CI workflow](https://github.com/pyOpenSci/pyopensci.github.io/blob/main/.gith
 that can be added to any repository. This workflow moves any issue labeled
 `sprintable` or `help-wanted` to our help-wanted GitHub project board.
 
+{{< admonition type="info" >}}
 **GitHub project boards support project workflows** that auto-add issues to a
 project board with a specific label. However, our GitHub organization's open source
 subscription only allows for one project workflow of this kind associated with one
 repository, which is why we set up the GitHub action. We also have things setup so an issue is removed / archived from the GitHub project board once it is closed.
-{: .notice}
+{{< /admonition >}}
 
 
 ### Make it truly beginner-friendly

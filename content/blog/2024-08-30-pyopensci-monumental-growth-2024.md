@@ -13,7 +13,7 @@ url: "/blog/what-pyopensci-accomplished-with-two-years-of-funding.html"
 lastmod: '2024-09-08'
 image:
   src: images/blog/headers/pyos-two-years.png
-  alt: 'It''s Been a Long Short Road: The Monumental Past 2 Years of pyOpenSci'
+  alt: Graphic summarizing pyOpenSci''s growth and milestones over two years
 ---
 
 ## It's been two years since I started working full-time on pyOpenSci
@@ -61,8 +61,7 @@ This blog post includes quotes and data I've collected over the past 5+ years; t
 
 {{< figure src="images/pyopensci-general/pyopensci-iterative-evaluation-program-design.png" alt="A round graphic that shows the cycle of iterative program development. The pyOpenSci logo is at the top left. The graphic title reads iterative program development. The first step says, 'A good idea gets better and better', the second says 'survey community needs,' the third says, 'evaluation based program design,' and the fourth says, 'evaluate results and make iterative improvements'. In the center is th" caption="Iterative data-driven program design is a fusion of evaluation and program development that utilizes community feedback to build a program using an iterative and community-responsive approach. You test approaches and collect data about the program's effectiveness. This type of development allows an organization to grow dynamically, following community needs." >}}
 
-<div class="notice" markdown ="1">
-
+{{< admonition type="info" >}}
 ### Responses to the question: *How could pyOpenSci help you with your science, code, and software?*
 {: .not_toc}
 
@@ -86,7 +85,8 @@ This blog post includes quotes and data I've collected over the past 5+ years; t
 
 Many earth scientists attend AGU. It's a different crowd than who you meet
 at the SciPy meetings.
-</div>
+{{< /admonition >}}
+
 
 ### Why pyOpenSci tackled Python packaging
 
@@ -98,23 +98,21 @@ As we developed our [peer review guide](https://www.pyopensci.org/software-peer-
 2. We want to help scientists make their packages more maintainable over time by adding tests and [continuous integration (CI)](https://www.pyopensci.org/python-package-guide/tests/tests-ci.html#run-tests-with-continuous-integration) checks that run when someone submits a suggested change (or a pull request). We want to set scientists up for success.
 3. We realize that Python packaging is a thorny ecosystem to navigate. I knew that pyOpenSci could help file down those thorns.
 
-<div class="notice" markdown ="1">
+{{< admonition type="info" >}}
 ### *"How could pyOpenSci help you with your science, code, and software?"*
 
 
 > Training for people who can code for themselves but want to start developing software for others. Topics include style, documentation, testing, git, etc.
 >
 > — Anonymous
+{{< /admonition >}}
 
-
-</div>
 
 #### Helping scientists navigate a complex and difficult-to-understand Python packaging ecosystem
 
 The packaging ecosystem has evolved rapidly. Numerous tools and approaches are available to create Python packages. Further, recent changes to ecosystem standards have led to an explosion of packaging tools like [Hatch](https://hatch.pypa.io/latest/), [Flit](https://flit.pypa.io/en/stable/), [PDM](https://pdm.fming.dev/latest/), and [Poetry](https://python-poetry.org/); other tools like Pixi and Rye are also on the horizon. Scientists often feel overwhelmed by the sheer number of options and have begged for clear guidance for years.
 
-<div class="notice" markdown ="1">
-
+{{< admonition type="info" >}}
 <h3 class="no-toc"> QUESTION: "How could pyOpenSci help you with your science, code, and software?"</h3>
 
 
@@ -122,9 +120,8 @@ The packaging ecosystem has evolved rapidly. Numerous tools and approaches are a
 > [*I want pyOpenSci to*] clarify Python packaging. There are too many different mechanisms floating around...
 >
 > —
+{{< /admonition >}}
 
-
-</div>
 
 {{< figure src="images/python-packaging/pyopensci-python-package-tools-word-cloud-2024.png" alt="This is a giant word cloud with dozens of words. The biggest words are Build, Poetry, Conda, Setuptools, Sphinx, pip, Hatch, Mamba, Twine PyPI, venv, and GitHub Actions." caption="This word cloud represents around 100 responses to the question: What Python packaging tools do you most often use? It demonstrates both 1) how many tools there are to choose from and 2) how divided the ecosystem is in terms of which tools they are using. Yes, a few tools there aren't explicitly Python packaging tools. :)" >}}
 
@@ -268,13 +265,13 @@ While pyOpenSci operates mainly as an online community, I find there is no bette
 
 Beginner-friendly sprints represent a true win-win for both contributors and pyOpenSci. Contributors learn new skills, and pyOpenSci gets help with the vital work that we are doing.
 
-<div class="notice" markdown="1">
-
+{{< admonition type="info" >}}
 ### What is a community sprint?
 {: .no-toc}
 
 Community sprints are collaborative coding and documentation update sessions where new and experienced contributors work together on open-source projects. These sprints provide a supportive environment with guidance from project maintainers or experienced developers, helping participants contribute effectively. They are an excellent opportunity for learning, networking, and making meaningful contributions to the open-source community. [You can read more about that here.](https://www.pyopensci.org/blog/pyopensci-pyconus-2024-sprints.html)
-</div>
+{{< /admonition >}}
+
 
 
 | Year  | PRs & Issues | Contributors |

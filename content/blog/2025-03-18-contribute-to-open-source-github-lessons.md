@@ -13,7 +13,7 @@ url: "/blog/contribute-to-open-source-lessons.html"
 lastmod: '2025-03-11'
 image:
   src: images/headers/pyopensci-floral.png
-  alt: 'Contribute to Open Source Software: It''s  More Than just Code'
+  alt: Decorative pyOpenSci header with purple botanical artwork and a small Python label
 ---
 
 ## Beyond code: the social side of open source
@@ -30,8 +30,9 @@ Receiving open feedback on your contributions in the form of code review, whethe
 
 In my 10+ years of building and maintaining software, contributing to projects, and running beginner-friendly sprints, I’ve seen firsthand that communication, collaboration, and project culture are just as—if not more—important than technical skills. I've also experienced the imposter syndrome first-hand. I was nervous about my first contributions and wasn't sure how to start contributing in a meaningful way.
 
+{{< admonition type="info" >}}
 **Technical and social skills go hand in hand.** Open source communities are most productive when contributors and maintainers recognize this balance between the technical and social skills associated with contributing. In most cases, all of the people involved in the project are volunteers with varying priorities, skillsets, and motivations to participate.
-{: .notice .notice--info}
+{{< /admonition >}}
 
 ### Developing our contribute to open source lessons
 
@@ -39,8 +40,9 @@ This past year, with support from the [Better Software for Science (BSSw) Fellow
 
 <a href="https://www.pyopensci.org/lessons/contribute-open-source/index.html" class="btn btn--success">Check out our lessons now.</a>
 
+{{< admonition type="info" >}}
 > BSSw is a unique partnership between the National Science Foundation (NSF) and the Department of Energy (DOE) that provides small grants to advocates in the scientific open source space.
-{: .notice }
+{{< /admonition >}}
 
 ### A community-driven approach to open source
 

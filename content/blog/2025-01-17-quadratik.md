@@ -15,8 +15,7 @@ url: "/blog/quadratik.html"
 lastmod: '2025-02-06'
 image:
   src: images/headers/pyopensci-quadratik.png
-  alt: 'QuadratiK: Collection of Methods Constructed using Kernel-Based Quadratic
-    Distances'
+  alt: Mathematical scatter plot visualization for the QuadratiK package
 ---
 
 ## Introduction

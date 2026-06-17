@@ -87,11 +87,12 @@ I went into our SciPy 2023 sprint with a [more organized pyOpenSci help-wanted b
 This board has been a great way to keep track of things
 that we need help with.
 
+{{< admonition type="info" >}}
 **<i class="fa-solid fa-circle-info"></i> GitHub PROTIP:** I struggled at PyCon with assigning people who didn't belong
 to a repository or our organization to specific issues. Now, I know that
 if someone comments on an issue first, I can then assign it to them
 (many thanks to [Thomas Fan](https://github.com/thomasjpfan) for the tip!!).
-{: .notice .info}
+{{< /admonition >}}
 
 ## So many helpful contributions to pyOpenSci!
 
@@ -101,8 +102,9 @@ support that pyOpenSci received at this year's SciPy sprints!
 We had over 20 pull requests emerge from this sprint - WOW! Two sprinters also
 submitted their first ever contributions!!
 
+{{< admonition type="info" >}}
 **<i class="fa-solid fa-circle-info"></i> Info:** a pull request, known as a "pr", represents a set of suggested changes to a set of code or text. In the GitHub.com interface you can view the suggested changes and comment on them - in the same way that you might comment on suggested changes in a Google doc.
-{: .notice }
+{{< /admonition >}}
 
 Some of the contributions included:
 
@@ -112,16 +114,15 @@ Some of the contributions included:
 
 In case you are curious, most of the pull requests submitted during the sprint this year are listed below:
 
-<div class="notice" markdown="1">
-## Pull requests submitted to pyOpenSci the 2023 SciPy sprints
+{{< admonition type="info" title="Pull requests submitted to pyOpenSci the 2023 SciPy sprints" >}}
 - **Thomas:** Thomas submitted a [set of pr's that allow us to preview our website after every pull request](https://github.com/pyOpenSci/pyopensci.github.io/pulls/thomasjpfan) is submitted.
 - **Mike:** Mike tackled our automated workflow that tracks contributors across our GitHub repositories and also that tracks packages, reviewers and editors in our review process.
 - **ruoxi** Ruoxi submitted an issue surrounding a rendering issue with our packaging guide in the Safari browser. And also a [pull request updating text around our partnership](https://github.com/pyOpenSci/software-peer-review/pull/232/files) with the Journal of Open Source Software (JOSS) where they accept our review as theirs and only review your paper.
 - **Grace:** [Grace made her first, second, third ...seventh!! pull requests ever fixing typos in our peer review guide](https://github.com/pyOpenSci/software-peer-review/pulls/g-patlewicz)
 - **Ricky:** [Url redirect fixes on website](https://github.com/pyOpenSci/pyopensci.github.io/pull/235)
 - **Kerry:** [Fixed the packages order so that newest was at the top of the page not the bottom](https://github.com/pyOpenSci/pyopensci.github.io/pull/234)
+{{< /admonition >}}
 
-</div>
 
 ### People kept sprinting without me!
 

@@ -14,16 +14,15 @@ url: "/blog/pyos-scipy-2024-recap.html"
 lastmod: '2024-08-29'
 ---
 
-<div class="notice" markdown = "1">
-## TL;DR
+{{< admonition type="info" title="TL;DR" >}}
 
 * pyOpenSci lead 3 incredibly successful events at [SciPy](https://www.scipy2024.scipy.org/) this year: A tutorial,
 a talk and a 1.5 day sprint.
 * During our SciPy 2024 meeting sprint we had over 35 GitHub issues and pull requests submitted by XX new contributors.
 * Our tutorial had over 30 attendees. Almost all of the learners had never created a Python package before, and most of them were successful creating their first Python package.
 * I thoroughly enjoyed connecting with new and old colleagues and friends.
+{{< /admonition >}}
 
-</div>
 
 ## pyOpenSci's fourth year attending SciPy - my experience
 
@@ -32,10 +31,11 @@ organized by [NumFocus](https://www.numfocus.org) that celebrates the scientific
 Python ecosystem. My first experience was in 2019, where we held the very first
 pyOpenSci Birds of a Feather (BoF) session.
 
+{{< admonition type="info" >}}
 A Birds of a Feather session, also known as a BoF, is a community-organized
 event where people lead a discussion around a specific topic. Our 2019 SciPy BoF was about
 our peer review process, which we had just launched that year.
-{: .notice }
+{{< /admonition >}}
 
 One of the biggest differences this year has been how much pyOpenSci has grown, which means we saw many familiar faces, including:
 
@@ -105,8 +105,9 @@ ridiculously hilarious as it sounds.
 
 {{< figure src="images/blog/2024/july/scipy-24-lobster-claw.jpeg" alt="Photograph showing a man with a beard holding a red lobster claw - while deviously looking at a blonde woman at a podium who is smirking at him. She is wearing a blue top and beige pants' style='width: 90%;" caption="<i class='fa-solid fa-heart-pulse'></i> It's well-known that lightning talk organizers enjoy heckling presenters. Sometimes they do so using props, such as the lobster claw seen here <i class='fa-solid fa-heart-pulse'></i>. Photo Credit: SciPyConf Fosstodon" >}}
 
+{{< admonition type="info" >}}
 [Did someone mention sharks? More here on my experience last year giving a SciPy lighting talk.](/blog/scipy-2023-community.html)
-{: .notice }
+{{< /admonition >}}
 
 Another cool thing about SciPy is that the entire meeting is community-driven. The scientific Python community really
 shows up to make this meeting what it is. All of the sessions are volunteer

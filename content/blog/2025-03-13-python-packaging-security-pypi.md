@@ -13,7 +13,7 @@ url: "/blog/python-packaging-security-publish-pypi.html"
 lastmod: '2025-03-13'
 image:
   src: images/headers/pyopensci-floral.png
-  alt: How to Secure Your Python Packages When Publishing to PyPI
+  alt: Decorative pyOpenSci header with purple botanical artwork and a small Python label
 ---
 
 ## Is your PyPI publication workflow secure?
@@ -39,8 +39,7 @@ Here, I'll cover the lessons learned that you can apply TODAY to your Python pac
 
 *Special thanks to [Seth Larson](https://github.com/sethmlarson), [Hugo van Kemenade](https://github.com/hugovk), [Sviatoslav Sydorenko](https://github.com/webknjaz), [William Woodruff](https://github.com/woodruffw) and [Carol Willing](https://github.com/willingc) for reviewing and significantly improving blog post!!*
 
-<div class="notice" markdown="1">
-## TL;DR Takeaways
+{{< admonition type="info" title="TL;DR Takeaways" >}}
 
 The fall 2024 Ultralytics breach was a wake-up call for all maintainers: secure your workflows to protect your users and the Python ecosystem. The most important steps that you can take are actually the simplest:
 
@@ -55,24 +54,26 @@ Below are **3 things that you can do right now** to secure your PyPI Python pack
 Together, these three steps protect both sides of your PyPI publication process--the trigger on GitHub and the connection between GitHub and PyPI. 🚀🚀🚀
 
 Don’t wait--start securing your Python publishing workflows today. 🔒
+{{< /admonition >}}
 
-</div>
 
 
 ## A call to (GitHub) actions ...
 
 The Ultralytics breach highlights the need for us all to follow and understand secure PyPI publishing practices and carefully monitor workflows. Below are actionable steps you can take to enhance security when publishing Python packages to PyPI using GitHub Actions.
 
+{{< admonition type="info" >}}
 <i class="fa-solid fa-circle-info"></i> [PyPA provides a great overview of using actions to publish your Python package.](https://packaging.python.org/en/latest/guides/publishing-package-distribution-releases-using-github-actions-ci-cd-workflows/)
-{: .notice }
+{{< /admonition >}}
 
 ## <i class="fa-solid fa-box"></i> 1. Create a dedicated GitHub environment for publishing actions
 
 First, make sure that your PyPI publish GitHub Action uses an isolated GitHub environment. Isolated environments ensure your publishing process remains secure even if other parts of your CI pipeline are compromised. This is because you can lock an environment down by ensuring that only specific users can authorize this environment to run.
 
 
+{{< admonition type="success" >}}
 A GitHub Action is a CI/CD (Continuous Integration/Continuous Deployment) tool that allows you to automate tests. [Click here to read more about what CI/CI is.](https://www.pyopensci.org/python-package-guide/maintain-automate/ci.html)
-{: .notice .notice--success }
+{{< /admonition >}}
 
 If you look at the workflow example below, notice that we have an [environment called `pypi`](https://github.com/pyOpenSci/pyosMeta/blob/2a09fba/.github/workflows/publish-pypi.yml#L57) that is used for trusted publishing. The `pypi` environment creates a direct link between this action and PyPI Trusted Published (discussed below).
 
@@ -117,8 +118,9 @@ Using a Trusted Publisher combined with a locked-down environment eliminates the
 
 {{< figure src="images/python-packaging/trusted-publisher-pypi-github.png" alt="A workflow diagram showing GitHub Actions building distribution files (sdist and wheel), publishing them securely to PyPI, represented as a warehouse. The diagram includes a lock icon emphasizing security, with the pyOpenSci logo in the top-left corner." caption="Example of the PyPI Trusted Publisher form, used to securely link a GitHub repository with PyPI for publishing Python packages. Trusted Publisher reduces the risk of token theft and improves overall security." >}}
 
+{{< admonition type="info" >}}
 If you only [publish locally to PyPI using the command line](https://www.pyopensci.org/python-package-guide/tutorials/publish-pypi.html), you must use a PyPI token. However, if you’re using GitHub Actions to automate your publishing process, setting up **Trusted Publisher** is a secure and easier-to-manage option.
-{: .notice }
+{{< /admonition >}}
 
 ### How to get started
 
@@ -142,8 +144,9 @@ For an example of a GitHub workflow that uses Trusted Publishing, check out our 
 {{< figure src="images/python-packaging/trusted-publisher-manage.png" alt="PyPI Trusted Publisher manage settings showing what the Trusted Publisher setup looks like after you've created it in PyPI. It shows all of the items that you filled out in the form and has a remove button if you want to remove it from PyPI. ' loading='lazy" caption="Example of the PyPI Trusted Publisher setup in PyPI once you've created the Trusted PuUblisher link by filling the form out above." >}}
 
 
+{{< admonition type="info" >}}
 **Note:** Read more here about [support for publishing to GitLab](https://docs.pypi.org/trusted-publishers/adding-a-publisher/#gitlab-cicd) using trusted publishing.
-{: .notice }
+{{< /admonition >}}
 
 ## <i class="fa-solid fa-check-double"></i> 3. Add `zizmor` to your CI workflows
 
@@ -153,8 +156,9 @@ Zizmor is a static analysis tool designed to help identify GitHub Action securit
 
 Named as a playful nod to Dr. Zizmor’s famous “clear skin” ads, zizmor aims to give you “beautiful clean workflows.”
 
+{{< admonition type="success" >}}
 Learn more about zizmor on the [official blog post by William Woodruff](https://blog.yossarian.net/2024/10/27/Now-you-can-have-beautiful-clean-workflows).
-{: .notice .notice--success }
+{{< /admonition >}}
 
 ### How it works
 
@@ -279,8 +283,7 @@ pyOpenSci follows best practices for PyPI publishing using our custom GitHub Act
 👉 [pyOpenSci Packaging Tutorial](https://www.pyopensci.org/python-package-guide/package-structure-code/python-package-structure.html)
 👉 Join our discourse here
 
-<div class="notice" markdown="1">
-## Get involved with pyOpenSci
+{{< admonition type="info" title="Get involved with pyOpenSci" >}}
 
 * Check out our [volunteer page](https://www.pyopensci.org/volunteer.html) if you are interested in getting involved.
 * Keep an eye on our [events page](/events/) for upcoming training events.
@@ -293,4 +296,4 @@ Follow us on social platforms:
 * [<i class="fa-brands fa-github"></i> GitHub](https://github.com/pyOpenSci)
 
 If you are on LinkedIn, you should [subscribe to our newsletter, too](https://www.linkedin.com/newsletters/7179551305344933888/?displayConfirmation=true).
-</div>
+{{< /admonition >}}

@@ -14,8 +14,7 @@ url: "/blog/pyopensci-bof-community-scipy-2025.html"
 lastmod: '2025-08-05'
 image:
   src: images/headers/pyopensci-scipy-2025.png
-  alt: 'Listening, learning, and building together: what we heard at our SciPy 2025
-    BoF'
+  alt: SciPy 2025 graphic for a Birds of a Feather session recap
 ---
 
 {{< figure src="images/blog/2025/scipy-bof/community-discussion-2.png" alt="Attendees from different scientific backgrounds actively participate in a BoF discussion, sharing experiences from across the research software ecosystem." >}}

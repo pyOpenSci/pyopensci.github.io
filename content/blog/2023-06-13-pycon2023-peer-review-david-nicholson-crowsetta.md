@@ -14,8 +14,7 @@ url: "/blog/pycon2023-crowsetta-peer-review.html"
 lastmod: '2024-08-29'
 image:
   src: images/blog/headers/david-nicholson-2023-header.png
-  alt: 'Sorry This Talk Doesn''t Have any ChatGPT in It: pyOpenSci peer review of
-    Crowsetta '
+  alt: David Nicholson presenting a PyCon talk about pyOpenSci peer review
 ---
 
 # pyCon 2023 US -David Nicholson Lightning Talk on pyOpenSci Peer Review

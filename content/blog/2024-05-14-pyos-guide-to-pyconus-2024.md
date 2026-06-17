@@ -13,7 +13,7 @@ url: "/blog/pyos-guide-to-pyconus-2024.html"
 lastmod: '2024-08-29'
 image:
   src: images/blog/2024/may/pycon-us-2024.png
-  alt: The pyOpenSci Guide to PyCon 2024
+  alt: Illustrated PyCon US 2024 scene with conference buildings and rides
 ---
 
 ## <i class="fa-solid fa-heart"></i> Connect with the pyOpenSci community at PyCon US 2024!

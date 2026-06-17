@@ -11,7 +11,7 @@ url: "/blog/read-r-datasets-from-python.html"
 lastmod: '2024-08-29'
 image:
   src: images/blog/headers/pandas.png
-  alt: 'rdata: Read R datasets from Python'
+  alt: Pandas illustration header for a post about reading R datasets in Python
 ---
 
 In the last years Python has solidified itself as the main language for data science and machine learning.

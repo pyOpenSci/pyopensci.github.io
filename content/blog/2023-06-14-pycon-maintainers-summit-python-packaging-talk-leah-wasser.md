@@ -155,9 +155,7 @@ pyOpenSci. And also they were mostly made by those new to contributing in genera
 
 If you want to check any of them out - please click on any of the links below!
 
-<div class="notice" markdown="1">
-
-## Contributions from the pyOpenSci mentored and regular sprints at PyCon US 2023
+{{< admonition type="info" title="Contributions from the pyOpenSci mentored and regular sprints at PyCon US 2023" >}}
 
 Contributions to open source tools and communities can come in all shapes and
 sizes. Note that some of the items below are small fixes (which are a huge help).
@@ -189,8 +187,8 @@ was SO SO helpful to us!!
 
 - [Packaging guide typo fixes.](https://github.com/pyOpenSci/python-package-guide/pull/82)
 - [Second pr fixing typos.](https://github.com/pyOpenSci/python-package-guide/pull/81)
+{{< /admonition >}}
 
-</div>
 
 All of the contributors are now listed on our website. And we are grateful for
 each and every one of them!

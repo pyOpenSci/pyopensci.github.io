@@ -14,7 +14,7 @@ url: "/blog/2026-building-resilience-together.html"
 lastmod: '2026-01-22'
 image:
   src: images/headers/pyopensci-floral.png
-  alt: 'Building Resilience: pyOpenSci in 2026'
+  alt: Decorative pyOpenSci header with purple botanical artwork and a small Python label
 ---
 
 ## The world has changed

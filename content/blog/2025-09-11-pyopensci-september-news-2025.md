@@ -14,7 +14,7 @@ url: "/blog/pyopensci-september-2025-updates.html"
 lastmod: '2025-09-11'
 image:
   src: images/headers/pyopensci-floral.png
-  alt: 'What’s New in pyOpenSci: September Updates + Community Shoutouts'
+  alt: Decorative pyOpenSci header with purple botanical artwork and a small Python label
 ---
 
 The summer was full of connection, collaboration, and momentum in the pyOpenSci community. Whether you joined us at SciPy, submitted a package for review, or just lurked, we’re so grateful you’re here!

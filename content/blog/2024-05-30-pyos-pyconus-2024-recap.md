@@ -13,17 +13,16 @@ url: "/blog/recap-pyos-pyconus-2024.html"
 lastmod: '2024-08-29'
 image:
   src: images/blog/headers/pycon-us-2024-header.png
-  alt: pyOpenSci at PyCon US 2024 - Python packaging and community
+  alt: Illustrated PyCon US scene with a character, roller coaster, and cityscape
 ---
 
-<div class="notice" markdown = "1">
-## TL;DR
+{{< admonition type="info" title="TL;DR" >}}
 
 * pyOpenSci had a strong presence at [PyCon US](https://us.pycon.org/2024/) this year. I hope this continues for years to come! We held an open space, helped run the [Maintainers Summit](https://us.pycon.org/2024/events/maintainers-summit/) (lead by [Inessa Pawson](https://github.com/InessaPawson) for 5 years and counting), gave [a talk on Python packaging](https://us.pycon.org/2024/schedule/presentation/34/) and ran a 1 day sprint where over 16 people contributed to our efforts.
 * pyOpenSci’s theme this year for PyConUS was people first: people first when trying to make technical concepts easier to understand, people first when trying to write good tutorials or documentation and people first when you are trying to solve the world’s hardest problems.
 * Giving a talk on packaging at pyConUS triggered every ounce of the imposter in me. But in the end it was a rewarding experience. Having friends in the audience made a world of difference. It was calming to focus on people who I know support both me and this vibrant organization. Friends really should never let friends…package…or use Python…or do anything technical…alone.
+{{< /admonition >}}
 
-</div>
 
 ## Another year, another incredible PyCon
 
@@ -32,9 +31,10 @@ in Salt Lake City, but this year's [PyConUS 2024](https://us.pycon.org/2024/) *w
 scientists create better software and make their science more open and
 reproducible** so they can tackle the world's greatest challenges.
 
+{{< admonition type="info" >}}
 PyCon US, run by the [Python Software
 Foundation,](https://www.python.org/psf-landing/) is one of the biggest Python meetings in the world, with a record 2,700 registrations this year.
-{: .notice }
+{{< /admonition >}}
 
 I also knew that I'd get to see a bunch of the friends who I met last year. I was returning to
 this inclusive community, filled with Pythonistas like me

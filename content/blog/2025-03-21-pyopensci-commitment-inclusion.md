@@ -14,7 +14,7 @@ url: "/blog/pyopensci-commitment-inclusion.html"
 lastmod: '2025-03-21'
 image:
   src: images/headers/pyopensci-floral.png
-  alt: Reaffirming pyOpenSci's Commitment to Inclusion
+  alt: Decorative pyOpenSci header with purple botanical artwork and a small Python label
 ---
 
 During challenging times, it’s critical to pause and reflect on who we are, what we care about, and why our work matters. Since its inception, pyOpenSci, a global community fiscally sponsored in the U.S., has been committed to actively building an inclusive, welcoming, open source community of practice that supports better, more open science. Our Code of Conduct reinforces our [values,](https://www.pyopensci.org/handbook/CODE_OF_CONDUCT.html) as does the thought that we put into the events that we run, the accessible resources that we develop, and the work that we do to make our [peer review program inclusive](https://www.pyopensci.org/#broadening-participation-in-scientific-open-source) and [creating Python software easier](https://www.pyopensci.org/python-package-guide/tutorials/intro.html).

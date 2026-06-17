@@ -15,7 +15,7 @@ url: "/blog/pyopensci-job-communications.html"
 lastmod: '2025-05-14'
 image:
   src: images/headers/pyopensci-floral.png
-  alt: CLOSED pyOpenSci is hiring a Communications Lead
+  alt: Decorative pyOpenSci header with purple botanical artwork and a small Python label
 ---
 
 **We are no longer accepting applications for this position. Thank you for your interest.**
@@ -50,8 +50,9 @@ pyOpenSci is a fiscally sponsored project of Community Initiatives.
 * **Community Engagement:** Interact with our online community to foster engagement, respond to questions, and keep conversations aligned with our goals.
 * **Content Planning:** Work with the pyOpenSci team to develop a content calendar that supports key events, initiatives, and outreach goals.
 
+{{< admonition type="info" >}}
 pyOpenSci also has plans to launch a YouTube channel. Video editing skills are not required for this position but are a bonus.
-{: .notice }
+{{< /admonition >}}
 
 ### What we’re looking for
 

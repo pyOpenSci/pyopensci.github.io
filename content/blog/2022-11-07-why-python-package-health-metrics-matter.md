@@ -15,8 +15,7 @@ url: "/blog/why-python-package-health-metrics-matter.html"
 lastmod: '2024-08-29'
 ---
 
-<div class="notice" markdown="1">
-## Part 2/3: Blog series on package health
+{{< admonition type="info" title="Part 2/3: Blog series on package health" >}}
 This blog is the second in a 3 part series. [In the previous blog post,](/blog/why-python-open-source-software-matters-for-scientists.html)
 I discussed why the health of (Python) open source
 packages should matter to you as a scientist (and as a person who values and
@@ -28,7 +27,8 @@ around the free and open source Python packages that you use.](/blog/what-makes-
 
 NOTE: all of this is in the context of a conversation on Twitter. It is not a
 comprehensive perspective on the final metrics that pyOpenSci plans to collect.
-</div>
+{{< /admonition >}}
+
 
 ## Metrics are critical to the development of any program
 
@@ -83,8 +83,9 @@ To better understand what data we should be collecting to track our packages'
 health over time, I went to Twitter to see what my colleagues around the world
 had to say. That conversation resulted in some really interesting insights.
 
+{{< admonition type="info" >}}
 [In my next blog post, I will summarize the discussion that happened on twitter.](/blog/what-makes-open-source-python-package-healthy.html)
-{: .notice }
+{{< /admonition >}}
 
 Most importantly, it allowed me to begin to break down and group metrics in
 terms of pyOpenSci goals.

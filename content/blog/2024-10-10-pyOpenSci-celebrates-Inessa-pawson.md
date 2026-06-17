@@ -12,7 +12,7 @@ url: "/blog/pyopensci-celebrates-inessa-pawson.html"
 lastmod: '2024-12-05'
 image:
   src: images/headers/pyopensci-floral.png
-  alt: pyOpenSci celebrates Inessa Pawson
+  alt: Decorative pyOpenSci header with purple botanical artwork and a small Python label
 ---
 
 # pyOpenSci Celebrates Inessa

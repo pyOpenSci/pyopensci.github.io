@@ -15,8 +15,7 @@ url: "/blog/pyopensci-executive-council-transition.html"
 lastmod: '2025-08-05'
 image:
   src: images/headers/pyopensci-floral.png
-  alt: 'Succession is Success: pyOpenSci''s Executive Council Transition Marks Organizational
-    Maturity'
+  alt: Decorative pyOpenSci header with purple botanical artwork and a small Python label
 ---
 
 When an organization successfully navigates its first leadership transition, it's a milestone worth celebrating. It demonstrates that the structures, processes, and culture you've built are strong enough to endure beyond any single individual. We've seen these transitions happening in our [Editorial Board](https://www.pyopensci.org/handbook/governance/structure.html#peer-review-editorial-board) over the past 3 years. Today, we're proud to announce pyOpenSci's first [Executive Council](https://www.pyopensci.org/handbook/governance/executive-council.html#pyopensci-executive-council) transition—a sign of our organization's growth and maturity.
@@ -65,9 +64,7 @@ As we move forward under Karen and April's guidance, we're excited about our nex
 This transition positions us to take on bigger challenges, expand our impact on the scientific Python ecosystem, and continue building the future of open scientific software. We can't wait to see what comes next!
 
 
-<div class="notice" markdown="1">
-
-## Connect with us!
+{{< admonition type="info" title="Connect with us!" >}}
 
 There are lots of ways to get involved if you are interested\!
 
@@ -90,5 +87,4 @@ Follow us on social platforms:
 * [GitHub](https://github.com/pyOpenSci)
 
 If you are on LinkedIn, check out and [subscribe to our newsletter](https://www.linkedin.com/newsletters/7179551305344933888/?displayConfirmation=true), too.
-
-</div>
+{{< /admonition >}}

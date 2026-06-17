@@ -14,7 +14,7 @@ url: "/blog/mandy-moore-communications-lead.html"
 lastmod: '2025-08-12'
 image:
   src: images/headers/pyopensci-floral.png
-  alt: Meet Mandy Moore, pyOpenSci’s new Communications and Community Lead!
+  alt: Decorative pyOpenSci header with purple botanical artwork and a small Python label
 ---
 
 {{< figure src="images/blog/2025/meet-mandy-moore-comms.png" alt="Photo of Mandy Moore wearing a wide-brimmed black hat, sitting indoors with colorful lights in the background. Beside her is the pyOpenSci logo, featuring a stylized flower with circuit-like petals and a snake in the center, on a purple patterned background." >}}

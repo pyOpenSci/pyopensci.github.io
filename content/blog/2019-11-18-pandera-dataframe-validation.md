@@ -11,7 +11,7 @@ comments: true
 url: "/blog/pandera-python-pandas-dataframe-validation.html"
 image:
   src: images/blog/headers/pandas.png
-  alt: 'Pandera: A Statistical Data Validation Toolkit for Pandas'
+  alt: Illustration of pandas and tabular data for the Pandera validation package
 ---
 
 Modern data engineering and analysis workflows will often involve using data
