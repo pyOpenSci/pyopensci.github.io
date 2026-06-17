@@ -63,6 +63,7 @@
   @include responsive(font-size, 2rem, 2.5rem, 3rem);
   font-weight: 800;
   margin-bottom: 1rem;
+  color: var(--color-brand-purple);
 }
 
 .content-body {
@@ -81,6 +82,7 @@
     font-size: 2rem;
     font-weight: 800;
     margin-bottom: 1rem;
+    color: var(--color-brand-purple);
     @media (min-width: $breakpoint-md) {
       font-size: 2.5rem;
     }
@@ -92,6 +94,7 @@
     font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: 1rem;
+    color: var(--color-brand-purple);
     @media (min-width: $breakpoint-md) {
       font-size: 1.875rem;
     }

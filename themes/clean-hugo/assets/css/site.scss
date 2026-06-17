@@ -142,6 +142,23 @@ xl: 1280px
     }
   }
 
+  h1,
+  h2 {
+    color: var(--color-brand-purple);
+  }
+
+  /* H1 on dark hero / banner backgrounds — keep light for contrast */
+  .hero__title,
+  .blog-hero h1,
+  .blog-post__header h1,
+  .docs-header__title {
+    color: var(--color-white);
+  }
+
+  .site-footer h2 {
+    color: inherit;
+  }
+
   /* Base Typography - Paragraphs and Lists share the same text size and line-height */
   p,
   ul, ol,

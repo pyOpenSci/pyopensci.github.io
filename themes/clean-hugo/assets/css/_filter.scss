@@ -9,6 +9,7 @@
   @include responsive(font-size, 2rem, 2.5rem, 3rem);
   font-weight: 800;
   margin-bottom: 1rem;
+  color: var(--color-brand-purple);
 }
 
 .filterable-grid-body {

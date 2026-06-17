@@ -238,7 +238,7 @@
     @include responsive(font-size, 2.25rem, 3rem, 3.75rem);
     font-weight: 700;
     margin-bottom: 1rem;
-    color: var(--color-gray-900);
+    color: var(--color-brand-purple);
 
     @media (min-width: $breakpoint-xl) {
       font-size: 4.5rem;
