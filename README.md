@@ -22,48 +22,98 @@ This repo's [CONTRIBUTING.md](./CONTRIBUTING.md) file provides more information
 about contributing to our website, our **Python Packaging Guide** and our
 **Peer Review Guide**.
 
-## Installation and Development
+## Installation and development
 
-Have you decided to contribute? We use the [Jekyll framework](https://jekyllrb.com)
-for creating this site. To set up a **development environment** and **run the site locally**, follow these steps:
+The site is migrating from [Jekyll](https://jekyllrb.com) to [Hugo](https://gohugo.io).
+Hugo source lives at the **repository root** (`content/`, `data/`, `themes/clean-hugo/`).
+The legacy Jekyll site remains in `jekyll/` until production cutover; active Hugo
+work is on the `website-redesign` branch ([PR #883](https://github.com/pyOpenSci/pyopensci.github.io/pull/883)).
 
-1. Install ruby and bundler on your machine. See [the Jekyll docs](https://jekyllrb.com/docs/installation/) for instructions.
-2. Fork and clone this repository.
-3. Run `bundle install` in the root of the cloned repository directory. This will
-   install the gems needed to run the site locally.
-4. Run `bundle exec jekyll serve` to start the jekyll web server.
-NOTE: if you want the page to automatically reload, use: `bundle exec jekyll serve --live reload.` This requires Jekyll 3.7 or higher.
-5. Open your browser and navigate to `http://127.0.0.1:4000/`.
+### Prerequisites
 
-Please test your changes locally prior to submitting a pull request (PR).
+- **[Hugo Extended](https://gohugo.io/installation/)** `0.139.4` (matches Netlify and CI)
+- **[Node.js](https://nodejs.org/)** `20` and npm (PostCSS / autoprefixer for the theme CSS pipeline)
 
+### Run the site locally
 
-### Want to build with new blog posts to be published in the future?
+1. Fork and clone this repository.
+2. From the repo root, install Node dependencies:
 
-If you are publishing a blog post with a date that is in the future, you can build the site locally using the `--future` option to view it as follows:
+   ```bash
+   npm ci
+   ```
 
-`bundle exec jekyll serve --future`.
+3. Start the Hugo development server:
 
-### Images and webp
+   ```bash
+   hugo server --disableFastRender
+   ```
 
-We try to keep the image size of our graphics as small/compressed as possible. To enable webp on your system, you first need to install it:
+   Use `--disableFastRender` while editing layouts or CSS so changes rebuild reliably.
 
-For MAC:
-`brew install webp`
+4. Open [http://localhost:1313/](http://localhost:1313/) in your browser.
 
-Linux:
-`sudo apt-get install imagemagick`
+Test your changes locally before opening a pull request. CI runs the same Hugo
+build as Netlify (see `.github/workflows/build-site.yml`).
 
-You can convert a directory of `.png` images associated with a
-blog post that you write using the following bash command:
+### Production build (optional)
 
-`for file in *.png; do cwebp "$file" -o "${file%.*}.webp"; done`
+```bash
+npm ci
+hugo --gc --minify
+```
 
-or you can convert a single image:
+Output is written to `public/`. Do not commit `public/`, `resources/`, or
+`.hugo_build.lock` — they are gitignored.
 
-`cwebp input-image.png -o output-image.webp`
+### Future-dated blog posts
 
-Below is an example of how to add figure to a post that supports both `.webp` and `.png` formats. Providing both allows the website to be backwards-compatible with older browsers.
+`buildFuture = true` is set in `hugo.toml`, so posts with a future `date` in front
+matter are included in local builds and production deploys without extra flags.
+
+### Project layout (Hugo)
+
+| Path | Purpose |
+|------|---------|
+| `content/` | Pages, blog posts (`content/blog/`), events (`content/events/`) |
+| `data/` | YAML data (`packages.yml`, `contributors.yml`, etc.) |
+| `themes/clean-hugo/` | Site theme (layouts, SCSS, shortcodes) |
+| `static/` | Images, favicons, Netlify `_redirects` |
+| `hugo.toml` | Site config, navigation, theme parameters |
+| `jekyll/` | Legacy Jekyll mirror (reference only during migration) |
+
+For CSS architecture, SCSS partials, and Netlify build details, see
+[DEVELOPMENT.md](./DEVELOPMENT.md).
+
+### Images and WebP
+
+We try to keep image file sizes as small as practical. To convert PNG images to WebP:
+
+**macOS:**
+
+```bash
+brew install webp
+```
+
+**Linux:**
+
+```bash
+sudo apt-get install webp
+```
+
+Convert every PNG in a directory:
+
+```bash
+for file in *.png; do cwebp "$file" -o "${file%.*}.webp"; done
+```
+
+Or convert a single image:
+
+```bash
+cwebp input-image.png -o output-image.webp
+```
+
+Example figure markup that supports both WebP and PNG (backwards-compatible with older browsers):
 
 ```html
 <figure>
@@ -73,19 +123,31 @@ Below is an example of how to add figure to a post that supports both `.webp` an
 </picture>
 </figure>
 ```
-## How to update blog post last_updated field
 
-We have a bash script that will automatically update the `last_updated` field in the YAML for all of our blog posts. To run it use:
+Store site images under `static/images/` (published as `/images/...`).
 
-`./scripts/date-updated.sh`
+## How to update blog post `last_updated` field
+
+We have a bash script that updates the `last_modified` field in YAML for blog posts
+that already include a `last_modified:` key in front matter:
+
+```bash
+chmod +x scripts/date-updated.sh
+./scripts/date-updated.sh
+```
+
+The script currently scans `_posts/` (Jekyll layout). Hugo blog posts live in
+`content/blog/` — update the script path when cutting over, or edit front matter
+manually until then.
 
 ## How to update contributor names
 
-You can update a contributor's name as it appears on our [website community contributors page](https://www.pyopensci.org/our-community/index.html#pyopensci-community-contributors) by updating their name in the [`_data/contributors.yml`](_data/contributors.yml) file.
+Update a contributor's name on the [Our Community](https://www.pyopensci.org/our-community/) page in [`data/contributors.yml`](data/contributors.yml).
 
-**Important:** Do not try to update contributor names in the [`_data/packages.yml`](_data/packages.yml) file. Any changes made there will be overwritten by our automated workflows.
+**Important:** Do not update contributor names in [`data/packages.yml`](data/packages.yml). Changes there can be overwritten by automated workflows.
 
-This is because our workflow treats the `contributors.yml` file as the single source of truth for managing people. The names listed here are used to gather metadata based on a contributor's GitHub username from the contributor file.
+`contributors.yml` is the source of truth for people metadata; names are gathered
+from contributor files using each person's GitHub username.
 
 ## Monitoring Automated Tasks
 

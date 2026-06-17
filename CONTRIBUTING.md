@@ -7,26 +7,20 @@ how we work in [**pyOpenSci's organization-wide contributing guide**](https://ww
 
 ## Updating blog posts
 
-Recently we added a bash script called: `scripts/date-updated.sh`. This script
-will run through all posts in the `_posts/` directory and add the date that it was
-last updated using your local git commit history. It will only update the date_update
-yaml key if the `last_updated:` yaml key exists in the page's front matter.
+We have a bash script, `scripts/date-updated.sh`, that walks blog posts and sets
+the `last_modified:` date in front matter from your local git history. It only
+updates posts that already include a `last_modified:` key.
 
-Right now
-it is a manual process to add `last_updated:` to all of our posts as a key.
+Hugo blog posts live in `content/blog/`. The script still scans `_posts/`
+(Jekyll layout) — update the script path after cutover, or edit front matter
+manually until then.
 
-You have to run the bash script at the command line, in the root of
-this repository.
+From the repository root:
 
-You may have to update the permissions
-to allow it to modify files like this:
-
-
-`chmod +x scripts/date-updated.sh`
-
-then you can run the script:
-
-`./scripts/date-updated.sh`
+```bash
+chmod +x scripts/date-updated.sh
+./scripts/date-updated.sh
+```
 
 In the future we will add this step to our CI build.
 
@@ -38,23 +32,37 @@ questions, please open an issue in the repository or contact us via Slack.
 
 ### pyOpenSci Website
 
-This repository, `pyopensci/pyopensci.github.io` contains the source code
-for the pyOpenSci website. The website is built using Jekyll, a static site
-generator. If you are interested in contributing HTML, CSS, or JavaScript, this
-is a good place to start.
+This repository, [`pyOpenSci/pyopensci.github.io`](https://github.com/pyOpenSci/pyopensci.github.io),
+contains the source code for the [pyOpenSci.org](https://www.pyopensci.org) website.
+
+The site is migrating from Jekyll to **[Hugo](https://gohugo.io)**. Hugo source
+lives at the repo root (`content/`, `data/`, `themes/clean-hugo/`). The legacy
+Jekyll site remains in `jekyll/` until production cutover.
+
+If you want to contribute pages, blog posts, theme layouts, SCSS, or shortcodes,
+start here:
+
+1. Read [README.md](./README.md) for prerequisites and local setup (`npm ci`,
+   `hugo server --disableFastRender`).
+2. Read [DEVELOPMENT.md](./DEVELOPMENT.md) for CSS architecture and the Hugo
+   asset pipeline.
+
+Please test changes locally before opening a pull request.
 
 ### Python Package Guide
 
-The Python Package Guide listed on our website, is a guide for scientific authors who are interested in creating
-a Python package. The guide is built using the pyDataSphinx theme for sphinx, which is a a static site generator. If you are interested in contributing to the Python
-Package Guide, please see the
+The Python Package Guide listed on our website is a guide for scientific authors
+who are interested in creating a Python package. The guide is built using the
+pyData Sphinx theme for Sphinx, which is a static site generator. If you are
+interested in contributing to the Python Package Guide, please see the
 [`README.md`](https://github.com/pyOpenSci/python-package-guide/blob/main/README.md)
-in the `pyOpenSci/python-package-guide`repo.
+in the `pyOpenSci/python-package-guide` repo.
 
 ### Peer Review Guide
 
 The Peer Review Guide is a guide for authors who are interested in submitting a
-package to pyOpenSci for peer review. The guide is built using the pyDataSphinx theme for sphinx, which is a a static site generator. If you are interested in
+package to pyOpenSci for peer review. The guide is built using the pyData Sphinx
+theme for Sphinx, which is a static site generator. If you are interested in
 contributing to the Peer Review Guide, please see the
 [`README.md`](https://github.com/pyOpenSci/software-peer-review/blob/main/README.md)
 in the `pyOpenSci/software-peer-review` repo.
