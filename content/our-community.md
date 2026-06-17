@@ -7,6 +7,7 @@ layout: people-list
 url: /our-community/
 aliases:
   - /contributors.html
+  - /our-community/index.html
 hero:
   title: The pyOpenSci team & contributors
   image:
