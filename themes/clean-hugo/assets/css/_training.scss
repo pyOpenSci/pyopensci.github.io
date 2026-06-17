@@ -64,6 +64,23 @@
   color: var(--color-gray-700);
 }
 
+.packaging-guide-grid__links {
+  margin: 0.75rem 0 0;
+  padding-left: 1.1rem;
+  font-size: 0.9rem;
+  line-height: 1.5;
+
+  a {
+    color: var(--color-link);
+    text-decoration: underline;
+
+    &:hover,
+    &:focus {
+      color: var(--color-link-hover);
+    }
+  }
+}
+
 .tutorial-grid__cta {
   margin-top: auto;
   border-radius: 0 0 $radius-md $radius-md;

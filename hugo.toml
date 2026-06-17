@@ -182,7 +182,7 @@ buildFuture = true
 
 [[menu.main]]
   name = 'Packaging resources'
-  url = '/python-packaging-science.html'
+  url = '/python-packaging-science/'
   parent = 'Packaging'
   weight = 1
 
