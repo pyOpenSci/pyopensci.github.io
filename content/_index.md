@@ -1,13 +1,11 @@
 ---
-title: "Strengthening Scientific Open Source, Together"
+title: "Powering Human-Centered Scientific Open Source"
 date: 2025-04-30
 draft: false
 layout: splash
 cards_layout: wide
-description: "We support the open source contributors and developers who fuel scientific discovery."
+description: "We support the people, projects, and practices that make scientific open-source software more reliable, inclusive, and sustainable."
 hero:
-  title: "Strengthening Scientific Open Source, Together"
-  excerpt: "We support the open source contributors and developers who fuel scientific discovery."
   color: "#33205C"
   square_image: true
   buttons:
@@ -70,16 +68,31 @@ cards:
     excerpt: "Workshops, cohort courses, sprints, and community calls — online and at conferences."
     url: "/events/"
     cta: "Browse events →"
+current_project:
+  eyebrow: Current project
+  title: "AI tools are reshaping scientific open source. We're studying how."
+  excerpt: |
+    pyOpenSci is investigating how AI tools affect open source maintainers and
+    scientific software quality — and building community-driven guidance to help.
+  quote: |
+    Gen AI reminds us that the centerpiece of open source is building community around a specific problem. AI may add functionality — but it cannot replace the context and judgment of a diverse and engaged community."
+  cite: Eliot Robson, pyOpenSci Peer Review Lead
+  cta_prompt: Interested in contributing to this research?
+  button_label: Get involved
+upcoming_events:
+  title: Where you can find us
+  limit: 3
+  view_all: true
+  button_label: View all events
 ---
 
+{{< current-project >}}
 
 {{< home-programs-full >}}
 
 {{< training-feature >}}
 
-## Upcoming events
-
-{{< upcoming-events limit="3" view_all="true" >}}
+{{< upcoming-events >}}
 
 ## Broadening participation in scientific open source
 
@@ -103,9 +116,7 @@ of support.
 
 ## New pyOpenSci contributors
 
-*(Placeholder: Jekyll home listed five people from `site.data.contributors`.
-Port `people-grid` or the theme people partial when `data/contributors.yml` is
-mounted or copied for Hugo.)*
+{{< recent-contributors limit="5" >}}
 
 {{< blog-list title="Recent blog posts & updates" limit="3" >}}
 
