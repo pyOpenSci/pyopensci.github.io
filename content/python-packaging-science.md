@@ -16,7 +16,7 @@ intro_section:
 
 {{< intro-section >}}
 
-{{% swoosh_section background="purple" swoosh="bottom" %}}
+{{< swoosh_section background="purple" swoosh="bottom" >}}
 
 {{< feature-row layout="right"
     title="Community-created Python packaging guide"
@@ -40,7 +40,7 @@ citation.
 
 {{< packaging-guide-grid >}}
 
-{{% /swoosh_section %}}
+{{< /swoosh_section >}}
 
 <div class="container">
 
@@ -53,7 +53,7 @@ process of creating a Python package, following modern best practices.
 
 </div>
 
-{{% swoosh_section background="purple" swoosh="top" %}}
+{{< swoosh_section background="purple" swoosh="top" >}}
 
 {{< feature-row layout="left"
     title="Get involved: Help us improve our Python packaging resources"
@@ -74,4 +74,4 @@ All contributions are recognized both on our website and in the guidebook's
 citation.
 {{< /feature-row >}}
 
-{{% /swoosh_section %}}
+{{< /swoosh_section >}}

@@ -84,7 +84,9 @@
 {{ end }}
 
 {{ if .IsPage }}
-  <meta name="date" content="{{ .Date.Format "2006-01-02" }}">
+  {{ if not .Date.IsZero }}
+    <meta name="date" content="{{ .Date.Format "2006-01-02" }}">
+  {{ end }}
   {{ with .Lastmod }}
     <meta name="last-modified" content="{{ .Format "2006-01-02" }}">
   {{ end }}
