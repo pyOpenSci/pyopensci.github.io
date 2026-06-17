@@ -27,6 +27,14 @@
     max-width: 48rem;
   }
 
+  &--full-width &__content {
+    max-width: none;
+  }
+
+  &--full-width &__title {
+    max-width: none;
+  }
+
   &__title {
     @include responsive(font-size, 2.25rem, 3.75rem);
     @include responsive(margin-bottom, 1rem, 1.5rem);

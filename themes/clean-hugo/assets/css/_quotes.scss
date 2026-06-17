@@ -2,11 +2,12 @@
   Quotes — change text size here. All quote types use the same size.
 */
 $quote-font-size: 2rem;
+$feature-quote-font-size: 1.3rem;
 
 /* Quote text */
-.content-main blockquote:not(.twitter-tweet) p,
-.splash-page__content blockquote:not(.twitter-tweet) p,
-.docs-content blockquote p,
+.content-main blockquote:not(.twitter-tweet):not(.feature-quote__quote) p,
+.splash-page__content blockquote:not(.twitter-tweet):not(.feature-quote__quote) p,
+.docs-content blockquote:not(.feature-quote__quote) p,
 .pullquote__text,
 .admonition-quote__body,
 .admonition-quote__body p {
@@ -18,9 +19,9 @@ $quote-font-size: 2rem;
 }
 
 /* Blockquote — left bar + background */
-.content-main blockquote:not(.twitter-tweet),
-.splash-page__content blockquote:not(.twitter-tweet),
-.docs-content blockquote {
+.content-main blockquote:not(.twitter-tweet):not(.feature-quote__quote),
+.splash-page__content blockquote:not(.twitter-tweet):not(.feature-quote__quote),
+.docs-content blockquote:not(.feature-quote__quote) {
   border-left: 4px solid var(--color-primary);
   padding: 0.5rem 0 0.5rem 1rem;
   margin: 1rem 0;
@@ -135,7 +136,82 @@ $quote-font-size: 2rem;
   &--success { --base-color: var(--color-admonition-success, #22C55E); }
   &--warning { --base-color: var(--color-admonition-warning, #EAB308); }
   &--danger  { --base-color: var(--color-admonition-danger, #EF4444); }
-  &--note    { --base-color: var(--color-admonition-note, #6B7280); }
+  &--note    { --base-color: var(--color-admonition-note, #6B7280);   }
+}
+
+/* Feature quote — mark + Lora text, no sidebar bar (home project block, etc.) */
+.feature-quote {
+  --feature-quote-accent: var(--color-brand-medium-purple);
+  --feature-quote-text: var(--color-brand-purple);
+
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+
+  &--teal {
+    --feature-quote-accent: var(--color-primary);
+    --feature-quote-text: var(--color-primary-dark);
+  }
+
+  &--magenta {
+    --feature-quote-accent: var(--color-accent-light);
+    --feature-quote-text: var(--color-accent);
+  }
+
+  &--purple {
+    --feature-quote-accent: var(--color-brand-medium-purple);
+    --feature-quote-text: var(--color-brand-purple);
+  }
+
+  &__quote {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-left: none;
+    background: none;
+  }
+
+  &__mark {
+    margin: 0 0 0.65rem;
+    line-height: 1;
+    color: var(--feature-quote-accent);
+
+    .fa-quote-left {
+      font-size: 1.75rem;
+    }
+  }
+
+  &__text {
+    margin: 0;
+    font-family: $font-family-body;
+    font-size: $feature-quote-font-size;
+    font-style: italic;
+    line-height: 1.5;
+    color: var(--feature-quote-text);
+
+    p {
+      margin: 0 0 0.75rem;
+      font-family: inherit;
+      font-size: inherit;
+      font-style: inherit;
+      line-height: inherit;
+      color: inherit;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  &__cite {
+    margin: 1rem 0 0;
+    font-family: $font-family-body;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    color: var(--color-gray-600);
+  }
 }
 
 /* Training testimonial cards */

@@ -94,6 +94,46 @@
     margin-top: 3rem;
   }
 
+  /* Home / volunteer recent contributors — fluid cards, no awkward 4+1 wrap */
+  .people-grid.people-grid--recent {
+    margin-top: 1.5rem;
+    gap: clamp(0.75rem, 1.5vw, 1rem);
+    grid-template-columns: minmax(0, 1fr);
+
+    @media (min-width: $breakpoint-sm) {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    @media (min-width: $breakpoint-md) {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    @media (min-width: $breakpoint-lg) {
+      grid-template-columns: repeat(auto-fit, minmax(9.5rem, 1fr));
+    }
+
+    .people_card__content {
+      padding: clamp(0.65rem, 1.25vw, 1rem);
+
+      h3 {
+        font-size: clamp(0.9375rem, 1.5vw, 1.125rem);
+      }
+    }
+
+    .people_card__title,
+    .people_card__org {
+      font-size: clamp(0.6875rem, 1.1vw, 0.75rem);
+    }
+
+    .people_card__social {
+      font-size: clamp(0.6875rem, 1vw, 0.75rem);
+
+      i {
+        font-size: clamp(0.75rem, 1.1vw, 0.875rem);
+      }
+    }
+  }
+
   .people_card {
     display: flex;
     flex-direction: column;

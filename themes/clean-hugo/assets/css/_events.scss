@@ -11,6 +11,15 @@
   margin: 0.5rem 0 0;
 }
 
+.events-list__section-title {
+  margin: 0 0 1.25rem;
+  font-family: $font-family-heading;
+  font-size: clamp(1.5rem, 3vw, 1.875rem);
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--color-brand-purple);
+}
+
 /* Small caps section label above upcoming cards */
 .events-list__kicker {
   font-family: $font-family-body;
@@ -44,6 +53,33 @@
 
   @media (min-width: $breakpoint-lg) {
     gap: 1.5rem;
+  }
+}
+
+/* Home page — 3-up grid aligned with blog/packages sections */
+.events-list--home {
+  padding: 0 0 2rem;
+
+  > .container {
+    padding-inline: 0;
+  }
+
+  .events-list__featured {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+
+    @media (min-width: $breakpoint-md) {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    @media (min-width: $breakpoint-lg) {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 2rem;
+    }
+  }
+
+  .event-card--featured {
+    height: 100%;
   }
 }
 
