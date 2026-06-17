@@ -7,9 +7,6 @@ aliases:
 description: >-
   pyOpenSci training and accelerator programs for university research
   communities and labs — cohort courses, webinars, and partnership packages.
-hero:
-  title: "Open source training for universities & research labs"
-  color: primary-dark
 ---
 
 ## Open source training for university research communities

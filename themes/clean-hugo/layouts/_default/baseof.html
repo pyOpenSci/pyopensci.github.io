@@ -94,11 +94,6 @@
   {{/* Chroma syntax highlighting CSS - generated with: hugo gen chromastyles --style=monokai */}}
   <link rel="stylesheet" href="{{ "css/syntax.css" | relURL }}">
 
-  {{/* GLightbox CSS for gallery feature */}}
-  {{ if .Site.Params.theme.enableGallery | default true }}
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
-  {{ end }}
-
   {{/* Analytics */}}
   {{ with .Site.Params.analytics.google }}
     <!-- Google Analytics -->

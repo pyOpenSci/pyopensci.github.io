@@ -81,7 +81,6 @@ buildFuture = true
   url = 'https://www.youtube.com/@pyopensci'
 
 [params.theme]
-  enableGallery = false
   enableFontAwesome = true
 
   [params.theme.fonts]

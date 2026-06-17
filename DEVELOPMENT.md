@@ -78,8 +78,7 @@ not used by Jekyll.
 | *(base rules in site.scss)* | Box-sizing, body, headings |
 | `_navigation.scss` | Header, nav, mobile menu |
 | `_content.scss` | Prose / page content |
-| `_blog.scss` | Single post layout |
-| `_blog-listing.scss` | Blog index, cards, filters |
+| `_blog.scss` | Blog index, single post, archives |
 | `_events.scss` | Events listing and detail |
 | `_footer.scss` | Site footer |
 | `_hero.scss` | Hero sections |
@@ -88,7 +87,8 @@ not used by Jekyll.
 | `_admonition.scss` | Callout blocks |
 | `_code.scss` | Inline code styling (not syntax colors) |
 | `_figure.scss` | Figures and captions |
-| Other partials | Gallery, packages, people, docs, swoosh, filters, … |
+| `_docs.scss` | Documentation book layout (sidebar, header, TOC) |
+| Other partials | Packages, people, swoosh, filters, home bands, … |
 
 When adding styles, prefer the partial that matches the component. Extend
 existing partials before adding new files.

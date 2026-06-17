@@ -16,11 +16,13 @@ a suggestion for a new feature, [open an issue](https://github.com/pyOpenSci/pyo
 
 ## Next Steps
 
-If you are interested in contributing to pyOpenSci, please read about
-how we work in [**pyOpenSci's organization-wide contributing guide**](https://www.pyopensci.org/handbook/CONTRIBUTING.html).
-This repo's [CONTRIBUTING.md](./CONTRIBUTING.md) file provides more information
-about contributing to our website, our **Python Packaging Guide** and our
-**Peer Review Guide**.
+If you are interested in contributing to pyOpenSci, start with
+[**CONTRIBUTING.md**](./CONTRIBUTING.md) — local setup, website development,
+and how to add a multi-page **documentation book** (`layout: docs`) on the Hugo
+site.
+
+For organization-wide norms, see
+[**pyOpenSci's organization-wide contributing guide**](https://www.pyopensci.org/handbook/CONTRIBUTING.html).
 
 ## Installation and development
 
@@ -83,7 +85,8 @@ matter are included in local builds and production deploys without extra flags.
 | `jekyll/` | Legacy Jekyll mirror (reference only during migration) |
 
 For CSS architecture, SCSS partials, and Netlify build details, see
-[DEVELOPMENT.md](./DEVELOPMENT.md).
+[DEVELOPMENT.md](./DEVELOPMENT.md). For contributor workflows and the docs
+book layout, see [CONTRIBUTING.md](./CONTRIBUTING.md).
 
 ### Images and WebP
 

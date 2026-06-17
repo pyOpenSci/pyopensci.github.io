@@ -6,13 +6,11 @@ aliases:
   - /about-peer-review/index.html
 description: >-
   Our open peer review process makes scientific software better and easier to
-  discover. Volunteer editors and reviewers support maintainers across the
-  Python scientific ecosystem.
+  discover.
 hero:
-  title: "pyOpenSci makes Python software better and easier to find through peer review"
-  excerpt: >-
-    Our open peer review process makes scientific software better and easier to
-    discover. [Check out our accepted packages.](/python-packages/)
+  buttons:
+    - label: "Check out our accepted packages"
+      url: "/python-packages/"
 ---
 
 {{< swoosh_section background="purple" swoosh="bottom" >}}
@@ -46,38 +44,6 @@ and JOSS. Simply submit your package to pyOpenSci for review. If your package
 is accepted and in scope for JOSS, it will be fast-tracked through JOSS'
 review process.
 {{< /feature-row >}}
-
-{{< /swoosh_section >}}
-
-<div class="container">
-
-{{< feature-row layout="right"
-    title="Scientists need trusted and vetted software"
-    image="/images/landing-pages/trusted-python-software.png"
-    alt="Illustration of scientists collaborating around trusted Python tools."
-    buttonUrl="/partners/"
-    buttonLabel="Learn more about scientific Python community partnerships" >}}
-Through our partnerships with domain-specific communities, our catalog of
-trusted tools for scientists across domains continues to grow.
-{{< /feature-row >}}
-
-{{< feature-row layout="right"
-    title="Peer review benefits open source maintainers"
-    image="/images/landing-pages/peer-review-supports-maintainers.png"
-    alt="Illustration of maintainers supported through peer review."
-    buttonUrl="https://www.pyopensci.org/software-peer-review/about/benefits.html"
-    buttonLabel="Learn more about the benefits of peer review"
-    buttonTarget="_blank" >}}
-The pyOpenSci peer review process multiplies shared knowledge, making it easier
-for Pythonistas of all levels to accomplish challenging tasks, such as navigating
-the Python packaging ecosystem, with relative ease. And our diverse community
-supports scientific package maintainers in their efforts to develop and build
-robust software.
-{{< /feature-row >}}
-
-</div>
-
-{{< swoosh_section background="purple" swoosh="top" >}}
 
 {{< section-heading title="Get involved with software peer review" >}}
 
@@ -114,6 +80,34 @@ View our Author Guide
 {{< /single-card-wide >}}
 
 {{< /swoosh_section >}}
+
+<div class="container">
+
+{{< feature-row layout="right"
+    title="Scientists need trusted and vetted software"
+    image="/images/landing-pages/trusted-python-software.png"
+    alt="Illustration of scientists collaborating around trusted Python tools."
+    buttonUrl="/partners/"
+    buttonLabel="Learn more about scientific Python community partnerships" >}}
+Through our partnerships with domain-specific communities, our catalog of
+trusted tools for scientists across domains continues to grow.
+{{< /feature-row >}}
+
+{{< feature-row layout="right"
+    title="Peer review benefits open source maintainers"
+    image="/images/landing-pages/peer-review-supports-maintainers.png"
+    alt="Illustration of maintainers supported through peer review."
+    buttonUrl="https://www.pyopensci.org/software-peer-review/about/benefits.html"
+    buttonLabel="Learn more about the benefits of peer review"
+    buttonTarget="_blank" >}}
+The pyOpenSci peer review process multiplies shared knowledge, making it easier
+for Pythonistas of all levels to accomplish challenging tasks, such as navigating
+the Python packaging ecosystem, with relative ease. And our diverse community
+supports scientific package maintainers in their efforts to develop and build
+robust software.
+{{< /feature-row >}}
+
+</div>
 
 {{< editorial-board >}}
 

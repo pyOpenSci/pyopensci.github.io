@@ -7,12 +7,6 @@ aliases:
 description: >-
   Volunteer with pyOpenSci — review packages, contribute on GitHub, write for
   the blog, and join a diverse community supporting scientific open source.
-hero:
-  title: "Get involved with pyOpenSci"
-  color: "#33205C"
-  image:
-    src: images/headers/pyopensci-learn-header.png
-    alt: "Illustration representing pyOpenSci learning and community programs."
 cards_layout: wide
 cards:
   - title: "Lend a Hand on GitHub"

@@ -7,13 +7,6 @@ layout: single
 url: /how-to-submit-a-package-to-pyopensci/
 aliases:
   - /how-to-submit-a-package-to-pyopensci.html
-hero:
-  title: "How to submit a Python package to pyOpenSci for review"
-  excerpt: >-
-    Our open review process happens on GitHub and is community led.
-  image:
-    src: images/headers/pyos-peer-review-header.png
-    alt: "Illustration representing pyOpenSci software peer review."
 ---
 
 ## Submit your Python package for review

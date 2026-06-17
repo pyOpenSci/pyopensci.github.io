@@ -8,9 +8,6 @@ description: >-
   Support pyOpenSci through corporate sponsorship or direct donations — invest
   in the sustainability of the open-source Python ecosystem that drives
   scientific discovery.
-hero:
-  title: "Invest in the Future of Scientific Open Source"
-  color: "#33205C"
 ---
 
 By supporting pyOpenSci, you are directly investing in the sustainability of the

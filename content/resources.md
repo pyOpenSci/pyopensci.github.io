@@ -7,8 +7,6 @@ aliases:
 description: >-
   Links to pyOpenSci organization-wide documentation, peer review, and the
   community handbook.
-hero:
-  title: "pyOpenSci resources"
 ---
 
 We are currently working on all of our organization-wide documentation and

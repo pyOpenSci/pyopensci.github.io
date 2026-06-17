@@ -8,11 +8,6 @@ url: /our-community/
 aliases:
   - /contributors.html
   - /our-community/index.html
-hero:
-  title: The pyOpenSci team & contributors
-  image:
-    src: images/headers/pyopensci-learn-header.png
-    alt: "Illustration representing the pyOpenSci learning and community programs."
 ---
 
 ## Our pyOpenSci community

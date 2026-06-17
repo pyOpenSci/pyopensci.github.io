@@ -63,10 +63,3 @@
   {{ partial "last-modified.html" . }}
 </article>
 {{ end }}
-
-{{ define "scripts" }}
-  {{/* Load GLightbox only if masonry shortcode was used */}}
-  {{ if .Page.Scratch.Get "hasGallery" }}
-    {{ partial "glightbox-scripts.html" . }}
-  {{ end }}
-{{ end }}

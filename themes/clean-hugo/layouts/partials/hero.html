@@ -1,9 +1,7 @@
 {{ $hero := .Params.hero | default dict }}
-{{/* Determine hero background color: default to theme token, allow per-page override */}}
 {{ $heroColorParam := $hero.color }}
 {{ $heroColor := "var(--color-hero-bg)" }}
 {{ if $heroColorParam }}
-  {{/* Support token names (primary, primary-dark, accent, heroBg) or raw CSS colors */}}
   {{ $colorTokens := dict
       "primary" "var(--color-primary)"
       "primarydark" "var(--color-primary-dark)"
@@ -26,31 +24,18 @@
     {{ $heroColor = $heroColorParam }}
   {{ end }}
 {{ end }}
-{{ $isGallery := or (eq .Section "gallery") (eq .Section "plants") }}
-{{/* For plant pages, always use main front matter title; otherwise use hero.title if available */}}
-{{ $title := "" }}
-{{ if $isGallery }}
-  {{ $title = .Title }}
-{{ else }}
-  {{ $title = $hero.title | default .Title }}
-{{ end }}
-{{/* Final fallback to ensure title always exists */}}
-{{ if not $title }}{{ $title = .Title }}{{ end }}
+{{ $title := .Title }}
 {{ $subtitle := $hero.subtitle }}
-{{ $excerpt := $hero.excerpt | default .Description }}
+{{ $excerpt := .Description | default $hero.excerpt }}
 {{ $buttons := $hero.buttons }}
-{{ $heroClass := "hero" }}
-{{ if .IsHome }}
-  {{ $heroClass = "hero hero--full-width" }}
-{{ end }}
 
-<section class="{{ $heroClass }}" style="background-color: {{ $heroColor }};">
+<section class="hero" style="background-color: {{ $heroColor }};">
   <div class="container">
     <div class="hero__grid">
       <div class="hero__content">
         <h1 class="hero__title">{{ $title }}</h1>
         {{ with $subtitle }}<p class="hero__subtitle">{{ . }}</p>{{ end }}
-        {{ with $excerpt }}<p class="hero__excerpt">{{ . }}</p>{{ end }}
+        {{ with $excerpt }}<p class="hero__excerpt">{{ . | markdownify }}</p>{{ end }}
         {{ with $buttons }}
           <div class="hero__actions btn-group" role="group" aria-label="Primary actions">
             {{ range . }}

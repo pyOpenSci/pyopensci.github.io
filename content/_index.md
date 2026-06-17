@@ -7,7 +7,6 @@ cards_layout: wide
 description: "We support the people, projects, and practices that make scientific open-source software more reliable, inclusive, and sustainable."
 hero:
   color: "#33205C"
-  square_image: true
   buttons:
     - label: "Learn to Create a Python Package"
       url: "/python-package-guide/tutorials/create-python-package.html"

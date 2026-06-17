@@ -7,9 +7,6 @@ aliases:
 description: >-
   Domain-specific communities partner with pyOpenSci to leverage our peer review
   process and Python packaging guidelines without building a separate program.
-hero:
-  title: "pyOpenSci community partners: affiliated package review"
-  color: "#33205C"
 ---
 
 Domain-specific communities can partner with pyOpenSci to leverage both our peer

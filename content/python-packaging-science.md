@@ -7,11 +7,6 @@ aliases:
 description: >-
   We make the Python package ecosystem easier to navigate through peer review
   and packaging resources.
-hero:
-  title: "Python packaging resources for scientists"
-  image:
-    src: images/headers/pyopensci-software.png
-    alt: "Illustration representing pyOpenSci Python packaging resources for scientists."
 intro_section:
   text: >-
     There are many tools and approaches that can be used to create a Python

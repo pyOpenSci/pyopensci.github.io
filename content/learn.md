@@ -8,11 +8,6 @@ description: >-
   pyOpenSci training resources for scientists — beginner-friendly Python
   packaging tutorials, GitHub collaboration lessons, and expert-led community
   events.
-hero:
-  title: "Python Tutorials & Learning Resources for Scientists"
-  image:
-    src: images/headers/pyopensci-learn-header.png
-    alt: "pyOpenSci training and learning resources for scientists."
 intro_section:
   text: >-
     pyOpenSci is committed to supporting scientists as they leverage open source

@@ -7,11 +7,6 @@ layout: packages-list
 url: /python-packages/
 aliases:
   - /python-packages.html
-hero:
-  title: pyOpenSci open peer review & accepted packages
-  image:
-    src: images/headers/pyopensci-software.png
-    alt: "Illustration representing pyOpenSci accepted Python packages."
 ---
 
 The Python packages below have been accepted into the pyOpenSci ecosystem through

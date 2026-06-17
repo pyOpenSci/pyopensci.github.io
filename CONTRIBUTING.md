@@ -49,6 +49,65 @@ start here:
 
 Please test changes locally before opening a pull request.
 
+#### Documentation book layout (`layout: docs`)
+
+The theme includes a **docs layout** for multi-page guides with a sidebar, mobile
+toggle, and in-page table of contents. Use it when you want a small “book” of
+Hugo pages on the main site (for example, contributor docs or an internal
+guide), separate from splash landing pages and blog posts.
+
+**Layout files** (in `themes/clean-hugo/`):
+
+| Path | Role |
+|------|------|
+| `layouts/_default/docs.html` | Docs page shell (header, sidebar, content column) |
+| `layouts/partials/docs-sidebar.html` | Auto-built sidebar from `content/documentation/` |
+| `layouts/partials/docs-toc.html` | On-page heading TOC for the active page |
+| `layouts/partials/docs-menu-recursive.html` | Nested sidebar items |
+| `assets/css/_docs.scss` | Docs layout styles |
+| `static/js/docs-nav.js`, `docs-sidebar.js` | Sidebar toggle and scroll behavior |
+
+**How to add a documentation section**
+
+1. Create a content section at `content/documentation/`:
+
+   ```
+   content/documentation/
+   ├── _index.md          # Section home (sidebar “Documentation” link)
+   ├── getting-started.md
+   └── shortcodes/
+       └── _index.md      # Nested subsection (optional)
+   ```
+
+2. Set `layout: docs` on every page in the section (including `_index.md`):
+
+   ```yaml
+   ---
+   title: Getting started
+   layout: docs
+   weight: 10
+   excerpt: Optional intro paragraph below the header.
+   header:
+     title: Getting started   # optional; defaults to page title
+     color: primaryDark       # theme token or hex, e.g. "#33205C"
+   ---
+   ```
+
+3. Order sidebar entries with `weight` in front matter (lower numbers first).
+   Nested pages become expandable subsections in the sidebar.
+
+4. Write body content as normal Markdown. Headings `h2`–`h4` appear in the
+   inline TOC on the active page (populated by `docs-nav.js`).
+
+5. Preview locally: `hugo server --disableFastRender` and open
+   `/documentation/` (or the path matching your section slug).
+
+The sidebar partial looks up `Site.GetPage "/documentation"` — if you use a
+different section slug, update `docs-sidebar.html` to match.
+
+There is no live documentation section in `content/` yet; the layout is ready
+when we add one. For theme-level CSS details, see [DEVELOPMENT.md](./DEVELOPMENT.md).
+
 ### Python Package Guide
 
 The Python Package Guide listed on our website is a guide for scientific authors
