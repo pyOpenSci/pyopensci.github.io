@@ -182,6 +182,19 @@
           {{ end }}
         {{ end }}
 
+        {{/* Site search toggle */}}
+        {{ if .Site.Params.search.enable }}
+          <button
+            class="site-nav__search-toggle search__toggle"
+            type="button"
+            aria-label="Toggle search"
+            aria-expanded="false"
+            aria-controls="site-search"
+          >
+            <i class="fas fa-search" aria-hidden="true"></i>
+          </button>
+        {{ end }}
+
         {{/* Optional CTA Button */}}
         {{ with .Site.Params.nav_button }}
           <a href="{{ .url }}"
@@ -193,13 +206,21 @@
     </div>
   </nav>
 
-  <main id="main">
-    {{ block "main" . }}{{ end }}
-  </main>
-  {{ partial "footer.html" . }}
+  <div class="page-content">
+    <main id="main">
+      {{ block "main" . }}{{ end }}
+    </main>
+    {{ partial "footer.html" . }}
+  </div>
+
+  {{ partial "search-overlay.html" . }}
 
   {{/* Navigation bar toggle JavaScript */}}
   <script src="{{ "js/navigation.js" | relURL }}" defer></script>
+  {{ if .Site.Params.search.enable }}
+    <script src="{{ "js/algolia-search.js" | relURL }}" defer></script>
+    <script src="{{ "js/search.js" | relURL }}" defer></script>
+  {{ end }}
 
   {{ block "scripts" . }}{{ end }}
 </body>

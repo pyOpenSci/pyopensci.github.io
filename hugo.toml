@@ -137,6 +137,22 @@ buildFuture = true
   url = 'https://give.communityin.org/pyopensci_2024'
   variant = 'dark-purple'
 
+# Site search — Algolia InstantSearch (ported from search branch / PR #788).
+[params.search]
+  enable = true
+  title = 'Search our website'
+  subtitle = 'Our website includes a Python packaging guide, a peer review guide and lessons that we have built. Search below to explore our resources.'
+  placeholder = 'Search the site...'
+  no_results = 'No results'
+  loading = 'Loading search…'
+  error = 'Search is temporarily unavailable. Please try again.'
+
+[params.algolia]
+  application_id = 'OCL08AWWSO'
+  index_name = 'pyopensci'
+  search_only_api_key = '42e1fb9616225e65d332af46f27dba9f'
+  powered_by = true
+
 # Main nav — aligned with live Jekyll site (_data/navigation.yml on main).
 
 [[menu.main]]
