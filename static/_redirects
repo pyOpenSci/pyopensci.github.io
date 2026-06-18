@@ -1,6 +1,7 @@
 # Netlify redirects — legacy URL continuity (formerly Jekyll _pages/redirects/)
 # and other URL continuity rules. Hugo aliases handle most .html paths.
 
+/feed.xml /blog/index.xml 301
 /tutorials/ /learn/ 301
 /contributors/ /our-community/ 301
 /get-involved-contact.html /volunteer/ 301

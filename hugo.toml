@@ -41,6 +41,7 @@ buildFuture = true
 
   [params.seo]
     default_image = 'images/landing-pages/scipy-sprint-working.png'
+    twitter_site = 'pyOpenSci'
 
   [params.social]
     type = 'Organization'

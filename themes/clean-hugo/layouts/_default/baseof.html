@@ -9,6 +9,13 @@
   {{/* SEO: Open Graph, Canonical URLs, and Social Metadata */}}
   {{ partial "seo.html" . }}
 
+  {{/* RSS feed — blog section (legacy Jekyll path /feed.xml redirects here) */}}
+  {{ with .Site.GetPage "/blog" }}
+    {{ with .OutputFormats.Get "rss" }}
+  <link rel="alternate" type="{{ .MediaType.Type }}" href="{{ .Permalink | absURL }}" title="{{ $.Site.Title }} Feed">
+    {{ end }}
+  {{ end }}
+
   {{/* Favicons */}}
   <link rel="icon" type="image/x-icon" href="{{ "favicon.ico" | relURL }}">
   <link rel="icon" type="image/png" sizes="32x32" href="{{ "favicon-32x32.png" | relURL }}">

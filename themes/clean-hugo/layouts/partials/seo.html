@@ -54,6 +54,30 @@
 <meta property="og:image:alt" content="{{ $imageAlt }}">
 {{ end }}
 
+{{/*
+  Twitter Card meta (parity with Jekyll _includes/seo.html).
+  Set params.seo.twitter_site in hugo.toml (e.g. pyOpenSci).
+*/}}
+{{ $twitterSite := .Site.Params.seo.twitter_site }}
+{{ if $twitterSite }}
+  {{ $twitterHandle := $twitterSite | replaceRE "^@" "" }}
+  <meta name="twitter:site" content="@{{ $twitterHandle }}">
+  <meta name="twitter:title" content="{{ $title }}">
+  <meta name="twitter:description" content="{{ $description }}">
+  <meta name="twitter:url" content="{{ .Permalink }}">
+  {{ if $image }}
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="{{ $image }}">
+    <meta name="twitter:image:alt" content="{{ $imageAlt }}">
+  {{ else }}
+    <meta name="twitter:card" content="summary">
+  {{ end }}
+  {{ with .Params.twitter_creator }}
+    {{ $creator := . | replaceRE "^@" "" }}
+    <meta name="twitter:creator" content="@{{ $creator }}">
+  {{ end }}
+{{ end }}
+
 {{/* Content type specific tags */}}
 {{ if .IsPage }}
   {{ if eq .Section "blog" }}
