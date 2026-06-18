@@ -4,6 +4,6 @@
 
 [build.environment]
   HUGO_VERSION = "0.139.4"
-  NODE_VERSION = "20"
+  NODE_VERSION = "24"
   HUGO_ENV = "production"
   TZ = "America/Denver"
