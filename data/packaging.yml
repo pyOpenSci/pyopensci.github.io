@@ -1,5 +1,5 @@
 # Packaging guidebook sections — used by packaging-guide-grid shortcode.
-# Source: _packaging/*.md (Jekyll collection).
+# Packaging guide navigation data.
 
 - order: 0
   title: "Create Python package structure"

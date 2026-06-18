@@ -11,9 +11,7 @@ We have a bash script, `scripts/date-updated.sh`, that walks blog posts and sets
 the `last_modified:` date in front matter from your local git history. It only
 updates posts that already include a `last_modified:` key.
 
-Hugo blog posts live in `content/blog/`. The script still scans `_posts/`
-(Jekyll layout) — update the script path after cutover, or edit front matter
-manually until then.
+Hugo blog posts live in `content/blog/`.
 
 From the repository root:
 
@@ -35,9 +33,8 @@ questions, please open an issue in the repository or contact us via Slack.
 This repository, [`pyOpenSci/pyopensci.github.io`](https://github.com/pyOpenSci/pyopensci.github.io),
 contains the source code for the [pyOpenSci.org](https://www.pyopensci.org) website.
 
-The site is migrating from Jekyll to **[Hugo](https://gohugo.io)**. Hugo source
-lives at the repo root (`content/`, `data/`, `themes/clean-hugo/`). The legacy
-Jekyll site remains in `jekyll/` until production cutover.
+The site is built with **[Hugo](https://gohugo.io)**. Source lives at the repo
+root (`content/`, `data/`, `themes/clean-hugo/`).
 
 If you want to contribute pages, blog posts, theme layouts, SCSS, or shortcodes,
 start here:

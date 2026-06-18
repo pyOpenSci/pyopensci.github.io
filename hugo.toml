@@ -1,5 +1,4 @@
-# pyOpenSci website (Hugo) — lives at repo root. Legacy Jekyll site is in
-# jekyll/. Production still builds Jekyll from jekyll/ until cutover.
+# pyOpenSci website (Hugo)
 
 baseURL = 'https://www.pyopensci.org/'
 languageCode = 'en-us'
@@ -10,8 +9,7 @@ timeZone = 'America/Denver'
 enableRobotsTXT = true
 buildFuture = true
 
-# Site images: use Hugo’s normal `static/images/` (published as /images/...).
-# The legacy Jekyll site still reads from `jekyll/images/` for its own build.
+# Site images live in static/images/ (published as /images/...).
 
 [sitemap]
   changefreq = 'weekly'
@@ -32,7 +30,7 @@ buildFuture = true
   author = 'pyOpenSci'
   tagline = 'We support the open source contributors and developers who fuel scientific discovery.'
 
-  # Upper-left nav: logo image (served from mounted jekyll/images via static/images).
+  # Upper-left nav: logo image (served from static/images/).
   [params.nav_logo]
     src = 'images/logo.png'
     alt = 'pyOpenSci logo: a purple flower opening over the O in Open, representing open science.'
@@ -153,7 +151,7 @@ buildFuture = true
   search_only_api_key = '42e1fb9616225e65d332af46f27dba9f'
   powered_by = true
 
-# Main nav — aligned with live Jekyll site (_data/navigation.yml on main).
+# Main navigation
 
 [[menu.main]]
   name = 'Peer Review'
