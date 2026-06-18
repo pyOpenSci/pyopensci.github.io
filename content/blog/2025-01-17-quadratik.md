@@ -62,8 +62,8 @@ print(normality_test.summary(print_fmt="grid"))
 The results of this test is shown below.
 <figure style="float: center;">
 <picture>
-  <source srcset="images/quadratik/normality-test-results.webp" type="image/webp">
-  <img src="images/quadratik/normality-test-results.png" alt="Results for the Normality Test." />
+  <source srcset="/images/quadratik/normality-test-results.webp" type="image/webp">
+  <img src="/images/quadratik/normality-test-results.png" alt="Results for the Normality Test." />
 </picture>
 The test rightly fails to reject the null hypothesis, as the samples have been generated from a standard normal distribution.
 
@@ -99,8 +99,8 @@ print(two_sample_test.summary(print_fmt = "grid"))
 The results of the test is shown below.
 <figure style="float: center;">
 <picture>
-  <source srcset= "images/quadratik/two-sample-test-results.webp" type="image/webp">
-  <img src= "images/quadratik/two-sample-test-results.png" alt="Results for the Two Sample Test." />
+  <source srcset= "/images/quadratik/two-sample-test-results.webp" type="image/webp">
+  <img src= "/images/quadratik/two-sample-test-results.png" alt="Results for the Two Sample Test." />
 </picture>
 The test rejects the null hypothesis, as the samples have been generated from two different distributions.
 
@@ -136,8 +136,8 @@ print(k_sample_test.summary(print_fmt="grid"))
 The results of the test is shown below.
 <figure style="float: center;">
 <picture>
-  <source srcset= "images/quadratik/k-sample-test-results.webp" type="image/webp">
-  <img src= "images/quadratik/k-sample-test-results.png" alt="Results for the K-Sample Test." />
+  <source srcset= "/images/quadratik/k-sample-test-results.webp" type="image/webp">
+  <img src= "/images/quadratik/k-sample-test-results.png" alt="Results for the K-Sample Test." />
 </picture>
 The null hypothesis is rejected for the k-sample test indicates that there is **significant evidence to conclude that at least one of the distributions among the three glass types is different**. In other words, the samples from the three classes of glass do not all come from the same underlying population distribution. This suggests that there are meaningful differences in the characteristics or features of the glass types being compared.
 
@@ -166,8 +166,8 @@ print(unif_test.summary(print_fmt = "grid"))
 The results of the test is shown below.
 <figure style="float: center;">
 <picture>
-  <source srcset= "images/quadratik/uniformity-test-results.webp" type="image/webp">
-  <img src= "images/quadratik/uniformity-test-results.png" alt="Results for the Uniformity Test." />
+  <source srcset= "/images/quadratik/uniformity-test-results.webp" type="image/webp">
+  <img src= "/images/quadratik/uniformity-test-results.png" alt="Results for the Uniformity Test." />
 </picture>
 ## Clustering
 
@@ -177,8 +177,8 @@ The image we will be using is shown below, and the task is to identify the vario
 
 <figure style="float: center;">
 <picture>
-  <source srcset="images/quadratik/dog-cat.webp" type="image/webp">
-  <img src= "images/quadratik/dog-cat.png" alt="Dog Cat Image." />
+  <source srcset="/images/quadratik/dog-cat.webp" type="image/webp">
+  <img src= "/images/quadratik/dog-cat.png" alt="Dog Cat Image." />
 </picture>
 Particularly, in this image a potential image segmentation task is to identify the various entities i.e. the cat and the dog in the image. Let's apply the clustering algorithm and see what does it return to us.
 
@@ -238,8 +238,8 @@ The image is segmented into k clusters with k ranging from 2 to 8. Below, we dis
 
 <figure style="float: center;">
 <picture>
-  <source srcset= "images/quadratik/dog-cat-segmented.webp" type="image/webp">
-  <img src= "images/quadratik/dog-cat-segmented.png" alt="Dog Cat Image Segmented" />
+  <source srcset= "/images/quadratik/dog-cat-segmented.webp" type="image/webp">
+  <img src= "/images/quadratik/dog-cat-segmented.png" alt="Dog Cat Image Segmented" />
 </picture>
 Starting from k = 5, the segmented images reveal only minor changes in the identified segments upon closer examination. Let us see if we can validate our observation using the elbow plots.
 
@@ -249,8 +249,8 @@ elbow_plots
 ```
 <figure style="float: center;">
 <picture>
-  <source srcset= "images/quadratik/validation-dog-cat.webp"  type="image/webp">
-  <img src= "images/quadratik/validation-dog-cat.png"  alt="Dog Cat Image Validation Plots" />
+  <source srcset= "/images/quadratik/validation-dog-cat.webp"  type="image/webp">
+  <img src= "/images/quadratik/validation-dog-cat.png"  alt="Dog Cat Image Validation Plots" />
 </picture>
 The elbow plots show a clear elbow at k = 5, which aligns with our observation that all regions of the image are effectively identified at this value of k.
 
@@ -318,8 +318,8 @@ plt.tight_layout()
 
 <figure style="float: center;">
   <picture>
-    <source srcset= "images/quadratik/unit-sphere.webp" type="image/webp">
-    <img src= "images/quadratik/unit-sphere.png" alt="PKBD Samples on Unit Sphere."/>
+    <source srcset= "/images/quadratik/unit-sphere.webp" type="image/webp">
+    <img src= "/images/quadratik/unit-sphere.png" alt="PKBD Samples on Unit Sphere."/>
   </picture>
 <br>
 
@@ -336,7 +336,7 @@ UI().run()
 
 <figure style="float: center;">
   <picture>
-    <source srcset= "images/quadratik/dash-landing.webp"  type="image/webp">
+    <source srcset= "/images/quadratik/dash-landing.webp"  type="image/webp">
     <img src="/images/quadratik/dash-landing.png" alt="Dashboard."/>
   </picture>
 ## Concluding Remarks
