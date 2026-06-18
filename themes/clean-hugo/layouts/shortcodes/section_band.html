@@ -1,0 +1,38 @@
+{{/* Block shortcode: full-width colored section band with optional curved divider.
+    Params:
+      color   — white | light-purple | soft-purple | green | brand-purple
+      divider — top | bottom | none (curved SVG transition)
+      layout  — docs (contained width; no sidebar bleed)
+
+    Prefer {{< section_band >}} when nesting shortcodes (impact-cards, section-heading).
+    Use {{% section_band %}} only for markdown prose — not nested shortcodes.
+*/}}
+{{- $color := .Get "color" | default (.Get "background" | default "white") -}}
+{{- if eq $color "purple" }}{{ $color = "light-purple" }}{{ end -}}
+{{- $divider := .Get "divider" | default (.Get "swoosh" | default "none") -}}
+{{- $layout := .Get "layout" | default "" -}}
+{{- $docsClass := "" -}}
+{{- if eq $layout "docs" }}{{ $docsClass = " section-band--docs" }}{{ end -}}
+{{- $wrapDocsClass := "" -}}
+{{- if eq $layout "docs" }}{{ $wrapDocsClass = " section-band__divider-wrap--docs" }}{{ end -}}
+
+{{- $inner := trim .InnerDeindent " \n\t\r" -}}
+{{- if eq $divider "top" -}}
+  <div class="section-band__divider-wrap{{ $wrapDocsClass }}">
+    {{ partial "section-band-divider-top.html" (dict "color" $color) }}
+  </div>
+{{- end -}}
+
+{{- if $inner -}}
+<section class="section-band section-band--{{ $color }}{{ $docsClass }}">
+  <div class="section-band__content">
+    {{ partial "section-band-inner-content.html" (dict "inner" $inner "page" .Page) }}
+  </div>
+</section>
+{{- end -}}
+
+{{- if eq $divider "bottom" -}}
+  <div class="section-band__divider-wrap{{ $wrapDocsClass }}">
+    {{ partial "section-band-divider-bottom.html" (dict "color" $color) }}
+  </div>
+{{- end -}}

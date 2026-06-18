@@ -11,7 +11,7 @@ hero:
       url: "/python-packages/"
 ---
 
-{{< swoosh_section background="purple" swoosh="bottom" >}}
+{{< section_band color="light-purple" divider="bottom" >}}
 
 {{< feature-row layout="left"
     title="How Python software peer review works"
@@ -77,7 +77,7 @@ View our Author Guide
 {{< /button >}}
 {{< /single-card-wide >}}
 
-{{< /swoosh_section >}}
+{{< /section_band >}}
 
 <div class="container">
 

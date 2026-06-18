@@ -1,0 +1,30 @@
+{{/* Maps legacy swoosh_section shortcode to section_band. */}}
+{{- $color := .Get "color" | default (.Get "background" | default "white") -}}
+{{- if eq $color "purple" }}{{ $color = "light-purple" }}{{ end -}}
+{{- $divider := .Get "divider" | default (.Get "swoosh" | default "none") -}}
+{{- $layout := .Get "layout" | default "" -}}
+{{- $docsClass := "" -}}
+{{- if eq $layout "docs" }}{{ $docsClass = " section-band--docs" }}{{ end -}}
+{{- $wrapDocsClass := "" -}}
+{{- if eq $layout "docs" }}{{ $wrapDocsClass = " section-band__divider-wrap--docs" }}{{ end -}}
+
+{{- $inner := trim .InnerDeindent " \n\t\r" -}}
+{{- if eq $divider "top" -}}
+  <div class="section-band__divider-wrap{{ $wrapDocsClass }}">
+    {{ partial "section-band-divider-top.html" (dict "color" $color) }}
+  </div>
+{{- end -}}
+
+{{- if $inner -}}
+<section class="section-band section-band--{{ $color }}{{ $docsClass }}">
+  <div class="section-band__content">
+    {{ partial "section-band-inner-content.html" (dict "inner" $inner "page" .Page) }}
+  </div>
+</section>
+{{- end -}}
+
+{{- if eq $divider "bottom" -}}
+  <div class="section-band__divider-wrap{{ $wrapDocsClass }}">
+    {{ partial "section-band-divider-bottom.html" (dict "color" $color) }}
+  </div>
+{{- end -}}

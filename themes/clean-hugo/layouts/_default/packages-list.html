@@ -1,16 +1,10 @@
 {{ define "main" }}
 
-{{ $pkgStats := partial "calculate-package-stats.html" . }}
-
 {{ partial "hero.html" . }}
 
-{{ $stats := slice
-    (printf "**%d** Packages Accepted" $pkgStats.total)
-    (printf "**%d** Published in JOSS" $pkgStats.joss)
-    (printf "**%d** Currently Active" $pkgStats.active)
-    (printf "**%d** Unique Maintainers" $pkgStats.maintainers)
-}}
-{{ partial "metrics-bar-render.html" (dict "stats" $stats) }}
+{{ $scratch := newScratch }}
+{{ partial "metrics/build-stats.html" (dict "context" . "set" "packages" "scratch" $scratch) }}
+{{ partial "metrics-bar-render.html" (dict "stats" ($scratch.Get "stats")) }}
 
 <div class="packages-page__content">
   <div class="container">

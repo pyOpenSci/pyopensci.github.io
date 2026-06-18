@@ -12,6 +12,10 @@
     display: grid;
     gap: 1.5rem;
     align-items: start;
+
+    @media (min-width: $breakpoint-md) {
+      align-items: center;
+    }
   }
 
   &__media {
@@ -54,8 +58,8 @@
   &--left {
     .feature-row__inner {
       @media (min-width: $breakpoint-md) {
-        /* Image ~33%, text ~66% */
-        grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+        /* Image 2/5, text 3/5 */
+        grid-template-columns: minmax(0, 2fr) minmax(0, 3fr);
       }
     }
   }
@@ -63,8 +67,8 @@
   &--right {
     .feature-row__inner {
       @media (min-width: $breakpoint-md) {
-        /* Text ~66%, image ~33% (body fills col 1 via order) */
-        grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+        /* Text 3/5, image 2/5 (body fills col 1 via order) */
+        grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
 
         .feature-row__media {
           order: 2;

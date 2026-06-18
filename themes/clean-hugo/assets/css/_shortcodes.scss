@@ -40,6 +40,24 @@
     }
   }
 
+  /* Metrics + dark band flush above site footer */
+  .splash-page__content > .metrics-bar + .impact-destinations {
+    margin-top: 0;
+  }
+
+  .splash-page__content > .metrics-bar:has(+ .impact-destinations) {
+    margin-bottom: 0;
+  }
+
+  .splash-page__content > .impact-destinations:last-child {
+    margin-bottom: 0;
+  }
+
+  .page-content:has(.splash-page__content > .impact-destinations:last-child)
+    .site-footer {
+    margin-top: 0;
+  }
+
   /* Two Card Row */
   .two-card-row {
     padding: 1.5rem 0;
@@ -264,4 +282,26 @@
     @include responsive(font-size, 1.125rem, 1.25rem);
     opacity: 0.8;
     color: var(--color-gray-600);
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .section-heading--left {
+    text-align: left;
+
+    .section-heading__subtitle {
+      text-align: left;
+      max-width: 42rem;
+    }
+  }
+
+  .section-heading__eyebrow {
+    margin: 0 0 0.5rem;
+    font-size: 0.8125rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-primary);
   }

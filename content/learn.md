@@ -27,7 +27,7 @@ Are you interested in cohort learning options? Visit our
 page to learn more.
 {{< /admonition >}}
 
-{{< swoosh_section background="purple" swoosh="bottom" >}}
+{{< section_band color="light-purple" divider="bottom" >}}
 
 {{< feature-row layout="right"
     title="Our process: Community-developed Python tutorials"
@@ -42,7 +42,7 @@ Our tutorials are created through a multi-stage community review process.
   review for accuracy, usability and accessibility.
 {{< /feature-row >}}
 
-{{< /swoosh_section >}}
+{{< /section_band >}}
 
 <div class="container learn-page__tutorials">
 
@@ -56,7 +56,7 @@ order, but you can always pick a specific topic if you wish to jump around.
 
 </div>
 
-{{< swoosh_section background="purple" swoosh="top" >}}
+{{< section_band color="light-purple" divider="top" >}}
 
 {{< feature-row layout="right"
     title="Lessons: Collaborative GitHub for Scientists"
@@ -91,7 +91,7 @@ then work through the contribute path:
 [Ways to contribute](https://www.pyopensci.org/lessons/contribute-open-source/ways-to-contribute.html)
 {{< /feature-row >}}
 
-{{< /swoosh_section >}}
+{{< /section_band >}}
 
 <div class="container">
 

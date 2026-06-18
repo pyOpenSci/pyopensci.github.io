@@ -1,8 +1,38 @@
-{{/* Metrics bar shortcode - displays up to 4 stats with bold numbers and smaller text */}}
-{{ $stat1 := .Get "stat1" | default "" }}
-{{ $stat2 := .Get "stat2" | default "" }}
-{{ $stat3 := .Get "stat3" | default "" }}
-{{ $stat4 := .Get "stat4" | default "" }}
+{{/*
+  Metrics bar shortcode — shared layout, flexible data input.
 
-{{ $stats := slice $stat1 $stat2 $stat3 $stat4 }}
+  Named preset (live data):
+    {{< metrics-bar set="volunteer" >}}
+    {{< metrics-bar set="packages" >}}
+
+  Page front matter:
+    metrics_set: volunteer
+    {{< metrics-bar >}}
+
+  Manual stats (static or demo content):
+    {{< metrics-bar
+      stat1="**128** blog posts"
+      stat2="**500+** community members"
+    >}}
+*/}}
+{{ $set := .Get "set" | default (.Page.Params.metrics_set | default "") }}
+{{ $stats := slice }}
+
+{{ if $set }}
+  {{ $scratch := newScratch }}
+  {{ partial "metrics/build-stats.html" (dict
+      "context" .Page
+      "set" $set
+      "scratch" $scratch
+  ) }}
+  {{ $stats = $scratch.Get "stats" | default slice }}
+{{ else }}
+  {{ $stats = slice
+      (.Get "stat1" | default "")
+      (.Get "stat2" | default "")
+      (.Get "stat3" | default "")
+      (.Get "stat4" | default "")
+  }}
+{{ end }}
+
 {{ partial "metrics-bar-render.html" (dict "stats" $stats) }}

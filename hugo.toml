@@ -32,8 +32,8 @@ buildFuture = true
 
   # Upper-left nav: logo image (served from static/images/).
   [params.nav_logo]
-    src = 'images/logo.png'
-    alt = 'pyOpenSci logo: a purple flower opening over the O in Open, representing open science.'
+    src = 'images/logo-white.png'
+    alt = 'pyOpenSci logo: white flower icon above pyOpenSci wordmark.'
   blog_title = 'pyOpenSci Blog'
   description = 'pyOpenSci broadens participation in scientific open source.'
 
@@ -133,7 +133,7 @@ buildFuture = true
 [params.nav_button]
   text = 'Donate'
   url = 'https://give.communityin.org/pyopensci_2024'
-  variant = 'dark-purple'
+  variant = 'green'
 
 # Site search — Algolia InstantSearch (ported from search branch / PR #788).
 [params.search]

@@ -1,98 +1,203 @@
 ---
-title: "Get involved with pyOpenSci"
+title: "Open science is fueled by people like you"
 layout: splash
 url: /volunteer/
 aliases:
   - /volunteer.html
   - /get-involved-contact.html
 description: >-
-  Volunteer with pyOpenSci — review packages, contribute on GitHub, write for
-  the blog, and join a diverse community supporting scientific open source.
-cards_layout: wide
+  pyOpenSci runs on volunteer energy. Whether you want to review a Python package, help maintain our tools, or translate resources for your community — there's a role that fits your time and skills.
+metrics_set: volunteer
+cards_align: center
+cards_layout: five
 cards:
-  - title: "Lend a Hand on GitHub"
+  - modifier: "card--white"
+    title: "Reviewer"
+    label: "Async"
+    label_style: "accent"
+    tags:
+      - "Technical review"
+      - "~5–10 hrs / review"
     excerpt: >-
-      Got some time to help? Check out our GitHub Project Board for a list of
-      current issues that we could use help with. Any issue that is tagged
-      help-wanted in our repos is also fair game for anyone to tackle! We add
-      anyone who contributes to pyOpenSci to our
-      [community page](/our-community/).
-    url: "https://github.com/orgs/pyOpenSci/projects/3/views/1"
-    cta: "> Check out our GitHub Help Wanted Board"
-  - title: "Sign up to review a Python package"
-    excerpt: >-
-      We are always looking for new reviewers from a broad range of scientific
-      domains. Some reviewers have extensive packaging expertise and others
-      have domain expertise or focus on package usability. If you are new to
-      reviewing we are happy to support you through our peer review mentorship
-      program.
-      [Learn more about the reviewer role](https://www.pyopensci.org/software-peer-review/how-to/reviewer-guide.html)
-      and sign up using the link below.
+      Evaluate a Python package for usability, documentation, and packaging
+      best practices. Most reviewers complete one or two reviews per year on
+      their own schedule.
     url: "https://forms.gle/GHfxvmS47nQFDcBM6"
-    cta: "> Sign up now."
-  - title: "Get involved as software peer review Editor"
+    cta: "Sign up to be a reviewer →"
+  - modifier: "card--white"
+    title: "Editor"
+    label: "Async"
+    label_style: "accent"
+    tags:
+      - "Editorial oversight"
+      - "~3–5 hrs / month"
     excerpt: >-
-      We also often recruit new editors to support our peer review process.
-    url: "https://www.pyopensci.org/software-peer-review/how-to/editors-guide.html"
-    cta: "> Click here to learn more about the editor role."
+      Manage 2–3 active reviews — recruit reviewers, keep submissions on track,
+      and provide light technical guidance.
+    url: "https://docs.google.com/forms/d/e/1FAIpQLScRQHQ7NKVEAG3BKAphiUdVFvQ5nkez0IpyXBMZDzXjuBPloQ/viewform"
+    cta: "Apply to be an editor →"
+  - modifier: "card--white"
+    title: "Editor in Chief"
+    label: "Team role"
+    label_style: "team"
+    tags:
+      - "Leadership"
+      - "6–12 month rotation"
+    excerpt: >-
+      Serve as rotating lead for the editorial board — onboard new editors,
+      handle escalations, and help shape review policies.
+    #url: "https://docs.google.com/forms/d/e/1FAIpQLScRQHQ7NKVEAG3BKAphiUdVFvQ5nkez0IpyXBMZDzXjuBPloQ/viewform"
+    #cta: "Express interest →"
+  - modifier: "card--white"
+    title: "Peer review triage"
+    label: "Async"
+    label_style: "accent"
+    tags:
+      - "Intake & routing"
+      - "~2–4 hrs / month"
+    excerpt: >-
+      Screen new package submissions before they enter the review queue. A good
+      entry point if you want editorial experience with a lighter time
+      commitment.
+    #url: "https://forms.gle/GHfxvmS47nQFDcBM6"
+    cta: "Sign up for triage →"
+  - modifier: "card--stipend"
+    title: "Peer review lead"
+    label: "Stipended"
+    label_style: "stipend"
+    tags:
+      - "Program coordination"
+      - "Part-time"
+    excerpt: >-
+      Coordinate the day-to-day health of the review program — track open
+      submissions, support editors, and iterate on process documentation. This
+      role carries a stipend.
+    #url: ""
+    cta: "Apply for this role →"
+translation_cards_align: center
+translation_cards:
+  - modifier: "card--white"
+    title: "Translation Lead"
+    label: "Coordination"
+    label_style: "team"
+    tags:
+      - "Language coordination"
+      - "~3–5 hrs / month"
+    excerpt: >-
+      Own a language track — coordinate contributors, manage review cycles, and
+      keep translations consistent with source updates.
+    url: "mailto:hello@pyopensci.org"
+    cta: "Apply to lead →"
+  - modifier: "card--white"
+    title: "Translation Contributor"
+    label: "Async"
+    label_style: "accent"
+    tags:
+      - "Translating & reviewing"
+      - "Flexible"
+    excerpt: >-
+      Translate or review content for a language you know well. Contribute as
+      much or as little as your schedule allows.
+    url: "https://forms.gle/GHfxvmS47nQFDcBM6"
+    cta: "Sign up to translate →"
+maintainer_cards_align: left
+maintainer_cards:
+  - modifier: "card--white"
+    title: "Infrastructure maintainer"
+    label: "Ongoing"
+    label_style: "team"
+    tags:
+      - "CI & infrastructure"
+      - "Flexible"
+    excerpt: >-
+      Start with triage — labeling issues and reviewing pull requests — then
+      grow into CI, deployments, and codebase ownership as you get comfortable.
+      All skill levels welcome.
+    #url: "https://www.pyopensci.org/handbook/CONTRIBUTING.html"
+    #cta: "Become a maintainer →"
+  - modifier: "card--white"
+    title: "Website contributor"
+    label: "Async"
+    label_style: "accent"
+    tags:
+      - "Content & design"
+      - "Flexible"
+    excerpt: >-
+      Help keep pyOpenSci.org welcoming and useful — write and edit content,
+      improve accessibility, refine our Hugo theme, and polish page layouts.
+    #url: "https://github.com/pyOpenSci/pyopensci.github.io"
+    cta: "Support our website →"
+impact_destinations:
+  eyebrow: "Your impact"
+  title: "Where your work goes"
+  subtitle: >-
+    Volunteer contributions flow directly into resources scientists across
+    the ecosystem rely on every day.
+  items:
+    - icon: "fa-solid fa-box"
+      title: "Python Packaging Guide"
+      excerpt: "The community reference for packaging"
+      url: "https://www.pyopensci.org/python-package-guide/"
+    - icon: "fa-solid fa-globe"
+      title: "pyOpenSci website"
+      excerpt: "Content, design, and infrastructure"
+      url: "/"
+    - icon: "fa-solid fa-book"
+      title: "Tutorials & lessons"
+      excerpt: "Open learning content for researchers"
+      url: "/learn/"
+    - icon: "fa-solid fa-magnifying-glass"
+      title: "Peer review process"
+      excerpt: "Infrastructure for software quality"
+      url: "/about-peer-review/"
+    - icon: "fa-solid fa-earth-americas"
+      title: "Translations"
+      excerpt: "Resources in more languages"
+      url: "https://www.pyopensci.org/python-package-guide/"
 ---
 
-pyOpenSci is a volunteer community that broadens participation in scientific
-open source. We make finding, sharing and contributing to reusable code easier
-for everyone, everywhere.
+{{< feature-row layout="right"
+    title="Volunteers are the core of everything we do"
+    image="/images/people/leah-chase-pavithra-carol.png"
+    alt="Four pyOpenSci community members, including Carol Willing, smiling together outdoors at PyCon US 2023." >}}
+Every package that earns a pyOpenSci badge has been evaluated by a volunteer
+reviewer. Every guide a researcher relies on has been written, edited, or
+translated by a community member. Every sprint has been organized by someone
+who believed open science was worth their time.
 
-{{< swoosh_section background="purple" swoosh="bottom" >}}
-{{< section-heading title="Volunteer opportunities with pyOpenSci" subtitle="There are many ways to get involved with pyOpenSci! We're always looking for folks to:" >}}
+When you volunteer with pyOpenSci, your work flows directly into the
+infrastructure the scientific Python ecosystem depends on — and into a community
+of people doing the same.
+{{< /feature-row >}}
+
+{{< section-heading align="left"
+    title="Support software review"
+    subtitle="pyOpenSci runs a community peer review process for research software written in Python. [Learn about peer review →](/about-peer-review/)" >}}
+
 {{< impact-cards >}}
-{{< /swoosh_section >}}
 
-## Share your expertise and experience with the broader community through blogging
 
-And last but not least, we'd also love for you to be a guest blogger on the
-[pyOpenSci blog](/blog/)! If you'd like to write about a pyOpenSci package,
-your experiences with pyOpenSci, or how you're using free and open Python tools
-in your scientific endeavors, we'd love to hear from you! Email our Community
-team at [media@pyopensci.org](mailto:media@pyopensci.org) for more information.
 
-{{% swoosh_section background="purple" swoosh="bottom" %}}
 
-{{< figure src="/images/people/pyopensci-sprint-pycon-2023.png" alt="Contributors collaborating at a pyOpenSci sprint during PyCon US 2023." >}}
+{{< section_band color="light-purple" divider="bottom" >}}
 
-### pyOpenSci volunteers come from diverse backgrounds
+{{< section-heading eyebrow="Translation" align="left"
+    title="Help break down language barriers"
+    subtitle="Our community is global. Our resources should be too. Translation volunteers make pyOpenSci's guides and tutorials accessible to scientists who don't work primarily in English. Translations for our [Python Packaging Guide](https://www.pyopensci.org/python-package-guide/) are in progress. Add a new language or support building out an existing on." >}}
 
-Our volunteers come from a diverse array of backgrounds, including industry,
-academia, agencies, national labs, and more. pyOpenSci volunteers are
-primarily engaged in both the peer review process and developing resources to
-support the scientific Python community. Volunteers help improve the quality,
-maintainability and usability of the software that scientists need for open
-science. They also support maintainers in developing scientific Python
-software.
+{{< impact-cards section="translation" >}}
 
-{{% /swoosh_section %}}
+{{< /section_band >}}
 
-{{< figure src="/images/people-building-blocks.jpg" alt="Illustration of people building blocks together, representing community collaboration." >}}
+{{< section-heading eyebrow="pyOpenSci Maintainer Team" align="left"
+    title="Help build and maintain our infrastructure"
+    subtitle="Our maintainer team keeps the website, guides, and tooling running. Roles follow a triage → merge → issue ownership progression. [Read the contributor handbook →](https://www.pyopensci.org/handbook/CONTRIBUTING.html)" >}}
 
-### pyOpenSci volunteers build skills and community
+{{< impact-cards section="maintainer" >}}
 
-When you volunteer with pyOpenSci, you're both giving back and developing
-professional skills. As a volunteer you will:
 
-* **Learn new skills:** you don't have to be a Python expert to get involved
-  with pyOpenSci. We can help you level up your packaging game and learn how
-  to constructively review both code and copy through contributions to our
-  online learning resources.
-* **Get recognized** on the [pyOpenSci website](/our-community/) and in our
-  [GitHub repositories](https://github.com/pyOpenSci): your contribution
-  matters, and we want to ensure your work is recognized and celebrated in a
-  public forum. If you serve as an editor you can also connect with pyOpenSci
-  professionally as a volunteer for our organization on LinkedIn.
 
-{{< swoosh_section background="purple" swoosh="top" >}}
-{{< section-heading title="Meet the most recent pyOpenSci community contributors" >}}
-{{< recent-contributors >}}
-{{< button href="/our-community/" variant="green" icon="arrow-right" iconPosition="right" >}}
-View all contributors
-{{< /button >}}
-{{< /swoosh_section >}}
 
-{{< connect-with-pyos >}}
+{{< metrics-bar >}}
+
+{{< impact-destinations >}}

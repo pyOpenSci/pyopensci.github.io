@@ -1,11 +1,16 @@
-{{/* Section heading shortcode - creates a prominent centered heading with subtitle */}}
+{{/* Section heading shortcode - prominent heading with optional eyebrow */}}
 {{ $title := .Get "title" | default "Section Title" }}
 {{ $subtitle := .Get "subtitle" | default "" }}
+{{ $eyebrow := .Get "eyebrow" | default "" }}
+{{ $align := .Get "align" | default "center" }}
 {{ $id := .Get "id" | default "" }}
 
-<div class="section-heading container"{{ with $id }} id="{{ . }}"{{ end }}>
+<div class="section-heading section-heading--{{ $align }} container"{{ with $id }} id="{{ . }}"{{ end }}>
+  {{ with $eyebrow }}
+  <p class="section-heading__eyebrow">{{ . }}</p>
+  {{ end }}
   <h2 class="section-heading__title">{{ $title }}</h2>
   {{ if $subtitle }}
-  <div class="section-heading__subtitle">{{ $subtitle }}</div>
+  <div class="section-heading__subtitle">{{ $subtitle | markdownify }}</div>
   {{ end }}
 </div>

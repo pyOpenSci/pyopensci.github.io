@@ -1,2 +1,8 @@
-{{/* Shortcode to include impact cards section anywhere in content */}}
-{{ partial "impact-cards.html" .Page }}
+{{/* Shortcode to include impact cards section anywhere in content.
+     Optional section: front matter key prefix (e.g. translation → translation_cards).
+     Optional align: left | center | right (overrides page alignment). */}}
+{{ partial "impact-cards.html" (dict
+    "page" .Page
+    "section" (.Get "section")
+    "align" (.Get "align")
+) }}

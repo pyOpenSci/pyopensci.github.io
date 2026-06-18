@@ -1,0 +1,69 @@
+<!-- Dark band: where volunteer work flows (reads from page front matter).
+     Optional section param: reads {section}_impact_destinations front matter key. -->
+
+{{ $page := . }}
+{{ $section := "" }}
+{{ if and (reflect.IsMap .) (isset . "page") }}
+  {{ $page = .page }}
+  {{ $section = .section | default "" }}
+{{ end }}
+
+{{ $dataKey := "impact_destinations" }}
+{{ if ne $section "" }}
+  {{ $dataKey = printf "%s_impact_destinations" $section }}
+{{ end }}
+
+{{ $data := index $page.Params $dataKey }}
+{{ if $data }}
+<section class="impact-destinations">
+  <div class="impact-destinations__container">
+    <header class="impact-destinations__header">
+      {{ with $data.eyebrow }}
+      <p class="impact-destinations__eyebrow">{{ . }}</p>
+      {{ end }}
+      {{ with $data.title }}
+      <h2 class="impact-destinations__title">{{ . }}</h2>
+      {{ end }}
+      {{ with $data.subtitle }}
+      <p class="impact-destinations__subtitle">{{ . | markdownify }}</p>
+      {{ end }}
+    </header>
+
+    {{ with $data.items }}
+    <div class="impact-destinations__grid">
+      {{ range . }}
+        {{ if and .url (ne (printf "%s" .url) "") }}
+        <a class="impact-destinations__card" href="{{ .url }}">
+          {{ with .icon }}
+          <span class="impact-destinations__icon" aria-hidden="true">
+            <i class="{{ . }}"></i>
+          </span>
+          {{ end }}
+          <div class="impact-destinations__body">
+            <h3 class="impact-destinations__card-title">{{ .title }}</h3>
+            {{ with .excerpt }}
+            <p class="impact-destinations__card-text">{{ . }}</p>
+            {{ end }}
+          </div>
+        </a>
+        {{ else }}
+        <article class="impact-destinations__card">
+          {{ with .icon }}
+          <span class="impact-destinations__icon" aria-hidden="true">
+            <i class="{{ . }}"></i>
+          </span>
+          {{ end }}
+          <div class="impact-destinations__body">
+            <h3 class="impact-destinations__card-title">{{ .title }}</h3>
+            {{ with .excerpt }}
+            <p class="impact-destinations__card-text">{{ . }}</p>
+            {{ end }}
+          </div>
+        </article>
+        {{ end }}
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

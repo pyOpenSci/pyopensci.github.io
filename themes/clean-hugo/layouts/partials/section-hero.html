@@ -1,11 +1,26 @@
 {{/*
-  Section listing hero — shared by blog and events index pages.
+  Section listing hero — shared by blog, events, and splash pages.
   Expects .Params.header.overlay_image, .Title, .Description.
+  Uses a sibling .webp when present (same path, .png/.jpg swapped).
 */}}
 {{ $headerImg := .Params.header.overlay_image | default "" }}
+{{ $webpPath := "" }}
+{{ $hasWebp := false }}
+{{ if $headerImg }}
+  {{ $base := replaceRE "\\.(jpg|jpeg|png|gif)$" "" $headerImg }}
+  {{ $webpPath = printf "%s.webp" $base }}
+  {{ $webpStatic := printf "static/%s" $webpPath }}
+  {{ $hasWebp = fileExists $webpStatic }}
+{{ end }}
 <section
   class="blog-hero{{ if $headerImg }} blog-hero--overlay{{ end }}"
-  {{ with $headerImg }}style="background-image: url('{{ . | relURL }}');"{{ end }}
+  {{ with $headerImg }}
+    {{ if $hasWebp }}
+  style="background-image: image-set(url('{{ $webpPath | relURL }}') type('image/webp'), url('{{ . | relURL }}') type('image/png'));"
+    {{ else }}
+  style="background-image: url('{{ . | relURL }}');"
+    {{ end }}
+  {{ end }}
 >
   <div class="container">
     <h1>{{ .Title }}</h1>
