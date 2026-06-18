@@ -2,6 +2,9 @@
   "name": "pyopensci-hugo-site",
   "private": true,
   "description": "PostCSS deps for clean-hugo theme (Hugo asset pipeline)",
+  "engines": {
+    "node": ">=24"
+  },
   "devDependencies": {
     "autoprefixer": "^10.4.24",
     "postcss": "^8.5.6",

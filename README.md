@@ -2,7 +2,7 @@
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-55-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
-[![Deploy Jekyll site to Pages](https://github.com/pyOpenSci/pyopensci.github.io/actions/workflows/deploy-gh-pages.yml/badge.svg)](https://github.com/pyOpenSci/pyopensci.github.io/actions/workflows/deploy-gh-pages.yml)
+[![Deploy Hugo site to Pages](https://github.com/pyOpenSci/pyopensci.github.io/actions/workflows/deploy-gh-pages.yml/badge.svg)](https://github.com/pyOpenSci/pyopensci.github.io/actions/workflows/deploy-gh-pages.yml)
 [![DOI](https://zenodo.org/badge/174412809.svg)](https://zenodo.org/doi/10.5281/zenodo.10594115)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ddb85e67-0925-455a-a616-5bece97a65b2/deploy-status)](https://app.netlify.com/projects/pyos-website/deploys)
 
@@ -26,15 +26,13 @@ For organization-wide norms, see
 
 ## Installation and development
 
-The site is migrating from [Jekyll](https://jekyllrb.com) to [Hugo](https://gohugo.io).
-Hugo source lives at the **repository root** (`content/`, `data/`, `themes/clean-hugo/`).
-The legacy Jekyll site remains in `jekyll/` until production cutover; active Hugo
-work is on the `website-redesign` branch ([PR #883](https://github.com/pyOpenSci/pyopensci.github.io/pull/883)).
+This site is built with [Hugo](https://gohugo.io). Source lives at the repository
+root (`content/`, `data/`, `themes/clean-hugo/`).
 
 ### Prerequisites
 
 - **[Hugo Extended](https://gohugo.io/installation/)** `0.139.4` (matches Netlify and CI)
-- **[Node.js](https://nodejs.org/)** `20` and npm (PostCSS / autoprefixer for the theme CSS pipeline)
+- **[Node.js](https://nodejs.org/)** `24` (Active LTS) and npm (PostCSS / autoprefixer for the theme CSS pipeline). An `.nvmrc` is in the repo root — run `nvm use` if you use nvm.
 
 ### Run the site locally
 
@@ -82,7 +80,6 @@ matter are included in local builds and production deploys without extra flags.
 | `themes/clean-hugo/` | Site theme (layouts, SCSS, shortcodes) |
 | `static/` | Images, favicons, Netlify `_redirects` |
 | `hugo.toml` | Site config, navigation, theme parameters |
-| `jekyll/` | Legacy Jekyll mirror (reference only during migration) |
 
 For CSS architecture, SCSS partials, and Netlify build details, see
 [DEVELOPMENT.md](./DEVELOPMENT.md). For contributor workflows and the docs
@@ -139,9 +136,8 @@ chmod +x scripts/date-updated.sh
 ./scripts/date-updated.sh
 ```
 
-The script currently scans `_posts/` (Jekyll layout). Hugo blog posts live in
-`content/blog/` — update the script path when cutting over, or edit front matter
-manually until then.
+The script scans `content/blog/` for posts that include a `last_modified:` key
+in front matter.
 
 ## How to update contributor names
 

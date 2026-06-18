@@ -23,7 +23,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="{{ "apple-touch-icon.png" | relURL }}">
   <link rel="manifest" href="{{ "site.webmanifest" | relURL }}">
 
-  {{/* Self-hosted fonts via @font-face (defined in site.scss) */}}
+  {{/* Self-hosted fonts via @font-face (defined in main.scss) */}}
 
   {{/* Font Awesome (CDN) */}}
   {{ if .Site.Params.theme.enableFontAwesome | default true }}
@@ -35,7 +35,7 @@
     NOTE: This must be in baseof.html (not SCSS) because:
     1. SCSS files cannot access Hugo template variables (.Site.Params)
     2. This inline <style> block loads BEFORE the compiled SCSS, allowing
-       user-defined colors from hugo.toml to override the defaults in site.scss
+       user-defined colors from hugo.toml to override the defaults in main.scss
     3. This is a standard Hugo pattern for theme customization
   */}}
   {{ $colors := .Site.Params.theme.colors | default dict }}
@@ -95,7 +95,7 @@
   </style>
 
   {{/* Theme styles */}}
-  {{ $styles := resources.Get "css/site.scss" | toCSS | postCSS | minify | fingerprint }}
+  {{ $styles := resources.Get "css/main.scss" | toCSS | postCSS | minify | fingerprint }}
   <link rel="stylesheet" href="{{ $styles.RelPermalink }}">
 
   {{/* Chroma syntax highlighting CSS - generated with: hugo gen chromastyles --style=monokai */}}
