@@ -1,0 +1,22 @@
+{{- $type := .Get "type" | default "note" -}}
+{{- $title := .Get "title" -}}
+{{- $author := .Get "author" -}}
+{{- $event := .Get "event" -}}
+{{- $typeClass := printf "admonition-quote--%s" $type -}}
+
+<div class="admonition-quote {{ $typeClass }}">
+  <div class="admonition-quote__mark" aria-hidden="true"></div>
+  <div class="admonition-quote__content">
+    {{- if $title -}}
+      <div class="admonition-quote__title">{{ $title }}</div>
+    {{- end -}}
+    <div class="admonition-quote__body">
+      {{ .Inner | markdownify }}
+    </div>
+    {{- if or $author $event -}}
+      <footer class="admonition-quote__footer">
+        {{- with $author -}}~ <strong>{{ . }}</strong>{{- end -}}{{- with $event -}}, <em>{{ . }}</em>{{- end -}}
+      </footer>
+    {{- end -}}
+  </div>
+</div>

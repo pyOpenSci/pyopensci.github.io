@@ -1,0 +1,235 @@
+/*
+  Buttons — pyOpenSci brand variants
+  Adjust light-fill mix ratios below (higher = more color, lower = more white).
+*/
+$btn-green-mix: 55%;
+$btn-light-purple-mix: 65%;
+
+/* Base */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  font-size: 1.3rem;
+  text-decoration: none;
+  text-align: center;
+  line-height: 1.4;
+  border-radius: $radius-lg;
+  border: $btn-bd solid transparent;
+  cursor: pointer;
+  transition: transform $transition-base ease, box-shadow $transition-base ease,
+    background-color $transition-base ease, color $transition-base ease;
+
+  &:hover {
+    transform: translateY(-1px);
+    box-shadow: $shadow-md;
+  }
+
+  &:active {
+    transform: translateY(0);
+  }
+
+  &:focus {
+    @include focus-ring;
+  }
+
+  &:disabled,
+  &[aria-disabled="true"] {
+    opacity: 0.5;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+  }
+
+  p {
+    margin: 0;
+    color: inherit;
+  }
+}
+
+/* Dark purple fill — main CTA */
+.btn--dark-purple {
+  background-color: var(--color-brand-purple);
+  color: var(--color-white);
+
+  &,
+  &:hover,
+  &:focus,
+  p {
+    color: var(--color-white);
+  }
+
+  &:hover {
+    background-color: var(--color-brand-purple-dark);
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 2px var(--color-white), 0 0 0 4px var(--color-brand-purple);
+  }
+}
+
+/* White fill — dark purple text */
+.btn--white {
+  background-color: var(--color-white);
+  color: var(--color-brand-purple);
+
+  &:hover {
+    background-color: var(--color-gray-50);
+    color: var(--color-brand-purple);
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 2px var(--color-white), 0 0 0 4px var(--color-brand-purple);
+  }
+}
+
+/* Light green fill — black text, mixed with white for contrast */
+.btn--green {
+  background-color: color-mix(
+    in srgb,
+    var(--color-admonition-success) $btn-green-mix,
+    var(--color-white)
+  );
+  color: var(--color-gray-900);
+
+  &:hover {
+    background-color: color-mix(
+      in srgb,
+      var(--color-admonition-success) calc($btn-green-mix + 10%),
+      var(--color-white)
+    );
+    color: var(--color-gray-900);
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 2px var(--color-white),
+      0 0 0 4px var(--color-admonition-success);
+  }
+}
+
+/* Light purple fill — black text, mixed with white for contrast */
+.btn--light-purple {
+  background-color: color-mix(
+    in srgb,
+    var(--color-light-purple) $btn-light-purple-mix,
+    var(--color-white)
+  );
+  color: var(--color-gray-900);
+
+  &:hover {
+    background-color: color-mix(
+      in srgb,
+      var(--color-light-purple) calc($btn-light-purple-mix + 10%),
+      var(--color-white)
+    );
+    color: var(--color-gray-900);
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 2px var(--color-white),
+      0 0 0 4px var(--color-brand-medium-purple);
+  }
+}
+
+/* Outline — medium purple border, dark purple text */
+.btn--outline {
+  background-color: transparent;
+  color: var(--color-brand-purple);
+  border-color: var(--color-brand-medium-purple);
+
+  &:hover {
+    background-color: color-mix(
+      in srgb,
+      var(--color-brand-medium-purple) 12%,
+      transparent
+    );
+    color: var(--color-brand-purple);
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 2px var(--color-white),
+      0 0 0 4px var(--color-brand-medium-purple);
+  }
+}
+
+/* Hero — white outline on dark purple backgrounds */
+.btn--outline-on-dark {
+  background-color: transparent;
+  color: var(--color-white);
+  border: $btn-bd-thin solid var(--color-white);
+
+  &:hover {
+    background-color: color-mix(in srgb, var(--color-white) 12%, transparent);
+    color: var(--color-white);
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 2px var(--color-brand-purple-dark),
+      0 0 0 4px var(--color-white);
+  }
+}
+
+/* Large */
+.btn--lg,
+.btn--large {
+  padding: 1rem 2rem;
+  font-size: 1.125rem;
+}
+
+/* Groups */
+.btn-group {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+
+  &--center {
+    justify-content: center;
+  }
+
+  &--right {
+    justify-content: flex-end;
+  }
+
+  @media (max-width: $breakpoint-sm) {
+    flex-direction: column;
+
+    .btn {
+      width: 100%;
+    }
+  }
+}
+
+/* Icons */
+.btn--icon {
+  i, svg {
+    flex-shrink: 0;
+  }
+}
+
+/* Legacy aliases — remove when content is fully migrated */
+.btn--primary {
+  @extend .btn--dark-purple;
+}
+
+.btn--secondary {
+  @extend .btn--outline;
+}
+
+.btn--accent {
+  @extend .btn--green;
+}
+
+.btn--success {
+  @extend .btn--green;
+}
+
+.btn--info {
+  @extend .btn--dark-purple;
+}
+
+.btn--outline-on-light {
+  @extend .btn--outline;
+}

@@ -1,0 +1,36 @@
+{{/*
+  Upcoming events grid. Reads Params.upcoming_events from page front matter
+  when present; shortcode params override individual fields.
+
+  Front matter (optional):
+    upcoming_events:
+      title: Where you can find us
+      limit: 3
+      view_all: true
+      view_all_url: /events/
+      button_label: View all events
+      enabled: true
+
+  Usage: {{< upcoming-events >}} or {{< upcoming-events limit="3" >}}
+*/}}
+{{ $cfg := .Page.Params.upcoming_events | default dict }}
+{{ if eq $cfg.enabled false }}{{ return }}{{ end }}
+{{ $limit := .Get "limit" | default ($cfg.limit | default 3) }}
+{{ $showViewAll := .Get "view_all" | default ($cfg.view_all | default true) }}
+{{ $title := .Get "title" | default ($cfg.title | default "Where you can find us") }}
+{{ $viewAllURL := .Get "view_all_url" | default ($cfg.view_all_url | default "/events/") }}
+{{ $viewAllLabel := .Get "button_label" | default ($cfg.button_label | default "View all events") }}
+{{ $sectionClass := .Get "section_class" | default ($cfg.section_class | default "") }}
+{{ if and .Page.IsHome (not $sectionClass) }}
+  {{ $sectionClass = "events-list--home" }}
+{{ end }}
+{{ partial "events-upcoming.html" (dict
+  "context" .Page
+  "limit" (int $limit)
+  "show_kicker" false
+  "section_title" $title
+  "show_view_all" $showViewAll
+  "view_all_url" $viewAllURL
+  "view_all_label" $viewAllLabel
+  "section_class" $sectionClass
+) }}

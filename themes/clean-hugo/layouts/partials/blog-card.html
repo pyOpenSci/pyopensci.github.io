@@ -1,0 +1,79 @@
+{{/*
+  Blog Card Partial
+
+  Parameters:
+  - "." (context): The blog post page object (passed as "." in dict)
+  - "modifier" (string): card--blog--featured | card--blog--sidebar | card--blog--grid
+  - "showExcerpt" (bool): Whether to show excerpt
+*/}}
+{{ $post := index . "." }}
+{{ $modifier := .modifier | default "" }}
+{{ $showExcerpt := .showExcerpt | default false }}
+{{ $topic := partial "blog-topic.html" $post }}
+{{ $excerptLength := $post.Site.Params.blog.excerpt_length | default 200 }}
+{{ $isGrid := eq $modifier "card--blog--grid" }}
+{{ $colorIndex := .colorIndex | default 0 }}
+
+<article class="card card--blog {{ $modifier }} blog-filter-item" data-category="{{ $topic.slug }}">
+  <a href="{{ $post.Permalink }}" class="card--blog__link">
+    {{ if $isGrid }}
+    {{/* Grid cards: banner image + scrim, white title + date (Jekyll banner_only) */}}
+    {{ $img := partial "get-image.html" (dict "image" $post.Params.image "fallbackAlt" $post.Title "page" $post) }}
+    <div class="card--blog__media">
+      {{ if $img.exists }}
+      <img
+        class="card--blog__media-bg"
+        src="{{ $img.src }}"
+        alt=""
+        aria-hidden="true"
+        loading="lazy"
+      />
+      {{ else }}
+      <div
+        class="card--blog__media-fallback card--blog__media-fallback--{{ $colorIndex }}"
+        aria-hidden="true"
+      ></div>
+      {{ end }}
+      <div class="card--blog__media-scrim" aria-hidden="true"></div>
+      <div class="card--blog__media-text">
+        <h2>{{ $post.Title }}</h2>
+        <time datetime="{{ $post.Date.Format "2006-01-02" }}">{{ $post.Date.Format "Jan 2, 2006" }}</time>
+      </div>
+    </div>
+    <div class="card--blog__body">
+      {{ if $topic.label }}
+        <span class="card--blog__badge">{{ $topic.label }}</span>
+      {{ end }}
+      {{ if $showExcerpt }}
+        <p class="card--blog__excerpt">
+          {{ partial "blog-excerpt.html" (dict "." $post "length" 130) }}
+        </p>
+      {{ end }}
+    </div>
+    {{ else }}
+    {{ $img := partial "get-image.html" (dict "image" $post.Params.image "fallbackAlt" $post.Title "page" $post) }}
+    {{ if $img.exists }}
+    <figure class="card--blog__image">
+      <img src="{{ $img.src }}" alt="{{ $img.alt }}" loading="lazy" />
+    </figure>
+    {{ else }}
+    <div class="card--blog__image-placeholder card--blog__media-fallback--{{ $colorIndex }}"></div>
+    {{ end }}
+    <div class="card--blog__content">
+      {{ if $topic.label }}
+        <span class="card--blog__badge">{{ $topic.label | upper }}</span>
+      {{ end }}
+      <h2>{{ $post.Title }}</h2>
+      <time datetime="{{ $post.Date.Format "2006-01-02" }}">{{ $post.Date.Format "Jan 2, 2006" }}</time>
+      {{ if $post.Params.show_author }}
+        <p class="card--blog__author">{{ $post.Params.author | default $post.Site.Params.author }}</p>
+      {{ end }}
+      {{ if $showExcerpt }}
+      <p class="card--blog__excerpt">
+        {{ partial "blog-excerpt.html" (dict "." $post "length" $excerptLength) }}
+      </p>
+      {{ end }}
+    </div>
+    {{ end }}
+  </a>
+</article>

@@ -1,0 +1,6 @@
+{{ partial "feature-quote.html" (dict
+  "quote" .Inner
+  "cite" (.Get "cite" | default (.Get "author"))
+  "author" (.Get "author")
+  "color" (.Get "color" | default "purple")
+) }}

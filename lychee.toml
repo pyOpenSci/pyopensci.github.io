@@ -2,8 +2,8 @@
 # Docs: https://lychee.cli.rs/
 #
 # Domain-level skips live in .lycheeignore.
-# CI may pass additional flags via .github/workflows/linkcheck.yml
-# (e.g. --root-dir $GITHUB_WORKSPACE/_site).
+# CI may pass additional flags via .github/workflows/build-site.yml
+# (e.g. --root-dir public) or linkcheck.yml (still uses _site until migrated).
 
 ############################# Display ##############################
 

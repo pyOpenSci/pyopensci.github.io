@@ -1,0 +1,90 @@
+- order: 0
+  title: "0. Get to know Hatch"
+  excerpt: >-
+    Hatch is an end-to-end Python packaging and workflow tool. In this tutorial,
+    you will install and learn how to configure Hatch for Python packaging.
+  link: https://www.pyopensci.org/python-package-guide/tutorials/get-to-know-hatch.html
+
+- order: 1
+  title: "1. What is a Python package"
+  excerpt: >-
+    Learn about what a Python package is and the basic components that make up a
+    Python package.
+  link: https://www.pyopensci.org/python-package-guide/tutorials/intro.html
+
+- order: 2
+  title: "2. Make your Python code installable"
+  excerpt: >-
+    Learn how to create the most basic version of a Python package which can
+    then be installed into a Python environment.
+  link: https://www.pyopensci.org/python-package-guide/tutorials/create-python-package.html
+
+- order: 3
+  title: "3. Publish your Python package to PyPI"
+  excerpt: >-
+    Learn how to publish your Python package to test.PyPI.org and to PyPI.org.
+  link: https://www.pyopensci.org/python-package-guide/tutorials/publish-pypi.html
+
+- order: 4
+  title: "4. Publish to conda forge using grayskull"
+  excerpt: >-
+    Learn how to publish your Python package to the conda-forge channel of conda
+    using the grayskull Python package.
+  link: https://www.pyopensci.org/python-package-guide/tutorials/publish-conda-forge.html
+
+- order: 5
+  title: "5. Add a README file to your Python package"
+  excerpt: >-
+    A README file is often the landing page that a user will use to understand
+    your package. Learn about how to create a useful README file for your Python
+    package.
+  link: https://www.pyopensci.org/python-package-guide/tutorials/add-readme.html
+
+- order: 6
+  title: "6. Add a LICENSE and CODE_OF_CONDUCT"
+  excerpt: >-
+    License and code of conduct files are important to add to your Python package
+    as they provide instructions for both how users can use your package and
+    also how the community of users should interact with you as a maintainer.
+  link: https://www.pyopensci.org/python-package-guide/tutorials/add-license-coc.html
+
+- order: 7
+  title: "7. Add metadata with a pyproject.toml file"
+  excerpt: >-
+    To enhance the visibility of your package on PyPI and provide more
+    information about its compatibility with Python versions, project development
+    status, and project maintainers, you should add additional metadata to your
+    pyproject.toml file. This lesson will guide you through the process.
+  link: https://www.pyopensci.org/python-package-guide/tutorials/pyproject-toml.html
+
+- order: 8
+  title: "Command line reference for packaging"
+  excerpt: >-
+    Quick-reference tables for shell commands used across the packaging
+    tutorials, from installing Hatch and pipx through building, testing, and
+    publishing.
+  link: https://www.pyopensci.org/python-package-guide/tutorials/command-line-reference.html
+
+- order: 9
+  title: "Trusted publishing with GitHub Actions"
+  excerpt: >-
+    Automate building and publishing to PyPI from GitHub Actions and configure
+    PyPI Trusted Publishing so you can ship releases without long-lived API
+    tokens on the repository.
+  link: https://www.pyopensci.org/python-package-guide/tutorials/trusted-publishing.html
+
+- order: 10
+  title: "Use Hatch environments in your package"
+  excerpt: >-
+    After you create a package with the pyOpenSci template, use Hatch to run
+    tests, build distributions, check metadata, and work with your development
+    environments day to day.
+  link: https://www.pyopensci.org/python-package-guide/tutorials/develop-python-package-hatch.html
+
+- order: 11
+  title: "Migrate setup.py to pyproject.toml with Hatch"
+  excerpt: >-
+    If your project already uses setup.py, Hatch can help you move toward a
+    modern pyproject.toml while keeping metadata and build settings aligned with
+    current packaging standards.
+  link: https://www.pyopensci.org/python-package-guide/tutorials/setup-py-to-pyproject-toml.html

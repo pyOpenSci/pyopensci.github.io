@@ -1,0 +1,39 @@
+{{/* Static package card for Hugo-rendered grids (no Alpine). */}}
+<div class="package_card">
+  <div>
+    <h3>{{ .package_name }}</h3>
+
+    <div class="package_card__meta">
+      <i class="fas fa-feather" aria-hidden="true"></i>
+      <span>
+        {{ range $i, $m := .all_current_maintainers }}
+          {{ if $i }}, {{ end }}{{ $m.name | default $m.github_username }}
+        {{ end }}
+      </span>
+    </div>
+
+    <p>{{ .package_description }}</p>
+
+    <ul>
+      {{ with .repository_link }}
+        <li><a href="{{ . }}" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> View Code</a></li>
+      {{ end }}
+
+      {{ if .active }}
+        {{ with .gh_meta }}
+          {{ with .documentation }}
+            <li><a href="{{ . }}" target="_blank" rel="noopener noreferrer"><i class="fas fa-book-open"></i> View Docs</a></li>
+          {{ end }}
+        {{ end }}
+        {{ with .issue_link }}
+          <li><a href="{{ . }}" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-user-pen"></i> View Review</a></li>
+        {{ end }}
+        {{ partial "packages/citation-link.html" . }}
+      {{ else }}
+        <li class="package_card__archived">
+          <i class="fa-solid fa-box-archive"></i> Archived
+        </li>
+      {{ end }}
+    </ul>
+  </div>
+</div>

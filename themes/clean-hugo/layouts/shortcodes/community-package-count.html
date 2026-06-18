@@ -1,0 +1,9 @@
+{{- $community := .Get "community" | default .Page.Params.community | default "astropy" -}}
+{{- $packages := partial "packages/community-filter.html" (dict
+    "community" $community
+    "packages" .Page.Site.Data.packages
+) -}}
+{{- $total := len $packages -}}
+{{- $name := .Get "name" | default (.Page.Title | default ($community | title)) -}}
+
+{{ $name }} currently has **{{ $total }}** packages that have been accepted by pyOpenSci and also become affiliated {{ $name }} packages through our [partnership](/partners/).

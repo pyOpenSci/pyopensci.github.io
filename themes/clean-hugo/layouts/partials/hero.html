@@ -1,0 +1,54 @@
+{{ $hero := .Params.hero | default dict }}
+{{ $heroColorParam := $hero.color }}
+{{ $heroColor := "var(--color-hero-bg)" }}
+{{ if $heroColorParam }}
+  {{ $colorTokens := dict
+      "primary" "var(--color-primary)"
+      "primarydark" "var(--color-primary-dark)"
+      "primary-dark" "var(--color-primary-dark)"
+      "primarylight" "var(--color-primary-light)"
+      "primary-light" "var(--color-primary-light)"
+      "secondary" "var(--color-secondary)"
+      "accent" "var(--color-accent)"
+      "accentlight" "var(--color-accent-light)"
+      "accent-light" "var(--color-accent-light)"
+      "neutral" "var(--color-neutral)"
+      "herobg" "var(--color-hero-bg)"
+      "hero" "var(--color-hero-bg)"
+    }}
+  {{ $normalized := lower (replace $heroColorParam " " "") }}
+  {{ $lookup := index $colorTokens $normalized }}
+  {{ if $lookup }}
+    {{ $heroColor = $lookup }}
+  {{ else }}
+    {{ $heroColor = $heroColorParam }}
+  {{ end }}
+{{ end }}
+{{ $title := .Title }}
+{{ $subtitle := $hero.subtitle }}
+{{ $excerpt := .Description | default $hero.excerpt }}
+{{ $buttons := $hero.buttons }}
+
+<section class="hero" style="background-color: {{ $heroColor }};">
+  <div class="container">
+    <div class="hero__grid">
+      <div class="hero__content">
+        <h1 class="hero__title">{{ $title }}</h1>
+        {{ with $subtitle }}<p class="hero__subtitle">{{ . }}</p>{{ end }}
+        {{ with $excerpt }}<p class="hero__excerpt">{{ . | markdownify }}</p>{{ end }}
+        {{ with $buttons }}
+          <div class="hero__actions btn-group" role="group" aria-label="Primary actions">
+            {{ range . }}
+              {{ $href := .url }}
+              {{ if not (hasPrefix $href "http") }}
+                {{ $href = relURL $href }}
+              {{ end }}
+              {{ $variant := .variant | default "outline-on-dark" }}
+              <a class="btn btn--{{ $variant }} btn--lg" href="{{ $href }}">{{ .label }}</a>
+            {{ end }}
+          </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>

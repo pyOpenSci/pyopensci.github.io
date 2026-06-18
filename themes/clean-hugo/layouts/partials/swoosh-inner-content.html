@@ -1,0 +1,41 @@
+{{/*
+  Render swoosh section inner content without Goldmark breaking shortcode HTML.
+
+  Expects a dict: (dict "inner" .Inner "page" .Page)
+
+  {{< swoosh_section >}} — raw markdown plus rendered shortcode HTML. Splits
+  on boundaries between markdown and HTML blocks, then renders each segment.
+
+  {{% swoosh_section %}} — inner is already markdown-rendered HTML; pass through
+  with safeHTML.
+
+  Note: replaceRE replacement strings must be literals so $1/$2 reach the regexp
+  engine (not Go template variables).
+*/}}
+{{- $inner := replace .inner "\r\n" "\n" -}}
+{{- $page := .page -}}
+{{- $trimmed := trim $inner " \n\r\t" -}}
+{{- $m := "SWOOSHSPLIT" -}}
+
+{{- if hasPrefix $trimmed "<" -}}
+  {{ $inner | safeHTML }}
+{{- else -}}
+  {{- $inner = replaceRE `\n\n+(<(?:div|section|figure|a ))` "\n\nSWOOSHSPLIT$1" $inner -}}
+  {{- $inner = replaceRE `(?s)(</div>)\s*\n\n+(### )` "$1\n\nSWOOSHSPLIT$2" $inner -}}
+  {{- $inner = replaceRE `(?s)(</div>)\s*\n\n+(## )` "$1\n\nSWOOSHSPLIT$2" $inner -}}
+  {{- $inner = replaceRE `(?s)(</div>)\s*\n\n+(\| )` "$1\n\nSWOOSHSPLIT$2" $inner -}}
+  {{- $inner = replaceRE `(?s)(</div>)\s*\n\n+([A-Z][a-z])` "$1\n\nSWOOSHSPLIT$2" $inner -}}
+  {{- $inner = replaceRE `(?s)(</a>)\s*\n\n+(### )` "$1\n\nSWOOSHSPLIT$2" $inner -}}
+  {{- $inner = replaceRE `(?s)(</a>)\s*\n\n+(## )` "$1\n\nSWOOSHSPLIT$2" $inner -}}
+  {{- $inner = replaceRE `(?s)(</a>)\s*\n\n+(\| )` "$1\n\nSWOOSHSPLIT$2" $inner -}}
+  {{- $inner = replaceRE `(?s)(</a>)\s*\n\n+([A-Z][a-z])` "$1\n\nSWOOSHSPLIT$2" $inner -}}
+  {{- range split $inner $m -}}
+    {{- $block := trim . " \n\r\t" -}}
+    {{- if not $block -}}
+    {{- else if hasPrefix $block "<" -}}
+      {{ $block | safeHTML }}
+    {{- else -}}
+      {{ $block | $page.RenderString }}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}

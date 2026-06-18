@@ -1,0 +1,96 @@
+{{ define "main" }}
+{{ partial "section-hero.html" . }}
+
+<div class="blog-index" data-blog-filter-root>
+<section class="blog-grid">
+  <div class="container">
+
+    {{/* Get all blog posts, newest first */}}
+    {{ $allPosts := sort (where .Site.RegularPages "Type" "blog") "Date" "desc" }}
+
+    {{/* Separate recent posts from archive posts */}}
+    {{ $recentPosts := slice }}
+    {{ $archivePosts := slice }}
+    {{ $cutoffDate := time "2025-01-01" }}
+
+    {{ range $allPosts }}
+      {{ $isOld := le (.Date.Unix) ($cutoffDate.Unix) }}
+      {{ $hasNoImage := not .Params.image }}
+      {{ if and $isOld $hasNoImage }}
+        {{ $archivePosts = $archivePosts | append . }}
+      {{ else }}
+        {{ $recentPosts = $recentPosts | append . }}
+      {{ end }}
+    {{ end }}
+
+    {{/* Empty state - no posts */}}
+    {{ if eq (len $allPosts) 0 }}
+    <div class="blog-grid__empty">
+      <p class="blog-grid__empty-message">No blog posts yet. Check back soon!</p>
+    </div>
+    {{ else }}
+
+    {{/* Featured post is always the most recent (first post from recent posts) */}}
+    {{ $featuredPost := false }}
+    {{ $sidebarPosts := slice }}
+    {{ $remainingPosts := slice }}
+
+    {{ if gt (len $recentPosts) 0 }}
+      {{ $featuredPost = index $recentPosts 0 }}
+      {{ $sidebarCount := .Site.Params.blog.sidebar_count | default 2 }}
+      {{ $skipCount := add $sidebarCount 1 }}
+      {{ if gt (len $recentPosts) 1 }}
+        {{ $sidebarPosts = first $sidebarCount (after 1 $recentPosts) }}
+      {{ end }}
+      {{ if gt (len $recentPosts) $skipCount }}
+        {{ $remainingPosts = after $skipCount $recentPosts }}
+      {{ end }}
+    {{ end }}
+
+    {{/* Topic filters — fixed order from data/blog_topics.yml */}}
+    {{ $topicOrder := slice "community" "learn" "software" "updates" }}
+    {{ $topicsData := .Site.Data.blog_topics | default dict }}
+    <div class="filter-row blog-grid__filters" role="group" aria-label="Filter blog posts by topic">
+      <button type="button" class="filter-btn" data-category="all" aria-pressed="true" aria-label="View all blog posts">View All</button>
+      {{ range $topicOrder }}
+        {{ $entry := index $topicsData . }}
+        {{ if $entry }}
+        <button type="button" class="filter-btn" data-category="{{ . }}" aria-pressed="false" aria-label="Filter by {{ $entry.label }} posts">{{ $entry.label }}</button>
+        {{ end }}
+      {{ end }}
+    </div>
+
+    {{/* Featured section: 1 large post + sidebar posts */}}
+    {{ if or $featuredPost (gt (len $sidebarPosts) 0) }}
+    <div class="blog-grid__featured">
+      {{ if $featuredPost }}
+        {{ partial "blog-card.html" (dict "." $featuredPost "modifier" "card--blog--featured" "showExcerpt" true) }}
+      {{ end }}
+
+      <div class="blog-grid__sidebar">
+        {{ range $sidebarPosts }}
+          {{ partial "blog-card.html" (dict "." . "modifier" "card--blog--sidebar" "showExcerpt" false) }}
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+
+    {{/* Remaining posts grid */}}
+    {{ if gt (len $remainingPosts) 0 }}
+    <div class="blog-grid__posts">
+      {{ range $index, $post := $remainingPosts }}
+        {{ partial "blog-card.html" (dict "." $post "modifier" "card--blog--grid" "showExcerpt" true "colorIndex" (mod $index 4)) }}
+      {{ end }}
+    </div>
+    {{ end }}
+
+    {{ end }}
+  </div>
+</section>
+
+{{/* Archives section for old posts without images */}}
+{{ partial "blog-archives.html" $archivePosts }}
+</div>
+
+<script src="{{ "js/blog-filter.js" | relURL }}"></script>
+{{ end }}

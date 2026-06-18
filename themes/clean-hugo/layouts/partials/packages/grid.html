@@ -1,0 +1,100 @@
+{{/*
+  Package Grid Partial
+  Grid container with AlpineJS filtering
+  Usage: {{ partial "packages/grid.html" (dict "activeOnly" true) }}
+  Note: Must be used within parent x-data="packageFilter()" context
+*/}}
+
+{{ $activeOnly := .activeOnly | default true }}
+{{ $propName := cond $activeOnly "activePackages" "archivedPackages" }}
+
+<div class="packages-grid">
+  <template x-for="pkg in {{ $propName }}" :key="pkg.package_name">
+    <div class="package_card">
+      <div>
+
+        {{/* Title */}}
+        <h3 x-text="pkg.package_name"></h3>
+
+        {{/* Maintainers */}}
+        <div class="package_card__meta">
+          <i class="fas fa-feather" aria-hidden="true"></i>
+          <span x-text="pkg.all_current_maintainers?.map(m => m.name || m.github_username).join(', ') || pkg.submitting_author?.name || pkg.submitting_author?.github_username"></span>
+        </div>
+
+        {{/* Description */}}
+        <p x-html="pkg.package_description"></p>
+
+        {{/* Links */}}
+        <ul>
+          <template x-if="pkg.repository_link">
+            <li>
+              <a :href="pkg.repository_link" target="_blank">
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </li>
+          </template>
+
+          {{/* Only show these links for active packages */}}
+          <template x-if="pkg.active === true && pkg.gh_meta?.documentation">
+            <li>
+              <a :href="pkg.gh_meta.documentation" target="_blank">
+                <i class="fas fa-book-open"></i> View Docs
+              </a>
+            </li>
+          </template>
+
+          <template x-if="pkg.active === true && pkg.issue_link">
+            <li>
+              <a :href="pkg.issue_link" target="_blank">
+                <i class="fa-solid fa-user-pen"></i> View Review
+              </a>
+            </li>
+          </template>
+
+          <template x-if="pkg.active === true && packageCitation(pkg)">
+            <li>
+              <a
+                :href="packageCitation(pkg).href"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fa-solid fa-bookmark" aria-hidden="true"></i>
+                <img
+                  src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='1'%20height='1'/%3E"
+                  alt="Citation badge"
+                  x-show="packageCitation(pkg).type === 'badge'"
+                  :src="packageCitation(pkg).badgeSrc"
+                  :alt="packageCitation(pkg).badgeAlt"
+                  class="citation-badge"
+                />
+                <span
+                  x-show="packageCitation(pkg).type === 'link'"
+                  x-text="packageCitation(pkg).label"
+                ></span>
+              </a>
+            </li>
+          </template>
+
+          {{/* Astropy partner badge */}}
+          <template x-if="pkg.partners?.includes('astropy')">
+            <li>
+              <a href="/packages/astropy/" aria-label="Astropy affiliated package">
+                <i class="fa-solid fa-check-double"></i>
+                <img src="https://img.shields.io/badge/Affiliated-Astropy-orange.svg?style=flat" alt="Astropy Affiliated" class="partner-badge" />
+              </a>
+            </li>
+          </template>
+
+          {{/* Archived badge for archived packages */}}
+          <template x-if="pkg.active === false">
+            <li class="package_card__archived">
+              <i class="fa-solid fa-box-archive"></i> Archived
+            </li>
+          </template>
+        </ul>
+
+      </div>
+    </div>
+  </template>
+</div>

@@ -1,0 +1,30 @@
+<footer id="footer" class="site-footer">
+  <div class="site-footer__inner">
+    <div class="site-footer__follow">
+      <ul class="social-icons">
+        {{ range .Site.Params.footer.links }}
+          <li>
+            <a
+              href="{{ .url }}"
+              class="site-footer__social-link"
+              aria-label="{{ .label }}"
+              data-tooltip="{{ .label }}"
+              {{ if .rel_me }}rel="nofollow noopener noreferrer me"{{ else }}rel="nofollow noopener noreferrer"{{ end }}
+            >
+              <i class="{{ .icon }}" aria-hidden="true"></i>
+            </a>
+          </li>
+        {{ end }}
+      </ul>
+    </div>
+
+    <div class="site-footer__copyright">
+      {{ with .Site.Params.footer.mission }}
+        <p class="site-footer__mission">{{ . | safeHTML }}</p>
+      {{ end }}
+      <p class="site-footer__copy">
+        &copy; {{ now.Format "2006" }} {{ .Site.Title }}
+      </p>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,52 @@
+{{/*
+  Button Shortcode
+
+  Usage:
+    {{< button href="/packages/" variant="dark-purple" >}}View packages{{< /button >}}
+    {{< button href="/about/" variant="outline" size="lg" >}}Learn more{{< /button >}}
+    {{< button href="#" variant="green" icon="arrow-right" >}}Get started{{< /button >}}
+
+  Parameters:
+    - href (required): URL the button links to
+    - variant: dark-purple (default), white, green, light-purple, outline
+    - size: lg (optional; omit for default)
+    - icon: Font Awesome icon name (optional)
+    - iconPosition: left (default), right
+    - class: Additional CSS classes (optional)
+    - target: _blank for external links (optional)
+    - rel: Link relationship (optional, defaults to "noopener noreferrer" for target="_blank")
+
+  Output is a single-line anchor so Goldmark does not split the tag when this
+  shortcode is nested inside markdown-processed block shortcodes (e.g. swoosh).
+*/}}
+
+{{ $href := .Get "href" | default "#" }}
+{{ $variant := .Get "variant" | default "dark-purple" }}
+{{ $size := .Get "size" | default "" }}
+{{ $icon := .Get "icon" | default "" }}
+{{ $iconPosition := .Get "iconPosition" | default "left" }}
+{{ $customClass := .Get "class" | default "" }}
+{{ $target := .Get "target" | default "" }}
+{{ $rel := .Get "rel" | default "" }}
+
+{{ if and (eq $target "_blank") (eq $rel "") }}
+  {{ $rel = "noopener noreferrer" }}
+{{ end }}
+
+{{ $classes := slice "btn" }}
+{{ $classes = $classes | append (printf "btn--%s" $variant) }}
+{{ if $size }}
+  {{ $classes = $classes | append (printf "btn--%s" $size) }}
+{{ end }}
+{{ if $icon }}
+  {{ $classes = $classes | append "btn--icon" }}
+{{ end }}
+{{ $brandIcons := slice "github" "gitlab" "bitbucket" "twitter" "x-twitter" "linkedin" "youtube" "mastodon" "orcid" "bluesky" }}
+{{ $iconPrefix := "fa-solid" }}
+{{ if in $brandIcons $icon }}{{ $iconPrefix = "fa-brands" }}{{ end }}
+{{ if $customClass }}
+  {{ $classes = $classes | append $customClass }}
+{{ end }}
+
+{{ $label := trim .Inner " \n\r\t" -}}
+<a href="{{ $href }}" class="{{ delimit $classes " " }}"{{ with $target }} target="{{ . }}"{{ end }}{{ with $rel }} rel="{{ . }}"{{ end }}>{{ if and $icon (eq $iconPosition "left") }}<i class="{{ $iconPrefix }} fa-{{ $icon }}" aria-hidden="true"></i>{{ end }}{{ $label }}{{ if and $icon (eq $iconPosition "right") }}<i class="{{ $iconPrefix }} fa-{{ $icon }}" aria-hidden="true"></i>{{ end }}</a>

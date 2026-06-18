@@ -1,0 +1,30 @@
+{{ define "main" }}
+{{ partial "section-hero.html" . }}
+
+{{ $today := now.Format "2006-01-02" }}
+{{ $past := slice }}
+{{ range .Pages }}
+  {{ $e := .Params.event }}
+  {{ if and $e $e.start_date }}
+    {{ $start := $e.start_date }}
+    {{ $end := $e.end_date | default $e.start_date }}
+    {{ if gt $today $end }}
+      {{ $past = $past | append . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ partial "events-upcoming.html" (dict "context" . "pages" .Pages) }}
+
+{{ with .Content }}
+  <section class="events-list">
+    <div class="container">
+      <div class="events-list__types prose-content">
+        {{ . }}
+      </div>
+    </div>
+  </section>
+{{ end }}
+
+{{ partial "events-past-archives.html" (sort $past "Params.event.start_date" "desc") }}
+{{ end }}

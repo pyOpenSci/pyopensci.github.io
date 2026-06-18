@@ -1,0 +1,59 @@
+{{- /*
+  Documentation sidebar with auto-generated menu
+
+  The sidebar now displays:
+  1. Auto-populated menu from documentation pages (by weight)
+  2. Inline TOC for the active page (nested under the active page link)
+
+  The inline TOC is populated by JavaScript after page load
+*/ -}}
+
+{{- $currentPage := . -}}
+{{- $docSection := .Site.GetPage "/documentation" -}}
+
+{{- if $docSection -}}
+<div class="docs-section-nav">
+  <h4 class="docs-section-title">Documentation</h4>
+
+  <ul class="docs-menu__list docs-menu__list--level-1">
+    {{- /* Add documentation home page with icon */ -}}
+    {{- $isActive := eq $currentPage.RelPermalink $docSection.RelPermalink -}}
+    <li class="docs-menu__item{{ if $isActive }} docs-menu__item--active{{ end }}">
+      <a href="{{ $docSection.RelPermalink }}" class="docs-menu__link{{ if $isActive }} docs-menu__link--active{{ end }}">
+        <i class="fas fa-home"></i> {{ $docSection.Title }}
+      </a>
+      {{- /* Include inline TOC only for the active page */ -}}
+      {{- if $isActive -}}
+        {{- partial "docs-toc.html" $docSection -}}
+      {{- end -}}
+    </li>
+
+    {{- /* Generate menu from documentation child pages */ -}}
+    {{- range $docSection.Pages.ByWeight -}}
+      {{- $isActive := eq $currentPage.RelPermalink .RelPermalink -}}
+      {{- $isAncestor := $currentPage.IsDescendant . -}}
+      {{- $hasChildren := gt (len .Pages) 0 -}}
+      {{- $shouldExpand := or $isActive $isAncestor -}}
+
+      <li class="docs-menu__item{{ if $isActive }} docs-menu__item--active{{ end }}{{ if $shouldExpand }} docs-menu__item--expanded{{ end }}">
+        <a href="{{ .RelPermalink }}" class="docs-menu__link{{ if $isActive }} docs-menu__link--active{{ end }}">
+          {{ .Title }}
+        </a>
+
+        {{- /* Include inline TOC only for the active page */ -}}
+        {{- if $isActive -}}
+          {{- partial "docs-toc.html" . -}}
+        {{- end -}}
+
+        {{- if $hasChildren -}}
+          {{- if $shouldExpand -}}
+            {{- partial "docs-menu-recursive.html" (dict "pages" (.Pages.ByWeight) "context" $currentPage "level" 2) -}}
+          {{- end -}}
+        {{- end -}}
+      </li>
+    {{- end -}}
+  </ul>
+</div>
+
+<div class="docs-nav-separator"></div>
+{{- end -}}

@@ -1,0 +1,20 @@
+{{/* Intro section partial - reads from page front matter (.Params.intro_section) */}}
+{{ $intro := .Params.intro_section | default dict }}
+{{ if $intro.text }}
+<section class="intro-section">
+  <div class="container">
+    <div>
+      {{ $intro.text | markdownify }}
+    </div>
+    {{ with $intro.button }}
+    <p class="intro-section__cta">
+      <a href="{{ .href | relURL }}"
+         class="btn btn--{{ .variant | default "dark-purple" }} btn--icon">
+        {{ .text }}
+        <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+      </a>
+    </p>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

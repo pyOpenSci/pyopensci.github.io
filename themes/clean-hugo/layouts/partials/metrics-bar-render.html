@@ -1,0 +1,17 @@
+{{/*
+  Metrics Bar Renderer
+  A partial that renders the metrics bar HTML structure within a layout
+  Usage: {{ partial "metrics-bar-render.html" (dict "stats" (slice "**5** Packages" "**10** Users")) }}
+*/}}
+
+{{ $stats := .stats | default slice }}
+
+<div class="metrics-bar">
+  <div>
+    {{ range $stats }}
+      {{ if . }}
+      <div>{{ . | markdownify }}</div>
+      {{ end }}
+    {{ end }}
+  </div>
+</div>

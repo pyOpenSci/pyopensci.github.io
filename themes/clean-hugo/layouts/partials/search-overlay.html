@@ -1,0 +1,51 @@
+{{/*
+  Algolia search overlay — dialog shell, copy, and widget mount points.
+  Copy: hugo.toml [params.search]. Credentials: data-* attrs (read by algolia-search.js).
+*/}}
+{{ if .Site.Params.search.enable }}
+  {{ $search := .Site.Params.search | default dict }}
+  {{ $algolia := .Site.Params.algolia | default dict }}
+  <div
+    id="site-search"
+    class="search-content"
+    role="dialog"
+    aria-label="Site search"
+    aria-hidden="true"
+    hidden
+    data-algolia-app-id="{{ $algolia.application_id }}"
+    data-algolia-api-key="{{ $algolia.search_only_api_key }}"
+    data-algolia-index-name="{{ $algolia.index_name }}"
+    data-base-url="{{ strings.TrimSuffix "/" .Site.BaseURL }}"
+    data-placeholder="{{ $search.placeholder | default "Search the site..." }}"
+    data-no-results="{{ $search.no_results | default "No results" }}"
+    data-powered-by="{{ $algolia.powered_by | default true }}"
+    data-error-message="{{ $search.error | default "Search is temporarily unavailable. Please try again." }}"
+  >
+    <div class="search-content__inner-wrap">
+      <div class="search-content__header">
+        <div class="search-content__intro">
+          <h2 class="search-content__title">
+            {{ $search.title | default "Search our website" }}
+          </h2>
+          {{ with $search.subtitle }}
+            <p class="search-content__subtitle">{{ . }}</p>
+          {{ end }}
+        </div>
+        <button
+          type="button"
+          class="search-content__close"
+          aria-label="Close search"
+          data-search-close
+        >
+          <i class="fas fa-times" aria-hidden="true"></i>
+        </button>
+      </div>
+      <div class="search-searchbar" role="search">
+        <p class="search-loading" aria-live="polite">
+          {{ $search.loading | default "Loading search…" }}
+        </p>
+      </div>
+      <div class="search-hits" role="list"></div>
+    </div>
+  </div>
+{{ end }}

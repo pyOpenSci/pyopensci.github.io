@@ -17,3 +17,8 @@ node_modules/*
 public/
 resources/
 .lycheecache
+
+# site redesign
+.cursor/*
+_law_tests/*
+jekyll/*

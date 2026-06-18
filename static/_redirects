@@ -1,0 +1,39 @@
+# Netlify redirects — legacy URL continuity (formerly Jekyll _pages/redirects/)
+# and other URL continuity rules. Hugo aliases handle most .html paths.
+
+/feed.xml /blog/index.xml 301
+/tutorials/ /learn/ 301
+/contributors/ /our-community/ 301
+/contributors.html /our-community/ 301
+/ways-to-give.html /ways-to-give/ 301
+/volunteer.html /volunteer/ 301
+/learn.html /learn/ 301
+/learn-universities-labs.html /learn-universities-labs/ 301
+/partners.html /partners/ 301
+/resources.html /resources/ 301
+/python-packaging-science.html /python-packaging-science/ 301
+/how-to-submit-a-package-to-pyopensci.html /how-to-submit-a-package-to-pyopensci/ 301
+/python-packages.html /python-packages/ 301
+/events.html /events/ 301
+/get-involved-contact.html /volunteer/ 301
+/communities/astropy.html /packages/astropy/ 301
+/get-started/about-pyopensci / 301
+/dev_guide/peer_review/coc.html https://www.pyopensci.org/handbook/CODE_OF_CONDUCT.html 301
+/peer-review-guide/about-peer-review/intro.html https://www.pyopensci.org/software-peer-review/about/intro.html 301
+/peer-review-guide/about-peer-review/about-peer-review/aims-and-scope.html https://www.pyopensci.org/software-peer-review/about/package-scope.html 301
+/contributing-guide/open-source-software-submissions/author-guide/ https://www.pyopensci.org/peer-review-guide/software-peer-review-guide/author-guide.html 301
+/peer-review-guide/about-peer-review/review-benefits.html https://www.pyopensci.org/software-peer-review/about/benefits.html 301
+/peer-review-guide/about-peer-review/code-of-conduct.html https://www.pyopensci.org/handbook/CODE_OF_CONDUCT.html 301
+/contributing-guide/appendices/glossary.html https://www.pyopensci.org/software-peer-review/appendices/glossary.html 301
+/peer-review-guide/software-peer-review-guide/author-guide.html https://www.pyopensci.org/software-peer-review/how-to/author-guide.html 301
+/peer-review-guide/software-peer-review-guide/editor-guide.html https://www.pyopensci.org/software-peer-review/how-to/editors-guide.html 301
+/peer-review-guide/software-peer-review-guide/editor-in-chief-guide.html https://www.pyopensci.org/software-peer-review/how-to/editor-in-chief-guide.html 301
+/peer-review-guide/software-peer-review-guide/onboarding-guide.html https://www.pyopensci.org/software-peer-review/how-to/onboarding-guide.html 301
+/peer-review-guide/software-peer-review-guide/reviewer-guide.html https://www.pyopensci.org/software-peer-review/how-to/reviewer-guide.html 301
+/peer-review-guide/software-peer-review-guide/intro.html https://www.pyopensci.org/software-peer-review/our-process/review-timeline.html 301
+/peer-review-guide/software-peer-review-guide/where-to-find-python-package-reviewers.html https://www.pyopensci.org/software-peer-review/how-to/finding-reviewers.html 301
+/peer-review-guide/about-peer-review/how-peer-review-works.html https://www.pyopensci.org/software-peer-review/our-process/how-review-works.html 301
+/peer-review-guide/ https://www.pyopensci.org/software-peer-review 301
+/peer-review-guide/about-peer-review/policies-guidelines.html https://www.pyopensci.org/software-peer-review/our-process/policies.html 301
+/peer-review-guide/about-peer-review/pyopensci-related-joss-ropensci.html https://www.pyopensci.org/software-peer-review/partners/joss.html 301
+/python-package-guide/documentation/contributing.html https://www.pyopensci.org/python-package-guide/documentation/repository-files/contributing-file.html 301

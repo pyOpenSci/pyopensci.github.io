@@ -1,0 +1,25 @@
+{{ with .Params.instructors }}
+<section class="event-instructors" aria-label="Instructors">
+  <h2 class="event-instructors__heading">Instructors</h2>
+  <ul class="event-instructors__grid">
+    {{ range . }}
+      <li class="event-instructors__card">
+        <img
+          class="event-instructors__avatar"
+          src="https://github.com/{{ .github }}.png"
+          width="120"
+          height="120"
+          loading="lazy"
+          alt="GitHub profile photo of {{ .name }}"
+        />
+        <div class="event-instructors__body">
+          <h3 class="event-instructors__name">
+            <a href="https://github.com/{{ .github }}" rel="noopener noreferrer">{{ .name }}</a>
+          </h3>
+          {{ with .bio }}<p class="event-instructors__bio">{{ . | markdownify }}</p>{{ end }}
+        </div>
+      </li>
+    {{ end }}
+  </ul>
+</section>
+{{ end }}

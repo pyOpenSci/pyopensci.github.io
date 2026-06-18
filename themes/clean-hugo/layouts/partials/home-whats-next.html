@@ -1,0 +1,81 @@
+{{/*
+  Full-width light purple band below the hero highlighting the next
+  upcoming or live event. Renders nothing when no events qualify.
+
+  Event front matter:
+    event.home_highlight — short statement for this banner only
+    event.start_date, event.end_date, event.location
+*/}}
+{{ $ctx := .context | default . }}
+{{ $pages := where $ctx.Site.RegularPages "Section" "events" }}
+{{ $today := now.Format "2006-01-02" }}
+{{ $live := slice }}
+{{ $upcoming := slice }}
+
+{{ range $pages }}
+  {{ $e := .Params.event }}
+  {{ if and $e $e.start_date }}
+    {{ $start := $e.start_date }}
+    {{ $end := $e.end_date | default $e.start_date }}
+    {{ if lt $today $start }}
+      {{ $upcoming = $upcoming | append . }}
+    {{ else if and (le $start $today) (le $today $end) }}
+      {{ $live = $live | append . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ $nextEvent := index (append
+  (sort $live "Params.event.end_date" "asc")
+  (sort $upcoming "Params.event.start_date" "asc")
+) 0 }}
+
+{{ with $nextEvent }}
+  {{ $e := .Params.event }}
+  {{ $start := time $e.start_date }}
+  {{ $endStr := $e.end_date | default $e.start_date }}
+  {{ $end := time $endStr }}
+  {{ $headline := $e.home_highlight | default .Title }}
+  {{ $location := $e.location | default "" }}
+  {{ if or (not $location) (eq $location "TBD") }}
+    {{ $location = $e.conference | default "" }}
+  {{ end }}
+  <section class="home-whats-next" aria-labelledby="home-whats-next-title">
+    <div class="home-whats-next__inner container">
+      <p class="home-whats-next__label">What's next</p>
+      <div class="home-whats-next__divider" aria-hidden="true"></div>
+      <div class="home-whats-next__body">
+        <h2 id="home-whats-next-title" class="home-whats-next__headline">
+          {{ $headline }}
+        </h2>
+        <p class="home-whats-next__meta">
+          <time datetime="{{ $e.start_date }}">
+            {{ if and $e.end_date (or
+              (ne $start.Year $end.Year)
+              (ne $start.Month $end.Month)
+              (ne $start.Day $end.Day)) }}
+              {{ if and (eq $start.Year $end.Year) (eq $start.Month $end.Month) }}
+                {{ $start.Format "January 2" }}&ndash;{{ $end.Format "2, 2006" }}
+              {{ else if eq $start.Year $end.Year }}
+                {{ $start.Format "January 2" }}&ndash;{{ $end.Format "January 2, 2006" }}
+              {{ else }}
+                {{ $start.Format "January 2, 2006" }}&ndash;{{ $end.Format "January 2, 2006" }}
+              {{ end }}
+            {{ else }}
+              {{ $start.Format "January 2, 2006" }}
+            {{ end }}
+          </time>
+          {{ with $location }}
+            <span class="home-whats-next__meta-sep" aria-hidden="true">&middot;</span>
+            {{ . }}
+          {{ end }}
+        </p>
+      </div>
+      <p class="home-whats-next__actions">
+        <a class="btn btn--outline btn--lg home-whats-next__cta" href="{{ .RelPermalink }}">
+          Learn more <span aria-hidden="true">&rarr;</span>
+        </a>
+      </p>
+    </div>
+  </section>
+{{ end }}

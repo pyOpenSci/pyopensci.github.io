@@ -1,0 +1,293 @@
+/*
+Breakpoints:
+sm: 640px
+md: 768px
+lg: 1024px
+xl: 1280px
+2xl: 1536px
+*/
+
+/* Variables and Mixins - Import First */
+@import 'variables';
+@import 'mixins';
+
+/* Button System */
+@import 'buttons';
+
+/* Accessibility utilities (skip links) */
+@import 'utilities';
+
+/* Base Styles */
+  /* Universal box-sizing and overflow fix */
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  html {
+    overflow-x: hidden;
+  }
+
+  /*
+    Self-hosted font declarations
+    Font files are in themes/clean-hugo/static/fonts/
+  */
+
+  /* Nunito Sans variable font (body text) - regular/roman style */
+  @font-face {
+    font-family: $font-name-body;
+    font-style: normal;
+    font-weight: 200 900;
+    font-display: swap;
+    src: url('../fonts/NunitoSans-VariableFont.woff2') format('woff2');
+  }
+
+  /* Nunito Sans variable font (body text) - italic style */
+  @font-face {
+    font-family: $font-name-body;
+    font-style: italic;
+    font-weight: 200 900;
+    font-display: swap;
+    src: url('../fonts/NunitoSans-Italic-VariableFont.woff2') format('woff2');
+  }
+
+  /* Poppins (headings) */
+  @font-face {
+    font-family: $font-name-heading;
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url('../fonts/Poppins-Light.woff2') format('woff2');
+  }
+
+  @font-face {
+    font-family: $font-name-heading;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../fonts/Poppins-Regular.woff2') format('woff2');
+  }
+
+  @font-face {
+    font-family: $font-name-heading;
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../fonts/Poppins-Italic.woff2') format('woff2');
+  }
+
+  @font-face {
+    font-family: $font-name-heading;
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url('../fonts/Poppins-Medium.woff2') format('woff2');
+  }
+
+  @font-face {
+    font-family: $font-name-heading;
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url('../fonts/Poppins-SemiBold.woff2') format('woff2');
+  }
+
+  @font-face {
+    font-family: $font-name-heading;
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('../fonts/Poppins-Bold.woff2') format('woff2');
+  }
+
+  /* Lora italic variable font (quotations) */
+  @font-face {
+    font-family: $font-name-quote;
+    font-style: italic;
+    font-weight: 400 700;
+    font-display: swap;
+    src: url('../fonts/Lora-Italic-VariableFont_wght.woff2') format('woff2');
+  }
+
+  /*
+    CSS Variables for theme colors
+    All color variables are injected via inline <style> block in baseof.html
+    from site configuration (hugo.toml or theme.toml defaults)
+  */
+
+  body {
+    font-family: $font-family-body;
+    color: var(--color-gray-900);
+    background-color: var(--color-gray-50);
+    margin: 0;
+    width: 100%;
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+
+  /* Typography System - Base Heading Styles */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: $font-family-heading;
+    color: inherit;
+    line-height: 1.25;
+  }
+
+  @each $tag, $sizes in $heading-font-sizes {
+    $m: map-get($heading-meta, $tag);
+
+    #{$tag} {
+      @include type-scale-3(nth($sizes, 1), nth($sizes, 2), nth($sizes, 3));
+      font-weight: map-get($m, weight);
+      margin-top: map-get($m, margin-top);
+      margin-bottom: map-get($m, margin-bottom);
+    }
+  }
+
+  h1,
+  h2 {
+    color: var(--color-brand-purple);
+  }
+
+  /* H1 on dark hero / banner backgrounds — keep light for contrast */
+  .hero__title,
+  .blog-hero h1,
+  .blog-post__header h1,
+  .docs-header__title {
+    color: var(--color-white);
+  }
+
+  .site-footer h2 {
+    color: inherit;
+  }
+
+  /* Base Typography - Paragraphs and Lists share the same text size and line-height */
+  p,
+  ul, ol,
+  li {
+    @include type-scale-md(1.125rem, 1.25rem);
+    margin-bottom: 1rem;
+    line-height: 1.75;
+    color: var(--color-gray-700);
+  }
+
+  /* List-specific styling */
+  ul, ol {
+    margin-left: clamp(1rem, 2.5vw, 1.5rem);
+    padding-left: 0;
+  }
+
+  li {
+    margin-bottom: 0.5rem;
+  }
+
+  ul {
+    list-style-type: disc;
+  }
+
+  ol {
+    list-style-type: decimal;
+  }
+
+  /* Horizontal rules */
+  hr {
+    margin: 2rem 0;
+    border-top: 1px solid;
+    border-color: var(--color-gray-200);
+  }
+
+  /* Links - base styles (can be overridden in components) */
+  a:not(.btn) {
+    transition: color 0.2s;
+    color: var(--color-link);
+
+    &:hover,
+    &:focus {
+      color: var(--color-link-hover);
+    }
+  }
+
+  /* Strong and emphasis */
+  strong {
+    font-weight: 600;
+    color: var(--color-gray-900);
+  }
+
+  em {
+    font-style: italic;
+  }
+/* Utility Classes */
+
+  /* Reusable background color utilities - short, generalized class names */
+  .bg-card {
+    background-color: var(--color-feature-card);
+  }
+
+  .bg-primary {
+    background-color: var(--color-primary-light);
+  }
+
+  .bg-secondary {
+    background-color: var(--color-secondary);
+  }
+
+  /* Spacing utilities */
+  .py-12 {
+    padding: 3rem 0;
+  }
+
+  /* Container utilities - standardize container widths across the site */
+  /* Standard container - used throughout site (max-w-7xl) */
+  .container {
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 0 $fluid-container-padding;
+  }
+
+  /* Narrow container for content (blog posts, etc.) - max-w-4xl */
+  .container-narrow {
+    max-width: 56rem;
+    margin: 0 auto;
+    padding: 0 $fluid-container-padding-lg;
+  }
+
+  /* Wide container for hero sections - fluid padding */
+  .container-wide {
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 0 $fluid-container-padding;
+  }
+
+  /* Full-width breakout utility - breaks out of constrained containers */
+  /* Use this class on any element that needs to span full viewport width */
+  /* Works within blog posts, packages page, or any constrained container */
+  .full-width {
+    width: 100%;
+    max-width: 100%;
+    margin-inline: calc(-1 * $fluid-container-padding);
+  }
+
+/* Component Imports */
+@import 'navigation';
+@import 'search';
+@import 'content';
+@import 'blog';
+@import 'learn-more';
+@import 'filter';
+@import 'hero';
+@import 'cards';
+@import 'feature-row';
+@import 'intro-section';
+@import 'training-feature';
+@import 'home-bands';
+@import 'swoosh';
+@import 'footer';
+@import 'shortcodes';
+@import 'admonition';
+@import 'quotes';
+@import 'code';
+@import 'figure';
+@import 'tables';
+@import 'packages';
+@import 'events';
+@import 'training';
+@import 'people';
+@import 'docs';

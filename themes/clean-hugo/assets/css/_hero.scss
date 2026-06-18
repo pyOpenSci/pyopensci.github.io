@@ -1,0 +1,80 @@
+/* Hero section components */
+
+.hero {
+  padding: 0.5rem 0;
+  @include flex-center;
+  overflow: hidden;
+  margin-bottom: 3rem;
+  background-color: var(--color-hero-bg);
+  width: 100%;
+  max-width: 100vw;
+
+  /* Direct child .container gets additional padding */
+  > .container {
+    width: 100%;
+    @include responsive(padding-top, 0.875rem, 2rem);
+    @include responsive(padding-bottom, 0.875rem, 2rem);
+  }
+
+  &__grid {
+    display: grid;
+    @include responsive(gap, 1.5rem, 2rem);
+    align-items: center;
+  }
+
+  &__content {
+    color: var(--color-white);
+    max-width: none;
+  }
+
+  &__title {
+    @include responsive(font-size, 2.25rem, 3.75rem);
+    @include responsive(margin-bottom, 1rem, 1.5rem);
+    font-weight: 700;
+    max-width: none;
+    color: white;
+
+    @media (min-width: $breakpoint-sm) {
+      font-size: 3rem;
+    }
+  }
+
+  &__subtitle {
+    @include responsive(font-size, 1.25rem, 1.875rem);
+    @include responsive(margin-bottom, 1rem, 1.5rem);
+    font-weight: 600;
+    color: white;
+
+    @media (min-width: $breakpoint-sm) {
+      font-size: 1.5rem;
+    }
+  }
+
+  &__excerpt {
+    @include responsive(font-size, 1rem, 1.25rem);
+    @include responsive(line-height, 1.5, 1.6);
+    color: white;
+
+    @media (min-width: $breakpoint-sm) {
+      font-size: 1.125rem;
+    }
+  }
+
+  &__actions {
+    @include responsive(margin-top, 1.25rem, 1.75rem);
+
+    &.btn-group {
+      @media (max-width: ($breakpoint-sm - 0.02px)) {
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        .btn {
+          flex: 1 1 auto;
+          min-width: 0;
+          max-width: 100%;
+        }
+      }
+    }
+  }
+
+}

@@ -1,0 +1,283 @@
+# pyOpenSci website (Hugo) — lives at repo root. Legacy Jekyll site is in
+# jekyll/. Production still builds Jekyll from jekyll/ until cutover.
+
+baseURL = 'https://www.pyopensci.org/'
+languageCode = 'en-us'
+title = 'pyOpenSci'
+theme = 'clean-hugo'
+timeZone = 'America/Denver'
+
+enableRobotsTXT = true
+buildFuture = true
+
+# Site images: use Hugo’s normal `static/images/` (published as /images/...).
+# The legacy Jekyll site still reads from `jekyll/images/` for its own build.
+
+[sitemap]
+  changefreq = 'weekly'
+  filename = 'sitemap.xml'
+  priority = 0.5
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.highlight]
+    style = 'monokai'
+    lineNos = false
+    noClasses = false
+    codeFences = true
+    guessSyntax = true
+
+[params]
+  author = 'pyOpenSci'
+  tagline = 'We support the open source contributors and developers who fuel scientific discovery.'
+
+  # Upper-left nav: logo image (served from mounted jekyll/images via static/images).
+  [params.nav_logo]
+    src = 'images/logo.png'
+    alt = 'pyOpenSci logo: a purple flower opening over the O in Open, representing open science.'
+  blog_title = 'pyOpenSci Blog'
+  description = 'pyOpenSci broadens participation in scientific open source.'
+
+  [params.seo]
+    default_image = 'images/landing-pages/scipy-sprint-working.png'
+    twitter_site = 'pyOpenSci'
+
+  [params.social]
+    type = 'Organization'
+    github = 'https://github.com/pyopensci'
+    bluesky = 'https://bsky.app/profile/pyopensci.org'
+    linkedin = 'https://www.linkedin.com/company/pyopensci/'
+    mastodon = 'https://fosstodon.org/@pyOpenSci'
+    youtube = 'https://www.youtube.com/@pyopensci'
+
+  [params.footer]
+    follow_label = 'Follow'
+    mission = '''pyOpensci is dedicated to creating a welcoming, supportive and diverse community around the open source Python tools that drive open science. Our <a href="https://www.pyopensci.org/handbook/CODE_OF_CONDUCT.html" target="_blank" rel="noopener noreferrer">Code of Conduct</a> defines expected behavior and guidelines that help create such a community. pyOpenSci is a fiscally sponsored project of <a href="https://communityinitiatives.org/" target="_blank" rel="noopener noreferrer">Community Initiatives</a>, a registered 501(c)3 non-profit organization based in California, USA. pyOpenSci is grateful for support from the <a href="https://sloan.org/" target="_blank" rel="noopener noreferrer">Sloan Foundation</a> and the <a href="https://chanzuckerberg.com/" target="_blank" rel="noopener noreferrer">Chan Zuckerberg Initiative</a>.'''
+
+[[params.footer.links]]
+  label = 'Mastodon'
+  icon = 'fab fa-fw fa-mastodon'
+  url = 'https://fosstodon.org/@pyOpenSci'
+  rel_me = true
+
+[[params.footer.links]]
+  label = 'Bluesky'
+  icon = 'fa-solid fa-cloud'
+  url = 'https://bsky.app/profile/pyopensci.org'
+
+[[params.footer.links]]
+  label = 'LinkedIn'
+  icon = 'fab fa-fw fa-linkedin'
+  url = 'https://www.linkedin.com/company/pyopensci'
+
+[[params.footer.links]]
+  label = 'GitHub'
+  icon = 'fab fa-fw fa-github'
+  url = 'https://github.com/pyOpenSci'
+
+[[params.footer.links]]
+  label = 'YouTube'
+  icon = 'fa-brands fa-youtube'
+  url = 'https://www.youtube.com/@pyopensci'
+
+[params.theme]
+  enableFontAwesome = true
+
+  [params.theme.fonts]
+    heading = 'Poppins'
+    body = 'Nunito Sans'
+
+  [params.theme.colors]
+    primary = '#2E6060'
+    primaryDark = '#142929'
+    primaryLight = '#D6E3E3'
+    secondary = '#F1E0A6'
+    accent = '#42213D'
+    accentLight = '#E4B8C6'
+    neutral = '#395E66'
+    white = '#FFFFFF'
+    gray50 = '#F9FAFB'
+    gray200 = '#E5E7EB'
+    gray600 = '#4B5563'
+    gray700 = '#374151'
+    gray900 = '#111827'
+    link = '#2E6060'
+    linkOnDark = '#2DD4BF'
+    linkHover = '#1F4345'
+    featureCard = '#EBC1D3'
+    'heroBg' = '#33205C'
+    brandPurple = '#33205C'
+    brandPurpleDark = '#542668'
+    brandPurpleMedium = '#735FAB'
+    brandSoftPurple = '#BAB3D4'
+    brandLightPurple = '#E1DFED'
+    brandMagenta = '#BB82B0'
+    brandHeaderPurple = '#6B5B95'
+    'admonition-info' = '#53354F'
+    'admonition-success' = '#71B3B5'
+    'admonition-warning' = '#E4B8C6'
+    'admonition-danger' = '#F1E0A6'
+    'admonition-note' = '#CAE4E4'
+
+    # Event cards on /events/ (event_type: training | sprint | community | talk)
+    eventLabelTrainingBg = '#D6E3E3'
+    eventLabelTrainingFg = '#142929'
+    eventLabelSprintBg = '#E4B8C6'
+    eventLabelSprintFg = '#111827'
+    eventLabelCommunityBg = '#F1E0A6'
+    eventLabelCommunityFg = '#111827'
+    eventLabelTalkBg = '#CAE4E4'
+    eventLabelTalkFg = '#142929'
+    eventDateBadgeBg = '#42213D'
+    eventDateBadgeFg = '#FFFFFF'
+
+[params.nav_button]
+  text = 'Donate'
+  url = 'https://give.communityin.org/pyopensci_2024'
+  variant = 'dark-purple'
+
+# Site search — Algolia InstantSearch (ported from search branch / PR #788).
+[params.search]
+  enable = true
+  title = 'Search our website'
+  subtitle = 'Our website includes a Python packaging guide, a peer review guide and lessons that we have built. Search below to explore our resources.'
+  placeholder = 'Search the site...'
+  no_results = 'No results'
+  loading = 'Loading search…'
+  error = 'Search is temporarily unavailable. Please try again.'
+
+[params.algolia]
+  application_id = 'OCL08AWWSO'
+  index_name = 'pyopensci'
+  search_only_api_key = '42e1fb9616225e65d332af46f27dba9f'
+  powered_by = true
+
+# Main nav — aligned with live Jekyll site (_data/navigation.yml on main).
+
+[[menu.main]]
+  name = 'Peer Review'
+  weight = 10
+
+[[menu.main]]
+  name = 'About peer review'
+  url = '/about-peer-review/'
+  parent = 'Peer Review'
+  weight = 1
+
+[[menu.main]]
+  name = 'How to submit a package'
+  url = '/how-to-submit-a-package-to-pyopensci/'
+  parent = 'Peer Review'
+  weight = 2
+
+[[menu.main]]
+  name = 'Community partners'
+  url = '/partners/'
+  parent = 'Peer Review'
+  weight = 3
+
+[[menu.main]]
+  name = 'Accepted packages'
+  url = '/python-packages/'
+  parent = 'Peer Review'
+  weight = 4
+
+[[menu.main]]
+  name = 'Peer review guide'
+  url = 'https://www.pyopensci.org/software-peer-review/'
+  parent = 'Peer Review'
+  weight = 5
+  [menu.main.params]
+    external = true
+    icon = 'fas fa-external-link-alt'
+
+[[menu.main]]
+  name = 'Packaging'
+  weight = 20
+
+[[menu.main]]
+  name = 'Packaging resources'
+  url = '/python-packaging-science/'
+  parent = 'Packaging'
+  weight = 1
+
+[[menu.main]]
+  name = 'Our packages'
+  url = '/python-packages/'
+  parent = 'Packaging'
+  weight = 2
+
+[[menu.main]]
+  name = 'Package Guidebook'
+  url = 'https://www.pyopensci.org/python-package-guide/'
+  parent = 'Packaging'
+  weight = 3
+  [menu.main.params]
+    external = true
+    icon = 'fas fa-external-link-alt'
+
+[[menu.main]]
+  name = 'Learn'
+  weight = 30
+
+[[menu.main]]
+  name = 'For Learners'
+  url = '/learn/'
+  parent = 'Learn'
+  weight = 1
+
+[[menu.main]]
+  name = 'For Universities & Labs'
+  url = '/learn-universities-labs/'
+  parent = 'Learn'
+  weight = 2
+
+[[menu.main]]
+  name = 'Blog'
+  url = '/blog/'
+  parent = 'Learn'
+  weight = 3
+
+[[menu.main]]
+  name = 'Events'
+  url = '/events/'
+  parent = 'Learn'
+  weight = 4
+
+[[menu.main]]
+  name = 'Community'
+  weight = 40
+
+[[menu.main]]
+  name = 'Our Community'
+  url = '/our-community/'
+  parent = 'Community'
+  weight = 1
+  [menu.main.params]
+    icon = 'fa-brands fa-discourse'
+
+[[menu.main]]
+  name = 'Handbook'
+  url = 'https://www.pyopensci.org/handbook/'
+  parent = 'Community'
+  weight = 2
+  [menu.main.params]
+    external = true
+    icon = 'fas fa-external-link-alt'
+
+[[menu.main]]
+  name = 'Support Us'
+  weight = 50
+
+[[menu.main]]
+  name = 'Ways to Give'
+  url = '/ways-to-give/'
+  parent = 'Support Us'
+  weight = 1
+
+[[menu.main]]
+  name = 'Volunteer'
+  url = '/volunteer/'
+  parent = 'Support Us'
+  weight = 2

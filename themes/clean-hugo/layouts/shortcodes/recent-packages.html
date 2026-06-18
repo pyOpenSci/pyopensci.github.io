@@ -1,0 +1,23 @@
+{{/* Recent accepted packages grid. Usage: {{< recent-packages limit="3" >}} */}}
+{{ $limit := .Get "limit" | default 3 | int }}
+{{ $packages := where .Site.Data.packages "active" true }}
+{{ $sorted := partial "packages/sort-by-date-accepted.html" (dict "packages" $packages) }}
+{{ $recent := first $limit $sorted }}
+
+{{ if gt (len $recent) 0 }}
+<section class="packages-page__section">
+  <div class="container">
+    <h2>Recently accepted Python packages</h2>
+    <div class="packages-grid">
+      {{ range $recent }}
+        {{ partial "packages/card-static.html" . }}
+      {{ end }}
+    </div>
+    <p>
+      <a class="btn btn--dark-purple" href="{{ "/python-packages/" | relURL }}">
+        View all accepted packages
+      </a>
+    </p>
+  </div>
+</section>
+{{ end }}

@@ -1,0 +1,17 @@
+{{/*
+  Blog Excerpt Partial
+
+  Parameters:
+  - "." (context): The blog post page object (passed as "." in dict)
+  - "length" (int): Character length for truncation (default: 200)
+*/}}
+{{ $post := index . "." }}
+{{ $length := .length | default 200 }}
+
+{{ if $post.Params.excerpt }}
+  {{ $post.Params.excerpt | markdownify | plainify | htmlUnescape | truncate $length }}
+{{ else if $post.Summary }}
+  {{ $post.Summary | plainify | htmlUnescape | truncate $length }}
+{{ else }}
+  {{ $post.Plain | htmlUnescape | truncate $length }}
+{{ end }}

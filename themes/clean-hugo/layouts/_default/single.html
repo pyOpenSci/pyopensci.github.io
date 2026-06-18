@@ -1,0 +1,16 @@
+{{ define "main" }}
+
+{{ partial "hero.html" . }}
+
+<article class="content-container">
+
+  {{ if and (not .Params.hero) (not .Params.hideDate) (not .Date.IsZero) }}
+    {{/* Only show date when front matter includes a real publish date */}}
+    <p class="content-date">{{ .Date.Format "January 2, 2006" }}</p>
+  {{ end }}
+  <div class="content-main">
+    {{ .Content }}
+    {{ partial "last-modified.html" . }}
+  </div>
+</article>
+{{ end }}

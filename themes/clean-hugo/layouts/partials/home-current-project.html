@@ -1,0 +1,60 @@
+{{/*
+  Home page "Current project" feature block.
+  Reads Params.current_project from the page (content/_index.md).
+  Use shortcode {{< current-project />}}.
+
+  Fields: title (required), eyebrow, excerpt, quote, cite, cta_prompt,
+  button_label, button_url, enabled (optional, default true).
+*/}}
+{{ $p := .Params.current_project | default dict }}
+{{ if eq $p.enabled false }}{{ return }}{{ end }}
+{{ if not $p.title }}{{ return }}{{ end }}
+{{ $eyebrow := $p.eyebrow | default "Current project" }}
+{{ $btnLabel := $p.button_label | default "Get involved" }}
+{{ $btnHref := "" }}
+{{ with $p.button_url }}
+  {{ $btnHref = . }}
+  {{ if not (hasPrefix $btnHref "http") }}
+    {{ $btnHref = relURL $btnHref }}
+  {{ end }}
+{{ end }}
+
+<section class="home-current-project" aria-labelledby="home-current-project-title">
+  <div class="home-current-project__inner container">
+    <div class="home-current-project__main">
+      <div class="home-current-project__content">
+        <p class="home-current-project__eyebrow">{{ $eyebrow }}</p>
+        <h2 id="home-current-project-title" class="home-current-project__title">
+          {{ $p.title }}
+        </h2>
+        {{ with $p.excerpt }}
+          <div class="home-current-project__excerpt">{{ . | markdownify }}</div>
+        {{ end }}
+      </div>
+      {{ if or $p.quote $p.cite }}
+        <div class="home-current-project__divider" aria-hidden="true"></div>
+        <div class="home-current-project__quote-wrap">
+          {{ partial "feature-quote.html" (dict
+            "quote" $p.quote
+            "cite" $p.cite
+            "color" "purple"
+          ) }}
+        </div>
+      {{ end }}
+    </div>
+    {{ if or $p.cta_prompt $btnHref }}
+      <div class="home-current-project__footer">
+        {{ with $p.cta_prompt }}
+          <p class="home-current-project__cta-prompt">{{ . }}</p>
+        {{ end }}
+        {{ if $btnHref }}
+          <p class="home-current-project__cta-actions">
+            <a class="btn btn--outline btn--lg home-current-project__cta" href="{{ $btnHref }}">
+              {{ $btnLabel }} <span aria-hidden="true">&rarr;</span>
+            </a>
+          </p>
+        {{ end }}
+      </div>
+    {{ end }}
+  </div>
+</section>

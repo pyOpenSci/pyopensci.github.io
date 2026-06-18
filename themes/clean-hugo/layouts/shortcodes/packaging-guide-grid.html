@@ -1,0 +1,30 @@
+{{/*
+  Packaging guidebook section cards — from data/packaging.yml
+  Usage: {{< packaging-guide-grid />}}
+*/}}
+{{ $sections := sort .Site.Data.packaging "order" "asc" }}
+{{ if gt (len $sections) 0 }}
+<div class="tutorial-grid">
+  {{ range $sections }}
+  <article class="tutorial-grid__card">
+    <div class="tutorial-grid__body">
+      <h3 class="tutorial-grid__title">{{ .title }}</h3>
+      {{ with .excerpt }}
+      <p class="tutorial-grid__excerpt">{{ . }}</p>
+      {{ end }}
+      {{ with .subpages }}
+      <ul class="packaging-guide-grid__links">
+        {{ range . }}
+        <li>
+          <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">
+            {{ .name }}
+          </a>
+        </li>
+        {{ end }}
+      </ul>
+      {{ end }}
+    </div>
+  </article>
+  {{ end }}
+</div>
+{{ end }}
