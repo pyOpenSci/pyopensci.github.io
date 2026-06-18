@@ -4,9 +4,7 @@
 */}}
 {{ $joss := .joss }}
 {{ $archive := .archive }}
-HERE
 {{ if and $joss (in $joss "joss.theoj.org") }}
-WRITE HERE THIS SHOULD WORK
   <li>
     <a
       href="{{ replace $joss "joss.theoj.org/papers/" "doi.org/" }}"
