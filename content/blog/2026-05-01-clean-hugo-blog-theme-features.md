@@ -804,6 +804,7 @@ for layout details.
 |---|---|---|
 | `home-programs-full` | Home | Wraps `impact-cards` with section heading |
 | `partnership-cards` | Partners | Reads `partnership_cards` from front matter |
+| `partnership_table` | Ways to give | Styled sponsorship tier comparison table |
 | `university-testimonials` | Learn — universities | Testimonial carousel |
 | `university-benefits-list` | Learn — universities | Benefits list partial |
 | `packaging-guide-grid` | Python packaging resources | Static guide links grid |
@@ -951,6 +952,33 @@ See [Blockquotes](#blockquotes) above for full examples. Quick render check:
 > Good research software is built for the people who use it.
 
 ### Tables
+
+Default Markdown tables render with basic styling. For sponsorship tier
+tables (and similar comparison layouts), use the `partnership_table` shortcode
+so the table matches the live site: light purple header row, horizontal row
+dividers, and bold purple tier names in the first column.
+
+```markdown
+{{</* partnership_table */>}}
+| Tier | Example focus | Example visibility & benefits |
+| --- | --- | --- |
+| **Ecosystem catalyst** | Companies ready to lead in supporting open source research software | Premier placement across channels; tailored activations such as mentored sprints and dedicated office hours |
+| **Momentum driver** | Teams growing their scientific Python footprint | Sustained visibility on the website and in mailings; alignment with webinars and community programs |
+| **Foundation builder** | Organizations beginning to invest in open science education | Recognition alongside training materials; support for scholarships and learner access |
+{{</* /partnership_table */>}}
+```
+
+**Rendered:**
+
+{{< partnership_table >}}
+| Tier | Example focus | Example visibility & benefits |
+| --- | --- | --- |
+| **Ecosystem catalyst** | Companies ready to lead in supporting open source research software | Premier placement across channels; tailored activations such as mentored sprints and dedicated office hours |
+| **Momentum driver** | Teams growing their scientific Python footprint | Sustained visibility on the website and in mailings; alignment with webinars and community programs |
+| **Foundation builder** | Organizations beginning to invest in open science education | Recognition alongside training materials; support for scholarships and learner access |
+{{< /partnership_table >}}
+
+Plain table (no wrapper):
 
 | Column A | Column B | Column C |
 |---|---|---|

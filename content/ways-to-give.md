@@ -10,6 +10,9 @@ description: >-
   scientific discovery.
 ---
 
+{{< feature-row layout="right"
+    image="/images/people/scipy-sprint-2026.png"
+    alt="A group of contributors sitting at a table at a pyOpenSci sprint working on their laptops and talking to each other." >}}
 By supporting pyOpenSci, you are directly investing in the sustainability of the
 open-source Python ecosystem that modern businesses, universities, and
 researchers rely on. A healthy, diverse open-source community is critical to
@@ -19,8 +22,9 @@ enable productivity and innovation at scale.
 Whether you are a company looking to align your brand with industry leaders, or
 an individual funder passionate about open science, we offer clear pathways for
 you to support our mission.
+{{< /feature-row >}}
 
-{{< figure src="/images/people/scipy-sprint-2026.png" alt="A group of contributors sitting at a table at a pyOpenSci sprint working on their laptops and talking to each other." >}}
+{{< swoosh_section background="purple" >}}
 
 ## For companies: corporate sponsorship
 
@@ -32,32 +36,28 @@ informed ecosystem that scales scientific discovery.
 
 ### Benefits of contributing
 
-<ul class="benefits-list">
-  <li>
-    <i class="fa-solid fa-seedling" aria-hidden="true"></i>
-    <strong>Long-term impact.</strong>
-    Open source development and the critical infrastructure it supports are
-    rapidly evolving due to the impacts of generative AI. pyOpenSci is uniquely
-    positioned to address these challenges, and our sponsors will be at the
-    forefront of this evolution, directly supporting a mission that shapes the
-    future of open source tools.
-  </li>
-  <li>
-    <i class="fa-solid fa-bullhorn" aria-hidden="true"></i>
-    <strong>Brand awareness.</strong>
-    Your brand will benefit from multi-channel promotion integrated directly into
-    our evolving content strategy, which spans our primary website,
-    organizational and personal social platforms, dedicated mailing lists, and
-    an upcoming asynchronous course platform tailored for universities.
-  </li>
-  <li>
-    <i class="fa-solid fa-people-arrows" aria-hidden="true"></i>
-    <strong>Target audience.</strong>
-    Expose your brand to practitioners who don't just use tools—they have high
-    visibility to those who develop them, teach them, and shape how research
-    communities adopt new workflows.
-  </li>
-</ul>
+{{< three-card-row >}}
+{{< card title="Long-term impact" icon="fa-solid fa-seedling" >}}
+Open source development and the critical infrastructure it supports are
+rapidly evolving due to the impacts of generative AI. pyOpenSci is uniquely
+positioned to address these challenges, and our sponsors will be at the
+forefront of this evolution, directly supporting a mission that shapes the
+future of open source tools.
+{{< /card >}}
+
+{{< card title="Brand awareness" icon="fa-solid fa-bullhorn" >}}
+Your brand will benefit from multi-channel promotion integrated directly into
+our evolving content strategy, which spans our primary website,
+organizational and personal social platforms, dedicated mailing lists, and
+an upcoming asynchronous course platform tailored for universities.
+{{< /card >}}
+
+{{< card title="Target audience" icon="fa-solid fa-people-arrows" >}}
+Expose your brand to practitioners who don't just use tools—they have high
+visibility to those who develop them, teach them, and shape how research
+communities adopt new workflows.
+{{< /card >}}
+{{< /three-card-row >}}
 
 Sponsorship funds directly support our mission to make scientific Python more
 accessible. From special programs to scholarships, your sustained support
@@ -68,15 +68,19 @@ ensures our scientific infrastructure remains a crucial, valuable resource.
 Tiers vary by organization; the table below illustrates how support can align
 with different goals. Contact us to design a package that fits your team.
 
+{{< partnership_table >}}
 | Tier | Example focus | Example visibility & benefits |
 | --- | --- | --- |
 | **Ecosystem catalyst** | Companies ready to lead in supporting open source research software | Premier placement across channels; tailored activations such as mentored sprints and dedicated office hours; strategic collaboration with pyOpenSci leadership |
 | **Momentum driver** | Teams growing their scientific Python footprint | Sustained visibility on the website and in mailings; alignment with webinars and community programs; connection to our cross-disciplinary network |
 | **Foundation builder** | Organizations beginning to invest in open science education | Recognition alongside training and course materials; support for scholarships and learner access; pathway to deeper partnership |
+{{< /partnership_table >}}
 
 {{< button href="mailto:media@pyopensci.org?subject=pyOpenSci%20corporate%20sponsorship%20inquiry" variant="dark-purple" size="lg" >}}
 Inquire to learn more
 {{< /button >}}
+
+{{< /swoosh_section >}}
 
 {{< swoosh_section background="white" >}}
 

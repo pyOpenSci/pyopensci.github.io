@@ -1,0 +1,72 @@
+/* Sponsorship / partnership tier tables (ways-to-give, university pages) */
+
+.partnership-table-wrap {
+  width: 100%;
+  overflow-x: auto;
+  margin: 1.5rem 0 2rem;
+}
+
+.partnership-table-wrap table,
+table.partnership-table {
+  display: table;
+  width: 100%;
+  min-width: 42rem;
+  border-collapse: collapse;
+  background-color: var(--color-white);
+  overflow-x: visible;
+}
+
+.partnership-table-wrap table {
+  min-width: 42rem;
+}
+
+.partnership-table-wrap th,
+.partnership-table-wrap td,
+table.partnership-table th,
+table.partnership-table td {
+  padding: 0.85rem 0.75rem;
+  border: 0;
+  border-bottom: 1px solid
+    color-mix(in srgb, var(--color-brand-purple) 18%, transparent);
+  text-align: left;
+  vertical-align: top;
+  line-height: 1.45;
+  font-size: 0.9375rem;
+  color: var(--color-gray-700);
+}
+
+.partnership-table-wrap thead th,
+table.partnership-table thead th {
+  background-color: color-mix(
+    in srgb,
+    var(--color-soft-purple) 55%,
+    var(--color-white)
+  );
+  color: var(--color-gray-900);
+  font-weight: 700;
+  border-bottom: 1px solid
+    color-mix(in srgb, var(--color-brand-purple) 22%, transparent);
+}
+
+.partnership-table-wrap tbody td:first-child,
+.partnership-table-wrap tbody th:first-child,
+table.partnership-table tbody td:first-child {
+  font-weight: 700;
+  color: var(--color-brand-purple);
+}
+
+.partnership-table-wrap tbody tr:last-child td,
+table.partnership-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.partnership-table-wrap + .btn,
+.partnership-table-wrap + a.btn {
+  margin-top: 1.5rem;
+}
+
+@media (max-width: ($breakpoint-lg - 0.02px)) {
+  .partnership-table-wrap {
+    -webkit-overflow-scrolling: touch;
+  }
+}
