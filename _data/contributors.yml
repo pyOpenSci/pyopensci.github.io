@@ -1054,12 +1054,14 @@
   board: false
   contributor_type:
     - contributor
+    - editor
     - guidebook-contrib
     - peer-review
     - peer-review-guide
     - reviewer
   packages_eic:
   packages_editor:
+    - lintquarto
   packages_submitted:
   packages_reviewed:
     - nbless
@@ -1801,6 +1803,7 @@
     - plenoptic
   packages_submitted:
   packages_reviewed:
+    - lintquarto
     - python-graphblas
   location:
   email:
@@ -4402,6 +4405,7 @@
     - rdata
   packages_submitted:
   packages_reviewed:
+    - lintquarto
     - sciform
   location: FLorida, USA
   email:
@@ -4437,9 +4441,11 @@
     - web-contrib
   packages_eic:
     - cheminformant
+    - lintquarto
     - pyinterpolate
   packages_editor:
     - cheminformant
+    - plenoptic
   packages_submitted:
     - automata
     - cynetdiff
@@ -5446,6 +5452,7 @@
     - reviewer
   packages_eic:
     - astropy
+    - c4dynamics
   packages_editor:
     - tda-mapper
   packages_submitted:
@@ -9709,14 +9716,17 @@
   contributor_type:
     - code-contrib
     - editor
+    - eic
     - peer-review
     - peer-review-guide
     - reviewer
     - web-contrib
   packages_eic:
+    - c4dynamics
   packages_editor:
     - astropy
     - blockingpy
+    - c4dynamics
     - piva
     - swiftgalaxy
   packages_submitted:
@@ -10007,10 +10017,13 @@
   board: false
   contributor_type:
     - package-guide
+    - peer-review
+    - reviewer
   packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
+    - c4dynamics
   location:
   email:
 - name: James Lamb
@@ -10500,6 +10513,7 @@
     - peer-review
   packages_eic:
     - blockingpy
+    - c4dynamics
     - galfitools
     - greopy
     - piva
@@ -11399,6 +11413,7 @@
   packages_submitted:
   packages_reviewed:
     - astropy
+    - c4dynamics
   location: Bay Area
   email:
 - name:
@@ -11634,4 +11649,118 @@
     - tda-mapper
   packages_reviewed:
   location: Rome, Italy
+  email:
+- name: Britney Whittington
+  github_username: bwhitt7
+  github_image_id: 103079612
+  title:
+  sort:
+  bio:
+  organization: STScI
+  date_added: '2026-06-15'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - web-contrib
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: USA
+  email:
+- name: Abby Mitchell
+  github_username: javabster
+  github_image_id: 23662430
+  title:
+  sort:
+  bio: Senior Developer Advocate @ Meta
+  organization: '@facebook'
+  date_added: '2026-06-15'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter: javabster
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - code-contrib
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location: New York
+  email:
+- name: Amy Heather
+  github_username: amyheather
+  github_image_id: 92166537
+  title:
+  sort:
+  bio: Postdoctoral Research Associate at the University of Exeter
+  organization: University of Exeter
+  date_added: '2026-06-15'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://www.linkedin.com/in/amyheather
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+    - submitting-author
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - lintquarto
+  packages_reviewed:
+  location:
+  email:
+- name: c4dynamics
+  github_username: c4dynamics
+  github_image_id: 65109940
+  title:
+  sort:
+  bio: Dynamic Systems Algorithms
+  organization:
+  date_added: '2026-06-15'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+    - submitting-author
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - c4dynamics
+  packages_reviewed:
+  location: Israel
   email:
