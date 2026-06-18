@@ -6636,8 +6636,8 @@
     - Editor
   sort:
   bio: Doctor in Physical Oceanography. Studying sea ice, ocean stratif,
-      buoyancy fluxes, nonlinear EOS, with numerical modelling (NEMO)
-      and observations.
+      buoyancy fluxes, nonlinear EOS, with numerical modelling (NEMO) and
+      observations.
   organization: Institut des Géosciences de l'Environnement
   date_added: '2024-05-07'
   deia_advisory: false
@@ -6657,6 +6657,7 @@
     - peer-review
     - reviewer
     - submitting-author
+    - web-contrib
   packages_eic:
   packages_editor:
   packages_submitted:
@@ -11659,7 +11660,7 @@
   organization: STScI
   date_added: '2026-06-15'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -11686,7 +11687,7 @@
   organization: '@facebook'
   date_added: '2026-06-15'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -11713,7 +11714,7 @@
   organization: University of Exeter
   date_added: '2026-06-15'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -11743,7 +11744,7 @@
   organization:
   date_added: '2026-06-15'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
