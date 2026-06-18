@@ -33,7 +33,7 @@
 
   <div class="packages-page__controls">
     <div class="container">
-      {{ partial "packages/filters.html" . }}
+      {{ partial "packages/filters.html" (dict "searchPlaceholder" "Search packages...") }}
     </div>
   </div>
 

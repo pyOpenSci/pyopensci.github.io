@@ -1,0 +1,25 @@
+{{/*
+  Filter packages by community partner slug (partners or labels).
+  Returns a slice via return (dict context).
+  Usage: {{ $pkgs := partial "packages/community-filter.html" (dict "community" "astropy" "packages" .Site.Data.packages) }}
+*/}}
+{{- $community := .community -}}
+{{- $packages := .packages | default slice -}}
+{{- $filtered := slice -}}
+{{- range $packages -}}
+  {{- $match := false -}}
+  {{- with .partners -}}
+    {{- if in . $community -}}
+      {{- $match = true -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if and (not $match) .labels -}}
+    {{- if in .labels $community -}}
+      {{- $match = true -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if $match -}}
+    {{- $filtered = $filtered | append . -}}
+  {{- end -}}
+{{- end -}}
+{{- return $filtered -}}

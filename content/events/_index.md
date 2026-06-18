@@ -1,5 +1,7 @@
 ---
 title: Learn, Connect, and Grow with Us
+aliases:
+  - /events.html
 description: >-
   pyOpenSci runs training, sprints, and community events to help you build
   better open source software, code and workflows.

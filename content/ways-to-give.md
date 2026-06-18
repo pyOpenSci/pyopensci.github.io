@@ -2,6 +2,8 @@
 title: "Invest in the Future of Scientific Open Source"
 layout: splash
 url: /ways-to-give/
+aliases:
+  - /ways-to-give.html
 description: >-
   Support pyOpenSci through corporate sponsorship or direct donations — invest
   in the sustainability of the open-source Python ecosystem that drives

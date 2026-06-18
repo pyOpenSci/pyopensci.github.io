@@ -5,6 +5,8 @@ description: >-
   submit a Python package to pyOpenSci for peer review.
 layout: single
 url: /how-to-submit-a-package-to-pyopensci/
+aliases:
+  - /how-to-submit-a-package-to-pyopensci.html
 ---
 
 ## Submit your Python package for review

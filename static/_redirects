@@ -16,8 +16,8 @@
 /python-packages.html /python-packages/ 301
 /events.html /events/ 301
 /get-involved-contact.html /volunteer/ 301
+/communities/astropy.html /packages/astropy/ 301
 /get-started/about-pyopensci / 301
-/contributing-guide/ https://www.pyopensci.org/peer-review-guide/ 301
 /dev_guide/peer_review/coc.html https://www.pyopensci.org/handbook/CODE_OF_CONDUCT.html 301
 /peer-review-guide/about-peer-review/intro.html https://www.pyopensci.org/software-peer-review/about/intro.html 301
 /peer-review-guide/about-peer-review/about-peer-review/aims-and-scope.html https://www.pyopensci.org/software-peer-review/about/package-scope.html 301

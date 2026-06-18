@@ -2,6 +2,9 @@
 title: "Get involved with pyOpenSci"
 layout: splash
 url: /volunteer/
+aliases:
+  - /volunteer.html
+  - /get-involved-contact.html
 description: >-
   Volunteer with pyOpenSci — review packages, contribute on GitHub, write for
   the blog, and join a diverse community supporting scientific open source.

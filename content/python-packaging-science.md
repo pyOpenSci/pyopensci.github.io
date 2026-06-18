@@ -2,6 +2,8 @@
 title: "Python packaging resources for scientists"
 layout: splash
 url: /python-packaging-science/
+aliases:
+  - /python-packaging-science.html
 description: >-
   We make the Python package ecosystem easier to navigate through peer review
   and packaging resources.

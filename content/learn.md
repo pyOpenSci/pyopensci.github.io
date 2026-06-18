@@ -2,6 +2,9 @@
 title: "Python Tutorials & Learning Resources for Scientists"
 layout: splash
 url: /learn/
+aliases:
+  - /learn.html
+  - /tutorials/
 description: >-
   pyOpenSci training resources for scientists — beginner-friendly Python
   packaging tutorials, GitHub collaboration lessons, and expert-led community

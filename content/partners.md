@@ -2,6 +2,8 @@
 title: "pyOpenSci community partners: affiliated package review"
 layout: splash
 url: /partners/
+aliases:
+  - /partners.html
 description: >-
   Domain-specific communities partner with pyOpenSci to leverage our peer review
   process and Python packaging guidelines without building a separate program.

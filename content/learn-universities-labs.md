@@ -2,6 +2,8 @@
 title: "Open source training for universities & research labs"
 layout: splash
 url: /learn-universities-labs/
+aliases:
+  - /learn-universities-labs.html
 description: >-
   pyOpenSci training and accelerator programs for university research
   communities and labs — cohort courses, webinars, and partnership packages.

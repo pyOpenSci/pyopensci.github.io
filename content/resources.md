@@ -2,6 +2,8 @@
 title: "pyOpenSci resources"
 layout: splash
 url: /resources/
+aliases:
+  - /resources.html
 description: >-
   Links to pyOpenSci organization-wide documentation, peer review, and the
   community handbook.

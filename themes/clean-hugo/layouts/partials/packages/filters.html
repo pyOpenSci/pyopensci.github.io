@@ -1,14 +1,15 @@
 {{/*
   Package Filters Partial
   Category filter buttons for package grid
-  Usage: {{ partial "packages/filters.html" . }}
+  Usage: {{ partial "packages/filters.html" (dict "searchPlaceholder" "Search packages...") }}
 */}}
 
+{{ $placeholder := .searchPlaceholder | default "Search packages..." }}
 <div class="packages-filters">
   <input type="text"
          id="quicksearch"
-         placeholder="Search packages..."
-         aria-label="Search packages"
+         placeholder="{{ $placeholder }}"
+         aria-label="{{ $placeholder }}"
          x-model="searchQuery" />
 
   <div>

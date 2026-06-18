@@ -1,0 +1,58 @@
+{{ define "main" }}
+
+{{ $community := .Params.community | default "astropy" }}
+{{ $communityPackages := partial "packages/community-filter.html" (dict
+    "community" $community
+    "packages" .Site.Data.packages
+) }}
+
+{{ partial "section-hero.html" . }}
+
+<div class="packages-page__content">
+  <div class="container">
+    {{ .Content }}
+  </div>
+</div>
+
+{{ if gt (len $communityPackages) 0 }}
+<script>window.pyOpenSciPackages = {{ $communityPackages | jsonify | safeJS }};</script>
+<div x-data="packageFilter()" x-init="initPackages(window.pyOpenSciPackages)">
+
+  <div class="packages-page__controls">
+    <div class="container">
+      {{ partial "packages/filters.html" (dict
+          "searchPlaceholder" (printf "Search %s packages" $community)
+      ) }}
+    </div>
+  </div>
+
+  <section class="packages-page__section">
+    <div class="container">
+      <h2>{{ .Title }} packages accepted by pyOpenSci</h2>
+      {{ partial "packages/grid.html" (dict "activeOnly" true) }}
+    </div>
+  </section>
+
+  <section
+    class="blog-archives packages-page__archives"
+    aria-labelledby="archived-packages-heading"
+  >
+    <div class="container">
+      <div class="intro">
+        <h2 id="archived-packages-heading">Archived packages</h2>
+        <p>
+          Archived packages have successfully completed peer review but are no
+          longer actively maintained.
+        </p>
+      </div>
+      {{ partial "packages/grid.html" (dict "activeOnly" false) }}
+    </div>
+  </section>
+</div>
+{{ else }}
+<div class="packages-page__empty container">
+  <p>No {{ $community }} packages found in <code>data/packages.yml</code>.</p>
+</div>
+{{ end }}
+
+{{ end }}

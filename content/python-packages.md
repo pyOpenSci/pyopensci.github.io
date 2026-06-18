@@ -5,6 +5,8 @@ description: >-
   peer review.
 layout: packages-list
 url: /python-packages/
+aliases:
+  - /python-packages.html
 ---
 
 The Python packages below have been accepted into the pyOpenSci ecosystem through
