@@ -5,11 +5,15 @@
 
 {{- $base := replaceRE "\\.(jpg|jpeg|png|gif)$" "" $src -}}
 {{- $webp := printf "%s.webp" $base -}}
+{{- $webpStatic := printf "static/%s" (strings.TrimPrefix "/" $webp) -}}
+{{- $hasWebp := fileExists $webpStatic -}}
 
 <figure class="figure">
   <a href="{{ $link | relURL }}" class="figure__link">
     <picture class="figure__picture">
+      {{- if $hasWebp -}}
       <source srcset="{{ $webp | relURL }}" type="image/webp">
+      {{- end -}}
       <img src="{{ $src | relURL }}" alt="{{ $alt }}" class="figure__image">
     </picture>
   </a>
