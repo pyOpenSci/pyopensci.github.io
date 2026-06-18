@@ -8,10 +8,10 @@ description: "We support the people, projects, and practices that make scientifi
 hero:
   color: "#33205C"
   buttons:
-    - label: "Learn to Create a Python Package"
+    - label: "Learn to create a Python package"
       url: "/python-package-guide/tutorials/create-python-package.html"
-    - label: "Submit a Package For Review"
-      url: "/how-to-submit-a-package-to-pyopensci/"
+    - label: "Volunteer"
+      url: "/volunteer/"
 training_feature:
   eyebrow: "Training"
   badge: "New cohort coming fall 2026"

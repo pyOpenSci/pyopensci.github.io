@@ -1,5 +1,6 @@
 ---
 title: RSECon talk
+draft: true
 date: '2026-09-02'
 excerpt: >
   Placeholder event to preview the upcoming grid. Replace with venue, title,
