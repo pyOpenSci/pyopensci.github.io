@@ -1,15 +1,55 @@
 <!-- Display a section with impact cards arranged in a grid layout.
  Content grabbed from yaml front matter.
- Optional: cards_layout: wide — wider max-width and 3 columns from $breakpoint-lg up. -->
+ Optional section param: reads {section}_cards (e.g. translation_cards).
+ Optional: cards_layout / {section}_cards_layout: wide.
+ Optional: cards_align / {section}_cards_align: left | center | right (default: center).
+ Shortcode align param overrides page alignment. -->
 
-{{ $wide := eq (lower (default "" .Params.cards_layout)) "wide" }}
-<section class="impact-cards{{ if $wide }} impact-cards--wide{{ end }}">
-  <div class="impact-cards__grid{{ if $wide }} impact-cards__grid--wide{{ end }}">
-    {{ $cards := .Params.cards }}
-    {{ if $cards }}
-      {{ range $i, $c := $cards }}
-        {{ partial "cards.html" (merge $c (dict "page" $)) }}
+{{ $page := . }}
+{{ $section := "" }}
+{{ $align := "" }}
+{{ if and (reflect.IsMap .) (isset . "page") }}
+  {{ $page = .page }}
+  {{ $align = .align | default "" }}
+  {{ $section = .section | default "" }}
+{{ end }}
+
+{{ $cardsKey := "cards" }}
+{{ $alignKey := "cards_align" }}
+{{ $layoutKey := "cards_layout" }}
+{{ if ne $section "" }}
+  {{ $cardsKey = printf "%s_cards" $section }}
+  {{ $alignKey = printf "%s_cards_align" $section }}
+  {{ $layoutKey = printf "%s_cards_layout" $section }}
+{{ end }}
+
+{{ if eq $align "" }}
+  {{ $align = index $page.Params $alignKey | default ($page.Params.cards_align | default "center") }}
+{{ end }}
+{{ $align = lower $align }}
+{{ if not (in (slice "left" "center" "right") $align) }}
+  {{ $align = "center" }}
+{{ end }}
+
+{{ $layout := "" }}
+{{ if ne $section "" }}
+  {{ $layout = index $page.Params $layoutKey | default "" }}
+{{ else }}
+  {{ $layout = index $page.Params "cards_layout" | default "" }}
+{{ end }}
+{{ $layoutLower := lower $layout }}
+{{ $wide := eq $layoutLower "wide" }}
+{{ $five := eq $layoutLower "five" }}
+<section
+  class="impact-cards impact-cards--align-{{ $align }}{{ if $wide }} impact-cards--wide{{ end }}{{ if $five }} impact-cards--five{{ end }}">
+  <div class="impact-cards__container">
+    <div class="impact-cards__grid{{ if $wide }} impact-cards__grid--wide{{ end }}{{ if $five }} impact-cards__grid--five{{ end }}">
+      {{ $cards := index $page.Params $cardsKey }}
+      {{ if $cards }}
+        {{ range $i, $c := $cards }}
+          {{ partial "cards.html" (merge $c (dict "page" $page)) }}
+        {{ end }}
       {{ end }}
-    {{ end }}
+    </div>
   </div>
 </section>

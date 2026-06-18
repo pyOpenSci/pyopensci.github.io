@@ -1,0 +1,135 @@
+/* Dark purple band — “where your work goes” */
+
+.impact-destinations {
+  width: 100%;
+  padding: $fluid-space-2xl $fluid-container-padding;
+  background-color: var(--color-surface-dark-purple-card);
+  color: var(--color-white);
+  box-sizing: border-box;
+
+  &__container {
+    max-width: $container-max-width;
+    margin-inline: auto;
+  }
+
+  &__header {
+    max-width: 42rem;
+    margin-bottom: $fluid-space-lg;
+
+    /* Beat .splash-page__content p { color: gray-700 } */
+    .impact-destinations__eyebrow {
+      margin: 0 0 0.5rem;
+      font-family: $font-family-heading;
+      font-size: 0.8125rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--color-admonition-success);
+    }
+
+    .impact-destinations__subtitle {
+      margin: 0;
+      font-size: 1.0625rem;
+      line-height: 1.6;
+      color: var(--color-white);
+    }
+  }
+
+  &__title {
+    margin: 0 0 0.75rem;
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--color-white);
+  }
+
+  &__grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr;
+
+    @media (min-width: $breakpoint-md) {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    @media (min-width: $breakpoint-lg) {
+      grid-template-columns: repeat(6, minmax(0, 1fr));
+    }
+  }
+
+  &__card {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1.25rem 1.5rem;
+    border-radius: $radius-lg;
+    border: 1px solid color-mix(
+      in srgb,
+      var(--color-brand-medium-purple) 35%,
+      transparent
+    );
+    background-color: var(--color-surface-footer-purple);
+    color: var(--color-white);
+    text-decoration: none;
+    transition: border-color $transition-base ease,
+      transform $transition-base ease;
+
+    @media (min-width: $breakpoint-lg) {
+      grid-column: span 2;
+    }
+
+    &:nth-child(4) {
+      @media (min-width: $breakpoint-lg) {
+        grid-column: 2 / span 2;
+      }
+    }
+
+    &:nth-child(5) {
+      @media (min-width: $breakpoint-lg) {
+        grid-column: 4 / span 2;
+      }
+    }
+
+    &:hover,
+    &:focus-visible {
+      border-color: color-mix(
+        in srgb,
+        var(--color-admonition-success) 55%,
+        transparent
+      );
+      transform: translateY(-2px);
+    }
+
+    /* Beat .splash-page__content p { color: gray-700 } */
+    .impact-destinations__card-text {
+      margin: 0;
+      font-size: 0.9375rem;
+      line-height: 1.5;
+      color: color-mix(in srgb, var(--color-white) 90%, transparent);
+    }
+  }
+
+  &__icon {
+    flex-shrink: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1.25rem;
+    color: var(--color-admonition-success);
+  }
+
+  &__body {
+    min-width: 0;
+  }
+
+  &__card-title {
+    margin: 0 0 0.35rem;
+    font-family: $font-family-heading;
+    font-size: 1.0625rem;
+    font-weight: 700;
+    line-height: 1.3;
+    color: var(--color-white);
+  }
+}

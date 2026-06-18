@@ -14,7 +14,7 @@ header:
 Domain-specific communities can partner with pyOpenSci to leverage both our peer
 review process and development of Python packaging guidelines.
 
-{{< swoosh_section background="purple" swoosh="bottom" >}}
+{{< section_band color="light-purple" divider="bottom" >}}
 
 {{< feature-row layout="right"
     title="Community partnerships streamline peer review & packaging standards"
@@ -42,7 +42,7 @@ Through a single review process, community maintainers:
 * Are supported in maintaining their tools, with input from our diverse, knowledgeable community, including active members from across the Python, Conda, PyPA and broader Python packaging ecosystem
 {{< /feature-row >}}
 
-{{< /swoosh_section >}}
+{{< /section_band >}}
 
 ## Partnering with pyOpenSci increases the visibility of your communities' tools
 
@@ -54,7 +54,7 @@ We will:
 * Provide a feed allowing you to cross-list affiliated packages on your website.
 * Keep in touch with maintainers to ensure packages are actively maintained.
 
-{{< swoosh_section background="purple" swoosh="top" >}}
+{{< section_band color="light-purple" divider="top" >}}
 
 {{< feature-row layout="left"
     title="Help scientists find the Python software tools that they need"
@@ -66,7 +66,7 @@ Our catalog of vetted open source tools makes it easier for scientists to find
 the trusted tools that they need to develop their open science workflows.
 {{< /feature-row >}}
 
-{{< /swoosh_section >}}
+{{< /section_band >}}
 
 ## Leverage our peer review process
 
@@ -81,7 +81,7 @@ developed and well-documented peer review process which includes:
 Learn more about our partnerships
 {{< /button >}}
 
-{{< swoosh_section background="purple" swoosh="top" >}}
+{{< section_band color="light-purple" divider="top" >}}
 
 {{< feature-row layout="left"
     title="Let's make packaging easier for scientists, together"
@@ -102,7 +102,7 @@ across the Python ecosystem. This consistency will lower the barrier of entry fo
 new potential contributors.
 {{< /feature-row >}}
 
-{{< /swoosh_section >}}
+{{< /section_band >}}
 
 {{< feature-row layout="right"
     title="Harness the power of community"

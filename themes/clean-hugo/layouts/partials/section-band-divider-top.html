@@ -1,0 +1,19 @@
+{{/* Curved divider at top of a section band (wave down from previous section). */}}
+{{ $color := .color | default "light-purple" }}
+{{ if eq $color "purple" }}{{ $color = "light-purple" }}{{ end }}
+<div
+  class="section-band__divider section-band__divider--top section-band__divider--{{ $color }}"
+  aria-hidden="true">
+  <svg
+    class="section-band__svg"
+    viewBox="0 0 181 21"
+    xmlns="http://www.w3.org/2000/svg"
+    preserveAspectRatio="none">
+    <path
+      class="section-band__wave section-band__wave--1"
+      d="m14.6 18.5 160 .9 6.4-16.8s-31.8 12.8-59.4 11.3c-22.3-1.2-54.8-9.7-54.8-9.7s-16.4-4.4-28.8 1.2-11.4 14.7-11.4 14.7Z"/>
+    <path
+      class="section-band__wave section-band__wave--2"
+      d="M.1 20.9h180.9V0c-1.2.6-43.5 22.4-73.4 13.7C77.2 6.8 53.3.2 39.6 0 21.4-.2.1 8.5 0 11.9c0 0 .1 9 .1 9Z"/>
+  </svg>
+</div>

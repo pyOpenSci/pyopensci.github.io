@@ -3,7 +3,7 @@
   position: relative;
   padding: $spacing-xl 0;
   margin-bottom: $spacing-lg;
-  background-color: var(--color-primary-dark);
+  background-color: var(--color-surface-dark-purple);
 
   @media (min-width: $breakpoint-md) {
     padding: $spacing-xl 0;
@@ -31,7 +31,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: var(--color-primary-dark);
+    background-color: var(--color-surface-dark-purple);
 
     @media (min-width: $breakpoint-md) {
       min-height: 13rem;

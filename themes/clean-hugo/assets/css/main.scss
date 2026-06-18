@@ -114,6 +114,24 @@ xl: 1280px
     from site configuration (hugo.toml or theme.toml defaults)
   */
 
+  :root {
+    --color-surface-dark-purple: color-mix(
+      in srgb,
+      var(--color-brand-purple) 85%,
+      black
+    );
+    --color-surface-dark-purple-card: color-mix(
+      in srgb,
+      var(--color-brand-purple) 68%,
+      black
+    );
+    --color-surface-footer-purple: color-mix(
+      in srgb,
+      var(--color-brand-purple) 92%,
+      black
+    );
+  }
+
   body {
     font-family: $font-family-body;
     color: var(--color-gray-900);
@@ -276,9 +294,10 @@ xl: 1280px
 @import 'cards';
 @import 'feature-row';
 @import 'intro-section';
+@import 'impact-destinations';
 @import 'training-feature';
 @import 'home-bands';
-@import 'swoosh';
+@import 'section-band';
 @import 'footer';
 @import 'shortcodes';
 @import 'admonition';

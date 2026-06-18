@@ -1,0 +1,173 @@
+/**
+ * Section bands: full-width colored blocks with optional curved SVG dividers.
+ * color param: white | light-purple | soft-purple | green | brand-purple
+ */
+
+.section-band {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  margin: 0 -50vw;
+  padding: 0;
+}
+
+.section-band__content {
+  max-width: $container-max-width;
+  margin-inline: auto;
+  padding: $fluid-space-2xl $fluid-container-padding;
+}
+
+/* Color modifiers — backgrounds and divider wave fills from theme variables */
+.section-band--white {
+  background-color: var(--color-white);
+  --section-band-fill-1: var(--color-white);
+  --section-band-fill-2: var(--color-white);
+}
+
+.section-band--light-purple {
+  background-color: var(--color-light-purple);
+  --section-band-fill-1: var(--color-soft-purple);
+  --section-band-fill-2: var(--color-light-purple);
+}
+
+.section-band--soft-purple {
+  background-color: var(--color-soft-purple);
+  --section-band-fill-1: color-mix(
+    in srgb,
+    var(--color-brand-medium-purple) 65%,
+    var(--color-soft-purple)
+  );
+  --section-band-fill-2: var(--color-soft-purple);
+}
+
+.section-band--green {
+  background-color: var(--color-primary-light);
+  --section-band-fill-1: color-mix(
+    in srgb,
+    var(--color-primary) 40%,
+    var(--color-primary-light)
+  );
+  --section-band-fill-2: var(--color-primary-light);
+}
+
+.section-band--brand-purple {
+  background-color: var(--color-brand-purple);
+  --section-band-fill-1: var(--color-brand-medium-purple);
+  --section-band-fill-2: var(--color-brand-purple);
+}
+
+/* Divider fill when rendered outside the band (top/bottom partials) */
+.section-band__divider--white {
+  --section-band-fill-1: var(--color-white);
+  --section-band-fill-2: var(--color-white);
+}
+
+.section-band__divider--light-purple {
+  --section-band-fill-1: var(--color-soft-purple);
+  --section-band-fill-2: var(--color-light-purple);
+}
+
+.section-band__divider--soft-purple {
+  --section-band-fill-1: color-mix(
+    in srgb,
+    var(--color-brand-medium-purple) 65%,
+    var(--color-soft-purple)
+  );
+  --section-band-fill-2: var(--color-soft-purple);
+}
+
+.section-band__divider--green {
+  --section-band-fill-1: color-mix(
+    in srgb,
+    var(--color-primary) 40%,
+    var(--color-primary-light)
+  );
+  --section-band-fill-2: var(--color-primary-light);
+}
+
+.section-band__divider--brand-purple {
+  --section-band-fill-1: var(--color-brand-medium-purple);
+  --section-band-fill-2: var(--color-brand-purple);
+}
+
+.section-band__divider-wrap {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  margin-inline: -50vw;
+}
+
+.section-band--docs,
+.section-band__divider-wrap--docs {
+  width: 100%;
+  max-width: 100%;
+  inset-inline: auto;
+  margin-inline: 0;
+}
+
+.section-band__divider {
+  position: relative;
+  width: 100%;
+  line-height: 0;
+}
+
+.section-band__divider--bottom {
+  margin-top: 0;
+}
+
+.section-band__divider--top {
+  margin-bottom: 0;
+}
+
+.section-band__svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.section-band__wave--1 {
+  fill: var(--section-band-fill-1);
+  opacity: 0.9;
+}
+
+.section-band__wave--2 {
+  fill: var(--section-band-fill-2);
+}
+
+.section-band__divider--bottom .section-band__svg {
+  vertical-align: bottom;
+}
+
+.section-band__divider--top .section-band__svg {
+  vertical-align: top;
+}
+
+/* Nested shortcodes: stay contained inside the band (no viewport breakout) */
+.section-band__content {
+  > .impact-cards,
+  > .section-heading,
+  > .metrics-bar,
+  > .two-card-row,
+  > .three-card-row,
+  > .single-card-wide {
+    width: 100%;
+    position: static;
+    left: auto;
+    margin-inline: 0;
+  }
+
+  > .impact-cards {
+    padding-top: 0;
+    padding-inline: 0;
+
+    .impact-cards__container {
+      max-width: 100%;
+      padding-inline: 0;
+    }
+  }
+
+  > .section-heading.container {
+    max-width: 100%;
+    padding-inline: 0;
+  }
+}

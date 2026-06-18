@@ -3,9 +3,15 @@
      - Use text_only: true in front matter to render a plain white, non-interactive text card.
      - Otherwise renders the interactive highlight card (supports Font Awesome class strings or raw HTML icons).
      - Optional image (map: src, alt) renders a 16:9 strip at the top; optional event_type shows the same pill as event cards.
+     - Optional label + label_style (accent | team | stipend | default) for a top-right pill.
+     - modifier card--stipend: light green background for stipended roles.
+     - Optional tags (list) for secondary grey pills below the title.
 -->
 
 {{ $icon := .icon }}
+{{ $label := .label }}
+{{ $labelStyle := .label_style | default "default" }}
+{{ $tags := .tags }}
 {{ $textOnly := false }}
 {{ if reflect.IsMap . }}
   {{ if .text_only }}
@@ -47,13 +53,25 @@
     {{ if and $typeLabel (ne $kind "") }}
       <span class="event-card__type event-card__type--{{ $kind }}">{{ $typeLabel }}</span>
     {{ end }}
-    <h3>{{ if and $icon (in (printf "%s" $icon) "fa-") }}
-      <i class="card__icon {{ $icon }}" aria-hidden="true" title="{{ $.title }}"></i>
-    {{ else if and $icon (ne (printf "%s" $icon) "") }}
-      <div class="card__icon">{{ $icon | safeHTML }}</div>
-    {{ end }} {{ .title }}</h3>
+    <div class="card__header">
+      <h3>{{ if and $icon (in (printf "%s" $icon) "fa-") }}
+        <i class="card__icon {{ $icon }}" aria-hidden="true" title="{{ $.title }}"></i>
+      {{ else if and $icon (ne (printf "%s" $icon) "") }}
+        <div class="card__icon">{{ $icon | safeHTML }}</div>
+      {{ end }} {{ .title }}</h3>
+      {{ with $label }}
+        <span class="card__label card__label--{{ $labelStyle | urlize }}">{{ . }}</span>
+      {{ end }}
+    </div>
+    {{ with $tags }}
+      <ul class="card__tags" aria-label="Role details">
+        {{ range . }}
+          <li><span class="card__tag">{{ . }}</span></li>
+        {{ end }}
+      </ul>
+    {{ end }}
     {{ with .excerpt }}
-      <div>{{ . | markdownify }}</div>
+      <div class="card__excerpt">{{ . | markdownify }}</div>
     {{ end }}
   </div>
 

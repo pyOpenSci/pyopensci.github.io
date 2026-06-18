@@ -1,0 +1,21 @@
+{{/*
+  Build a metrics-bar stats slice from a named preset or explicit values.
+  Sets "stats" on the passed scratch map.
+
+  Usage:
+    {{ $scratch := newScratch }}
+    {{ partial "metrics/build-stats.html" (dict
+        "context" .Page
+        "set" "volunteer"
+        "scratch" $scratch
+    ) }}
+    {{ $stats := $scratch.Get "stats" }}
+*/}}
+{{ $set := .set | default "" }}
+{{ if eq $set "volunteer" }}
+  {{ partial "metrics/presets/volunteer.html" . }}
+{{ else if eq $set "packages" }}
+  {{ partial "metrics/presets/packages.html" . }}
+{{ else if .stats }}
+  {{ .scratch.Set "stats" .stats }}
+{{ end }}

@@ -1,0 +1,45 @@
+{{/*
+  Render section band inner content.
+
+  {{< section_band >}} with nested shortcodes only: Hugo pre-renders them to HTML;
+  pass through with safeHTML.
+
+  Unprocessed shortcode markers: RenderString once to execute them.
+
+  Mixed markdown + shortcode HTML (e.g. ways-to-give): split blocks so markdown
+  renders without re-processing HTML into <pre><code> fences.
+
+  {{% section_band %}} — markdown prose only; do not nest {{< shortcodes >}}.
+*/}}
+{{- $inner := replace .inner "\r\n" "\n" -}}
+{{- $page := .page -}}
+{{- $trimmed := trim $inner " \n\r\t" -}}
+{{- $m := "SECTIONBANDSPLIT" -}}
+{{- $hasShortcodes := findRE `\{\{[%<]` $inner -}}
+
+{{- if $hasShortcodes -}}
+  {{ $inner | $page.RenderString }}
+{{- else if hasPrefix $trimmed "<" -}}
+  {{ $inner | safeHTML }}
+{{- else -}}
+  {{- $inner = replaceRE `\n\n+(<(?:div|section|figure|a |article))` "\n\nSECTIONBANDSPLIT$1" $inner -}}
+  {{- $inner = replaceRE `(?s)(</div>)\s*\n\n+(### )` "$1\n\nSECTIONBANDSPLIT$2" $inner -}}
+  {{- $inner = replaceRE `(?s)(</div>)\s*\n\n+(## )` "$1\n\nSECTIONBANDSPLIT$2" $inner -}}
+  {{- $inner = replaceRE `(?s)(</div>)\s*\n\n+(\| )` "$1\n\nSECTIONBANDSPLIT$2" $inner -}}
+  {{- $inner = replaceRE `(?s)(</div>)\s*\n\n+([A-Z][a-z])` "$1\n\nSECTIONBANDSPLIT$2" $inner -}}
+  {{- $inner = replaceRE `(?s)(</section>)\s*\n\n+(### )` "$1\n\nSECTIONBANDSPLIT$2" $inner -}}
+  {{- $inner = replaceRE `(?s)(</section>)\s*\n\n+(## )` "$1\n\nSECTIONBANDSPLIT$2" $inner -}}
+  {{- $inner = replaceRE `(?s)(</a>)\s*\n\n+(### )` "$1\n\nSECTIONBANDSPLIT$2" $inner -}}
+  {{- $inner = replaceRE `(?s)(</a>)\s*\n\n+(## )` "$1\n\nSECTIONBANDSPLIT$2" $inner -}}
+  {{- $inner = replaceRE `(?s)(</a>)\s*\n\n+(\| )` "$1\n\nSECTIONBANDSPLIT$2" $inner -}}
+  {{- $inner = replaceRE `(?s)(</a>)\s*\n\n+([A-Z][a-z])` "$1\n\nSECTIONBANDSPLIT$2" $inner -}}
+  {{- range split $inner $m -}}
+    {{- $block := trim . " \n\r\t" -}}
+    {{- if not $block -}}
+    {{- else if hasPrefix $block "<" -}}
+      {{ $block | safeHTML }}
+    {{- else -}}
+      {{ $block | $page.RenderString }}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}

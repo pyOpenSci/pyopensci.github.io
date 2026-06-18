@@ -1,0 +1,12 @@
+{{/*
+  Python packages catalog metrics — live counts from packages data.
+*/}}
+{{ $ctx := .context }}
+{{ $scratch := .scratch }}
+{{ $pkgStats := partial "calculate-package-stats.html" $ctx }}
+{{ $scratch.Set "stats" (slice
+    (printf "**%d** Packages Accepted" $pkgStats.total)
+    (printf "**%d** Published in JOSS" $pkgStats.joss)
+    (printf "**%d** Currently Active" $pkgStats.active)
+    (printf "**%d** Unique Maintainers" $pkgStats.maintainers)
+) }}

@@ -1,8 +1,22 @@
 /* Impact Cards Section - Hero/splash page cards */
 .impact-cards {
+  padding: $fluid-space-2xl 0;
+}
+
+.impact-cards__container {
   max-width: $container-max-width;
-  margin: 0 auto;
-  padding: $fluid-space-2xl $fluid-container-padding;
+  width: 100%;
+  margin-inline: auto;
+  padding-inline: $fluid-container-padding;
+  box-sizing: border-box;
+}
+
+.impact-cards--align-left .impact-cards__container {
+  margin-inline: 0 auto 0 0;
+}
+
+.impact-cards--align-right .impact-cards__container {
+  margin-inline: 0 0 0 auto;
 }
 
 .impact-cards__grid {
@@ -17,12 +31,41 @@
 
 /* Opt-in from page front matter: cards_layout: wide */
 .impact-cards--wide {
-  max-width: $container-impact-wide;
+  .impact-cards__container {
+    max-width: $container-impact-wide;
+  }
 }
 
 .impact-cards__grid--wide {
   @media (min-width: $breakpoint-lg) {
     grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Opt-in: cards_layout: five — 3 cards, then 2 centered (volunteer peer review) */
+.impact-cards--five {
+  padding-top: 0;
+
+  .impact-cards__container {
+    max-width: $container-impact-wide;
+  }
+}
+
+.impact-cards__grid--five {
+  @media (min-width: $breakpoint-lg) {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+
+    > .card {
+      grid-column: span 2;
+    }
+
+    > .card:nth-child(4) {
+      grid-column: 2 / span 2;
+    }
+
+    > .card:nth-child(5) {
+      grid-column: 4 / span 2;
+    }
   }
 }
 
@@ -59,8 +102,12 @@
   }
 
   .impact-cards {
+    padding-inline: 0;
+  }
+
+  .impact-cards__container {
     max-width: none;
-    margin: 0;
+    margin-inline: 0;
     padding-inline: 0;
   }
 }
@@ -172,6 +219,73 @@
     box-shadow: 0 6px 18px rgba(17,24,39,0.06);
   }
 
+  .card__header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 0.75rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .card__header h3 {
+    flex: 1 1 auto;
+    min-width: 0;
+    margin-bottom: 0;
+  }
+
+  .card__label {
+    flex-shrink: 0;
+    display: inline-flex;
+    align-items: center;
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.3rem 0.65rem;
+    border-radius: $radius-full;
+    line-height: 1.2;
+    white-space: nowrap;
+  }
+
+  .card__label--accent {
+    background-color: var(--color-admonition-success, var(--color-primary));
+    color: var(--color-white);
+  }
+
+  .card__label--team {
+    background-color: var(--color-brand-light-purple);
+    color: var(--color-brand-purple);
+  }
+
+  .card__label--stipend {
+    background-color: var(--color-secondary);
+    color: var(--color-gray-900);
+  }
+
+  .card__label--default {
+    background-color: var(--color-gray-200);
+    color: var(--color-gray-700);
+  }
+
+  .card__tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin: 0 0 1rem;
+    padding: 0;
+    list-style: none;
+  }
+
+  .card__tag {
+    display: inline-flex;
+    align-items: center;
+    font-size: 0.75rem;
+    font-weight: 500;
+    padding: 0.25rem 0.55rem;
+    border-radius: $radius-full;
+    line-height: 1.2;
+    background-color: var(--color-gray-200);
+    color: var(--color-gray-700);
+  }
+
   .card {
     @include card-base();
     @include responsive-padding(1.25rem, 1.25rem, 2.5rem, 2.5rem);
@@ -188,6 +302,7 @@
         font-size: 1.5rem;
       }
     }
+    > div > .card__excerpt,
     > div > h3 + div {
       font-size: $card-text-size;
       line-height: $card-line-height;
@@ -240,6 +355,25 @@
   /* White card variant - plain white background */
   .card--white {
     background-color: var(--color-white);
+  }
+
+  /* Stipended volunteer roles — light green fill (after .card base white) */
+  .card--stipend {
+    border-color: var(--color-admonition-success);
+    background-color: color-mix(
+      in srgb,
+      var(--color-admonition-success) 35%,
+      var(--color-white)
+    );
+  }
+
+  .card--featured {
+    border-color: var(--color-secondary);
+    background-color: color-mix(
+      in srgb,
+      var(--color-secondary) 18%,
+      var(--color-white)
+    );
   }
 
   .card__icon {

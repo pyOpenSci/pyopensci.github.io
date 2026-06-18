@@ -629,16 +629,16 @@ shortcode form (percent signs).
 **Usage:**
 
 ```
-{{</* swoosh_section background="purple" swoosh="bottom" */>}}
+{{</* section_band color="light-purple" divider="bottom" */>}}
 {{</* section-heading title="Inside a swoosh" */>}}
-{{</* /swoosh_section */>}}
+{{</* /section_band */>}}
 ```
 
 **Rendered:**
 
-{{< swoosh_section background="purple" swoosh="bottom" >}}
+{{< section_band color="light-purple" divider="bottom" >}}
 {{< section-heading title="Inside a swoosh section" subtitle="Purple background • optional top or bottom curve" >}}
-{{< /swoosh_section >}}
+{{< /section_band >}}
 
 
 ## Intro section
@@ -839,7 +839,18 @@ hierarchy.
 The `metrics-bar` shortcode renders a row of key statistics with large
 numbers. Use it to highlight impact data.
 
-**Usage:**
+**Named presets** (live data from site YAML):
+
+```
+{{</* metrics-bar set="volunteer" */>}}
+{{</* metrics-bar set="packages" */>}}
+```
+
+Or set `metrics_set: volunteer` in page front matter and call
+`{{</* metrics-bar */>}}`. Presets live in
+`layouts/partials/metrics/presets/`.
+
+**Manual stats** (static or demo content):
 
 ```
 {{</* metrics-bar
@@ -850,7 +861,7 @@ numbers. Use it to highlight impact data.
 */>}}
 ```
 
-**Rendered:**
+**Rendered** (manual example):
 
 {{< metrics-bar
   stat1="**128** blog posts migrated"

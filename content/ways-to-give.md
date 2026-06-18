@@ -24,7 +24,7 @@ an individual funder passionate about open science, we offer clear pathways for
 you to support our mission.
 {{< /feature-row >}}
 
-{{< swoosh_section background="purple" >}}
+{{< section_band color="light-purple" >}}
 
 ## For companies: corporate sponsorship
 
@@ -80,9 +80,9 @@ with different goals. Contact us to design a package that fits your team.
 Inquire to learn more
 {{< /button >}}
 
-{{< /swoosh_section >}}
+{{< /section_band >}}
 
-{{< swoosh_section background="white" >}}
+{{< section_band color="white" >}}
 
 ## For funders & community: direct donations
 
@@ -122,4 +122,4 @@ access to world-class education while sustaining pyOpenSci's mission.
 Donate today
 {{< /button >}}
 
-{{< /swoosh_section >}}
+{{< /section_band >}}
