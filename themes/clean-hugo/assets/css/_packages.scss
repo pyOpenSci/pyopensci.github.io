@@ -99,12 +99,19 @@
   .packages-grid {
     @include responsive-grid($mobile: 1, $tablet: 2, $desktop: 3, $gap: 1.5rem);
     margin-top: 3rem;
+
+    > .package_card {
+      min-width: 0;
+      width: 100%;
+    }
   }
 
   /* Package Card */
   .package_card {
     display: flex;
     flex-direction: column;
+    min-width: 0;
+    width: 100%;
 
     > div {
       border-radius: $radius-md;
@@ -115,6 +122,8 @@
       display: flex;
       flex-direction: column;
       flex: 1;
+      min-width: 0;
+      width: 100%;
       transition: all $transition-base;
       background-color: var(--color-white);
 
@@ -125,10 +134,11 @@
 
       /* Title - Card-specific: smaller than base h3 for card layout */
       > h3 {
-        font-size: 1.25rem;
+        font-size: 1.5rem;
         font-weight: 600;
         margin-bottom: 0.75rem;
         color: var(--color-gray-900);
+        overflow-wrap: anywhere;
       }
 
       /* Meta section (stars, etc) */
@@ -147,7 +157,8 @@
         flex-grow: 1;
         margin-bottom: 1rem;
         color: var(--color-gray-700);
-        line-height: 1.6;
+        line-height: 1.25rem;
+        font-size: 1.05rem;
       }
 
       /* Links */
@@ -160,12 +171,24 @@
         border-top: 1px solid var(--color-gray-200);
 
         li {
-          margin-bottom: 0.5rem;
+          font-size: 1.2rem;
+          line-height: 1.6rem;
+          margin-bottom: 0;
+
+          &.package_card__archived {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--color-gray-700);
+            font-style: italic;
+          }
 
           a {
             display: inline-flex;
             align-items: center;
             gap: 0.5rem;
+            font-size: 1rem;
+            line-height: 1.2rem;
             text-decoration: none;
             color: var(--color-primary-dark);
             transition: color $transition-base ease;
@@ -173,17 +196,16 @@
             &:hover { color: var(--color-link-hover); }
             i { font-size: 0.875rem; }
 
-            /* Partner badge styling */
-            img.partner-badge {
+            img.partner-badge,
+            img.citation-badge {
               height: 1.25rem;
               vertical-align: middle;
-              margin-left: 0.25rem;
             }
           }
         }
       }
 
-      /* Archived badge */
+      /* Archived badge (legacy selector kept for compatibility) */
       .package_card__archived {
         display: inline-flex;
         align-items: center;

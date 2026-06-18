@@ -52,10 +52,24 @@
             </li>
           </template>
 
-          <template x-if="pkg.active === true && pkg.joss">
+          <template x-if="pkg.active === true && packageCitation(pkg)">
             <li>
-              <a :href="pkg.archive" target="_blank">
-                <i class="fas fa-bookmark"></i> JOSS Approved
+              <a
+                :href="packageCitation(pkg).href"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fa-solid fa-bookmark" aria-hidden="true"></i>
+                <img
+                  x-show="packageCitation(pkg).type === 'badge'"
+                  :src="packageCitation(pkg).badgeSrc"
+                  :alt="packageCitation(pkg).badgeAlt"
+                  class="citation-badge"
+                />
+                <span
+                  x-show="packageCitation(pkg).type === 'link'"
+                  x-text="packageCitation(pkg).label"
+                ></span>
               </a>
             </li>
           </template>

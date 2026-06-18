@@ -28,9 +28,7 @@
         {{ with .issue_link }}
           <li><a href="{{ . }}" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-user-pen"></i> View Review</a></li>
         {{ end }}
-        {{ with .joss }}
-          <li><a href="{{ $.archive | default . }}" target="_blank" rel="noopener noreferrer"><i class="fas fa-bookmark"></i> JOSS Approved</a></li>
-        {{ end }}
+        {{ partial "packages/citation-link.html" . }}
       {{ else }}
         <li class="package_card__archived">
           <i class="fa-solid fa-box-archive"></i> Archived

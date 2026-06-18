@@ -1,0 +1,48 @@
+{{/*
+  Package citation link — JOSS / Zenodo badge images (ported from #865).
+  Expects package dict as context (.joss, .archive).
+*/}}
+{{ $joss := .joss }}
+{{ $archive := .archive }}
+HERE
+{{ if and $joss (in $joss "joss.theoj.org") }}
+WRITE HERE THIS SHOULD WORK
+  <li>
+    <a
+      href="{{ replace $joss "joss.theoj.org/papers/" "doi.org/" }}"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <i class="fa-solid fa-bookmark" aria-hidden="true"></i>
+      <img
+        src="{{ $joss }}/status.svg"
+        alt="JOSS DOI"
+        class="citation-badge"
+      />
+    </a>
+  </li>
+{{ else if and $joss (in $joss "zenodo.org/doi/") }}
+  {{ $href := replace $joss "zenodo.org/doi/" "doi.org/" }}
+  {{ $badge := printf "%s.svg" (replace $joss ".org/" ".org/badge/") }}
+  <li>
+    <a href="{{ $href }}" target="_blank" rel="noopener noreferrer">
+      <i class="fa-solid fa-bookmark" aria-hidden="true"></i>
+      <img src="{{ $badge }}" alt="DOI" class="citation-badge" />
+    </a>
+  </li>
+{{ else if and $archive (in $archive "zenodo.org/doi/") }}
+  {{ $href := replace $archive "zenodo.org/doi/" "doi.org/" }}
+  {{ $badge := printf "%s.svg" (replace $archive ".org/" ".org/badge/") }}
+  <li>
+    <a href="{{ $href }}" target="_blank" rel="noopener noreferrer">
+      <i class="fa-solid fa-bookmark" aria-hidden="true"></i>
+      <img src="{{ $badge }}" alt="DOI" class="citation-badge" />
+    </a>
+  </li>
+{{ else if $archive }}
+  <li>
+    <a href="{{ $archive }}" target="_blank" rel="noopener noreferrer">
+      <i class="fa-solid fa-bookmark" aria-hidden="true"></i> View Citation
+    </a>
+  </li>
+{{ end }}

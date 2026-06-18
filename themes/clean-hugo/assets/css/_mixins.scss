@@ -171,14 +171,14 @@
 @mixin responsive-grid($mobile: 1, $tablet: 2, $desktop: 3, $gap: 2rem) {
   display: grid;
   gap: $gap;
-  grid-template-columns: repeat($mobile, 1fr);
+  grid-template-columns: repeat($mobile, minmax(0, 1fr));
 
   @media (min-width: $breakpoint-md) {
-    grid-template-columns: repeat($tablet, 1fr);
+    grid-template-columns: repeat($tablet, minmax(0, 1fr));
   }
 
   @media (min-width: $breakpoint-lg) {
-    grid-template-columns: repeat($desktop, 1fr);
+    grid-template-columns: repeat($desktop, minmax(0, 1fr));
   }
 }
 

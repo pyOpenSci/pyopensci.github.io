@@ -25,11 +25,81 @@ function sortPackagesByAcceptanceDate(packages) {
   );
 }
 
+/**
+ * Citation pill metadata for package cards (ported from #865).
+ * JOSS paper link takes priority, then Zenodo DOI, then generic archive link.
+ */
+function extractJossDoi(jossUrl) {
+  return String(jossUrl)
+    .replace(/^https?:\/\/joss\.theoj\.org\/papers\//, '')
+    .replace(/\/$/, '');
+}
+
+function extractZenodoDoi(url) {
+  const match = String(url).match(/zenodo\.org\/doi\/(.+)$/);
+  return match ? match[1] : null;
+}
+
+function getPackageCitation(pkg) {
+  const joss = pkg?.joss;
+  const archive = pkg?.archive;
+
+  if (joss && String(joss).includes('joss.theoj.org')) {
+    const url = String(joss);
+    return {
+      href: url.replace('joss.theoj.org/papers/', 'doi.org/'),
+      badgeSrc: `${url}/status.svg`,
+      badgeAlt: 'JOSS DOI',
+      type: 'badge',
+    };
+  }
+
+  if (joss && String(joss).includes('zenodo.org/doi/')) {
+    const url = String(joss);
+    return {
+      href: url.replace('zenodo.org/doi/', 'doi.org/'),
+      badgeSrc: `${url.replace('.org/', '.org/badge/')}.svg`,
+      badgeAlt: 'DOI',
+      type: 'badge',
+    };
+  }
+
+  if (archive && String(archive).includes('zenodo.org/doi/')) {
+    const url = String(archive);
+    return {
+      href: url.replace('zenodo.org/doi/', 'doi.org/'),
+      badgeSrc: `${url.replace('.org/', '.org/badge/')}.svg`,
+      badgeAlt: 'DOI',
+      type: 'badge',
+    };
+  }
+
+  if (archive) {
+    return {
+      href: String(archive),
+      label: 'View Citation',
+      type: 'link',
+    };
+  }
+
+  return null;
+}
+
+window.getPackageCitation = getPackageCitation;
+
 document.addEventListener('alpine:init', () => {
   Alpine.data('packageFilter', () => ({
     packages: [],
     searchQuery: '',
     activeFilter: '*',
+
+    citationFor(pkg) {
+      return pkg?.citation || getPackageCitation(pkg);
+    },
+
+    packageCitation(pkg) {
+      return getPackageCitation(pkg);
+    },
 
     initPackages(packageData) {
       if (typeof packageData === 'string') {
@@ -39,7 +109,11 @@ document.addEventListener('alpine:init', () => {
           packageData = [];
         }
       }
-      this.packages = Array.isArray(packageData) ? packageData : [];
+      this.packages = (Array.isArray(packageData) ? packageData : [])
+        .map((pkg) => ({
+          ...pkg,
+          citation: getPackageCitation(pkg),
+        }));
     },
 
     get activePackages() {

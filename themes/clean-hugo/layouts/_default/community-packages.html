@@ -15,7 +15,14 @@
 </div>
 
 {{ if gt (len $communityPackages) 0 }}
-<script>window.pyOpenSciPackages = {{ $communityPackages | jsonify | safeJS }};</script>
+<script>
+window.pyOpenSciPackages = {{ $communityPackages | jsonify | safeJS }};
+if (typeof getPackageCitation === 'function' && Array.isArray(window.pyOpenSciPackages)) {
+  window.pyOpenSciPackages = window.pyOpenSciPackages.map(function (pkg) {
+    return Object.assign({}, pkg, { citation: getPackageCitation(pkg) });
+  });
+}
+</script>
 <div x-data="packageFilter()" x-init="initPackages(window.pyOpenSciPackages)">
 
   <div class="packages-page__controls">
