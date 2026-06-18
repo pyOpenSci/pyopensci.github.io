@@ -23,18 +23,7 @@
       </div>
     {{- end -}}
     <div class="admonition__body">
-      {{- $inner := .Inner -}}
-      {{- $inner = replace $inner "<a href" "\n\n<a href" -}}
-      {{- $inner = replace $inner "<figure" "\n\n<figure" -}}
-      {{- range split $inner "\n\n" -}}
-        {{- $block := trim . " \n\r\t" -}}
-        {{- if not $block -}}
-        {{- else if or (hasPrefix $block "<") (hasPrefix $block "<!--") -}}
-          {{ $block | safeHTML }}
-        {{- else -}}
-          {{ $block | markdownify | safeHTML }}
-        {{- end -}}
-      {{- end -}}
+      {{ .Inner | markdownify }}
     </div>
   </div>
 </div>
