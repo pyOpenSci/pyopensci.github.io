@@ -2,8 +2,6 @@
 title: "pyOpenSci makes Python software better and easier to find through peer review"
 layout: splash
 url: /about-peer-review/
-aliases:
-  - /about-peer-review/index.html
 description: >-
   Our open peer review process makes scientific software better and easier to
   discover.

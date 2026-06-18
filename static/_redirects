@@ -4,6 +4,17 @@
 /feed.xml /blog/index.xml 301
 /tutorials/ /learn/ 301
 /contributors/ /our-community/ 301
+/contributors.html /our-community/ 301
+/ways-to-give.html /ways-to-give/ 301
+/volunteer.html /volunteer/ 301
+/learn.html /learn/ 301
+/learn-universities-labs.html /learn-universities-labs/ 301
+/partners.html /partners/ 301
+/resources.html /resources/ 301
+/python-packaging-science.html /python-packaging-science/ 301
+/how-to-submit-a-package-to-pyopensci.html /how-to-submit-a-package-to-pyopensci/ 301
+/python-packages.html /python-packages/ 301
+/events.html /events/ 301
 /get-involved-contact.html /volunteer/ 301
 /get-started/about-pyopensci / 301
 /contributing-guide/ https://www.pyopensci.org/peer-review-guide/ 301

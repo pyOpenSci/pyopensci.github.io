@@ -5,8 +5,6 @@ description: >-
   better open source software, code and workflows.
 header:
   overlay_image: images/blog/headers/pycon-us-2026-header.png
-aliases:
-  - /events.html
 cards:
   - modifier: "card--white"
     icon: "fa-solid fa-palette"

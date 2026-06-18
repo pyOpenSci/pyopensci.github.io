@@ -5,9 +5,6 @@ description: >-
   around scientific software written in Python.
 layout: people-list
 url: /our-community/
-aliases:
-  - /contributors.html
-  - /our-community/index.html
 ---
 
 ## Our pyOpenSci community
