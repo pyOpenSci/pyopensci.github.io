@@ -23,7 +23,7 @@ cards:
       best practices. Most reviewers complete one or two reviews per year on
       their own schedule.
     url: "https://forms.gle/GHfxvmS47nQFDcBM6"
-    cta: "Sign up to review →"
+    cta: "Sign up to be a reviewer →"
   - modifier: "card--white"
     title: "Editor"
     label: "Async"
@@ -35,7 +35,7 @@ cards:
       Manage 2–3 active reviews — recruit reviewers, keep submissions on track,
       and provide light technical guidance.
     url: "https://docs.google.com/forms/d/e/1FAIpQLScRQHQ7NKVEAG3BKAphiUdVFvQ5nkez0IpyXBMZDzXjuBPloQ/viewform"
-    cta: "Apply to edit →"
+    cta: "Apply to be an editor →"
   - modifier: "card--white"
     title: "Editor in Chief"
     label: "Team role"
@@ -46,8 +46,8 @@ cards:
     excerpt: >-
       Serve as rotating lead for the editorial board — onboard new editors,
       handle escalations, and help shape review policies.
-    url: "https://docs.google.com/forms/d/e/1FAIpQLScRQHQ7NKVEAG3BKAphiUdVFvQ5nkez0IpyXBMZDzXjuBPloQ/viewform"
-    cta: "Express interest →"
+    #url: "https://docs.google.com/forms/d/e/1FAIpQLScRQHQ7NKVEAG3BKAphiUdVFvQ5nkez0IpyXBMZDzXjuBPloQ/viewform"
+    #cta: "Express interest →"
   - modifier: "card--white"
     title: "Peer review triage"
     label: "Async"
@@ -59,7 +59,7 @@ cards:
       Screen new package submissions before they enter the review queue. A good
       entry point if you want editorial experience with a lighter time
       commitment.
-    url: "https://forms.gle/GHfxvmS47nQFDcBM6"
+    #url: "https://forms.gle/GHfxvmS47nQFDcBM6"
     cta: "Sign up for triage →"
   - modifier: "card--stipend"
     title: "Peer review lead"
@@ -72,7 +72,7 @@ cards:
       Coordinate the day-to-day health of the review program — track open
       submissions, support editors, and iterate on process documentation. This
       role carries a stipend.
-    url: "mailto:hello@pyopensci.org"
+    #url: ""
     cta: "Apply for this role →"
 translation_cards_align: center
 translation_cards:
@@ -113,8 +113,8 @@ maintainer_cards:
       Start with triage — labeling issues and reviewing pull requests — then
       grow into CI, deployments, and codebase ownership as you get comfortable.
       All skill levels welcome.
-    url: "https://www.pyopensci.org/handbook/CONTRIBUTING.html"
-    cta: "Become a maintainer →"
+    #url: "https://www.pyopensci.org/handbook/CONTRIBUTING.html"
+    #cta: "Become a maintainer →"
   - modifier: "card--white"
     title: "Website contributor"
     label: "Async"
@@ -125,7 +125,7 @@ maintainer_cards:
     excerpt: >-
       Help keep pyOpenSci.org welcoming and useful — write and edit content,
       improve accessibility, refine our Hugo theme, and polish page layouts.
-    url: "https://github.com/pyOpenSci/pyopensci.github.io"
+    #url: "https://github.com/pyOpenSci/pyopensci.github.io"
     cta: "Support our website →"
 impact_destinations:
   eyebrow: "Your impact"
@@ -182,8 +182,8 @@ of people doing the same.
 {{< section_band color="light-purple" divider="bottom" >}}
 
 {{< section-heading eyebrow="Translation" align="left"
-    title="Make our resources multilingual"
-    subtitle="We're translating the [Python Packaging Guide](https://www.pyopensci.org/python-package-guide/) and other learning content so more scientists can access it in their native language." >}}
+    title="Help break down language barriers"
+    subtitle="Our community is global. Our resources should be too. Translation volunteers make pyOpenSci's guides and tutorials accessible to scientists who don't work primarily in English. Translations for our [Python Packaging Guide](https://www.pyopensci.org/python-package-guide/) are in progress. Add a new language or support building out an existing on." >}}
 
 {{< impact-cards section="translation" >}}
 
