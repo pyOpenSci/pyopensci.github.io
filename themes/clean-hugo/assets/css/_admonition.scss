@@ -46,6 +46,10 @@
     max-width: none;
     line-height: 1.6;
 
+    p {
+      font-size: clamp(0.99rem, 2vw, 1rem);
+    }
+
     .btn {
       margin-top: 0.75rem;
     }
