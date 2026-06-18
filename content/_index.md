@@ -9,7 +9,7 @@ hero:
   color: "#33205C"
   buttons:
     - label: "Learn to create a Python package"
-      url: "/python-package-guide/tutorials/create-python-package.html"
+      url: "https://www.pyopensci.org/python-package-guide/tutorials/create-python-package.html"
     - label: "Volunteer"
       url: "/volunteer/"
 training_feature:
@@ -39,7 +39,7 @@ cards:
       alt: "Illustration for community partnerships — diverse figures collaborating."
     excerpt: |
       pyOpenSci brings together researchers, core Python and conda developers, and data scientists from industry and universities to strengthen scientific open source. We partner with communities to share resources, knowledge, and processes like peer review.
-    url: "/software-peer-review/partners/scientific-communities.html"
+    url: "https://www.pyopensci.org/software-peer-review/partners/scientific-communities.html"
     cta: "Community partnerships →"
   - title: "We break down Python packaging pain points"
     image:
@@ -47,19 +47,19 @@ cards:
       alt: "Python packaging guide graphic with a laptop and hands over keyboard."
     excerpt: |
       Beginner-friendly tutorials and a community **Python packaging guide**, co-developed with the broader Python ecosystem so the material stays accessible at every level.
-    url: "/python-package-guide/"
+    url: "https://www.pyopensci.org/python-package-guide/"
     cta: "Python packaging guide →"
   - modifier: "card--white"
     icon: "fa-solid fa-paper-plane"
     title: "Submit your package"
     excerpt: "Ready for review? Learn what we look for and how to submit your scientific Python package."
-    url: "/software-peer-review/how-to/author-guide.html"
+    url: "https://www.pyopensci.org/software-peer-review/how-to/author-guide.html"
     cta: "Author guide →"
   - modifier: "card--white"
     icon: "fa-solid fa-people-group"
     title: "Become a reviewer"
     excerpt: "Join reviewers who care about usability, docs, and maintainability — mentorship is available for your first review."
-    url: "/software-peer-review/how-to/reviewer-guide.html"
+    url: "https://www.pyopensci.org/software-peer-review/how-to/reviewer-guide.html"
     cta: "Reviewer guide →"
   - modifier: "card--white"
     icon: "fa-solid fa-calendar-days"
@@ -108,7 +108,7 @@ Reviewers do not need to be Python packaging experts. We welcome reviewers who
 focus on software accessibility and usability.
 
 Are you new to peer review? We offer a
-[mentorship program](/software-peer-review/how-to/reviewer-guide.html#a-guide-for-new-reviewers)
+[mentorship program](https://www.pyopensci.org/software-peer-review/how-to/reviewer-guide.html#a-guide-for-new-reviewers)
 for anyone interested in participating in peer review but who might like a bit
 of support.
 {{< /feature-row >}}
