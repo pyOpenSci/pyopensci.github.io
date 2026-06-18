@@ -78,8 +78,7 @@
       if (!url) return 'Page';
       // Normalize once (strip base domain if present)
       const lower = url.toLowerCase();
-      if (lower.includes('python-package-guide/tutorials/')) return 'Tutorial';
-      if (lower.includes('/lessons/')) return 'Tutorial';
+      if (lower.includes('python-package-guide/tutorials/') || lower.includes('/lessons/')) return 'Tutorial';
       if (lower.includes('/python-package-guide/') || lower.includes('/packaging-guide/')) return 'Packaging Guide';
       if (lower.includes('/software-peer-review/')) return 'Peer Review Guide';
       if (lower.includes('/handbook/')) return 'Handbook';
