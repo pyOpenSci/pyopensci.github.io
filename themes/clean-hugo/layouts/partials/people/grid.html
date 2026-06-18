@@ -6,7 +6,9 @@
       <div>
         <template x-if="person.github_image_id">
           <div class="people_card__image">
-            <img :src="`https://avatars1.githubusercontent.com/u/${person.github_image_id}?s=400&v=4`"
+            <img src="https://avatars.githubusercontent.com/u/0?v=4"
+                 alt="Contributor avatar"
+                 :src="`https://avatars1.githubusercontent.com/u/${person.github_image_id}?s=400&v=4`"
                  :alt="`GitHub photo of ${person.name || person.github_username}`">
           </div>
         </template>
