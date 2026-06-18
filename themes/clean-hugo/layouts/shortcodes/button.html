@@ -15,6 +15,9 @@
     - class: Additional CSS classes (optional)
     - target: _blank for external links (optional)
     - rel: Link relationship (optional, defaults to "noopener noreferrer" for target="_blank")
+
+  Output is a single-line anchor so Goldmark does not split the tag when this
+  shortcode is nested inside markdown-processed block shortcodes (e.g. swoosh).
 */}}
 
 {{ $href := .Get "href" | default "#" }}
@@ -45,15 +48,5 @@
   {{ $classes = $classes | append $customClass }}
 {{ end }}
 
-<a href="{{ $href }}"
-   class="{{ delimit $classes " " }}"
-   {{ with $target }}target="{{ . }}"{{ end }}
-   {{ with $rel }}rel="{{ . }}"{{ end }}>
-  {{ if and $icon (eq $iconPosition "left") }}
-    <i class="{{ $iconPrefix }} fa-{{ $icon }}" aria-hidden="true"></i>
-  {{ end }}
-  {{ .Inner }}
-  {{ if and $icon (eq $iconPosition "right") }}
-    <i class="{{ $iconPrefix }} fa-{{ $icon }}" aria-hidden="true"></i>
-  {{ end }}
-</a>
+{{ $label := trim .Inner " \n\r\t" -}}
+<a href="{{ $href }}" class="{{ delimit $classes " " }}"{{ with $target }} target="{{ . }}"{{ end }}{{ with $rel }} rel="{{ . }}"{{ end }}>{{ if and $icon (eq $iconPosition "left") }}<i class="{{ $iconPrefix }} fa-{{ $icon }}" aria-hidden="true"></i>{{ end }}{{ $label }}{{ if and $icon (eq $iconPosition "right") }}<i class="{{ $iconPrefix }} fa-{{ $icon }}" aria-hidden="true"></i>{{ end }}</a>

@@ -74,11 +74,11 @@ with different goals. Contact us to design a package that fits your team.
 | **Momentum driver** | Teams growing their scientific Python footprint | Sustained visibility on the website and in mailings; alignment with webinars and community programs; connection to our cross-disciplinary network |
 | **Foundation builder** | Organizations beginning to invest in open science education | Recognition alongside training and course materials; support for scholarships and learner access; pathway to deeper partnership |
 
-{{< button href="mailto:media@pyopensci.org?subject=pyOpenSci%20corporate%20sponsorship%20inquiry" variant="green" size="lg" >}}
+{{< button href="mailto:media@pyopensci.org?subject=pyOpenSci%20corporate%20sponsorship%20inquiry" variant="dark-purple" size="lg" >}}
 Inquire to learn more
 {{< /button >}}
 
-{{% swoosh_section background="white" %}}
+{{< swoosh_section background="white" >}}
 
 ## For funders & community: direct donations
 
@@ -92,35 +92,30 @@ empowers the individuals and structures propelling open science forward.
 
 ### What your investment enables
 
-<ul class="benefits-list">
-  <li>
-    <i class="fa-solid fa-gears" aria-hidden="true"></i>
-    <strong>Sustaining core operations.</strong>
-    Your funding directly supports our infrastructure, community support, and
-    the leadership required to run our programs.
-  </li>
-  <li>
-    <i class="fa-solid fa-hand-holding-heart" aria-hidden="true"></i>
-    <strong>Rewarding volunteer contributions.</strong>
-    We provide volunteer stipends that keep our vital open-source software peer
-    review running.
-  </li>
-  <li>
-    <i class="fa-solid fa-book-open" aria-hidden="true"></i>
-    <strong>Developing trusted training materials.</strong>
-    We build rigorously reviewed tutorials and training materials that support
-    better software development.
-  </li>
-  <li>
-    <i class="fa-solid fa-universal-access" aria-hidden="true"></i>
-    <strong>Expanding access.</strong>
-    Your donations fund scholarships to our asynchronous courses, expanding
-    access to world-class education while sustaining pyOpenSci's mission.
-  </li>
-</ul>
+{{< two-card-row >}}
+{{< card title="Sustaining core operations" icon="fa-solid fa-gears" >}}
+Your funding directly supports our infrastructure, community support, and
+the leadership required to run our programs.
+{{< /card >}}
 
-{{< button href="https://give.communityin.org/pyopensci_2024" variant="green" size="lg" target="_blank" >}}
+{{< card title="Rewarding volunteer contributions" icon="fa-solid fa-hand-holding-heart" >}}
+We provide volunteer stipends that keep our vital open-source software peer
+review running.
+{{< /card >}}
+
+{{< card title="Developing trusted training materials" icon="fa-solid fa-book-open" >}}
+We build rigorously reviewed tutorials and training materials that support
+better software development.
+{{< /card >}}
+
+{{< card title="Expanding access" icon="fa-solid fa-universal-access" >}}
+Your donations fund scholarships to our asynchronous courses, expanding
+access to world-class education while sustaining pyOpenSci's mission.
+{{< /card >}}
+{{< /two-card-row >}}
+
+{{< button href="https://give.communityin.org/pyopensci_2024" variant="dark-purple" size="lg" target="_blank" >}}
 Donate today
 {{< /button >}}
 
-{{% /swoosh_section %}}
+{{< /swoosh_section >}}

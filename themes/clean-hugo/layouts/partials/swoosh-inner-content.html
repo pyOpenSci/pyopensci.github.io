@@ -1,0 +1,44 @@
+{{/*
+  Render swoosh section inner content without Goldmark breaking shortcode HTML.
+
+  Expects a dict: (dict "inner" .Inner "page" .Page)
+
+  {{< swoosh_section >}} — raw markdown plus rendered shortcode HTML. Markdown
+  is rendered once via Page.RenderString; HTML blocks are left intact.
+
+  {{% swoosh_section %}} — inner is already markdown-rendered HTML; pass through
+  with safeHTML.
+*/}}
+{{- $inner := replace .inner "\r\n" "\n" -}}
+{{- $page := .page -}}
+{{- $trimmed := trim $inner " \n\r\t" -}}
+
+{{- if hasPrefix $trimmed "<" -}}
+  {{ $inner | safeHTML }}
+{{- else -}}
+  {{- $separators := slice "\n\n<div" "\n\n<section" "\n\n<figure" "\n\n<a href" -}}
+  {{- $cut := len $inner -}}
+  {{- $sep := "" -}}
+  {{- range $separators -}}
+    {{- if strings.Contains $inner . -}}
+      {{- $parts := split $inner . -}}
+      {{- $pos := len (index $parts 0) -}}
+      {{- if lt $pos $cut -}}
+        {{- $cut = $pos -}}
+        {{- $sep = . -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if eq $sep "" -}}
+    {{ $inner | $page.RenderString }}
+  {{- else -}}
+    {{- $parts := split $inner $sep -}}
+    {{- $markdown := trim (index $parts 0) " \n\r\t" -}}
+    {{- $html := delimit (after 1 $parts) $sep -}}
+    {{- $html = printf "%s%s" $sep $html -}}
+    {{- with $markdown -}}
+      {{ . | $page.RenderString }}
+    {{- end -}}
+    {{ $html | safeHTML }}
+  {{- end -}}
+{{- end -}}
