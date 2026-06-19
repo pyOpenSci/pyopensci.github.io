@@ -395,6 +395,10 @@
     &.btn {
       padding: 0.625rem 1.25rem;
       font-size: 1rem;
+    }
+
+    /* Default card CTA is outline — white fill reads on tinted card backgrounds */
+    &.btn--outline {
       background-color: var(--color-white);
     }
   }

@@ -1,0 +1,11 @@
+{{/*
+  Get involved — two role cards with section header.
+
+  {{< get-involved >}}
+  {{< get-involved theme="dark" >}}
+*/}}
+{{ partial "get-involved.html" (dict
+    "page" .Page
+    "section" (.Get "section")
+    "theme" (.Get "theme")
+) }}

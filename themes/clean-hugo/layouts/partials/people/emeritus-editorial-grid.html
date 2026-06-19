@@ -1,0 +1,31 @@
+{{/*
+  Emeritus editorial board — name pills.
+  Expects: board (emeritus-editors data), contributors (contributors.yml)
+*/}}
+{{ $board := .board }}
+{{ $contributors := .contributors }}
+{{ $entries := slice }}
+{{ range $username, $roles := $board }}
+  {{ $contrib := partial "people/lookup-contributor.html" (dict
+    "username" $username
+    "contributors" $contributors) }}
+  {{ $name := $username }}
+  {{ with $contrib }}
+    {{ $name = .name | default (printf "@%s" .github_username) }}
+  {{ end }}
+  {{ $entries = $entries | append (dict
+    "username" $username
+    "name" $name) }}
+{{ end }}
+{{ $entries = sort $entries "name" }}
+<ul class="emeritus-editor-pills" aria-label="Emeritus and guest editors">
+  {{ range $entries }}
+    <li>
+      <a class="emeritus-editor-pills__pill"
+         href="https://github.com/{{ .username }}"
+         rel="noopener noreferrer">
+        {{ .name }}
+      </a>
+    </li>
+  {{ end }}
+</ul>

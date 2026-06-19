@@ -9,10 +9,9 @@
 
 This repo contains the source code for the [pyOpenSci.org](https://pyopensci.org) website. Contributions are welcome. Thank you [**pyOpenSci contributors**](#contributors-✨)!!
 
-## Getting Started
+## Get started
 
-Please explore [the site](https://pyopensci.org) and let us know what you think. If you find a bug or have
-a suggestion for a new feature, [open an issue](https://github.com/pyOpenSci/pyopensci.github.io/issues).
+Please explore [the site](https://pyopensci.org). If you find a typo, bug or issue, please [open a GitHub issue](https://github.com/pyOpenSci/pyopensci.github.io/issues).
 
 ## Next Steps
 

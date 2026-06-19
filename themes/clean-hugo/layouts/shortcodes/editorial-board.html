@@ -1,11 +1,20 @@
-{{/* Editorial board grids from data/contributors.yml */}}
-{{ $editorial := where .Site.Data.contributors "editorial_board" true }}
-{{ $emeritus := where .Site.Data.contributors "emeritus_editor" true }}
+{{/* Editorial board: roles from data/*.yml, profiles from contributors.yml
+     Usage:
+       {{< editorial-board >}}                    — active + emeritus
+       {{< editorial-board section="active" >}}   — active board only
+       {{< editorial-board section="emeritus" >}} — emeritus only
+*/}}
+{{ $section := .Get "section" | default "all" }}
+{{ $board := index .Page.Site.Data "editorial-board" }}
+{{ $emeritus := index .Page.Site.Data "emeritus-editors" }}
+{{ $contributors := .Page.Site.Data.contributors | default slice }}
+{{ $showActive := or (eq $section "all") (eq $section "active") }}
+{{ $showEmeritus := or (eq $section "all") (eq $section "emeritus") }}
 
-{{ if $editorial }}
+{{ if and $showActive $board }}
 <section class="people-page__section">
   <div class="container">
-    <h2>Meet our editorial board</h2>
+    <h2 id="meet-our-editorial-board">Meet our editorial board</h2>
     <p>
       The pyOpenSci software peer review process is led by a volunteer team of
       editors from the scientific Python community. Editors do the following
@@ -22,25 +31,21 @@
       <a href="https://www.pyopensci.org/software-peer-review/how-to/editors-guide.html"
          target="_blank" rel="noopener noreferrer">in our peer review guide</a>.
     </p>
-    <div class="people-grid-static">
-      {{ range sort $editorial "sort" }}
-        {{ partial "people/card.html" . }}
-      {{ end }}
-    </div>
+    {{ partial "people/active-editorial-grid.html" (dict
+      "board" $board
+      "contributors" $contributors) }}
   </div>
 </section>
 {{ end }}
 
-{{ if $emeritus }}
+{{ if and $showEmeritus $emeritus }}
 <section class="people-page__section">
   <div class="container">
-    <h2>Emeritus &amp; guest editors</h2>
-    <p>We are deeply grateful for those served on our editorial board previously!</p>
-    <div class="people-grid-static">
-      {{ range sort $emeritus "sort" }}
-        {{ partial "people/card.html" . }}
-      {{ end }}
-    </div>
+    <h2>Emeritus editors</h2>
+    <p>We are deeply grateful for those who served on our editorial board previously.</p>
+    {{ partial "people/emeritus-editorial-grid.html" (dict
+      "board" $emeritus
+      "contributors" $contributors) }}
   </div>
 </section>
 {{ end }}

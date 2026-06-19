@@ -3,7 +3,7 @@
 .impact-destinations {
   width: 100%;
   padding: $fluid-space-2xl $fluid-container-padding;
-  background-color: var(--color-surface-dark-purple-card);
+  background-color: var(--color-deep-purple);
   color: var(--color-white);
   box-sizing: border-box;
 
@@ -24,7 +24,7 @@
       font-weight: 700;
       letter-spacing: 0.12em;
       text-transform: uppercase;
-      color: var(--color-admonition-success);
+      color: var(--color-link-on-dark);
     }
 
     .impact-destinations__subtitle {
@@ -117,7 +117,7 @@
     width: 2.5rem;
     height: 2.5rem;
     font-size: 1.25rem;
-    color: var(--color-admonition-success);
+    color: var(--color-link-on-dark);
   }
 
   &__body {

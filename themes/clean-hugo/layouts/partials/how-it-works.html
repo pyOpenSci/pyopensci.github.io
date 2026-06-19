@@ -1,0 +1,84 @@
+{{/*
+  Dark “how it works” band: eyebrow, title, 3 step cards, wide CTA link.
+  Reads how_it_works from page front matter (or {section}_how_it_works).
+*/}}
+{{ $page := . }}
+{{ $section := "" }}
+{{ if and (reflect.IsMap .) (isset . "page") }}
+  {{ $page = .page }}
+  {{ $section = .section | default "" }}
+{{ end }}
+
+{{ $dataKey := "how_it_works" }}
+{{ if ne $section "" }}
+  {{ $dataKey = printf "%s_how_it_works" $section }}
+{{ end }}
+
+{{ $data := index $page.Params $dataKey }}
+{{ $theme := .theme | default ($data.theme | default "dark") }}
+{{ if $data }}
+<section class="how-it-works{{ if eq $theme "light" }} how-it-works--light{{ end }}"
+         aria-labelledby="how-it-works-title">
+  <div class="how-it-works__container">
+    <header class="how-it-works__header">
+      {{ with $data.eyebrow }}
+      <p class="how-it-works__eyebrow">{{ . }}</p>
+      {{ end }}
+      {{ with $data.title }}
+      <h2 id="how-it-works-title" class="how-it-works__title">{{ . }}</h2>
+      {{ end }}
+      {{ with $data.subtitle }}
+      <p class="how-it-works__subtitle">{{ . | markdownify }}</p>
+      {{ end }}
+    </header>
+
+    {{ with $data.steps }}
+    <div class="how-it-works__steps">
+      {{ range . }}
+      <article class="how-it-works__step">
+        {{ with .label }}
+        <p class="how-it-works__step-label">{{ . }}</p>
+        {{ end }}
+        {{ with .title }}
+        <h3 class="how-it-works__step-title">{{ . }}</h3>
+        {{ end }}
+        {{ with .text }}
+        <p class="how-it-works__step-text">{{ . }}</p>
+        {{ end }}
+      </article>
+      {{ end }}
+    </div>
+    {{ end }}
+
+    {{ with $data.cta }}
+      {{ if and .url (ne (printf "%s" .url) "") }}
+        {{ $target := .target | default "" }}
+        {{ if and (eq $target "") (hasPrefix .url "http") }}
+          {{ $target = "_blank" }}
+        {{ end }}
+    <a class="how-it-works__cta"
+       href="{{ .url }}"
+       {{ with $target }}target="{{ . }}"{{ end }}
+       {{ if eq $target "_blank" }}rel="noopener noreferrer"{{ end }}>
+      {{ with .icon }}
+      <span class="how-it-works__cta-icon" aria-hidden="true">
+        <i class="{{ . }}"></i>
+      </span>
+      {{ end }}
+      <span class="how-it-works__cta-body">
+        {{ with .title }}
+        <span class="how-it-works__cta-title">{{ . }}</span>
+        {{ end }}
+        {{ with .text }}
+        <span class="how-it-works__cta-text">{{ . }}</span>
+        {{ end }}
+      </span>
+      <span class="how-it-works__cta-arrow" aria-hidden="true">
+        <i class="fa-solid fa-arrow-right"></i>
+      </span>
+    </a>
+      {{ end }}
+    {{ end }}
+  </div>
+</section>
+{{ end }}

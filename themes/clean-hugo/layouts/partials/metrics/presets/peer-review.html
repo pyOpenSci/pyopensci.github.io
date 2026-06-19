@@ -1,0 +1,11 @@
+{{/*
+  Peer review landing page metrics — live counts from site data.
+*/}}
+{{ $ctx := .context }}
+{{ $scratch := .scratch }}
+{{ $stats := partial "calculate-peer-review-stats.html" $ctx }}
+{{ $scratch.Set "stats" (slice
+    (printf "**%d** packages accepted" $stats.packages_accepted)
+    (printf "**%d** reviewers" $stats.reviewers)
+    (printf "**%d** maintainers" $stats.maintainers)
+) }}

@@ -1,0 +1,48 @@
+{{/*
+  Get involved — eyebrow, title, two role cards (impact card grid).
+  Reads get_involved from page front matter (or {section}_get_involved).
+*/}}
+{{ $page := . }}
+{{ $section := "" }}
+{{ if and (reflect.IsMap .) (isset . "page") }}
+  {{ $page = .page }}
+  {{ $section = .section | default "" }}
+{{ end }}
+
+{{ $dataKey := "get_involved" }}
+{{ if ne $section "" }}
+  {{ $dataKey = printf "%s_get_involved" $section }}
+{{ end }}
+
+{{ $data := index $page.Params $dataKey }}
+{{ $theme := .theme | default ($data.theme | default "light") }}
+{{ if $data }}
+<section class="get-involved{{ if eq $theme "dark" }} get-involved--dark{{ end }}"
+         aria-labelledby="get-involved-title">
+  <div class="get-involved__container">
+    <header class="get-involved__header">
+      {{ with $data.eyebrow }}
+      <p class="get-involved__eyebrow">{{ . }}</p>
+      {{ end }}
+      {{ with $data.title }}
+      <h2 id="get-involved-title" class="get-involved__title">{{ . }}</h2>
+      {{ end }}
+      {{ with $data.subtitle }}
+      <p class="get-involved__subtitle">{{ . | markdownify }}</p>
+      {{ end }}
+    </header>
+
+    {{ with $data.cards }}
+    <div class="impact-cards get-involved__cards">
+      <div class="impact-cards__container">
+        <div class="impact-cards__grid">
+          {{ range . }}
+            {{ partial "cards.html" (merge . (dict "page" $page)) }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

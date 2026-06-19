@@ -299,7 +299,7 @@
 .blog-highlight {
   width: 100%;
   padding: $spacing-section-lg 0 6rem;
-  background-color: var(--color-gray-900);
+  background-color: var(--color-deep-purple);
 
   .container {
     @include container($container-max-width, 1.5rem, 2rem);
@@ -341,6 +341,12 @@
 
   &__actions {
     margin-top: 2.5rem;
+  }
+
+  /* Cards still use listing-card--on-dark; match section band until card tokens land */
+  .listing-card--on-dark {
+    background-color: var(--color-deep-purple);
+    border-color: color-mix(in srgb, var(--color-white) 18%, transparent);
   }
 }
 

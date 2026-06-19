@@ -1,0 +1,12 @@
+{{/*
+  How it works band — front matter how_it_works or section param.
+
+  {{< how-it-works >}}
+  {{< how-it-works theme="light" >}}
+  {{< how-it-works section="peer_review" >}}
+*/}}
+{{ partial "how-it-works.html" (dict
+    "page" .Page
+    "section" (.Get "section")
+    "theme" (.Get "theme")
+) }}
