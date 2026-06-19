@@ -1,17 +1,9 @@
-{{/* Editorial board: roles from data/*.yml, profiles from contributors.yml
-     Usage:
-       {{< editorial-board >}}                    — active + emeritus
-       {{< editorial-board section="active" >}}   — active board only
-       {{< editorial-board section="emeritus" >}} — emeritus only
-*/}}
-{{ $section := .Get "section" | default "all" }}
+{{/* Editorial board: roles from data/*.yml, profiles from contributors.yml */}}
 {{ $board := index .Page.Site.Data "editorial-board" }}
 {{ $emeritus := index .Page.Site.Data "emeritus-editors" }}
 {{ $contributors := .Page.Site.Data.contributors | default slice }}
-{{ $showActive := or (eq $section "all") (eq $section "active") }}
-{{ $showEmeritus := or (eq $section "all") (eq $section "emeritus") }}
 
-{{ if and $showActive $board }}
+{{ if $board }}
 <section class="people-page__section">
   <div class="container">
     <h2 id="meet-our-editorial-board">Meet our editorial board</h2>
@@ -38,11 +30,11 @@
 </section>
 {{ end }}
 
-{{ if and $showEmeritus $emeritus }}
+{{ if $emeritus }}
 <section class="people-page__section">
   <div class="container">
-    <h2>Emeritus editors</h2>
-    <p>We are deeply grateful for those who served on our editorial board previously.</p>
+    <h2>Emeritus &amp; guest editors</h2>
+    <p>We are deeply grateful for those served on our editorial board previously!</p>
     {{ partial "people/emeritus-editorial-grid.html" (dict
       "board" $emeritus
       "contributors" $contributors) }}
