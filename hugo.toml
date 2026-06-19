@@ -106,6 +106,7 @@ buildFuture = true
     featureCard = '#EBC1D3'
     'heroBg' = '#33205C'
     brandPurple = '#33205C'
+    deepPurple = '#19112D'
     brandPurpleDark = '#542668'
     brandPurpleMedium = '#735FAB'
     brandSoftPurple = '#BAB3D4'

@@ -34,7 +34,11 @@ min_version = "0.118.2"
   gray200 = "#E5E7EB"
   gray600 = "#4B5563"
   gray700 = "#374151"
-  gray900 = "#111827" # Used for dark background for blog highlights
+  gray900 = "#111827"
+
+  # Dark band backgrounds (home blog highlight, volunteer impact section)
+  # this is our brand purple with black mixed in
+  deepPurple = "#19112D"
 
   # Semantic colors
   link = "#2E6060"
