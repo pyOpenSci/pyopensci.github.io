@@ -207,13 +207,11 @@ of people doing the same.
 {{< impact-cards >}}
 
 
-
-
 {{< section_band color="light-purple" divider="bottom" >}}
 
 {{< section-heading eyebrow="Translation" align="left"
     title="Help break down language barriers"
-    subtitle="Our community is global. Our resources should be too. Translation volunteers make pyOpenSci's guides and tutorials accessible to scientists who don't work primarily in English. Translations for our [Python Packaging Guide](https://www.pyopensci.org/python-package-guide/) are in progress — add a new language or help build out an existing translation." />}}
+    subtitle="Our community is global. Our resources should be too. Translating our education resources to other languages helps make our free online learning content accessible to everyone, everywhere. As a translation volunteer, you will make pyOpenSci's guides and tutorials accessible to scientists who don't work primarily in English. Translation efforts for our [Python Packaging Guide](https://www.pyopensci.org/python-package-guide/) are in progress. Add a new language or help build out an existing translation. Or help us build infrastructure to add translation support to our website. " />}}
 
 {{< impact-cards section="translation" >}}
 
@@ -224,8 +222,6 @@ of people doing the same.
     subtitle="Our maintainer team keeps the website, guides, and tooling running. Roles follow a triage → merge → issue ownership progression. [Read the contributor handbook →](https://www.pyopensci.org/handbook/CONTRIBUTING.html)" />}}
 
 {{< impact-cards section="maintainer" >}}
-
-
 
 
 {{< metrics-bar >}}
