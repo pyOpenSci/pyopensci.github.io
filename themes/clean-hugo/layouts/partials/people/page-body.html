@@ -39,19 +39,6 @@
     </section>
   {{ end }}
 
-  {{ $editorial := where .Site.Data.contributors "editorial_board" true }}
-  {{ if $editorial }}
-    <section class="people-page__section">
-      <div class="container">
-        <h2>Editorial Board</h2>
-        <div class="people-grid-static">
-          {{ range sort $editorial "sort" }}
-            {{ partial "people/card.html" . }}
-          {{ end }}
-        </div>
-      </div>
-    </section>
-  {{ end }}
 
   {{ $totalPeople := len .Site.Data.contributors }}
   <section class="people-page__section">

@@ -1,0 +1,53 @@
+{{/*
+  Active editorial board grid.
+  Expects: board (editorial-board data), contributors (contributors.yml)
+*/}}
+{{ $board := .board }}
+{{ $contributors := .contributors }}
+{{ $entries := slice }}
+{{ range $username, $roles := $board }}
+  {{ $contrib := partial "people/lookup-contributor.html" (dict
+    "username" $username
+    "contributors" $contributors) }}
+  {{ $tier := 2 }}
+  {{ if $roles.peer_review_lead }}
+    {{ $tier = 0 }}
+  {{ else if $roles.eic_team }}
+    {{ $tier = 1 }}
+  {{ end }}
+  {{ $sort := 99 }}
+  {{ with $contrib }}
+    {{ $sort = .sort | default 99 }}
+  {{ end }}
+  {{ $entries = $entries | append (dict
+    "username" $username
+    "contrib" $contrib
+    "roles" $roles
+    "tier" $tier
+    "sort" $sort) }}
+{{ end }}
+{{ $entries = sort $entries "sort" "asc" }}
+{{ $entries = sort $entries "tier" "asc" }}
+<div class="people-grid-static">
+  {{ range $entries }}
+    {{ $title := partial "people/editorial-role-title.html" (dict
+      "roles" .roles
+      "board" "active") }}
+    {{ with .contrib }}
+      {{ partial "people/card.html" (merge . (dict "title" $title)) }}
+    {{ else }}
+      <div class="people_card people_card--missing">
+        <div class="people_card__content">
+          <h3>
+            <a href="https://github.com/{{ .username }}" rel="noopener noreferrer">
+              @{{ .username }}
+            </a>
+          </h3>
+          <p class="people_card__title">
+            Profile missing from contributors.yml
+          </p>
+        </div>
+      </div>
+    {{ end }}
+  {{ end }}
+</div>

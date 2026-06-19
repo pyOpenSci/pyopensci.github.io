@@ -1,0 +1,38 @@
+{{/*
+  Build display title(s) from editorial-board / emeritus-editors role flags.
+  Usage:
+    {{ partial "people/editorial-role-title.html" (dict
+      "roles" $roles
+      "board" "active") }}
+  board: "active" | "emeritus"
+*/}}
+{{ $roles := .roles }}
+{{ $titles := slice }}
+{{ if eq .board "active" }}
+  {{ if $roles.peer_review_lead }}
+    {{ $titles = $titles | append "Peer Review Lead" }}
+  {{ end }}
+  {{ if $roles.eic_team }}
+    {{ $titles = $titles | append "Editor in Chief" }}
+  {{ end }}
+  {{ if $roles.emeritus_peer_review_lead }}
+    {{ $titles = $titles | append "Emeritus Peer Review Lead" }}
+  {{ end }}
+  {{ if $roles.emeritus_eic }}
+    {{ $titles = $titles | append "Emeritus Editor in Chief" }}
+  {{ end }}
+  {{ if eq (len $titles) 0 }}
+    {{ $titles = $titles | append "Editor" }}
+  {{ end }}
+{{ else }}
+  {{ if $roles.emeritus_peer_review_lead }}
+    {{ $titles = $titles | append "Emeritus Peer Review Lead" }}
+  {{ end }}
+  {{ if $roles.emeritus_eic }}
+    {{ $titles = $titles | append "Emeritus Editor in Chief" }}
+  {{ end }}
+  {{ if eq (len $titles) 0 }}
+    {{ $titles = $titles | append "Emeritus Editor" }}
+  {{ end }}
+{{ end }}
+{{ return $titles }}

@@ -1,0 +1,15 @@
+{{/*
+  Case-insensitive contributor lookup by GitHub username.
+  Usage:
+    {{ partial "people/lookup-contributor.html" (dict
+      "username" "eliotwrobson"
+      "contributors" .Site.Data.contributors) }}
+*/}}
+{{ $username := lower .username }}
+{{ $found := dict }}
+{{ range .contributors }}
+  {{ if eq (lower .github_username) $username }}
+    {{ $found = . }}
+  {{ end }}
+{{ end }}
+{{ return $found }}
