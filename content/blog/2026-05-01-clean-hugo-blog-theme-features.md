@@ -637,7 +637,7 @@ shortcode form (percent signs).
 **Rendered:**
 
 {{< section_band color="light-purple" divider="bottom" >}}
-{{< section-heading title="Inside a swoosh section" subtitle="Purple background • optional top or bottom curve" >}}
+{{< section-heading title="Inside a swoosh section" subtitle="Purple background • optional top or bottom curve" />}}
 {{< /section_band >}}
 
 
@@ -831,7 +831,7 @@ hierarchy.
 {{< section-heading
   title="Section heading example"
   subtitle="Optional subtitle text • Can use • separators"
->}}
+/>}}
 
 
 ## Metrics bar

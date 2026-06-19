@@ -31,7 +31,7 @@
       {{ end }}
       {{ with .url }}
         <div>
-          <a class="card__cta" href="{{ . }}">{{ $.cta | default "Learn more →" }}</a>
+          {{ partial "card-cta.html" (dict "url" . "cta" $.cta) }}
         </div>
       {{ end }}
     </div>
@@ -76,7 +76,7 @@
   </div>
 
   {{ with .url }}
-    <a class="card__cta" href="{{ . }}">{{ $.cta | default "Learn more →" }}</a>
+    {{ partial "card-cta.html" (dict "url" . "cta" $.cta) }}
   {{ end }}
 </article>
 {{ end }}

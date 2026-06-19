@@ -2,6 +2,7 @@
  Content grabbed from yaml front matter.
  Optional section param: reads {section}_cards (e.g. translation_cards).
  Optional: cards_layout / {section}_cards_layout: wide.
+ Optional: cards_padding / {section}_cards_padding: compact.
  Optional: cards_align / {section}_cards_align: left | center | right (default: center).
  Shortcode align param overrides page alignment. -->
 
@@ -17,10 +18,12 @@
 {{ $cardsKey := "cards" }}
 {{ $alignKey := "cards_align" }}
 {{ $layoutKey := "cards_layout" }}
+{{ $paddingKey := "cards_padding" }}
 {{ if ne $section "" }}
   {{ $cardsKey = printf "%s_cards" $section }}
   {{ $alignKey = printf "%s_cards_align" $section }}
   {{ $layoutKey = printf "%s_cards_layout" $section }}
+  {{ $paddingKey = printf "%s_cards_padding" $section }}
 {{ end }}
 
 {{ if eq $align "" }}
@@ -40,8 +43,17 @@
 {{ $layoutLower := lower $layout }}
 {{ $wide := eq $layoutLower "wide" }}
 {{ $five := eq $layoutLower "five" }}
+
+{{ $padding := "" }}
+{{ if ne $section "" }}
+  {{ $padding = index $page.Params $paddingKey | default "" }}
+{{ else }}
+  {{ $padding = index $page.Params "cards_padding" | default "" }}
+{{ end }}
+{{ $compact := eq (lower $padding) "compact" }}
+
 <section
-  class="impact-cards impact-cards--align-{{ $align }}{{ if $wide }} impact-cards--wide{{ end }}{{ if $five }} impact-cards--five{{ end }}">
+  class="impact-cards impact-cards--align-{{ $align }}{{ if $wide }} impact-cards--wide{{ end }}{{ if $five }} impact-cards--five{{ end }}{{ if $compact }} impact-cards--compact{{ end }}">
   <div class="impact-cards__container">
     <div class="impact-cards__grid{{ if $wide }} impact-cards__grid--wide{{ end }}{{ if $five }} impact-cards__grid--five{{ end }}">
       {{ $cards := index $page.Params $cardsKey }}
