@@ -13,29 +13,37 @@ cards_layout: five
 cards_padding: compact
 cards:
   - modifier: "card--white"
-    title: "Become a Reviewer"
+    title: "Become a reviewer"
     label: "Async"
     label_style: "accent"
     tags:
       - "Technical review"
-      - "~5–10 hrs / review"
+      - "~3–10 hrs / review"
     excerpt: >-
       As a reviewer, you'll either volunteer when a package request is posted in our Slack
       or be invited based on your domain expertise or packaging experience. Newer reviewers
       often focus on domain application and package usability, while experienced reviewers
       may dig deeper into packaging best practices. Most reviewers complete one or two
-      reviews per year, with each review taking roughly 3–10 hours depending on the package's complexity. Reviewers also receive mentorship from more experienced reviewers to help them through the process.
+      reviews per year, with each review taking roughly 3–10 hours depending on
+      the package's complexity. Reviewers also receive mentorship from more
+      experienced reviewers to help them through the process.
     url: "https://forms.gle/GHfxvmS47nQFDcBM6"
     cta: "Apply to be a reviewer"
   - modifier: "card--white"
-    title: "Apply to be an Editor"
+    title: "Become an editor"
     label: "Async"
     label_style: "accent"
     tags:
       - "Editorial oversight"
       - "~3–5 hrs / month"
     excerpt: >-
-      As an editor, you'll lead and guide the review process end-to-end — finding and onboarding reviewers who match the package's domain, keeping the review on track, and ensuring reviewers and maintainers meet deadlines. Editors typically lead 2–4 reviews per year, with each active review requiring roughly 1–3 hours per week and quieter periods in between. It's a great opportunity to grow project management skills while supporting open science.
+      As an editor, you'll lead and guide the review process end-to-end —
+      finding and onboarding reviewers who match the package's domain, keeping
+      the review on track, and ensuring reviewers and maintainers meet
+      deadlines. Editors typically lead 2–4 reviews per year, with each active
+      review requiring roughly 1–3 hours per week and quieter periods in
+      between. It's a great opportunity to grow project management skills while
+      supporting open science.
     url: "https://forms.gle/XeWcutoLzr54oDv27"
     cta: "Apply to be an editor"
   - modifier: "card--white"
@@ -43,38 +51,60 @@ cards:
     label: "Async"
     label_style: "accent"
     tags:
-      - "Intake & routing"
-      - "~2–4 hrs / month"
+      - "Data & metadata"
+      - "~1–4 hrs / month"
     excerpt: >-
-      As a triage team member, you'll help keep pyOpenSci's review data accurate and complete — checking that GitHub issues have the right metadata, filling in missing fields like acceptance dates and JOSS DOIs, and ensuring our data pipelines stay healthy. This work directly supports the accuracy of our package listings and what appears on partner sites like the Astropy website. It's a flexible, self-paced role requiring roughly 1–4 hours per month and a great entry point if you want to get involved in the editorial process without a heavy time commitment.
+      As a triage team member, you'll help keep pyOpenSci's review data accurate
+      and complete — checking that GitHub issues have the right metadata,
+      filling in missing fields like acceptance dates and JOSS DOIs, and
+      ensuring our data pipelines stay healthy. This work directly supports the
+      accuracy of our package listings and what appears on partner sites like
+      the Astropy website. It's a flexible, self-paced role requiring roughly
+      1–4 hours per month and a great entry point if you want editorial
+      experience without a heavy time commitment.
     url: "https://forms.gle/XeWcutoLzr54oDv27"
     cta: "Apply to join our triage team"
   - modifier: "card--white"
-    title: "Join our Editor in Chief Team"
+    title: "Join our editor-in-chief team"
     label: "Team role"
     label_style: "team"
     tags:
       - "Leadership"
       - "6–12 month rotation"
     excerpt: >-
-      As an Editor-in-Chief (EiC), you'll be part of a rotating team of 2–4 people who lead the editorial process. EiCs welcome new package submissions on GitHub, evaluate whether a package falls within pyOpenSci's scope, and assign editors to move accepted submissions forward. You'll also field pre-submission inquiries from authors exploring whether their package is a good fit before committing to a full review. This is a hands-on leadership role at the heart of how pyOpenSci maintains quality and community standards. This role typically carries 2-4 hours per week depending on the number of packages that are being submitted.
+      As an Editor-in-Chief (EiC), you'll be part of a rotating team of 2–4
+      people who lead the editorial process. EiCs welcome new package
+      submissions on GitHub, evaluate whether a package falls within pyOpenSci's
+      scope, and assign editors to move accepted submissions forward. You'll
+      also field pre-submission inquiries from authors exploring whether their
+      package is a good fit before committing to a full review. This hands-on
+      leadership role sits at the heart of how pyOpenSci maintains quality and
+      community standards, typically requiring 2–4 hours per week depending on
+      submission volume.
     url: "https://forms.gle/XeWcutoLzr54oDv27"
     cta: "Express interest"
   - modifier: "card--stipend"
-    title: "Become a Peer review lead"
+    title: "Become a peer review lead"
     label: "Stipend"
     label_style: "stipend"
     tags:
       - "Program coordination"
       - "Part-time"
     excerpt: >-
-      As Peer Review Lead, you'll coordinate the entire peer review program — onboarding new editors, working with the Executive Director to update policies, streamline processes, and ensure reviews move forward consistently and efficiently. This is a leadership role at the center of how pyOpenSci's review program runs, typically requiring a few hours per week. Some project management experience is helpful, and the role comes with a stipend every six months in recognition of the commitment it requires.
-    url: "https://forms.gle/XeWcutoLzr54oDv27   "
+      As peer review lead, you'll coordinate the entire peer review program —
+      onboarding new editors, working with the Executive Director to update
+      policies, streamline processes, and ensure reviews move forward
+      consistently and efficiently. This leadership role sits at the center of
+      how pyOpenSci's review program runs, typically requiring a few hours per
+      week. Some project management experience is helpful, and the role comes
+      with a stipend every six months in recognition of the commitment it
+      requires.
+    url: "https://forms.gle/XeWcutoLzr54oDv27"
     cta: "Express interest"
 translation_cards_align: center
 translation_cards:
   - modifier: "card--white"
-    title: "Translation Lead"
+    title: "Translation lead"
     label: "Coordination"
     label_style: "team"
     tags:
@@ -83,10 +113,10 @@ translation_cards:
     excerpt: >-
       Own a language track — coordinate contributors, manage review cycles, and
       keep translations consistent with source updates.
-    url: "mailto:hello@pyopensci.org"
-    cta: "Apply to lead"
+    #url: "mailto:hello@pyopensci.org"
+    #cta: "Apply to lead"
   - modifier: "card--white"
-    title: "Translation Contributor"
+    title: "Translation contributor"
     label: "Async"
     label_style: "accent"
     tags:
@@ -95,8 +125,8 @@ translation_cards:
     excerpt: >-
       Translate or review content for a language you know well. Contribute as
       much or as little as your schedule allows.
-    url: "https://forms.gle/GHfxvmS47nQFDcBM6"
-    cta: "Sign up to translate"
+    #url: "https://forms.gle/GHfxvmS47nQFDcBM6"
+    #cta: "Sign up to translate"
 maintainer_cards_align: left
 maintainer_cards:
   - modifier: "card--white"
@@ -111,7 +141,7 @@ maintainer_cards:
       grow into CI, deployments, and codebase ownership as you get comfortable.
       All skill levels welcome.
     #url: "https://www.pyopensci.org/handbook/CONTRIBUTING.html"
-    #cta: "Become a maintainer →"
+    #cta: "Become a maintainer"
   - modifier: "card--white"
     title: "Website contributor"
     label: "Async"
@@ -183,13 +213,13 @@ of people doing the same.
 
 {{< section-heading eyebrow="Translation" align="left"
     title="Help break down language barriers"
-    subtitle="Our community is global. Our resources should be too. Translation volunteers make pyOpenSci's guides and tutorials accessible to scientists who don't work primarily in English. Translations for our [Python Packaging Guide](https://www.pyopensci.org/python-package-guide/) are in progress. Add a new language or support building out an existing on." />}}
+    subtitle="Our community is global. Our resources should be too. Translation volunteers make pyOpenSci's guides and tutorials accessible to scientists who don't work primarily in English. Translations for our [Python Packaging Guide](https://www.pyopensci.org/python-package-guide/) are in progress — add a new language or help build out an existing translation." />}}
 
 {{< impact-cards section="translation" >}}
 
 {{< /section_band >}}
 
-{{< section-heading eyebrow="pyOpenSci Maintainer Team" align="left"
+{{< section-heading eyebrow="Maintainer team" align="left"
     title="Help build and maintain our infrastructure"
     subtitle="Our maintainer team keeps the website, guides, and tooling running. Roles follow a triage → merge → issue ownership progression. [Read the contributor handbook →](https://www.pyopensci.org/handbook/CONTRIBUTING.html)" />}}
 
