@@ -37,7 +37,7 @@ cards:
     excerpt: >-
       As an editor, you'll lead and guide the review process end-to-end — finding and onboarding reviewers who match the package's domain, keeping the review on track, and ensuring reviewers and maintainers meet deadlines. Editors typically lead 2–4 reviews per year, with each active review requiring roughly 1–3 hours per week and quieter periods in between. It's a great opportunity to grow project management skills while supporting open science.
     url: "https://forms.gle/XeWcutoLzr54oDv27"
-    cta: "Apply to be an editor →"
+    cta: "Apply to be an editor"
   - modifier: "card--white"
     title: "Peer review triage"
     label: "Async"
@@ -59,7 +59,7 @@ cards:
     excerpt: >-
       As an Editor-in-Chief (EiC), you'll be part of a rotating team of 2–4 people who lead the editorial process. EiCs welcome new package submissions on GitHub, evaluate whether a package falls within pyOpenSci's scope, and assign editors to move accepted submissions forward. You'll also field pre-submission inquiries from authors exploring whether their package is a good fit before committing to a full review. This is a hands-on leadership role at the heart of how pyOpenSci maintains quality and community standards. This role typically carries 2-4 hours per week depending on the number of packages that are being submitted.
     url: "https://forms.gle/XeWcutoLzr54oDv27"
-    cta: "Express interest →"
+    cta: "Express interest"
   - modifier: "card--stipend"
     title: "Become a Peer review lead"
     label: "Stipend"
@@ -84,7 +84,7 @@ translation_cards:
       Own a language track — coordinate contributors, manage review cycles, and
       keep translations consistent with source updates.
     url: "mailto:hello@pyopensci.org"
-    cta: "Apply to lead →"
+    cta: "Apply to lead"
   - modifier: "card--white"
     title: "Translation Contributor"
     label: "Async"
@@ -96,7 +96,7 @@ translation_cards:
       Translate or review content for a language you know well. Contribute as
       much or as little as your schedule allows.
     url: "https://forms.gle/GHfxvmS47nQFDcBM6"
-    cta: "Sign up to translate →"
+    cta: "Sign up to translate"
 maintainer_cards_align: left
 maintainer_cards:
   - modifier: "card--white"
@@ -123,7 +123,7 @@ maintainer_cards:
       Help keep pyOpenSci.org welcoming and useful — write and edit content,
       improve accessibility, refine our Hugo theme, and polish page layouts.
     #url: "https://github.com/pyOpenSci/pyopensci.github.io"
-    cta: "Support our website →"
+    cta: "Support our website"
 impact_destinations:
   eyebrow: "Your impact"
   title: "Where your work goes"

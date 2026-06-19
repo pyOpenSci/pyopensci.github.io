@@ -31,7 +31,7 @@
       {{ end }}
       {{ with .url }}
         <div>
-          {{ partial "card-cta.html" (dict "url" . "cta" $.cta) }}
+          <a class="btn btn--outline btn--icon card__cta" href="{{ . }}">{{ $.cta | default "Learn more" }}<i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
         </div>
       {{ end }}
     </div>
@@ -76,7 +76,7 @@
   </div>
 
   {{ with .url }}
-    {{ partial "card-cta.html" (dict "url" . "cta" $.cta) }}
+    <a class="btn btn--outline btn--icon card__cta" href="{{ . }}">{{ $.cta | default "Learn more" }}<i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
   {{ end }}
 </article>
 {{ end }}

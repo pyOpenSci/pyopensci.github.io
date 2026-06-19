@@ -1,4 +1,0 @@
-{{/* Card CTA — white outline button with Font Awesome arrow */}}
-{{ $ctaRaw := .cta | default "Learn more →" }}
-{{ $ctaLabel := trim (replaceRE " *→$" "" $ctaRaw) " " }}
-<a class="btn btn--outline btn--icon card__cta" href="{{ .url }}">{{ $ctaLabel }}<i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
