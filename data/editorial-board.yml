@@ -1,0 +1,65 @@
+coatless:
+  peer_review_lead: false
+  eic_team: false
+  emeritus_peer_review_lead: false
+  emeritus_eic: false
+crhea93:
+  peer_review_lead: false
+  eic_team: false
+  emeritus_peer_review_lead: false
+  emeritus_eic: false
+ctb:
+  peer_review_lead: false
+  eic_team: false
+  emeritus_peer_review_lead: false
+  emeritus_eic: false
+eliotwrobson:
+  peer_review_lead: true
+  eic_team: false
+  emeritus_peer_review_lead: false
+  emeritus_eic: false
+hamogu:
+  peer_review_lead: false
+  eic_team: false
+  emeritus_peer_review_lead: false
+  emeritus_eic: false
+haozeke:
+  peer_review_lead: false
+  eic_team: false
+  emeritus_peer_review_lead: false
+  emeritus_eic: false
+jonas-eschle:
+  peer_review_lead: false
+  eic_team: false
+  emeritus_peer_review_lead: false
+  emeritus_eic: false
+julimillan:
+  peer_review_lead: false
+  eic_team: false
+  emeritus_peer_review_lead: false
+  emeritus_eic: false
+kysolvik:
+  peer_review_lead: false
+  eic_team: true
+  emeritus_peer_review_lead: false
+  emeritus_eic: false
+rcaneill:
+  peer_review_lead: false
+  eic_team: false
+  emeritus_peer_review_lead: false
+  emeritus_eic: false
+slobentanzer:
+  peer_review_lead: false
+  eic_team: false
+  emeritus_peer_review_lead: false
+  emeritus_eic: false
+tkoyama010:
+  peer_review_lead: false
+  eic_team: false
+  emeritus_peer_review_lead: false
+  emeritus_eic: false
+yeelauren:
+  peer_review_lead: false
+  eic_team: false
+  emeritus_peer_review_lead: false
+  emeritus_eic: true
