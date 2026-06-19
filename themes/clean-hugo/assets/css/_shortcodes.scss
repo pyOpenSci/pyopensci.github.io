@@ -40,12 +40,14 @@
     }
   }
 
-  /* Metrics + dark band flush above site footer */
-  .splash-page__content > .metrics-bar + .impact-destinations {
+  /* Metrics + dark band flush (impact destinations, how it works) */
+  .splash-page__content > .metrics-bar + .impact-destinations,
+  .splash-page__content > .metrics-bar + .how-it-works {
     margin-top: 0;
   }
 
-  .splash-page__content > .metrics-bar:has(+ .impact-destinations) {
+  .splash-page__content > .metrics-bar:has(+ .impact-destinations),
+  .splash-page__content > .metrics-bar:has(+ .how-it-works) {
     margin-bottom: 0;
   }
 

@@ -16,6 +16,8 @@
   {{ partial "metrics/presets/volunteer.html" . }}
 {{ else if eq $set "packages" }}
   {{ partial "metrics/presets/packages.html" . }}
+{{ else if eq $set "peer-review" }}
+  {{ partial "metrics/presets/peer-review.html" . }}
 {{ else if .stats }}
   {{ .scratch.Set "stats" .stats }}
 {{ end }}

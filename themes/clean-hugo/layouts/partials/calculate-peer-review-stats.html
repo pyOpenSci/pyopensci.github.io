@@ -1,0 +1,34 @@
+{{/*
+  Peer review metrics from site data.
+
+  Returns a dict with:
+    packages_accepted, packages_active, packages_joss, maintainers,
+    editors, reviewers
+
+  reviewers = all-time count from contributors.yml (packages_reviewed
+  or contributor_type includes "reviewer").
+
+  Usage: {{ $stats := partial "calculate-peer-review-stats.html" . }}
+*/}}
+{{ $pkgStats := partial "calculate-package-stats.html" . }}
+
+{{ $board := index .Site.Data "editorial-board" | default dict }}
+{{ $editorCount := len $board }}
+
+{{ $reviewerCount := 0 }}
+{{ range .Site.Data.contributors | default slice }}
+  {{ $hasReviewed := gt (len (.packages_reviewed | default slice)) 0 }}
+  {{ $isReviewer := in (.contributor_type | default slice) "reviewer" }}
+  {{ if or $hasReviewed $isReviewer }}
+    {{ $reviewerCount = add $reviewerCount 1 }}
+  {{ end }}
+{{ end }}
+
+{{ return (dict
+    "packages_accepted" $pkgStats.total
+    "packages_active" $pkgStats.active
+    "packages_joss" $pkgStats.joss
+    "maintainers" $pkgStats.maintainers
+    "editors" $editorCount
+    "reviewers" $reviewerCount
+) }}

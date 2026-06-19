@@ -262,3 +262,41 @@
       }
     }
   }
+
+  .emeritus-editor-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.625rem 0.75rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    &__pill,
+    a:not(.btn) {
+      display: inline-block;
+      padding: 0.4375rem 1rem;
+      font-family: $font-family-body;
+      font-size: 0.9375rem;
+      font-weight: 500;
+      line-height: 1.4;
+      color: rgba(255, 255, 255, 0.9);
+      background-color: var(--color-surface-footer-purple);
+      border-radius: $radius-full;
+      text-decoration: none;
+      transition: background-color $transition-base ease,
+        color $transition-base ease,
+        transform $transition-base ease;
+
+      &:hover,
+      &:focus-visible {
+        color: var(--color-white);
+        background-color: var(--color-brand-purple);
+        transform: translateY(-1px);
+      }
+
+      &:focus-visible {
+        outline: 2px solid var(--color-brand-medium-purple);
+        outline-offset: 2px;
+      }
+    }
+  }

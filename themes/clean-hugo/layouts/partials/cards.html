@@ -76,7 +76,15 @@
   </div>
 
   {{ with .url }}
-    <a class="btn btn--outline btn--icon card__cta" href="{{ . }}">{{ $.cta | default "Learn more" }}<i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+    {{ $btnVariant := $.button_variant | default "outline" }}
+    {{ $target := $.target | default "" }}
+    {{ if and (eq $target "") (hasPrefix . "http") }}
+      {{ $target = "_blank" }}
+    {{ end }}
+    <a class="btn btn--{{ $btnVariant }} btn--icon card__cta"
+       href="{{ . }}"
+       {{ with $target }}target="{{ . }}"{{ end }}
+       {{ if eq $target "_blank" }}rel="noopener noreferrer"{{ end }}>{{ $.cta | default "Learn more" }}<i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
   {{ end }}
 </article>
 {{ end }}
