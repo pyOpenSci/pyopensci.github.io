@@ -13,4 +13,8 @@
   {{ if $subtitle }}
   <div class="section-heading__subtitle">{{ $subtitle | markdownify }}</div>
   {{ end }}
+  {{ $links := trim .Inner " \n\r\t" }}
+  {{ if $links }}
+  <div class="section-heading__links">{{ $links | markdownify }}</div>
+  {{ end }}
 </div>

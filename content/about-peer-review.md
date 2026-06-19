@@ -43,7 +43,7 @@ is accepted and in scope for JOSS, it will be fast-tracked through JOSS'
 review process.
 {{< /feature-row >}}
 
-{{< section-heading title="Get involved with software peer review" >}}
+{{< section-heading title="Get involved with software peer review" />}}
 
 {{< two-card-row >}}
 {{< card title="Become a pyOpenSci reviewer" icon="fa-solid fa-user-pen" >}}
