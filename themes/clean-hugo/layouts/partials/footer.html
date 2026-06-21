@@ -26,5 +26,18 @@
         &copy; {{ now.Format "2006" }} {{ .Site.Title }}
       </p>
     </div>
+
+    {{ if .IsHome }}
+      <div class="site-footer__netlify">
+        <a href="https://www.netlify.com" rel="noopener noreferrer">
+          <img
+            src="{{ "images/netlify-badge-dark.svg" | relURL }}"
+            alt="Deploys by Netlify"
+            width="80"
+            height="36"
+          />
+        </a>
+      </div>
+    {{ end }}
   </div>
 </footer>

@@ -10,6 +10,7 @@ enableRobotsTXT = true
 buildFuture = true
 
 # Site images live in static/images/ (published as /images/...).
+# Peer-review badges live in static/badges/ (published as /badges/...).
 
 [sitemap]
   changefreq = 'weekly'
