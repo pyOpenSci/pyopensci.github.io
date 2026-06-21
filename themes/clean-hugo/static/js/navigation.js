@@ -29,7 +29,7 @@
     if (dropdownToggle && dropdownMenu) {
       dropdownToggle.addEventListener('click', function(e) {
         // On mobile, toggle dropdown
-        if (window.innerWidth < 768) {
+        if (window.innerWidth < 1024) {
           e.preventDefault();
           const isOpen = dropdownMenu.classList.contains('site-nav__dropdown-menu--open');
           // Toggle menu visibility
