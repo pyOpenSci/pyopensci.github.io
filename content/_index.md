@@ -75,9 +75,9 @@ current_project:
   quote: |
     Gen AI reminds us that the centerpiece of open source is building community around a specific problem. AI may add functionality — but it cannot replace the context and judgment of a diverse and engaged community."
   cite: Eliot Robson, pyOpenSci Peer Review Lead
-  #cta_prompt: Interested in contributing to this research?
-  button_label: Get involved
-  # button_url: "/your-destination-path/"  # uncomment when the CTA link is ready
+  cta_prompt: Interested in contributing to this research?
+  button_label: Sign Up to Get involved
+  button_url: "https://forms.gle/yTNXwQWQC4dLvErB7"
 upcoming_events:
   title: Where you can find us
   limit: 3

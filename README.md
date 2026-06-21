@@ -15,12 +15,9 @@ Please explore [the site](https://pyopensci.org). If you find a typo, bug or iss
 
 ## Next Steps
 
-If you are interested in contributing to pyOpenSci, start with
-[**CONTRIBUTING.md**](./CONTRIBUTING.md) — local setup, website development,
-and how to add a multi-page **documentation book** (`layout: docs`) on the Hugo
-site.
+If you are interested in contributing to pyOpenSci, check out our [**CONTRIBUTING guide**](./CONTRIBUTING.md) for an overview of the types of contributions that we welcome. and our DEVELOPMENT.md for instructions on how to set up the website locally and make changes.
 
-For organization-wide norms, see
+For organization-wide guidelines, see
 [**pyOpenSci's organization-wide contributing guide**](https://www.pyopensci.org/handbook/CONTRIBUTING.html).
 
 ## Installation and development
@@ -48,7 +45,7 @@ root (`content/`, `data/`, `themes/clean-hugo/`).
    hugo server --disableFastRender
    ```
 
-   Use `--disableFastRender` while editing layouts or CSS so changes rebuild reliably.
+   Use `--disableFastRender` while editing layouts or CSS so changes rebuild in real time as you work on the site locally.
 
 4. Open [http://localhost:1313/](http://localhost:1313/) in your browser.
 

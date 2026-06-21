@@ -253,8 +253,6 @@ buildFuture = true
   url = '/our-community/'
   parent = 'Community'
   weight = 1
-  [menu.main.params]
-    icon = 'fa-brands fa-discourse'
 
 [[menu.main]]
   name = 'Handbook'
