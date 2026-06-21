@@ -123,4 +123,20 @@
     margin: 0;
     font-size: 0.68rem;
   }
+
+  &__netlify {
+    margin-top: $spacing-sm;
+    text-align: center;
+
+    a {
+      display: inline-block;
+      line-height: 0;
+    }
+
+    img {
+      display: block;
+      height: auto;
+      max-width: 5rem;
+    }
+  }
 }
