@@ -32,7 +32,7 @@ infrastructure for the public good.
 Monday we'll be at the **Maintain-A-Thon** — a hands-on day bringing
 together open source maintainers, stewards, and policymakers to spotlight
 critical open source infrastructure. In the afternoon, we're co-leading a session on **AI tools in open source
-maintenance** (1:00 PM, breakout room to be announced that day so stay tuned).
+maintenance** (12:00-1pm PM, Breakout: Conference Room A, Basement Level [1b].
 
 {{< admonition type="info" title="Session abstract" >}}
 What does it mean to maintain open-source software when the use of AI tools is
