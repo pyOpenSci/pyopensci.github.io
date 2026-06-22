@@ -4,13 +4,19 @@
   Use shortcode {{< current-project />}}.
 
   Fields: title (required), eyebrow, excerpt, quote, cite, cta_prompt,
-  button_label, button_url, enabled (optional, default true).
+  button_label, button_url, button_style, enabled (optional, default true).
+
+  button_style — CSS modifier applied as btn--{value}. Valid values:
+    outline (default), dark-purple, white, green, light-purple,
+    outline-on-dark
 */}}
 {{ $p := .Params.current_project | default dict }}
 {{ if eq $p.enabled false }}{{ return }}{{ end }}
 {{ if not $p.title }}{{ return }}{{ end }}
 {{ $eyebrow := $p.eyebrow | default "Current project" }}
 {{ $btnLabel := $p.button_label | default "Get involved" }}
+{{ $btnStyle := $p.button_style | default "outline" }}
+{{ $btnClass := printf "btn btn--%s btn--lg home-current-project__cta" $btnStyle }}
 {{ $btnHref := "" }}
 {{ with $p.button_url }}
   {{ $btnHref = . }}
@@ -49,7 +55,7 @@
         {{ end }}
         {{ if $btnHref }}
           <p class="home-current-project__cta-actions">
-            <a class="btn btn--outline btn--lg home-current-project__cta" href="{{ $btnHref }}">
+            <a class="{{ $btnClass }}" href="{{ $btnHref }}">
               {{ $btnLabel }} <span aria-hidden="true">&rarr;</span>
             </a>
           </p>
