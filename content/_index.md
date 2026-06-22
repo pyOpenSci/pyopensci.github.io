@@ -78,6 +78,7 @@ current_project:
   cta_prompt: Interested in contributing to this research?
   button_label: Sign Up to Get involved
   button_url: "https://forms.gle/yTNXwQWQC4dLvErB7"
+  button_style:  green
 upcoming_events:
   title: Where you can find us
   limit: 3

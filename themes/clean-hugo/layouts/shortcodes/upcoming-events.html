@@ -20,6 +20,7 @@
 {{ $title := .Get "title" | default ($cfg.title | default "Where you can find us") }}
 {{ $viewAllURL := .Get "view_all_url" | default ($cfg.view_all_url | default "/events/") }}
 {{ $viewAllLabel := .Get "button_label" | default ($cfg.button_label | default "View all events") }}
+{{ $viewAllStyle := .Get "button_style" | default ($cfg.button_style | default "outline") }}
 {{ $sectionClass := .Get "section_class" | default ($cfg.section_class | default "") }}
 {{ if and .Page.IsHome (not $sectionClass) }}
   {{ $sectionClass = "events-list--home" }}
@@ -32,5 +33,6 @@
   "show_view_all" $showViewAll
   "view_all_url" $viewAllURL
   "view_all_label" $viewAllLabel
+  "view_all_style" $viewAllStyle
   "section_class" $sectionClass
 ) }}
