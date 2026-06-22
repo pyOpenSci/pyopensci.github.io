@@ -1,6 +1,6 @@
 {{/*
-  Full-width light purple band below the hero highlighting the next
-  upcoming or live event. Renders nothing when no events qualify.
+  Full-width light purple band below the hero highlighting the current or
+  next upcoming event. Renders nothing when no events qualify.
 
   Event front matter:
     event.home_highlight — short statement for this banner only
@@ -26,8 +26,8 @@
 {{ end }}
 
 {{ $nextEvent := index (append
-  (sort $live "Params.event.end_date" "asc")
   (sort $upcoming "Params.event.start_date" "asc")
+  (sort $live "Params.event.end_date" "asc")
 ) 0 }}
 
 {{ with $nextEvent }}
