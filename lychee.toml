@@ -27,7 +27,8 @@ cache_exclude_status = "500.."
 
 ############################# Runtime ##############################
 
-max_concurrency = 14
+# Reduce concurrency since lychee can check 500+ links in 1 minute with 1 worker
+max_concurrency = 1
 max_redirects = 10
 max_retries = 2
 # Wait longer between retries to give slow servers room to recover.
@@ -37,8 +38,9 @@ timeout = 45
 
 ############################# Requests #############################
 
-# Some sites block lychee's default UA. Use a generic browser-ish UA.
-user_agent = "Mozilla/5.0 (compatible; lychee-link-checker)"
+# Some sites block lychee's default user agent (curl). Use a generic browser.
+user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
 
 # Accept 200–403 as success. 401/403 are common on bot-protected or
 # auth-walled pages we still want to consider "reachable".
