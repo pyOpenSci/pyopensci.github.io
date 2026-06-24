@@ -63,8 +63,4 @@ include_verbatim = false
 exclude = [
     'https://(www\.)?neonscience\.org/.*',
     'zenodo\.org',
-    # Self-references to the deployed site lag the build, producing false
-    # 404s for new pages. Internal links are validated via relative paths.
-    # Note: testing if we can check internal link now that we are using hugo
-    #'^https?://(www\.)?pyopensci\.org/',
 ]
