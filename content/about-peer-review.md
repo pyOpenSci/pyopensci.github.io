@@ -60,7 +60,7 @@ get_involved:
       excerpt: >-
         Editors manage the review process end-to-end and help shape
         pyOpenSci's standards.
-      url: "https://www.pyopensci.org/software-peer-review/how-to/editor-guide.html"
+      url: "https://www.pyopensci.org/software-peer-review/how-to/editors-guide.html"
       cta: "Learn about the role"
       button_variant: "outline"
       target: "_blank"
