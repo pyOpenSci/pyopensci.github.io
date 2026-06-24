@@ -9,6 +9,8 @@
     section_title (optional): h2 section heading (e.g. "Where you can find us")
     show_view_all (optional bool): render view-all button
     view_all_label (optional): button text (default "View all events")
+    view_all_style (optional): btn modifier e.g. outline (default), green,
+      dark-purple, white, light-purple, outline-on-dark
     show_empty (optional bool): render empty-state section if no events
     view_all_url (optional): defaults to /events/
     section_class (optional): extra class on <section>
@@ -26,6 +28,8 @@
 {{ $showEmpty := .show_empty | default false }}
 {{ $viewAllURL := .view_all_url | default "/events/" }}
 {{ $viewAllLabel := .view_all_label | default "View all events" }}
+{{ $viewAllStyle := .view_all_style | default "outline" }}
+{{ $viewAllClass := printf "btn btn--%s" $viewAllStyle }}
 {{ $sectionClass := .section_class | default "" }}
 
 {{ range $pages }}
@@ -70,7 +74,7 @@
       </div>
       {{ if $showViewAll }}
         <div class="events-list__actions">
-          <a class="btn btn--outline" href="{{ $viewAllURL | relURL }}">
+          <a class="{{ $viewAllClass }}" href="{{ $viewAllURL | relURL }}">
             {{ $viewAllLabel }}
           </a>
         </div>
