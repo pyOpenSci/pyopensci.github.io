@@ -61,6 +61,7 @@ include_verbatim = false
 
 # Regex excludes. Plain-domain skips belong in .lycheeignore.
 exclude = [
+    'https://(www\.)?neonscience\.org/.*',
     'zenodo\.org',
     # Self-references to the deployed site lag the build, producing false
     # 404s for new pages. Internal links are validated via relative paths.
