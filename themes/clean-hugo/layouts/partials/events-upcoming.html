@@ -14,6 +14,7 @@
     show_empty (optional bool): render empty-state section if no events
     view_all_url (optional): defaults to /events/
     section_class (optional): extra class on <section>
+    layout (optional): "highlight" for events landing (1 featured + up to 2 secondary)
 */}}
 {{ $ctx := .context }}
 {{ $pages := .pages | default (where $ctx.Site.RegularPages "Section" "events") }}
@@ -31,6 +32,8 @@
 {{ $viewAllStyle := .view_all_style | default "outline" }}
 {{ $viewAllClass := printf "btn btn--%s" $viewAllStyle }}
 {{ $sectionClass := .section_class | default "" }}
+{{ $layout := .layout | default "" }}
+{{ $highlight := eq $layout "highlight" }}
 
 {{ range $pages }}
   {{ $e := .Params.event }}
@@ -54,15 +57,44 @@
 {{ end }}
 
 {{ if gt (len $featuredEvents) 0 }}
-  <section class="events-list{{ with $sectionClass }} {{ . }}{{ end }}">
+  {{ $highlightEvents := $featuredEvents }}
+  {{ if $highlight }}
+    {{ $highlightEvents = first 3 $featuredEvents }}
+  {{ end }}
+  {{ $heroEvent := index $highlightEvents 0 }}
+  {{ $secondaryEvents := after 1 $highlightEvents }}
+  <section class="events-list{{ if $highlight }} events-list--highlight{{ end }}{{ with $sectionClass }} {{ . }}{{ end }}">
     <div class="{{ if $useContainer }}container{{ else }}events-list__inner{{ end }}">
       {{ if $sectionTitle }}
         <h2 class="events-list__section-title">{{ $sectionTitle }}</h2>
+      {{ else if $highlight }}
+        <p class="events-list__count" aria-live="polite">
+          {{ len $highlightEvents }}
+          {{ if eq (len $highlightEvents) 1 }}event{{ else }}events{{ end }}
+        </p>
       {{ else if $showKicker }}
         <h2 class="events-list__kicker">
           Upcoming <span class="events-list__kicker-amp">&amp;</span> live
         </h2>
       {{ end }}
+      {{ if $highlight }}
+        <div class="blog-grid__featured events-highlight">
+          {{ partial "event-card.html" (dict
+            "Page" $heroEvent
+            "variant" "highlight-featured"
+          ) }}
+          {{ if gt (len $secondaryEvents) 0 }}
+            <div class="blog-grid__sidebar events-highlight__sidebar">
+              {{ range $secondaryEvents }}
+                {{ partial "event-card.html" (dict
+                  "Page" .
+                  "variant" "highlight-sidebar"
+                ) }}
+              {{ end }}
+            </div>
+          {{ end }}
+        </div>
+      {{ else }}
       <div class="events-list__featured">
         {{ range $featuredEvents }}
           {{ partial "event-card.html" (dict
@@ -72,6 +104,7 @@
           ) }}
         {{ end }}
       </div>
+      {{ end }}
       {{ if $showViewAll }}
         <div class="events-list__actions">
           <a class="{{ $viewAllClass }}" href="{{ $viewAllURL | relURL }}">
