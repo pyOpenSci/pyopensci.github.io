@@ -1,0 +1,74 @@
+{{/*
+  Upcoming events promo — bottom of event single pages.
+  Renders when at least one other event is still upcoming or live and
+  starts after the current page ends.
+
+  Pass dict:
+    Page (required): current event page
+*/}}
+{{ $current := .Page }}
+{{ $currentEvent := $current.Params.event }}
+{{ if not (and $currentEvent $currentEvent.start_date) }}
+  {{ return }}
+{{ end }}
+
+{{ $today := now.Format "2006-01-02" }}
+{{ $currentEnd := $currentEvent.end_date | default $currentEvent.start_date }}
+{{ $pages := where $current.Site.RegularPages "Section" "events" }}
+{{ $upcoming := slice }}
+
+{{ range (sort $pages "Params.event.start_date" "asc") }}
+  {{ $e := .Params.event }}
+  {{ if and $e $e.start_date (ne .RelPermalink $current.RelPermalink) (gt $e.start_date $currentEnd) }}
+    {{ $end := $e.end_date | default $e.start_date }}
+    {{ if ge $end $today }}
+      {{ $upcoming = $upcoming | append . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ if gt (len $upcoming) 0 }}
+  <section class="event-upcoming" aria-labelledby="event-upcoming-heading">
+    <hr class="event-upcoming__divider">
+    <h2 id="event-upcoming-heading" class="event-upcoming__heading">
+      Upcoming events
+    </h2>
+    <div class="event-upcoming__list">
+      {{ range $upcoming }}
+        {{ $e := .Params.event }}
+        {{ $start := time $e.start_date }}
+        {{ $endStr := $e.end_date | default $e.start_date }}
+        {{ $end := time $endStr }}
+        {{ $dateShort := "" }}
+        {{ if eq $e.start_date $endStr }}
+          {{ $dateShort = $start.Format "Jan 2" }}
+        {{ else if and (eq $start.Year $end.Year) (eq $start.Month $end.Month) }}
+          {{ $dateShort = printf "%s %s–%s" ($start.Format "Jan") ($start.Format "2") ($end.Format "2") }}
+        {{ else if eq $start.Year $end.Year }}
+          {{ $dateShort = printf "%s – %s" ($start.Format "Jan 2") ($end.Format "Jan 2") }}
+        {{ else }}
+          {{ $dateShort = printf "%s – %s" ($start.Format "Jan 2, 2006") ($end.Format "Jan 2, 2006") }}
+        {{ end }}
+        {{ $excerpt := partial "blog-excerpt.html" (dict "." . "length" 120) }}
+        <aside class="event-next" aria-labelledby="event-next-title-{{ .File.UniqueID }}">
+          <div class="event-next__inner">
+            <div class="event-next__body">
+              <p class="event-next__label">
+                {{ $dateShort }}
+              </p>
+              <h3 id="event-next-title-{{ .File.UniqueID }}" class="event-next__title">
+                {{ .Title }}
+              </h3>
+              {{ with $excerpt }}
+                <p class="event-next__excerpt">{{ . }}</p>
+              {{ end }}
+            </div>
+            <a class="btn btn--outline btn--lg event-next__cta" href="{{ .RelPermalink }}">
+              Learn more
+            </a>
+          </div>
+        </aside>
+      {{ end }}
+    </div>
+  </section>
+{{ end }}

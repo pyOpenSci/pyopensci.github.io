@@ -188,6 +188,18 @@
   max-width: 65ch;  // Optimal reading width
   margin: 0 auto;   // Center the constrained content
 
+  figure {
+    margin: 1.5rem 0 0;
+
+    img {
+      display: block;
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      border-radius: $radius-md;
+    }
+  }
+
   // Full-width shortcodes (defined above)
   // These will break out of the 65ch constraint when needed
 }
