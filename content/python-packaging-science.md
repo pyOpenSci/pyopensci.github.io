@@ -36,7 +36,7 @@ All contributions are recognized both on our website and in the guidebook's
 citation.
 {{< /feature-row >}}
 
-### pyOpenSci Python packaging guidebook sections
+<h3>pyOpenSci Python packaging guidebook sections</h3>
 
 {{< packaging-guide-grid >}}
 
