@@ -13,7 +13,9 @@ document.addEventListener('DOMContentLoaded', function() {
     if (!contentEl || !tocContainer) return;
 
     function generateInlineToc() {
-      const headings = contentEl.querySelectorAll('h2, h3');
+      const h2Only = root.dataset.tocDepth === 'h2';
+      const selector = h2Only ? 'h2' : 'h2, h3';
+      const headings = contentEl.querySelectorAll(selector);
       if (headings.length === 0) return;
 
       let currentH2Item = null;
@@ -37,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
           tocContainer.appendChild(listItem);
           currentH2Item = listItem;
           currentH3List = null;
-        } else if (heading.tagName === 'H3' && currentH2Item) {
+        } else if (!h2Only && heading.tagName === 'H3' && currentH2Item) {
           if (!currentH3List) {
             currentH3List = document.createElement('ul');
             currentH3List.className = 'toc-sublist';
@@ -68,7 +70,9 @@ document.addEventListener('DOMContentLoaded', function() {
         return;
       }
 
-      const headings = contentEl.querySelectorAll('h2, h3');
+      const h2Only = root.dataset.tocDepth === 'h2';
+      const selector = h2Only ? 'h2' : 'h2, h3';
+      const headings = contentEl.querySelectorAll(selector);
       let currentHeading = null;
 
       headings.forEach(function(heading) {

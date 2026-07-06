@@ -1,0 +1,7 @@
+{{/*
+  Blog listing / card image — highlight_image first, then header image fallback.
+  Pass the blog post page as context.
+*/}}
+{{ $page := . }}
+{{ $listingImage := $page.Params.highlight_image | default $page.Params.image }}
+{{ return partial "get-image.html" (dict "image" $listingImage "fallbackAlt" $page.Title "page" $page) }}

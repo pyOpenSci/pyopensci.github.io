@@ -17,22 +17,7 @@
     {{ $headerColor = "#AC87A0" }}
   {{ end }}
 {{ end }}
-<header class="blog-post__header{{ if not .Params.image }} blog-post__header--solid{{ end }}"{{ if not .Params.image }}
-    style="background-color: {{ $headerColor }};"
-  {{ end }}>
-    {{ $img := partial "get-image.html" (dict "image" .Params.image "fallbackAlt" .Title "page" .) }}
-    {{ if $img.exists }}
-    <img src="{{ $img.src }}" alt="{{ $img.alt }}" />
-    {{ end }}
-    <div></div>
-    <div>
-      <h1>{{ .Title }}</h1>
-      {{ if $dateLine }}<p>{{ $dateLine }}</p>{{ end }}
-    </div>
-    {{ if $img.credit }}
-    <div>{{ $img.credit }}</div>
-    {{ end }}
-  </header>
+{{ partial "blog-post-header.html" (dict "page" . "subtitle" $dateLine "headerColor" $headerColor) }}
 <article class="content-container">
   <div class="content-main">
     {{ .Content }}
