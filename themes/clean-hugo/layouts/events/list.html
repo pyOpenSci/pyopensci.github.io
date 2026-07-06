@@ -14,7 +14,12 @@
   {{ end }}
 {{ end }}
 
-{{ partial "events-upcoming.html" (dict "context" . "pages" .Pages) }}
+{{ partial "events-upcoming.html" (dict
+  "context" .
+  "pages" .Pages
+  "layout" "highlight"
+  "show_kicker" false
+) }}
 
 {{ with .Content }}
   <section class="events-list">

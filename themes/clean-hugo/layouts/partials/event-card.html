@@ -1,6 +1,9 @@
 {{/*
   Event card partial. Pass dict:
-    Page (required), compact (bool), variant (optional: "featured" for upcoming/live grid).
+    Page (required), compact (bool), variant (optional):
+      featured — upcoming/live grid cards
+      secondary — compact horizontal row (legacy)
+      highlight-featured | highlight-sidebar — events landing blog-style layout
   Front matter: params.event.start_date, optional end_date, location, conference, subtitle,
   event_type: training | sprint | community | talk
 */}}
@@ -8,12 +11,14 @@
 {{ $compact := .compact | default false }}
 {{ $variant := .variant | default "" }}
 {{ $featured := and (not $compact) (eq $variant "featured") }}
+{{ $secondary := and (not $compact) (eq $variant "secondary") }}
+{{ $highlightFeatured := eq $variant "highlight-featured" }}
+{{ $highlightSidebar := eq $variant "highlight-sidebar" }}
 {{ $e := $p.Params.event }}
 {{ if not $e }}
   {{ return }}
 {{ end }}
 {{ $img := partial "get-image.html" (dict "image" $p.Params.image "fallbackAlt" $p.Title "page" $p) }}
-{{ $rootClass := printf "%s%s" (cond $compact "event-card event-card--compact" (cond $featured "event-card event-card--featured" "event-card")) (cond (and $featured $img.exists) " event-card--with-image" "") }}
 {{ $kind := lower (urlize ($e.event_type | default "")) }}
 {{ $typeLabels := dict "training" "Training" "sprint" "Sprint" "community" "Community event" "talk" "Talk" }}
 {{ $typeLabel := index $typeLabels $kind }}
@@ -28,9 +33,73 @@
     {{ $subtitle = $e.location | default "" }}
   {{ end }}
 {{ end }}
+{{ $location := $e.location | default "" }}
+{{ $dateDisplay := partial "event-date-display.html" (dict "event" $e) }}
+{{ if or $highlightFeatured $highlightSidebar }}
+  {{ $excerpt := or $p.Params.excerpt $p.Summary }}
+<article class="card card--event-highlight{{ if $highlightFeatured }} card--event-highlight--featured{{ else }} card--event-highlight--sidebar{{ end }}">
+  <a href="{{ $p.Permalink }}" class="card--event-highlight__link">
+    {{ if $highlightFeatured }}
+    <div class="card--event-highlight__body">
+      <h2>{{ $p.Title }}</h2>
+      {{ if and $typeLabel (ne $kind "") }}
+        <span class="card--event-highlight__badge">{{ $typeLabel }}</span>
+      {{ end }}
+      <time datetime="{{ $e.start_date }}/{{ $endStr }}">{{ $dateDisplay }}</time>
+      {{ with $location }}
+        <p class="card--event-highlight__location">{{ . }}</p>
+      {{ end }}
+      {{ with $excerpt }}
+        <p class="card--event-highlight__excerpt">{{ . | plainify | truncate 200 }}</p>
+      {{ end }}
+    </div>
+    {{ else }}
+    <div class="card--event-highlight__body">
+      {{ if and $typeLabel (ne $kind "") }}
+        <span class="card--event-highlight__badge">{{ $typeLabel }}</span>
+      {{ end }}
+      <h2>{{ $p.Title }}</h2>
+      <time datetime="{{ $e.start_date }}/{{ $endStr }}">{{ $dateDisplay }}</time>
+      {{ with $excerpt }}
+        <p class="card--event-highlight__excerpt">{{ . | plainify | truncate 130 }}</p>
+      {{ end }}
+    </div>
+    {{ end }}
+  </a>
+</article>
+{{ else }}
+{{ $rootClass := printf "%s%s" (cond $compact "event-card event-card--compact" (cond $featured "event-card event-card--featured" (cond $secondary "event-card event-card--secondary" "event-card"))) (cond (and $featured $img.exists) " event-card--with-image" "") }}
 <article class="{{ $rootClass }}">
   <a href="{{ $p.Permalink }}">
-    {{ if $featured }}
+    {{ if $secondary }}
+      <div class="event-card__date-badge" aria-hidden="true">
+        {{ with $e.end_date }}
+          {{ if ne $start.Year $end.Year }}
+            <span class="event-card__date-badge-primary">{{ $start.Format "Jan 2" }}–{{ $end.Format "Jan 2" }}</span>
+            <span class="event-card__date-badge-secondary">{{ $end.Format "2006" }}</span>
+          {{ else if or (ne $start.Month $end.Month) (ne $start.Day $end.Day) }}
+            <span class="event-card__date-badge-primary">{{ $start.Format "2" }}–{{ $end.Format "2" }}</span>
+            <span class="event-card__date-badge-secondary">{{ upper ($start.Format "Jan") }}</span>
+          {{ else }}
+            <span class="event-card__date-badge-primary">{{ $start.Format "2" }}</span>
+            <span class="event-card__date-badge-secondary">{{ upper ($start.Format "Jan") }}</span>
+          {{ end }}
+        {{ else }}
+          <span class="event-card__date-badge-primary">{{ $start.Format "2" }}</span>
+          <span class="event-card__date-badge-secondary">{{ upper ($start.Format "Jan") }}</span>
+          {{ if ne ($start.Format "2006") (now.Format "2006") }}
+            <span class="event-card__date-badge-year">{{ $start.Format "2006" }}</span>
+          {{ end }}
+        {{ end }}
+      </div>
+      <div class="event-card__secondary-body">
+        <h3 class="event-card__title">{{ $p.Title }}</h3>
+        {{ if $location }}<p class="event-card__meta">{{ $location }}</p>{{ end }}
+      </div>
+      {{ if and $typeLabel (ne $kind "") }}
+        <span class="event-card__type event-card__type--{{ $kind }} event-card__type--secondary">{{ $typeLabel }}</span>
+      {{ end }}
+    {{ else if $featured }}
       {{ if $img.exists }}
         <figure class="event-card__featured-image">
           <img src="{{ $img.src }}" alt="{{ $img.alt }}" loading="lazy" decoding="async" />
@@ -108,3 +177,4 @@
     {{ end }}
   </a>
 </article>
+{{ end }}
