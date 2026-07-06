@@ -24,7 +24,8 @@
 {{ end }}
 
 {{/* Determine image for social sharing */}}
-{{ $img := partial "get-image.html" (dict "image" .Params.image "fallbackAlt" .Title) }}
+{{ $shareImage := .Params.highlight_image | default .Params.image }}
+{{ $img := partial "get-image.html" (dict "image" $shareImage "fallbackAlt" .Title "page" .) }}
 {{ $image := "" }}
 {{ $imageAlt := .Title }}
 {{ if $img.exists }}

@@ -18,7 +18,7 @@
   <a href="{{ $post.Permalink }}" class="card--blog__link">
     {{ if $isGrid }}
     {{/* Grid cards: banner image + scrim, white title + date (Jekyll banner_only) */}}
-    {{ $img := partial "get-image.html" (dict "image" $post.Params.image "fallbackAlt" $post.Title "page" $post) }}
+    {{ $img := partial "blog-listing-image.html" $post }}
     <div class="card--blog__media">
       {{ if $img.exists }}
       <img
@@ -51,7 +51,7 @@
       {{ end }}
     </div>
     {{ else }}
-    {{ $img := partial "get-image.html" (dict "image" $post.Params.image "fallbackAlt" $post.Title "page" $post) }}
+    {{ $img := partial "blog-listing-image.html" $post }}
     {{ if $img.exists }}
     <figure class="card--blog__image">
       <img src="{{ $img.src }}" alt="{{ $img.alt }}" loading="lazy" />

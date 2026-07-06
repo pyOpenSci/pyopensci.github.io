@@ -15,8 +15,8 @@
 
     {{ range $allPosts }}
       {{ $isOld := le (.Date.Unix) ($cutoffDate.Unix) }}
-      {{ $hasNoImage := not .Params.image }}
-      {{ if and $isOld $hasNoImage }}
+      {{ $hasNoListingImage := not (or .Params.highlight_image .Params.image) }}
+      {{ if and $isOld $hasNoListingImage }}
         {{ $archivePosts = $archivePosts | append . }}
       {{ else }}
         {{ $recentPosts = $recentPosts | append . }}
