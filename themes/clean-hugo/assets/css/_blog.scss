@@ -194,6 +194,17 @@
     font-size: 0.75rem;
     opacity: 0.75;
   }
+
+  &--solid {
+    > div:first-of-type {
+      background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.45),
+        rgba(0, 0, 0, 0.15),
+        transparent
+      );
+    }
+  }
 }
 
 .blog-post__excerpt {

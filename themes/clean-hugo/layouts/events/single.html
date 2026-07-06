@@ -8,18 +8,17 @@
     {{ $dateLine = printf "%s · %s" $dateLine . }}
   {{ end }}
 {{ end }}
-{{ $gradientFrom := "#71B3B5" }}
-{{ $gradientTo := "#2E6060" }}
+{{ $headerColor := "#33205C" }}
 {{ if and $e (not .Params.image) }}
   {{ $t := lower ($e.event_type | default "") }}
-  {{ if eq $t "workshop" }}
-    {{ $gradientFrom = "#71B3B5" }}{{ $gradientTo = "#2E6060" }}
+  {{ if or (eq $t "training") (eq $t "workshop") }}
+    {{ $headerColor = "#71B3B5" }}
   {{ else if eq $t "community" }}
-    {{ $gradientFrom = "#AC87A0" }}{{ $gradientTo = "#8B6A8F" }}
+    {{ $headerColor = "#AC87A0" }}
   {{ end }}
 {{ end }}
-<header class="blog-post__header"{{ if not .Params.image }}
-    style="background: linear-gradient(135deg, {{ $gradientFrom }} 0%, {{ $gradientTo }} 100%);"
+<header class="blog-post__header{{ if not .Params.image }} blog-post__header--solid{{ end }}"{{ if not .Params.image }}
+    style="background-color: {{ $headerColor }};"
   {{ end }}>
     {{ $img := partial "get-image.html" (dict "image" .Params.image "fallbackAlt" .Title "page" .) }}
     {{ if $img.exists }}
@@ -35,15 +34,11 @@
     {{ end }}
   </header>
 <article class="content-container">
-  {{ with .Params.excerpt }}
-  <div class="blog-post__excerpt">
-    <p>{{ . | markdownify }}</p>
-  </div>
-  {{ end }}
   <div class="content-main">
     {{ .Content }}
     {{ partial "event-instructors.html" . }}
     {{ partial "learn-more.html" . }}
+    {{ partial "event-next.html" (dict "Page" .) }}
   </div>
   <footer class="blog-post__tags">
     {{ with .Params.tags }}Tags: {{ range $i, $t := . }}{{ if $i }}, {{ end }}<a href="{{ "/tags/" | relURL }}{{ urlize $t }}">{{ $t }}</a>{{ end }}{{ end }}
