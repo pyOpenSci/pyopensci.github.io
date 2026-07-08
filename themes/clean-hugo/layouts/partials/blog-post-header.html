@@ -1,0 +1,25 @@
+{{/*
+  Shared hero header for blog posts and events.
+  Pass page (context) and optional subtitle and headerColor (#33205C default).
+  When page.Params.image is set, the image displays; otherwise solid purple bleed.
+*/}}
+{{ $page := .page }}
+{{ $subtitle := .subtitle }}
+{{ $headerColor := .headerColor | default "#33205C" }}
+{{ $headerImage := $page.Params.image }}
+<header class="blog-post__header{{ if not $headerImage }} blog-post__header--solid{{ end }}"{{ if not $headerImage }}
+    style="background-color: {{ $headerColor }};"
+  {{ end }}>
+  {{ $img := partial "get-image.html" (dict "image" $headerImage "fallbackAlt" $page.Title "page" $page) }}
+  {{ if $img.exists }}
+  <img src="{{ $img.src }}" alt="{{ $img.alt }}" />
+  {{ end }}
+  <div></div>
+  <div>
+    <h1>{{ $page.Title }}</h1>
+    {{ with $subtitle }}<p>{{ . }}</p>{{ end }}
+  </div>
+  {{ if $img.credit }}
+  <div>{{ $img.credit }}</div>
+  {{ end }}
+</header>

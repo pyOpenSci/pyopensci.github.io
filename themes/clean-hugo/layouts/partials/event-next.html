@@ -1,0 +1,54 @@
+{{/*
+  Next upcoming event — bottom of event single pages.
+  Shows the first other event that starts after this one ends and is still
+  upcoming.
+
+  Pass dict:
+    Page (required): current event page
+*/}}
+{{ $current := .Page }}
+{{ $currentEvent := $current.Params.event }}
+{{ if not (and $currentEvent $currentEvent.start_date) }}
+  {{ return }}
+{{ end }}
+
+{{ $today := now.Format "2006-01-02" }}
+{{ $currentEnd := $currentEvent.end_date | default $currentEvent.start_date }}
+{{ $pages := where $current.Site.RegularPages "Section" "events" }}
+{{ $nextEvent := false }}
+
+{{ range (sort $pages "Params.event.start_date" "asc") }}
+  {{ $e := .Params.event }}
+  {{ if and $e $e.start_date (ne .RelPermalink $current.RelPermalink) (gt $e.start_date $currentEnd) }}
+    {{ $end := $e.end_date | default $e.start_date }}
+    {{ if ge $end $today }}
+      {{ $nextEvent = . }}
+      {{ break }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ with $nextEvent }}
+  <section class="event-upcoming" aria-labelledby="event-upcoming-heading">
+    <hr class="event-upcoming__divider">
+    <h2 id="event-upcoming-heading" class="event-upcoming__heading">
+      Upcoming events
+    </h2>
+    <aside class="event-next" aria-labelledby="event-next-title">
+      <div class="event-next__inner">
+        <div class="event-next__body">
+          <p class="event-next__label">
+            {{ partial "event-date-display.html" (dict "event" .Params.event) }}
+          </p>
+          <h3 id="event-next-title" class="event-next__title">{{ .Title }}</h3>
+          {{ with partial "blog-excerpt.html" (dict "." . "length" 120) }}
+            <p class="event-next__excerpt">{{ . }}</p>
+          {{ end }}
+        </div>
+        <a class="btn btn--outline btn--lg event-next__cta" href="{{ .RelPermalink }}">
+          Learn more
+        </a>
+      </div>
+    </aside>
+  </section>
+{{ end }}

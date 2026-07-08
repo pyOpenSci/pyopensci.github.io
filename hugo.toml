@@ -38,6 +38,10 @@ buildFuture = true
   blog_title = 'pyOpenSci Blog'
   description = 'pyOpenSci broadens participation in scientific open source.'
 
+  # Blog in-page TOC ("On this page"). Set true to re-enable sidebar TOC.
+  [params.blog]
+    enable_toc = false
+
   [params.seo]
     default_image = 'images/landing-pages/scipy-sprint-working.png'
     twitter_site = 'pyOpenSci'
