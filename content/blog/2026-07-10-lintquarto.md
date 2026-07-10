@@ -7,7 +7,7 @@ author: Amy Heather
 blog_topic: software
 comments: true
 url: "/blog/lintquarto.html"
-lastmod: '2026-07-01'
+lastmod: '2026-07-10'
 image:
   src: images/blog/2026/cleaning.jpg
   alt: "Person cleaning by a computer. Image source: Unsplash (free to use under the Unsplash Licence) https://unsplash.com/photos/person-in-blue-long-sleeve-shirt-sitting-beside-black-laptop-computer--9gPKrsbGmc."
