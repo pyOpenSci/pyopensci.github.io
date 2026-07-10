@@ -20,7 +20,7 @@ no_progress = true
 
 # Cache responses between runs.
 cache = true
-max_cache_age = "1d"
+max_cache_age = "3d"
 
 # Never cache server errors so transient 5xx don't stick.
 cache_exclude_status = "500.."
@@ -30,11 +30,11 @@ cache_exclude_status = "500.."
 # Reduce concurrency since lychee can check 500+ links in 1 minute with 1 worker
 max_concurrency = 1
 max_redirects = 10
+# Set timeout
+timeout = 10
 max_retries = 2
 # Wait longer between retries to give slow servers room to recover.
-retry_wait_time = 5
-# Set timeout
-timeout = 30
+retry_wait_time = 2
 
 ############################# Requests #############################
 
