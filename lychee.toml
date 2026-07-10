@@ -34,7 +34,7 @@ max_retries = 2
 # Wait longer between retries to give slow servers room to recover.
 retry_wait_time = 5
 # Set timeout
-timeoout = 30
+timeout = 30
 
 ############################# Requests #############################
 
