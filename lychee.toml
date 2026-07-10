@@ -33,6 +33,8 @@ max_redirects = 10
 max_retries = 2
 # Wait longer between retries to give slow servers room to recover.
 retry_wait_time = 5
+# Set timeout
+timeoout = 30
 
 ############################# Requests #############################
 
@@ -42,10 +44,8 @@ user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTM
 
 # Accept 200–403 as success. 401/403 are common on bot-protected or
 # auth-walled pages we still want to consider "reachable".
-accept = ["200..=403"]
-
-# Accept timeouts as success
-accept_timeouts = true
+# accept timeouts as well
+accept = ["200..=403", "429"]
 
 # Enable the checking of fragments in links.
 include_fragments = false
