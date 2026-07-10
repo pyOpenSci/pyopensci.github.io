@@ -33,8 +33,6 @@ max_redirects = 10
 max_retries = 2
 # Wait longer between retries to give slow servers room to recover.
 retry_wait_time = 5
-# Generous timeout for slow-but-healthy servers (academic mirrors, DOIs).
-timeout = 45
 
 ############################# Requests #############################
 
