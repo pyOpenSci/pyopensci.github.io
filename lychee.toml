@@ -46,6 +46,9 @@ user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTM
 # auth-walled pages we still want to consider "reachable".
 accept = ["200..=403"]
 
+# Accept timeouts as success
+accept_timeouts = true
+
 # Enable the checking of fragments in links.
 include_fragments = false
 
