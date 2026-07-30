@@ -13,9 +13,11 @@ lastmod: '2026-07-27'
 
 Hi everyone — I’m Shauna Gordon-McKeon, and I’m joining pyOpenSci as Research and Community Lead.
 
-The title covers both research and community work. I’m much more interested in how those overlap than in keeping them separate. Research on scientific open source only works if it’s grounded in community experience — how people actually review packages, onboard volunteers, decide whether a new tool belongs in their workflow, and handle tough problems like conflict, under-resourcing, and burnout. And communities (ours and others) benefit when we treat community problems as something worth studying systematically. As scientists, we can use our skills at noticing patterns, asking questions, and thinking critically about data to help solve the problems facing us.
+This role covers both research and community work. Bringing experience from both domains, I’m interested in how those overlap more than in looking at them separately. Research on scientific open source only works if it’s grounded in community experience — how people actually review packages, onboard volunteers, decide whether a new tool belongs in their workflow, and handle tough problems like conflict, under-resourcing, and burnout. And communities (ours and others) benefit when we treat community problems as something worth studying systematically. As scientists, we can use our skills at noticing patterns, asking questions, and thinking critically about data to help solve the problems facing us.
 
 More concretely: on the research side I’ll be supporting a Sloan Foundation–funded project on how AI tools are showing up in scientific open source. That includes surveys, focus groups, and community review sprints. On the community side I’ll be helping with day-to-day operations — peer review pathways, volunteering, docs, and governance.
+
+# Supporting Communities & Community Governance
 
 Some of you may know me already from the broader Python and open source community. I’ve been coding in Python since 2008 but really dived into open source in 2013, when I was asked to run OpenHatch’s flagship program, [Open Source Comes to Campus](https://blog.openhatch.org/2017/celebrating-our-successes-and-winding-down-as-an-organization/). We went to dozens of college campuses across the country, teaching students the tools and culture of open source and helping them make their first contributions. We also built curricula, guidebooks, and event templates so that local organizers could run the workshops themselves. OpenHatch introduced me to many of the people who became my friends, collaborators, and community in Python. It also taught me that helping people contribute isn’t mainly about finding them a tiny issue. It’s about giving them context, relationships, and room to grow.
 
@@ -27,6 +29,8 @@ That brings me to governance. I’ve spent much of the last several years helpin
 
 I’m really excited to bring these interests and skills to the pyOpenSci community and to learn from all of you as well!
 
+# Research, Open Source, and Effective Workflows
+
 That community work is one half of how I got here. The other half is research.
 
 I actually started in research, not software! I studied social psychology as an undergraduate and joined social neuroimaging labs out of college. That’s where I learned to code — informally, and poorly. (It was years before I learned about version control or unit tests! 😭)
@@ -36,6 +40,8 @@ I stayed connected to research after moving into software. For two years I edite
 I also had the opportunity to work with the late Dr. Mel Chua on a study, [Conceptual Mismatches: What FOSS At-Large might learn from the study of PyPI](https://infrastructureinsights.fund/wp-content/uploads/2025/07/Mismatches-PyPI-final-report-accepted.pdf). That work looked at the conflicting assumptions that software developers and users make, using the Python Packaging Index as a case study. (Mel was an incredible person and a deeply insightful researcher. I highly recommend reading through their work, including their [dissertation](https://www.harihareswara.net/documents/38/mel-chua-doctoral-dissertation-faculty-roles-curricular-change-postmodern-narr_oqDOVSH.pdf) and their [blog archives](http://melchua.org/).)
 
 Anyway! I’m excited to dive into research again, and I am particularly interested in questions around how AI is impacting our work, our communities, and our mental health. I think AI has tremendous potential for both good and ill, and whether it makes our lives better or worse depends on whether we can learn how to understand, communicate, and take responsibility for meeting our own and each other’s needs.
+
+# Jumping In
 
 Okay, that got a bit heavy 😂 so let’s end this with some fun facts about me. I am a huge women’s soccer fan (go Spirit!) and I like to bake [cakes which are shaped like things that are not cake](http://www.shaunagm.net/misc/cakes.html). I have a tabby cat named Tybalt who some of you will probably see (she loves to Zoom-bomb my meetings). She lives with me in Washington, DC.
 
