@@ -17,7 +17,7 @@ This role covers both research and community work. Bringing experience from both
 
 More concretely: on the research side I’ll be supporting a Sloan Foundation–funded project on how AI tools are showing up in scientific open source. That includes surveys, focus groups, and community review sprints. On the community side I’ll be helping with day-to-day operations — peer review pathways, volunteering, docs, and governance.
 
-# Supporting Communities & Community Governance
+## Supporting Communities & Community Governance
 
 Some of you may know me already from the broader Python and open source community. I’ve been coding in Python since 2008 but really dived into open source in 2013, when I was asked to run OpenHatch’s flagship program, [Open Source Comes to Campus](https://blog.openhatch.org/2017/celebrating-our-successes-and-winding-down-as-an-organization/). We went to dozens of college campuses across the country, teaching students the tools and culture of open source and helping them make their first contributions. We also built curricula, guidebooks, and event templates so that local organizers could run the workshops themselves. OpenHatch introduced me to many of the people who became my friends, collaborators, and community in Python. It also taught me that helping people contribute isn’t mainly about finding them a tiny issue. It’s about giving them context, relationships, and room to grow.
 
@@ -29,7 +29,7 @@ That brings me to governance. I’ve spent much of the last several years helpin
 
 I’m really excited to bring these interests and skills to the pyOpenSci community and to learn from all of you as well!
 
-# Research, Open Source, and Effective Workflows
+## Research, Open Source, and Effective Workflows
 
 That community work is one half of how I got here. The other half is research.
 
@@ -41,7 +41,7 @@ I also had the opportunity to work with the late Dr. Mel Chua on a study, [Conce
 
 Anyway! I’m excited to dive into research again, and I am particularly interested in questions around how AI is impacting our work, our communities, and our mental health. I think AI has tremendous potential for both good and ill, and whether it makes our lives better or worse depends on whether we can learn how to understand, communicate, and take responsibility for meeting our own and each other’s needs.
 
-# Jumping In
+## Jumping In
 
 Okay, that got a bit heavy 😂 so let’s end this with some fun facts about me. I am a huge women’s soccer fan (go Spirit!) and I like to bake [cakes which are shaped like things that are not cake](http://www.shaunagm.net/misc/cakes.html). I have a tabby cat named Tybalt who some of you will probably see (she loves to Zoom-bomb my meetings). She lives with me in Washington, DC.
 
