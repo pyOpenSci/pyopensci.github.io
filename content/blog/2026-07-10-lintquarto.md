@@ -13,7 +13,7 @@ image:
   alt: "Person cleaning by a computer. Image source: Unsplash (free to use under the Unsplash Licence) https://unsplash.com/photos/person-in-blue-long-sleeve-shirt-sitting-beside-black-laptop-computer--9gPKrsbGmc."
 ---
 
-If you write Python code inside Quarto Markdown files, you've probably noticed that your linter can't run on it. `lintquarto` fixes that. It is a command-line tool that wraps Python linters, formatters, static type checkers, and code analysis tools so they can run directly on `.qmd` files. It has recently been [accepted into the PyOpenSci ecosystem](https://github.com/pyOpenSci/software-submission/issues/257).
+If you write Python code inside Quarto Markdown files, you've probably noticed that your linter can't run on it. `lintquarto` fixes that. It is a command-line tool that wraps Python linters, formatters, static type checkers, and code analysis tools so they can run directly on `.qmd` files. It has recently been [accepted into the pyOpenSci ecosystem](https://github.com/pyOpenSci/software-submission/issues/257).
 
 ## How `lintquarto` works
 
