@@ -1037,7 +1037,8 @@
   github_username: kysolvik
   github_image_id: 24379590
   title:
-  sort:
+    - Editor in Chief Team
+  sort: 1
   bio:
   organization:
   date_added: '2023-02-24'
@@ -9699,7 +9700,8 @@
   github_image_id: 34322936
   title:
     - Editor
-  sort: 2
+    - Editor in Chief Team
+  sort: 1
   bio: Graduate student at Université de Montréal studying astrophysics.
   organization:
   date_added: '2025-06-16'
@@ -9712,7 +9714,7 @@
   mastodon:
   orcidid:
   partners:
-  website:
+  website: https://crhea93.github.io/
   board: false
   contributor_type:
     - code-contrib
@@ -11157,7 +11159,7 @@
   organization:
   date_added: '2025-10-17'
   deia_advisory: false
-  editorial_board: false
+  editorial_board: true
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
