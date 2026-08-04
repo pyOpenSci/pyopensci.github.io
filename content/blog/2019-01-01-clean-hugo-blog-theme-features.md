@@ -1011,3 +1011,127 @@ Ordered:
 1. Step one
 2. Step two
 3. Step three
+
+## Blog post front matter reference
+
+Every blog post lives in `content/blog/` and starts with a YAML front
+matter block between two `---` lines. Below is every field the theme
+supports, with a comment above each one explaining what it does and
+whether it's required. Remove the comment lines from your own front
+matter when you add a new post.
+
+```yaml
+---
+# Required. Page title. Rendered as the H1 in the hero, on blog cards,
+# and in the browser tab / search results.
+title: "Example blog post title"
+
+# Required. Publish date (YYYY-MM-DD). Controls sort order on the blog
+# index and the date shown in the hero and on cards.
+date: '2026-01-01'
+
+# Required. Must be "blog" so Hugo renders this page with the blog
+# single-post layout and includes it in blog index listings.
+type: blog
+
+# Required. Permalink for this post, set explicitly so URLs match our
+# historical Jekyll URLs rather than an auto-generated slug.
+url: "/blog/example-post-slug.html"
+
+# Required. Short 1-3 sentence summary. Used as the lead paragraph under
+# the hero and as the excerpt shown on blog cards on the index page.
+excerpt: A short summary of the post.
+
+# Required. Author name. Shown in the hero meta line and used for SEO /
+# structured data (article:author, BlogPosting JSON-LD).
+author: Jane Doe
+
+# Required. Topic badge and index filter category. Must match a key
+# defined in data/blog_topics.yml: community | learn | software | updates
+blog_topic: community
+
+# Optional. Shows a sticky "On this page" table of contents built from
+# the post's headings. Omit or set to false to hide it.
+toc: true
+
+# Optional. Date the post content was last substantively updated. Powers
+# the "Last modified" note in the post footer and the SEO
+# article:modified_time tag. Update this whenever you edit an
+# already-published post.
+lastmod: '2026-01-02'
+
+# Optional. Hero and card image. Omit entirely for a plain gradient
+# hero. Posts published before 2025-01-01 without an image are filed
+# into the blog archives section instead of the main grid.
+image:
+  # Path to the image, relative to the images directory.
+  src: images/headers/example-header.png
+  # Accessible alt text describing what the image shows (see the
+  # photography guidelines — not just the subject's placement).
+  alt: Descriptive alt text for the header image.
+  # Optional photo credit line shown near the hero image.
+  credit: Photo by Jane Doe
+
+# Optional. Tag links shown in the post footer, and used for SEO
+# keywords. No current post sets this.
+tags: ["packaging", "community"]
+
+# Optional. Alternate source for the hero gradient color, and the SEO
+# article:section value. No current post sets this.
+category: "Open Education"
+
+# Optional. Shows the author name on blog index cards (off by default).
+show_author: true
+
+# Optional. "Learn more" box rendered after the post content, linking to
+# related pages.
+learn_more:
+  - title: "Packaging guide"
+    url: "/packaging-guide/"
+    icon: "fa-solid fa-book"
+---
+```
+
+A couple of things worth knowing:
+
+* `blog_topic` is a custom parameter backed by `data/blog_topics.yml`,
+  not a Hugo taxonomy — the four valid values are `community`, `learn`,
+  `software`, and `updates`.
+* `excerpt` (the on-page lead text) and `description` (the SEO/Open
+  Graph description) are separate fields. Most posts only set `excerpt`,
+  so their social previews fall back to an auto-generated summary.
+
+### Fully completed example
+
+Here's a real, published post's front matter (["Meet Mandy Moore, pyOpenSci's
+new Communications and Community Lead!"](/blog/mandy-moore-communications-lead.html))
+with the rarely-used fields from above added in, so you can see every
+field filled out at once, with no comments:
+
+```yaml
+---
+title: Meet Juno Dog, pyOpenSci's new Community Lead!
+date: '2025-08-13'
+type: blog
+excerpt: Meet Juno, our new Communications and Community Lead! Juno brings
+  15+ years of experience in sniffing, barking and eating as many treats as possible.
+  Learn more about her here.
+author: Juno Dog
+blog_topic: community
+show_author: true
+category: "Community"
+tags: ["community", "team"]
+toc: true
+comments: true
+url: "/blog/juno-communications.html"
+lastmod: '2025-08-12'
+image:
+  src: images/headers/pyopensci-floral.png
+  alt: Decorative pyOpenSci header with purple botanical artwork and a small Python label
+  credit: pyOpenSci
+learn_more:
+  - title: "Get involved with pyOpenSci"
+    url: "/get-involved/"
+    icon: "fa-solid fa-people-group"
+---
+```
