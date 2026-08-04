@@ -1,0 +1,86 @@
+{{/*
+  "Keep reading" related posts, shown at the end of a blog post.
+  Reuses the same dark "blog-highlight" section and "listing-card
+  listing-card--on-dark" card markup as the home page recent-posts
+  block (see shortcodes/blog-list.html), so styling stays consistent
+  site-wide.
+
+  Selection:
+  1. Posts sharing the current post's blog_topic (data/blog_topics.yml),
+     most recent first.
+  2. If fewer than 3 match, backfill with the most recent remaining
+     posts site-wide until there are 3 (or fewer, if the site doesn't
+     have that many posts).
+
+  Parameters:
+  - "." (context): The current blog post page object
+*/}}
+{{ $page := . }}
+{{ $topic := partial "blog-topic.html" $page }}
+{{ $topicSlug := $topic.slug }}
+
+{{ $allPosts := where site.RegularPages "Type" "blog" }}
+{{ $others := where $allPosts "RelPermalink" "ne" $page.RelPermalink }}
+{{ $others = sort $others "Date" "desc" }}
+
+{{ $related := slice }}
+{{ $usedLinks := slice }}
+
+{{ range $others }}
+  {{ if lt (len $related) 3 }}
+    {{ $otherTopic := partial "blog-topic.html" . }}
+    {{ if eq $otherTopic.slug $topicSlug }}
+      {{ $related = $related | append . }}
+      {{ $usedLinks = $usedLinks | append .RelPermalink }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ if lt (len $related) 3 }}
+  {{ range $others }}
+    {{ if lt (len $related) 3 }}
+      {{ if not (in $usedLinks .RelPermalink) }}
+        {{ $related = $related | append . }}
+        {{ $usedLinks = $usedLinks | append .RelPermalink }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ if gt (len $related) 0 }}
+<section class="blog-post__keep-reading blog-highlight">
+  <div class="container">
+    <div class="intro">
+      <h2>Keep reading</h2>
+    </div>
+
+    <div class="highlight-grid">
+      {{ range $related }}
+        {{ $relatedTopic := partial "blog-topic.html" . }}
+        <article class="listing-card listing-card--on-dark listing-card--density-default">
+          <div class="meta">
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+            {{ with $relatedTopic.label }}
+              <span class="category">{{ . }}</span>
+            {{ end }}
+          </div>
+
+          <div class="content">
+            <h3>
+              <a href="{{ .Permalink }}">{{ .Title }}</a>
+            </h3>
+
+            <p class="excerpt">
+              {{ partial "blog-excerpt.html" (dict "." . "length" 200) }}
+            </p>
+
+            <a href="{{ .Permalink }}" class="read-more">
+              Read more <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

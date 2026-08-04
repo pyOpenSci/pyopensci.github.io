@@ -34,6 +34,8 @@
       {{ partial "last-modified.html" . }}
     </article>
   </div>
+
+  {{ partial "blog-keep-reading.html" . }}
   {{ else }}
   {{ with .Params.excerpt }}
   <div class="blog-post__excerpt">
@@ -55,6 +57,8 @@
     <!-- Last modified date -->
     {{ partial "last-modified.html" . }}
   </article>
+
+  {{ partial "blog-keep-reading.html" . }}
   {{ end }}
 
 {{ if and .Params.toc site.Params.blog.enable_toc }}
