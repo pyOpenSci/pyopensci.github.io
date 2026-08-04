@@ -24,11 +24,11 @@
 
   &:hover,
   &:focus-visible {
-    color: var(--color-primary);
+    color: var(--color-link-on-dark);
   }
 
   &:focus-visible {
-    outline: 2px solid var(--color-primary);
+    outline: 2px solid var(--color-link-on-dark);
     outline-offset: 2px;
     border-radius: $radius-sm;
   }
