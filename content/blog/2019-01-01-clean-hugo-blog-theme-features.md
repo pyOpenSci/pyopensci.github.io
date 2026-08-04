@@ -1014,6 +1014,18 @@ Ordered:
 
 ## Blog post front matter reference
 
+To create a new blog post, you can use the Hugo archetype instead of
+copying an existing post by hand:
+
+```bash
+hugo new content blog/your-post-slug.md
+```
+
+This creates a new file at `content/blog/your-post-slug.md` with all
+of the front matter fields below pre-filled — see
+`themes/clean-hugo/archetypes/blog.md` in the repo for the template
+it's based on.
+
 Every blog post lives in `content/blog/` and starts with a YAML front
 matter block between two `---` lines. Below is every field the theme
 supports, with a comment above each one explaining what it does and

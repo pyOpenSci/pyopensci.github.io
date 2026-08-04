@@ -5,11 +5,31 @@
 If you are interested in contributing to pyOpenSci, please read about
 how we work in [**pyOpenSci's organization-wide contributing guide**](https://www.pyopensci.org/handbook/CONTRIBUTING.html).
 
+## How to add a blog post
+
+Blog posts live in `content/blog/`. Full front matter reference (every
+field, what it does, and a fully filled-out example) lives in
+[clean-hugo theme: blog formatting and shortcode reference](https://www.pyopensci.org/blog/clean-hugo-blog-theme-features.html).
+
+To scaffold a new post, run from the repository root:
+
+```bash
+hugo new content blog/your-post-slug.md
+```
+
+This creates `content/blog/your-post-slug.md` pre-filled with the
+required and recommended front matter fields, based on the archetype
+at `themes/clean-hugo/archetypes/blog.md`. Fill in `title`, `url`,
+`excerpt`, and `blog_topic`, then write the post body in Markdown.
+
+Preview locally with `hugo server --disableFastRender` before opening
+a pull request.
+
 ## Updating blog posts
 
 We have a bash script, `scripts/date-updated.sh`, that walks blog posts and sets
-the `last_modified:` date in front matter from your local git history. It only
-updates posts that already include a `last_modified:` key.
+the `lastmod:` date in front matter from your local git history. It only
+updates posts that already include a `lastmod:` key.
 
 Hugo blog posts live in `content/blog/`.
 
