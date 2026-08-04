@@ -9712,7 +9712,7 @@
   mastodon:
   orcidid:
   partners:
-  website:
+  website: crhea93.github.io
   board: false
   contributor_type:
     - code-contrib
@@ -11157,7 +11157,7 @@
   organization:
   date_added: '2025-10-17'
   deia_advisory: false
-  editorial_board: false
+  editorial_board: true
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
