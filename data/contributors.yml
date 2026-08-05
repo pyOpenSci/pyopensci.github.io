@@ -281,6 +281,7 @@
   contributor_type:
     - leadership
     - package-guide
+    - peer-review-guide
     - web-contrib
   packages_eic:
   packages_editor:
@@ -1212,6 +1213,7 @@
   board: false
   contributor_type:
     - peer-review
+    - peer-review-guide
     - reviewer
   packages_eic:
   packages_editor:
@@ -3953,7 +3955,9 @@
     - astrodata
     - galfitools
     - martini
+    - milespy
     - pyautogalaxy
+    - solar-wavelength-calibration
     - stingray
   packages_submitted:
   packages_reviewed:
@@ -4437,6 +4441,7 @@
     - eic
     - maintainer
     - peer-review
+    - peer-review-guide
     - reviewer
     - submitting-author
     - web-contrib
@@ -5450,6 +5455,7 @@
     - editor
     - eic
     - peer-review
+    - peer-review-guide
     - reviewer
   packages_eic:
     - astropy
@@ -6826,6 +6832,7 @@
   website:
   board: false
   contributor_type:
+    - open-education
     - package-guide
     - web-contrib
   packages_eic:
@@ -9105,6 +9112,7 @@
   contributor_type:
     - community
     - package-guide
+    - peer-review-guide
   packages_eic:
   packages_editor:
   packages_submitted:
@@ -9283,6 +9291,7 @@
   contributor_type:
     - maintainer
     - peer-review
+    - peer-review-guide
     - submitting-author
   packages_eic:
   packages_editor:
@@ -9462,6 +9471,7 @@
   packages_eic:
   packages_editor:
     - neonutilities
+    - nsevdx
   packages_submitted:
   packages_reviewed:
   location: La Plata, Argentina
@@ -9726,11 +9736,16 @@
     - web-contrib
   packages_eic:
     - c4dynamics
+    - milespy
+    - nsevdx
+    - pyhctsa
+    - solar-wavelength-calibration
   packages_editor:
     - astropy
     - blockingpy
     - c4dynamics
     - piva
+    - pyhctsa
     - swiftgalaxy
   packages_submitted:
   packages_reviewed:
@@ -10514,6 +10529,7 @@
   contributor_type:
     - eic
     - peer-review
+    - peer-review-guide
   packages_eic:
     - blockingpy
     - c4dynamics
@@ -10548,11 +10564,15 @@
   website:
   board: false
   contributor_type:
+    - maintainer
     - peer-review
+    - peer-review-guide
     - reviewer
+    - submitting-author
   packages_eic:
   packages_editor:
   packages_submitted:
+    - solar-wavelength-calibration
   packages_reviewed:
     - piva
   location:
@@ -10641,6 +10661,7 @@
   contributor_type:
     - editor
     - peer-review
+    - peer-review-guide
   packages_eic:
   packages_editor:
     - greopy
@@ -10907,6 +10928,7 @@
   website: https://jedbrown.org
   board: false
   contributor_type:
+    - peer-review-guide
     - web-contrib
   packages_eic:
   packages_editor:
@@ -11177,6 +11199,7 @@
   packages_submitted:
   packages_reviewed:
     - blockingpy
+    - nsevdx
   location: Seattle, WA
   email: akrita.ag@gmail.com
 - name: Tymoteusz Strojny
@@ -11417,6 +11440,7 @@
   packages_reviewed:
     - astropy
     - c4dynamics
+    - nsevdx
   location: Bay Area
   email:
 - name:
@@ -11730,6 +11754,7 @@
     - maintainer
     - peer-review
     - submitting-author
+    - web-contrib
   packages_eic:
   packages_editor:
   packages_submitted:
@@ -11766,4 +11791,356 @@
     - c4dynamics
   packages_reviewed:
   location: Israel
+  email:
+- name: Mark W.
+  github_username: zenon18
+  github_image_id: 32108590
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2026-08-05'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - peer-review-guide
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location:
+  email:
+- name: Shauna Gordon-McKeon
+  github_username: shaunagm
+  github_image_id: 1179362
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2026-08-05'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://www.shaunagm.net
+  board: false
+  contributor_type:
+    - web-contrib
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location:
+  email:
+- name:
+  github_username: johoelken
+  github_image_id: 225843429
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2026-08-05'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - solar-wavelength-calibration
+  location:
+  email:
+- name: Hannu Parviainen
+  github_username: hpparvi
+  github_image_id: 327523
+  title:
+  sort:
+  bio: Ramón y Cajal Fellow studying exoplanets in the Instituto de
+      Astrofísica de Canarias.
+  organization: Instituto de Astrofísica de Canarias (IAC)
+  date_added: '2026-08-05'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - solar-wavelength-calibration
+  location: La Laguna, Tenerife, Spain
+  email: hpparvi@gmail.com
+- name: Kristen Larson
+  github_username: krislars
+  github_image_id: 6710382
+  title:
+  sort:
+  bio: Formerly at Western Washington University, now at the National Solar
+      Observatory.
+  organization:
+  date_added: '2026-08-05'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - solar-wavelength-calibration
+  packages_reviewed:
+  location: Denver, CO
+  email: krislars@gmail.com
+- name: Fraser Watson
+  github_username: fraserwatson
+  github_image_id: 10841545
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2026-08-05'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - solar-wavelength-calibration
+  packages_reviewed:
+  location:
+  email:
+- name: Alysa Derks
+  github_username: A-Derks
+  github_image_id: 72944965
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2026-08-05'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+    - reviewer
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - solar-wavelength-calibration
+  packages_reviewed:
+    - milespy
+  location:
+  email:
+- name: Joshua Moore
+  github_username: joshuabmoore
+  github_image_id: 102399896
+  title:
+  sort:
+  bio: USYD PhD candidate
+  organization: '@DynamicsAndNeuralSystems'
+  date_added: '2026-08-05'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://jmoo2880@sydney.edu.au
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+    - submitting-author
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - pyhctsa
+  packages_reviewed:
+  location: School of Physics, The University of Sydney
+  email:
+- name: Ben Fulcher
+  github_username: benfulcher
+  github_image_id: 4446070
+  title:
+  sort:
+  bio: I use methods from physics and statistics to understand the structure
+      and dynamics of complex systems like the brain
+  organization: '@DynamicsAndNeuralSystems'
+  date_added: '2026-08-05'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter: bendfulcher
+  mastodon:
+  orcidid:
+  partners:
+  website: https://www.benfulcher.com
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - pyhctsa
+  packages_reviewed:
+  location: Sydney, Australia
+  email:
+- name: Nischal Kafle
+  github_username: Nischalcs50
+  github_image_id: 70331795
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2026-08-05'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://nischalcs50.github.io/
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+    - submitting-author
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - nsevdx
+  packages_reviewed:
+  location:
+  email:
+- name: Ricky O'Steen
+  github_username: rosteen
+  github_image_id: 39831871
+  title:
+  sort:
+  bio:
+  organization: STScI
+  date_added: '2026-08-05'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - milespy
+  location:
+  email:
+- name: Isaac Alonso
+  github_username: isaac-aa
+  github_image_id: 19895420
+  title:
+  sort:
+  bio: PhD in Astrophysics | Research Software Engineer
+  organization: Instituto de Astrofísica de Canarias
+  date_added: '2026-08-05'
+  deia_advisory: false
+  editorial_board:
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+    - submitting-author
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - milespy
+  packages_reviewed:
+  location:
   email:
