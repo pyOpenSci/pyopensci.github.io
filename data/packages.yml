@@ -1,5 +1,5 @@
 - package_name: solar-wavelength-calibration
-  package_description: Library for computing absolute wavelength calibration 
+  package_description: Library for computing absolute wavelength calibration
       of Solar spectra.
   submitting_author:
       name: Arthur Eigenbrot
@@ -35,7 +35,7 @@
   closed_at:
   issue_link: https://github.com/pyOpenSci/software-submission/issues/283
   joss:
-  partners: 
+  partners:
   gh_meta:
   labels:
     - 5/awaiting-reviewer-response
@@ -43,7 +43,7 @@
     - 7/under-joss-review
   active: true
 - package_name: pyhctsa
-  package_description: Python package for highly comparative time-series 
+  package_description: Python package for highly comparative time-series
       analysis
   submitting_author:
       name: Joshua Moore
@@ -67,9 +67,9 @@
       name: Carter Lee Rhea
       github_username: crhea93
   reviewers:
-    - name: 
+    - name:
       github_username: N/A
-    - name: 
+    - name:
       github_username: N/A
   archive: https://zenodo.org/doi/10.5281/zenodo.20820138
   version_accepted: v1.0.0
@@ -79,7 +79,7 @@
   closed_at:
   issue_link: https://github.com/pyOpenSci/software-submission/issues/282
   joss: https://joss.theoj.org/papers/10.21105/joss.10581
-  partners: 
+  partners:
   gh_meta:
   labels:
     - 6/pyOS-approved
@@ -87,8 +87,8 @@
     - 1/editor-assigned
   active: true
 - package_name: nsEVDx
-  package_description: This package implements both bayesian sampling 
-      techniques and frequentist methods to estimate the parameters of 
+  package_description: This package implements both bayesian sampling
+      techniques and frequentist methods to estimate the parameters of
       non-stationary extreme value distributions
   submitting_author:
       name: Nischal Kafle
@@ -121,14 +121,14 @@
   closed_at:
   issue_link: https://github.com/pyOpenSci/software-submission/issues/265
   joss:
-  partners: 
+  partners:
   gh_meta:
   labels:
     - 6/pyOS-approved
     - 7/under-joss-review
   active: true
 - package_name: lintquarto
-  package_description: Package for running linters, static type checkers and 
+  package_description: Package for running linters, static type checkers and
       code analysis tools on python code in quarto (.qmd) files.
   submitting_author:
       name: Amy Heather
@@ -160,15 +160,15 @@
   closed_at: 2026-07-09 16:03:49+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/257
   joss:
-  partners: 
+  partners:
   gh_meta:
   labels:
     - 6/pyOS-approved
   active: true
 - package_name: ChemInformant
-  package_description: A robust, high-throughput Python client for retrieving 
-      chemical information from the PubChem API; it returns analysis-ready 
-      Pandas/SQL outputs, handles caching, rate-limiting and retries, and 
+  package_description: A robust, high-throughput Python client for retrieving
+      chemical information from the PubChem API; it returns analysis-ready
+      Pandas/SQL outputs, handles caching, rate-limiting and retries, and
       includes convenient CLI tools.
   submitting_author:
       name: Zhiang He
@@ -202,7 +202,7 @@
   closed_at: 2025-10-01 15:35:48+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/254
   joss: https://joss.theoj.org/papers/10.21105/joss.08341
-  partners: 
+  partners:
   gh_meta:
   labels:
     - 6/pyOS-approved
@@ -283,7 +283,7 @@
   closed_at: 2026-01-21 20:08:01+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/250
   joss: https://joss.theoj.org/papers/10.21105/joss.02869
-  partners: 
+  partners:
   gh_meta:
   labels:
     - 6/pyOS-approved
@@ -331,8 +331,8 @@
     - astropy
   active: true
 - package_name: swiftgalaxy
-  package_description: Load in particles of a simulated galaxy, rotate 
-      coordinates, easy spherical/cylindrical coordinates, access integrated 
+  package_description: Load in particles of a simulated galaxy, rotate
+      coordinates, easy spherical/cylindrical coordinates, access integrated
       properties, and more.
   submitting_author:
       name: Kyle Oman
@@ -365,14 +365,14 @@
   closed_at: 2025-12-17 23:09:26+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/244
   joss: https://joss.theoj.org/papers/10.21105/joss.09278
-  partners: 
+  partners:
   gh_meta:
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
   active: true
 - package_name: PyAutoGalaxy
-  package_description: Astronomy software for analysing the morphologies and 
+  package_description: Astronomy software for analysing the morphologies and
       structures of galaxies
   submitting_author:
       name: James Nightingale
@@ -448,7 +448,7 @@
   closed_at: 2026-07-06 17:16:38+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/234
   joss: https://joss.theoj.org/papers/10.21105/joss.08776
-  partners: 
+  partners:
   gh_meta:
   labels:
     - 6/pyOS-approved
@@ -464,7 +464,7 @@
       github_username: syedalimohsinbukhari
   repository_link: https://github.com/syedalimohsinbukhari/pyMultiFit
   repository_host: github
-  version_submitted: ~v1.0.3~ 
+  version_submitted: ~v1.0.3~
       [v1.0.6](https://github.com/syedalimohsinbukhari/pyMultiFit/releases/tag/v1.0.6)
   categories:
     - data-processing-munging
@@ -487,14 +487,14 @@
   closed_at: 2025-11-05 10:09:46+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/233
   joss: https://joss.theoj.org/papers/10.21105/joss.09295
-  partners: 
+  partners:
   gh_meta:
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
   active: true
 - package_name: BlockingPy
-  package_description: Blocking records for record linkage and deduplication 
+  package_description: Blocking records for record linkage and deduplication
       with Approximate Nearest Neighbor algorithms.;
   submitting_author:
       name: Tymoteusz Strojny
@@ -528,13 +528,13 @@
   closed_at: 2026-04-13 22:09:55+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/232
   joss:
-  partners: 
+  partners:
   gh_meta:
   labels:
     - 6/pyOS-approved
   active: true
 - package_name: PIVA
-  package_description: Visualization and analysis toolkit for experimental 
+  package_description: Visualization and analysis toolkit for experimental
       data from Angle-Resolved Photoemission Spectroscopy (ARPES)
   submitting_author:
       name: Wojciech Radoslaw Pudelko
@@ -567,7 +567,7 @@
   closed_at: 2025-10-06 13:10:53+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/231
   joss: https://joss.theoj.org/papers/10.21105/joss.09129
-  partners: 
+  partners:
   gh_meta:
   labels:
     - 6/pyOS-approved
@@ -606,14 +606,14 @@
   closed_at: 2025-10-07 18:05:53+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/227
   joss: https://joss.theoj.org/papers/10.21105/joss.08765
-  partners: 
+  partners:
   gh_meta:
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
   active: true
 - package_name: tda-mapper
-  package_description: A Python library implementing the Mapper algorithm for 
+  package_description: A Python library implementing the Mapper algorithm for
       Topological Data Analysis.
   submitting_author:
       name: Luca Simi
@@ -644,13 +644,13 @@
   closed_at: 2026-05-22 04:01:44+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/222
   joss:
-  partners: 
+  partners:
   gh_meta:
   labels:
     - 6/pyOS-approved
   active: true
 - package_name: GALFITools
-  package_description: A library for efficient data processing customized for 
+  package_description: A library for efficient data processing customized for
       the GALFIT package
   submitting_author:
       name: Chris Añorve
@@ -695,7 +695,7 @@
     - astropy
   active: true
 - package_name: GALAssify
-  package_description: A Python package for visually classifying astronomical 
+  package_description: A Python package for visually classifying astronomical
       objects
   submitting_author:
       name: Manuel Alcázar-Laynez
@@ -730,14 +730,14 @@
   closed_at: 2025-12-10 03:33:49+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/214
   joss:
-  partners: 
+  partners:
   gh_meta:
   labels:
     - 6/pyOS-approved
   active: true
 - package_name: neonutilities
-  package_description: neonutilities is a package for accessing and wrangling 
-      data generated and published by the National Ecological Observatory 
+  package_description: neonutilities is a package for accessing and wrangling
+      data generated and published by the National Ecological Observatory
       Network.
   submitting_author:
       name: Claire Lunch
@@ -774,13 +774,13 @@
   closed_at: 2025-05-30 16:31:22+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/213
   joss:
-  partners: 
+  partners:
   gh_meta:
   labels:
     - 6/pyOS-approved
   active: true
 - package_name: FElupe
-  package_description: Finite element analysis for continuum mechanics of 
+  package_description: Finite element analysis for continuum mechanics of
       solid bodies.
   submitting_author:
       name: Andreas Dutzler
@@ -815,14 +815,14 @@
   closed_at: 2025-11-17 22:40:18+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/212
   joss: https://joss.theoj.org/papers/10.21105/joss.09160
-  partners: 
+  partners:
   gh_meta:
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
   active: true
 - package_name: Solar Data Tools
-  package_description: Library of tools for analyzing photovoltaic power 
+  package_description: Library of tools for analyzing photovoltaic power
       time-series data.
   submitting_author:
       name: Sara Miskovich
@@ -861,14 +861,14 @@
   closed_at: 2025-06-27 21:22:44+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/210
   joss: https://joss.theoj.org/papers/10.21105/joss.08478
-  partners: 
+  partners:
   gh_meta:
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
   active: true
 - package_name: THzTools
-  package_description: Data analysis software tools for terahertz time-domain 
+  package_description: Data analysis software tools for terahertz time-domain
       spectroscopy (THz-TDS)
   submitting_author:
       name: J. Steven Dodge
@@ -900,14 +900,14 @@
   closed_at: 2024-12-03 02:41:20+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/209
   joss: https://joss.theoj.org/papers/10.21105/joss.07542
-  partners: 
+  partners:
   gh_meta:
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
   active: true
 - package_name: MontePy
-  package_description: MontePy is a python library for reading, editing, and 
+  package_description: MontePy is a python library for reading, editing, and
       writing MCNP input files.
   submitting_author:
       name: Micah Gale
@@ -942,7 +942,7 @@
   closed_at: 2025-04-30 19:12:35+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/205
   joss: https://joss.theoj.org/papers/10.21105/joss.07951
-  partners: 
+  partners:
   gh_meta:
   labels:
     - 6/pyOS-approved
@@ -982,13 +982,13 @@
   closed_at: 2025-07-29 22:16:20+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/202
   joss:
-  partners: 
+  partners:
   gh_meta:
   labels:
     - 6/pyOS-approved
   active: true
 - package_name: Stingray
-  package_description: A spectral-timing software package for astrophysical 
+  package_description: A spectral-timing software package for astrophysical
       X-ray (and other) data
   submitting_author:
       name: Matteo Bachetti
@@ -1120,8 +1120,8 @@
     - astropy
   active: true
 - package_name: QuadratiK
-  package_description: QuadratiK includes test for multivariate normality, 
-      test for uniformity on the sphere, non-parametric two- and k-sample 
+  package_description: QuadratiK includes test for multivariate normality,
+      test for uniformity on the sphere, non-parametric two- and k-sample
       tests, random generation of points from the Poisson kernel-based density
       and clustering algorithm for spherical data.
   submitting_author:
@@ -1156,7 +1156,7 @@
   closed_at: 2025-02-27 20:45:41+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/180
   joss:
-  partners: 
+  partners:
   gh_meta:
   labels:
     - 6/pyOS-approved
@@ -1200,13 +1200,13 @@
   closed_at: 2025-02-17 18:52:18+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/179
   joss:
-  partners: 
+  partners:
   gh_meta:
   labels:
     - 6/pyOS-approved
   active: true
 - package_name: CyNetDiff
-  package_description: A performance-focused library implementing algorithms 
+  package_description: A performance-focused library implementing algorithms
       for simulating network diffusion processes, written in Cython.
   submitting_author:
       name: Name
@@ -1242,13 +1242,13 @@
   closed_at: 2025-09-03 00:17:41+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/175
   joss: https://zenodo.org/doi/10.5281/zenodo.10801503
-  partners: 
+  partners:
   gh_meta:
   labels:
     - 6/pyOS-approved
   active: true
 - package_name: AMS
-  package_description: Power system dispatch modeling and dispatch-dynamic 
+  package_description: Power system dispatch modeling and dispatch-dynamic
       co-simulation.
   submitting_author:
       name: Jinning Wang
@@ -1284,13 +1284,13 @@
   closed_at: 2025-11-14 02:04:35+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/174
   joss:
-  partners: 
+  partners:
   gh_meta:
   labels:
     - 6/pyOS-approved
   active: true
 - package_name: pooltool
-  package_description: Pooltool is a general purpose billiards simulator 
+  package_description: Pooltool is a general purpose billiards simulator
       crafted specifically for science and engineering.
   submitting_author:
       name: Evan Kiefl
@@ -1323,15 +1323,15 @@
   closed_at: 2024-10-01 11:51:34+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/173
   joss: https://joss.theoj.org/papers/10.21105/joss.07301
-  partners: 
+  partners:
   gh_meta:
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
   active: true
 - package_name: martini
-  package_description: MARTINI is a modular package for the creation of 
-      synthetic resolved HI line observations (data cubes) of 
+  package_description: MARTINI is a modular package for the creation of
+      synthetic resolved HI line observations (data cubes) of
       smoothed-particle hydrodynamics simulations of galaxies.
   submitting_author:
       name: Kyle Oman
@@ -1418,7 +1418,7 @@
     - astropy
   active: true
 - package_name: plot_phylo
-  package_description: A Python package to plot a phylogenetic tree on an 
+  package_description: A Python package to plot a phylogenetic tree on an
       existing Matplotlib axis.
   submitting_author:
       name: Katy Brown
@@ -1451,15 +1451,15 @@
   closed_at: 2025-03-19 21:22:05+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/160
   joss:
-  partners: 
+  partners:
   gh_meta:
   labels:
     - 6/pyOS-approved
   active: true
 - package_name: PetroFit
-  package_description: The PetroFit Project is an open-source effort to 
-      develop end-to-end tools for making accurate photometric measurements, 
-      estimating morphological properties, and fitting 2D models to galaxy 
+  package_description: The PetroFit Project is an open-source effort to
+      develop end-to-end tools for making accurate photometric measurements,
+      estimating morphological properties, and fitting 2D models to galaxy
       images.
   submitting_author:
       name: Robel Geda
@@ -1501,7 +1501,7 @@
     - astropy
   active: true
 - package_name: harmonize-wq
-  package_description: Standardize, clean, and wrangle Water Quality Portal 
+  package_description: Standardize, clean, and wrangle Water Quality Portal
       data into more analytic-ready formats
   submitting_author:
       name: Justin Bousquin
@@ -1533,14 +1533,14 @@
   closed_at: 2025-02-06 17:12:02+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/157
   joss: https://joss.theoj.org/papers/10.21105/joss.07305
-  partners: 
+  partners:
   gh_meta:
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
   active: true
 - package_name: xnemogcm
-  package_description: Interface to open NEMO global circulation model output 
+  package_description: Interface to open NEMO global circulation model output
       dataset with xarray and create a xgcm grid.
   submitting_author:
       name: Romain Caneill
@@ -1570,13 +1570,13 @@
   closed_at: 2024-04-18 10:12:09+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/155
   joss:
-  partners: 
+  partners:
   gh_meta:
   labels:
     - 6/pyOS-approved
   active: true
 - package_name: automata
-  package_description: A Python library for simulating finite automata, 
+  package_description: A Python library for simulating finite automata,
       pushdown automata, and Turing machines.
   submitting_author:
       name: Eliot Robson
@@ -1606,9 +1606,9 @@
     - name: Nima Sarajpoor
       github_username: NimaSarajpoor
   archive: https://zenodo.org/doi/10.5281/zenodo.10864492
-  version_accepted: 8.4.0 
-      ([repo](https://github.com/caleb531/automata/releases/tag/v8.4.0), 
-      [pypi](https://pypi.org/project/automata-lib/8.4.0/), 
+  version_accepted: 8.4.0
+      ([repo](https://github.com/caleb531/automata/releases/tag/v8.4.0),
+      [pypi](https://pypi.org/project/automata-lib/8.4.0/),
       [archive](https://zenodo.org/records/12594180))
   date_accepted: '2024-06-29'
   created_at: 2023-12-31 02:23:34+00:00
@@ -1616,13 +1616,13 @@
   closed_at: 2024-08-01 19:14:27+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/152
   joss:
-  partners: 
+  partners:
   gh_meta:
   labels:
     - 6/pyOS-approved
   active: true
 - package_name: Plenoptic
-  package_description: a python library for model-based synthesis of 
+  package_description: a python library for model-based synthesis of
       perceptual stimuli
   submitting_author:
       name: Billy Broderick
@@ -1633,7 +1633,7 @@
   repository_link: https://github.com/plenoptic-org/plenoptic
   repository_host: github
   version_submitted: v1.0.2
-  categories: 
+  categories:
   editor:
     - name: Jonny Saunders
       github_username: sneakers-the-rat
@@ -1655,7 +1655,7 @@
   closed_at:
   issue_link: https://github.com/pyOpenSci/software-submission/issues/150
   joss:
-  partners: 
+  partners:
   gh_meta:
   labels:
     - 6/pyOS-approved
@@ -1693,7 +1693,7 @@
   closed_at: 2024-06-06 08:29:04+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/149
   joss: https://joss.theoj.org/papers/10.21105/joss.05221
-  partners: 
+  partners:
   gh_meta:
   labels:
     - 6/pyOS-approved
@@ -1758,7 +1758,7 @@
   closed_at: 2024-01-27 23:05:39+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/147
   joss: https://joss.theoj.org/papers/10.21105/joss.01832
-  partners: 
+  partners:
   gh_meta:
   labels:
     - 6/pyOS-approved
@@ -1797,7 +1797,7 @@
   closed_at: 2024-06-12 15:48:36+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/146
   joss: https://joss.theoj.org/papers/10.21105/joss.06490
-  partners: 
+  partners:
   gh_meta:
   labels:
     - 6/pyOS-approved
@@ -1835,14 +1835,14 @@
   closed_at: 2025-02-21 20:20:59+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/144
   joss: https://joss.theoj.org/papers/10.21105/joss.07540
-  partners: 
+  partners:
   gh_meta:
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
   active: true
 - package_name: EOmaps
-  package_description: EOmaps is a python package to visualize, analyze and 
+  package_description: EOmaps is a python package to visualize, analyze and
       compare geographical datasets.
   submitting_author:
       name: Raphael Quast
@@ -1874,7 +1874,7 @@
   closed_at: 2024-03-20 05:56:50+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/138
   joss:
-  partners: 
+  partners:
   gh_meta:
   labels:
     - 6/pyOS-approved
@@ -1915,15 +1915,15 @@
   closed_at: 2024-07-22 20:13:57+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/129
   joss: https://joss.theoj.org/papers/10.21105/joss.06830
-  partners: 
+  partners:
   gh_meta:
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
   active: true
 - package_name: Sciform
-  package_description: A package for converting python numbers (floats, 
-      Decimals) into scientific-formatted strings more suitable for reading 
+  package_description: A package for converting python numbers (floats,
+      Decimals) into scientific-formatted strings more suitable for reading
       and presentation.
   submitting_author:
       name: Justin Gerber
@@ -1953,7 +1953,7 @@
   closed_at: 2024-05-02 16:42:00+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/121
   joss:
-  partners: 
+  partners:
   gh_meta:
   labels:
     - 6/pyOS-approved
@@ -1970,7 +1970,7 @@
       github_username: himaghna
   repository_link: https://github.com/JacksonBurns/astartes
   repository_host: github
-  version_submitted: 
+  version_submitted:
       v[1.1.2](https://github.com/JacksonBurns/astartes/releases/tag/v1.1.2)
   categories:
     - data-processing-munging
@@ -1984,7 +1984,7 @@
     - name: Du Phan
       github_username: du-phan
   archive: https://zenodo.org/record/8431894
-  version_accepted: 
+  version_accepted:
       v[1.1.3](https://github.com/JacksonBurns/astartes/releases/tag/v1.1.3)
   date_accepted: '2023-10-15'
   created_at: 2023-07-10 22:12:51+00:00
@@ -1992,7 +1992,7 @@
   closed_at: 2023-11-12 21:12:16+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/120
   joss: https://joss.theoj.org/papers/10.21105/joss.05996
-  partners: 
+  partners:
   gh_meta:
   labels:
     - 6/pyOS-approved
@@ -2044,7 +2044,7 @@
   closed_at: 2023-10-23 07:38:27+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/115
   joss: https://joss.theoj.org/papers/10.21105/joss.05162
-  partners: 
+  partners:
   gh_meta:
   labels:
     - 6/pyOS-approved
@@ -2088,7 +2088,7 @@
   closed_at: 2023-11-28 18:03:51+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/110
   joss:
-  partners: 
+  partners:
   gh_meta:
   labels:
     - 6/pyOS-approved
@@ -2119,7 +2119,7 @@
     - name:
       github_username: khynder
   archive: https://zenodo.org/record/8214655
-  version_accepted: v 
+  version_accepted: v
       [0.2.36](https://github.com/katoss/cardsort/releases/tag/v0.2.36)
   date_accepted: '2023-08-16'
   created_at: 2023-04-20 11:29:27+00:00
@@ -2127,15 +2127,15 @@
   closed_at: 2023-08-23 08:21:12+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/102
   joss:
-  partners: 
+  partners:
   gh_meta:
   labels:
     - 6/pyOS-approved
   active: true
 - package_name: afscgap
-  package_description: Community contributed Python-based tools for working 
-      with public bottom trawl surveys data from the NOAA Alaska Fisheries 
-      Science Center Groundfish Assessment Program ([NOAA AFSC 
+  package_description: Community contributed Python-based tools for working
+      with public bottom trawl surveys data from the NOAA Alaska Fisheries
+      Science Center Groundfish Assessment Program ([NOAA AFSC
       GAP](https://www.fisheries.noaa.gov/contact/groundfish-assessment-program)).
   submitting_author:
       name: Sam Pottinger
@@ -2169,7 +2169,7 @@
   closed_at: 2023-06-28 19:06:00+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/93
   joss: https://joss.theoj.org/papers/10.21105/joss.05593
-  partners: 
+  partners:
   gh_meta:
   labels:
     - 6/pyOS-approved
@@ -2209,14 +2209,14 @@
   closed_at: 2023-07-12 14:22:46+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/84
   joss: https://joss.theoj.org/papers/10.21105/joss.05627
-  partners: 
+  partners:
   gh_meta:
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
   active: true
 - package_name: bibat
-  package_description: An interactive template for Bayesian statistical 
+  package_description: An interactive template for Bayesian statistical
       analysis projects
   submitting_author:
       name: Teddy Groves
@@ -2336,7 +2336,7 @@
     - Pangeo
   active: true
 - package_name: crowsetta
-  package_description: A Python tool to work with any format for annotating 
+  package_description: A Python tool to work with any format for annotating
       animal vocalizations and bioacoustics data.
   submitting_author:
       name: David Nicholson
@@ -2363,7 +2363,7 @@
     - name: Sylvain HAUPERT
       github_username: shaupert
   archive: https://zenodo.org/badge/latestdoi/159904494
-  version_accepted: v 
+  version_accepted: v
       [5.0](https://github.com/vocalpy/crowsetta/releases/tag/5.0.0)
   date_accepted: '2023-03-28'
   created_at: 2023-01-03 19:39:16+00:00
@@ -2378,7 +2378,7 @@
     - 9/joss-approved
   active: true
 - package_name: Pynteny
-  package_description: Query sequence database by HMMs arranged in predefined 
+  package_description: Query sequence database by HMMs arranged in predefined
       synteny structure
   submitting_author:
       name: Semidán Robaina
@@ -2417,7 +2417,7 @@
     - 9/joss-approved
   active: true
 - package_name: Jointly
-  package_description: Jointly is a python package for synchronizing sensors 
+  package_description: Jointly is a python package for synchronizing sensors
       with accelerometer data
   submitting_author:
       name: Arne Herdick
@@ -2474,7 +2474,7 @@
       github_username: yvonnefroehlich
   repository_link: https://github.com/GenericMappingTools/pygmt
   repository_host: github
-  version_submitted: 
+  version_submitted:
   categories:
     - data-munging
     - data-visualization
@@ -2502,7 +2502,7 @@
     - 6/pyOS-approved
   active: true
 - package_name: Devicely
-  package_description: A Python package for reading, timeshifting and writing 
+  package_description: A Python package for reading, timeshifting and writing
       sensor data
   submitting_author:
       name: Ariane Sasso
@@ -2565,7 +2565,7 @@
     - name: Katharina Sielemann
       github_username: ksielemann
   archive: https://zenodo.org/record/4731011
-  version_accepted: v 
+  version_accepted: v
       [0.8.8](https://github.com/JonnyTran/OpenOmics/releases/tag/v0.8.8)
   date_accepted: '2021-04-17'
   created_at: 2021-01-01 19:54:20+00:00
@@ -2605,7 +2605,7 @@
     - name: Leonardo de Oliveira Martins
       github_username: leomrtns
   archive: https://zenodo.org/record/5512990
-  version_accepted: v 
+  version_accepted: v
       [1.0](https://github.com/McTavishLab/physcraper/releases/tag/v1.0.0)
   date_accepted: '2021-09-14'
   created_at: 2020-07-15 22:31:52+00:00
@@ -2619,7 +2619,7 @@
     - 6/pyOS-approved
   active: true
 - package_name: pystiche
-  package_description: Framework for Neural Style Transfer (NST) built upon 
+  package_description: Framework for Neural Style Transfer (NST) built upon
       PyTorch
   submitting_author:
       name: Philip Meier
@@ -2642,7 +2642,7 @@
     - name: Soumith Chintala
       github_username: soumith
   archive: https://zenodo.org/record/4073515
-  version_accepted: v 
+  version_accepted: v
       [0.6.0](https://github.com/pystiche/pystiche/releases/tag/v0.6.0)
   date_accepted: '2020-10-08'
   created_at: 2020-07-02 12:57:08+00:00
@@ -2693,7 +2693,7 @@
     - 6/pyOS-approved
   active: true
 - package_name: pyrolite
-  package_description: A set of tools for getting the most from your 
+  package_description: A set of tools for getting the most from your
       geochemical data.
   submitting_author:
       name: Morgan Williams
@@ -2719,7 +2719,7 @@
     - name: Charles Le Losq
       github_username: charlesll
   archive: https://zenodo.org/record/3877690
-  version_accepted: v 
+  version_accepted: v
       [0.2.7](https://github.com/morganjwilliams/pyrolite/releases/tag/0.2.7)
   date_accepted: '2020-06-04'
   created_at: 2020-02-19 04:54:35+00:00
@@ -2734,7 +2734,7 @@
     - 9/joss-approved
   active: true
 - package_name: MovingPandas
-  package_description: Trajectory classes and functions built on top of 
+  package_description: Trajectory classes and functions built on top of
       GeoPandas
   submitting_author:
       name: Anita Graser
@@ -2758,7 +2758,7 @@
     - name: Martin Fleischmann
       github_username: martinfleis
   archive: https://zenodo.org/record/3710951
-  version_accepted: v 
+  version_accepted: v
       [0.3.rc1](https://github.com/movingpandas/movingpandas/releases/tag/v0.3.rc1)
   date_accepted: '2020-03-19'
   created_at: 2020-01-06 17:13:27+00:00
@@ -2772,7 +2772,7 @@
     - 6/pyOS-approved
   active: true
 - package_name: pandera
-  package_description: validate the types, properties, and statistics of 
+  package_description: validate the types, properties, and statistics of
       pandas data structures
   submitting_author:
       name: Niels Bantilan
@@ -2809,7 +2809,7 @@
     - 6/pyOS-approved
   active: true
 - package_name: Nbless
-  package_description: Construct, deconstruct, convert, execute, & prepare 
+  package_description: Construct, deconstruct, convert, execute, & prepare
       slides from Jupyter notebooks
   submitting_author:
       name: Martin Skarzynski
@@ -2847,7 +2847,7 @@
     - archived
   active: false
 - package_name: earthpy
-  package_description: A package built to support working with spatial data 
+  package_description: A package built to support working with spatial data
       using open source python
   submitting_author:
       name: Leah Wasser
@@ -2878,7 +2878,7 @@
     - name: Sean Gillies
       github_username: sgillies
   archive: https://zenodo.org/record/3520899
-  version_accepted: v 
+  version_accepted: v
       [0.7.5](https://github.com/earthlab/earthpy/releases/tag/v0.7.5)
   date_accepted: '2019-11-06'
   created_at: 2019-05-08 15:02:14+00:00
