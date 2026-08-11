@@ -628,7 +628,9 @@
     - submitting-author
     - web-contrib
   packages_eic:
+    - eomaps
     - ncompare
+    - rdata
     - sleplet
   packages_editor:
     - openomics
@@ -673,6 +675,7 @@
     - peer-review-guide
     - reviewer
   packages_eic:
+    - crowsetta
     - felupe
     - montepy
     - neonutilities
@@ -836,6 +839,7 @@
     - web-contrib
   packages_eic:
     - ams
+    - astrodata
     - cynetdiff
     - fluidimage
     - great tables
@@ -11801,7 +11805,7 @@
   organization:
   date_added: '2026-08-05'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -11828,7 +11832,7 @@
   organization:
   date_added: '2026-08-05'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -11855,7 +11859,7 @@
   organization:
   date_added: '2026-08-05'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -11885,7 +11889,7 @@
   organization: Instituto de Astrofísica de Canarias (IAC)
   date_added: '2026-08-05'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -11915,7 +11919,7 @@
   organization:
   date_added: '2026-08-05'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -11944,7 +11948,7 @@
   organization:
   date_added: '2026-08-05'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -11973,7 +11977,7 @@
   organization:
   date_added: '2026-08-05'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -12004,7 +12008,7 @@
   organization: '@DynamicsAndNeuralSystems'
   date_added: '2026-08-05'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -12035,7 +12039,7 @@
   organization: '@DynamicsAndNeuralSystems'
   date_added: '2026-08-05'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -12064,7 +12068,7 @@
   organization:
   date_added: '2026-08-05'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -12094,7 +12098,7 @@
   organization: STScI
   date_added: '2026-08-05'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -12123,7 +12127,7 @@
   organization: Instituto de Astrofísica de Canarias
   date_added: '2026-08-05'
   deia_advisory: false
-  editorial_board:
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
