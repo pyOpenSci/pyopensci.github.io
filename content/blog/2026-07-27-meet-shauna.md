@@ -1,6 +1,6 @@
 ---
 title: Hello from Shauna — joining pyOpenSci as Research and Community Lead
-date: '2026-07-27'
+date: '2026-08-17'
 type: blog
 excerpt: Meet Shauna Gordon-McKeon, our new Research and Community Lead! A longtime member of the Python and open science communities, she’ll support peer review and community operations alongside research on how AI tools are changing scientific open source. Learn more about her work and story in this post.
 author: Shauna Gordon-McKeon
@@ -8,7 +8,11 @@ blog_topic: community
 toc: true
 comments: true
 url: "/blog/shauna-gordon-mckeon-research-and-community-lead.html"
-lastmod: '2026-07-27'
+lastmod: '2026-08-17'
+image:
+  src: images/blog/2026/shaunagordonmckeon.png
+  alt: Headshot of Shauna Gordon-McKeon, a white woman with long brown hair in a purple-blue shirt, standing in front of a brick wall
+  credit: photo by Nick Taft
 ---
 
 Hi everyone — I’m Shauna Gordon-McKeon, and I’m joining pyOpenSci as Research and Community Lead.
