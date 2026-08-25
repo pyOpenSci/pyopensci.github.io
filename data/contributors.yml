@@ -2,6 +2,8 @@
   github_username: lwasser
   github_image_id: 7649194
   title:
+    - Editor
+    - Peer Review Triage
     - Executive Director & Founder
     - Emeritus editor
   sort: 1
@@ -9,8 +11,8 @@
       @pyOpenSci
   organization: pyOpenSci
   date_added: '2019-10-10'
-  editorial_board: false
-  emeritus_editor: true
+  editorial_board: true
+  emeritus_editor: false
   advisory: false
   emeritus_advisory: false
   twitter: leahawasser
@@ -313,6 +315,7 @@
   github_username: xmnlab
   github_image_id: 5209757
   title:
+    - Emeritus Editor
     - Advisory Council
     - Emeritus editor
   sort:
@@ -357,15 +360,15 @@
   github_username: ocefpaf
   github_image_id: 950575
   title:
+    - Emeritus Editor
     - Advisory Council
-    - Editor
   sort:
   bio: Filipe Fernandes is a Physical oceanographer by training, turned
       research software engineer, and a software packager hobbyist.
   organization:
   date_added: '2019-10-17'
-  editorial_board: true
-  emeritus_editor: false
+  editorial_board: false
+  emeritus_editor: true
   advisory: true
   emeritus_advisory: false
   twitter: ocefpaf
@@ -540,8 +543,7 @@
 - name: Ariane Sasso
   github_username: arianesasso
   github_image_id: 3659681
-  title:
-    - Emeritus Editor
+  title: Emeritus Editor
   sort: 3
   bio: Researcher in Medical Informatics and Digital Health ⌚ 👩‍💻 🧬
   organization: '@hpi-dhc'
@@ -578,17 +580,15 @@
 - name: David Nicholson
   github_username: NickleDave
   github_image_id: 11934090
-  title:
-    - Emeritus Editor in Chief
-    - Editor
+  title: Emeritus Editor in Chief
   sort: 2
   bio: ML, AI; behavior + cog + neuro. Open + inclusive science. Pythonista.
       He/him/they/them. Habla espanglish y baila salsa y bachata a medio
       tiempo.
   organization:
   date_added: '2019-12-10'
-  editorial_board: true
-  emeritus_editor: false
+  editorial_board: false
+  emeritus_editor: true
   advisory: false
   emeritus_advisory: false
   twitter: nicholdav
@@ -627,10 +627,7 @@
 - name: Chiara Marmo
   github_username: cmarmo
   github_image_id: 1662261
-  title:
-    - Emeritus Editor in Chief
-    - Emeritus Editor
-    - Peer review triage
+  title: Emeritus Editor in Chief
   sort:
   bio:
   organization:
@@ -711,13 +708,13 @@
 - name: Szymon Moliński
   github_username: SimonMolinsky
   github_image_id: 31246246
-  title: Editor
+  title: Emeritus Editor
   sort: 2
   bio: GIS, remote sensing, machine learning, time-series and spatial
   organization: Sare
   date_added: '2022-09-16'
-  editorial_board: true
-  emeritus_editor: false
+  editorial_board: false
+  emeritus_editor: true
   advisory: false
   emeritus_advisory: false
   twitter:
@@ -753,8 +750,7 @@
 - name: Anita Graser
   github_username: anitagraser
   github_image_id: 590385
-  title:
-    - Emeritus Editor
+  title: Emeritus Editor
   sort: 3
   bio: Spatial data science with a focus on mobility & data quality
   organization:
@@ -787,7 +783,7 @@
   github_username: Batalex
   github_image_id: 11004857
   title:
-    - Emeritus Editor in Chief
+    - Emeritus Editor
     - EmeritusEditor
   sort: 2
   bio:
@@ -870,6 +866,7 @@
   github_username: luizirber
   github_image_id: 6642
   title:
+    - Emeritus Editor
     - Emeritus editor
   sort:
   bio: 'CS PhD @ucdavis,Rustacean and Pythonista.Previously: @dib-lab'
@@ -1012,12 +1009,14 @@
   github_username: kysolvik
   github_image_id: 24379590
   title:
+    - Editor
+    - Editor in Chief
     - Editor in Chief Team
   sort: 1
   bio:
   organization:
   date_added: '2023-02-24'
-  editorial_board: false
+  editorial_board: true
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -1163,13 +1162,12 @@
 - name: Rohit Goswami
   github_username: HaoZeke
   github_image_id: 4336207
-  title:
-    - Editor
+  title: Editor
   sort:
   bio:
   organization: '@Quansight-Labs, @TheochemUI'
   date_added: '2019-12-10'
-  editorial_board: false
+  editorial_board: true
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -1183,6 +1181,7 @@
     - peer-review
     - peer-review-guide
     - reviewer
+    - editor
   packages_eic:
   packages_editor:
   packages_submitted:
@@ -3032,13 +3031,13 @@
 - name: Tom Russell
   github_username: tomalrussell
   github_image_id: 2762769
-  title: Editor
+  title: Emeritus Editor
   sort: 2
   bio: Research software person. Work @nismod, tech lead @colouring-cities
   organization: University of Oxford
   date_added: '2023-04-18'
-  editorial_board: true
-  emeritus_editor: false
+  editorial_board: false
+  emeritus_editor: true
   advisory: false
   emeritus_advisory: false
   twitter: tlrss
@@ -3803,8 +3802,7 @@
 - name: Hans Moritz Günther
   github_username: hamogu
   github_image_id: 498688
-  title:
-    - Editor
+  title: Editor
   sort: 2
   bio:
   organization: MIT
@@ -4235,9 +4233,7 @@
 - name: Isabel Zimmerman
   github_username: isabelizimm
   github_image_id: 54685329
-  title:
-    - Emeritus Editor in Chief
-    - Emeritus Editor
+  title: Emeritus Editor in Chief
   sort: 2
   bio:
   organization: '@rstudio'
@@ -4280,16 +4276,13 @@
 - name: Eliot Robson
   github_username: eliotwrobson
   github_image_id: 1345068
-  title:
-    - Peer Review Lead
-    - Editor
-    - Emeritus Editor in Chief
+  title: Emeritus Editor
   sort: 0
   bio: I'm just this guy, you know?
   organization: UIUC
   date_added: '2023-09-11'
-  editorial_board: true
-  emeritus_editor: false
+  editorial_board: false
+  emeritus_editor: true
   advisory: false
   emeritus_advisory: false
   twitter: eliotdexter
@@ -5204,7 +5197,7 @@
 - name: Sebastian Lobentanzer
   github_username: slobentanzer
   github_image_id: 13223629
-  title:
+  title: Editor
   sort: 2
   bio:
   organization:
@@ -5226,6 +5219,7 @@
     - peer-review
     - submitting-author
     - web-contrib
+    - editor
   packages_eic:
   packages_editor:
   packages_submitted:
@@ -5264,7 +5258,7 @@
   github_image_id: 12127746
   title:
     - Editor
-    - Editor in Chief
+    - Emeritus Editor in Chief
   sort: 1
   bio:
   organization:
@@ -5298,13 +5292,13 @@
 - name: Bane Sullivan
   github_username: banesullivan
   github_image_id: 22067021
-  title: Editor
+  title: Emeritus Editor
   sort: 2
   bio:
   organization:
   date_added: '2023-12-27'
-  editorial_board: true
-  emeritus_editor: false
+  editorial_board: false
+  emeritus_editor: true
   advisory: false
   emeritus_advisory: false
   twitter:
@@ -5981,12 +5975,11 @@
   github_username: dhomeier
   github_image_id: 709020
   title:
-    - Editor
   sort: 2
   bio:
   organization:
   date_added:
-  editorial_board: true
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -6400,12 +6393,11 @@
   github_username: ahasson
   github_image_id: 22514526
   title:
-    - Editor
   sort:
   bio:
   organization:
   date_added: '2026-06-11'
-  editorial_board: true
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -6427,8 +6419,7 @@
 - name: Romain Caneill
   github_username: rcaneill
   github_image_id: 18579092
-  title:
-    - Editor
+  title: Editor
   sort:
   bio: Doctor in Physical Oceanography. Studying sea ice, ocean stratif,
       buoyancy fluxes, nonlinear EOS, with numerical modelling (NEMO) and
@@ -7207,8 +7198,7 @@
 - name: Nima Sarajpoor
   github_username: NimaSarajpoor
   github_image_id: 38519522
-  title:
-    - Emeritus Editor
+  title: Emeritus Editor
   sort: 2
   bio: Data Scientist  | OSS Contributor  | Philomath
   organization:
@@ -7536,7 +7526,7 @@
 - name: Tetsuo Koyama
   github_username: tkoyama010
   github_image_id: 7513610
-  title:
+  title: Editor
   sort: 2
   bio: '3D visualization library @pyvista maintainer & translator,@scipy-conference
       chairperson,Photo by: @peacock0803sz CC-BY 2.0'
@@ -7710,7 +7700,7 @@
   bio:
   organization:
   date_added:
-  editorial_board: true
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -7738,7 +7728,7 @@
   bio:
   organization:
   date_added:
-  editorial_board: true
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -8134,14 +8124,13 @@
 - name: Avik Basu
   github_username: ab93
   github_image_id: 3485425
-  title:
-    - Editor
+  title: Emeritus Editor
   sort: 2
   bio: Data Scientist | Machine Learning Engineer
   organization: Intuit
   date_added: '2024-12-13'
-  editorial_board: true
-  emeritus_editor: false
+  editorial_board: false
+  emeritus_editor: true
   advisory: false
   emeritus_advisory: false
   twitter:
@@ -9140,8 +9129,7 @@
 - name: Julieta Millan
   github_username: JuliMillan
   github_image_id: 66881995
-  title:
-    - Editor
+  title: Editor
   sort: 2
   bio: Biology, data science and open science
   organization:
@@ -9393,6 +9381,7 @@
   github_image_id: 34322936
   title:
     - Editor
+    - Editor in Chief
     - Editor in Chief Team
   sort: 1
   bio: Graduate student at Université de Montréal studying astrophysics.
@@ -10164,13 +10153,13 @@
 - name: James J Balamuta
   github_username: coatless
   github_image_id: 833642
-  title:
+  title: Editor
   sort:
   bio: 'omnipresent explorer of the unknown, fashionably caffeinated informatics
       phd, amorous cavalier. design, build, analyze. #rstats #python @tmsalab'
   organization:
   date_added: '2025-08-07'
-  editorial_board: false
+  editorial_board: true
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -10184,6 +10173,7 @@
     - eic
     - peer-review
     - peer-review-guide
+    - editor
   packages_eic:
     - blockingpy
     - c4dynamics
@@ -10291,8 +10281,7 @@
 - name: Jonas Eschle
   github_username: jonas-eschle
   github_image_id: 17454848
-  title:
-    - Editor
+  title: Editor
   sort: 2
   bio: Large scale statistics, machine learning and software engineering in
       High Energy Physics
@@ -10808,7 +10797,7 @@
 - name: Akrita
   github_username: akritaag
   github_image_id: 2558622
-  title:
+  title: Editor
   sort:
   bio:
   organization:
@@ -10826,6 +10815,7 @@
   contributor_type:
     - peer-review
     - reviewer
+    - editor
   packages_eic:
   packages_editor:
   packages_submitted:
