@@ -10,7 +10,7 @@ coatless:
   emeritus_eic: false
 crhea93:
   peer_review_lead: false
-  eic_team: false
+  eic_team: true
   emeritus_peer_review_lead: false
   emeritus_eic: false
 ctb:

@@ -1,29 +1,47 @@
 {{/*
-  Single primary title from editorial-board / emeritus-editors role flags.
+  Titles from editorial-board / emeritus-editors role flags.
   Usage:
     {{ partial "people/editorial-role-title.html" (dict
       "roles" $roles
       "board" "active") }}
   board: "active" | "emeritus"
 
-  Active precedence (phase 1): peer_review_lead > eic_team > Editor.
-  Historical emeritus_* flags are ignored for active card labels.
+  Active title order (specialties first, base last):
+  Peer Review Lead, Editor in Chief, Peer Review Triage,
+  then historical emeritus_*, then Editor.
+  Reads eic / triage; falls back to legacy eic_team until data
+  is regenerated.
+  Emeritus branch exists but emeritus pills do not render titles.
 */}}
 {{ $roles := .roles }}
 {{ $titles := slice }}
 {{ if eq .board "active" }}
   {{ if $roles.peer_review_lead }}
     {{ $titles = $titles | append "Peer Review Lead" }}
-  {{ else if $roles.eic_team }}
-    {{ $titles = $titles | append "Editor in Chief" }}
-  {{ else }}
-    {{ $titles = $titles | append "Editor" }}
   {{ end }}
+  {{ if or $roles.eic $roles.eic_team }}
+    {{ $titles = $titles | append "Editor in Chief" }}
+  {{ end }}
+  {{ if $roles.triage }}
+    {{ $titles = $titles | append "Peer Review Triage" }}
+  {{ end }}
+  {{ if $roles.emeritus_peer_review_lead }}
+    {{ $titles = $titles | append "Emeritus Peer Review Lead" }}
+  {{ end }}
+  {{ if $roles.emeritus_eic }}
+    {{ $titles = $titles | append "Emeritus Editor in Chief" }}
+  {{ end }}
+  {{ if $roles.emeritus_triage }}
+    {{ $titles = $titles | append "Emeritus Peer Review Triage" }}
+  {{ end }}
+  {{ $titles = $titles | append "Editor" }}
 {{ else }}
   {{ if $roles.emeritus_peer_review_lead }}
     {{ $titles = $titles | append "Emeritus Peer Review Lead" }}
   {{ else if $roles.emeritus_eic }}
     {{ $titles = $titles | append "Emeritus Editor in Chief" }}
+  {{ else if $roles.emeritus_triage }}
+    {{ $titles = $titles | append "Emeritus Peer Review Triage" }}
   {{ else }}
     {{ $titles = $titles | append "Emeritus Editor" }}
   {{ end }}
