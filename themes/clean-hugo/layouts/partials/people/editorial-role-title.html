@@ -1,37 +1,30 @@
 {{/*
-  Build display title(s) from editorial-board / emeritus-editors role flags.
+  Single primary title from editorial-board / emeritus-editors role flags.
   Usage:
     {{ partial "people/editorial-role-title.html" (dict
       "roles" $roles
       "board" "active") }}
   board: "active" | "emeritus"
+
+  Active precedence (phase 1): peer_review_lead > eic_team > Editor.
+  Historical emeritus_* flags are ignored for active card labels.
 */}}
 {{ $roles := .roles }}
 {{ $titles := slice }}
 {{ if eq .board "active" }}
   {{ if $roles.peer_review_lead }}
     {{ $titles = $titles | append "Peer Review Lead" }}
-  {{ end }}
-  {{ if $roles.eic_team }}
+  {{ else if $roles.eic_team }}
     {{ $titles = $titles | append "Editor in Chief" }}
-  {{ end }}
-  {{ if $roles.emeritus_peer_review_lead }}
-    {{ $titles = $titles | append "Emeritus Peer Review Lead" }}
-  {{ end }}
-  {{ if $roles.emeritus_eic }}
-    {{ $titles = $titles | append "Emeritus Editor in Chief" }}
-  {{ end }}
-  {{ if eq (len $titles) 0 }}
+  {{ else }}
     {{ $titles = $titles | append "Editor" }}
   {{ end }}
 {{ else }}
   {{ if $roles.emeritus_peer_review_lead }}
     {{ $titles = $titles | append "Emeritus Peer Review Lead" }}
-  {{ end }}
-  {{ if $roles.emeritus_eic }}
+  {{ else if $roles.emeritus_eic }}
     {{ $titles = $titles | append "Emeritus Editor in Chief" }}
-  {{ end }}
-  {{ if eq (len $titles) 0 }}
+  {{ else }}
     {{ $titles = $titles | append "Emeritus Editor" }}
   {{ end }}
 {{ end }}
