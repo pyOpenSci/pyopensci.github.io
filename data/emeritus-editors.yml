@@ -1,36 +1,90 @@
 ab93:
+  emeritus_editor: true
   emeritus_peer_review_lead: false
   emeritus_eic: false
+  emeritus_triage: false
+anitagraser:
+  emeritus_editor: true
+  emeritus_peer_review_lead: false
+  emeritus_eic: false
+  emeritus_triage: false
+arianesasso:
+  emeritus_editor: true
+  emeritus_peer_review_lead: false
+  emeritus_eic: false
+  emeritus_triage: false
 banesullivan:
+  emeritus_editor: true
   emeritus_peer_review_lead: false
   emeritus_eic: false
+  emeritus_triage: false
+batalex:
+  emeritus_editor: true
+  emeritus_peer_review_lead: false
+  emeritus_eic: false
+  emeritus_triage: false
 cmarmo:
+  emeritus_editor: true
   emeritus_peer_review_lead: false
   emeritus_eic: true
+  emeritus_triage: false
+eliotwrobson:
+  emeritus_editor: true
+  emeritus_peer_review_lead: false
+  emeritus_eic: false
+  emeritus_triage: false
 isabelizimm:
+  emeritus_editor: true
   emeritus_peer_review_lead: false
   emeritus_eic: true
-lwasser:
+  emeritus_triage: false
+jlpalomino:
+  emeritus_editor: true
   emeritus_peer_review_lead: false
   emeritus_eic: false
+  emeritus_triage: false
+luizirber:
+  emeritus_editor: true
+  emeritus_peer_review_lead: false
+  emeritus_eic: false
+  emeritus_triage: false
 mjhajharia:
+  emeritus_editor: true
   emeritus_peer_review_lead: false
   emeritus_eic: false
+  emeritus_triage: false
 nickledave:
+  emeritus_editor: true
   emeritus_peer_review_lead: false
   emeritus_eic: true
+  emeritus_triage: false
 nimasarajpoor:
+  emeritus_editor: true
   emeritus_peer_review_lead: false
   emeritus_eic: false
+  emeritus_triage: false
+ocefpaf:
+  emeritus_editor: true
+  emeritus_peer_review_lead: false
+  emeritus_eic: false
+  emeritus_triage: false
 simonmolinsky:
+  emeritus_editor: true
   emeritus_peer_review_lead: false
   emeritus_eic: false
+  emeritus_triage: false
 sneakers-the-rat:
+  emeritus_editor: true
   emeritus_peer_review_lead: false
   emeritus_eic: false
+  emeritus_triage: false
 tomalrussell:
+  emeritus_editor: true
   emeritus_peer_review_lead: false
   emeritus_eic: false
+  emeritus_triage: false
 xmnlab:
+  emeritus_editor: true
   emeritus_peer_review_lead: false
   emeritus_eic: false
+  emeritus_triage: false
