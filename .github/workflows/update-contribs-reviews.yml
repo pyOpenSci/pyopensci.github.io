@@ -43,6 +43,8 @@ jobs:
           add-paths: |
             data/contributors.yml
             data/packages.yml
+            data/editorial-board.yml
+            data/emeritus-editors.yml
           author: Leah <leah@pyopensci.org>
           base: main
           branch: contribs
