@@ -2,8 +2,7 @@
   github_username: lwasser
   github_image_id: 7649194
   title:
-    - Editor
-    - Peer Review Triage
+    - Emeritus Editor
     - Executive Director & Founder
     - Emeritus editor
   sort: 1
@@ -11,8 +10,8 @@
       @pyOpenSci
   organization: pyOpenSci
   date_added: '2019-10-10'
-  editorial_board: true
-  emeritus_editor: false
+  editorial_board: false
+  emeritus_editor: true
   advisory: false
   emeritus_advisory: false
   twitter: leahawasser
@@ -1178,10 +1177,10 @@
   website:
   board: false
   contributor_type:
+    - editor
     - peer-review
     - peer-review-guide
     - reviewer
-    - editor
   packages_eic:
   packages_editor:
   packages_submitted:
@@ -5214,12 +5213,12 @@
   board: false
   contributor_type:
     - community
+    - editor
     - maintainer
     - open-education
     - peer-review
     - submitting-author
     - web-contrib
-    - editor
   packages_eic:
   packages_editor:
   packages_submitted:
@@ -7695,13 +7694,13 @@
 - name: Kelly L. Rowland
   github_username: kellyrowland
   github_image_id: 5440574
-  title:
+  title: Emeritus Editor
   sort: 2
   bio:
   organization:
   date_added:
   editorial_board: false
-  emeritus_editor: false
+  emeritus_editor: true
   advisory: false
   emeritus_advisory: false
   twitter:
@@ -10170,10 +10169,10 @@
   website: https://thecoatlessprofessor.com
   board: false
   contributor_type:
+    - editor
     - eic
     - peer-review
     - peer-review-guide
-    - editor
   packages_eic:
     - blockingpy
     - c4dynamics
@@ -10813,9 +10812,9 @@
   website:
   board: false
   contributor_type:
+    - editor
     - peer-review
     - reviewer
-    - editor
   packages_eic:
   packages_editor:
   packages_submitted:
@@ -11424,11 +11423,13 @@
   github_username: shaunagm
   github_image_id: 1179362
   title:
+    - Editor
+    - Peer Review Lead
   sort:
   bio:
   organization:
   date_added: '2026-08-05'
-  editorial_board: false
+  editorial_board: true
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -11440,6 +11441,7 @@
   board: false
   contributor_type:
     - web-contrib
+    - editor
   packages_eic:
   packages_editor:
   packages_submitted:
