@@ -11440,8 +11440,8 @@
   website: https://www.shaunagm.net
   board: false
   contributor_type:
-    - web-contrib
     - editor
+    - web-contrib
   packages_eic:
   packages_editor:
   packages_submitted:
@@ -11733,6 +11733,32 @@
   packages_editor:
   packages_submitted:
     - milespy
+  packages_reviewed:
+  location:
+  email:
+- name:
+  github_username: bluedotblue
+  github_image_id: 121519363
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2026-08-31'
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - open-education
+  packages_eic:
+  packages_editor:
+  packages_submitted:
   packages_reviewed:
   location:
   email:
