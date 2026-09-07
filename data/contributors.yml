@@ -9410,6 +9410,7 @@
     - nsevdx
     - pyhctsa
     - solar-wavelength-calibration
+    - tanml
   packages_editor:
     - astropy
     - blockingpy
@@ -9417,6 +9418,7 @@
     - piva
     - pyhctsa
     - swiftgalaxy
+    - tanml
   packages_submitted:
   packages_reviewed:
     - felupe
@@ -11440,8 +11442,8 @@
   website: https://www.shaunagm.net
   board: false
   contributor_type:
-    - web-contrib
     - editor
+    - web-contrib
   packages_eic:
   packages_editor:
   packages_submitted:
@@ -11735,4 +11737,115 @@
     - milespy
   packages_reviewed:
   location:
+  email:
+- name:
+  github_username: bluedotblue
+  github_image_id: 121519363
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2026-09-07'
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - open-education
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location:
+  email:
+- name: Eric Chen
+  github_username: echen1214
+  github_image_id: 59617964
+  title:
+  sort:
+  bio:
+  organization: Mt. Sinai
+  date_added: '2026-09-07'
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - tanml
+  location: New York, NY
+  email:
+- name:
+  github_username: anabeltan
+  github_image_id: 260771263
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2026-09-07'
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - tanml
+  location:
+  email:
+- name: Tanmay Sah
+  github_username: tradertanmay
+  github_image_id: 34967207
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2026-09-07'
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+    - submitting-author
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - tanml
+  packages_reviewed:
+  location: USA
   email:
