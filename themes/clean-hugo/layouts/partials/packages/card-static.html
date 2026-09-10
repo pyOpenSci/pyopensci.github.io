@@ -15,19 +15,40 @@
     <p>{{ .package_description }}</p>
 
     <ul>
+      {{ if and .date_accepted (ne .date_accepted "missing") }}
+        <li class="package_card__date-accepted">
+          <i class="fas fa-calendar-check" aria-hidden="true"></i>
+          Accepted: {{ .date_accepted }}
+        </li>
+      {{ end }}
+
       {{ with .repository_link }}
-        <li><a href="{{ . }}" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> View Code</a></li>
+        <li>
+          <a href="{{ . }}" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-github"></i> View Code
+          </a>
+        </li>
       {{ end }}
 
       {{ if .active }}
         {{ with .gh_meta }}
           {{ with .documentation }}
-            <li><a href="{{ . }}" target="_blank" rel="noopener noreferrer"><i class="fas fa-book-open"></i> View Docs</a></li>
+            <li>
+              <a href="{{ . }}" target="_blank" rel="noopener noreferrer">
+                <i class="fas fa-book-open"></i> View Docs
+              </a>
+            </li>
           {{ end }}
         {{ end }}
+
         {{ with .issue_link }}
-          <li><a href="{{ . }}" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-user-pen"></i> View Review</a></li>
+          <li>
+            <a href="{{ . }}" target="_blank" rel="noopener noreferrer">
+              <i class="fa-solid fa-user-pen"></i> View Review
+            </a>
+          </li>
         {{ end }}
+
         {{ partial "packages/citation-link.html" . }}
       {{ else }}
         <li class="package_card__archived">
