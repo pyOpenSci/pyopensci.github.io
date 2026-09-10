@@ -175,6 +175,14 @@
           line-height: 1.6rem;
           margin-bottom: 0;
 
+          &.package_card__date-accepted {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--color-gray-600);
+            font-size: 0.875rem;
+          }
+
           &.package_card__archived {
             display: inline-flex;
             align-items: center;
