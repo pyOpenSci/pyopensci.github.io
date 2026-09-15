@@ -75,6 +75,13 @@ shaunagm:
   emeritus_peer_review_lead: false
   emeritus_eic: false
   emeritus_triage: false
+shrishar:
+  peer_review_lead: true
+  eic: false
+  triage: false
+  emeritus_peer_review_lead: false
+  emeritus_eic: false
+  emeritus_triage: false
 slobentanzer:
   peer_review_lead: false
   eic: false
