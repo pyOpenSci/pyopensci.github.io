@@ -2,6 +2,7 @@
   github_username: lwasser
   github_image_id: 7649194
   title:
+    - Emeritus Editor
     - Executive Director & Founder
     - Emeritus editor
   sort: 1
@@ -9,7 +10,6 @@
       @pyOpenSci
   organization: pyOpenSci
   date_added: '2019-10-10'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: true
   advisory: false
@@ -53,7 +53,6 @@
   bio:
   organization:
   date_added: '2022-11-09'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -81,7 +80,6 @@
   bio:
   organization:
   date_added: '2022-11-09'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -110,7 +108,6 @@
   bio:
   organization:
   date_added: '2022-11-09'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -139,7 +136,6 @@
       | @jupyterhub | @ipython | @nteract | @pysplash
   organization: Willing Consulting
   date_added: '2023-03-01'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: true
@@ -178,7 +174,6 @@
       software metrics.
   organization: '@softwaresaved'
   date_added: '2023-02-24'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: true
@@ -206,7 +201,6 @@
   bio:
   organization:
   date_added: '2023-06-15'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: true
@@ -234,7 +228,6 @@
       and solve problems for scientific research and education.
   organization: UC Berkeley
   date_added: '2019-10-10'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: true
@@ -267,7 +260,6 @@
       OpenTeams Incubator
   organization: '@numpy'
   date_added: '2023-03-21'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: true
@@ -298,7 +290,6 @@
       intern at @enthought and IITB.Don't email or tweet me for tech support."
   organization: '@bloomberg Python Infrastructure'
   date_added: '2023-03-01'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: true
@@ -323,13 +314,13 @@
   github_username: xmnlab
   github_image_id: 5209757
   title:
+    - Emeritus Editor
     - Advisory Council
     - Emeritus editor
   sort:
   bio: Open Source Developer
   organization: xmnlab
   date_added: '2019-10-15'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: true
   advisory: true
@@ -368,16 +359,15 @@
   github_username: ocefpaf
   github_image_id: 950575
   title:
+    - Emeritus Editor
     - Advisory Council
-    - Editor
   sort:
   bio: Filipe Fernandes is a Physical oceanographer by training, turned
       research software engineer, and a software packager hobbyist.
   organization:
   date_added: '2019-10-17'
-  deia_advisory: false
-  editorial_board: true
-  emeritus_editor: false
+  editorial_board: false
+  emeritus_editor: true
   advisory: true
   emeritus_advisory: false
   twitter: ocefpaf
@@ -413,7 +403,6 @@
       global to microscopic scale 🛰️🔬🌎
   organization: University of Liverpool
   date_added: '2023-01-18'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -441,7 +430,6 @@
       and inversions (in @simpeg!) and data science.
   organization: '@simpeg, @geoscixyz, @ubcgif, @2i2c_org'
   date_added: '2019-12-10'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -469,7 +457,6 @@
       development teams.
   organization:
   date_added: '2020-04-09'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: true
@@ -500,7 +487,6 @@
   bio:
   organization: '@2i2c-org'
   date_added: '2023-01-18'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: true
@@ -532,7 +518,6 @@
   bio:
   organization:
   date_added: '2023-11-20'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: true
@@ -557,13 +542,11 @@
 - name: Ariane Sasso
   github_username: arianesasso
   github_image_id: 3659681
-  title:
-    - Emeritus Editor
+  title: Emeritus Editor
   sort: 3
   bio: Researcher in Medical Informatics and Digital Health ⌚ 👩‍💻 🧬
   organization: '@hpi-dhc'
   date_added: '2021-08-24'
-  deia_advisory: true
   editorial_board: false
   emeritus_editor: true
   advisory: false
@@ -596,18 +579,15 @@
 - name: David Nicholson
   github_username: NickleDave
   github_image_id: 11934090
-  title:
-    - Emeritus Editor in Chief
-    - Editor
+  title: Emeritus Editor in Chief
   sort: 2
   bio: ML, AI; behavior + cog + neuro. Open + inclusive science. Pythonista.
       He/him/they/them. Habla espanglish y baila salsa y bachata a medio
       tiempo.
   organization:
   date_added: '2019-12-10'
-  deia_advisory: false
-  editorial_board: true
-  emeritus_editor: false
+  editorial_board: false
+  emeritus_editor: true
   advisory: false
   emeritus_advisory: false
   twitter: nicholdav
@@ -646,15 +626,11 @@
 - name: Chiara Marmo
   github_username: cmarmo
   github_image_id: 1662261
-  title:
-    - Emeritus Editor in Chief
-    - Emeritus Editor
-    - Peer review triage
+  title: Emeritus Editor in Chief
   sort:
   bio:
   organization:
   date_added: '2023-01-24'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: true
   advisory: false
@@ -702,7 +678,6 @@
   bio: Technical Curriculum Developer, Data Engineering
   organization: Google
   date_added: '2019-10-25'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: true
   advisory: false
@@ -732,14 +707,13 @@
 - name: Szymon Moliński
   github_username: SimonMolinsky
   github_image_id: 31246246
-  title: Editor
+  title: Emeritus Editor
   sort: 2
   bio: GIS, remote sensing, machine learning, time-series and spatial
   organization: Sare
   date_added: '2022-09-16'
-  deia_advisory: false
-  editorial_board: true
-  emeritus_editor: false
+  editorial_board: false
+  emeritus_editor: true
   advisory: false
   emeritus_advisory: false
   twitter:
@@ -775,13 +749,11 @@
 - name: Anita Graser
   github_username: anitagraser
   github_image_id: 590385
-  title:
-    - Emeritus Editor
+  title: Emeritus Editor
   sort: 3
   bio: Spatial data science with a focus on mobility & data quality
   organization:
   date_added: '2020-03-26'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: true
   advisory: false
@@ -810,13 +782,12 @@
   github_username: Batalex
   github_image_id: 11004857
   title:
-    - Emeritus Editor in Chief
+    - Emeritus Editor
     - EmeritusEditor
   sort: 2
   bio:
   organization:
   date_added: '2023-02-04'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: true
   advisory: false
@@ -866,7 +837,6 @@
   bio: AI + Earth Observation + Bayesian stats
   organization: '@planetlabs'
   date_added: '2019-10-17'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -895,12 +865,12 @@
   github_username: luizirber
   github_image_id: 6642
   title:
+    - Emeritus Editor
     - Emeritus editor
   sort:
   bio: 'CS PhD @ucdavis,Rustacean and Pythonista.Previously: @dib-lab'
   organization:
   date_added: '2019-10-17'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: true
   advisory: false
@@ -934,7 +904,6 @@
   bio:
   organization: pyOpenSci
   date_added: '2023-11-21'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -965,7 +934,6 @@
       @DeepMind | ex-@GitHub
   organization: '@GitHub'
   date_added: '2023-02-24'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -992,7 +960,6 @@
   bio: Research & Development @textileio and @tablelandnetwork
   organization: '@textileio @tablelandnetwork'
   date_added: '2023-02-24'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -1019,7 +986,6 @@
   bio: Scientist and Engineer and Human.
   organization: Earthmover
   date_added: '2023-02-24'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -1042,13 +1008,14 @@
   github_username: kysolvik
   github_image_id: 24379590
   title:
+    - Editor
+    - Editor in Chief
     - Editor in Chief Team
   sort: 1
   bio:
   organization:
   date_added: '2023-02-24'
-  deia_advisory: false
-  editorial_board: false
+  editorial_board: true
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -1082,7 +1049,6 @@
       (DCEG)💻Bioinformatics📊DataScience💺Co-chair🎓FAES🐍Python®Rstats⚕Health🤖ML🧠AI
   organization:
   date_added: '2023-02-24'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -1113,7 +1079,6 @@
   bio:
   organization: Smithsonian Institution
   date_added: '2023-02-24'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -1140,7 +1105,6 @@
   bio: Data Scientist, Machine Learning Engineer
   organization: '@unionai'
   date_added: '2019-12-10'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -1174,7 +1138,6 @@
   bio: b. 1969, he/him
   organization: '@planetlabs'
   date_added: '2019-12-10'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -1198,14 +1161,12 @@
 - name: Rohit Goswami
   github_username: HaoZeke
   github_image_id: 4336207
-  title:
-    - Editor
+  title: Editor
   sort:
   bio:
   organization: '@Quansight-Labs, @TheochemUI'
   date_added: '2019-12-10'
-  deia_advisory: false
-  editorial_board: false
+  editorial_board: true
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -1216,6 +1177,7 @@
   website:
   board: false
   contributor_type:
+    - editor
     - peer-review
     - peer-review-guide
     - reviewer
@@ -1234,7 +1196,6 @@
   bio:
   organization: CSIRO Mineral Resources
   date_added: '2020-06-08'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -1265,7 +1226,6 @@
   bio: Senior Software Engineer working on PyTorch / torchvision
   organization: '@Quansight'
   date_added: '2020-10-14'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -1298,7 +1258,6 @@
   bio: '@kornia Creator | PhD, Computer Vision Research Engineer'
   organization: Kornia.org
   date_added: '2020-10-14'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -1328,7 +1287,6 @@
   bio:
   organization:
   date_added: '2021-02-19'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -1356,7 +1314,6 @@
   bio:
   organization:
   date_added: '2021-03-02'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -1384,7 +1341,6 @@
   bio:
   organization: '@fluves'
   date_added: '2021-03-02'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -1412,7 +1368,6 @@
   bio: Project manager industry 4.0
   organization: De Watergroep
   date_added: '2021-03-02'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -1441,7 +1396,6 @@
       engineering.
   organization: Actively looking
   date_added: '2021-04-30'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -1475,7 +1429,6 @@
   bio:
   organization:
   date_added: '2021-05-07'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -1505,7 +1458,6 @@
       ecological informatics
   organization: Lund University
   date_added: '2021-05-13'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -1537,7 +1489,6 @@
   bio:
   organization:
   date_added: '2021-09-16'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -1574,7 +1525,6 @@
       @OpenTreeOfLife
   organization: University of California, Merced
   date_added: '2021-09-16'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -1605,7 +1555,6 @@
   bio: Computational Geoscientist
   organization: University of Montana NTSG
   date_added: '2022-01-12'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -1635,7 +1584,6 @@
       Matlab and lately Julia. (These are my personal projects)
   organization: AIRBUS D&S
   date_added: '2022-01-12'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -1664,7 +1612,6 @@
   bio: Climate Scientist | Oceanographer |Open Source Enthusiast
   organization: Columbia/LDEO -- @ocean-transport
   date_added: '2022-09-08'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -1693,7 +1640,6 @@
   bio: Computational Biologist
   organization: Universidad Nacional de Quilmes & MetaDocencia
   date_added: '2023-03-01'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -1719,7 +1665,6 @@
   bio:
   organization:
   date_added: '2023-03-01'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -1753,7 +1698,6 @@
       some Python 🐍
   organization: '@Quansight'
   date_added: '2023-03-01'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -1781,7 +1725,6 @@
   bio: Bad at programming in beautiful Oregon
   organization:
   date_added: '2023-03-01'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: true
   advisory: false
@@ -1822,7 +1765,6 @@
   bio:
   organization:
   date_added: '2023-03-01'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -1850,7 +1792,6 @@
   bio: Open Knowledge + Radical Transparency
   organization: '@kedro-org'
   date_added: '2023-03-01'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -1880,7 +1821,6 @@
       @scikit-hep, @pybind, and @scikit-build admin. @pypa member.
   organization: Princeton University
   date_added: '2023-03-01'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -1909,7 +1849,6 @@
       NetworkX, etc. Author of Elegant SciPy. Researcher at UC Berkeley.
   organization: University of California, Berkeley
   date_added: '2023-03-01'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -1938,7 +1877,6 @@
   bio: '@archlinux bugwrangler and Trusted User'
   organization:
   date_added: '2023-03-01'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -1967,7 +1905,6 @@
       source communities at Quansight Labs.
   organization: Quansight
   date_added: '2023-03-01'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -1995,7 +1932,6 @@
   bio: I like developing beautiful APIs.
   organization: '@datadog'
   date_added: '2023-03-01'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -2025,7 +1961,6 @@
   bio:
   organization: '@microsoft'
   date_added: '2023-03-01'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -2055,7 +1990,6 @@
       Columbia University.
   organization: Earthmover PBC
   date_added: '2023-03-01'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -2084,7 +2018,6 @@
       Bibliophile 📚 Philomath 🧐
   organization: Dr Stephen P. Moss
   date_added: '2023-03-01'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -2115,7 +2048,6 @@
   bio:
   organization: London Interdisciplinary School
   date_added: '2023-03-01'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -2143,7 +2075,6 @@
   bio: Cat-centered Design.
   organization:
   date_added: '2023-03-01'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -2171,7 +2102,6 @@
   bio: Open source and community | GSoC' 22 @openfoodfacts |
   organization:
   date_added: '2023-03-01'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -2200,7 +2130,6 @@
       carbon sources.https://twitter.com/e_Sundell/status/1258480862359937024
   organization: Sundell Open Source Consulting AB
   date_added: '2023-03-01'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -2228,7 +2157,6 @@
   bio:
   organization: The University of Washington eScience Institute
   date_added: '2023-03-01'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -2257,7 +2185,6 @@
       investigator of nasa's suncet mission.
   organization: Johns Hopkins Applied Physics Lab
   date_added: '2023-03-01'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -2285,7 +2212,6 @@
   bio: PhD Student in Astrophysics
   organization: Department of Physics and Astronomy, Macquarie University
   date_added: '2023-04-13'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -2313,7 +2239,6 @@
   bio: Love 🐍 Python, 📷 Photography and beautiful things
   organization:
   date_added: '2023-04-13'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -2342,7 +2267,6 @@
       NaNoGenMo organiser
   organization: Nord Software
   date_added: '2023-04-13'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -2371,7 +2295,6 @@
   bio: Open source scientist / programmer.Founder of @softwareunderground.
   organization: '@equinor'
   date_added: '2023-04-13'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -2401,7 +2324,6 @@
       @django alum
   organization: '@anaconda'
   date_added: '2023-04-13'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -2429,7 +2351,6 @@
   bio: Full-Stack Analytics Engineer
   organization:
   date_added: '2023-04-13'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -2457,7 +2378,6 @@
   bio:
   organization: Technical University of Munich
   date_added: '2023-04-14'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -2486,7 +2406,6 @@
   bio:
   organization: Ouranos
   date_added: '2023-04-14'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -2518,7 +2437,6 @@
       scientific developer.
   organization: Ouranos
   date_added: '2023-04-14'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -2550,7 +2468,6 @@
       at gitlab.com/enra64
   organization:
   date_added: '2023-04-13'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -2581,7 +2498,6 @@
       and Brain Stimulation.
   organization: neuroConn
   date_added: '2023-04-13'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -2613,7 +2529,6 @@
   organization: Plant Biotechnology and Bioinformatics, Institute of Plant
       Biology, TU Braunschweig
   date_added: '2023-04-13'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -2643,7 +2558,6 @@
       Phylogenomics and Data Sciences.
   organization: '@quadram-institute-bioscience'
   date_added: '2023-04-13'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -2673,7 +2587,6 @@
       /╱\╱____________________________  \▁︹_/
   organization: Facebook AI Research
   date_added: '2023-04-13'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -2702,7 +2615,6 @@
   bio: Evolutionary Biology, Genetics and Machine learning
   organization:
   date_added: '2023-04-13'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -2731,7 +2643,6 @@
   bio:
   organization:
   date_added: '2023-04-13'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -2761,7 +2672,6 @@
   bio:
   organization:
   date_added: '2023-04-13'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: true
   advisory: false
@@ -2791,7 +2701,6 @@
       Earth-System Simulator National Research Infrastructure (ACCESS-NRI)
   organization: ACCESS-NRI
   date_added: '2023-04-13'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -2821,7 +2730,6 @@
       protocols through programming and data science
   organization: Institut de physique du globe de Paris
   date_added: '2023-04-13'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -2851,7 +2759,6 @@
       cloud-native geospatial machine learning!
   organization: '@developmentseed'
   date_added: '2023-04-13'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -2882,7 +2789,6 @@
       Play: tinkerer creating open-source tools for birders'
   organization: University of Pittsburgh
   date_added: '2023-03-29'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -2911,7 +2817,6 @@
   bio: Lic. in Physics and PhD in Geophysics.
   organization:
   date_added: '2023-04-12'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -2942,7 +2847,6 @@
   bio:
   organization:
   date_added: '2023-04-13'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -2972,7 +2876,6 @@
   organization: Max Planck Institute for Psycholinguistics & Vrije
       Universiteit Brussel
   date_added: '2023-04-13'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -3007,7 +2910,6 @@
       Biology
   organization: ULL
   date_added: '2023-04-13'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -3043,7 +2945,6 @@
       Specialist at Ouranos (@Ouranosinc) in Montreal.
   organization: Ouranos
   date_added: '2023-04-13'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -3076,7 +2977,6 @@
   bio:
   organization: '@2i2c-org'
   date_added: '2023-04-13'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -3107,7 +3007,6 @@
   bio:
   organization:
   date_added: '2023-04-13'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -3131,14 +3030,13 @@
 - name: Tom Russell
   github_username: tomalrussell
   github_image_id: 2762769
-  title: Editor
+  title: Emeritus Editor
   sort: 2
   bio: Research software person. Work @nismod, tech lead @colouring-cities
   organization: University of Oxford
   date_added: '2023-04-18'
-  deia_advisory: false
-  editorial_board: true
-  emeritus_editor: false
+  editorial_board: false
+  emeritus_editor: true
   advisory: false
   emeritus_advisory: false
   twitter: tlrss
@@ -3170,7 +3068,6 @@
       https://twitter.com/ctitusbrown.
   organization: University of California, Davis
   date_added: '2023-04-18'
-  deia_advisory: false
   editorial_board: true
   emeritus_editor: false
   advisory: false
@@ -3206,7 +3103,6 @@
   bio:
   organization: \varnothing
   date_added: '2023-04-18'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: true
   advisory: false
@@ -3237,7 +3133,6 @@
   bio: Software Developer
   organization:
   date_added: '2023-04-24'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -3265,7 +3160,6 @@
   bio: SE based in Seattle interested in public health.
   organization: Fred Hutch
   date_added: '2023-04-24'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -3294,7 +3188,6 @@
   bio: Currently a data science software engineer at Bloomberg.
   organization: Bloomberg
   date_added: '2023-04-24'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -3323,7 +3216,6 @@
   bio:
   organization:
   date_added: '2023-04-24'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -3352,7 +3244,6 @@
   bio:
   organization:
   date_added: '2023-04-24'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -3381,7 +3272,6 @@
   bio: Software Engineer
   organization: '@vitalsource'
   date_added: '2023-04-24'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -3411,7 +3301,6 @@
   bio:
   organization: '@ActiveState'
   date_added: '2023-05-26'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -3441,7 +3330,6 @@
   bio:
   organization: Anaconda Inc.
   date_added: '2023-05-26'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -3469,7 +3357,6 @@
   bio:
   organization:
   date_added: '2023-05-26'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -3497,7 +3384,6 @@
   bio:
   organization: UCL
   date_added: '2023-05-26'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -3529,7 +3415,6 @@
       Community Manager at @scientific-python
   organization: UC, Santa Cruz
   date_added: '2023-05-26'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -3560,7 +3445,6 @@
       Fellow  | Maker and breaker of many things
   organization: Microsoft
   date_added: '2023-05-26'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -3591,7 +3475,6 @@
       machine learning background. Occasionally contributes to Processing.
   organization: UC Berkeley
   date_added: '2023-06-01'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -3624,7 +3507,6 @@
   bio:
   organization: University of Bristol
   date_added: '2023-06-14'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -3652,7 +3534,6 @@
   bio:
   organization:
   date_added: '2023-06-14'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -3682,7 +3563,6 @@
       Star✦Fleet Commander.
   organization: '@hamma-dev @python @spyder-ide @star-fleet-tours'
   date_added: '2023-06-14'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -3709,7 +3589,6 @@
   bio:
   organization:
   date_added: '2023-07-12'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -3743,7 +3622,6 @@
       founder.@jfy133@genomic.social
   organization: HKI Jena, MPI-EVA Leipzig
   date_added: '2023-07-12'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -3774,7 +3652,6 @@
   bio:
   organization:
   date_added: '2023-07-12'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -3809,7 +3686,6 @@
   bio: physicist at Center for Systems Biology Dresden
   organization:
   date_added: '2023-07-15'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -3839,7 +3715,6 @@
   bio: Computational materials scientist
   organization:
   date_added: '2023-07-15'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -3868,7 +3743,6 @@
   bio: My views and opinions are my own and do not represent my employer's.
   organization: Space Telescope Science Institute
   date_added: '2023-07-15'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -3904,7 +3778,6 @@
   bio: '"Never go up against a plasma physicist when puns are on the line."'
   organization: Center for Astrophysics | Harvard & Smithsonian
   date_added: '2023-07-15'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -3928,13 +3801,11 @@
 - name: Hans Moritz Günther
   github_username: hamogu
   github_image_id: 498688
-  title:
-    - Editor
+  title: Editor
   sort: 2
   bio:
   organization: MIT
   date_added: '2023-07-15'
-  deia_advisory: false
   editorial_board: true
   emeritus_editor: false
   advisory: false
@@ -3975,7 +3846,6 @@
   bio:
   organization:
   date_added: '2023-07-15'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -4003,7 +3873,6 @@
   bio:
   organization: '@posit-pbc'
   date_added: '2023-07-15'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -4030,7 +3899,6 @@
   bio: Staff Software Engineer at Quansight Labs, @scikit-learn maintainer
   organization: '@Quansight-Labs'
   date_added: '2023-07-15'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -4057,7 +3925,6 @@
   bio:
   organization: '@ansys'
   date_added: '2023-07-27'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -4084,7 +3951,6 @@
   bio: Astronomer / Data Scientist / Applications Developer
   organization: Caltech-IPAC/NExScI
   date_added: '2023-07-27'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -4111,7 +3977,6 @@
   bio:
   organization:
   date_added: '2023-07-27'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -4141,7 +4006,6 @@
   bio: antiblob
   organization: '{Ø,{Ø},{Ø,{Ø}}, ... }'
   date_added: '2023-07-27'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -4170,7 +4034,6 @@
   bio: NSF Postdoc at UC Davis
   organization:
   date_added: '2023-07-27'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -4202,7 +4065,6 @@
   bio: Bioinformatician
   organization:
   date_added: '2023-07-27'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -4232,7 +4094,6 @@
       scientific generalist, compulsive overengineerer, & UX PhD
   organization: USF IMaRS
   date_added: '2023-07-27'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -4262,7 +4123,6 @@
       Undergrad @ NIT Durgapur
   organization:
   date_added: '2023-07-27'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -4291,7 +4151,6 @@
   bio:
   organization:
   date_added: '2023-07-27'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -4320,7 +4179,6 @@
   bio:
   organization: Anaconda
   date_added: '2023-07-27'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -4349,7 +4207,6 @@
   bio:
   organization: '@cid-harvard'
   date_added: '2023-07-27'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -4375,14 +4232,11 @@
 - name: Isabel Zimmerman
   github_username: isabelizimm
   github_image_id: 54685329
-  title:
-    - Emeritus Editor in Chief
-    - Emeritus Editor
+  title: Emeritus Editor in Chief
   sort: 2
   bio:
   organization: '@rstudio'
   date_added: '2023-08-14'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: true
   advisory: false
@@ -4421,17 +4275,13 @@
 - name: Eliot Robson
   github_username: eliotwrobson
   github_image_id: 1345068
-  title:
-    - Peer Review Lead
-    - Editor
-    - Emeritus Editor in Chief
+  title: Emeritus Editor
   sort: 0
   bio: I'm just this guy, you know?
   organization: UIUC
   date_added: '2023-09-11'
-  deia_advisory: false
-  editorial_board: true
-  emeritus_editor: false
+  editorial_board: false
+  emeritus_editor: true
   advisory: false
   emeritus_advisory: false
   twitter: eliotdexter
@@ -4472,7 +4322,6 @@
   bio: Neuro & Data Engineer & Educator
   organization:
   date_added: '2023-09-11'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -4500,7 +4349,6 @@
   bio:
   organization:
   date_added: '2023-09-11'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -4530,7 +4378,6 @@
       Research | Data for good volunteer | M.Sc. Cognitive Science
   organization: CRI
   date_added: '2023-09-11'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -4561,7 +4408,6 @@
       Core developer of @GenericMappingTools.
   organization: China University of Geosciences
   date_added: '2023-09-11'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -4591,7 +4437,6 @@
       Maintaining @GenericMappingTools and building xarray extensions
   organization: '@carbonplan'
   date_added: '2023-09-11'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -4621,7 +4466,6 @@
       of PyGMT
   organization: SNP Innovation Lab
   date_added: '2023-09-11'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -4650,7 +4494,6 @@
   bio:
   organization:
   date_added: '2023-09-11'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -4680,7 +4523,6 @@
       data analysis with EarthLab!
   organization:
   date_added: '2020-09-11'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -4709,7 +4551,6 @@
   bio: Remote Sensing Scientist with Hydrosat, Inc.
   organization: '@hydrosat'
   date_added: '2020-09-11'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -4738,7 +4579,6 @@
   bio: Research Assistant | PhD student in Seismology | Maintainer of PyGMT
   organization: Karlsruhe Institute of Technology - Geophysical Institute
   date_added: '2023-09-15'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -4767,7 +4607,6 @@
   bio:
   organization:
   date_added: '2023-10-22'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -4794,7 +4633,6 @@
   bio:
   organization:
   date_added: '2023-10-22'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -4823,7 +4661,6 @@
   bio: Research Scientist @dataiku-research
   organization: '@dataiku'
   date_added: '2023-10-22'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -4852,7 +4689,6 @@
   bio: Chemical Engineering and Computation Researcher @ MIT
   organization:
   date_added: '2023-10-22'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -4883,7 +4719,6 @@
   bio:
   organization:
   date_added: '2023-10-22'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -4912,7 +4747,6 @@
   bio:
   organization: University of Delaware
   date_added: '2023-10-22'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -4941,7 +4775,6 @@
   bio:
   organization:
   date_added: '2023-10-22'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -4970,7 +4803,6 @@
   bio:
   organization: University of Vermont
   date_added: '2023-10-22'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -5000,7 +4832,6 @@
   bio: Postdoc at MPI for Mathematics in the Sciences
   organization: leotrs.com
   date_added: '2023-10-22'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -5029,7 +4860,6 @@
   bio:
   organization: CENTAI Institute
   date_added: '2023-10-22'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -5058,7 +4888,6 @@
   bio: Complex Networks · Data Science · Computational Social Science · Cities
   organization: Network Science Institute, Northeastern University London
   date_added: '2023-10-22'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -5087,7 +4916,6 @@
   bio:
   organization: Northeastern University London / CENTAI Institute
   date_added: '2023-10-22'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -5116,7 +4944,6 @@
   bio: PhD in applied maths
   organization: Dartmouth College
   date_added: '2023-10-22'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -5145,7 +4972,6 @@
   bio:
   organization: Politecnico di Torino
   date_added: '2023-10-22'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -5174,7 +5000,6 @@
   bio: Computational topologist, spreading the TDA verb to Neuroscience.
   organization: University of Vermont
   date_added: '2023-10-22'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -5204,7 +5029,6 @@
       Scientist, and Adventurer living/playing in Alaska
   organization: Alaska Satellite Facility
   date_added: '2023-12-14'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -5235,7 +5059,6 @@
       computational neuroscience more open, cumulative, and reproducible.
   organization: Flatiron Institute
   date_added: '2023-12-14'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -5267,7 +5090,6 @@
       Formerly PhD student @icbi-lab.My private account.
   organization: Boehringer Ingelheim
   date_added: '2023-12-14'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -5295,7 +5117,6 @@
       Software Foundation member, NASA scientist, gastrophysicist, etc.
   organization: Sean Kelly Consulting
   date_added: '2023-12-14'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -5325,7 +5146,6 @@
   bio: Software engineer and researcher
   organization: '@ecosyste-ms and @octobox'
   date_added: '2023-12-14'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -5353,7 +5173,6 @@
       Research software engineer @laminlabs
   organization: '@theislab @schillerlab @scverse @laminlabs'
   date_added: '2023-12-14'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -5377,12 +5196,11 @@
 - name: Sebastian Lobentanzer
   github_username: slobentanzer
   github_image_id: 13223629
-  title:
+  title: Editor
   sort: 2
   bio:
   organization:
   date_added: '2023-12-14'
-  deia_advisory: false
   editorial_board: true
   emeritus_editor: false
   advisory: false
@@ -5395,6 +5213,7 @@
   board: false
   contributor_type:
     - community
+    - editor
     - maintainer
     - open-education
     - peer-review
@@ -5415,7 +5234,6 @@
   bio: Programming mathematician
   organization: Tweag
   date_added: '2023-12-15'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -5439,12 +5257,11 @@
   github_image_id: 12127746
   title:
     - Editor
-    - Editor in Chief
+    - Emeritus Editor in Chief
   sort: 1
   bio:
   organization:
   date_added: '2023-12-21'
-  deia_advisory: false
   editorial_board: true
   emeritus_editor: false
   advisory: false
@@ -5474,14 +5291,13 @@
 - name: Bane Sullivan
   github_username: banesullivan
   github_image_id: 22067021
-  title: Editor
+  title: Emeritus Editor
   sort: 2
   bio:
   organization:
   date_added: '2023-12-27'
-  deia_advisory: false
-  editorial_board: true
-  emeritus_editor: false
+  editorial_board: false
+  emeritus_editor: true
   advisory: false
   emeritus_advisory: false
   twitter:
@@ -5512,7 +5328,6 @@
   bio:
   organization: '@theislab'
   date_added: '2023-12-27'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -5539,7 +5354,6 @@
   bio:
   organization: Observatoire de Paris
   date_added: '2024-01-30'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -5568,7 +5382,6 @@
   bio: Research Software Engineer
   organization: BAERI/LMSAL (@LM-SAL)
   date_added: '2024-01-30'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -5598,7 +5411,6 @@
   bio: Research Astrophysicist at the NASA Goddard Space Flight Center.
   organization: NASA Goddard Space Flight Center
   date_added: '2024-01-30'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -5628,7 +5440,6 @@
       happiness of the the garden
   organization: '@UCL-ARC'
   date_added: '2024-01-30'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -5657,7 +5468,6 @@
   bio: Research Astrophysicist
   organization:
   date_added: '2024-01-30'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -5686,7 +5496,6 @@
   bio:
   organization:
   date_added: '2024-01-30'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -5716,7 +5525,6 @@
       lead-developer of SunPy, contribute to Astropy, and work on DKIST.
   organization: Aperio Software
   date_added: '2024-01-30'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -5745,7 +5553,6 @@
   bio:
   organization:
   date_added: '2024-01-30'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -5774,7 +5581,6 @@
   bio:
   organization:
   date_added: '2024-01-30'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -5803,7 +5609,6 @@
   bio: Data Scientist · Astrophysics PhD
   organization:
   date_added: '2024-01-30'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -5832,7 +5637,6 @@
   bio:
   organization: University of Oxford
   date_added: '2024-01-30'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -5861,7 +5665,6 @@
   bio:
   organization:
   date_added: '2024-01-30'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -5890,7 +5693,6 @@
   bio: Just another curious guy.
   organization: IIT Indore
   date_added: '2024-01-30'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -5919,7 +5721,6 @@
   bio: environmental data scientist
   organization: '@NERC-CEH'
   date_added: '2024-02-15'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -5948,7 +5749,6 @@
   bio:
   organization: NASA's Atmospheric Science Data Center
   date_added: '2024-02-15'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -5978,7 +5778,6 @@
   bio: Learning, Memory, Computation
   organization: '@rstudio'
   date_added: '2024-02-15'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -6009,7 +5808,6 @@
   bio: Atomic Physicist
   organization: Quantinuum
   date_added: '2024-02-15'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -6039,7 +5837,6 @@
   bio:
   organization:
   date_added: '2024-02-25'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -6066,7 +5863,6 @@
   bio:
   organization:
   date_added: '2024-02-25'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -6094,7 +5890,6 @@
       visualization. It's super fun too! ₍⸍⸌̣ʷ̣̫⸍̣⸌₎
   organization: '@rstudio'
   date_added: '2024-03-09'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -6126,7 +5921,6 @@
   bio:
   organization:
   date_added: '2024-03-09'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -6155,7 +5949,6 @@
   bio: Software engineer and mathematician
   organization:
   date_added: '2024-11-22'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -6181,13 +5974,11 @@
   github_username: dhomeier
   github_image_id: 709020
   title:
-    - Editor
   sort: 2
   bio:
   organization:
   date_added:
-  deia_advisory: false
-  editorial_board: true
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -6219,7 +6010,6 @@
       made Octomachinery & alls-green, pypi-publish & checkout-python-sdist GHAs'
   organization: '@Ansible Core Engineering Team @ @RedHatOfficial'
   date_added: '2024-03-20'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -6247,7 +6037,6 @@
   bio:
   organization: TU Wien
   date_added: '2024-03-20'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -6277,7 +6066,6 @@
   bio: Remote sensing analyst.
   organization:
   date_added: '2024-05-07'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -6305,7 +6093,6 @@
       engineering 🚀 ✈️ -Rustacean 🦀 and Pythonista 🐍
   organization:
   date_added: '2024-05-07'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -6332,7 +6119,6 @@
   bio:
   organization:
   date_added: '2024-05-07'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -6360,7 +6146,6 @@
       prevention and data science tool development.
   organization: Washington Start Department of Health
   date_added: '2024-05-07'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -6387,7 +6172,6 @@
   bio:
   organization: Elcano Project @elcano
   date_added: '2024-05-07'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -6414,7 +6198,6 @@
   bio:
   organization:
   date_added: '2024-05-07'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -6441,7 +6224,6 @@
   bio:
   organization: NASA Goddard Space Flight Center
   date_added: '2024-05-07'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -6471,7 +6253,6 @@
   bio: PhD Research Fellow in Cosmology at the University of Oslo.
   organization: Institute of Theoretical Astrophysics (UiO)
   date_added: '2024-05-07'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -6501,7 +6282,6 @@
   bio:
   organization: University of Oslo
   date_added: '2024-05-07'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -6530,7 +6310,6 @@
   bio: Data Scientist at chronos.ai -- PhD in Cosmology
   organization:
   date_added: '2024-05-07'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -6560,7 +6339,6 @@
       Enthusiast
   organization: NASA Transform to Open Science
   date_added: '2024-05-07'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -6590,7 +6368,6 @@
       Fridays
   organization: Voice of the Ocean Foundation
   date_added: '2024-05-07'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -6615,13 +6392,11 @@
   github_username: ahasson
   github_image_id: 22514526
   title:
-    - Editor
   sort:
   bio:
   organization:
   date_added: '2026-06-11'
-  deia_advisory: false
-  editorial_board: true
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -6643,15 +6418,13 @@
 - name: Romain Caneill
   github_username: rcaneill
   github_image_id: 18579092
-  title:
-    - Editor
+  title: Editor
   sort:
   bio: Doctor in Physical Oceanography. Studying sea ice, ocean stratif,
       buoyancy fluxes, nonlinear EOS, with numerical modelling (NEMO) and
       observations.
   organization: Institut des Géosciences de l'Environnement
   date_added: '2024-05-07'
-  deia_advisory: false
   editorial_board: true
   emeritus_editor: false
   advisory: false
@@ -6685,7 +6458,6 @@
   bio: Bioinformatician,Dept of Microbiology, Tumor and Cell Biology
   organization: Karolinska Institutet
   date_added: '2024-05-07'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -6714,7 +6486,6 @@
   bio: Pfft.
   organization: Lawrence Berkeley National Laboratory
   date_added: '2024-05-07'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -6743,7 +6514,6 @@
   bio:
   organization: Game of Y
   date_added: '2024-06-01'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -6770,7 +6540,6 @@
   bio: A guy that likes python and anything automation, dsp or data-science.
   organization: Anaconda, Inc.
   date_added: '2024-06-01'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -6797,7 +6566,6 @@
   bio:
   organization: Lucas Systems
   date_added: '2024-06-01'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -6824,7 +6592,6 @@
   bio: Scientist, Developer, space enthusiast
   organization: Space Telescope Science Institute
   date_added: '2024-06-01'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -6853,7 +6620,6 @@
   bio:
   organization:
   date_added: '2024-06-01'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -6880,7 +6646,6 @@
   bio:
   organization: Anaconda
   date_added: '2024-06-01'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -6907,7 +6672,6 @@
   bio:
   organization:
   date_added: '2024-06-01'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -6934,7 +6698,6 @@
   bio: Security + Python + Design
   organization: Bloomberg LP
   date_added: '2024-06-01'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -6963,7 +6726,6 @@
   bio:
   organization:
   date_added: '2024-06-01'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -6991,7 +6753,6 @@
   bio: Hello, I make things sometimes.
   organization:
   date_added: '2024-06-01'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -7019,7 +6780,6 @@
       enthusiast • python core dev, archlinux packager
   organization:
   date_added: '2024-06-01'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -7047,7 +6807,6 @@
   bio:
   organization: MongoDB
   date_added: '2024-06-01'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -7076,7 +6835,6 @@
   bio:
   organization: University of Georgia
   date_added: '2024-06-01'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -7105,7 +6863,6 @@
   bio:
   organization: University of Gdańsk
   date_added: '2024-06-01'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -7134,7 +6891,6 @@
   bio: Research Software Developer at UCL
   organization: '@UCL'
   date_added: '2024-06-01'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -7167,7 +6923,6 @@
       website for more detail.
   organization:
   date_added: '2024-07-04'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -7196,7 +6951,6 @@
       Syndrome'
   organization: Freexian, Debian, Ubuntu
   date_added: '2024-07-04'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -7224,7 +6978,6 @@
       Pandas"
   organization: '@Bloomberg'
   date_added: '2024-07-04'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -7251,7 +7004,6 @@
   bio: Debian Maintainer. Lives in terminal.
   organization:
   date_added: '2024-07-04'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -7278,7 +7030,6 @@
   bio: The true delight is in the finding out rather than in the knowing
   organization: '@worldbank'
   date_added: '2024-07-04'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -7305,7 +7056,6 @@
   bio:
   organization: Center for Astrophysics | Harvard & Smithsonian
   date_added: '2024-07-04'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -7335,7 +7085,6 @@
   bio:
   organization:
   date_added: '2024-07-04'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -7365,7 +7114,6 @@
       Institute for Computational Cosmology, Durham University.
   organization:
   date_added: '2024-07-04'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -7398,7 +7146,6 @@
   bio:
   organization:
   date_added: '2024-07-04'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -7427,7 +7174,6 @@
   bio: Structural biology methods developer and scientific software developer
   organization: Lawrence Berkeley National Laboratory
   date_added: '2024-07-04'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -7451,13 +7197,11 @@
 - name: Nima Sarajpoor
   github_username: NimaSarajpoor
   github_image_id: 38519522
-  title:
-    - Emeritus Editor
+  title: Emeritus Editor
   sort: 2
   bio: Data Scientist  | OSS Contributor  | Philomath
   organization:
   date_added: '2024-07-04'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: true
   advisory: false
@@ -7490,7 +7234,6 @@
       made!
   organization:
   date_added: '2024-07-04'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -7519,7 +7262,6 @@
   bio:
   organization:
   date_added: '2024-07-04'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -7548,7 +7290,6 @@
   bio:
   organization:
   date_added: '2024-07-15'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -7575,7 +7316,6 @@
   bio:
   organization:
   date_added: '2024-07-15'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -7605,7 +7345,6 @@
       astrodynamics.
   organization: '@ansys'
   date_added: '2024-08-01'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -7633,7 +7372,6 @@
       always open for PR reviews!
   organization:
   date_added: '2024-08-01'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -7660,7 +7398,6 @@
   bio:
   organization:
   date_added: '2024-08-01'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -7687,7 +7424,6 @@
   bio:
   organization:
   date_added: '2024-08-01'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -7714,7 +7450,6 @@
   bio: Bioinformatician
   organization:
   date_added: '2024-08-01'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -7741,7 +7476,6 @@
   bio:
   organization: ANSYS
   date_added: '2024-08-01'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -7769,7 +7503,6 @@
   bio: Data Scientist
   organization: USGS
   date_added: '2024-08-01'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -7792,13 +7525,12 @@
 - name: Tetsuo Koyama
   github_username: tkoyama010
   github_image_id: 7513610
-  title:
+  title: Editor
   sort: 2
   bio: '3D visualization library @pyvista maintainer & translator,@scipy-conference
       chairperson,Photo by: @peacock0803sz CC-BY 2.0'
   organization: '@ark-info-sys'
   date_added: '2024-08-15'
-  deia_advisory: false
   editorial_board: true
   emeritus_editor: false
   advisory: false
@@ -7831,7 +7563,6 @@
       Carpentry Japanese Team
   organization:
   date_added: '2024-08-15'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -7858,7 +7589,6 @@
   bio:
   organization:
   date_added: '2024-08-15'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -7887,7 +7617,6 @@
   bio: People | Water | Where
   organization: U.S. Environmental Protection Agency
   date_added: '2024-08-15'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -7919,7 +7648,6 @@
       Fortran, OSS.
   organization: '@Quansight'
   date_added: '2024-09-01'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -7946,7 +7674,6 @@
   bio:
   organization:
   date_added:
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: true
   advisory: false
@@ -7967,14 +7694,13 @@
 - name: Kelly L. Rowland
   github_username: kellyrowland
   github_image_id: 5440574
-  title:
+  title: Emeritus Editor
   sort: 2
   bio:
   organization:
   date_added:
-  deia_advisory: false
-  editorial_board: true
-  emeritus_editor: false
+  editorial_board: false
+  emeritus_editor: true
   advisory: false
   emeritus_advisory: false
   twitter:
@@ -8001,8 +7727,7 @@
   bio:
   organization:
   date_added:
-  deia_advisory: false
-  editorial_board: true
+  editorial_board: false
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -8030,7 +7755,6 @@
   bio:
   organization:
   date_added: '2024-09-17'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -8060,7 +7784,6 @@
       Biophysical Sciences at the University of Chicago.
   organization:
   date_added: '2024-09-17'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -8090,7 +7813,6 @@
   bio:
   organization:
   date_added: '2024-10-01'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -8118,7 +7840,6 @@
       @astropy @discos
   organization: INAF/Osservatorio Astronomico di Cagliari
   date_added: '2024-10-15'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -8148,7 +7869,6 @@
   bio:
   organization: SRON Netherlands Institute for Space Research
   date_added: '2024-10-15'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -8178,7 +7898,6 @@
       Kavli Institute for Astrophysics and Space Research)"
   organization: Massachusetts Institute of Technology
   date_added: '2024-11-01'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -8207,7 +7926,6 @@
   bio: Full stack scientific programmer - from raw data to decisions
   organization: Penn State University
   date_added: '2024-12-13'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -8236,7 +7954,6 @@
   bio:
   organization:
   date_added: '2024-12-13'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -8265,7 +7982,6 @@
   bio:
   organization:
   date_added: '2024-12-13'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -8300,7 +8016,6 @@
   bio:
   organization:
   date_added: '2024-12-13'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -8329,7 +8044,6 @@
   bio:
   organization:
   date_added: '2024-12-13'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -8358,7 +8072,6 @@
   bio:
   organization:
   date_added: '2024-12-13'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -8387,7 +8100,6 @@
   bio:
   organization:
   date_added: '2024-12-13'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -8411,15 +8123,13 @@
 - name: Avik Basu
   github_username: ab93
   github_image_id: 3485425
-  title:
-    - Editor
+  title: Emeritus Editor
   sort: 2
   bio: Data Scientist | Machine Learning Engineer
   organization: Intuit
   date_added: '2024-12-13'
-  deia_advisory: false
-  editorial_board: true
-  emeritus_editor: false
+  editorial_board: false
+  emeritus_editor: true
   advisory: false
   emeritus_advisory: false
   twitter:
@@ -8450,7 +8160,6 @@
   bio:
   organization: SUNY at Buffalo
   date_added: '2024-12-13'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -8483,7 +8192,6 @@
       applications.
   organization: University of Padova
   date_added: '2024-12-13'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -8513,7 +8221,6 @@
       @fatiando and @simpeg.
   organization: '@fatiando @simpeg @ubcgif @compgeolab @GeoLatinas'
   date_added: '2025-01-01'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -8541,7 +8248,6 @@
   bio: PSF Security Developer-in-Residence 🐍 PSF Fellow ✨ Minnesoootan, he/him
   organization: '@psf'
   date_added: '2025-01-01'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -8569,7 +8275,6 @@
       computational biophysics @YesselmanLab and @yao-laboratory
   organization:
   date_added: '2025-01-14'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -8601,7 +8306,6 @@
   bio: '@CorinneBassin-NOAA@CorinneBassin-SOI'
   organization:
   date_added: '2025-01-14'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -8630,7 +8334,6 @@
   bio:
   organization: Open-source engineer @probabl-ai
   date_added: '2025-01-14'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -8659,7 +8362,6 @@
   bio:
   organization: Victorian Infectious Disease Reference Laboratory (VIDRL)
   date_added: '2025-02-01'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -8688,7 +8390,6 @@
   bio: Python, Genomics, JavaScript & everything in between.
   organization: '@Genentech'
   date_added: '2025-02-01'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -8717,7 +8418,6 @@
   bio:
   organization:
   date_added: '2025-02-01'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -8748,7 +8448,6 @@
       voting member @astropy.
   organization: Max Planck Institute for Astronomy
   date_added: '2025-02-19'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -8777,7 +8476,6 @@
   bio:
   organization: Minnesota State University Moorhead
   date_added: '2025-02-19'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -8806,7 +8504,6 @@
   bio: Astronomy, Software, & Other Things
   organization: NOIRLab
   date_added: '2025-02-19'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -8836,7 +8533,6 @@
   bio:
   organization:
   date_added: '2025-02-19'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -8865,7 +8561,6 @@
   bio:
   organization:
   date_added: '2025-02-19'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -8895,7 +8590,6 @@
   organization: National Centre for Atmospheric Science, University of
       Manchester
   date_added: '2025-02-19'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -8924,7 +8618,6 @@
   bio:
   organization:
   date_added: '2025-02-19'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -8953,7 +8646,6 @@
   bio: researching clouds in the cloud
   organization: agh.edu.pl
   date_added: '2025-02-19'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -8984,7 +8676,6 @@
   bio:
   organization:
   date_added: '2025-02-19'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -9014,7 +8705,6 @@
       Atmospheric Sciences at the University of Illinois Urbana-Champaign.
   organization: University of Illinois Urbana-Champaign
   date_added: '2025-02-19'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -9043,7 +8733,6 @@
   bio:
   organization: University of Illinois at Urbana-Champaign
   date_added: '2025-02-19'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -9072,7 +8761,6 @@
   bio: Professor of Mechanical Science and Engineering
   organization: University of Illinois at Urbana-Champaign
   date_added: '2025-02-19'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -9102,7 +8790,6 @@
       @scientific-python
   organization: Quansight
   date_added: '2025-02-28'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -9131,7 +8818,6 @@
   bio:
   organization: Space Telescope Science Institute
   date_added: '2025-02-28'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -9160,7 +8846,6 @@
   bio: Simulations and Visualizations.P.C Sameer A. Khan.
   organization: Princeton University
   date_added: '2025-02-28'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -9190,7 +8875,6 @@
   bio:
   organization:
   date_added: '2025-02-28'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -9220,7 +8904,6 @@
       @yt-project
   organization: '@NCSA'
   date_added: '2025-03-20'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -9250,7 +8933,6 @@
       on GPUs
   organization: Oregon State University
   date_added: '2025-03-20'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -9281,7 +8963,6 @@
       @cnerg.
   organization: '@idaholab'
   date_added: '2025-03-20'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -9313,7 +8994,6 @@
       @idaholab andPh.D student with @anovak-lab
   organization: Idaho National Laboratory
   date_added: '2025-03-20'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -9343,7 +9023,6 @@
       Norway. Excited about open source, science outreach and visualization.
   organization: '@NationalLibraryOfNorway @Sprakbanken'
   date_added: '2025-05-19'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -9370,7 +9049,6 @@
   bio:
   organization:
   date_added: '2025-05-19'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -9398,7 +9076,6 @@
       science + open source.
   organization: '@weecology, Univ of Florida'
   date_added: '2025-05-30'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -9428,7 +9105,6 @@
       post-breach triage with the Open University.
   organization:
   date_added: '2025-05-30'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -9452,13 +9128,11 @@
 - name: Julieta Millan
   github_username: JuliMillan
   github_image_id: 66881995
-  title:
-    - Editor
+  title: Editor
   sort: 2
   bio: Biology, data science and open science
   organization:
   date_added: '2025-05-30'
-  deia_advisory: false
   editorial_board: true
   emeritus_editor: false
   advisory: false
@@ -9488,7 +9162,6 @@
   bio:
   organization:
   date_added: '2025-05-30'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -9518,7 +9191,6 @@
   bio: Remote Sensing Data Scientist - NEON AOP and Data Skills
   organization: National Ecological Observatory Network
   date_added: '2025-05-30'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -9547,7 +9219,6 @@
   bio:
   organization:
   date_added: '2025-05-30'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -9577,7 +9248,6 @@
       mathematics and computational biology.
   organization: Bouvet
   date_added: '2025-06-01'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -9604,7 +9274,6 @@
   bio:
   organization: Christ University
   date_added: '2025-06-02'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -9636,7 +9305,6 @@
       are some of my attempts at doing both! Contact me to learn more: zacwarham@outlook.com'
   organization:
   date_added: '2025-06-02'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -9663,7 +9331,6 @@
   bio:
   organization: Vellore Institute of Technology, Chennai
   date_added: '2025-06-05'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -9690,7 +9357,6 @@
   bio: bow ties are cool
   organization: '@rstudio @UBC-DSCI @UBC-MDS'
   date_added: '2025-06-10'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -9714,12 +9380,12 @@
   github_image_id: 34322936
   title:
     - Editor
+    - Editor in Chief
     - Editor in Chief Team
   sort: 1
   bio: Graduate student at Université de Montréal studying astrophysics.
   organization:
   date_added: '2025-06-16'
-  deia_advisory: false
   editorial_board: true
   emeritus_editor: false
   advisory: false
@@ -9744,6 +9410,7 @@
     - nsevdx
     - pyhctsa
     - solar-wavelength-calibration
+    - tanml
   packages_editor:
     - astropy
     - blockingpy
@@ -9751,6 +9418,7 @@
     - piva
     - pyhctsa
     - swiftgalaxy
+    - tanml
   packages_submitted:
   packages_reviewed:
     - felupe
@@ -9765,7 +9433,6 @@
   bio: No audacity, no young.
   organization: University of Tennessee, Knoxville
   date_added: '2025-06-16'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -9798,7 +9465,6 @@
       Electronics Engineer.
   organization: UPM
   date_added: '2025-06-16'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -9827,7 +9493,6 @@
   bio:
   organization: '@NREL'
   date_added: '2025-06-16'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -9856,7 +9521,6 @@
   bio: Staff Engineer @slaclab |Physics PhD
   organization: SLAC National Accelerator Laboratory
   date_added: '2025-06-16'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -9886,7 +9550,6 @@
   bio: PV Performance Specialist, Scientific Coding Enthusiast
   organization: Stanford & SLAC National Lab
   date_added: '2025-06-16'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -9916,7 +9579,6 @@
       Security & OSS (@ Google); Haskell+differential privacy+ML @ LeapYear.
   organization: Google
   date_added: '2025-07-18'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -9945,7 +9607,6 @@
       local governments.
   organization:
   date_added: '2025-07-18'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -9972,7 +9633,6 @@
   bio:
   organization:
   date_added: '2025-07-18'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -9999,7 +9659,6 @@
   bio:
   organization:
   date_added: '2025-07-18'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -10026,7 +9685,6 @@
   bio:
   organization:
   date_added: '2025-07-18'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -10057,7 +9715,6 @@
       heart.
   organization: NVIDIA
   date_added: '2025-07-18'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -10084,7 +9741,6 @@
   bio:
   organization:
   date_added: '2025-07-22'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -10111,7 +9767,6 @@
   bio: 'Keywords: Open Source, Open Science, Community Engagement, Technology, Accessibility'
   organization: The Turing Way - The Alan Turing Institute
   date_added: '2025-07-24'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -10138,7 +9793,6 @@
   bio: Data Scientist
   organization:
   date_added: '2025-07-25'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -10165,7 +9819,6 @@
   bio: Independent social media marketer and audio and video production expert
   organization: pyOpenSci
   date_added: '2025-07-25'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -10193,7 +9846,6 @@
       exploring! Some of my research projects are showcased here.
   organization:
   date_added: '2025-07-25'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -10220,7 +9872,6 @@
   bio:
   organization: '@curvenote'
   date_added: '2025-07-25'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -10248,7 +9899,6 @@
       developing 👐 open-source 📈 scientific 💻✨ software since 2009 ❤️
   organization: 2i2c
   date_added: '2025-07-25'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -10275,7 +9925,6 @@
   bio: Applied Mathematics engineer interested in modeling.
   organization:
   date_added: '2025-07-25'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -10302,7 +9951,6 @@
   bio:
   organization:
   date_added: '2025-07-25'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -10329,7 +9977,6 @@
   bio:
   organization:
   date_added: '2025-07-25'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -10356,7 +10003,6 @@
   bio:
   organization:
   date_added: '2025-07-25'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -10383,7 +10029,6 @@
   bio:
   organization:
   date_added: '2025-07-25'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -10410,7 +10055,6 @@
   bio: Full Stack Web Developer montessobalevelyn@gmail.com
   organization:
   date_added: '2025-07-25'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -10437,7 +10081,6 @@
   bio:
   organization:
   date_added: '2025-07-25'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -10464,7 +10107,6 @@
   bio:
   organization:
   date_added: '2025-07-25'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -10491,7 +10133,6 @@
   bio: Combustion Group Leader at CFD Research Corporation.
   organization: CFD Research Corporation
   date_added: '2025-08-07'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -10513,14 +10154,13 @@
 - name: James J Balamuta
   github_username: coatless
   github_image_id: 833642
-  title:
+  title: Editor
   sort:
   bio: 'omnipresent explorer of the unknown, fashionably caffeinated informatics
       phd, amorous cavalier. design, build, analyze. #rstats #python @tmsalab'
   organization:
   date_added: '2025-08-07'
-  deia_advisory: false
-  editorial_board: false
+  editorial_board: true
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -10531,6 +10171,7 @@
   website: https://thecoatlessprofessor.com
   board: false
   contributor_type:
+    - editor
     - eic
     - peer-review
     - peer-review-guide
@@ -10556,7 +10197,6 @@
   bio:
   organization: National Solar Observatory
   date_added: '2025-08-07'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -10589,7 +10229,6 @@
   bio:
   organization: University of Zürich
   date_added: '2025-08-07'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -10619,7 +10258,6 @@
   bio:
   organization:
   date_added: '2025-08-07'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -10644,14 +10282,12 @@
 - name: Jonas Eschle
   github_username: jonas-eschle
   github_image_id: 17454848
-  title:
-    - Editor
+  title: Editor
   sort: 2
   bio: Large scale statistics, machine learning and software engineering in
       High Energy Physics
   organization: CERN
   date_added: '2025-08-07'
-  deia_advisory: false
   editorial_board: true
   emeritus_editor: false
   advisory: false
@@ -10681,7 +10317,6 @@
   bio:
   organization:
   date_added: '2025-08-07'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -10711,7 +10346,6 @@
   bio:
   organization:
   date_added: '2025-08-22'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -10741,7 +10375,6 @@
   bio: Research Fellow in SoC@NUS
   organization: SoC@NUS
   date_added: '2025-08-22'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -10771,7 +10404,6 @@
       Researcher
   organization: University of Illinois Urbana-Champaign
   date_added: '2025-08-22'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -10802,7 +10434,6 @@
       Energy Technologies.
   organization:
   date_added: '2025-09-10'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -10831,7 +10462,6 @@
   bio:
   organization:
   date_added: '2025-09-10'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -10860,7 +10490,6 @@
   bio:
   organization:
   date_added: '2025-09-10'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -10889,7 +10518,6 @@
   bio: cryosphere + image processing + data science
   organization: Stanford, University
   date_added: '2025-09-27'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -10920,7 +10548,6 @@
       community software. Prof at CU Boulder. Alpinist, skier, runner.
   organization: CU Boulder
   date_added: '2025-09-27'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -10948,7 +10575,6 @@
   bio:
   organization: Universidad EAFIT
   date_added: '2025-09-27'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -10978,7 +10604,6 @@
       in the Railway Industry. Opinions related to this account are my own.
   organization: Graz University of Technology
   date_added: '2025-09-27'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -11008,7 +10633,6 @@
   bio:
   organization:
   date_added: '2025-10-17'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -11035,7 +10659,6 @@
   bio: Research Software Engineer at @UtrechtUniversity
   organization: Utrecht University
   date_added: '2025-10-17'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -11064,7 +10687,6 @@
       coding:)
   organization:
   date_added: '2025-10-17'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -11095,7 +10717,6 @@
       and nano-bioengineering.
   organization:
   date_added: '2025-10-17'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -11125,7 +10746,6 @@
       Genome Science and Algorithms | 💻 Software Development | 👽 AI dev
   organization: Research scientist
   date_added: '2025-10-17'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -11154,7 +10774,6 @@
   bio:
   organization: Space and Astrophysics Research Lab
   date_added: '2025-10-17'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -11179,12 +10798,11 @@
 - name: Akrita
   github_username: akritaag
   github_image_id: 2558622
-  title:
+  title: Editor
   sort:
   bio:
   organization:
   date_added: '2025-10-17'
-  deia_advisory: false
   editorial_board: true
   emeritus_editor: false
   advisory: false
@@ -11196,6 +10814,7 @@
   website:
   board: false
   contributor_type:
+    - editor
     - peer-review
     - reviewer
   packages_eic:
@@ -11215,7 +10834,6 @@
       University in Poznań
   organization:
   date_added: '2025-10-17'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -11245,7 +10863,6 @@
   bio: artist trapped in a mathematician's mind
   organization: '@mindthemath'
   date_added: '2025-10-18'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -11272,7 +10889,6 @@
   bio: Ernest Rutherford Fellow at Newcastle UniversityDeveloper of PyAutoLens
   organization: Newcastle University
   date_added: '2025-11-08'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -11304,7 +10920,6 @@
   bio: astronomer, python hacker
   organization: MMT Observatory
   date_added: '2025-11-08'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -11333,7 +10948,6 @@
   bio: Computer Astro programmer
   organization: FACITE
   date_added: '2025-11-08'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -11365,7 +10979,6 @@
   bio:
   organization:
   date_added: '2025-12-09'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -11395,7 +11008,6 @@
   bio:
   organization: UGR
   date_added: '2025-12-09'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -11424,7 +11036,6 @@
   bio: Principal Data Scientist
   organization: Zillow
   date_added: '2025-12-31'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -11455,7 +11066,6 @@
   bio:
   organization:
   date_added: '2025-12-31'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -11484,7 +11094,6 @@
   bio:
   organization:
   date_added: '2025-12-31'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -11513,7 +11122,6 @@
   bio:
   organization:
   date_added: '2026-01-24'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -11542,7 +11150,6 @@
   bio:
   organization: UPEC
   date_added: '2026-03-16'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -11571,7 +11178,6 @@
   bio: Associate Professor of Engineering
   organization: Harvey Mudd College
   date_added: '2026-05-04'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -11600,7 +11206,6 @@
   bio:
   organization:
   date_added: '2026-05-04'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -11629,7 +11234,6 @@
   bio:
   organization: CNRS
   date_added: '2026-05-04'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -11659,7 +11263,6 @@
   bio: Software engineer by day, math nerd by night.
   organization:
   date_added: '2026-05-18'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -11689,7 +11292,6 @@
   bio:
   organization: STScI
   date_added: '2026-06-15'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -11716,7 +11318,6 @@
   bio: Senior Developer Advocate @ Meta
   organization: '@facebook'
   date_added: '2026-06-15'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -11743,7 +11344,6 @@
   bio: Postdoctoral Research Associate at the University of Exeter
   organization: University of Exeter
   date_added: '2026-06-15'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -11774,7 +11374,6 @@
   bio: Dynamic Systems Algorithms
   organization:
   date_added: '2026-06-15'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -11804,7 +11403,6 @@
   bio:
   organization:
   date_added: '2026-08-05'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -11827,12 +11425,13 @@
   github_username: shaunagm
   github_image_id: 1179362
   title:
+    - Editor
+    - Peer Review Lead
   sort:
   bio:
   organization:
   date_added: '2026-08-05'
-  deia_advisory: false
-  editorial_board: false
+  editorial_board: true
   emeritus_editor: false
   advisory: false
   emeritus_advisory: false
@@ -11843,6 +11442,7 @@
   website: https://www.shaunagm.net
   board: false
   contributor_type:
+    - editor
     - web-contrib
   packages_eic:
   packages_editor:
@@ -11858,7 +11458,6 @@
   bio:
   organization:
   date_added: '2026-08-05'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -11888,7 +11487,6 @@
       Astrofísica de Canarias.
   organization: Instituto de Astrofísica de Canarias (IAC)
   date_added: '2026-08-05'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -11918,7 +11516,6 @@
       Observatory.
   organization:
   date_added: '2026-08-05'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -11947,7 +11544,6 @@
   bio:
   organization:
   date_added: '2026-08-05'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -11976,7 +11572,6 @@
   bio:
   organization:
   date_added: '2026-08-05'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -12007,7 +11602,6 @@
   bio: USYD PhD candidate
   organization: '@DynamicsAndNeuralSystems'
   date_added: '2026-08-05'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -12038,7 +11632,6 @@
       and dynamics of complex systems like the brain
   organization: '@DynamicsAndNeuralSystems'
   date_added: '2026-08-05'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -12067,7 +11660,6 @@
   bio:
   organization:
   date_added: '2026-08-05'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -12097,7 +11689,6 @@
   bio:
   organization: STScI
   date_added: '2026-08-05'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -12126,7 +11717,6 @@
   bio: PhD in Astrophysics | Research Software Engineer
   organization: Instituto de Astrofísica de Canarias
   date_added: '2026-08-05'
-  deia_advisory: false
   editorial_board: false
   emeritus_editor: false
   advisory: false
@@ -12147,6 +11737,117 @@
     - milespy
   packages_reviewed:
   location:
+  email:
+- name:
+  github_username: bluedotblue
+  github_image_id: 121519363
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2026-09-07'
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - open-education
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location:
+  email:
+- name: Eric Chen
+  github_username: echen1214
+  github_image_id: 59617964
+  title:
+  sort:
+  bio:
+  organization: Mt. Sinai
+  date_added: '2026-09-07'
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - tanml
+  location: New York, NY
+  email:
+- name:
+  github_username: anabeltan
+  github_image_id: 260771263
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2026-09-07'
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - tanml
+  location:
+  email:
+- name: Tanmay Sah
+  github_username: tradertanmay
+  github_image_id: 34967207
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2026-09-07'
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+    - submitting-author
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - tanml
+  packages_reviewed:
+  location: USA
   email:
 - name: Shridivya Sharma
   github_username: shrishar

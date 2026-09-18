@@ -9,24 +9,21 @@
   {{ $contrib := partial "people/lookup-contributor.html" (dict
     "username" $username
     "contributors" $contributors) }}
-  {{ $tier := 2 }}
+  {{/* Grid order: PR lead, EiC, triage, then editors */}}
+  {{ $tier := 3 }}
   {{ if $roles.peer_review_lead }}
     {{ $tier = 0 }}
-  {{ else if $roles.eic_team }}
+  {{ else if or $roles.eic $roles.eic_team }}
     {{ $tier = 1 }}
-  {{ end }}
-  {{ $sort := 99 }}
-  {{ with $contrib }}
-    {{ $sort = .sort | default 99 }}
+  {{ else if $roles.triage }}
+    {{ $tier = 2 }}
   {{ end }}
   {{ $entries = $entries | append (dict
     "username" $username
     "contrib" $contrib
     "roles" $roles
-    "tier" $tier
-    "sort" $sort) }}
+    "tier" $tier) }}
 {{ end }}
-{{ $entries = sort $entries "sort" "asc" }}
 {{ $entries = sort $entries "tier" "asc" }}
 <div class="people-grid-static">
   {{ range $entries }}

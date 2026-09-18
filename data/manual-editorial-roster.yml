@@ -1,0 +1,23 @@
+# Hand-maintained editorial roster overrides.
+# People who cannot / will not be on GitHub org teams.
+# Merged by update-editorial-board after team fetch. Do not overwrite
+# this file from CI.
+#
+# editor: true          → editorial-board.yml (active editor)
+# emeritus_editor: true → emeritus-editors.yml
+# Specialty flags optional (eic, triage, emeritus_eic, …).
+
+jbencook:
+  name: Ben Cook
+  note: "Not on GitHub teams; keep as emeritus editor"
+  emeritus_editor: true
+
+dhomeier:
+  name: Derek Homeier
+  note: "Not on GitHub teams; keep as active editor"
+  editor: true
+
+russbiggs:
+  name: Russ Biggs
+  note: "Not on GitHub teams; keep as emeritus editor"
+  emeritus_editor: true
