@@ -11849,3 +11849,31 @@
   packages_reviewed:
   location: USA
   email:
+- name: Shridivya Sharma
+  github_username: shrishar
+  github_image_id: 31457014
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2026-08-21'
+  deia_advisory: false
+  editorial_board: true
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - editor
+    - peer-review
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location:
+  email:
