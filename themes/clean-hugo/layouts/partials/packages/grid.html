@@ -86,6 +86,14 @@
             </li>
           </template>
 
+          {{/* Accepted date */}}
+          <template x-if="pkg.date_accepted && pkg.date_accepted !== 'missing'">
+            <li class="package_card__date-accepted">
+              <i class="fas fa-calendar-check" aria-hidden="true"></i>
+              <span x-text="'Accepted: ' + pkg.date_accepted"></span>
+            </li>
+          </template>
+
           {{/* Archived badge for archived packages */}}
           <template x-if="pkg.active === false">
             <li class="package_card__archived">
