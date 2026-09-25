@@ -11877,3 +11877,31 @@
   packages_reviewed:
   location:
   email:
+- name: Veerendra Kumar Sunkavalli
+  github_username: dosvk
+  github_image_id: 61915092
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2026-09-25'
+  deia_advisory: false
+  editorial_board: true
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid: 0009-0005-2759-1642
+  partners:
+  website: https://dosvk.github.io
+  board: false
+  contributor_type:
+    - editor
+    - peer-review
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location:
+  email:
