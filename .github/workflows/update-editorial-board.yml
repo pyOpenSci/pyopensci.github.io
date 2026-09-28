@@ -22,7 +22,7 @@ jobs:
           python -m pip install --upgrade pip wheel
       - name: Install pyosmeta and update editorial board
         env:
-          # Ensure permissions if we have to add someone to contributors.yml file 
+          # Ensure permissions if we have to add someone to contributors.yml file
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # Using a fine grained token here that only has team read access.
           GITHUB_TOKEN_TEAMS: ${{ secrets.PYOS_READ_TEAM_MEMBERS_SECRET }}
