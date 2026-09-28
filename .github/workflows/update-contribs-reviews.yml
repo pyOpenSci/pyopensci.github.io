@@ -32,6 +32,7 @@ jobs:
 
       - name: Update editorial board
         env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # Using a fine grained token here that only has team read access.
           GITHUB_TOKEN_TEAMS: ${{ secrets.PYOS_READ_TEAM_MEMBERS_SECRET }}
         run: |
@@ -48,7 +49,7 @@ jobs:
           author: Leah <leah@pyopensci.org>
           base: main
           branch: contribs
-          commit-message: "Update: Contributor & review file update"
+          commit-message: "Update(contribs-reviews): Contributor & review file update"
           delete-branch: true
           title: Update contributor and review data
           labels: |
