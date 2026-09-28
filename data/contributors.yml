@@ -11852,7 +11852,7 @@
 - name: Shridivya Sharma
   github_username: shrishar
   github_image_id: 31457014
-  title:
+  title: Editor
   sort:
   bio:
   organization:
@@ -11877,3 +11877,11 @@
   packages_reviewed:
   location:
   email:
+- github_username: dosvk
+  github_image_id: 61915092
+  name: Veerendra Kumar Sunkavalli
+  title: Editor
+  editorial_board: true
+  emeritus_editor: false
+  contributor_type:
+    - editor
