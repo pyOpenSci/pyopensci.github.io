@@ -391,6 +391,7 @@
   packages_submitted:
     - errdapy
   packages_reviewed:
+    - earthaccess
     - nbless
   location: Florianópolis, SC
   email: ocefpaf@gmail.com
@@ -651,6 +652,7 @@
     - peer-review-guide
     - reviewer
   packages_eic:
+    - blackmarblepy
     - crowsetta
     - felupe
     - montepy
@@ -1028,12 +1030,15 @@
   contributor_type:
     - contributor
     - editor
+    - eic
     - guidebook-contrib
     - peer-review
     - peer-review-guide
     - reviewer
   packages_eic:
+    - earthaccess
   packages_editor:
+    - earthaccess
     - lintquarto
   packages_submitted:
   packages_reviewed:
@@ -4302,6 +4307,7 @@
   packages_eic:
     - cheminformant
     - lintquarto
+    - mocpy
     - pyinterpolate
   packages_editor:
     - cheminformant
@@ -5040,12 +5046,14 @@
   website: https://jhkennedy.org
   board: false
   contributor_type:
+    - maintainer
     - package-guide
     - peer-review
     - reviewer
   packages_eic:
   packages_editor:
   packages_submitted:
+    - earthaccess
   packages_reviewed:
     - eomaps
   location: Fairbanks, AK
@@ -5282,6 +5290,7 @@
     - astropy
     - c4dynamics
   packages_editor:
+    - blackmarblepy
     - tda-mapper
   packages_submitted:
   packages_reviewed:
@@ -5766,6 +5775,7 @@
   packages_eic:
   packages_editor:
   packages_submitted:
+    - earthaccess
     - ncompare
   packages_reviewed:
   location:
@@ -7041,10 +7051,14 @@
   website: https://g4brielvs.me
   board: false
   contributor_type:
+    - maintainer
+    - peer-review
+    - submitting-author
     - web-contrib
   packages_eic:
   packages_editor:
   packages_submitted:
+    - blackmarblepy
   packages_reviewed:
   location:
   email: gvicente@worldbank.org
@@ -7516,10 +7530,13 @@
   contributor_type:
     - code-contrib
     - community
+    - peer-review
+    - reviewer
   packages_eic:
   packages_editor:
   packages_submitted:
   packages_reviewed:
+    - blackmarblepy
   location: Madison, WI
   email:
 - name: Tetsuo Koyama
@@ -9415,6 +9432,7 @@
     - astropy
     - blockingpy
     - c4dynamics
+    - mocpy
     - piva
     - pyhctsa
     - swiftgalaxy
@@ -10180,6 +10198,7 @@
     - c4dynamics
     - galfitools
     - greopy
+    - mocpy
     - piva
     - pyautogalaxy
     - pymultifit
@@ -11857,7 +11876,6 @@
   bio:
   organization:
   date_added: '2026-08-21'
-  deia_advisory: false
   editorial_board: true
   emeritus_editor: false
   advisory: false
@@ -11877,11 +11895,597 @@
   packages_reviewed:
   location:
   email:
-- github_username: dosvk
+- name: Veerendra Kumar Sunkavalli
+  github_username: dosvk
   github_image_id: 61915092
-  name: Veerendra Kumar Sunkavalli
   title: Editor
+  sort:
+  bio:
+  organization:
+  date_added:
   editorial_board: true
   emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
   contributor_type:
     - editor
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location:
+  email:
+- name:
+  github_username: stefano-m-potter
+  github_image_id: 31860374
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2026-09-29'
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - earthaccess
+  location:
+  email:
+- name: Andy Barrett
+  github_username: andypbarrett
+  github_image_id: 2358591
+  title:
+  sort:
+  bio: Professional Research Assistant at the National Snow and Ice Data
+      Center, University of Colorado at Boulder, Boulder, CO.
+  organization: National Snow and Ice Data Center
+  date_added: '2026-09-29'
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://nsidc.org
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - earthaccess
+  packages_reviewed:
+  location: Boulder, CO
+  email:
+- name: Chris Battisto
+  github_username: battistowx
+  github_image_id: 34325676
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2026-09-29'
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - earthaccess
+  packages_reviewed:
+  location:
+  email:
+- name: James Bourbeau
+  github_username: jrbourbeau
+  github_image_id: 11656932
+  title:
+  sort:
+  bio: Senior Solutions Architect @NVIDIA. @dask core developer. Previously
+      @coiled and @quansight.@zarr-developers emeritus core developer.
+  organization: '@NVIDIA'
+  date_added: '2026-09-29'
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://jamesbourbeau.com
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - earthaccess
+  packages_reviewed:
+  location: Madison, WI
+  email:
+- name: Ian Carroll
+  github_username: itcarroll
+  github_image_id: 3383837
+  title:
+  sort:
+  bio:
+  organization: '@umbc'
+  date_added: '2026-09-29'
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://itcarroll.github.io
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - earthaccess
+  packages_reviewed:
+  location: Washington, DC, USA
+  email:
+- name: Chuck Daniels
+  github_username: chuckwondo
+  github_image_id: 5607545
+  title:
+  sort:
+  bio: Data Engineer at Development Seed
+  organization: '@developmentseed'
+  date_added: '2026-09-29'
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://developmentseed.org/
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - earthaccess
+  packages_reviewed:
+  location:
+  email: chuck@developmentseed.org
+- name: Matt Fisher
+  github_username: mfisher87
+  github_image_id: 3608264
+  title:
+  sort:
+  bio: Scientific Software Developer at UC Berkeley Schmidt Center for Data
+      Science and Environment.Volunteer open source developer and
+      maintainer.🏳️‍🌈
+  organization: '@SchmidtDSE'
+  date_added: '2026-09-29'
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://mfisher87.github.io/
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - earthaccess
+  packages_reviewed:
+  location: Colorado, USA
+  email:
+- name: Luis López
+  github_username: betolink
+  github_image_id: 717735
+  title:
+  sort:
+  bio: Infinite Code Monkey
+  organization:
+  date_added: '2026-09-29'
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter: betolink
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - earthaccess
+  packages_reviewed:
+  location: Geographically dispersed
+  email: betolin@gmail.com
+- name: Julia Stewart Lowndes
+  github_username: jules32
+  github_image_id: 5891909
+  title:
+  sort:
+  bio:
+  organization: Openscapes
+  date_added: '2026-09-29'
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://jules32.github.io
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - earthaccess
+  packages_reviewed:
+  location: California and UK
+  email:
+- name: Jessica Scheick
+  github_username: JessicaS11
+  github_image_id: 11756442
+  title:
+  sort:
+  bio: 'ORCID: 0000-0002-3421-4459'
+  organization: University of New Hampshire
+  date_added: '2026-09-29'
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter: jessicascheick
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - earthaccess
+  packages_reviewed:
+  location:
+  email:
+- name: Amy Steiker
+  github_username: asteiker
+  github_image_id: 47193922
+  title:
+  sort:
+  bio: Data Services Engineer at the National Snow and Ice Data Center,
+      University of Colorado at Boulder
+  organization: National Snow and Ice Data Center
+  date_added: '2026-09-29'
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://nsidc.org
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - earthaccess
+  packages_reviewed:
+  location: Boulder, CO
+  email:
+- name: Sherwin Varghese
+  github_username: Sherwin-14
+  github_image_id: 141290943
+  title:
+  sort:
+  bio: Making data work harder than it wants to.
+  organization:
+  date_added: '2026-09-29'
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://sherwinv.space
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - earthaccess
+  packages_reviewed:
+  location: India
+  email:
+- name: Théo
+  github_username: TOCode11
+  github_image_id: 66630530
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2026-09-29'
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - mocpy
+  location:
+  email:
+- name: Christian Thibeault
+  github_username: ChristianThibeault
+  github_image_id: 29137119
+  title:
+  sort:
+  bio: Graduate student at Université de Montréal studying Solar Physics
+  organization:
+  date_added: '2026-09-29'
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - mocpy
+  location: Montreal - Canada
+  email: ChristianthibeaultNB@gmail.com
+- name: Manon Marchand
+  github_username: ManonMarchand
+  github_image_id: 16650466
+  title:
+  sort:
+  bio:
+  organization: '@cds-astro'
+  date_added: '2026-09-29'
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+    - submitting-author
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - mocpy
+  packages_reviewed:
+  location: Strasbourg, France
+  email:
+- name: François-Xavier Pineau
+  github_username: fxpineau
+  github_image_id: 36880910
+  title:
+  sort:
+  bio:
+  organization: '@cds-astro'
+  date_added: '2026-09-29'
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - mocpy
+  packages_reviewed:
+  location: Strasbourg - France
+  email:
+- name: Thomas Boch
+  github_username: tboch
+  github_image_id: 5598168
+  title:
+  sort:
+  bio: Software engineer at Centre de Données astronomiques de Strasbourg
+  organization:
+  date_added: '2026-09-29'
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - mocpy
+  packages_reviewed:
+  location:
+  email:
+- name: Matthieu Baumann
+  github_username: bmatthieu3
+  github_image_id: 2772384
+  title:
+  sort:
+  bio: I work as a research engineer for the Center of Astronomical Data
+      located in Strasbourg (CDS) where I develop libraries and tools for the
+      astronomical community
+  organization: CNRS - Astronomical Observatory of Strasbourg
+  date_added: '2026-09-29'
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://bmatthieu3.github.io
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - mocpy
+  packages_reviewed:
+  location: Strasbourg - France
+  email: baumannmatthieu0@gmail.com
+- name: Pete Gadomski
+  github_username: gadomski
+  github_image_id: 58314
+  title:
+  sort:
+  bio: Geospatial open source
+  organization: '@developmentseed'
+  date_added: '2026-09-29'
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://www.gadom.ski
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - blackmarblepy
+  location: Longmont, CO
+  email: pete.gadomski@gmail.com
+- name: Rob Marty
+  github_username: ramarty
+  github_image_id: 11593422
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2026-09-29'
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://ramarty.github.io/
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - blackmarblepy
+  packages_reviewed:
+  location: Washington, DC
+  email:

@@ -1,3 +1,78 @@
+- package_name: earthaccess
+  package_description: earthaccess is a python library to search for, and
+      download or stream NASA Earth science data with just a few lines of
+      code.
+  submitting_author:
+      name: Daniel Kaufman
+      github_username: danielfromearth
+  all_current_maintainers:
+    - name: Andy Barrett
+      github_username: andypbarrett
+    - name: Chris Battisto
+      github_username: battistowx
+    - name: James Bourbeau
+      github_username: jrbourbeau
+    - name: Ian Carroll
+      github_username: itcarroll
+    - name: Chuck Daniels
+      github_username: chuckwondo
+    - name: Matt Fisher
+      github_username: mfisher87
+    - name: Daniel Kaufman
+      github_username: danielfromearth
+    - name: Joseph H Kennedy
+      github_username: jhkennedy
+    - name: Luis López
+      github_username: betolink
+    - name: Julia Stewart Lowndes
+      github_username: jules32
+    - name: Jessica Scheick
+      github_username: JessicaS11
+    - name: Amy Steiker
+      github_username: asteiker
+    - name: Sherwin Varghese
+      github_username: Sherwin-14
+  repository_link: https://github.com/earthaccess-dev/earthaccess
+  repository_host: github
+  version_submitted: 0.17.0
+  categories:
+    - data-retrieval
+  editor:
+      name: Kylen Solvik
+      github_username: kysolvik
+  eic:
+      name: Kylen Solvik
+      github_username: kysolvik
+  reviewers:
+    - name: Filipe
+      github_username: ocefpaf
+    - name:
+      github_username: stefano-m-potter
+  archive: https://zenodo.org/records/20143893 (Zenodo is down today, will
+      update once we can confirm the right doi number)
+  version_accepted: v0.19.0
+  date_accepted: 2026-9-10
+  created_at: 2026-05-05 19:12:40+00:00
+  updated_at: 2026-09-28 21:03:36+00:00
+  closed_at:
+  issue_link: https://github.com/pyOpenSci/software-submission/issues/302
+  joss:
+  partners:
+  gh_meta:
+      name: earthaccess
+      description: Python Library for NASA Earthdata APIs
+      created_at: '2021-08-25'
+      stargazers_count: 644
+      watchers_count: 644
+      open_issues_count: 167
+      forks_count: 153
+      documentation: https://earthaccess.readthedocs.io/
+      contrib_count: 54
+      last_commit: '2026-09-24'
+  labels:
+    - 6/pyOS-approved
+    - joss-submission-pending
+  active: true
 - package_name: solar-wavelength-calibration
   package_description: Library for computing absolute wavelength calibration
       of Solar spectra.
@@ -84,10 +159,10 @@
       description: 'The most comprehensive time-series feature extraction package
           in Python. '
       created_at: '2025-06-27'
-      stargazers_count: 149
-      watchers_count: 149
+      stargazers_count: 154
+      watchers_count: 154
       open_issues_count: 1
-      forks_count: 12
+      forks_count: 13
       documentation: https://dynamicsandneuralsystems.github.io/pyhctsa/
       contrib_count: 3
       last_commit: '2026-09-06'
@@ -122,14 +197,14 @@
       github_username: echen1214
     - name:
       github_username: anabeltan
-  archive:
-  version_accepted: TBD
-  date_accepted: missing
+  archive: https://pypi.org/project/tanml/
+  version_accepted: v0.2.2
+  date_accepted: '2026-09-01'
   created_at: 2026-01-27 01:30:28+00:00
-  updated_at: 2026-09-04 16:26:20+00:00
-  closed_at:
+  updated_at: 2026-09-24 16:33:57+00:00
+  closed_at: 2026-09-11 17:43:13+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/280
-  joss:
+  joss: https://zenodo.org/records/22285793
   partners:
   gh_meta:
       name: tanml
@@ -139,13 +214,13 @@
       stargazers_count: 9
       watchers_count: 9
       open_issues_count: 0
-      forks_count: 0
+      forks_count: 1
       documentation: https://pypi.org/project/tanml/
       contrib_count: 1
       last_commit: '2026-09-04'
   labels:
     - 6/pyOS-approved
-    - 7/under-joss-review
+    - 9/joss-approved
   active: true
 - package_name: nsEVDx
   package_description: This package implements both bayesian sampling
@@ -193,7 +268,7 @@
       forks_count: 5
       documentation:
       contrib_count: 4
-      last_commit: '2026-09-05'
+      last_commit: '2026-09-29'
   labels:
     - 6/pyOS-approved
     - 7/under-joss-review
@@ -344,13 +419,13 @@
       name: astropy
       description: Astronomy and astrophysics core library
       created_at: '2011-07-21'
-      stargazers_count: 5299
-      watchers_count: 5299
-      open_issues_count: 1433
-      forks_count: 2157
+      stargazers_count: 5317
+      watchers_count: 5317
+      open_issues_count: 1423
+      forks_count: 2186
       documentation: https://www.astropy.org
-      contrib_count: 446
-      last_commit: '2026-09-04'
+      contrib_count: 447
+      last_commit: '2026-09-29'
   labels:
     - 6/pyOS-approved
     - astropy
@@ -498,14 +573,75 @@
       created_at: '2022-05-03'
       stargazers_count: 9
       watchers_count: 9
-      open_issues_count: 4
+      open_issues_count: 5
       forks_count: 6
       documentation: https://swiftgalaxy.readthedocs.io/en/stable/index.html
       contrib_count: 3
-      last_commit: '2026-08-30'
+      last_commit: '2026-09-24'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
+  active: true
+- package_name: MOCPy
+  package_description: MOCPy allows to read/write, and create Multi-Order
+      Coverage Maps
+  submitting_author:
+      name: Manon Marchand
+      github_username: ManonMarchand
+  all_current_maintainers:
+    - name: François-Xavier Pineau
+      github_username: fxpineau
+    - name: Thomas Boch
+      github_username: tboch
+    - name: Matthieu Baumann
+      github_username: bmatthieu3
+    - name: Manon Marchand
+      github_username: ManonMarchand
+  repository_link: https://github.com/cds-astro/mocpy
+  repository_host: github
+  version_submitted: 0.17.1
+  categories:
+    - data-retrieval
+    - data-extraction
+    - data-processing-munging
+  editor:
+      name: Carter Lee Rhea
+      github_username: crhea93
+  eic:
+    - name: James J Balamuta
+      github_username: coatless
+    - name: Eliot Robson
+      github_username: eliotwrobson
+  reviewers:
+    - name: Théo
+      github_username: TOCode11
+    - name: Christian Thibeault
+      github_username: ChristianThibeault
+  archive:
+  version_accepted: v0.20.0
+  date_accepted: '2026-09-24'
+  created_at: 2025-04-17 14:21:50+00:00
+  updated_at: 2026-09-25 15:11:54+00:00
+  closed_at:
+  issue_link: https://github.com/pyOpenSci/software-submission/issues/238
+  joss:
+  partners:
+    - astropy
+  gh_meta:
+      name: mocpy
+      description: Python library to easily create and manipulate MOCs
+          (Multi-Order Coverage maps)
+      created_at: '2014-04-04'
+      stargazers_count: 78
+      watchers_count: 78
+      open_issues_count: 8
+      forks_count: 39
+      documentation: https://cds-astro.github.io/mocpy/
+      contrib_count: 14
+      last_commit: '2026-09-09'
+  labels:
+    - 6/pyOS-approved
+    - astropy
   active: true
 - package_name: PyAutoGalaxy
   package_description: Astronomy software for analysing the morphologies and
@@ -550,11 +686,11 @@
       created_at: '2019-10-19'
       stargazers_count: 33
       watchers_count: 33
-      open_issues_count: 2
-      forks_count: 16
+      open_issues_count: 5
+      forks_count: 17
       documentation: https://pyautogalaxy.readthedocs.io/
-      contrib_count: 16
-      last_commit: '2026-09-04'
+      contrib_count: 17
+      last_commit: '2026-09-29'
   labels:
     - 6/pyOS-approved
     - astropy
@@ -601,13 +737,13 @@
       description: The Python framework for state-space modeling and algorithm
           development
       created_at: '2022-10-13'
-      stargazers_count: 93
-      watchers_count: 93
-      open_issues_count: 17
+      stargazers_count: 94
+      watchers_count: 94
+      open_issues_count: 18
       forks_count: 16
       documentation: https://c4dynamics.github.io/c4dynamics/
       contrib_count: 6
-      last_commit: '2026-09-05'
+      last_commit: '2026-09-25'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -652,11 +788,11 @@
       created_at: '2024-07-17'
       stargazers_count: 5
       watchers_count: 5
-      open_issues_count: 6
+      open_issues_count: 5
       forks_count: 2
       documentation: https://pymultifit.readthedocs.io/latest/
-      contrib_count: 2
-      last_commit: '2026-08-31'
+      contrib_count: 5
+      last_commit: '2026-09-29'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -840,8 +976,8 @@
       description: A simple and efficient Python implementation of Mapper
           algorithm for Topological Data Analysis
       created_at: '2022-10-03'
-      stargazers_count: 188
-      watchers_count: 188
+      stargazers_count: 189
+      watchers_count: 189
       open_issues_count: 10
       forks_count: 24
       documentation: https://tda-mapper.readthedocs.io/en/main/
@@ -893,13 +1029,13 @@
       name: GALFITools
       description: A library for GALFIT
       created_at: '2018-11-10'
-      stargazers_count: 22
-      watchers_count: 22
+      stargazers_count: 23
+      watchers_count: 23
       open_issues_count: 1
       forks_count: 4
       documentation:
       contrib_count: 3
-      last_commit: '2026-09-03'
+      last_commit: '2026-09-29'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -997,7 +1133,7 @@
       forks_count: 5
       documentation: https://neon-utilities-python.readthedocs.io/en/latest/
       contrib_count: 6
-      last_commit: '2026-09-01'
+      last_commit: '2026-09-09'
   labels:
     - 6/pyOS-approved
   active: true
@@ -1043,13 +1179,13 @@
       description: Open finite element infrastructure for nonlinear
           computational mechanics.
       created_at: '2021-04-22'
-      stargazers_count: 183
-      watchers_count: 183
-      open_issues_count: 6
+      stargazers_count: 186
+      watchers_count: 186
+      open_issues_count: 5
       forks_count: 18
       documentation: https://felupe.readthedocs.io/en/stable
       contrib_count: 7
-      last_commit: '2026-09-04'
+      last_commit: '2026-09-29'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1100,8 +1236,8 @@
       description: 'Some data analysis tools for working with historical PV solar
           time-series data sets. '
       created_at: '2019-02-17'
-      stargazers_count: 98
-      watchers_count: 98
+      stargazers_count: 102
+      watchers_count: 102
       open_issues_count: 7
       forks_count: 36
       documentation: https://solar-data-tools.readthedocs.io
@@ -1155,10 +1291,64 @@
       forks_count: 17
       documentation: https://dodge-research-group.github.io/thztools/
       contrib_count: 16
-      last_commit: '2026-08-31'
+      last_commit: '2026-09-28'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
+  active: true
+- package_name: BlackMarblePy
+  package_description: Georeferenced Rasters and Statistics of Nightlights
+      from NASA Black Marble
+  submitting_author:
+      name: Gabriel Stefanini Vicente
+      github_username: g4brielvs
+  all_current_maintainers:
+    - name: Gabriel Stefanini Vicente
+      github_username: g4brielvs
+    - name: Rob Marty
+      github_username: ramarty
+  repository_link: https://github.com/worldbank/blackmarblepy
+  repository_host: github
+  version_submitted: '[v2024.8.1](https://pypi.org/project/blackmarblepy/2024.8.1/),
+      [v2025.6.2](https://pypi.org/project/blackmarblepy/2025.6.2/), [v2025.11.1](https://pypi.org/project/blackmarblepy/2025.11.1),
+      [v2025.11.2](https://pypi.org/project/blackmarblepy/2025.11.2), [v2026.6.1](https://pypi.org/project/blackmarblepy/2026.6.1/)'
+  categories:
+    - data-retrieval
+    - data-processing-munging
+  editor:
+      name: Lauren Yee
+      github_username: yeelauren
+  eic:
+      name: Chiara Marmo
+      github_username: cmarmo
+  reviewers:
+    - name: Pete Gadomski
+      github_username: gadomski
+    - name: Elise Hinman
+      github_username: ehinman
+  archive: https://zenodo.org/doi/10.5281/zenodo.10667907
+  version_accepted: '[v2026.6.1](https://pypi.org/project/blackmarblepy/2026.6.1/)'
+  date_accepted: '2026-09-29'
+  created_at: 2024-07-18 14:15:11+00:00
+  updated_at: 2026-09-29 17:08:36+00:00
+  closed_at:
+  issue_link: https://github.com/pyOpenSci/software-submission/issues/207
+  joss:
+  partners:
+  gh_meta:
+      name: blackmarblepy
+      description: Georeferenced Rasters and Statistics of Nightlights from
+          NASA Black Marble
+      created_at: '2023-10-26'
+      stargazers_count: 65
+      watchers_count: 65
+      open_issues_count: 12
+      forks_count: 19
+      documentation: https://worldbank.github.io/blackmarblepy/
+      contrib_count: 7
+      last_commit: '2026-09-07'
+  labels:
+    - 6/pyOS-approved
   active: true
 - package_name: MontePy
   package_description: MontePy is a python library for reading, editing, and
@@ -1202,13 +1392,13 @@
       description: MontePy is the most user friendly Python library (API) to
           read, edit, and write MCNP input files.
       created_at: '2024-01-09'
-      stargazers_count: 66
-      watchers_count: 66
+      stargazers_count: 65
+      watchers_count: 65
       open_issues_count: 105
       forks_count: 27
       documentation: https://www.montepy.org/
       contrib_count: 12
-      last_commit: '2026-08-22'
+      last_commit: '2026-09-29'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1252,13 +1442,13 @@
       name: great-tables
       description: Make awesome display tables using Python
       created_at: '2022-05-06'
-      stargazers_count: 2726
-      watchers_count: 2726
-      open_issues_count: 104
-      forks_count: 129
+      stargazers_count: 2881
+      watchers_count: 2881
+      open_issues_count: 106
+      forks_count: 136
       documentation: https://posit-dev.github.io/great-tables/
-      contrib_count: 34
-      last_commit: '2026-08-24'
+      contrib_count: 36
+      last_commit: '2026-09-25'
   labels:
     - 6/pyOS-approved
   active: true
@@ -1309,13 +1499,13 @@
       description: Anything can happen in the next half hour (including
           spectral timing made easy)!
       created_at: '2015-09-30'
-      stargazers_count: 223
-      watchers_count: 223
-      open_issues_count: 72
-      forks_count: 186
+      stargazers_count: 225
+      watchers_count: 225
+      open_issues_count: 73
+      forks_count: 185
       documentation: https://stingray.science/stingray
-      contrib_count: 58
-      last_commit: '2026-06-02'
+      contrib_count: 61
+      last_commit: '2026-09-25'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1517,11 +1707,11 @@
       created_at: '2021-10-26'
       stargazers_count: 31
       watchers_count: 31
-      open_issues_count: 68
+      open_issues_count: 66
       forks_count: 16
       documentation: https://open-atmos.github.io/PyPartMC/
       contrib_count: 11
-      last_commit: '2026-09-01'
+      last_commit: '2026-09-25'
   labels:
     - 6/pyOS-approved
   active: true
@@ -1670,13 +1860,13 @@
       name: pooltool
       description: A sandbox billiards game that emphasizes realistic physics
       created_at: '2020-04-09'
-      stargazers_count: 402
-      watchers_count: 402
-      open_issues_count: 13
+      stargazers_count: 410
+      watchers_count: 410
+      open_issues_count: 12
       forks_count: 90
       documentation: https://pooltool.readthedocs.io
       contrib_count: 14
-      last_commit: '2026-09-06'
+      last_commit: '2026-09-28'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1729,7 +1919,7 @@
       forks_count: 8
       documentation: https://martini.readthedocs.io/
       contrib_count: 2
-      last_commit: '2026-08-31'
+      last_commit: '2026-09-28'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1785,7 +1975,7 @@
       forks_count: 13
       documentation: https://cosmoglobe.github.io/zodipy/
       contrib_count: 9
-      last_commit: '2026-08-27'
+      last_commit: '2026-09-21'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1985,11 +2175,11 @@
       created_at: '2020-01-24'
       stargazers_count: 24
       watchers_count: 24
-      open_issues_count: 2
+      open_issues_count: 1
       forks_count: 11
       documentation: https://xnemogcm.readthedocs.io/
       contrib_count: 6
-      last_commit: '2026-09-01'
+      last_commit: '2026-09-24'
   labels:
     - 6/pyOS-approved
   active: true
@@ -2043,7 +2233,7 @@
       stargazers_count: 410
       watchers_count: 410
       open_issues_count: 11
-      forks_count: 73
+      forks_count: 72
       documentation: https://caleb531.github.io/automata/
       contrib_count: 19
       last_commit: '2026-06-25'
@@ -2080,7 +2270,7 @@
   version_accepted: TBD
   date_accepted: '2026-03-11'
   created_at: 2023-11-17 20:39:40+00:00
-  updated_at: 2026-08-07 00:29:29+00:00
+  updated_at: 2026-09-25 15:50:57+00:00
   closed_at:
   issue_link: https://github.com/pyOpenSci/software-submission/issues/150
   joss:
@@ -2092,11 +2282,11 @@
       created_at: '2019-06-18'
       stargazers_count: 95
       watchers_count: 95
-      open_issues_count: 94
+      open_issues_count: 91
       forks_count: 20
       documentation: https://docs.plenoptic.org/
       contrib_count: 20
-      last_commit: '2026-09-03'
+      last_commit: '2026-09-28'
   labels:
     - 6/pyOS-approved
   active: true
@@ -2140,11 +2330,11 @@
       created_at: '2020-10-21'
       stargazers_count: 10
       watchers_count: 10
-      open_issues_count: 4
+      open_issues_count: 3
       forks_count: 1
       documentation: https://pypi.org/project/sleplet
       contrib_count: 5
-      last_commit: '2026-09-05'
+      last_commit: '2026-09-15'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -2213,13 +2403,13 @@
       name: sunpy
       description: SunPy - Python for Solar Physics
       created_at: '2011-08-06'
-      stargazers_count: 1034
-      watchers_count: 1034
-      open_issues_count: 280
-      forks_count: 674
+      stargazers_count: 1035
+      watchers_count: 1035
+      open_issues_count: 299
+      forks_count: 689
       documentation: https://www.sunpy.org
-      contrib_count: 256
-      last_commit: '2026-09-03'
+      contrib_count: 258
+      last_commit: '2026-09-29'
   labels:
     - 6/pyOS-approved
   active: true
@@ -2264,11 +2454,11 @@
       created_at: '2023-08-17'
       stargazers_count: 34
       watchers_count: 34
-      open_issues_count: 17
-      forks_count: 13
+      open_issues_count: 24
+      forks_count: 15
       documentation: https://ncompare.readthedocs.io
       contrib_count: 7
-      last_commit: '2026-09-04'
+      last_commit: '2026-09-11'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -2412,13 +2602,13 @@
       description: Quickly search, compare, and analyze genomic and
           metagenomic data sets.
       created_at: '2016-04-09'
-      stargazers_count: 556
-      watchers_count: 556
+      stargazers_count: 557
+      watchers_count: 557
       open_issues_count: 852
       forks_count: 94
       documentation: https://sourmash.readthedocs.io/en/latest/
       contrib_count: 46
-      last_commit: '2026-08-31'
+      last_commit: '2026-09-29'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -2461,8 +2651,8 @@
       description: A package for formatting numbers into scientific formatted
           strings.
       created_at: '2023-05-26'
-      stargazers_count: 18
-      watchers_count: 18
+      stargazers_count: 19
+      watchers_count: 19
       open_issues_count: 9
       forks_count: 2
       documentation: https://sciform.readthedocs.io/en/stable/
@@ -2573,13 +2763,13 @@
       description: CompleX Group Interactions (XGI) is a Python package for
           higher-order networks.
       created_at: '2021-09-08'
-      stargazers_count: 254
-      watchers_count: 254
-      open_issues_count: 53
+      stargazers_count: 255
+      watchers_count: 255
+      open_issues_count: 55
       forks_count: 51
       documentation: https://xgi.readthedocs.io
       contrib_count: 24
-      last_commit: '2026-08-27'
+      last_commit: '2026-09-28'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -2628,13 +2818,13 @@
       description: A unifying framework for biomedical research knowledge
           graphs
       created_at: '2021-09-10'
-      stargazers_count: 328
-      watchers_count: 328
-      open_issues_count: 178
-      forks_count: 56
+      stargazers_count: 335
+      watchers_count: 335
+      open_issues_count: 188
+      forks_count: 57
       documentation: https://biocypher.org
-      contrib_count: 22
-      last_commit: '2026-08-18'
+      contrib_count: 23
+      last_commit: '2026-09-29'
   labels:
     - 6/pyOS-approved
   active: true
@@ -2781,8 +2971,8 @@
       name: taxpasta
       description: TAXnomic Profile Aggregation and STAndardisation
       created_at: '2022-06-03'
-      stargazers_count: 44
-      watchers_count: 44
+      stargazers_count: 45
+      watchers_count: 45
       open_issues_count: 19
       forks_count: 8
       documentation: https://taxpasta.readthedocs.io/
@@ -2881,13 +3071,13 @@
       description: 'Python library for GraphBLAS: high-performance sparse linear
           algebra for scalable graph analytics'
       created_at: '2019-11-11'
-      stargazers_count: 156
-      watchers_count: 156
-      open_issues_count: 105
+      stargazers_count: 157
+      watchers_count: 157
+      open_issues_count: 98
       forks_count: 16
       documentation: https://python-graphblas.readthedocs.io/en/stable/
       contrib_count: 11
-      last_commit: '2026-08-27'
+      last_commit: '2026-09-27'
   labels:
     - 6/pyOS-approved
   active: true
@@ -2933,13 +3123,13 @@
       description: 'Library of derived climate variables, ie climate indicators,
           based on xarray. '
       created_at: '2018-07-27'
-      stargazers_count: 404
-      watchers_count: 404
-      open_issues_count: 52
-      forks_count: 78
+      stargazers_count: 405
+      watchers_count: 405
+      open_issues_count: 46
+      forks_count: 79
       documentation: https://xclim.readthedocs.io/en/stable/
       contrib_count: 46
-      last_commit: '2026-09-04'
+      last_commit: '2026-09-29'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -2986,8 +3176,8 @@
       name: crowsetta
       description: A tool to work with any format for annotating animal sounds
       created_at: '2018-12-01'
-      stargazers_count: 62
-      watchers_count: 62
+      stargazers_count: 63
+      watchers_count: 63
       open_issues_count: 43
       forks_count: 4
       documentation: https://crowsetta.readthedocs.io/en/latest/
@@ -3143,13 +3333,13 @@
       name: pygmt
       description: A Python interface for the Generic Mapping Tools.
       created_at: '2017-03-17'
-      stargazers_count: 873
-      watchers_count: 873
-      open_issues_count: 184
+      stargazers_count: 875
+      watchers_count: 875
+      open_issues_count: 190
       forks_count: 255
       documentation: https://www.pygmt.org
       contrib_count: 57
-      last_commit: '2026-09-07'
+      last_commit: '2026-09-29'
   labels:
     - 6/pyOS-approved
   active: true
@@ -3439,13 +3629,13 @@
       description: A set of tools for getting the most from your geochemical
           data.
       created_at: '2018-06-13'
-      stargazers_count: 171
-      watchers_count: 171
-      open_issues_count: 16
+      stargazers_count: 174
+      watchers_count: 174
+      open_issues_count: 11
       forks_count: 52
       documentation: https://pyrolite.readthedocs.io
       contrib_count: 15
-      last_commit: '2026-09-01'
+      last_commit: '2026-09-29'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -3489,13 +3679,13 @@
       description: MovingPandas - a Python library for movement data
           exploration and analysis
       created_at: '2018-12-16'
-      stargazers_count: 1411
-      watchers_count: 1411
-      open_issues_count: 35
-      forks_count: 214
+      stargazers_count: 1417
+      watchers_count: 1417
+      open_issues_count: 37
+      forks_count: 215
       documentation: https://movingpandas.org
       contrib_count: 44
-      last_commit: '2026-08-28'
+      last_commit: '2026-09-13'
   labels:
     - 6/pyOS-approved
   active: true
@@ -3537,13 +3727,13 @@
       description: A light-weight, flexible, and expressive statistical data
           testing library
       created_at: '2018-11-01'
-      stargazers_count: 4449
-      watchers_count: 4449
-      open_issues_count: 443
-      forks_count: 438
+      stargazers_count: 4468
+      watchers_count: 4468
+      open_issues_count: 453
+      forks_count: 460
       documentation: https://www.union.ai/pandera
-      contrib_count: 206
-      last_commit: '2026-09-02'
+      contrib_count: 217
+      last_commit: '2026-09-26'
   labels:
     - 6/pyOS-approved
   active: true
@@ -3642,10 +3832,10 @@
       description: A package built to support working with spatial data using
           open source python
       created_at: '2018-02-20'
-      stargazers_count: 536
-      watchers_count: 536
+      stargazers_count: 537
+      watchers_count: 537
       open_issues_count: 45
-      forks_count: 165
+      forks_count: 166
       documentation: https://earthpy.readthedocs.io
       contrib_count: 29
       last_commit: '2026-08-16'
