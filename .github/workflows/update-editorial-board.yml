@@ -2,9 +2,6 @@ name: Update editorial board
 
 on:
   workflow_dispatch:
-  schedule:
-    # Runs weekly on Wednesday at 04:21 UTC (see https://crontab.guru)
-    - cron: "21 4 * * 3"
 jobs:
   run-meta:
     if: github.repository_owner == 'pyopensci'
