@@ -64,11 +64,11 @@
       created_at: '2021-08-25'
       stargazers_count: 643
       watchers_count: 643
-      open_issues_count: 168
+      open_issues_count: 170
       forks_count: 153
       documentation: https://earthaccess.readthedocs.io/
       contrib_count: 54
-      last_commit: '2026-10-02'
+      last_commit: '2026-10-06'
   labels:
     - 6/pyOS-approved
     - joss-submission-pending
@@ -161,11 +161,11 @@
       created_at: '2025-06-27'
       stargazers_count: 153
       watchers_count: 153
-      open_issues_count: 1
+      open_issues_count: 2
       forks_count: 13
       documentation: https://dynamicsandneuralsystems.github.io/pyhctsa/
       contrib_count: 4
-      last_commit: '2026-10-05'
+      last_commit: '2026-10-06'
   labels:
     - 6/pyOS-approved
     - 8/joss-review-complete
@@ -419,13 +419,13 @@
       name: astropy
       description: Astronomy and astrophysics core library
       created_at: '2011-07-21'
-      stargazers_count: 5325
-      watchers_count: 5325
-      open_issues_count: 1426
-      forks_count: 2189
+      stargazers_count: 5327
+      watchers_count: 5327
+      open_issues_count: 1419
+      forks_count: 2191
       documentation: https://www.astropy.org
-      contrib_count: 446
-      last_commit: '2026-10-02'
+      contrib_count: 448
+      last_commit: '2026-10-06'
   labels:
     - 6/pyOS-approved
     - astropy
@@ -690,7 +690,7 @@
       forks_count: 17
       documentation: https://pyautogalaxy.readthedocs.io/
       contrib_count: 17
-      last_commit: '2026-10-04'
+      last_commit: '2026-10-06'
   labels:
     - 6/pyOS-approved
     - astropy
@@ -743,7 +743,7 @@
       forks_count: 16
       documentation: https://c4dynamics.github.io/c4dynamics/
       contrib_count: 6
-      last_commit: '2026-09-30'
+      last_commit: '2026-10-06'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -788,11 +788,11 @@
       created_at: '2024-07-17'
       stargazers_count: 5
       watchers_count: 5
-      open_issues_count: 5
+      open_issues_count: 7
       forks_count: 2
       documentation: https://pymultifit.readthedocs.io/latest/
       contrib_count: 5
-      last_commit: '2026-09-29'
+      last_commit: '2026-10-06'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1035,7 +1035,7 @@
       forks_count: 4
       documentation:
       contrib_count: 3
-      last_commit: '2026-10-02'
+      last_commit: '2026-10-06'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1181,11 +1181,11 @@
       created_at: '2021-04-22'
       stargazers_count: 188
       watchers_count: 188
-      open_issues_count: 6
+      open_issues_count: 5
       forks_count: 18
       documentation: https://felupe.readthedocs.io/en/stable
       contrib_count: 7
-      last_commit: '2026-10-02'
+      last_commit: '2026-10-06'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1287,11 +1287,11 @@
       created_at: '2022-11-22'
       stargazers_count: 30
       watchers_count: 30
-      open_issues_count: 4
+      open_issues_count: 5
       forks_count: 17
       documentation: https://dodge-research-group.github.io/thztools/
       contrib_count: 16
-      last_commit: '2026-09-28'
+      last_commit: '2026-10-05'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -1330,8 +1330,8 @@
   version_accepted: '[v2026.6.1](https://pypi.org/project/blackmarblepy/2026.6.1/)'
   date_accepted: '2026-09-29'
   created_at: 2024-07-18 14:15:11+00:00
-  updated_at: 2026-10-01 18:06:16+00:00
-  closed_at:
+  updated_at: 2026-10-06 03:59:56+00:00
+  closed_at: 2026-10-06 01:31:08+00:00
   issue_link: https://github.com/pyOpenSci/software-submission/issues/207
   joss:
   partners:
@@ -1342,11 +1342,11 @@
       created_at: '2023-10-26'
       stargazers_count: 65
       watchers_count: 65
-      open_issues_count: 12
+      open_issues_count: 10
       forks_count: 19
       documentation: https://worldbank.github.io/blackmarblepy/
       contrib_count: 7
-      last_commit: '2026-09-07'
+      last_commit: '2026-10-06'
   labels:
     - 6/pyOS-approved
   active: true
@@ -1394,7 +1394,7 @@
       created_at: '2024-01-09'
       stargazers_count: 66
       watchers_count: 66
-      open_issues_count: 105
+      open_issues_count: 107
       forks_count: 27
       documentation: https://www.montepy.org/
       contrib_count: 12
@@ -1442,13 +1442,13 @@
       name: great-tables
       description: Make awesome display tables using Python
       created_at: '2022-05-06'
-      stargazers_count: 2891
-      watchers_count: 2891
-      open_issues_count: 90
+      stargazers_count: 2892
+      watchers_count: 2892
+      open_issues_count: 87
       forks_count: 137
       documentation: https://posit-dev.github.io/great-tables/
-      contrib_count: 37
-      last_commit: '2026-10-05'
+      contrib_count: 38
+      last_commit: '2026-10-06'
   labels:
     - 6/pyOS-approved
   active: true
@@ -1600,7 +1600,7 @@
       forks_count: 3
       documentation: https://geminidrsoftware.github.io/astrodata/
       contrib_count: 16
-      last_commit: '2026-08-27'
+      last_commit: '2026-10-05'
   labels:
     - 6/pyOS-approved
     - astropy
@@ -1707,11 +1707,11 @@
       created_at: '2021-10-26'
       stargazers_count: 31
       watchers_count: 31
-      open_issues_count: 66
+      open_issues_count: 67
       forks_count: 16
       documentation: https://open-atmos.github.io/PyPartMC/
       contrib_count: 11
-      last_commit: '2026-09-25'
+      last_commit: '2026-10-06'
   labels:
     - 6/pyOS-approved
   active: true
@@ -1862,8 +1862,8 @@
       created_at: '2020-04-09'
       stargazers_count: 414
       watchers_count: 414
-      open_issues_count: 14
-      forks_count: 90
+      open_issues_count: 15
+      forks_count: 91
       documentation: https://pooltool.readthedocs.io
       contrib_count: 14
       last_commit: '2026-10-01'
@@ -2175,11 +2175,11 @@
       created_at: '2020-01-24'
       stargazers_count: 24
       watchers_count: 24
-      open_issues_count: 1
+      open_issues_count: 2
       forks_count: 11
       documentation: https://xnemogcm.readthedocs.io/
       contrib_count: 6
-      last_commit: '2026-09-24'
+      last_commit: '2026-10-06'
   labels:
     - 6/pyOS-approved
   active: true
@@ -2282,11 +2282,11 @@
       created_at: '2019-06-18'
       stargazers_count: 95
       watchers_count: 95
-      open_issues_count: 93
+      open_issues_count: 92
       forks_count: 20
-      documentation: https://docs.plenoptic.org/
+      documentation:
       contrib_count: 20
-      last_commit: '2026-10-02'
+      last_commit: '2026-10-05'
   labels:
     - 6/pyOS-approved
   active: true
@@ -2405,11 +2405,11 @@
       created_at: '2011-08-06'
       stargazers_count: 1037
       watchers_count: 1037
-      open_issues_count: 301
-      forks_count: 690
+      open_issues_count: 299
+      forks_count: 692
       documentation: https://www.sunpy.org
       contrib_count: 258
-      last_commit: '2026-10-01'
+      last_commit: '2026-10-06'
   labels:
     - 6/pyOS-approved
   active: true
@@ -2454,11 +2454,11 @@
       created_at: '2023-08-17'
       stargazers_count: 34
       watchers_count: 34
-      open_issues_count: 21
+      open_issues_count: 22
       forks_count: 15
       documentation: https://ncompare.readthedocs.io
       contrib_count: 7
-      last_commit: '2026-10-02'
+      last_commit: '2026-10-06'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -2608,7 +2608,7 @@
       forks_count: 94
       documentation: https://sourmash.readthedocs.io/en/latest/
       contrib_count: 46
-      last_commit: '2026-10-04'
+      last_commit: '2026-10-05'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -2874,7 +2874,7 @@
       forks_count: 2
       documentation: https://cardsort.readthedocs.io
       contrib_count: 4
-      last_commit: '2026-05-25'
+      last_commit: '2026-10-05'
   labels:
     - 6/pyOS-approved
   active: true
@@ -3077,7 +3077,7 @@
       forks_count: 16
       documentation: https://python-graphblas.readthedocs.io/en/stable/
       contrib_count: 11
-      last_commit: '2026-10-04'
+      last_commit: '2026-10-05'
   labels:
     - 6/pyOS-approved
   active: true
@@ -3125,11 +3125,11 @@
       created_at: '2018-07-27'
       stargazers_count: 405
       watchers_count: 405
-      open_issues_count: 45
+      open_issues_count: 46
       forks_count: 79
       documentation: https://xclim.readthedocs.io/en/stable/
       contrib_count: 47
-      last_commit: '2026-10-02'
+      last_commit: '2026-10-06'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -3335,11 +3335,11 @@
       created_at: '2017-03-17'
       stargazers_count: 875
       watchers_count: 875
-      open_issues_count: 195
+      open_issues_count: 193
       forks_count: 256
       documentation: https://www.pygmt.org
       contrib_count: 57
-      last_commit: '2026-10-04'
+      last_commit: '2026-10-05'
   labels:
     - 6/pyOS-approved
   active: true
@@ -3635,7 +3635,7 @@
       forks_count: 52
       documentation: https://pyrolite.readthedocs.io
       contrib_count: 15
-      last_commit: '2026-09-29'
+      last_commit: '2026-10-05'
   labels:
     - 6/pyOS-approved
     - 9/joss-approved
@@ -3727,13 +3727,13 @@
       description: A light-weight, flexible, and expressive statistical data
           testing library
       created_at: '2018-11-01'
-      stargazers_count: 4471
-      watchers_count: 4471
-      open_issues_count: 457
-      forks_count: 464
+      stargazers_count: 4473
+      watchers_count: 4473
+      open_issues_count: 456
+      forks_count: 467
       documentation: https://www.union.ai/pandera
       contrib_count: 219
-      last_commit: '2026-10-05'
+      last_commit: '2026-10-06'
   labels:
     - 6/pyOS-approved
   active: true
