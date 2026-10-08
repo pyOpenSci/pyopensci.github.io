@@ -12489,3 +12489,11 @@
   packages_reviewed:
   location: Washington, DC
   email:
+- github_username: patelnikit16
+  github_image_id: 24692584
+  name:
+  title: Editor
+  editorial_board: true
+  emeritus_editor: false
+  contributor_type:
+    - editor
