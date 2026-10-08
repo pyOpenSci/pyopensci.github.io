@@ -32,7 +32,7 @@ cards:
     excerpt: |
       We review Python packages with the goal of helping scientists build better, discoverable, and usable software. Accepted packages can be published in **JOSS** through our review process.
     url: "/about-peer-review/"
-    cta: "About peer review →"
+    cta: "About peer review"
   - title: "We connect researchers, contributors, and developers"
     image:
       src: "images/landing-pages/scipy-bof-working.png"
@@ -40,7 +40,7 @@ cards:
     excerpt: |
       pyOpenSci brings together researchers, core Python and conda developers, and data scientists from industry and universities to strengthen scientific open source. We partner with communities to share resources, knowledge, and processes like peer review.
     url: "https://www.pyopensci.org/software-peer-review/partners/scientific-communities.html"
-    cta: "Community partnerships →"
+    cta: "Community partnerships"
   - title: "We break down Python packaging pain points"
     image:
       src: "images/landing-pages/scipy-sprint-2026.png"
@@ -48,25 +48,25 @@ cards:
     excerpt: |
       Beginner-friendly tutorials and a community **Python packaging guide**, co-developed with the broader Python ecosystem so the material stays accessible at every level.
     url: "https://www.pyopensci.org/python-package-guide/"
-    cta: "Python packaging guide →"
+    cta: "Python packaging guide"
   - modifier: "card--white"
     icon: "fa-solid fa-paper-plane"
     title: "Submit your package"
     excerpt: "Ready for review? Learn what we look for and how to submit your scientific Python package."
     url: "https://www.pyopensci.org/software-peer-review/how-to/author-guide.html"
-    cta: "Author guide →"
+    cta: "Author guide"
   - modifier: "card--white"
     icon: "fa-solid fa-people-group"
     title: "Become a reviewer"
     excerpt: "Join reviewers who care about usability, docs, and maintainability — mentorship is available for your first review."
     url: "https://www.pyopensci.org/software-peer-review/how-to/reviewer-guide.html"
-    cta: "Reviewer guide →"
+    cta: "Reviewer guide"
   - modifier: "card--white"
     icon: "fa-solid fa-calendar-days"
     title: "Events & training"
     excerpt: "Workshops, cohort courses, sprints, and community calls — online and at conferences."
     url: "/events/"
-    cta: "Browse events →"
+    cta: "Browse events"
 current_project:
   eyebrow: Current project
   title: "AI tools are reshaping scientific open source. We're studying how — and building what comes next."
