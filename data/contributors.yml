@@ -378,6 +378,7 @@
   board: false
   contributor_type:
     - editor
+    - eic
     - guidebook-contrib
     - leadership
     - package-guide
@@ -385,6 +386,7 @@
     - reviewer
     - web-contrib
   packages_eic:
+    - xnemogcm
   packages_editor:
     - afscgap
     - xnemogcm
@@ -12489,11 +12491,29 @@
   packages_reviewed:
   location: Washington, DC
   email:
-- github_username: patelnikit16
+- name:
+  github_username: patelnikit16
   github_image_id: 24692584
-  name:
   title: Editor
+  sort:
+  bio:
+  organization:
+  date_added:
   editorial_board: true
   emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
   contributor_type:
     - editor
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location:
+  email:
