@@ -1,0 +1,16 @@
+{{/*
+  Reviewer credit under a blog post header, in the white area.
+
+  Parameters:
+  - "." (context): blog post page
+
+  Reads reviewed_by (one name or a list). Renders nothing when empty.
+  Authors stay on the date line in the header.
+*/}}
+{{ $page := . }}
+{{ $reviewers := partial "blog-name-list.html" (dict
+  "value" $page.Params.reviewed_by
+) }}
+{{ with $reviewers.line }}
+  <p class="blog-post__reviewers">Reviewed by {{ . }}</p>
+{{ end }}

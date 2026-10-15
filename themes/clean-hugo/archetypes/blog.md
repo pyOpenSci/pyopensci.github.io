@@ -4,7 +4,12 @@ date: '{{ now.Format "2006-01-02" }}'
 type: blog                    # Required: selects the blog single-post layout
 url: "/blog/post-slug.html"   # Set the permalink slug for this post
 excerpt: ""
-author: "Leah Wasser"
+author: "Leah Wasser"         # One author. Or use authors for two or more.
+# authors:
+#   - Leah Wasser
+#   - Shauna Gordon-McKeon
+# reviewed_by:                # Optional. Italic line under the header.
+#   - Carol Willing
 blog_topic: community         # community | learn | software | updates - see data/blog_topics.yml
 toc: true                     # Show an "on this page" table of contents
 lastmod: '{{ now.Format "2006-01-02" }}'  # Update whenever you edit an already-published post

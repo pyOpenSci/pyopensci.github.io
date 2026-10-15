@@ -87,7 +87,10 @@
     {{ with .Lastmod }}
       <meta property="article:modified_time" content="{{ .Format "2006-01-02T15:04:05Z07:00" }}">
     {{ end }}
-    {{ with .Params.author }}
+    {{ $postAuthors := partial "blog-name-list.html" (dict
+      "value" (.Params.authors | default .Params.author)
+    ) }}
+    {{ range $postAuthors.names }}
       <meta property="article:author" content="{{ . }}">
     {{ end }}
     {{ with .Params.category }}
@@ -158,12 +161,26 @@
   See: https://developers.google.com/search/docs/appearance/structured-data/article
 */}}
 {{ if and .IsPage (eq .Section "blog") }}
-  {{ $authorName := .Params.author | default .Site.Params.author | default .Site.Title }}
+  {{ $postAuthors := partial "blog-name-list.html" (dict
+    "value" (.Params.authors | default .Params.author)
+  ) }}
+  {{ $authorNames := $postAuthors.names }}
+  {{ if not $authorNames }}
+    {{ $authorNames = slice (.Site.Params.author | default .Site.Title) }}
+  {{ end }}
+  {{ $authorSchema := slice }}
+  {{ range $authorNames }}
+    {{ $authorSchema = $authorSchema | append (dict "@type" "Person" "name" .) }}
+  {{ end }}
+  {{ $authorField := index $authorSchema 0 }}
+  {{ if gt (len $authorSchema) 1 }}
+    {{ $authorField = $authorSchema }}
+  {{ end }}
   {{ $publisher := dict "@type" "Organization" "name" .Site.Title }}
   {{ with .Site.Params.seo.default_image }}
     {{ $publisher = merge $publisher (dict "logo" (dict "@type" "ImageObject" "url" (. | absURL))) }}
   {{ end }}
-  {{ $article := dict "@context" "https://schema.org" "@type" "BlogPosting" "headline" .Title "url" .Permalink "datePublished" (.Date.Format "2006-01-02T15:04:05Z07:00") "author" (dict "@type" "Person" "name" $authorName) "publisher" $publisher }}
+  {{ $article := dict "@context" "https://schema.org" "@type" "BlogPosting" "headline" .Title "url" .Permalink "datePublished" (.Date.Format "2006-01-02T15:04:05Z07:00") "author" $authorField "publisher" $publisher }}
   {{ with .Lastmod }}
     {{ $article = merge $article (dict "dateModified" (.Format "2006-01-02T15:04:05Z07:00")) }}
   {{ end }}
