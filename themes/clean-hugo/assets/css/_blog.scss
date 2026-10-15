@@ -207,6 +207,20 @@
   }
 }
 
+.blog-post__header:has(+ .blog-post__reviewers) {
+  margin-bottom: $spacing-sm;
+}
+
+.blog-post__reviewers {
+  max-width: $container-narrow;
+  margin: 0 auto $spacing-md;
+  padding: 0 $fluid-container-padding-lg;
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 400;
+  color: var(--color-gray-700);
+}
+
 .blog-post__excerpt {
   max-width: $container-narrow;
   margin: 0 auto;

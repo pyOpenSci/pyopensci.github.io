@@ -4,6 +4,7 @@ date: '2026-08-17'
 type: blog
 excerpt: Meet Shauna Gordon-McKeon, our new Research and Community Lead! A longtime member of the Python and open science communities, she’ll support peer review and community operations alongside research on how AI tools are changing scientific open source. Learn more about her work and story in this post.
 author: Shauna Gordon-McKeon
+reviewed_by: Carol Willing
 blog_topic: community
 toc: true
 comments: true
