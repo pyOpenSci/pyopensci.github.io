@@ -31,19 +31,17 @@ help our community navigate them.
 
 That matters to us because pyOpenSci supports the people who build and
 maintain the scientific Python software research depends on:
-contributors learning to write better software, maintainers reviewing
-that work, and the trust between them that makes open source possible.
+researchers learning to write better software, maintainers reviewing
+software contributions, and the trust between them that makes open source
+possible.
 
 ## What we've been hearing
 
 Over the past six months, pyOpenSci has led this conversation in many
-different spaces — our AI tool adoption session at [UN Open Source
-Week](/blog/un-open-source-week-2026-ai-community.html), our conversations about [generative
-AI at PyCon US](/blog/pycon-us-2026-generative-ai-open-source.html),
-birds of a feather sessions at SciPy 2026, focus group sessions at
-EuroPython, and the day-to-day of our peer review process and mentored
-sprints, where we see how these tools land on people who are still
-learning.
+different spaces. We lead an AI tool adoption session at [UN Open Source
+Week](/blog/un-open-source-week-2026-ai-community.html), hosted a open space and
+a AI Tool conversation at the Maintainers SUmmit at PyCon US 2026](/blog/pycon-us-2026-generative-ai-open-source.html), we held a birds of a feather sessions at SciPy 2026, and lead a strategic focus group sessions at
+EuroPython. This combined with the day-to-day conversations in our peer review process where we see how these tools land on people who are still learning to build software and on people who are reviewing the code.
 
 Three things stood out in these sessions:
 
@@ -61,11 +59,11 @@ Three things stood out in these sessions:
 
 While many projects have developed AI policies on their own, what
 struck us across all of this is that no one has systematically
-explored what good AI tool use actually looks like in scientific open
-source, or how it's affecting the community.
+explored what "good" or "thoughtful" AI tool use actually looks like in scientific open
+source, or how its rapid adoption is directly affecting the community.
 
 pyOpenSci wants to understand what's really happening, and then build
-some useful resources grounded in what we learn from the community.
+useful resources grounded in what we learn from the community.
 
 Our work has two parts. **First, we're listening at scale.** We'll run a
 survey and a series of focus groups with maintainers, contributors,
@@ -96,10 +94,9 @@ conversation, not as a footnote to it.
 ## Why pyOpenSci
 
 We've been teaching people to build better scientific software for
-years, and that teaching has always been grounded in research on how
-researchers actually learn. That combination matters here: these
-questions are as much about learning and behavior as they are about
-software.
+years, and that teaching has always been grounded in data around both
+on how researchers learn, what their pain points are and how they actually build software. That combination matters here: these questions are as much about
+learning and behavior as they are about software.
 
 We also have reach into the places where this is playing out. Our peer
 review process and mentored sprints show us how these tools affect
@@ -116,12 +113,13 @@ We succeed together. This only works if it reflects what's actually happening ac
 community, so we want to hear from you. There will be a survey, focus
 groups, and an open review period where you can help shape what we
 build. Everything we produce will be openly licensed and free to
-adapt. [LINK: sign up / follow along]
+adapt. [Sign up here to get involved](https://forms.gle/yTNXwQWQC4dLvErB7).
 
 There's something hopeful in all of this, and we've seen it firsthand.
 Even with the strain AI tools are placing on open source, what works
 is making space for people to connect and work together — especially
 volunteers. We've seen it in our peer review process, and in the work
 our Community and Research Lead, Shauna McKeon-Gordon, has done to
-strengthen how we bring new reviewers in. The human parts of this are
+strengthen how we bring new reviewers in and how we support the editorial and
+reviewer teams. The human parts of this are
 still the parts we have the most control over.
