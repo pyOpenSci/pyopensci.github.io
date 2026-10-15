@@ -47,7 +47,7 @@ learning.
 
 Three things stood out in these sessions:
 
-1. **The strain on human systems is real.** The networks that sustain open
+1. **The strain on human systems is real.** People and their networks that sustain open
    source are feeling the weight of AI tool adoption. Maintainers, in
    particular, miss the natural human interactions that used to fuel
    open source.
@@ -65,15 +65,15 @@ explored what good AI tool use actually looks like in scientific open
 source, or how it's affecting the community.
 
 pyOpenSci wants to understand what's really happening, and then build
-some useful resources founded on what we learn from the community.
+some useful resources grounded in what we learn from the community.
 
-Our work has two parts. First, we're listening at scale. We'll run a
+Our work has two parts. **First, we're listening at scale.** We'll run a
 survey and a series of focus groups with maintainers, contributors,
 and research software engineers, and we'll review the AI policies
 projects have already written to see what's working and where the gaps
 are.
 
-Second, we'll build from what we learn. We're developing practical
+**Second, we'll build from what we learn.** We're developing practical
 guidance for contributors on working with these tools deliberately:
 designing alongside the tool rather than just accepting its output,
 asking it questions, iterating, and using it to learn concepts you
@@ -112,7 +112,7 @@ people just getting started.
 
 ## Get involved
 
-This only works if it reflects what's actually happening across the
+We succeed together. This only works if it reflects what's actually happening across the
 community, so we want to hear from you. There will be a survey, focus
 groups, and an open review period where you can help shape what we
 build. Everything we produce will be openly licensed and free to
