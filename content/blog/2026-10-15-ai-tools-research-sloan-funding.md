@@ -38,7 +38,7 @@ that work, and the trust between them that makes open source possible.
 
 Over the past six months, pyOpenSci has led this conversation in many
 different spaces — our AI tool adoption session at [UN Open Source
-Week](/blog/un-open-source-week-2026-ai-community.html), [generative
+Week](/blog/un-open-source-week-2026-ai-community.html), our conversations about [generative
 AI at PyCon US](/blog/pycon-us-2026-generative-ai-open-source.html),
 birds of a feather sessions at SciPy 2026, focus group sessions at
 EuroPython, and the day-to-day of our peer review process and mentored
@@ -55,7 +55,7 @@ Three things stood out in these sessions:
    pushes certain voices to the top and leaves people unsure where
    they stand in a community.
 3. **Many people find these tools genuinely useful** in specific,
-   well-defined ways — and pyOpenSci data collected from peer review shows that most are using AI tools daily in their work.
+   well-defined ways. pyOpenSci data collected from peer review shows that most are using AI tools daily in their work.
 
 ## What we're going to do
 
@@ -88,9 +88,9 @@ expectations for AI-assisted contributions without having to write a
 policy from scratch.
 
 Running through both is a commitment to critical, responsible
-adoption. Using these tools well means reckoning with what they cost —
-licensing questions, environmental impact, and the effects on the
-people and communities doing this work. Those tradeoffs belong in the
+adoption. Using these tools effectively means reckoning with what they cost —
+licensing questions, environmental impact, and the impact on the
+people and communities doing this work. Those tradeoffs belong in guiding the
 conversation, not as a footnote to it.
 
 ## Why pyOpenSci
