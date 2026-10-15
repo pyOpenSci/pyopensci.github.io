@@ -1,5 +1,5 @@
 ---
-title: 'pyOpenSci funded to tackle thoughtful adoption of AI tools in scientific open source'
+title: 'pyOpenSci Funded to Tackle Thoughtful Adoption of AI Tools in Scientific Open Source'
 date: '2026-10-15'
 type: blog
 excerpt: >
