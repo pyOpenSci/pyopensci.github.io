@@ -2,7 +2,7 @@
 {{ $page := . }}
 {{ $subtitle := $page.Date.Format "Jan 2, 2006" }}
 {{ $authors := partial "blog-name-list.html" (dict
-  "value" ($page.Params.authors | default $page.Params.author)
+  "value" $page.Params.author
 ) }}
 {{ with $authors.line }}
   {{ $subtitle = printf "%s • %s" $subtitle . }}

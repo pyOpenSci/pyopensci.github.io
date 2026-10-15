@@ -88,7 +88,7 @@
       <meta property="article:modified_time" content="{{ .Format "2006-01-02T15:04:05Z07:00" }}">
     {{ end }}
     {{ $postAuthors := partial "blog-name-list.html" (dict
-      "value" (.Params.authors | default .Params.author)
+      "value" .Params.author
     ) }}
     {{ range $postAuthors.names }}
       <meta property="article:author" content="{{ . }}">
@@ -162,7 +162,7 @@
 */}}
 {{ if and .IsPage (eq .Section "blog") }}
   {{ $postAuthors := partial "blog-name-list.html" (dict
-    "value" (.Params.authors | default .Params.author)
+    "value" .Params.author
   ) }}
   {{ $authorNames := $postAuthors.names }}
   {{ if not $authorNames }}
