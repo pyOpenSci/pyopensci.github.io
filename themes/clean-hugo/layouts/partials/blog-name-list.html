@@ -1,0 +1,38 @@
+{{/*
+  Join a blog credit field into a display line.
+
+  Parameters (dict):
+  - value: a name string, or a list of name strings
+
+  Returns dict: names (slice), line (string)
+  One name stays as-is. Two use "and". Three or more use an Oxford comma.
+*/}}
+{{ $raw := .value }}
+{{ $names := slice }}
+{{ if $raw }}
+  {{ if reflect.IsSlice $raw }}
+    {{ range $raw }}
+      {{ $name := trim (printf "%v" .) " \n\r\t" }}
+      {{ if $name }}
+        {{ $names = $names | append $name }}
+      {{ end }}
+    {{ end }}
+  {{ else }}
+    {{ $name := trim (printf "%v" $raw) " \n\r\t" }}
+    {{ if $name }}
+      {{ $names = $names | append $name }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ $line := "" }}
+{{ $count := len $names }}
+{{ if eq $count 1 }}
+  {{ $line = index $names 0 }}
+{{ else if eq $count 2 }}
+  {{ $line = printf "%s and %s" (index $names 0) (index $names 1) }}
+{{ else if gt $count 2 }}
+  {{ $last := index $names (sub $count 1) }}
+  {{ $rest := first (sub $count 1) $names }}
+  {{ $line = printf "%s, and %s" (delimit $rest ", ") $last }}
+{{ end }}
+{{ return (dict "names" $names "line" $line) }}

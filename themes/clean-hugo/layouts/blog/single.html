@@ -1,8 +1,14 @@
 {{ define "main" }}
 {{ $page := . }}
 {{ $subtitle := $page.Date.Format "Jan 2, 2006" }}
-{{ with partial "blog-topic.html" $page }}{{ with .label }}{{ $subtitle = printf "%s • %s" ($page.Date.Format "Jan 2, 2006") . }}{{ end }}{{ end }}
+{{ $authors := partial "blog-name-list.html" (dict
+  "value" $page.Params.author
+) }}
+{{ with $authors.line }}
+  {{ $subtitle = printf "%s • %s" $subtitle . }}
+{{ end }}
 {{ partial "blog-post-header.html" (dict "page" $page "subtitle" $subtitle) }}
+{{ partial "blog-byline.html" $page }}
 
   {{ if and .Params.toc site.Params.blog.enable_toc }}
   <div class="blog-post__toc-wrap" data-toc-root data-toc-depth="h2">
