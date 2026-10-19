@@ -1042,6 +1042,7 @@
   packages_editor:
     - earthaccess
     - lintquarto
+    - phasecurvefit
   packages_submitted:
   packages_reviewed:
     - nbless
@@ -9427,6 +9428,7 @@
     - c4dynamics
     - milespy
     - nsevdx
+    - phasecurvefit
     - pyhctsa
     - solar-wavelength-calibration
     - tanml
@@ -9442,6 +9444,7 @@
   packages_submitted:
   packages_reviewed:
     - felupe
+    - phasecurvefit
     - pyinterpolate
   location: Montreal, QC, CANADA
   email:
@@ -12514,6 +12517,92 @@
   packages_eic:
   packages_editor:
   packages_submitted:
+  packages_reviewed:
+  location:
+  email:
+- name: Sujata Goswami
+  github_username: SujataSaurabh
+  github_image_id: 35897531
+  title:
+  sort:
+  bio: Scientific  + Generalist Software Developer.
+  organization: Lawrence Berkeley National Laboratory
+  date_added: '2026-10-19'
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - phasecurvefit
+  location: Berkeley
+  email:
+- name: Nathaniel Starkman
+  github_username: nstarman
+  github_image_id: 8949649
+  title:
+  sort:
+  bio: Nathaniel Starkman — Brinson Prize Fellow & Astrophysics Postdoc @
+      MIT.Maintainer for @astropy, @GalacticDynamics, @cosmology-api.
+  organization: MIT
+  date_added: '2026-10-19'
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://nstarkman.space
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+    - submitting-author
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - phasecurvefit
+  packages_reviewed:
+  location:
+  email:
+- name: Jacob Nibauer
+  github_username: jnibauer
+  github_image_id: 35147827
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2026-10-19'
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://jnibauer.github.io
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - phasecurvefit
   packages_reviewed:
   location:
   email:
