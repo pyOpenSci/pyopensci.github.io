@@ -1,0 +1,37 @@
+{{- /*
+  Section heading with a copy-link anchor (h2–h4).
+  Markdown uses this via render-heading.html.
+  Partials call it for section titles only.
+
+  Params:
+    level  Heading level. Default 2. Anchors only on 2–4.
+    text   Heading text. Escaped unless html is true.
+    html   Pass true when text is already HTML (the render hook).
+    plain  Plain-text label for the aria-label. Defaults to text.
+    id     Existing id to keep. Otherwise generated with anchorize.
+    class  Optional class on the heading.
+    attrs  Optional Goldmark attribute map. id and class are skipped.
+*/ -}}
+{{- $level := .level | default 2 -}}
+{{- $text := .text | default "" -}}
+{{- $plain := .plain | default ($text | plainify) -}}
+{{- $id := .id | default "" -}}
+{{- if not $id }}{{ $id = $plain | anchorize }}{{ end -}}
+{{- $class := .class | default "" -}}
+{{- $attrs := .attrs -}}
+{{- $asHTML := .html | default false -}}
+{{- $anchor := true -}}
+{{- if or (lt $level 2) (gt $level 4) }}{{ $anchor = false }}{{ end -}}
+{{- if not $id }}{{ $anchor = false }}{{ end -}}
+<h{{ $level }}{{ with $id }} id="{{ . }}"{{ end }}
+{{- with $class }} class="{{ . }}"{{ end -}}
+{{- with $attrs -}}
+  {{- range $name, $value := . -}}
+    {{- if and (ne $name "id") (ne $name "class") }} {{ $name }}="{{ $value }}"{{ end -}}
+  {{- end -}}
+{{- end -}}>
+{{- if $asHTML }}{{ $text | safeHTML }}{{ else }}{{ $text }}{{ end -}}
+{{- if $anchor }}
+  {{- partial "heading-anchor.html" (dict "id" $id "label" $plain) -}}
+{{- end -}}
+</h{{ $level }}>

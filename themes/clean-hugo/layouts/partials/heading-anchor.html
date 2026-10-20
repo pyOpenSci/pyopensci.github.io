@@ -1,0 +1,8 @@
+{{- /*
+  Copy-link icon for a heading that already has an id.
+  Click behavior is in js/heading-anchors.js.
+  Params: id (required), label (plain text for the aria-label).
+*/ -}}
+<a href="#{{ .id }}" class="heading-anchor" data-heading-anchor aria-label="Copy link to {{ .label }} section">
+  <i class="fas fa-link" aria-hidden="true"></i>
+</a>

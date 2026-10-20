@@ -25,7 +25,7 @@
       <p class="get-involved__eyebrow">{{ . }}</p>
       {{ end }}
       {{ with $data.title }}
-      <h2 id="get-involved-title" class="get-involved__title">{{ . }}</h2>
+      {{ partial "heading.html" (dict "level" 2 "id" "get-involved-title" "class" "get-involved__title" "text" .) }}
       {{ end }}
       {{ with $data.subtitle }}
       <p class="get-involved__subtitle">{{ . | markdownify }}</p>

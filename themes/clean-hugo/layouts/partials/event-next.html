@@ -31,9 +31,7 @@
 {{ with $nextEvent }}
   <section class="event-upcoming" aria-labelledby="event-upcoming-heading">
     <hr class="event-upcoming__divider">
-    <h2 id="event-upcoming-heading" class="event-upcoming__heading">
-      Upcoming events
-    </h2>
+    {{ partial "heading.html" (dict "level" 2 "id" "event-upcoming-heading" "class" "event-upcoming__heading" "text" "Upcoming events") }}
     <aside class="event-next" aria-labelledby="event-next-title">
       <div class="event-next__inner">
         <div class="event-next__body">

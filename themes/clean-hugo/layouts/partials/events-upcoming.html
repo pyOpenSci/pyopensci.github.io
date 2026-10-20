@@ -66,15 +66,16 @@
   <section class="events-list{{ if $highlight }} events-list--highlight{{ end }}{{ with $sectionClass }} {{ . }}{{ end }}">
     <div class="{{ if $useContainer }}container{{ else }}events-list__inner{{ end }}">
       {{ if $sectionTitle }}
-        <h2 class="events-list__section-title">{{ $sectionTitle }}</h2>
+        {{ partial "heading.html" (dict "level" 2 "class" "events-list__section-title" "text" $sectionTitle) }}
       {{ else if $highlight }}
         <p class="events-list__count" aria-live="polite">
           {{ len $highlightEvents }}
           {{ if eq (len $highlightEvents) 1 }}event{{ else }}events{{ end }}
         </p>
       {{ else if $showKicker }}
-        <h2 class="events-list__kicker">
+        <h2 id="upcoming-live" class="events-list__kicker">
           Upcoming <span class="events-list__kicker-amp">&amp;</span> live
+          {{ partial "heading-anchor.html" (dict "id" "upcoming-live" "label" "Upcoming and live") }}
         </h2>
       {{ end }}
       {{ if $highlight }}

@@ -33,7 +33,7 @@
     </figure>
     {{ end }}
     <div class="feature-row__body">
-      {{ with $title }}<h2 class="feature-row__title">{{ . }}</h2>{{ end }}
+      {{ with $title }}{{ partial "heading.html" (dict "level" 2 "class" "feature-row__title" "text" .) }}{{ end }}
       {{ with .Inner }}
       <div class="feature-row__content">{{ . | markdownify }}</div>
       {{ end }}

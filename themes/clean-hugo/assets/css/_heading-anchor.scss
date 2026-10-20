@@ -1,9 +1,7 @@
 /*
   Heading anchor links
-  The render hook (layouts/_default/_markup/render-heading.html)
-  adds a small link icon after every H2-H4 in Markdown content.
-  It stays hidden until the heading is hovered/focused, and
-  clicking it copies the section URL to the clipboard.
+  partials/heading.html adds the icon on section H2-H4.
+  Hidden until hover or focus. The script only copies the URL.
 */
 .heading-anchor {
   display: inline-flex;
@@ -67,6 +65,16 @@ h4:hover {
     padding: 0.25rem 0.5rem;
     border-radius: $radius-sm;
     pointer-events: none;
+  }
+}
+
+/* White headings on dark bands. The light how-it-works variant
+   keeps the default gray icon. */
+.how-it-works:not(.how-it-works--light) h2.how-it-works__title,
+.impact-destinations h2.impact-destinations__title,
+.get-involved--dark h2.get-involved__title {
+  .heading-anchor {
+    color: var(--color-white);
   }
 }
 

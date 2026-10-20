@@ -25,7 +25,7 @@
       <p class="how-it-works__eyebrow">{{ . }}</p>
       {{ end }}
       {{ with $data.title }}
-      <h2 id="how-it-works-title" class="how-it-works__title">{{ . }}</h2>
+      {{ partial "heading.html" (dict "level" 2 "id" "how-it-works-title" "class" "how-it-works__title" "text" .) }}
       {{ end }}
       {{ with $data.subtitle }}
       <p class="how-it-works__subtitle">{{ . | markdownify }}</p>

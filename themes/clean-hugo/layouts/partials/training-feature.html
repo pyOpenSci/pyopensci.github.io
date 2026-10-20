@@ -26,7 +26,7 @@
         {{ with $t.badge }}
           <p class="training-feature__badge"><span class="training-feature__badge-pill">{{ . }}</span></p>
         {{ end }}
-        <h2 id="training-feature-title" class="training-feature__title">{{ $t.title }}</h2>
+        {{ partial "heading.html" (dict "level" 2 "id" "training-feature-title" "class" "training-feature__title" "text" $t.title) }}
         {{ with $t.excerpt }}
           <div class="training-feature__excerpt">{{ . | markdownify }}</div>
         {{ end }}

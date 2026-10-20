@@ -35,7 +35,7 @@ if (typeof getPackageCitation === 'function' && Array.isArray(window.pyOpenSciPa
 
   <section class="packages-page__section">
     <div class="container">
-      <h2>{{ .Title }} packages accepted by pyOpenSci</h2>
+      {{ partial "heading.html" (dict "level" 2 "text" (printf "%s packages accepted by pyOpenSci" .Title)) }}
       {{ partial "packages/grid.html" (dict "activeOnly" true) }}
     </div>
   </section>
@@ -46,7 +46,7 @@ if (typeof getPackageCitation === 'function' && Array.isArray(window.pyOpenSciPa
   >
     <div class="container">
       <div class="intro">
-        <h2 id="archived-packages-heading">Archived packages</h2>
+        {{ partial "heading.html" (dict "level" 2 "id" "archived-packages-heading" "text" "Archived packages") }}
         <p>
           Archived packages have successfully completed peer review but are no
           longer actively maintained.

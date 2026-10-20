@@ -14,7 +14,7 @@
 {{ if and $showActive $board }}
 <section class="people-page__section">
   <div class="container">
-    <h2 id="meet-our-editorial-board">Meet our editorial board</h2>
+    {{ partial "heading.html" (dict "level" 2 "id" "meet-our-editorial-board" "text" "Meet our editorial board") }}
     <p>
       The pyOpenSci software peer review process is led by a volunteer team of
       editors from the scientific Python community. Editors do the following
@@ -41,7 +41,7 @@
 {{ if and $showEmeritus $emeritus }}
 <section class="people-page__section">
   <div class="container">
-    <h2>Emeritus editors</h2>
+    {{ partial "heading.html" (dict "level" 2 "text" "Emeritus editors") }}
     <p>We are deeply grateful for those who served on our editorial board previously.</p>
     {{ partial "people/emeritus-editorial-grid.html" (dict
       "board" $emeritus

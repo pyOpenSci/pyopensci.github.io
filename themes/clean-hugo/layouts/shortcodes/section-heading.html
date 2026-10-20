@@ -9,7 +9,7 @@
   {{ with $eyebrow }}
   <p class="section-heading__eyebrow">{{ . }}</p>
   {{ end }}
-  <h2 class="section-heading__title">{{ $title }}</h2>
+  {{ partial "heading.html" (dict "level" 2 "class" "section-heading__title" "text" $title) }}
   {{ if $subtitle }}
   <div class="section-heading__subtitle">{{ $subtitle | markdownify }}</div>
   {{ end }}

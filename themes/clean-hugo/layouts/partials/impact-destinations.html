@@ -22,7 +22,7 @@
       <p class="impact-destinations__eyebrow">{{ . }}</p>
       {{ end }}
       {{ with $data.title }}
-      <h2 class="impact-destinations__title">{{ . }}</h2>
+      {{ partial "heading.html" (dict "level" 2 "class" "impact-destinations__title" "text" .) }}
       {{ end }}
       {{ with $data.subtitle }}
       <p class="impact-destinations__subtitle">{{ . | markdownify }}</p>

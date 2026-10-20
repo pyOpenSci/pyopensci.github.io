@@ -1,17 +1,13 @@
 {{- /*
   Render hook for Markdown headings (site-wide).
-  Adds a hidden-until-hover "copy link" icon after H2-H4 text so
-  any section can be linked to directly, similar to Minimal
-  Mistakes' anchor links. H1 is left untouched since it's the
-  page title, not a linkable section.
+  Delegates to partials/heading.html so template section
+  headings use the same anchor markup. H1 stays a plain title.
 */ -}}
-{{- $level := .Level -}}
-{{- $showAnchor := and (ge $level 2) (le $level 4) -}}
-<h{{ $level }} id="{{ .Anchor }}"{{ range $name, $value := .Attributes }}{{ if ne $name "id" }} {{ $name }}="{{ $value }}"{{ end }}{{ end }}>
-  {{- .Text | safeHTML }}
-  {{- if $showAnchor }}
-  <a href="#{{ .Anchor }}" class="heading-anchor" data-heading-anchor aria-label="Copy link to {{ .PlainText }} section">
-    <i class="fas fa-link" aria-hidden="true"></i>
-  </a>
-  {{- end }}
-</h{{ $level }}>
+{{- partial "heading.html" (dict
+  "level" .Level
+  "id" .Anchor
+  "plain" .PlainText
+  "text" .Text
+  "html" true
+  "attrs" .Attributes
+) -}}

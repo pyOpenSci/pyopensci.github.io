@@ -30,9 +30,7 @@
     <div class="home-current-project__main">
       <div class="home-current-project__content">
         <p class="home-current-project__eyebrow">{{ $eyebrow }}</p>
-        <h2 id="home-current-project-title" class="home-current-project__title">
-          {{ $p.title }}
-        </h2>
+        {{ partial "heading.html" (dict "level" 2 "id" "home-current-project-title" "class" "home-current-project__title" "text" $p.title) }}
         {{ with $p.excerpt }}
           <div class="home-current-project__excerpt">{{ . | markdownify }}</div>
         {{ end }}
