@@ -10,7 +10,7 @@
 <section class="blog-highlight">
   <div class="container">
     <div class="intro">
-      <h2>{{ .Get "title" | default "Recent Thoughts" }}</h2>
+      {{ partial "heading.html" (dict "level" 2 "text" (.Get "title" | default "Recent Thoughts")) }}
     </div>
 
     <div class="highlight-grid">

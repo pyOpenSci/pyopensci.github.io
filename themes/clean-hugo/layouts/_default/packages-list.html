@@ -40,7 +40,7 @@ if (typeof getPackageCitation === 'function' && Array.isArray(window.pyOpenSciPa
 
   <section class="packages-page__section">
     <div class="container">
-      <h2>pyOpenSci Accepted Packages</h2>
+      {{ partial "heading.html" (dict "level" 2 "text" "pyOpenSci Accepted Packages") }}
       {{ partial "packages/grid.html" (dict "activeOnly" true) }}
     </div>
   </section>
@@ -51,7 +51,7 @@ if (typeof getPackageCitation === 'function' && Array.isArray(window.pyOpenSciPa
   >
     <div class="container">
       <div class="intro">
-        <h2 id="archived-packages-heading">Archived Packages</h2>
+        {{ partial "heading.html" (dict "level" 2 "id" "archived-packages-heading" "text" "Archived Packages") }}
         <p>
           Archived packages are packages that have successfully completed peer review
           but are no longer actively maintained.

@@ -7,7 +7,7 @@
 {{ if gt (len $recent) 0 }}
 <section class="packages-page__section">
   <div class="container">
-    <h2>Recently accepted Python packages</h2>
+    {{ partial "heading.html" (dict "level" 2 "text" "Recently accepted Python packages") }}
     <div class="packages-grid">
       {{ range $recent }}
         {{ partial "packages/card-static.html" . }}

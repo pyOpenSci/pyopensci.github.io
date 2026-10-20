@@ -1,10 +1,9 @@
 /**
  * Heading anchor links.
- * Each H2-H4 gets a "copy link" icon (added by the
- * render-heading.html hook). Clicking it copies the section's
- * full URL to the clipboard and shows a brief "Link copied"
- * tooltip. The icon is still a real `href="#id"` link, so it
- * keeps working (jump + right-click "copy link") with JS off.
+ * The icon is added in partials/heading.html (Markdown and
+ * section headings). Clicking it copies the section URL and
+ * shows a brief "Link copied" tooltip. The icon is a real
+ * href="#id" link, so the jump still works with JavaScript off.
  */
 document.addEventListener('DOMContentLoaded', function () {
   document.querySelectorAll('[data-heading-anchor]').forEach(function (anchor) {

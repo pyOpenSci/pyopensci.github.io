@@ -1,6 +1,6 @@
 {{ with .Params.instructors }}
 <section class="event-instructors" aria-label="Instructors">
-  <h2 class="event-instructors__heading">Instructors</h2>
+  {{ partial "heading.html" (dict "level" 2 "class" "event-instructors__heading" "text" "Instructors") }}
   <ul class="event-instructors__grid">
     {{ range . }}
       <li class="event-instructors__card">

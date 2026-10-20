@@ -45,9 +45,7 @@
       <p class="home-whats-next__label">What's next</p>
       <div class="home-whats-next__divider" aria-hidden="true"></div>
       <div class="home-whats-next__body">
-        <h2 id="home-whats-next-title" class="home-whats-next__headline">
-          {{ $headline }}
-        </h2>
+        {{ partial "heading.html" (dict "level" 2 "id" "home-whats-next-title" "class" "home-whats-next__headline" "text" $headline) }}
         <p class="home-whats-next__meta">
           <time datetime="{{ $e.start_date }}">
             {{ if and $e.end_date (or
