@@ -2,9 +2,8 @@
   github_username: lwasser
   github_image_id: 7649194
   title:
-    - Emeritus Editor
     - Executive Director & Founder
-    - Emeritus editor
+    - Emeritus Editor
   sort: 1
   bio: Open education, Open source and Open Science.Executive Director
       @pyOpenSci
@@ -196,15 +195,15 @@
 - name: Erin Robinson
   github_username: erinmr
   github_image_id: 2915555
-  title: Advisory Council
+  title: Emeritus Advisory Council
   sort:
   bio:
   organization:
   date_added: '2023-06-15'
   editorial_board: false
   emeritus_editor: false
-  advisory: true
-  emeritus_advisory: false
+  advisory: false
+  emeritus_advisory: true
   twitter: connector_erin
   mastodon:
   orcidid:
@@ -230,8 +229,8 @@
   date_added: '2019-10-10'
   editorial_board: false
   emeritus_editor: false
-  advisory: true
-  emeritus_advisory: false
+  advisory: false
+  emeritus_advisory: true
   twitter: choldgraf
   mastodon:
   orcidid:
@@ -323,7 +322,7 @@
   date_added: '2019-10-15'
   editorial_board: false
   emeritus_editor: true
-  advisory: true
+  advisory: false
   emeritus_advisory: false
   twitter: xmnlab
   mastodon:
@@ -368,8 +367,8 @@
   date_added: '2019-10-17'
   editorial_board: false
   emeritus_editor: true
-  advisory: true
-  emeritus_advisory: false
+  advisory: false
+  emeritus_advisory: true
   twitter: ocefpaf
   mastodon:
   orcidid: 0000-0003-4165-2913
@@ -462,8 +461,8 @@
   date_added: '2020-04-09'
   editorial_board: false
   emeritus_editor: false
-  advisory: true
-  emeritus_advisory: false
+  advisory: false
+  emeritus_advisory: true
   twitter: martinfleis
   mastodon: https://fosstodon.org/@martinfleis
   orcidid: 0000-0003-3319-3366
@@ -6706,14 +6705,14 @@
 - name: Felipe Moreno
   github_username: flpm
   github_image_id: 17676929
-  title:
+  title: Advisory Council
   sort:
   bio: Security + Python + Design
   organization: Bloomberg LP
   date_added: '2024-06-01'
   editorial_board: false
   emeritus_editor: false
-  advisory: false
+  advisory: true
   emeritus_advisory: false
   twitter:
   mastodon:
@@ -11449,9 +11448,10 @@
   github_username: shaunagm
   github_image_id: 1179362
   title:
+    - Community & Research Lead
     - Editor
     - Peer Review Lead
-  sort:
+  sort: 3
   bio:
   organization:
   date_added: '2026-08-05'
@@ -11464,7 +11464,7 @@
   orcidid:
   partners:
   website: https://www.shaunagm.net
-  board: false
+  board: true
   contributor_type:
     - editor
     - web-contrib

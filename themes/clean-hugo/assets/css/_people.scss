@@ -252,13 +252,10 @@
   .people-grid-static {
     @include people-grid-equal-columns(6);
 
-    /* Small leadership sections (3–4 people): don't stretch full width */
+    /* Leadership row stays five across so a short list does not stretch */
     &--compact {
-      max-width: 62.5rem;
-      margin-inline: auto;
-
-      @media (min-width: $breakpoint-xl) {
-        grid-template-columns: repeat(3, minmax(0, 1fr));
+      @media (min-width: $breakpoint-lg) {
+        grid-template-columns: repeat(5, minmax(0, 1fr));
       }
     }
   }

@@ -31,7 +31,7 @@
         <h2>Advisory Council</h2>
         <p>Advisory council members are volunteer experts who provide high-level guidance on the development of the organization.</p>
         <div class="people-grid-static">
-          {{ range sort $advisory "sort" }}
+          {{ range sort $advisory "name" }}
             {{ partial "people/card.html" . }}
           {{ end }}
         </div>
