@@ -67,10 +67,10 @@ useful resources grounded in what we learn from the community.
 
 Our work has two parts. **First, we're listening at scale.** We'll run a
 survey and a series of focus groups with open source maintainers, contributors,
-and research software engineers. We will also perform an indepth analysis of 
+and research software engineers. We will also perform an indepth analysis of
 contributing guidelines and associated AI policies that
 projects have already developed. The goal here is to understand what's working,
-where more support is needed and how AI tools are specifically impacting our 
+where more support is needed and how AI tools are specifically impacting our
 shared ecosystem. Expect a series of blog posts as we learn more!
 
 **Second, we'll build from what we learn.** We're developing practical
