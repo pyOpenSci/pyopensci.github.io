@@ -287,7 +287,7 @@
   sort:
   bio: "@pypa member, @psf fellow, @toml-lang core, @sphinx-doc contributor. Past
       intern at @enthought and IITB.Don't email or tweet me for tech support."
-  organization: '@bloomberg Python Infrastructure'
+  organization: Bloomberg Python Infrastructure
   date_added: '2023-03-01'
   editorial_board: false
   emeritus_editor: false
@@ -6708,7 +6708,7 @@
   title: Advisory Council
   sort:
   bio: Security + Python + Design
-  organization: Bloomberg LP
+  organization: Bloomberg
   date_added: '2024-06-01'
   editorial_board: false
   emeritus_editor: false
@@ -6988,7 +6988,7 @@
   sort:
   bio: Software Engineer | Speaker | Author of "Hands-On Data Analysis with
       Pandas"
-  organization: '@Bloomberg'
+  organization: Bloomberg
   date_added: '2024-07-04'
   editorial_board: false
   emeritus_editor: false
