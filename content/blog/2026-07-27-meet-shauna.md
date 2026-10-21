@@ -10,11 +10,12 @@ toc: true
 comments: true
 url: "/blog/shauna-gordon-mckeon-research-and-community-lead.html"
 lastmod: '2026-08-17'
-image:
+highlight_image:
   src: images/blog/2026/shaunagordonmckeon.png
   alt: Headshot of Shauna Gordon-McKeon, a white woman with long brown hair in a purple-blue shirt, standing in front of a brick wall
-  credit: photo by Nick Taft
 ---
+
+{{< figure src="images/blog/2026/shaunagordonmckeon.png" alt="Headshot of Shauna Gordon-McKeon, a white woman with long brown hair in a purple-blue shirt, standing in front of a brick wall" caption="Photo by Nick Taft" >}}
 
 Hi everyone — I’m Shauna Gordon-McKeon, and I’m joining pyOpenSci as Research and Community Lead.
 
