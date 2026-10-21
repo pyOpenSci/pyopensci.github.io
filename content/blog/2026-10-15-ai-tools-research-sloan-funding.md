@@ -25,7 +25,7 @@ highlight_image:
 
 AI tools are changing how scientists write and review software. More
 importantly to us, they are also changing the dynamics among the
-people doing that work. The Alfred P. Sloan Foundation has funded
+people doing that work. The [Alfred P. Sloan Foundation](https://sloan.org/) has funded
 pyOpenSci to understand those changes and build practical resources to
 help our community navigate them.
 
@@ -66,10 +66,12 @@ pyOpenSci wants to understand what's really happening, and then build
 useful resources grounded in what we learn from the community.
 
 Our work has two parts. **First, we're listening at scale.** We'll run a
-survey and a series of focus groups with maintainers, contributors,
-and research software engineers, and we'll review the AI policies
-projects have already written to see what's working and where the gaps
-are.
+survey and a series of focus groups with open source maintainers, contributors,
+and research software engineers. We will also perform an indepth analysis of 
+contributing guidelines and associated AI policies that
+projects have already developed. The goal here is to understand what's working,
+where more support is needed and how AI tools are specifically impacting our 
+shared ecosystem. Expect a series of blog posts as we learn more!
 
 **Second, we'll build from what we learn.** We're developing practical
 guidance for contributors on working with these tools deliberately:
