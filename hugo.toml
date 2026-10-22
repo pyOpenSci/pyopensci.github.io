@@ -100,6 +100,7 @@ buildFuture = true
     accentLight = '#E4B8C6'
     neutral = '#395E66'
     white = '#FFFFFF'
+    navText = '#FFFFFF'
     gray50 = '#F9FAFB'
     gray200 = '#E5E7EB'
     gray600 = '#4B5563'
