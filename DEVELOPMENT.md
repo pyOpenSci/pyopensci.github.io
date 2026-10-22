@@ -94,7 +94,7 @@ existing partials before adding new files.
 ## Colors and typography
 
 **Brand colors** — set in `hugo.toml` under `[params.theme.colors]`. These
-become CSS variables (e.g. `--color-primary`) at build time. Prefer changing
+become CSS variables (e.g. `--color-brand`, `--color-action`) at build time. Prefer changing
 colors there for site-wide brand updates.
 
 **SCSS variables** — in `_variables.scss` (`$spacing-md`, `$breakpoint-lg`,
