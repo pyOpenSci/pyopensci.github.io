@@ -31,9 +31,9 @@
   display: flex;
   flex-direction: column;
   height: 100%;
-  border: 1px solid var(--color-gray-200);
+  border: 1px solid var(--color-border);
   border-radius: $radius-md;
-  background-color: var(--color-white);
+  background-color: var(--color-surface);
   box-shadow: $shadow-sm;
   transition: transform $transition-base ease, box-shadow $transition-base ease;
 
@@ -53,7 +53,7 @@
   margin: 0 0 0.65rem;
   font-size: 1.125rem;
   font-weight: 600;
-  color: var(--color-gray-900);
+  color: var(--color-text-strong);
   line-height: 1.3;
 }
 
@@ -61,7 +61,7 @@
   margin: 0;
   font-size: 0.9375rem;
   line-height: 1.55;
-  color: var(--color-gray-700);
+  color: var(--color-text);
 }
 
 .packaging-guide-grid__links {
@@ -86,21 +86,21 @@
   border-radius: 0 0 $radius-md $radius-md;
   justify-content: center;
   gap: 0.5rem;
-  background-color: var(--color-brand-purple);
-  color: var(--color-white);
+  background-color: var(--color-brand);
+  color: var(--color-text-on-dark);
   font-weight: 600;
   text-decoration: none;
 
   &:hover,
   &:focus {
-    background-color: var(--color-brand-purple-dark);
-    color: var(--color-white);
+    background-color: var(--color-brand-hover);
+    color: var(--color-text-on-dark);
     transform: translateY(-1px);
     box-shadow: $shadow-md;
   }
 
   .fa-magnifying-glass {
-    color: var(--color-white);
+    color: var(--color-text-on-dark);
   }
 }
 
@@ -143,9 +143,9 @@
   flex-direction: column;
   min-height: 100%;
   padding: 1.1rem 1rem;
-  border: 1px solid color-mix(in srgb, var(--color-brand-purple) 18%, transparent);
+  border: 1px solid color-mix(in srgb, var(--color-brand) 18%, transparent);
   border-radius: $radius-md;
-  background-color: var(--color-white);
+  background-color: var(--color-surface);
   box-shadow: $shadow-sm;
   transition: transform $transition-base ease, box-shadow $transition-base ease;
 
@@ -157,7 +157,7 @@
 
   &__title {
     margin: 0.6rem 0 1.2rem;
-    color: var(--color-brand-purple);
+    color: var(--color-brand);
     font-size: 1.25rem;
     font-weight: 600;
     line-height: 1.25;
@@ -170,7 +170,7 @@
 
   p.partnership-card__price {
     margin: 0 0 0.85rem;
-    color: var(--color-brand-purple);
+    color: var(--color-brand);
     font-size: 1.5rem;
     font-weight: 700;
     line-height: 1.2;
@@ -207,7 +207,7 @@
 
   p.partnership-card__lede {
     margin: 0 0 0.85rem;
-    color: var(--color-gray-700);
+    color: var(--color-text);
     font-size: 0.9375rem;
     line-height: 1.55;
   }
@@ -223,7 +223,7 @@
       padding-left: 1.3rem;
       font-size: 0.875rem;
       line-height: 1.5;
-      color: var(--color-gray-700);
+      color: var(--color-text);
       list-style: none;
 
       &::before {
@@ -244,13 +244,13 @@
   &__divider {
     width: 100%;
     border: 0;
-    border-top: 1px solid color-mix(in srgb, var(--color-soft-purple) 95%, transparent);
+    border-top: 1px solid color-mix(in srgb, var(--color-brand-tint) 95%, transparent);
     margin: 1rem 0 0.7rem;
   }
 
   p.partnership-card__subheader {
     margin: 0.6rem 0 1.2rem;
-    color: color-mix(in srgb, var(--color-brand-purple) 55%, var(--color-soft-purple));
+    color: color-mix(in srgb, var(--color-brand) 55%, var(--color-brand-tint));
     font-size: 0.75rem;
     font-weight: 600;
     letter-spacing: 0.08em;
@@ -260,7 +260,7 @@
 }
 
 .partnership-card--featured {
-  border-color: color-mix(in srgb, var(--color-primary-dark) 45%, transparent);
+  border-color: color-mix(in srgb, var(--color-action-dark) 45%, transparent);
   box-shadow: $shadow-md;
 }
 
@@ -281,9 +281,9 @@
   margin: 0;
   padding: 1.25rem 1.25rem 1.35rem;
   border-radius: $radius-md;
-  background-color: var(--color-white);
+  background-color: var(--color-surface);
   box-shadow: $shadow-sm;
-  border: 1px solid color-mix(in srgb, var(--color-brand-purple) 12%, transparent);
+  border: 1px solid color-mix(in srgb, var(--color-brand) 12%, transparent);
   text-align: left;
 
   @media (min-width: $breakpoint-sm) {
@@ -304,7 +304,7 @@
   border-radius: $radius-full;
   object-fit: cover;
   display: block;
-  border: 3px solid color-mix(in srgb, var(--color-brand-purple) 18%, transparent);
+  border: 3px solid color-mix(in srgb, var(--color-brand) 18%, transparent);
   box-sizing: border-box;
 }
 
@@ -316,7 +316,7 @@
 .testimonial-showcase__mark {
   margin: 0 0 0.35rem;
   line-height: 1;
-  color: var(--color-brand-purple);
+  color: var(--color-brand);
 
   .fa-quote-left {
     font-size: 1.5rem;
@@ -337,7 +337,7 @@
   line-height: 1.4;
   font-style: normal;
   font-weight: 600;
-  color: var(--color-gray-600);
+  color: var(--color-text-muted);
 }
 
 .testimonial-showcase__grid {
@@ -354,9 +354,9 @@
   margin: 0;
   padding: 1.1rem 1rem 1.15rem;
   border-radius: $radius-md;
-  background-color: var(--color-white);
+  background-color: var(--color-surface);
   box-shadow: $shadow-sm;
-  border: 1px solid color-mix(in srgb, var(--color-brand-purple) 12%, transparent);
+  border: 1px solid color-mix(in srgb, var(--color-brand) 12%, transparent);
   border-top: 4px solid var(--color-accent);
   text-align: left;
 }

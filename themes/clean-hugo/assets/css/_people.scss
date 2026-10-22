@@ -6,7 +6,7 @@
     width: 100%;
     padding: 2rem 0;
     margin-bottom: 2rem;
-    background-color: var(--color-gray-50);
+    background-color: var(--color-page-bg);
   }
 
   .people-page__section {
@@ -26,14 +26,14 @@
       max-width: 28rem;
       padding: 0.5rem 1rem;
       font-size: 1.125rem;
-      border: 1px solid var(--color-gray-200);
+      border: 1px solid var(--color-border);
       border-radius: $radius-md;
       margin-bottom: 1rem;
 
       &:focus {
         outline: none;
-        box-shadow: 0 0 0 2px var(--color-primary);
-        border-color: var(--color-primary);
+        box-shadow: 0 0 0 2px var(--color-action);
+        border-color: var(--color-action);
       }
     }
 
@@ -45,20 +45,20 @@
       button {
         padding: 0.5rem 1rem;
         border-radius: $radius-md;
-        border: 1px solid var(--color-gray-200);
+        border: 1px solid var(--color-border);
         font-weight: 500;
         transition: all $transition-base;
-        background-color: var(--color-gray-200);
-        color: var(--color-gray-700);
+        background-color: var(--color-border);
+        color: var(--color-text);
 
         &:hover {
-          background-color: var(--color-gray-200);
+          background-color: var(--color-border);
           transform: translateY(-1px);
         }
 
         &.is-checked {
-          background-color: var(--color-primary);
-          border-color: var(--color-primary-dark);
+          background-color: var(--color-action);
+          border-color: var(--color-action-dark);
           color: white;
         }
       }
@@ -97,6 +97,7 @@
   /* Home / volunteer recent contributors — compact row of five */
   .people-grid.people-grid--recent {
     margin-top: 1.5rem;
+    margin-bottom: $spacing-section-lg;
     gap: clamp(0.5rem, 1.25vw, 0.875rem);
     grid-template-columns: minmax(0, 1fr);
 
@@ -155,13 +156,13 @@
       width: 100%;
       min-width: 0;
       border-radius: $radius-md;
-      border: 1px solid var(--color-gray-200);
+      border: 1px solid var(--color-border);
       box-shadow: $shadow-sm;
       display: flex;
       flex-direction: column;
       flex: 1;
       transition: all $transition-base;
-      background-color: var(--color-white);
+      background-color: var(--color-surface);
       overflow: hidden;
 
       &:hover {
@@ -175,7 +176,7 @@
     width: 100%;
     overflow: hidden;
     aspect-ratio: 1;
-    background-color: var(--color-gray-200);
+    background-color: var(--color-border);
 
     img {
       width: 100%;
@@ -194,7 +195,7 @@
       font-size: 1.125rem;
       font-weight: 600;
       margin-bottom: 0.375rem;
-      color: var(--color-gray-900);
+      color: var(--color-text-strong);
       overflow-wrap: break-word;
 
       a {
@@ -211,7 +212,7 @@
   .people_card__title {
     font-size: 0.75rem;
     margin-bottom: 0.375rem;
-    color: var(--color-gray-600);
+    color: var(--color-text-muted);
     line-height: 1.4;
     overflow-wrap: break-word;
   }
@@ -219,7 +220,7 @@
   .people_card__org {
     font-size: 0.75rem;
     margin-bottom: 0.75rem;
-    color: var(--color-gray-600);
+    color: var(--color-text-muted);
     font-style: italic;
     overflow-wrap: break-word;
   }
@@ -236,7 +237,7 @@
       align-items: center;
       gap: 0.25rem;
       text-decoration: none;
-      color: var(--color-gray-600);
+      color: var(--color-text-muted);
       transition: color $transition-base ease;
 
       &:hover {
@@ -286,13 +287,13 @@
 
       &:hover,
       &:focus-visible {
-        color: var(--color-white);
-        background-color: var(--color-brand-purple);
+        color: var(--color-text-on-dark);
+        background-color: var(--color-brand);
         transform: translateY(-1px);
       }
 
       &:focus-visible {
-        outline: 2px solid var(--color-brand-medium-purple);
+        outline: 2px solid var(--color-brand-outline);
         outline-offset: 2px;
       }
     }

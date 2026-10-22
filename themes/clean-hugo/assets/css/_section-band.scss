@@ -19,75 +19,75 @@
 
 /* Color modifiers — backgrounds and divider wave fills from theme variables */
 .section-band--white {
-  background-color: var(--color-white);
-  --section-band-fill-1: var(--color-white);
-  --section-band-fill-2: var(--color-white);
+  background-color: var(--color-surface);
+  --section-band-fill-1: var(--color-surface);
+  --section-band-fill-2: var(--color-surface);
 }
 
 .section-band--light-purple {
-  background-color: var(--color-light-purple);
-  --section-band-fill-1: var(--color-soft-purple);
-  --section-band-fill-2: var(--color-light-purple);
+  background-color: var(--color-section-light-bg);
+  --section-band-fill-1: var(--color-brand-tint);
+  --section-band-fill-2: var(--color-section-light-bg);
 }
 
 .section-band--soft-purple {
-  background-color: var(--color-soft-purple);
+  background-color: var(--color-brand-tint);
   --section-band-fill-1: color-mix(
     in srgb,
-    var(--color-brand-medium-purple) 65%,
-    var(--color-soft-purple)
+    var(--color-brand-outline) 65%,
+    var(--color-brand-tint)
   );
-  --section-band-fill-2: var(--color-soft-purple);
+  --section-band-fill-2: var(--color-brand-tint);
 }
 
 .section-band--green {
-  background-color: var(--color-primary-light);
+  background-color: var(--color-action-light);
   --section-band-fill-1: color-mix(
     in srgb,
-    var(--color-primary) 40%,
-    var(--color-primary-light)
+    var(--color-action) 40%,
+    var(--color-action-light)
   );
-  --section-band-fill-2: var(--color-primary-light);
+  --section-band-fill-2: var(--color-action-light);
 }
 
 .section-band--brand-purple {
-  background-color: var(--color-brand-purple);
-  --section-band-fill-1: var(--color-brand-medium-purple);
-  --section-band-fill-2: var(--color-brand-purple);
+  background-color: var(--color-brand);
+  --section-band-fill-1: var(--color-brand-outline);
+  --section-band-fill-2: var(--color-brand);
 }
 
 /* Divider fill when rendered outside the band (top/bottom partials) */
 .section-band__divider--white {
-  --section-band-fill-1: var(--color-white);
-  --section-band-fill-2: var(--color-white);
+  --section-band-fill-1: var(--color-surface);
+  --section-band-fill-2: var(--color-surface);
 }
 
 .section-band__divider--light-purple {
-  --section-band-fill-1: var(--color-soft-purple);
-  --section-band-fill-2: var(--color-light-purple);
+  --section-band-fill-1: var(--color-brand-tint);
+  --section-band-fill-2: var(--color-section-light-bg);
 }
 
 .section-band__divider--soft-purple {
   --section-band-fill-1: color-mix(
     in srgb,
-    var(--color-brand-medium-purple) 65%,
-    var(--color-soft-purple)
+    var(--color-brand-outline) 65%,
+    var(--color-brand-tint)
   );
-  --section-band-fill-2: var(--color-soft-purple);
+  --section-band-fill-2: var(--color-brand-tint);
 }
 
 .section-band__divider--green {
   --section-band-fill-1: color-mix(
     in srgb,
-    var(--color-primary) 40%,
-    var(--color-primary-light)
+    var(--color-action) 40%,
+    var(--color-action-light)
   );
-  --section-band-fill-2: var(--color-primary-light);
+  --section-band-fill-2: var(--color-action-light);
 }
 
 .section-band__divider--brand-purple {
-  --section-band-fill-1: var(--color-brand-medium-purple);
-  --section-band-fill-2: var(--color-brand-purple);
+  --section-band-fill-1: var(--color-brand-outline);
+  --section-band-fill-2: var(--color-brand);
 }
 
 .section-band__divider-wrap {

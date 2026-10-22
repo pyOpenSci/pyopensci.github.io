@@ -59,7 +59,7 @@
       &:hover,
       &:focus,
       p {
-        color: var(--color-white);
+        color: var(--color-text-on-dark);
       }
     }
 
@@ -68,7 +68,7 @@
       &:hover,
       &:focus,
       p {
-        color: var(--color-gray-900);
+        color: var(--color-text-strong);
       }
     }
   }
@@ -93,22 +93,22 @@
   }
 
   &--info {
-    --base-color: var(--color-admonition-info, #3B82F6);
+    --base-color: var(--color-callout-info, #3B82F6);
   }
 
   &--success {
-    --base-color: var(--color-admonition-success, #22C55E);
+    --base-color: var(--color-callout-success, #22C55E);
   }
 
   &--warning {
-    --base-color: var(--color-admonition-warning, #EAB308);
+    --base-color: var(--color-callout-warning, #EAB308);
   }
 
   &--danger {
-    --base-color: var(--color-admonition-danger, #EF4444);
+    --base-color: var(--color-callout-danger, #EF4444);
   }
 
   &--note {
-    --base-color: var(--color-admonition-note, #6B7280);
+    --base-color: var(--color-callout-note, #6B7280);
     }
   }

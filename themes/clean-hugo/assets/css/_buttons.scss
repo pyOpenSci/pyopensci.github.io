@@ -52,37 +52,37 @@ $btn-light-purple-mix: 65%;
 
 /* Dark purple fill — main CTA */
 .btn--dark-purple {
-  background-color: var(--color-brand-purple);
-  color: var(--color-white);
+  background-color: var(--color-brand);
+  color: var(--color-text-on-dark);
 
   &,
   &:hover,
   &:focus,
   p {
-    color: var(--color-white);
+    color: var(--color-text-on-dark);
   }
 
   &:hover {
-    background-color: var(--color-brand-purple-dark);
+    background-color: var(--color-brand-hover);
   }
 
   &:focus {
-    box-shadow: 0 0 0 2px var(--color-white), 0 0 0 4px var(--color-brand-purple);
+    box-shadow: 0 0 0 2px var(--color-surface), 0 0 0 4px var(--color-brand);
   }
 }
 
 /* White fill — dark purple text */
 .btn--white {
-  background-color: var(--color-white);
-  color: var(--color-brand-purple);
+  background-color: var(--color-surface);
+  color: var(--color-brand);
 
   &:hover {
-    background-color: var(--color-gray-50);
-    color: var(--color-brand-purple);
+    background-color: var(--color-page-bg);
+    color: var(--color-brand);
   }
 
   &:focus {
-    box-shadow: 0 0 0 2px var(--color-white), 0 0 0 4px var(--color-brand-purple);
+    box-shadow: 0 0 0 2px var(--color-surface), 0 0 0 4px var(--color-brand);
   }
 }
 
@@ -90,23 +90,23 @@ $btn-light-purple-mix: 65%;
 .btn--green {
   background-color: color-mix(
     in srgb,
-    var(--color-admonition-success) $btn-green-mix,
-    var(--color-white)
+    var(--color-cta) $btn-green-mix,
+    var(--color-surface)
   );
-  color: var(--color-gray-900);
+  color: var(--color-text-strong);
 
   &:hover {
     background-color: color-mix(
       in srgb,
-      var(--color-admonition-success) calc($btn-green-mix + 10%),
-      var(--color-white)
+      var(--color-cta) calc($btn-green-mix + 10%),
+      var(--color-surface)
     );
-    color: var(--color-gray-900);
+    color: var(--color-text-strong);
   }
 
   &:focus {
-    box-shadow: 0 0 0 2px var(--color-white),
-      0 0 0 4px var(--color-admonition-success);
+    box-shadow: 0 0 0 2px var(--color-surface),
+      0 0 0 4px var(--color-cta);
   }
 }
 
@@ -114,61 +114,61 @@ $btn-light-purple-mix: 65%;
 .btn--light-purple {
   background-color: color-mix(
     in srgb,
-    var(--color-light-purple) $btn-light-purple-mix,
-    var(--color-white)
+    var(--color-section-light-bg) $btn-light-purple-mix,
+    var(--color-surface)
   );
-  color: var(--color-gray-900);
+  color: var(--color-text-strong);
 
   &:hover {
     background-color: color-mix(
       in srgb,
-      var(--color-light-purple) calc($btn-light-purple-mix + 10%),
-      var(--color-white)
+      var(--color-section-light-bg) calc($btn-light-purple-mix + 10%),
+      var(--color-surface)
     );
-    color: var(--color-gray-900);
+    color: var(--color-text-strong);
   }
 
   &:focus {
-    box-shadow: 0 0 0 2px var(--color-white),
-      0 0 0 4px var(--color-brand-medium-purple);
+    box-shadow: 0 0 0 2px var(--color-surface),
+      0 0 0 4px var(--color-brand-outline);
   }
 }
 
 /* Outline — medium purple border, dark purple text */
 .btn--outline {
   background-color: transparent;
-  color: var(--color-brand-purple);
-  border-color: var(--color-brand-medium-purple);
+  color: var(--color-brand);
+  border-color: var(--color-brand-outline);
 
   &:hover {
     background-color: color-mix(
       in srgb,
-      var(--color-brand-medium-purple) 12%,
+      var(--color-brand-outline) 12%,
       transparent
     );
-    color: var(--color-brand-purple);
+    color: var(--color-brand);
   }
 
   &:focus {
-    box-shadow: 0 0 0 2px var(--color-white),
-      0 0 0 4px var(--color-brand-medium-purple);
+    box-shadow: 0 0 0 2px var(--color-surface),
+      0 0 0 4px var(--color-brand-outline);
   }
 }
 
 /* Hero — white outline on dark purple backgrounds */
 .btn--outline-on-dark {
   background-color: transparent;
-  color: var(--color-white);
-  border: $btn-bd-thin solid var(--color-white);
+  color: var(--color-text-on-dark);
+  border: $btn-bd-thin solid var(--color-text-on-dark);
 
   &:hover {
-    background-color: color-mix(in srgb, var(--color-white) 12%, transparent);
-    color: var(--color-white);
+    background-color: color-mix(in srgb, var(--color-text-on-dark) 12%, transparent);
+    color: var(--color-text-on-dark);
   }
 
   &:focus {
-    box-shadow: 0 0 0 2px var(--color-brand-purple-dark),
-      0 0 0 4px var(--color-white);
+    box-shadow: 0 0 0 2px var(--color-brand-hover),
+      0 0 0 4px var(--color-text-on-dark);
   }
 }
 

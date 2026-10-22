@@ -117,25 +117,25 @@ xl: 1280px
   :root {
     --color-surface-dark-purple: color-mix(
       in srgb,
-      var(--color-brand-purple) 85%,
+      var(--color-brand) 85%,
       black
     );
     --color-surface-dark-purple-card: color-mix(
       in srgb,
-      var(--color-brand-purple) 68%,
+      var(--color-brand) 68%,
       black
     );
     --color-surface-footer-purple: color-mix(
       in srgb,
-      var(--color-brand-purple) 92%,
+      var(--color-brand) 92%,
       black
     );
   }
 
   body {
     font-family: $font-family-body;
-    color: var(--color-gray-900);
-    background-color: var(--color-gray-50);
+    color: var(--color-text-strong);
+    background-color: var(--color-page-bg);
     margin: 0;
     width: 100%;
     max-width: 100vw;
@@ -162,7 +162,7 @@ xl: 1280px
 
   h1,
   h2 {
-    color: var(--color-brand-purple);
+    color: var(--color-brand);
   }
 
   /* H1 on dark hero / banner backgrounds — keep light for contrast */
@@ -170,7 +170,7 @@ xl: 1280px
   .blog-hero h1,
   .blog-post__header h1,
   .docs-header__title {
-    color: var(--color-white);
+    color: var(--color-text-on-dark);
   }
 
   .site-footer h2 {
@@ -184,7 +184,7 @@ xl: 1280px
     @include type-scale-md(1.125rem, 1.25rem);
     margin-bottom: 1rem;
     line-height: 1.75;
-    color: var(--color-gray-700);
+    color: var(--color-text);
   }
 
   /* List-specific styling */
@@ -209,7 +209,7 @@ xl: 1280px
   hr {
     margin: 2rem 0;
     border-top: 1px solid;
-    border-color: var(--color-gray-200);
+    border-color: var(--color-border);
   }
 
   /* Links - base styles (can be overridden in components) */
@@ -226,7 +226,7 @@ xl: 1280px
   /* Strong and emphasis */
   strong {
     font-weight: 600;
-    color: var(--color-gray-900);
+    color: var(--color-text-strong);
   }
 
   em {
@@ -235,16 +235,12 @@ xl: 1280px
 /* Utility Classes */
 
   /* Reusable background color utilities - short, generalized class names */
-  .bg-card {
-    background-color: var(--color-feature-card);
-  }
-
   .bg-primary {
-    background-color: var(--color-primary-light);
+    background-color: var(--color-action-light);
   }
 
   .bg-secondary {
-    background-color: var(--color-secondary);
+    background-color: var(--color-highlight);
   }
 
   /* Spacing utilities */

@@ -18,9 +18,9 @@
   padding-top: unquote("calc(#{$fluid-space-lg} / 2)");
   padding-bottom: unquote("calc(#{$fluid-space-xl} / 2)");
   padding-inline: $fluid-container-padding;
-  background-color: var(--color-light-purple);
+  background-color: var(--color-section-light-bg);
   box-shadow: 0 6px 14px -4px
-    color-mix(in srgb, var(--color-brand-purple) 12%, transparent);
+    color-mix(in srgb, var(--color-brand) 12%, transparent);
 
   &__inner {
     display: grid;
@@ -40,7 +40,7 @@
     font-weight: 700;
     letter-spacing: 0.12em;
     text-transform: uppercase;
-    color: var(--color-brand-purple);
+    color: var(--color-brand);
     white-space: nowrap;
   }
 
@@ -53,7 +53,7 @@
       height: 3.5rem;
       background-color: color-mix(
         in srgb,
-        var(--color-brand-purple) 28%,
+        var(--color-brand) 28%,
         transparent
       );
       justify-self: center;
@@ -70,14 +70,14 @@
     font-size: clamp(1.125rem, 2.5vw, 1.5rem);
     font-weight: 700;
     line-height: 1.3;
-    color: var(--color-brand-purple);
+    color: var(--color-brand);
   }
 
   &__meta {
     margin: 0;
     font-size: 0.9375rem;
     line-height: 1.5;
-    color: var(--color-gray-700);
+    color: var(--color-text);
   }
 
   &__meta-sep {
@@ -102,10 +102,10 @@
   width: 100%;
   margin: 0 0 $fluid-space-xl;
   padding: $fluid-space-xl;
-  background-color: var(--color-white);
+  background-color: var(--color-surface);
   border: 1px solid color-mix(
     in srgb,
-    var(--color-brand-purple) 10%,
+    var(--color-brand) 10%,
     transparent
   );
   border-radius: $radius-lg;
@@ -145,7 +145,7 @@
     font-weight: 700;
     letter-spacing: 0.14em;
     text-transform: uppercase;
-    color: var(--color-brand-medium-purple);
+    color: var(--color-brand-outline);
   }
 
   &__title {
@@ -154,14 +154,14 @@
     font-size: clamp(1.375rem, 3vw, 2rem);
     font-weight: 700;
     line-height: 1.25;
-    color: var(--color-brand-purple);
+    color: var(--color-brand);
   }
 
   &__excerpt {
     margin: 0;
     font-size: 1rem;
     line-height: 1.6;
-    color: var(--color-gray-700);
+    color: var(--color-text);
 
     @media (min-width: $breakpoint-lg) {
       font-size: 1.0625rem;
@@ -180,7 +180,7 @@
       width: 1px;
       align-self: stretch;
       min-height: 100%;
-      background-color: var(--color-gray-200);
+      background-color: var(--color-border);
     }
   }
 
@@ -199,7 +199,7 @@
     gap: 1rem;
     align-items: flex-start;
     padding-top: $fluid-space-lg;
-    border-top: 1px solid var(--color-gray-200);
+    border-top: 1px solid var(--color-border);
 
     @media (min-width: $breakpoint-md) {
       flex-direction: row;
@@ -213,7 +213,7 @@
     margin: 0;
     font-size: 1rem;
     line-height: 1.5;
-    color: var(--color-gray-700);
+    color: var(--color-text);
   }
 
   &__cta-actions {

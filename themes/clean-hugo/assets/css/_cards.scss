@@ -178,7 +178,7 @@
         font-weight: 800;
         line-height: 1.25;
         max-width: 32rem;
-        color: var(--color-gray-900);
+        color: var(--color-text-strong);
         margin-top: 0;
         margin-bottom: 0;
         @media (min-width: $breakpoint-md) {
@@ -251,23 +251,23 @@
   }
 
   .card__label--accent {
-    background-color: var(--color-admonition-success, var(--color-primary));
-    color: var(--color-white);
+    background-color: var(--color-cta, var(--color-action));
+    color: var(--color-text-on-dark);
   }
 
   .card__label--team {
-    background-color: var(--color-brand-light-purple);
-    color: var(--color-brand-purple);
+    background-color: var(--color-section-light-bg);
+    color: var(--color-brand);
   }
 
   .card__label--stipend {
-    background-color: var(--color-secondary);
-    color: var(--color-gray-900);
+    background-color: var(--color-highlight);
+    color: var(--color-text-strong);
   }
 
   .card__label--default {
-    background-color: var(--color-gray-200);
-    color: var(--color-gray-700);
+    background-color: var(--color-border);
+    color: var(--color-text);
   }
 
   .card__tags {
@@ -287,8 +287,8 @@
     padding: 0.25rem 0.55rem;
     border-radius: $radius-full;
     line-height: 1.2;
-    background-color: var(--color-gray-200);
-    color: var(--color-gray-700);
+    background-color: var(--color-border);
+    color: var(--color-text);
   }
 
   .card {
@@ -345,7 +345,7 @@
       }
 
       strong {
-        color: var(--color-gray-900);
+        color: var(--color-text-strong);
         font-weight: 600;
       }
     }
@@ -353,31 +353,31 @@
 
   /* Highlight card - can also use bg-primary utility */
   .card--highlight {
-    background-color: var(--color-primary-light);
+    background-color: var(--color-action-light);
     transition: background-color $transition-base ease-in-out;
   }
 
   /* White card variant - plain white background */
   .card--white {
-    background-color: var(--color-white);
+    background-color: var(--color-surface);
   }
 
   /* Stipended volunteer roles — light green fill (after .card base white) */
   .card--stipend {
-    border-color: var(--color-admonition-success);
+    border-color: var(--color-cta);
     background-color: color-mix(
       in srgb,
-      var(--color-admonition-success) 35%,
-      var(--color-white)
+      var(--color-cta) 35%,
+      var(--color-surface)
     );
   }
 
   .card--featured {
-    border-color: var(--color-secondary);
+    border-color: var(--color-highlight);
     background-color: color-mix(
       in srgb,
-      var(--color-secondary) 18%,
-      var(--color-white)
+      var(--color-highlight) 18%,
+      var(--color-surface)
     );
   }
 
@@ -399,7 +399,7 @@
 
     /* Default card CTA is outline — white fill reads on tinted card backgrounds */
     &.btn--outline {
-      background-color: var(--color-white);
+      background-color: var(--color-surface);
     }
   }
 
@@ -418,14 +418,14 @@
     height: 100%;
     border-radius: $radius-md;
     overflow: hidden;
-    background-color: var(--color-white);
+    background-color: var(--color-surface);
     box-shadow: $shadow-sm;
     transition: box-shadow $transition-base ease-in-out, transform $transition-base ease-in-out;
     text-decoration: none;
 
     &:focus {
       outline: none;
-      box-shadow: 0 0 0 2px var(--color-white), 0 0 0 4px var(--color-primary);
+      box-shadow: 0 0 0 2px var(--color-surface), 0 0 0 4px var(--color-action);
     }
 
     &:hover {
@@ -471,8 +471,8 @@
       text-transform: uppercase;
       display: block;
       margin-bottom: 0.5rem;
-      color: var(--color-brand-purple);
-      background: color-mix(in srgb, var(--color-soft-purple) 45%, transparent);
+      color: var(--color-brand);
+      background: color-mix(in srgb, var(--color-brand-tint) 45%, transparent);
       align-self: flex-start;
       padding: 0.2rem 0.55rem;
       border-radius: $radius-full;
@@ -483,26 +483,26 @@
       font-weight: 600;
       line-height: 1.25;
       text-align: left;
-      color: var(--color-gray-900);
+      color: var(--color-text-strong);
       margin-top: 0;
       margin-bottom: 0;
     }
 
     time {
       font-size: 0.75rem;
-      color: var(--color-gray-600);
+      color: var(--color-text-muted);
     }
 
     .card--blog__author {
       font-size: 0.875rem;
-      color: var(--color-gray-700);
+      color: var(--color-text);
       margin-bottom: 0;
     }
 
     .card--blog__excerpt {
       font-size: 1rem;
       line-height: 1.625;
-      color: var(--color-gray-700);
+      color: var(--color-text);
       margin-bottom: 0;
     }
   }
@@ -540,17 +540,17 @@
     z-index: 1;
     background: linear-gradient(
       to top,
-      color-mix(in srgb, var(--color-brand-purple) 92%, transparent) 0%,
-      color-mix(in srgb, var(--color-brand-purple) 50%, transparent) 42%,
-      color-mix(in srgb, var(--color-brand-purple) 15%, transparent) 100%
+      color-mix(in srgb, var(--color-brand) 92%, transparent) 0%,
+      color-mix(in srgb, var(--color-brand) 50%, transparent) 42%,
+      color-mix(in srgb, var(--color-brand) 15%, transparent) 100%
     );
   }
 
   @each $index, $color in (
-    0: var(--color-brand-magenta),
-    1: var(--color-brand-header-purple),
-    2: var(--color-soft-purple),
-    3: var(--color-brand-medium-purple)
+    0: var(--color-blog-placeholder-1),
+    1: var(--color-blog-placeholder-2),
+    2: var(--color-brand-tint),
+    3: var(--color-brand-outline)
   ) {
     .card--blog__media-fallback--#{$index} {
       background-color: #{$color};
@@ -558,10 +558,10 @@
   }
 
   .card--blog__image-placeholder {
-    &.card--blog__media-fallback--0 { background-color: var(--color-brand-magenta); }
-    &.card--blog__media-fallback--1 { background-color: var(--color-brand-header-purple); }
-    &.card--blog__media-fallback--2 { background-color: var(--color-soft-purple); }
-    &.card--blog__media-fallback--3 { background-color: var(--color-brand-medium-purple); }
+    &.card--blog__media-fallback--0 { background-color: var(--color-blog-placeholder-1); }
+    &.card--blog__media-fallback--1 { background-color: var(--color-blog-placeholder-2); }
+    &.card--blog__media-fallback--2 { background-color: var(--color-brand-tint); }
+    &.card--blog__media-fallback--3 { background-color: var(--color-brand-outline); }
   }
 
   .card--blog__media-text {
@@ -574,7 +574,7 @@
       font-size: 1.25rem;
       font-weight: 600;
       line-height: 1.25;
-      color: var(--color-white);
+      color: var(--color-text-on-dark);
     }
 
     time {
@@ -599,8 +599,8 @@
     font-weight: 600;
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    color: var(--color-brand-purple);
-    background: color-mix(in srgb, var(--color-soft-purple) 45%, transparent);
+    color: var(--color-brand);
+    background: color-mix(in srgb, var(--color-brand-tint) 45%, transparent);
   }
 
   .card--blog__excerpt {
@@ -608,7 +608,7 @@
     margin: 0;
     font-size: 0.875rem;
     line-height: 1.5;
-    color: var(--color-gray-700);
+    color: var(--color-text);
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
@@ -679,7 +679,7 @@
 
 /* Shared listing cards used by blog/event archive grids */
 .listing-card {
-  @include card-surface($radius-md, 1px solid var(--color-gray-200), $shadow-sm, var(--color-white));
+  @include card-surface($radius-md, 1px solid var(--color-border), $shadow-sm, var(--color-surface));
   padding: map-get($listing-card-default, padding);
   display: flex;
   flex-direction: column;
@@ -696,7 +696,7 @@
     gap: map-get($listing-card-default, meta-gap);
     margin-bottom: 1rem;
     font-size: map-get($listing-card-default, meta-font-size);
-    color: var(--color-gray-600);
+    color: var(--color-text-muted);
 
     time {
       font-weight: 500;
@@ -724,7 +724,7 @@
     margin-bottom: 0.75rem;
     font-size: map-get($listing-card-default, title-font-size);
     line-height: map-get($listing-card-default, title-line-height);
-    color: var(--color-gray-900);
+    color: var(--color-text-strong);
 
     a {
       color: inherit;
@@ -738,7 +738,7 @@
       }
 
       &:hover {
-        color: var(--color-primary);
+        color: var(--color-action);
       }
     }
   }
@@ -747,7 +747,7 @@
     line-height: map-get($listing-card-default, excerpt-line-height);
     margin-bottom: 1rem;
     font-size: map-get($listing-card-default, excerpt-font-size);
-    color: var(--color-gray-700);
+    color: var(--color-text);
   }
 
   .read-more {
@@ -845,13 +845,13 @@
 }
 
 .listing-card--blog-archive {
-  background-color: var(--color-white);
-  border: 1px solid color-mix(in srgb, var(--color-brand-purple) 10%, transparent);
-  box-shadow: 0 2px 6px color-mix(in srgb, var(--color-brand-purple) 6%, transparent);
+  background-color: var(--color-surface);
+  border: 1px solid color-mix(in srgb, var(--color-brand) 10%, transparent);
+  box-shadow: 0 2px 6px color-mix(in srgb, var(--color-brand) 6%, transparent);
 
   &:hover {
-    background-color: var(--color-white);
-    box-shadow: 0 4px 12px color-mix(in srgb, var(--color-brand-purple) 10%, transparent);
+    background-color: var(--color-surface);
+    box-shadow: 0 4px 12px color-mix(in srgb, var(--color-brand) 10%, transparent);
   }
 
   .meta {
@@ -870,57 +870,57 @@
     font-weight: 600;
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    background-color: color-mix(in srgb, var(--color-soft-purple) 50%, transparent);
-    color: var(--color-brand-purple);
+    background-color: color-mix(in srgb, var(--color-brand-tint) 50%, transparent);
+    color: var(--color-brand);
   }
 
   h3 a {
-    color: var(--color-brand-purple);
+    color: var(--color-brand);
     text-decoration: underline;
-    text-decoration-color: color-mix(in srgb, var(--color-brand-purple) 35%, transparent);
+    text-decoration-color: color-mix(in srgb, var(--color-brand) 35%, transparent);
     text-underline-offset: 0.15em;
 
     &:hover,
     &:focus {
-      color: var(--color-brand-purple-dark);
+      color: var(--color-brand-hover);
       text-decoration-color: currentColor;
     }
   }
 
   .read-more {
-    color: var(--color-brand-purple);
+    color: var(--color-brand);
     text-decoration: underline;
-    text-decoration-color: color-mix(in srgb, var(--color-brand-purple) 35%, transparent);
+    text-decoration-color: color-mix(in srgb, var(--color-brand) 35%, transparent);
     text-underline-offset: 0.15em;
 
     &:hover,
     &:focus {
-      color: var(--color-brand-purple-dark);
+      color: var(--color-brand-hover);
       text-decoration-color: currentColor;
     }
   }
 }
 
 .listing-card--on-light {
-  background-color: color-mix(in srgb, var(--color-primary-light) 60%, white 40%);
-  border-color: var(--color-gray-200);
+  background-color: color-mix(in srgb, var(--color-action-light) 60%, white 40%);
+  border-color: var(--color-border);
 
   &:hover {
-    background-color: color-mix(in srgb, white 60%, var(--color-primary-light) 40%);
+    background-color: color-mix(in srgb, white 60%, var(--color-action-light) 40%);
   }
 
   .category {
-    background-color: var(--color-primary-light);
-    color: var(--color-primary-dark);
+    background-color: var(--color-action-light);
+    color: var(--color-action-dark);
   }
 }
 
 .listing-card--on-dark {
-  background-color: var(--color-gray-900);
-  border-color: var(--color-gray-700);
+  background-color: var(--color-text-strong);
+  border-color: var(--color-text);
 
   .meta {
-    color: var(--color-gray-200);
+    color: var(--color-border);
   }
 
   .category {
@@ -937,15 +937,15 @@
   }
 
   h3 {
-    color: var(--color-white);
+    color: var(--color-text-on-dark);
 
     a:hover {
-      color: var(--color-primary-light);
+      color: var(--color-action-light);
     }
   }
 
   .excerpt {
-    color: var(--color-gray-200);
+    color: var(--color-border);
   }
 
   .read-more {
@@ -953,7 +953,7 @@
 
     &:hover,
     &:focus {
-      color: var(--color-primary-light);
+      color: var(--color-action-light);
     }
   }
 }

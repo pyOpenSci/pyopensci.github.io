@@ -3,7 +3,7 @@
   position: relative;
   padding: $spacing-xl 0;
   margin-bottom: $spacing-lg;
-  background-color: var(--color-brand-purple);
+  background-color: var(--color-brand);
 
   @media (min-width: $breakpoint-md) {
     padding: $spacing-xl 0;
@@ -11,7 +11,7 @@
 
   > .container h1 {
     margin: 0;
-    color: var(--color-white);
+    color: var(--color-text-on-dark);
     font-weight: 700;
     line-height: 1.1;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
@@ -31,7 +31,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: var(--color-brand-purple);
+    background-color: var(--color-brand);
 
     @media (min-width: $breakpoint-md) {
       min-height: 13rem;
@@ -55,9 +55,9 @@
 /* Blog grid page */
 .blog-index {
   .filter-btn[aria-pressed="true"] {
-    background-color: var(--color-brand-purple);
-    border-color: var(--color-brand-purple);
-    color: var(--color-white);
+    background-color: var(--color-brand);
+    border-color: var(--color-brand);
+    color: var(--color-text-on-dark);
   }
 }
 
@@ -182,7 +182,7 @@
     p {
       font-size: 1rem;
       margin: 0;
-      color: var(--color-gray-200);
+      color: var(--color-border);
     }
   }
 
@@ -218,7 +218,7 @@
   font-size: 1rem;
   font-style: italic;
   font-weight: 400;
-  color: var(--color-gray-700);
+  color: var(--color-text);
 }
 
 .blog-post__excerpt {
@@ -231,7 +231,7 @@
   p {
     font-size: 1.25rem;
     line-height: 1.625;
-    color: var(--color-gray-700);
+    color: var(--color-text);
   }
 }
 
@@ -262,14 +262,14 @@
   padding: 0 $fluid-container-padding-lg;
   margin-top: 3rem;
   font-size: 0.875rem;
-  color: var(--color-gray-600);
+  color: var(--color-text-muted);
 
   a {
     transition: color 200ms;
     color: inherit;
 
     &:hover {
-      color: var(--color-gray-900);
+      color: var(--color-text-strong);
     }
   }
 }
@@ -320,7 +320,7 @@ $blog-toc-gap: 2rem;
     position: sticky;
     top: 2rem;
     padding-right: $blog-toc-gap;
-    border-right: 1px solid var(--color-primary-light);
+    border-right: 1px solid var(--color-action-light);
   }
 }
 
@@ -330,7 +330,7 @@ $blog-toc-gap: 2rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.04em;
-  color: var(--color-gray-700);
+  color: var(--color-text);
   margin: 0 0 0.75rem;
 }
 
@@ -360,7 +360,7 @@ $blog-toc-gap: 2rem;
 .blog-highlight {
   width: 100%;
   padding: $spacing-section-lg 0 6rem;
-  background-color: var(--color-deep-purple);
+  background-color: var(--color-section-dark-bg);
 
   .container {
     @include container($container-max-width, 1.5rem, 2rem);
@@ -378,7 +378,7 @@ $blog-toc-gap: 2rem;
       @include responsive(font-size, 2.25rem, 3rem);
       font-weight: 600;
       letter-spacing: -0.025em;
-      color: var(--color-white);
+      color: var(--color-text-on-dark);
     }
   }
 
@@ -405,8 +405,8 @@ $blog-toc-gap: 2rem;
 
   /* Cards still use listing-card--on-dark; match section band until card tokens land */
   .listing-card--on-dark {
-    background-color: var(--color-deep-purple);
-    border-color: color-mix(in srgb, var(--color-white) 18%, transparent);
+    background-color: var(--color-section-dark-bg);
+    border-color: color-mix(in srgb, var(--color-text-on-dark) 18%, transparent);
   }
 }
 
@@ -417,13 +417,13 @@ $blog-toc-gap: 2rem;
   margin: 3rem calc(50% - 50vw);
   padding: 2.5rem clamp(1rem, 4vw, 2rem);
   box-sizing: border-box;
-  background-color: color-mix(in srgb, var(--color-soft-purple) 35%, transparent);
+  background-color: color-mix(in srgb, var(--color-brand-tint) 35%, transparent);
 
   > .container > div:first-child {
     margin-bottom: 1.5rem;
 
     h2 {
-      color: var(--color-brand-purple);
+      color: var(--color-brand);
     }
   }
 }

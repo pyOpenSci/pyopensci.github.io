@@ -9,13 +9,13 @@
   @include responsive(font-size, 2rem, 2.5rem, 3rem);
   font-weight: 800;
   margin-bottom: 1rem;
-  color: var(--color-brand-purple);
+  color: var(--color-brand);
 }
 
 .filterable-grid-body {
   font-size: 1rem;
   line-height: 1.625;
-  color: var(--color-gray-700);
+  color: var(--color-text);
   @media (min-width: $breakpoint-lg) {
     font-size: 1.25rem;
   }
@@ -34,21 +34,21 @@
   border-radius: $radius-full;
   font-size: 0.875rem;
   font-weight: 500;
-  border: 1px solid var(--color-gray-200);
-  background-color: var(--color-white);
-  color: var(--color-gray-700);
+  border: 1px solid var(--color-border);
+  background-color: var(--color-surface);
+  color: var(--color-text);
   cursor: pointer;
   transition: all $transition-base;
 
   &[aria-pressed="true"] {
-    background-color: var(--color-primary);
-    border-color: var(--color-primary);
+    background-color: var(--color-action);
+    border-color: var(--color-action);
     color: white;
   }
 
   &[aria-pressed="false"]:hover {
-    background-color: var(--color-gray-50);
-    border-color: var(--color-gray-600);
+    background-color: var(--color-page-bg);
+    border-color: var(--color-text-muted);
   }
 
   &:focus {

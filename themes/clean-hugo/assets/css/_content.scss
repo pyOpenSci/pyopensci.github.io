@@ -12,7 +12,7 @@
   margin: 0 auto;
   font-size: 1rem;
   line-height: 1.625;
-  color: var(--color-gray-700);
+  color: var(--color-text);
 
 /* Content links — exclude buttons (variant colors live in _buttons.scss) */
 .content-main a:not(.btn),
@@ -63,7 +63,7 @@
   @include responsive(font-size, 2rem, 2.5rem, 3rem);
   font-weight: 800;
   margin-bottom: 1rem;
-  color: var(--color-brand-purple);
+  color: var(--color-brand);
 }
 
 .content-body {
@@ -82,7 +82,7 @@
     font-size: 2rem;
     font-weight: 800;
     margin-bottom: 1rem;
-    color: var(--color-brand-purple);
+    color: var(--color-brand);
     @media (min-width: $breakpoint-md) {
       font-size: 2.5rem;
     }
@@ -94,7 +94,7 @@
     font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: 1rem;
-    color: var(--color-brand-purple);
+    color: var(--color-brand);
     @media (min-width: $breakpoint-md) {
       font-size: 1.875rem;
     }
@@ -116,7 +116,7 @@
   p {
     font-size: 1.125rem;
     line-height: 1.625;
-    color: var(--color-gray-700);
+    color: var(--color-text);
     margin-bottom: 1rem;
     @media (min-width: $breakpoint-md) {
       font-size: 1.25rem;
@@ -126,7 +126,7 @@
 
 .content-date {
   margin-bottom: 2rem;
-  color: var(--color-gray-600);
+  color: var(--color-text-muted);
 }
 
 // Headings left aligned for all content
@@ -229,7 +229,7 @@
 .splash-page__content p {
   margin-bottom: 1rem;
   line-height: 1.625;
-  color: var(--color-gray-700);
+  color: var(--color-text);
 }
 
 /* Section styles for list pages */
@@ -252,7 +252,7 @@
     font-size: 1.125rem;
     font-weight: 500;
     transition: color 0.2s;
-    color: var(--color-gray-900);
+    color: var(--color-text-strong);
 
     &:hover,
     &:focus {
@@ -264,7 +264,7 @@
 
 .section-item__meta {
   font-size: 0.875rem;
-  color: var(--color-gray-600);
+  color: var(--color-text-muted);
 }
 
 /* Term/taxonomy listing styles */
@@ -278,7 +278,7 @@
   a {
     font-size: 1.125rem;
     transition: color 0.2s;
-    color: var(--color-gray-900);
+    color: var(--color-text-strong);
 
     &:hover,
     &:focus {
@@ -289,13 +289,13 @@
 
 .term-count {
   font-size: 0.875rem;
-  color: var(--color-gray-700);
+  color: var(--color-text);
 }
 
 .term-description {
   font-size: 0.875rem;
   margin-bottom: 1.5rem;
-  color: var(--color-gray-600);
+  color: var(--color-text-muted);
 }
 
 /* Last modified date footer */
@@ -303,21 +303,21 @@
   margin: 3rem .5rem .5rem .5rem;
   padding-top: 2rem;
   border-top: 1px solid;
-  border-color: var(--color-gray-200);
+  border-color: var(--color-border);
   font-style: italic;
 
   p {
     font-size: 0.875rem;
     margin-bottom: 0;
-    color: var(--color-gray-600);
+    color: var(--color-text-muted);
 
     strong {
       font-weight: 600;
-      color: var(--color-gray-700);
+      color: var(--color-text);
     }
 
     time {
-      color: var(--color-gray-600);
+      color: var(--color-text-muted);
     }
   }
 }

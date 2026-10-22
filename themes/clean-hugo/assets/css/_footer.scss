@@ -6,7 +6,7 @@
   font-family: $font-family-heading;
   font-size: 0.85rem;
   line-height: 1.3rem;
-  background-color: color-mix(in srgb, var(--color-brand-purple) 92%, black);
+  background-color: color-mix(in srgb, var(--color-brand) 92%, black);
 
   &__inner {
     display: flex;
@@ -50,13 +50,13 @@
 
     i {
       font-size: 1.75rem;
-      color: color-mix(in srgb, var(--color-white) 42%, var(--color-soft-purple));
+      color: color-mix(in srgb, var(--color-text-on-dark) 42%, var(--color-brand-tint));
       transition: color $transition-base;
     }
 
     &:hover i,
     &:focus-visible i {
-      color: color-mix(in srgb, var(--color-white) 92%, var(--color-light-purple));
+      color: color-mix(in srgb, var(--color-text-on-dark) 92%, var(--color-section-light-bg));
     }
 
     &[data-tooltip]::after {
@@ -71,8 +71,8 @@
       font-weight: 600;
       line-height: 1.2;
       white-space: nowrap;
-      color: var(--color-white);
-      background-color: color-mix(in srgb, var(--color-brand-purple) 75%, black);
+      color: var(--color-text-on-dark);
+      background-color: color-mix(in srgb, var(--color-brand) 75%, black);
       border-radius: $radius-sm;
       opacity: 0;
       pointer-events: none;
@@ -85,7 +85,7 @@
     }
 
     &:focus-visible {
-      outline: 2px solid var(--color-white);
+      outline: 2px solid var(--color-text-on-dark);
       outline-offset: 2px;
     }
   }
@@ -114,7 +114,7 @@
     text-decoration: none;
 
     &:hover {
-      color: var(--color-white);
+      color: var(--color-text-on-dark);
       text-decoration: underline;
     }
   }

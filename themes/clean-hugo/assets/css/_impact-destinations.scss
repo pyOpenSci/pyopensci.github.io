@@ -3,8 +3,8 @@
 .impact-destinations {
   width: 100%;
   padding: $fluid-space-2xl $fluid-container-padding;
-  background-color: var(--color-deep-purple);
-  color: var(--color-white);
+  background-color: var(--color-section-dark-bg);
+  color: var(--color-text-on-dark);
   box-sizing: border-box;
 
   &__container {
@@ -31,7 +31,7 @@
       margin: 0;
       font-size: 1.0625rem;
       line-height: 1.6;
-      color: var(--color-white);
+      color: var(--color-text-on-dark);
     }
   }
 
@@ -40,7 +40,7 @@
     font-size: clamp(1.75rem, 4vw, 2.5rem);
     font-weight: 700;
     line-height: 1.2;
-    color: var(--color-white);
+    color: var(--color-text-on-dark);
   }
 
   &__grid {
@@ -65,11 +65,11 @@
     border-radius: $radius-lg;
     border: 1px solid color-mix(
       in srgb,
-      var(--color-brand-medium-purple) 35%,
+      var(--color-brand-outline) 35%,
       transparent
     );
     background-color: var(--color-surface-footer-purple);
-    color: var(--color-white);
+    color: var(--color-text-on-dark);
     text-decoration: none;
     transition: border-color $transition-base ease,
       transform $transition-base ease;
@@ -94,7 +94,7 @@
     &:focus-visible {
       border-color: color-mix(
         in srgb,
-        var(--color-admonition-success) 55%,
+        var(--color-cta) 55%,
         transparent
       );
       transform: translateY(-2px);
@@ -105,7 +105,7 @@
       margin: 0;
       font-size: 0.9375rem;
       line-height: 1.5;
-      color: color-mix(in srgb, var(--color-white) 90%, transparent);
+      color: color-mix(in srgb, var(--color-text-on-dark) 90%, transparent);
     }
   }
 
@@ -130,6 +130,6 @@
     font-size: 1.0625rem;
     font-weight: 700;
     line-height: 1.3;
-    color: var(--color-white);
+    color: var(--color-text-on-dark);
   }
 }
