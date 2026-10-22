@@ -17,10 +17,10 @@
   }
 }
 
-.site-nav__brand {
+a.site-nav__brand {
   font-size: 1.5rem;
   font-weight: 700;
-  color: var(--color-white);
+  color: var(--color-nav-text, var(--color-white));
   text-decoration: none;
 
   &:hover {
@@ -161,13 +161,14 @@
   }
 }
 
+a.site-nav__link,
 .site-nav__link {
   padding: 0.5rem 1rem;
   font-size: 1.125rem;
   font-weight: 500;
   transition: color 0.2s;
   display: block;
-  color: var(--color-white);
+  color: var(--color-nav-text, var(--color-white));
   text-decoration: none;
 
   &:hover {
