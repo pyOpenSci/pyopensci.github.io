@@ -3,7 +3,7 @@
     width: 100%;
     padding: 6rem 0;
     margin: 3rem 0 5rem;
-    background-color: color-mix(in srgb, var(--color-primary) 8%, var(--color-gray-50));
+    background-color: color-mix(in srgb, var(--color-action) 8%, var(--color-page-bg));
 
     /* Grid container */
     > div {
@@ -24,7 +24,7 @@
         text-align: center;
         @include responsive(font-size, 1rem, 1.125rem);
         line-height: 1.625;
-        color: var(--color-gray-700);
+        color: var(--color-text);
 
         /* Numbers */
         strong {
@@ -33,7 +33,7 @@
           @include responsive(margin-bottom, 0.5rem, 0.75rem);
           font-weight: 900;
           line-height: 1.25;
-          color: var(--color-gray-900);
+          color: var(--color-text-strong);
           letter-spacing: -0.02em;
         }
       }
@@ -63,7 +63,7 @@
   /* Two Card Row */
   .two-card-row {
     padding: 1.5rem 0;
-    background-color: var(--color-gray-50);
+    background-color: var(--color-page-bg);
   }
 
   .two-card-row__container {
@@ -77,7 +77,7 @@
   /* Three Card Row */
   .three-card-row {
     padding: 1.5rem 0;
-    background-color: var(--color-gray-50);
+    background-color: var(--color-page-bg);
   }
 
   .three-card-row__container {
@@ -96,7 +96,7 @@
     box-shadow: $card-shadow;
     @include responsive-padding(1.5rem, 1.5rem, 2.5rem, 2.5rem);
     height: 100%;
-    background-color: var(--color-white);
+    background-color: var(--color-surface);
     @include card-hover($lift: -4px, $shadow: $card-shadow-hover);
 
     @media (min-width: $breakpoint-md) {
@@ -122,7 +122,7 @@
       font-weight: 800;
       line-height: 1.3;
       margin-bottom: 1.5rem;
-      color: var(--color-gray-900);
+      color: var(--color-text-strong);
     }
 
     div div:last-child {
@@ -152,7 +152,7 @@
       }
 
       strong {
-        color: var(--color-gray-900);
+        color: var(--color-text-strong);
         font-weight: 600;
       }
     }
@@ -162,14 +162,14 @@
   .single-card-wide {
     padding: 2rem 0 4rem;
     margin: 2.5rem 0 4rem;
-    background-color: var(--color-gray-50);
+    background-color: var(--color-page-bg);
 
     .container > div {
       border-radius: $card-border-radius;
       border: $card-border;
       box-shadow: $card-shadow;
       @include responsive-padding(1.5rem, 1.5rem, 2.5rem, 2.5rem);
-      background-color: color-mix(in srgb, var(--color-primary-dark) 12%, var(--color-primary-light));
+      background-color: color-mix(in srgb, var(--color-action-dark) 12%, var(--color-action-light));
       @include card-hover($lift: -4px, $shadow: $card-shadow-hover);
     }
 
@@ -186,7 +186,7 @@
       font-size: $card-heading-size;
       font-weight: 800;
       margin-bottom: 1.5rem;
-      color: var(--color-gray-900);
+      color: var(--color-text-strong);
     }
 
     .single-card-wide__body,
@@ -225,7 +225,7 @@
       }
 
       strong {
-        color: var(--color-gray-900);
+        color: var(--color-text-strong);
         font-weight: 600;
       }
     }
@@ -272,7 +272,7 @@
     @include responsive(font-size, 2.25rem, 3rem, 3.75rem);
     font-weight: 700;
     margin-bottom: 1rem;
-    color: var(--color-brand-purple);
+    color: var(--color-brand);
 
     @media (min-width: $breakpoint-xl) {
       font-size: 4.5rem;
@@ -283,7 +283,7 @@
     text-align: center;
     @include responsive(font-size, 1.125rem, 1.25rem);
     opacity: 0.8;
-    color: var(--color-gray-600);
+    color: var(--color-text-muted);
 
     p:last-child {
       margin-bottom: 0;
@@ -294,7 +294,7 @@
     margin-top: 0.75rem;
     text-align: center;
     @include responsive(font-size, 1.125rem, 1.25rem);
-    color: var(--color-gray-600);
+    color: var(--color-text-muted);
 
     ul {
       margin: 0;
@@ -340,5 +340,5 @@
     font-weight: 700;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: var(--color-primary);
+    color: var(--color-action);
   }

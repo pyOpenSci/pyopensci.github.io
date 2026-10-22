@@ -92,49 +92,89 @@ buildFuture = true
     body = 'Nunito Sans'
 
   [params.theme.colors]
-    primary = '#2E6060'
-    primaryDark = '#142929'
-    primaryLight = '#D6E3E3'
-    secondary = '#F1E0A6'
-    accent = '#42213D'
-    accentLight = '#E4B8C6'
-    neutral = '#395E66'
-    white = '#FFFFFF'
-    gray50 = '#F9FAFB'
-    gray200 = '#E5E7EB'
-    gray600 = '#4B5563'
-    gray700 = '#374151'
-    gray900 = '#111827'
-    link = '#2E6060'
-    linkOnDark = '#2DD4BF'
-    linkHover = '#1F4345'
-    featureCard = '#EBC1D3'
-    'heroBg' = '#33205C'
-    brandPurple = '#33205C'
-    deepPurple = '#19112D'
-    brandPurpleDark = '#542668'
-    brandPurpleMedium = '#735FAB'
-    brandSoftPurple = '#BAB3D4'
-    brandLightPurple = '#E1DFED'
-    brandMagenta = '#BB82B0'
-    brandHeaderPurple = '#6B5B95'
-    'admonition-info' = '#53354F'
-    'admonition-success' = '#71B3B5'
-    'admonition-warning' = '#E4B8C6'
-    'admonition-danger' = '#F1E0A6'
-    'admonition-note' = '#CAE4E4'
+    # Brand: nav, footer, h1/h2, main button. textOnDark sits on it.
+    brand = '#33205C'
+    # Main button when hovered.
+    brandHover = '#542668'
+    # Outline button borders, focus rings, How it works icons. No text on it.
+    brandOutline = '#735FAB'
+    # Tag chips, table headers, section dividers. Brand-colored text on it.
+    brandTint = '#BAB3D4'
 
-    # Event cards on /events/ (event_type: training | sprint | community | talk)
-    eventLabelTrainingBg = '#D6E3E3'
-    eventLabelTrainingFg = '#142929'
-    eventLabelSprintBg = '#E4B8C6'
-    eventLabelSprintFg = '#111827'
-    eventLabelCommunityBg = '#F1E0A6'
-    eventLabelCommunityFg = '#111827'
-    eventLabelTalkBg = '#CAE4E4'
-    eventLabelTalkFg = '#142929'
-    eventDateBadgeBg = '#42213D'
-    eventDateBadgeFg = '#FFFFFF'
+    # Section backgrounds: full-width bands on landing pages.
+    # Light bands (Partners, Learn, Volunteer). Dark text on it.
+    sectionLightBg = '#E1DFED'
+    # Dark bands (blog Keep reading, How it works). textOnDark on it.
+    sectionDarkBg = '#19112D'
+    # heroBg is unset. The banner uses brand unless a site sets heroBg.
+
+    # Action: teal for filters, focus rings, and links. Separate from brand.
+    # Selected filter button. textOnDark sits on it. Links use this unless link is set.
+    action = '#2E6060'
+    # Text and thin borders on actionLight. Package card top border.
+    actionDark = '#142929'
+    # Packages header, People page band, training box. Dark text on it.
+    actionLight = '#D6E3E3'
+
+    # Small highlights. Not brand or action.
+    # Search highlights, stipend label, featured card border. textStrong on it.
+    highlight = '#F1E0A6'
+    # Icons, pull quotes, event date badge. textOnDark on the date badge.
+    accent = '#42213D'
+    # Training star, magenta quotes, sprint pills. textStrong on it.
+    accentLight = '#E4B8C6'
+    # Green Donate button and the green button style. textStrong on it.
+    cta = '#71B3B5'
+
+    # Text and surfaces.
+    # Page background. Body text sits on it.
+    pageBg = '#F9FAFB'
+    # Card, dropdown, and white-button backgrounds.
+    surface = '#FFFFFF'
+    # Text on brand, the hero, and dark bands.
+    textOnDark = '#FFFFFF'
+    # Card borders, dividers, inactive filter chips.
+    border = '#E5E7EB'
+    # Dates, captions, and other small meta text.
+    textMuted = '#4B5563'
+    # Paragraphs and lists.
+    text = '#374151'
+    # Bold text, card titles, and text on yellow, pink, and green.
+    textStrong = '#111827'
+
+    # Links. link is unset and uses action.
+    # Links when hovered.
+    linkHover = '#1F4345'
+    # Nav link hover, links in dark bands, search focus ring.
+    linkOnDark = '#2DD4BF'
+
+    # Callout boxes (admonition shortcode). Text inside is text.
+    calloutInfo = '#53354F'
+    calloutSuccess = '#71B3B5'
+    calloutWarning = '#E4B8C6'
+    calloutDanger = '#F1E0A6'
+    calloutNote = '#CAE4E4'
+
+    # Blog cards with no image. The title on the tile is textOnDark.
+    blogPlaceholder1 = '#BB82B0'
+    blogPlaceholder2 = '#6B5B95'
+
+    # Documentation page header when front matter color is neutral.
+    # No documentation pages yet. The class stays docs-header--neutral.
+    docsHeaderBg = '#395E66'
+
+    # Event pills on /events/. Commented out because each matches a color above.
+    # Uncomment a key to give that pill its own color.
+    # eventLabelTrainingBg = '#D6E3E3' # default: actionLight
+    # eventLabelTrainingFg = '#142929' # default: actionDark
+    # eventLabelSprintBg = '#E4B8C6' # default: accentLight
+    # eventLabelSprintFg = '#111827' # default: textStrong
+    # eventLabelCommunityBg = '#F1E0A6' # default: highlight
+    # eventLabelCommunityFg = '#111827' # default: textStrong
+    # eventLabelTalkBg = '#CAE4E4' # default: calloutNote
+    # eventLabelTalkFg = '#142929' # default: actionDark
+    # eventDateBadgeBg = '#42213D' # default: accent
+    # eventDateBadgeFg = '#FFFFFF' # default: textOnDark
 
 [params.nav_button]
   text = 'Donate'

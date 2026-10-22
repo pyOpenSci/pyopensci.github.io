@@ -13,12 +13,12 @@
   padding: 0;
   border: 1px solid color-mix(
     in srgb,
-    var(--color-white) 35%,
+    var(--color-text-on-dark) 35%,
     transparent
   );
   border-radius: $radius-sm;
   background-color: transparent;
-  color: var(--color-white);
+  color: var(--color-text-on-dark);
   cursor: pointer;
   transition: background-color $transition-base,
     color $transition-base;
@@ -26,7 +26,7 @@
   &:hover {
     background-color: color-mix(
       in srgb,
-      var(--color-white) 10%,
+      var(--color-text-on-dark) 10%,
       transparent
     );
     color: var(--color-link-on-dark);
@@ -35,7 +35,7 @@
   &:focus {
     outline: none;
     box-shadow: 0 0 0 2px var(--color-link-on-dark),
-      0 0 0 4px var(--color-brand-purple);
+      0 0 0 4px var(--color-brand);
   }
 
   @media (min-width: $breakpoint-md) {
@@ -56,7 +56,7 @@
   padding-top: 5rem;
   padding-bottom: 2rem;
   overflow-y: auto;
-  background-color: var(--color-white);
+  background-color: var(--color-surface);
 
   &.is--visible {
     display: block !important;
@@ -84,14 +84,14 @@ body.search-is-open {
 .search-content__title {
   margin: 0 0 0.5rem;
   font-size: 1.5rem;
-  color: var(--color-brand-purple);
+  color: var(--color-brand);
 }
 
 .search-content__subtitle {
   margin: 0;
   font-size: 1rem;
   line-height: 1.5;
-  color: var(--color-gray-700);
+  color: var(--color-text);
 }
 
 .search-content__close {
@@ -102,10 +102,10 @@ body.search-is-open {
   width: 2.5rem;
   height: 2.5rem;
   padding: 0;
-  border: 1px solid var(--color-gray-200);
+  border: 1px solid var(--color-border);
   border-radius: $radius-sm;
   background-color: transparent;
-  color: var(--color-gray-700);
+  color: var(--color-text);
   cursor: pointer;
 
   &:hover,
@@ -120,7 +120,7 @@ body.search-is-open {
 .search-loading {
   margin: 0 0 1rem;
   font-size: 1rem;
-  color: var(--color-gray-600);
+  color: var(--color-text-muted);
 }
 
 .search-content__inner-wrap {
@@ -145,12 +145,12 @@ body.search-is-open {
   width: 100%;
   box-sizing: border-box;
   padding: 0.75rem 2.75rem 0.75rem 2.75rem;
-  border: 1px solid var(--color-gray-200);
+  border: 1px solid var(--color-border);
   border-radius: $radius-md;
   font-family: $font-family-body;
   font-size: 1.125rem;
-  color: var(--color-gray-900);
-  background-color: var(--color-white);
+  color: var(--color-text-strong);
+  background-color: var(--color-surface);
 
   &:focus {
     outline: none;
@@ -172,7 +172,7 @@ body.search-is-open {
   padding: 0;
   border: 0;
   background: transparent;
-  color: var(--color-gray-600);
+  color: var(--color-text-muted);
   cursor: default;
   pointer-events: none;
 }
@@ -190,7 +190,7 @@ body.search-is-open {
   padding: 0;
   border: 0;
   background: transparent;
-  color: var(--color-gray-600);
+  color: var(--color-text-muted);
   cursor: pointer;
 
   &:hover,
@@ -228,7 +228,7 @@ body.search-is-open {
 
 .search-result-row {
   padding: 0.85rem 0 0.85rem 1rem;
-  border-bottom: 1px solid var(--color-gray-200);
+  border-bottom: 1px solid var(--color-border);
 }
 
 .search-result-row:last-child {
@@ -245,8 +245,8 @@ body.search-is-open {
   font-weight: 600;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  background-color: var(--color-gray-600);
-  color: var(--color-white);
+  background-color: var(--color-text-muted);
+  color: var(--color-text-on-dark);
   padding: 2px 6px;
   border-radius: $radius-sm;
 }
@@ -270,12 +270,12 @@ body.search-is-open {
   margin-top: 0.3rem;
   font-size: 0.85rem;
   line-height: 1.4;
-  color: var(--color-gray-700);
+  color: var(--color-text);
 }
 
 .search-result-snippet em,
 .search-result-title em {
-  background-color: var(--color-secondary);
+  background-color: var(--color-highlight);
   font-style: normal;
   padding: 0 2px;
   border-radius: 2px;

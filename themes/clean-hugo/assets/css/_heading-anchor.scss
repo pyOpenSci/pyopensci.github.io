@@ -11,7 +11,7 @@
   height: 1em;
   margin-left: $spacing-xs;
   vertical-align: middle;
-  color: var(--color-gray-600);
+  color: var(--color-text-muted);
   opacity: 0;
   text-decoration: none;
   transition: opacity $transition-fast ease, color $transition-fast ease;
@@ -55,8 +55,8 @@ h4:hover {
     bottom: calc(100% + 0.4rem);
     left: 50%;
     transform: translateX(-50%);
-    background-color: var(--color-gray-900);
-    color: var(--color-white);
+    background-color: var(--color-text-strong);
+    color: var(--color-text-on-dark);
     font-family: $font-family-body;
     font-size: 0.75rem;
     font-weight: 600;
@@ -74,7 +74,7 @@ h4:hover {
 .impact-destinations h2.impact-destinations__title,
 .get-involved--dark h2.get-involved__title {
   .heading-anchor {
-    color: var(--color-white);
+    color: var(--color-text-on-dark);
   }
 }
 

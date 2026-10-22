@@ -13,8 +13,8 @@
     align-items: center;
     padding: $fluid-card-padding-md;
     border-radius: $radius-xl;
-    background-color: color-mix(in srgb, var(--color-primary-light) 55%, var(--color-white));
-    border: 1px solid color-mix(in srgb, var(--color-primary-dark) 12%, transparent);
+    background-color: color-mix(in srgb, var(--color-action-light) 55%, var(--color-surface));
+    border: 1px solid color-mix(in srgb, var(--color-action-dark) 12%, transparent);
 
     @media (min-width: $breakpoint-md) {
       grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
@@ -33,7 +33,7 @@
     font-weight: 700;
     letter-spacing: 0.08em;
     text-transform: uppercase;
-    color: var(--color-primary-dark);
+    color: var(--color-action-dark);
   }
 
   &__badge {
@@ -45,8 +45,8 @@
     padding: 0.25rem 0.65rem;
     font-size: 0.8125rem;
     font-weight: 600;
-    color: var(--color-gray-700);
-    background-color: var(--color-gray-200);
+    color: var(--color-text);
+    background-color: var(--color-border);
     border-radius: $radius-full;
   }
 
@@ -55,14 +55,14 @@
     @include responsive(font-size, 1.5rem, 1.875rem, 2rem);
     font-weight: 700;
     line-height: 1.2;
-    color: var(--color-brand-purple);
+    color: var(--color-brand);
   }
 
   &__excerpt {
     margin: 0 0 1rem;
     @include responsive(font-size, 1rem, 1.0625rem);
     line-height: 1.55;
-    color: var(--color-gray-700);
+    color: var(--color-text);
 
     p {
       margin: 0 0 0.5rem;

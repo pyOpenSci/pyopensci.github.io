@@ -10,12 +10,12 @@
     p {
       @include responsive(font-size, 1.25rem, 1.5rem);
       line-height: 1.625;
-      color: var(--color-gray-700);
+      color: var(--color-text);
       font-weight: 400;
     }
 
     strong {
-      color: var(--color-gray-900);
+      color: var(--color-text-strong);
       font-weight: 600;
     }
   }

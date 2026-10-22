@@ -7,19 +7,19 @@
 .docs-header {
   padding: 1rem 0;
   margin-bottom: 2rem;
-  background-color: var(--color-primary-dark);
+  background-color: var(--color-action-dark);
 
   /* Color variants */
   &--primary {
-    background-color: var(--color-primary);
+    background-color: var(--color-action);
   }
 
   &--primaryDark {
-    background-color: var(--color-primary-dark);
+    background-color: var(--color-action-dark);
   }
 
   &--secondary {
-    background-color: var(--color-secondary);
+    background-color: var(--color-highlight);
   }
 
   &--accent {
@@ -27,7 +27,7 @@
   }
 
   &--neutral {
-    background-color: var(--color-neutral);
+    background-color: var(--color-docs-header-bg);
   }
 }
 
@@ -72,7 +72,7 @@
   transform: translateX(-300px);
   transition: transform $transition-fast ease-in-out;
   box-shadow: $shadow-lg;
-  border-right: 1px solid var(--color-gray-200);
+  border-right: 1px solid var(--color-border);
   @include custom-scrollbar;
 
   &.open {
@@ -90,7 +90,7 @@
     transform: none;
     box-shadow: none;
     border-right: none;
-    border-bottom: 2px solid var(--color-gray-200);
+    border-bottom: 2px solid var(--color-border);
     padding-bottom: 2rem;
     z-index: auto;
   }
@@ -126,7 +126,7 @@
   left: 1rem;
   width: 2.5rem;
   height: 2.5rem;
-  background-color: var(--color-primary-dark);
+  background-color: var(--color-action-dark);
   border: none;
   border-radius: $radius-md;
   color: white;
@@ -137,7 +137,7 @@
   box-shadow: $shadow-md;
 
   &:hover {
-    background-color: var(--color-primary);
+    background-color: var(--color-action);
     box-shadow: $shadow-lg;
   }
 
@@ -158,14 +158,14 @@
 .docs-section-title {
   font-size: 0.875rem;
   font-weight: 700;
-  color: var(--color-gray-900);
+  color: var(--color-text-strong);
   margin-bottom: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 0.025em;
 }
 
 .docs-nav-separator {
-  border-top: 1px solid var(--color-gray-200);
+  border-top: 1px solid var(--color-border);
   margin: 1.5rem 0;
 }
 
@@ -194,13 +194,13 @@
   list-style: none;
   padding-left: 1rem;
   margin: 0.5rem 0;
-  border-left: 2px solid var(--color-gray-200);
+  border-left: 2px solid var(--color-border);
 }
 
 .docs-nav__link {
   display: block;
   padding: 0.5rem 0.75rem;
-  color: var(--color-gray-700);
+  color: var(--color-text);
   text-decoration: none;
   border-radius: $radius-md;
   transition: all $transition-fast;
@@ -208,14 +208,14 @@
   font-size: 0.875rem;
 
   &:hover {
-    background-color: var(--color-gray-200);
-    color: var(--color-primary-dark);
+    background-color: var(--color-border);
+    color: var(--color-action-dark);
   }
 
   &--active {
     font-weight: 600;
-    background-color: var(--color-primary-light);
-    color: var(--color-primary-dark);
+    background-color: var(--color-action-light);
+    color: var(--color-action-dark);
   }
 
   .docs-nav__item--sub & {
@@ -233,7 +233,7 @@
   &--level-2 {
     padding-left: 1rem;
     margin-top: 0.5rem;
-    border-left: 2px solid var(--color-gray-200);
+    border-left: 2px solid var(--color-border);
   }
 
   &--level-3 {
@@ -253,7 +253,7 @@
 .docs-menu__link {
   display: block;
   padding: 0.5rem 0.75rem;
-  color: var(--color-gray-700);
+  color: var(--color-text);
   text-decoration: none;
   border-radius: $radius-md;
   transition: all $transition-fast;
@@ -261,14 +261,14 @@
   font-size: 0.875rem;
 
   &:hover {
-    background-color: var(--color-gray-200);
-    color: var(--color-primary-dark);
+    background-color: var(--color-border);
+    color: var(--color-action-dark);
   }
 
   &--active {
     font-weight: 600;
-    background-color: var(--color-primary-light);
-    color: var(--color-primary-dark);
+    background-color: var(--color-action-light);
+    color: var(--color-action-dark);
   }
 
   // Icon spacing
@@ -294,7 +294,7 @@
   list-style: none;
   padding: 0.5rem 0 0 1rem;
   margin: 0.5rem 0 0 0;
-  border-left: 2px solid var(--color-gray-200);
+  border-left: 2px solid var(--color-border);
 }
 
 .toc-item {
@@ -314,7 +314,7 @@
 .toc-link {
   display: block;
   padding: 0.375rem 0.75rem;
-  color: var(--color-gray-600);
+  color: var(--color-text-muted);
   text-decoration: none;
   border-radius: $radius-sm;
   transition: all $transition-fast;
@@ -323,23 +323,23 @@
 
   &:hover {
     background-color: var(--color-gray-100);
-    color: var(--color-primary-dark);
+    color: var(--color-action-dark);
   }
 
   &--active {
     font-weight: 500;
-    color: var(--color-primary-dark);
-    background-color: var(--color-primary-light);
+    color: var(--color-action-dark);
+    background-color: var(--color-action-light);
   }
 
   .toc-item--sub & {
     padding: 0.25rem 0.75rem;
     font-size: 0.6875rem;
-    color: var(--color-gray-500);
+    color: var(--color-page-bg0);
   }
 
   .toc-item--sub &:hover {
-    color: var(--color-primary-dark);
+    color: var(--color-action-dark);
   }
 }
 
@@ -356,7 +356,7 @@
   h1 {
     @include responsive(font-size, 2.25rem, 1.875rem);
     font-weight: 700;
-    color: var(--color-gray-900);
+    color: var(--color-text-strong);
     margin-bottom: 1rem;
     line-height: 1.25;
   }
@@ -364,11 +364,11 @@
   h2 {
     font-size: 1.875rem;
     font-weight: 700;
-    color: var(--color-brand-purple);
+    color: var(--color-brand);
     margin-top: 3rem;
     margin-bottom: 1rem;
     padding-bottom: 0.5rem;
-    border-bottom: 2px solid var(--color-gray-200);
+    border-bottom: 2px solid var(--color-border);
     scroll-margin-top: 2rem;
 
     &:first-child {
@@ -379,7 +379,7 @@
   h3 {
     font-size: 1.5rem;
     font-weight: 600;
-    color: var(--color-gray-900);
+    color: var(--color-text-strong);
     margin-top: 2rem;
     margin-bottom: 0.75rem;
     scroll-margin-top: 2rem;
@@ -388,21 +388,21 @@
   h4 {
     font-size: 1.25rem;
     font-weight: 600;
-    color: var(--color-gray-900);
+    color: var(--color-text-strong);
     margin-top: 1.5rem;
     margin-bottom: 0.5rem;
   }
 
   p {
     margin-bottom: 1rem;
-    color: var(--color-gray-700);
+    color: var(--color-text);
     line-height: 1.625;
   }
 
   ul, ol {
     margin-bottom: 1rem;
     padding-left: 1.5rem;
-    color: var(--color-gray-700);
+    color: var(--color-text);
 
     li {
       margin-bottom: 0.5rem;
@@ -422,10 +422,10 @@
 
   p code,
   li code {
-    background-color: var(--color-gray-200);
+    background-color: var(--color-border);
     padding: 0.125rem 0.375rem;
     border-radius: $radius-sm;
-    color: var(--color-gray-900);
+    color: var(--color-text-strong);
   }
 
   a {
@@ -444,12 +444,12 @@
 
     th, td {
       padding: 0.75rem;
-      border: 1px solid var(--color-gray-200);
+      border: 1px solid var(--color-border);
       text-align: left;
     }
 
     th {
-      background-color: var(--color-gray-200);
+      background-color: var(--color-border);
       font-weight: 600;
     }
   }
@@ -464,7 +464,7 @@
 
 .docs-excerpt {
   font-size: 1.25rem;
-  color: var(--color-gray-600);
+  color: var(--color-text-muted);
   margin-bottom: 2rem;
   line-height: 1.625;
 }
@@ -485,7 +485,7 @@
   visibility: hidden;
   transition: all $transition-fast;
   z-index: $z-fixed;
-  background-color: var(--color-primary-dark);
+  background-color: var(--color-action-dark);
   color: white;
 
   @media (min-width: $breakpoint-md) {
@@ -497,7 +497,7 @@
 
   &:hover {
     transform: translateY(-0.125rem);
-    background-color: var(--color-primary);
+    background-color: var(--color-action);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
   }
 

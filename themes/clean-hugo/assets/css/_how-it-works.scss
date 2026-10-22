@@ -3,8 +3,8 @@
 .how-it-works {
   width: 100%;
   padding: $fluid-space-2xl $fluid-container-padding;
-  background-color: var(--color-deep-purple);
-  color: var(--color-white);
+  background-color: var(--color-section-dark-bg);
+  color: var(--color-text-on-dark);
   box-sizing: border-box;
 
   &__container {
@@ -24,14 +24,14 @@
       font-weight: 700;
       letter-spacing: 0.12em;
       text-transform: uppercase;
-      color: var(--color-brand-medium-purple);
+      color: var(--color-brand-outline);
     }
 
     .how-it-works__subtitle {
       margin: 0;
       font-size: 1.0625rem;
       line-height: 1.6;
-      color: color-mix(in srgb, var(--color-white) 92%, transparent);
+      color: color-mix(in srgb, var(--color-text-on-dark) 92%, transparent);
 
       p:last-child {
         margin-bottom: 0;
@@ -45,7 +45,7 @@
     font-size: clamp(1.75rem, 4vw, 2.5rem);
     font-weight: 700;
     line-height: 1.2;
-    color: var(--color-white);
+    color: var(--color-text-on-dark);
   }
 
   &__steps {
@@ -64,7 +64,7 @@
     border-radius: $radius-lg;
     border: 1px solid color-mix(
       in srgb,
-      var(--color-brand-medium-purple) 35%,
+      var(--color-brand-outline) 35%,
       transparent
     );
     background-color: var(--color-surface-footer-purple);
@@ -76,14 +76,14 @@
       font-weight: 700;
       letter-spacing: 0.08em;
       text-transform: uppercase;
-      color: var(--color-brand-medium-purple);
+      color: var(--color-brand-outline);
     }
 
     .how-it-works__step-text {
       margin: 0;
       font-size: 0.9375rem;
       line-height: 1.55;
-      color: color-mix(in srgb, var(--color-white) 88%, transparent);
+      color: color-mix(in srgb, var(--color-text-on-dark) 88%, transparent);
     }
   }
 
@@ -93,7 +93,7 @@
     font-size: 1.125rem;
     font-weight: 700;
     line-height: 1.3;
-    color: var(--color-white);
+    color: var(--color-text-on-dark);
   }
 
   &__cta {
@@ -105,11 +105,11 @@
     border-radius: $radius-lg;
     border: 1px solid color-mix(
       in srgb,
-      var(--color-brand-medium-purple) 35%,
+      var(--color-brand-outline) 35%,
       transparent
     );
     background-color: var(--color-surface-footer-purple);
-    color: var(--color-white);
+    color: var(--color-text-on-dark);
     text-decoration: none;
     transition: border-color $transition-base ease,
       transform $transition-base ease;
@@ -118,14 +118,14 @@
     &:focus-visible {
       border-color: color-mix(
         in srgb,
-        var(--color-brand-medium-purple) 65%,
+        var(--color-brand-outline) 65%,
         transparent
       );
       transform: translateY(-2px);
     }
 
     &:focus-visible {
-      outline: 2px solid var(--color-brand-medium-purple);
+      outline: 2px solid var(--color-brand-outline);
       outline-offset: 2px;
     }
   }
@@ -138,7 +138,7 @@
     width: 2.5rem;
     height: 2.5rem;
     font-size: 1.35rem;
-    color: var(--color-white);
+    color: var(--color-text-on-dark);
   }
 
   &__cta-body {
@@ -154,13 +154,13 @@
     font-size: 1.0625rem;
     font-weight: 700;
     line-height: 1.3;
-    color: var(--color-white);
+    color: var(--color-text-on-dark);
   }
 
   &__cta-text {
     font-size: 0.9375rem;
     line-height: 1.45;
-    color: color-mix(in srgb, var(--color-white) 82%, transparent);
+    color: color-mix(in srgb, var(--color-text-on-dark) 82%, transparent);
   }
 
   &__cta-arrow {
@@ -169,73 +169,73 @@
     align-items: center;
     justify-content: center;
     font-size: 1rem;
-    color: color-mix(in srgb, var(--color-white) 75%, transparent);
+    color: color-mix(in srgb, var(--color-text-on-dark) 75%, transparent);
     transition: color $transition-base ease,
       transform $transition-base ease;
   }
 
   &__cta:hover &__cta-arrow,
   &__cta:focus-visible &__cta-arrow {
-    color: var(--color-white);
+    color: var(--color-text-on-dark);
     transform: translateX(3px);
   }
 
   /* Light band — white page background, dark text */
   &--light {
-    background-color: var(--color-white);
-    color: var(--color-gray-900);
+    background-color: var(--color-surface);
+    color: var(--color-text-strong);
 
     h2.how-it-works__title {
-      color: var(--color-brand-purple);
+      color: var(--color-brand);
     }
 
     .how-it-works__subtitle {
-      color: var(--color-gray-700);
+      color: var(--color-text);
     }
 
     .how-it-works__step {
-      background-color: var(--color-gray-50);
-      border-color: var(--color-gray-200);
+      background-color: var(--color-page-bg);
+      border-color: var(--color-border);
 
       .how-it-works__step-text {
-        color: var(--color-gray-700);
+        color: var(--color-text);
       }
     }
 
     h3.how-it-works__step-title {
-      color: var(--color-gray-900);
+      color: var(--color-text-strong);
     }
 
     .how-it-works__cta {
-      background-color: var(--color-gray-50);
-      border-color: var(--color-gray-200);
-      color: var(--color-gray-900);
+      background-color: var(--color-page-bg);
+      border-color: var(--color-border);
+      color: var(--color-text-strong);
 
       &:hover,
       &:focus-visible {
-        border-color: var(--color-brand-medium-purple);
+        border-color: var(--color-brand-outline);
       }
     }
 
     .how-it-works__cta-icon {
-      color: var(--color-brand-purple);
+      color: var(--color-brand);
     }
 
     .how-it-works__cta-title {
-      color: var(--color-gray-900);
+      color: var(--color-text-strong);
     }
 
     .how-it-works__cta-text {
-      color: var(--color-gray-700);
+      color: var(--color-text);
     }
 
     .how-it-works__cta-arrow {
-      color: var(--color-gray-500);
+      color: var(--color-page-bg0);
     }
 
     .how-it-works__cta:hover .how-it-works__cta-arrow,
     .how-it-works__cta:focus-visible .how-it-works__cta-arrow {
-      color: var(--color-brand-purple);
+      color: var(--color-brand);
     }
   }
 }

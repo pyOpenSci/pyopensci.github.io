@@ -15,17 +15,17 @@ $feature-quote-font-size: 1.3rem;
   font-style: italic;
   font-size: $quote-font-size;
   line-height: 1.65;
-  color: var(--color-gray-600);
+  color: var(--color-text-muted);
 }
 
 /* Blockquote — left bar + background */
 .content-main blockquote:not(.twitter-tweet):not(.feature-quote__quote),
 .splash-page__content blockquote:not(.twitter-tweet):not(.feature-quote__quote),
 .docs-content blockquote:not(.feature-quote__quote) {
-  border-left: 4px solid var(--color-primary);
+  border-left: 4px solid var(--color-action);
   padding: 0.5rem 0 0.5rem 1rem;
   margin: 1rem 0;
-  background-color: var(--color-gray-50);
+  background-color: var(--color-page-bg);
 
   p {
     margin-bottom: 0;
@@ -34,7 +34,7 @@ $feature-quote-font-size: 1.3rem;
 
 /* Pull quote — decorative mark, no sidebar */
 .pullquote {
-  --pullquote-accent: var(--color-primary);
+  --pullquote-accent: var(--color-action);
 
   margin: 4.5rem 0;
   padding: 0;
@@ -65,7 +65,7 @@ $feature-quote-font-size: 1.3rem;
     text-align: right;
     font-style: italic;
     margin: 1rem 0 0;
-    color: var(--color-gray-600);
+    color: var(--color-text-muted);
   }
 }
 
@@ -92,7 +92,7 @@ $feature-quote-font-size: 1.3rem;
     display: block;
     font-size: 2.1rem;
     font-weight: 700;
-    color: var(--base-color, var(--color-primary));
+    color: var(--base-color, var(--color-action));
     line-height: 1;
     opacity: 0.85;
   }
@@ -132,17 +132,17 @@ $feature-quote-font-size: 1.3rem;
     }
   }
 
-  &--info    { --base-color: var(--color-admonition-info, #3B82F6); }
-  &--success { --base-color: var(--color-admonition-success, #22C55E); }
-  &--warning { --base-color: var(--color-admonition-warning, #EAB308); }
-  &--danger  { --base-color: var(--color-admonition-danger, #EF4444); }
-  &--note    { --base-color: var(--color-admonition-note, #6B7280);   }
+  &--info    { --base-color: var(--color-callout-info, #3B82F6); }
+  &--success { --base-color: var(--color-callout-success, #22C55E); }
+  &--warning { --base-color: var(--color-callout-warning, #EAB308); }
+  &--danger  { --base-color: var(--color-callout-danger, #EF4444); }
+  &--note    { --base-color: var(--color-callout-note, #6B7280);   }
 }
 
 /* Feature quote — mark + Lora text, no sidebar bar (home project block, etc.) */
 .feature-quote {
-  --feature-quote-accent: var(--color-brand-medium-purple);
-  --feature-quote-text: var(--color-brand-purple);
+  --feature-quote-accent: var(--color-brand-outline);
+  --feature-quote-text: var(--color-brand);
 
   margin: 0;
   padding: 0;
@@ -150,8 +150,8 @@ $feature-quote-font-size: 1.3rem;
   background: none;
 
   &--teal {
-    --feature-quote-accent: var(--color-primary);
-    --feature-quote-text: var(--color-primary-dark);
+    --feature-quote-accent: var(--color-action);
+    --feature-quote-text: var(--color-action-dark);
   }
 
   &--magenta {
@@ -160,8 +160,8 @@ $feature-quote-font-size: 1.3rem;
   }
 
   &--purple {
-    --feature-quote-accent: var(--color-brand-medium-purple);
-    --feature-quote-text: var(--color-brand-purple);
+    --feature-quote-accent: var(--color-brand-outline);
+    --feature-quote-text: var(--color-brand);
   }
 
   &__quote {
@@ -210,7 +210,7 @@ $feature-quote-font-size: 1.3rem;
     font-size: 0.875rem;
     font-style: normal;
     font-weight: 400;
-    color: var(--color-gray-600);
+    color: var(--color-text-muted);
   }
 }
 
@@ -226,6 +226,6 @@ $feature-quote-font-size: 1.3rem;
     font-size: $quote-font-size;
     line-height: 1.55;
     margin: 0 0 0.75rem;
-    color: var(--color-gray-700);
+    color: var(--color-text);
   }
 }

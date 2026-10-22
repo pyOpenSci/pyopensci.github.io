@@ -30,11 +30,11 @@
 
   &__title {
     margin-top: 0;
-    color: var(--color-brand-purple);
+    color: var(--color-brand);
   }
 
   &__content {
-    color: var(--color-gray-700);
+    color: var(--color-text);
 
     > :last-child {
       margin-bottom: 0;

@@ -3,8 +3,8 @@
 .get-involved {
   width: 100%;
   padding: $fluid-space-2xl $fluid-container-padding;
-  background-color: var(--color-white);
-  color: var(--color-gray-900);
+  background-color: var(--color-surface);
+  color: var(--color-text-strong);
   box-sizing: border-box;
 
   &__container {
@@ -23,14 +23,14 @@
       font-weight: 700;
       letter-spacing: 0.12em;
       text-transform: uppercase;
-      color: var(--color-brand-medium-purple);
+      color: var(--color-brand-outline);
     }
 
     .get-involved__subtitle {
       margin: 0;
       font-size: 1.0625rem;
       line-height: 1.6;
-      color: var(--color-gray-700);
+      color: var(--color-text);
 
       p:last-child {
         margin-bottom: 0;
@@ -43,7 +43,7 @@
     font-size: clamp(1.75rem, 4vw, 2.5rem);
     font-weight: 700;
     line-height: 1.2;
-    color: var(--color-brand-purple);
+    color: var(--color-brand);
   }
 
   &__cards.impact-cards {
@@ -56,13 +56,13 @@
   }
 
   .impact-cards .card.card--reviewer {
-    background-color: var(--color-light-purple);
+    background-color: var(--color-section-light-bg);
   }
 
   .impact-cards .card .card__icon {
     display: block;
     margin-bottom: 1rem;
-    color: var(--color-brand-purple);
+    color: var(--color-brand);
   }
 
   .impact-cards .card .card__header h3 {
@@ -70,15 +70,15 @@
   }
 
   &--dark {
-    background-color: var(--color-deep-purple);
-    color: var(--color-white);
+    background-color: var(--color-section-dark-bg);
+    color: var(--color-text-on-dark);
 
     h2.get-involved__title {
-      color: var(--color-white);
+      color: var(--color-text-on-dark);
     }
 
     .get-involved__subtitle {
-      color: color-mix(in srgb, var(--color-white) 92%, transparent);
+      color: color-mix(in srgb, var(--color-text-on-dark) 92%, transparent);
     }
   }
 }
