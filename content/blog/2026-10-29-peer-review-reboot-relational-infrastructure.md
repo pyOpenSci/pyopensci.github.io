@@ -25,7 +25,7 @@ This post documents how I've spent the past two months trying to rebuild connect
 
 ## Start with listening
 
-One of the first things I did was get on long calls with the Editors in Chief — Carter and Kylen — and with Eliot, who was handing off the peer review lead role as I came in. I wanted to hear how peer review worked from the people most involved, especially how it *felt*: what was joyful, what was draining, what they hoped for, what stressed them out.
+One of the first things I did was get on long calls with the Editors in Chief (EiCs) — Carter and Kylen — and with Eliot, who was handing off the peer review lead role as I came in. I wanted to hear how peer review worked from the people most involved, especially how it *felt*: what was joyful, what was draining, what they hoped for, what stressed them out.
 
 What they told me became the roadmap for the reboot. Finding and tracking editors was a messy shared problem nobody was sure how to tackle. Shared infrastructure existed that people didn't know about, or that didn't meet their needs, so private spreadsheets filled the gaps. Applying the new generative AI policy felt different to different people, and there was no clear place to bring up issues with it. There *were* community spaces people could bring these problems to, but they were almost all asynchronous text channels, most of them with dozens or hundreds of other community members.
 
