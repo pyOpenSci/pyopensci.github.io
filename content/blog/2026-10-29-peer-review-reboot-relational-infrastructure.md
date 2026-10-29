@@ -17,7 +17,7 @@ image:
 
 ## Intro
 
-There's a particular loneliness that shows up in technical work right now. Generative AI is creating so much to read: code, docs, posts, explanations. It's disconcerting, not least because so much of it feels non-connective — a message with no sender.
+There's a particular loneliness that shows up in open source right now. Generative AI is creating so much to read: code, docs, posts, explanations. It's disconcerting, not least because so much of it feels non-connective — a message with no sender.
 
 pyOpenSci was no exception. An influx of submissions made triage hard. Finding editors and reviewers was a chronic struggle. Infrastructure designed to make people's lives easier went unused because those people didn't know it existed. The community had recently come together to co-create a generative AI policy, but now had to apply those rules alone. pyOpenSci was full of amazing, passionate individuals, but they were largely struggling with these challenges alone.
 
