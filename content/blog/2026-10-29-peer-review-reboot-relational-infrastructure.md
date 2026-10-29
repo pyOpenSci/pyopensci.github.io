@@ -69,4 +69,4 @@ It also says: we care enough about your experience with AI enough to formally st
 
 Two months in, the reboot is ongoing. Onboarding is still iterating. AI decisions are still evolving. Peer review is a living system. But connection is more intentional than it was. Editors are coming in through real outreach and real conversations. EiCs have more of what they need — including trust made concrete through tool and platform access. The community is helping lead the AI research, not just subject to it. People keep inventing places to be together.
 
-In a time when generative AI is severing our connections to each other, rebooting peer review has meant choosing the opposite on purpose: focusing on the relational infrastructure that keeps us connected. Because connection is what matters most — for good peer review, and for a good community.
+In a time when generative AI is severing our connections to each other, rebooting peer review has meant choosing the opposite on purpose: focusing on the relational infrastructure that keeps us connected. Because connection is what matters most — for good peer review, and for a vibrant community.
