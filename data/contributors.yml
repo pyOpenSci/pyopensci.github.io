@@ -1038,10 +1038,12 @@
     - reviewer
   packages_eic:
     - earthaccess
+    - weitsicht
   packages_editor:
     - earthaccess
     - lintquarto
     - phasecurvefit
+    - weitsicht
   packages_submitted:
   packages_reviewed:
     - nbless
@@ -12605,4 +12607,91 @@
     - phasecurvefit
   packages_reviewed:
   location:
+  email:
+- name: Miko Parkkinen
+  github_username: Miko997
+  github_image_id: 141511110
+  title:
+  sort:
+  bio: Simulation & robotics software engineer | Creator of Metriplane |
+      Digital twins, reproducible evaluation and physical AI
+  organization:
+  date_added: '2026-10-26'
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+      https://store.steampowered.com/app/2713550/Cursed_Dawn/?curator_clanid=4777282
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - weitsicht
+  location: Helsinki
+  email:
+- name: Bob McNabb
+  github_username: iamdonovan
+  github_image_id: 5552374
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2026-10-26'
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - weitsicht
+  location: Coleraine, Northern Ireland
+  email:
+- name: Martin W
+  github_username: MartinW-S2M
+  github_image_id: 117808574
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2026-10-26'
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+    - submitting-author
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - weitsicht
+  packages_reviewed:
+  location: Vienna
   email:
