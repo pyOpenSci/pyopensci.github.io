@@ -28,7 +28,7 @@ cache_exclude_status = "500.."
 ############################# Runtime ##############################
 
 # Reduce concurrency since lychee can check 500+ links in 1 minute with 1 worker
-max_concurrency = 1
+max_concurrency = 4
 max_redirects = 10
 # Set timeout
 timeout = 10
