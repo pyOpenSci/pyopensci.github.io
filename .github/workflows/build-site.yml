@@ -54,6 +54,7 @@ jobs:
           args: >-
             --verbose
             --no-progress './public/**/*.html'
+            --root-dir public public
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
