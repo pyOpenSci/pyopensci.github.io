@@ -55,6 +55,7 @@ jobs:
             --verbose
             --no-progress './public/**/*.html'
             --root-dir public public
+            --remap "https://pyopensci.org public/blog/$1"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
