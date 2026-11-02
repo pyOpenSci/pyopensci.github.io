@@ -270,6 +270,7 @@
   website:
   board: false
   contributor_type:
+    - community
     - leadership
     - package-guide
     - peer-review-guide
