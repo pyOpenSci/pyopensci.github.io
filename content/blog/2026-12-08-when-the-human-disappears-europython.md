@@ -1,5 +1,5 @@
 ---
-title: 'When the human disappears: what maintainers told us about AI contributions at EuroPython'
+title: 'When the Human Disappears: What Maintainers Told Us About AI Contributions at EuroPython'
 date: '2026-12-08'
 type: blog
 excerpt: >
