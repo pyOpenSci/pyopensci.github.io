@@ -39,7 +39,7 @@ All contributions to the discussion are anonymous.
 
 > We need to see the human on the other side.
 
-Maintainers described real joy in helping and mentoring contributors. Someone finds a bug and files a fix. The maintainer helps that contributor get it merged and, along the way, mentors them and builds their open source skills. That interaction fuels many maintainers, including myself.
+Maintainers described real joy in helping and mentoring contributors. Someone finds a bug and files a fix. The maintainer helps that contributor get it merged and, along the way, mentors them and builds their open source skills. That interaction fuels many maintainers, including myself. It's also important to remember that contributors have traditionally been users of a project and so they also influence the direction that the project takes. This dynamic changes drastically when you have agentic GitHub users making batch contributions to projects simply to gain "credit".
 
 AI-assisted contributions are eroding these personal, fulfilling interactions. We heard similar concerns at our [PyCon US roundtable on AI tools](/blog/pycon-us-2026-generative-ai-open-source.html). At EuroPython, three patterns came up repeatedly.
 
