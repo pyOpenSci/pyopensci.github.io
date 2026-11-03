@@ -159,12 +159,8 @@ it. That makes the community less open, honest, and secure.
 The maintainers in our group prefer flexible guidelines to strict rules and
 policies. Approaches include:
 
-<<<<<<< HEAD
-* Open an issue before opening a pull request, so a human conversation happens before any contribution. As a human, connect first with other humans.
-=======
 * Open an issue before opening a pull request, so a human conversation
   happens before any contribution. Connect first with other humans.
->>>>>>> faea5734 (docs(blog): copy edits from Erika)
 * Disclose AI use, including when the output hasn't been fully reviewed.
 * Hold quality constant. The standard is the same whether or not a tool was
   used. If an AI-assisted contribution is high quality, maintainers accept it.
