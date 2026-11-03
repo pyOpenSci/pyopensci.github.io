@@ -85,7 +85,7 @@ Participants agreed on one point: banning AI tool use altogether is the wrong ap
 
 The maintainers in our group preferred flexible guidelines to strict rules and policies. Approaches included:
 
-* Open an issue before opening a pull request, so a human conversation happens before any contribution. Connect first.
+* Open an issue before opening a pull request, so a human conversation happens before any contribution. As a human, connect first with other humans.
 * Disclose AI use, including when the output hasn't been fully reviewed.
 * Hold quality constant. The standard is the same whether or not a tool was used. If an AI-assisted contribution is high quality, maintainers accept it. Licensing is a separate consideration that came up only briefly in this conversation.
 * Verify a human who cares about the project. One maintainer described asking contributors to attend a meeting to show they are a human who cares about the project. Talking to someone in real time is one of the few remaining ways to build accountability.
