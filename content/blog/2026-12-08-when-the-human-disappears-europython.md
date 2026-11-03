@@ -23,15 +23,15 @@ highlight_image:
   alt: Three people at EuroPython 2026 gather around a laptop. One stands and points at the screen while two sit and look on.
 ---
 
-{{< figure src="images/events/europython-sprint-2026.png" alt="Three people at EuroPython 2026 gather around a laptop. One stands and points at the screen while two sit and look on." caption="Contributors working together at the EuroPython 2026 sprint." >}}
+{{< figure src="images/events/europython-sprint-2026.png" alt="Three people at EuroPython 2026 gather around a laptop. One stands and points at the screen while two sit and look on." caption="Contributors working with pyOpenSci Advisory Council Member, Felipe Moreno, at our PyCon US 2026 sprint." >}}
 
 At EuroPython 2026, I facilitated a pilot focus group on how AI tools are changing open source work. Fifteen maintainers from core scientific Python and Linux projects joined a discussion that ran more than two hours.
 
-I expected to hear about the time it takes to review AI-assisted code. Instead, the conversation kept returning to something else: the loss of, and uncertainty about, human connection.
+I expected to hear about the time it takes to review AI-assisted code. Instead, the conversation kept returning to something else: the loss of human connection and the uncertainty around it.
 
 The group covered the full range of AI tool use. Some refuse to use the tools and, in some cases, have left tech because of the strain. Others have fully embraced them, including people in start-up environments where adoption feels like the "only option" to keep up.
 
-This post covers how AI tools are affecting the human experience of open source. A follow-up post will cover adoption and the motivations behind it. This pilot was larger and more open-format than the small groups we plan for our [research on how AI tools are changing scientific open source](/blog/ai-tools-research-sloan-funding.html).
+This post covers how AI tools are affecting the human experience of open source. A follow-up post will cover adoption and the motivations behind it. This pilot included a larger group and was more open-format than the small groups we plan for our [research on how AI tools are changing scientific open source](/blog/ai-tools-research-sloan-funding.html).
 
 All contributions to the discussion are anonymous.
 
@@ -65,7 +65,7 @@ I also wonder whether visibility plays a role here. People doing core project wo
 
 ### Shifting motivations
 
-Maintainers see contributors chasing resume lines or trying to get past automated hiring filters. Some employers also encourage open source contributions as a way to demonstrate technical skill. Some maintainers call the extreme version "karma farming": opening many pull requests on high-profile projects to build up a GitHub profile. This isn't new, but it now makes up a much larger share of incoming work.
+Maintainers see contributors who are chasing resume bullet points or trying to get past automated hiring filters. Some employers also encourage open-source contributions to demonstrate technical skill. Some maintainers call the extreme version "karma farming": opening many pull requests on high-profile projects to build up a GitHub profile. This isn't new, but it now makes up a much larger share of incoming work.
 
 Credit is part of this too. One maintainer redid minor bot-generated fixes themselves rather than merge them, to avoid crediting an agent. Small, externally driven agent pull requests can generate more work for maintainers, and it remains unclear who deserves credit.
 
@@ -75,7 +75,7 @@ Beyond the focus group, we have seen this at pyOpenSci. We have heard stories of
 
 It is easy to dismiss a low-quality pull request as "AI slop." Some participants pushed back on that label. One maintainer said the real question is whether the contributor is willing to invest their energy in engaging with the project.
 
-Assuming AI use is the problem can misjudge a newcomer who wants to get involved. Rejecting their work outright as "slop" doesn't help them. They may simply need guidance on using AI tools thoughtfully. That is a chance to connect and help a well-intentioned contributor build real skills.
+If maintainers assume AI was used, they create a problem by misjudging a newcomer who wants to get involved. Rejecting their work outright as "slop" doesn't help either party. The contributor may simply need guidance on using AI tools thoughtfully. The maintainer can miss the chance to connect and help a well-intentioned contributor build real skills.
 
 There is a real tension here. Many AI-fueled contributions strain maintainers, and that strain can understandably leave them shorter and less patient with new contributors. It is hard to know where to invest limited time, and whether the person on the other end is a human who cares about the process and learning, or an agent building credibility. But dismissing contributions too quickly risks turning away someone who genuinely wants to help.
 
