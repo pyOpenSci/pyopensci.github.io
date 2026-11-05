@@ -29,6 +29,6 @@ For Leah Wasser's keynote and other pyOpenSci sessions during the conference
 week, see [pyOpenSci at EuroPython 2026](/events/2026-07-13-europython/).
 
 <figure>
-  <img src="/images/events/europython-sprint-2026.png"
+  <img src="/images/events/Felipe-moreno-leading-sprint-pyconus-2026.png"
        alt="Three contributors collaborating around laptops at a pyOpenSci development sprint">
 </figure>
