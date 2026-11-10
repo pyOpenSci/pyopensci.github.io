@@ -35,7 +35,12 @@ instructors:
     '
 - name: Inessa Pawson
   github: inessaPawson
-  bio: Bio coming soon.
+  bio: Inessa is passionate about making Python accessible for learners at all levels
+    and has led numerous newcomer sprints, study groups, and tutorials. She currently
+    serves on the NumPy Steering Council and PyOpenSci Advisory Council. In her role as
+    Director of Open Source Program at an OSS-first organization, she has launched and
+    actively supports several educational initiatives focused on open source development
+    and sustainability.
 ---
 
 
