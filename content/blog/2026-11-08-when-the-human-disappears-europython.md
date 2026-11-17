@@ -1,6 +1,6 @@
 ---
 title: 'When the Human Disappears: What Maintainers Told Us About AI Contributions at EuroPython'
-date: '2026-12-08'
+date: '2026-11-08'
 type: blog
 excerpt: >
   At EuroPython 2026, fifteen maintainers talked for more than two hours about

@@ -1,6 +1,6 @@
 ---
 title: 'How to Run 160 km: Building Resilience When Things Feel Hard'
-date: '2026-11-12'
+date: '2026-11-16'
 type: blog
 excerpt: >
   AI tools are creating new challenges and opportunities for open source maintainers and contributors. Here, Leah talks about how to build resilience during hard and rapidly changing times in a keynote given at EuroPython 2026.
