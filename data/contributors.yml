@@ -9434,6 +9434,7 @@
     - pyhctsa
     - solar-wavelength-calibration
     - tanml
+    - tsgap
   packages_editor:
     - astropy
     - blockingpy
@@ -11082,6 +11083,7 @@
     - astropy
     - c4dynamics
     - nsevdx
+    - tsgap
   location: Bay Area
   email:
 - name:
@@ -11923,8 +11925,10 @@
   board: false
   contributor_type:
     - editor
+    - peer-review
   packages_eic:
   packages_editor:
+    - tsgap
   packages_submitted:
   packages_reviewed:
   location:
@@ -12696,3 +12700,70 @@
   packages_reviewed:
   location: Vienna
   email:
+- name: Alexander Panasenko
+  github_username: alex09x
+  github_image_id: 5381530
+  title:
+  sort:
+  bio: 'Systems engineer: distributed systems, low-latency market data, trading
+      infrastructure, AI runtimes & search. C++, Rust, Go, Python.'
+  organization:
+  date_added: '2026-11-16'
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://prod.codes/about/
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - tsgap
+  location: Los Angeles, California, United States
+  email:
+- name: Feruz Oripov
+  github_username: feruzoripov
+  github_image_id: 34165740
+  title:
+  sort:
+  bio: Graduate Researcher @ Center for Biomedical Informatics and
+      Biostatistics, University of Arizona
+  organization: '@UArizonaCB2'
+  date_added: '2026-11-16'
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+    - submitting-author
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - tsgap
+  packages_reviewed:
+  location: Tucson, Arizona
+  email: feruzoripov@pm.me
+- github_username: Noah-Parsons
+  github_image_id: 161479672
+  name: Noah Parsons
+  title: Editor
+  editorial_board: true
+  emeritus_editor: false
+  contributor_type:
+    - editor
