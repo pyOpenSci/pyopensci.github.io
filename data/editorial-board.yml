@@ -89,6 +89,13 @@ rcaneill:
   emeritus_peer_review_lead: false
   emeritus_eic: false
   emeritus_triage: false
+saibernard:
+  peer_review_lead: false
+  eic: false
+  triage: false
+  emeritus_peer_review_lead: false
+  emeritus_eic: false
+  emeritus_triage: false
 shaunagm:
   peer_review_lead: true
   eic: false

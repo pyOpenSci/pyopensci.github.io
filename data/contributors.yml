@@ -1038,7 +1038,9 @@
     - peer-review-guide
     - reviewer
   packages_eic:
+    - dfcosmic
     - earthaccess
+    - purgedcv
     - weitsicht
   packages_editor:
     - earthaccess
@@ -3838,6 +3840,7 @@
   packages_eic:
   packages_editor:
     - astrodata
+    - dfcosmic
     - galfitools
     - martini
     - milespy
@@ -8171,6 +8174,7 @@
     - galassify
   packages_submitted:
   packages_reviewed:
+    - purgedcv
     - quadratik
   location: Sunnyvale
   email:
@@ -9422,9 +9426,11 @@
     - code-contrib
     - editor
     - eic
+    - maintainer
     - peer-review
     - peer-review-guide
     - reviewer
+    - submitting-author
     - web-contrib
   packages_eic:
     - c4dynamics
@@ -9441,10 +9447,12 @@
     - c4dynamics
     - mocpy
     - piva
+    - purgedcv
     - pyhctsa
     - swiftgalaxy
     - tanml
   packages_submitted:
+    - dfcosmic
   packages_reviewed:
     - felupe
     - phasecurvefit
@@ -10194,7 +10202,7 @@
   mastodon:
   orcidid:
   partners:
-  website: https://thecoatlessprofessor.com
+  website:
   board: false
   contributor_type:
     - editor
@@ -11644,12 +11652,14 @@
   contributor_type:
     - maintainer
     - peer-review
+    - reviewer
     - submitting-author
   packages_eic:
   packages_editor:
   packages_submitted:
     - pyhctsa
   packages_reviewed:
+    - purgedcv
   location: School of Physics, The University of Sydney
   email:
 - name: Ben Fulcher
@@ -12759,9 +12769,148 @@
   packages_reviewed:
   location: Tucson, Arizona
   email: feruzoripov@pm.me
-- github_username: Noah-Parsons
+- name: Noah Parsons
+  github_username: Noah-Parsons
   github_image_id: 161479672
-  name: Noah Parsons
+  title: Editor
+  sort:
+  bio:
+  organization:
+  date_added:
+  editorial_board: true
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - editor
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+  location:
+  email:
+- name: Evgenii Lazarev
+  github_username: eslazarev
+  github_image_id: 24864265
+  title:
+  sort:
+  bio:
+  organization: Zesty
+  date_added: '2026-11-23'
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+    - submitting-author
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - purgedcv
+  packages_reviewed:
+  location: Tel Aviv
+  email: elazarev@gmail.com
+- name: Robert Vetter
+  github_username: robert-vetter
+  github_image_id: 111077990
+  title:
+  sort:
+  bio:
+  organization: Owner.com
+  date_added: '2026-11-23'
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://rvetter.com
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - dfcosmic
+  location: Berlin / San Francisco
+  email:
+- name: Aleksei Chirkunov
+  github_username: alexzerg
+  github_image_id: 33686788
+  title:
+  sort:
+  bio: CICD manager at Kyriba
+  organization: Kyriba Corp
+  date_added: '2026-11-23'
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website: https://www.linkedin.com/in/aleksei-chirkunov/
+  board: false
+  contributor_type:
+    - peer-review
+    - reviewer
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+  packages_reviewed:
+    - dfcosmic
+  location: Hollywood, FL
+  email:
+- name: steve_pavo
+  github_username: stevejanssens
+  github_image_id: 98477999
+  title:
+  sort:
+  bio:
+  organization:
+  date_added: '2026-11-23'
+  editorial_board: false
+  emeritus_editor: false
+  advisory: false
+  emeritus_advisory: false
+  twitter:
+  mastodon:
+  orcidid:
+  partners:
+  website:
+  board: false
+  contributor_type:
+    - maintainer
+    - peer-review
+  packages_eic:
+  packages_editor:
+  packages_submitted:
+    - dfcosmic
+  packages_reviewed:
+  location:
+  email:
+- github_username: Saibernard
+  github_image_id: 112599512
+  name: Saibernard Yogendran
   title: Editor
   editorial_board: true
   emeritus_editor: false
