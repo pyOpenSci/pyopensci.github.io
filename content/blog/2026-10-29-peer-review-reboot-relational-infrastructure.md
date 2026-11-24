@@ -13,6 +13,9 @@ lastmod: '2026-10-29'
 image:
   src: images/headers/pyopensci-floral.png
   alt: Decorative pyOpenSci header with purple botanical artwork and a small Python label
+highlight_image:
+  src: images/blog/2026/videocall-relational-infrastructure-highlight.jpg
+  alt: a cartoon image of six diverse faces on screens together, connected by wires against an earth-colored background. Attribution: alexandra koch, CC0 Public Domain
 ---
 
 ## Intro
